@@ -131,7 +131,7 @@ def build():
     print("Paired crowd training prepared", reports, flush=True)
 
 
-def train(arm):
+def train(arm, resume=False):
     import torch
     from rfdetr import RFDETRNano
 
@@ -146,7 +146,8 @@ def train(arm):
            for split, reference in (("train", plan["training"][arm]), ("valid", plan["validation"]))):
         raise ValueError("Prepared COCO labels changed.")
     record = ART / f"crowd_training_{arm}.json"
-    if record.exists() and read_json(record)["status"] == "completed":
+    previous = read_json(record) if record.exists() else None
+    if previous and previous["status"] == "completed":
         raise ValueError("This matched arm is already complete.")
     torch.set_num_threads(3)
     torch.set_num_interop_threads(1)
@@ -158,11 +159,29 @@ def train(arm):
                   multi_scale=False, save_dataset_grids=False, run_test=False, train_log_on_step=False)
     provenance = dict(initial_sha256=source["checkpoint_sha256"], data_sha256=digest(PLAN),
                       code_sha256=digest(__file__), config=config)
+    if resume:
+        if not previous or any(previous[k] != provenance[k] for k in ("initial_sha256", "data_sha256", "config")):
+            raise ValueError("Resume requires the same initialization, training data and update budget.")
+        saved = output / "last.ckpt"
+        state = torch.load(saved, map_location="cpu", weights_only=False)
+        completed = int(state["epoch"]) + 1
+        if not state["optimizer_states"] or not 0 < completed < config["epochs"]:
+            raise ValueError("The local checkpoint cannot restore a partial training run.")
+        del state
+        elapsed = previous.get("resume_history", [])
+        preserved_curve = ART / f"crowd_training_{arm}_before_resume_{len(elapsed) + 1}.csv"
+        copyfile(output / "metrics.csv", preserved_curve)
+        provenance["resume_history"] = [*elapsed, dict(
+            completed_epochs=completed, checkpoint_sha256=digest(saved),
+            previous_code_sha256=previous["code_sha256"], curve=str(preserved_curve),
+            curve_sha256=digest(preserved_curve))]
+    elif previous:
+        raise ValueError("This arm already started. Use --resume to preserve its updates.")
     write_json(record, dict(status="started", **provenance))
     model = RFDETRNano(device="cpu", pretrain_weights=source["checkpoint"], resolution=EDGE,
                        num_classes=1, freeze_encoder=True)
     start = perf_counter()
-    model.train(**config)
+    model.train(**config, **({"resume": str(saved)} if resume else {}))
     checkpoint = output / "checkpoint_best_total.pth"
     copyfile(output / "metrics.csv", ART / f"crowd_training_{arm}_metrics.csv")
     write_json(record, dict(status="completed", checkpoint=str(checkpoint), seconds=perf_counter() - start,
@@ -173,10 +192,13 @@ if __name__ == "__main__":
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument("action", choices=("build", "train"))
     parser.add_argument("--arm", choices=ARMS)
+    parser.add_argument("--resume", action="store_true")
     args = parser.parse_args()
     if args.action == "build":
+        if args.resume:
+            parser.error("--resume requires a training arm.")
         build()
     elif args.arm:
-        train(args.arm)
+        train(args.arm, args.resume)
     else:
         parser.error("Select a matched training arm.")

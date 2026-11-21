@@ -1,0 +1,850 @@
+{
+  "base": {
+    "transparent": {
+      "images": 23,
+      "objects": 20,
+      "tp": 15,
+      "fp": 2,
+      "fn": 5,
+      "precision": 0.8823529411764706,
+      "recall": 0.75,
+      "f1": 0.8108108108108107,
+      "ap50": 0.7032420889147739,
+      "ap50_95": 0.3644113325359685,
+      "exact_count": 20,
+      "negative_images": 3,
+      "correct_empty": 3
+    },
+    "public": {
+      "images": 11,
+      "objects": 9,
+      "tp": 2,
+      "fp": 1,
+      "fn": 7,
+      "precision": 0.6666666666666666,
+      "recall": 0.2222222222222222,
+      "f1": 0.3333333333333333,
+      "ap50": 0.1518151815181518,
+      "ap50_95": 0.0759075907590759,
+      "exact_count": 6,
+      "negative_images": 5,
+      "correct_empty": 5
+    }
+  },
+  "variants": 64,
+  "safe_development": 33,
+  "leading": [
+    {
+      "method": "recovery",
+      "cutoff": 0.85,
+      "parameters": [
+        0.82,
+        0.23,
+        0.55,
+        "patch"
+      ],
+      "outcomes": {
+        "transparent": {
+          "metrics": {
+            "images": 23,
+            "objects": 20,
+            "tp": 15,
+            "fp": 2,
+            "fn": 5,
+            "precision": 0.8823529411764706,
+            "recall": 0.75,
+            "f1": 0.8108108108108107,
+            "ap50": 0.7032420889147739,
+            "ap50_95": 0.3644113325359685,
+            "exact_count": 20,
+            "negative_images": 3,
+            "correct_empty": 3
+          },
+          "guard": {
+            "passed": true,
+            "lost_matches": [],
+            "recovered_matches": 0,
+            "baseline_matches": 15,
+            "candidate_matches": 15
+          },
+          "spoiled": [],
+          "changes": 0,
+          "qualifies": true
+        },
+        "public": {
+          "metrics": {
+            "images": 11,
+            "objects": 9,
+            "tp": 2,
+            "fp": 1,
+            "fn": 7,
+            "precision": 0.6666666666666666,
+            "recall": 0.2222222222222222,
+            "f1": 0.3333333333333333,
+            "ap50": 0.1518151815181518,
+            "ap50_95": 0.0759075907590759,
+            "exact_count": 6,
+            "negative_images": 5,
+            "correct_empty": 5
+          },
+          "guard": {
+            "passed": true,
+            "lost_matches": [],
+            "recovered_matches": 0,
+            "baseline_matches": 2,
+            "candidate_matches": 2
+          },
+          "spoiled": [],
+          "changes": 0,
+          "qualifies": true
+        }
+      },
+      "qualifies": true
+    },
+    {
+      "method": "recovery",
+      "cutoff": 0.85,
+      "parameters": [
+        0.82,
+        0.23,
+        0.55,
+        "witness"
+      ],
+      "outcomes": {
+        "transparent": {
+          "metrics": {
+            "images": 23,
+            "objects": 20,
+            "tp": 15,
+            "fp": 2,
+            "fn": 5,
+            "precision": 0.8823529411764706,
+            "recall": 0.75,
+            "f1": 0.8108108108108107,
+            "ap50": 0.7032420889147739,
+            "ap50_95": 0.3644113325359685,
+            "exact_count": 20,
+            "negative_images": 3,
+            "correct_empty": 3
+          },
+          "guard": {
+            "passed": true,
+            "lost_matches": [],
+            "recovered_matches": 0,
+            "baseline_matches": 15,
+            "candidate_matches": 15
+          },
+          "spoiled": [],
+          "changes": 0,
+          "qualifies": true
+        },
+        "public": {
+          "metrics": {
+            "images": 11,
+            "objects": 9,
+            "tp": 2,
+            "fp": 1,
+            "fn": 7,
+            "precision": 0.6666666666666666,
+            "recall": 0.2222222222222222,
+            "f1": 0.3333333333333333,
+            "ap50": 0.1518151815181518,
+            "ap50_95": 0.0759075907590759,
+            "exact_count": 6,
+            "negative_images": 5,
+            "correct_empty": 5
+          },
+          "guard": {
+            "passed": true,
+            "lost_matches": [],
+            "recovered_matches": 0,
+            "baseline_matches": 2,
+            "candidate_matches": 2
+          },
+          "spoiled": [],
+          "changes": 0,
+          "qualifies": true
+        }
+      },
+      "qualifies": true
+    },
+    {
+      "method": "recovery",
+      "cutoff": 0.85,
+      "parameters": [
+        0.82,
+        0.33,
+        0.55,
+        "patch"
+      ],
+      "outcomes": {
+        "transparent": {
+          "metrics": {
+            "images": 23,
+            "objects": 20,
+            "tp": 15,
+            "fp": 2,
+            "fn": 5,
+            "precision": 0.8823529411764706,
+            "recall": 0.75,
+            "f1": 0.8108108108108107,
+            "ap50": 0.7032420889147739,
+            "ap50_95": 0.3644113325359685,
+            "exact_count": 20,
+            "negative_images": 3,
+            "correct_empty": 3
+          },
+          "guard": {
+            "passed": true,
+            "lost_matches": [],
+            "recovered_matches": 0,
+            "baseline_matches": 15,
+            "candidate_matches": 15
+          },
+          "spoiled": [],
+          "changes": 0,
+          "qualifies": true
+        },
+        "public": {
+          "metrics": {
+            "images": 11,
+            "objects": 9,
+            "tp": 2,
+            "fp": 1,
+            "fn": 7,
+            "precision": 0.6666666666666666,
+            "recall": 0.2222222222222222,
+            "f1": 0.3333333333333333,
+            "ap50": 0.1518151815181518,
+            "ap50_95": 0.0759075907590759,
+            "exact_count": 6,
+            "negative_images": 5,
+            "correct_empty": 5
+          },
+          "guard": {
+            "passed": true,
+            "lost_matches": [],
+            "recovered_matches": 0,
+            "baseline_matches": 2,
+            "candidate_matches": 2
+          },
+          "spoiled": [],
+          "changes": 0,
+          "qualifies": true
+        }
+      },
+      "qualifies": true
+    },
+    {
+      "method": "recovery",
+      "cutoff": 0.85,
+      "parameters": [
+        0.82,
+        0.33,
+        0.55,
+        "witness"
+      ],
+      "outcomes": {
+        "transparent": {
+          "metrics": {
+            "images": 23,
+            "objects": 20,
+            "tp": 15,
+            "fp": 2,
+            "fn": 5,
+            "precision": 0.8823529411764706,
+            "recall": 0.75,
+            "f1": 0.8108108108108107,
+            "ap50": 0.7032420889147739,
+            "ap50_95": 0.3644113325359685,
+            "exact_count": 20,
+            "negative_images": 3,
+            "correct_empty": 3
+          },
+          "guard": {
+            "passed": true,
+            "lost_matches": [],
+            "recovered_matches": 0,
+            "baseline_matches": 15,
+            "candidate_matches": 15
+          },
+          "spoiled": [],
+          "changes": 0,
+          "qualifies": true
+        },
+        "public": {
+          "metrics": {
+            "images": 11,
+            "objects": 9,
+            "tp": 2,
+            "fp": 1,
+            "fn": 7,
+            "precision": 0.6666666666666666,
+            "recall": 0.2222222222222222,
+            "f1": 0.3333333333333333,
+            "ap50": 0.1518151815181518,
+            "ap50_95": 0.0759075907590759,
+            "exact_count": 6,
+            "negative_images": 5,
+            "correct_empty": 5
+          },
+          "guard": {
+            "passed": true,
+            "lost_matches": [],
+            "recovered_matches": 0,
+            "baseline_matches": 2,
+            "candidate_matches": 2
+          },
+          "spoiled": [],
+          "changes": 0,
+          "qualifies": true
+        }
+      },
+      "qualifies": true
+    },
+    {
+      "method": "recovery",
+      "cutoff": 0.85,
+      "parameters": [
+        0.92,
+        0.23,
+        0.55,
+        "patch"
+      ],
+      "outcomes": {
+        "transparent": {
+          "metrics": {
+            "images": 23,
+            "objects": 20,
+            "tp": 15,
+            "fp": 2,
+            "fn": 5,
+            "precision": 0.8823529411764706,
+            "recall": 0.75,
+            "f1": 0.8108108108108107,
+            "ap50": 0.7032420889147739,
+            "ap50_95": 0.3644113325359685,
+            "exact_count": 20,
+            "negative_images": 3,
+            "correct_empty": 3
+          },
+          "guard": {
+            "passed": true,
+            "lost_matches": [],
+            "recovered_matches": 0,
+            "baseline_matches": 15,
+            "candidate_matches": 15
+          },
+          "spoiled": [],
+          "changes": 0,
+          "qualifies": true
+        },
+        "public": {
+          "metrics": {
+            "images": 11,
+            "objects": 9,
+            "tp": 2,
+            "fp": 1,
+            "fn": 7,
+            "precision": 0.6666666666666666,
+            "recall": 0.2222222222222222,
+            "f1": 0.3333333333333333,
+            "ap50": 0.1518151815181518,
+            "ap50_95": 0.0759075907590759,
+            "exact_count": 6,
+            "negative_images": 5,
+            "correct_empty": 5
+          },
+          "guard": {
+            "passed": true,
+            "lost_matches": [],
+            "recovered_matches": 0,
+            "baseline_matches": 2,
+            "candidate_matches": 2
+          },
+          "spoiled": [],
+          "changes": 0,
+          "qualifies": true
+        }
+      },
+      "qualifies": true
+    },
+    {
+      "method": "recovery",
+      "cutoff": 0.85,
+      "parameters": [
+        0.92,
+        0.23,
+        0.55,
+        "witness"
+      ],
+      "outcomes": {
+        "transparent": {
+          "metrics": {
+            "images": 23,
+            "objects": 20,
+            "tp": 15,
+            "fp": 2,
+            "fn": 5,
+            "precision": 0.8823529411764706,
+            "recall": 0.75,
+            "f1": 0.8108108108108107,
+            "ap50": 0.7032420889147739,
+            "ap50_95": 0.3644113325359685,
+            "exact_count": 20,
+            "negative_images": 3,
+            "correct_empty": 3
+          },
+          "guard": {
+            "passed": true,
+            "lost_matches": [],
+            "recovered_matches": 0,
+            "baseline_matches": 15,
+            "candidate_matches": 15
+          },
+          "spoiled": [],
+          "changes": 0,
+          "qualifies": true
+        },
+        "public": {
+          "metrics": {
+            "images": 11,
+            "objects": 9,
+            "tp": 2,
+            "fp": 1,
+            "fn": 7,
+            "precision": 0.6666666666666666,
+            "recall": 0.2222222222222222,
+            "f1": 0.3333333333333333,
+            "ap50": 0.1518151815181518,
+            "ap50_95": 0.0759075907590759,
+            "exact_count": 6,
+            "negative_images": 5,
+            "correct_empty": 5
+          },
+          "guard": {
+            "passed": true,
+            "lost_matches": [],
+            "recovered_matches": 0,
+            "baseline_matches": 2,
+            "candidate_matches": 2
+          },
+          "spoiled": [],
+          "changes": 0,
+          "qualifies": true
+        }
+      },
+      "qualifies": true
+    },
+    {
+      "method": "recovery",
+      "cutoff": 0.85,
+      "parameters": [
+        0.92,
+        0.33,
+        0.55,
+        "patch"
+      ],
+      "outcomes": {
+        "transparent": {
+          "metrics": {
+            "images": 23,
+            "objects": 20,
+            "tp": 15,
+            "fp": 2,
+            "fn": 5,
+            "precision": 0.8823529411764706,
+            "recall": 0.75,
+            "f1": 0.8108108108108107,
+            "ap50": 0.7032420889147739,
+            "ap50_95": 0.3644113325359685,
+            "exact_count": 20,
+            "negative_images": 3,
+            "correct_empty": 3
+          },
+          "guard": {
+            "passed": true,
+            "lost_matches": [],
+            "recovered_matches": 0,
+            "baseline_matches": 15,
+            "candidate_matches": 15
+          },
+          "spoiled": [],
+          "changes": 0,
+          "qualifies": true
+        },
+        "public": {
+          "metrics": {
+            "images": 11,
+            "objects": 9,
+            "tp": 2,
+            "fp": 1,
+            "fn": 7,
+            "precision": 0.6666666666666666,
+            "recall": 0.2222222222222222,
+            "f1": 0.3333333333333333,
+            "ap50": 0.1518151815181518,
+            "ap50_95": 0.0759075907590759,
+            "exact_count": 6,
+            "negative_images": 5,
+            "correct_empty": 5
+          },
+          "guard": {
+            "passed": true,
+            "lost_matches": [],
+            "recovered_matches": 0,
+            "baseline_matches": 2,
+            "candidate_matches": 2
+          },
+          "spoiled": [],
+          "changes": 0,
+          "qualifies": true
+        }
+      },
+      "qualifies": true
+    },
+    {
+      "method": "recovery",
+      "cutoff": 0.85,
+      "parameters": [
+        0.92,
+        0.33,
+        0.55,
+        "witness"
+      ],
+      "outcomes": {
+        "transparent": {
+          "metrics": {
+            "images": 23,
+            "objects": 20,
+            "tp": 15,
+            "fp": 2,
+            "fn": 5,
+            "precision": 0.8823529411764706,
+            "recall": 0.75,
+            "f1": 0.8108108108108107,
+            "ap50": 0.7032420889147739,
+            "ap50_95": 0.3644113325359685,
+            "exact_count": 20,
+            "negative_images": 3,
+            "correct_empty": 3
+          },
+          "guard": {
+            "passed": true,
+            "lost_matches": [],
+            "recovered_matches": 0,
+            "baseline_matches": 15,
+            "candidate_matches": 15
+          },
+          "spoiled": [],
+          "changes": 0,
+          "qualifies": true
+        },
+        "public": {
+          "metrics": {
+            "images": 11,
+            "objects": 9,
+            "tp": 2,
+            "fp": 1,
+            "fn": 7,
+            "precision": 0.6666666666666666,
+            "recall": 0.2222222222222222,
+            "f1": 0.3333333333333333,
+            "ap50": 0.1518151815181518,
+            "ap50_95": 0.0759075907590759,
+            "exact_count": 6,
+            "negative_images": 5,
+            "correct_empty": 5
+          },
+          "guard": {
+            "passed": true,
+            "lost_matches": [],
+            "recovered_matches": 0,
+            "baseline_matches": 2,
+            "candidate_matches": 2
+          },
+          "spoiled": [],
+          "changes": 0,
+          "qualifies": true
+        }
+      },
+      "qualifies": true
+    },
+    {
+      "method": "extension",
+      "cutoff": 0.85,
+      "parameters": [
+        0.82,
+        0.2,
+        2.0,
+        0.5
+      ],
+      "outcomes": {
+        "transparent": {
+          "metrics": {
+            "images": 23,
+            "objects": 20,
+            "tp": 15,
+            "fp": 2,
+            "fn": 5,
+            "precision": 0.8823529411764706,
+            "recall": 0.75,
+            "f1": 0.8108108108108107,
+            "ap50": 0.7032420889147739,
+            "ap50_95": 0.35629198213939045,
+            "exact_count": 20,
+            "negative_images": 3,
+            "correct_empty": 3
+          },
+          "guard": {
+            "passed": true,
+            "lost_matches": [],
+            "recovered_matches": 0,
+            "baseline_matches": 15,
+            "candidate_matches": 15
+          },
+          "spoiled": [],
+          "changes": 11,
+          "qualifies": true
+        },
+        "public": {
+          "metrics": {
+            "images": 11,
+            "objects": 9,
+            "tp": 2,
+            "fp": 1,
+            "fn": 7,
+            "precision": 0.6666666666666666,
+            "recall": 0.2222222222222222,
+            "f1": 0.3333333333333333,
+            "ap50": 0.1518151815181518,
+            "ap50_95": 0.0759075907590759,
+            "exact_count": 6,
+            "negative_images": 5,
+            "correct_empty": 5
+          },
+          "guard": {
+            "passed": true,
+            "lost_matches": [],
+            "recovered_matches": 0,
+            "baseline_matches": 2,
+            "candidate_matches": 2
+          },
+          "spoiled": [],
+          "changes": 1,
+          "qualifies": true
+        }
+      },
+      "qualifies": true
+    },
+    {
+      "method": "extension",
+      "cutoff": 0.85,
+      "parameters": [
+        0.82,
+        0.4,
+        2.0,
+        0.5
+      ],
+      "outcomes": {
+        "transparent": {
+          "metrics": {
+            "images": 23,
+            "objects": 20,
+            "tp": 15,
+            "fp": 2,
+            "fn": 5,
+            "precision": 0.8823529411764706,
+            "recall": 0.75,
+            "f1": 0.8108108108108107,
+            "ap50": 0.7032420889147739,
+            "ap50_95": 0.35629198213939045,
+            "exact_count": 20,
+            "negative_images": 3,
+            "correct_empty": 3
+          },
+          "guard": {
+            "passed": true,
+            "lost_matches": [],
+            "recovered_matches": 0,
+            "baseline_matches": 15,
+            "candidate_matches": 15
+          },
+          "spoiled": [],
+          "changes": 11,
+          "qualifies": true
+        },
+        "public": {
+          "metrics": {
+            "images": 11,
+            "objects": 9,
+            "tp": 2,
+            "fp": 1,
+            "fn": 7,
+            "precision": 0.6666666666666666,
+            "recall": 0.2222222222222222,
+            "f1": 0.3333333333333333,
+            "ap50": 0.1518151815181518,
+            "ap50_95": 0.0759075907590759,
+            "exact_count": 6,
+            "negative_images": 5,
+            "correct_empty": 5
+          },
+          "guard": {
+            "passed": true,
+            "lost_matches": [],
+            "recovered_matches": 0,
+            "baseline_matches": 2,
+            "candidate_matches": 2
+          },
+          "spoiled": [],
+          "changes": 1,
+          "qualifies": true
+        }
+      },
+      "qualifies": true
+    },
+    {
+      "method": "extension",
+      "cutoff": 0.85,
+      "parameters": [
+        0.92,
+        0.2,
+        2.0,
+        0.5
+      ],
+      "outcomes": {
+        "transparent": {
+          "metrics": {
+            "images": 23,
+            "objects": 20,
+            "tp": 15,
+            "fp": 2,
+            "fn": 5,
+            "precision": 0.8823529411764706,
+            "recall": 0.75,
+            "f1": 0.8108108108108107,
+            "ap50": 0.7032420889147739,
+            "ap50_95": 0.35629198213939045,
+            "exact_count": 20,
+            "negative_images": 3,
+            "correct_empty": 3
+          },
+          "guard": {
+            "passed": true,
+            "lost_matches": [],
+            "recovered_matches": 0,
+            "baseline_matches": 15,
+            "candidate_matches": 15
+          },
+          "spoiled": [],
+          "changes": 10,
+          "qualifies": true
+        },
+        "public": {
+          "metrics": {
+            "images": 11,
+            "objects": 9,
+            "tp": 2,
+            "fp": 1,
+            "fn": 7,
+            "precision": 0.6666666666666666,
+            "recall": 0.2222222222222222,
+            "f1": 0.3333333333333333,
+            "ap50": 0.1518151815181518,
+            "ap50_95": 0.0759075907590759,
+            "exact_count": 6,
+            "negative_images": 5,
+            "correct_empty": 5
+          },
+          "guard": {
+            "passed": true,
+            "lost_matches": [],
+            "recovered_matches": 0,
+            "baseline_matches": 2,
+            "candidate_matches": 2
+          },
+          "spoiled": [],
+          "changes": 1,
+          "qualifies": true
+        }
+      },
+      "qualifies": true
+    },
+    {
+      "method": "extension",
+      "cutoff": 0.85,
+      "parameters": [
+        0.92,
+        0.4,
+        2.0,
+        0.5
+      ],
+      "outcomes": {
+        "transparent": {
+          "metrics": {
+            "images": 23,
+            "objects": 20,
+            "tp": 15,
+            "fp": 2,
+            "fn": 5,
+            "precision": 0.8823529411764706,
+            "recall": 0.75,
+            "f1": 0.8108108108108107,
+            "ap50": 0.7032420889147739,
+            "ap50_95": 0.35629198213939045,
+            "exact_count": 20,
+            "negative_images": 3,
+            "correct_empty": 3
+          },
+          "guard": {
+            "passed": true,
+            "lost_matches": [],
+            "recovered_matches": 0,
+            "baseline_matches": 15,
+            "candidate_matches": 15
+          },
+          "spoiled": [],
+          "changes": 10,
+          "qualifies": true
+        },
+        "public": {
+          "metrics": {
+            "images": 11,
+            "objects": 9,
+            "tp": 2,
+            "fp": 1,
+            "fn": 7,
+            "precision": 0.6666666666666666,
+            "recall": 0.2222222222222222,
+            "f1": 0.3333333333333333,
+            "ap50": 0.1518151815181518,
+            "ap50_95": 0.0759075907590759,
+            "exact_count": 6,
+            "negative_images": 5,
+            "correct_empty": 5
+          },
+          "guard": {
+            "passed": true,
+            "lost_matches": [],
+            "recovered_matches": 0,
+            "baseline_matches": 2,
+            "candidate_matches": 2
+          },
+          "spoiled": [],
+          "changes": 1,
+          "qualifies": true
+        }
+      },
+      "qualifies": true
+    }
+  ],
+  "input_files": {
+    "data/detection_hillclimb/proposals/device-context-development-current.json": "e03ffa68e5b16c4c9606feb72616e8d91239bd27ef78c7ad751a07f03d54cc87",
+    "data/detection_hillclimb/proposals/dense-appearance-development.json": "3720f3c72a66adf763baa3ca8e231376b2b9f6f2479a27bdf757cf29a22c261d",
+    "artifacts/detection_hillclimb/dense_appearance_development.json": "80aaf6bc81413f8e0cb1bc0157381b1195def8d7727d8a4d14afb0f0402172b5",
+    "data/detection_hillclimb/proposals/public-development-baseline.json": "d0e09665c64867c5fc8fd24b7bc2b379801c54b19d1f944eb1b16a07c26d8eb3",
+    "/home/arobin/Work/Repos/MedSyringe-Vision/scripts/detection_dense_fusion.py": "2c423d336f9be3d268561b10e1de80aec2d0abf16c393162a16a5cd2816bfab3"
+  },
+  "description": "Compare box extension and recovery based on complementary dense appearance. The transparent series is one development source. No reserve is used."
+}

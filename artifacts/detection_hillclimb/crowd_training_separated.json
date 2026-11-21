@@ -1,0 +1,28 @@
+{
+  "status": "completed",
+  "checkpoint": "data/detection_hillclimb/runs/crowd-training-separated/checkpoint_best_total.pth",
+  "seconds": 709.2453930250012,
+  "checkpoint_sha256": "d040559d5b42ca8ac5db10414e240ac4f304b9628a16f2060c44e690b6c2e115",
+  "initial_sha256": "42a654e180ecbdeaf735f41fd16a95af3769c70bf8f1f4cf6da175c7af8837bb",
+  "data_sha256": "5c03e408308bd974ac4cca3a0d3f4776da6e88d27dad0482bb1ce727d736f82c",
+  "code_sha256": "4068c7cd29be9840c576e62d038994a02b1565194ed8dee7206aefe7e9c1521d",
+  "config": {
+    "dataset_dir": "data/detection_hillclimb/crowd-training/separated",
+    "output_dir": "data/detection_hillclimb/runs/crowd-training-separated",
+    "device": "cpu",
+    "epochs": 2,
+    "batch_size": 4,
+    "resolution": 320,
+    "seed": 20261122,
+    "lr": 7.5e-05,
+    "lr_encoder": 0,
+    "num_workers": 0,
+    "num_sanity_val_steps": 0,
+    "compute_val_loss": true,
+    "use_ema": false,
+    "multi_scale": false,
+    "save_dataset_grids": false,
+    "run_test": false,
+    "train_log_on_step": false
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "status": "completed",
+  "checkpoint": "data/detection_hillclimb/runs/crowd-training-overlapping/checkpoint_best_total.pth",
+  "seconds": 300.36602300600134,
+  "checkpoint_sha256": "84de0425892c03c1fbddcb5e305f06b1793767cce53eb1e5a6d0d3e8c007d82b",
+  "initial_sha256": "42a654e180ecbdeaf735f41fd16a95af3769c70bf8f1f4cf6da175c7af8837bb",
+  "data_sha256": "5c03e408308bd974ac4cca3a0d3f4776da6e88d27dad0482bb1ce727d736f82c",
+  "code_sha256": "4068c7cd29be9840c576e62d038994a02b1565194ed8dee7206aefe7e9c1521d",
+  "config": {
+    "dataset_dir": "data/detection_hillclimb/crowd-training/overlapping",
+    "output_dir": "data/detection_hillclimb/runs/crowd-training-overlapping",
+    "device": "cpu",
+    "epochs": 2,
+    "batch_size": 4,
+    "resolution": 320,
+    "seed": 20261122,
+    "lr": 7.5e-05,
+    "lr_encoder": 0,
+    "num_workers": 0,
+    "num_sanity_val_steps": 0,
+    "compute_val_loss": true,
+    "use_ema": false,
+    "multi_scale": false,
+    "save_dataset_grids": false,
+    "run_test": false,
+    "train_log_on_step": false
+  },
+  "resume_history": [
+    {
+      "completed_epochs": 1,
+      "checkpoint_sha256": "f1edaff15122aea9c96eb38ed21b6ebec8aa75dc9df1c69e4db1bb4c86c12f48",
+      "previous_code_sha256": "bdefa4a23919fe390375ab2f5299acc4f85e0edf9d3d897ca70c4b420b77768e",
+      "curve": "artifacts/detection_hillclimb/crowd_training_overlapping_before_resume_1.csv",
+      "curve_sha256": "e112bcafd44012aea1d8a219bf957259b4d84c675983b5766b5aeae31f1bb070"
+    }
+  ]
+}

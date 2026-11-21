@@ -1,0 +1,264 @@
+{
+  "development_gate": true,
+  "natural": {
+    "public": {
+      "baseline": {
+        "images": 11,
+        "objects": 9,
+        "tp": 2,
+        "fp": 1,
+        "fn": 7,
+        "precision": 0.6666666666666666,
+        "recall": 0.2222222222222222,
+        "f1": 0.3333333333333333,
+        "ap50": 0.1518151815181518,
+        "ap50_95": 0.0759075907590759,
+        "exact_count": 6,
+        "negative_images": 5,
+        "correct_empty": 5
+      },
+      "prospective": {
+        "images": 11,
+        "objects": 9,
+        "tp": 2,
+        "fp": 1,
+        "fn": 7,
+        "precision": 0.6666666666666666,
+        "recall": 0.2222222222222222,
+        "f1": 0.3333333333333333,
+        "ap50": 0.1518151815181518,
+        "ap50_95": 0.0759075907590759,
+        "exact_count": 6,
+        "negative_images": 5,
+        "correct_empty": 5
+      },
+      "gate": {
+        "passed": true,
+        "lost_matches": [],
+        "recovered_matches": 0,
+        "baseline_matches": 2,
+        "candidate_matches": 2
+      },
+      "spoiled_counts": [],
+      "stages": {
+        "empty after supplemental view": 2,
+        "no dominant orientation": 7,
+        "original": 2
+      }
+    },
+    "transparent": {
+      "baseline": {
+        "images": 23,
+        "objects": 20,
+        "tp": 15,
+        "fp": 2,
+        "fn": 5,
+        "precision": 0.8823529411764706,
+        "recall": 0.75,
+        "f1": 0.8108108108108107,
+        "ap50": 0.7032420889147739,
+        "ap50_95": 0.3644113325359685,
+        "exact_count": 20,
+        "negative_images": 3,
+        "correct_empty": 3
+      },
+      "prospective": {
+        "images": 23,
+        "objects": 20,
+        "tp": 17,
+        "fp": 2,
+        "fn": 3,
+        "precision": 0.8947368421052632,
+        "recall": 0.85,
+        "f1": 0.8717948717948718,
+        "ap50": 0.8025932624222175,
+        "ap50_95": 0.4063080507520014,
+        "exact_count": 22,
+        "negative_images": 3,
+        "correct_empty": 3
+      },
+      "gate": {
+        "passed": true,
+        "lost_matches": [],
+        "recovered_matches": 2,
+        "baseline_matches": 15,
+        "candidate_matches": 17
+      },
+      "spoiled_counts": [],
+      "stages": {
+        "original": 17,
+        "supplemented": 2,
+        "empty after supplemental view": 3,
+        "no dominant orientation": 1
+      }
+    }
+  },
+  "synthetic": {
+    "estimated": {
+      "empty": {
+        "baseline": {
+          "images": 18,
+          "objects": 54,
+          "tp": 33,
+          "fp": 0,
+          "fn": 21,
+          "precision": 1.0,
+          "recall": 0.6111111111111112,
+          "f1": 0.7586206896551725,
+          "ap50": 0.6138613861386139,
+          "ap50_95": 0.6022954333476825,
+          "exact_count": 8,
+          "negative_images": 0,
+          "correct_empty": 0
+        },
+        "prospective": {
+          "images": 18,
+          "objects": 54,
+          "tp": 34,
+          "fp": 0,
+          "fn": 20,
+          "precision": 1.0,
+          "recall": 0.6296296296296297,
+          "f1": 0.7727272727272727,
+          "ap50": 0.6237623762376238,
+          "ap50_95": 0.6091096441805306,
+          "exact_count": 8,
+          "negative_images": 0,
+          "correct_empty": 0
+        },
+        "gate": {
+          "passed": true,
+          "lost_matches": [],
+          "recovered_matches": 1,
+          "baseline_matches": 33,
+          "candidate_matches": 34
+        },
+        "spoiled_counts": []
+      },
+      "additive": {
+        "baseline": {
+          "images": 18,
+          "objects": 54,
+          "tp": 33,
+          "fp": 0,
+          "fn": 21,
+          "precision": 1.0,
+          "recall": 0.6111111111111112,
+          "f1": 0.7586206896551725,
+          "ap50": 0.6138613861386139,
+          "ap50_95": 0.6022954333476825,
+          "exact_count": 8,
+          "negative_images": 0,
+          "correct_empty": 0
+        },
+        "prospective": {
+          "images": 18,
+          "objects": 54,
+          "tp": 34,
+          "fp": 0,
+          "fn": 20,
+          "precision": 1.0,
+          "recall": 0.6296296296296297,
+          "f1": 0.7727272727272727,
+          "ap50": 0.6237623762376238,
+          "ap50_95": 0.6091096441805306,
+          "exact_count": 8,
+          "negative_images": 0,
+          "correct_empty": 0
+        },
+        "gate": {
+          "passed": true,
+          "lost_matches": [],
+          "recovered_matches": 1,
+          "baseline_matches": 33,
+          "candidate_matches": 34
+        },
+        "spoiled_counts": []
+      }
+    },
+    "oracle": {
+      "empty": {
+        "baseline": {
+          "images": 18,
+          "objects": 54,
+          "tp": 33,
+          "fp": 0,
+          "fn": 21,
+          "precision": 1.0,
+          "recall": 0.6111111111111112,
+          "f1": 0.7586206896551725,
+          "ap50": 0.6138613861386139,
+          "ap50_95": 0.6022954333476825,
+          "exact_count": 8,
+          "negative_images": 0,
+          "correct_empty": 0
+        },
+        "prospective": {
+          "images": 18,
+          "objects": 54,
+          "tp": 34,
+          "fp": 0,
+          "fn": 20,
+          "precision": 1.0,
+          "recall": 0.6296296296296297,
+          "f1": 0.7727272727272727,
+          "ap50": 0.6237623762376238,
+          "ap50_95": 0.6083473016647665,
+          "exact_count": 8,
+          "negative_images": 0,
+          "correct_empty": 0
+        },
+        "gate": {
+          "passed": true,
+          "lost_matches": [],
+          "recovered_matches": 1,
+          "baseline_matches": 33,
+          "candidate_matches": 34
+        },
+        "spoiled_counts": []
+      },
+      "additive": {
+        "baseline": {
+          "images": 18,
+          "objects": 54,
+          "tp": 33,
+          "fp": 0,
+          "fn": 21,
+          "precision": 1.0,
+          "recall": 0.6111111111111112,
+          "f1": 0.7586206896551725,
+          "ap50": 0.6138613861386139,
+          "ap50_95": 0.6022954333476825,
+          "exact_count": 8,
+          "negative_images": 0,
+          "correct_empty": 0
+        },
+        "prospective": {
+          "images": 18,
+          "objects": 54,
+          "tp": 35,
+          "fp": 0,
+          "fn": 19,
+          "precision": 1.0,
+          "recall": 0.6481481481481481,
+          "f1": 0.7865168539325843,
+          "ap50": 0.6435643564356436,
+          "ap50_95": 0.6200762560728121,
+          "exact_count": 8,
+          "negative_images": 0,
+          "correct_empty": 0
+        },
+        "gate": {
+          "passed": true,
+          "lost_matches": [],
+          "recovered_matches": 2,
+          "baseline_matches": 33,
+          "candidate_matches": 35
+        },
+        "spoiled_counts": []
+      }
+    }
+  },
+  "cache_sha256": "872176ac216f6fa76f09ca31f9857353afd6296db665be6f44adc44838b9d437",
+  "implementation": "Use the original accepted boxes when present. Re-analyze a straightened view only for empty development scenes with a measured dominant axis. Independent reserves stay closed."
+}

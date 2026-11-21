@@ -1,0 +1,217 @@
+{
+  "metrics": {
+    "images": 23,
+    "objects": 20,
+    "tp": 15,
+    "fp": 2,
+    "fn": 5,
+    "precision": 0.8823529411764706,
+    "recall": 0.75,
+    "f1": 0.8108108108108107,
+    "ap50": 0.7201534176500107,
+    "ap50_95": 0.38652665035274014,
+    "exact_count": 20,
+    "negative_images": 3,
+    "correct_empty": 3
+  },
+  "score_floor": 0.6772280764893512,
+  "counts": {
+    "8wyZvWCaKrzgrMshxzMZ": {
+      "reference": 1,
+      "accepted": 1
+    },
+    "9AbklyAil4pW5fx6B2sM": {
+      "reference": 1,
+      "accepted": 1
+    },
+    "8FpFnUpyarFMuInrdGaV": {
+      "reference": 1,
+      "accepted": 1
+    },
+    "8FGyKsY6rB1eVsiERZTf": {
+      "reference": 1,
+      "accepted": 1
+    },
+    "4a6kSaABgoL3ja2imbSv": {
+      "reference": 1,
+      "accepted": 1
+    },
+    "53CYReDh3s5BO7SpywiE": {
+      "reference": 1,
+      "accepted": 1
+    },
+    "8yMI78JCbyMWgoS6nlIA": {
+      "reference": 1,
+      "accepted": 1
+    },
+    "2ugGwxZCTkfeYyI5QwcJ": {
+      "reference": 1,
+      "accepted": 1
+    },
+    "7NSpeWu9vqWJBNYhIxGA": {
+      "reference": 1,
+      "accepted": 1
+    },
+    "6WgfVXrroxunfTejGLPj": {
+      "reference": 1,
+      "accepted": 1
+    },
+    "4D7vsZHND2bpWGu962rU": {
+      "reference": 1,
+      "accepted": 0
+    },
+    "9VEq8ZfWjrKMIhZ3lZx0": {
+      "reference": 1,
+      "accepted": 1
+    },
+    "13ktlwHU5rZDXr37NeWg": {
+      "reference": 1,
+      "accepted": 1
+    },
+    "36SI6G1tFl4LfcyZYXHY": {
+      "reference": 1,
+      "accepted": 1
+    },
+    "3evEqJKjzco0aY5Uyiyz": {
+      "reference": 1,
+      "accepted": 1
+    },
+    "06aAw93JQdB1J3YlYP5v": {
+      "reference": 1,
+      "accepted": 0
+    },
+    "4CtqZLCQ1SzOTknmKZTE": {
+      "reference": 1,
+      "accepted": 1
+    },
+    "1TTAzph471fnGpsNxuQj": {
+      "reference": 1,
+      "accepted": 0
+    },
+    "0oVeNfkV8bthjKScKYqg": {
+      "reference": 1,
+      "accepted": 1
+    },
+    "6ECR19eoMJphyUCeeLxa": {
+      "reference": 1,
+      "accepted": 1
+    },
+    "6syaiEslYnGZfAWhMQBo": {
+      "reference": 0,
+      "accepted": 0
+    },
+    "1q8ULGWFGoHM38EAGQ9b": {
+      "reference": 0,
+      "accepted": 0
+    },
+    "5zCN3cyJBNwaKJM1nWjO": {
+      "reference": 0,
+      "accepted": 0
+    }
+  },
+  "missed_by_stage": {
+    "proposed below operating point": 5
+  },
+  "false_positives": [
+    {
+      "id": "53CYReDh3s5BO7SpywiE",
+      "prediction": {
+        "bbox": [
+          0.2078785083912037,
+          0.40567804972330734,
+          0.5497696487991898,
+          0.5644439061482747
+        ],
+        "score": 0.9204899533069301
+      },
+      "best_unmatched_iou": 0.38994403626699015
+    },
+    {
+      "id": "7NSpeWu9vqWJBNYhIxGA",
+      "prediction": {
+        "bbox": [
+          0.49860553741455077,
+          0.40647450199833624,
+          0.5164046923319499,
+          0.5528684828016494
+        ],
+        "score": 0.7640440029045191
+      },
+      "best_unmatched_iou": 0.401567066378297
+    }
+  ],
+  "false_negatives": [
+    {
+      "id": "53CYReDh3s5BO7SpywiE",
+      "box": [
+        0.22131,
+        0.3318,
+        0.77049,
+        0.57143
+      ],
+      "best_iou": 0.7040254048754646,
+      "proposal_index": 3,
+      "likely_bottleneck": "proposed below operating point"
+    },
+    {
+      "id": "7NSpeWu9vqWJBNYhIxGA",
+      "box": [
+        0.48529,
+        0.39869,
+        0.52206,
+        0.57516
+      ],
+      "best_iou": 0.5980217776878977,
+      "proposal_index": 16,
+      "likely_bottleneck": "proposed below operating point"
+    },
+    {
+      "id": "4D7vsZHND2bpWGu962rU",
+      "box": [
+        0.52941,
+        0.38562,
+        0.69853,
+        0.85621
+      ],
+      "best_iou": 0.6172853648473039,
+      "proposal_index": 4,
+      "likely_bottleneck": "proposed below operating point"
+    },
+    {
+      "id": "06aAw93JQdB1J3YlYP5v",
+      "box": [
+        0.27869,
+        0.35023,
+        0.68852,
+        0.58065
+      ],
+      "best_iou": 0.829593502245092,
+      "proposal_index": 3,
+      "likely_bottleneck": "proposed below operating point"
+    },
+    {
+      "id": "1TTAzph471fnGpsNxuQj",
+      "box": [
+        0.38603,
+        0.13072,
+        0.67647,
+        0.70588
+      ],
+      "best_iou": 0.8931967381486975,
+      "proposal_index": 0,
+      "likely_bottleneck": "proposed below operating point"
+    }
+  ],
+  "warm_seconds": {
+    "median": 5.740665086001172,
+    "p95": 10.386262390500269
+  },
+  "inputs": {
+    "manifest_sha256": "e1f1eaf123eb236aa453d014549bb4600e2a1ad8d8035af50b797ed1c3140cbb",
+    "detector_sha256": "6a446005968d3ea7d3f040ebe37fe6702033f5f2ba157194290a2561699cae90",
+    "sam_sha256": "c6bfd1519339262b25deef70ee0b5a0ba8c0f6bb76143e05cfc25842285b2e8e",
+    "implementation_sha256": "1e83320062b13db8e6cbf713487cd2f26c57d34e1fc70a351b9567ef7f374132"
+  },
+  "cache_sha256": "e03ffa68e5b16c4c9606feb72616e8d91239bd27ef78c7ad751a07f03d54cc87",
+  "description": "Photographs from one transparent-device source, development only. The separate near-field bench project remains closed."
+}

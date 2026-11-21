@@ -1,0 +1,16 @@
+{
+  "files": {
+    "artifacts/detection_hillclimb/crowd_training_development_results.json": "8dadb3249da92067486954f538beb5dac43d97b7c7ea8dbaf1731d41dcbf411d",
+    "artifacts/detection_hillclimb/commons_crowds_reserve.json": "16f226c4e9296a808477129fca8e2306c7e230e49bf223d18ea0549269ea3718",
+    "/home/arobin/Work/Repos/MedSyringe-Vision/scripts/detection_crowd_transfer_audit.py": "b4057c619b79eec69a710ddada7831fab2e323d8e8e3bd53e26ae9105bb97435"
+  },
+  "weights": {
+    "initial": "42a654e180ecbdeaf735f41fd16a95af3769c70bf8f1f4cf6da175c7af8837bb",
+    "separated": "d040559d5b42ca8ac5db10414e240ac4f304b9628a16f2060c44e690b6c2e115",
+    "overlapping": "84de0425892c03c1fbddcb5e305f06b1793767cce53eb1e5a6d0d3e8c007d82b"
+  },
+  "native_sha256": "f2ddd1d1677b02e6cdea7525ac23f6e7b6d83d2c04918f8d7d4b36362fc54821",
+  "score_cutoff": 0.2,
+  "nms_iou": 0.45,
+  "scope": "Run all three locked research checkpoints at their already reported development score. Use the original and dominant-axis views on the same images. Native device scenes are regression diagnostics. Four Commons acquisitions were annotated without candidate outputs. This standalone transfer comparison does not select a deployment gate."
+}

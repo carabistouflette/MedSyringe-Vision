@@ -1,0 +1,604 @@
+{
+  "outcomes": {
+    "baseline": {
+      "images": 18,
+      "objects": 54,
+      "tp": 33,
+      "fp": 0,
+      "fn": 21,
+      "precision": 1.0,
+      "recall": 0.6111111111111112,
+      "f1": 0.7586206896551725,
+      "ap50": 0.6138613861386139,
+      "ap50_95": 0.6022954333476825,
+      "exact_count": 8,
+      "negative_images": 0,
+      "correct_empty": 0
+    },
+    "estimated": {
+      "images": 18,
+      "objects": 54,
+      "tp": 15,
+      "fp": 0,
+      "fn": 39,
+      "precision": 1.0,
+      "recall": 0.2777777777777778,
+      "f1": 0.4347826086956522,
+      "ap50": 0.27722772277227725,
+      "ap50_95": 0.1897029702970297,
+      "exact_count": 1,
+      "negative_images": 0,
+      "correct_empty": 0
+    },
+    "oracle": {
+      "images": 18,
+      "objects": 54,
+      "tp": 16,
+      "fp": 0,
+      "fn": 38,
+      "precision": 1.0,
+      "recall": 0.2962962962962963,
+      "f1": 0.45714285714285713,
+      "ap50": 0.297029702970297,
+      "ap50_95": 0.20142326732673266,
+      "exact_count": 0,
+      "negative_images": 0,
+      "correct_empty": 0
+    }
+  },
+  "preservation": {
+    "passed": false,
+    "lost_matches": [
+      {
+        "id": "parallel-dev-003",
+        "box": [
+          0.4930555555555556,
+          0.2534722222222222,
+          0.7239583333333334,
+          0.5763888888888888
+        ]
+      },
+      {
+        "id": "parallel-dev-003",
+        "box": [
+          0.453125,
+          0.3142361111111111,
+          0.6840277777777778,
+          0.6284722222222222
+        ]
+      },
+      {
+        "id": "parallel-dev-003",
+        "box": [
+          0.4045138888888889,
+          0.3628472222222222,
+          0.6336805555555556,
+          0.6961805555555556
+        ]
+      },
+      {
+        "id": "parallel-dev-003",
+        "box": [
+          0.296875,
+          0.3732638888888889,
+          0.5347222222222222,
+          0.7291666666666666
+        ]
+      },
+      {
+        "id": "parallel-dev-005",
+        "box": [
+          0.3628472222222222,
+          0.34375,
+          0.6961805555555556,
+          0.5295138888888888
+        ]
+      },
+      {
+        "id": "parallel-dev-005",
+        "box": [
+          0.3402777777777778,
+          0.3940972222222222,
+          0.6840277777777778,
+          0.5885416666666666
+        ]
+      },
+      {
+        "id": "parallel-dev-005",
+        "box": [
+          0.3020833333333333,
+          0.4513888888888889,
+          0.6388888888888888,
+          0.6336805555555556
+        ]
+      },
+      {
+        "id": "parallel-dev-006",
+        "box": [
+          0.3958333333333333,
+          0.2986111111111111,
+          0.7274305555555556,
+          0.5034722222222222
+        ]
+      },
+      {
+        "id": "parallel-dev-006",
+        "box": [
+          0.3107638888888889,
+          0.421875,
+          0.6458333333333334,
+          0.6319444444444444
+        ]
+      },
+      {
+        "id": "parallel-dev-007",
+        "box": [
+          0.3020833333333333,
+          0.4357638888888889,
+          0.6336805555555556,
+          0.625
+        ]
+      },
+      {
+        "id": "parallel-dev-009",
+        "box": [
+          0.2569444444444444,
+          0.2864583333333333,
+          0.6076388888888888,
+          0.4861111111111111
+        ]
+      },
+      {
+        "id": "parallel-dev-009",
+        "box": [
+          0.3020833333333333,
+          0.3628472222222222,
+          0.6371527777777778,
+          0.5555555555555556
+        ]
+      },
+      {
+        "id": "parallel-dev-009",
+        "box": [
+          0.3177083333333333,
+          0.4288194444444444,
+          0.6892361111111112,
+          0.6336805555555556
+        ]
+      },
+      {
+        "id": "parallel-dev-009",
+        "box": [
+          0.3923611111111111,
+          0.4722222222222222,
+          0.7326388888888888,
+          0.6736111111111112
+        ]
+      },
+      {
+        "id": "parallel-dev-011",
+        "box": [
+          0.3038194444444444,
+          0.3142361111111111,
+          0.6336805555555556,
+          0.5173611111111112
+        ]
+      },
+      {
+        "id": "parallel-dev-012",
+        "box": [
+          0.2586805555555556,
+          0.2986111111111111,
+          0.5607638888888888,
+          0.5416666666666666
+        ]
+      },
+      {
+        "id": "parallel-dev-014",
+        "box": [
+          0.2777777777777778,
+          0.3368055555555556,
+          0.6163194444444444,
+          0.5243055555555556
+        ]
+      },
+      {
+        "id": "parallel-dev-015",
+        "box": [
+          0.2986111111111111,
+          0.3628472222222222,
+          0.640625,
+          0.5607638888888888
+        ]
+      },
+      {
+        "id": "parallel-dev-015",
+        "box": [
+          0.3368055555555556,
+          0.421875,
+          0.6736111111111112,
+          0.6163194444444444
+        ]
+      },
+      {
+        "id": "parallel-dev-015",
+        "box": [
+          0.3489583333333333,
+          0.4913194444444444,
+          0.7222222222222222,
+          0.6892361111111112
+        ]
+      },
+      {
+        "id": "parallel-dev-017",
+        "box": [
+          0.28125,
+          0.3350694444444444,
+          0.6145833333333334,
+          0.5277777777777778
+        ]
+      },
+      {
+        "id": "parallel-dev-018",
+        "box": [
+          0.2517361111111111,
+          0.2934027777777778,
+          0.5920138888888888,
+          0.5572916666666666
+        ]
+      }
+    ],
+    "recovered_matches": 4,
+    "baseline_matches": 33,
+    "candidate_matches": 15
+  },
+  "estimated_views": 18,
+  "median_seconds": 27.12459730649971,
+  "cases": {
+    "parallel-dev-001": {
+      "expected": 2,
+      "estimated_angle": 56.1,
+      "computed_angle": 55.64996075410375,
+      "views": {
+        "baseline": {
+          "count": 0,
+          "maximum_matches": 0
+        },
+        "estimated": {
+          "count": 0,
+          "maximum_matches": 0
+        },
+        "oracle": {
+          "count": 0,
+          "maximum_matches": 0
+        }
+      }
+    },
+    "parallel-dev-002": {
+      "expected": 3,
+      "estimated_angle": 38.2,
+      "computed_angle": 37.36397195106624,
+      "views": {
+        "baseline": {
+          "count": 0,
+          "maximum_matches": 0
+        },
+        "estimated": {
+          "count": 1,
+          "maximum_matches": 1
+        },
+        "oracle": {
+          "count": 1,
+          "maximum_matches": 1
+        }
+      }
+    },
+    "parallel-dev-003": {
+      "expected": 4,
+      "estimated_angle": 56.3,
+      "computed_angle": 56.13039951934,
+      "views": {
+        "baseline": {
+          "count": 4,
+          "maximum_matches": 4
+        },
+        "estimated": {
+          "count": 0,
+          "maximum_matches": 0
+        },
+        "oracle": {
+          "count": 0,
+          "maximum_matches": 0
+        }
+      }
+    },
+    "parallel-dev-004": {
+      "expected": 2,
+      "estimated_angle": 36.3,
+      "computed_angle": 36.60856703845732,
+      "views": {
+        "baseline": {
+          "count": 0,
+          "maximum_matches": 0
+        },
+        "estimated": {
+          "count": 0,
+          "maximum_matches": 0
+        },
+        "oracle": {
+          "count": 0,
+          "maximum_matches": 0
+        }
+      }
+    },
+    "parallel-dev-005": {
+      "expected": 3,
+      "estimated_angle": 27.6,
+      "computed_angle": 26.763312495745414,
+      "views": {
+        "baseline": {
+          "count": 3,
+          "maximum_matches": 3
+        },
+        "estimated": {
+          "count": 0,
+          "maximum_matches": 0
+        },
+        "oracle": {
+          "count": 0,
+          "maximum_matches": 0
+        }
+      }
+    },
+    "parallel-dev-006": {
+      "expected": 4,
+      "estimated_angle": 30.0,
+      "computed_angle": 29.87770380151103,
+      "views": {
+        "baseline": {
+          "count": 4,
+          "maximum_matches": 4
+        },
+        "estimated": {
+          "count": 2,
+          "maximum_matches": 2
+        },
+        "oracle": {
+          "count": 3,
+          "maximum_matches": 3
+        }
+      }
+    },
+    "parallel-dev-007": {
+      "expected": 2,
+      "estimated_angle": 28.1,
+      "computed_angle": 27.401639788638317,
+      "views": {
+        "baseline": {
+          "count": 1,
+          "maximum_matches": 1
+        },
+        "estimated": {
+          "count": 0,
+          "maximum_matches": 0
+        },
+        "oracle": {
+          "count": 0,
+          "maximum_matches": 0
+        }
+      }
+    },
+    "parallel-dev-008": {
+      "expected": 3,
+      "estimated_angle": -53.9,
+      "computed_angle": -52.224910726382056,
+      "views": {
+        "baseline": {
+          "count": 0,
+          "maximum_matches": 0
+        },
+        "estimated": {
+          "count": 0,
+          "maximum_matches": 0
+        },
+        "oracle": {
+          "count": 0,
+          "maximum_matches": 0
+        }
+      }
+    },
+    "parallel-dev-009": {
+      "expected": 4,
+      "estimated_angle": -27.6,
+      "computed_angle": -28.22753951630972,
+      "views": {
+        "baseline": {
+          "count": 4,
+          "maximum_matches": 4
+        },
+        "estimated": {
+          "count": 0,
+          "maximum_matches": 0
+        },
+        "oracle": {
+          "count": 0,
+          "maximum_matches": 0
+        }
+      }
+    },
+    "parallel-dev-010": {
+      "expected": 2,
+      "estimated_angle": 27.3,
+      "computed_angle": 28.308868352993013,
+      "views": {
+        "baseline": {
+          "count": 0,
+          "maximum_matches": 0
+        },
+        "estimated": {
+          "count": 0,
+          "maximum_matches": 0
+        },
+        "oracle": {
+          "count": 0,
+          "maximum_matches": 0
+        }
+      }
+    },
+    "parallel-dev-011": {
+      "expected": 3,
+      "estimated_angle": -28.5,
+      "computed_angle": -28.413293939047623,
+      "views": {
+        "baseline": {
+          "count": 3,
+          "maximum_matches": 3
+        },
+        "estimated": {
+          "count": 2,
+          "maximum_matches": 2
+        },
+        "oracle": {
+          "count": 2,
+          "maximum_matches": 2
+        }
+      }
+    },
+    "parallel-dev-012": {
+      "expected": 4,
+      "estimated_angle": -37.0,
+      "computed_angle": -38.2668016331197,
+      "views": {
+        "baseline": {
+          "count": 2,
+          "maximum_matches": 2
+        },
+        "estimated": {
+          "count": 3,
+          "maximum_matches": 3
+        },
+        "oracle": {
+          "count": 3,
+          "maximum_matches": 3
+        }
+      }
+    },
+    "parallel-dev-013": {
+      "expected": 2,
+      "estimated_angle": 56.2,
+      "computed_angle": 55.51018928961735,
+      "views": {
+        "baseline": {
+          "count": 0,
+          "maximum_matches": 0
+        },
+        "estimated": {
+          "count": 0,
+          "maximum_matches": 0
+        },
+        "oracle": {
+          "count": 0,
+          "maximum_matches": 0
+        }
+      }
+    },
+    "parallel-dev-014": {
+      "expected": 3,
+      "estimated_angle": -26.0,
+      "computed_angle": -26.153938683950045,
+      "views": {
+        "baseline": {
+          "count": 3,
+          "maximum_matches": 3
+        },
+        "estimated": {
+          "count": 2,
+          "maximum_matches": 2
+        },
+        "oracle": {
+          "count": 2,
+          "maximum_matches": 2
+        }
+      }
+    },
+    "parallel-dev-015": {
+      "expected": 4,
+      "estimated_angle": -27.5,
+      "computed_angle": -27.345308032044816,
+      "views": {
+        "baseline": {
+          "count": 4,
+          "maximum_matches": 4
+        },
+        "estimated": {
+          "count": 1,
+          "maximum_matches": 1
+        },
+        "oracle": {
+          "count": 1,
+          "maximum_matches": 1
+        }
+      }
+    },
+    "parallel-dev-016": {
+      "expected": 2,
+      "estimated_angle": -51.8,
+      "computed_angle": -51.90945440977361,
+      "views": {
+        "baseline": {
+          "count": 2,
+          "maximum_matches": 2
+        },
+        "estimated": {
+          "count": 2,
+          "maximum_matches": 2
+        },
+        "oracle": {
+          "count": 1,
+          "maximum_matches": 1
+        }
+      }
+    },
+    "parallel-dev-017": {
+      "expected": 3,
+      "estimated_angle": -27.3,
+      "computed_angle": -28.431452723286558,
+      "views": {
+        "baseline": {
+          "count": 1,
+          "maximum_matches": 1
+        },
+        "estimated": {
+          "count": 0,
+          "maximum_matches": 0
+        },
+        "oracle": {
+          "count": 1,
+          "maximum_matches": 1
+        }
+      }
+    },
+    "parallel-dev-018": {
+      "expected": 4,
+      "estimated_angle": -38.3,
+      "computed_angle": -38.34839905377351,
+      "views": {
+        "baseline": {
+          "count": 2,
+          "maximum_matches": 2
+        },
+        "estimated": {
+          "count": 2,
+          "maximum_matches": 2
+        },
+        "oracle": {
+          "count": 2,
+          "maximum_matches": 2
+        }
+      }
+    }
+  },
+  "input_sha256": "c5b37848245aa3b560339f96f41dea3333e123a796e7789417fcbf5851f6ec64",
+  "predictions_sha256": "87bacf6f40241d9e278749a23a2ad650cd5c80acbba226276aec1f1723d05006",
+  "interpretation": "Synthetic overlap stress. The oracle uses the known rendering rotation. The automatically estimated angle uses only image pixels. Optional maximum matching measures box assignment ambiguity with ranked AP kept separately."
+}

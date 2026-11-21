@@ -1,0 +1,58 @@
+{
+  "options": null,
+  "orientation_fallback": true,
+  "orientation_minimum_original_iou": 0.5,
+  "orientation_development": {
+    "previous": {
+      "images": 23,
+      "objects": 20,
+      "tp": 15,
+      "fp": 2,
+      "fn": 5,
+      "precision": 0.8823529411764706,
+      "recall": 0.75,
+      "f1": 0.8108108108108107,
+      "ap50": 0.7032420889147739,
+      "ap50_95": 0.3644113325359685,
+      "exact_count": 20,
+      "negative_images": 3,
+      "correct_empty": 3
+    },
+    "proposed": {
+      "images": 23,
+      "objects": 20,
+      "tp": 17,
+      "fp": 2,
+      "fn": 3,
+      "precision": 0.8947368421052632,
+      "recall": 0.85,
+      "f1": 0.8717948717948718,
+      "ap50": 0.8025932624222175,
+      "ap50_95": 0.4063080507520014,
+      "exact_count": 22,
+      "negative_images": 3,
+      "correct_empty": 3
+    },
+    "guard": {
+      "passed": true,
+      "lost_matches": [],
+      "recovered_matches": 2,
+      "baseline_matches": 15,
+      "candidate_matches": 17
+    }
+  },
+  "development_sha256": "96d9163c14a16e743bb7b1ab1eacd3c795793aa8ecdbe7622444256404cdd7c5",
+  "archive_sha256": "c217cd3c3c20986862ed708334137449e10f9c4f42fc6abe7757ab6c3543a9f7",
+  "sources": {
+    "artifacts/detection_hillclimb/appearance_release.json": "6a446005968d3ea7d3f040ebe37fe6702033f5f2ba157194290a2561699cae90",
+    "artifacts/detection_hillclimb/device_context_manifest.json": "e1f1eaf123eb236aa453d014549bb4600e2a1ad8d8035af50b797ed1c3140cbb",
+    "artifacts/detection_hillclimb/medbin_held_out_manifest.json": "d49dff2f45256ad40b9338d2b0864625dc53cb94083137161ff9a33a4235d061",
+    "artifacts/detection_hillclimb/commons_crowds_reserve.json": "16f226c4e9296a808477129fca8e2306c7e230e49bf223d18ea0549269ea3718",
+    "artifacts/detection_hillclimb/natural_deskew_development.json": "e6fc04b82a209436c8917b1108d933f2025fe114cbb96d15309483a0aad96643",
+    "/home/arobin/Work/Repos/MedSyringe-Vision/scripts/detection_transparent_followup.py": "5df7d632c2cedc2b0404fca075fecdf60def6fbe3780733c312003798ae48fb9",
+    "scripts/detection_transparent_recalls.py": "1b19d017e44a50f03a8e9e67464a1fc75884ed6f520027a8fb44667ae95f44df",
+    "scripts/detection_deskew_study.py": "1b6a7601e452710062d3f4aa237d54028b2f43673e2d7209f793fd0070f0b16b"
+  },
+  "precedence": "Keep accepted original boxes. When the original is empty, prefer a restored original vetoed box. A single accepted rotated box can be used only where it agrees with a single originally vetoed box by at least 0.50 IoU.",
+  "acceptance": "Increase the matched-instance count on at least one of two sealed sources: the bench project or four independently sourced Commons scenes. Retain every already matched instance and every correct scene count and add zero false boxes on any scope. The archived sources are regression controls. Neither sealed source is used for tuning."
+}

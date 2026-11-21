@@ -1,0 +1,666 @@
+{
+  "outcomes": {
+    "initial": {
+      "ordinary": {
+        "all": {
+          "ranked": {
+            "images": 60,
+            "objects": 44,
+            "tp": 19,
+            "fp": 92,
+            "fn": 25,
+            "precision": 0.17117117117117117,
+            "recall": 0.4318181818181818,
+            "f1": 0.24516129032258066,
+            "ap50": 0.227665504020925,
+            "ap50_95": 0.1130082594328519,
+            "exact_count": 18,
+            "negative_images": 24,
+            "correct_empty": 8
+          },
+          "suppressed": {
+            "images": 60,
+            "objects": 44,
+            "tp": 19,
+            "fp": 68,
+            "fn": 25,
+            "precision": 0.21839080459770116,
+            "recall": 0.4318181818181818,
+            "f1": 0.29007633587786263,
+            "ap50": 0.2609793488494514,
+            "ap50_95": 0.1207479816045904,
+            "exact_count": 25,
+            "negative_images": 24,
+            "correct_empty": 8
+          }
+        },
+        "dental-development": {
+          "ranked": {
+            "images": 9,
+            "objects": 7,
+            "tp": 4,
+            "fp": 21,
+            "fn": 3,
+            "precision": 0.16,
+            "recall": 0.5714285714285714,
+            "f1": 0.25,
+            "ap50": 0.21776426719250086,
+            "ap50_95": 0.08561041243992831,
+            "exact_count": 1,
+            "negative_images": 5,
+            "correct_empty": 0
+          },
+          "suppressed": {
+            "images": 9,
+            "objects": 7,
+            "tp": 4,
+            "fp": 18,
+            "fn": 3,
+            "precision": 0.18181818181818182,
+            "recall": 0.5714285714285714,
+            "f1": 0.27586206896551724,
+            "ap50": 0.22312611089928763,
+            "ap50_95": 0.06978462997621661,
+            "exact_count": 2,
+            "negative_images": 5,
+            "correct_empty": 0
+          }
+        },
+        "phlebotomy-development": {
+          "ranked": {
+            "images": 40,
+            "objects": 28,
+            "tp": 14,
+            "fp": 48,
+            "fn": 14,
+            "precision": 0.22580645161290322,
+            "recall": 0.5,
+            "f1": 0.3111111111111111,
+            "ap50": 0.3233557734281925,
+            "ap50_95": 0.17634140663130407,
+            "exact_count": 16,
+            "negative_images": 14,
+            "correct_empty": 8
+          },
+          "suppressed": {
+            "images": 40,
+            "objects": 28,
+            "tp": 14,
+            "fp": 33,
+            "fn": 14,
+            "precision": 0.2978723404255319,
+            "recall": 0.5,
+            "f1": 0.3733333333333333,
+            "ap50": 0.405049142181887,
+            "ap50_95": 0.20605659798823325,
+            "exact_count": 20,
+            "negative_images": 14,
+            "correct_empty": 8
+          }
+        },
+        "public-development": {
+          "ranked": {
+            "images": 11,
+            "objects": 9,
+            "tp": 1,
+            "fp": 23,
+            "fn": 8,
+            "precision": 0.041666666666666664,
+            "recall": 0.1111111111111111,
+            "f1": 0.06060606060606061,
+            "ap50": 0.04849768255770653,
+            "ap50_95": 0.017883147027742265,
+            "exact_count": 1,
+            "negative_images": 5,
+            "correct_empty": 0
+          },
+          "suppressed": {
+            "images": 11,
+            "objects": 9,
+            "tp": 1,
+            "fp": 17,
+            "fn": 8,
+            "precision": 0.05555555555555555,
+            "recall": 0.1111111111111111,
+            "f1": 0.07407407407407407,
+            "ap50": 0.054878690571759876,
+            "ap50_95": 0.016587644560756086,
+            "exact_count": 3,
+            "negative_images": 5,
+            "correct_empty": 0
+          }
+        },
+        "median_frame_seconds": 0.21068124900011753
+      },
+      "mosaic": {
+        "all": {
+          "ranked": {
+            "images": 30,
+            "objects": 60,
+            "tp": 22,
+            "fp": 60,
+            "fn": 38,
+            "precision": 0.2682926829268293,
+            "recall": 0.36666666666666664,
+            "f1": 0.30985915492957744,
+            "ap50": 0.19460992707849262,
+            "ap50_95": 0.06341801507038355,
+            "exact_count": 5,
+            "negative_images": 6,
+            "correct_empty": 0
+          },
+          "suppressed": {
+            "images": 30,
+            "objects": 60,
+            "tp": 21,
+            "fp": 44,
+            "fn": 39,
+            "precision": 0.3230769230769231,
+            "recall": 0.35,
+            "f1": 0.33599999999999997,
+            "ap50": 0.21172332561704205,
+            "ap50_95": 0.059314107091371346,
+            "exact_count": 6,
+            "negative_images": 6,
+            "correct_empty": 0
+          }
+        },
+        "median_frame_seconds": 0.2202102739993279
+      },
+      "parallel": {
+        "all": {
+          "ranked": {
+            "images": 18,
+            "objects": 54,
+            "tp": 2,
+            "fp": 0,
+            "fn": 52,
+            "precision": 1.0,
+            "recall": 0.037037037037037035,
+            "f1": 0.07142857142857142,
+            "ap50": 0.6444360942790703,
+            "ap50_95": 0.27193791249766597,
+            "exact_count": 0,
+            "negative_images": 0,
+            "correct_empty": 0
+          },
+          "suppressed": {
+            "images": 18,
+            "objects": 54,
+            "tp": 2,
+            "fp": 0,
+            "fn": 52,
+            "precision": 1.0,
+            "recall": 0.037037037037037035,
+            "f1": 0.07142857142857142,
+            "ap50": 0.48815174400909617,
+            "ap50_95": 0.16978363224777798,
+            "exact_count": 0,
+            "negative_images": 0,
+            "correct_empty": 0
+          },
+          "deskewed": {
+            "images": 18,
+            "objects": 54,
+            "tp": 0,
+            "fp": 0,
+            "fn": 54,
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0,
+            "ap50": 0.7764345838049463,
+            "ap50_95": 0.3271385003046169,
+            "exact_count": 0,
+            "negative_images": 0,
+            "correct_empty": 0
+          }
+        },
+        "median_frame_seconds": 0.5246423350017722
+      }
+    },
+    "separated": {
+      "ordinary": {
+        "all": {
+          "ranked": {
+            "images": 60,
+            "objects": 44,
+            "tp": 17,
+            "fp": 65,
+            "fn": 27,
+            "precision": 0.2073170731707317,
+            "recall": 0.38636363636363635,
+            "f1": 0.2698412698412698,
+            "ap50": 0.257899786810124,
+            "ap50_95": 0.12356227501115957,
+            "exact_count": 28,
+            "negative_images": 24,
+            "correct_empty": 12
+          },
+          "suppressed": {
+            "images": 60,
+            "objects": 44,
+            "tp": 17,
+            "fp": 54,
+            "fn": 27,
+            "precision": 0.23943661971830985,
+            "recall": 0.38636363636363635,
+            "f1": 0.2956521739130435,
+            "ap50": 0.25523144380576523,
+            "ap50_95": 0.11765856520350434,
+            "exact_count": 32,
+            "negative_images": 24,
+            "correct_empty": 12
+          }
+        },
+        "dental-development": {
+          "ranked": {
+            "images": 9,
+            "objects": 7,
+            "tp": 3,
+            "fp": 27,
+            "fn": 4,
+            "precision": 0.1,
+            "recall": 0.42857142857142855,
+            "f1": 0.16216216216216217,
+            "ap50": 0.27956238978045883,
+            "ap50_95": 0.10250489509570264,
+            "exact_count": 1,
+            "negative_images": 5,
+            "correct_empty": 0
+          },
+          "suppressed": {
+            "images": 9,
+            "objects": 7,
+            "tp": 3,
+            "fp": 20,
+            "fn": 4,
+            "precision": 0.13043478260869565,
+            "recall": 0.42857142857142855,
+            "f1": 0.2,
+            "ap50": 0.318811881188119,
+            "ap50_95": 0.09886193014905886,
+            "exact_count": 3,
+            "negative_images": 5,
+            "correct_empty": 0
+          }
+        },
+        "phlebotomy-development": {
+          "ranked": {
+            "images": 40,
+            "objects": 28,
+            "tp": 12,
+            "fp": 25,
+            "fn": 16,
+            "precision": 0.32432432432432434,
+            "recall": 0.42857142857142855,
+            "f1": 0.3692307692307692,
+            "ap50": 0.38799311358747457,
+            "ap50_95": 0.2131173779886993,
+            "exact_count": 22,
+            "negative_images": 14,
+            "correct_empty": 11
+          },
+          "suppressed": {
+            "images": 40,
+            "objects": 28,
+            "tp": 12,
+            "fp": 22,
+            "fn": 16,
+            "precision": 0.35294117647058826,
+            "recall": 0.42857142857142855,
+            "f1": 0.3870967741935484,
+            "ap50": 0.3809220887599814,
+            "ap50_95": 0.21342138932608537,
+            "exact_count": 24,
+            "negative_images": 14,
+            "correct_empty": 11
+          }
+        },
+        "public-development": {
+          "ranked": {
+            "images": 11,
+            "objects": 9,
+            "tp": 2,
+            "fp": 13,
+            "fn": 7,
+            "precision": 0.13333333333333333,
+            "recall": 0.2222222222222222,
+            "f1": 0.16666666666666669,
+            "ap50": 0.11140936315853807,
+            "ap50_95": 0.0575597384093802,
+            "exact_count": 5,
+            "negative_images": 5,
+            "correct_empty": 1
+          },
+          "suppressed": {
+            "images": 11,
+            "objects": 9,
+            "tp": 2,
+            "fp": 12,
+            "fn": 7,
+            "precision": 0.14285714285714285,
+            "recall": 0.2222222222222222,
+            "f1": 0.17391304347826086,
+            "ap50": 0.08654681257599443,
+            "ap50_95": 0.02346330340540525,
+            "exact_count": 5,
+            "negative_images": 5,
+            "correct_empty": 1
+          }
+        },
+        "median_frame_seconds": 0.19730550999884144
+      },
+      "mosaic": {
+        "all": {
+          "ranked": {
+            "images": 30,
+            "objects": 60,
+            "tp": 17,
+            "fp": 80,
+            "fn": 43,
+            "precision": 0.17525773195876287,
+            "recall": 0.2833333333333333,
+            "f1": 0.21656050955414013,
+            "ap50": 0.15269380379011493,
+            "ap50_95": 0.04387092101304586,
+            "exact_count": 2,
+            "negative_images": 6,
+            "correct_empty": 0
+          },
+          "suppressed": {
+            "images": 30,
+            "objects": 60,
+            "tp": 17,
+            "fp": 72,
+            "fn": 43,
+            "precision": 0.19101123595505617,
+            "recall": 0.2833333333333333,
+            "f1": 0.22818791946308722,
+            "ap50": 0.1456987856174754,
+            "ap50_95": 0.03966603436593894,
+            "exact_count": 2,
+            "negative_images": 6,
+            "correct_empty": 0
+          }
+        },
+        "median_frame_seconds": 0.20636399700015318
+      },
+      "parallel": {
+        "all": {
+          "ranked": {
+            "images": 18,
+            "objects": 54,
+            "tp": 29,
+            "fp": 2,
+            "fn": 25,
+            "precision": 0.9354838709677419,
+            "recall": 0.5370370370370371,
+            "f1": 0.6823529411764706,
+            "ap50": 0.7705705601450761,
+            "ap50_95": 0.35062792957533645,
+            "exact_count": 3,
+            "negative_images": 0,
+            "correct_empty": 0
+          },
+          "suppressed": {
+            "images": 18,
+            "objects": 54,
+            "tp": 23,
+            "fp": 1,
+            "fn": 31,
+            "precision": 0.9583333333333334,
+            "recall": 0.42592592592592593,
+            "f1": 0.5897435897435898,
+            "ap50": 0.6114957791611063,
+            "ap50_95": 0.21927253036372202,
+            "exact_count": 0,
+            "negative_images": 0,
+            "correct_empty": 0
+          },
+          "deskewed": {
+            "images": 18,
+            "objects": 54,
+            "tp": 50,
+            "fp": 3,
+            "fn": 4,
+            "precision": 0.9433962264150944,
+            "recall": 0.9259259259259259,
+            "f1": 0.9345794392523364,
+            "ap50": 0.962575333513684,
+            "ap50_95": 0.6079072801458273,
+            "exact_count": 15,
+            "negative_images": 0,
+            "correct_empty": 0
+          }
+        },
+        "median_frame_seconds": 0.7725694329983526
+      }
+    },
+    "overlapping": {
+      "ordinary": {
+        "all": {
+          "ranked": {
+            "images": 60,
+            "objects": 44,
+            "tp": 22,
+            "fp": 76,
+            "fn": 22,
+            "precision": 0.22448979591836735,
+            "recall": 0.5,
+            "f1": 0.30985915492957744,
+            "ap50": 0.2302835359518064,
+            "ap50_95": 0.11749838932646035,
+            "exact_count": 25,
+            "negative_images": 24,
+            "correct_empty": 10
+          },
+          "suppressed": {
+            "images": 60,
+            "objects": 44,
+            "tp": 21,
+            "fp": 60,
+            "fn": 23,
+            "precision": 0.25925925925925924,
+            "recall": 0.4772727272727273,
+            "f1": 0.33599999999999997,
+            "ap50": 0.23208928960017228,
+            "ap50_95": 0.12061757476957738,
+            "exact_count": 29,
+            "negative_images": 24,
+            "correct_empty": 10
+          }
+        },
+        "dental-development": {
+          "ranked": {
+            "images": 9,
+            "objects": 7,
+            "tp": 6,
+            "fp": 27,
+            "fn": 1,
+            "precision": 0.18181818181818182,
+            "recall": 0.8571428571428571,
+            "f1": 0.30000000000000004,
+            "ap50": 0.28642775782002977,
+            "ap50_95": 0.08972893494263182,
+            "exact_count": 1,
+            "negative_images": 5,
+            "correct_empty": 0
+          },
+          "suppressed": {
+            "images": 9,
+            "objects": 7,
+            "tp": 5,
+            "fp": 19,
+            "fn": 2,
+            "precision": 0.20833333333333334,
+            "recall": 0.7142857142857143,
+            "f1": 0.3225806451612903,
+            "ap50": 0.27626179800642614,
+            "ap50_95": 0.09190496262830201,
+            "exact_count": 1,
+            "negative_images": 5,
+            "correct_empty": 0
+          }
+        },
+        "phlebotomy-development": {
+          "ranked": {
+            "images": 40,
+            "objects": 28,
+            "tp": 15,
+            "fp": 33,
+            "fn": 13,
+            "precision": 0.3125,
+            "recall": 0.5357142857142857,
+            "f1": 0.39473684210526316,
+            "ap50": 0.3650806814108281,
+            "ap50_95": 0.2243314130731418,
+            "exact_count": 21,
+            "negative_images": 14,
+            "correct_empty": 9
+          },
+          "suppressed": {
+            "images": 40,
+            "objects": 28,
+            "tp": 15,
+            "fp": 27,
+            "fn": 13,
+            "precision": 0.35714285714285715,
+            "recall": 0.5357142857142857,
+            "f1": 0.4285714285714286,
+            "ap50": 0.37818400407346964,
+            "ap50_95": 0.22998618666939435,
+            "exact_count": 24,
+            "negative_images": 14,
+            "correct_empty": 9
+          }
+        },
+        "public-development": {
+          "ranked": {
+            "images": 11,
+            "objects": 9,
+            "tp": 1,
+            "fp": 16,
+            "fn": 8,
+            "precision": 0.058823529411764705,
+            "recall": 0.1111111111111111,
+            "f1": 0.07692307692307691,
+            "ap50": 0.03320706441001822,
+            "ap50_95": 0.014536068136616334,
+            "exact_count": 3,
+            "negative_images": 5,
+            "correct_empty": 1
+          },
+          "suppressed": {
+            "images": 11,
+            "objects": 9,
+            "tp": 1,
+            "fp": 14,
+            "fn": 8,
+            "precision": 0.06666666666666667,
+            "recall": 0.1111111111111111,
+            "f1": 0.08333333333333334,
+            "ap50": 0.035859863508441364,
+            "ap50_95": 0.013026178516685218,
+            "exact_count": 4,
+            "negative_images": 5,
+            "correct_empty": 1
+          }
+        },
+        "median_frame_seconds": 0.26873138250084594
+      },
+      "mosaic": {
+        "all": {
+          "ranked": {
+            "images": 30,
+            "objects": 60,
+            "tp": 20,
+            "fp": 64,
+            "fn": 40,
+            "precision": 0.23809523809523808,
+            "recall": 0.3333333333333333,
+            "f1": 0.2777777777777778,
+            "ap50": 0.2122885372217449,
+            "ap50_95": 0.06795382951469757,
+            "exact_count": 5,
+            "negative_images": 6,
+            "correct_empty": 0
+          },
+          "suppressed": {
+            "images": 30,
+            "objects": 60,
+            "tp": 19,
+            "fp": 60,
+            "fn": 41,
+            "precision": 0.24050632911392406,
+            "recall": 0.31666666666666665,
+            "f1": 0.2733812949640288,
+            "ap50": 0.21022224283474972,
+            "ap50_95": 0.0623496701622678,
+            "exact_count": 5,
+            "negative_images": 6,
+            "correct_empty": 0
+          }
+        },
+        "median_frame_seconds": 0.2031250195013854
+      },
+      "parallel": {
+        "all": {
+          "ranked": {
+            "images": 18,
+            "objects": 54,
+            "tp": 50,
+            "fp": 47,
+            "fn": 4,
+            "precision": 0.5154639175257731,
+            "recall": 0.9259259259259259,
+            "f1": 0.662251655629139,
+            "ap50": 0.8929303814981098,
+            "ap50_95": 0.6822569073521099,
+            "exact_count": 1,
+            "negative_images": 0,
+            "correct_empty": 0
+          },
+          "suppressed": {
+            "images": 18,
+            "objects": 54,
+            "tp": 34,
+            "fp": 5,
+            "fn": 20,
+            "precision": 0.8717948717948718,
+            "recall": 0.6296296296296297,
+            "f1": 0.7311827956989246,
+            "ap50": 0.7165875031096659,
+            "ap50_95": 0.48761529892561467,
+            "exact_count": 6,
+            "negative_images": 0,
+            "correct_empty": 0
+          },
+          "deskewed": {
+            "images": 18,
+            "objects": 54,
+            "tp": 41,
+            "fp": 1,
+            "fn": 13,
+            "precision": 0.9761904761904762,
+            "recall": 0.7592592592592593,
+            "f1": 0.8541666666666667,
+            "ap50": 0.9384723016777407,
+            "ap50_95": 0.43885841294794153,
+            "exact_count": 8,
+            "negative_images": 0,
+            "correct_empty": 0
+          }
+        },
+        "median_frame_seconds": 0.6022034305005945
+      }
+    }
+  },
+  "score_floor": 0.2,
+  "nms_iou": 0.45,
+  "collection_sha256": {
+    "initial": "a6adeea445c2c64772501335f2e856e625b09c2dd0079627efed487768f1e049",
+    "separated": "bedeaf5e7660e6c3faa556fbdd75581fd14aa1c8f63c87e4698292cc054e720c",
+    "overlapping": "b0885f68bc9f66a891edbdb82fa81a0611c92f359e63598018c5a4e41c35cba6"
+  },
+  "protocol": "Compare three fixed training initializations at the same score floor. The deskewed view is tested on overlap development only. These scenes do not qualify a release."
+}
