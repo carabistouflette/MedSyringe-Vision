@@ -1,0 +1,489 @@
+{
+  "passed": false,
+  "freeze_sha256": "d425aa62d28886018564138d70c8b0d9f1ce19f44ad4cb38c491655017569ea9",
+  "scope": "One acquisition source with unresolved same-specimen dependence. No cross-population precision inference.",
+  "precision_gate": {
+    "previous": {
+      "images": 25,
+      "objects": 14,
+      "tp": 11,
+      "fp": 18,
+      "fn": 3,
+      "precision": 0.3793103448275862,
+      "recall": 0.7857142857142857,
+      "f1": 0.5116279069767441,
+      "ap50": 0.6054898231758661,
+      "ap50_95": 0.3634719713294318,
+      "exact_count": 12,
+      "negative_images": 12,
+      "correct_empty": 2
+    },
+    "candidate": {
+      "images": 25,
+      "objects": 14,
+      "tp": 11,
+      "fp": 3,
+      "fn": 3,
+      "precision": 0.7857142857142857,
+      "recall": 0.7857142857142857,
+      "f1": 0.7857142857142857,
+      "ap50": 0.8188986982378232,
+      "ap50_95": 0.48712388931468437,
+      "exact_count": 21,
+      "negative_images": 12,
+      "correct_empty": 11
+    },
+    "guard": {
+      "passed": true,
+      "lost_matches": [],
+      "recovered_matches": 0,
+      "baseline_matches": 11,
+      "candidate_matches": 11
+    },
+    "new_false_alarm_scenes": [],
+    "errors": {
+      "previous": [
+        {
+          "id": "8tER3srZptCjgm6iwXde",
+          "prediction": {
+            "bbox": [
+              0.26825616624620224,
+              0.45310258865356445,
+              0.7508366902669271,
+              0.714837646484375
+            ],
+            "score": 0.918022626709488
+          },
+          "best_unmatched_iou": 0
+        },
+        {
+          "id": "0t0X6XBBF4iYMYtmvWh7",
+          "prediction": {
+            "bbox": [
+              0.23331654866536458,
+              0.22540160814921062,
+              0.8224232143825955,
+              0.7706704457600911
+            ],
+            "score": 0.9136597592081885
+          },
+          "best_unmatched_iou": 0
+        },
+        {
+          "id": "Ug5TX8ezngBFGLXRuHPj",
+          "prediction": {
+            "bbox": [
+              0.15116298463609484,
+              0.3632921854654948,
+              0.8445205688476562,
+              0.7069066365559895
+            ],
+            "score": 0.9027972045770098
+          },
+          "best_unmatched_iou": 0
+        },
+        {
+          "id": "br0W8fJsxKpS69hk0NbO",
+          "prediction": {
+            "bbox": [
+              0.18693815171718597,
+              0.3533088204141811,
+              0.6635096669197083,
+              0.8564514027758948
+            ],
+            "score": 0.8631868976947028
+          },
+          "best_unmatched_iou": 0
+        },
+        {
+          "id": "5Sz2psHbyzpAdYaMk3qi",
+          "prediction": {
+            "bbox": [
+              0.4458584785461426,
+              0.4784652144820602,
+              0.6621877034505208,
+              0.8919425116644966
+            ],
+            "score": 0.8292112552447739
+          },
+          "best_unmatched_iou": 0
+        },
+        {
+          "id": "WVLWDhoUvG18olHsd6GW",
+          "prediction": {
+            "bbox": [
+              0.35585419336954754,
+              0.4620100233289931,
+              0.7382326126098633,
+              0.6435197900842737
+            ],
+            "score": 0.8140062983775675
+          },
+          "best_unmatched_iou": 0
+        },
+        {
+          "id": "xKUzB2H7yXebWOubN7va",
+          "prediction": {
+            "bbox": [
+              0.5130577170150658,
+              0.20139256119728088,
+              0.8178162812669468,
+              0.7781398296356201
+            ],
+            "score": 0.808556191205252
+          },
+          "best_unmatched_iou": 0
+        },
+        {
+          "id": "W2jQUMn5QSxQnWOhev0R",
+          "prediction": {
+            "bbox": [
+              0.39339030583699547,
+              0.2855235912181713,
+              0.6823310852050781,
+              0.8369824444806134
+            ],
+            "score": 0.7956972246597712
+          },
+          "best_unmatched_iou": 0
+        },
+        {
+          "id": "RU7ZLphLCX6e03k4QQTY",
+          "prediction": {
+            "bbox": [
+              0.24124827980995178,
+              0.31014213644760036,
+              0.7494288682937622,
+              0.4757579546947024
+            ],
+            "score": 0.7886909292428498
+          },
+          "best_unmatched_iou": 0
+        },
+        {
+          "id": "53v7q2SekFX55KCbUTho",
+          "prediction": {
+            "bbox": [
+              0.5475975275039673,
+              0.14477777377643708,
+              0.6800360679626465,
+              0.8594956635911656
+            ],
+            "score": 0.7724312294749748
+          },
+          "best_unmatched_iou": 0.0
+        },
+        {
+          "id": "UCm3uvT1AdT1bFGzUvzG",
+          "prediction": {
+            "bbox": [
+              0.40886610449006916,
+              0.24464745819568634,
+              0.8089980251618425,
+              0.6874138712882996
+            ],
+            "score": 0.7573135995543719
+          },
+          "best_unmatched_iou": 0
+        },
+        {
+          "id": "oYKiqEiYMUhyLAHEomBB",
+          "prediction": {
+            "bbox": [
+              0.392937437693278,
+              0.47373027095088255,
+              0.5088335355122884,
+              0.9358353226273148
+            ],
+            "score": 0.7511438608698043
+          },
+          "best_unmatched_iou": 0
+        },
+        {
+          "id": "WVLWDhoUvG18olHsd6GW",
+          "prediction": {
+            "bbox": [
+              0.25139403343200684,
+              0.7403807463469328,
+              0.7434209187825521,
+              0.866907246907552
+            ],
+            "score": 0.7452786143414908
+          },
+          "best_unmatched_iou": 0
+        },
+        {
+          "id": "oYKiqEiYMUhyLAHEomBB",
+          "prediction": {
+            "bbox": [
+              0.596136474609375,
+              0.42450423064055265,
+              0.68623841603597,
+              0.8701023243091724
+            ],
+            "score": 0.718436852177341
+          },
+          "best_unmatched_iou": 0
+        },
+        {
+          "id": "141xVsrrM3M7FfENCELj",
+          "prediction": {
+            "bbox": [
+              0.1326981196327815,
+              0.6762982020302424,
+              0.27900374881804935,
+              0.8179553803943452
+            ],
+            "score": 0.71234947444594
+          },
+          "best_unmatched_iou": 0.0
+        },
+        {
+          "id": "UCm3uvT1AdT1bFGzUvzG",
+          "prediction": {
+            "bbox": [
+              0.10933858246710192,
+              0.2563619613647461,
+              0.5508907425688042,
+              0.727506160736084
+            ],
+            "score": 0.697436840814225
+          },
+          "best_unmatched_iou": 0
+        },
+        {
+          "id": "53v7q2SekFX55KCbUTho",
+          "prediction": {
+            "bbox": [
+              0.14745882153511047,
+              0.11731460140997829,
+              0.3835660517215729,
+              0.6910226288172789
+            ],
+            "score": 0.6785012898071907
+          },
+          "best_unmatched_iou": 0
+        },
+        {
+          "id": "bVv4oowCJqs5A7DEUUkx",
+          "prediction": {
+            "bbox": [
+              0.6078244950156659,
+              0.5704489388123707,
+              0.8910416935880979,
+              0.9857051305196903
+            ],
+            "score": 0.6772280764893512,
+            "mask_bbox": [
+              0.615060763888889,
+              0.573630401234568,
+              0.8945999710648149,
+              0.9954153806584362
+            ],
+            "mask_area_fraction": 0.03977102557872603,
+            "auxiliary_score": 0.943089485168457,
+            "source": "sam3"
+          },
+          "best_unmatched_iou": 0.48365773091097386
+        }
+      ],
+      "candidate": [
+        {
+          "id": "8tER3srZptCjgm6iwXde",
+          "prediction": {
+            "bbox": [
+              0.26825616624620224,
+              0.45310258865356445,
+              0.7508366902669271,
+              0.714837646484375
+            ],
+            "score": 0.918022626709488
+          },
+          "best_unmatched_iou": 0
+        },
+        {
+          "id": "53v7q2SekFX55KCbUTho",
+          "prediction": {
+            "bbox": [
+              0.14745882153511047,
+              0.11731460140997829,
+              0.3835660517215729,
+              0.6910226288172789
+            ],
+            "score": 0.6785012898071907
+          },
+          "best_unmatched_iou": 0
+        },
+        {
+          "id": "bVv4oowCJqs5A7DEUUkx",
+          "prediction": {
+            "bbox": [
+              0.6078244950156659,
+              0.5704489388123707,
+              0.8910416935880979,
+              0.9857051305196903
+            ],
+            "score": 0.6772280764893512,
+            "mask_bbox": [
+              0.615060763888889,
+              0.573630401234568,
+              0.8945999710648149,
+              0.9954153806584362
+            ],
+            "mask_area_fraction": 0.03977102557872603,
+            "auxiliary_score": 0.943089485168457,
+            "source": "sam3"
+          },
+          "best_unmatched_iou": 0.48365773091097386
+        }
+      ]
+    }
+  },
+  "recovery": {
+    "previous": {
+      "images": 25,
+      "objects": 14,
+      "tp": 11,
+      "fp": 3,
+      "fn": 3,
+      "precision": 0.7857142857142857,
+      "recall": 0.7857142857142857,
+      "f1": 0.7857142857142857,
+      "ap50": 0.8188986982378232,
+      "ap50_95": 0.48712388931468437,
+      "exact_count": 21,
+      "negative_images": 12,
+      "correct_empty": 11
+    },
+    "candidate": {
+      "images": 25,
+      "objects": 14,
+      "tp": 11,
+      "fp": 3,
+      "fn": 3,
+      "precision": 0.7857142857142857,
+      "recall": 0.7857142857142857,
+      "f1": 0.7857142857142857,
+      "ap50": 0.8188986982378232,
+      "ap50_95": 0.48712388931468437,
+      "exact_count": 21,
+      "negative_images": 12,
+      "correct_empty": 11
+    },
+    "guard": {
+      "passed": true,
+      "lost_matches": [],
+      "recovered_matches": 0,
+      "baseline_matches": 11,
+      "candidate_matches": 11
+    },
+    "new_false_alarm_scenes": [],
+    "errors": {
+      "previous": [
+        {
+          "id": "8tER3srZptCjgm6iwXde",
+          "prediction": {
+            "bbox": [
+              0.26825616624620224,
+              0.45310258865356445,
+              0.7508366902669271,
+              0.714837646484375
+            ],
+            "score": 0.918022626709488
+          },
+          "best_unmatched_iou": 0
+        },
+        {
+          "id": "53v7q2SekFX55KCbUTho",
+          "prediction": {
+            "bbox": [
+              0.14745882153511047,
+              0.11731460140997829,
+              0.3835660517215729,
+              0.6910226288172789
+            ],
+            "score": 0.6785012898071907
+          },
+          "best_unmatched_iou": 0
+        },
+        {
+          "id": "bVv4oowCJqs5A7DEUUkx",
+          "prediction": {
+            "bbox": [
+              0.6078244950156659,
+              0.5704489388123707,
+              0.8910416935880979,
+              0.9857051305196903
+            ],
+            "score": 0.6772280764893512,
+            "mask_bbox": [
+              0.615060763888889,
+              0.573630401234568,
+              0.8945999710648149,
+              0.9954153806584362
+            ],
+            "mask_area_fraction": 0.03977102557872603,
+            "auxiliary_score": 0.943089485168457,
+            "source": "sam3"
+          },
+          "best_unmatched_iou": 0.48365773091097386
+        }
+      ],
+      "candidate": [
+        {
+          "id": "8tER3srZptCjgm6iwXde",
+          "prediction": {
+            "bbox": [
+              0.26825616624620224,
+              0.45310258865356445,
+              0.7508366902669271,
+              0.714837646484375
+            ],
+            "score": 0.918022626709488
+          },
+          "best_unmatched_iou": 0
+        },
+        {
+          "id": "53v7q2SekFX55KCbUTho",
+          "prediction": {
+            "bbox": [
+              0.14745882153511047,
+              0.11731460140997829,
+              0.3835660517215729,
+              0.6910226288172789
+            ],
+            "score": 0.6785012898071907
+          },
+          "best_unmatched_iou": 0
+        },
+        {
+          "id": "bVv4oowCJqs5A7DEUUkx",
+          "prediction": {
+            "bbox": [
+              0.6078244950156659,
+              0.5704489388123707,
+              0.8910416935880979,
+              0.9857051305196903
+            ],
+            "score": 0.6772280764893512,
+            "mask_bbox": [
+              0.615060763888889,
+              0.573630401234568,
+              0.8945999710648149,
+              0.9954153806584362
+            ],
+            "mask_area_fraction": 0.03977102557872603,
+            "auxiliary_score": 0.943089485168457,
+            "source": "sam3"
+          },
+          "best_unmatched_iou": 0.48365773091097386
+        }
+      ]
+    }
+  },
+  "crop_study": {
+    "seconds_median": 0.7423287940000591,
+    "possible_before": 14,
+    "possible_after": 6
+  }
+}

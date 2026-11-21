@@ -1,5 +1,8 @@
 {
-  "status": "started",
+  "status": "completed",
+  "seconds": 357.6159292959983,
+  "checkpoint": "data/detection_hillclimb/runs/mask-composite-composite/checkpoint_best_total.pth",
+  "checkpoint_sha256": "35a1f22746b5bbb35b0379f6a8b412ce7d481faba4183bde716979eb7f8b020d",
   "dataset_sha256": "61b475005741d8785fbf1c778e1cb4e89f334d1243f42e676041f967a3ef69e0",
   "warm_start_sha256": "fc047233f3ef5bbc5f42c3bc9c088709d55749acd0c3ae5475dbea53a85cf7f5",
   "configuration": {

@@ -1,0 +1,32 @@
+{
+  "revision": "8393cba6ff802031a4a6eacbf120bda59869685a",
+  "platform": "x86_64",
+  "assets": 43,
+  "asset_bytes": 5986486215,
+  "manifest_sha256": "2d7114eebeaf092114b30025eeabacfc035dc319be7483bfedd203c4fe93a540",
+  "package_content": {
+    ".venv": {
+      "files": 23819,
+      "sha256": "57b58b912e3fb84c599a5952121340d2a67dc38557ef9395ea5e664785eda715"
+    },
+    "data/ocr-v6/env": {
+      "files": 14984,
+      "sha256": "b5530e2f9051bda505826a61210b00113cded7f6cf9faa5da8984d9b4c2935e6"
+    },
+    "data/sam3/xpu-env": {
+      "files": 23909,
+      "sha256": "30c7d96e1fb21fde9fe36a8ed02f66c23a4273f939e9fd605c99d0daf8116f2d"
+    }
+  },
+  "python_binary_sha256": "f7c6210eb40fadcd3c2889dddd24a15fc2c9f926aec5a03bf9da66e12d581526",
+  "restore": "Clean clone with independently copied assets and packaged interpreter, verified from the bundle",
+  "tests": {
+    "passed": 59,
+    "failed": 0
+  },
+  "evidence": {
+    "restored_browser_8393cba.json": "025dbcdf92a476f347939e8e770c19a51623feccd79955be74eb419bc8cd9c0c",
+    "current_runtime_cpu.json": "011e3b3f2f6b3b270ee083d593823daba8249c74dd655e7bd9bc76ea03091fd5",
+    "current_runtime_xpu.json": "ce17943f8b9532120e5a8923fcfa660000cd4d474d481d20f87142b93fadb9a2"
+  }
+}

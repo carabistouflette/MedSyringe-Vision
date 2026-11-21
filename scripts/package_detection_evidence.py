@@ -17,6 +17,7 @@ from scripts.expanded_detection_study import short
 from scripts.runtime_bundle import confined, copy_bytes, git_revision
 
 PUBLIC = ("fresh","commons-regression","openimages","lookalikes","independent-negatives")
+NATIVE = "native-device"
 MANIFEST = "precision-evidence.json"
 
 
@@ -26,7 +27,33 @@ def expected_metrics():
     return result
 
 
-def pack(destination,include_capture):
+def archived_rasters(staging, rows):
+    assets = {}
+    for row in rows:
+        local = Path("data")/confined(row["image"])
+        checksum = row.get("derived_sha256", row["sha256"])
+        if digest(local)!=checksum:
+            raise ValueError(f"Public raster {row['id']} differs from its benchmark version.")
+        if not row.get("license") or not row.get("source_url"):
+            raise ValueError(f"Public raster {row['id']} lacks attribution metadata.")
+        assets[str(local)] = checksum
+        if not (staging/local).exists():
+            copy_bytes(local,staging/local)
+    return assets
+
+
+def native_audit(staging):
+    from scripts.detection_device_scene_audit import CACHE, LOCK, OUTPUT, frozen
+
+    expected = read_json(OUTPUT)
+    if digest(CACHE) != expected["observations_sha256"] or digest(LOCK) != expected["freeze_sha256"]:
+        raise ValueError("The exact native device observations differ from the recorded audit.")
+    rows = frozen()
+    return dict(rows=rows, raster_sha256=archived_rasters(staging, rows),
+                observations=read_json(CACHE)["frames"], expected=expected["scopes"])
+
+
+def pack(destination,include_capture,include_native=False):
     if destination.exists():
         raise FileExistsError(destination)
     release = read_json(RELEASE)
@@ -39,18 +66,7 @@ def pack(destination,include_capture):
         roles = {}
         for name in (*PUBLIC,*CAPTURE) if include_capture else PUBLIC:
             rows,before,after = old_records(name)
-            assets = {}
-            if name not in CAPTURE:
-                for row in rows:
-                    local = Path("data")/confined(row["image"])
-                    checksum = row.get("derived_sha256", row["sha256"])
-                    if digest(local)!=checksum:
-                        raise ValueError(f"Public raster {row['id']} differs from its benchmark version.")
-                    if not row.get("license") or not row.get("source_url"):
-                        raise ValueError(f"Public raster {row['id']} lacks attribution metadata.")
-                    assets[str(local)] = checksum
-                    if not (staging/local).exists():
-                        copy_bytes(local,staging/local)
+            assets = {} if name in CAPTURE else archived_rasters(staging, rows)
             relative = Path("cohorts")/f"{name}.json"
             write_json(staging/relative,dict(
                 rows=rows, raster_sha256=assets, floor=floor,
@@ -58,6 +74,10 @@ def pack(destination,include_capture):
                 expected={k:expected[name][k] for k in ("previous","candidate")},
             ))
             roles[name] = dict(path=str(relative),sha256=digest(staging/relative))
+        if include_native:
+            relative = Path("cohorts")/f"{NATIVE}.json"
+            write_json(staging/relative,native_audit(staging))
+            roles[NATIVE] = dict(path=str(relative),sha256=digest(staging/relative))
         evidence = {}
         for path in (RELEASE,METRICS,NEGATIVE_METRICS,ART/"precision_negative_manifest.json",
                      ART/"consensus_audit_manifest.json"):
@@ -90,6 +110,9 @@ def replay(bundle, originals=None):
         for raster,check in cohort["raster_sha256"].items():
             if digest(bundle/confined(raster))!=check:
                 raise ValueError(f"Changed source raster {raster}.")
+        if name == NATIVE:
+            findings[name] = replay_native(cohort)
+            continue
         if originals is not None and name in CAPTURE:
             for row in rows:
                 if digest(originals/confined(row["file"]))!=row["sha256"]:
@@ -119,14 +142,29 @@ def replay(bundle, originals=None):
     return findings
 
 
+def replay_native(cohort):
+    from scripts.detection_device_scene_audit import score
+
+    rows = cohort["rows"]
+    scopes = {"all": rows, "multi": [r for r in rows if len(r["objects"]) > 1],
+              "single": [r for r in rows if len(r["objects"]) == 1]}
+    calculated = {name: score(references, cohort["observations"]) for name, references in scopes.items()}
+    if calculated != cohort["expected"]:
+        raise ValueError("Native device scores differ from the sealed benchmark.")
+    print(NATIVE, "match", calculated["all"]["released"]["tp"], "TP",
+          calculated["all"]["released"]["fp"], "FP", flush=True)
+    return calculated
+
+
 if __name__=="__main__":
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument("action",choices=("pack","replay"))
     parser.add_argument("directory",type=Path)
     parser.add_argument("--include-capture-metadata",action="store_true")
+    parser.add_argument("--include-native-device-audit",action="store_true")
     parser.add_argument("--original-capture",type=Path)
     args = parser.parse_args()
     if args.action=="pack":
-        pack(args.directory.resolve(),args.include_capture_metadata)
+        pack(args.directory.resolve(),args.include_capture_metadata,args.include_native_device_audit)
     else:
         replay(args.directory.resolve(),args.original_capture)

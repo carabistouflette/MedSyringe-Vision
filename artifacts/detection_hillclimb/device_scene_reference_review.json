@@ -1,0 +1,587 @@
+{
+  "candidates_sha256": "db229bc97c1af3e1c68285eab90bc107819c403893656e47858ae6c9389d1cc3",
+  "references": {
+    "fr4KaYX2NdrKAcwFd4Sh": {
+      "objects": [
+        {
+          "kind": "syringe",
+          "bbox": [
+            0.35938,
+            0.03125,
+            0.45312,
+            0.20833
+          ]
+        },
+        {
+          "kind": "syringe",
+          "bbox": [
+            0.17773,
+            0.34375,
+            0.24414,
+            0.48611
+          ]
+        },
+        {
+          "kind": "syringe",
+          "bbox": [
+            0.27734,
+            0.29861,
+            0.40234,
+            0.375
+          ]
+        },
+        {
+          "kind": "syringe",
+          "bbox": [
+            0.2793,
+            0.35764,
+            0.39844,
+            0.44444
+          ]
+        },
+        {
+          "kind": "syringe",
+          "bbox": [
+            0.27344,
+            0.46528,
+            0.39844,
+            0.59722
+          ]
+        },
+        {
+          "kind": "syringe",
+          "bbox": [
+            0.4082,
+            0.41667,
+            0.51367,
+            0.64583
+          ]
+        }
+      ],
+      "review": "All six visible syringe bodies were independently marked before inference. Hands sometimes cover part of an identifiable body.",
+      "scene": "multiple visible syringes"
+    },
+    "Gu84gAdw3JXDHshiDkll": {
+      "objects": [
+        {
+          "kind": "syringe",
+          "bbox": [
+            0.35938,
+            0.03125,
+            0.45312,
+            0.20833
+          ]
+        },
+        {
+          "kind": "syringe",
+          "bbox": [
+            0.27539,
+            0.29861,
+            0.4082,
+            0.375
+          ]
+        },
+        {
+          "kind": "syringe",
+          "bbox": [
+            0.17578,
+            0.34028,
+            0.24219,
+            0.54514
+          ]
+        },
+        {
+          "kind": "syringe",
+          "bbox": [
+            0.41406,
+            0.40972,
+            0.51367,
+            0.62847
+          ]
+        },
+        {
+          "kind": "syringe",
+          "bbox": [
+            0.5,
+            0.43056,
+            0.56445,
+            0.59028
+          ]
+        },
+        {
+          "kind": "syringe",
+          "bbox": [
+            0.53906,
+            0.50694,
+            0.62891,
+            0.67361
+          ]
+        }
+      ],
+      "review": "All six visible syringe bodies were independently marked before inference. Hands sometimes cover part of an identifiable body.",
+      "scene": "multiple visible syringes"
+    },
+    "cAH0yS3Ek6AXSKQFTBij": {
+      "objects": [
+        {
+          "kind": "syringe",
+          "bbox": [
+            0.29688,
+            0.25347,
+            0.42188,
+            0.32986
+          ]
+        },
+        {
+          "kind": "syringe",
+          "bbox": [
+            0.50586,
+            0.25694,
+            0.64648,
+            0.41667
+          ]
+        },
+        {
+          "kind": "syringe",
+          "bbox": [
+            0.47266,
+            0.37847,
+            0.58984,
+            0.51042
+          ]
+        },
+        {
+          "kind": "syringe",
+          "bbox": [
+            0.34375,
+            0.44792,
+            0.42969,
+            0.64236
+          ]
+        },
+        {
+          "kind": "syringe",
+          "bbox": [
+            0.375,
+            0.53819,
+            0.45898,
+            0.75
+          ]
+        },
+        {
+          "kind": "syringe",
+          "bbox": [
+            0.50586,
+            0.56597,
+            0.64648,
+            0.76389
+          ]
+        }
+      ],
+      "review": "All six visible syringe bodies were independently marked before inference. Hands sometimes cover part of an identifiable body.",
+      "scene": "multiple visible syringes"
+    },
+    "jr20FHtsKJzKzcGrzaW6": {
+      "objects": [
+        {
+          "kind": "syringe",
+          "bbox": [
+            0.17773,
+            0.45833,
+            0.24805,
+            0.70833
+          ]
+        },
+        {
+          "kind": "syringe",
+          "bbox": [
+            0.26953,
+            0.41667,
+            0.34961,
+            0.59375
+          ]
+        },
+        {
+          "kind": "syringe",
+          "bbox": [
+            0.35352,
+            0.42708,
+            0.39453,
+            0.65972
+          ]
+        },
+        {
+          "kind": "syringe",
+          "bbox": [
+            0.43164,
+            0.34375,
+            0.51758,
+            0.54861
+          ]
+        },
+        {
+          "kind": "syringe",
+          "bbox": [
+            0.4668,
+            0.42708,
+            0.5625,
+            0.6875
+          ]
+        },
+        {
+          "kind": "syringe",
+          "bbox": [
+            0.16797,
+            0.64583,
+            0.2793,
+            0.85764
+          ]
+        }
+      ],
+      "review": "All six visible syringe bodies were independently marked before inference. Hands sometimes cover part of an identifiable body.",
+      "scene": "multiple visible syringes"
+    },
+    "CrJcZCeB4ZWH4gQXgTe0": {
+      "objects": [
+        {
+          "kind": "syringe",
+          "bbox": [
+            0.35938,
+            0.03125,
+            0.45312,
+            0.20833
+          ]
+        },
+        {
+          "kind": "syringe",
+          "bbox": [
+            0.27734,
+            0.29514,
+            0.4082,
+            0.375
+          ]
+        },
+        {
+          "kind": "syringe",
+          "bbox": [
+            0.17969,
+            0.20833,
+            0.24219,
+            0.35417
+          ]
+        },
+        {
+          "kind": "syringe",
+          "bbox": [
+            0.24609,
+            0.39931,
+            0.38867,
+            0.52083
+          ]
+        },
+        {
+          "kind": "syringe",
+          "bbox": [
+            0.23828,
+            0.57639,
+            0.375,
+            0.6875
+          ]
+        },
+        {
+          "kind": "syringe",
+          "bbox": [
+            0.44531,
+            0.52083,
+            0.55469,
+            0.69444
+          ]
+        }
+      ],
+      "review": "All six visible syringe bodies were independently marked before inference. Hands sometimes cover part of an identifiable body.",
+      "scene": "multiple visible syringes"
+    },
+    "o9AYkyLGkkJAojPxdift": {
+      "objects": [
+        {
+          "kind": "syringe",
+          "bbox": [
+            0.45902,
+            0.45622,
+            0.56557,
+            0.60829
+          ]
+        }
+      ],
+      "review": "One syringe body can be identified in the native source before inference.",
+      "scene": "one visible syringe"
+    },
+    "FZF2KIrTmT8m7knJ9kE6": {
+      "objects": [
+        {
+          "kind": "syringe",
+          "bbox": [
+            0.32787,
+            0.26728,
+            0.7541,
+            0.77419
+          ]
+        }
+      ],
+      "review": "One syringe body can be identified in the native source before inference.",
+      "scene": "one visible syringe"
+    },
+    "g3F5OKZHw8L86xNEcMxy": {
+      "objects": [
+        {
+          "kind": "syringe",
+          "bbox": [
+            0.22951,
+            0.40553,
+            0.36066,
+            0.59447
+          ]
+        }
+      ],
+      "review": "One syringe body can be identified in the native source before inference.",
+      "scene": "one visible syringe"
+    },
+    "gpkWGmq3Z9SFaeptYTPh": {
+      "objects": [
+        {
+          "kind": "syringe",
+          "bbox": [
+            0.36066,
+            0.31797,
+            0.5082,
+            0.59447
+          ]
+        }
+      ],
+      "review": "One syringe body can be identified in the native source before inference.",
+      "scene": "one visible syringe"
+    },
+    "1yxvIQVR5Vw1SC72PT3s": {
+      "objects": [
+        {
+          "kind": "syringe",
+          "bbox": [
+            0.37705,
+            0.1659,
+            0.65574,
+            0.79724
+          ]
+        }
+      ],
+      "review": "One syringe body can be identified in the native source before inference.",
+      "scene": "one visible syringe"
+    },
+    "XmkgUaQylXde9DBya7wc": {
+      "objects": [
+        {
+          "kind": "syringe",
+          "bbox": [
+            0.37705,
+            0.3871,
+            0.54918,
+            0.64977
+          ]
+        }
+      ],
+      "review": "One syringe body can be identified in the native source before inference.",
+      "scene": "one visible syringe"
+    },
+    "UxP8kr90cgqTrqpti0qw": {
+      "objects": [
+        {
+          "kind": "syringe",
+          "bbox": [
+            0.09016,
+            0.11982,
+            0.31967,
+            0.7235
+          ]
+        }
+      ],
+      "review": "One syringe body can be identified in the native source before inference.",
+      "scene": "one visible syringe"
+    },
+    "OTbTwloPcV4T8QdOV5VU": {
+      "objects": [
+        {
+          "kind": "syringe",
+          "bbox": [
+            0.27869,
+            0.45161,
+            0.42623,
+            0.60829
+          ]
+        }
+      ],
+      "review": "One syringe body can be identified in the native source before inference.",
+      "scene": "one visible syringe"
+    },
+    "iHVnBznVS26Sw7QmoHnw": {
+      "objects": [
+        {
+          "kind": "syringe",
+          "bbox": [
+            0.40984,
+            0.53456,
+            0.51639,
+            0.68203
+          ]
+        }
+      ],
+      "review": "One syringe body can be identified in the native source before inference.",
+      "scene": "one visible syringe"
+    },
+    "QRR4A3cC2VjJf5K914hZ": {
+      "objects": [
+        {
+          "kind": "syringe",
+          "bbox": [
+            0.27049,
+            0.18433,
+            0.69672,
+            0.60829
+          ]
+        }
+      ],
+      "review": "One syringe body can be identified in the native source before inference.",
+      "scene": "one visible syringe"
+    },
+    "abU6WlJF9aWAHoICBdFE": {
+      "objects": [
+        {
+          "kind": "syringe",
+          "bbox": [
+            0.13934,
+            0.30876,
+            0.41803,
+            0.72811
+          ]
+        }
+      ],
+      "review": "One syringe body can be identified in the native source before inference.",
+      "scene": "one visible syringe"
+    },
+    "J1IEnqIuv3wf5ASu2Eoe": {
+      "objects": [
+        {
+          "kind": "syringe",
+          "bbox": [
+            0.40984,
+            0.58065,
+            0.55738,
+            0.70046
+          ]
+        }
+      ],
+      "review": "One syringe body can be identified in the native source before inference.",
+      "scene": "one visible syringe"
+    },
+    "51d8xdDRo1ax8DP16RUk": {
+      "objects": [
+        {
+          "kind": "syringe",
+          "bbox": [
+            0.21311,
+            0.21198,
+            0.69672,
+            0.69124
+          ]
+        }
+      ],
+      "review": "One syringe body can be identified in the native source before inference.",
+      "scene": "one visible syringe"
+    },
+    "AM0xCgiooqXHYmoktJC3": {
+      "objects": [
+        {
+          "kind": "syringe",
+          "bbox": [
+            0.35246,
+            0.2765,
+            0.68852,
+            0.76498
+          ]
+        }
+      ],
+      "review": "One syringe body can be identified in the native source before inference.",
+      "scene": "one visible syringe"
+    },
+    "RfvUNxOIFEQ3zkChtCOr": {
+      "objects": [
+        {
+          "kind": "syringe",
+          "bbox": [
+            0.06557,
+            0.40092,
+            0.70492,
+            0.64977
+          ]
+        }
+      ],
+      "review": "One syringe body can be identified in the native source before inference.",
+      "scene": "one visible syringe"
+    },
+    "fwWFOHCBJuheupAYRxwJ": {
+      "objects": [
+        {
+          "kind": "syringe",
+          "bbox": [
+            0.2541,
+            0.33641,
+            0.46721,
+            0.59447
+          ]
+        }
+      ],
+      "review": "One syringe body can be identified in the native source before inference.",
+      "scene": "one visible syringe"
+    },
+    "coTNVlK0faqmtQuZLK4F": {
+      "objects": [
+        {
+          "kind": "syringe",
+          "bbox": [
+            0.09016,
+            0.2765,
+            0.39344,
+            0.68203
+          ]
+        }
+      ],
+      "review": "One syringe body can be identified in the native source before inference.",
+      "scene": "one visible syringe"
+    },
+    "YeamwalY1KG8aKOY8miG": {
+      "objects": [
+        {
+          "kind": "syringe",
+          "bbox": [
+            0.51639,
+            0.35023,
+            0.66393,
+            0.58065
+          ]
+        }
+      ],
+      "review": "One syringe body can be identified in the native source before inference.",
+      "scene": "one visible syringe"
+    }
+  },
+  "excluded": {
+    "UqDmlaRHOIW5F4I0QVd6": "Hand occlusion makes the visible extent or the number of individual syringes ambiguous.",
+    "0YsTkgaXS50WIXi8LJ95": "Hand occlusion makes the visible extent or the number of individual syringes ambiguous.",
+    "AAaEl4UUpLJbiRsDH0sL": "Hand occlusion makes the visible extent or the number of individual syringes ambiguous.",
+    "cfC6mVk5BoZwitRqFTfq": "Hand occlusion makes the visible extent or the number of individual syringes ambiguous.",
+    "mXwSuvfS6WOakjHLrcQG": "Hand occlusion makes the visible extent or the number of individual syringes ambiguous.",
+    "JNz0MBaIJa71iCFiJSmX": "Hand occlusion makes the visible extent or the number of individual syringes ambiguous.",
+    "nXapRWgARTs6ByL31suV": "Hand occlusion makes the visible extent or the number of individual syringes ambiguous.",
+    "cXB7vzpcYT9HoyxTgYDm": "Hand occlusion makes the visible extent or the number of individual syringes ambiguous.",
+    "HrbVXQBThc7Dhh24cVMm": "Hand occlusion makes the visible extent or the number of individual syringes ambiguous."
+  },
+  "convention": "Mark the visible device body including visible plunger and attached cap. Exclude unsupported hidden extension, shadows, and bare needle length. Read images without forecasts."
+}

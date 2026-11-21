@@ -1,0 +1,225 @@
+{
+  "baseline": {
+    "phlebotomy-development": {
+      "tp": 10,
+      "fp": 2,
+      "fn": 18,
+      "ap75": 0.1914191419141914,
+      "map": 0.1797854785478548,
+      "median_mask_seconds": 0.69758265100063
+    },
+    "public-development": {
+      "tp": 2,
+      "fp": 1,
+      "fn": 7,
+      "ap75": 0.0,
+      "map": 0.0759075907590759,
+      "median_mask_seconds": 3.3429775094991783
+    }
+  },
+  "trials": 54,
+  "qualified_on_development": 52,
+  "settings": [
+    "minimum_mask_quality",
+    "minimum_old_box_iou",
+    "mask_blend",
+    "padding_index"
+  ],
+  "paddings": [
+    0.0,
+    0.15
+  ],
+  "best": [
+    {
+      "choice": [
+        0.65,
+        0.8,
+        0.5,
+        0
+      ],
+      "scopes": {
+        "phlebotomy-development": {
+          "tp": 10,
+          "fp": 2,
+          "fn": 18,
+          "ap75": 0.24504950495049505,
+          "map": 0.19656215621562156,
+          "guard": {
+            "passed": true,
+            "lost_matches": [],
+            "recovered_matches": 0,
+            "baseline_matches": 10,
+            "candidate_matches": 10
+          }
+        },
+        "public-development": {
+          "tp": 2,
+          "fp": 1,
+          "fn": 7,
+          "ap75": 0.0594059405940594,
+          "map": 0.08184818481848184,
+          "guard": {
+            "passed": true,
+            "lost_matches": [],
+            "recovered_matches": 0,
+            "baseline_matches": 2,
+            "candidate_matches": 2
+          }
+        }
+      }
+    },
+    {
+      "choice": [
+        0.8,
+        0.8,
+        0.5,
+        0
+      ],
+      "scopes": {
+        "phlebotomy-development": {
+          "tp": 10,
+          "fp": 2,
+          "fn": 18,
+          "ap75": 0.24504950495049505,
+          "map": 0.19656215621562156,
+          "guard": {
+            "passed": true,
+            "lost_matches": [],
+            "recovered_matches": 0,
+            "baseline_matches": 10,
+            "candidate_matches": 10
+          }
+        },
+        "public-development": {
+          "tp": 2,
+          "fp": 1,
+          "fn": 7,
+          "ap75": 0.0594059405940594,
+          "map": 0.08184818481848184,
+          "guard": {
+            "passed": true,
+            "lost_matches": [],
+            "recovered_matches": 0,
+            "baseline_matches": 2,
+            "candidate_matches": 2
+          }
+        }
+      }
+    },
+    {
+      "choice": [
+        0.65,
+        0.45,
+        0.5,
+        0
+      ],
+      "scopes": {
+        "phlebotomy-development": {
+          "tp": 10,
+          "fp": 2,
+          "fn": 18,
+          "ap75": 0.24504950495049505,
+          "map": 0.18945544554455446,
+          "guard": {
+            "passed": true,
+            "lost_matches": [],
+            "recovered_matches": 0,
+            "baseline_matches": 10,
+            "candidate_matches": 10
+          }
+        },
+        "public-development": {
+          "tp": 2,
+          "fp": 1,
+          "fn": 7,
+          "ap75": 0.0594059405940594,
+          "map": 0.08184818481848184,
+          "guard": {
+            "passed": true,
+            "lost_matches": [],
+            "recovered_matches": 0,
+            "baseline_matches": 2,
+            "candidate_matches": 2
+          }
+        }
+      }
+    },
+    {
+      "choice": [
+        0.65,
+        0.65,
+        0.5,
+        0
+      ],
+      "scopes": {
+        "phlebotomy-development": {
+          "tp": 10,
+          "fp": 2,
+          "fn": 18,
+          "ap75": 0.24504950495049505,
+          "map": 0.18945544554455446,
+          "guard": {
+            "passed": true,
+            "lost_matches": [],
+            "recovered_matches": 0,
+            "baseline_matches": 10,
+            "candidate_matches": 10
+          }
+        },
+        "public-development": {
+          "tp": 2,
+          "fp": 1,
+          "fn": 7,
+          "ap75": 0.0594059405940594,
+          "map": 0.08184818481848184,
+          "guard": {
+            "passed": true,
+            "lost_matches": [],
+            "recovered_matches": 0,
+            "baseline_matches": 2,
+            "candidate_matches": 2
+          }
+        }
+      }
+    },
+    {
+      "choice": [
+        0.8,
+        0.45,
+        0.5,
+        0
+      ],
+      "scopes": {
+        "phlebotomy-development": {
+          "tp": 10,
+          "fp": 2,
+          "fn": 18,
+          "ap75": 0.24504950495049505,
+          "map": 0.18945544554455446,
+          "guard": {
+            "passed": true,
+            "lost_matches": [],
+            "recovered_matches": 0,
+            "baseline_matches": 10,
+            "candidate_matches": 10
+          }
+        },
+        "public-development": {
+          "tp": 2,
+          "fp": 1,
+          "fn": 7,
+          "ap75": 0.0594059405940594,
+          "map": 0.08184818481848184,
+          "guard": {
+            "passed": true,
+            "lost_matches": [],
+            "recovered_matches": 0,
+            "baseline_matches": 2,
+            "candidate_matches": 2
+          }
+        }
+      }
+    }
+  ],
+  "scope": "Accepted input boxes only. No change to automatic counts. The comparison uses only development data and a locked class-agnostic SAM 3 checkpoint."
+}

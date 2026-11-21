@@ -1,0 +1,14 @@
+{
+  "inputs": {
+    "/home/arobin/Work/Repos/MedSyringe-Vision/scripts/detection_device_scene_audit.py": "e8fbb81dfef256bd6f0446a254b3e9879da0b9b9c419f4c6daff8cb60021abc5",
+    "artifacts/detection_hillclimb/device_scene_manifest.json": "f8f927641d910c6f8c03dedf57a8fc70069e3a119fcb3bc91b19a4b8ec68074b",
+    "artifacts/expanded/crop_verifier_release.json": "24467cdc561e12a778067561439a33ecddb85ee57d4d92ce716228e517e64c00",
+    "artifacts/detection_hillclimb/appearance_release.json": "d9f0a449f448e0f04116a5b813463ffc1971fc96d132332b2c08ae4f40fdce10",
+    "medsyringe/pipeline.py": "57b70f3c7ac346f1e69b7bbc7b6322bdf280fc32132bbda856c04b7d9dfbb87a",
+    "medsyringe/inference.py": "4a52c2d5ed16d473a99d12b013c64dfed4bf73c7a7b5c83b5a3db58545c0b568",
+    "medsyringe/detection_checks.py": "d90a633815eb70ff31755cbf8ef657f33ba71580474677f96d1db690969b378d"
+  },
+  "primary": "Exact visible object count, overall and on multi-device frames.",
+  "secondary": "Matched instance precision and recall at IoU 0.50, absolute count error and candidate reach of the observed human-review interface.",
+  "protocol": "Run the shipped engine with its fixed detector operating point. Compare its accepted boxes with the former appearance policy before the SigLIP veto. This is one acquisition source. No operating point selection or tuning."
+}

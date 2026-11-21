@@ -1,0 +1,68 @@
+{
+  "dataset_sha256": "61b475005741d8785fbf1c778e1cb4e89f334d1243f42e676041f967a3ef69e0",
+  "outcomes": {
+    "repeated": {
+      "simulator_validation": {
+        "F1": 0.6399999856948853,
+        "mAP_50": 0.5343164801597595,
+        "mAP_50_95": 0.31816366314888,
+        "mAP_75": 0.3669133186340332,
+        "mAR": 0.5714285969734192,
+        "precision": 0.7272727489471436,
+        "recall": 0.5714285969734192,
+        "segm_mAP_50": 0.6341487169265747,
+        "segm_mAP_50_95": 0.2300882488489151
+      },
+      "inference_seconds_median": 0.4190989915005048,
+      "public_development": {
+        "images": 11,
+        "objects": 9,
+        "tp": 0,
+        "fp": 13,
+        "fn": 9,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "ap50": 0.010639775712265103,
+        "ap50_95": 0.0031888903176031888,
+        "exact_count": 2,
+        "negative_images": 5,
+        "correct_empty": 2
+      },
+      "checkpoint_sha256": "706d20c6f6f4a2579cb68197889d6fdffcdf306feeec4c2e54cb5aa5d9fe537f",
+      "training_seconds": 423.20742704299846
+    },
+    "composite": {
+      "simulator_validation": {
+        "F1": 0.5199999809265137,
+        "mAP_50": 0.42741161584854126,
+        "mAP_50_95": 0.20869623124599457,
+        "mAP_75": 0.20709793269634247,
+        "mAR": 0.6178571581840515,
+        "precision": 0.5909090638160706,
+        "recall": 0.4642857015132904,
+        "segm_mAP_50": 0.5033014416694641,
+        "segm_mAP_50_95": 0.18356631696224213
+      },
+      "inference_seconds_median": 0.398878757001512,
+      "public_development": {
+        "images": 11,
+        "objects": 9,
+        "tp": 0,
+        "fp": 17,
+        "fn": 9,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "ap50": 0.02777570990181725,
+        "ap50_95": 0.010497757395853699,
+        "exact_count": 1,
+        "negative_images": 5,
+        "correct_empty": 1
+      },
+      "checkpoint_sha256": "35a1f22746b5bbb35b0379f6a8b412ce7d481faba4183bde716979eb7f8b020d",
+      "training_seconds": 357.6159292959983
+    }
+  },
+  "scope": "One seed, one matched CPU epoch. Public development is a distinct photo group. The 0.20 score is a diagnostic operating point. Neither model was selected using reserve data."
+}

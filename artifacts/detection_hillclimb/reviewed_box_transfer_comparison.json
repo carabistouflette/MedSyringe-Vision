@@ -1,0 +1,492 @@
+{
+  "dataset_sha256": "04ad03398ecfb21dc7a6604d57b9a5ca6a5608a003887bbd7adfcd3d4e18fe6d",
+  "matched_arms": {
+    "repeat-real": {
+      "scored": {
+        "whole": {
+          "development_upper_bound_threshold": 0.20414653420448303,
+          "domains": {
+            "dental-development": {
+              "common_floor": {
+                "images": 9,
+                "objects": 7,
+                "tp": 4,
+                "fp": 12,
+                "fn": 3,
+                "precision": 0.25,
+                "recall": 0.5714285714285714,
+                "f1": 0.34782608695652173,
+                "ap50": 0.26762091780393654,
+                "ap50_95": 0.046440309602175836,
+                "exact_count": 3,
+                "negative_images": 5,
+                "correct_empty": 1
+              },
+              "development_upper_bound": {
+                "images": 9,
+                "objects": 7,
+                "tp": 4,
+                "fp": 12,
+                "fn": 3,
+                "precision": 0.25,
+                "recall": 0.5714285714285714,
+                "f1": 0.34782608695652173,
+                "ap50": 0.26762091780393654,
+                "ap50_95": 0.046440309602175836,
+                "exact_count": 3,
+                "negative_images": 5,
+                "correct_empty": 1
+              }
+            },
+            "phlebotomy-development": {
+              "common_floor": {
+                "images": 40,
+                "objects": 28,
+                "tp": 4,
+                "fp": 11,
+                "fn": 24,
+                "precision": 0.26666666666666666,
+                "recall": 0.14285714285714285,
+                "f1": 0.18604651162790697,
+                "ap50": 0.06533971930265978,
+                "ap50_95": 0.020516949175358908,
+                "exact_count": 20,
+                "negative_images": 14,
+                "correct_empty": 13
+              },
+              "development_upper_bound": {
+                "images": 40,
+                "objects": 28,
+                "tp": 4,
+                "fp": 11,
+                "fn": 24,
+                "precision": 0.26666666666666666,
+                "recall": 0.14285714285714285,
+                "f1": 0.18604651162790697,
+                "ap50": 0.06533971930265978,
+                "ap50_95": 0.020516949175358908,
+                "exact_count": 20,
+                "negative_images": 14,
+                "correct_empty": 13
+              }
+            },
+            "public-development": {
+              "common_floor": {
+                "images": 11,
+                "objects": 9,
+                "tp": 2,
+                "fp": 11,
+                "fn": 7,
+                "precision": 0.15384615384615385,
+                "recall": 0.2222222222222222,
+                "f1": 0.18181818181818185,
+                "ap50": 0.07507425742574259,
+                "ap50_95": 0.018136140329209634,
+                "exact_count": 4,
+                "negative_images": 5,
+                "correct_empty": 2
+              },
+              "development_upper_bound": {
+                "images": 11,
+                "objects": 9,
+                "tp": 2,
+                "fp": 10,
+                "fn": 7,
+                "precision": 0.16666666666666666,
+                "recall": 0.2222222222222222,
+                "f1": 0.1904761904761905,
+                "ap50": 0.07507425742574259,
+                "ap50_95": 0.018136140329209634,
+                "exact_count": 4,
+                "negative_images": 5,
+                "correct_empty": 2
+              }
+            }
+          }
+        },
+        "wide": {
+          "development_upper_bound_threshold": 0.20255762338638306,
+          "domains": {
+            "dental-development": {
+              "common_floor": {
+                "images": 9,
+                "objects": 7,
+                "tp": 5,
+                "fp": 18,
+                "fn": 2,
+                "precision": 0.21739130434782608,
+                "recall": 0.7142857142857143,
+                "f1": 0.3333333333333333,
+                "ap50": 0.3853779064624747,
+                "ap50_95": 0.11684170799450404,
+                "exact_count": 0,
+                "negative_images": 5,
+                "correct_empty": 0
+              },
+              "development_upper_bound": {
+                "images": 9,
+                "objects": 7,
+                "tp": 5,
+                "fp": 18,
+                "fn": 2,
+                "precision": 0.21739130434782608,
+                "recall": 0.7142857142857143,
+                "f1": 0.3333333333333333,
+                "ap50": 0.3853779064624747,
+                "ap50_95": 0.11684170799450404,
+                "exact_count": 0,
+                "negative_images": 5,
+                "correct_empty": 0
+              }
+            },
+            "phlebotomy-development": {
+              "common_floor": {
+                "images": 40,
+                "objects": 28,
+                "tp": 9,
+                "fp": 52,
+                "fn": 19,
+                "precision": 0.14754098360655737,
+                "recall": 0.32142857142857145,
+                "f1": 0.20224719101123598,
+                "ap50": 0.10735883633420482,
+                "ap50_95": 0.02516458158858579,
+                "exact_count": 16,
+                "negative_images": 14,
+                "correct_empty": 6
+              },
+              "development_upper_bound": {
+                "images": 40,
+                "objects": 28,
+                "tp": 9,
+                "fp": 49,
+                "fn": 19,
+                "precision": 0.15517241379310345,
+                "recall": 0.32142857142857145,
+                "f1": 0.20930232558139536,
+                "ap50": 0.10735883633420482,
+                "ap50_95": 0.02516458158858579,
+                "exact_count": 16,
+                "negative_images": 14,
+                "correct_empty": 6
+              }
+            },
+            "public-development": {
+              "common_floor": {
+                "images": 11,
+                "objects": 9,
+                "tp": 2,
+                "fp": 17,
+                "fn": 7,
+                "precision": 0.10526315789473684,
+                "recall": 0.2222222222222222,
+                "f1": 0.14285714285714285,
+                "ap50": 0.05676082314113766,
+                "ap50_95": 0.013791080788751145,
+                "exact_count": 2,
+                "negative_images": 5,
+                "correct_empty": 1
+              },
+              "development_upper_bound": {
+                "images": 11,
+                "objects": 9,
+                "tp": 2,
+                "fp": 16,
+                "fn": 7,
+                "precision": 0.1111111111111111,
+                "recall": 0.2222222222222222,
+                "f1": 0.14814814814814814,
+                "ap50": 0.05676082314113766,
+                "ap50_95": 0.013791080788751145,
+                "exact_count": 2,
+                "negative_images": 5,
+                "correct_empty": 1
+              }
+            }
+          }
+        }
+      },
+      "curves": [
+        {
+          "epoch": 1,
+          "F1": 0.07692307978868484,
+          "mAP_50": 0.018975095823407173,
+          "mAP_50_95": 0.005805483553558588,
+          "precision": 0.050724636763334274,
+          "recall": 0.15909090638160706
+        },
+        {
+          "epoch": 2,
+          "F1": 0.20000000298023224,
+          "mAP_50": 0.08638207614421844,
+          "mAP_50_95": 0.019791873171925545,
+          "precision": 0.19565217196941376,
+          "recall": 0.20454545319080353
+        }
+      ],
+      "checkpoint": "8ca7c6eb5333746e95c6951c2e980f270fd7d8341ac244b17aa4ac605d2f3f54",
+      "collection_sha256": "9e765c082c7a0a41c436f15d5bbea1e93127b93a9e6e4279c3131a3ee4e6e21c",
+      "median_cpu_whole_plus_tiles_seconds": 0.9657454099997267
+    },
+    "mix-simulator": {
+      "scored": {
+        "whole": {
+          "development_upper_bound_threshold": 0.2542594373226166,
+          "domains": {
+            "dental-development": {
+              "common_floor": {
+                "images": 9,
+                "objects": 7,
+                "tp": 4,
+                "fp": 17,
+                "fn": 3,
+                "precision": 0.19047619047619047,
+                "recall": 0.5714285714285714,
+                "f1": 0.2857142857142857,
+                "ap50": 0.16183104316029362,
+                "ap50_95": 0.06637092797644419,
+                "exact_count": 2,
+                "negative_images": 5,
+                "correct_empty": 1
+              },
+              "development_upper_bound": {
+                "images": 9,
+                "objects": 7,
+                "tp": 3,
+                "fp": 12,
+                "fn": 4,
+                "precision": 0.2,
+                "recall": 0.42857142857142855,
+                "f1": 0.27272727272727276,
+                "ap50": 0.16183104316029362,
+                "ap50_95": 0.06637092797644419,
+                "exact_count": 1,
+                "negative_images": 5,
+                "correct_empty": 1
+              }
+            },
+            "phlebotomy-development": {
+              "common_floor": {
+                "images": 40,
+                "objects": 28,
+                "tp": 10,
+                "fp": 24,
+                "fn": 18,
+                "precision": 0.29411764705882354,
+                "recall": 0.35714285714285715,
+                "f1": 0.3225806451612903,
+                "ap50": 0.3002407536656954,
+                "ap50_95": 0.13839064898790396,
+                "exact_count": 18,
+                "negative_images": 14,
+                "correct_empty": 10
+              },
+              "development_upper_bound": {
+                "images": 40,
+                "objects": 28,
+                "tp": 10,
+                "fp": 9,
+                "fn": 18,
+                "precision": 0.5263157894736842,
+                "recall": 0.35714285714285715,
+                "f1": 0.425531914893617,
+                "ap50": 0.3002407536656954,
+                "ap50_95": 0.13839064898790396,
+                "exact_count": 25,
+                "negative_images": 14,
+                "correct_empty": 13
+              }
+            },
+            "public-development": {
+              "common_floor": {
+                "images": 11,
+                "objects": 9,
+                "tp": 0,
+                "fp": 13,
+                "fn": 9,
+                "precision": 0.0,
+                "recall": 0.0,
+                "f1": 0.0,
+                "ap50": 0.04354214267580604,
+                "ap50_95": 0.010106158648065165,
+                "exact_count": 5,
+                "negative_images": 5,
+                "correct_empty": 1
+              },
+              "development_upper_bound": {
+                "images": 11,
+                "objects": 9,
+                "tp": 0,
+                "fp": 7,
+                "fn": 9,
+                "precision": 0.0,
+                "recall": 0.0,
+                "f1": 0.0,
+                "ap50": 0.04354214267580604,
+                "ap50_95": 0.010106158648065165,
+                "exact_count": 4,
+                "negative_images": 5,
+                "correct_empty": 2
+              }
+            }
+          }
+        },
+        "wide": {
+          "development_upper_bound_threshold": 0.2678496837615967,
+          "domains": {
+            "dental-development": {
+              "common_floor": {
+                "images": 9,
+                "objects": 7,
+                "tp": 6,
+                "fp": 26,
+                "fn": 1,
+                "precision": 0.1875,
+                "recall": 0.8571428571428571,
+                "f1": 0.30769230769230765,
+                "ap50": 0.2354768291067148,
+                "ap50_95": 0.11637360343375829,
+                "exact_count": 1,
+                "negative_images": 5,
+                "correct_empty": 1
+              },
+              "development_upper_bound": {
+                "images": 9,
+                "objects": 7,
+                "tp": 4,
+                "fp": 14,
+                "fn": 3,
+                "precision": 0.2222222222222222,
+                "recall": 0.5714285714285714,
+                "f1": 0.32,
+                "ap50": 0.2354768291067148,
+                "ap50_95": 0.11637360343375829,
+                "exact_count": 1,
+                "negative_images": 5,
+                "correct_empty": 1
+              }
+            },
+            "phlebotomy-development": {
+              "common_floor": {
+                "images": 40,
+                "objects": 28,
+                "tp": 18,
+                "fp": 94,
+                "fn": 10,
+                "precision": 0.16071428571428573,
+                "recall": 0.6428571428571429,
+                "f1": 0.2571428571428572,
+                "ap50": 0.41466534026216617,
+                "ap50_95": 0.17482393781138916,
+                "exact_count": 7,
+                "negative_images": 14,
+                "correct_empty": 2
+              },
+              "development_upper_bound": {
+                "images": 40,
+                "objects": 28,
+                "tp": 18,
+                "fp": 26,
+                "fn": 10,
+                "precision": 0.4090909090909091,
+                "recall": 0.6428571428571429,
+                "f1": 0.5000000000000001,
+                "ap50": 0.41466534026216617,
+                "ap50_95": 0.17482393781138916,
+                "exact_count": 27,
+                "negative_images": 14,
+                "correct_empty": 12
+              }
+            },
+            "public-development": {
+              "common_floor": {
+                "images": 11,
+                "objects": 9,
+                "tp": 1,
+                "fp": 24,
+                "fn": 8,
+                "precision": 0.04,
+                "recall": 0.1111111111111111,
+                "f1": 0.058823529411764705,
+                "ap50": 0.05211946447047327,
+                "ap50_95": 0.01471570756676352,
+                "exact_count": 3,
+                "negative_images": 5,
+                "correct_empty": 1
+              },
+              "development_upper_bound": {
+                "images": 11,
+                "objects": 9,
+                "tp": 1,
+                "fp": 10,
+                "fn": 8,
+                "precision": 0.09090909090909091,
+                "recall": 0.1111111111111111,
+                "f1": 0.09999999999999999,
+                "ap50": 0.05211946447047327,
+                "ap50_95": 0.01471570756676352,
+                "exact_count": 2,
+                "negative_images": 5,
+                "correct_empty": 1
+              }
+            }
+          }
+        }
+      },
+      "curves": [
+        {
+          "epoch": 1,
+          "F1": 0.1355932205915451,
+          "mAP_50": 0.05642762780189514,
+          "mAP_50_95": 0.024273740127682686,
+          "precision": 0.07968127727508545,
+          "recall": 0.4545454680919647
+        },
+        {
+          "epoch": 2,
+          "F1": 0.26530611515045166,
+          "mAP_50": 0.14524811506271362,
+          "mAP_50_95": 0.06621403992176056,
+          "precision": 0.24074074625968933,
+          "recall": 0.2954545319080353
+        }
+      ],
+      "checkpoint": "ba92a0595a4b66ae3ce360eca49a6238e6347ac109e1041220e4c60437ca172e",
+      "collection_sha256": "caa930fd1a6c11ef60db3df1fca9db0195fba6d64bd6b371949848fbc332ed7c",
+      "median_cpu_whole_plus_tiles_seconds": 0.9247482515002048
+    }
+  },
+  "earlier_hybrid": {
+    "phlebotomy-development": {
+      "images": 40,
+      "objects": 28,
+      "tp": 10,
+      "fp": 2,
+      "fn": 18,
+      "precision": 0.8333333333333334,
+      "recall": 0.35714285714285715,
+      "f1": 0.5,
+      "ap50": 0.43726512716018656,
+      "ap50_95": 0.22132822441661917,
+      "exact_count": 25,
+      "negative_images": 14,
+      "correct_empty": 14
+    },
+    "public-development": {
+      "images": 11,
+      "objects": 9,
+      "tp": 2,
+      "fp": 5,
+      "fn": 7,
+      "precision": 0.2857142857142857,
+      "recall": 0.2222222222222222,
+      "f1": 0.25,
+      "ap50": 0.3154172560113153,
+      "ap50_95": 0.1595285242809995,
+      "exact_count": 5,
+      "negative_images": 5,
+      "correct_empty": 3
+    }
+  },
+  "scope": "Development only and two equal-budget epochs. The reported upper bound fixes the best pooled development score for each branch, with no claim about reserves."
+}

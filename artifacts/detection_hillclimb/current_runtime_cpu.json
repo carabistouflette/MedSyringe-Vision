@@ -1,0 +1,93 @@
+{
+  "completed": true,
+  "passed": true,
+  "revision": "8393cba6ff802031a4a6eacbf120bda59869685a",
+  "device": "cpu",
+  "native_assets": true,
+  "ocr": false,
+  "runs": [
+    {
+      "source": "IMG_3316.jpeg",
+      "sha256": "bfe339118bcb93524964d3d0034f168b084c14ca8fdb40625b9b8b707cac5d5e",
+      "expected": 1,
+      "actual": 1,
+      "boxes": [
+        [
+          0.2642011087407511,
+          0.10431695362878224,
+          0.49953589868293236,
+          0.8616085960751488
+        ]
+      ],
+      "seconds": 53.33347019900248,
+      "discovery_round": 1,
+      "appearance_release": "d9f0a449f448e0f04116a5b813463ffc1971fc96d132332b2c08ae4f40fdce10",
+      "verification": {
+        "status": "available",
+        "primary_backend": "cpu",
+        "unavailable": [],
+        "review_needed": false
+      },
+      "passed": true
+    },
+    {
+      "source": "194453423.jpg",
+      "sha256": "a1305aa295432ebd6d6b411e5b0963e83a2886cb0666782116c7d52ae7d415f9",
+      "expected": 0,
+      "actual": 0,
+      "boxes": [],
+      "seconds": 9.94056757299768,
+      "discovery_round": 1,
+      "appearance_release": "d9f0a449f448e0f04116a5b813463ffc1971fc96d132332b2c08ae4f40fdce10",
+      "verification": {
+        "status": "available",
+        "primary_backend": "cpu",
+        "unavailable": [],
+        "review_needed": false
+      },
+      "passed": true
+    },
+    {
+      "source": "IMG_3316.jpeg",
+      "sha256": "bfe339118bcb93524964d3d0034f168b084c14ca8fdb40625b9b8b707cac5d5e",
+      "expected": 1,
+      "actual": 1,
+      "boxes": [
+        [
+          0.2642011087407511,
+          0.10431695362878224,
+          0.49953589868293236,
+          0.8616085960751488
+        ]
+      ],
+      "seconds": 21.193820158001472,
+      "discovery_round": 2,
+      "appearance_release": "d9f0a449f448e0f04116a5b813463ffc1971fc96d132332b2c08ae4f40fdce10",
+      "verification": {
+        "status": "available",
+        "primary_backend": "cpu",
+        "unavailable": [],
+        "review_needed": false
+      },
+      "passed": true
+    },
+    {
+      "source": "194453423.jpg",
+      "sha256": "a1305aa295432ebd6d6b411e5b0963e83a2886cb0666782116c7d52ae7d415f9",
+      "expected": 0,
+      "actual": 0,
+      "boxes": [],
+      "seconds": 8.401072070999362,
+      "discovery_round": 2,
+      "appearance_release": "d9f0a449f448e0f04116a5b813463ffc1971fc96d132332b2c08ae4f40fdce10",
+      "verification": {
+        "status": "available",
+        "primary_backend": "cpu",
+        "unavailable": [],
+        "review_needed": false
+      },
+      "passed": true
+    }
+  ],
+  "load_seconds": 3.939958304999891
+}

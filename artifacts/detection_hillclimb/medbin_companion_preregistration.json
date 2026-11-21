@@ -1,0 +1,22 @@
+{
+  "development_sha256": "9fed8a508d36676234f47879b323f2ebcf2749a4ef136585d68d758f958ed5b9",
+  "medbin_freeze_sha256": "d425aa62d28886018564138d70c8b0d9f1ce19f44ad4cb38c491655017569ea9",
+  "comparison": "Check the fixed precision release, original empty-scene recovery, and the independent development winner.",
+  "gate": {
+    "arm": "title-wide",
+    "minimum": 0.35,
+    "partner": "old-pair",
+    "settings": {
+      "prior": 0.26,
+      "joint": 0.65,
+      "text": -0.008,
+      "shape": true,
+      "opinions": "both-open",
+      "reject": -0.005,
+      "guard_veto": false,
+      "maximum": 1
+    }
+  },
+  "claim": "On the acquisition-disjoint MedBin source, require at least one extra correct instance relative to the released gate, no loss of any previously matched instance, no extra false boxes, and no new false alarm scene. A positive result requires the remaining capture and independently published negative and positive regressions before deployment.",
+  "method": "Only initially empty scenes enter. Before accepting a supported crop, also require an overlapping OpenMMLab whole-or-central-image proposal at the frozen bound. Keep the already fixed learned crop heads, duplicate exclusion, one-addition ceiling and appearance veto."
+}

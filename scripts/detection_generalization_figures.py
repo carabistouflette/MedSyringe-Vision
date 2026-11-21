@@ -71,6 +71,26 @@ def comparison(proof, destination):
     plt.close(fig)
 
 
+def deployed_precision(destination):
+    paths = ART/"precision_only_confirmation_audit.json", ART/"medbin_detector_audit.json"
+    cohorts = read_json(paths[0])["outcomes"]
+    medbin = read_json(paths[1])["precision_gate"]
+    records = (("Earlier Commons", cohorts["commons-regression"]),
+               ("Fresh Commons", cohorts["fresh"]),
+               ("Native MedBin", medbin))
+    fig,axes=plt.subplots(1,3,figsize=(11.7,4.4),layout="constrained",sharey=True)
+    for ax,(title,record) in zip(axes,records,strict=True):
+        prior=record["previous"]
+        bar_groups(ax,{"Baseline":prior,"Candidate":record["candidate"]},title)
+        ax.set_xlabel(f"{prior['images']} images · {prior['objects']} reference syringes")
+    axes[0].set_ylabel("Instance detection at IoU ≥ 0.50")
+    axes[-1].legend(["Earlier detector","Released gate"],loc="upper right",frameon=False,fontsize=8,ncol=2)
+    fig.suptitle("Independent and regression results for the deployed appearance check",
+                 x=.02,ha="left",fontweight="semibold",fontsize=14)
+    fig.savefig(destination,dpi=215,facecolor="white")
+    plt.close(fig)
+
+
 if __name__=="__main__":
     parser=argparse.ArgumentParser(description=__doc__)
     parser.add_argument("--output",type=Path,default=Path("artifacts/figures"))
@@ -82,3 +102,5 @@ if __name__=="__main__":
         audit_bars(read_json(audit),args.output/"detection_generalization_audit.png")
     if select.exists():
         comparison(read_json(select),args.output/"detection_generalization_development.png")
+    if (ART/"medbin_detector_audit.json").exists():
+        deployed_precision(args.output/"deployed_precision_results.png")

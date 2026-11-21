@@ -1,0 +1,93 @@
+{
+  "completed": true,
+  "passed": true,
+  "revision": "8393cba6ff802031a4a6eacbf120bda59869685a",
+  "device": "xpu",
+  "native_assets": true,
+  "ocr": false,
+  "runs": [
+    {
+      "source": "IMG_3316.jpeg",
+      "sha256": "bfe339118bcb93524964d3d0034f168b084c14ca8fdb40625b9b8b707cac5d5e",
+      "expected": 1,
+      "actual": 1,
+      "boxes": [
+        [
+          0.26421317852363385,
+          0.10431895180354045,
+          0.4995254032195561,
+          0.8616046602763827
+        ]
+      ],
+      "seconds": 43.24683423799797,
+      "discovery_round": 1,
+      "appearance_release": "d9f0a449f448e0f04116a5b813463ffc1971fc96d132332b2c08ae4f40fdce10",
+      "verification": {
+        "status": "available",
+        "primary_backend": "xpu",
+        "unavailable": [],
+        "review_needed": false
+      },
+      "passed": true
+    },
+    {
+      "source": "194453423.jpg",
+      "sha256": "a1305aa295432ebd6d6b411e5b0963e83a2886cb0666782116c7d52ae7d415f9",
+      "expected": 0,
+      "actual": 0,
+      "boxes": [],
+      "seconds": 5.738596758998028,
+      "discovery_round": 1,
+      "appearance_release": "d9f0a449f448e0f04116a5b813463ffc1971fc96d132332b2c08ae4f40fdce10",
+      "verification": {
+        "status": "available",
+        "primary_backend": "xpu",
+        "unavailable": [],
+        "review_needed": false
+      },
+      "passed": true
+    },
+    {
+      "source": "IMG_3316.jpeg",
+      "sha256": "bfe339118bcb93524964d3d0034f168b084c14ca8fdb40625b9b8b707cac5d5e",
+      "expected": 1,
+      "actual": 1,
+      "boxes": [
+        [
+          0.2642132592579675,
+          0.10431895180354045,
+          0.4995253224852224,
+          0.8616049024793837
+        ]
+      ],
+      "seconds": 7.177144426001178,
+      "discovery_round": 2,
+      "appearance_release": "d9f0a449f448e0f04116a5b813463ffc1971fc96d132332b2c08ae4f40fdce10",
+      "verification": {
+        "status": "available",
+        "primary_backend": "xpu",
+        "unavailable": [],
+        "review_needed": false
+      },
+      "passed": true
+    },
+    {
+      "source": "194453423.jpg",
+      "sha256": "a1305aa295432ebd6d6b411e5b0963e83a2886cb0666782116c7d52ae7d415f9",
+      "expected": 0,
+      "actual": 0,
+      "boxes": [],
+      "seconds": 4.7865190009979415,
+      "discovery_round": 2,
+      "appearance_release": "d9f0a449f448e0f04116a5b813463ffc1971fc96d132332b2c08ae4f40fdce10",
+      "verification": {
+        "status": "available",
+        "primary_backend": "xpu",
+        "unavailable": [],
+        "review_needed": false
+      },
+      "passed": true
+    }
+  ],
+  "load_seconds": 4.67706115799956
+}

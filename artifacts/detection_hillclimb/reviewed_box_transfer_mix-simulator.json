@@ -1,0 +1,30 @@
+{
+  "status": "completed",
+  "seconds": 523.1897724869996,
+  "checkpoint": "data/detection_hillclimb/runs/box-transfer-mix-simulator/checkpoint_best_total.pth",
+  "checkpoint_sha256": "ba92a0595a4b66ae3ce360eca49a6238e6347ac109e1041220e4c60437ca172e",
+  "configuration": {
+    "dataset_dir": "data/detection_hillclimb/reviewed-box-transfer/mix-simulator",
+    "output_dir": "data/detection_hillclimb/runs/box-transfer-mix-simulator",
+    "device": "cpu",
+    "epochs": 2,
+    "batch_size": 4,
+    "resolution": 320,
+    "seed": 88271,
+    "lr": 0.00015,
+    "lr_encoder": 0,
+    "num_workers": 0,
+    "num_sanity_val_steps": 0,
+    "compute_val_loss": true,
+    "use_ema": false,
+    "multi_scale": false,
+    "save_dataset_grids": false,
+    "run_test": false,
+    "progress_bar": null,
+    "train_log_on_step": false
+  },
+  "dataset_sha256": "04ad03398ecfb21dc7a6604d57b9a5ca6a5608a003887bbd7adfcd3d4e18fe6d",
+  "pretrained_sha256": "d8d6b9ee57d4d0ed2b1f305163624712a0532cb7bce0c747317984fc5457440d",
+  "pretrained_source": "https://repo.roboflow.com/rfdetr/nano_coco/checkpoint_best_regular.pth",
+  "license": "Apache-2.0"
+}

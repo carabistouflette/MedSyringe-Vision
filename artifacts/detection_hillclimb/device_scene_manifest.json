@@ -1,0 +1,991 @@
+{
+  "rows": [
+    {
+      "id": "fr4KaYX2NdrKAcwFd4Sh",
+      "image": "detection_hillclimb/device-native/fr4KaYX2NdrKAcwFd4Sh.jpg",
+      "sha256": "946cd7b519e6e16f6fb5e6c94683a672d3e479872c7ed5ef9f8787c209c461ac",
+      "dhash": "5f5edeffefececf0",
+      "original_url": "https://source.roboflow.com/NOxdXYgC8JhLTlxiLBxUhMd5ZFo2/fr4KaYX2NdrKAcwFd4Sh/original.jpg",
+      "image_url": "https://source.roboflow.com/NOxdXYgC8JhLTlxiLBxUhMd5ZFo2/fr4KaYX2NdrKAcwFd4Sh/original.jpg",
+      "source_url": "https://universe.roboflow.com/test-uugy6/syringe-test",
+      "group": "device:one-visual-acquisition-source",
+      "author": "test dataset contributors",
+      "license": "https://creativecommons.org/licenses/by/4.0/",
+      "dimensions": [
+        3020,
+        1699
+      ],
+      "catalog_labels": 6,
+      "catalog_split": "train",
+      "title": "Native device-scene benchmark",
+      "objects": [
+        {
+          "kind": "syringe",
+          "bbox": [
+            0.35938,
+            0.03125,
+            0.45312,
+            0.20833
+          ]
+        },
+        {
+          "kind": "syringe",
+          "bbox": [
+            0.17773,
+            0.34375,
+            0.24414,
+            0.48611
+          ]
+        },
+        {
+          "kind": "syringe",
+          "bbox": [
+            0.27734,
+            0.29861,
+            0.40234,
+            0.375
+          ]
+        },
+        {
+          "kind": "syringe",
+          "bbox": [
+            0.2793,
+            0.35764,
+            0.39844,
+            0.44444
+          ]
+        },
+        {
+          "kind": "syringe",
+          "bbox": [
+            0.27344,
+            0.46528,
+            0.39844,
+            0.59722
+          ]
+        },
+        {
+          "kind": "syringe",
+          "bbox": [
+            0.4082,
+            0.41667,
+            0.51367,
+            0.64583
+          ]
+        }
+      ],
+      "review": "All six visible syringe bodies were independently marked before inference. Hands sometimes cover part of an identifiable body.",
+      "scene": "multiple visible syringes",
+      "split": "device-count-reserve"
+    },
+    {
+      "id": "Gu84gAdw3JXDHshiDkll",
+      "image": "detection_hillclimb/device-native/Gu84gAdw3JXDHshiDkll.jpg",
+      "sha256": "a0296c3492a5ff64592b26be6bc781d69261445df450c4811f39236a08c5c833",
+      "dhash": "5fdedeefefecc8d8",
+      "original_url": "https://source.roboflow.com/NOxdXYgC8JhLTlxiLBxUhMd5ZFo2/Gu84gAdw3JXDHshiDkll/original.jpg",
+      "image_url": "https://source.roboflow.com/NOxdXYgC8JhLTlxiLBxUhMd5ZFo2/Gu84gAdw3JXDHshiDkll/original.jpg",
+      "source_url": "https://universe.roboflow.com/test-uugy6/syringe-test",
+      "group": "device:one-visual-acquisition-source",
+      "author": "test dataset contributors",
+      "license": "https://creativecommons.org/licenses/by/4.0/",
+      "dimensions": [
+        3020,
+        1699
+      ],
+      "catalog_labels": 5,
+      "catalog_split": "train",
+      "title": "Native device-scene benchmark",
+      "objects": [
+        {
+          "kind": "syringe",
+          "bbox": [
+            0.35938,
+            0.03125,
+            0.45312,
+            0.20833
+          ]
+        },
+        {
+          "kind": "syringe",
+          "bbox": [
+            0.27539,
+            0.29861,
+            0.4082,
+            0.375
+          ]
+        },
+        {
+          "kind": "syringe",
+          "bbox": [
+            0.17578,
+            0.34028,
+            0.24219,
+            0.54514
+          ]
+        },
+        {
+          "kind": "syringe",
+          "bbox": [
+            0.41406,
+            0.40972,
+            0.51367,
+            0.62847
+          ]
+        },
+        {
+          "kind": "syringe",
+          "bbox": [
+            0.5,
+            0.43056,
+            0.56445,
+            0.59028
+          ]
+        },
+        {
+          "kind": "syringe",
+          "bbox": [
+            0.53906,
+            0.50694,
+            0.62891,
+            0.67361
+          ]
+        }
+      ],
+      "review": "All six visible syringe bodies were independently marked before inference. Hands sometimes cover part of an identifiable body.",
+      "scene": "multiple visible syringes",
+      "split": "device-count-reserve"
+    },
+    {
+      "id": "cAH0yS3Ek6AXSKQFTBij",
+      "image": "detection_hillclimb/device-native/cAH0yS3Ek6AXSKQFTBij.jpg",
+      "sha256": "4296147c02710e1b1367e4d7f70457cd745c2ece14f210b3c5da54dc792b07b2",
+      "dhash": "7f7ef6effff6f6ee",
+      "original_url": "https://source.roboflow.com/NOxdXYgC8JhLTlxiLBxUhMd5ZFo2/cAH0yS3Ek6AXSKQFTBij/original.jpg",
+      "image_url": "https://source.roboflow.com/NOxdXYgC8JhLTlxiLBxUhMd5ZFo2/cAH0yS3Ek6AXSKQFTBij/original.jpg",
+      "source_url": "https://universe.roboflow.com/test-uugy6/syringe-test",
+      "group": "device:one-visual-acquisition-source",
+      "author": "test dataset contributors",
+      "license": "https://creativecommons.org/licenses/by/4.0/",
+      "dimensions": [
+        3020,
+        1699
+      ],
+      "catalog_labels": 6,
+      "catalog_split": "train",
+      "title": "Native device-scene benchmark",
+      "objects": [
+        {
+          "kind": "syringe",
+          "bbox": [
+            0.29688,
+            0.25347,
+            0.42188,
+            0.32986
+          ]
+        },
+        {
+          "kind": "syringe",
+          "bbox": [
+            0.50586,
+            0.25694,
+            0.64648,
+            0.41667
+          ]
+        },
+        {
+          "kind": "syringe",
+          "bbox": [
+            0.47266,
+            0.37847,
+            0.58984,
+            0.51042
+          ]
+        },
+        {
+          "kind": "syringe",
+          "bbox": [
+            0.34375,
+            0.44792,
+            0.42969,
+            0.64236
+          ]
+        },
+        {
+          "kind": "syringe",
+          "bbox": [
+            0.375,
+            0.53819,
+            0.45898,
+            0.75
+          ]
+        },
+        {
+          "kind": "syringe",
+          "bbox": [
+            0.50586,
+            0.56597,
+            0.64648,
+            0.76389
+          ]
+        }
+      ],
+      "review": "All six visible syringe bodies were independently marked before inference. Hands sometimes cover part of an identifiable body.",
+      "scene": "multiple visible syringes",
+      "split": "device-count-reserve"
+    },
+    {
+      "id": "jr20FHtsKJzKzcGrzaW6",
+      "image": "detection_hillclimb/device-native/jr20FHtsKJzKzcGrzaW6.jpg",
+      "sha256": "3f86dfc1974e8aa1b7f3aba9a1c1ae701a04badde834981fc70da90c85e5a220",
+      "dhash": "7f7efeefefeccc48",
+      "original_url": "https://source.roboflow.com/NOxdXYgC8JhLTlxiLBxUhMd5ZFo2/jr20FHtsKJzKzcGrzaW6/original.jpg",
+      "image_url": "https://source.roboflow.com/NOxdXYgC8JhLTlxiLBxUhMd5ZFo2/jr20FHtsKJzKzcGrzaW6/original.jpg",
+      "source_url": "https://universe.roboflow.com/test-uugy6/syringe-test",
+      "group": "device:one-visual-acquisition-source",
+      "author": "test dataset contributors",
+      "license": "https://creativecommons.org/licenses/by/4.0/",
+      "dimensions": [
+        3020,
+        1699
+      ],
+      "catalog_labels": 5,
+      "catalog_split": "valid",
+      "title": "Native device-scene benchmark",
+      "objects": [
+        {
+          "kind": "syringe",
+          "bbox": [
+            0.17773,
+            0.45833,
+            0.24805,
+            0.70833
+          ]
+        },
+        {
+          "kind": "syringe",
+          "bbox": [
+            0.26953,
+            0.41667,
+            0.34961,
+            0.59375
+          ]
+        },
+        {
+          "kind": "syringe",
+          "bbox": [
+            0.35352,
+            0.42708,
+            0.39453,
+            0.65972
+          ]
+        },
+        {
+          "kind": "syringe",
+          "bbox": [
+            0.43164,
+            0.34375,
+            0.51758,
+            0.54861
+          ]
+        },
+        {
+          "kind": "syringe",
+          "bbox": [
+            0.4668,
+            0.42708,
+            0.5625,
+            0.6875
+          ]
+        },
+        {
+          "kind": "syringe",
+          "bbox": [
+            0.16797,
+            0.64583,
+            0.2793,
+            0.85764
+          ]
+        }
+      ],
+      "review": "All six visible syringe bodies were independently marked before inference. Hands sometimes cover part of an identifiable body.",
+      "scene": "multiple visible syringes",
+      "split": "device-count-reserve"
+    },
+    {
+      "id": "CrJcZCeB4ZWH4gQXgTe0",
+      "image": "detection_hillclimb/device-native/CrJcZCeB4ZWH4gQXgTe0.jpg",
+      "sha256": "414060c58d2e0c8e3ec2b7cfebe2e1ff87f3d374be8cbf6072683a5eee0306cb",
+      "dhash": "5f5eded7cf6c68e0",
+      "original_url": "https://source.roboflow.com/NOxdXYgC8JhLTlxiLBxUhMd5ZFo2/CrJcZCeB4ZWH4gQXgTe0/original.jpg",
+      "image_url": "https://source.roboflow.com/NOxdXYgC8JhLTlxiLBxUhMd5ZFo2/CrJcZCeB4ZWH4gQXgTe0/original.jpg",
+      "source_url": "https://universe.roboflow.com/test-uugy6/syringe-test",
+      "group": "device:one-visual-acquisition-source",
+      "author": "test dataset contributors",
+      "license": "https://creativecommons.org/licenses/by/4.0/",
+      "dimensions": [
+        3020,
+        1699
+      ],
+      "catalog_labels": 6,
+      "catalog_split": "test",
+      "title": "Native device-scene benchmark",
+      "objects": [
+        {
+          "kind": "syringe",
+          "bbox": [
+            0.35938,
+            0.03125,
+            0.45312,
+            0.20833
+          ]
+        },
+        {
+          "kind": "syringe",
+          "bbox": [
+            0.27734,
+            0.29514,
+            0.4082,
+            0.375
+          ]
+        },
+        {
+          "kind": "syringe",
+          "bbox": [
+            0.17969,
+            0.20833,
+            0.24219,
+            0.35417
+          ]
+        },
+        {
+          "kind": "syringe",
+          "bbox": [
+            0.24609,
+            0.39931,
+            0.38867,
+            0.52083
+          ]
+        },
+        {
+          "kind": "syringe",
+          "bbox": [
+            0.23828,
+            0.57639,
+            0.375,
+            0.6875
+          ]
+        },
+        {
+          "kind": "syringe",
+          "bbox": [
+            0.44531,
+            0.52083,
+            0.55469,
+            0.69444
+          ]
+        }
+      ],
+      "review": "All six visible syringe bodies were independently marked before inference. Hands sometimes cover part of an identifiable body.",
+      "scene": "multiple visible syringes",
+      "split": "device-count-reserve"
+    },
+    {
+      "id": "o9AYkyLGkkJAojPxdift",
+      "image": "detection_hillclimb/device-native/o9AYkyLGkkJAojPxdift.jpg",
+      "sha256": "5b85b9881ef87e2ed2c58330414c5a0b14a44814bbeca98a2075928471ab3e99",
+      "dhash": "01e0646cecfe6879",
+      "original_url": "https://source.roboflow.com/NOxdXYgC8JhLTlxiLBxUhMd5ZFo2/o9AYkyLGkkJAojPxdift/original.jpg",
+      "image_url": "https://source.roboflow.com/NOxdXYgC8JhLTlxiLBxUhMd5ZFo2/o9AYkyLGkkJAojPxdift/original.jpg",
+      "source_url": "https://universe.roboflow.com/test-uugy6/syringe-test",
+      "group": "device:one-visual-acquisition-source",
+      "author": "test dataset contributors",
+      "license": "https://creativecommons.org/licenses/by/4.0/",
+      "dimensions": [
+        2160,
+        3840
+      ],
+      "catalog_labels": 1,
+      "catalog_split": "test",
+      "title": "Native device-scene benchmark",
+      "objects": [
+        {
+          "kind": "syringe",
+          "bbox": [
+            0.45902,
+            0.45622,
+            0.56557,
+            0.60829
+          ]
+        }
+      ],
+      "review": "One syringe body can be identified in the native source before inference.",
+      "scene": "one visible syringe",
+      "split": "device-count-reserve"
+    },
+    {
+      "id": "FZF2KIrTmT8m7knJ9kE6",
+      "image": "detection_hillclimb/device-native/FZF2KIrTmT8m7knJ9kE6.jpg",
+      "sha256": "f1cebe706dc3aa16b29f4e84f4d28c0429e1d9b347c3159b8dc6b9bdd781229a",
+      "dhash": "fffff6e7cddbd1e0",
+      "original_url": "https://source.roboflow.com/NOxdXYgC8JhLTlxiLBxUhMd5ZFo2/FZF2KIrTmT8m7knJ9kE6/original.jpg",
+      "image_url": "https://source.roboflow.com/NOxdXYgC8JhLTlxiLBxUhMd5ZFo2/FZF2KIrTmT8m7knJ9kE6/original.jpg",
+      "source_url": "https://universe.roboflow.com/test-uugy6/syringe-test",
+      "group": "device:one-visual-acquisition-source",
+      "author": "test dataset contributors",
+      "license": "https://creativecommons.org/licenses/by/4.0/",
+      "dimensions": [
+        2160,
+        3840
+      ],
+      "catalog_labels": 1,
+      "catalog_split": "train",
+      "title": "Native device-scene benchmark",
+      "objects": [
+        {
+          "kind": "syringe",
+          "bbox": [
+            0.32787,
+            0.26728,
+            0.7541,
+            0.77419
+          ]
+        }
+      ],
+      "review": "One syringe body can be identified in the native source before inference.",
+      "scene": "one visible syringe",
+      "split": "device-count-reserve"
+    },
+    {
+      "id": "g3F5OKZHw8L86xNEcMxy",
+      "image": "detection_hillclimb/device-native/g3F5OKZHw8L86xNEcMxy.jpg",
+      "sha256": "b07070b6c447f46c9574f8475d0357ccd0a2ae7428a28609be8bee7b75e3d64a",
+      "dhash": "1fc07c4ddf1b1f26",
+      "original_url": "https://source.roboflow.com/NOxdXYgC8JhLTlxiLBxUhMd5ZFo2/g3F5OKZHw8L86xNEcMxy/original.jpg",
+      "image_url": "https://source.roboflow.com/NOxdXYgC8JhLTlxiLBxUhMd5ZFo2/g3F5OKZHw8L86xNEcMxy/original.jpg",
+      "source_url": "https://universe.roboflow.com/test-uugy6/syringe-test",
+      "group": "device:one-visual-acquisition-source",
+      "author": "test dataset contributors",
+      "license": "https://creativecommons.org/licenses/by/4.0/",
+      "dimensions": [
+        2160,
+        3840
+      ],
+      "catalog_labels": 1,
+      "catalog_split": "valid",
+      "title": "Native device-scene benchmark",
+      "objects": [
+        {
+          "kind": "syringe",
+          "bbox": [
+            0.22951,
+            0.40553,
+            0.36066,
+            0.59447
+          ]
+        }
+      ],
+      "review": "One syringe body can be identified in the native source before inference.",
+      "scene": "one visible syringe",
+      "split": "device-count-reserve"
+    },
+    {
+      "id": "gpkWGmq3Z9SFaeptYTPh",
+      "image": "detection_hillclimb/device-native/gpkWGmq3Z9SFaeptYTPh.jpg",
+      "sha256": "636e0d6c31e797bf02ccd03c54f7f96f5989d1d2099459175c1b043418eb67b4",
+      "dhash": "c03e3f663606a787",
+      "original_url": "https://source.roboflow.com/NOxdXYgC8JhLTlxiLBxUhMd5ZFo2/gpkWGmq3Z9SFaeptYTPh/original.jpg",
+      "image_url": "https://source.roboflow.com/NOxdXYgC8JhLTlxiLBxUhMd5ZFo2/gpkWGmq3Z9SFaeptYTPh/original.jpg",
+      "source_url": "https://universe.roboflow.com/test-uugy6/syringe-test",
+      "group": "device:one-visual-acquisition-source",
+      "author": "test dataset contributors",
+      "license": "https://creativecommons.org/licenses/by/4.0/",
+      "dimensions": [
+        2160,
+        3840
+      ],
+      "catalog_labels": 1,
+      "catalog_split": "valid",
+      "title": "Native device-scene benchmark",
+      "objects": [
+        {
+          "kind": "syringe",
+          "bbox": [
+            0.36066,
+            0.31797,
+            0.5082,
+            0.59447
+          ]
+        }
+      ],
+      "review": "One syringe body can be identified in the native source before inference.",
+      "scene": "one visible syringe",
+      "split": "device-count-reserve"
+    },
+    {
+      "id": "1yxvIQVR5Vw1SC72PT3s",
+      "image": "detection_hillclimb/device-native/1yxvIQVR5Vw1SC72PT3s.jpg",
+      "sha256": "b885881811e13349726db7ba71632aefdeae3eb63fad4022f154d409aeaab70f",
+      "dhash": "ffcfcfcfef256078",
+      "original_url": "https://source.roboflow.com/NOxdXYgC8JhLTlxiLBxUhMd5ZFo2/1yxvIQVR5Vw1SC72PT3s/original.jpg",
+      "image_url": "https://source.roboflow.com/NOxdXYgC8JhLTlxiLBxUhMd5ZFo2/1yxvIQVR5Vw1SC72PT3s/original.jpg",
+      "source_url": "https://universe.roboflow.com/test-uugy6/syringe-test",
+      "group": "device:one-visual-acquisition-source",
+      "author": "test dataset contributors",
+      "license": "https://creativecommons.org/licenses/by/4.0/",
+      "dimensions": [
+        2160,
+        3840
+      ],
+      "catalog_labels": 1,
+      "catalog_split": "train",
+      "title": "Native device-scene benchmark",
+      "objects": [
+        {
+          "kind": "syringe",
+          "bbox": [
+            0.37705,
+            0.1659,
+            0.65574,
+            0.79724
+          ]
+        }
+      ],
+      "review": "One syringe body can be identified in the native source before inference.",
+      "scene": "one visible syringe",
+      "split": "device-count-reserve"
+    },
+    {
+      "id": "XmkgUaQylXde9DBya7wc",
+      "image": "detection_hillclimb/device-native/XmkgUaQylXde9DBya7wc.jpg",
+      "sha256": "8877a91fd5d9dc1df16f71c57047e04dbabae691ea728cc31b39bb73378820fa",
+      "dhash": "ffffffcfdbedc606",
+      "original_url": "https://source.roboflow.com/NOxdXYgC8JhLTlxiLBxUhMd5ZFo2/XmkgUaQylXde9DBya7wc/original.jpg",
+      "image_url": "https://source.roboflow.com/NOxdXYgC8JhLTlxiLBxUhMd5ZFo2/XmkgUaQylXde9DBya7wc/original.jpg",
+      "source_url": "https://universe.roboflow.com/test-uugy6/syringe-test",
+      "group": "device:one-visual-acquisition-source",
+      "author": "test dataset contributors",
+      "license": "https://creativecommons.org/licenses/by/4.0/",
+      "dimensions": [
+        2160,
+        3840
+      ],
+      "catalog_labels": 1,
+      "catalog_split": "train",
+      "title": "Native device-scene benchmark",
+      "objects": [
+        {
+          "kind": "syringe",
+          "bbox": [
+            0.37705,
+            0.3871,
+            0.54918,
+            0.64977
+          ]
+        }
+      ],
+      "review": "One syringe body can be identified in the native source before inference.",
+      "scene": "one visible syringe",
+      "split": "device-count-reserve"
+    },
+    {
+      "id": "UxP8kr90cgqTrqpti0qw",
+      "image": "detection_hillclimb/device-native/UxP8kr90cgqTrqpti0qw.jpg",
+      "sha256": "ae88266d6040e3168a4914cb4cddc27c68ad6597c480772a3b2d032410e70a11",
+      "dhash": "decfcfdfdf7be038",
+      "original_url": "https://source.roboflow.com/NOxdXYgC8JhLTlxiLBxUhMd5ZFo2/UxP8kr90cgqTrqpti0qw/original.jpg",
+      "image_url": "https://source.roboflow.com/NOxdXYgC8JhLTlxiLBxUhMd5ZFo2/UxP8kr90cgqTrqpti0qw/original.jpg",
+      "source_url": "https://universe.roboflow.com/test-uugy6/syringe-test",
+      "group": "device:one-visual-acquisition-source",
+      "author": "test dataset contributors",
+      "license": "https://creativecommons.org/licenses/by/4.0/",
+      "dimensions": [
+        2160,
+        3840
+      ],
+      "catalog_labels": 1,
+      "catalog_split": "train",
+      "title": "Native device-scene benchmark",
+      "objects": [
+        {
+          "kind": "syringe",
+          "bbox": [
+            0.09016,
+            0.11982,
+            0.31967,
+            0.7235
+          ]
+        }
+      ],
+      "review": "One syringe body can be identified in the native source before inference.",
+      "scene": "one visible syringe",
+      "split": "device-count-reserve"
+    },
+    {
+      "id": "OTbTwloPcV4T8QdOV5VU",
+      "image": "detection_hillclimb/device-native/OTbTwloPcV4T8QdOV5VU.jpg",
+      "sha256": "f0cddb6ba1e76876c344dde476244ea530c867158a85c2e6d6d559c80b103a7e",
+      "dhash": "f401fcbc7e7efa07",
+      "original_url": "https://source.roboflow.com/NOxdXYgC8JhLTlxiLBxUhMd5ZFo2/OTbTwloPcV4T8QdOV5VU/original.jpg",
+      "image_url": "https://source.roboflow.com/NOxdXYgC8JhLTlxiLBxUhMd5ZFo2/OTbTwloPcV4T8QdOV5VU/original.jpg",
+      "source_url": "https://universe.roboflow.com/test-uugy6/syringe-test",
+      "group": "device:one-visual-acquisition-source",
+      "author": "test dataset contributors",
+      "license": "https://creativecommons.org/licenses/by/4.0/",
+      "dimensions": [
+        2160,
+        3840
+      ],
+      "catalog_labels": 1,
+      "catalog_split": "test",
+      "title": "Native device-scene benchmark",
+      "objects": [
+        {
+          "kind": "syringe",
+          "bbox": [
+            0.27869,
+            0.45161,
+            0.42623,
+            0.60829
+          ]
+        }
+      ],
+      "review": "One syringe body can be identified in the native source before inference.",
+      "scene": "one visible syringe",
+      "split": "device-count-reserve"
+    },
+    {
+      "id": "iHVnBznVS26Sw7QmoHnw",
+      "image": "detection_hillclimb/device-native/iHVnBznVS26Sw7QmoHnw.jpg",
+      "sha256": "b71d3e53cf85ddb3a7f9e57a9a01f8b7a5acd90de7c47878850008e8625cc2ee",
+      "dhash": "fa01ecfcdcfef20e",
+      "original_url": "https://source.roboflow.com/NOxdXYgC8JhLTlxiLBxUhMd5ZFo2/iHVnBznVS26Sw7QmoHnw/original.jpg",
+      "image_url": "https://source.roboflow.com/NOxdXYgC8JhLTlxiLBxUhMd5ZFo2/iHVnBznVS26Sw7QmoHnw/original.jpg",
+      "source_url": "https://universe.roboflow.com/test-uugy6/syringe-test",
+      "group": "device:one-visual-acquisition-source",
+      "author": "test dataset contributors",
+      "license": "https://creativecommons.org/licenses/by/4.0/",
+      "dimensions": [
+        2160,
+        3840
+      ],
+      "catalog_labels": 1,
+      "catalog_split": "train",
+      "title": "Native device-scene benchmark",
+      "objects": [
+        {
+          "kind": "syringe",
+          "bbox": [
+            0.40984,
+            0.53456,
+            0.51639,
+            0.68203
+          ]
+        }
+      ],
+      "review": "One syringe body can be identified in the native source before inference.",
+      "scene": "one visible syringe",
+      "split": "device-count-reserve"
+    },
+    {
+      "id": "QRR4A3cC2VjJf5K914hZ",
+      "image": "detection_hillclimb/device-native/QRR4A3cC2VjJf5K914hZ.jpg",
+      "sha256": "51d61a047a4becde2639bb20d0d53166eddc11ccb3cdc9dea4cb385f3bd817b4",
+      "dhash": "1b1149332565c5f3",
+      "original_url": "https://source.roboflow.com/NOxdXYgC8JhLTlxiLBxUhMd5ZFo2/QRR4A3cC2VjJf5K914hZ/original.jpg",
+      "image_url": "https://source.roboflow.com/NOxdXYgC8JhLTlxiLBxUhMd5ZFo2/QRR4A3cC2VjJf5K914hZ/original.jpg",
+      "source_url": "https://universe.roboflow.com/test-uugy6/syringe-test",
+      "group": "device:one-visual-acquisition-source",
+      "author": "test dataset contributors",
+      "license": "https://creativecommons.org/licenses/by/4.0/",
+      "dimensions": [
+        2160,
+        3840
+      ],
+      "catalog_labels": 1,
+      "catalog_split": "valid",
+      "title": "Native device-scene benchmark",
+      "objects": [
+        {
+          "kind": "syringe",
+          "bbox": [
+            0.27049,
+            0.18433,
+            0.69672,
+            0.60829
+          ]
+        }
+      ],
+      "review": "One syringe body can be identified in the native source before inference.",
+      "scene": "one visible syringe",
+      "split": "device-count-reserve"
+    },
+    {
+      "id": "abU6WlJF9aWAHoICBdFE",
+      "image": "detection_hillclimb/device-native/abU6WlJF9aWAHoICBdFE.jpg",
+      "sha256": "0294a1c80fc350b757cd531002de0a7fb9a688ae46d2102f0925d96887a9252d",
+      "dhash": "fcfedfefaff7c360",
+      "original_url": "https://source.roboflow.com/NOxdXYgC8JhLTlxiLBxUhMd5ZFo2/abU6WlJF9aWAHoICBdFE/original.jpg",
+      "image_url": "https://source.roboflow.com/NOxdXYgC8JhLTlxiLBxUhMd5ZFo2/abU6WlJF9aWAHoICBdFE/original.jpg",
+      "source_url": "https://universe.roboflow.com/test-uugy6/syringe-test",
+      "group": "device:one-visual-acquisition-source",
+      "author": "test dataset contributors",
+      "license": "https://creativecommons.org/licenses/by/4.0/",
+      "dimensions": [
+        2160,
+        3840
+      ],
+      "catalog_labels": 1,
+      "catalog_split": "test",
+      "title": "Native device-scene benchmark",
+      "objects": [
+        {
+          "kind": "syringe",
+          "bbox": [
+            0.13934,
+            0.30876,
+            0.41803,
+            0.72811
+          ]
+        }
+      ],
+      "review": "One syringe body can be identified in the native source before inference.",
+      "scene": "one visible syringe",
+      "split": "device-count-reserve"
+    },
+    {
+      "id": "J1IEnqIuv3wf5ASu2Eoe",
+      "image": "detection_hillclimb/device-native/J1IEnqIuv3wf5ASu2Eoe.jpg",
+      "sha256": "049808cacd43a3848cd36f3daf3c3e7a097f223654d01717af4e87cee9e03e2c",
+      "dhash": "f90f007e7efe5e0d",
+      "original_url": "https://source.roboflow.com/NOxdXYgC8JhLTlxiLBxUhMd5ZFo2/J1IEnqIuv3wf5ASu2Eoe/original.jpg",
+      "image_url": "https://source.roboflow.com/NOxdXYgC8JhLTlxiLBxUhMd5ZFo2/J1IEnqIuv3wf5ASu2Eoe/original.jpg",
+      "source_url": "https://universe.roboflow.com/test-uugy6/syringe-test",
+      "group": "device:one-visual-acquisition-source",
+      "author": "test dataset contributors",
+      "license": "https://creativecommons.org/licenses/by/4.0/",
+      "dimensions": [
+        2160,
+        3840
+      ],
+      "catalog_labels": 1,
+      "catalog_split": "train",
+      "title": "Native device-scene benchmark",
+      "objects": [
+        {
+          "kind": "syringe",
+          "bbox": [
+            0.40984,
+            0.58065,
+            0.55738,
+            0.70046
+          ]
+        }
+      ],
+      "review": "One syringe body can be identified in the native source before inference.",
+      "scene": "one visible syringe",
+      "split": "device-count-reserve"
+    },
+    {
+      "id": "51d8xdDRo1ax8DP16RUk",
+      "image": "detection_hillclimb/device-native/51d8xdDRo1ax8DP16RUk.jpg",
+      "sha256": "0078a84df9840efda57fae55b8e27e7372c98b7b00f4151c0fc9960a9afb293e",
+      "dhash": "0e0819236748f8f8",
+      "original_url": "https://source.roboflow.com/NOxdXYgC8JhLTlxiLBxUhMd5ZFo2/51d8xdDRo1ax8DP16RUk/original.jpg",
+      "image_url": "https://source.roboflow.com/NOxdXYgC8JhLTlxiLBxUhMd5ZFo2/51d8xdDRo1ax8DP16RUk/original.jpg",
+      "source_url": "https://universe.roboflow.com/test-uugy6/syringe-test",
+      "group": "device:one-visual-acquisition-source",
+      "author": "test dataset contributors",
+      "license": "https://creativecommons.org/licenses/by/4.0/",
+      "dimensions": [
+        2160,
+        3840
+      ],
+      "catalog_labels": 1,
+      "catalog_split": "train",
+      "title": "Native device-scene benchmark",
+      "objects": [
+        {
+          "kind": "syringe",
+          "bbox": [
+            0.21311,
+            0.21198,
+            0.69672,
+            0.69124
+          ]
+        }
+      ],
+      "review": "One syringe body can be identified in the native source before inference.",
+      "scene": "one visible syringe",
+      "split": "device-count-reserve"
+    },
+    {
+      "id": "AM0xCgiooqXHYmoktJC3",
+      "image": "detection_hillclimb/device-native/AM0xCgiooqXHYmoktJC3.jpg",
+      "sha256": "e8a40cb102d8610577444c35d0b7ad4a3659ac239b93f632d968156a99601593",
+      "dhash": "3e7bb53031a56101",
+      "original_url": "https://source.roboflow.com/NOxdXYgC8JhLTlxiLBxUhMd5ZFo2/AM0xCgiooqXHYmoktJC3/original.jpg",
+      "image_url": "https://source.roboflow.com/NOxdXYgC8JhLTlxiLBxUhMd5ZFo2/AM0xCgiooqXHYmoktJC3/original.jpg",
+      "source_url": "https://universe.roboflow.com/test-uugy6/syringe-test",
+      "group": "device:one-visual-acquisition-source",
+      "author": "test dataset contributors",
+      "license": "https://creativecommons.org/licenses/by/4.0/",
+      "dimensions": [
+        2160,
+        3840
+      ],
+      "catalog_labels": 1,
+      "catalog_split": "valid",
+      "title": "Native device-scene benchmark",
+      "objects": [
+        {
+          "kind": "syringe",
+          "bbox": [
+            0.35246,
+            0.2765,
+            0.68852,
+            0.76498
+          ]
+        }
+      ],
+      "review": "One syringe body can be identified in the native source before inference.",
+      "scene": "one visible syringe",
+      "split": "device-count-reserve"
+    },
+    {
+      "id": "RfvUNxOIFEQ3zkChtCOr",
+      "image": "detection_hillclimb/device-native/RfvUNxOIFEQ3zkChtCOr.jpg",
+      "sha256": "050dc6703f7ab039bd1951ef7bad0d9c11daac08cfa94fca6f8e1ff89de8d72b",
+      "dhash": "98deffe78f1b33e8",
+      "original_url": "https://source.roboflow.com/NOxdXYgC8JhLTlxiLBxUhMd5ZFo2/RfvUNxOIFEQ3zkChtCOr/original.jpg",
+      "image_url": "https://source.roboflow.com/NOxdXYgC8JhLTlxiLBxUhMd5ZFo2/RfvUNxOIFEQ3zkChtCOr/original.jpg",
+      "source_url": "https://universe.roboflow.com/test-uugy6/syringe-test",
+      "group": "device:one-visual-acquisition-source",
+      "author": "test dataset contributors",
+      "license": "https://creativecommons.org/licenses/by/4.0/",
+      "dimensions": [
+        2160,
+        3840
+      ],
+      "catalog_labels": 1,
+      "catalog_split": "train",
+      "title": "Native device-scene benchmark",
+      "objects": [
+        {
+          "kind": "syringe",
+          "bbox": [
+            0.06557,
+            0.40092,
+            0.70492,
+            0.64977
+          ]
+        }
+      ],
+      "review": "One syringe body can be identified in the native source before inference.",
+      "scene": "one visible syringe",
+      "split": "device-count-reserve"
+    },
+    {
+      "id": "fwWFOHCBJuheupAYRxwJ",
+      "image": "detection_hillclimb/device-native/fwWFOHCBJuheupAYRxwJ.jpg",
+      "sha256": "ed3f932c86ec966989efb7cc887b107b093091309287c765c5c220f4788d1d8a",
+      "dhash": "00deff9f5fb3b3ec",
+      "original_url": "https://source.roboflow.com/NOxdXYgC8JhLTlxiLBxUhMd5ZFo2/fwWFOHCBJuheupAYRxwJ/original.jpg",
+      "image_url": "https://source.roboflow.com/NOxdXYgC8JhLTlxiLBxUhMd5ZFo2/fwWFOHCBJuheupAYRxwJ/original.jpg",
+      "source_url": "https://universe.roboflow.com/test-uugy6/syringe-test",
+      "group": "device:one-visual-acquisition-source",
+      "author": "test dataset contributors",
+      "license": "https://creativecommons.org/licenses/by/4.0/",
+      "dimensions": [
+        2160,
+        3840
+      ],
+      "catalog_labels": 1,
+      "catalog_split": "train",
+      "title": "Native device-scene benchmark",
+      "objects": [
+        {
+          "kind": "syringe",
+          "bbox": [
+            0.2541,
+            0.33641,
+            0.46721,
+            0.59447
+          ]
+        }
+      ],
+      "review": "One syringe body can be identified in the native source before inference.",
+      "scene": "one visible syringe",
+      "split": "device-count-reserve"
+    },
+    {
+      "id": "coTNVlK0faqmtQuZLK4F",
+      "image": "detection_hillclimb/device-native/coTNVlK0faqmtQuZLK4F.jpg",
+      "sha256": "50a06e3054d5b815b5e7311c672c77ec05f6d9667777753ba759afd3cf6c88c7",
+      "dhash": "dcae9746969677b7",
+      "original_url": "https://source.roboflow.com/NOxdXYgC8JhLTlxiLBxUhMd5ZFo2/coTNVlK0faqmtQuZLK4F/original.jpg",
+      "image_url": "https://source.roboflow.com/NOxdXYgC8JhLTlxiLBxUhMd5ZFo2/coTNVlK0faqmtQuZLK4F/original.jpg",
+      "source_url": "https://universe.roboflow.com/test-uugy6/syringe-test",
+      "group": "device:one-visual-acquisition-source",
+      "author": "test dataset contributors",
+      "license": "https://creativecommons.org/licenses/by/4.0/",
+      "dimensions": [
+        2160,
+        3840
+      ],
+      "catalog_labels": 1,
+      "catalog_split": "valid",
+      "title": "Native device-scene benchmark",
+      "objects": [
+        {
+          "kind": "syringe",
+          "bbox": [
+            0.09016,
+            0.2765,
+            0.39344,
+            0.68203
+          ]
+        }
+      ],
+      "review": "One syringe body can be identified in the native source before inference.",
+      "scene": "one visible syringe",
+      "split": "device-count-reserve"
+    },
+    {
+      "id": "YeamwalY1KG8aKOY8miG",
+      "image": "detection_hillclimb/device-native/YeamwalY1KG8aKOY8miG.jpg",
+      "sha256": "bfc9fbdbac0f4d69304e61f2fe36af8f9f82b35778443ef3caabd96e722f5eeb",
+      "dhash": "e0de9f3b3b033316",
+      "original_url": "https://source.roboflow.com/NOxdXYgC8JhLTlxiLBxUhMd5ZFo2/YeamwalY1KG8aKOY8miG/original.jpg",
+      "image_url": "https://source.roboflow.com/NOxdXYgC8JhLTlxiLBxUhMd5ZFo2/YeamwalY1KG8aKOY8miG/original.jpg",
+      "source_url": "https://universe.roboflow.com/test-uugy6/syringe-test",
+      "group": "device:one-visual-acquisition-source",
+      "author": "test dataset contributors",
+      "license": "https://creativecommons.org/licenses/by/4.0/",
+      "dimensions": [
+        2160,
+        3840
+      ],
+      "catalog_labels": 1,
+      "catalog_split": "train",
+      "title": "Native device-scene benchmark",
+      "objects": [
+        {
+          "kind": "syringe",
+          "bbox": [
+            0.51639,
+            0.35023,
+            0.66393,
+            0.58065
+          ]
+        }
+      ],
+      "review": "One syringe body can be identified in the native source before inference.",
+      "scene": "one visible syringe",
+      "split": "device-count-reserve"
+    }
+  ],
+  "review_sha256": "7a11c45c9d94bb5c8a5732b3ffdc8781ea143f8b6f094069087d9a8f90a0ba53",
+  "source_url": "https://universe.roboflow.com/test-uugy6/syringe-test",
+  "scope": "Independent of the provided project images and all training. Photos from this external project are one source group with unknown specimen and session IDs. Primary outcome is simultaneous object counting in the source's conditions."
+}

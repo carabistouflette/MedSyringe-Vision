@@ -23,6 +23,10 @@ from playwright.sync_api import expect, sync_playwright
 from medsyringe.data import write_json
 
 
+def interrupted(signum, _frame):
+    raise SystemExit(128 + signum)
+
+
 def main():
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument("image", type=Path)
@@ -46,7 +50,13 @@ def main():
                         help="Use the source and model files from a particular restored checkout.")
     parser.add_argument("--analysis-timeout", type=float, default=120,
                         help="Seconds to wait for real inference in this test.")
+    parser.add_argument("--without-ocr", action="store_true",
+                        help="Turn off visible marking analysis for a detection-only browser check.")
     args = parser.parse_args()
+    if args.without_ocr and any((args.followup_control, args.expanded_markings_control,
+                                 args.graduation_control, args.fill_control, args.manual_fill_control)):
+        parser.error("Marking and fill controls require OCR.")
+    signal.signal(signal.SIGTERM, interrupted)
     project = args.project_root.resolve()
     screenshot_root = project/"data/workspace"
     screenshot_root.mkdir(parents=True,exist_ok=True)
@@ -94,6 +104,9 @@ def main():
                 page.on("pageerror", lambda error: errors.append(str(error)))
                 page.goto(address)
                 expect(page.get_by_role("heading", name="Scene inspection")).to_be_visible()
+                if args.without_ocr:
+                    page.get_by_role("checkbox", name="Read visible markings").uncheck()
+                    flows.append("detection-only analysis selected in the upload form")
                 page.locator("#file").set_input_files(args.image)
                 page.get_by_role("button", name="Analyze", exact=True).click()
                 expect(page.locator("#boxes button").first).to_be_visible(timeout=args.analysis_timeout*1000)
@@ -287,7 +300,8 @@ def main():
                 flows=flows))
         finally:
             if server.poll() is None:
-                server.terminate()
+                with suppress(ProcessLookupError):
+                    os.killpg(server.pid, signal.SIGTERM)
             try:
                 server.wait(timeout=15)
             except subprocess.TimeoutExpired:
