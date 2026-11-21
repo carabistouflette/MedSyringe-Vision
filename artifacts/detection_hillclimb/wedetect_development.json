@@ -1,0 +1,76 @@
+{
+  "development": {
+    "phlebotomy-development": {
+      "median_ms": 4088.3877229989594,
+      "variants": {
+        "english": {
+          "images": 40,
+          "objects": 28,
+          "tp": 0,
+          "fp": 0,
+          "fn": 28,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "ap50": 0.17447744774477444,
+          "ap50_95": 0.0744114411441144,
+          "exact_count": 14,
+          "negative_images": 14,
+          "correct_empty": 14
+        },
+        "publisher_language": {
+          "images": 40,
+          "objects": 28,
+          "tp": 3,
+          "fp": 1,
+          "fn": 25,
+          "precision": 0.75,
+          "recall": 0.10714285714285714,
+          "f1": 0.1875,
+          "ap50": 0.21584158415841584,
+          "ap50_95": 0.09065306530653065,
+          "exact_count": 17,
+          "negative_images": 14,
+          "correct_empty": 14
+        }
+      }
+    },
+    "public-development": {
+      "median_ms": 3994.7997279996343,
+      "variants": {
+        "english": {
+          "images": 11,
+          "objects": 9,
+          "tp": 0,
+          "fp": 4,
+          "fn": 9,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "ap50": 0.06767413583463609,
+          "ap50_95": 0.014630884141045682,
+          "exact_count": 3,
+          "negative_images": 5,
+          "correct_empty": 3
+        },
+        "publisher_language": {
+          "images": 11,
+          "objects": 9,
+          "tp": 3,
+          "fp": 9,
+          "fn": 6,
+          "precision": 0.25,
+          "recall": 0.3333333333333333,
+          "f1": 0.28571428571428575,
+          "ap50": 0.10052205220522052,
+          "ap50_95": 0.04485688568856886,
+          "exact_count": 2,
+          "negative_images": 5,
+          "correct_empty": 1
+        }
+      }
+    }
+  },
+  "weights_sha256": "1fa262e8c59346db2d4065e8449e43e6b774d01c141375b1c490cb33b34d07f3",
+  "scope": "All threshold-free ranking metrics refer to development only. The nominal cutoff of 0.20 is diagnostic."
+}

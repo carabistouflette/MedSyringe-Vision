@@ -1,0 +1,850 @@
+{
+  "rows": [
+    {
+      "id": "53v7q2SekFX55KCbUTho",
+      "image": "detection_hillclimb/medbin-original/53v7q2SekFX55KCbUTho.jpg",
+      "sha256": "84d2816404e798c988645329611440e9fe3d0888c2b1fa34c192cf69d5576927",
+      "original": true,
+      "dhash": "0f1f040e969b392b",
+      "dimensions": [
+        4096,
+        1844
+      ],
+      "catalog_label_counts": {
+        "reagent_tube": 2,
+        "reagent_tube_cap": 2,
+        " syringe": 1
+      },
+      "catalog_split": "train",
+      "intent": "syringe with other labeled objects",
+      "group": "medbin:unresolved-acquisition",
+      "title": "syringe with other labeled objects",
+      "author": "medical waste dataset contributors",
+      "source_url": "https://universe.roboflow.com/medical-waste-e3vov/medbin_dataset-2",
+      "original_url": "https://source.roboflow.com/eyonYa8UscShNVoHj2wVTObkR8b2/53v7q2SekFX55KCbUTho/original.jpg",
+      "image_url": "https://source.roboflow.com/eyonYa8UscShNVoHj2wVTObkR8b2/53v7q2SekFX55KCbUTho/original.jpg",
+      "license": "https://creativecommons.org/licenses/by/4.0/",
+      "objects": [
+        {
+          "bbox": [
+            0.367647,
+            0.057377,
+            0.496324,
+            0.696721
+          ],
+          "kind": "syringe"
+        }
+      ],
+      "lookalikes": [],
+      "review": "One clear central syringe. Two blue-capped tubes are separate.",
+      "split": "medbin-reserve"
+    },
+    {
+      "id": "B7kNxeNP3M8ULGyVQyMA",
+      "image": "detection_hillclimb/medbin-original/B7kNxeNP3M8ULGyVQyMA.jpg",
+      "sha256": "02ad5ecc462a85af36706d341ea8294de8450eebc558469951bb379b1f911437",
+      "original": true,
+      "dhash": "57474b6b1b13130b",
+      "dimensions": [
+        1920,
+        1080
+      ],
+      "catalog_label_counts": {
+        " syringe": 1,
+        "reagent_tube_cap": 1,
+        "reagent_tube": 1
+      },
+      "catalog_split": "train",
+      "intent": "syringe with other labeled objects",
+      "group": "medbin:unresolved-acquisition",
+      "title": "syringe with other labeled objects",
+      "author": "medical waste dataset contributors",
+      "source_url": "https://universe.roboflow.com/medical-waste-e3vov/medbin_dataset-2",
+      "original_url": "https://source.roboflow.com/eyonYa8UscShNVoHj2wVTObkR8b2/B7kNxeNP3M8ULGyVQyMA/original.jpg",
+      "image_url": "https://source.roboflow.com/eyonYa8UscShNVoHj2wVTObkR8b2/B7kNxeNP3M8ULGyVQyMA/original.jpg",
+      "license": "https://creativecommons.org/licenses/by/4.0/",
+      "objects": [
+        {
+          "bbox": [
+            0.1875,
+            0.019608,
+            0.415441,
+            0.54902
+          ],
+          "kind": "syringe"
+        }
+      ],
+      "lookalikes": [],
+      "review": "Needleless visible syringe upper left. The capped tube is separate.",
+      "split": "medbin-reserve"
+    },
+    {
+      "id": "bVv4oowCJqs5A7DEUUkx",
+      "image": "detection_hillclimb/medbin-original/bVv4oowCJqs5A7DEUUkx.jpg",
+      "sha256": "bea85586fe0ef6ebbc0a441802d90c01775443f795cbdc88da963a25ff06b934",
+      "original": true,
+      "dhash": "570b0b092d240c09",
+      "dimensions": [
+        1920,
+        1080
+      ],
+      "catalog_label_counts": {
+        "reagent_tube_cap": 1,
+        "reagent_tube": 1,
+        " syringe": 1
+      },
+      "catalog_split": "train",
+      "intent": "syringe with other labeled objects",
+      "group": "medbin:unresolved-acquisition",
+      "title": "syringe with other labeled objects",
+      "author": "medical waste dataset contributors",
+      "source_url": "https://universe.roboflow.com/medical-waste-e3vov/medbin_dataset-2",
+      "original_url": "https://source.roboflow.com/eyonYa8UscShNVoHj2wVTObkR8b2/bVv4oowCJqs5A7DEUUkx/original.jpg",
+      "image_url": "https://source.roboflow.com/eyonYa8UscShNVoHj2wVTObkR8b2/bVv4oowCJqs5A7DEUUkx/original.jpg",
+      "license": "https://creativecommons.org/licenses/by/4.0/",
+      "objects": [
+        {
+          "bbox": [
+            0.584559,
+            0.764706,
+            0.900735,
+            1.0
+          ],
+          "kind": "syringe"
+        }
+      ],
+      "lookalikes": [],
+      "review": "Syringe lower right clipped by the image border. The blue-capped tube overlaps it.",
+      "split": "medbin-reserve"
+    },
+    {
+      "id": "aFzbltC8rOipfDcWaOMO",
+      "image": "detection_hillclimb/medbin-original/aFzbltC8rOipfDcWaOMO.jpg",
+      "sha256": "63de0f84273383fbc9f134f3f27796fdbcdcbda90a7f4e41ebfc131cdbde6dda",
+      "original": true,
+      "dhash": "5357555373232d09",
+      "dimensions": [
+        4096,
+        1844
+      ],
+      "catalog_label_counts": {
+        " syringe": 1,
+        "tweezer_plastic": 1,
+        "cotton_swab": 1,
+        "paperbox": 1
+      },
+      "catalog_split": "train",
+      "intent": "syringe with other labeled objects",
+      "group": "medbin:unresolved-acquisition",
+      "title": "syringe with other labeled objects",
+      "author": "medical waste dataset contributors",
+      "source_url": "https://universe.roboflow.com/medical-waste-e3vov/medbin_dataset-2",
+      "original_url": "https://source.roboflow.com/eyonYa8UscShNVoHj2wVTObkR8b2/aFzbltC8rOipfDcWaOMO/original.jpg",
+      "image_url": "https://source.roboflow.com/eyonYa8UscShNVoHj2wVTObkR8b2/aFzbltC8rOipfDcWaOMO/original.jpg",
+      "license": "https://creativecommons.org/licenses/by/4.0/",
+      "objects": [
+        {
+          "bbox": [
+            0.227941,
+            0.106557,
+            0.466912,
+            0.827869
+          ],
+          "kind": "syringe"
+        }
+      ],
+      "lookalikes": [],
+      "review": "Black seal visible through syringe. The neighboring green forceps and cotton swab are separate.",
+      "split": "medbin-reserve"
+    },
+    {
+      "id": "h8ktqTK7L8elS9pRTKTk",
+      "image": "detection_hillclimb/medbin-original/h8ktqTK7L8elS9pRTKTk.jpg",
+      "sha256": "a017ba776704966feb72d285c44ce5725fa5f60f37222b839b308cddb0cdd2a8",
+      "original": true,
+      "dhash": "5b13716546c2691b",
+      "dimensions": [
+        4096,
+        1844
+      ],
+      "catalog_label_counts": {
+        "medical_gloves": 1,
+        " syringe": 1
+      },
+      "catalog_split": "train",
+      "intent": "syringe with other labeled objects",
+      "group": "medbin:unresolved-acquisition",
+      "title": "syringe with other labeled objects",
+      "author": "medical waste dataset contributors",
+      "source_url": "https://universe.roboflow.com/medical-waste-e3vov/medbin_dataset-2",
+      "original_url": "https://source.roboflow.com/eyonYa8UscShNVoHj2wVTObkR8b2/h8ktqTK7L8elS9pRTKTk/original.jpg",
+      "image_url": "https://source.roboflow.com/eyonYa8UscShNVoHj2wVTObkR8b2/h8ktqTK7L8elS9pRTKTk/original.jpg",
+      "license": "https://creativecommons.org/licenses/by/4.0/",
+      "objects": [
+        {
+          "bbox": [
+            0.301471,
+            0.540984,
+            0.613971,
+            0.909836
+          ],
+          "kind": "syringe"
+        }
+      ],
+      "lookalikes": [],
+      "review": "Syringe below the glove, partly shadowed.",
+      "split": "medbin-reserve"
+    },
+    {
+      "id": "RU7ZLphLCX6e03k4QQTY",
+      "image": "detection_hillclimb/medbin-original/RU7ZLphLCX6e03k4QQTY.jpg",
+      "sha256": "492ddc77a96e04e835a606c2c098b59679ce20705fc3accd5bff627a452eb321",
+      "original": true,
+      "dhash": "194749594f77530f",
+      "dimensions": [
+        4096,
+        1844
+      ],
+      "catalog_label_counts": {
+        "mercury_thermometer": 1,
+        " syringe": 1,
+        "Mask": 1
+      },
+      "catalog_split": "train",
+      "intent": "syringe with other labeled objects",
+      "group": "medbin:unresolved-acquisition",
+      "title": "syringe with other labeled objects",
+      "author": "medical waste dataset contributors",
+      "source_url": "https://universe.roboflow.com/medical-waste-e3vov/medbin_dataset-2",
+      "original_url": "https://source.roboflow.com/eyonYa8UscShNVoHj2wVTObkR8b2/RU7ZLphLCX6e03k4QQTY/original.jpg",
+      "image_url": "https://source.roboflow.com/eyonYa8UscShNVoHj2wVTObkR8b2/RU7ZLphLCX6e03k4QQTY/original.jpg",
+      "license": "https://creativecommons.org/licenses/by/4.0/",
+      "objects": [
+        {
+          "bbox": [
+            0.231618,
+            0.409836,
+            0.533088,
+            0.852459
+          ],
+          "kind": "syringe"
+        }
+      ],
+      "lookalikes": [],
+      "review": "Clear syringe with dark stopper. Upper glass instrument is a separate thermometer.",
+      "split": "medbin-reserve"
+    },
+    {
+      "id": "141xVsrrM3M7FfENCELj",
+      "image": "detection_hillclimb/medbin-original/141xVsrrM3M7FfENCELj.jpg",
+      "sha256": "ce7a9758fbf4900eeb5b8679e57c6077e75c26035416970d189ecf3808d5dd09",
+      "original": true,
+      "dhash": "1010111210d87200",
+      "dimensions": [
+        3024,
+        4032
+      ],
+      "catalog_label_counts": {
+        "Mask": 1,
+        "paperbox": 1,
+        "mercury_thermometer": 1,
+        "medical_gloves": 1,
+        "plastic_medical_bottle": 1,
+        "tweezer_plastic": 1,
+        "gauze": 1,
+        " syringe": 1
+      },
+      "catalog_split": "train",
+      "intent": "syringe with other labeled objects",
+      "group": "medbin:unresolved-acquisition",
+      "title": "syringe with other labeled objects",
+      "author": "medical waste dataset contributors",
+      "source_url": "https://universe.roboflow.com/medical-waste-e3vov/medbin_dataset-2",
+      "original_url": "https://source.roboflow.com/eyonYa8UscShNVoHj2wVTObkR8b2/141xVsrrM3M7FfENCELj/original.jpg",
+      "image_url": "https://source.roboflow.com/eyonYa8UscShNVoHj2wVTObkR8b2/141xVsrrM3M7FfENCELj/original.jpg",
+      "license": "https://creativecommons.org/licenses/by/4.0/",
+      "objects": [
+        {
+          "bbox": [
+            0.59125,
+            0.511221,
+            0.633158,
+            0.530469
+          ],
+          "kind": "syringe"
+        }
+      ],
+      "lookalikes": [],
+      "review": "The table leg hides most of the syringe. Only the marked barrel with a black seal to its right is visible. The longer green-capped item on the left is a thermometer.",
+      "split": "medbin-reserve"
+    },
+    {
+      "id": "QCk5eo9RWUdPbXZjZKnm",
+      "image": "detection_hillclimb/medbin-original/QCk5eo9RWUdPbXZjZKnm.jpg",
+      "sha256": "61233c506af0b19a6c8dd3999bcb9a8e0e3dbb212094e828de16450e36c79999",
+      "original": true,
+      "dhash": "6d4c4d1db30b1b99",
+      "dimensions": [
+        4096,
+        1844
+      ],
+      "catalog_label_counts": {
+        "medical_gloves": 1,
+        " syringe": 1
+      },
+      "catalog_split": "train",
+      "intent": "syringe with other labeled objects",
+      "group": "medbin:unresolved-acquisition",
+      "title": "syringe with other labeled objects",
+      "author": "medical waste dataset contributors",
+      "source_url": "https://universe.roboflow.com/medical-waste-e3vov/medbin_dataset-2",
+      "original_url": "https://source.roboflow.com/eyonYa8UscShNVoHj2wVTObkR8b2/QCk5eo9RWUdPbXZjZKnm/original.jpg",
+      "image_url": "https://source.roboflow.com/eyonYa8UscShNVoHj2wVTObkR8b2/QCk5eo9RWUdPbXZjZKnm/original.jpg",
+      "license": "https://creativecommons.org/licenses/by/4.0/",
+      "objects": [
+        {
+          "bbox": [
+            0.345588,
+            0.581967,
+            0.613971,
+            0.877049
+          ],
+          "kind": "syringe"
+        }
+      ],
+      "lookalikes": [],
+      "review": "Syringe on reflective dark surface near glove.",
+      "split": "medbin-reserve"
+    },
+    {
+      "id": "gIDJXvJ9xSxwq4nTVA6f",
+      "image": "detection_hillclimb/medbin-original/gIDJXvJ9xSxwq4nTVA6f.jpg",
+      "sha256": "20363da3959da95b9aee50ed4106d34dfffa94a179d81106e00e909247a1e0e0",
+      "original": true,
+      "dhash": "4010616911010101",
+      "dimensions": [
+        1920,
+        1080
+      ],
+      "catalog_label_counts": {
+        " syringe": 1
+      },
+      "catalog_split": "train",
+      "intent": "syringe only",
+      "group": "medbin:unresolved-acquisition",
+      "title": "syringe only",
+      "author": "medical waste dataset contributors",
+      "source_url": "https://universe.roboflow.com/medical-waste-e3vov/medbin_dataset-2",
+      "original_url": "https://source.roboflow.com/eyonYa8UscShNVoHj2wVTObkR8b2/gIDJXvJ9xSxwq4nTVA6f/original.jpg",
+      "image_url": "https://source.roboflow.com/eyonYa8UscShNVoHj2wVTObkR8b2/gIDJXvJ9xSxwq4nTVA6f/original.jpg",
+      "license": "https://creativecommons.org/licenses/by/4.0/",
+      "objects": [
+        {
+          "bbox": [
+            0.286765,
+            0.143791,
+            0.643382,
+            0.45098
+          ],
+          "kind": "syringe"
+        }
+      ],
+      "lookalikes": [],
+      "review": "Needleless syringe with distinct gray plunger.",
+      "split": "medbin-reserve"
+    },
+    {
+      "id": "0U3vy9UymgnYnLTSG7O0",
+      "image": "detection_hillclimb/medbin-original/0U3vy9UymgnYnLTSG7O0.jpg",
+      "sha256": "1981b354c9cfd8d9d2bdbc8b2b22d5f55959a7744d09855f909491d20e0f70c4",
+      "original": true,
+      "dhash": "0010111135110101",
+      "dimensions": [
+        1920,
+        1080
+      ],
+      "catalog_label_counts": {
+        " syringe": 1
+      },
+      "catalog_split": "train",
+      "intent": "syringe only",
+      "group": "medbin:unresolved-acquisition",
+      "title": "syringe only",
+      "author": "medical waste dataset contributors",
+      "source_url": "https://universe.roboflow.com/medical-waste-e3vov/medbin_dataset-2",
+      "original_url": "https://source.roboflow.com/eyonYa8UscShNVoHj2wVTObkR8b2/0U3vy9UymgnYnLTSG7O0/original.jpg",
+      "image_url": "https://source.roboflow.com/eyonYa8UscShNVoHj2wVTObkR8b2/0U3vy9UymgnYnLTSG7O0/original.jpg",
+      "license": "https://creativecommons.org/licenses/by/4.0/",
+      "objects": [
+        {
+          "bbox": [
+            0.452206,
+            0.065359,
+            0.551471,
+            0.666667
+          ],
+          "kind": "syringe"
+        }
+      ],
+      "lookalikes": [],
+      "review": "Vertical translucent syringe on white surface.",
+      "split": "medbin-reserve"
+    },
+    {
+      "id": "HM9ietHzbWYFKZrfEkt1",
+      "image": "detection_hillclimb/medbin-original/HM9ietHzbWYFKZrfEkt1.jpg",
+      "sha256": "ed183156686911d8ed42986ef5d7e51170b2dee1c962209523494e45ddf0421e",
+      "original": true,
+      "dhash": "000004091b312501",
+      "dimensions": [
+        1920,
+        1080
+      ],
+      "catalog_label_counts": {
+        " syringe": 1
+      },
+      "catalog_split": "train",
+      "intent": "syringe only",
+      "group": "medbin:unresolved-acquisition",
+      "title": "syringe only",
+      "author": "medical waste dataset contributors",
+      "source_url": "https://universe.roboflow.com/medical-waste-e3vov/medbin_dataset-2",
+      "original_url": "https://source.roboflow.com/eyonYa8UscShNVoHj2wVTObkR8b2/HM9ietHzbWYFKZrfEkt1/original.jpg",
+      "image_url": "https://source.roboflow.com/eyonYa8UscShNVoHj2wVTObkR8b2/HM9ietHzbWYFKZrfEkt1/original.jpg",
+      "license": "https://creativecommons.org/licenses/by/4.0/",
+      "objects": [
+        {
+          "bbox": [
+            0.323529,
+            0.019608,
+            0.830882,
+            0.843137
+          ],
+          "kind": "syringe"
+        }
+      ],
+      "lookalikes": [],
+      "review": "Plunger clearly extended at an angle.",
+      "split": "medbin-reserve"
+    },
+    {
+      "id": "JDOHBEGF1ok1GgoIIIHX",
+      "image": "detection_hillclimb/medbin-original/JDOHBEGF1ok1GgoIIIHX.jpg",
+      "sha256": "b53f9ba5e522bd9d4fe71e2aa37a7e8a8fe1321429479116586458738a3c6ddf",
+      "original": true,
+      "dhash": "7070383d0d290907",
+      "dimensions": [
+        1920,
+        1080
+      ],
+      "catalog_label_counts": {
+        " syringe": 1
+      },
+      "catalog_split": "train",
+      "intent": "syringe only",
+      "group": "medbin:unresolved-acquisition",
+      "title": "syringe only",
+      "author": "medical waste dataset contributors",
+      "source_url": "https://universe.roboflow.com/medical-waste-e3vov/medbin_dataset-2",
+      "original_url": "https://source.roboflow.com/eyonYa8UscShNVoHj2wVTObkR8b2/JDOHBEGF1ok1GgoIIIHX/original.jpg",
+      "image_url": "https://source.roboflow.com/eyonYa8UscShNVoHj2wVTObkR8b2/JDOHBEGF1ok1GgoIIIHX/original.jpg",
+      "license": "https://creativecommons.org/licenses/by/4.0/",
+      "objects": [
+        {
+          "bbox": [
+            0.577206,
+            0.27451,
+            0.757353,
+            0.869281
+          ],
+          "kind": "syringe"
+        }
+      ],
+      "lookalikes": [],
+      "review": "Transparent syringe below the top edge. Its long plunger is visible.",
+      "split": "medbin-reserve"
+    },
+    {
+      "id": "y19GkW5LMoHSIMM3Y6aZ",
+      "image": "detection_hillclimb/medbin-original/y19GkW5LMoHSIMM3Y6aZ.jpg",
+      "sha256": "60614b825b7f377d8f8b8f6f5865e42f3fcccbef54c90bd07b927739fcfe0d5a",
+      "original": true,
+      "dhash": "000016498e9669d4",
+      "dimensions": [
+        1440,
+        960
+      ],
+      "catalog_label_counts": {
+        " syringe": 2
+      },
+      "catalog_split": "valid",
+      "intent": "syringe only",
+      "group": "medbin:unresolved-acquisition",
+      "title": "syringe only",
+      "author": "medical waste dataset contributors",
+      "source_url": "https://universe.roboflow.com/medical-waste-e3vov/medbin_dataset-2",
+      "original_url": "https://source.roboflow.com/eyonYa8UscShNVoHj2wVTObkR8b2/y19GkW5LMoHSIMM3Y6aZ/original.jpg",
+      "image_url": "https://source.roboflow.com/eyonYa8UscShNVoHj2wVTObkR8b2/y19GkW5LMoHSIMM3Y6aZ/original.jpg",
+      "license": "https://creativecommons.org/licenses/by/4.0/",
+      "objects": [
+        {
+          "bbox": [
+            0.261029,
+            0.59116,
+            0.588235,
+            0.751381
+          ],
+          "kind": "syringe"
+        },
+        {
+          "bbox": [
+            0.430147,
+            0.464088,
+            0.735294,
+            0.734807
+          ],
+          "kind": "syringe"
+        }
+      ],
+      "lookalikes": [],
+      "review": "Two overlapping syringes with separate plunger ends and targets.",
+      "split": "medbin-reserve"
+    },
+    {
+      "id": "WVLWDhoUvG18olHsd6GW",
+      "image": "detection_hillclimb/medbin-original/WVLWDhoUvG18olHsd6GW.jpg",
+      "sha256": "5bfd8e2370f575a9ba025bcc1050368d9e09e75f4481667349d69c4030d0db9c",
+      "original": true,
+      "dhash": "070703898d050509",
+      "dimensions": [
+        1920,
+        1080
+      ],
+      "catalog_label_counts": {
+        "transferpettor_glass": 2
+      },
+      "catalog_split": "train",
+      "intent": "pipettes",
+      "group": "medbin:unresolved-acquisition",
+      "title": "pipettes",
+      "author": "medical waste dataset contributors",
+      "source_url": "https://universe.roboflow.com/medical-waste-e3vov/medbin_dataset-2",
+      "original_url": "https://source.roboflow.com/eyonYa8UscShNVoHj2wVTObkR8b2/WVLWDhoUvG18olHsd6GW/original.jpg",
+      "image_url": "https://source.roboflow.com/eyonYa8UscShNVoHj2wVTObkR8b2/WVLWDhoUvG18olHsd6GW/original.jpg",
+      "license": "https://creativecommons.org/licenses/by/4.0/",
+      "objects": [],
+      "lookalikes": [],
+      "review": "Clear glass pipettes on wood; tiny dispensing ends but no plungers.",
+      "split": "medbin-reserve"
+    },
+    {
+      "id": "R2YclNVE3RxOTKJ7PHgP",
+      "image": "detection_hillclimb/medbin-original/R2YclNVE3RxOTKJ7PHgP.jpg",
+      "sha256": "9dfc7fc79b78c093f5da6e1dbc4127d7b7947794672e33f6c4552ac424be6ee0",
+      "original": true,
+      "dhash": "07070b0307071316",
+      "dimensions": [
+        1920,
+        1080
+      ],
+      "catalog_label_counts": {
+        "transferpettor_plastic": 2,
+        "transferpettor_glass": 3
+      },
+      "catalog_split": "train",
+      "intent": "pipettes",
+      "group": "medbin:unresolved-acquisition",
+      "title": "pipettes",
+      "author": "medical waste dataset contributors",
+      "source_url": "https://universe.roboflow.com/medical-waste-e3vov/medbin_dataset-2",
+      "original_url": "https://source.roboflow.com/eyonYa8UscShNVoHj2wVTObkR8b2/R2YclNVE3RxOTKJ7PHgP/original.jpg",
+      "image_url": "https://source.roboflow.com/eyonYa8UscShNVoHj2wVTObkR8b2/R2YclNVE3RxOTKJ7PHgP/original.jpg",
+      "license": "https://creativecommons.org/licenses/by/4.0/",
+      "objects": [],
+      "lookalikes": [],
+      "review": "Glass and plastic pipette group with distinct tips.",
+      "split": "medbin-reserve"
+    },
+    {
+      "id": "xKUzB2H7yXebWOubN7va",
+      "image": "detection_hillclimb/medbin-original/xKUzB2H7yXebWOubN7va.jpg",
+      "sha256": "178764397e314a5a95c70218a1626d0e2fa752b5224ad13dceba9c69354cf165",
+      "original": true,
+      "dhash": "940f0707534bc9f7",
+      "dimensions": [
+        1844,
+        4096
+      ],
+      "catalog_label_counts": {
+        "transferpettor_glass": 1,
+        "cotton_swab": 1
+      },
+      "catalog_split": "train",
+      "intent": "pipettes",
+      "group": "medbin:unresolved-acquisition",
+      "title": "pipettes",
+      "author": "medical waste dataset contributors",
+      "source_url": "https://universe.roboflow.com/medical-waste-e3vov/medbin_dataset-2",
+      "original_url": "https://source.roboflow.com/eyonYa8UscShNVoHj2wVTObkR8b2/xKUzB2H7yXebWOubN7va/original.jpg",
+      "image_url": "https://source.roboflow.com/eyonYa8UscShNVoHj2wVTObkR8b2/xKUzB2H7yXebWOubN7va/original.jpg",
+      "license": "https://creativecommons.org/licenses/by/4.0/",
+      "objects": [],
+      "lookalikes": [],
+      "review": "One clear pipette and a cotton swab crossing.",
+      "split": "medbin-reserve"
+    },
+    {
+      "id": "bd98NPb9f7qVEbvfRMXC",
+      "image": "detection_hillclimb/medbin-original/bd98NPb9f7qVEbvfRMXC.jpg",
+      "sha256": "926498a344772343f2dc2cf6d8d790978b1413b4a3e973fe1d8d1d51e4f9d007",
+      "original": true,
+      "dhash": "4b4d0b1b1909858d",
+      "dimensions": [
+        4096,
+        1844
+      ],
+      "catalog_label_counts": {
+        "transferpettor_plastic": 1,
+        "transferpettor_glass": 1,
+        "drug_packaging": 1
+      },
+      "catalog_split": "train",
+      "intent": "pipettes",
+      "group": "medbin:unresolved-acquisition",
+      "title": "pipettes",
+      "author": "medical waste dataset contributors",
+      "source_url": "https://universe.roboflow.com/medical-waste-e3vov/medbin_dataset-2",
+      "original_url": "https://source.roboflow.com/eyonYa8UscShNVoHj2wVTObkR8b2/bd98NPb9f7qVEbvfRMXC/original.jpg",
+      "image_url": "https://source.roboflow.com/eyonYa8UscShNVoHj2wVTObkR8b2/bd98NPb9f7qVEbvfRMXC/original.jpg",
+      "license": "https://creativecommons.org/licenses/by/4.0/",
+      "objects": [],
+      "lookalikes": [],
+      "review": "Glass and plastic pipettes with blister packing.",
+      "split": "medbin-reserve"
+    },
+    {
+      "id": "0t0X6XBBF4iYMYtmvWh7",
+      "image": "detection_hillclimb/medbin-original/0t0X6XBBF4iYMYtmvWh7.jpg",
+      "sha256": "e940643ff8da23778842208065d7630aceec21412755693cea313e353b1262ac",
+      "original": true,
+      "dhash": "0b0e0b0e08081811",
+      "dimensions": [
+        1440,
+        960
+      ],
+      "catalog_label_counts": {
+        "transferpettor_glass": 1
+      },
+      "catalog_split": "train",
+      "intent": "pipettes",
+      "group": "medbin:unresolved-acquisition",
+      "title": "pipettes",
+      "author": "medical waste dataset contributors",
+      "source_url": "https://universe.roboflow.com/medical-waste-e3vov/medbin_dataset-2",
+      "original_url": "https://source.roboflow.com/eyonYa8UscShNVoHj2wVTObkR8b2/0t0X6XBBF4iYMYtmvWh7/original.jpg",
+      "image_url": "https://source.roboflow.com/eyonYa8UscShNVoHj2wVTObkR8b2/0t0X6XBBF4iYMYtmvWh7/original.jpg",
+      "license": "https://creativecommons.org/licenses/by/4.0/",
+      "objects": [],
+      "lookalikes": [],
+      "review": "Long glass pipette on wood.",
+      "split": "medbin-reserve"
+    },
+    {
+      "id": "Ug5TX8ezngBFGLXRuHPj",
+      "image": "detection_hillclimb/medbin-original/Ug5TX8ezngBFGLXRuHPj.jpg",
+      "sha256": "9176bc5d73d67fb5cbb4507413e9b4f602540ebc237541a183e4a47ff178e7e1",
+      "original": true,
+      "dhash": "2b0c0e0e0a081819",
+      "dimensions": [
+        1440,
+        960
+      ],
+      "catalog_label_counts": {
+        "transferpettor_glass": 1
+      },
+      "catalog_split": "train",
+      "intent": "pipettes",
+      "group": "medbin:unresolved-acquisition",
+      "title": "pipettes",
+      "author": "medical waste dataset contributors",
+      "source_url": "https://universe.roboflow.com/medical-waste-e3vov/medbin_dataset-2",
+      "original_url": "https://source.roboflow.com/eyonYa8UscShNVoHj2wVTObkR8b2/Ug5TX8ezngBFGLXRuHPj/original.jpg",
+      "image_url": "https://source.roboflow.com/eyonYa8UscShNVoHj2wVTObkR8b2/Ug5TX8ezngBFGLXRuHPj/original.jpg",
+      "license": "https://creativecommons.org/licenses/by/4.0/",
+      "objects": [],
+      "lookalikes": [],
+      "review": "Glass pipette with visible elongated tip.",
+      "split": "medbin-reserve"
+    },
+    {
+      "id": "br0W8fJsxKpS69hk0NbO",
+      "image": "detection_hillclimb/medbin-original/br0W8fJsxKpS69hk0NbO.jpg",
+      "sha256": "cf02800a8f99b98941d51f6216bad6541f972167ba061f2e8090a693021ff566",
+      "original": true,
+      "dhash": "081898c49c94c48c",
+      "dimensions": [
+        4096,
+        1844
+      ],
+      "catalog_label_counts": {
+        "reagent_tube": 2,
+        "reagent_tube_cap": 2
+      },
+      "catalog_split": "train",
+      "intent": "tubes",
+      "group": "medbin:unresolved-acquisition",
+      "title": "tubes",
+      "author": "medical waste dataset contributors",
+      "source_url": "https://universe.roboflow.com/medical-waste-e3vov/medbin_dataset-2",
+      "original_url": "https://source.roboflow.com/eyonYa8UscShNVoHj2wVTObkR8b2/br0W8fJsxKpS69hk0NbO/original.jpg",
+      "image_url": "https://source.roboflow.com/eyonYa8UscShNVoHj2wVTObkR8b2/br0W8fJsxKpS69hk0NbO/original.jpg",
+      "license": "https://creativecommons.org/licenses/by/4.0/",
+      "objects": [],
+      "lookalikes": [],
+      "review": "Two closed graduated sample tubes on colored fabric.",
+      "split": "medbin-reserve"
+    },
+    {
+      "id": "UCm3uvT1AdT1bFGzUvzG",
+      "image": "detection_hillclimb/medbin-original/UCm3uvT1AdT1bFGzUvzG.jpg",
+      "sha256": "1b662f75b72d3d9dd37e1f2e14d3cb1bbb397473b8e6735898d96390a9524336",
+      "original": true,
+      "dhash": "002461d9f179dcb0",
+      "dimensions": [
+        1844,
+        4096
+      ],
+      "catalog_label_counts": {
+        "reagent_tube": 2,
+        "reagent_tube_cap": 2
+      },
+      "catalog_split": "train",
+      "intent": "tubes",
+      "group": "medbin:unresolved-acquisition",
+      "title": "tubes",
+      "author": "medical waste dataset contributors",
+      "source_url": "https://universe.roboflow.com/medical-waste-e3vov/medbin_dataset-2",
+      "original_url": "https://source.roboflow.com/eyonYa8UscShNVoHj2wVTObkR8b2/UCm3uvT1AdT1bFGzUvzG/original.jpg",
+      "image_url": "https://source.roboflow.com/eyonYa8UscShNVoHj2wVTObkR8b2/UCm3uvT1AdT1bFGzUvzG/original.jpg",
+      "license": "https://creativecommons.org/licenses/by/4.0/",
+      "objects": [],
+      "lookalikes": [],
+      "review": "Capped tubes with printed scales on paper.",
+      "split": "medbin-reserve"
+    },
+    {
+      "id": "W2jQUMn5QSxQnWOhev0R",
+      "image": "detection_hillclimb/medbin-original/W2jQUMn5QSxQnWOhev0R.jpg",
+      "sha256": "24e3898b2e12e3f1a7304ab5f4899c429483da5c77131302a2e4960282ff38f6",
+      "original": true,
+      "dhash": "060e2525151c0c03",
+      "dimensions": [
+        1920,
+        1080
+      ],
+      "catalog_label_counts": {
+        "reagent_tube": 2,
+        "reagent_tube_cap": 2
+      },
+      "catalog_split": "valid",
+      "intent": "tubes",
+      "group": "medbin:unresolved-acquisition",
+      "title": "tubes",
+      "author": "medical waste dataset contributors",
+      "source_url": "https://universe.roboflow.com/medical-waste-e3vov/medbin_dataset-2",
+      "original_url": "https://source.roboflow.com/eyonYa8UscShNVoHj2wVTObkR8b2/W2jQUMn5QSxQnWOhev0R/original.jpg",
+      "image_url": "https://source.roboflow.com/eyonYa8UscShNVoHj2wVTObkR8b2/W2jQUMn5QSxQnWOhev0R/original.jpg",
+      "license": "https://creativecommons.org/licenses/by/4.0/",
+      "objects": [],
+      "lookalikes": [],
+      "review": "Two tapered capped sample tubes on a light tabletop.",
+      "split": "medbin-reserve"
+    },
+    {
+      "id": "oYKiqEiYMUhyLAHEomBB",
+      "image": "detection_hillclimb/medbin-original/oYKiqEiYMUhyLAHEomBB.jpg",
+      "sha256": "b5530570ab75a85a16c4337ed43351aaa8350dabbbcd9396ead322225d60ac26",
+      "original": true,
+      "dhash": "0b0d051930303865",
+      "dimensions": [
+        1920,
+        1080
+      ],
+      "catalog_label_counts": {
+        "reagent_tube": 3,
+        "reagent_tube_cap": 3
+      },
+      "catalog_split": "valid",
+      "intent": "tubes",
+      "group": "medbin:unresolved-acquisition",
+      "title": "tubes",
+      "author": "medical waste dataset contributors",
+      "source_url": "https://universe.roboflow.com/medical-waste-e3vov/medbin_dataset-2",
+      "original_url": "https://source.roboflow.com/eyonYa8UscShNVoHj2wVTObkR8b2/oYKiqEiYMUhyLAHEomBB/original.jpg",
+      "image_url": "https://source.roboflow.com/eyonYa8UscShNVoHj2wVTObkR8b2/oYKiqEiYMUhyLAHEomBB/original.jpg",
+      "license": "https://creativecommons.org/licenses/by/4.0/",
+      "objects": [],
+      "lookalikes": [],
+      "review": "Three capped sample tubes aligned.",
+      "split": "medbin-reserve"
+    },
+    {
+      "id": "5Sz2psHbyzpAdYaMk3qi",
+      "image": "detection_hillclimb/medbin-original/5Sz2psHbyzpAdYaMk3qi.jpg",
+      "sha256": "1dc7e43f281475d7b5e8407b96a484e6d2da2fd1b23a652f9d85c7e50ea9efef",
+      "original": true,
+      "dhash": "27654d2d49081167",
+      "dimensions": [
+        1920,
+        1080
+      ],
+      "catalog_label_counts": {
+        "reagent_tube": 3,
+        "reagent_tube_cap": 3
+      },
+      "catalog_split": "train",
+      "intent": "tubes",
+      "group": "medbin:unresolved-acquisition",
+      "title": "tubes",
+      "author": "medical waste dataset contributors",
+      "source_url": "https://universe.roboflow.com/medical-waste-e3vov/medbin_dataset-2",
+      "original_url": "https://source.roboflow.com/eyonYa8UscShNVoHj2wVTObkR8b2/5Sz2psHbyzpAdYaMk3qi/original.jpg",
+      "image_url": "https://source.roboflow.com/eyonYa8UscShNVoHj2wVTObkR8b2/5Sz2psHbyzpAdYaMk3qi/original.jpg",
+      "license": "https://creativecommons.org/licenses/by/4.0/",
+      "objects": [],
+      "lookalikes": [],
+      "review": "Sample tubes in mixed poses.",
+      "split": "medbin-reserve"
+    },
+    {
+      "id": "8tER3srZptCjgm6iwXde",
+      "image": "detection_hillclimb/medbin-original/8tER3srZptCjgm6iwXde.jpg",
+      "sha256": "f1686baf74ba5a3717114bd96c14f96876004ac4faac5d6cbd5ea12d3b076d78",
+      "original": true,
+      "dhash": "0f0c0a020e181819",
+      "dimensions": [
+        1440,
+        960
+      ],
+      "catalog_label_counts": {
+        "reagent_tube": 1
+      },
+      "catalog_split": "train",
+      "intent": "tubes",
+      "group": "medbin:unresolved-acquisition",
+      "title": "tubes",
+      "author": "medical waste dataset contributors",
+      "source_url": "https://universe.roboflow.com/medical-waste-e3vov/medbin_dataset-2",
+      "original_url": "https://source.roboflow.com/eyonYa8UscShNVoHj2wVTObkR8b2/8tER3srZptCjgm6iwXde/original.jpg",
+      "image_url": "https://source.roboflow.com/eyonYa8UscShNVoHj2wVTObkR8b2/8tER3srZptCjgm6iwXde/original.jpg",
+      "license": "https://creativecommons.org/licenses/by/4.0/",
+      "objects": [],
+      "lookalikes": [],
+      "review": "An uncapped graduated tube with an open edge.",
+      "split": "medbin-reserve"
+    }
+  ],
+  "reference_sha256": "2f2a2e3aefa496bcd5f7662580683173fac73eeb76476ff2a3e03652ed9ae632",
+  "catalog_url": "https://universe.roboflow.com/medical-waste-e3vov/medbin_dataset-2",
+  "scope": "Native source JPEGs downloaded from the public CC BY 4.0 Universe listing and visually reviewed. No publisher inference, training or train/validation split is used. Grouped as one unresolved acquisition source because independent specimen and session identifiers are unavailable. Results apply to this test-only subset and do not establish the paper's complete dataset lineage."
+}

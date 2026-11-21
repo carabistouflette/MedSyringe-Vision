@@ -1,0 +1,12 @@
+{
+  "inputs": {
+    "scripts/detection_medbin_audit.py": "8f396d3a3d521da5102d183db182900907bb5245a9dcc704aa9bb356ecefb63d",
+    "artifacts/detection_hillclimb/medbin_held_out_manifest.json": "d49dff2f45256ad40b9338d2b0864625dc53cb94083137161ff9a33a4235d061",
+    "artifacts/detection_hillclimb/medbin_reference_review.json": "2f2a2e3aefa496bcd5f7662580683173fac73eeb76476ff2a3e03652ed9ae632",
+    "artifacts/detection_hillclimb/empty_scene_selection.json": "cd045adbb89fa4ed5f485e046137f17c377822e9b50a2b01107696fd64ec3004",
+    "artifacts/detection_hillclimb/precision_only_confirmation_freeze.json": "d86ea711e7f9ec7e8cd545063c82910f42cf3f3c303c64de6a32e38d872c7939",
+    "artifacts/expanded/crop_verifier_release.json": "24467cdc561e12a778067561439a33ecddb85ee57d4d92ce716228e517e64c00",
+    "artifacts/detector_release.json": "6481fabde0f83dc58083049abb0f6a69f94d2b734d94234a28fa0b2e197e7897"
+  },
+  "policy": "Compare the released appearance gate and the unchanged restricted recovery. A model gain requires at least one new true match and no lost matches or added false positives. The source is a single test-only domain."
+}

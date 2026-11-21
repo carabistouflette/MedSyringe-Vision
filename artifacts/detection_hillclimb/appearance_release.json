@@ -30,16 +30,6 @@
   "mode": "veto-only",
   "evidence": "artifacts/detection_hillclimb/precision_negative_results.json",
   "evidence_sha256": "948b8aaef8f8efb95594bdf9b0b65de5c0f3b778683d87fc59c6833addf9a569",
-  "code": {
-    "medsyringe/appearance_runtime.py": "b694062f120746c8fc350bcd19a2837efd6f4101084e43e84fbec6b1cd68f3dc",
-    "medsyringe/local_models.py": "e97a6adb8e6a057b05329e91e72b3df1e39c943d2bfe1a5f102f3067dea4abc1",
-    "scripts/appearance_worker.py": "63526d80367b3940b793da8a1eec67f31dc9d9771b34491ad12c5e2d3ff778c6",
-    "scripts/appearance_worker.sh": "eb3be0f0847c5cff31b7e4f35c3bb94ab68a4a1ecdb7c0b958d3efed8e3ad4ad",
-    "scripts/detection_crop_semantics.py": "b98e65af57a8381d511a87cda85c9bd0b5b30229f6a9c1360d00bd2060c591c9",
-    "scripts/detection_semantics_audit.py": "7b644f54b0a55e47559e1427e06dd065494f3d87968296ebdae87626bf3518bf",
-    "scripts/rfdetr_verifier.py": "d65cadef929cc2484364fa5f53ce993760fc381398fb9b39053cbf9798375af4",
-    "scripts/sam3_study.py": "672278ed74cd9a58340a818f1bae8bade9067b92ce9961b0f2b29d3532b2ad49"
-  },
   "models": {
     "data/models/siglip2-base/config.json": "fe8b5fe6d5734360678fd71c11c21e1ea3364bd8598d34295d9206335973ffd7",
     "data/models/siglip2-base/model.safetensors": "612923381c76ec5a9bed335d1c48827e3f2e506ac31b044b63b2031fadee6a0b",
@@ -50,5 +40,21 @@
     "data/models/siglip2-base/tokenizer.model": "61a7b147390c64585d6c3543dd6fc636906c9af3865a5548f27f31aee1d4c8e2",
     "data/models/dinov2-small/model.safetensors": "ae1e99fcefd534ed978cdeb8326f08030c96e28b7a81ffcbc98a857c84d14be1",
     "data/models/dinov2-small/config.json": "1809f83e3bdb1609a501a610ad4a742f4fd8ae44d72ca4aa0df52d1f2ac8628d"
+  },
+  "code": {
+    "medsyringe/appearance_runtime.py": "99b60d264f921557fb0c9408dc2d9a68cf85fa727fefa53ccc84accdc75e1042",
+    "medsyringe/local_models.py": "e97a6adb8e6a057b05329e91e72b3df1e39c943d2bfe1a5f102f3067dea4abc1",
+    "scripts/appearance_worker.py": "299ef40e2c09fd0ea47f65a01914c934e30f7f9233060336a03407645fc1c335",
+    "scripts/appearance_text_encoder.py": "7e4db7df6db5bf3ff2ebe5463423fc581599c8d56a152fb23c1d592cde47cc79",
+    "scripts/appearance_worker.sh": "eb3be0f0847c5cff31b7e4f35c3bb94ab68a4a1ecdb7c0b958d3efed8e3ad4ad",
+    "scripts/detection_crop_semantics.py": "b98e65af57a8381d511a87cda85c9bd0b5b30229f6a9c1360d00bd2060c591c9",
+    "scripts/detection_semantics_audit.py": "7b644f54b0a55e47559e1427e06dd065494f3d87968296ebdae87626bf3518bf",
+    "scripts/rfdetr_verifier.py": "d65cadef929cc2484364fa5f53ce993760fc381398fb9b39053cbf9798375af4",
+    "scripts/sam3_study.py": "672278ed74cd9a58340a818f1bae8bade9067b92ce9961b0f2b29d3532b2ad49"
+  },
+  "encoder": "text-only",
+  "runtime_parity": {
+    "path": "artifacts/detection_hillclimb/appearance_runtime_parity.json",
+    "sha256": "f394210b8cca9370a1876fa0180fe4dc10239965c44fb85a8a52c7b58da45edf"
   }
 }

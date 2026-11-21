@@ -1,0 +1,19 @@
+{
+  "source": {
+    "source": "42c34c6742a22f26280bb0e59f95a701baee1a32",
+    "checkpoint": "3b9d0670cbf300d0b48f900ae87a6c4785d88939",
+    "tokenizer": "e73636d4f797dec63c3081bb6ed5c7b0bb3f2089"
+  },
+  "license": "GPL-3.0 for the publisher checkpoint",
+  "tensors": 792,
+  "files": {
+    "data/models/wedetect-tiny/wedetect_tiny.pth": "e1c881120c3ea51b09242f16a7da66f62423f47adabe7ffd2814ad002d2ac62c",
+    "data/models/wedetect-tiny/wedetect_tiny_tensors.pth": "12830296fe91abbadc0caabc030bd466ddc6ffd5b731ee096fdb7f74dba214b9",
+    "data/detection_hillclimb/WeDetect/deploy/test_coco_pytorch.py": "faa5c5a8365d1684b921ddaf189e266c9635525631aea5ba5c6377625830a2cc",
+    "data/models/wedetect-tokenizer/config.json": "d66ed8cd4f2a93b358c245e50736fa389ed4f35c0bae7aad0b32abb20c62b579",
+    "data/models/wedetect-tokenizer/tokenizer_config.json": "994f46754c5bf4014f1aa92d34b1374319c3a6b3f702105cd5b742beaecd18ce",
+    "data/models/wedetect-tokenizer/tokenizer.json": "a898ea75433890f6610f4e470b8ebeb0c21dce5c8dd61f892eb09eb5919d2e2c",
+    "data/models/wedetect-tokenizer/sentencepiece.bpe.model": "cfc8146abe2a0488e9e2a0c56de7952f7c11ab059eca145a0a727afce0db2865"
+  },
+  "loading": "Weights-only deserialization. Known training history values are ignored. The converted checkpoint contains only the model tensor dictionary."
+}

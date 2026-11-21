@@ -1,11 +1,13 @@
 """Exercise the visible local interface with a real browser and a real image."""
 import argparse
+from contextlib import suppress
 from hashlib import sha256
 from io import BytesIO
 import json
 from math import ceil, floor
 from pathlib import Path
 import os
+import signal
 import socket
 import shutil
 import subprocess
@@ -40,28 +42,37 @@ def main():
     parser.add_argument("--manual-fill-control", action="store_true",
                         help="Check image landmarks and reviewed fill on IMG_3316.jpeg.")
     parser.add_argument("--server-python", default=sys.executable, help="Python interpreter for the local API.")
+    parser.add_argument("--project-root", type=Path, default=Path.cwd(),
+                        help="Use the source and model files from a particular restored checkout.")
+    parser.add_argument("--analysis-timeout", type=float, default=120,
+                        help="Seconds to wait for real inference in this test.")
     args = parser.parse_args()
+    project = args.project_root.resolve()
+    screenshot_root = project/"data/workspace"
+    screenshot_root.mkdir(parents=True,exist_ok=True)
     flows = ["image upload", "real detection overlay", "inventory", "persisted review",
              "ZIP report with evidence", "mobile viewport without horizontal overflow"]
     with TemporaryDirectory(prefix="medsyringe-browser-") as temporary:
         root = Path(temporary)
         (root / "data").mkdir()
-        if Path(".venv").is_dir():
-            (root / ".venv").symlink_to(Path(".venv").resolve(), target_is_directory=True)
-        (root / "data/models").symlink_to(Path("data/models").resolve(), target_is_directory=True)
-        (root / "artifacts").symlink_to(Path("artifacts").resolve(), target_is_directory=True)
-        if Path("artifacts/rfdetr_verified_release.json").exists():
-            (root / "data/rfdetr").symlink_to(Path("data/rfdetr").resolve(), target_is_directory=True)
+        if (project/".venv").is_dir():
+            (root / ".venv").symlink_to(project/".venv", target_is_directory=True)
+        (root / "data/models").symlink_to(project/"data/models", target_is_directory=True)
+        (root / "artifacts").symlink_to(project/"artifacts", target_is_directory=True)
+        if (project/"artifacts/rfdetr_verified_release.json").exists():
+            (root / "data/rfdetr").symlink_to(project/"data/rfdetr", target_is_directory=True)
         for feature in ("sam3","ocr-v6"):
-            if Path("data",feature).exists():
-                (root/"data"/feature).symlink_to(Path("data",feature).resolve(),target_is_directory=True)
+            if (project/"data"/feature).exists():
+                (root/"data"/feature).symlink_to(project/"data"/feature,target_is_directory=True)
         with socket.socket() as probe:
             probe.bind(("127.0.0.1", 0))
             port = probe.getsockname()[1]
         address = f"http://127.0.0.1:{port}/"
         server = subprocess.Popen(
             [args.server_python, "-m", "uvicorn", "medsyringe.app:app", "--port", str(port)],
-            env={**os.environ, "MEDSYRINGE_ROOT": str(root)}, stdout=subprocess.DEVNULL,
+            cwd=project,
+            env={**os.environ, "MEDSYRINGE_ROOT": str(root), "PYTHONPATH": str(project)},
+            stdout=subprocess.DEVNULL, start_new_session=True,
         )
         try:
             deadline = monotonic()+25
@@ -85,7 +96,7 @@ def main():
                 expect(page.get_by_role("heading", name="Scene inspection")).to_be_visible()
                 page.locator("#file").set_input_files(args.image)
                 page.get_by_role("button", name="Analyze", exact=True).click()
-                expect(page.locator("#boxes button").first).to_be_visible(timeout=120_000)
+                expect(page.locator("#boxes button").first).to_be_visible(timeout=args.analysis_timeout*1000)
                 count = page.locator("#boxes button").count()
                 pixels = None
                 if args.native_evidence:
@@ -256,7 +267,7 @@ def main():
                     assert adopted["origin"] == "human" and adopted["score"] is None
                     assert len(original["objects"]) == count
                     flows.append("candidate adoption with unchanged model output and linked review evidence")
-                page.screenshot(path=f"data/workspace/{screenshot}-desktop.png", full_page=True)
+                page.screenshot(path=screenshot_root/f"{screenshot}-desktop.png", full_page=True)
                 page.set_viewport_size({"width": 390, "height": 850})
                 assert page.evaluate("document.documentElement.scrollWidth") <= 390
                 if args.manual_fill_control:
@@ -264,15 +275,25 @@ def main():
                     assert page.evaluate("document.documentElement.scrollWidth") <= 390
                     page.get_by_role("button", name="Cancel", exact=True).click()
                     flows.append("fill editor at a 390 pixel viewport")
-                page.screenshot(path=f"data/workspace/{screenshot}-mobile.png", full_page=True)
+                page.screenshot(path=screenshot_root/f"{screenshot}-mobile.png", full_page=True)
                 assert not errors, errors
                 browser.close()
             write_json(args.output, dict(
                 image=args.image.name, detected=count, browser="Chromium", no_page_errors=True,
+                revision=subprocess.check_output(["git","-C",str(project),"rev-parse","HEAD"],text=True).strip(),
+                installation_backend=report["original"]["model"].get("primary_backend","cpu"),
+                appearance_release_sha256=report["original"]["model"].get("appearance_detection_sha256"),
+                detection_checks=report["original"].get("detection_checks"),
                 flows=flows))
         finally:
-            server.terminate()
-            server.wait(timeout=15)
+            if server.poll() is None:
+                server.terminate()
+            try:
+                server.wait(timeout=15)
+            except subprocess.TimeoutExpired:
+                with suppress(ProcessLookupError):
+                    os.killpg(server.pid,signal.SIGKILL)
+                server.wait(timeout=5)
 
 
 if __name__ == "__main__":

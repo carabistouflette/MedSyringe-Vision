@@ -1,0 +1,183 @@
+{
+  "manifest_sha256": "a0f3a1eb00e2d11eeb4f6ccd772d5ba8cb82fb0205bd822847d9c424eab14f0d",
+  "audit_sha256": "36d123fa06f25fe0beb6cee85e8d1cc29094cfc241bb3aa7170e1e2ba7e4d27c",
+  "rows": [
+    {
+      "id": "199649565",
+      "source_sha256": "eb3415ca277ef877aaa1eb236fafc9b884972db018986b663c1e84122d0f3a1b",
+      "original": [
+        [
+          0.0,
+          0.451613,
+          0.331288,
+          0.62212
+        ]
+      ],
+      "second": [
+        [
+          0.146,
+          0.484,
+          0.344,
+          0.556
+        ]
+      ],
+      "note": "The plunger is hidden by the hand and fur obscures the tip.",
+      "counts_match": true,
+      "iou": 0.23240814842614763
+    },
+    {
+      "id": "25985515",
+      "source_sha256": "7fa92cba863e92f0d0ade48e6f7872b74883cef0bff6e08ed92bd1cb1bbdf68a",
+      "original": [
+        [
+          0.775254,
+          0.208769,
+          0.817119,
+          0.375385
+        ]
+      ],
+      "second": [
+        [
+          0.775,
+          0.216,
+          0.807,
+          0.362
+        ]
+      ],
+      "note": "The upper glove and isolated shine obscure the boundaries.",
+      "counts_match": true,
+      "iou": 0.6609540907028899
+    },
+    {
+      "id": "179908563",
+      "source_sha256": "32b900d3ea9515c1d1ecdc0e628ab97468b91ada884c386936a1c5c8251fe154",
+      "original": [],
+      "second": [],
+      "note": "No recognizable syringe body.",
+      "counts_match": true,
+      "iou": null
+    },
+    {
+      "id": "8169576",
+      "source_sha256": "eb58f019f1e0fe45eff98017fb5076dd01f88ba18e09cb9324ba009a9b98bc5e",
+      "original": [
+        [
+          0.393382,
+          0.359551,
+          0.621324,
+          0.685393
+        ]
+      ],
+      "second": [
+        [
+          0.393,
+          0.335,
+          0.604,
+          0.662
+        ]
+      ],
+      "note": "Visible shaft and orange hub. The needle is hidden or merges into tissue.",
+      "counts_match": true,
+      "iou": 0.8005794292952325
+    },
+    {
+      "id": "65608130",
+      "source_sha256": "c1d01a36b96395c5dcd68017c59db88f38fd73363f2b6d281dee10ee109d1e9a",
+      "original": [
+        [
+          0.426368,
+          0.37,
+          0.746345,
+          1.0
+        ]
+      ],
+      "second": [
+        [
+          0.426,
+          0.365,
+          0.741,
+          1.0
+        ]
+      ],
+      "note": "Separate capped needles excluded. The bottom clips the plunger.",
+      "counts_match": true,
+      "iou": 0.9745605476312158
+    },
+    {
+      "id": "41056317",
+      "source_sha256": "5822400cb6022a6f73db7ddfad6ebda57037dc90ca74b05ffb84ffc4d122f6df",
+      "original": [
+        [
+          0.696552,
+          0.285714,
+          0.882759,
+          0.589862
+        ]
+      ],
+      "second": [
+        [
+          0.748,
+          0.273,
+          0.864,
+          0.513
+        ]
+      ],
+      "note": "Aligned visible needle segment included. An adjacent fine line is ambiguous.",
+      "counts_match": true,
+      "iou": 0.4537168951315384
+    },
+    {
+      "id": "157359768",
+      "source_sha256": "38512ec2a4e157402a58ab2866bd464502ca723f621516f18a0e8e853e1b44c2",
+      "original": [
+        [
+          0.522201,
+          0.450284,
+          0.595174,
+          0.503333
+        ]
+      ],
+      "second": [
+        [
+          0.52,
+          0.456,
+          0.592,
+          0.502
+        ]
+      ],
+      "note": "Needle enters the left side. Fingers conceal the right end.",
+      "counts_match": true,
+      "iou": 0.8082674291303089
+    },
+    {
+      "id": "38193226",
+      "source_sha256": "0077c22e558642c70ff8b6ea9245097e20d042484d4e1edbda06c7e6b645b29b",
+      "original": [
+        [
+          0.294737,
+          0.133641,
+          0.631579,
+          0.617512
+        ]
+      ],
+      "second": [
+        [
+          0.28,
+          0.073,
+          0.708,
+          0.654
+        ]
+      ],
+      "note": "Visible protector included. Upper translucent edge is uncertain.",
+      "counts_match": true,
+      "iou": 0.6554445098766224
+    }
+  ],
+  "scope": "A separate reader examined only the eight source JPEGs. No original labels, predictions or audit metrics were provided.",
+  "analysis": {
+    "id": "41056317",
+    "localization_under_original_labels": 0.38771779879585194,
+    "localization_under_independent_reader": 0.7169214920844843,
+    "protocol": "Audit references and qualification remain unchanged. The comparison estimates annotation sensitivity."
+  }
+}

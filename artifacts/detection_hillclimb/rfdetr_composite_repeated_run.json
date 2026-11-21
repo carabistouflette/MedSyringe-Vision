@@ -1,0 +1,27 @@
+{
+  "status": "completed",
+  "seconds": 423.20742704299846,
+  "checkpoint": "data/detection_hillclimb/runs/mask-composite-repeated/checkpoint_best_total.pth",
+  "checkpoint_sha256": "706d20c6f6f4a2579cb68197889d6fdffcdf306feeec4c2e54cb5aa5d9fe537f",
+  "dataset_sha256": "61b475005741d8785fbf1c778e1cb4e89f334d1243f42e676041f967a3ef69e0",
+  "warm_start_sha256": "fc047233f3ef5bbc5f42c3bc9c088709d55749acd0c3ae5475dbea53a85cf7f5",
+  "configuration": {
+    "dataset_dir": "data/detection_hillclimb/composite-study/repeated",
+    "output_dir": "data/detection_hillclimb/runs/mask-composite-repeated",
+    "device": "cpu",
+    "epochs": 1,
+    "batch_size": 4,
+    "resolution": 240,
+    "seed": 6813251,
+    "lr": 0.00012,
+    "lr_encoder": 0,
+    "num_workers": 0,
+    "num_sanity_val_steps": 0,
+    "use_ema": false,
+    "multi_scale": false,
+    "save_dataset_grids": false,
+    "run_test": false,
+    "progress_bar": null,
+    "train_log_on_step": false
+  }
+}

@@ -23,6 +23,7 @@ SMOKE = ART/"appearance_release_runtime.json"
 CAPTURE = Path("artifacts/expanded/annotations.json")
 RECIPES = (
     "medsyringe/appearance_runtime.py", "medsyringe/local_models.py", "scripts/appearance_worker.py",
+    "scripts/appearance_text_encoder.py",
     "scripts/appearance_worker.sh", "scripts/detection_crop_semantics.py", "scripts/detection_semantics_audit.py",
     "scripts/rfdetr_verifier.py", "scripts/sam3_study.py",
 )

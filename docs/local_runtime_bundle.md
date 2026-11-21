@@ -22,4 +22,17 @@ The bundle occupies several gigabytes. A reflink-capable filesystem can copy it 
 
 ## Executed clean-checkout verification
 
-The bundle for commit `92a7c0466a4404524203db91144a0cbb8fbe2c0f` is stored locally at `data/deliverables/medsyringe-runtime`. A clean clone restored the model files, the packaged base interpreter and all three worker environments. The restore verified their hashes and environment package inventories. Fifty-seven tests passed in the restored clone, and the local offline CLI returned one syringe on `IMG_3316.jpeg`. Chromium exercised the same restored clone on Intel Arc, including the real upload, a native 713 × 3,054 pixel evidence crop, and exact original bytes in the ZIP. The browser server was shut down after the check. [Restore evidence](../artifacts/detection_hillclimb/runtime_bundle_restore.json) · [Browser evidence](../artifacts/detection_hillclimb/restored_native_browser.json)
+The precision release at `c9e09fab9edea8c63f8144b3f987c68e4eb1b657` is packaged locally under `data/deliverables/medsyringe-runtime-c9e09fa`. It contains 43 checked files with 5,986,486,215 bytes of model assets and three Python environments. The packaged payload occupies approximately 15 GiB. A clean checkout restored the assets, verified their hashes and package versions, and passed all 58 automated tests offline. A later Chromium run verified the exact commit's real Intel inference with the precision worker available, candidate review, native crops and byte-identical export. Its first attempt exceeded the browser timeout during concurrent workloads. The replay used a configurable analysis timeout and explicit process-group cleanup. [Restored precision application](../artifacts/detection_hillclimb/restored_browser_c9e09fa.json)
+
+The preceding bundle for `92a7c0466a4404524203db91144a0cbb8fbe2c0f` is stored at `data/deliverables/medsyringe-runtime`. Fifty-seven tests and two application checks passed in its clean clone. The offline CLI returned one syringe on `IMG_3316.jpeg`. Chromium on Intel Arc verified a native 713 × 3,054 pixel evidence crop and exact original bytes in the ZIP. [Earlier restore](../artifacts/detection_hillclimb/runtime_bundle_restore.json) · [Earlier browser check](../artifacts/detection_hillclimb/restored_native_browser.json)
+
+## Portable evaluation evidence
+
+The separate archive at `data/deliverables/precision-evidence` contains the exact public benchmark raster bytes, image attribution, frozen boxes, ranked inference and expected metrics for five cross-source cohorts. The local full archive also contains capture metadata for three Fil Rouge partitions. The optional capture metadata contains normalized labels, ranked boxes and recorded original hashes. The original photos and observation database stay outside the archive.
+
+```bash
+.venv/bin/python -m scripts.package_detection_evidence pack /path/to/public-evidence
+.venv/bin/python -m scripts.package_detection_evidence replay /path/to/public-evidence
+```
+
+Add `--include-capture-metadata` to include the capture partitions in a local archive. Add `--original-capture /path/to/Images_fil_rougev1` to check the local originals at replay time. The replay was run from an empty directory outside the project, verified all 177 supplied image hashes and reproduced every archived cohort's operating metrics and ranked estimates. This verifies exact metric replay from saved model outputs. Fresh inference can use the separately restored application runtime. [Portable replay evidence](../artifacts/detection_hillclimb/portable_precision_replay.json)

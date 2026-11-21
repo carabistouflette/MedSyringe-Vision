@@ -6,6 +6,7 @@ import traceback
 from medsyringe.appearance_runtime import RELEASE
 from medsyringe.data import digest, read_json
 from medsyringe.local_models import decode_picture
+from scripts.appearance_text_encoder import detector_encoder
 from scripts.detection_crop_semantics import VisualSemantics
 from scripts.detection_semantics_audit import apply_rules, crop_frame
 from scripts.sam3_study import configure_cpu
@@ -35,7 +36,7 @@ def main():
     configure_cpu()
     release = read_json(RELEASE)
     seal = digest(RELEASE)
-    encoder = VisualSemantics()
+    encoder = detector_encoder(release) if release.get("encoder") == "text-only" else VisualSemantics()
     for line in sys.stdin:
         try:
             request = json.loads(line)

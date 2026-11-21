@@ -2,7 +2,7 @@
 from pathlib import Path
 from threading import Lock
 
-from .data import digest
+from .data import digest, read_json
 from .local_models import ImageWorker, WorkerError
 from .pipeline_extensions import verified_config
 
@@ -48,6 +48,10 @@ def install_appearance(engine, root):
         return None
     if engine.identity != config["baseline"]:
         raise ValueError("The crop appearance release does not match the local baseline.")
+    if config.get("encoder") == "text-only":
+        proof = root/config["runtime_parity"]["path"]
+        if digest(proof) != config["runtime_parity"]["sha256"] or not read_json(proof)["passed"]:
+            raise ValueError("The appearance encoder does not have a matching parity result.")
     if not (root / ".venv/bin/python").is_file():
         raise FileNotFoundError("Restore the pinned Python environment for crop verification.")
     runtime = AppearanceRuntime(root, engine.expanded.detect, config.get("mode"))

@@ -1,0 +1,26 @@
+{
+  "image": "IMG_3316.jpeg",
+  "detected": 1,
+  "browser": "Chromium",
+  "no_page_errors": true,
+  "revision": "c9e09fab9edea8c63f8144b3f987c68e4eb1b657",
+  "installation_backend": "xpu",
+  "appearance_release_sha256": "baad3dab9c8378101cd67ca2a990bffcd93c0469ccbefde2d28dcf5c05bf8511",
+  "detection_checks": {
+    "status": "available",
+    "primary_backend": "xpu",
+    "unavailable": [],
+    "review_needed": false
+  },
+  "flows": [
+    "image upload",
+    "real detection overlay",
+    "inventory",
+    "persisted review",
+    "ZIP report with evidence",
+    "mobile viewport without horizontal overflow",
+    "verified native-resolution crop and exact original bytes in export",
+    "two initial proposals and access to all remaining candidates",
+    "candidate adoption with unchanged model output and linked review evidence"
+  ]
+}

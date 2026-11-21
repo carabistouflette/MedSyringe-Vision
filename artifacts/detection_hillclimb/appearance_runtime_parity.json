@@ -1,0 +1,65 @@
+{
+  "passed": true,
+  "scope": {
+    "fresh": {
+      "images": 25,
+      "encoded": 16,
+      "changed": []
+    },
+    "commons-regression": {
+      "images": 25,
+      "encoded": 16,
+      "changed": []
+    },
+    "previous-reserve": {
+      "images": 21,
+      "encoded": 6,
+      "changed": []
+    },
+    "openimages": {
+      "images": 10,
+      "encoded": 10,
+      "changed": []
+    },
+    "lookalikes": {
+      "images": 13,
+      "encoded": 3,
+      "changed": []
+    },
+    "dental": {
+      "images": 20,
+      "encoded": 3,
+      "changed": []
+    },
+    "fit": {
+      "images": 95,
+      "encoded": 95,
+      "changed": []
+    },
+    "calibration": {
+      "images": 68,
+      "encoded": 68,
+      "changed": []
+    },
+    "test": {
+      "images": 14,
+      "encoded": 14,
+      "changed": []
+    },
+    "independent-negatives": {
+      "images": 26,
+      "encoded": 6,
+      "changed": []
+    }
+  },
+  "exact_margins": true,
+  "timed_parity_images": 20,
+  "seconds": {
+    "previous_load": 13.268304420000277,
+    "text_only_load": 16.690775061999375,
+    "previous_median": 3.3467309934994773,
+    "text_only_median": 2.737718859000779
+  },
+  "code_sha256": "7e4db7df6db5bf3ff2ebe5463423fc581599c8d56a152fb23c1d592cde47cc79",
+  "previous_release_sha256": "baad3dab9c8378101cd67ca2a990bffcd93c0469ccbefde2d28dcf5c05bf8511"
+}

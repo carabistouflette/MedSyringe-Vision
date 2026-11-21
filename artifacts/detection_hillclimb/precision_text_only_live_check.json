@@ -1,0 +1,132 @@
+{
+  "passed": true,
+  "cases": [
+    {
+      "id": "193306741",
+      "expected_count": 0,
+      "live_count": 0,
+      "matches": true,
+      "worker_status": "local crop verification applied",
+      "elapsed_seconds": 55.15051089999906,
+      "backend": "xpu"
+    },
+    {
+      "id": "194453423",
+      "expected_count": 0,
+      "live_count": 0,
+      "matches": true,
+      "worker_status": "local crop verification applied",
+      "elapsed_seconds": 7.095793722999588,
+      "backend": "xpu"
+    },
+    {
+      "id": "184894593",
+      "expected_count": 1,
+      "live_count": 1,
+      "matches": true,
+      "worker_status": "local crop verification applied",
+      "elapsed_seconds": 33.71204186400064,
+      "backend": "xpu"
+    },
+    {
+      "id": "IMG_3316.jpeg",
+      "expected_count": 1,
+      "live_count": 1,
+      "matches": true,
+      "worker_status": "local crop verification applied",
+      "elapsed_seconds": 18.979982635999477,
+      "backend": "xpu",
+      "nominal_capacity": {
+        "value": 20.0,
+        "unit": "mL",
+        "score": 0.9310729503631592,
+        "method": "adjacent number and unit",
+        "evidence": [
+          {
+            "text": "ml",
+            "crop_bbox": [
+              0.3711919848788877,
+              0.4111352074083814,
+              0.7219943408163904,
+              0.4665712113439219
+            ],
+            "rotation": 9.0
+          },
+          {
+            "text": "20",
+            "crop_bbox": [
+              0.40366072218006105,
+              0.45317668071463885,
+              0.6206393525974236,
+              0.49027831632564645
+            ],
+            "rotation": 9.0
+          }
+        ]
+      },
+      "fill": {
+        "status": "visual estimate",
+        "method": "Numbered graduations and nearest piston edge",
+        "ml": 16,
+        "interval_ml": [
+          14,
+          17
+        ],
+        "percent": 80,
+        "interval_percent": [
+          70,
+          85
+        ],
+        "capacity_ml": 20,
+        "piston_line": [
+          [
+            0.3649140419474495,
+            0.38381170429909794
+          ],
+          [
+            0.7095207510278428,
+            0.3961809913944124
+          ]
+        ],
+        "graduations": [
+          {
+            "ml": 10,
+            "crop_bbox": [
+              0.5445205479452054,
+              0.25,
+              0.7363013698630136,
+              0.2900641025641026
+            ],
+            "text": "10"
+          },
+          {
+            "ml": 15,
+            "crop_bbox": [
+              0.4752252252252252,
+              0.35052631578947374,
+              0.6824324324324323,
+              0.39210526315789473
+            ],
+            "text": "15"
+          },
+          {
+            "ml": 20,
+            "crop_bbox": [
+              0.4054054054054054,
+              0.4515789473684211,
+              0.6103603603603603,
+              0.4905263157894737
+            ],
+            "text": "20"
+          }
+        ],
+        "localization": {
+          "contrast": 24.5,
+          "scale_residual_ml": 0.04,
+          "tick_train_verified": false
+        }
+      }
+    }
+  ],
+  "release_candidate_sha256": "d9f0a449f448e0f04116a5b813463ffc1971fc96d132332b2c08ae4f40fdce10"
+}

@@ -1,0 +1,14 @@
+{
+  "repo": "openmmlab-community/mm_grounding_dino_tiny_o365v1_goldg_v3det",
+  "revision": "ef2053aa1e0cc9d9cee1df31ca919ee9aae4fc8e",
+  "license": "Apache-2.0",
+  "files": {
+    "README.md": "9d8a6b7fe07048406b81570dff458683ed84720c9745bb6db0876566a6993365",
+    "preprocessor_config.json": "c17fd68afb1f124bfb87a494d409925eec4201b3487c8a694dde64d9ce7109a3",
+    "config.json": "cb8ffc83fa083aebe4a72d4714c759568b4001b32e28a1850e8c2f30c1db5923",
+    "vocab.txt": "07eced375cec144d27c900241f3e339478dec958f92fddbc551f295c992038a3",
+    "tokenizer_config.json": "03070b03f452696da3d89489fa8a4e53730ab74ed2ae466d53923ab5376ce7b5",
+    "special_tokens_map.json": "b6d346be366a7d1d48332dbc9fdf3bf8960b5d879522b7799ddba59e76237ee3",
+    "model.safetensors": "ad9d9f5f8a94f1bb1ca1969e52e47ce31e97875f80ee07740c74e341839b8755"
+  }
+}

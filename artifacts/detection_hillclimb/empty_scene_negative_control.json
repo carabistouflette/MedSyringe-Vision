@@ -1,0 +1,77 @@
+{
+  "passed": true,
+  "freeze_sha256": "71dd6626bbeec3c1162ab900845546e1b40724ed4524631da14f894ea99fc2d0",
+  "outcome": {
+    "previous": {
+      "images": 26,
+      "objects": 0,
+      "tp": 0,
+      "fp": 1,
+      "fn": 0,
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "ap50": null,
+      "ap50_95": null,
+      "exact_count": 25,
+      "negative_images": 26,
+      "correct_empty": 25
+    },
+    "candidate": {
+      "images": 26,
+      "objects": 0,
+      "tp": 0,
+      "fp": 1,
+      "fn": 0,
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "ap50": null,
+      "ap50_95": null,
+      "exact_count": 25,
+      "negative_images": 26,
+      "correct_empty": 25
+    },
+    "guard": {
+      "passed": true,
+      "lost_matches": [],
+      "recovered_matches": 0,
+      "baseline_matches": 0,
+      "candidate_matches": 0
+    },
+    "new_false_alarm_scenes": [],
+    "errors": {
+      "previous": [
+        {
+          "id": "70279262",
+          "prediction": {
+            "bbox": [
+              0.15111660957336426,
+              0.29525046348571776,
+              0.8210458119710287,
+              0.4345662593841553
+            ],
+            "score": 0.8070038899725813
+          },
+          "best_unmatched_iou": 0
+        }
+      ],
+      "candidate": [
+        {
+          "id": "70279262",
+          "prediction": {
+            "bbox": [
+              0.15111660957336426,
+              0.29525046348571776,
+              0.8210458119710287,
+              0.4345662593841553
+            ],
+            "score": 0.8070038899725813
+          },
+          "best_unmatched_iou": 0
+        }
+      ]
+    }
+  },
+  "screened_execution_sha256": "3230b05303abb229ea2c3afadf6de9f8e0ec11eec41996d25a734fe3d6857078"
+}

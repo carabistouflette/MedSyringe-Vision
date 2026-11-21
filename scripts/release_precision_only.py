@@ -18,6 +18,9 @@ from scripts.sam3_study import configure_cpu
 
 DRAFT = ART/"precision_only_release_candidate.json"
 LIVE = ART/"precision_only_live_check.json"
+OPTIMIZED = ART/"precision_text_only_candidate.json"
+OPTIMIZED_LIVE = ART/"precision_text_only_live_check.json"
+PARITY = ART/"appearance_runtime_parity.json"
 GRADUATION = Path("artifacts/fill/graduation_capacity_release.json")
 SIGLIP = ART/"siglip2_crop_backbone.json"
 DINO = Path("artifacts/auxiliary_crop_backbone.json")
@@ -38,9 +41,22 @@ def stage():
     write_json(DRAFT,draft)
 
 
-def check(capture):
+def optimize():
+    original = read_json(DRAFT)
+    trial = read_json(PARITY)
+    if (not trial["passed"] or trial["previous_release_sha256"] != digest(DRAFT) or
+        trial["code_sha256"] != digest("scripts/appearance_text_encoder.py")):
+        raise ValueError("The text-only worker lacks a matching approval result.")
+    write_json(OPTIMIZED,dict(
+        **{k:v for k,v in original.items() if k!="code"},
+        code={name:digest(name) for name in RECIPES}, encoder="text-only",
+        runtime_parity=dict(path=str(PARITY),sha256=digest(PARITY)),
+    ))
+
+
+def check(capture, manifest=DRAFT, output=LIVE):
     configure_cpu()
-    policy = read_json(DRAFT)
+    policy = read_json(manifest)
     if policy["evidence_sha256"]!=digest(RESULT):
         raise ValueError("The candidate and precision qualification have changed.")
     publication = read_json(RESULT)
@@ -89,17 +105,23 @@ def check(capture):
             worker.close()
             engine.close()
     passed = all(m["matches"] and not m["worker_status"].startswith("baseline retained") for m in outcomes)
-    write_json(LIVE,dict(passed=passed,cases=outcomes,release_candidate_sha256=digest(DRAFT)))
+    write_json(output,dict(passed=passed,cases=outcomes,release_candidate_sha256=digest(manifest)))
 
 
 if __name__=="__main__":
     parser = argparse.ArgumentParser(description=__doc__)
-    parser.add_argument("action",choices=("stage","check"))
+    parser.add_argument("action",choices=("stage","optimize","check"))
     parser.add_argument("--source",type=Path)
+    parser.add_argument("--text-only",action="store_true")
     args = parser.parse_args()
     if args.action=="stage":
         stage()
+    elif args.action=="optimize":
+        optimize()
     elif args.source:
-        check(args.source)
+        if args.text_only:
+            check(args.source,OPTIMIZED,OPTIMIZED_LIVE)
+        else:
+            check(args.source)
     else:
         parser.error("Live verification requires --source.")

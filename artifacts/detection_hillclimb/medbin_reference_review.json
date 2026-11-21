@@ -1,0 +1,282 @@
+{
+  "candidates_sha256": "98e3d4aaaecf43ae4aaa1d03244976c68f07e3d3a29e83ccf4b1a56334736965",
+  "confirmed": {
+    "53v7q2SekFX55KCbUTho": {
+      "objects": [
+        {
+          "bbox": [
+            0.367647,
+            0.057377,
+            0.496324,
+            0.696721
+          ],
+          "kind": "syringe"
+        }
+      ],
+      "lookalikes": [],
+      "review": "One clear central syringe. Two blue-capped tubes are separate."
+    },
+    "B7kNxeNP3M8ULGyVQyMA": {
+      "objects": [
+        {
+          "bbox": [
+            0.1875,
+            0.019608,
+            0.415441,
+            0.54902
+          ],
+          "kind": "syringe"
+        }
+      ],
+      "lookalikes": [],
+      "review": "Needleless visible syringe upper left. The capped tube is separate."
+    },
+    "bVv4oowCJqs5A7DEUUkx": {
+      "objects": [
+        {
+          "bbox": [
+            0.584559,
+            0.764706,
+            0.900735,
+            1.0
+          ],
+          "kind": "syringe"
+        }
+      ],
+      "lookalikes": [],
+      "review": "Syringe lower right clipped by the image border. The blue-capped tube overlaps it."
+    },
+    "aFzbltC8rOipfDcWaOMO": {
+      "objects": [
+        {
+          "bbox": [
+            0.227941,
+            0.106557,
+            0.466912,
+            0.827869
+          ],
+          "kind": "syringe"
+        }
+      ],
+      "lookalikes": [],
+      "review": "Black seal visible through syringe. The neighboring green forceps and cotton swab are separate."
+    },
+    "h8ktqTK7L8elS9pRTKTk": {
+      "objects": [
+        {
+          "bbox": [
+            0.301471,
+            0.540984,
+            0.613971,
+            0.909836
+          ],
+          "kind": "syringe"
+        }
+      ],
+      "lookalikes": [],
+      "review": "Syringe below the glove, partly shadowed."
+    },
+    "RU7ZLphLCX6e03k4QQTY": {
+      "objects": [
+        {
+          "bbox": [
+            0.231618,
+            0.409836,
+            0.533088,
+            0.852459
+          ],
+          "kind": "syringe"
+        }
+      ],
+      "lookalikes": [],
+      "review": "Clear syringe with dark stopper. Upper glass instrument is a separate thermometer."
+    },
+    "QCk5eo9RWUdPbXZjZKnm": {
+      "objects": [
+        {
+          "bbox": [
+            0.345588,
+            0.581967,
+            0.613971,
+            0.877049
+          ],
+          "kind": "syringe"
+        }
+      ],
+      "lookalikes": [],
+      "review": "Syringe on reflective dark surface near glove."
+    },
+    "gIDJXvJ9xSxwq4nTVA6f": {
+      "objects": [
+        {
+          "bbox": [
+            0.286765,
+            0.143791,
+            0.643382,
+            0.45098
+          ],
+          "kind": "syringe"
+        }
+      ],
+      "lookalikes": [],
+      "review": "Needleless syringe with distinct gray plunger."
+    },
+    "0U3vy9UymgnYnLTSG7O0": {
+      "objects": [
+        {
+          "bbox": [
+            0.452206,
+            0.065359,
+            0.551471,
+            0.666667
+          ],
+          "kind": "syringe"
+        }
+      ],
+      "lookalikes": [],
+      "review": "Vertical translucent syringe on white surface."
+    },
+    "HM9ietHzbWYFKZrfEkt1": {
+      "objects": [
+        {
+          "bbox": [
+            0.323529,
+            0.019608,
+            0.830882,
+            0.843137
+          ],
+          "kind": "syringe"
+        }
+      ],
+      "lookalikes": [],
+      "review": "Plunger clearly extended at an angle."
+    },
+    "JDOHBEGF1ok1GgoIIIHX": {
+      "objects": [
+        {
+          "bbox": [
+            0.577206,
+            0.27451,
+            0.757353,
+            0.869281
+          ],
+          "kind": "syringe"
+        }
+      ],
+      "lookalikes": [],
+      "review": "Transparent syringe below the top edge. Its long plunger is visible."
+    },
+    "y19GkW5LMoHSIMM3Y6aZ": {
+      "objects": [
+        {
+          "bbox": [
+            0.261029,
+            0.59116,
+            0.588235,
+            0.751381
+          ],
+          "kind": "syringe"
+        },
+        {
+          "bbox": [
+            0.430147,
+            0.464088,
+            0.735294,
+            0.734807
+          ],
+          "kind": "syringe"
+        }
+      ],
+      "lookalikes": [],
+      "review": "Two overlapping syringes with separate plunger ends and targets."
+    },
+    "141xVsrrM3M7FfENCELj": {
+      "objects": [
+        {
+          "bbox": [
+            0.59125,
+            0.511221,
+            0.633158,
+            0.530469
+          ],
+          "kind": "syringe"
+        }
+      ],
+      "lookalikes": [],
+      "review": "The table leg hides most of the syringe. Only the marked barrel with a black seal to its right is visible. The longer green-capped item on the left is a thermometer."
+    },
+    "WVLWDhoUvG18olHsd6GW": {
+      "objects": [],
+      "lookalikes": [],
+      "review": "Clear glass pipettes on wood; tiny dispensing ends but no plungers."
+    },
+    "R2YclNVE3RxOTKJ7PHgP": {
+      "objects": [],
+      "lookalikes": [],
+      "review": "Glass and plastic pipette group with distinct tips."
+    },
+    "xKUzB2H7yXebWOubN7va": {
+      "objects": [],
+      "lookalikes": [],
+      "review": "One clear pipette and a cotton swab crossing."
+    },
+    "bd98NPb9f7qVEbvfRMXC": {
+      "objects": [],
+      "lookalikes": [],
+      "review": "Glass and plastic pipettes with blister packing."
+    },
+    "0t0X6XBBF4iYMYtmvWh7": {
+      "objects": [],
+      "lookalikes": [],
+      "review": "Long glass pipette on wood."
+    },
+    "Ug5TX8ezngBFGLXRuHPj": {
+      "objects": [],
+      "lookalikes": [],
+      "review": "Glass pipette with visible elongated tip."
+    },
+    "br0W8fJsxKpS69hk0NbO": {
+      "objects": [],
+      "lookalikes": [],
+      "review": "Two closed graduated sample tubes on colored fabric."
+    },
+    "UCm3uvT1AdT1bFGzUvzG": {
+      "objects": [],
+      "lookalikes": [],
+      "review": "Capped tubes with printed scales on paper."
+    },
+    "W2jQUMn5QSxQnWOhev0R": {
+      "objects": [],
+      "lookalikes": [],
+      "review": "Two tapered capped sample tubes on a light tabletop."
+    },
+    "oYKiqEiYMUhyLAHEomBB": {
+      "objects": [],
+      "lookalikes": [],
+      "review": "Three capped sample tubes aligned."
+    },
+    "5Sz2psHbyzpAdYaMk3qi": {
+      "objects": [],
+      "lookalikes": [],
+      "review": "Sample tubes in mixed poses."
+    },
+    "8tER3srZptCjgm6iwXde": {
+      "objects": [],
+      "lookalikes": [],
+      "review": "An uncapped graduated tube with an open edge."
+    }
+  },
+  "excluded": [
+    "smYrB2uxwr1mF6dHxAon",
+    "QPptoqi4UJEBVMm4EEOR",
+    "OB7Cwe0ucDQ42vmvjhuh",
+    "DdGnLQYTyoSAw6v88FOQ",
+    "QjMFB2mflvdG3qYsbqlz",
+    "daKhGgJRT8diaq60Qbre",
+    "LTUei8ttDmLvh1sQEMre",
+    "TDU4hizE4iZeJYPhCABZ",
+    "5DDakLcTALPe379wmvbG",
+    "WlM7XMmygmwLD6K0Qlnu"
+  ],
+  "rationale": "All cases reviewed from source rasters before detector inference. Ten candidates were excluded because the scene and physical items are repeated across adjacent-looking source photos. Representative overlap, clutter and low-contrast views remain. All rows stay in one test-only source."
+}

@@ -1,0 +1,600 @@
+{
+  "seed": 6813251,
+  "arms": {
+    "repeated": {
+      "annotation_sha256": "233717410b2604f867164dff468aed16b8024d41e0176d7b1709c8630cd801aa",
+      "images": 254,
+      "targets": 202
+    },
+    "composite": {
+      "annotation_sha256": "255b9524c67aef97a1db662b4b1ce91554f9f943a8afe975ccefb5cbb8d6a669",
+      "images": 254,
+      "targets": 202
+    }
+  },
+  "provenance": [
+    {
+      "image_id": 191,
+      "foreground": "00088.png",
+      "foreground_sha256": "078f0c8c4f59d7e3403e4a66ff118f3a11e763e6d8a5d7f5c2f00ded6b34608a",
+      "background_id": "17328716",
+      "background_group": "commons:ostheimer",
+      "background_sha256": "7d3b97d37e7bbe2931b03d52f1800ff88829ba0cc1314c73322abcd562ebbaa3",
+      "background_license": "https://creativecommons.org/licenses/by-sa/3.0"
+    },
+    {
+      "image_id": 192,
+      "foreground": "00076.png",
+      "foreground_sha256": "2b6ec6166c6e6b0de43d0760bc8079f828e058cdbf007d82fe04362355a6b9e3",
+      "background_id": "10621296",
+      "background_group": "commons:intropin",
+      "background_sha256": "de1f6484db63bd932d89cf896ce7ec5e32b67a01db0476d612474c58031d8a64",
+      "background_license": "https://creativecommons.org/licenses/by-sa/3.0"
+    },
+    {
+      "image_id": 193,
+      "foreground": "00107.png",
+      "foreground_sha256": "b6abd154e5fff625b712f04f15945fe8ea4ce96256fc5324584edcdd656a50e6",
+      "background_id": "148368823",
+      "background_group": "commons:sgroey",
+      "background_sha256": "2ce502ca1cdce3bf6740f65b9377e9f7123edb0280204e080ddaa419092fed73",
+      "background_license": "https://creativecommons.org/licenses/by-sa/4.0"
+    },
+    {
+      "image_id": 194,
+      "foreground": "00082.png",
+      "foreground_sha256": "2e2ccf4acc16dd5814368dd797f94213d8a161f9c9bbe8a950062b45a264262b",
+      "background_id": "17283750",
+      "background_group": "commons:cjp24",
+      "background_sha256": "e14c1566a9adf9120bced73c0ff2c8a6e24bf8790ac441757c6cc5a2d0dcc2b4",
+      "background_license": "https://creativecommons.org/licenses/by-sa/3.0"
+    },
+    {
+      "image_id": 195,
+      "foreground": "00018.png",
+      "foreground_sha256": "4e4451b7a2c9f9e840a27342ef3bfa6cdbd9f4ff9d898244245f9f8ebceeb7e9",
+      "background_id": "31351996",
+      "background_group": "commons:ankawü",
+      "background_sha256": "94db781bb2fb8f8328a4c31377f430d43c4138856c798ff8ef7a9270017de62d",
+      "background_license": "https://creativecommons.org/licenses/by-sa/3.0"
+    },
+    {
+      "image_id": 196,
+      "foreground": "00025.png",
+      "foreground_sha256": "8738021b509bd770944ef927acdb9ebac6ec2d132460e1807ef2d4c10f6952e5",
+      "background_id": "3323591",
+      "background_group": "commons:andrew magill from boulder, usa",
+      "background_sha256": "952d67c7e523ee5d370abeae995e0d6dd2e7652bd314f0181aa62a890e609318",
+      "background_license": "https://creativecommons.org/licenses/by/2.0"
+    },
+    {
+      "image_id": 197,
+      "foreground": "00128.png",
+      "foreground_sha256": "f2812ac5d1c13f82e7ea37a2c0b445b673c19bfdbc955a3e4dfdb12bdb7d14ec",
+      "background_id": "993459",
+      "background_group": "commons:user:shawnc",
+      "background_sha256": "f5883c6c6cd197fabc67d75200af78471e0bac52ca11c2e83d7babb3597f7a25",
+      "background_license": "Public domain"
+    },
+    {
+      "image_id": 198,
+      "foreground": "00114.png",
+      "foreground_sha256": "c481c21a968a8b67c64d3a10b1e56a24df86ba4b492081ac462183071b3a3eac",
+      "background_id": "115697835",
+      "background_group": "commons:science museum, london",
+      "background_sha256": "0e50c1874d4411a905c7ccd59c878a472368c149364000ab76676ba53fd45f90",
+      "background_license": "https://creativecommons.org/licenses/by/4.0"
+    },
+    {
+      "image_id": 199,
+      "foreground": "00117.png",
+      "foreground_sha256": "4b4040d6e18be29e4865175cfd520a17f17b877f71bda8beb5a9f8a5a5d2b3e0",
+      "background_id": "59284146",
+      "background_group": "commons:pualuu",
+      "background_sha256": "9c726c18fe147714a9babc57d7e5090f8809bf8ef4e0fa213411cbd49406e6a0",
+      "background_license": "https://creativecommons.org/licenses/by-sa/4.0"
+    },
+    {
+      "image_id": 200,
+      "foreground": "00006.png",
+      "foreground_sha256": "82a55d00bda9ba872c01b87cb4558cf462dd5284123d51b4f01112c408610f3c",
+      "background_id": "97257014",
+      "background_group": "commons:nicola sap de mitri",
+      "background_sha256": "ae8270c85ce1a1fb4dbac2c54854c9c725590fa41f0f0f2694b29ae5bdedcabf",
+      "background_license": "https://creativecommons.org/licenses/by-sa/2.0"
+    },
+    {
+      "image_id": 201,
+      "foreground": "00027.png",
+      "foreground_sha256": "5b7341730a5cd09e8a3b8db12d1ecf45d7ab430ecc1cbeb642bd991523f6bfa3",
+      "background_id": "18864470",
+      "background_group": "commons:magnus manske",
+      "background_sha256": "585c28ec95721a51808db3d7a26ac048ceca5770e49da01045d6705a77ad6d19",
+      "background_license": "https://creativecommons.org/licenses/by-sa/3.0"
+    },
+    {
+      "image_id": 202,
+      "foreground": "00058.png",
+      "foreground_sha256": "9dc67f53061b5b063d04d0d0a82e31a5ff0dcff963bae903b651184fa72fd4d9",
+      "background_id": "127790110",
+      "background_group": "commons:marius vassnes",
+      "background_sha256": "a4c2d9647bd3790158091262f32069c4f09953953db14c433cae872f1651c7ac",
+      "background_license": "https://creativecommons.org/licenses/by-sa/4.0"
+    },
+    {
+      "image_id": 203,
+      "foreground": "00026.png",
+      "foreground_sha256": "c0fa46402aaaf8dc994ada77e395c042e3ba43dba4de7dbbde351401799e1244",
+      "background_id": "17714440",
+      "background_group": "commons:saurabh r. patil",
+      "background_sha256": "3be3cdd57e995ecca7a3a9a07b671e7c3547ec53b7b5e534d8e15be965b6c8dd",
+      "background_license": "https://creativecommons.org/licenses/by-sa/3.0"
+    },
+    {
+      "image_id": 204,
+      "foreground": "00043.png",
+      "foreground_sha256": "d62af27d4a7cb0711e5b4a8dc3499e2ce1e3918ed5d5e98882692368f1863c63",
+      "background_id": "116616738",
+      "background_group": "commons:j. c. barros",
+      "background_sha256": "8fbe5ffe93a75034af47dffe74c718e9afaaa2d7ffb446b69ba6b84a81531418",
+      "background_license": "https://creativecommons.org/licenses/by/2.0"
+    },
+    {
+      "image_id": 205,
+      "foreground": "00053.png",
+      "foreground_sha256": "7b7545834a746524b0bf320c7e5822d0ea54b810d8354b50cc55463e6b351457",
+      "background_id": "1576673",
+      "background_group": "commons:amagill",
+      "background_sha256": "18ece56c0b5662b5a0061ad52f3a514e711409c6bedb178cd7cebb055d72fd57",
+      "background_license": "https://creativecommons.org/licenses/by/2.0"
+    },
+    {
+      "image_id": 206,
+      "foreground": "00081.png",
+      "foreground_sha256": "0c2bc19412b3c472be4e2e0568594fd57ad7cc8fc82cfaa23da0f5540eb479d8",
+      "background_id": "17328716",
+      "background_group": "commons:ostheimer",
+      "background_sha256": "7d3b97d37e7bbe2931b03d52f1800ff88829ba0cc1314c73322abcd562ebbaa3",
+      "background_license": "https://creativecommons.org/licenses/by-sa/3.0"
+    },
+    {
+      "image_id": 207,
+      "foreground": "00152.png",
+      "foreground_sha256": "52096334682744a118d3e1006c718085b267f8a280fc1768d6453aaaa75e126c",
+      "background_id": "10621296",
+      "background_group": "commons:intropin",
+      "background_sha256": "de1f6484db63bd932d89cf896ce7ec5e32b67a01db0476d612474c58031d8a64",
+      "background_license": "https://creativecommons.org/licenses/by-sa/3.0"
+    },
+    {
+      "image_id": 208,
+      "foreground": "00030.png",
+      "foreground_sha256": "616a9418b96e12508ada2c2d6759f0afbbbab595ae4a5fbfa44d1ba085c09ae0",
+      "background_id": "148368823",
+      "background_group": "commons:sgroey",
+      "background_sha256": "2ce502ca1cdce3bf6740f65b9377e9f7123edb0280204e080ddaa419092fed73",
+      "background_license": "https://creativecommons.org/licenses/by-sa/4.0"
+    },
+    {
+      "image_id": 209,
+      "foreground": "00154.png",
+      "foreground_sha256": "1c9ecf433cfe7473a2b0f610c570bd752e11429484fa4d24d14997c6b79f9996",
+      "background_id": "17283750",
+      "background_group": "commons:cjp24",
+      "background_sha256": "e14c1566a9adf9120bced73c0ff2c8a6e24bf8790ac441757c6cc5a2d0dcc2b4",
+      "background_license": "https://creativecommons.org/licenses/by-sa/3.0"
+    },
+    {
+      "image_id": 210,
+      "foreground": "00079.png",
+      "foreground_sha256": "682acbc3c5d58cd70e755ef1fd82e18c62720f59d6e45fe30e76659d4aa09162",
+      "background_id": "31351996",
+      "background_group": "commons:ankawü",
+      "background_sha256": "94db781bb2fb8f8328a4c31377f430d43c4138856c798ff8ef7a9270017de62d",
+      "background_license": "https://creativecommons.org/licenses/by-sa/3.0"
+    },
+    {
+      "image_id": 211,
+      "foreground": "00069.png",
+      "foreground_sha256": "3aeea06cd9016be18182ddf1f12a72135699e254eb24100c7d76c8a228df94e1",
+      "background_id": "3323591",
+      "background_group": "commons:andrew magill from boulder, usa",
+      "background_sha256": "952d67c7e523ee5d370abeae995e0d6dd2e7652bd314f0181aa62a890e609318",
+      "background_license": "https://creativecommons.org/licenses/by/2.0"
+    },
+    {
+      "image_id": 212,
+      "foreground": "00189.png",
+      "foreground_sha256": "57bf5dce32f7c7bdc8527deb33e1bf6a8fef204ba46bc48e7f49215b8e7bb5fc",
+      "background_id": "993459",
+      "background_group": "commons:user:shawnc",
+      "background_sha256": "f5883c6c6cd197fabc67d75200af78471e0bac52ca11c2e83d7babb3597f7a25",
+      "background_license": "Public domain"
+    },
+    {
+      "image_id": 213,
+      "foreground": "00038.png",
+      "foreground_sha256": "8cb994f1f3da4155d0feb75fc1453c53b9b544a3f697bccee8f2c113c8ca4d47",
+      "background_id": "115697835",
+      "background_group": "commons:science museum, london",
+      "background_sha256": "0e50c1874d4411a905c7ccd59c878a472368c149364000ab76676ba53fd45f90",
+      "background_license": "https://creativecommons.org/licenses/by/4.0"
+    },
+    {
+      "image_id": 214,
+      "foreground": "00094.png",
+      "foreground_sha256": "ffcdd6e559b6cd8eae906dd9e8c0845607721dd235b22cf1ecb4542e87595240",
+      "background_id": "59284146",
+      "background_group": "commons:pualuu",
+      "background_sha256": "9c726c18fe147714a9babc57d7e5090f8809bf8ef4e0fa213411cbd49406e6a0",
+      "background_license": "https://creativecommons.org/licenses/by-sa/4.0"
+    },
+    {
+      "image_id": 215,
+      "foreground": "00179.png",
+      "foreground_sha256": "c44b7d9f9dfdd964511b62b070dd7f599a5a5dc7eacf8277592986582031aa8c",
+      "background_id": "97257014",
+      "background_group": "commons:nicola sap de mitri",
+      "background_sha256": "ae8270c85ce1a1fb4dbac2c54854c9c725590fa41f0f0f2694b29ae5bdedcabf",
+      "background_license": "https://creativecommons.org/licenses/by-sa/2.0"
+    },
+    {
+      "image_id": 216,
+      "foreground": "00075.png",
+      "foreground_sha256": "0a46bb9f647ac9cc4428b51aac66a288060e52ee43d6a82a3b462ef5ffa64c5b",
+      "background_id": "18864470",
+      "background_group": "commons:magnus manske",
+      "background_sha256": "585c28ec95721a51808db3d7a26ac048ceca5770e49da01045d6705a77ad6d19",
+      "background_license": "https://creativecommons.org/licenses/by-sa/3.0"
+    },
+    {
+      "image_id": 217,
+      "foreground": "00098.png",
+      "foreground_sha256": "fc9bf1f578ba8adf7d8a31d5508fb952a27bdecc998d4fb73608b9c6ca78383e",
+      "background_id": "127790110",
+      "background_group": "commons:marius vassnes",
+      "background_sha256": "a4c2d9647bd3790158091262f32069c4f09953953db14c433cae872f1651c7ac",
+      "background_license": "https://creativecommons.org/licenses/by-sa/4.0"
+    },
+    {
+      "image_id": 218,
+      "foreground": "00146.png",
+      "foreground_sha256": "6699e2a76c6486f2f6ae920d55f3e470e8c6248701938cc18cf915cac9468dfc",
+      "background_id": "17714440",
+      "background_group": "commons:saurabh r. patil",
+      "background_sha256": "3be3cdd57e995ecca7a3a9a07b671e7c3547ec53b7b5e534d8e15be965b6c8dd",
+      "background_license": "https://creativecommons.org/licenses/by-sa/3.0"
+    },
+    {
+      "image_id": 219,
+      "foreground": "00046.png",
+      "foreground_sha256": "89356a7be2b071998f8367515a8e88fb8371f913c2f5dc9b31c7c64968986996",
+      "background_id": "116616738",
+      "background_group": "commons:j. c. barros",
+      "background_sha256": "8fbe5ffe93a75034af47dffe74c718e9afaaa2d7ffb446b69ba6b84a81531418",
+      "background_license": "https://creativecommons.org/licenses/by/2.0"
+    },
+    {
+      "image_id": 220,
+      "foreground": "00141.png",
+      "foreground_sha256": "8d62fa1d65ffb6c10226386aae93f4b6fc3f9b8f2922362fc0bae9e7e42e15df",
+      "background_id": "1576673",
+      "background_group": "commons:amagill",
+      "background_sha256": "18ece56c0b5662b5a0061ad52f3a514e711409c6bedb178cd7cebb055d72fd57",
+      "background_license": "https://creativecommons.org/licenses/by/2.0"
+    },
+    {
+      "image_id": 221,
+      "foreground": "00155.png",
+      "foreground_sha256": "86cb99532dcb0429bbfdef3a8ef6e867e1fd80069a52c1c31616e49e428838dd",
+      "background_id": "17328716",
+      "background_group": "commons:ostheimer",
+      "background_sha256": "7d3b97d37e7bbe2931b03d52f1800ff88829ba0cc1314c73322abcd562ebbaa3",
+      "background_license": "https://creativecommons.org/licenses/by-sa/3.0"
+    },
+    {
+      "image_id": 222,
+      "foreground": "00050.png",
+      "foreground_sha256": "397685472dc2b2ea0130ba0b2e93678b2e85a879a2785d27066c4e69cd84fd18",
+      "background_id": "10621296",
+      "background_group": "commons:intropin",
+      "background_sha256": "de1f6484db63bd932d89cf896ce7ec5e32b67a01db0476d612474c58031d8a64",
+      "background_license": "https://creativecommons.org/licenses/by-sa/3.0"
+    },
+    {
+      "image_id": 223,
+      "foreground": "00095.png",
+      "foreground_sha256": "9f14074ebb1a5a5d0a31cae958f8a28599a0c29d1aa93bb9834b81c584a1a9d6",
+      "background_id": "148368823",
+      "background_group": "commons:sgroey",
+      "background_sha256": "2ce502ca1cdce3bf6740f65b9377e9f7123edb0280204e080ddaa419092fed73",
+      "background_license": "https://creativecommons.org/licenses/by-sa/4.0"
+    },
+    {
+      "image_id": 224,
+      "foreground": "00055.png",
+      "foreground_sha256": "b171853be908f2b084a85ebc06d947ca6f6e2ccf464490752dac474df48cc43a",
+      "background_id": "17283750",
+      "background_group": "commons:cjp24",
+      "background_sha256": "e14c1566a9adf9120bced73c0ff2c8a6e24bf8790ac441757c6cc5a2d0dcc2b4",
+      "background_license": "https://creativecommons.org/licenses/by-sa/3.0"
+    },
+    {
+      "image_id": 225,
+      "foreground": "00159.png",
+      "foreground_sha256": "b6d5e4ae23b6a7558febf154ce8685411d434a5861850c79539265fa95044e5e",
+      "background_id": "31351996",
+      "background_group": "commons:ankawü",
+      "background_sha256": "94db781bb2fb8f8328a4c31377f430d43c4138856c798ff8ef7a9270017de62d",
+      "background_license": "https://creativecommons.org/licenses/by-sa/3.0"
+    },
+    {
+      "image_id": 226,
+      "foreground": "00013.png",
+      "foreground_sha256": "1bfd7a86040d94d4e0300debc18347e1d84f7d66d9800fe4813b0e5d2b3730fc",
+      "background_id": "3323591",
+      "background_group": "commons:andrew magill from boulder, usa",
+      "background_sha256": "952d67c7e523ee5d370abeae995e0d6dd2e7652bd314f0181aa62a890e609318",
+      "background_license": "https://creativecommons.org/licenses/by/2.0"
+    },
+    {
+      "image_id": 227,
+      "foreground": "00182.png",
+      "foreground_sha256": "8d85d1b125f710e9dc241d0ad5055c57d47f06d7cca5a40d181dfb7ee08c9bce",
+      "background_id": "993459",
+      "background_group": "commons:user:shawnc",
+      "background_sha256": "f5883c6c6cd197fabc67d75200af78471e0bac52ca11c2e83d7babb3597f7a25",
+      "background_license": "Public domain"
+    },
+    {
+      "image_id": 228,
+      "foreground": "00109.png",
+      "foreground_sha256": "81f39f02fb6ebdc861fa37ab5d3fccef5dfb435a0601e87a7025820f6600d51e",
+      "background_id": "115697835",
+      "background_group": "commons:science museum, london",
+      "background_sha256": "0e50c1874d4411a905c7ccd59c878a472368c149364000ab76676ba53fd45f90",
+      "background_license": "https://creativecommons.org/licenses/by/4.0"
+    },
+    {
+      "image_id": 229,
+      "foreground": "00104.png",
+      "foreground_sha256": "8f97c49b8a3403b40a34e264ac692ae44272f23f9138bfebf4b7d6e18d0f1528",
+      "background_id": "59284146",
+      "background_group": "commons:pualuu",
+      "background_sha256": "9c726c18fe147714a9babc57d7e5090f8809bf8ef4e0fa213411cbd49406e6a0",
+      "background_license": "https://creativecommons.org/licenses/by-sa/4.0"
+    },
+    {
+      "image_id": 230,
+      "foreground": "00004.png",
+      "foreground_sha256": "366d35ec5171dd47f19cc5958c23c5272b98aaeb60cd0b30e2ca43992af94714",
+      "background_id": "97257014",
+      "background_group": "commons:nicola sap de mitri",
+      "background_sha256": "ae8270c85ce1a1fb4dbac2c54854c9c725590fa41f0f0f2694b29ae5bdedcabf",
+      "background_license": "https://creativecommons.org/licenses/by-sa/2.0"
+    },
+    {
+      "image_id": 231,
+      "foreground": "00122.png",
+      "foreground_sha256": "c52d99f378312e530fba0f2747664326f1208f88d200bdfe561f8e893dd2b0b7",
+      "background_id": "18864470",
+      "background_group": "commons:magnus manske",
+      "background_sha256": "585c28ec95721a51808db3d7a26ac048ceca5770e49da01045d6705a77ad6d19",
+      "background_license": "https://creativecommons.org/licenses/by-sa/3.0"
+    },
+    {
+      "image_id": 232,
+      "foreground": "00124.png",
+      "foreground_sha256": "9f8ca9d4c56de0ed8f7643d771936e3eb0e7d988c42e65ad5aa7b808b1f5cddf",
+      "background_id": "127790110",
+      "background_group": "commons:marius vassnes",
+      "background_sha256": "a4c2d9647bd3790158091262f32069c4f09953953db14c433cae872f1651c7ac",
+      "background_license": "https://creativecommons.org/licenses/by-sa/4.0"
+    },
+    {
+      "image_id": 233,
+      "foreground": "00045.png",
+      "foreground_sha256": "e793e2e0d246df95a5b197ba8687ffb7253f1bb34f888292203bec5a4143b8a3",
+      "background_id": "17714440",
+      "background_group": "commons:saurabh r. patil",
+      "background_sha256": "3be3cdd57e995ecca7a3a9a07b671e7c3547ec53b7b5e534d8e15be965b6c8dd",
+      "background_license": "https://creativecommons.org/licenses/by-sa/3.0"
+    },
+    {
+      "image_id": 234,
+      "foreground": "00089.png",
+      "foreground_sha256": "4a1536c2940fc4c8da8a41a7bbb5c3cd78f05817789597b987c4f293ddc5160c",
+      "background_id": "116616738",
+      "background_group": "commons:j. c. barros",
+      "background_sha256": "8fbe5ffe93a75034af47dffe74c718e9afaaa2d7ffb446b69ba6b84a81531418",
+      "background_license": "https://creativecommons.org/licenses/by/2.0"
+    },
+    {
+      "image_id": 235,
+      "foreground": "00022.png",
+      "foreground_sha256": "9b2ce8d02786a91394fd39971fec3d771a2f3f93bd864507e6a24b5fcfca6072",
+      "background_id": "1576673",
+      "background_group": "commons:amagill",
+      "background_sha256": "18ece56c0b5662b5a0061ad52f3a514e711409c6bedb178cd7cebb055d72fd57",
+      "background_license": "https://creativecommons.org/licenses/by/2.0"
+    },
+    {
+      "image_id": 236,
+      "foreground": "00024.png",
+      "foreground_sha256": "49fd606f61e5ffee2cb905b4c8a3f3a5c87a4264853842b5f92fc05795dc730e",
+      "background_id": "17328716",
+      "background_group": "commons:ostheimer",
+      "background_sha256": "7d3b97d37e7bbe2931b03d52f1800ff88829ba0cc1314c73322abcd562ebbaa3",
+      "background_license": "https://creativecommons.org/licenses/by-sa/3.0"
+    },
+    {
+      "image_id": 237,
+      "foreground": "00125.png",
+      "foreground_sha256": "5219e3a6c49436f7b159875c2f7e017fe58803dec95d84df495c4d3c9450faf9",
+      "background_id": "10621296",
+      "background_group": "commons:intropin",
+      "background_sha256": "de1f6484db63bd932d89cf896ce7ec5e32b67a01db0476d612474c58031d8a64",
+      "background_license": "https://creativecommons.org/licenses/by-sa/3.0"
+    },
+    {
+      "image_id": 238,
+      "foreground": "00031.png",
+      "foreground_sha256": "ac7a854f8c2288848b992695084ea4c0cc6087ff863d1b57b5e3eab817dce482",
+      "background_id": "148368823",
+      "background_group": "commons:sgroey",
+      "background_sha256": "2ce502ca1cdce3bf6740f65b9377e9f7123edb0280204e080ddaa419092fed73",
+      "background_license": "https://creativecommons.org/licenses/by-sa/4.0"
+    },
+    {
+      "image_id": 239,
+      "foreground": "00142.png",
+      "foreground_sha256": "2ec4b1b25853de3edb942a0bad13f160f461357f020e53574700b7e5cf158eb6",
+      "background_id": "17283750",
+      "background_group": "commons:cjp24",
+      "background_sha256": "e14c1566a9adf9120bced73c0ff2c8a6e24bf8790ac441757c6cc5a2d0dcc2b4",
+      "background_license": "https://creativecommons.org/licenses/by-sa/3.0"
+    },
+    {
+      "image_id": 240,
+      "foreground": "00033.png",
+      "foreground_sha256": "502291230e6f87dc23a8bfe5e33c74bcd79aff6ef0a474d6293c6073dd4e8994",
+      "background_id": "31351996",
+      "background_group": "commons:ankawü",
+      "background_sha256": "94db781bb2fb8f8328a4c31377f430d43c4138856c798ff8ef7a9270017de62d",
+      "background_license": "https://creativecommons.org/licenses/by-sa/3.0"
+    },
+    {
+      "image_id": 241,
+      "foreground": "00061.png",
+      "foreground_sha256": "23ae2072d659179bf4a90ffd06b1463257df2a314142d8c0c2c5b5fccfead3a0",
+      "background_id": "3323591",
+      "background_group": "commons:andrew magill from boulder, usa",
+      "background_sha256": "952d67c7e523ee5d370abeae995e0d6dd2e7652bd314f0181aa62a890e609318",
+      "background_license": "https://creativecommons.org/licenses/by/2.0"
+    },
+    {
+      "image_id": 242,
+      "foreground": "00052.png",
+      "foreground_sha256": "30afa663149f8c85d1ff19eae16477ad4f1820000494f64d39afa494712e2ba4",
+      "background_id": "993459",
+      "background_group": "commons:user:shawnc",
+      "background_sha256": "f5883c6c6cd197fabc67d75200af78471e0bac52ca11c2e83d7babb3597f7a25",
+      "background_license": "Public domain"
+    },
+    {
+      "image_id": 243,
+      "foreground": "00023.png",
+      "foreground_sha256": "8986988f2448b7000cf3e85d7b2ecf46941acb5168ccb2429e0fa1a6fb3f6520",
+      "background_id": "115697835",
+      "background_group": "commons:science museum, london",
+      "background_sha256": "0e50c1874d4411a905c7ccd59c878a472368c149364000ab76676ba53fd45f90",
+      "background_license": "https://creativecommons.org/licenses/by/4.0"
+    },
+    {
+      "image_id": 244,
+      "foreground": "00153.png",
+      "foreground_sha256": "d5a97f0be83ee4802b167a0cef067aa4dd65d7ffa436d35f787de950932666ad",
+      "background_id": "59284146",
+      "background_group": "commons:pualuu",
+      "background_sha256": "9c726c18fe147714a9babc57d7e5090f8809bf8ef4e0fa213411cbd49406e6a0",
+      "background_license": "https://creativecommons.org/licenses/by-sa/4.0"
+    },
+    {
+      "image_id": 245,
+      "foreground": "00057.png",
+      "foreground_sha256": "736cf7f0fe74ba0b8d1296b6ca63288103decd222ff43808ebcbc2ef6389bfd6",
+      "background_id": "97257014",
+      "background_group": "commons:nicola sap de mitri",
+      "background_sha256": "ae8270c85ce1a1fb4dbac2c54854c9c725590fa41f0f0f2694b29ae5bdedcabf",
+      "background_license": "https://creativecommons.org/licenses/by-sa/2.0"
+    },
+    {
+      "image_id": 246,
+      "foreground": "00139.png",
+      "foreground_sha256": "d468fb981aeb64afe3ec24bc91190e813f7edf124e7857e3ee2db2c4cc9c678d",
+      "background_id": "18864470",
+      "background_group": "commons:magnus manske",
+      "background_sha256": "585c28ec95721a51808db3d7a26ac048ceca5770e49da01045d6705a77ad6d19",
+      "background_license": "https://creativecommons.org/licenses/by-sa/3.0"
+    },
+    {
+      "image_id": 247,
+      "foreground": "00011.png",
+      "foreground_sha256": "745b7467fb65b6afe7935ce44638d1159efe025aededde20e72e2e96199e0471",
+      "background_id": "127790110",
+      "background_group": "commons:marius vassnes",
+      "background_sha256": "a4c2d9647bd3790158091262f32069c4f09953953db14c433cae872f1651c7ac",
+      "background_license": "https://creativecommons.org/licenses/by-sa/4.0"
+    },
+    {
+      "image_id": 248,
+      "foreground": "00032.png",
+      "foreground_sha256": "ada64d8f5989b2bf6a364e013002f391a26e1027b3a6f8dc9ccbab306a1e8000",
+      "background_id": "17714440",
+      "background_group": "commons:saurabh r. patil",
+      "background_sha256": "3be3cdd57e995ecca7a3a9a07b671e7c3547ec53b7b5e534d8e15be965b6c8dd",
+      "background_license": "https://creativecommons.org/licenses/by-sa/3.0"
+    },
+    {
+      "image_id": 249,
+      "foreground": "00090.png",
+      "foreground_sha256": "2a2bf3d8cd18951b46a872028559b3a57ce20625c0f075dfa1734fc7816c598f",
+      "background_id": "116616738",
+      "background_group": "commons:j. c. barros",
+      "background_sha256": "8fbe5ffe93a75034af47dffe74c718e9afaaa2d7ffb446b69ba6b84a81531418",
+      "background_license": "https://creativecommons.org/licenses/by/2.0"
+    },
+    {
+      "image_id": 250,
+      "foreground": "00132.png",
+      "foreground_sha256": "ac1b05c545ece9374bc1b67d5b1c3b3ba41197d253ffe06f0b95b0f34bd2430a",
+      "background_id": "1576673",
+      "background_group": "commons:amagill",
+      "background_sha256": "18ece56c0b5662b5a0061ad52f3a514e711409c6bedb178cd7cebb055d72fd57",
+      "background_license": "https://creativecommons.org/licenses/by/2.0"
+    },
+    {
+      "image_id": 251,
+      "foreground": "00020.png",
+      "foreground_sha256": "f0bed355068c37524cd245f09b8be205e99fd40192b98eb05a36d09a4b74232a",
+      "background_id": "17328716",
+      "background_group": "commons:ostheimer",
+      "background_sha256": "7d3b97d37e7bbe2931b03d52f1800ff88829ba0cc1314c73322abcd562ebbaa3",
+      "background_license": "https://creativecommons.org/licenses/by-sa/3.0"
+    },
+    {
+      "image_id": 252,
+      "foreground": "00036.png",
+      "foreground_sha256": "0c075658587c306a50ff4ea0d93a630c85593c6f0f14e0186fefbbc3daddb827",
+      "background_id": "10621296",
+      "background_group": "commons:intropin",
+      "background_sha256": "de1f6484db63bd932d89cf896ce7ec5e32b67a01db0476d612474c58031d8a64",
+      "background_license": "https://creativecommons.org/licenses/by-sa/3.0"
+    },
+    {
+      "image_id": 253,
+      "foreground": "00093.png",
+      "foreground_sha256": "ee93bfe5c5c795910762f5571bb878499ce34cd7e7b2dd5dd1c91a1b37bab753",
+      "background_id": "148368823",
+      "background_group": "commons:sgroey",
+      "background_sha256": "2ce502ca1cdce3bf6740f65b9377e9f7123edb0280204e080ddaa419092fed73",
+      "background_license": "https://creativecommons.org/licenses/by-sa/4.0"
+    },
+    {
+      "image_id": 254,
+      "foreground": "00100.png",
+      "foreground_sha256": "ce4fd887d6325bdbb98a93f7aac9a3bd1473b3a7ce4f6cd9e3590ba93d3a51ae",
+      "background_id": "17283750",
+      "background_group": "commons:cjp24",
+      "background_sha256": "e14c1566a9adf9120bced73c0ff2c8a6e24bf8790ac441757c6cc5a2d0dcc2b4",
+      "background_license": "https://creativecommons.org/licenses/by-sa/3.0"
+    }
+  ],
+  "code_sha256": "ec2bfed1f1d52f48f42595af7dd3bbc547885666ae224935093d4f2be2b647df",
+  "source_sha256": "40e4a6b60a7bf3ef29939aca8824bfbb468c6e4da1a1092e6e03d34ca2e9ea3f",
+  "negative_manifests": {
+    "artifacts/detection_hillclimb/public_additional_fit.json": "2aacb8aafa1ef5a19d7c6033deef4678a543fe3735677704626ca2b7161820f9",
+    "artifacts/detection_hillclimb/openimages_additional_manifest.json": "faf101161a2e1c9d6a2c5917171293117e4d749514ae08420edaa7e1b375d993"
+  },
+  "design": "Only source and background fit groups. All development and audit photos remain untouched. The matched control repeats each selected foreground's actual scene once. The quality check limits foreground enlargement to 2x and artificial occlusion to 25%."
+}

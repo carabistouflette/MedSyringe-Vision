@@ -1,6 +1,6 @@
 """Package and restore the released local models and worker environments."""
 import argparse
-from hashlib import file_digest
+from hashlib import file_digest, sha256
 import json
 import os
 from pathlib import Path
@@ -66,6 +66,42 @@ def package_list(environment):
     return json.loads(output)
 
 
+def environment_fingerprint(root):
+    """Seal importable packages and native libraries without path-dependent caches."""
+    base = root/"lib/python3.12/site-packages"
+    if not base.is_dir():
+        raise ValueError(f"Missing Python package directory for {root.name}.")
+    fingerprint = sha256()
+    count = 0
+    for file in sorted(base.rglob("*")):
+        if "__pycache__" in file.parts or file.suffix == ".pyc":
+            continue
+        if file.is_symlink():
+            target = file.resolve()
+            if not target.is_relative_to(root.resolve()):
+                raise ValueError(f"External package symlink in {file.relative_to(root)}.")
+            payload = f"symlink\0{target.relative_to(root.resolve()).as_posix()}"
+        elif file.is_file():
+            payload = filehash(file)
+        else:
+            continue
+        fingerprint.update(f"{file.relative_to(base).as_posix()}\0{payload}\n".encode())
+        count += 1
+    return dict(files=count,sha256=fingerprint.hexdigest())
+
+
+def verify_environment_content(root, manifest):
+    content = manifest.get("package_content")
+    if content is None:
+        return
+    expected_python = manifest["python_binary_sha256"]
+    if filehash(root/confined(manifest["python"])/"bin/python3.12") != expected_python:
+        raise ValueError("The packaged Python executable failed verification.")
+    for environment in ENVIRONMENTS:
+        if environment_fingerprint(root/confined(environment)) != content[environment]:
+            raise ValueError(f"Runtime package contents differ: {environment}.")
+
+
 def pack(root, destination):
     destination = destination.resolve()
     if destination.exists():
@@ -93,7 +129,10 @@ def pack(root, destination):
             copy_bytes(root/env,payload/env)
         copy_bytes(python,payload/PYTHON)
         packages = {env:package_list(root/env) for env in ENVIRONMENTS}
+        package_content = {env:environment_fingerprint(payload/env) for env in ENVIRONMENTS}
         summary = dict(revision=git_revision(root), assets=assets, environments=packages,
+                       package_content=package_content,
+                       python_binary_sha256=filehash(payload/PYTHON/"bin/python3.12"),
                        python=str(PYTHON), platform=os.uname().machine,
                        asset_bytes=sum((root/f).stat().st_size for f in assets),
                        worker_files="Linux x86-64 environment snapshots. Relink the packaged Python on restore.")
@@ -133,10 +172,12 @@ def verify(root, manifest):
     for file,hash_ in manifest["assets"].items():
         if filehash(root/confined(file))!=hash_:
             raise ValueError(f"Runtime asset failed verification: {file}.")
+    verify_environment_content(root,manifest)
     for environment,packages in manifest["environments"].items():
         if package_list(root/confined(environment))!=packages:
             raise ValueError(f"Runtime dependency set differs: {environment}.")
-    print("Runtime weights and environment versions match the recorded release.",flush=True)
+    description = "and package contents " if manifest.get("package_content") else ""
+    print(f"Runtime weights, environment versions {description}match the recorded release.",flush=True)
 
 
 def restore(root, bundle):
@@ -152,6 +193,7 @@ def restore(root, bundle):
     for file,hash_ in manifest["assets"].items():
         if filehash(bundle/"payload"/confined(file))!=hash_:
             raise ValueError(f"Packaged model failed verification: {file}.")
+    verify_environment_content(bundle/"payload",manifest)
     for relative in sources:
         copy_bytes(bundle/"payload"/relative,root/relative)
     for env in ENVIRONMENTS:

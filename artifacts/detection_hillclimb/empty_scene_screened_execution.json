@@ -1,0 +1,28 @@
+{
+  "selected_policy_sha256": "cd045adbb89fa4ed5f485e046137f17c377822e9b50a2b01107696fd64ec3004",
+  "code_sha256": "65313f5b807c30cfaa74bb441b0a3814a73d7d5ef9dfe128d447e1f167be5c24",
+  "unchanged": [
+    "operating thresholds",
+    "model decisions",
+    "reference boundaries",
+    "qualification criteria"
+  ],
+  "execution": "Apply each proposal's frozen raw-score and agreement requirements before encoding its crop. Unsupported proposals cannot be accepted under the fixed rule.",
+  "timings": {
+    "fresh": {
+      "seconds_median": 1.1875613485008216,
+      "possible_before": 144,
+      "possible_after": 21
+    },
+    "previous": {
+      "seconds_median": 2.0497000150498934e-05,
+      "possible_before": 105,
+      "possible_after": 16
+    },
+    "negative": {
+      "seconds_median": 0.032162412000616314,
+      "possible_before": 240,
+      "possible_after": 39
+    }
+  }
+}
