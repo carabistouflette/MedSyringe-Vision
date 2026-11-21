@@ -40,3 +40,5 @@ The separate archive at `data/deliverables/precision-evidence` contains the exac
 ```
 
 Add `--include-capture-metadata` to include the capture partitions in a local archive. Add `--original-capture /path/to/Images_fil_rougev1` to check the local originals at replay time. The replay was run from an empty directory outside the project, verified all 177 supplied image hashes and reproduced every archived cohort's operating metrics and ranked estimates. This verifies exact metric replay from saved model outputs. Fresh inference can use the separately restored application runtime. [Portable replay evidence](../artifacts/detection_hillclimb/portable_precision_replay.json)
+
+The archive at `data/deliverables/precision-evidence-333da35` also includes the 23 native device-scene rasters and their stored application observations. Package those assets with `--include-native-device-audit`. The independent replay verified the rasters, the original Fil Rouge hashes, the device localization and exact-count results, and the reach of the top review candidates. [Native scene replay](../artifacts/detection_hillclimb/portable_native_replay.json)

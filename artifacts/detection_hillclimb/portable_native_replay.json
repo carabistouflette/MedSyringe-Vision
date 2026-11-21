@@ -1,0 +1,42 @@
+{
+  "passed": true,
+  "working_directory": "Empty temporary directory outside the source tree",
+  "evidence_git_revision": "333da3554affd36e60acdf8502e63155e4117518",
+  "evidence_manifest_sha256": "c217cd3c3c20986862ed708334137449e10f9c4f42fc6abe7757ab6c3543a9f7",
+  "capture_hashes_checked": 177,
+  "native_scene_rasters": 23,
+  "native_result": {
+    "images": 23,
+    "objects": 48,
+    "tp": 39,
+    "fp": 4,
+    "fn": 9,
+    "precision": 0.9069767441860465,
+    "recall": 0.8125,
+    "f1": 0.8571428571428572,
+    "ap50": 0.7428045130094404,
+    "ap50_95": 0.45777105482255964,
+    "exact_count": 20,
+    "negative_images": 0,
+    "correct_empty": 0
+  },
+  "crowded_scene_result": {
+    "images": 5,
+    "objects": 30,
+    "tp": 24,
+    "fp": 1,
+    "fn": 6,
+    "precision": 0.96,
+    "recall": 0.8,
+    "f1": 0.8727272727272728,
+    "ap50": 0.7861386138613862,
+    "ap50_95": 0.661874004317725,
+    "exact_count": 2,
+    "negative_images": 0,
+    "correct_empty": 0
+  },
+  "crowded_review_reach": {
+    "2": 2,
+    "5": 4
+  }
+}
