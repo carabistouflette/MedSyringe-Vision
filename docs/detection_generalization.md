@@ -212,6 +212,8 @@ The audit used the actual application response with visible marking extraction o
 
 Both images are from the Syringe Test dataset, attributed to its contributors and used under CC BY 4.0. The figure adds reference and model overlays. [Image sources](https://universe.roboflow.com/test-uugy6/syringe-test) · [License](https://creativecommons.org/licenses/by/4.0/)
 
+The opened review panel now displays up to five existing proposals in scenes with multiple accepted objects. The automatic count is shown separately from the draft count during corrections. On the crowded audit frames the first two proposals can cover two of six misses and the first five can cover four. A Chromium run drove real inference on the example with three detections and exercised the five visible proposals, pre-adoption native crop and unsaved draft. Human completion time remains a separate outcome. [Review reach](../artifacts/detection_hillclimb/device_scene_audit_results.json) · [Browser development check](../artifacts/detection_hillclimb/crowded_review_browser_development.json)
+
 ## Matched supervised training
 
 The equal-budget mask-composition training finished both one-epoch local arms. On simulator validation, the control had 53.4% AP50 and 64% F1. Objects pasted onto unrelated reviewed negatives produced 42.7% AP50 and 52% F1. On the public development group, AP50 rose from 1.1% to 2.8%. Both arms scored zero true detections at the common illustrative 0.20 score. The composite images alone gave insufficient domain transfer. [Training and evaluation comparison](../artifacts/detection_hillclimb/composite_ablation_results.json)
@@ -235,6 +237,10 @@ The fixed rule preserved the 177 Fil Rouge counts and the 172 prior matches at I
 ## Class-agnostic instance proposals
 
 A regular grid of point prompts uses the class-agnostic branch of the same SAM 3 checkpoint to propose regions independently of the syringe text prompt. We compared 8 × 8 and 16 × 16 grids, mask stability and principal-axis elongation filters. The 16 × 16 grid provided overlapping candidate boxes for 12 of the 18 misses on simulator development and three of the seven misses on public development. It proposed 1,403 regions across the 40 simulator images and 426 across the 11 public images. The metric checks geometric availability at IoU 0.50 with access to the references. The subsequent separate crop verification must determine which candidates correspond to a syringe. [Candidate reach and counts](../artifacts/detection_hillclimb/mask_retrieval_development.json)
+
+The text-image verification screened 864 combinations of appearance margin, shape, agreement and scene policy. The fixed crowded-scene arm recovered one more instance in a four-syringe Commons development photo, where the previous detector matched two instances. The simulator results stayed the same. The native crowded scene comparison was sealed with preservation of every previous match, false-positive count and correct scene count. [Text-image verification](../artifacts/detection_hillclimb/mask_verification_development.json) · [Crowded compensation protocol](../artifacts/detection_hillclimb/crowded_mask_recovery_seal.json)
+
+A separate learned ablation fits DINOv2, SigLIP 2 and joint-feature heads to crops from 111 reviewed fitting photos in 94 acquisition groups. It scores the shortlists of class-agnostic proposals and evaluates 720 settings on the two development groups. The best learned head recovered the same additional reference as the text-image comparison. No further gain was measured. [Learned verifier trials](../artifacts/detection_hillclimb/mask_learned_development.json)
 
 ## Native single-device context sources
 

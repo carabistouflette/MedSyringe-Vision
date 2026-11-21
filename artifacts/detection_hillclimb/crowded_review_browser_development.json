@@ -1,0 +1,36 @@
+{
+  "image": "fr4KaYX2NdrKAcwFd4Sh.jpg",
+  "detected": 3,
+  "browser": "Chromium",
+  "no_page_errors": true,
+  "revision": "5088dbc2b89701afe857758f8d1903fc7b7c41ae",
+  "installation_backend": "cpu",
+  "appearance_release_sha256": "6a446005968d3ea7d3f040ebe37fe6702033f5f2ba157194290a2561699cae90",
+  "detection_checks": {
+    "status": "available",
+    "primary_backend": "cpu",
+    "unavailable": [],
+    "review_needed": false
+  },
+  "flows": [
+    "image upload",
+    "real detection overlay",
+    "inventory",
+    "persisted review",
+    "ZIP report with evidence",
+    "mobile viewport without horizontal overflow",
+    "detection-only analysis selected in the upload form",
+    "verified native-resolution crop and exact original bytes in export",
+    "all five proposals shown immediately when there are several automatic detections",
+    "automatic and draft counts stay distinguishable during review",
+    "matching native crop before candidate adoption and before saving",
+    "candidate adoption with unchanged model output and linked review evidence"
+  ],
+  "checkout_clean": false,
+  "tested_files": {
+    "medsyringe/web/app.js": "a385c47fd05f17067ab573f1a53219a1085b1895214dff2b0d3f8f4fe7d312a7",
+    "medsyringe/web/index.html": "c1c308dca51d335f5ea360e11085947e9f51d867f1a111fc0879c43121f329ab",
+    "medsyringe/app.py": "ac063621ffdae0d5a13b6f5aae1de9056328636c3986d1c77e30248501b162aa",
+    "scripts/browser_smoke.py": "b52329f89dca3d51f519ed6a17d0cc04d935b9ac1e8753a78f8b6dea633eb697"
+  }
+}

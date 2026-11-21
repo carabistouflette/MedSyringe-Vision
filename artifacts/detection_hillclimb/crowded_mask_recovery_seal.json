@@ -1,0 +1,39 @@
+{
+  "settings": [
+    0.55,
+    -0.005,
+    1.0,
+    "external",
+    "multiple",
+    0.9
+  ],
+  "code": {
+    "scripts/detection_mask_crowded_audit.py": "9e27563117bf9078ddf25448aff3f1d8593ee42e6e80164b9bd252c064f90fc4",
+    "artifacts/detection_hillclimb/mask_verification_development.json": "4a23ffb55608da42e79c4d4af8b504cd14bf2533ae580f9f87fd2447bb35762a",
+    "scripts/detection_mask_retrieval.py": "da2dc7ae099a97245747573298f4f91e51e0e3aa9e6d541ab43336c2fde0adc9",
+    "scripts/detection_mask_verification.py": "3f4ca763a7e949d071e5d7fdcd04003cdb2178b09418129bdb488c88d43cb38d"
+  },
+  "archive_sha256": "c217cd3c3c20986862ed708334137449e10f9c4f42fc6abe7757ab6c3543a9f7",
+  "auxiliary_weights": {
+    "dino-base": {
+      "config.json": "eda416dae6f49419ff831b1c190ec430a060b19aae688dbaf2425a075b650608",
+      "model.safetensors": "5548f844c928c4b6f411fa8cbcc2bfa8dbbba437cb1d513975519f93c2a9ed21",
+      "preprocessor_config.json": "8454179ba95e2ad22947835aad7b45862a601fc0055ab88bf1ee70892d3aea60",
+      "tokenizer_config.json": "d40ab645b68211910b9170d22433d43186a6ec8ee6fd10ba170524b25bf4fb56",
+      "special_tokens_map.json": "b6d346be366a7d1d48332dbc9fdf3bf8960b5d879522b7799ddba59e76237ee3",
+      "tokenizer.json": "d241a60d5e8f04cc1b2b3e9ef7a4921b27bf526d9f6050ab90f9267a1f9e5c66",
+      "vocab.txt": "07eced375cec144d27c900241f3e339478dec958f92fddbc551f295c992038a3"
+    },
+    "owlv2": {
+      "config.json": "ba9df8c25a4b8461887dd0a93d9252c9cd84697fe8d49a9d8794ce409af9acb2",
+      "preprocessor_config.json": "cf3e396635b797ee1a464e1b2836e98748f8edac19e89aaa2c93b55ac15b0064",
+      "tokenizer_config.json": "b55cda6198e152ded427c8a9b3faf1cccf27a7fa080697a62f6ff143f511f44f",
+      "special_tokens_map.json": "d6e2b9cf664efbad2d22998b8d3da986abcbeed3e0825ad33605c9401f9cf73e",
+      "added_tokens.json": "e5dc0da35d20111e8ff3fdfc03682beca23d5f94ed74331bce81786b2636a24f",
+      "model.safetensors": "c4a566429e6b2c015abacb53087bf673260486c369a84e626e9b09fe57ca316d",
+      "merges.txt": "9fd691f7c8039210e0fced15865466c65820d09b63988b0174bfe25de299051a",
+      "vocab.json": "e089ad92ba36837a0d31433e555c8f45fe601ab5c221d4f607ded32d9f7a4349"
+    }
+  },
+  "criterion": "At least one extra instance match and improved exact-count rate on the native cohort, no lost matches, no added false positives, and no per-scene count changes in correctly counted images. Earlier archives are regression controls. Skipping fewer than two accepted objects is part of the frozen architecture."
+}

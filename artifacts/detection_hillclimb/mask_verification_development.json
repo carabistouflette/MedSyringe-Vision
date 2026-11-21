@@ -1,0 +1,300 @@
+{
+  "variants": 864,
+  "retained": 432,
+  "leading": [
+    {
+      "settings": [
+        0.55,
+        -0.005,
+        1.0,
+        "none",
+        "multiple",
+        0.8
+      ],
+      "outcomes": {
+        "phlebotomy-development": {
+          "tp": 10,
+          "fp": 2,
+          "fn": 18,
+          "new_matches": 0
+        },
+        "public-development": {
+          "tp": 3,
+          "fp": 1,
+          "fn": 6,
+          "new_matches": 1
+        }
+      }
+    },
+    {
+      "settings": [
+        0.55,
+        -0.005,
+        1.0,
+        "none",
+        "multiple",
+        0.9
+      ],
+      "outcomes": {
+        "phlebotomy-development": {
+          "tp": 10,
+          "fp": 2,
+          "fn": 18,
+          "new_matches": 0
+        },
+        "public-development": {
+          "tp": 3,
+          "fp": 1,
+          "fn": 6,
+          "new_matches": 1
+        }
+      }
+    },
+    {
+      "settings": [
+        0.55,
+        -0.005,
+        1.0,
+        "primary",
+        "multiple",
+        0.8
+      ],
+      "outcomes": {
+        "phlebotomy-development": {
+          "tp": 10,
+          "fp": 2,
+          "fn": 18,
+          "new_matches": 0
+        },
+        "public-development": {
+          "tp": 3,
+          "fp": 1,
+          "fn": 6,
+          "new_matches": 1
+        }
+      }
+    },
+    {
+      "settings": [
+        0.55,
+        -0.005,
+        1.0,
+        "primary",
+        "multiple",
+        0.9
+      ],
+      "outcomes": {
+        "phlebotomy-development": {
+          "tp": 10,
+          "fp": 2,
+          "fn": 18,
+          "new_matches": 0
+        },
+        "public-development": {
+          "tp": 3,
+          "fp": 1,
+          "fn": 6,
+          "new_matches": 1
+        }
+      }
+    },
+    {
+      "settings": [
+        0.55,
+        -0.005,
+        1.0,
+        "external",
+        "multiple",
+        0.8
+      ],
+      "outcomes": {
+        "phlebotomy-development": {
+          "tp": 10,
+          "fp": 2,
+          "fn": 18,
+          "new_matches": 0
+        },
+        "public-development": {
+          "tp": 3,
+          "fp": 1,
+          "fn": 6,
+          "new_matches": 1
+        }
+      }
+    },
+    {
+      "settings": [
+        0.55,
+        -0.005,
+        1.0,
+        "external",
+        "multiple",
+        0.9
+      ],
+      "outcomes": {
+        "phlebotomy-development": {
+          "tp": 10,
+          "fp": 2,
+          "fn": 18,
+          "new_matches": 0
+        },
+        "public-development": {
+          "tp": 3,
+          "fp": 1,
+          "fn": 6,
+          "new_matches": 1
+        }
+      }
+    },
+    {
+      "settings": [
+        0.55,
+        -0.005,
+        1.0,
+        "two",
+        "multiple",
+        0.8
+      ],
+      "outcomes": {
+        "phlebotomy-development": {
+          "tp": 10,
+          "fp": 2,
+          "fn": 18,
+          "new_matches": 0
+        },
+        "public-development": {
+          "tp": 3,
+          "fp": 1,
+          "fn": 6,
+          "new_matches": 1
+        }
+      }
+    },
+    {
+      "settings": [
+        0.55,
+        -0.005,
+        1.0,
+        "two",
+        "multiple",
+        0.9
+      ],
+      "outcomes": {
+        "phlebotomy-development": {
+          "tp": 10,
+          "fp": 2,
+          "fn": 18,
+          "new_matches": 0
+        },
+        "public-development": {
+          "tp": 3,
+          "fp": 1,
+          "fn": 6,
+          "new_matches": 1
+        }
+      }
+    },
+    {
+      "settings": [
+        0.55,
+        -0.005,
+        2.0,
+        "none",
+        "multiple",
+        0.8
+      ],
+      "outcomes": {
+        "phlebotomy-development": {
+          "tp": 10,
+          "fp": 2,
+          "fn": 18,
+          "new_matches": 0
+        },
+        "public-development": {
+          "tp": 3,
+          "fp": 1,
+          "fn": 6,
+          "new_matches": 1
+        }
+      }
+    },
+    {
+      "settings": [
+        0.55,
+        -0.005,
+        2.0,
+        "none",
+        "multiple",
+        0.9
+      ],
+      "outcomes": {
+        "phlebotomy-development": {
+          "tp": 10,
+          "fp": 2,
+          "fn": 18,
+          "new_matches": 0
+        },
+        "public-development": {
+          "tp": 3,
+          "fp": 1,
+          "fn": 6,
+          "new_matches": 1
+        }
+      }
+    },
+    {
+      "settings": [
+        0.55,
+        -0.005,
+        2.0,
+        "primary",
+        "multiple",
+        0.8
+      ],
+      "outcomes": {
+        "phlebotomy-development": {
+          "tp": 10,
+          "fp": 2,
+          "fn": 18,
+          "new_matches": 0
+        },
+        "public-development": {
+          "tp": 3,
+          "fp": 1,
+          "fn": 6,
+          "new_matches": 1
+        }
+      }
+    },
+    {
+      "settings": [
+        0.55,
+        -0.005,
+        2.0,
+        "primary",
+        "multiple",
+        0.9
+      ],
+      "outcomes": {
+        "phlebotomy-development": {
+          "tp": 10,
+          "fp": 2,
+          "fn": 18,
+          "new_matches": 0
+        },
+        "public-development": {
+          "tp": 3,
+          "fp": 1,
+          "fn": 6,
+          "new_matches": 1
+        }
+      }
+    }
+  ],
+  "features_sha256": "9e902232f2a0e2eb2dabf898aeea28dc5524e64ced97f7b96c949ef831beef56",
+  "shortlisted": {
+    "phlebotomy-development": 1268,
+    "public-development": 345
+  },
+  "scope": "Development only. One new automatically accepted box at most under the listed conditions."
+}

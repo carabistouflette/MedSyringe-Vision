@@ -43,6 +43,8 @@ def main():
                         help="Verify the exact uploaded bytes and the native object crop.")
     parser.add_argument("--draft-native-crop", action="store_true",
                         help="Inspect the same native pixels before and after adopting an unsaved candidate.")
+    parser.add_argument("--crowded-candidates", action="store_true",
+                        help="Check that all five suggestions are immediately available on a multi-object scene.")
     parser.add_argument("--fill-control", action="store_true",
                         help="Check the piston overlay and export on a validated fill control image.")
     parser.add_argument("--manual-fill-control", action="store_true",
@@ -58,8 +60,8 @@ def main():
     if args.without_ocr and any((args.followup_control, args.expanded_markings_control,
                                  args.graduation_control, args.fill_control, args.manual_fill_control)):
         parser.error("Marking and fill controls require OCR.")
-    if args.draft_native_crop and not args.review_candidate:
-        parser.error("The draft native crop check requires the candidate review flow.")
+    if (args.draft_native_crop or args.crowded_candidates) and not args.review_candidate:
+        parser.error("Candidate crop and crowded checks require the candidate review flow.")
     signal.signal(signal.SIGTERM, interrupted)
     project = args.project_root.resolve()
     screenshot_root = project/"data/workspace"
@@ -261,6 +263,11 @@ def main():
                 if args.review_candidate:
                     page.locator("#uncertain > summary").click()
                     more = page.locator("#candidates > details > summary")
+                    if args.crowded_candidates:
+                        assert count >= 2 and len(report["original"]["below_threshold_candidates"]) == 5
+                        expect(page.locator("#candidates > .candidate-review")).to_have_count(5)
+                        expect(page.get_by_role("button", name="Inspect candidate 5 ·", exact=False)).to_be_visible()
+                        flows.append("all five proposals shown immediately when there are several automatic detections")
                     if more.count():
                         expect(page.locator("#candidates > .candidate-review")).to_have_count(2)
                         more.click()
@@ -275,6 +282,10 @@ def main():
                         assert native.ok and "image/png" in native.headers["content-type"]
                     page.get_by_role("button", name="Add candidate 1 to review", exact=True).click()
                     expect(page.locator("#boxes button")).to_have_count(count+1)
+                    if args.crowded_candidates:
+                        expect(page.locator("#total")).to_have_text(str(count+1))
+                        expect(page.locator("#summary")).to_contain_text(f"{count} automatically detected")
+                        flows.append("automatic and draft counts stay distinguishable during review")
                     if args.draft_native_crop:
                         unsaved = page.locator(".object.active").get_by_role(
                             "link", name="Inspect native-resolution crop", exact=True)

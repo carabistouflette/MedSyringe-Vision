@@ -122,6 +122,7 @@ function renderCandidates() {
   const below = report?.original.below_threshold_candidates || [];
   $("uncertain").hidden = !below.length;
   const previousExpansion = $("candidates").querySelector("details")?.open;
+  const initialLimit = report?.original.accepted_count >= 2 ? 5 : 2;
   const rows = below.map((pred, index) => {
     const row = node("div", undefined, "candidate-review");
     const originalScore = pred.original_score ?? pred.score;
@@ -149,11 +150,13 @@ function renderCandidates() {
     }
     return row;
   });
-  if (rows.length > 2) {
+  if (rows.length > initialLimit) {
     const more = node("details", undefined, "additional-candidates");
-    more.open = Boolean(previousExpansion || (candidate != null && candidate >= 2));
-    more.append(node("summary", `Show ${rows.length - 2} more candidate${rows.length === 3 ? "" : "s"}`), ...rows.slice(2));
-    $("candidates").replaceChildren(...rows.slice(0, 2), more);
+    more.open = Boolean(previousExpansion || (candidate != null && candidate >= initialLimit));
+    const remaining = rows.length - initialLimit;
+    more.append(node("summary", `Show ${remaining} more candidate${remaining === 1 ? "" : "s"}`),
+      ...rows.slice(initialLimit));
+    $("candidates").replaceChildren(...rows.slice(0, initialLimit), more);
   } else {
     $("candidates").replaceChildren(...rows);
   }
@@ -467,7 +470,7 @@ function show(data) {
   const metadata = report.original;
   $("summary").textContent = metadata.kind === "annotation"
     ? (metadata.flags.length ? metadata.flags.join(" · ") : "Draft annotation awaiting human review.")
-    : (metadata.accepted_count ? `${modelName[metadata.model.name] || metadata.model.name} · score is uncalibrated`
+    : (metadata.accepted_count ? `${metadata.accepted_count} automatically detected · ${modelName[metadata.model.name] || metadata.model.name} · score is uncalibrated`
       : "No detections were accepted. Review the source and any remaining candidates.");
   const checks = metadata.detection_checks;
   if (checks?.status === "degraded") {
