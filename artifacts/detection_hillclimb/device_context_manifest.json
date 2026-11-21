@@ -1,0 +1,1166 @@
+{
+  "rows": [
+    {
+      "id": "8wyZvWCaKrzgrMshxzMZ",
+      "title": "syringe2-w3svf",
+      "image": "detection_hillclimb/device-context/8wyZvWCaKrzgrMshxzMZ.jpg",
+      "sha256": "9fe728a5be5a15305c0f4ad9852deb79ab15a61c3d3d3f8ebb90b5a018f52f29",
+      "dhash": "45052367c3c38b93",
+      "dimensions": [
+        1920,
+        1080
+      ],
+      "image_url": "https://source.roboflow.com/cBJgLREYswcubIimvq3YYsVjE6Q2/8wyZvWCaKrzgrMshxzMZ/original.jpg",
+      "author": "juliejoyy",
+      "source_url": "https://universe.roboflow.com/juliejoyy/syringe2-w3svf",
+      "group": "roboflow-context:syringe2-w3svf",
+      "split": "device-context-development",
+      "license": "https://creativecommons.org/licenses/by/4.0/",
+      "objects": [
+        {
+          "kind": "syringe",
+          "bbox": [
+            0.54044,
+            0.14379,
+            0.60294,
+            0.86928
+          ]
+        }
+      ],
+      "review": "Reference drawn from visible device parts before generating any detector output.",
+      "class_evidence": "Recognizable syringe barrel"
+    },
+    {
+      "id": "9AbklyAil4pW5fx6B2sM",
+      "title": "syringe2-w3svf",
+      "image": "detection_hillclimb/device-context/9AbklyAil4pW5fx6B2sM.jpg",
+      "sha256": "7303e0ddcea54bef59af5dbeec69f03c56253f7ef0ce74135ae1a23c6d1889be",
+      "dhash": "59234e4b2b6343c3",
+      "dimensions": [
+        1920,
+        1080
+      ],
+      "image_url": "https://source.roboflow.com/cBJgLREYswcubIimvq3YYsVjE6Q2/9AbklyAil4pW5fx6B2sM/original.jpg",
+      "author": "juliejoyy",
+      "source_url": "https://universe.roboflow.com/juliejoyy/syringe2-w3svf",
+      "group": "roboflow-context:syringe2-w3svf",
+      "split": "device-context-development",
+      "license": "https://creativecommons.org/licenses/by/4.0/",
+      "objects": [
+        {
+          "kind": "syringe",
+          "bbox": [
+            0.33824,
+            0.33333,
+            0.62132,
+            0.76471
+          ]
+        }
+      ],
+      "review": "Reference drawn from visible device parts before generating any detector output.",
+      "class_evidence": "Recognizable syringe barrel"
+    },
+    {
+      "id": "8FpFnUpyarFMuInrdGaV",
+      "title": "syringe2-w3svf",
+      "image": "detection_hillclimb/device-context/8FpFnUpyarFMuInrdGaV.jpg",
+      "sha256": "e59b2950d3921197946c3478e8f83f3c3f6b2aa8b25f569dddfcf97d7177af38",
+      "dhash": "67ce8e2c2d28202a",
+      "dimensions": [
+        1920,
+        1080
+      ],
+      "image_url": "https://source.roboflow.com/cBJgLREYswcubIimvq3YYsVjE6Q2/8FpFnUpyarFMuInrdGaV/original.jpg",
+      "author": "juliejoyy",
+      "source_url": "https://universe.roboflow.com/juliejoyy/syringe2-w3svf",
+      "group": "roboflow-context:syringe2-w3svf",
+      "split": "device-context-development",
+      "license": "https://creativecommons.org/licenses/by/4.0/",
+      "objects": [
+        {
+          "kind": "syringe",
+          "bbox": [
+            0.3125,
+            0.15033,
+            0.52206,
+            0.64706
+          ]
+        }
+      ],
+      "review": "Reference drawn from visible device parts before generating any detector output.",
+      "class_evidence": "Recognizable syringe barrel"
+    },
+    {
+      "id": "8FGyKsY6rB1eVsiERZTf",
+      "title": "syringe2-w3svf",
+      "image": "detection_hillclimb/device-context/8FGyKsY6rB1eVsiERZTf.jpg",
+      "sha256": "d7b64fe04ab8678cb0760b350b5c98f6ac6729f5cb527e176c01b4aaaa0c3c8d",
+      "dhash": "0193b3b6664c48c9",
+      "dimensions": [
+        1920,
+        1080
+      ],
+      "image_url": "https://source.roboflow.com/cBJgLREYswcubIimvq3YYsVjE6Q2/8FGyKsY6rB1eVsiERZTf/original.jpg",
+      "author": "juliejoyy",
+      "source_url": "https://universe.roboflow.com/juliejoyy/syringe2-w3svf",
+      "group": "roboflow-context:syringe2-w3svf",
+      "split": "device-context-development",
+      "license": "https://creativecommons.org/licenses/by/4.0/",
+      "objects": [
+        {
+          "kind": "syringe",
+          "bbox": [
+            0.42279,
+            0.13725,
+            0.51838,
+            0.69935
+          ]
+        }
+      ],
+      "review": "Reference drawn from visible device parts before generating any detector output.",
+      "class_evidence": "Recognizable syringe barrel"
+    },
+    {
+      "id": "4a6kSaABgoL3ja2imbSv",
+      "title": "syringe2-w3svf",
+      "image": "detection_hillclimb/device-context/4a6kSaABgoL3ja2imbSv.jpg",
+      "sha256": "09796803f9823466777591b983696ba90e17c24be626aac87c06f43051a43bd8",
+      "dhash": "03e7d71f27274f6f",
+      "dimensions": [
+        1080,
+        1920
+      ],
+      "image_url": "https://source.roboflow.com/cBJgLREYswcubIimvq3YYsVjE6Q2/4a6kSaABgoL3ja2imbSv/original.jpg",
+      "author": "juliejoyy",
+      "source_url": "https://universe.roboflow.com/juliejoyy/syringe2-w3svf",
+      "group": "roboflow-context:syringe2-w3svf",
+      "split": "device-context-development",
+      "license": "https://creativecommons.org/licenses/by/4.0/",
+      "objects": [
+        {
+          "kind": "syringe",
+          "bbox": [
+            0.22131,
+            0.10138,
+            0.67213,
+            0.64055
+          ]
+        }
+      ],
+      "review": "Reference drawn from visible device parts before generating any detector output.",
+      "class_evidence": "Recognizable syringe barrel"
+    },
+    {
+      "id": "53CYReDh3s5BO7SpywiE",
+      "title": "syringe2-w3svf",
+      "image": "detection_hillclimb/device-context/53CYReDh3s5BO7SpywiE.jpg",
+      "sha256": "1cbfb5d011e3a63d28a02ad5760158b8c93b2538b7c64469a02a8a23fc9b206a",
+      "dhash": "23a3d30566273838",
+      "dimensions": [
+        1080,
+        1920
+      ],
+      "image_url": "https://source.roboflow.com/cBJgLREYswcubIimvq3YYsVjE6Q2/53CYReDh3s5BO7SpywiE/original.jpg",
+      "author": "juliejoyy",
+      "source_url": "https://universe.roboflow.com/juliejoyy/syringe2-w3svf",
+      "group": "roboflow-context:syringe2-w3svf",
+      "split": "device-context-development",
+      "license": "https://creativecommons.org/licenses/by/4.0/",
+      "objects": [
+        {
+          "kind": "syringe",
+          "bbox": [
+            0.22131,
+            0.3318,
+            0.77049,
+            0.57143
+          ]
+        }
+      ],
+      "review": "Reference drawn from visible device parts before generating any detector output.",
+      "class_evidence": "Recognizable syringe barrel"
+    },
+    {
+      "id": "8yMI78JCbyMWgoS6nlIA",
+      "title": "syringe2-w3svf",
+      "image": "detection_hillclimb/device-context/8yMI78JCbyMWgoS6nlIA.jpg",
+      "sha256": "4943ef6c0b9b0af8f9523d9b9f0c978011e20470e77cdca44756a8009cac3389",
+      "dhash": "117060c0c0c2c088",
+      "dimensions": [
+        1920,
+        1080
+      ],
+      "image_url": "https://source.roboflow.com/cBJgLREYswcubIimvq3YYsVjE6Q2/8yMI78JCbyMWgoS6nlIA/original.jpg",
+      "author": "juliejoyy",
+      "source_url": "https://universe.roboflow.com/juliejoyy/syringe2-w3svf",
+      "group": "roboflow-context:syringe2-w3svf",
+      "split": "device-context-development",
+      "license": "https://creativecommons.org/licenses/by/4.0/",
+      "objects": [
+        {
+          "kind": "syringe",
+          "bbox": [
+            0.47426,
+            0.18301,
+            0.58088,
+            0.81046
+          ]
+        }
+      ],
+      "review": "Reference drawn from visible device parts before generating any detector output.",
+      "class_evidence": "Recognizable syringe barrel"
+    },
+    {
+      "id": "2ugGwxZCTkfeYyI5QwcJ",
+      "title": "syringe2-w3svf",
+      "image": "detection_hillclimb/device-context/2ugGwxZCTkfeYyI5QwcJ.jpg",
+      "sha256": "f2af2c4f5ef078827570efcf40b9935c2cd4cedaf30405d04a7ad2d0731f01e7",
+      "dhash": "0e1fc78b35791c0e",
+      "dimensions": [
+        1080,
+        1920
+      ],
+      "image_url": "https://source.roboflow.com/cBJgLREYswcubIimvq3YYsVjE6Q2/2ugGwxZCTkfeYyI5QwcJ/original.jpg",
+      "author": "juliejoyy",
+      "source_url": "https://universe.roboflow.com/juliejoyy/syringe2-w3svf",
+      "group": "roboflow-context:syringe2-w3svf",
+      "split": "device-context-development",
+      "license": "https://creativecommons.org/licenses/by/4.0/",
+      "objects": [
+        {
+          "kind": "syringe",
+          "bbox": [
+            0.11475,
+            0.47465,
+            0.88525,
+            0.64055
+          ]
+        }
+      ],
+      "review": "Reference drawn from visible device parts before generating any detector output.",
+      "class_evidence": "Recognizable syringe barrel"
+    },
+    {
+      "id": "7NSpeWu9vqWJBNYhIxGA",
+      "title": "syringe2-w3svf",
+      "image": "detection_hillclimb/device-context/7NSpeWu9vqWJBNYhIxGA.jpg",
+      "sha256": "3e8293ae5b95fb5557454d52fbcc0e942406e65c1bd59a7c0d32f245b6f8e9df",
+      "dhash": "c3cf39676e383031",
+      "dimensions": [
+        1920,
+        1080
+      ],
+      "image_url": "https://source.roboflow.com/cBJgLREYswcubIimvq3YYsVjE6Q2/7NSpeWu9vqWJBNYhIxGA/original.jpg",
+      "author": "juliejoyy",
+      "source_url": "https://universe.roboflow.com/juliejoyy/syringe2-w3svf",
+      "group": "roboflow-context:syringe2-w3svf",
+      "split": "device-context-development",
+      "license": "https://creativecommons.org/licenses/by/4.0/",
+      "objects": [
+        {
+          "kind": "syringe",
+          "bbox": [
+            0.48529,
+            0.39869,
+            0.52206,
+            0.57516
+          ]
+        }
+      ],
+      "review": "Reference drawn from visible device parts before generating any detector output.",
+      "class_evidence": "Recognizable syringe barrel"
+    },
+    {
+      "id": "6WgfVXrroxunfTejGLPj",
+      "title": "syringe2-w3svf",
+      "image": "detection_hillclimb/device-context/6WgfVXrroxunfTejGLPj.jpg",
+      "sha256": "26f9db6bae97d23d3e5190670e659f0d6ba19edeea2fe05c46550fca0fb6f3c2",
+      "dhash": "129a92728293831f",
+      "dimensions": [
+        1920,
+        1080
+      ],
+      "image_url": "https://source.roboflow.com/cBJgLREYswcubIimvq3YYsVjE6Q2/6WgfVXrroxunfTejGLPj/original.jpg",
+      "author": "juliejoyy",
+      "source_url": "https://universe.roboflow.com/juliejoyy/syringe2-w3svf",
+      "group": "roboflow-context:syringe2-w3svf",
+      "split": "device-context-development",
+      "license": "https://creativecommons.org/licenses/by/4.0/",
+      "objects": [
+        {
+          "kind": "syringe",
+          "bbox": [
+            0.24632,
+            0.33333,
+            0.8125,
+            0.54902
+          ]
+        }
+      ],
+      "review": "Reference drawn from visible device parts before generating any detector output.",
+      "class_evidence": "Recognizable syringe barrel"
+    },
+    {
+      "id": "4D7vsZHND2bpWGu962rU",
+      "title": "syringe2-w3svf",
+      "image": "detection_hillclimb/device-context/4D7vsZHND2bpWGu962rU.jpg",
+      "sha256": "0df9c447b622e6f5b8d2ea36cc01f0e708e09fb9b99e191133d91bafea898dfe",
+      "dhash": "7e3e0fc17031b261",
+      "dimensions": [
+        1920,
+        1080
+      ],
+      "image_url": "https://source.roboflow.com/cBJgLREYswcubIimvq3YYsVjE6Q2/4D7vsZHND2bpWGu962rU/original.jpg",
+      "author": "juliejoyy",
+      "source_url": "https://universe.roboflow.com/juliejoyy/syringe2-w3svf",
+      "group": "roboflow-context:syringe2-w3svf",
+      "split": "device-context-development",
+      "license": "https://creativecommons.org/licenses/by/4.0/",
+      "objects": [
+        {
+          "kind": "syringe",
+          "bbox": [
+            0.52941,
+            0.38562,
+            0.69853,
+            0.85621
+          ]
+        }
+      ],
+      "review": "Reference drawn from visible device parts before generating any detector output.",
+      "class_evidence": "Recognizable syringe barrel"
+    },
+    {
+      "id": "9VEq8ZfWjrKMIhZ3lZx0",
+      "title": "syringe2-w3svf",
+      "image": "detection_hillclimb/device-context/9VEq8ZfWjrKMIhZ3lZx0.jpg",
+      "sha256": "cef5f1d9eb1e2ca0ae12b86a401953558559e650e36e932850d406b9441ba158",
+      "dhash": "6f363e1f31614606",
+      "dimensions": [
+        1080,
+        1920
+      ],
+      "image_url": "https://source.roboflow.com/cBJgLREYswcubIimvq3YYsVjE6Q2/9VEq8ZfWjrKMIhZ3lZx0/original.jpg",
+      "author": "juliejoyy",
+      "source_url": "https://universe.roboflow.com/juliejoyy/syringe2-w3svf",
+      "group": "roboflow-context:syringe2-w3svf",
+      "split": "device-context-development",
+      "license": "https://creativecommons.org/licenses/by/4.0/",
+      "objects": [
+        {
+          "kind": "syringe",
+          "bbox": [
+            0.17213,
+            0.45161,
+            0.9918,
+            0.68664
+          ]
+        }
+      ],
+      "review": "Reference drawn from visible device parts before generating any detector output.",
+      "class_evidence": "Recognizable syringe barrel"
+    },
+    {
+      "id": "13ktlwHU5rZDXr37NeWg",
+      "title": "syringe2-w3svf",
+      "image": "detection_hillclimb/device-context/13ktlwHU5rZDXr37NeWg.jpg",
+      "sha256": "14d2276105d67ec6f490215d33b1a3caa73a80fd8ab60f25cdbd2e2915cd7cf0",
+      "dhash": "e6e4646d6dc9c99e",
+      "dimensions": [
+        1920,
+        1080
+      ],
+      "image_url": "https://source.roboflow.com/cBJgLREYswcubIimvq3YYsVjE6Q2/13ktlwHU5rZDXr37NeWg/original.jpg",
+      "author": "juliejoyy",
+      "source_url": "https://universe.roboflow.com/juliejoyy/syringe2-w3svf",
+      "group": "roboflow-context:syringe2-w3svf",
+      "split": "device-context-development",
+      "license": "https://creativecommons.org/licenses/by/4.0/",
+      "objects": [
+        {
+          "kind": "syringe",
+          "bbox": [
+            0.37868,
+            0.26797,
+            0.55882,
+            0.70588
+          ]
+        }
+      ],
+      "review": "Reference drawn from visible device parts before generating any detector output.",
+      "class_evidence": "Recognizable syringe barrel"
+    },
+    {
+      "id": "36SI6G1tFl4LfcyZYXHY",
+      "title": "syringe2-w3svf",
+      "image": "detection_hillclimb/device-context/36SI6G1tFl4LfcyZYXHY.jpg",
+      "sha256": "017af8a653273340760002608a5be9432416589a6207d09b39453671b3566b87",
+      "dhash": "340ce6669ff7f3e3",
+      "dimensions": [
+        1080,
+        1920
+      ],
+      "image_url": "https://source.roboflow.com/cBJgLREYswcubIimvq3YYsVjE6Q2/36SI6G1tFl4LfcyZYXHY/original.jpg",
+      "author": "juliejoyy",
+      "source_url": "https://universe.roboflow.com/juliejoyy/syringe2-w3svf",
+      "group": "roboflow-context:syringe2-w3svf",
+      "split": "device-context-development",
+      "license": "https://creativecommons.org/licenses/by/4.0/",
+      "objects": [
+        {
+          "kind": "syringe",
+          "bbox": [
+            0.30328,
+            0.40553,
+            0.63115,
+            0.56221
+          ]
+        }
+      ],
+      "review": "Reference drawn from visible device parts before generating any detector output.",
+      "class_evidence": "Recognizable syringe barrel"
+    },
+    {
+      "id": "3evEqJKjzco0aY5Uyiyz",
+      "title": "syringe2-w3svf",
+      "image": "detection_hillclimb/device-context/3evEqJKjzco0aY5Uyiyz.jpg",
+      "sha256": "24fa5f1cf69085d2046da591a5635b3c455cb2d23ca8f216c7fdbdfff06b0a75",
+      "dhash": "330fe3f1190c2fa3",
+      "dimensions": [
+        1080,
+        1920
+      ],
+      "image_url": "https://source.roboflow.com/cBJgLREYswcubIimvq3YYsVjE6Q2/3evEqJKjzco0aY5Uyiyz/original.jpg",
+      "author": "juliejoyy",
+      "source_url": "https://universe.roboflow.com/juliejoyy/syringe2-w3svf",
+      "group": "roboflow-context:syringe2-w3svf",
+      "split": "device-context-development",
+      "license": "https://creativecommons.org/licenses/by/4.0/",
+      "objects": [
+        {
+          "kind": "syringe",
+          "bbox": [
+            0.27869,
+            0.58525,
+            0.82787,
+            0.6682
+          ]
+        }
+      ],
+      "review": "Reference drawn from visible device parts before generating any detector output.",
+      "class_evidence": "Recognizable syringe barrel"
+    },
+    {
+      "id": "06aAw93JQdB1J3YlYP5v",
+      "title": "syringe2-w3svf",
+      "image": "detection_hillclimb/device-context/06aAw93JQdB1J3YlYP5v.jpg",
+      "sha256": "e836ca997c927337eeb9269e6b5bc5ce4c53a8322f087f2f4172db86b6434c03",
+      "dhash": "ee1f85e14012c1f0",
+      "dimensions": [
+        1080,
+        1920
+      ],
+      "image_url": "https://source.roboflow.com/cBJgLREYswcubIimvq3YYsVjE6Q2/06aAw93JQdB1J3YlYP5v/original.jpg",
+      "author": "juliejoyy",
+      "source_url": "https://universe.roboflow.com/juliejoyy/syringe2-w3svf",
+      "group": "roboflow-context:syringe2-w3svf",
+      "split": "device-context-development",
+      "license": "https://creativecommons.org/licenses/by/4.0/",
+      "objects": [
+        {
+          "kind": "syringe",
+          "bbox": [
+            0.27869,
+            0.35023,
+            0.68852,
+            0.58065
+          ]
+        }
+      ],
+      "review": "Reference drawn from visible device parts before generating any detector output.",
+      "class_evidence": "Recognizable syringe barrel"
+    },
+    {
+      "id": "4CtqZLCQ1SzOTknmKZTE",
+      "title": "syringe2-w3svf",
+      "image": "detection_hillclimb/device-context/4CtqZLCQ1SzOTknmKZTE.jpg",
+      "sha256": "89b65be2ed1691aac7eac3e5621bf655131e9236b07dce1fd1df2bb443a87ce0",
+      "dhash": "930305122768f9f9",
+      "dimensions": [
+        1080,
+        1920
+      ],
+      "image_url": "https://source.roboflow.com/cBJgLREYswcubIimvq3YYsVjE6Q2/4CtqZLCQ1SzOTknmKZTE/original.jpg",
+      "author": "juliejoyy",
+      "source_url": "https://universe.roboflow.com/juliejoyy/syringe2-w3svf",
+      "group": "roboflow-context:syringe2-w3svf",
+      "split": "device-context-development",
+      "license": "https://creativecommons.org/licenses/by/4.0/",
+      "objects": [
+        {
+          "kind": "syringe",
+          "bbox": [
+            0.33607,
+            0.38249,
+            0.77049,
+            0.64055
+          ]
+        }
+      ],
+      "review": "Reference drawn from visible device parts before generating any detector output.",
+      "class_evidence": "Recognizable syringe barrel"
+    },
+    {
+      "id": "1TTAzph471fnGpsNxuQj",
+      "title": "syringe2-w3svf",
+      "image": "detection_hillclimb/device-context/1TTAzph471fnGpsNxuQj.jpg",
+      "sha256": "2027f45a738a366476fceed6dfafb307d5844b839e525be2a51898e240d52385",
+      "dhash": "9e7363717164e4c6",
+      "dimensions": [
+        1920,
+        1080
+      ],
+      "image_url": "https://source.roboflow.com/cBJgLREYswcubIimvq3YYsVjE6Q2/1TTAzph471fnGpsNxuQj/original.jpg",
+      "author": "juliejoyy",
+      "source_url": "https://universe.roboflow.com/juliejoyy/syringe2-w3svf",
+      "group": "roboflow-context:syringe2-w3svf",
+      "split": "device-context-development",
+      "license": "https://creativecommons.org/licenses/by/4.0/",
+      "objects": [
+        {
+          "kind": "syringe",
+          "bbox": [
+            0.38603,
+            0.13072,
+            0.67647,
+            0.70588
+          ]
+        }
+      ],
+      "review": "Reference drawn from visible device parts before generating any detector output.",
+      "class_evidence": "Recognizable syringe barrel"
+    },
+    {
+      "id": "0oVeNfkV8bthjKScKYqg",
+      "title": "syringe2-w3svf",
+      "image": "detection_hillclimb/device-context/0oVeNfkV8bthjKScKYqg.jpg",
+      "sha256": "0dea9fe40adb1dfc9193fda196ee61c9ec7a5663569590d632ff850bc17875da",
+      "dhash": "3ff88080909988b0",
+      "dimensions": [
+        1920,
+        1080
+      ],
+      "image_url": "https://source.roboflow.com/cBJgLREYswcubIimvq3YYsVjE6Q2/0oVeNfkV8bthjKScKYqg/original.jpg",
+      "author": "juliejoyy",
+      "source_url": "https://universe.roboflow.com/juliejoyy/syringe2-w3svf",
+      "group": "roboflow-context:syringe2-w3svf",
+      "split": "device-context-development",
+      "license": "https://creativecommons.org/licenses/by/4.0/",
+      "objects": [
+        {
+          "kind": "syringe",
+          "bbox": [
+            0.37868,
+            0.4902,
+            0.51838,
+            0.9281
+          ]
+        }
+      ],
+      "review": "Reference drawn from visible device parts before generating any detector output.",
+      "class_evidence": "Recognizable syringe barrel"
+    },
+    {
+      "id": "6ECR19eoMJphyUCeeLxa",
+      "title": "syringe2-w3svf",
+      "image": "detection_hillclimb/device-context/6ECR19eoMJphyUCeeLxa.jpg",
+      "sha256": "08690f1fb9d2b246d9b37cebb41425ea5a3773361c97444762caa282a4b4cddf",
+      "dhash": "0b1b79e1e1e3e2ca",
+      "dimensions": [
+        1920,
+        1080
+      ],
+      "image_url": "https://source.roboflow.com/cBJgLREYswcubIimvq3YYsVjE6Q2/6ECR19eoMJphyUCeeLxa/original.jpg",
+      "author": "juliejoyy",
+      "source_url": "https://universe.roboflow.com/juliejoyy/syringe2-w3svf",
+      "group": "roboflow-context:syringe2-w3svf",
+      "split": "device-context-development",
+      "license": "https://creativecommons.org/licenses/by/4.0/",
+      "objects": [
+        {
+          "kind": "syringe",
+          "bbox": [
+            0.51471,
+            0.18954,
+            0.625,
+            0.83007
+          ]
+        }
+      ],
+      "review": "Reference drawn from visible device parts before generating any detector output.",
+      "class_evidence": "Recognizable syringe barrel"
+    },
+    {
+      "id": "6syaiEslYnGZfAWhMQBo",
+      "title": "syringe2-w3svf",
+      "image": "detection_hillclimb/device-context/6syaiEslYnGZfAWhMQBo.jpg",
+      "sha256": "3bd7294ec2ecde431936a8af9b18dfb93b1a124590e5fd57676c9b7c9e7fc30f",
+      "dhash": "034f7c8d9bc73233",
+      "dimensions": [
+        1080,
+        1920
+      ],
+      "image_url": "https://source.roboflow.com/cBJgLREYswcubIimvq3YYsVjE6Q2/6syaiEslYnGZfAWhMQBo/original.jpg",
+      "author": "juliejoyy",
+      "source_url": "https://universe.roboflow.com/juliejoyy/syringe2-w3svf",
+      "group": "roboflow-context:syringe2-w3svf",
+      "split": "device-context-development",
+      "license": "https://creativecommons.org/licenses/by/4.0/",
+      "objects": [],
+      "review": "Reference drawn from visible device parts before generating any detector output.",
+      "class_evidence": "No recognizable syringe body"
+    },
+    {
+      "id": "1q8ULGWFGoHM38EAGQ9b",
+      "title": "syringe2-w3svf",
+      "image": "detection_hillclimb/device-context/1q8ULGWFGoHM38EAGQ9b.jpg",
+      "sha256": "4486a340fcd1903a8e1576336c16ac1d70b00c2ca9eb8ae947fd6c30a0f64f64",
+      "dhash": "741d4b033308cf1f",
+      "dimensions": [
+        1080,
+        1920
+      ],
+      "image_url": "https://source.roboflow.com/cBJgLREYswcubIimvq3YYsVjE6Q2/1q8ULGWFGoHM38EAGQ9b/original.jpg",
+      "author": "juliejoyy",
+      "source_url": "https://universe.roboflow.com/juliejoyy/syringe2-w3svf",
+      "group": "roboflow-context:syringe2-w3svf",
+      "split": "device-context-development",
+      "license": "https://creativecommons.org/licenses/by/4.0/",
+      "objects": [],
+      "review": "Reference drawn from visible device parts before generating any detector output.",
+      "class_evidence": "No recognizable syringe body"
+    },
+    {
+      "id": "5zCN3cyJBNwaKJM1nWjO",
+      "title": "syringe2-w3svf",
+      "image": "detection_hillclimb/device-context/5zCN3cyJBNwaKJM1nWjO.jpg",
+      "sha256": "3fe565740f3be0bebe2d34d0441f9a97181d99699a2afdccc5470ccdcf924714",
+      "dhash": "4343a16352133333",
+      "dimensions": [
+        1080,
+        1920
+      ],
+      "image_url": "https://source.roboflow.com/cBJgLREYswcubIimvq3YYsVjE6Q2/5zCN3cyJBNwaKJM1nWjO/original.jpg",
+      "author": "juliejoyy",
+      "source_url": "https://universe.roboflow.com/juliejoyy/syringe2-w3svf",
+      "group": "roboflow-context:syringe2-w3svf",
+      "split": "device-context-development",
+      "license": "https://creativecommons.org/licenses/by/4.0/",
+      "objects": [],
+      "review": "Reference drawn from visible device parts before generating any detector output.",
+      "class_evidence": "No recognizable syringe body"
+    },
+    {
+      "id": "7ysKZVVFptiearCM3gEA",
+      "title": "syringe-detection-fnu4f",
+      "image": "detection_hillclimb/device-context/7ysKZVVFptiearCM3gEA.jpg",
+      "sha256": "6bc8f3ef30138d3ef5c8c935a0f93d74982839675678dc76027de951386224e0",
+      "dhash": "919336078f263628",
+      "dimensions": [
+        640,
+        480
+      ],
+      "image_url": "https://source.roboflow.com/B680gdc6S2RZqJWFxbsg4rILLV93/7ysKZVVFptiearCM3gEA/original.jpg",
+      "author": "michaels-workspace-ldsqh",
+      "source_url": "https://universe.roboflow.com/michaels-workspace-ldsqh/syringe-detection-fnu4f",
+      "group": "roboflow-context:syringe-detection-fnu4f",
+      "split": "device-context-reserve",
+      "license": "https://creativecommons.org/licenses/by/4.0/",
+      "objects": [
+        {
+          "kind": "syringe",
+          "bbox": [
+            0.16544,
+            0.23039,
+            0.57353,
+            0.59804
+          ]
+        }
+      ],
+      "review": "Reference drawn from visible device parts before generating any detector output.",
+      "class_evidence": "Recognizable syringe barrel"
+    },
+    {
+      "id": "4GtOdm0wWPvPtGYHnGFz",
+      "title": "syringe-detection-fnu4f",
+      "image": "detection_hillclimb/device-context/4GtOdm0wWPvPtGYHnGFz.jpg",
+      "sha256": "7ad81c4604fa484fc058a730955444d5ec6b02ce8f13bcb791aecc6f9ab20dad",
+      "dhash": "b27e78f0f8e5f03e",
+      "dimensions": [
+        640,
+        480
+      ],
+      "image_url": "https://source.roboflow.com/B680gdc6S2RZqJWFxbsg4rILLV93/4GtOdm0wWPvPtGYHnGFz/original.jpg",
+      "author": "michaels-workspace-ldsqh",
+      "source_url": "https://universe.roboflow.com/michaels-workspace-ldsqh/syringe-detection-fnu4f",
+      "group": "roboflow-context:syringe-detection-fnu4f",
+      "split": "device-context-reserve",
+      "license": "https://creativecommons.org/licenses/by/4.0/",
+      "objects": [
+        {
+          "kind": "syringe",
+          "bbox": [
+            0.08824,
+            0.35784,
+            0.75735,
+            0.54902
+          ]
+        }
+      ],
+      "review": "Reference drawn from visible device parts before generating any detector output.",
+      "class_evidence": "Recognizable syringe barrel"
+    },
+    {
+      "id": "0C7c2dFruYBnCt6Rm11w",
+      "title": "syringe-detection-fnu4f",
+      "image": "detection_hillclimb/device-context/0C7c2dFruYBnCt6Rm11w.jpg",
+      "sha256": "6ffa0e4b34e822e5d88856f1b236bafcfc52a7ea90f744723715f8da7a875d67",
+      "dhash": "9980f2f1e8e9edf3",
+      "dimensions": [
+        640,
+        480
+      ],
+      "image_url": "https://source.roboflow.com/B680gdc6S2RZqJWFxbsg4rILLV93/0C7c2dFruYBnCt6Rm11w/original.jpg",
+      "author": "michaels-workspace-ldsqh",
+      "source_url": "https://universe.roboflow.com/michaels-workspace-ldsqh/syringe-detection-fnu4f",
+      "group": "roboflow-context:syringe-detection-fnu4f",
+      "split": "device-context-reserve",
+      "license": "https://creativecommons.org/licenses/by/4.0/",
+      "objects": [
+        {
+          "kind": "syringe",
+          "bbox": [
+            0.46324,
+            0.59804,
+            1.0,
+            0.94608
+          ]
+        }
+      ],
+      "review": "Reference drawn from visible device parts before generating any detector output.",
+      "class_evidence": "Recognizable syringe barrel"
+    },
+    {
+      "id": "32hoMZGH7qSusygrp5yq",
+      "title": "syringe-detection-fnu4f",
+      "image": "detection_hillclimb/device-context/32hoMZGH7qSusygrp5yq.jpg",
+      "sha256": "ce161a337d1398dce610f31212c64d2154ee772c93fc3c298c210c3a142b422f",
+      "dhash": "e6e2f4f4e0e4e0e6",
+      "dimensions": [
+        640,
+        480
+      ],
+      "image_url": "https://source.roboflow.com/B680gdc6S2RZqJWFxbsg4rILLV93/32hoMZGH7qSusygrp5yq/original.jpg",
+      "author": "michaels-workspace-ldsqh",
+      "source_url": "https://universe.roboflow.com/michaels-workspace-ldsqh/syringe-detection-fnu4f",
+      "group": "roboflow-context:syringe-detection-fnu4f",
+      "split": "device-context-reserve",
+      "license": "https://creativecommons.org/licenses/by/4.0/",
+      "objects": [
+        {
+          "kind": "syringe",
+          "bbox": [
+            0.49632,
+            0.04412,
+            1.0,
+            0.5
+          ]
+        }
+      ],
+      "review": "Reference drawn from visible device parts before generating any detector output.",
+      "class_evidence": "Recognizable syringe barrel"
+    },
+    {
+      "id": "5YRjvgNB9QRco0PXDA2G",
+      "title": "syringe-detection-fnu4f",
+      "image": "detection_hillclimb/device-context/5YRjvgNB9QRco0PXDA2G.jpg",
+      "sha256": "a0f6a27a024a638f50bfde56f6a4acb1119b88c40abc5231bae80abf17ec739e",
+      "dhash": "397964d6f3f5f2f4",
+      "dimensions": [
+        640,
+        480
+      ],
+      "image_url": "https://source.roboflow.com/B680gdc6S2RZqJWFxbsg4rILLV93/5YRjvgNB9QRco0PXDA2G/original.jpg",
+      "author": "michaels-workspace-ldsqh",
+      "source_url": "https://universe.roboflow.com/michaels-workspace-ldsqh/syringe-detection-fnu4f",
+      "group": "roboflow-context:syringe-detection-fnu4f",
+      "split": "device-context-reserve",
+      "license": "https://creativecommons.org/licenses/by/4.0/",
+      "objects": [
+        {
+          "kind": "syringe",
+          "bbox": [
+            0.40441,
+            0.38725,
+            0.51838,
+            0.75
+          ]
+        }
+      ],
+      "review": "Reference drawn from visible device parts before generating any detector output.",
+      "class_evidence": "Recognizable syringe barrel"
+    },
+    {
+      "id": "2WUBi34EaQWJGzTt8Sph",
+      "title": "syringe-detection-fnu4f",
+      "image": "detection_hillclimb/device-context/2WUBi34EaQWJGzTt8Sph.jpg",
+      "sha256": "d1d479d59d11b494056f9841b81600bb6107ef4a6f9559db8d6121349d6f3d64",
+      "dhash": "6fe3fb699ef377ff",
+      "dimensions": [
+        640,
+        480
+      ],
+      "image_url": "https://source.roboflow.com/B680gdc6S2RZqJWFxbsg4rILLV93/2WUBi34EaQWJGzTt8Sph/original.jpg",
+      "author": "michaels-workspace-ldsqh",
+      "source_url": "https://universe.roboflow.com/michaels-workspace-ldsqh/syringe-detection-fnu4f",
+      "group": "roboflow-context:syringe-detection-fnu4f",
+      "split": "device-context-reserve",
+      "license": "https://creativecommons.org/licenses/by/4.0/",
+      "objects": [
+        {
+          "kind": "syringe",
+          "bbox": [
+            0.16912,
+            0.23529,
+            0.74632,
+            0.39706
+          ]
+        }
+      ],
+      "review": "Reference drawn from visible device parts before generating any detector output.",
+      "class_evidence": "Recognizable syringe barrel"
+    },
+    {
+      "id": "2zKGiO3CwAGMrLTJ6oqM",
+      "title": "syringe-detection-fnu4f",
+      "image": "detection_hillclimb/device-context/2zKGiO3CwAGMrLTJ6oqM.jpg",
+      "sha256": "5058451829ce4db1521f3cd231746f7e1fe86d0d27bd046adb38552c6bf87f57",
+      "dhash": "0c193264c99c0e0f",
+      "dimensions": [
+        640,
+        480
+      ],
+      "image_url": "https://source.roboflow.com/B680gdc6S2RZqJWFxbsg4rILLV93/2zKGiO3CwAGMrLTJ6oqM/original.jpg",
+      "author": "michaels-workspace-ldsqh",
+      "source_url": "https://universe.roboflow.com/michaels-workspace-ldsqh/syringe-detection-fnu4f",
+      "group": "roboflow-context:syringe-detection-fnu4f",
+      "split": "device-context-reserve",
+      "license": "https://creativecommons.org/licenses/by/4.0/",
+      "objects": [],
+      "review": "Reference drawn from visible device parts before generating any detector output.",
+      "class_evidence": "No recognizable syringe body"
+    },
+    {
+      "id": "793QmgXjOngwua4UMFtV",
+      "title": "syringe-detection-fnu4f",
+      "image": "detection_hillclimb/device-context/793QmgXjOngwua4UMFtV.jpg",
+      "sha256": "f03550fd396e38b3015314a2dc4d6ffca1b8b9816ee8100a4f217c53164c3b2c",
+      "dhash": "71b0c8c0fe7f7dff",
+      "dimensions": [
+        640,
+        480
+      ],
+      "image_url": "https://source.roboflow.com/B680gdc6S2RZqJWFxbsg4rILLV93/793QmgXjOngwua4UMFtV/original.jpg",
+      "author": "michaels-workspace-ldsqh",
+      "source_url": "https://universe.roboflow.com/michaels-workspace-ldsqh/syringe-detection-fnu4f",
+      "group": "roboflow-context:syringe-detection-fnu4f",
+      "split": "device-context-reserve",
+      "license": "https://creativecommons.org/licenses/by/4.0/",
+      "objects": [
+        {
+          "kind": "syringe",
+          "bbox": [
+            0.17279,
+            0.17647,
+            0.71691,
+            0.47549
+          ]
+        }
+      ],
+      "review": "Reference drawn from visible device parts before generating any detector output.",
+      "class_evidence": "Recognizable syringe barrel"
+    },
+    {
+      "id": "2bVV7EU7uT8nLzSYt7IP",
+      "title": "syringe-detection-fnu4f",
+      "image": "detection_hillclimb/device-context/2bVV7EU7uT8nLzSYt7IP.jpg",
+      "sha256": "640fcae8a3bb5518d7d3c057d34a4ed93b01509c3e3f8a19ab8d6f86016bf39d",
+      "dhash": "8cfedee964e4a6b4",
+      "dimensions": [
+        640,
+        480
+      ],
+      "image_url": "https://source.roboflow.com/B680gdc6S2RZqJWFxbsg4rILLV93/2bVV7EU7uT8nLzSYt7IP/original.jpg",
+      "author": "michaels-workspace-ldsqh",
+      "source_url": "https://universe.roboflow.com/michaels-workspace-ldsqh/syringe-detection-fnu4f",
+      "group": "roboflow-context:syringe-detection-fnu4f",
+      "split": "device-context-reserve",
+      "license": "https://creativecommons.org/licenses/by/4.0/",
+      "objects": [
+        {
+          "kind": "syringe",
+          "bbox": [
+            0.29779,
+            0.39216,
+            0.53309,
+            1.0
+          ]
+        }
+      ],
+      "review": "Reference drawn from visible device parts before generating any detector output.",
+      "class_evidence": "Recognizable syringe barrel"
+    },
+    {
+      "id": "2zfM1RRf1esS9CYMTWqZ",
+      "title": "syringe-detection-fnu4f",
+      "image": "detection_hillclimb/device-context/2zfM1RRf1esS9CYMTWqZ.jpg",
+      "sha256": "f789acac6bdde0992bc1982b1a2e8bc7fcf3ad66dba51737d4c669e389a70ade",
+      "dhash": "0d13a43c372f3f2e",
+      "dimensions": [
+        640,
+        480
+      ],
+      "image_url": "https://source.roboflow.com/B680gdc6S2RZqJWFxbsg4rILLV93/2zfM1RRf1esS9CYMTWqZ/original.jpg",
+      "author": "michaels-workspace-ldsqh",
+      "source_url": "https://universe.roboflow.com/michaels-workspace-ldsqh/syringe-detection-fnu4f",
+      "group": "roboflow-context:syringe-detection-fnu4f",
+      "split": "device-context-reserve",
+      "license": "https://creativecommons.org/licenses/by/4.0/",
+      "objects": [
+        {
+          "kind": "syringe",
+          "bbox": [
+            0.61765,
+            0.07353,
+            1.0,
+            0.4951
+          ]
+        }
+      ],
+      "review": "Reference drawn from visible device parts before generating any detector output.",
+      "class_evidence": "Recognizable syringe barrel"
+    },
+    {
+      "id": "0q3mhhhZCPxw2sR2oUaY",
+      "title": "syringe-detection-fnu4f",
+      "image": "detection_hillclimb/device-context/0q3mhhhZCPxw2sR2oUaY.jpg",
+      "sha256": "8c96e5c0d7b11ed734ca4a8bda44c929e55b2f80bc9cc1cf0b8f473a33298a0f",
+      "dhash": "3f4f580a2aaaa4b4",
+      "dimensions": [
+        640,
+        480
+      ],
+      "image_url": "https://source.roboflow.com/B680gdc6S2RZqJWFxbsg4rILLV93/0q3mhhhZCPxw2sR2oUaY/original.jpg",
+      "author": "michaels-workspace-ldsqh",
+      "source_url": "https://universe.roboflow.com/michaels-workspace-ldsqh/syringe-detection-fnu4f",
+      "group": "roboflow-context:syringe-detection-fnu4f",
+      "split": "device-context-reserve",
+      "license": "https://creativecommons.org/licenses/by/4.0/",
+      "objects": [
+        {
+          "kind": "syringe",
+          "bbox": [
+            0.51471,
+            0.27451,
+            0.62868,
+            0.75
+          ]
+        }
+      ],
+      "review": "Reference drawn from visible device parts before generating any detector output.",
+      "class_evidence": "Recognizable syringe barrel"
+    },
+    {
+      "id": "31qydndVGWjjTpfSDj7V",
+      "title": "syringe-detection-fnu4f",
+      "image": "detection_hillclimb/device-context/31qydndVGWjjTpfSDj7V.jpg",
+      "sha256": "80fe2c06bc758648f7cc315bc686a96e87551209001cd25994e086507d5be5fa",
+      "dhash": "366e373a5cdd3f3b",
+      "dimensions": [
+        640,
+        480
+      ],
+      "image_url": "https://source.roboflow.com/B680gdc6S2RZqJWFxbsg4rILLV93/31qydndVGWjjTpfSDj7V/original.jpg",
+      "author": "michaels-workspace-ldsqh",
+      "source_url": "https://universe.roboflow.com/michaels-workspace-ldsqh/syringe-detection-fnu4f",
+      "group": "roboflow-context:syringe-detection-fnu4f",
+      "split": "device-context-reserve",
+      "license": "https://creativecommons.org/licenses/by/4.0/",
+      "objects": [
+        {
+          "kind": "syringe",
+          "bbox": [
+            0.38603,
+            0.41667,
+            0.73162,
+            0.81373
+          ]
+        }
+      ],
+      "review": "Reference drawn from visible device parts before generating any detector output.",
+      "class_evidence": "Recognizable syringe barrel"
+    },
+    {
+      "id": "4yQ3sa21agmzSwBxmcI9",
+      "title": "syringe-detection-fnu4f",
+      "image": "detection_hillclimb/device-context/4yQ3sa21agmzSwBxmcI9.jpg",
+      "sha256": "9806ca5450fa0bd9c4a0858c5d1d9df247e15b919a60c69dd098f0eb2c242c1e",
+      "dhash": "6d4943079a3a7efc",
+      "dimensions": [
+        640,
+        480
+      ],
+      "image_url": "https://source.roboflow.com/B680gdc6S2RZqJWFxbsg4rILLV93/4yQ3sa21agmzSwBxmcI9/original.jpg",
+      "author": "michaels-workspace-ldsqh",
+      "source_url": "https://universe.roboflow.com/michaels-workspace-ldsqh/syringe-detection-fnu4f",
+      "group": "roboflow-context:syringe-detection-fnu4f",
+      "split": "device-context-reserve",
+      "license": "https://creativecommons.org/licenses/by/4.0/",
+      "objects": [
+        {
+          "kind": "syringe",
+          "bbox": [
+            0.22794,
+            0.18137,
+            0.68015,
+            0.46078
+          ]
+        }
+      ],
+      "review": "Reference drawn from visible device parts before generating any detector output.",
+      "class_evidence": "Recognizable syringe barrel"
+    },
+    {
+      "id": "3Yo1mxBKOEmkOOyUmOAZ",
+      "title": "syringe-detection-fnu4f",
+      "image": "detection_hillclimb/device-context/3Yo1mxBKOEmkOOyUmOAZ.jpg",
+      "sha256": "a082d07d01c9bcd397f0e1d05a70327f5a618c777ab34ae98809809da1a05818",
+      "dhash": "67ccb1f160e4fb7d",
+      "dimensions": [
+        640,
+        480
+      ],
+      "image_url": "https://source.roboflow.com/B680gdc6S2RZqJWFxbsg4rILLV93/3Yo1mxBKOEmkOOyUmOAZ/original.jpg",
+      "author": "michaels-workspace-ldsqh",
+      "source_url": "https://universe.roboflow.com/michaels-workspace-ldsqh/syringe-detection-fnu4f",
+      "group": "roboflow-context:syringe-detection-fnu4f",
+      "split": "device-context-reserve",
+      "license": "https://creativecommons.org/licenses/by/4.0/",
+      "objects": [
+        {
+          "kind": "syringe",
+          "bbox": [
+            0.22794,
+            0.41667,
+            0.71324,
+            0.69118
+          ]
+        }
+      ],
+      "review": "Reference drawn from visible device parts before generating any detector output.",
+      "class_evidence": "Recognizable syringe barrel"
+    },
+    {
+      "id": "51znTz0Y7THrlL334Oud",
+      "title": "syringe-detection-fnu4f",
+      "image": "detection_hillclimb/device-context/51znTz0Y7THrlL334Oud.jpg",
+      "sha256": "f36fbe599b1956d42594b1306c9f90c19aff9e29aff80fbcde8c8210c06b53f7",
+      "dhash": "27c5ccd890860e7f",
+      "dimensions": [
+        640,
+        480
+      ],
+      "image_url": "https://source.roboflow.com/B680gdc6S2RZqJWFxbsg4rILLV93/51znTz0Y7THrlL334Oud/original.jpg",
+      "author": "michaels-workspace-ldsqh",
+      "source_url": "https://universe.roboflow.com/michaels-workspace-ldsqh/syringe-detection-fnu4f",
+      "group": "roboflow-context:syringe-detection-fnu4f",
+      "split": "device-context-reserve",
+      "license": "https://creativecommons.org/licenses/by/4.0/",
+      "objects": [
+        {
+          "kind": "syringe",
+          "bbox": [
+            0.08088,
+            0.5049,
+            0.64706,
+            0.83824
+          ]
+        }
+      ],
+      "review": "Reference drawn from visible device parts before generating any detector output.",
+      "class_evidence": "Recognizable syringe barrel"
+    },
+    {
+      "id": "32P7pfVoeRcoCzENCJAV",
+      "title": "syringe-detection-fnu4f",
+      "image": "detection_hillclimb/device-context/32P7pfVoeRcoCzENCJAV.jpg",
+      "sha256": "cf8b68fab2921351b8201cb4872bc603a18d4e329bdc571cce48591b421011fd",
+      "dhash": "010e3625281e0608",
+      "dimensions": [
+        640,
+        480
+      ],
+      "image_url": "https://source.roboflow.com/B680gdc6S2RZqJWFxbsg4rILLV93/32P7pfVoeRcoCzENCJAV/original.jpg",
+      "author": "michaels-workspace-ldsqh",
+      "source_url": "https://universe.roboflow.com/michaels-workspace-ldsqh/syringe-detection-fnu4f",
+      "group": "roboflow-context:syringe-detection-fnu4f",
+      "split": "device-context-reserve",
+      "license": "https://creativecommons.org/licenses/by/4.0/",
+      "objects": [
+        {
+          "kind": "syringe",
+          "bbox": [
+            0.65074,
+            0.01961,
+            1.0,
+            0.38235
+          ]
+        }
+      ],
+      "review": "Reference drawn from visible device parts before generating any detector output.",
+      "class_evidence": "Recognizable syringe barrel"
+    },
+    {
+      "id": "20VxmBV4VGtPOxb8Ff6x",
+      "title": "syringe-detection-fnu4f",
+      "image": "detection_hillclimb/device-context/20VxmBV4VGtPOxb8Ff6x.jpg",
+      "sha256": "8bf6cafda98b414a5488b961f80830ffa8c474e9de915f3d4e23cce178ab44a8",
+      "dhash": "9e9c0d7b2736fe3e",
+      "dimensions": [
+        640,
+        480
+      ],
+      "image_url": "https://source.roboflow.com/B680gdc6S2RZqJWFxbsg4rILLV93/20VxmBV4VGtPOxb8Ff6x/original.jpg",
+      "author": "michaels-workspace-ldsqh",
+      "source_url": "https://universe.roboflow.com/michaels-workspace-ldsqh/syringe-detection-fnu4f",
+      "group": "roboflow-context:syringe-detection-fnu4f",
+      "split": "device-context-reserve",
+      "license": "https://creativecommons.org/licenses/by/4.0/",
+      "objects": [
+        {
+          "kind": "syringe",
+          "bbox": [
+            0.19118,
+            0.34804,
+            0.72059,
+            0.7598
+          ]
+        }
+      ],
+      "review": "Reference drawn from visible device parts before generating any detector output.",
+      "class_evidence": "Recognizable syringe barrel"
+    }
+  ],
+  "references_sha256": "38a78bc1c38442daf3d8f2f3e45222813c1a246ccf6d0404d34f7cb1ef817010",
+  "scope": "Separate public sources with unresolved specimen identities. The office capture is development-only. The closeup device source is reserve-only. The listed sources do not overlap the existing collected image hashes."
+}

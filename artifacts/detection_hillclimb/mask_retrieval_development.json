@@ -1,0 +1,412 @@
+{
+  "scopes": {
+    "phlebotomy-development": {
+      "median_pair_ms": 1765.9317024990742,
+      "options": [
+        {
+          "grid": 8,
+          "min_elongation": 1.0,
+          "min_stability": 0.0,
+          "diagnostics": {
+            "baseline_reached": 10,
+            "candidate_reached": 7,
+            "extra_reachable": 2,
+            "total_candidates": 814
+          }
+        },
+        {
+          "grid": 8,
+          "min_elongation": 1.0,
+          "min_stability": 0.85,
+          "diagnostics": {
+            "baseline_reached": 10,
+            "candidate_reached": 6,
+            "extra_reachable": 1,
+            "total_candidates": 701
+          }
+        },
+        {
+          "grid": 8,
+          "min_elongation": 1.0,
+          "min_stability": 0.95,
+          "diagnostics": {
+            "baseline_reached": 10,
+            "candidate_reached": 3,
+            "extra_reachable": 1,
+            "total_candidates": 369
+          }
+        },
+        {
+          "grid": 8,
+          "min_elongation": 2.0,
+          "min_stability": 0.0,
+          "diagnostics": {
+            "baseline_reached": 10,
+            "candidate_reached": 7,
+            "extra_reachable": 2,
+            "total_candidates": 357
+          }
+        },
+        {
+          "grid": 8,
+          "min_elongation": 2.0,
+          "min_stability": 0.85,
+          "diagnostics": {
+            "baseline_reached": 10,
+            "candidate_reached": 6,
+            "extra_reachable": 1,
+            "total_candidates": 304
+          }
+        },
+        {
+          "grid": 8,
+          "min_elongation": 2.0,
+          "min_stability": 0.95,
+          "diagnostics": {
+            "baseline_reached": 10,
+            "candidate_reached": 3,
+            "extra_reachable": 1,
+            "total_candidates": 142
+          }
+        },
+        {
+          "grid": 8,
+          "min_elongation": 4.0,
+          "min_stability": 0.0,
+          "diagnostics": {
+            "baseline_reached": 10,
+            "candidate_reached": 5,
+            "extra_reachable": 1,
+            "total_candidates": 93
+          }
+        },
+        {
+          "grid": 8,
+          "min_elongation": 4.0,
+          "min_stability": 0.85,
+          "diagnostics": {
+            "baseline_reached": 10,
+            "candidate_reached": 5,
+            "extra_reachable": 1,
+            "total_candidates": 80
+          }
+        },
+        {
+          "grid": 8,
+          "min_elongation": 4.0,
+          "min_stability": 0.95,
+          "diagnostics": {
+            "baseline_reached": 10,
+            "candidate_reached": 2,
+            "extra_reachable": 1,
+            "total_candidates": 29
+          }
+        },
+        {
+          "grid": 16,
+          "min_elongation": 1.0,
+          "min_stability": 0.0,
+          "diagnostics": {
+            "baseline_reached": 10,
+            "candidate_reached": 20,
+            "extra_reachable": 12,
+            "total_candidates": 1403
+          }
+        },
+        {
+          "grid": 16,
+          "min_elongation": 1.0,
+          "min_stability": 0.85,
+          "diagnostics": {
+            "baseline_reached": 10,
+            "candidate_reached": 19,
+            "extra_reachable": 11,
+            "total_candidates": 1233
+          }
+        },
+        {
+          "grid": 16,
+          "min_elongation": 1.0,
+          "min_stability": 0.95,
+          "diagnostics": {
+            "baseline_reached": 10,
+            "candidate_reached": 10,
+            "extra_reachable": 6,
+            "total_candidates": 630
+          }
+        },
+        {
+          "grid": 16,
+          "min_elongation": 2.0,
+          "min_stability": 0.0,
+          "diagnostics": {
+            "baseline_reached": 10,
+            "candidate_reached": 19,
+            "extra_reachable": 11,
+            "total_candidates": 632
+          }
+        },
+        {
+          "grid": 16,
+          "min_elongation": 2.0,
+          "min_stability": 0.85,
+          "diagnostics": {
+            "baseline_reached": 10,
+            "candidate_reached": 18,
+            "extra_reachable": 10,
+            "total_candidates": 539
+          }
+        },
+        {
+          "grid": 16,
+          "min_elongation": 2.0,
+          "min_stability": 0.95,
+          "diagnostics": {
+            "baseline_reached": 10,
+            "candidate_reached": 9,
+            "extra_reachable": 5,
+            "total_candidates": 250
+          }
+        },
+        {
+          "grid": 16,
+          "min_elongation": 4.0,
+          "min_stability": 0.0,
+          "diagnostics": {
+            "baseline_reached": 10,
+            "candidate_reached": 16,
+            "extra_reachable": 9,
+            "total_candidates": 190
+          }
+        },
+        {
+          "grid": 16,
+          "min_elongation": 4.0,
+          "min_stability": 0.85,
+          "diagnostics": {
+            "baseline_reached": 10,
+            "candidate_reached": 15,
+            "extra_reachable": 8,
+            "total_candidates": 159
+          }
+        },
+        {
+          "grid": 16,
+          "min_elongation": 4.0,
+          "min_stability": 0.95,
+          "diagnostics": {
+            "baseline_reached": 10,
+            "candidate_reached": 8,
+            "extra_reachable": 5,
+            "total_candidates": 57
+          }
+        }
+      ]
+    },
+    "public-development": {
+      "median_pair_ms": 1868.5485390014946,
+      "options": [
+        {
+          "grid": 8,
+          "min_elongation": 1.0,
+          "min_stability": 0.0,
+          "diagnostics": {
+            "baseline_reached": 2,
+            "candidate_reached": 2,
+            "extra_reachable": 1,
+            "total_candidates": 205
+          }
+        },
+        {
+          "grid": 8,
+          "min_elongation": 1.0,
+          "min_stability": 0.85,
+          "diagnostics": {
+            "baseline_reached": 2,
+            "candidate_reached": 2,
+            "extra_reachable": 1,
+            "total_candidates": 171
+          }
+        },
+        {
+          "grid": 8,
+          "min_elongation": 1.0,
+          "min_stability": 0.95,
+          "diagnostics": {
+            "baseline_reached": 2,
+            "candidate_reached": 1,
+            "extra_reachable": 1,
+            "total_candidates": 71
+          }
+        },
+        {
+          "grid": 8,
+          "min_elongation": 2.0,
+          "min_stability": 0.0,
+          "diagnostics": {
+            "baseline_reached": 2,
+            "candidate_reached": 2,
+            "extra_reachable": 1,
+            "total_candidates": 119
+          }
+        },
+        {
+          "grid": 8,
+          "min_elongation": 2.0,
+          "min_stability": 0.85,
+          "diagnostics": {
+            "baseline_reached": 2,
+            "candidate_reached": 2,
+            "extra_reachable": 1,
+            "total_candidates": 99
+          }
+        },
+        {
+          "grid": 8,
+          "min_elongation": 2.0,
+          "min_stability": 0.95,
+          "diagnostics": {
+            "baseline_reached": 2,
+            "candidate_reached": 1,
+            "extra_reachable": 1,
+            "total_candidates": 41
+          }
+        },
+        {
+          "grid": 8,
+          "min_elongation": 4.0,
+          "min_stability": 0.0,
+          "diagnostics": {
+            "baseline_reached": 2,
+            "candidate_reached": 2,
+            "extra_reachable": 1,
+            "total_candidates": 52
+          }
+        },
+        {
+          "grid": 8,
+          "min_elongation": 4.0,
+          "min_stability": 0.85,
+          "diagnostics": {
+            "baseline_reached": 2,
+            "candidate_reached": 2,
+            "extra_reachable": 1,
+            "total_candidates": 44
+          }
+        },
+        {
+          "grid": 8,
+          "min_elongation": 4.0,
+          "min_stability": 0.95,
+          "diagnostics": {
+            "baseline_reached": 2,
+            "candidate_reached": 1,
+            "extra_reachable": 1,
+            "total_candidates": 14
+          }
+        },
+        {
+          "grid": 16,
+          "min_elongation": 1.0,
+          "min_stability": 0.0,
+          "diagnostics": {
+            "baseline_reached": 2,
+            "candidate_reached": 5,
+            "extra_reachable": 3,
+            "total_candidates": 426
+          }
+        },
+        {
+          "grid": 16,
+          "min_elongation": 1.0,
+          "min_stability": 0.85,
+          "diagnostics": {
+            "baseline_reached": 2,
+            "candidate_reached": 4,
+            "extra_reachable": 3,
+            "total_candidates": 354
+          }
+        },
+        {
+          "grid": 16,
+          "min_elongation": 1.0,
+          "min_stability": 0.95,
+          "diagnostics": {
+            "baseline_reached": 2,
+            "candidate_reached": 0,
+            "extra_reachable": 0,
+            "total_candidates": 160
+          }
+        },
+        {
+          "grid": 16,
+          "min_elongation": 2.0,
+          "min_stability": 0.0,
+          "diagnostics": {
+            "baseline_reached": 2,
+            "candidate_reached": 4,
+            "extra_reachable": 2,
+            "total_candidates": 255
+          }
+        },
+        {
+          "grid": 16,
+          "min_elongation": 2.0,
+          "min_stability": 0.85,
+          "diagnostics": {
+            "baseline_reached": 2,
+            "candidate_reached": 3,
+            "extra_reachable": 2,
+            "total_candidates": 204
+          }
+        },
+        {
+          "grid": 16,
+          "min_elongation": 2.0,
+          "min_stability": 0.95,
+          "diagnostics": {
+            "baseline_reached": 2,
+            "candidate_reached": 0,
+            "extra_reachable": 0,
+            "total_candidates": 95
+          }
+        },
+        {
+          "grid": 16,
+          "min_elongation": 4.0,
+          "min_stability": 0.0,
+          "diagnostics": {
+            "baseline_reached": 2,
+            "candidate_reached": 4,
+            "extra_reachable": 2,
+            "total_candidates": 108
+          }
+        },
+        {
+          "grid": 16,
+          "min_elongation": 4.0,
+          "min_stability": 0.85,
+          "diagnostics": {
+            "baseline_reached": 2,
+            "candidate_reached": 3,
+            "extra_reachable": 2,
+            "total_candidates": 86
+          }
+        },
+        {
+          "grid": 16,
+          "min_elongation": 4.0,
+          "min_stability": 0.95,
+          "diagnostics": {
+            "baseline_reached": 2,
+            "candidate_reached": 0,
+            "extra_reachable": 0,
+            "total_candidates": 38
+          }
+        }
+      ]
+    }
+  },
+  "checkpoint_sha256": "31bb1d7c1246179d7b107f903c3b9af322c22e6c3b1830544c7c946260598112",
+  "interpretation": "Reference reach is oracle overlap with candidate boxes on development. The candidates have no class predictions and are not automatic detections."
+}

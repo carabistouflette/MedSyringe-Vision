@@ -1,0 +1,75 @@
+{
+  "passed": true,
+  "device": "xpu",
+  "preregistration_sha256": "5f5aedc72b9a38bd3ff32ae8c6ac451573394fcb09b246815b237aced2ed27dd",
+  "raw_sha256": [
+    "164636c9aca44f740146260e63fcd334d2907e2254d6bbd3b62aeb712b65323e",
+    "06ea4e861b791afefc1904f6865eaa95c9e0c89434cde223551a0a6f47fdc4e1"
+  ],
+  "warm_median_seconds": {
+    "earlier": 18.143920646998595,
+    "candidate": 14.823865473998012
+  },
+  "checks": [
+    {
+      "passed": true,
+      "deltas": {
+        "box_pixels": 0.209228515624865,
+        "score": 0.0005135847482846678
+      },
+      "differences": [],
+      "image": "IMG_3294.jpeg",
+      "counts": [
+        1,
+        1
+      ],
+      "earlier_seconds": 51.68968384799882,
+      "candidate_seconds": 51.33818606499699
+    },
+    {
+      "passed": true,
+      "deltas": {
+        "box_pixels": 0.020050048828140987,
+        "score": 0.00021006218197694437
+      },
+      "differences": [],
+      "image": "cAH0yS3Ek6AXSKQFTBij.jpg",
+      "counts": [
+        6,
+        6
+      ],
+      "earlier_seconds": 45.31898282300244,
+      "candidate_seconds": 17.43300002199976
+    },
+    {
+      "passed": true,
+      "deltas": {
+        "box_pixels": 0.00581264495856626,
+        "score": 3.866044645062239e-05
+      },
+      "differences": [],
+      "image": "jr20FHtsKJzKzcGrzaW6.jpg",
+      "counts": [
+        6,
+        6
+      ],
+      "earlier_seconds": 18.143920646998595,
+      "candidate_seconds": 14.823865473998012
+    },
+    {
+      "passed": true,
+      "deltas": {
+        "box_pixels": 0.0036621093751705303,
+        "score": 2.6831610737687583e-06
+      },
+      "differences": [],
+      "image": "23953605.jpg",
+      "counts": [
+        0,
+        0
+      ],
+      "earlier_seconds": 6.390343072998803,
+      "candidate_seconds": 6.553950647001329
+    }
+  ]
+}

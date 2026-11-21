@@ -1,0 +1,53 @@
+{
+  "passed": true,
+  "revision": "e7269082cd3c69012badad3a831020f2f41b583a",
+  "original_sha256": "a256501c4e02ac9283f690f18c59205bd1d3138265ac54526b74c1ff4373e56e",
+  "report_sha256": "1277e3d0b1e371365193b446456af0e78cc2098298bb9c28560d36b09f4f1138",
+  "image": "IMG_3294.jpeg",
+  "runtime": "Normal offline CLI with explicit CPU selection and visible marking extraction",
+  "scene_count": 1,
+  "marking_capacity": {
+    "value": 20.0,
+    "unit": "mL",
+    "score": 0.9738087058067322,
+    "method": "adjacent number and unit",
+    "evidence": [
+      {
+        "text": "ml",
+        "crop_bbox": [
+          0.40229885057471265,
+          0.4494736842105263,
+          0.6896551724137931,
+          0.48368421052631577
+        ],
+        "rotation": 0.0
+      },
+      {
+        "text": "20",
+        "crop_bbox": [
+          0.40229885057471265,
+          0.47842105263157897,
+          0.6896551724137931,
+          0.5126315789473684
+        ],
+        "rotation": 0.0
+      }
+    ]
+  },
+  "liquid_appearance": {
+    "lstar": 63.6,
+    "iqr": [
+      60.3,
+      66.8
+    ],
+    "category": "medium"
+  },
+  "fill_status": "insufficient evidence",
+  "verification": {
+    "status": "available",
+    "primary_backend": "cpu",
+    "unavailable": [],
+    "review_needed": false
+  },
+  "elapsed_ms": 79476.0676290025
+}

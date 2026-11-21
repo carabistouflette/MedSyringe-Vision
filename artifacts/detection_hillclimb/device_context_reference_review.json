@@ -1,0 +1,576 @@
+{
+  "candidates_sha256": "40e355e830f35cc5c409d4e0a31d8029196cffd2650ebc46737ad300725957d4",
+  "references": {
+    "8wyZvWCaKrzgrMshxzMZ": {
+      "objects": [
+        {
+          "kind": "syringe",
+          "bbox": [
+            0.54044,
+            0.14379,
+            0.60294,
+            0.86928
+          ]
+        }
+      ],
+      "review": "Reference drawn from visible device parts before generating any detector output.",
+      "class_evidence": "Recognizable syringe barrel"
+    },
+    "9AbklyAil4pW5fx6B2sM": {
+      "objects": [
+        {
+          "kind": "syringe",
+          "bbox": [
+            0.33824,
+            0.33333,
+            0.62132,
+            0.76471
+          ]
+        }
+      ],
+      "review": "Reference drawn from visible device parts before generating any detector output.",
+      "class_evidence": "Recognizable syringe barrel"
+    },
+    "8FpFnUpyarFMuInrdGaV": {
+      "objects": [
+        {
+          "kind": "syringe",
+          "bbox": [
+            0.3125,
+            0.15033,
+            0.52206,
+            0.64706
+          ]
+        }
+      ],
+      "review": "Reference drawn from visible device parts before generating any detector output.",
+      "class_evidence": "Recognizable syringe barrel"
+    },
+    "8FGyKsY6rB1eVsiERZTf": {
+      "objects": [
+        {
+          "kind": "syringe",
+          "bbox": [
+            0.42279,
+            0.13725,
+            0.51838,
+            0.69935
+          ]
+        }
+      ],
+      "review": "Reference drawn from visible device parts before generating any detector output.",
+      "class_evidence": "Recognizable syringe barrel"
+    },
+    "4a6kSaABgoL3ja2imbSv": {
+      "objects": [
+        {
+          "kind": "syringe",
+          "bbox": [
+            0.22131,
+            0.10138,
+            0.67213,
+            0.64055
+          ]
+        }
+      ],
+      "review": "Reference drawn from visible device parts before generating any detector output.",
+      "class_evidence": "Recognizable syringe barrel"
+    },
+    "53CYReDh3s5BO7SpywiE": {
+      "objects": [
+        {
+          "kind": "syringe",
+          "bbox": [
+            0.22131,
+            0.3318,
+            0.77049,
+            0.57143
+          ]
+        }
+      ],
+      "review": "Reference drawn from visible device parts before generating any detector output.",
+      "class_evidence": "Recognizable syringe barrel"
+    },
+    "8yMI78JCbyMWgoS6nlIA": {
+      "objects": [
+        {
+          "kind": "syringe",
+          "bbox": [
+            0.47426,
+            0.18301,
+            0.58088,
+            0.81046
+          ]
+        }
+      ],
+      "review": "Reference drawn from visible device parts before generating any detector output.",
+      "class_evidence": "Recognizable syringe barrel"
+    },
+    "2ugGwxZCTkfeYyI5QwcJ": {
+      "objects": [
+        {
+          "kind": "syringe",
+          "bbox": [
+            0.11475,
+            0.47465,
+            0.88525,
+            0.64055
+          ]
+        }
+      ],
+      "review": "Reference drawn from visible device parts before generating any detector output.",
+      "class_evidence": "Recognizable syringe barrel"
+    },
+    "7NSpeWu9vqWJBNYhIxGA": {
+      "objects": [
+        {
+          "kind": "syringe",
+          "bbox": [
+            0.48529,
+            0.39869,
+            0.52206,
+            0.57516
+          ]
+        }
+      ],
+      "review": "Reference drawn from visible device parts before generating any detector output.",
+      "class_evidence": "Recognizable syringe barrel"
+    },
+    "6WgfVXrroxunfTejGLPj": {
+      "objects": [
+        {
+          "kind": "syringe",
+          "bbox": [
+            0.24632,
+            0.33333,
+            0.8125,
+            0.54902
+          ]
+        }
+      ],
+      "review": "Reference drawn from visible device parts before generating any detector output.",
+      "class_evidence": "Recognizable syringe barrel"
+    },
+    "4D7vsZHND2bpWGu962rU": {
+      "objects": [
+        {
+          "kind": "syringe",
+          "bbox": [
+            0.52941,
+            0.38562,
+            0.69853,
+            0.85621
+          ]
+        }
+      ],
+      "review": "Reference drawn from visible device parts before generating any detector output.",
+      "class_evidence": "Recognizable syringe barrel"
+    },
+    "9VEq8ZfWjrKMIhZ3lZx0": {
+      "objects": [
+        {
+          "kind": "syringe",
+          "bbox": [
+            0.17213,
+            0.45161,
+            0.9918,
+            0.68664
+          ]
+        }
+      ],
+      "review": "Reference drawn from visible device parts before generating any detector output.",
+      "class_evidence": "Recognizable syringe barrel"
+    },
+    "13ktlwHU5rZDXr37NeWg": {
+      "objects": [
+        {
+          "kind": "syringe",
+          "bbox": [
+            0.37868,
+            0.26797,
+            0.55882,
+            0.70588
+          ]
+        }
+      ],
+      "review": "Reference drawn from visible device parts before generating any detector output.",
+      "class_evidence": "Recognizable syringe barrel"
+    },
+    "36SI6G1tFl4LfcyZYXHY": {
+      "objects": [
+        {
+          "kind": "syringe",
+          "bbox": [
+            0.30328,
+            0.40553,
+            0.63115,
+            0.56221
+          ]
+        }
+      ],
+      "review": "Reference drawn from visible device parts before generating any detector output.",
+      "class_evidence": "Recognizable syringe barrel"
+    },
+    "3evEqJKjzco0aY5Uyiyz": {
+      "objects": [
+        {
+          "kind": "syringe",
+          "bbox": [
+            0.27869,
+            0.58525,
+            0.82787,
+            0.6682
+          ]
+        }
+      ],
+      "review": "Reference drawn from visible device parts before generating any detector output.",
+      "class_evidence": "Recognizable syringe barrel"
+    },
+    "06aAw93JQdB1J3YlYP5v": {
+      "objects": [
+        {
+          "kind": "syringe",
+          "bbox": [
+            0.27869,
+            0.35023,
+            0.68852,
+            0.58065
+          ]
+        }
+      ],
+      "review": "Reference drawn from visible device parts before generating any detector output.",
+      "class_evidence": "Recognizable syringe barrel"
+    },
+    "4CtqZLCQ1SzOTknmKZTE": {
+      "objects": [
+        {
+          "kind": "syringe",
+          "bbox": [
+            0.33607,
+            0.38249,
+            0.77049,
+            0.64055
+          ]
+        }
+      ],
+      "review": "Reference drawn from visible device parts before generating any detector output.",
+      "class_evidence": "Recognizable syringe barrel"
+    },
+    "1TTAzph471fnGpsNxuQj": {
+      "objects": [
+        {
+          "kind": "syringe",
+          "bbox": [
+            0.38603,
+            0.13072,
+            0.67647,
+            0.70588
+          ]
+        }
+      ],
+      "review": "Reference drawn from visible device parts before generating any detector output.",
+      "class_evidence": "Recognizable syringe barrel"
+    },
+    "0oVeNfkV8bthjKScKYqg": {
+      "objects": [
+        {
+          "kind": "syringe",
+          "bbox": [
+            0.37868,
+            0.4902,
+            0.51838,
+            0.9281
+          ]
+        }
+      ],
+      "review": "Reference drawn from visible device parts before generating any detector output.",
+      "class_evidence": "Recognizable syringe barrel"
+    },
+    "6ECR19eoMJphyUCeeLxa": {
+      "objects": [
+        {
+          "kind": "syringe",
+          "bbox": [
+            0.51471,
+            0.18954,
+            0.625,
+            0.83007
+          ]
+        }
+      ],
+      "review": "Reference drawn from visible device parts before generating any detector output.",
+      "class_evidence": "Recognizable syringe barrel"
+    },
+    "6syaiEslYnGZfAWhMQBo": {
+      "objects": [],
+      "review": "Reference drawn from visible device parts before generating any detector output.",
+      "class_evidence": "No recognizable syringe body"
+    },
+    "1q8ULGWFGoHM38EAGQ9b": {
+      "objects": [],
+      "review": "Reference drawn from visible device parts before generating any detector output.",
+      "class_evidence": "No recognizable syringe body"
+    },
+    "5zCN3cyJBNwaKJM1nWjO": {
+      "objects": [],
+      "review": "Reference drawn from visible device parts before generating any detector output.",
+      "class_evidence": "No recognizable syringe body"
+    },
+    "7ysKZVVFptiearCM3gEA": {
+      "objects": [
+        {
+          "kind": "syringe",
+          "bbox": [
+            0.16544,
+            0.23039,
+            0.57353,
+            0.59804
+          ]
+        }
+      ],
+      "review": "Reference drawn from visible device parts before generating any detector output.",
+      "class_evidence": "Recognizable syringe barrel"
+    },
+    "4GtOdm0wWPvPtGYHnGFz": {
+      "objects": [
+        {
+          "kind": "syringe",
+          "bbox": [
+            0.08824,
+            0.35784,
+            0.75735,
+            0.54902
+          ]
+        }
+      ],
+      "review": "Reference drawn from visible device parts before generating any detector output.",
+      "class_evidence": "Recognizable syringe barrel"
+    },
+    "0C7c2dFruYBnCt6Rm11w": {
+      "objects": [
+        {
+          "kind": "syringe",
+          "bbox": [
+            0.46324,
+            0.59804,
+            1.0,
+            0.94608
+          ]
+        }
+      ],
+      "review": "Reference drawn from visible device parts before generating any detector output.",
+      "class_evidence": "Recognizable syringe barrel"
+    },
+    "32hoMZGH7qSusygrp5yq": {
+      "objects": [
+        {
+          "kind": "syringe",
+          "bbox": [
+            0.49632,
+            0.04412,
+            1.0,
+            0.5
+          ]
+        }
+      ],
+      "review": "Reference drawn from visible device parts before generating any detector output.",
+      "class_evidence": "Recognizable syringe barrel"
+    },
+    "5YRjvgNB9QRco0PXDA2G": {
+      "objects": [
+        {
+          "kind": "syringe",
+          "bbox": [
+            0.40441,
+            0.38725,
+            0.51838,
+            0.75
+          ]
+        }
+      ],
+      "review": "Reference drawn from visible device parts before generating any detector output.",
+      "class_evidence": "Recognizable syringe barrel"
+    },
+    "2WUBi34EaQWJGzTt8Sph": {
+      "objects": [
+        {
+          "kind": "syringe",
+          "bbox": [
+            0.16912,
+            0.23529,
+            0.74632,
+            0.39706
+          ]
+        }
+      ],
+      "review": "Reference drawn from visible device parts before generating any detector output.",
+      "class_evidence": "Recognizable syringe barrel"
+    },
+    "2zKGiO3CwAGMrLTJ6oqM": {
+      "objects": [],
+      "review": "Reference drawn from visible device parts before generating any detector output.",
+      "class_evidence": "No recognizable syringe body"
+    },
+    "793QmgXjOngwua4UMFtV": {
+      "objects": [
+        {
+          "kind": "syringe",
+          "bbox": [
+            0.17279,
+            0.17647,
+            0.71691,
+            0.47549
+          ]
+        }
+      ],
+      "review": "Reference drawn from visible device parts before generating any detector output.",
+      "class_evidence": "Recognizable syringe barrel"
+    },
+    "2bVV7EU7uT8nLzSYt7IP": {
+      "objects": [
+        {
+          "kind": "syringe",
+          "bbox": [
+            0.29779,
+            0.39216,
+            0.53309,
+            1.0
+          ]
+        }
+      ],
+      "review": "Reference drawn from visible device parts before generating any detector output.",
+      "class_evidence": "Recognizable syringe barrel"
+    },
+    "2zfM1RRf1esS9CYMTWqZ": {
+      "objects": [
+        {
+          "kind": "syringe",
+          "bbox": [
+            0.61765,
+            0.07353,
+            1.0,
+            0.4951
+          ]
+        }
+      ],
+      "review": "Reference drawn from visible device parts before generating any detector output.",
+      "class_evidence": "Recognizable syringe barrel"
+    },
+    "0q3mhhhZCPxw2sR2oUaY": {
+      "objects": [
+        {
+          "kind": "syringe",
+          "bbox": [
+            0.51471,
+            0.27451,
+            0.62868,
+            0.75
+          ]
+        }
+      ],
+      "review": "Reference drawn from visible device parts before generating any detector output.",
+      "class_evidence": "Recognizable syringe barrel"
+    },
+    "31qydndVGWjjTpfSDj7V": {
+      "objects": [
+        {
+          "kind": "syringe",
+          "bbox": [
+            0.38603,
+            0.41667,
+            0.73162,
+            0.81373
+          ]
+        }
+      ],
+      "review": "Reference drawn from visible device parts before generating any detector output.",
+      "class_evidence": "Recognizable syringe barrel"
+    },
+    "4yQ3sa21agmzSwBxmcI9": {
+      "objects": [
+        {
+          "kind": "syringe",
+          "bbox": [
+            0.22794,
+            0.18137,
+            0.68015,
+            0.46078
+          ]
+        }
+      ],
+      "review": "Reference drawn from visible device parts before generating any detector output.",
+      "class_evidence": "Recognizable syringe barrel"
+    },
+    "3Yo1mxBKOEmkOOyUmOAZ": {
+      "objects": [
+        {
+          "kind": "syringe",
+          "bbox": [
+            0.22794,
+            0.41667,
+            0.71324,
+            0.69118
+          ]
+        }
+      ],
+      "review": "Reference drawn from visible device parts before generating any detector output.",
+      "class_evidence": "Recognizable syringe barrel"
+    },
+    "51znTz0Y7THrlL334Oud": {
+      "objects": [
+        {
+          "kind": "syringe",
+          "bbox": [
+            0.08088,
+            0.5049,
+            0.64706,
+            0.83824
+          ]
+        }
+      ],
+      "review": "Reference drawn from visible device parts before generating any detector output.",
+      "class_evidence": "Recognizable syringe barrel"
+    },
+    "32P7pfVoeRcoCzENCJAV": {
+      "objects": [
+        {
+          "kind": "syringe",
+          "bbox": [
+            0.65074,
+            0.01961,
+            1.0,
+            0.38235
+          ]
+        }
+      ],
+      "review": "Reference drawn from visible device parts before generating any detector output.",
+      "class_evidence": "Recognizable syringe barrel"
+    },
+    "20VxmBV4VGtPOxb8Ff6x": {
+      "objects": [
+        {
+          "kind": "syringe",
+          "bbox": [
+            0.19118,
+            0.34804,
+            0.72059,
+            0.7598
+          ]
+        }
+      ],
+      "review": "Reference drawn from visible device parts before generating any detector output.",
+      "class_evidence": "Recognizable syringe barrel"
+    }
+  },
+  "excluded": {
+    "45aUdAZG7Ua8sYcJGLhF": "Strong truncation, glare, or limited body evidence prevents a reliable visible-box reference.",
+    "5Todlqy5RK3saidNltAW": "Strong truncation, glare, or limited body evidence prevents a reliable visible-box reference.",
+    "4fuwo3H2gjEdnTot5RB1": "Strong truncation, glare, or limited body evidence prevents a reliable visible-box reference.",
+    "1tykpacVXhJQiYJpHDme": "Strong truncation, glare, or limited body evidence prevents a reliable visible-box reference.",
+    "60DUrgtY2F8AgrtaPCFy": "Strong truncation, glare, or limited body evidence prevents a reliable visible-box reference.",
+    "5sz5lsXgZAIB4DqAdeax": "Strong truncation, glare, or limited body evidence prevents a reliable visible-box reference.",
+    "74E0xS2d9rHvTcM2JM9p": "Strong truncation, glare, or limited body evidence prevents a reliable visible-box reference.",
+    "50G0KMxXJhy2uskH5V98": "Strong truncation, glare, or limited body evidence prevents a reliable visible-box reference."
+  },
+  "rule": "Include a recognizable visible barrel and attached visible hub, tip cap or plunger. Exclude bare needle length, reflections, and hidden extent."
+}
