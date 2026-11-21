@@ -1,0 +1,2298 @@
+{
+  "seed": 20261122,
+  "base_sha256": "04ad03398ecfb21dc7a6604d57b9a5ca6a5608a003887bbd7adfcd3d4e18fe6d",
+  "validation": {
+    "images": 60,
+    "targets": 44,
+    "sha256": "5f416d575197dc1cee34e6d82de0aca4971690e38524c9302eee50c68aac60d1",
+    "negatives": 24
+  },
+  "stress_sha256": "c5b37848245aa3b560339f96f41dea3333e123a796e7789417fcbf5851f6ec64",
+  "implementation": "bdefa4a23919fe390375ab2f5299acc4f85e0edf9d3d897ca70c4b420b77768e",
+  "order": [
+    53,
+    71,
+    187,
+    155,
+    24,
+    131,
+    48,
+    115,
+    173,
+    119,
+    150,
+    113,
+    68,
+    15,
+    167,
+    45,
+    76,
+    116,
+    49,
+    54,
+    29,
+    184,
+    134,
+    172,
+    86,
+    52,
+    6,
+    37,
+    99,
+    133,
+    111,
+    35,
+    179,
+    110,
+    121,
+    159,
+    1,
+    139,
+    178,
+    30,
+    166,
+    38,
+    185,
+    63,
+    180,
+    109,
+    196,
+    12,
+    163,
+    146,
+    137,
+    82,
+    42,
+    164,
+    193,
+    55,
+    132,
+    90,
+    7,
+    25,
+    97,
+    79,
+    149,
+    122,
+    104,
+    70,
+    18,
+    73,
+    93,
+    2,
+    11,
+    135,
+    107,
+    142,
+    9,
+    147,
+    125,
+    44,
+    188,
+    141,
+    19,
+    89,
+    197,
+    148,
+    13,
+    102,
+    192,
+    165,
+    26,
+    129,
+    83,
+    81,
+    161,
+    136,
+    0,
+    156,
+    51,
+    103,
+    190,
+    28,
+    34,
+    101,
+    17,
+    160,
+    170,
+    108,
+    39,
+    106,
+    168,
+    87,
+    169,
+    16,
+    21,
+    171,
+    118,
+    59,
+    157,
+    127,
+    151,
+    183,
+    158,
+    56,
+    58,
+    98,
+    154,
+    8,
+    181,
+    186,
+    176,
+    85,
+    114,
+    96,
+    57,
+    175,
+    77,
+    143,
+    43,
+    69,
+    50,
+    177,
+    47,
+    60,
+    95,
+    117,
+    194,
+    23,
+    61,
+    128,
+    72,
+    62,
+    130,
+    40,
+    66,
+    92,
+    3,
+    32,
+    31,
+    105,
+    189,
+    145,
+    123,
+    67,
+    195,
+    91,
+    84,
+    124,
+    152,
+    182,
+    138,
+    46,
+    174,
+    78,
+    22,
+    4,
+    162,
+    33,
+    120,
+    112,
+    41,
+    65,
+    74,
+    126,
+    140,
+    191,
+    27,
+    80,
+    94,
+    88,
+    10,
+    5,
+    20,
+    14,
+    64,
+    36,
+    153,
+    198,
+    100,
+    144,
+    75
+  ],
+  "composites": {
+    "separated": [
+      {
+        "id": "paired-crowd-separated-001",
+        "sha256": "1b19e2c0f303f65a0cc6d0512667f529de363582f375a6e0731fa245b5b540ed",
+        "objects": [
+          {
+            "kind": "syringe",
+            "bbox": [
+              0.2621527777777778,
+              0.40625,
+              0.7638888888888888,
+              0.5052083333333334
+            ],
+            "parent": "phl-61d1fb9eb04d2476",
+            "parent_group": "phlebotomy-0030",
+            "parent_sha256": "61d1fb9eb04d24762f18a596549fa546f0ff4233cadf81d1ea065656c2482cef"
+          },
+          {
+            "kind": "syringe",
+            "bbox": [
+              0.3142361111111111,
+              0.5173611111111112,
+              0.6840277777777778,
+              0.59375
+            ],
+            "parent": "phl-5b0804faf1e60ea3",
+            "parent_group": "phlebotomy-0027",
+            "parent_sha256": "5b0804faf1e60ea30a78426c8cf27bccb9113c708aa801d86b95c48a936ad25b"
+          }
+        ],
+        "max_iou": 0.0
+      },
+      {
+        "id": "paired-crowd-separated-002",
+        "sha256": "070fe234d0cccbe09907093bfcebab726115972dd8467488ac0f4821e1f5346f",
+        "objects": [
+          {
+            "kind": "syringe",
+            "bbox": [
+              0.3072916666666667,
+              0.3732638888888889,
+              0.6822916666666666,
+              0.4461805555555556
+            ],
+            "parent": "phl-c655606f16050b82",
+            "parent_group": "phlebotomy-0026",
+            "parent_sha256": "c655606f16050b824f4d89b93557df7ba147e4d62eeca6cb25aff4bf7cb933b0"
+          },
+          {
+            "kind": "syringe",
+            "bbox": [
+              0.3090277777777778,
+              0.4583333333333333,
+              0.6840277777777778,
+              0.5347222222222222
+            ],
+            "parent": "phl-7ce2f0fe0eed9ab8",
+            "parent_group": "phlebotomy-0011",
+            "parent_sha256": "7ce2f0fe0eed9ab8521671524e3231f37cb0a78867b497e5a6bfd47299b9f2aa"
+          },
+          {
+            "kind": "syringe",
+            "bbox": [
+              0.24131944444444445,
+              0.546875,
+              0.7309027777777778,
+              0.6267361111111112
+            ],
+            "parent": "phl-eee3eaafda6f90b4",
+            "parent_group": "phlebotomy-0020",
+            "parent_sha256": "eee3eaafda6f90b42792fe93f78ffc77fd3b407ad4303ebd51b12e082c90beb6"
+          }
+        ],
+        "max_iou": 0.0
+      },
+      {
+        "id": "paired-crowd-separated-003",
+        "sha256": "1d811fc13c598be86c06d24ea7de2d8c0a50207d67b62951c147c1095a63efec",
+        "objects": [
+          {
+            "kind": "syringe",
+            "bbox": [
+              0.3211805555555556,
+              0.3159722222222222,
+              0.71875,
+              0.3975694444444444
+            ],
+            "parent": "phl-7cd232923dba2519",
+            "parent_group": "phlebotomy-0032",
+            "parent_sha256": "7cd232923dba25197437d27450037bd35b35bf69bc05e2566b8ebcc328a7a06a"
+          },
+          {
+            "kind": "syringe",
+            "bbox": [
+              0.3055555555555556,
+              0.4097222222222222,
+              0.6892361111111112,
+              0.46875
+            ],
+            "parent": "phl-a59ed4986dee72fa",
+            "parent_group": "phlebotomy-0022",
+            "parent_sha256": "a59ed4986dee72fa735c7fd7d731e08e7a883a5ff26bbce8b238303c53a9cee2"
+          },
+          {
+            "kind": "syringe",
+            "bbox": [
+              0.3159722222222222,
+              0.4809027777777778,
+              0.6909722222222222,
+              0.5572916666666666
+            ],
+            "parent": "phl-7ce2f0fe0eed9ab8",
+            "parent_group": "phlebotomy-0011",
+            "parent_sha256": "7ce2f0fe0eed9ab8521671524e3231f37cb0a78867b497e5a6bfd47299b9f2aa"
+          },
+          {
+            "kind": "syringe",
+            "bbox": [
+              0.2725694444444444,
+              0.5694444444444444,
+              0.703125,
+              0.6822916666666666
+            ],
+            "parent": "phl-179695e20029de76",
+            "parent_group": "phlebotomy-0028",
+            "parent_sha256": "179695e20029de76447d7c1e24cef608c3bd38654949f416bffc4ce537e7677d"
+          }
+        ],
+        "max_iou": 0.0
+      },
+      {
+        "id": "paired-crowd-separated-004",
+        "sha256": "ebf6909b891a10503dae78ed5157c23535beb7f684aa43772a57b4bc2e8b88de",
+        "objects": [
+          {
+            "kind": "syringe",
+            "bbox": [
+              0.22916666666666666,
+              0.4201388888888889,
+              0.75,
+              0.5086805555555556
+            ],
+            "parent": "phl-572bb3376e4f8663",
+            "parent_group": "phlebotomy-0021",
+            "parent_sha256": "572bb3376e4f86638880b86a475b0844750de83e1a237b262bda2f368d4ded4b"
+          },
+          {
+            "kind": "syringe",
+            "bbox": [
+              0.3177083333333333,
+              0.5208333333333334,
+              0.6875,
+              0.5798611111111112
+            ],
+            "parent": "phl-78be66d26b1ac159",
+            "parent_group": "phlebotomy-0016",
+            "parent_sha256": "78be66d26b1ac15959f840b8572465798421e2c6f2b5e65bf79bb4bc72722a3c"
+          }
+        ],
+        "max_iou": 0.0
+      },
+      {
+        "id": "paired-crowd-separated-005",
+        "sha256": "cbd92795f2a5f29bf4194a3b80edc3eb4ef25d145343f0d8cf4aaa9baa0930f9",
+        "objects": [
+          {
+            "kind": "syringe",
+            "bbox": [
+              0.3038194444444444,
+              0.3784722222222222,
+              0.6961805555555556,
+              0.4600694444444444
+            ],
+            "parent": "phl-da1409d429fef5c3",
+            "parent_group": "phlebotomy-0019",
+            "parent_sha256": "da1409d429fef5c3e34902aec14254c73ea0422339bb34eda4a05527d8b9a02e"
+          },
+          {
+            "kind": "syringe",
+            "bbox": [
+              0.296875,
+              0.4722222222222222,
+              0.6805555555555556,
+              0.53125
+            ],
+            "parent": "phl-a59ed4986dee72fa",
+            "parent_group": "phlebotomy-0022",
+            "parent_sha256": "a59ed4986dee72fa735c7fd7d731e08e7a883a5ff26bbce8b238303c53a9cee2"
+          },
+          {
+            "kind": "syringe",
+            "bbox": [
+              0.3125,
+              0.5434027777777778,
+              0.6909722222222222,
+              0.6197916666666666
+            ],
+            "parent": "phl-66254829e7cc0990",
+            "parent_group": "phlebotomy-0006",
+            "parent_sha256": "66254829e7cc0990f0a16a31cee087bb05602db22ee1f4fa5061f458337d6963"
+          }
+        ],
+        "max_iou": 0.0
+      },
+      {
+        "id": "paired-crowd-separated-006",
+        "sha256": "c928c8c3cfdd614fdbe0de8e46e0a7a47267f34bb7ec05eadee5474c117409c9",
+        "objects": [
+          {
+            "kind": "syringe",
+            "bbox": [
+              0.3125,
+              0.3420138888888889,
+              0.6875,
+              0.4149305555555556
+            ],
+            "parent": "phl-113095fc4928f825",
+            "parent_group": "phlebotomy-0004",
+            "parent_sha256": "113095fc4928f8254b565c9ae34546160e9eaba4c134d5fcf83eea46411bc366"
+          },
+          {
+            "kind": "syringe",
+            "bbox": [
+              0.296875,
+              0.4270833333333333,
+              0.6753472222222222,
+              0.4895833333333333
+            ],
+            "parent": "phl-6a8e01e2a667800d",
+            "parent_group": "phlebotomy-0018",
+            "parent_sha256": "6a8e01e2a667800d29325a0a9f067c9fb163a37250c66595f507ed7e4af5a06f"
+          },
+          {
+            "kind": "syringe",
+            "bbox": [
+              0.2621527777777778,
+              0.5017361111111112,
+              0.7135416666666666,
+              0.5711805555555556
+            ],
+            "parent": "phl-90e9317378b5caa3",
+            "parent_group": "phlebotomy-0033",
+            "parent_sha256": "90e9317378b5caa302b7fdd5dab52837abe6f01f36fe8025cfe185b17b7101d6"
+          },
+          {
+            "kind": "syringe",
+            "bbox": [
+              0.265625,
+              0.5833333333333334,
+              0.7065972222222222,
+              0.6579861111111112
+            ],
+            "parent": "phl-572bb3376e4f8663",
+            "parent_group": "phlebotomy-0021",
+            "parent_sha256": "572bb3376e4f86638880b86a475b0844750de83e1a237b262bda2f368d4ded4b"
+          }
+        ],
+        "max_iou": 0.0
+      },
+      {
+        "id": "paired-crowd-separated-007",
+        "sha256": "a71434f5aa55e206ba412f3c5145300ab3f5919b28e96e06ffa246bc83759753",
+        "objects": [
+          {
+            "kind": "syringe",
+            "bbox": [
+              0.2986111111111111,
+              0.4270833333333333,
+              0.6909722222222222,
+              0.5086805555555556
+            ],
+            "parent": "phl-da1409d429fef5c3",
+            "parent_group": "phlebotomy-0019",
+            "parent_sha256": "da1409d429fef5c3e34902aec14254c73ea0422339bb34eda4a05527d8b9a02e"
+          },
+          {
+            "kind": "syringe",
+            "bbox": [
+              0.3020833333333333,
+              0.5208333333333334,
+              0.6631944444444444,
+              0.5711805555555556
+            ],
+            "parent": "phl-5bf675c7da0c5c59",
+            "parent_group": "phlebotomy-0002",
+            "parent_sha256": "5bf675c7da0c5c59519e8d48ff2281e444af1746ed5e06a07e95cb403d1538e7"
+          }
+        ],
+        "max_iou": 0.0
+      },
+      {
+        "id": "paired-crowd-separated-008",
+        "sha256": "0a7a55310eb8e4c853a2608dca91b617b2601f393fd2d072bc88c32b0d90c1df",
+        "objects": [
+          {
+            "kind": "syringe",
+            "bbox": [
+              0.24479166666666666,
+              0.3611111111111111,
+              0.7465277777777778,
+              0.4600694444444444
+            ],
+            "parent": "phl-61d1fb9eb04d2476",
+            "parent_group": "phlebotomy-0030",
+            "parent_sha256": "61d1fb9eb04d24762f18a596549fa546f0ff4233cadf81d1ea065656c2482cef"
+          },
+          {
+            "kind": "syringe",
+            "bbox": [
+              0.2673611111111111,
+              0.4722222222222222,
+              0.7638888888888888,
+              0.5677083333333334
+            ],
+            "parent": "phl-b29adbbf960d1af2",
+            "parent_group": "phlebotomy-0023",
+            "parent_sha256": "b29adbbf960d1af207c11b2de4fb262b981971fcfabe48633e796e9991b24275"
+          },
+          {
+            "kind": "syringe",
+            "bbox": [
+              0.2951388888888889,
+              0.5798611111111112,
+              0.6701388888888888,
+              0.6388888888888888
+            ],
+            "parent": "phl-92835522660d29ee",
+            "parent_group": "phlebotomy-0008",
+            "parent_sha256": "92835522660d29eef9c020f3d65b5b18393d3c70d12d639615d1d5a908b039ea"
+          }
+        ],
+        "max_iou": 0.0
+      },
+      {
+        "id": "paired-crowd-separated-009",
+        "sha256": "e1e9731fd8600e41282f99a78bea9bf982ede05e80bf7424d4af74fd844cca8d",
+        "objects": [
+          {
+            "kind": "syringe",
+            "bbox": [
+              0.3246527777777778,
+              0.3541666666666667,
+              0.6944444444444444,
+              0.4131944444444444
+            ],
+            "parent": "phl-78be66d26b1ac159",
+            "parent_group": "phlebotomy-0016",
+            "parent_sha256": "78be66d26b1ac15959f840b8572465798421e2c6f2b5e65bf79bb4bc72722a3c"
+          },
+          {
+            "kind": "syringe",
+            "bbox": [
+              0.3211805555555556,
+              0.4253472222222222,
+              0.6996527777777778,
+              0.4878472222222222
+            ],
+            "parent": "phl-47492103e3eb1919",
+            "parent_group": "phlebotomy-0000",
+            "parent_sha256": "47492103e3eb1919c6caa580bf4a530a09f2c3f2d2b4c37404438a6552eeffc0"
+          },
+          {
+            "kind": "syringe",
+            "bbox": [
+              0.3246527777777778,
+              0.5,
+              0.6996527777777778,
+              0.5729166666666666
+            ],
+            "parent": "phl-c655606f16050b82",
+            "parent_group": "phlebotomy-0026",
+            "parent_sha256": "c655606f16050b824f4d89b93557df7ba147e4d62eeca6cb25aff4bf7cb933b0"
+          },
+          {
+            "kind": "syringe",
+            "bbox": [
+              0.2951388888888889,
+              0.5850694444444444,
+              0.6649305555555556,
+              0.6440972222222222
+            ],
+            "parent": "phl-65597924a35625e0",
+            "parent_group": "phlebotomy-0011",
+            "parent_sha256": "65597924a35625e0ce456e619bbe3f9d22676c0fac02789ad8c96ebf651e8097"
+          }
+        ],
+        "max_iou": 0.0
+      },
+      {
+        "id": "paired-crowd-separated-010",
+        "sha256": "f79a0be4357fe330765c434c931ae61894a09b02c9c4982a38f3d77a39962f32",
+        "objects": [
+          {
+            "kind": "syringe",
+            "bbox": [
+              0.2916666666666667,
+              0.4149305555555556,
+              0.6701388888888888,
+              0.4913194444444444
+            ],
+            "parent": "phl-66254829e7cc0990",
+            "parent_group": "phlebotomy-0006",
+            "parent_sha256": "66254829e7cc0990f0a16a31cee087bb05602db22ee1f4fa5061f458337d6963"
+          },
+          {
+            "kind": "syringe",
+            "bbox": [
+              0.3020833333333333,
+              0.5034722222222222,
+              0.6996527777777778,
+              0.5850694444444444
+            ],
+            "parent": "phl-7cd232923dba2519",
+            "parent_group": "phlebotomy-0032",
+            "parent_sha256": "7cd232923dba25197437d27450037bd35b35bf69bc05e2566b8ebcc328a7a06a"
+          }
+        ],
+        "max_iou": 0.0
+      },
+      {
+        "id": "paired-crowd-separated-011",
+        "sha256": "210785ac55ce93886f44c4bd88ab9d6905570e9778520a8b29221bccc9e18983",
+        "objects": [
+          {
+            "kind": "syringe",
+            "bbox": [
+              0.3177083333333333,
+              0.3680555555555556,
+              0.6961805555555556,
+              0.4305555555555556
+            ],
+            "parent": "phl-6a8e01e2a667800d",
+            "parent_group": "phlebotomy-0018",
+            "parent_sha256": "6a8e01e2a667800d29325a0a9f067c9fb163a37250c66595f507ed7e4af5a06f"
+          },
+          {
+            "kind": "syringe",
+            "bbox": [
+              0.3142361111111111,
+              0.4427083333333333,
+              0.6927083333333334,
+              0.5381944444444444
+            ],
+            "parent": "phl-2b4dfdfdd4d8a655",
+            "parent_group": "phlebotomy-0000",
+            "parent_sha256": "2b4dfdfdd4d8a6554f584850fe5644f9586ec6ef0898019a9b211b2930e21775"
+          },
+          {
+            "kind": "syringe",
+            "bbox": [
+              0.3142361111111111,
+              0.5503472222222222,
+              0.7065972222222222,
+              0.6319444444444444
+            ],
+            "parent": "phl-da1409d429fef5c3",
+            "parent_group": "phlebotomy-0019",
+            "parent_sha256": "da1409d429fef5c3e34902aec14254c73ea0422339bb34eda4a05527d8b9a02e"
+          }
+        ],
+        "max_iou": 0.0
+      },
+      {
+        "id": "paired-crowd-separated-012",
+        "sha256": "c9ef09235998a8921984ab95d28932d7ee39a780a399cae970bceb8c7b444fd1",
+        "objects": [
+          {
+            "kind": "syringe",
+            "bbox": [
+              0.3159722222222222,
+              0.3385416666666667,
+              0.6909722222222222,
+              0.4114583333333333
+            ],
+            "parent": "phl-c655606f16050b82",
+            "parent_group": "phlebotomy-0026",
+            "parent_sha256": "c655606f16050b824f4d89b93557df7ba147e4d62eeca6cb25aff4bf7cb933b0"
+          },
+          {
+            "kind": "syringe",
+            "bbox": [
+              0.2986111111111111,
+              0.4236111111111111,
+              0.6909722222222222,
+              0.5052083333333334
+            ],
+            "parent": "phl-da1409d429fef5c3",
+            "parent_group": "phlebotomy-0019",
+            "parent_sha256": "da1409d429fef5c3e34902aec14254c73ea0422339bb34eda4a05527d8b9a02e"
+          },
+          {
+            "kind": "syringe",
+            "bbox": [
+              0.3020833333333333,
+              0.5173611111111112,
+              0.6857638888888888,
+              0.5798611111111112
+            ],
+            "parent": "phl-3b656f5569e17d08",
+            "parent_group": "phlebotomy-0008",
+            "parent_sha256": "3b656f5569e17d08c6cf90fbc821bd5818e2313ba7e10d7333f15c1c2a728175"
+          },
+          {
+            "kind": "syringe",
+            "bbox": [
+              0.328125,
+              0.5920138888888888,
+              0.703125,
+              0.6597222222222222
+            ],
+            "parent": "phl-d1fb4b07035f60e2",
+            "parent_group": "phlebotomy-0004",
+            "parent_sha256": "d1fb4b07035f60e28744c8609a06f17cde8ea50dd1a9cca2e728c15ca3fab314"
+          }
+        ],
+        "max_iou": 0.0
+      },
+      {
+        "id": "paired-crowd-separated-013",
+        "sha256": "42d0bd22263c33b9ff2be32936d5ca264d57711a023899b6b8ad338f99418836",
+        "objects": [
+          {
+            "kind": "syringe",
+            "bbox": [
+              0.24479166666666666,
+              0.4045138888888889,
+              0.734375,
+              0.53125
+            ],
+            "parent": "phl-179695e20029de76",
+            "parent_group": "phlebotomy-0028",
+            "parent_sha256": "179695e20029de76447d7c1e24cef608c3bd38654949f416bffc4ce537e7677d"
+          },
+          {
+            "kind": "syringe",
+            "bbox": [
+              0.328125,
+              0.5434027777777778,
+              0.6892361111111112,
+              0.59375
+            ],
+            "parent": "phl-5bf675c7da0c5c59",
+            "parent_group": "phlebotomy-0002",
+            "parent_sha256": "5bf675c7da0c5c59519e8d48ff2281e444af1746ed5e06a07e95cb403d1538e7"
+          }
+        ],
+        "max_iou": 0.0
+      },
+      {
+        "id": "paired-crowd-separated-014",
+        "sha256": "118744ba1c9f566982e49d61b53de006eb12b33264fcfbfafa5553a444f33b37",
+        "objects": [
+          {
+            "kind": "syringe",
+            "bbox": [
+              0.2881944444444444,
+              0.3958333333333333,
+              0.6805555555555556,
+              0.4583333333333333
+            ],
+            "parent": "phl-5403b3362b8b4287",
+            "parent_group": "phlebotomy-0027",
+            "parent_sha256": "5403b3362b8b42870309428e40bfde0f113817427879b6b5a98803595e6095c6"
+          },
+          {
+            "kind": "syringe",
+            "bbox": [
+              0.2986111111111111,
+              0.4704861111111111,
+              0.6684027777777778,
+              0.5295138888888888
+            ],
+            "parent": "phl-78be66d26b1ac159",
+            "parent_group": "phlebotomy-0016",
+            "parent_sha256": "78be66d26b1ac15959f840b8572465798421e2c6f2b5e65bf79bb4bc72722a3c"
+          },
+          {
+            "kind": "syringe",
+            "bbox": [
+              0.3020833333333333,
+              0.5416666666666666,
+              0.6805555555555556,
+              0.6041666666666666
+            ],
+            "parent": "phl-47492103e3eb1919",
+            "parent_group": "phlebotomy-0000",
+            "parent_sha256": "47492103e3eb1919c6caa580bf4a530a09f2c3f2d2b4c37404438a6552eeffc0"
+          }
+        ],
+        "max_iou": 0.0
+      },
+      {
+        "id": "paired-crowd-separated-015",
+        "sha256": "fb237b29075e8a4dc868288d80963553fe4730929ff5947eefa7cc87dd6d1a71",
+        "objects": [
+          {
+            "kind": "syringe",
+            "bbox": [
+              0.2864583333333333,
+              0.3246527777777778,
+              0.6788194444444444,
+              0.40625
+            ],
+            "parent": "phl-da1409d429fef5c3",
+            "parent_group": "phlebotomy-0019",
+            "parent_sha256": "da1409d429fef5c3e34902aec14254c73ea0422339bb34eda4a05527d8b9a02e"
+          },
+          {
+            "kind": "syringe",
+            "bbox": [
+              0.2690972222222222,
+              0.4184027777777778,
+              0.7708333333333334,
+              0.5173611111111112
+            ],
+            "parent": "phl-61d1fb9eb04d2476",
+            "parent_group": "phlebotomy-0030",
+            "parent_sha256": "61d1fb9eb04d24762f18a596549fa546f0ff4233cadf81d1ea065656c2482cef"
+          },
+          {
+            "kind": "syringe",
+            "bbox": [
+              0.3107638888888889,
+              0.5295138888888888,
+              0.6857638888888888,
+              0.6024305555555556
+            ],
+            "parent": "phl-c655606f16050b82",
+            "parent_group": "phlebotomy-0026",
+            "parent_sha256": "c655606f16050b824f4d89b93557df7ba147e4d62eeca6cb25aff4bf7cb933b0"
+          },
+          {
+            "kind": "syringe",
+            "bbox": [
+              0.3177083333333333,
+              0.6145833333333334,
+              0.6875,
+              0.6736111111111112
+            ],
+            "parent": "phl-78be66d26b1ac159",
+            "parent_group": "phlebotomy-0016",
+            "parent_sha256": "78be66d26b1ac15959f840b8572465798421e2c6f2b5e65bf79bb4bc72722a3c"
+          }
+        ],
+        "max_iou": 0.0
+      },
+      {
+        "id": "paired-crowd-separated-016",
+        "sha256": "dd86e3cfb89679ae3e7406b81cbe33cdbd96a69fa19c5b16631306d196e3174b",
+        "objects": [
+          {
+            "kind": "syringe",
+            "bbox": [
+              0.328125,
+              0.4236111111111111,
+              0.703125,
+              0.5
+            ],
+            "parent": "phl-7ce2f0fe0eed9ab8",
+            "parent_group": "phlebotomy-0011",
+            "parent_sha256": "7ce2f0fe0eed9ab8521671524e3231f37cb0a78867b497e5a6bfd47299b9f2aa"
+          },
+          {
+            "kind": "syringe",
+            "bbox": [
+              0.3177083333333333,
+              0.5121527777777778,
+              0.6961805555555556,
+              0.5746527777777778
+            ],
+            "parent": "phl-47492103e3eb1919",
+            "parent_group": "phlebotomy-0000",
+            "parent_sha256": "47492103e3eb1919c6caa580bf4a530a09f2c3f2d2b4c37404438a6552eeffc0"
+          }
+        ],
+        "max_iou": 0.0
+      },
+      {
+        "id": "paired-crowd-separated-017",
+        "sha256": "88175a36e9aa038a9935d5c20fbf5e00e505d9a894a77af21a9e550b500549d4",
+        "objects": [
+          {
+            "kind": "syringe",
+            "bbox": [
+              0.2916666666666667,
+              0.3732638888888889,
+              0.7152777777777778,
+              0.4565972222222222
+            ],
+            "parent": "phl-61d1fb9eb04d2476",
+            "parent_group": "phlebotomy-0030",
+            "parent_sha256": "61d1fb9eb04d24762f18a596549fa546f0ff4233cadf81d1ea065656c2482cef"
+          },
+          {
+            "kind": "syringe",
+            "bbox": [
+              0.3072916666666667,
+              0.46875,
+              0.6857638888888888,
+              0.53125
+            ],
+            "parent": "phl-6a8e01e2a667800d",
+            "parent_group": "phlebotomy-0018",
+            "parent_sha256": "6a8e01e2a667800d29325a0a9f067c9fb163a37250c66595f507ed7e4af5a06f"
+          },
+          {
+            "kind": "syringe",
+            "bbox": [
+              0.2690972222222222,
+              0.5434027777777778,
+              0.75,
+              0.625
+            ],
+            "parent": "phl-572bb3376e4f8663",
+            "parent_group": "phlebotomy-0021",
+            "parent_sha256": "572bb3376e4f86638880b86a475b0844750de83e1a237b262bda2f368d4ded4b"
+          }
+        ],
+        "max_iou": 0.0
+      },
+      {
+        "id": "paired-crowd-separated-018",
+        "sha256": "9831a69a60017b015df0836dd33bff51ef7686e96a12bbd0ae2d7c68504fd975",
+        "objects": [
+          {
+            "kind": "syringe",
+            "bbox": [
+              0.2864583333333333,
+              0.3315972222222222,
+              0.6840277777777778,
+              0.4131944444444444
+            ],
+            "parent": "phl-7cd232923dba2519",
+            "parent_group": "phlebotomy-0032",
+            "parent_sha256": "7cd232923dba25197437d27450037bd35b35bf69bc05e2566b8ebcc328a7a06a"
+          },
+          {
+            "kind": "syringe",
+            "bbox": [
+              0.296875,
+              0.4253472222222222,
+              0.6805555555555556,
+              0.4878472222222222
+            ],
+            "parent": "phl-3b656f5569e17d08",
+            "parent_group": "phlebotomy-0008",
+            "parent_sha256": "3b656f5569e17d08c6cf90fbc821bd5818e2313ba7e10d7333f15c1c2a728175"
+          },
+          {
+            "kind": "syringe",
+            "bbox": [
+              0.3298611111111111,
+              0.5,
+              0.7048611111111112,
+              0.5729166666666666
+            ],
+            "parent": "phl-c655606f16050b82",
+            "parent_group": "phlebotomy-0026",
+            "parent_sha256": "c655606f16050b824f4d89b93557df7ba147e4d62eeca6cb25aff4bf7cb933b0"
+          },
+          {
+            "kind": "syringe",
+            "bbox": [
+              0.265625,
+              0.5850694444444444,
+              0.7065972222222222,
+              0.6684027777777778
+            ],
+            "parent": "phl-b29adbbf960d1af2",
+            "parent_group": "phlebotomy-0023",
+            "parent_sha256": "b29adbbf960d1af207c11b2de4fb262b981971fcfabe48633e796e9991b24275"
+          }
+        ],
+        "max_iou": 0.0
+      },
+      {
+        "id": "paired-crowd-separated-019",
+        "sha256": "edbf8a4fdc8537ce3ce73483c121bf5bc9deb38be3a6b45fa5c5980649fa8441",
+        "objects": [
+          {
+            "kind": "syringe",
+            "bbox": [
+              0.2170138888888889,
+              0.4236111111111111,
+              0.7690972222222222,
+              0.5121527777777778
+            ],
+            "parent": "phl-eee3eaafda6f90b4",
+            "parent_group": "phlebotomy-0020",
+            "parent_sha256": "eee3eaafda6f90b42792fe93f78ffc77fd3b407ad4303ebd51b12e082c90beb6"
+          },
+          {
+            "kind": "syringe",
+            "bbox": [
+              0.3107638888888889,
+              0.5243055555555556,
+              0.671875,
+              0.5746527777777778
+            ],
+            "parent": "phl-5bf675c7da0c5c59",
+            "parent_group": "phlebotomy-0002",
+            "parent_sha256": "5bf675c7da0c5c59519e8d48ff2281e444af1746ed5e06a07e95cb403d1538e7"
+          }
+        ],
+        "max_iou": 0.0
+      },
+      {
+        "id": "paired-crowd-separated-020",
+        "sha256": "ef81eddd38d0c515e9b4aea85fea6e3894852d64baf9d3af2f05e3b5a3517082",
+        "objects": [
+          {
+            "kind": "syringe",
+            "bbox": [
+              0.2916666666666667,
+              0.3663194444444444,
+              0.6701388888888888,
+              0.4288194444444444
+            ],
+            "parent": "phl-47492103e3eb1919",
+            "parent_group": "phlebotomy-0000",
+            "parent_sha256": "47492103e3eb1919c6caa580bf4a530a09f2c3f2d2b4c37404438a6552eeffc0"
+          },
+          {
+            "kind": "syringe",
+            "bbox": [
+              0.3298611111111111,
+              0.4409722222222222,
+              0.7048611111111112,
+              0.5138888888888888
+            ],
+            "parent": "phl-113095fc4928f825",
+            "parent_group": "phlebotomy-0004",
+            "parent_sha256": "113095fc4928f8254b565c9ae34546160e9eaba4c134d5fcf83eea46411bc366"
+          },
+          {
+            "kind": "syringe",
+            "bbox": [
+              0.2881944444444444,
+              0.5260416666666666,
+              0.71875,
+              0.6319444444444444
+            ],
+            "parent": "phl-af5ae9b95b0368e0",
+            "parent_group": "phlebotomy-0023",
+            "parent_sha256": "af5ae9b95b0368e04fb8b547079ac3dd05d83b49fa2958308bb7f4865a6d83c6"
+          }
+        ],
+        "max_iou": 0.0
+      },
+      {
+        "id": "paired-crowd-separated-021",
+        "sha256": "9f37dba89f4c55ed1f2efa9f386d16c4a8e873cc1ac6a2313809d332d3127ba6",
+        "objects": [
+          {
+            "kind": "syringe",
+            "bbox": [
+              0.3038194444444444,
+              0.3333333333333333,
+              0.6788194444444444,
+              0.40625
+            ],
+            "parent": "phl-c655606f16050b82",
+            "parent_group": "phlebotomy-0026",
+            "parent_sha256": "c655606f16050b824f4d89b93557df7ba147e4d62eeca6cb25aff4bf7cb933b0"
+          },
+          {
+            "kind": "syringe",
+            "bbox": [
+              0.234375,
+              0.4184027777777778,
+              0.78125,
+              0.5017361111111112
+            ],
+            "parent": "phl-90e9317378b5caa3",
+            "parent_group": "phlebotomy-0033",
+            "parent_sha256": "90e9317378b5caa302b7fdd5dab52837abe6f01f36fe8025cfe185b17b7101d6"
+          },
+          {
+            "kind": "syringe",
+            "bbox": [
+              0.3263888888888889,
+              0.5138888888888888,
+              0.7048611111111112,
+              0.5763888888888888
+            ],
+            "parent": "phl-47492103e3eb1919",
+            "parent_group": "phlebotomy-0000",
+            "parent_sha256": "47492103e3eb1919c6caa580bf4a530a09f2c3f2d2b4c37404438a6552eeffc0"
+          },
+          {
+            "kind": "syringe",
+            "bbox": [
+              0.2951388888888889,
+              0.5885416666666666,
+              0.6701388888888888,
+              0.6649305555555556
+            ],
+            "parent": "phl-7ce2f0fe0eed9ab8",
+            "parent_group": "phlebotomy-0011",
+            "parent_sha256": "7ce2f0fe0eed9ab8521671524e3231f37cb0a78867b497e5a6bfd47299b9f2aa"
+          }
+        ],
+        "max_iou": 0.0
+      },
+      {
+        "id": "paired-crowd-separated-022",
+        "sha256": "170be3a41bc73829693eaa9e2dcb9e0d3129e49a1caa2a0bf395c4f288f66019",
+        "objects": [
+          {
+            "kind": "syringe",
+            "bbox": [
+              0.2743055555555556,
+              0.4236111111111111,
+              0.703125,
+              0.5
+            ],
+            "parent": "phl-2bac7913ef806251",
+            "parent_group": "phlebotomy-0007",
+            "parent_sha256": "2bac7913ef806251025d74d328cd38884b4137b24880f9d8a1be921adee08feb"
+          },
+          {
+            "kind": "syringe",
+            "bbox": [
+              0.2916666666666667,
+              0.5121527777777778,
+              0.6701388888888888,
+              0.5746527777777778
+            ],
+            "parent": "phl-47492103e3eb1919",
+            "parent_group": "phlebotomy-0000",
+            "parent_sha256": "47492103e3eb1919c6caa580bf4a530a09f2c3f2d2b4c37404438a6552eeffc0"
+          }
+        ],
+        "max_iou": 0.0
+      },
+      {
+        "id": "paired-crowd-separated-023",
+        "sha256": "1021c80b29c69c801bf2415f6b951ce2cad1c3ef144f9934c5e8e8550d36686e",
+        "objects": [
+          {
+            "kind": "syringe",
+            "bbox": [
+              0.3072916666666667,
+              0.3836805555555556,
+              0.6770833333333334,
+              0.4427083333333333
+            ],
+            "parent": "phl-65597924a35625e0",
+            "parent_group": "phlebotomy-0011",
+            "parent_sha256": "65597924a35625e0ce456e619bbe3f9d22676c0fac02789ad8c96ebf651e8097"
+          },
+          {
+            "kind": "syringe",
+            "bbox": [
+              0.3072916666666667,
+              0.4548611111111111,
+              0.6770833333333334,
+              0.5277777777777778
+            ],
+            "parent": "phl-1af861e276f353ba",
+            "parent_group": "phlebotomy-0006",
+            "parent_sha256": "1af861e276f353ba77a1fc46da8093733aff2ec7d4df3a18c1a0f1c5aa9269a0"
+          },
+          {
+            "kind": "syringe",
+            "bbox": [
+              0.2899305555555556,
+              0.5399305555555556,
+              0.71875,
+              0.6163194444444444
+            ],
+            "parent": "phl-2bac7913ef806251",
+            "parent_group": "phlebotomy-0007",
+            "parent_sha256": "2bac7913ef806251025d74d328cd38884b4137b24880f9d8a1be921adee08feb"
+          }
+        ],
+        "max_iou": 0.0
+      },
+      {
+        "id": "paired-crowd-separated-024",
+        "sha256": "2b6e332f797212b853ab0a9920272265422ceb422d8d50071e71bd33c0b2a011",
+        "objects": [
+          {
+            "kind": "syringe",
+            "bbox": [
+              0.2673611111111111,
+              0.2777777777777778,
+              0.7048611111111112,
+              0.3854166666666667
+            ],
+            "parent": "phl-af5ae9b95b0368e0",
+            "parent_group": "phlebotomy-0023",
+            "parent_sha256": "af5ae9b95b0368e04fb8b547079ac3dd05d83b49fa2958308bb7f4865a6d83c6"
+          },
+          {
+            "kind": "syringe",
+            "bbox": [
+              0.3263888888888889,
+              0.3975694444444444,
+              0.7100694444444444,
+              0.4600694444444444
+            ],
+            "parent": "phl-3b656f5569e17d08",
+            "parent_group": "phlebotomy-0008",
+            "parent_sha256": "3b656f5569e17d08c6cf90fbc821bd5818e2313ba7e10d7333f15c1c2a728175"
+          },
+          {
+            "kind": "syringe",
+            "bbox": [
+              0.2378472222222222,
+              0.4722222222222222,
+              0.7777777777777778,
+              0.6128472222222222
+            ],
+            "parent": "phl-179695e20029de76",
+            "parent_group": "phlebotomy-0028",
+            "parent_sha256": "179695e20029de76447d7c1e24cef608c3bd38654949f416bffc4ce537e7677d"
+          },
+          {
+            "kind": "syringe",
+            "bbox": [
+              0.3229166666666667,
+              0.625,
+              0.7013888888888888,
+              0.7204861111111112
+            ],
+            "parent": "phl-2b4dfdfdd4d8a655",
+            "parent_group": "phlebotomy-0000",
+            "parent_sha256": "2b4dfdfdd4d8a6554f584850fe5644f9586ec6ef0898019a9b211b2930e21775"
+          }
+        ],
+        "max_iou": 0.0
+      }
+    ],
+    "overlapping": [
+      {
+        "id": "paired-crowd-overlapping-001",
+        "sha256": "a23c0246261e58dbf07582038ef92039f655d725c5288fb07853e1fa263bdbdb",
+        "objects": [
+          {
+            "kind": "syringe",
+            "bbox": [
+              0.3420138888888889,
+              0.2951388888888889,
+              0.7222222222222222,
+              0.6510416666666666
+            ],
+            "parent": "phl-61d1fb9eb04d2476",
+            "parent_group": "phlebotomy-0030",
+            "parent_sha256": "61d1fb9eb04d24762f18a596549fa546f0ff4233cadf81d1ea065656c2482cef"
+          },
+          {
+            "kind": "syringe",
+            "bbox": [
+              0.3072916666666667,
+              0.4027777777777778,
+              0.5972222222222222,
+              0.671875
+            ],
+            "parent": "phl-5b0804faf1e60ea3",
+            "parent_group": "phlebotomy-0027",
+            "parent_sha256": "5b0804faf1e60ea30a78426c8cf27bccb9113c708aa801d86b95c48a936ad25b"
+          }
+        ],
+        "max_iou": 0.4224562390723286
+      },
+      {
+        "id": "paired-crowd-overlapping-002",
+        "sha256": "2e47bf94b2b6cde3a814ce06095319c5e493a12322e26cbf35190c366ebe9009",
+        "objects": [
+          {
+            "kind": "syringe",
+            "bbox": [
+              0.2899305555555556,
+              0.2951388888888889,
+              0.5972222222222222,
+              0.5572916666666666
+            ],
+            "parent": "phl-c655606f16050b82",
+            "parent_group": "phlebotomy-0026",
+            "parent_sha256": "c655606f16050b824f4d89b93557df7ba147e4d62eeca6cb25aff4bf7cb933b0"
+          },
+          {
+            "kind": "syringe",
+            "bbox": [
+              0.34375,
+              0.359375,
+              0.65625,
+              0.6267361111111112
+            ],
+            "parent": "phl-7ce2f0fe0eed9ab8",
+            "parent_group": "phlebotomy-0011",
+            "parent_sha256": "7ce2f0fe0eed9ab8521671524e3231f37cb0a78867b497e5a6bfd47299b9f2aa"
+          },
+          {
+            "kind": "syringe",
+            "bbox": [
+              0.3506944444444444,
+              0.4114583333333333,
+              0.7326388888888888,
+              0.7309027777777778
+            ],
+            "parent": "phl-eee3eaafda6f90b4",
+            "parent_group": "phlebotomy-0020",
+            "parent_sha256": "eee3eaafda6f90b42792fe93f78ffc77fd3b407ad4303ebd51b12e082c90beb6"
+          }
+        ],
+        "max_iou": 0.47058823529411786
+      },
+      {
+        "id": "paired-crowd-overlapping-003",
+        "sha256": "b56e43efe6ec007514705719de6ab61a48fa66a4dec6af6a7b3a1f8b13c8cabd",
+        "objects": [
+          {
+            "kind": "syringe",
+            "bbox": [
+              0.2552083333333333,
+              0.2378472222222222,
+              0.5850694444444444,
+              0.5190972222222222
+            ],
+            "parent": "phl-7cd232923dba2519",
+            "parent_group": "phlebotomy-0032",
+            "parent_sha256": "7cd232923dba25197437d27450037bd35b35bf69bc05e2566b8ebcc328a7a06a"
+          },
+          {
+            "kind": "syringe",
+            "bbox": [
+              0.3020833333333333,
+              0.3368055555555556,
+              0.6145833333333334,
+              0.5902777777777778
+            ],
+            "parent": "phl-a59ed4986dee72fa",
+            "parent_group": "phlebotomy-0022",
+            "parent_sha256": "a59ed4986dee72fa735c7fd7d731e08e7a883a5ff26bbce8b238303c53a9cee2"
+          },
+          {
+            "kind": "syringe",
+            "bbox": [
+              0.3576388888888889,
+              0.3784722222222222,
+              0.6788194444444444,
+              0.6336805555555556
+            ],
+            "parent": "phl-7ce2f0fe0eed9ab8",
+            "parent_group": "phlebotomy-0011",
+            "parent_sha256": "7ce2f0fe0eed9ab8521671524e3231f37cb0a78867b497e5a6bfd47299b9f2aa"
+          },
+          {
+            "kind": "syringe",
+            "bbox": [
+              0.3975694444444444,
+              0.4704861111111111,
+              0.7413194444444444,
+              0.7569444444444444
+            ],
+            "parent": "phl-179695e20029de76",
+            "parent_group": "phlebotomy-0028",
+            "parent_sha256": "179695e20029de76447d7c1e24cef608c3bd38654949f416bffc4ce537e7677d"
+          }
+        ],
+        "max_iou": 0.5097828848922895
+      },
+      {
+        "id": "paired-crowd-overlapping-004",
+        "sha256": "c746b684be5ab23ec42980a111a6f37297013d3d1ca2dc7156e783946303753b",
+        "objects": [
+          {
+            "kind": "syringe",
+            "bbox": [
+              0.265625,
+              0.3003472222222222,
+              0.6649305555555556,
+              0.6475694444444444
+            ],
+            "parent": "phl-572bb3376e4f8663",
+            "parent_group": "phlebotomy-0021",
+            "parent_sha256": "572bb3376e4f86638880b86a475b0844750de83e1a237b262bda2f368d4ded4b"
+          },
+          {
+            "kind": "syringe",
+            "bbox": [
+              0.3871527777777778,
+              0.4114583333333333,
+              0.6788194444444444,
+              0.6649305555555556
+            ],
+            "parent": "phl-78be66d26b1ac159",
+            "parent_group": "phlebotomy-0016",
+            "parent_sha256": "78be66d26b1ac15959f840b8572465798421e2c6f2b5e65bf79bb4bc72722a3c"
+          }
+        ],
+        "max_iou": 0.44619422572178474
+      },
+      {
+        "id": "paired-crowd-overlapping-005",
+        "sha256": "20496a27c49dbf3a655058c5c26900e5b073a8933b0cbd3cbe525f7420028ff5",
+        "objects": [
+          {
+            "kind": "syringe",
+            "bbox": [
+              0.4027777777777778,
+              0.28125,
+              0.6979166666666666,
+              0.5815972222222222
+            ],
+            "parent": "phl-da1409d429fef5c3",
+            "parent_group": "phlebotomy-0019",
+            "parent_sha256": "da1409d429fef5c3e34902aec14254c73ea0422339bb34eda4a05527d8b9a02e"
+          },
+          {
+            "kind": "syringe",
+            "bbox": [
+              0.3333333333333333,
+              0.3524305555555556,
+              0.6302083333333334,
+              0.6284722222222222
+            ],
+            "parent": "phl-a59ed4986dee72fa",
+            "parent_group": "phlebotomy-0022",
+            "parent_sha256": "a59ed4986dee72fa735c7fd7d731e08e7a883a5ff26bbce8b238303c53a9cee2"
+          },
+          {
+            "kind": "syringe",
+            "bbox": [
+              0.2916666666666667,
+              0.4149305555555556,
+              0.5885416666666666,
+              0.6944444444444444
+            ],
+            "parent": "phl-66254829e7cc0990",
+            "parent_group": "phlebotomy-0006",
+            "parent_sha256": "66254829e7cc0990f0a16a31cee087bb05602db22ee1f4fa5061f458337d6963"
+          }
+        ],
+        "max_iou": 0.4934905428641611
+      },
+      {
+        "id": "paired-crowd-overlapping-006",
+        "sha256": "e851dcfc471c4c8b56ba8e396d676ac0737d496858369b69ee86c954595cac37",
+        "objects": [
+          {
+            "kind": "syringe",
+            "bbox": [
+              0.2708333333333333,
+              0.28125,
+              0.6197916666666666,
+              0.4861111111111111
+            ],
+            "parent": "phl-113095fc4928f825",
+            "parent_group": "phlebotomy-0004",
+            "parent_sha256": "113095fc4928f8254b565c9ae34546160e9eaba4c134d5fcf83eea46411bc366"
+          },
+          {
+            "kind": "syringe",
+            "bbox": [
+              0.3020833333333333,
+              0.359375,
+              0.6458333333333334,
+              0.5642361111111112
+            ],
+            "parent": "phl-6a8e01e2a667800d",
+            "parent_group": "phlebotomy-0018",
+            "parent_sha256": "6a8e01e2a667800d29325a0a9f067c9fb163a37250c66595f507ed7e4af5a06f"
+          },
+          {
+            "kind": "syringe",
+            "bbox": [
+              0.3038194444444444,
+              0.421875,
+              0.7135416666666666,
+              0.6493055555555556
+            ],
+            "parent": "phl-90e9317378b5caa3",
+            "parent_group": "phlebotomy-0033",
+            "parent_sha256": "90e9317378b5caa302b7fdd5dab52837abe6f01f36fe8025cfe185b17b7101d6"
+          },
+          {
+            "kind": "syringe",
+            "bbox": [
+              0.3489583333333333,
+              0.4965277777777778,
+              0.7361111111111112,
+              0.71875
+            ],
+            "parent": "phl-572bb3376e4f8663",
+            "parent_group": "phlebotomy-0021",
+            "parent_sha256": "572bb3376e4f86638880b86a475b0844750de83e1a237b262bda2f368d4ded4b"
+          }
+        ],
+        "max_iou": 0.4509516837481698
+      },
+      {
+        "id": "paired-crowd-overlapping-007",
+        "sha256": "d5379dfc2ff375bae0db8cc05bc40e5ac0f4bab822e00d9503f26f2ad31bc142",
+        "objects": [
+          {
+            "kind": "syringe",
+            "bbox": [
+              0.2916666666666667,
+              0.3784722222222222,
+              0.6614583333333334,
+              0.5763888888888888
+            ],
+            "parent": "phl-da1409d429fef5c3",
+            "parent_group": "phlebotomy-0019",
+            "parent_sha256": "da1409d429fef5c3e34902aec14254c73ea0422339bb34eda4a05527d8b9a02e"
+          },
+          {
+            "kind": "syringe",
+            "bbox": [
+              0.3385416666666667,
+              0.4479166666666667,
+              0.6753472222222222,
+              0.6336805555555556
+            ],
+            "parent": "phl-5bf675c7da0c5c59",
+            "parent_group": "phlebotomy-0002",
+            "parent_sha256": "5bf675c7da0c5c59519e8d48ff2281e444af1746ed5e06a07e95cb403d1538e7"
+          }
+        ],
+        "max_iou": 0.44008185189921967
+      },
+      {
+        "id": "paired-crowd-overlapping-008",
+        "sha256": "52e04e0eb7364edfbe4bd6173aead70a8d5006633913797f14055a0f9b8de0f5",
+        "objects": [
+          {
+            "kind": "syringe",
+            "bbox": [
+              0.2326388888888889,
+              0.3107638888888889,
+              0.6805555555555556,
+              0.5538194444444444
+            ],
+            "parent": "phl-61d1fb9eb04d2476",
+            "parent_group": "phlebotomy-0030",
+            "parent_sha256": "61d1fb9eb04d24762f18a596549fa546f0ff4233cadf81d1ea065656c2482cef"
+          },
+          {
+            "kind": "syringe",
+            "bbox": [
+              0.296875,
+              0.3732638888888889,
+              0.7395833333333334,
+              0.6267361111111112
+            ],
+            "parent": "phl-b29adbbf960d1af2",
+            "parent_group": "phlebotomy-0023",
+            "parent_sha256": "b29adbbf960d1af207c11b2de4fb262b981971fcfabe48633e796e9991b24275"
+          },
+          {
+            "kind": "syringe",
+            "bbox": [
+              0.3663194444444444,
+              0.5086805555555556,
+              0.7048611111111112,
+              0.7065972222222222
+            ],
+            "parent": "phl-92835522660d29ee",
+            "parent_group": "phlebotomy-0008",
+            "parent_sha256": "92835522660d29eef9c020f3d65b5b18393d3c70d12d639615d1d5a908b039ea"
+          }
+        ],
+        "max_iou": 0.4563395941706706
+      },
+      {
+        "id": "paired-crowd-overlapping-009",
+        "sha256": "dc838ccb151e99650f0c3bd7f9de2b221c93d60f1a7b613b5b0f214a7cbbe300",
+        "objects": [
+          {
+            "kind": "syringe",
+            "bbox": [
+              0.2829861111111111,
+              0.2795138888888889,
+              0.5815972222222222,
+              0.5295138888888888
+            ],
+            "parent": "phl-78be66d26b1ac159",
+            "parent_group": "phlebotomy-0016",
+            "parent_sha256": "78be66d26b1ac15959f840b8572465798421e2c6f2b5e65bf79bb4bc72722a3c"
+          },
+          {
+            "kind": "syringe",
+            "bbox": [
+              0.3229166666666667,
+              0.3194444444444444,
+              0.640625,
+              0.5798611111111112
+            ],
+            "parent": "phl-47492103e3eb1919",
+            "parent_group": "phlebotomy-0000",
+            "parent_sha256": "47492103e3eb1919c6caa580bf4a530a09f2c3f2d2b4c37404438a6552eeffc0"
+          },
+          {
+            "kind": "syringe",
+            "bbox": [
+              0.3819444444444444,
+              0.3854166666666667,
+              0.6944444444444444,
+              0.6388888888888888
+            ],
+            "parent": "phl-c655606f16050b82",
+            "parent_group": "phlebotomy-0026",
+            "parent_sha256": "c655606f16050b824f4d89b93557df7ba147e4d62eeca6cb25aff4bf7cb933b0"
+          },
+          {
+            "kind": "syringe",
+            "bbox": [
+              0.4097222222222222,
+              0.4756944444444444,
+              0.7083333333333334,
+              0.7309027777777778
+            ],
+            "parent": "phl-65597924a35625e0",
+            "parent_group": "phlebotomy-0011",
+            "parent_sha256": "65597924a35625e0ce456e619bbe3f9d22676c0fac02789ad8c96ebf651e8097"
+          }
+        ],
+        "max_iou": 0.5273333528327822
+      },
+      {
+        "id": "paired-crowd-overlapping-010",
+        "sha256": "f59afbc043b879f9ed9fa8e1fd99063be504afe74531280ec86a0db0e85932d7",
+        "objects": [
+          {
+            "kind": "syringe",
+            "bbox": [
+              0.40625,
+              0.2881944444444444,
+              0.6371527777777778,
+              0.6215277777777778
+            ],
+            "parent": "phl-66254829e7cc0990",
+            "parent_group": "phlebotomy-0006",
+            "parent_sha256": "66254829e7cc0990f0a16a31cee087bb05602db22ee1f4fa5061f458337d6963"
+          },
+          {
+            "kind": "syringe",
+            "bbox": [
+              0.3333333333333333,
+              0.34375,
+              0.5850694444444444,
+              0.6927083333333334
+            ],
+            "parent": "phl-7cd232923dba2519",
+            "parent_group": "phlebotomy-0032",
+            "parent_sha256": "7cd232923dba25197437d27450037bd35b35bf69bc05e2566b8ebcc328a7a06a"
+          }
+        ],
+        "max_iou": 0.43140231931101275
+      },
+      {
+        "id": "paired-crowd-overlapping-011",
+        "sha256": "0e29ec17e807b39f9556193b78dfe4455f5883cbcb4b79f7a691a8679dd4738c",
+        "objects": [
+          {
+            "kind": "syringe",
+            "bbox": [
+              0.3055555555555556,
+              0.2725694444444444,
+              0.5677083333333334,
+              0.578125
+            ],
+            "parent": "phl-6a8e01e2a667800d",
+            "parent_group": "phlebotomy-0018",
+            "parent_sha256": "6a8e01e2a667800d29325a0a9f067c9fb163a37250c66595f507ed7e4af5a06f"
+          },
+          {
+            "kind": "syringe",
+            "bbox": [
+              0.3697916666666667,
+              0.3368055555555556,
+              0.6319444444444444,
+              0.6336805555555556
+            ],
+            "parent": "phl-2b4dfdfdd4d8a655",
+            "parent_group": "phlebotomy-0000",
+            "parent_sha256": "2b4dfdfdd4d8a6554f584850fe5644f9586ec6ef0898019a9b211b2930e21775"
+          },
+          {
+            "kind": "syringe",
+            "bbox": [
+              0.4236111111111111,
+              0.4010416666666667,
+              0.7100694444444444,
+              0.7083333333333334
+            ],
+            "parent": "phl-da1409d429fef5c3",
+            "parent_group": "phlebotomy-0019",
+            "parent_sha256": "da1409d429fef5c3e34902aec14254c73ea0422339bb34eda4a05527d8b9a02e"
+          }
+        ],
+        "max_iou": 0.4335312303356954
+      },
+      {
+        "id": "paired-crowd-overlapping-012",
+        "sha256": "108b1f52c521cb9fce6fa0a8da521e17a492b917c1b77fa664ea9cb560f3d581",
+        "objects": [
+          {
+            "kind": "syringe",
+            "bbox": [
+              0.2743055555555556,
+              0.265625,
+              0.5885416666666666,
+              0.5173611111111112
+            ],
+            "parent": "phl-c655606f16050b82",
+            "parent_group": "phlebotomy-0026",
+            "parent_sha256": "c655606f16050b824f4d89b93557df7ba147e4d62eeca6cb25aff4bf7cb933b0"
+          },
+          {
+            "kind": "syringe",
+            "bbox": [
+              0.3003472222222222,
+              0.3506944444444444,
+              0.6319444444444444,
+              0.609375
+            ],
+            "parent": "phl-da1409d429fef5c3",
+            "parent_group": "phlebotomy-0019",
+            "parent_sha256": "da1409d429fef5c3e34902aec14254c73ea0422339bb34eda4a05527d8b9a02e"
+          },
+          {
+            "kind": "syringe",
+            "bbox": [
+              0.3645833333333333,
+              0.4166666666666667,
+              0.6788194444444444,
+              0.6753472222222222
+            ],
+            "parent": "phl-3b656f5569e17d08",
+            "parent_group": "phlebotomy-0008",
+            "parent_sha256": "3b656f5569e17d08c6cf90fbc821bd5818e2313ba7e10d7333f15c1c2a728175"
+          },
+          {
+            "kind": "syringe",
+            "bbox": [
+              0.4340277777777778,
+              0.453125,
+              0.7517361111111112,
+              0.7065972222222222
+            ],
+            "parent": "phl-d1fb4b07035f60e2",
+            "parent_group": "phlebotomy-0004",
+            "parent_sha256": "d1fb4b07035f60e28744c8609a06f17cde8ea50dd1a9cca2e728c15ca3fab314"
+          }
+        ],
+        "max_iou": 0.5064115154746205
+      },
+      {
+        "id": "paired-crowd-overlapping-013",
+        "sha256": "97ffe09e340c33da11e4f76f507d621462e3551d65b99331bcf345e0a7fdcfca",
+        "objects": [
+          {
+            "kind": "syringe",
+            "bbox": [
+              0.2586805555555556,
+              0.3541666666666667,
+              0.6944444444444444,
+              0.6180555555555556
+            ],
+            "parent": "phl-179695e20029de76",
+            "parent_group": "phlebotomy-0028",
+            "parent_sha256": "179695e20029de76447d7c1e24cef608c3bd38654949f416bffc4ce537e7677d"
+          },
+          {
+            "kind": "syringe",
+            "bbox": [
+              0.375,
+              0.4496527777777778,
+              0.7083333333333334,
+              0.6458333333333334
+            ],
+            "parent": "phl-5bf675c7da0c5c59",
+            "parent_group": "phlebotomy-0002",
+            "parent_sha256": "5bf675c7da0c5c59519e8d48ff2281e444af1746ed5e06a07e95cb403d1538e7"
+          }
+        ],
+        "max_iou": 0.42495238095238097
+      },
+      {
+        "id": "paired-crowd-overlapping-014",
+        "sha256": "6d494d6038516c2f510e2478f2bd0d244d9f77d85224837b5881bdba8a4490fd",
+        "objects": [
+          {
+            "kind": "syringe",
+            "bbox": [
+              0.4322916666666667,
+              0.2708333333333333,
+              0.6631944444444444,
+              0.6232638888888888
+            ],
+            "parent": "phl-5403b3362b8b4287",
+            "parent_group": "phlebotomy-0027",
+            "parent_sha256": "5403b3362b8b42870309428e40bfde0f113817427879b6b5a98803595e6095c6"
+          },
+          {
+            "kind": "syringe",
+            "bbox": [
+              0.3819444444444444,
+              0.3246527777777778,
+              0.6006944444444444,
+              0.6440972222222222
+            ],
+            "parent": "phl-78be66d26b1ac159",
+            "parent_group": "phlebotomy-0016",
+            "parent_sha256": "78be66d26b1ac15959f840b8572465798421e2c6f2b5e65bf79bb4bc72722a3c"
+          },
+          {
+            "kind": "syringe",
+            "bbox": [
+              0.3298611111111111,
+              0.3645833333333333,
+              0.5590277777777778,
+              0.703125
+            ],
+            "parent": "phl-47492103e3eb1919",
+            "parent_group": "phlebotomy-0000",
+            "parent_sha256": "47492103e3eb1919c6caa580bf4a530a09f2c3f2d2b4c37404438a6552eeffc0"
+          }
+        ],
+        "max_iou": 0.5052612146944805
+      },
+      {
+        "id": "paired-crowd-overlapping-015",
+        "sha256": "36de8b6feac2a2e1294b420fd324d157b54b2a6f76f09d62dee183f54790a661",
+        "objects": [
+          {
+            "kind": "syringe",
+            "bbox": [
+              0.22743055555555555,
+              0.2795138888888889,
+              0.5538194444444444,
+              0.546875
+            ],
+            "parent": "phl-da1409d429fef5c3",
+            "parent_group": "phlebotomy-0019",
+            "parent_sha256": "da1409d429fef5c3e34902aec14254c73ea0422339bb34eda4a05527d8b9a02e"
+          },
+          {
+            "kind": "syringe",
+            "bbox": [
+              0.296875,
+              0.3038194444444444,
+              0.6909722222222222,
+              0.6388888888888888
+            ],
+            "parent": "phl-61d1fb9eb04d2476",
+            "parent_group": "phlebotomy-0030",
+            "parent_sha256": "61d1fb9eb04d24762f18a596549fa546f0ff4233cadf81d1ea065656c2482cef"
+          },
+          {
+            "kind": "syringe",
+            "bbox": [
+              0.3940972222222222,
+              0.4114583333333333,
+              0.7013888888888888,
+              0.671875
+            ],
+            "parent": "phl-c655606f16050b82",
+            "parent_group": "phlebotomy-0026",
+            "parent_sha256": "c655606f16050b824f4d89b93557df7ba147e4d62eeca6cb25aff4bf7cb933b0"
+          },
+          {
+            "kind": "syringe",
+            "bbox": [
+              0.4479166666666667,
+              0.4809027777777778,
+              0.7395833333333334,
+              0.7361111111111112
+            ],
+            "parent": "phl-78be66d26b1ac159",
+            "parent_group": "phlebotomy-0016",
+            "parent_sha256": "78be66d26b1ac15959f840b8572465798421e2c6f2b5e65bf79bb4bc72722a3c"
+          }
+        ],
+        "max_iou": 0.4670767306088407
+      },
+      {
+        "id": "paired-crowd-overlapping-016",
+        "sha256": "76b409388d0de59d11cff37962aeb4277b3e21e975f0c2f53049343a1f414351",
+        "objects": [
+          {
+            "kind": "syringe",
+            "bbox": [
+              0.3333333333333333,
+              0.3246527777777778,
+              0.6510416666666666,
+              0.5833333333333334
+            ],
+            "parent": "phl-7ce2f0fe0eed9ab8",
+            "parent_group": "phlebotomy-0011",
+            "parent_sha256": "7ce2f0fe0eed9ab8521671524e3231f37cb0a78867b497e5a6bfd47299b9f2aa"
+          },
+          {
+            "kind": "syringe",
+            "bbox": [
+              0.3767361111111111,
+              0.3888888888888889,
+              0.6927083333333334,
+              0.6493055555555556
+            ],
+            "parent": "phl-47492103e3eb1919",
+            "parent_group": "phlebotomy-0000",
+            "parent_sha256": "47492103e3eb1919c6caa580bf4a530a09f2c3f2d2b4c37404438a6552eeffc0"
+          }
+        ],
+        "max_iou": 0.4799435871009736
+      },
+      {
+        "id": "paired-crowd-overlapping-017",
+        "sha256": "49ad8ef20e593368550ff544bf407b2c1015ccbda59238c1e58156899e3f6679",
+        "objects": [
+          {
+            "kind": "syringe",
+            "bbox": [
+              0.28125,
+              0.2986111111111111,
+              0.6128472222222222,
+              0.5833333333333334
+            ],
+            "parent": "phl-61d1fb9eb04d2476",
+            "parent_group": "phlebotomy-0030",
+            "parent_sha256": "61d1fb9eb04d24762f18a596549fa546f0ff4233cadf81d1ea065656c2482cef"
+          },
+          {
+            "kind": "syringe",
+            "bbox": [
+              0.3541666666666667,
+              0.3628472222222222,
+              0.6579861111111112,
+              0.6284722222222222
+            ],
+            "parent": "phl-6a8e01e2a667800d",
+            "parent_group": "phlebotomy-0018",
+            "parent_sha256": "6a8e01e2a667800d29325a0a9f067c9fb163a37250c66595f507ed7e4af5a06f"
+          },
+          {
+            "kind": "syringe",
+            "bbox": [
+              0.3767361111111111,
+              0.390625,
+              0.7395833333333334,
+              0.7152777777777778
+            ],
+            "parent": "phl-572bb3376e4f8663",
+            "parent_group": "phlebotomy-0021",
+            "parent_sha256": "572bb3376e4f86638880b86a475b0844750de83e1a237b262bda2f368d4ded4b"
+          }
+        ],
+        "max_iou": 0.5082905826310004
+      },
+      {
+        "id": "paired-crowd-overlapping-018",
+        "sha256": "669e15ea32fe6d1149f3038b0213669f17c66865d4652dc2182abffda8efc360",
+        "objects": [
+          {
+            "kind": "syringe",
+            "bbox": [
+              0.23958333333333334,
+              0.2864583333333333,
+              0.6076388888888888,
+              0.5069444444444444
+            ],
+            "parent": "phl-7cd232923dba2519",
+            "parent_group": "phlebotomy-0032",
+            "parent_sha256": "7cd232923dba25197437d27450037bd35b35bf69bc05e2566b8ebcc328a7a06a"
+          },
+          {
+            "kind": "syringe",
+            "bbox": [
+              0.2916666666666667,
+              0.3732638888888889,
+              0.6440972222222222,
+              0.5677083333333334
+            ],
+            "parent": "phl-3b656f5569e17d08",
+            "parent_group": "phlebotomy-0008",
+            "parent_sha256": "3b656f5569e17d08c6cf90fbc821bd5818e2313ba7e10d7333f15c1c2a728175"
+          },
+          {
+            "kind": "syringe",
+            "bbox": [
+              0.3611111111111111,
+              0.4184027777777778,
+              0.7118055555555556,
+              0.609375
+            ],
+            "parent": "phl-c655606f16050b82",
+            "parent_group": "phlebotomy-0026",
+            "parent_sha256": "c655606f16050b824f4d89b93557df7ba147e4d62eeca6cb25aff4bf7cb933b0"
+          },
+          {
+            "kind": "syringe",
+            "bbox": [
+              0.3420138888888889,
+              0.5017361111111112,
+              0.7378472222222222,
+              0.71875
+            ],
+            "parent": "phl-b29adbbf960d1af2",
+            "parent_group": "phlebotomy-0023",
+            "parent_sha256": "b29adbbf960d1af207c11b2de4fb262b981971fcfabe48633e796e9991b24275"
+          }
+        ],
+        "max_iou": 0.45309974788286245
+      },
+      {
+        "id": "paired-crowd-overlapping-019",
+        "sha256": "ea54f49f0fd894f82a8ec22af7ada11ad152cc760b42f3f30f9c65a6bd587444",
+        "objects": [
+          {
+            "kind": "syringe",
+            "bbox": [
+              0.2465277777777778,
+              0.3020833333333333,
+              0.6927083333333334,
+              0.6458333333333334
+            ],
+            "parent": "phl-eee3eaafda6f90b4",
+            "parent_group": "phlebotomy-0020",
+            "parent_sha256": "eee3eaafda6f90b42792fe93f78ffc77fd3b407ad4303ebd51b12e082c90beb6"
+          },
+          {
+            "kind": "syringe",
+            "bbox": [
+              0.375,
+              0.4131944444444444,
+              0.6788194444444444,
+              0.6597222222222222
+            ],
+            "parent": "phl-5bf675c7da0c5c59",
+            "parent_group": "phlebotomy-0002",
+            "parent_sha256": "5bf675c7da0c5c59519e8d48ff2281e444af1746ed5e06a07e95cb403d1538e7"
+          }
+        ],
+        "max_iou": 0.44849481696821336
+      },
+      {
+        "id": "paired-crowd-overlapping-020",
+        "sha256": "df0086adc5eef289cafc5a2e116183b230855a53af1e900fecb54d3e5b268394",
+        "objects": [
+          {
+            "kind": "syringe",
+            "bbox": [
+              0.2621527777777778,
+              0.2934027777777778,
+              0.5850694444444444,
+              0.546875
+            ],
+            "parent": "phl-47492103e3eb1919",
+            "parent_group": "phlebotomy-0000",
+            "parent_sha256": "47492103e3eb1919c6caa580bf4a530a09f2c3f2d2b4c37404438a6552eeffc0"
+          },
+          {
+            "kind": "syringe",
+            "bbox": [
+              0.34375,
+              0.3385416666666667,
+              0.6649305555555556,
+              0.5902777777777778
+            ],
+            "parent": "phl-113095fc4928f825",
+            "parent_group": "phlebotomy-0004",
+            "parent_sha256": "113095fc4928f8254b565c9ae34546160e9eaba4c134d5fcf83eea46411bc366"
+          },
+          {
+            "kind": "syringe",
+            "bbox": [
+              0.3663194444444444,
+              0.4184027777777778,
+              0.71875,
+              0.7222222222222222
+            ],
+            "parent": "phl-af5ae9b95b0368e0",
+            "parent_group": "phlebotomy-0023",
+            "parent_sha256": "af5ae9b95b0368e04fb8b547079ac3dd05d83b49fa2958308bb7f4865a6d83c6"
+          }
+        ],
+        "max_iou": 0.4471729980429478
+      },
+      {
+        "id": "paired-crowd-overlapping-021",
+        "sha256": "7fd7d4f28db022fd2cb5fa97853cdfed79a7ef5eafb0d3cdbaeac7c54574acf8",
+        "objects": [
+          {
+            "kind": "syringe",
+            "bbox": [
+              0.5069444444444444,
+              0.2604166666666667,
+              0.7256944444444444,
+              0.5972222222222222
+            ],
+            "parent": "phl-c655606f16050b82",
+            "parent_group": "phlebotomy-0026",
+            "parent_sha256": "c655606f16050b824f4d89b93557df7ba147e4d62eeca6cb25aff4bf7cb933b0"
+          },
+          {
+            "kind": "syringe",
+            "bbox": [
+              0.390625,
+              0.2482638888888889,
+              0.6909722222222222,
+              0.7291666666666666
+            ],
+            "parent": "phl-90e9317378b5caa3",
+            "parent_group": "phlebotomy-0033",
+            "parent_sha256": "90e9317378b5caa302b7fdd5dab52837abe6f01f36fe8025cfe185b17b7101d6"
+          },
+          {
+            "kind": "syringe",
+            "bbox": [
+              0.3680555555555556,
+              0.3680555555555556,
+              0.59375,
+              0.7100694444444444
+            ],
+            "parent": "phl-47492103e3eb1919",
+            "parent_group": "phlebotomy-0000",
+            "parent_sha256": "47492103e3eb1919c6caa580bf4a530a09f2c3f2d2b4c37404438a6552eeffc0"
+          },
+          {
+            "kind": "syringe",
+            "bbox": [
+              0.2777777777777778,
+              0.3854166666666667,
+              0.5034722222222222,
+              0.7274305555555556
+            ],
+            "parent": "phl-7ce2f0fe0eed9ab8",
+            "parent_group": "phlebotomy-0011",
+            "parent_sha256": "7ce2f0fe0eed9ab8521671524e3231f37cb0a78867b497e5a6bfd47299b9f2aa"
+          }
+        ],
+        "max_iou": 0.45657858246503713
+      },
+      {
+        "id": "paired-crowd-overlapping-022",
+        "sha256": "161124f8b9a7ffcb01271575cb302ef059adda21494a60bf5084c69be428608c",
+        "objects": [
+          {
+            "kind": "syringe",
+            "bbox": [
+              0.3263888888888889,
+              0.3159722222222222,
+              0.5972222222222222,
+              0.6614583333333334
+            ],
+            "parent": "phl-2bac7913ef806251",
+            "parent_group": "phlebotomy-0007",
+            "parent_sha256": "2bac7913ef806251025d74d328cd38884b4137b24880f9d8a1be921adee08feb"
+          },
+          {
+            "kind": "syringe",
+            "bbox": [
+              0.3958333333333333,
+              0.3767361111111111,
+              0.6545138888888888,
+              0.6927083333333334
+            ],
+            "parent": "phl-47492103e3eb1919",
+            "parent_group": "phlebotomy-0000",
+            "parent_sha256": "47492103e3eb1919c6caa580bf4a530a09f2c3f2d2b4c37404438a6552eeffc0"
+          }
+        ],
+        "max_iou": 0.4860749144054372
+      },
+      {
+        "id": "paired-crowd-overlapping-023",
+        "sha256": "0e9222c4ee30c4ac8d84ca15a8d33d4582a15c88213cc6232dbe52aee8693dbe",
+        "objects": [
+          {
+            "kind": "syringe",
+            "bbox": [
+              0.4461805555555556,
+              0.2881944444444444,
+              0.6822916666666666,
+              0.6006944444444444
+            ],
+            "parent": "phl-65597924a35625e0",
+            "parent_group": "phlebotomy-0011",
+            "parent_sha256": "65597924a35625e0ce456e619bbe3f9d22676c0fac02789ad8c96ebf651e8097"
+          },
+          {
+            "kind": "syringe",
+            "bbox": [
+              0.3958333333333333,
+              0.328125,
+              0.6319444444444444,
+              0.6545138888888888
+            ],
+            "parent": "phl-1af861e276f353ba",
+            "parent_group": "phlebotomy-0006",
+            "parent_sha256": "1af861e276f353ba77a1fc46da8093733aff2ec7d4df3a18c1a0f1c5aa9269a0"
+          },
+          {
+            "kind": "syringe",
+            "bbox": [
+              0.3090277777777778,
+              0.3715277777777778,
+              0.5607638888888888,
+              0.7274305555555556
+            ],
+            "parent": "phl-2bac7913ef806251",
+            "parent_group": "phlebotomy-0007",
+            "parent_sha256": "2bac7913ef806251025d74d328cd38884b4137b24880f9d8a1be921adee08feb"
+          }
+        ],
+        "max_iou": 0.5052482781437034
+      },
+      {
+        "id": "paired-crowd-overlapping-024",
+        "sha256": "fa27b4b9dab323369d6eb66068ab13eeba7296fd6cdfa07421c03ea2c3aa87d1",
+        "objects": [
+          {
+            "kind": "syringe",
+            "bbox": [
+              0.4722222222222222,
+              0.1996527777777778,
+              0.7673611111111112,
+              0.5677083333333334
+            ],
+            "parent": "phl-af5ae9b95b0368e0",
+            "parent_group": "phlebotomy-0023",
+            "parent_sha256": "af5ae9b95b0368e04fb8b547079ac3dd05d83b49fa2958308bb7f4865a6d83c6"
+          },
+          {
+            "kind": "syringe",
+            "bbox": [
+              0.4444444444444444,
+              0.3072916666666667,
+              0.6857638888888888,
+              0.6336805555555556
+            ],
+            "parent": "phl-3b656f5569e17d08",
+            "parent_group": "phlebotomy-0008",
+            "parent_sha256": "3b656f5569e17d08c6cf90fbc821bd5818e2313ba7e10d7333f15c1c2a728175"
+          },
+          {
+            "kind": "syringe",
+            "bbox": [
+              0.2899305555555556,
+              0.3072916666666667,
+              0.6302083333333334,
+              0.7552083333333334
+            ],
+            "parent": "phl-179695e20029de76",
+            "parent_group": "phlebotomy-0028",
+            "parent_sha256": "179695e20029de76447d7c1e24cef608c3bd38654949f416bffc4ce537e7677d"
+          },
+          {
+            "kind": "syringe",
+            "bbox": [
+              0.2586805555555556,
+              0.4513888888888889,
+              0.4913194444444444,
+              0.7743055555555556
+            ],
+            "parent": "phl-2b4dfdfdd4d8a655",
+            "parent_group": "phlebotomy-0000",
+            "parent_sha256": "2b4dfdfdd4d8a6554f584850fe5644f9586ec6ef0898019a9b211b2930e21775"
+          }
+        ],
+        "max_iou": 0.42198435570193477
+      }
+    ]
+  },
+  "training": {
+    "separated": {
+      "images": 199,
+      "targets": 205,
+      "sha256": "0214ceb4f42cf39fc19edfe4c4b63812282f3fb6c7525d73e3881bd8f8383ba2",
+      "negatives": 55
+    },
+    "overlapping": {
+      "images": 199,
+      "targets": 205,
+      "sha256": "4b50d76f04eb2d22346e9cb0c0d863a8555baffa525ca63ec3422f0acca35e65",
+      "negatives": 55
+    }
+  },
+  "protocol": "Each added pair uses the same fit-only masked devices, positions and background. One raster is rendered horizontally and the other with diagonal box overlap. Both adapt the same checkpoint with equal computation and use the same validation. Separate public and original user reserves do not participate in training."
+}

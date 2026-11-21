@@ -1,0 +1,31 @@
+{
+  "image": "IMG_3316.jpeg",
+  "detected": 1,
+  "browser": "Chromium",
+  "no_page_errors": true,
+  "revision": "5d58fcbcc1234a2ec7eec0f773c3d52dfa4c4be8",
+  "installation_backend": "xpu",
+  "appearance_release_sha256": "6a446005968d3ea7d3f040ebe37fe6702033f5f2ba157194290a2561699cae90",
+  "sam_residency_sha256": "c6bfd1519339262b25deef70ee0b5a0ba8c0f6bb76143e05cfc25842285b2e8e",
+  "detection_checks": {
+    "status": "available",
+    "primary_backend": "xpu",
+    "unavailable": [],
+    "review_needed": false
+  },
+  "flows": [
+    "image upload",
+    "real detection overlay",
+    "inventory",
+    "persisted review",
+    "ZIP report with evidence",
+    "mobile viewport without horizontal overflow",
+    "three image landmarks",
+    "server-side reviewed fill",
+    "manual evidence and original model estimate in ZIP",
+    "released crop verifier on real inference",
+    "verified native-resolution crop and exact original bytes in export",
+    "fill editor at a 390 pixel viewport",
+    "verified shared SAM runtime with all detector checks available"
+  ]
+}

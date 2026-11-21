@@ -1,0 +1,255 @@
+{
+  "passed": false,
+  "freeze_sha256": "aeda60112b8e98fc258b73db718823a78c3c65d0bca01c0a77d76b955798f6c6",
+  "collection_sha256": "ce744670cd11280c028e7d7f3a0d37c14eca8f519ec6036f6b40b13bd106fcf9",
+  "scopes": {
+    "fresh": {
+      "previous": {
+        "images": 25,
+        "objects": 22,
+        "tp": 15,
+        "fp": 1,
+        "fn": 7,
+        "precision": 0.9375,
+        "recall": 0.6818181818181818,
+        "f1": 0.7894736842105263,
+        "ap50": 0.6800742574257426,
+        "ap50_95": 0.3867378413665542,
+        "exact_count": 20,
+        "negative_images": 4,
+        "correct_empty": 4
+      },
+      "proposed": {
+        "images": 25,
+        "objects": 22,
+        "tp": 15,
+        "fp": 1,
+        "fn": 7,
+        "precision": 0.9375,
+        "recall": 0.6818181818181818,
+        "f1": 0.7894736842105263,
+        "ap50": 0.6800742574257426,
+        "ap50_95": 0.3867378413665542,
+        "exact_count": 20,
+        "negative_images": 4,
+        "correct_empty": 4
+      },
+      "guard": {
+        "passed": true,
+        "lost_matches": [],
+        "recovered_matches": 0,
+        "baseline_matches": 15,
+        "candidate_matches": 15
+      },
+      "spoiled_correct_counts": [],
+      "passed": true
+    },
+    "commons-regression": {
+      "previous": {
+        "images": 25,
+        "objects": 15,
+        "tp": 10,
+        "fp": 3,
+        "fn": 5,
+        "precision": 0.7692307692307693,
+        "recall": 0.6666666666666666,
+        "f1": 0.7142857142857142,
+        "ap50": 0.5524475524475525,
+        "ap50_95": 0.4108710101779409,
+        "exact_count": 17,
+        "negative_images": 12,
+        "correct_empty": 9
+      },
+      "proposed": {
+        "images": 25,
+        "objects": 15,
+        "tp": 10,
+        "fp": 3,
+        "fn": 5,
+        "precision": 0.7692307692307693,
+        "recall": 0.6666666666666666,
+        "f1": 0.7142857142857142,
+        "ap50": 0.5524475524475525,
+        "ap50_95": 0.4108710101779409,
+        "exact_count": 17,
+        "negative_images": 12,
+        "correct_empty": 9
+      },
+      "guard": {
+        "passed": true,
+        "lost_matches": [],
+        "recovered_matches": 0,
+        "baseline_matches": 10,
+        "candidate_matches": 10
+      },
+      "spoiled_correct_counts": [],
+      "passed": true
+    },
+    "openimages": {
+      "previous": {
+        "images": 10,
+        "objects": 11,
+        "tp": 8,
+        "fp": 2,
+        "fn": 3,
+        "precision": 0.8,
+        "recall": 0.7272727272727273,
+        "f1": 0.761904761904762,
+        "ap50": 0.6715346534653466,
+        "ap50_95": 0.5448939179632248,
+        "exact_count": 8,
+        "negative_images": 1,
+        "correct_empty": 0
+      },
+      "proposed": {
+        "images": 10,
+        "objects": 11,
+        "tp": 8,
+        "fp": 2,
+        "fn": 3,
+        "precision": 0.8,
+        "recall": 0.7272727272727273,
+        "f1": 0.761904761904762,
+        "ap50": 0.6715346534653466,
+        "ap50_95": 0.5448939179632248,
+        "exact_count": 8,
+        "negative_images": 1,
+        "correct_empty": 0
+      },
+      "guard": {
+        "passed": true,
+        "lost_matches": [],
+        "recovered_matches": 0,
+        "baseline_matches": 8,
+        "candidate_matches": 8
+      },
+      "spoiled_correct_counts": [],
+      "passed": true
+    },
+    "lookalikes": {
+      "previous": {
+        "images": 13,
+        "objects": 0,
+        "tp": 0,
+        "fp": 1,
+        "fn": 0,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "ap50": null,
+        "ap50_95": null,
+        "exact_count": 12,
+        "negative_images": 13,
+        "correct_empty": 12
+      },
+      "proposed": {
+        "images": 13,
+        "objects": 0,
+        "tp": 0,
+        "fp": 1,
+        "fn": 0,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "ap50": null,
+        "ap50_95": null,
+        "exact_count": 12,
+        "negative_images": 13,
+        "correct_empty": 12
+      },
+      "guard": {
+        "passed": true,
+        "lost_matches": [],
+        "recovered_matches": 0,
+        "baseline_matches": 0,
+        "candidate_matches": 0
+      },
+      "spoiled_correct_counts": [],
+      "passed": true
+    },
+    "independent-negatives": {
+      "previous": {
+        "images": 26,
+        "objects": 0,
+        "tp": 0,
+        "fp": 1,
+        "fn": 0,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "ap50": null,
+        "ap50_95": null,
+        "exact_count": 25,
+        "negative_images": 26,
+        "correct_empty": 25
+      },
+      "proposed": {
+        "images": 26,
+        "objects": 0,
+        "tp": 0,
+        "fp": 1,
+        "fn": 0,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "ap50": null,
+        "ap50_95": null,
+        "exact_count": 25,
+        "negative_images": 26,
+        "correct_empty": 25
+      },
+      "guard": {
+        "passed": true,
+        "lost_matches": [],
+        "recovered_matches": 0,
+        "baseline_matches": 0,
+        "candidate_matches": 0
+      },
+      "spoiled_correct_counts": [],
+      "passed": true
+    },
+    "native-device": {
+      "previous": {
+        "images": 23,
+        "objects": 48,
+        "tp": 39,
+        "fp": 4,
+        "fn": 9,
+        "precision": 0.9069767441860465,
+        "recall": 0.8125,
+        "f1": 0.8571428571428572,
+        "ap50": 0.7428045130094404,
+        "ap50_95": 0.45777105482255964,
+        "exact_count": 20,
+        "negative_images": 0,
+        "correct_empty": 0
+      },
+      "proposed": {
+        "images": 23,
+        "objects": 48,
+        "tp": 41,
+        "fp": 6,
+        "fn": 7,
+        "precision": 0.8723404255319149,
+        "recall": 0.8541666666666666,
+        "f1": 0.8631578947368421,
+        "ap50": 0.781958195819582,
+        "ap50_95": 0.47551582930000735,
+        "exact_count": 21,
+        "negative_images": 0,
+        "correct_empty": 0
+      },
+      "guard": {
+        "passed": true,
+        "lost_matches": [],
+        "recovered_matches": 2,
+        "baseline_matches": 39,
+        "candidate_matches": 41
+      },
+      "spoiled_correct_counts": [
+        "jr20FHtsKJzKzcGrzaW6"
+      ],
+      "passed": false
+    }
+  }
+}

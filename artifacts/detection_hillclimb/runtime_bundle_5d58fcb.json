@@ -1,0 +1,27 @@
+{
+  "revision": "5d58fcbcc1234a2ec7eec0f773c3d52dfa4c4be8",
+  "manifest_sha256": "be681eb1306af7b3dc2e3a0dcbcfe94b64b2e2fdb9925e85bb2ddfb6a29a6289",
+  "restored_packages": {
+    ".venv": {
+      "files": 23819,
+      "sha256": "57b58b912e3fb84c599a5952121340d2a67dc38557ef9395ea5e664785eda715"
+    },
+    "data/ocr-v6/env": {
+      "files": 14984,
+      "sha256": "b5530e2f9051bda505826a61210b00113cded7f6cf9faa5da8984d9b4c2935e6"
+    },
+    "data/sam3/xpu-env": {
+      "files": 23909,
+      "sha256": "30c7d96e1fb21fde9fe36a8ed02f66c23a4273f939e9fd605c99d0daf8116f2d"
+    }
+  },
+  "python_binary_sha256": "f7c6210eb40fadcd3c2889dddd24a15fc2c9f926aec5a03bf9da66e12d581526",
+  "checked_asset_count": 43,
+  "asset_bytes": 5986486215,
+  "passed_tests_in_restored_checkout": 66,
+  "proof": {
+    "restored_browser_5d58fcb_xpu.json": "36a1c012321bdb4b156f1072fb3039b969ae4d3d23a51123ee648c37e0545c47",
+    "shared_sam_crowded_browser.json": "24a7a69a6f7274af4ccc4e44c2d1fe6728c6ee4fef608919e6c8af2cc0a7da41",
+    "sam_residency_full_live.json": "304998b3c789c84303a97236691050c29f286a26c725ec371625e083f5388a31"
+  }
+}

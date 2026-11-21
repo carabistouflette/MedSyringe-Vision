@@ -57,12 +57,12 @@
           ],
           "axis": [
             [
-              0.09156079826876748,
-              0.146035321482804
+              0.0915608,
+              0.1460353
             ],
             [
-              1.0023674674390992,
-              0.7648075581648529
+              1.0,
+              0.7631992
             ]
           ]
         },
@@ -76,12 +76,12 @@
           ],
           "axis": [
             [
-              -0.0026526050694781764,
-              0.1543575101068145
+              0.0,
+              0.1561596
             ],
             [
-              1.0031947600142792,
-              0.837697284529599
+              1.0,
+              0.8355269
             ]
           ]
         },
@@ -95,12 +95,12 @@
           ],
           "axis": [
             [
-              0.008326976940983602,
-              0.233313016820155
+              0.008327,
+              0.233313
             ],
             [
-              1.0042742695337592,
-              0.9099270060616129
+              1.0,
+              0.9070232
             ]
           ]
         },
@@ -133,12 +133,12 @@
           ],
           "axis": [
             [
-              0.013569180895842881,
-              0.3599146083442139
+              0.0135692,
+              0.3599146
             ],
             [
-              0.9619961255319057,
-              1.0042448287153038
+              0.9557479,
+              1.0
             ]
           ]
         },
@@ -152,12 +152,12 @@
           ],
           "axis": [
             [
-              0.01846966563602065,
-              0.41561906168712365
+              0.0184697,
+              0.4156191
             ],
             [
-              0.9025461390807011,
-              1.0162316783795906
+              0.8786538,
+              1.0
             ]
           ]
         },
@@ -171,12 +171,12 @@
           ],
           "axis": [
             [
-              0.0056513526119244435,
-              0.48505787966340264
+              0.0056514,
+              0.4850579
             ],
             [
-              0.8293373838616156,
-              1.0446432067497773
+              0.7636245,
+              1.0
             ]
           ]
         }
@@ -361,6 +361,7 @@
       "split": "commons-crowds-reserve"
     }
   ],
-  "review_sha256": "0ee7aedf15d106452321658d60f46e12ea0ff6424fc5fe98ca947d3f81d9b63e",
-  "protocol": "One scene per identified photographer group. No scene or candidate detector output was used in annotation. Group and overlap checks separate these sources from every previously exposed cohort. This small cohort is a descriptive overlap challenge and cannot establish a population-level estimate."
+  "review_sha256": "68983335004c2e69c8a675cc53e23f6d57f955cc9f0d3dcec27aef77fd8b4cd6",
+  "protocol": "One scene per identified photographer group. No scene or candidate detector output was used in annotation. Group and overlap checks separate these sources from every previously exposed cohort. This small cohort is a descriptive overlap challenge and cannot establish a population-level estimate.",
+  "axis_revision": "Axis segments clipped to image bounds before any detector inference. Box references and counts match the original freeze."
 }

@@ -1,0 +1,31 @@
+{
+  "image": "fr4KaYX2NdrKAcwFd4Sh.jpg",
+  "detected": 3,
+  "browser": "Chromium",
+  "no_page_errors": true,
+  "revision": "5d58fcbcc1234a2ec7eec0f773c3d52dfa4c4be8",
+  "installation_backend": "xpu",
+  "appearance_release_sha256": "6a446005968d3ea7d3f040ebe37fe6702033f5f2ba157194290a2561699cae90",
+  "sam_residency_sha256": "c6bfd1519339262b25deef70ee0b5a0ba8c0f6bb76143e05cfc25842285b2e8e",
+  "detection_checks": {
+    "status": "available",
+    "primary_backend": "xpu",
+    "unavailable": [],
+    "review_needed": false
+  },
+  "flows": [
+    "image upload",
+    "real detection overlay",
+    "inventory",
+    "persisted review",
+    "ZIP report with evidence",
+    "mobile viewport without horizontal overflow",
+    "detection-only analysis selected in the upload form",
+    "verified native-resolution crop and exact original bytes in export",
+    "all five proposals shown immediately when there are several automatic detections",
+    "automatic and draft counts stay distinguishable during review",
+    "matching native crop before candidate adoption and before saving",
+    "candidate adoption with unchanged model output and linked review evidence",
+    "verified shared SAM runtime with all detector checks available"
+  ]
+}

@@ -1,0 +1,926 @@
+{
+  "seed": 20261121,
+  "rows": [
+    {
+      "id": "parallel-dev-001",
+      "sha256": "773084609606360dea8bf7a0fc99d4b0784a0e19cc2e8ad2366777f39ea57af3",
+      "image": "detection_hillclimb/parallel-development/parallel-dev-001.jpg",
+      "title": "Synthetic parallel devices",
+      "objects": [
+        {
+          "kind": "syringe",
+          "bbox": [
+            0.4114583333333333,
+            0.3090277777777778,
+            0.6336805555555556,
+            0.625
+          ],
+          "source_id": "phl-5414cebd7fc83433",
+          "source_group": "phlebotomy-0012",
+          "source_sha256": "5414cebd7fc8343354b4b8beeb0bcdebdae29b715c3de671d8ef9fef73ff2c52",
+          "raster_mask_pixels": 4257
+        },
+        {
+          "kind": "syringe",
+          "bbox": [
+            0.3663194444444444,
+            0.3559027777777778,
+            0.6006944444444444,
+            0.6684027777777778
+          ],
+          "source_id": "phl-fde18ea002c07555",
+          "source_group": "phlebotomy-0012",
+          "source_sha256": "fde18ea002c07555d57957b637ed1fb430308ec33c9bdd4d8a6f05fdb6fc989c",
+          "raster_mask_pixels": 4199
+        }
+      ],
+      "nominal_angle": -55.64996075410375,
+      "maximum_reference_aabb_iou": 0.5503078075632715,
+      "split": "parallel-development",
+      "group": "dependent-simulator-development"
+    },
+    {
+      "id": "parallel-dev-002",
+      "sha256": "ccec7f81a68ac11d9c45db8acb870cc8bf4542a6226fefc86d44081573a641b9",
+      "image": "detection_hillclimb/parallel-development/parallel-dev-002.jpg",
+      "title": "Synthetic parallel devices",
+      "objects": [
+        {
+          "kind": "syringe",
+          "bbox": [
+            0.4027777777777778,
+            0.3194444444444444,
+            0.7100694444444444,
+            0.5590277777777778
+          ],
+          "source_id": "phl-fde18ea002c07555",
+          "source_group": "phlebotomy-0012",
+          "source_sha256": "fde18ea002c07555d57957b637ed1fb430308ec33c9bdd4d8a6f05fdb6fc989c",
+          "raster_mask_pixels": 4204
+        },
+        {
+          "kind": "syringe",
+          "bbox": [
+            0.359375,
+            0.3576388888888889,
+            0.671875,
+            0.6041666666666666
+          ],
+          "source_id": "phl-f914ed1015d82f68",
+          "source_group": "phlebotomy-0005",
+          "source_sha256": "f914ed1015d82f68ed86e1d7cc75ea625e28edef1e20402c932125f495198857",
+          "raster_mask_pixels": 4455
+        },
+        {
+          "kind": "syringe",
+          "bbox": [
+            0.3090277777777778,
+            0.4010416666666667,
+            0.6197916666666666,
+            0.6597222222222222
+          ],
+          "source_id": "phl-aeacda225a56843b",
+          "source_group": "phlebotomy-0012",
+          "source_sha256": "aeacda225a56843b574c42f360d76890ba7a48c586b404faab84123420eee646",
+          "raster_mask_pixels": 6697
+        }
+      ],
+      "nominal_angle": -37.36397195106624,
+      "maximum_reference_aabb_iou": 0.561769668187215,
+      "split": "parallel-development",
+      "group": "dependent-simulator-development"
+    },
+    {
+      "id": "parallel-dev-003",
+      "sha256": "92cd988130d3a83d8af1c23d1192e704b124ffb828999ef1db187e6ba46480b9",
+      "image": "detection_hillclimb/parallel-development/parallel-dev-003.jpg",
+      "title": "Synthetic parallel devices",
+      "objects": [
+        {
+          "kind": "syringe",
+          "bbox": [
+            0.4930555555555556,
+            0.2534722222222222,
+            0.7239583333333334,
+            0.5763888888888888
+          ],
+          "source_id": "phl-f914ed1015d82f68",
+          "source_group": "phlebotomy-0005",
+          "source_sha256": "f914ed1015d82f68ed86e1d7cc75ea625e28edef1e20402c932125f495198857",
+          "raster_mask_pixels": 4462
+        },
+        {
+          "kind": "syringe",
+          "bbox": [
+            0.453125,
+            0.3142361111111111,
+            0.6840277777777778,
+            0.6284722222222222
+          ],
+          "source_id": "phl-fde18ea002c07555",
+          "source_group": "phlebotomy-0012",
+          "source_sha256": "fde18ea002c07555d57957b637ed1fb430308ec33c9bdd4d8a6f05fdb6fc989c",
+          "raster_mask_pixels": 4196
+        },
+        {
+          "kind": "syringe",
+          "bbox": [
+            0.4045138888888889,
+            0.3628472222222222,
+            0.6336805555555556,
+            0.6961805555555556
+          ],
+          "source_id": "phl-aeacda225a56843b",
+          "source_group": "phlebotomy-0012",
+          "source_sha256": "aeacda225a56843b574c42f360d76890ba7a48c586b404faab84123420eee646",
+          "raster_mask_pixels": 6699
+        },
+        {
+          "kind": "syringe",
+          "bbox": [
+            0.296875,
+            0.3732638888888889,
+            0.5347222222222222,
+            0.7291666666666666
+          ],
+          "source_id": "phl-9f12808eec1c21c0",
+          "source_group": "phlebotomy-0012",
+          "source_sha256": "9f12808eec1c21c045fcb6f10685c0486cba229fee92e550c66b849f8cfbb068",
+          "raster_mask_pixels": 6703
+        }
+      ],
+      "nominal_angle": -56.13039951934,
+      "maximum_reference_aabb_iou": 0.515822489984783,
+      "split": "parallel-development",
+      "group": "dependent-simulator-development"
+    },
+    {
+      "id": "parallel-dev-004",
+      "sha256": "9cbd6fba70191716b84c0314b8d03349e3994703fa316cbfbf080565ef14c038",
+      "image": "detection_hillclimb/parallel-development/parallel-dev-004.jpg",
+      "title": "Synthetic parallel devices",
+      "objects": [
+        {
+          "kind": "syringe",
+          "bbox": [
+            0.3888888888888889,
+            0.3680555555555556,
+            0.6944444444444444,
+            0.6041666666666666
+          ],
+          "source_id": "phl-5414cebd7fc83433",
+          "source_group": "phlebotomy-0012",
+          "source_sha256": "5414cebd7fc8343354b4b8beeb0bcdebdae29b715c3de671d8ef9fef73ff2c52",
+          "raster_mask_pixels": 4257
+        },
+        {
+          "kind": "syringe",
+          "bbox": [
+            0.3402777777777778,
+            0.4201388888888889,
+            0.640625,
+            0.65625
+          ],
+          "source_id": "phl-f8563c66c7905530",
+          "source_group": "phlebotomy-0005",
+          "source_sha256": "f8563c66c790553016cfa8aebf6c3ccbbccc707543bfad1cdbcf3e8e9d330aff",
+          "raster_mask_pixels": 4353
+        }
+      ],
+      "nominal_angle": -36.60856703845732,
+      "maximum_reference_aabb_iou": 0.4789057144637626,
+      "split": "parallel-development",
+      "group": "dependent-simulator-development"
+    },
+    {
+      "id": "parallel-dev-005",
+      "sha256": "31bd786a7c4dd92fbddd56ca4a65d8a6297af80589020dfec24b9794a9ec8ebe",
+      "image": "detection_hillclimb/parallel-development/parallel-dev-005.jpg",
+      "title": "Synthetic parallel devices",
+      "objects": [
+        {
+          "kind": "syringe",
+          "bbox": [
+            0.3628472222222222,
+            0.34375,
+            0.6961805555555556,
+            0.5295138888888888
+          ],
+          "source_id": "phl-f8563c66c7905530",
+          "source_group": "phlebotomy-0005",
+          "source_sha256": "f8563c66c790553016cfa8aebf6c3ccbbccc707543bfad1cdbcf3e8e9d330aff",
+          "raster_mask_pixels": 4353
+        },
+        {
+          "kind": "syringe",
+          "bbox": [
+            0.3402777777777778,
+            0.3940972222222222,
+            0.6840277777777778,
+            0.5885416666666666
+          ],
+          "source_id": "phl-f914ed1015d82f68",
+          "source_group": "phlebotomy-0005",
+          "source_sha256": "f914ed1015d82f68ed86e1d7cc75ea625e28edef1e20402c932125f495198857",
+          "raster_mask_pixels": 4451
+        },
+        {
+          "kind": "syringe",
+          "bbox": [
+            0.3020833333333333,
+            0.4513888888888889,
+            0.6388888888888888,
+            0.6336805555555556
+          ],
+          "source_id": "phl-5414cebd7fc83433",
+          "source_group": "phlebotomy-0012",
+          "source_sha256": "5414cebd7fc8343354b4b8beeb0bcdebdae29b715c3de671d8ef9fef73ff2c52",
+          "raster_mask_pixels": 4254
+        }
+      ],
+      "nominal_angle": -26.763312495745414,
+      "maximum_reference_aabb_iou": 0.5100742311770945,
+      "split": "parallel-development",
+      "group": "dependent-simulator-development"
+    },
+    {
+      "id": "parallel-dev-006",
+      "sha256": "ffa0b4be568568c1b8aa66416825c018dc40dffa31bfd19cb9b09e35b8759a42",
+      "image": "detection_hillclimb/parallel-development/parallel-dev-006.jpg",
+      "title": "Synthetic parallel devices",
+      "objects": [
+        {
+          "kind": "syringe",
+          "bbox": [
+            0.3958333333333333,
+            0.2986111111111111,
+            0.7274305555555556,
+            0.5034722222222222
+          ],
+          "source_id": "phl-fde18ea002c07555",
+          "source_group": "phlebotomy-0012",
+          "source_sha256": "fde18ea002c07555d57957b637ed1fb430308ec33c9bdd4d8a6f05fdb6fc989c",
+          "raster_mask_pixels": 4199
+        },
+        {
+          "kind": "syringe",
+          "bbox": [
+            0.3663194444444444,
+            0.3576388888888889,
+            0.7013888888888888,
+            0.5798611111111112
+          ],
+          "source_id": "phl-aeacda225a56843b",
+          "source_group": "phlebotomy-0012",
+          "source_sha256": "aeacda225a56843b574c42f360d76890ba7a48c586b404faab84123420eee646",
+          "raster_mask_pixels": 6695
+        },
+        {
+          "kind": "syringe",
+          "bbox": [
+            0.3107638888888889,
+            0.421875,
+            0.6458333333333334,
+            0.6319444444444444
+          ],
+          "source_id": "phl-f914ed1015d82f68",
+          "source_group": "phlebotomy-0005",
+          "source_sha256": "f914ed1015d82f68ed86e1d7cc75ea625e28edef1e20402c932125f495198857",
+          "raster_mask_pixels": 4453
+        },
+        {
+          "kind": "syringe",
+          "bbox": [
+            0.2708333333333333,
+            0.4791666666666667,
+            0.5954861111111112,
+            0.6822916666666666
+          ],
+          "source_id": "phl-f8563c66c7905530",
+          "source_group": "phlebotomy-0005",
+          "source_sha256": "f8563c66c790553016cfa8aebf6c3ccbbccc707543bfad1cdbcf3e8e9d330aff",
+          "raster_mask_pixels": 4355
+        }
+      ],
+      "nominal_angle": -29.87770380151103,
+      "maximum_reference_aabb_iou": 0.46857142857142847,
+      "split": "parallel-development",
+      "group": "dependent-simulator-development"
+    },
+    {
+      "id": "parallel-dev-007",
+      "sha256": "ad923387f4b30a28e2ea2587573aa19c3d0bc49088cac3e23e205e850bfc0a0e",
+      "image": "detection_hillclimb/parallel-development/parallel-dev-007.jpg",
+      "title": "Synthetic parallel devices",
+      "objects": [
+        {
+          "kind": "syringe",
+          "bbox": [
+            0.3368055555555556,
+            0.3611111111111111,
+            0.7083333333333334,
+            0.5833333333333334
+          ],
+          "source_id": "phl-9f12808eec1c21c0",
+          "source_group": "phlebotomy-0012",
+          "source_sha256": "9f12808eec1c21c045fcb6f10685c0486cba229fee92e550c66b849f8cfbb068",
+          "raster_mask_pixels": 6697
+        },
+        {
+          "kind": "syringe",
+          "bbox": [
+            0.3020833333333333,
+            0.4357638888888889,
+            0.6336805555555556,
+            0.625
+          ],
+          "source_id": "phl-f8563c66c7905530",
+          "source_group": "phlebotomy-0005",
+          "source_sha256": "f8563c66c790553016cfa8aebf6c3ccbbccc707543bfad1cdbcf3e8e9d330aff",
+          "raster_mask_pixels": 4351
+        }
+      ],
+      "nominal_angle": -27.401639788638317,
+      "maximum_reference_aabb_iou": 0.43161301817317965,
+      "split": "parallel-development",
+      "group": "dependent-simulator-development"
+    },
+    {
+      "id": "parallel-dev-008",
+      "sha256": "2d3282a5e705c04c605884164e0b426b0f2e3d913056fa87315ec9778dccc003",
+      "image": "detection_hillclimb/parallel-development/parallel-dev-008.jpg",
+      "title": "Synthetic parallel devices",
+      "objects": [
+        {
+          "kind": "syringe",
+          "bbox": [
+            0.3003472222222222,
+            0.3142361111111111,
+            0.5399305555555556,
+            0.6163194444444444
+          ],
+          "source_id": "phl-5414cebd7fc83433",
+          "source_group": "phlebotomy-0012",
+          "source_sha256": "5414cebd7fc8343354b4b8beeb0bcdebdae29b715c3de671d8ef9fef73ff2c52",
+          "raster_mask_pixels": 4255
+        },
+        {
+          "kind": "syringe",
+          "bbox": [
+            0.3645833333333333,
+            0.3246527777777778,
+            0.6145833333333334,
+            0.6354166666666666
+          ],
+          "source_id": "phl-f914ed1015d82f68",
+          "source_group": "phlebotomy-0005",
+          "source_sha256": "f914ed1015d82f68ed86e1d7cc75ea625e28edef1e20402c932125f495198857",
+          "raster_mask_pixels": 4457
+        },
+        {
+          "kind": "syringe",
+          "bbox": [
+            0.4097222222222222,
+            0.3524305555555556,
+            0.6892361111111112,
+            0.6840277777777778
+          ],
+          "source_id": "phl-9f12808eec1c21c0",
+          "source_group": "phlebotomy-0012",
+          "source_sha256": "9f12808eec1c21c045fcb6f10685c0486cba229fee92e550c66b849f8cfbb068",
+          "raster_mask_pixels": 6703
+        }
+      ],
+      "nominal_angle": 52.224910726382056,
+      "maximum_reference_aabb_iou": 0.5170018281535649,
+      "split": "parallel-development",
+      "group": "dependent-simulator-development"
+    },
+    {
+      "id": "parallel-dev-009",
+      "sha256": "621cba0e8fc2d672994bb6da8eb94285e606604ed6a71b439b1366d59350246a",
+      "image": "detection_hillclimb/parallel-development/parallel-dev-009.jpg",
+      "title": "Synthetic parallel devices",
+      "objects": [
+        {
+          "kind": "syringe",
+          "bbox": [
+            0.2569444444444444,
+            0.2864583333333333,
+            0.6076388888888888,
+            0.4861111111111111
+          ],
+          "source_id": "phl-aeacda225a56843b",
+          "source_group": "phlebotomy-0012",
+          "source_sha256": "aeacda225a56843b574c42f360d76890ba7a48c586b404faab84123420eee646",
+          "raster_mask_pixels": 6697
+        },
+        {
+          "kind": "syringe",
+          "bbox": [
+            0.3020833333333333,
+            0.3628472222222222,
+            0.6371527777777778,
+            0.5555555555555556
+          ],
+          "source_id": "phl-5414cebd7fc83433",
+          "source_group": "phlebotomy-0012",
+          "source_sha256": "5414cebd7fc8343354b4b8beeb0bcdebdae29b715c3de671d8ef9fef73ff2c52",
+          "raster_mask_pixels": 4261
+        },
+        {
+          "kind": "syringe",
+          "bbox": [
+            0.3177083333333333,
+            0.4288194444444444,
+            0.6892361111111112,
+            0.6336805555555556
+          ],
+          "source_id": "phl-9f12808eec1c21c0",
+          "source_group": "phlebotomy-0012",
+          "source_sha256": "9f12808eec1c21c045fcb6f10685c0486cba229fee92e550c66b849f8cfbb068",
+          "raster_mask_pixels": 6709
+        },
+        {
+          "kind": "syringe",
+          "bbox": [
+            0.3923611111111111,
+            0.4722222222222222,
+            0.7326388888888888,
+            0.6736111111111112
+          ],
+          "source_id": "phl-f914ed1015d82f68",
+          "source_group": "phlebotomy-0005",
+          "source_sha256": "f914ed1015d82f68ed86e1d7cc75ea625e28edef1e20402c932125f495198857",
+          "raster_mask_pixels": 4453
+        }
+      ],
+      "nominal_angle": 28.22753951630972,
+      "maximum_reference_aabb_iou": 0.49565217391304367,
+      "split": "parallel-development",
+      "group": "dependent-simulator-development"
+    },
+    {
+      "id": "parallel-dev-010",
+      "sha256": "a5a1f7060420df3ea929342bf998c18220a0248ae8a5518c1cc9749b2e010fcc",
+      "image": "detection_hillclimb/parallel-development/parallel-dev-010.jpg",
+      "title": "Synthetic parallel devices",
+      "objects": [
+        {
+          "kind": "syringe",
+          "bbox": [
+            0.3611111111111111,
+            0.3767361111111111,
+            0.6944444444444444,
+            0.5677083333333334
+          ],
+          "source_id": "phl-5414cebd7fc83433",
+          "source_group": "phlebotomy-0012",
+          "source_sha256": "5414cebd7fc8343354b4b8beeb0bcdebdae29b715c3de671d8ef9fef73ff2c52",
+          "raster_mask_pixels": 4258
+        },
+        {
+          "kind": "syringe",
+          "bbox": [
+            0.3020833333333333,
+            0.4184027777777778,
+            0.6371527777777778,
+            0.6128472222222222
+          ],
+          "source_id": "phl-fde18ea002c07555",
+          "source_group": "phlebotomy-0012",
+          "source_sha256": "fde18ea002c07555d57957b637ed1fb430308ec33c9bdd4d8a6f05fdb6fc989c",
+          "raster_mask_pixels": 4200
+        }
+      ],
+      "nominal_angle": -28.308868352993013,
+      "maximum_reference_aabb_iou": 0.47051132062487117,
+      "split": "parallel-development",
+      "group": "dependent-simulator-development"
+    },
+    {
+      "id": "parallel-dev-011",
+      "sha256": "006c9a538d179bc2e411a96b575e084e4bcd92b90fc1e0b46948ecea36ef6237",
+      "image": "detection_hillclimb/parallel-development/parallel-dev-011.jpg",
+      "title": "Synthetic parallel devices",
+      "objects": [
+        {
+          "kind": "syringe",
+          "bbox": [
+            0.3038194444444444,
+            0.3142361111111111,
+            0.6336805555555556,
+            0.5173611111111112
+          ],
+          "source_id": "phl-fde18ea002c07555",
+          "source_group": "phlebotomy-0012",
+          "source_sha256": "fde18ea002c07555d57957b637ed1fb430308ec33c9bdd4d8a6f05fdb6fc989c",
+          "raster_mask_pixels": 4204
+        },
+        {
+          "kind": "syringe",
+          "bbox": [
+            0.3072916666666667,
+            0.3819444444444444,
+            0.65625,
+            0.5815972222222222
+          ],
+          "source_id": "phl-aeacda225a56843b",
+          "source_group": "phlebotomy-0012",
+          "source_sha256": "aeacda225a56843b574c42f360d76890ba7a48c586b404faab84123420eee646",
+          "raster_mask_pixels": 6701
+        },
+        {
+          "kind": "syringe",
+          "bbox": [
+            0.375,
+            0.4322916666666667,
+            0.7152777777777778,
+            0.6354166666666666
+          ],
+          "source_id": "phl-f914ed1015d82f68",
+          "source_group": "phlebotomy-0005",
+          "source_sha256": "f914ed1015d82f68ed86e1d7cc75ea625e28edef1e20402c932125f495198857",
+          "raster_mask_pixels": 4455
+        }
+      ],
+      "nominal_angle": 28.413293939047623,
+      "maximum_reference_aabb_iou": 0.47795052312506137,
+      "split": "parallel-development",
+      "group": "dependent-simulator-development"
+    },
+    {
+      "id": "parallel-dev-012",
+      "sha256": "acc0391cec28b0437460873c5d577cf021600e388bf464838921426423f9681e",
+      "image": "detection_hillclimb/parallel-development/parallel-dev-012.jpg",
+      "title": "Synthetic parallel devices",
+      "objects": [
+        {
+          "kind": "syringe",
+          "bbox": [
+            0.2586805555555556,
+            0.2986111111111111,
+            0.5607638888888888,
+            0.5416666666666666
+          ],
+          "source_id": "phl-5414cebd7fc83433",
+          "source_group": "phlebotomy-0012",
+          "source_sha256": "5414cebd7fc8343354b4b8beeb0bcdebdae29b715c3de671d8ef9fef73ff2c52",
+          "raster_mask_pixels": 4256
+        },
+        {
+          "kind": "syringe",
+          "bbox": [
+            0.3194444444444444,
+            0.3211805555555556,
+            0.6371527777777778,
+            0.5711805555555556
+          ],
+          "source_id": "phl-aeacda225a56843b",
+          "source_group": "phlebotomy-0012",
+          "source_sha256": "aeacda225a56843b574c42f360d76890ba7a48c586b404faab84123420eee646",
+          "raster_mask_pixels": 6697
+        },
+        {
+          "kind": "syringe",
+          "bbox": [
+            0.3767361111111111,
+            0.3802083333333333,
+            0.6857638888888888,
+            0.6336805555555556
+          ],
+          "source_id": "phl-f914ed1015d82f68",
+          "source_group": "phlebotomy-0005",
+          "source_sha256": "f914ed1015d82f68ed86e1d7cc75ea625e28edef1e20402c932125f495198857",
+          "raster_mask_pixels": 4453
+        },
+        {
+          "kind": "syringe",
+          "bbox": [
+            0.3958333333333333,
+            0.4583333333333333,
+            0.6961805555555556,
+            0.7100694444444444
+          ],
+          "source_id": "phl-fde18ea002c07555",
+          "source_group": "phlebotomy-0012",
+          "source_sha256": "fde18ea002c07555d57957b637ed1fb430308ec33c9bdd4d8a6f05fdb6fc989c",
+          "raster_mask_pixels": 4201
+        }
+      ],
+      "nominal_angle": 38.2668016331197,
+      "maximum_reference_aabb_iou": 0.5339846940318822,
+      "split": "parallel-development",
+      "group": "dependent-simulator-development"
+    },
+    {
+      "id": "parallel-dev-013",
+      "sha256": "42c01bd1cb533fc48e778b9dfe8dc6881b3469cc940008a6f0322a2f8b1f507e",
+      "image": "detection_hillclimb/parallel-development/parallel-dev-013.jpg",
+      "title": "Synthetic parallel devices",
+      "objects": [
+        {
+          "kind": "syringe",
+          "bbox": [
+            0.4201388888888889,
+            0.3263888888888889,
+            0.6475694444444444,
+            0.640625
+          ],
+          "source_id": "phl-f8563c66c7905530",
+          "source_group": "phlebotomy-0005",
+          "source_sha256": "f8563c66c790553016cfa8aebf6c3ccbbccc707543bfad1cdbcf3e8e9d330aff",
+          "raster_mask_pixels": 4356
+        },
+        {
+          "kind": "syringe",
+          "bbox": [
+            0.3524305555555556,
+            0.3472222222222222,
+            0.5763888888888888,
+            0.6614583333333334
+          ],
+          "source_id": "phl-5414cebd7fc83433",
+          "source_group": "phlebotomy-0012",
+          "source_sha256": "5414cebd7fc8343354b4b8beeb0bcdebdae29b715c3de671d8ef9fef73ff2c52",
+          "raster_mask_pixels": 4258
+        }
+      ],
+      "nominal_angle": -55.51018928961735,
+      "maximum_reference_aabb_iou": 0.47755102040816316,
+      "split": "parallel-development",
+      "group": "dependent-simulator-development"
+    },
+    {
+      "id": "parallel-dev-014",
+      "sha256": "035aeb4990ae4e3082323cc9f4b4fa8e2d44fbeef203ec805c6c080f412cad34",
+      "image": "detection_hillclimb/parallel-development/parallel-dev-014.jpg",
+      "title": "Synthetic parallel devices",
+      "objects": [
+        {
+          "kind": "syringe",
+          "bbox": [
+            0.2777777777777778,
+            0.3368055555555556,
+            0.6163194444444444,
+            0.5243055555555556
+          ],
+          "source_id": "phl-f8563c66c7905530",
+          "source_group": "phlebotomy-0005",
+          "source_sha256": "f8563c66c790553016cfa8aebf6c3ccbbccc707543bfad1cdbcf3e8e9d330aff",
+          "raster_mask_pixels": 4358
+        },
+        {
+          "kind": "syringe",
+          "bbox": [
+            0.3159722222222222,
+            0.390625,
+            0.6684027777777778,
+            0.578125
+          ],
+          "source_id": "phl-aeacda225a56843b",
+          "source_group": "phlebotomy-0012",
+          "source_sha256": "aeacda225a56843b574c42f360d76890ba7a48c586b404faab84123420eee646",
+          "raster_mask_pixels": 6683
+        },
+        {
+          "kind": "syringe",
+          "bbox": [
+            0.3559027777777778,
+            0.453125,
+            0.6927083333333334,
+            0.6458333333333334
+          ],
+          "source_id": "phl-fde18ea002c07555",
+          "source_group": "phlebotomy-0012",
+          "source_sha256": "fde18ea002c07555d57957b637ed1fb430308ec33c9bdd4d8a6f05fdb6fc989c",
+          "raster_mask_pixels": 4196
+        }
+      ],
+      "nominal_angle": 26.153938683950045,
+      "maximum_reference_aabb_iou": 0.4490779759296093,
+      "split": "parallel-development",
+      "group": "dependent-simulator-development"
+    },
+    {
+      "id": "parallel-dev-015",
+      "sha256": "6708d53d17ff93dafc3f443707a5637e70b479474dcf2632676a04a83a59c19c",
+      "image": "detection_hillclimb/parallel-development/parallel-dev-015.jpg",
+      "title": "Synthetic parallel devices",
+      "objects": [
+        {
+          "kind": "syringe",
+          "bbox": [
+            0.2673611111111111,
+            0.2864583333333333,
+            0.6197916666666666,
+            0.4791666666666667
+          ],
+          "source_id": "phl-aeacda225a56843b",
+          "source_group": "phlebotomy-0012",
+          "source_sha256": "aeacda225a56843b574c42f360d76890ba7a48c586b404faab84123420eee646",
+          "raster_mask_pixels": 6698
+        },
+        {
+          "kind": "syringe",
+          "bbox": [
+            0.2986111111111111,
+            0.3628472222222222,
+            0.640625,
+            0.5607638888888888
+          ],
+          "source_id": "phl-f914ed1015d82f68",
+          "source_group": "phlebotomy-0005",
+          "source_sha256": "f914ed1015d82f68ed86e1d7cc75ea625e28edef1e20402c932125f495198857",
+          "raster_mask_pixels": 4460
+        },
+        {
+          "kind": "syringe",
+          "bbox": [
+            0.3368055555555556,
+            0.421875,
+            0.6736111111111112,
+            0.6163194444444444
+          ],
+          "source_id": "phl-f8563c66c7905530",
+          "source_group": "phlebotomy-0005",
+          "source_sha256": "f8563c66c790553016cfa8aebf6c3ccbbccc707543bfad1cdbcf3e8e9d330aff",
+          "raster_mask_pixels": 4353
+        },
+        {
+          "kind": "syringe",
+          "bbox": [
+            0.3489583333333333,
+            0.4913194444444444,
+            0.7222222222222222,
+            0.6892361111111112
+          ],
+          "source_id": "phl-9f12808eec1c21c0",
+          "source_group": "phlebotomy-0012",
+          "source_sha256": "9f12808eec1c21c045fcb6f10685c0486cba229fee92e550c66b849f8cfbb068",
+          "raster_mask_pixels": 6704
+        }
+      ],
+      "nominal_angle": 27.345308032044816,
+      "maximum_reference_aabb_iou": 0.46379116146557986,
+      "split": "parallel-development",
+      "group": "dependent-simulator-development"
+    },
+    {
+      "id": "parallel-dev-016",
+      "sha256": "29579cf600e63164674adc2d3793e2a42b2bf33f2238c50275fce363115af737",
+      "image": "detection_hillclimb/parallel-development/parallel-dev-016.jpg",
+      "title": "Synthetic parallel devices",
+      "objects": [
+        {
+          "kind": "syringe",
+          "bbox": [
+            0.3298611111111111,
+            0.3315972222222222,
+            0.5746527777777778,
+            0.6388888888888888
+          ],
+          "source_id": "phl-fde18ea002c07555",
+          "source_group": "phlebotomy-0012",
+          "source_sha256": "fde18ea002c07555d57957b637ed1fb430308ec33c9bdd4d8a6f05fdb6fc989c",
+          "raster_mask_pixels": 4202
+        },
+        {
+          "kind": "syringe",
+          "bbox": [
+            0.4131944444444444,
+            0.3420138888888889,
+            0.6770833333333334,
+            0.6510416666666666
+          ],
+          "source_id": "phl-aeacda225a56843b",
+          "source_group": "phlebotomy-0012",
+          "source_sha256": "aeacda225a56843b574c42f360d76890ba7a48c586b404faab84123420eee646",
+          "raster_mask_pixels": 6697
+        }
+      ],
+      "nominal_angle": 51.90945440977361,
+      "maximum_reference_aabb_iou": 0.44040432013292724,
+      "split": "parallel-development",
+      "group": "dependent-simulator-development"
+    },
+    {
+      "id": "parallel-dev-017",
+      "sha256": "88a2b3cd515a633372c214e6b809dccd4e00a99022f2579d9afb1e21c085a3d7",
+      "image": "detection_hillclimb/parallel-development/parallel-dev-017.jpg",
+      "title": "Synthetic parallel devices",
+      "objects": [
+        {
+          "kind": "syringe",
+          "bbox": [
+            0.28125,
+            0.3350694444444444,
+            0.6145833333333334,
+            0.5277777777777778
+          ],
+          "source_id": "phl-5414cebd7fc83433",
+          "source_group": "phlebotomy-0012",
+          "source_sha256": "5414cebd7fc8343354b4b8beeb0bcdebdae29b715c3de671d8ef9fef73ff2c52",
+          "raster_mask_pixels": 4252
+        },
+        {
+          "kind": "syringe",
+          "bbox": [
+            0.3385416666666667,
+            0.3645833333333333,
+            0.6684027777777778,
+            0.5677083333333334
+          ],
+          "source_id": "phl-fde18ea002c07555",
+          "source_group": "phlebotomy-0012",
+          "source_sha256": "fde18ea002c07555d57957b637ed1fb430308ec33c9bdd4d8a6f05fdb6fc989c",
+          "raster_mask_pixels": 4201
+        },
+        {
+          "kind": "syringe",
+          "bbox": [
+            0.3506944444444444,
+            0.4288194444444444,
+            0.6996527777777778,
+            0.6284722222222222
+          ],
+          "source_id": "phl-aeacda225a56843b",
+          "source_group": "phlebotomy-0012",
+          "source_sha256": "aeacda225a56843b574c42f360d76890ba7a48c586b404faab84123420eee646",
+          "raster_mask_pixels": 6690
+        }
+      ],
+      "nominal_angle": 28.431452723286558,
+      "maximum_reference_aabb_iou": 0.5226605119597147,
+      "split": "parallel-development",
+      "group": "dependent-simulator-development"
+    },
+    {
+      "id": "parallel-dev-018",
+      "sha256": "b607020775e9de12947f3a2937d63610c722916e11bb6b817c63ceb5db12095d",
+      "image": "detection_hillclimb/parallel-development/parallel-dev-018.jpg",
+      "title": "Synthetic parallel devices",
+      "objects": [
+        {
+          "kind": "syringe",
+          "bbox": [
+            0.2517361111111111,
+            0.2934027777777778,
+            0.5920138888888888,
+            0.5572916666666666
+          ],
+          "source_id": "phl-9f12808eec1c21c0",
+          "source_group": "phlebotomy-0012",
+          "source_sha256": "9f12808eec1c21c045fcb6f10685c0486cba229fee92e550c66b849f8cfbb068",
+          "raster_mask_pixels": 6709
+        },
+        {
+          "kind": "syringe",
+          "bbox": [
+            0.3420138888888889,
+            0.3368055555555556,
+            0.640625,
+            0.5833333333333334
+          ],
+          "source_id": "phl-f8563c66c7905530",
+          "source_group": "phlebotomy-0005",
+          "source_sha256": "f8563c66c790553016cfa8aebf6c3ccbbccc707543bfad1cdbcf3e8e9d330aff",
+          "raster_mask_pixels": 4355
+        },
+        {
+          "kind": "syringe",
+          "bbox": [
+            0.3576388888888889,
+            0.3940972222222222,
+            0.6666666666666666,
+            0.6475694444444444
+          ],
+          "source_id": "phl-f914ed1015d82f68",
+          "source_group": "phlebotomy-0005",
+          "source_sha256": "f914ed1015d82f68ed86e1d7cc75ea625e28edef1e20402c932125f495198857",
+          "raster_mask_pixels": 4456
+        },
+        {
+          "kind": "syringe",
+          "bbox": [
+            0.4027777777777778,
+            0.4461805555555556,
+            0.703125,
+            0.6979166666666666
+          ],
+          "source_id": "phl-fde18ea002c07555",
+          "source_group": "phlebotomy-0012",
+          "source_sha256": "fde18ea002c07555d57957b637ed1fb430308ec33c9bdd4d8a6f05fdb6fc989c",
+          "raster_mask_pixels": 4202
+        }
+      ],
+      "nominal_angle": 38.34839905377351,
+      "maximum_reference_aabb_iou": 0.5442487364068007,
+      "split": "parallel-development",
+      "group": "dependent-simulator-development"
+    }
+  ],
+  "source_sha256": "65e6a937f28ca70162d9fb2b7ee097c419df75dd264ef752a36692961efb9351",
+  "generator_sha256": "3630a00535bc12c5bdc17cca26f7c3a3561b97845597758b2ee2fe123b13bd2c",
+  "role": "Development only. Disjoint foreground masks and deliberately overlapping axis-aligned boxes from known simulator-development polygons. Real-image inference is a separate audit."
+}

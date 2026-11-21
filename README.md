@@ -2,7 +2,7 @@
 
 MedSyringe Vision is a local research application for syringe localization, scene counts, visual review, and reference checks. It keeps observations and human revisions in a local SQLite database. Its detector runs from pinned weights on CPU or Intel Arc, and its reports contain the image evidence and original model output.
 
-The original single-view baseline found **10 of 15 reference objects** in a small external test of ten Open Images scenes. It made **zero false-positive detections** at the selected cutoff. Both missed scenes contained multiple syringes. Visual scale and barrel color are experimental suggestions. Their diagnostics use the single supplied photo session, so they have no independent performance estimate.
+The current release returned the exact count on all **177 Fil Rouge photos** and matched **172 of 177 reference boxes** at IoU 0.50. These photos come from one capture group. On **23 external native-resolution photographs**, it matched **39 of 48** instances, produced four false boxes and returned 20 exact counts. On the five crowded photographs in that source, it matched 24 of 30 instances and counted two scenes exactly. [Full live regression](artifacts/detection_hillclimb/sam_residency_full_live.json) · [Independent device audit](artifacts/detection_hillclimb/device_scene_audit_results.json)
 
 - [Scientific report](docs/report.md)
 - [Expanded Fil rouge study and release](docs/expanded_report.md)
@@ -56,7 +56,7 @@ bash scripts/serve_intel.sh
 
 ## Detection optimization
 
-The app uses one validated detection configuration for all uploads. A local SigLIP 2 crop check sends weak accepted detections to human review. The interface requires no profile or threshold setting. The latest release retained all 177 exact Fil Rouge counts and the previously matched reference instances in the full-capture replay. On independently sourced MedBin photos, the gate removed 15 false positives and preserved all 11 existing matches. On 26 additional negative scenes, correct empty results rose from 20 to 25. Recall on the fresh mixed Commons group remains 15/22. [Cross-domain detection report](docs/detection_generalization.md) · [Current runtime qualification](artifacts/detection_hillclimb/precision_text_only_live_check.json)
+The app applies a fixed detection configuration. A local SigLIP 2 crop check sends weak accepted detections to human review. On independently sourced MedBin photos, the gate removed 15 false positives and preserved all 11 existing matches. On 26 additional negative scenes, correct empty results rose from 20 to 25. Recall on the fresh mixed Commons group remains 15/22. On Intel Arc the application shares one SAM worker across proposals, corroboration and liquid measurements. [Cross-domain detection report](docs/detection_generalization.md) · [Offline runtime qualification](docs/local_runtime_bundle.md)
 
 Earlier alternatives and comparisons are described in the [detector optimization report](docs/detector_optimization.md), the [lookalike precision study](docs/precision_study.md), the [supervised training study](docs/supervised_training.md), the [hybrid and public-data experiments](docs/hybrid_experiments.md), and the [RF-DETR verification study](docs/rfdetr_verification.md).
 
