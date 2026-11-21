@@ -12,6 +12,7 @@ MANIFEST = "runtime-bundle.json"
 PYTHON = Path("data/runtime-python/cpython-3.12")
 LOCKS = ("artifacts/capacity_ocr_release.json", "artifacts/liquid_appearance_release.json",
          "artifacts/expanded/crop_verifier_release.json", "artifacts/fill/graduation_capacity_release.json")
+APPEARANCE = "artifacts/detection_hillclimb/appearance_release.json"
 EXACT_RELEASE = "artifacts/freeze.json"
 RECOVERY = "artifacts/rfdetr_verified_release.json"
 SAM_MODEL = "artifacts/sam3_checkpoint.json"
@@ -41,7 +42,8 @@ def pinned_assets(root):
     base[recovery["weights"]] = recovery["weights_sha256"]
     base["data/models/verifier/mobilenet_v3_small-047dcff4.pth"] = recovery["encoder_sha256"]
     base.update({str(Path("data/sam3/facebook-sam3")/name):value for name,value in read(root/SAM_MODEL)["files"].items()})
-    for path in LOCKS:
+    locks = (*LOCKS, APPEARANCE) if (root/APPEARANCE).is_file() else LOCKS
+    for path in locks:
         for file,value in read(root/path).get("models",{}).items():
             if file.startswith("data/"):
                 if file in base and base[file]!=value:

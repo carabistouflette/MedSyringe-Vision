@@ -43,7 +43,10 @@ def main():
             if record["release_sha256"]!=seal:
                 raise ValueError("The application and local worker use different policies.")
             image = decode_picture(request["image"])
-            regions = crop_frame(encoder,image,record)
+            fitting = record
+            if release.get("mode")=="veto-only":
+                fitting = {**record,"ranked":[p for p in record["ranked"] if p["score"]>=record["floor"]]}
+            regions = crop_frame(encoder,image,fitting)
             candidates,_ = apply_rules(record,regions,release["components"])
             response = {"result":explain(record,candidates)}
         except Exception:

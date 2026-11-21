@@ -111,7 +111,8 @@ function addCandidate(index) {
 function renderCandidates() {
   const below = report?.original.below_threshold_candidates || [];
   $("uncertain").hidden = !below.length;
-  $("candidates").replaceChildren(...below.map((pred, index) => {
+  const previousExpansion = $("candidates").querySelector("details")?.open;
+  const rows = below.map((pred, index) => {
     const row = node("div", undefined, "candidate-review");
     const originalScore = pred.original_score ?? pred.score;
     const label = `Inspect candidate ${index+1} · ${originalScore.toFixed(3)}`;
@@ -134,7 +135,15 @@ function renderCandidates() {
       row.append(add);
     }
     return row;
-  }));
+  });
+  if (rows.length > 2) {
+    const more = node("details", undefined, "additional-candidates");
+    more.open = Boolean(previousExpansion || (candidate != null && candidate >= 2));
+    more.append(node("summary", `Show ${rows.length - 2} more candidate${rows.length === 3 ? "" : "s"}`), ...rows.slice(2));
+    $("candidates").replaceChildren(...rows.slice(0, 2), more);
+  } else {
+    $("candidates").replaceChildren(...rows);
+  }
 }
 
 function renderBoxes() {
@@ -430,6 +439,7 @@ function editsPending() {
 
 function show(data) {
   report = data;
+  $("candidates").replaceChildren();
   objects = structuredClone(report.objects);
   selectedMarking = null;
   selected = null;

@@ -1,0 +1,308 @@
+{
+  "passed": true,
+  "scope": "Fresh positive and contextual negative scenes. Previously scored lookalikes are separate regression material.",
+  "selection_sha256": "b522af914cae4f10d962da869aa3bc18a84269c89a73c004cf1f067cfac62faf",
+  "groups": {
+    "commons:governor tom wolf from harrisburg, pa": 1,
+    "commons:davidd from waialua, oahu, hawaii, usa": 1,
+    "commons:bogtar201213": 1,
+    "commons:u.s. navy photo by petty officer 2nd class donavan k patubo": 1,
+    "commons:accuruss": 1,
+    "commons:cdc global": 1,
+    "commons:cifras confiables": 1,
+    "commons:petty officer 2nd class laurie dexter": 1,
+    "commons:abdsomod": 1,
+    "commons:u.s. navy photo by photographer's mate 2nd class johansen laurel": 1,
+    "commons:łukasz karolewski": 1,
+    "commons:aith9eew": 1,
+    "commons:u.s. navy photo by photographer’s mate airman finley williams": 1,
+    "commons:ivan radic": 1,
+    "commons:science museum group studio": 1,
+    "commons:u.s. air force photo by airman 1st class hannah stubblefield": 1,
+    "commons:cindy shebley": 1,
+    "commons:u.s. navy photo by mass communication specialist seaman andrew skipworth": 1,
+    "commons:jkgroove": 1,
+    "commons:u.s. navy photo by photographer's mate 3rd class mike larson.": 1,
+    "commons:u.s. navy photo by mass communication specialist 1st class todd a. schaffer": 1,
+    "commons:u.s. navy photo by mass communication specialist justin ailes": 1,
+    "commons:u.s. navy photo by photographer's mate airman jordon r. beesley": 1,
+    "commons:rhoda baer (photographer)": 1,
+    "commons:u.s. navy photo by photographer's mate 1st class michael larson": 1
+  },
+  "release": {
+    "images": 25,
+    "objects": 22,
+    "tp": 15,
+    "fp": 1,
+    "fn": 7,
+    "precision": 0.9375,
+    "recall": 0.6818181818181818,
+    "f1": 0.7894736842105263,
+    "ap50": 0.8766827286926022,
+    "ap50_95": 0.5053994102012974,
+    "exact_count": 20,
+    "negative_images": 4,
+    "correct_empty": 4
+  },
+  "candidate": {
+    "images": 25,
+    "objects": 22,
+    "tp": 16,
+    "fp": 1,
+    "fn": 6,
+    "precision": 0.9411764705882353,
+    "recall": 0.7272727272727273,
+    "f1": 0.8205128205128205,
+    "ap50": 0.8757759665987664,
+    "ap50_95": 0.5051602519551165,
+    "exact_count": 20,
+    "negative_images": 4,
+    "correct_empty": 4
+  },
+  "guard": {
+    "passed": true,
+    "lost_matches": [],
+    "recovered_matches": 1,
+    "baseline_matches": 15,
+    "candidate_matches": 16
+  },
+  "errors": {
+    "before": {
+      "fp": [
+        {
+          "id": "108044152",
+          "prediction": {
+            "bbox": [
+              0.641579617994527,
+              0.4335225746035576,
+              0.7205359861254692,
+              0.6133223935961724
+            ],
+            "score": 0.6772280764893512,
+            "auxiliary_score": 0.5355280637741089,
+            "source": "auxiliary",
+            "verification_score": 1.8574401552656565
+          },
+          "best_unmatched_iou": 0.49891122930576115
+        }
+      ],
+      "fn": [
+        {
+          "id": "108044152",
+          "box": [
+            0.636,
+            0.477,
+            0.701,
+            0.633
+          ]
+        },
+        {
+          "id": "162755068",
+          "box": [
+            0.145,
+            0.226,
+            0.59,
+            0.491
+          ]
+        },
+        {
+          "id": "162755068",
+          "box": [
+            0.142,
+            0.609,
+            0.59,
+            0.897
+          ]
+        },
+        {
+          "id": "8163727",
+          "box": [
+            0.53,
+            0.745,
+            0.566,
+            0.817
+          ]
+        },
+        {
+          "id": "11786189",
+          "box": [
+            0.49,
+            0.557,
+            0.545,
+            0.595
+          ]
+        },
+        {
+          "id": "16476237",
+          "box": [
+            0.434,
+            0.509,
+            0.538,
+            0.554
+          ]
+        },
+        {
+          "id": "8237558",
+          "box": [
+            0.467,
+            0.449,
+            0.532,
+            0.482
+          ]
+        }
+      ]
+    },
+    "after": {
+      "fp": [
+        {
+          "id": "108044152",
+          "prediction": {
+            "bbox": [
+              0.641579617994527,
+              0.4335225746035576,
+              0.7205359861254692,
+              0.6133223935961724
+            ],
+            "score": 0.6772280764893512,
+            "auxiliary_score": 0.5355280637741089,
+            "source": "auxiliary",
+            "verification_score": 1.8574401552656565
+          },
+          "best_unmatched_iou": 0.49891122930576115
+        }
+      ],
+      "fn": [
+        {
+          "id": "108044152",
+          "box": [
+            0.636,
+            0.477,
+            0.701,
+            0.633
+          ]
+        },
+        {
+          "id": "162755068",
+          "box": [
+            0.142,
+            0.609,
+            0.59,
+            0.897
+          ]
+        },
+        {
+          "id": "8163727",
+          "box": [
+            0.53,
+            0.745,
+            0.566,
+            0.817
+          ]
+        },
+        {
+          "id": "11786189",
+          "box": [
+            0.49,
+            0.557,
+            0.545,
+            0.595
+          ]
+        },
+        {
+          "id": "16476237",
+          "box": [
+            0.434,
+            0.509,
+            0.538,
+            0.554
+          ]
+        },
+        {
+          "id": "8237558",
+          "box": [
+            0.467,
+            0.449,
+            0.532,
+            0.482
+          ]
+        }
+      ]
+    }
+  },
+  "paired_intervals": {
+    "groups": 25,
+    "samples": 2000,
+    "interval_recall_delta": [
+      0.0,
+      0.1305830039525684
+    ],
+    "interval_precision_delta": [
+      0.0,
+      0.0208680555555554
+    ]
+  },
+  "slices": {
+    "release": {
+      "small": {
+        "references": 8,
+        "found": 3
+      },
+      "partial": {
+        "references": 16,
+        "found": 11
+      },
+      "multiple": {
+        "references": 2,
+        "found": 0
+      },
+      "negative": {
+        "kit with detached needles": {
+          "images": 1,
+          "false_alarm_images": 0
+        },
+        "oversized novelty syringe prop": {
+          "images": 1,
+          "false_alarm_images": 0
+        },
+        "unspecified negative": {
+          "images": 2,
+          "false_alarm_images": 0
+        }
+      }
+    },
+    "candidate": {
+      "small": {
+        "references": 8,
+        "found": 3
+      },
+      "partial": {
+        "references": 16,
+        "found": 11
+      },
+      "multiple": {
+        "references": 2,
+        "found": 1
+      },
+      "negative": {
+        "kit with detached needles": {
+          "images": 1,
+          "false_alarm_images": 0
+        },
+        "oversized novelty syringe prop": {
+          "images": 1,
+          "false_alarm_images": 0
+        },
+        "unspecified negative": {
+          "images": 2,
+          "false_alarm_images": 0
+        }
+      }
+    }
+  },
+  "median_ms": {
+    "baseline": 4077.1346729998186,
+    "dino-base": 1438.5036029998446,
+    "owlv2": 2362.46870299874,
+    "crop_features": 7105.532065999796
+  }
+}

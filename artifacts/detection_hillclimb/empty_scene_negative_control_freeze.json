@@ -1,0 +1,10 @@
+{
+  "inputs": {
+    "scripts/detection_empty_scene_negative_control.py": "750a60115a9fb606ef5612d43cd1f7973dcdc5c82021afed63ed4485e57fe037",
+    "artifacts/detection_hillclimb/empty_scene_selection.json": "cd045adbb89fa4ed5f485e046137f17c377822e9b50a2b01107696fd64ec3004",
+    "artifacts/detection_hillclimb/precision_negative_freeze.json": "6ffd246c370a27872c847b5f051d95546e6028c229901cda0ba54ac597a5d400",
+    "artifacts/detection_hillclimb/precision_negative_manifest.json": "b495cfb6cd04237ab3fe973470a51cb2a440acaded569bff11b9fd58e9785acf",
+    "data/detection_hillclimb/proposals/precision-negative-comparison.json": "b9117673cd53c9cbd7e880de37715c7b261f21b536b504047ed4478c0a495c10"
+  },
+  "qualification": "Every scene correctly empty under the deployed precision policy must remain empty."
+}

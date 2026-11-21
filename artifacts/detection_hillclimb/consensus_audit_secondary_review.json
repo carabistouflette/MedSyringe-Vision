@@ -1,0 +1,228 @@
+{
+  "frozen_manifest_sha256": "441bc73482d7d2295c68d281e4e9f40a8eb4956662c1ed50f4245539abfca547",
+  "method": "A separate reviewer inspected the eight original source images independently, using filenames only. The reader did not see the original references or model predictions.",
+  "scope": "Agreement analysis only. The frozen score uses the original manifest.",
+  "rows": [
+    {
+      "id": "184894593",
+      "source_sha256": "845f3b54e21f57dc995ed3d164ea2d8273bb4cb5bcfed983a97a92d42331e36c",
+      "original_boxes": [
+        [
+          0.37,
+          0.315,
+          0.408,
+          0.836
+        ]
+      ],
+      "reviewed_boxes": [
+        [
+          0.368,
+          0.32,
+          0.405,
+          0.833
+        ]
+      ],
+      "review_iou": [
+        0.8622
+      ],
+      "count_agreement": true,
+      "notes": "Hand occlusion. Includes needle to the vial stopper.",
+      "geometry_needs_confirmation": false
+    },
+    {
+      "id": "197762082",
+      "source_sha256": "9a242419feabff93ec79a219123a2e38ef1dc301894fe26979b630342005be75",
+      "original_boxes": [
+        [
+          0.0,
+          0.2833333333333333,
+          0.8713235294117647,
+          0.6666666666666666
+        ]
+      ],
+      "reviewed_boxes": [
+        [
+          0.0,
+          0.296,
+          0.87,
+          0.668
+        ]
+      ],
+      "review_iou": [
+        0.9621
+      ],
+      "count_agreement": true,
+      "notes": "Clipped left barrel including the attached needle.",
+      "geometry_needs_confirmation": false
+    },
+    {
+      "id": "157436178",
+      "source_sha256": "f1f1456835c482ccb4d155e1d20672f3f96e0dcb055fd47bed4e94cc18342ee9",
+      "original_boxes": [
+        [
+          0.577,
+          0.24,
+          0.651,
+          0.493
+        ]
+      ],
+      "reviewed_boxes": [
+        [
+          0.569,
+          0.246,
+          0.648,
+          0.479
+        ]
+      ],
+      "review_iou": [
+        0.8036
+      ],
+      "count_agreement": true,
+      "notes": "Strong blur. Bounds are approximate.",
+      "geometry_needs_confirmation": false
+    },
+    {
+      "id": "162755068",
+      "source_sha256": "f3f516e64978f433457164e984a43dbc29ae637049b05cf40738f4d7810c7035",
+      "original_boxes": [
+        [
+          0.145,
+          0.226,
+          0.59,
+          0.491
+        ],
+        [
+          0.142,
+          0.609,
+          0.59,
+          0.897
+        ]
+      ],
+      "reviewed_boxes": [
+        [
+          0.153,
+          0.209,
+          0.576,
+          0.47
+        ],
+        [
+          0.149,
+          0.613,
+          0.574,
+          0.889
+        ]
+      ],
+      "review_iou": [
+        0.8249,
+        0.9091
+      ],
+      "count_agreement": true,
+      "notes": "Two visible barrels. Detached needles excluded. Clear ends partly hidden by glare.",
+      "geometry_needs_confirmation": false
+    },
+    {
+      "id": "8180923",
+      "source_sha256": "aa515113b4f476dff37078aa53352f7e61a353f63e991d52408290ba20f86e47",
+      "original_boxes": [
+        [
+          0.449,
+          0.223,
+          0.609,
+          0.763
+        ]
+      ],
+      "reviewed_boxes": [
+        [
+          0.439,
+          0.221,
+          0.611,
+          0.766
+        ]
+      ],
+      "review_iou": [
+        0.9217
+      ],
+      "count_agreement": true,
+      "notes": "The visible needle ends at the vial stopper. A more distant mark may be reflection.",
+      "geometry_needs_confirmation": false
+    },
+    {
+      "id": "114431182",
+      "source_sha256": "767f8b064be0571db0971d6c0816ccff72f165d442ea2479974400e5119f8c3a",
+      "original_boxes": [
+        [
+          0.039,
+          0.561,
+          0.645,
+          0.756
+        ]
+      ],
+      "reviewed_boxes": [
+        [
+          0.042,
+          0.559,
+          0.644,
+          0.752
+        ]
+      ],
+      "review_iou": [
+        0.9632
+      ],
+      "count_agreement": true,
+      "notes": "The orange component is aligned with the plunger. Its junction is faint.",
+      "geometry_needs_confirmation": false
+    },
+    {
+      "id": "8237558",
+      "source_sha256": "fa36f12a4cac3e83bac27acb9469e174b06dfc32c5bda5dedc098a4e78bcf0b3",
+      "original_boxes": [
+        [
+          0.467,
+          0.449,
+          0.532,
+          0.482
+        ]
+      ],
+      "reviewed_boxes": [
+        [
+          0.469,
+          0.462,
+          0.56,
+          0.48
+        ]
+      ],
+      "review_iou": [
+        0.4281
+      ],
+      "count_agreement": true,
+      "notes": "Very small occluded object. The far plunger boundary is uncertain.",
+      "geometry_needs_confirmation": true
+    },
+    {
+      "id": "16476237",
+      "source_sha256": "d8aa0c8685db7e1a2280b216ed6f6dbe196f1622bff19be38e31f6b42dbf38b4",
+      "original_boxes": [
+        [
+          0.434,
+          0.509,
+          0.538,
+          0.554
+        ]
+      ],
+      "reviewed_boxes": [
+        [
+          0.43,
+          0.52,
+          0.534,
+          0.555
+        ]
+      ],
+      "review_iou": [
+        0.6911
+      ],
+      "count_agreement": true,
+      "notes": "Visible portions on both sides of the glove. A separate item is excluded.",
+      "geometry_needs_confirmation": true
+    }
+  ]
+}

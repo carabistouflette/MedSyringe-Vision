@@ -1,0 +1,65 @@
+{
+  "components": [
+    {
+      "name": "semantic-best",
+      "variant": "precision-only",
+      "head": null,
+      "bounds": [
+        10000.0,
+        -0.005,
+        1.0
+      ]
+    }
+  ],
+  "development": {
+    "phlebotomy-development": {
+      "before": {
+        "tp": 10,
+        "fp": 2,
+        "fn": 18
+      },
+      "after": {
+        "tp": 10,
+        "fp": 2,
+        "fn": 18
+      },
+      "guard": {
+        "passed": true,
+        "lost_matches": [],
+        "recovered_matches": 0,
+        "baseline_matches": 10,
+        "candidate_matches": 10
+      }
+    },
+    "public-development": {
+      "before": {
+        "tp": 2,
+        "fp": 5,
+        "fn": 7
+      },
+      "after": {
+        "tp": 2,
+        "fp": 1,
+        "fn": 7
+      },
+      "guard": {
+        "passed": true,
+        "lost_matches": [],
+        "recovered_matches": 0,
+        "baseline_matches": 2,
+        "candidate_matches": 2
+      }
+    }
+  },
+  "inputs": {
+    "/home/arobin/Work/Repos/MedSyringe-Vision/scripts/detection_precision_confirmation.py": "79155eacf2462fb9671cfe31041d5a08c26549490a54f6b34776be52b2164583",
+    "scripts/detection_crop_semantics.py": "b98e65af57a8381d511a87cda85c9bd0b5b30229f6a9c1360d00bd2060c591c9",
+    "scripts/detection_semantics_audit.py": "7b644f54b0a55e47559e1427e06dd065494f3d87968296ebdae87626bf3518bf",
+    "artifacts/detection_hillclimb/consensus_audit_freeze.json": "b522af914cae4f10d962da869aa3bc18a84269c89a73c004cf1f067cfac62faf",
+    "artifacts/expanded/crop_verifier_release.json": "24467cdc561e12a778067561439a33ecddb85ee57d4d92ce716228e517e64c00",
+    "artifacts/detector_release.json": "6481fabde0f83dc58083049abb0f6a69f94d2b734d94234a28fa0b2e197e7897",
+    "data/detection_hillclimb/proposals/phlebotomy-development-crop-semantics.json": "1e05ae2fc818e9bd43366a44f53c6d0f9b39e500fb8cb24a762c9d06b386e86b",
+    "data/detection_hillclimb/proposals/public-development-crop-semantics.json": "6d991b88daf0b94afb288dbad16104042501227fed1ac3c2f62a47df52d49adb"
+  },
+  "proof": "Fresh public cohort as the qualification set. Previously scored data are regression controls. No rescued boxes. No lost matches or additional false positives anywhere."
+}

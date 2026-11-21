@@ -15,6 +15,8 @@
 body { margin: 0; }
 a { color: var(--accent); }
 .warning { display: block; margin-top: .45rem; color: #8a4512; font-weight: 650; }
+.additional-candidates { margin-top: .45rem; }
+.additional-candidates > summary { color: var(--accent); cursor: pointer; }
 button, input, select { font: inherit; }
 button, .file-label { cursor: pointer; }
 button:disabled { opacity: .45; cursor: default; }

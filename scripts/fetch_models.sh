@@ -20,6 +20,10 @@ text_models=(config.json preprocessor_config.json tokenizer_config.json special_
 fetch dino IDEA-Research/grounding-dino-tiny a2bb814dd30d776dcf7e30523b00659f4f141c71 "${text_models[@]}" tokenizer.json vocab.txt model.safetensors
 fetch owl google/owlv2-base-patch16 2a1560802f8cf3c408fec9b809d705f56a2f7146 "${text_models[@]}" merges.txt vocab.json model.safetensors
 fetch dinov2-small facebook/dinov2-small ed25f3a31f01632728cabb09d1542f84ab7b0056 config.json model.safetensors
+if [ -f artifacts/detection_hillclimb/appearance_release.json ]; then
+  fetch siglip2-base google/siglip2-base-patch16-224 75de2d55ec2d0b4efc50b3e9ad70dba96a7b2fa2 \
+    config.json preprocessor_config.json tokenizer_config.json special_tokens_map.json tokenizer.json tokenizer.model model.safetensors
+fi
 
 verifier="data/models/verifier/mobilenet_v3_small-047dcff4.pth"
 if [ ! -f "$verifier" ]; then

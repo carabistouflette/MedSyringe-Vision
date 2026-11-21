@@ -1,0 +1,26 @@
+{
+  "passed": true,
+  "revision": "92a7c0466a4404524203db91144a0cbb8fbe2c0f",
+  "bundle_manifest_sha256": "23d9275f681e83fd1eca52f73a2ca6d396689be192edc6ec375cc4a779065b15",
+  "bundle_path": "data/deliverables/medsyringe-runtime",
+  "asset_files": 36,
+  "asset_bytes": 4447032822,
+  "checked_environments": [
+    ".venv",
+    "data/ocr-v6/env",
+    "data/sam3/xpu-env"
+  ],
+  "test_count": 57,
+  "cli_photo": "IMG_3316.jpeg",
+  "cli_detections": 1,
+  "cli_milliseconds": 41097.58124600012,
+  "cli_diagnostics": {
+    "status": "available",
+    "primary_backend": "cpu",
+    "unavailable": [],
+    "review_needed": false
+  },
+  "cli_output_sha256": "f8dcb7c3c00161e550337d442c75286c1256cbb0f08af920c519b28d5d56ed63",
+  "browser_proof_sha256": "644c90b57fd3b1fd03ed7605ff82522796051d67a0712cb68814caf613cf8e58",
+  "scope": "Clean local Git clone, packaged and restored Python interpreter and environments, offline CLI and Chromium with actual released weights."
+}

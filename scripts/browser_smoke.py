@@ -1,6 +1,9 @@
 """Exercise the visible local interface with a real browser and a real image."""
 import argparse
+from hashlib import sha256
+from io import BytesIO
 import json
+from math import ceil, floor
 from pathlib import Path
 import os
 import socket
@@ -12,6 +15,7 @@ from time import monotonic, sleep
 import urllib.request
 from zipfile import ZipFile
 
+from PIL import Image
 from playwright.sync_api import expect, sync_playwright
 
 from medsyringe.data import write_json
@@ -29,6 +33,8 @@ def main():
                         help="Check the stroke-guided capacity recovery on IMG_3294.jpeg.")
     parser.add_argument("--review-candidate", action="store_true",
                         help="Include a pending detection in a review and verify its provenance.")
+    parser.add_argument("--native-evidence", action="store_true",
+                        help="Verify the exact uploaded bytes and the native object crop.")
     parser.add_argument("--fill-control", action="store_true",
                         help="Check the piston overlay and export on a validated fill control image.")
     parser.add_argument("--manual-fill-control", action="store_true",
@@ -40,6 +46,8 @@ def main():
     with TemporaryDirectory(prefix="medsyringe-browser-") as temporary:
         root = Path(temporary)
         (root / "data").mkdir()
+        if Path(".venv").is_dir():
+            (root / ".venv").symlink_to(Path(".venv").resolve(), target_is_directory=True)
         (root / "data/models").symlink_to(Path("data/models").resolve(), target_is_directory=True)
         (root / "artifacts").symlink_to(Path("artifacts").resolve(), target_is_directory=True)
         if Path("artifacts/rfdetr_verified_release.json").exists():
@@ -79,6 +87,14 @@ def main():
                 page.get_by_role("button", name="Analyze", exact=True).click()
                 expect(page.locator("#boxes button").first).to_be_visible(timeout=120_000)
                 count = page.locator("#boxes button").count()
+                pixels = None
+                if args.native_evidence:
+                    link = page.get_by_role("link", name="Inspect native-resolution crop", exact=True).first
+                    expect(link).to_be_visible()
+                    native = page.request.get(address.rstrip("/") + link.get_attribute("href"))
+                    assert native.ok and "image/png" in native.headers["content-type"]
+                    with Image.open(BytesIO(native.body())) as crop_image:
+                        pixels = crop_image.size
                 revision_number = 1
                 if args.expanded_markings_control:
                     expect(page.get_by_text("Nominal capacity · 20 mL", exact=True)).to_be_visible()
@@ -170,6 +186,16 @@ def main():
                 assert download.value.suggested_filename.endswith(".zip")
                 with ZipFile(download.value.path()) as report_zip:
                     report = json.loads(report_zip.read("report.json"))
+                    if args.native_evidence:
+                        original = report_zip.read(report["original_image"])
+                        source = report["original"]
+                        assert original == args.image.read_bytes()
+                        assert sha256(original).hexdigest() == source["source_sha256"]
+                        w, h = source["dimensions"]
+                        l, t, r, b = source["objects"][0]["bbox"]
+                        assert pixels == (ceil(r*w)-floor(l*w), ceil(b*h)-floor(t*h))
+                        assert source["detection_checks"]["status"] == "available"
+                        flows.append("verified native-resolution crop and exact original bytes in export")
                     assert report["revision"] == revision_number
                     assert report["original"]["objects"][0]["origin"] == "model"
                     assert report["objects"][0]["scale"] == corrected
@@ -205,7 +231,13 @@ def main():
                                       "preserved markings and liquid evidence in reviewed export"])
                 screenshot = args.output.stem.replace("_smoke", "")
                 if args.review_candidate:
-                    page.locator("#uncertain summary").click()
+                    page.locator("#uncertain > summary").click()
+                    more = page.locator("#candidates > details > summary")
+                    if more.count():
+                        expect(page.locator("#candidates > .candidate-review")).to_have_count(2)
+                        more.click()
+                        expect(page.get_by_role("button",name="Inspect candidate 3 ·",exact=False).first).to_be_visible()
+                        flows.append("two initial proposals and access to all remaining candidates")
                     page.get_by_role("button", name="Inspect candidate 1 ·", exact=False).first.click()
                     expect(page.locator('#boxes [data-label="Review candidate"]')).to_be_visible()
                     page.get_by_role("button", name="Add candidate 1 to review", exact=True).click()

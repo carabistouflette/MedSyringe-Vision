@@ -1,0 +1,25 @@
+{
+  "inputs": {
+    "/home/arobin/Work/Repos/MedSyringe-Vision/scripts/detection_precision_negative_audit.py": "67e1a4495b32e3aa7169826f2a5bc4d20b91f0b348c7152224c47687a6fb6226",
+    "artifacts/detection_hillclimb/precision_negative_manifest.json": "b495cfb6cd04237ab3fe973470a51cb2a440acaded569bff11b9fd58e9785acf",
+    "artifacts/detection_hillclimb/precision_negative_review.json": "57eee423dd3f6e783af0e6f01385cac36aa0f1b5b9ea183964b24053812e1250",
+    "artifacts/detection_hillclimb/precision_only_confirmation_freeze.json": "d86ea711e7f9ec7e8cd545063c82910f42cf3f3c303c64de6a32e38d872c7939",
+    "artifacts/detection_hillclimb/precision_only_confirmation_audit.json": "a24ba29be9f62d894dfbb16519175d2ebbc0e250d58e40ae8165f45078319bb2",
+    "artifacts/expanded/crop_verifier_release.json": "24467cdc561e12a778067561439a33ecddb85ee57d4d92ce716228e517e64c00",
+    "artifacts/detector_release.json": "6481fabde0f83dc58083049abb0f6a69f94d2b734d94234a28fa0b2e197e7897"
+  },
+  "components": [
+    {
+      "name": "semantic-best",
+      "variant": "precision-only",
+      "head": null,
+      "bounds": [
+        10000.0,
+        -0.005,
+        1.0
+      ]
+    }
+  ],
+  "primary_endpoint": "More newly audited scenes with zero accepted predictions and fewer false-positive boxes.",
+  "qualification": "Both primary endpoints must improve, no negative scene may gain a false alarm, all fixed positive-cohort matches and full-capture counts must be retained."
+}

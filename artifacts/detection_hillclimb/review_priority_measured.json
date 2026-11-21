@@ -1,0 +1,123 @@
+{
+  "passed": false,
+  "policy": "existing",
+  "selection_sha256": "2e984b55647aaf606bbc8730ac0b760cd53c968bcaefc9b79e45f09fb56c4ef5",
+  "results": {
+    "fresh": {
+      "top_two_old": 21,
+      "top_two_candidate": 21,
+      "top_two_guard": {
+        "passed": true,
+        "lost_matches": [],
+        "recovered_matches": 0,
+        "baseline_matches": 21,
+        "candidate_matches": 21
+      },
+      "reachable_at_five": 21,
+      "full_list_guard": {
+        "passed": true,
+        "lost_matches": [],
+        "recovered_matches": 0,
+        "baseline_matches": 21,
+        "candidate_matches": 21
+      },
+      "accepted": 15,
+      "references": 22,
+      "suggestions_shown_first": 50,
+      "images": 25
+    },
+    "commons-regression": {
+      "top_two_old": 13,
+      "top_two_candidate": 13,
+      "top_two_guard": {
+        "passed": true,
+        "lost_matches": [],
+        "recovered_matches": 0,
+        "baseline_matches": 13,
+        "candidate_matches": 13
+      },
+      "reachable_at_five": 14,
+      "full_list_guard": {
+        "passed": true,
+        "lost_matches": [],
+        "recovered_matches": 0,
+        "baseline_matches": 14,
+        "candidate_matches": 14
+      },
+      "accepted": 10,
+      "references": 15,
+      "suggestions_shown_first": 50,
+      "images": 25
+    },
+    "previous-reserve": {
+      "top_two_old": 7,
+      "top_two_candidate": 7,
+      "top_two_guard": {
+        "passed": true,
+        "lost_matches": [],
+        "recovered_matches": 0,
+        "baseline_matches": 7,
+        "candidate_matches": 7
+      },
+      "reachable_at_five": 7,
+      "full_list_guard": {
+        "passed": true,
+        "lost_matches": [],
+        "recovered_matches": 0,
+        "baseline_matches": 7,
+        "candidate_matches": 7
+      },
+      "accepted": 4,
+      "references": 7,
+      "suggestions_shown_first": 42,
+      "images": 21
+    },
+    "openimages": {
+      "top_two_old": 10,
+      "top_two_candidate": 10,
+      "top_two_guard": {
+        "passed": true,
+        "lost_matches": [],
+        "recovered_matches": 0,
+        "baseline_matches": 10,
+        "candidate_matches": 10
+      },
+      "reachable_at_five": 10,
+      "full_list_guard": {
+        "passed": true,
+        "lost_matches": [],
+        "recovered_matches": 0,
+        "baseline_matches": 10,
+        "candidate_matches": 10
+      },
+      "accepted": 8,
+      "references": 11,
+      "suggestions_shown_first": 20,
+      "images": 10
+    },
+    "lookalikes": {
+      "top_two_old": 0,
+      "top_two_candidate": 0,
+      "top_two_guard": {
+        "passed": true,
+        "lost_matches": [],
+        "recovered_matches": 0,
+        "baseline_matches": 0,
+        "candidate_matches": 0
+      },
+      "reachable_at_five": 0,
+      "full_list_guard": {
+        "passed": true,
+        "lost_matches": [],
+        "recovered_matches": 0,
+        "baseline_matches": 0,
+        "candidate_matches": 0
+      },
+      "accepted": 0,
+      "references": 0,
+      "suggestions_shown_first": 26,
+      "images": 13
+    }
+  },
+  "meaning": "Potential reference coverage from direct candidate inspection. Operator accuracy and labor time remain unmeasured."
+}

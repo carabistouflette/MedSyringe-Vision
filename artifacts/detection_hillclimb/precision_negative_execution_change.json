@@ -1,0 +1,14 @@
+{
+  "old_freeze_sha256": "621547c484e8c326471be031dc44f5f798367111ddf683b90b57e291a42fba35",
+  "new_freeze_sha256": "6ffd246c370a27872c847b5f051d95546e6028c229901cda0ba54ac597a5d400",
+  "old_code_sha256": "67e1a4495b32e3aa7169826f2a5bc4d20b91f0b348c7152224c47687a6fb6226",
+  "new_code_sha256": "2438808dd67bb967bc271d126f68c7e608ddcb607dc8536f8872282f0c1ef9fb",
+  "unchanged": [
+    "data",
+    "references",
+    "selection",
+    "endpoints",
+    "release"
+  ],
+  "reason": "The first attempt produced no saved frames because Transformers 5.23 returns structured SigLIP2 features. Image detection still uses the Intel environment. The same frozen crop gate runs in its audited 4.57.3 CPU environment."
+}

@@ -3,6 +3,7 @@ import argparse
 from pathlib import Path
 from time import perf_counter
 
+from .appearance_runtime import install_appearance
 from .data import digest, read_image, write_json
 from .detection_checks import DetectionChecks
 from .grounding_backend import analyze, enable_intel
@@ -14,6 +15,7 @@ class MedSyringeEngine(ProductionEngine):
     def __init__(self, root):
         super().__init__(root)
         self.scale_reader = scale_reader(self, root)
+        self.appearance = install_appearance(self, root)
         self.detection_checks = DetectionChecks(self)
 
     def analyze(self, image, ocr=False):
@@ -28,8 +30,12 @@ class MedSyringeEngine(ProductionEngine):
 
     def close(self):
         try:
-            if self.scale_reader is not None:
-                self.scale_reader.close()
+            try:
+                if self.appearance is not None:
+                    self.appearance.close()
+            finally:
+                if self.scale_reader is not None:
+                    self.scale_reader.close()
         finally:
             super().close()
 

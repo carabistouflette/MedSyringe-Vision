@@ -20,6 +20,7 @@ dev = ["pytest==9.0.2", "httpx==0.28.1"]
 
 [tool.pytest.ini_options]
 pythonpath = ["."]
+testpaths = ["tests"]
 
 [tool.uv.sources]
 torch = { index = "pytorch-cpu" }

@@ -1,0 +1,238 @@
+{
+  "pool_sha256": "9a0be411fe061651498396681891949f926e4ea2779c5680ff34f3df73dc99fb",
+  "images": {
+    "83573456": {
+      "objects": [
+        {
+          "bbox": [
+            0.3125,
+            0.530387,
+            0.477941,
+            0.674033
+          ],
+          "kind": "syringe"
+        }
+      ],
+      "lookalikes": [],
+      "review": "Small partly covered syringe between gloves and green hub."
+    },
+    "199649565": {
+      "objects": [
+        {
+          "bbox": [
+            0.0,
+            0.451613,
+            0.331288,
+            0.62212
+          ],
+          "kind": "syringe"
+        }
+      ],
+      "lookalikes": [],
+      "review": "Partly clipped injection syringe at the left edge. Red treat dispenser at the right is separate."
+    },
+    "163341892": {
+      "objects": [
+        {
+          "bbox": [
+            0.656442,
+            0.354839,
+            0.834356,
+            0.97235
+          ],
+          "kind": "syringe"
+        }
+      ],
+      "lookalikes": [],
+      "review": "Vertical transparent syringe through the needle tip and bottom of plunger."
+    },
+    "52359967": {
+      "objects": [
+        {
+          "bbox": [
+            0.208589,
+            0.313364,
+            0.711656,
+            0.714286
+          ],
+          "kind": "syringe"
+        }
+      ],
+      "lookalikes": [],
+      "review": "Attached needle and syringe barrel. Vial above is excluded."
+    },
+    "8169576": {
+      "objects": [
+        {
+          "bbox": [
+            0.393382,
+            0.359551,
+            0.621324,
+            0.685393
+          ],
+          "kind": "syringe"
+        }
+      ],
+      "lookalikes": [],
+      "review": "Syringe held above the exposed shoulder. Part of barrel crosses gripping fingers."
+    },
+    "8170496": {
+      "objects": [
+        {
+          "bbox": [
+            0.394366,
+            0.525346,
+            0.56338,
+            1.0
+          ],
+          "kind": "syringe"
+        }
+      ],
+      "lookalikes": [],
+      "review": "Vertical partly clipped syringe, narrow needle visible below vial stopper."
+    },
+    "41056317": {
+      "objects": [
+        {
+          "bbox": [
+            0.696552,
+            0.285714,
+            0.882759,
+            0.589862
+          ],
+          "kind": "syringe"
+        }
+      ],
+      "lookalikes": [],
+      "review": "Clear object and dark stopper between hands below the vial."
+    },
+    "38193226": {
+      "objects": [
+        {
+          "bbox": [
+            0.294737,
+            0.133641,
+            0.631579,
+            0.617512
+          ],
+          "kind": "syringe"
+        }
+      ],
+      "lookalikes": [],
+      "review": "Marked barrel and thin visible needle. Gloved hand occludes the plunger."
+    },
+    "25985515": {
+      "objects": [
+        {
+          "bbox": [
+            0.775254,
+            0.208769,
+            0.817119,
+            0.375385
+          ],
+          "kind": "syringe"
+        }
+      ],
+      "lookalikes": [],
+      "review": "Visible clear barrel and green needle hub between gloves."
+    },
+    "186900461": {
+      "objects": [
+        {
+          "bbox": [
+            0.545758,
+            0.518991,
+            0.648047,
+            0.756055
+          ],
+          "kind": "syringe"
+        }
+      ],
+      "lookalikes": [],
+      "review": "Broad partly occluded clear syringe in left glove. Adjacent ultrasound probe excluded."
+    },
+    "65608130": {
+      "objects": [
+        {
+          "bbox": [
+            0.426368,
+            0.37,
+            0.746345,
+            1.0
+          ],
+          "kind": "syringe"
+        }
+      ],
+      "lookalikes": [],
+      "review": "One clear syringe. Two detached capped needles and the vials are excluded."
+    },
+    "157359768": {
+      "objects": [
+        {
+          "bbox": [
+            0.522201,
+            0.450284,
+            0.595174,
+            0.503333
+          ],
+          "kind": "syringe"
+        }
+      ],
+      "lookalikes": [],
+      "review": "Small syringe visible from fine needle to hand; concealed ends omitted."
+    },
+    "54790347": {
+      "objects": [],
+      "lookalikes": [],
+      "review": "Filling in a vaccination form with a pen. No visible syringe."
+    },
+    "179908563": {
+      "objects": [],
+      "lookalikes": [],
+      "review": "Group briefing in vaccination room. No recognizable syringe at source resolution."
+    },
+    "12246426": {
+      "objects": [],
+      "lookalikes": [],
+      "review": "Photograph of needle disposal cabinet with a printed syringe icon only."
+    },
+    "115147358": {
+      "objects": [],
+      "lookalikes": [],
+      "review": "Vaccination certificate on a table. No medical instrument."
+    },
+    "47445586": {
+      "objects": [],
+      "lookalikes": [],
+      "review": "Loose medical alcohol-pad packets."
+    },
+    "82082244": {
+      "objects": [],
+      "lookalikes": [],
+      "review": "Exterior of a vaccination station and ambulance. No visible instrument."
+    }
+  },
+  "excluded": [
+    "158228818",
+    "195304444",
+    "97385226",
+    "11508833",
+    "157473672",
+    "66711595",
+    "25415428",
+    "58444412",
+    "151008871",
+    "16925741",
+    "49553037",
+    "147956200",
+    "138377692",
+    "88493235",
+    "36002113",
+    "80580773",
+    "95961007",
+    "57906933",
+    "143654783",
+    "6652602"
+  ],
+  "scope": "Full-frame and targeted native-resolution review without predictions. Occluded positives require a recognizable barrel. Exclusions include drawings, unsupported publication images, uncertainty about a hidden syringe and ordinary photos without task context."
+}

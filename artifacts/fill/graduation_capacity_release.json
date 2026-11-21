@@ -25,10 +25,10 @@
   "code": {
     "medsyringe/graduation_ocr.py": "cb606c35ddc9da1b2caf7ed1fe24803803ff56c68d5860c58a8aca4ac254a61d",
     "medsyringe/scale_runtime.py": "8d2ef2eaea98eacd7e3df8a1a0124924a00a9afd13f7b671a603fc81797f00bb",
-    "medsyringe/pipeline.py": "fc2d729299c194825388e82264cc2dc07c0261930ceaada661a3c2397facc240",
+    "medsyringe/pipeline.py": "57b70f3c7ac346f1e69b7bbc7b6322bdf280fc32132bbda856c04b7d9dfbb87a",
     "scripts/scale_worker.py": "95d333ce99aa237a89e7e46840bab75507c9e58849a9a7275af5a3ee02d4c745",
     "scripts/scale_worker.sh": "5381b6358081b25db36f7eaaaf3299f8057ca0b12fb9917c739c468b06583d47",
-    "medsyringe/detection_checks.py": "62407a492d15af469d502c4247ea829c0d34372f94ffbb655b5612e558168803"
+    "medsyringe/detection_checks.py": "d90a633815eb70ff31755cbf8ef657f33ba71580474677f96d1db690969b378d"
   },
   "models": {
     "data/ocr-v6/models/PP-OCRv6_tiny_rec/.gitattributes": "a3a43406012ee8c7b9b38dfab1b11610f33e8245cd864a9a9302d042616a859e",

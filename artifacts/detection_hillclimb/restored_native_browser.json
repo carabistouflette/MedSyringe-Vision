@@ -1,0 +1,16 @@
+{
+  "passed": true,
+  "git_revision": "92a7c0466a4404524203db91144a0cbb8fbe2c0f",
+  "browser": "Chromium",
+  "source_sha256": "bfe339118bcb93524964d3d0034f168b084c14ca8fdb40625b9b8b707cac5d5e",
+  "file": "IMG_3316.jpeg",
+  "offline": true,
+  "backend": "xpu",
+  "native_crop_pixels": [
+    713,
+    3054
+  ],
+  "uploaded_bytes_match_export": true,
+  "narrow_viewport_pixels": 390,
+  "api_observation_count": 1
+}

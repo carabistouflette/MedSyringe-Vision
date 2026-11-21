@@ -11,9 +11,10 @@ ENTRY = Path(__file__).resolve().parents[1] / "scripts/appearance_worker.sh"
 
 
 class AppearanceRuntime:
-    def __init__(self, root, detector):
+    def __init__(self, root, detector, mode=None):
         self.worker = ImageWorker(root, ENTRY, "appearance", {})
         self.detector = detector
+        self.mode = mode
         self.release = digest(root / RELEASE)
         self.lock = Lock()
         self.status = None
@@ -21,6 +22,9 @@ class AppearanceRuntime:
     def detect(self, image):
         ranked, cutoff, supplemental = self.detector(image)
         with self.lock:
+            if self.mode == "veto-only" and not any(p["score"] >= cutoff for p in ranked):
+                self.status = "no accepted detections needed crop verification"
+                return ranked, cutoff, supplemental
             self.worker.options = dict(ranked=ranked, floor=cutoff, release_sha256=self.release)
             try:
                 scored = self.worker.run(image)
@@ -46,7 +50,7 @@ def install_appearance(engine, root):
         raise ValueError("The crop appearance release does not match the local baseline.")
     if not (root / ".venv/bin/python").is_file():
         raise FileNotFoundError("Restore the pinned Python environment for crop verification.")
-    runtime = AppearanceRuntime(root, engine.expanded.detect)
+    runtime = AppearanceRuntime(root, engine.expanded.detect, config.get("mode"))
     engine.expanded.detect = runtime.detect
     engine.identity["appearance_detection_sha256"] = runtime.release
     return runtime

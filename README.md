@@ -52,7 +52,9 @@ bash scripts/serve_intel.sh
 
 ## Detection optimization
 
-The app uses one validated detection configuration for all uploads. It does not require selecting a profile or setting a threshold. Methods, model comparisons, and independent results are documented in the [detector optimization report](docs/detector_optimization.md). See also the [lookalike precision study](docs/precision_study.md), the [supervised training study](docs/supervised_training.md), the [hybrid and public-data experiments](docs/hybrid_experiments.md), the [RF-DETR segmentation transfer study](docs/rfdetr_transfer.md), and the [RF-DETR verification study](docs/rfdetr_verification.md). The former Fil rouge profile results in the artifact archive describe the previous implementation.
+The app uses one validated detection configuration for all uploads. A local SigLIP 2 crop check sends weak accepted detections to human review. The interface requires no profile or threshold setting. The latest release retained every previously matched reference and all 177 exact Fil Rouge counts in the full-capture replay. On 26 new negative scenes, correct empty results rose from 20 to 25. Recall on the fresh mixed external cohort remains 15/22. [Cross-domain detection report](docs/detection_generalization.md) · [Live qualification](artifacts/detection_hillclimb/precision_only_live_check.json)
+
+Earlier alternatives and comparisons are described in the [detector optimization report](docs/detector_optimization.md), the [lookalike precision study](docs/precision_study.md), the [supervised training study](docs/supervised_training.md), the [hybrid and public-data experiments](docs/hybrid_experiments.md), and the [RF-DETR verification study](docs/rfdetr_verification.md).
 
 ## Prepare the supplied source
 

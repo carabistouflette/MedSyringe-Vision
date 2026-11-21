@@ -1,0 +1,10 @@
+{
+  "previous_sha256": "3f3d64c5a5626e73c713c0932d47865c940dd0c73d807e304ee2c5a6d6df7cba",
+  "current_sha256": "4b66aae8b3f49023a231f8d2bd6396845f385f7f51764a8c3ce9c333f6805f8b",
+  "changed_code": [
+    "medsyringe/pipeline.py",
+    "medsyringe/detection_checks.py"
+  ],
+  "qualification_sha256": "8e9a3e0eaa11483a48f7cc35718a695038958847874987a676df691d000cad7c",
+  "scope": "The independently qualified detection gate runs before attribute analysis. The OCR method, settings, model weights and prior evidence are unchanged. A real OCR replay is part of the gate's runtime check."
+}

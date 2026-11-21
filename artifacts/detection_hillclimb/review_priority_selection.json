@@ -1,0 +1,214 @@
+{
+  "chosen": "existing",
+  "development": {
+    "existing": {
+      "phlebotomy-development": {
+        "top_two_old": 16,
+        "top_two_candidate": 16,
+        "top_two_guard": {
+          "passed": true,
+          "lost_matches": [],
+          "recovered_matches": 0,
+          "baseline_matches": 16,
+          "candidate_matches": 16
+        },
+        "reachable_at_five": 19,
+        "full_list_guard": {
+          "passed": true,
+          "lost_matches": [],
+          "recovered_matches": 0,
+          "baseline_matches": 19,
+          "candidate_matches": 19
+        },
+        "accepted": 10,
+        "references": 28,
+        "suggestions_shown_first": 80,
+        "images": 40
+      },
+      "public-development": {
+        "top_two_old": 6,
+        "top_two_candidate": 6,
+        "top_two_guard": {
+          "passed": true,
+          "lost_matches": [],
+          "recovered_matches": 0,
+          "baseline_matches": 6,
+          "candidate_matches": 6
+        },
+        "reachable_at_five": 8,
+        "full_list_guard": {
+          "passed": true,
+          "lost_matches": [],
+          "recovered_matches": 0,
+          "baseline_matches": 8,
+          "candidate_matches": 8
+        },
+        "accepted": 2,
+        "references": 9,
+        "suggestions_shown_first": 22,
+        "images": 11
+      }
+    },
+    "score": {
+      "phlebotomy-development": {
+        "top_two_old": 16,
+        "top_two_candidate": 16,
+        "top_two_guard": {
+          "passed": true,
+          "lost_matches": [],
+          "recovered_matches": 0,
+          "baseline_matches": 16,
+          "candidate_matches": 16
+        },
+        "reachable_at_five": 19,
+        "full_list_guard": {
+          "passed": true,
+          "lost_matches": [],
+          "recovered_matches": 0,
+          "baseline_matches": 19,
+          "candidate_matches": 19
+        },
+        "accepted": 10,
+        "references": 28,
+        "suggestions_shown_first": 80,
+        "images": 40
+      },
+      "public-development": {
+        "top_two_old": 6,
+        "top_two_candidate": 6,
+        "top_two_guard": {
+          "passed": true,
+          "lost_matches": [],
+          "recovered_matches": 0,
+          "baseline_matches": 6,
+          "candidate_matches": 6
+        },
+        "reachable_at_five": 8,
+        "full_list_guard": {
+          "passed": true,
+          "lost_matches": [],
+          "recovered_matches": 0,
+          "baseline_matches": 8,
+          "candidate_matches": 8
+        },
+        "accepted": 2,
+        "references": 9,
+        "suggestions_shown_first": 22,
+        "images": 11
+      }
+    },
+    "distinct": {
+      "phlebotomy-development": {
+        "top_two_old": 16,
+        "top_two_candidate": 16,
+        "top_two_guard": {
+          "passed": true,
+          "lost_matches": [],
+          "recovered_matches": 0,
+          "baseline_matches": 16,
+          "candidate_matches": 16
+        },
+        "reachable_at_five": 19,
+        "full_list_guard": {
+          "passed": true,
+          "lost_matches": [],
+          "recovered_matches": 0,
+          "baseline_matches": 19,
+          "candidate_matches": 19
+        },
+        "accepted": 10,
+        "references": 28,
+        "suggestions_shown_first": 80,
+        "images": 40
+      },
+      "public-development": {
+        "top_two_old": 6,
+        "top_two_candidate": 6,
+        "top_two_guard": {
+          "passed": true,
+          "lost_matches": [],
+          "recovered_matches": 0,
+          "baseline_matches": 6,
+          "candidate_matches": 6
+        },
+        "reachable_at_five": 8,
+        "full_list_guard": {
+          "passed": true,
+          "lost_matches": [],
+          "recovered_matches": 0,
+          "baseline_matches": 8,
+          "candidate_matches": 8
+        },
+        "accepted": 2,
+        "references": 9,
+        "suggestions_shown_first": 22,
+        "images": 11
+      }
+    },
+    "score-and-distinct": {
+      "phlebotomy-development": {
+        "top_two_old": 16,
+        "top_two_candidate": 16,
+        "top_two_guard": {
+          "passed": true,
+          "lost_matches": [],
+          "recovered_matches": 0,
+          "baseline_matches": 16,
+          "candidate_matches": 16
+        },
+        "reachable_at_five": 19,
+        "full_list_guard": {
+          "passed": true,
+          "lost_matches": [],
+          "recovered_matches": 0,
+          "baseline_matches": 19,
+          "candidate_matches": 19
+        },
+        "accepted": 10,
+        "references": 28,
+        "suggestions_shown_first": 80,
+        "images": 40
+      },
+      "public-development": {
+        "top_two_old": 6,
+        "top_two_candidate": 5,
+        "top_two_guard": {
+          "passed": false,
+          "lost_matches": [
+            {
+              "id": "9778179",
+              "box": [
+                0.00417,
+                0.42725,
+                0.9786,
+                0.55874
+              ]
+            }
+          ],
+          "recovered_matches": 0,
+          "baseline_matches": 6,
+          "candidate_matches": 5
+        },
+        "reachable_at_five": 8,
+        "full_list_guard": {
+          "passed": true,
+          "lost_matches": [],
+          "recovered_matches": 0,
+          "baseline_matches": 8,
+          "candidate_matches": 8
+        },
+        "accepted": 2,
+        "references": 9,
+        "suggestions_shown_first": 22,
+        "images": 11
+      }
+    }
+  },
+  "inputs": {
+    "/home/arobin/Work/Repos/MedSyringe-Vision/scripts/detection_review_priority.py": "7e4054f35e126eece90e0a85b0486b51ed10e17fdae9bcc29665c3d2e08939b3",
+    "artifacts/detection_hillclimb/consensus_audit_freeze.json": "b522af914cae4f10d962da869aa3bc18a84269c89a73c004cf1f067cfac62faf",
+    "data/detection_hillclimb/proposals/phlebotomy-development-baseline.json": "2c4a741db06b940a0e98c1c8d949c68cd8b9463f86f40ed467ce2f1d912aa47b",
+    "data/detection_hillclimb/proposals/public-development-baseline.json": "d0e09665c64867c5fc8fd24b7bc2b379801c54b19d1f944eb1b16a07c26d8eb3"
+  },
+  "scope": "Ranks the same five exposed suggestions. Top-two view only. Automatic boxes unchanged."
+}

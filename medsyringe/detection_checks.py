@@ -6,6 +6,9 @@ from threading import local
 class DetectionChecks:
     def __init__(self, engine):
         self.state = local()
+        appearance = getattr(engine, "appearance", None)
+        if appearance is not None:
+            appearance.worker.run = self.observe(appearance.worker.run, "Syringe appearance verification")
         if engine.crop_verifier is not None:
             worker = engine.crop_verifier.support_worker
             worker.run = self.observe(worker.run, "SAM corroboration")

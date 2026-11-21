@@ -37,3 +37,19 @@ def test_cpu_acceleration_fallback_does_not_mark_the_count_uncorroborated():
     diagnostics.attach(report)
     assert report["detection_checks"]["unavailable"] == ["SAM detection fallback","Intel acceleration"]
     assert report["detection_checks"]["review_needed"] is True
+
+
+def test_unavailable_appearance_gate_marks_original_result_for_review():
+    def unavailable(_image):
+        raise WorkerError("Local worker failed")
+
+    worker = SimpleNamespace(run=unavailable)
+    engine = SimpleNamespace(crop_verifier=None, recovery=None, appearance=SimpleNamespace(worker=worker))
+    diagnostics = DetectionChecks(engine)
+    diagnostics.begin()
+    with pytest.raises(WorkerError):
+        worker.run(object())
+    report = dict(model={})
+    diagnostics.attach(report)
+    assert report["detection_checks"]["unavailable"] == ["Syringe appearance verification"]
+    assert report["detection_checks"]["review_needed"]

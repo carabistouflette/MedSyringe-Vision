@@ -2,7 +2,7 @@
 
 These statuses cover the six-page project PDF and the execution and delivery requirements. Independent external evidence applies to generic localization. The source photos remain one development group.
 
-The expanded 177-image release adds guarded two-view OCR. Its follow-up activates a DINOv2 crop verifier after checking instance-level recall on the full capture and public reserve. It also adds reviewed fill landmarks and an optional Intel runtime. [Expanded Fil Rouge study](expanded_report.md) · [Follow-up and release evidence](improvement_regression.md)
+The expanded 177-image release adds guarded two-view OCR. Its follow-up activates DINOv2 crop verification, a fixed SigLIP 2 appearance check, reviewed fill landmarks and an optional Intel runtime. All 177 counts stayed exact and all previous instance matches were retained in the full-capture replay. [Expanded Fil Rouge study](expanded_report.md) · [Cross-domain release evidence](detection_generalization.md)
 
 | Objective | Status | Evidence |
 | --- | --- | --- |
@@ -12,10 +12,10 @@ The expanded 177-image release adds guarded two-view OCR. Its follow-up activate
 | O4 Follow additions, removals and movements | Partially implemented | Scene counts and visual-attribute deltas can be compared between two saved observations. Physical continuity is explicitly unresolved. No validated temporal sequence is available. |
 | O5 Compare to an expected inventory or a reference scene | Implemented but not fully validated | Total, scale and color comparisons identify missing, extra and unresolved items by observation ID. The API and UI were exercised. There is no independently collected set of inventory scenarios. |
 | O6 Answer scene questions with evidence | Partially implemented | Structured count, discrepancy and comparison questions cite object IDs and saved revisions. Physical movement questions are unresolved. No general natural-language question interface was evaluated. |
-| O7 Remain useful in varied conditions | Partially implemented | [External slices](../artifacts/test_results.json) include negatives, occlusion and simultaneous instances. [Perturbation study](../artifacts/development_robustness.json) varies brightness and blur. Two cluttered test scenes produced no accepted boxes. |
+| O7 Remain useful in varied conditions | Partially implemented | [Cross-domain detection study](detection_generalization.md) reports negatives, occlusion, object size, simultaneous instances and dental instruments by cohort. [Perturbation study](../artifacts/development_robustness.json) varies brightness and blur. Small occluded objects and the dental subtype remain challenging. An unavailable corroboration branch is surfaced in the browser and export. |
 | O8 Report unknowns at field level | Implemented but not fully validated | The app exposes below-threshold detections, attribute rejection and unreadable OCR. It has no labeled unseen-type test to measure the proposed 95% unknown rejection. |
-| O9 Retain human control and correction | Implemented and validated | Bounding boxes, labels, transcriptions and apparent fill can be corrected. Optimistic concurrency protects review histories. Export preserves original predictions, human fill landmarks and append-only revisions. |
-| O10 Produce a shareable, traceable report | Implemented and validated | The application exports a ZIP with structured JSON and local observation JPEG. Tested workflows preserve checks and linked evidence. Physical tracking outcomes are absent. |
+| O9 Retain human control and correction | Implemented and validated | Bounding boxes, labels, transcriptions and apparent fill can be corrected. A visible candidate can be adopted as a human annotation with a link to its source proposal. Optimistic concurrency protects review histories. [Browser evidence](../artifacts/detection_hillclimb/candidate_browser_smoke.json) |
+| O10 Produce a shareable, traceable report | Implemented and validated | The application exports a ZIP with structured JSON, a preview and the exact uploaded source when available. Native-resolution crops follow the current reviewed box. Export preserves original predictions and revision history. [Restored browser verification](../artifacts/detection_hillclimb/restored_native_browser.json) |
 | O11 Extend to new types, conditions and objects and show gains | Partially implemented | Boundaries between the dataset, detector, classifier, reports and UI support change. No extension to new objects was trained and independently qualified. |
 | O12 Demonstrate accuracy, labor savings and rate of human intervention | Partially implemented | Localization, coverage, abstention, latency and failure cases were measured. Proposal disagreement is available, but labor savings and real reviewer intervention rates need a timed study. |
 
@@ -25,7 +25,7 @@ The [detector optimization report](detector_optimization.md) records the newer u
 
 | Target | Status | Result |
 | --- | --- | --- |
-| At least 95% detection precision and recall | Partially implemented | Test precision was 10/10 and recall 10/15. Recall missed the target and precision sample size is small. |
+| At least 95% detection precision and recall | Partially implemented | On the fresh 25-photo mixed Commons cohort, the current release gives 15/16 precision and 15/22 recall. In a separate 26-photo lookalike audit, 25 scenes were correctly empty. These cohorts do not establish either target. [Mixed audit](../artifacts/detection_hillclimb/precision_only_confirmation_audit.json) · [Negative audit](../artifacts/detection_hillclimb/precision_negative_results.json) |
 | At least 90% complete localization, type and color | Implemented but not fully validated | The intended-domain holdout with matching labels does not exist. Same-session type diagnostics are below the proposed target. |
 | At least 95% of unknown cases flagged at the appropriate field | Implemented but not fully validated | Rejection rules are present. Controlled out-of-distribution labels and independent unknown-case scoring are unavailable. |
 | At least 90% exact inventory discrepancies and changes | Partially implemented | Inventory logic has automated scenarios and real-app checks. Physical tracking and independent scenario-level accuracy remain unmeasured. |
