@@ -45,6 +45,8 @@ def main():
                         help="Inspect the same native pixels before and after adopting an unsaved candidate.")
     parser.add_argument("--crowded-candidates", action="store_true",
                         help="Check that all five suggestions are immediately available on a multi-object scene.")
+    parser.add_argument("--shared-sam", action="store_true",
+                        help="Verify the active shared SAM release during real Intel inference.")
     parser.add_argument("--fill-control", action="store_true",
                         help="Check the piston overlay and export on a validated fill control image.")
     parser.add_argument("--manual-fill-control", action="store_true",
@@ -318,11 +320,18 @@ def main():
                 page.screenshot(path=screenshot_root/f"{screenshot}-mobile.png", full_page=True)
                 assert not errors, errors
                 browser.close()
+            sampler = report["original"]["model"].get("sam_residency_sha256")
+            if args.shared_sam:
+                release = project / "artifacts/detection_hillclimb/sam_residency_release.json"
+                assert sampler == sha256(release.read_bytes()).hexdigest()
+                assert report["original"]["detection_checks"]["status"] == "available"
+                flows.append("verified shared SAM runtime with all detector checks available")
             write_json(args.output, dict(
                 image=args.image.name, detected=count, browser="Chromium", no_page_errors=True,
                 revision=subprocess.check_output(["git","-C",str(project),"rev-parse","HEAD"],text=True).strip(),
                 installation_backend=report["original"]["model"].get("primary_backend","cpu"),
                 appearance_release_sha256=report["original"]["model"].get("appearance_detection_sha256"),
+                sam_residency_sha256=sampler,
                 detection_checks=report["original"].get("detection_checks"),
                 flows=flows))
         finally:

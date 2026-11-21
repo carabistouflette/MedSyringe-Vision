@@ -1,0 +1,5 @@
+{
+  "selection_sha256": "aeda60112b8e98fc258b73db718823a78c3c65d0bca01c0a77d76b955798f6c6",
+  "code_sha256": "f97e7277f6a4fa31e5083570d055f648768874be08edd107470a591b403efd55",
+  "reason": "The first collector stopped during text encoder setup because the Intel Transformers environment returns a different embedding object. No candidate forecasts were stored. Collect the masks and witnesses on Intel, then run the same pinned CPU appearance encoder during scoring."
+}

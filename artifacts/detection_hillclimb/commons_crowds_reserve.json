@@ -1,0 +1,366 @@
+{
+  "rows": [
+    {
+      "id": "6522808",
+      "title": "File:Syringes.jpg",
+      "category": "reviewed titles",
+      "intent": "crowded syringe scene",
+      "author": "NathanF",
+      "profile_keys": [],
+      "group": "commons:nathanf",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Syringes.jpg",
+      "original_url": "https://upload.wikimedia.org/wikipedia/commons/5/51/Syringes.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "thumbnail_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/51/Syringes.jpg/1280px-Syringes.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "license": "https://creativecommons.org/licenses/by/2.0",
+      "license_label": "CC BY 2.0",
+      "file_timestamp": "2009-04-14T20:53:09Z",
+      "source_dimensions": [
+        3072,
+        2304
+      ],
+      "mime": "image/jpeg",
+      "size": 1383542,
+      "image": "detection_hillclimb/public/images/6522808.jpg",
+      "image_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/51/Syringes.jpg/1280px-Syringes.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "original_bytes": false,
+      "width": 1280,
+      "height": 960,
+      "sha256": "cefbf0098b24b6815dc56ffef0d627ce13f33c4ec8377da448443c9f96c57013",
+      "dhash": "3f6f66f8f0b6e4bc",
+      "objects": [
+        {
+          "kind": "syringe",
+          "bbox": [
+            0.05279,
+            0.0181,
+            1.0,
+            0.73276
+          ],
+          "axis": [
+            [
+              0.06918670262962615,
+              0.0610014607354684
+            ],
+            [
+              0.9948434805364307,
+              0.6898623751895073
+            ]
+          ]
+        },
+        {
+          "kind": "syringe",
+          "bbox": [
+            0.07819,
+            0.11106,
+            1.0,
+            0.79979
+          ],
+          "axis": [
+            [
+              0.09156079826876748,
+              0.146035321482804
+            ],
+            [
+              1.0023674674390992,
+              0.7648075581648529
+            ]
+          ]
+        },
+        {
+          "kind": "syringe",
+          "bbox": [
+            0.0,
+            0.11476,
+            1.0,
+            0.8773
+          ],
+          "axis": [
+            [
+              -0.0026526050694781764,
+              0.1543575101068145
+            ],
+            [
+              1.0031947600142792,
+              0.837697284529599
+            ]
+          ]
+        },
+        {
+          "kind": "syringe",
+          "bbox": [
+            0.0,
+            0.20031,
+            1.0,
+            0.94293
+          ],
+          "axis": [
+            [
+              0.008326976940983602,
+              0.233313016820155
+            ],
+            [
+              1.0042742695337592,
+              0.9099270060616129
+            ]
+          ]
+        },
+        {
+          "kind": "syringe",
+          "bbox": [
+            0.0,
+            0.25404,
+            1.0,
+            1.0
+          ],
+          "axis": [
+            [
+              0.009191990572365399,
+              0.29957754748677873
+            ],
+            [
+              0.9952392106741591,
+              0.96946575154691
+            ]
+          ]
+        },
+        {
+          "kind": "syringe",
+          "bbox": [
+            0.0,
+            0.32031,
+            0.97713,
+            1.0
+          ],
+          "axis": [
+            [
+              0.013569180895842881,
+              0.3599146083442139
+            ],
+            [
+              0.9619961255319057,
+              1.0042448287153038
+            ]
+          ]
+        },
+        {
+          "kind": "syringe",
+          "bbox": [
+            0.00359,
+            0.37668,
+            0.91743,
+            1.0
+          ],
+          "axis": [
+            [
+              0.01846966563602065,
+              0.41561906168712365
+            ],
+            [
+              0.9025461390807011,
+              1.0162316783795906
+            ]
+          ]
+        },
+        {
+          "kind": "syringe",
+          "bbox": [
+            0.0,
+            0.425,
+            0.85229,
+            1.0
+          ],
+          "axis": [
+            [
+              0.0056513526119244435,
+              0.48505787966340264
+            ],
+            [
+              0.8293373838616156,
+              1.0446432067497773
+            ]
+          ]
+        }
+      ],
+      "review": "Eight distinct parallel devices located from independent barrel and cap lines under a coordinate-only rotation. The axis marks are approximate visible extent, and the outer outlines overlap.",
+      "split": "commons-crowds-reserve"
+    },
+    {
+      "id": "104489710",
+      "title": "File:Gov. Wolf Discusses Vaccine Equity and Progress on Visit to McKeesport Vaccination Clinic - 51102331485.jpg",
+      "category": "\"syringes\" \"prepared\" covid filetype:bitmap",
+      "intent": "crowded syringe scene",
+      "author": "governortomwolf",
+      "profile_keys": [],
+      "group": "commons:governortomwolf",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Gov._Wolf_Discusses_Vaccine_Equity_and_Progress_on_Visit_to_McKeesport_Vaccination_Clinic_-_51102331485.jpg",
+      "original_url": "https://upload.wikimedia.org/wikipedia/commons/5/52/Gov._Wolf_Discusses_Vaccine_Equity_and_Progress_on_Visit_to_McKeesport_Vaccination_Clinic_-_51102331485.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "thumbnail_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/52/Gov._Wolf_Discusses_Vaccine_Equity_and_Progress_on_Visit_to_McKeesport_Vaccination_Clinic_-_51102331485.jpg/1280px-Gov._Wolf_Discusses_Vaccine_Equity_and_Progress_on_Visit_to_McKeesport_Vaccination_Clinic_-_51102331485.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "license": "https://creativecommons.org/licenses/by/2.0",
+      "license_label": "CC BY 2.0",
+      "file_timestamp": "2021-04-27T14:52:52Z",
+      "source_dimensions": [
+        6720,
+        4480
+      ],
+      "mime": "image/jpeg",
+      "size": 12233129,
+      "image": "detection_hillclimb/public/images/104489710.jpg",
+      "image_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/52/Gov._Wolf_Discusses_Vaccine_Equity_and_Progress_on_Visit_to_McKeesport_Vaccination_Clinic_-_51102331485.jpg/1280px-Gov._Wolf_Discusses_Vaccine_Equity_and_Progress_on_Visit_to_McKeesport_Vaccination_Clinic_-_51102331485.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "original_bytes": false,
+      "width": 1280,
+      "height": 853,
+      "sha256": "62c4beed256058ec50cecfd8991eabf37395d53765f8aa0a43d43fad69fae4a8",
+      "dhash": "0743c9d198918535",
+      "objects": [
+        {
+          "kind": "syringe",
+          "bbox": [
+            0.15444,
+            0.02333,
+            0.24333,
+            0.91667
+          ]
+        },
+        {
+          "kind": "syringe",
+          "bbox": [
+            0.22889,
+            0.0,
+            0.31778,
+            0.86333
+          ]
+        },
+        {
+          "kind": "syringe",
+          "bbox": [
+            0.30778,
+            0.0,
+            0.41333,
+            0.84167
+          ]
+        },
+        {
+          "kind": "syringe",
+          "bbox": [
+            0.38,
+            0.055,
+            0.49,
+            0.93167
+          ]
+        },
+        {
+          "kind": "syringe",
+          "bbox": [
+            0.45556,
+            0.075,
+            0.56889,
+            0.96333
+          ]
+        },
+        {
+          "kind": "syringe",
+          "bbox": [
+            0.53778,
+            0.09667,
+            0.65444,
+            0.99667
+          ]
+        },
+        {
+          "kind": "syringe",
+          "bbox": [
+            0.61,
+            0.07833,
+            0.74333,
+            0.96667
+          ]
+        },
+        {
+          "kind": "syringe",
+          "bbox": [
+            0.7,
+            0.10333,
+            0.84222,
+            1.0
+          ]
+        }
+      ],
+      "review": "Eight visible barrels with separate endpoints and plungers identified before inference.",
+      "split": "commons-crowds-reserve"
+    },
+    {
+      "id": "8168800",
+      "title": "File:US Navy 021019-N-9593M-007 Flu shot preparations.jpg",
+      "category": "reviewed titles",
+      "intent": "crowded syringe scene",
+      "author": "U.S. Navy photo by Photographer's Mate Airman Philip A. McDaniel.",
+      "profile_keys": [],
+      "group": "commons:u.s. navy photo by photographer's mate airman philip a. mcdaniel.",
+      "source_url": "https://commons.wikimedia.org/wiki/File:US_Navy_021019-N-9593M-007_Flu_shot_preparations.jpg",
+      "original_url": "https://upload.wikimedia.org/wikipedia/commons/7/73/US_Navy_021019-N-9593M-007_Flu_shot_preparations.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "thumbnail_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/73/US_Navy_021019-N-9593M-007_Flu_shot_preparations.jpg/1280px-US_Navy_021019-N-9593M-007_Flu_shot_preparations.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "license": "Public domain",
+      "license_label": "Public domain",
+      "file_timestamp": "2009-10-22T01:09:12Z",
+      "source_dimensions": [
+        1500,
+        2100
+      ],
+      "mime": "image/jpeg",
+      "size": 969859,
+      "image": "detection_hillclimb/public/images/8168800.jpg",
+      "image_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/73/US_Navy_021019-N-9593M-007_Flu_shot_preparations.jpg/1280px-US_Navy_021019-N-9593M-007_Flu_shot_preparations.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "original_bytes": false,
+      "width": 1280,
+      "height": 1792,
+      "sha256": "6260516e4d3b8dd50428aa78e45495cd085e54a10abee196f866a1fbd4c80f06",
+      "dhash": "1f1f3b3b171d7fa7",
+      "objects": [
+        {
+          "kind": "syringe",
+          "bbox": [
+            0.45806,
+            0.3318,
+            0.56774,
+            0.78802
+          ]
+        }
+      ],
+      "review": "One upright visible syringe. The bare needle length is omitted.",
+      "split": "commons-crowds-reserve"
+    },
+    {
+      "id": "98554020",
+      "title": "File:201228-O-YB478-140.jpg",
+      "category": "reviewed titles",
+      "intent": "crowded syringe scene",
+      "author": "Mark DePass",
+      "profile_keys": [],
+      "group": "commons:mark depass",
+      "source_url": "https://commons.wikimedia.org/wiki/File:201228-O-YB478-140.jpg",
+      "original_url": "https://upload.wikimedia.org/wikipedia/commons/0/0a/201228-O-YB478-140.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "thumbnail_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0a/201228-O-YB478-140.jpg/1280px-201228-O-YB478-140.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "license": "Public domain",
+      "license_label": "Public domain",
+      "file_timestamp": "2021-01-05T15:40:23Z",
+      "source_dimensions": [
+        3300,
+        2550
+      ],
+      "mime": "image/jpeg",
+      "size": 3785997,
+      "image": "detection_hillclimb/public/images/98554020.jpg",
+      "image_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0a/201228-O-YB478-140.jpg/1280px-201228-O-YB478-140.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "original_bytes": false,
+      "width": 1280,
+      "height": 989,
+      "sha256": "d9b32c7aa985efaf5b815d9c06d92f0bd1ac759046ed17573feb1b74f127ed38",
+      "dhash": "fe7e4e6c7674787c",
+      "objects": [],
+      "review": "Only capped vials can be recognized.",
+      "split": "commons-crowds-reserve"
+    }
+  ],
+  "review_sha256": "0ee7aedf15d106452321658d60f46e12ea0ff6424fc5fe98ca947d3f81d9b63e",
+  "protocol": "One scene per identified photographer group. No scene or candidate detector output was used in annotation. Group and overlap checks separate these sources from every previously exposed cohort. This small cohort is a descriptive overlap challenge and cannot establish a population-level estimate."
+}

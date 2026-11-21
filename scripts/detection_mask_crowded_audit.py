@@ -20,6 +20,7 @@ from scripts.runtime_bundle import confined
 from scripts.sam3_study import configure_cpu
 
 SELECTION = ART / "crowded_mask_recovery_seal.json"
+EXECUTION = ART / "crowded_mask_recovery_execution.json"
 RESULT = ART / "crowded_mask_recovery_audit.json"
 CACHE = DATA / "proposals/crowded-mask-recovery.json"
 SCOPES = (*PUBLIC, NATIVE)
@@ -67,9 +68,28 @@ def seal(bundle):
 
 def cohort(bundle):
     proof = read_json(SELECTION)
-    if any(digest(p) != h for p, h in proof["code"].items()) or digest(bundle / MANIFEST) != proof["archive_sha256"]:
+    hashes = dict(proof["code"])
+    if EXECUTION.exists():
+        change = read_json(EXECUTION)
+        if change["selection_sha256"] != digest(SELECTION):
+            raise ValueError("The execution record belongs to another selection.")
+        hashes["scripts/detection_mask_crowded_audit.py"] = change["code_sha256"]
+    if any(digest(p) != h for p, h in hashes.items()) or digest(bundle / MANIFEST) != proof["archive_sha256"]:
         raise ValueError("An archived data or study definition changed.")
     return load_cases(bundle), proof
+
+
+def resume_execution(bundle):
+    if any(p.exists() for p in (CACHE, RESULT, EXECUTION)):
+        raise ValueError("The corrected execution must be recorded before collecting outputs.")
+    freeze = read_json(SELECTION)
+    if digest(bundle / MANIFEST) != freeze["archive_sha256"] or freeze["settings"] != OPTION:
+        raise ValueError("The execution correction must use the original sealed data and decision.")
+    write_json(EXECUTION, dict(selection_sha256=digest(SELECTION), code_sha256=digest(__file__),
+                              reason="The first collector stopped during text encoder setup because the Intel "
+                                     "Transformers environment returns a different embedding object. No candidate "
+                                     "forecasts were stored. Collect the masks and witnesses on Intel, then run the "
+                                     "same pinned CPU appearance encoder during scoring."))
 
 
 def wide(detector, picture):
@@ -93,7 +113,7 @@ def collect(bundle):
     stored = read_json(CACHE) if CACHE.exists() else dict(seal_sha256=bound, groups={})
     if stored["seal_sha256"] != bound:
         raise ValueError("The new proposal cache is incompatible with the frozen inputs.")
-    retriever = encoder = witnesses = None
+    retriever = witnesses = None
     for name, (rows, before) in scopes.items():
         result = stored["groups"].setdefault(name, {})
         for row in rows:
@@ -109,22 +129,24 @@ def collect(bundle):
                 raise ValueError(f"Archived source image changed: {identifier}.")
             if retriever is None:
                 retriever = MaskRetriever()
-                encoder = TextMarginEncoder()
                 witnesses = [Detector(k, "xpu") for k in OPEN_MODELS]
             picture = read_image(origin)
             frame = dict(grids=retriever.predict_grid(picture))
             open_proposals = [wide(m, picture) for m in witnesses]
             available = [{**p, **support(p["bbox"], open_proposals, [])} for p in candidates(frame, base)]
-            screened = [p for p in available if p["open_votes"] and p["stability"] >= .90]
-            scored = []
-            for offset in range(0, len(screened), 8):
-                batch = screened[offset:offset+8]
-                vectors = encoder.encode([crop(picture, expanded(p["bbox"], .08)) for p in batch])["prompt"]
-                scored.extend({**p, "margin": float(v[0]-v[1])} for p, v in zip(batch, vectors, strict=True))
-            result[identifier] = scored
+            result[identifier] = [p for p in available if p["open_votes"] and p["stability"] >= .90]
             write_json(CACHE, stored)
             print("Crowded mask check", name, len(result), "/", len(rows), flush=True)
     write_json(CACHE, stored)
+
+
+def text_scores(candidates_, picture, encoder):
+    scored = []
+    for offset in range(0, len(candidates_), 8):
+        batch = candidates_[offset:offset+8]
+        vectors = encoder.encode([crop(picture, expanded(p["bbox"], .08)) for p in batch])["prompt"]
+        scored.extend({**p, "margin": float(v[0]-v[1])} for p, v in zip(batch, vectors, strict=True))
+    return scored
 
 
 def measure(bundle):
@@ -134,12 +156,25 @@ def measure(bundle):
     stored = read_json(CACHE)
     if stored["seal_sha256"] != digest(SELECTION):
         raise ValueError("Frozen evidence changed.")
+    configure_cpu()
     findings = {}
+    reader = None
     for name, (rows, before) in scopes.items():
         matrices = stored["groups"][name]
         if set(matrices) != set(before):
             raise ValueError("The sealed cohort is incomplete.")
-        after = {k: detect(v, matrices[k], proof["settings"]) for k, v in before.items()}
+        after = {}
+        for row in rows:
+            key = row["id"]
+            proposals = matrices[key]
+            if proposals:
+                if reader is None:
+                    reader = TextMarginEncoder()
+                origin = bundle / "data" / confined(row["image"])
+                if digest(origin) != row.get("derived_sha256", row["sha256"]):
+                    raise ValueError(f"Archived source image changed: {key}.")
+                proposals = text_scores(proposals, read_image(origin), reader)
+            after[key] = detect(before[key], proposals, proof["settings"])
         old, new = [evaluate(rows, ranks, 0.) for ranks in (before, after)]
         check = compare(old, new)
         spoiled = [r["id"] for r in rows if len(before[r["id"]]) == len(r["objects"])
@@ -157,7 +192,8 @@ def measure(bundle):
 
 if __name__ == "__main__":
     parser = argparse.ArgumentParser(description=__doc__)
-    parser.add_argument("action", choices=("seal", "collect", "measure"))
+    parser.add_argument("action", choices=("seal", "resume-execution", "collect", "measure"))
     parser.add_argument("archive", type=Path)
     args = parser.parse_args()
-    {"seal": seal, "collect": collect, "measure": measure}[args.action](args.archive)
+    {"seal": seal, "resume-execution": resume_execution,
+     "collect": collect, "measure": measure}[args.action](args.archive)

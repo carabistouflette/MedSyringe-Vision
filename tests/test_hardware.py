@@ -33,3 +33,14 @@ def test_cpu_selection_and_unavailable_intel_share_the_worker_device(monkeypatch
     hardware.configure_device(engine, tmp_path, "xpu")
     assert engine.identity["primary_backend"] == "cpu fallback"
     assert all(w.options["device"] == "cpu" for w in workers)
+
+
+def test_verified_intel_stays_on_xpu_and_installs_qualified_workers(monkeypatch, tmp_path):
+    engine, workers = engine_workers()
+    monkeypatch.setattr(hardware, "enable_intel",
+                        lambda selected, root: selected.identity.update(primary_backend="xpu"))
+    activations = []
+    monkeypatch.setattr(hardware, "activate", lambda selected, root: activations.append((selected, root)))
+    hardware.configure_device(engine, tmp_path, "xpu")
+    assert activations == [(engine, tmp_path)]
+    assert all(w.options["device"] == "xpu" for w in workers)

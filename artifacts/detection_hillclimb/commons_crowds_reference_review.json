@@ -1,0 +1,265 @@
+{
+  "pool": "modern",
+  "pool_sha256": "bc2151b0567b2a9ecfe34f712b2a66cde5047ea7c6a33377592bbca282bbc112",
+  "rows": {
+    "6522808": {
+      "objects": [
+        {
+          "kind": "syringe",
+          "bbox": [
+            0.05279,
+            0.0181,
+            1.0,
+            0.73276
+          ],
+          "axis": [
+            [
+              0.06918670262962615,
+              0.0610014607354684
+            ],
+            [
+              0.9948434805364307,
+              0.6898623751895073
+            ]
+          ]
+        },
+        {
+          "kind": "syringe",
+          "bbox": [
+            0.07819,
+            0.11106,
+            1.0,
+            0.79979
+          ],
+          "axis": [
+            [
+              0.09156079826876748,
+              0.146035321482804
+            ],
+            [
+              1.0023674674390992,
+              0.7648075581648529
+            ]
+          ]
+        },
+        {
+          "kind": "syringe",
+          "bbox": [
+            0.0,
+            0.11476,
+            1.0,
+            0.8773
+          ],
+          "axis": [
+            [
+              -0.0026526050694781764,
+              0.1543575101068145
+            ],
+            [
+              1.0031947600142792,
+              0.837697284529599
+            ]
+          ]
+        },
+        {
+          "kind": "syringe",
+          "bbox": [
+            0.0,
+            0.20031,
+            1.0,
+            0.94293
+          ],
+          "axis": [
+            [
+              0.008326976940983602,
+              0.233313016820155
+            ],
+            [
+              1.0042742695337592,
+              0.9099270060616129
+            ]
+          ]
+        },
+        {
+          "kind": "syringe",
+          "bbox": [
+            0.0,
+            0.25404,
+            1.0,
+            1.0
+          ],
+          "axis": [
+            [
+              0.009191990572365399,
+              0.29957754748677873
+            ],
+            [
+              0.9952392106741591,
+              0.96946575154691
+            ]
+          ]
+        },
+        {
+          "kind": "syringe",
+          "bbox": [
+            0.0,
+            0.32031,
+            0.97713,
+            1.0
+          ],
+          "axis": [
+            [
+              0.013569180895842881,
+              0.3599146083442139
+            ],
+            [
+              0.9619961255319057,
+              1.0042448287153038
+            ]
+          ]
+        },
+        {
+          "kind": "syringe",
+          "bbox": [
+            0.00359,
+            0.37668,
+            0.91743,
+            1.0
+          ],
+          "axis": [
+            [
+              0.01846966563602065,
+              0.41561906168712365
+            ],
+            [
+              0.9025461390807011,
+              1.0162316783795906
+            ]
+          ]
+        },
+        {
+          "kind": "syringe",
+          "bbox": [
+            0.0,
+            0.425,
+            0.85229,
+            1.0
+          ],
+          "axis": [
+            [
+              0.0056513526119244435,
+              0.48505787966340264
+            ],
+            [
+              0.8293373838616156,
+              1.0446432067497773
+            ]
+          ]
+        }
+      ],
+      "review": "Eight distinct parallel devices located from independent barrel and cap lines under a coordinate-only rotation. The axis marks are approximate visible extent, and the outer outlines overlap."
+    },
+    "104489710": {
+      "objects": [
+        {
+          "kind": "syringe",
+          "bbox": [
+            0.15444,
+            0.02333,
+            0.24333,
+            0.91667
+          ]
+        },
+        {
+          "kind": "syringe",
+          "bbox": [
+            0.22889,
+            0.0,
+            0.31778,
+            0.86333
+          ]
+        },
+        {
+          "kind": "syringe",
+          "bbox": [
+            0.30778,
+            0.0,
+            0.41333,
+            0.84167
+          ]
+        },
+        {
+          "kind": "syringe",
+          "bbox": [
+            0.38,
+            0.055,
+            0.49,
+            0.93167
+          ]
+        },
+        {
+          "kind": "syringe",
+          "bbox": [
+            0.45556,
+            0.075,
+            0.56889,
+            0.96333
+          ]
+        },
+        {
+          "kind": "syringe",
+          "bbox": [
+            0.53778,
+            0.09667,
+            0.65444,
+            0.99667
+          ]
+        },
+        {
+          "kind": "syringe",
+          "bbox": [
+            0.61,
+            0.07833,
+            0.74333,
+            0.96667
+          ]
+        },
+        {
+          "kind": "syringe",
+          "bbox": [
+            0.7,
+            0.10333,
+            0.84222,
+            1.0
+          ]
+        }
+      ],
+      "review": "Eight visible barrels with separate endpoints and plungers identified before inference."
+    },
+    "8168800": {
+      "objects": [
+        {
+          "kind": "syringe",
+          "bbox": [
+            0.45806,
+            0.3318,
+            0.56774,
+            0.78802
+          ]
+        }
+      ],
+      "review": "One upright visible syringe. The bare needle length is omitted."
+    },
+    "98554020": {
+      "objects": [],
+      "review": "Only capped vials can be recognized."
+    }
+  },
+  "excluded": {
+    "124780787": "Reference count is ambiguous because barrel portions are blurred, outside the frame or occluded. Preserve as a qualitative challenge.",
+    "98553342": "Reference count is ambiguous because barrel portions are blurred, outside the frame or occluded. Preserve as a qualitative challenge.",
+    "23128485": "Reference count is ambiguous because barrel portions are blurred, outside the frame or occluded. Preserve as a qualitative challenge.",
+    "144846905": "Reference count is ambiguous because barrel portions are blurred, outside the frame or occluded. Preserve as a qualitative challenge."
+  },
+  "reviewer": "Manual examination of native images and fixed diagnostic views before any model output."
+}

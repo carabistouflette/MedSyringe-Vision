@@ -2,6 +2,7 @@
 import os
 
 from .grounding_backend import enable_intel
+from .sam_residency_release import activate
 
 
 def device_request():
@@ -19,6 +20,7 @@ def configure_device(engine, root, requested):
     if requested == "xpu":
         enable_intel(engine, root)
         if engine.identity.get("primary_backend") == "xpu":
+            activate(engine, root)
             return
     verifier = engine.crop_verifier
     for worker in (engine.sam3, engine.expanded.worker, verifier.support_worker if verifier else None):

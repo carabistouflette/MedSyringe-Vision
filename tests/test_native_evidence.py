@@ -6,6 +6,7 @@ from zipfile import ZipFile
 from fastapi.testclient import TestClient
 from PIL import Image
 
+from medsyringe import app
 from medsyringe.app import create_app
 from medsyringe.scene import Store
 
@@ -54,3 +55,33 @@ def test_legacy_observation_has_its_preview_and_export(tmp_path):
     assert client.get(route+"/image").content == b"legacy preview"
     with ZipFile(BytesIO(client.post(route+"/export",json={"revision":0}).content)) as exported:
         assert set(exported.namelist()) == {"observation.jpg","report.json"}
+
+
+def test_failed_runtime_activation_does_not_reuse_partial_engine(monkeypatch, tmp_path):
+    instances = []
+
+    class PendingEngine:
+        def __init__(self, root):
+            instances.append(self)
+            self.closed = False
+
+        def close(self):
+            self.closed = True
+
+    def configure(engine, root, requested):
+        if len(instances) == 1:
+            raise ValueError("Runtime activation failed")
+
+    monkeypatch.setattr(app, "MedSyringeEngine", PendingEngine)
+    monkeypatch.setattr(app, "configure_device", configure)
+    monkeypatch.setattr(app, "analyze_local",
+                        lambda engine, image, ocr: {"accepted_count": 0, "objects": []})
+    image = BytesIO()
+    Image.new("RGB", (24, 24)).save(image, format="PNG")
+    files = {"file": ("probe.png", image.getvalue(), "image/png")}
+    with TestClient(create_app(tmp_path)) as client:
+        assert client.post("/api/observations", files=files).status_code == 503
+        assert instances[0].closed
+        assert client.post("/api/observations", files=files).status_code == 200
+        assert len(instances) == 2 and not instances[1].closed
+    assert instances[1].closed

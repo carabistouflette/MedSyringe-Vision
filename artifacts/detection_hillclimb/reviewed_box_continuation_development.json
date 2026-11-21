@@ -1,0 +1,233 @@
+{
+  "checkpoint_sha256": "42a654e180ecbdeaf735f41fd16a95af3769c70bf8f1f4cf6da175c7af8837bb",
+  "data_sha256": "04ad03398ecfb21dc7a6604d57b9a5ca6a5608a003887bbd7adfcd3d4e18fe6d",
+  "result": {
+    "whole": {
+      "dev_threshold": 0.269207626581192,
+      "scores": {
+        "dental-development": {
+          "fixed": 0.2,
+          "standard": {
+            "images": 9,
+            "objects": 7,
+            "tp": 4,
+            "fp": 18,
+            "fn": 3,
+            "precision": 0.18181818181818182,
+            "recall": 0.5714285714285714,
+            "f1": 0.27586206896551724,
+            "ap50": 0.22312611089928763,
+            "ap50_95": 0.06978462997621661,
+            "exact_count": 2,
+            "negative_images": 5,
+            "correct_empty": 0
+          },
+          "descriptive_upper_bound": {
+            "images": 9,
+            "objects": 7,
+            "tp": 4,
+            "fp": 13,
+            "fn": 3,
+            "precision": 0.23529411764705882,
+            "recall": 0.5714285714285714,
+            "f1": 0.3333333333333333,
+            "ap50": 0.22312611089928763,
+            "ap50_95": 0.06978462997621661,
+            "exact_count": 4,
+            "negative_images": 5,
+            "correct_empty": 1
+          }
+        },
+        "phlebotomy-development": {
+          "fixed": 0.2,
+          "standard": {
+            "images": 40,
+            "objects": 28,
+            "tp": 14,
+            "fp": 33,
+            "fn": 14,
+            "precision": 0.2978723404255319,
+            "recall": 0.5,
+            "f1": 0.3733333333333333,
+            "ap50": 0.405049142181887,
+            "ap50_95": 0.20605659798823325,
+            "exact_count": 20,
+            "negative_images": 14,
+            "correct_empty": 8
+          },
+          "descriptive_upper_bound": {
+            "images": 40,
+            "objects": 28,
+            "tp": 13,
+            "fp": 12,
+            "fn": 15,
+            "precision": 0.52,
+            "recall": 0.4642857142857143,
+            "f1": 0.49056603773584906,
+            "ap50": 0.405049142181887,
+            "ap50_95": 0.20605659798823325,
+            "exact_count": 26,
+            "negative_images": 14,
+            "correct_empty": 13
+          }
+        },
+        "public-development": {
+          "fixed": 0.2,
+          "standard": {
+            "images": 11,
+            "objects": 9,
+            "tp": 1,
+            "fp": 17,
+            "fn": 8,
+            "precision": 0.05555555555555555,
+            "recall": 0.1111111111111111,
+            "f1": 0.07407407407407407,
+            "ap50": 0.054878690571759876,
+            "ap50_95": 0.016587644560756086,
+            "exact_count": 3,
+            "negative_images": 5,
+            "correct_empty": 0
+          },
+          "descriptive_upper_bound": {
+            "images": 11,
+            "objects": 9,
+            "tp": 0,
+            "fp": 10,
+            "fn": 9,
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0,
+            "ap50": 0.054878690571759876,
+            "ap50_95": 0.016587644560756086,
+            "exact_count": 5,
+            "negative_images": 5,
+            "correct_empty": 2
+          }
+        }
+      }
+    },
+    "wide": {
+      "dev_threshold": 0.4012816250324249,
+      "scores": {
+        "dental-development": {
+          "fixed": 0.2,
+          "standard": {
+            "images": 9,
+            "objects": 7,
+            "tp": 6,
+            "fp": 27,
+            "fn": 1,
+            "precision": 0.18181818181818182,
+            "recall": 0.8571428571428571,
+            "f1": 0.30000000000000004,
+            "ap50": 0.3543443942966999,
+            "ap50_95": 0.14068410298027229,
+            "exact_count": 0,
+            "negative_images": 5,
+            "correct_empty": 0
+          },
+          "descriptive_upper_bound": {
+            "images": 9,
+            "objects": 7,
+            "tp": 2,
+            "fp": 3,
+            "fn": 5,
+            "precision": 0.4,
+            "recall": 0.2857142857142857,
+            "f1": 0.3333333333333333,
+            "ap50": 0.3543443942966999,
+            "ap50_95": 0.14068410298027229,
+            "exact_count": 5,
+            "negative_images": 5,
+            "correct_empty": 3
+          }
+        },
+        "phlebotomy-development": {
+          "fixed": 0.2,
+          "standard": {
+            "images": 40,
+            "objects": 28,
+            "tp": 21,
+            "fp": 128,
+            "fn": 7,
+            "precision": 0.14093959731543623,
+            "recall": 0.75,
+            "f1": 0.2372881355932203,
+            "ap50": 0.5075032191517561,
+            "ap50_95": 0.23261949421678557,
+            "exact_count": 3,
+            "negative_images": 14,
+            "correct_empty": 2
+          },
+          "descriptive_upper_bound": {
+            "images": 40,
+            "objects": 28,
+            "tp": 16,
+            "fp": 14,
+            "fn": 12,
+            "precision": 0.5333333333333333,
+            "recall": 0.5714285714285714,
+            "f1": 0.5517241379310344,
+            "ap50": 0.5075032191517561,
+            "ap50_95": 0.23261949421678557,
+            "exact_count": 31,
+            "negative_images": 14,
+            "correct_empty": 12
+          }
+        },
+        "public-development": {
+          "fixed": 0.2,
+          "standard": {
+            "images": 11,
+            "objects": 9,
+            "tp": 1,
+            "fp": 33,
+            "fn": 8,
+            "precision": 0.029411764705882353,
+            "recall": 0.1111111111111111,
+            "f1": 0.04651162790697674,
+            "ap50": 0.0401138024954644,
+            "ap50_95": 0.0120676128954098,
+            "exact_count": 2,
+            "negative_images": 5,
+            "correct_empty": 0
+          },
+          "descriptive_upper_bound": {
+            "images": 11,
+            "objects": 9,
+            "tp": 0,
+            "fp": 4,
+            "fn": 9,
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0,
+            "ap50": 0.0401138024954644,
+            "ap50_95": 0.0120676128954098,
+            "exact_count": 4,
+            "negative_images": 5,
+            "correct_empty": 3
+          }
+        }
+      }
+    }
+  },
+  "validation_curves": [
+    {
+      "mAP_50": 0.2117992788553238,
+      "mAP_50_95": 0.1016249805688858,
+      "F1": 0.2905983030796051,
+      "precision": 0.232876718044281,
+      "recall": 0.3863636255264282
+    },
+    {
+      "mAP_50": 0.22766472399234772,
+      "mAP_50_95": 0.11300808936357498,
+      "F1": 0.30612245202064514,
+      "precision": 0.2777777910232544,
+      "recall": 0.34090909361839294
+    }
+  ],
+  "cached_output_sha256": "4c5e94b3819cee769fba719aeaa461ecae794625136f06526ba93dcfb114f789",
+  "median_cpu_seconds": 1.0332636259990977,
+  "scope": "Two additional epochs with a fresh optimizer at half the initial learning rate. Whole and fixed tiled inference on the existing development data."
+}

@@ -1,0 +1,29 @@
+{
+  "initial_sha256": "ba92a0595a4b66ae3ce360eca49a6238e6347ac109e1041220e4c60437ca172e",
+  "dataset_sha256": "04ad03398ecfb21dc7a6604d57b9a5ca6a5608a003887bbd7adfcd3d4e18fe6d",
+  "config": {
+    "dataset_dir": "data/detection_hillclimb/reviewed-box-transfer/mix-simulator",
+    "output_dir": "data/detection_hillclimb/runs/box-transfer-continuation",
+    "device": "cpu",
+    "epochs": 2,
+    "batch_size": 4,
+    "resolution": 320,
+    "seed": 88271,
+    "lr": 7.5e-05,
+    "lr_encoder": 0,
+    "num_workers": 0,
+    "num_sanity_val_steps": 0,
+    "compute_val_loss": true,
+    "use_ema": false,
+    "multi_scale": false,
+    "save_dataset_grids": false,
+    "run_test": false,
+    "progress_bar": null,
+    "train_log_on_step": false
+  },
+  "implementation": "2c18d7718726bcec3fec0bec1feead8da7c562c94bfc608df040f14584667b81",
+  "status": "completed",
+  "checkpoint": "data/detection_hillclimb/runs/box-transfer-continuation/checkpoint_best_total.pth",
+  "checkpoint_sha256": "42a654e180ecbdeaf735f41fd16a95af3769c70bf8f1f4cf6da175c7af8837bb",
+  "cpu_seconds": 532.522419287001
+}

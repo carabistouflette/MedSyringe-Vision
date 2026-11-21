@@ -1,0 +1,17 @@
+{
+  "id": "shared-sam-intel-v1",
+  "detector_sha256": "6a446005968d3ea7d3f040ebe37fe6702033f5f2ba157194290a2561699cae90",
+  "evidence": "artifacts/detection_hillclimb/sam_residency_full_live.json",
+  "evidence_sha256": "304998b3c789c84303a97236691050c29f286a26c725ec371625e083f5388a31",
+  "pairing_sha256": "e8cfd1c3ce977ac8d1dd54f79fdf837caffe2bc020336a8474aa80f6e6c3af2a",
+  "scope": "Intel path. Same verified model weights. One worker for detection fallback, whole-image corroboration and liquid appearance.",
+  "code": {
+    "medsyringe/hardware.py": "6bb15dac38c2dec6cfe08dfb8a1316f1dd8aef33c8201ecbe53dd0f781f338ad",
+    "medsyringe/sam_residency_release.py": "e4c9cf280715f3aba7f290b1dcd1b5db0b1a331d0dfd20876aa0a4081f654c7c",
+    "medsyringe/shared_sam.py": "dd71b5304c100eb1e0593cc85906689a72bff3f10c0070be84aee565183b80d5",
+    "scripts/shared_sam_worker.py": "b56aa7dfbb6494a636a88fbd2fb8cccb6c895ab8c2bd6b2c539f68a3016c561d",
+    "scripts/shared_sam_worker.sh": "33c554e7e7208cb4880963da339a17b1365873f46292fa8e1df893624d892ac5",
+    "medsyringe/detection_checks.py": "d90a633815eb70ff31755cbf8ef657f33ba71580474677f96d1db690969b378d",
+    "scripts/local_model_worker.py": "e854c1cbcfa97e94962bfdcb886590084893a6797a6565b2bafec5272ae86955"
+  }
+}

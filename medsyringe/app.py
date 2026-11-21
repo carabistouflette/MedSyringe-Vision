@@ -235,11 +235,15 @@ def create_app(root):
                     requested = device_request()
                 except ValueError as exc:
                     raise HTTPException(503, str(exc)) from exc
+                pending = None
                 try:
-                    engine = MedSyringeEngine(root)
+                    pending = MedSyringeEngine(root)
+                    configure_device(pending, root, requested)
                 except (OSError, ValueError) as exc:
+                    if pending is not None:
+                        pending.close()
                     raise HTTPException(503, "The verified local checkpoint is unavailable. See setup instructions.") from exc
-                configure_device(engine, root, requested)
+                engine = pending
             result = analyze_local(engine, image, ocr)
         record = dict(**result, name=Path(file.filename or "image").name[:160], kind="inference",
                       source_sha256=checksum, source_extension=extension, review_status="unreviewed")
