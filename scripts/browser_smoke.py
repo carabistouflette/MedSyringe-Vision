@@ -39,6 +39,8 @@ def main():
                         help="Check the stroke-guided capacity recovery on IMG_3294.jpeg.")
     parser.add_argument("--review-candidate", action="store_true",
                         help="Include a pending detection in a review and verify its provenance.")
+    parser.add_argument("--replace-candidate", type=int, choices=range(1, 6),
+                        help="Replace the one overlapping object box using the selected review proposal.")
     parser.add_argument("--native-evidence", action="store_true",
                         help="Verify the exact uploaded bytes and the native object crop.")
     parser.add_argument("--draft-native-crop", action="store_true",
@@ -62,7 +64,11 @@ def main():
     if args.without_ocr and any((args.followup_control, args.expanded_markings_control,
                                  args.graduation_control, args.fill_control, args.manual_fill_control)):
         parser.error("Marking and fill controls require OCR.")
-    if (args.draft_native_crop or args.crowded_candidates) and not args.review_candidate:
+    if args.replace_candidate and args.review_candidate:
+        parser.error("Choose either candidate addition or candidate box replacement.")
+    if args.draft_native_crop and not (args.review_candidate or args.replace_candidate):
+        parser.error("Candidate crop checks require a candidate review flow.")
+    if args.crowded_candidates and not args.review_candidate:
         parser.error("Candidate crop and crowded checks require the candidate review flow.")
     signal.signal(signal.SIGTERM, interrupted)
     project = args.project_root.resolve()
@@ -70,6 +76,7 @@ def main():
     screenshot_root.mkdir(parents=True,exist_ok=True)
     flows = ["image upload", "real detection overlay", "inventory", "persisted review",
              "ZIP report with evidence", "mobile viewport without horizontal overflow"]
+    replacement_evidence = None
     with TemporaryDirectory(prefix="medsyringe-browser-") as temporary:
         root = Path(temporary)
         (root / "data").mkdir()
@@ -262,7 +269,9 @@ def main():
                         flows.extend(["nominal capacity", "liquid region overlay", "opacity abstention",
                                       "preserved markings and liquid evidence in reviewed export"])
                 screenshot = args.output.stem.replace("_smoke", "")
-                if args.review_candidate:
+                if args.review_candidate or args.replace_candidate:
+                    candidate_label = args.replace_candidate or 1
+                    candidate_index = candidate_label - 1
                     page.locator("#uncertain > summary").click()
                     more = page.locator("#candidates > details > summary")
                     if args.crowded_candidates:
@@ -275,17 +284,25 @@ def main():
                         more.click()
                         expect(page.get_by_role("button",name="Inspect candidate 3 ·",exact=False).first).to_be_visible()
                         flows.append("two initial proposals and access to all remaining candidates")
-                    page.get_by_role("button", name="Inspect candidate 1 ·", exact=False).first.click()
+                    page.get_by_role("button", name=f"Inspect candidate {candidate_label} ·", exact=False).first.click()
                     expect(page.locator('#boxes [data-label="Review candidate"]')).to_be_visible()
                     if args.draft_native_crop:
                         link = page.get_by_role("link", name="Inspect candidate at native resolution", exact=True)
                         expect(link).to_be_visible()
                         native = page.request.get(address.rstrip("/") + link.get_attribute("href"))
                         assert native.ok and "image/png" in native.headers["content-type"]
-                    page.get_by_role("button", name="Add candidate 1 to review", exact=True).click()
-                    expect(page.locator("#boxes button")).to_have_count(count+1)
+                    replacement = bool(args.replace_candidate)
+                    if replacement:
+                        control = page.get_by_role("button", name="Replace box for ", exact=False)
+                        expect(control).to_have_count(1)
+                        replaced_id = control.inner_text().removeprefix("Replace box for ")
+                        control.click()
+                    else:
+                        page.get_by_role("button", name=f"Add candidate {candidate_label} to review", exact=True).click()
+                    draft_count = count if replacement else count + 1
+                    expect(page.locator("#boxes button")).to_have_count(draft_count)
+                    expect(page.locator("#total")).to_have_text(str(draft_count))
                     if args.crowded_candidates:
-                        expect(page.locator("#total")).to_have_text(str(count+1))
                         expect(page.locator("#summary")).to_contain_text(f"{count} automatically detected")
                         flows.append("automatic and draft counts stay distinguishable during review")
                     if args.draft_native_crop:
@@ -304,11 +321,24 @@ def main():
                     with ZipFile(candidate_download.value.path()) as archive:
                         adopted_report = json.loads(archive.read("report.json"))
                     original = adopted_report["original"]
-                    adopted = next(o for o in adopted_report["objects"] if o.get("candidate_index")==0)
-                    assert adopted["bbox"] == original["below_threshold_candidates"][0]["bbox"]
+                    adopted = next(o for o in adopted_report["objects"] if o.get("candidate_index")==candidate_index)
+                    assert adopted["bbox"] == original["below_threshold_candidates"][candidate_index]["bbox"]
                     assert adopted["origin"] == "human" and adopted["score"] is None
                     assert len(original["objects"]) == count
-                    flows.append("candidate adoption with unchanged model output and linked review evidence")
+                    if replacement:
+                        original_object = next(o for o in original["objects"] if o["id"] == replaced_id)
+                        assert original_object["bbox"] != adopted["bbox"] and adopted["id"] == replaced_id
+                        assert len(adopted_report["objects"]) == count
+                        assert all(k not in adopted for k in ("inscriptions", "liquid_appearance", "fill_level"))
+                        replacement_evidence = dict(
+                            object_id=replaced_id, candidate_index=candidate_index,
+                            original_box=original_object["bbox"], reviewed_box=adopted["bbox"],
+                            original_count=count, reviewed_count=len(adopted_report["objects"]),
+                            image_sha256=original["source_sha256"],
+                        )
+                        flows.append("candidate box replacement retains the count and links review provenance")
+                    else:
+                        flows.append("candidate adoption with unchanged model output and linked review evidence")
                 page.screenshot(path=screenshot_root/f"{screenshot}-desktop.png", full_page=True)
                 page.set_viewport_size({"width": 390, "height": 850})
                 assert page.evaluate("document.documentElement.scrollWidth") <= 390
@@ -333,7 +363,7 @@ def main():
                 appearance_release_sha256=report["original"]["model"].get("appearance_detection_sha256"),
                 sam_residency_sha256=sampler,
                 detection_checks=report["original"].get("detection_checks"),
-                flows=flows))
+                flows=flows, **({"replacement": replacement_evidence} if replacement_evidence else {})))
         finally:
             if server.poll() is None:
                 with suppress(ProcessLookupError):

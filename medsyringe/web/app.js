@@ -108,6 +108,28 @@ function addCandidate(index) {
   editsPending();
 }
 
+function overlappingDraft(bbox) {
+  const smallerOverlap = (a, b) => {
+    const area = ([l, t, r, bottom]) => (r - l) * (bottom - t);
+    const width = Math.max(0, Math.min(a[2], b[2]) - Math.max(a[0], b[0]));
+    const height = Math.max(0, Math.min(a[3], b[3]) - Math.max(a[1], b[1]));
+    return width * height / Math.min(area(a), area(b));
+  };
+  const matches = objects.filter(obj => smallerOverlap(obj.bbox, bbox) >= 0.5);
+  return matches.length === 1 ? matches[0] : null;
+}
+
+function replaceBoxFromCandidate(index, id) {
+  const suggestion = report.original.below_threshold_candidates[index];
+  const target = overlappingDraft(suggestion.bbox);
+  if (target?.id !== id || objects.some(obj => obj.candidate_index === index)) return;
+  const revised = {id, bbox: [...suggestion.bbox], origin: "human", scale: null, color: null,
+    candidate_index: index, background: target.background, burst: target.burst};
+  objects = objects.map(obj => obj.id === id ? revised : obj);
+  choose(id);
+  editsPending();
+}
+
 function nativeCropLink(bbox, label) {
   const query = new URLSearchParams();
   for (const coordinate of bbox) query.append("bbox", coordinate);
@@ -147,6 +169,12 @@ function renderCandidates() {
       const add = node("button", `Add candidate ${index+1} to review`, "secondary");
       add.addEventListener("click", () => addCandidate(index));
       row.append(add);
+      const target = overlappingDraft(pred.bbox);
+      if (target) {
+        const replace = node("button", `Replace box for ${target.id}`, "secondary");
+        replace.addEventListener("click", () => replaceBoxFromCandidate(index, target.id));
+        row.append(replace);
+      }
     }
     return row;
   });
