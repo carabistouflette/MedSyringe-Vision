@@ -5,9 +5,10 @@ from pathlib import Path
 import matplotlib
 matplotlib.use("Agg")
 import matplotlib.pyplot as plt
+from matplotlib.patches import Patch, Rectangle
 import numpy as np
 
-from medsyringe.data import read_json
+from medsyringe.data import digest, read_image, read_json
 
 ART = Path("artifacts/detection_hillclimb")
 COLORS = {"Baseline":"#7b8a96", "Candidate":"#167a71"}
@@ -91,9 +92,42 @@ def deployed_precision(destination):
     plt.close(fig)
 
 
+def native_count_examples(bundle, destination):
+    cohort = read_json(bundle/"cohorts/native-device.json")
+    refs = {r["id"]: r for r in cohort["rows"]}
+    observed = cohort["observations"]
+    crowded = [r for r in refs.values() if len(r["objects"]) > 1]
+    worst = max(crowded, key=lambda r: abs(len(r["objects"])-len(observed[r["id"]]["actual"])))
+    exact = next(r for r in crowded if len(r["objects"]) == len(observed[r["id"]]["actual"]))
+    figure, panels = plt.subplots(2,2,figsize=(12,7.5),layout="constrained")
+    for row, axes in zip((exact,worst),panels,strict=True):
+        path = bundle/"data"/row["image"]
+        if digest(path) != row["sha256"]:
+            raise ValueError("A figure source differs from the frozen native study.")
+        raster = read_image(path)
+        for ax, boxes, label, description, color in zip(
+            axes,(row["objects"],observed[row["id"]]["actual"]),("Frozen reference","Automatic result"),
+            ("visible instances","detections"),("#f8cc5c","#38cec2"),strict=True):
+            ax.imshow(raster)
+            for box in boxes:
+                x,y,right,bottom = box["bbox"]
+                ax.add_patch(Rectangle((x*raster.width,y*raster.height),(right-x)*raster.width,
+                                       (bottom-y)*raster.height, fill=False, edgecolor=color, linewidth=1.4))
+            ax.set_title(f"{label} · {len(boxes)} {description}",fontsize=10,loc="left")
+            ax.axis("off")
+    figure.legend(handles=[Patch(facecolor="#f8cc5c",label="Reference extent"),
+                           Patch(facecolor="#38cec2",label="Detected extent")],
+                  loc="outside lower center",ncols=2,frameon=False)
+    figure.suptitle("An exact count and an undercount in the native device audit",
+                    x=.02,ha="left",fontweight="semibold",fontsize=14)
+    figure.savefig(destination,dpi=200,facecolor="white")
+    plt.close(figure)
+
+
 if __name__=="__main__":
     parser=argparse.ArgumentParser(description=__doc__)
     parser.add_argument("--output",type=Path,default=Path("artifacts/figures"))
+    parser.add_argument("--native-evidence",type=Path)
     args=parser.parse_args()
     args.output.mkdir(parents=True,exist_ok=True)
     audit = ART/"crop_semantics_audit.json"
@@ -104,3 +138,5 @@ if __name__=="__main__":
         comparison(read_json(select),args.output/"detection_generalization_development.png")
     if (ART/"medbin_detector_audit.json").exists():
         deployed_precision(args.output/"deployed_precision_results.png")
+    if args.native_evidence:
+        native_count_examples(args.native_evidence,args.output/"native_device_count_examples.png")

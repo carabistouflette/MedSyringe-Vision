@@ -1,0 +1,40 @@
+{
+  "code": {
+    "scripts/shared_sam_release_check.py": "81b8a3c2b3e4925d6a20468acaa2b921efceb0c6c7683beccf75aaa424202eda",
+    "scripts/shared_sam_parity.py": "11a6bb9e8ee6acf36453f31cab1a9be2114ccd90458a871233fc684ae500ace1",
+    "medsyringe/shared_sam.py": "dd71b5304c100eb1e0593cc85906689a72bff3f10c0070be84aee565183b80d5",
+    "scripts/shared_sam_worker.py": "b56aa7dfbb6494a636a88fbd2fb8cccb6c895ab8c2bd6b2c539f68a3016c561d",
+    "scripts/shared_sam_worker.sh": "33c554e7e7208cb4880963da339a17b1365873f46292fa8e1df893624d892ac5",
+    "artifacts/sam3_release.json": "dcd7f0c1262cbdafed1915ab6e20adbbab58bf5739e07d2a8fbcc6338769dc30",
+    "artifacts/detection_hillclimb/appearance_release.json": "6a446005968d3ea7d3f040ebe37fe6702033f5f2ba157194290a2561699cae90"
+  },
+  "inputs": [
+    {
+      "image": "IMG_3294.jpeg",
+      "sha256": "a256501c4e02ac9283f690f18c59205bd1d3138265ac54526b74c1ff4373e56e",
+      "long_side": 4032,
+      "ocr": false
+    },
+    {
+      "image": "cAH0yS3Ek6AXSKQFTBij.jpg",
+      "sha256": "4296147c02710e1b1367e4d7f70457cd745c2ece14f210b3c5da54dc792b07b2",
+      "long_side": 4032,
+      "ocr": false
+    },
+    {
+      "image": "jr20FHtsKJzKzcGrzaW6.jpg",
+      "sha256": "3f86dfc1974e8aa1b7f3aba9a1c1ae701a04badde834981fc70da90c85e5a220",
+      "long_side": 4032,
+      "ocr": false
+    },
+    {
+      "image": "23953605.jpg",
+      "sha256": "bbf23047e06f44f364dded037bb570f0ec6acf9705be5af98732a1694ff28630",
+      "long_side": 4032,
+      "ocr": false
+    }
+  ],
+  "maximum_score_delta": 0.001,
+  "maximum_box_delta_pixels": 0.25,
+  "protocol": "The initial exact equality test remains archived. In this separate comparison, box differences must fit within a quarter of one native pixel, and uncalibrated scores within 0.1 percentage points. Counts, review order, evidence, attributes, and all other fields must agree exactly. Latency is descriptive and excludes program loading. Prior examples are not confirmation data."
+}

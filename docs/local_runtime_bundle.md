@@ -16,7 +16,7 @@ python3 scripts/runtime_bundle.py verify /path/to/medsyringe-runtime
 HF_HUB_OFFLINE=1 .venv/bin/python -m uvicorn medsyringe.app:app --host 127.0.0.1 --port 8765
 ```
 
-Restoration copies independent files, relinks the packaged interpreter and verifies the recorded files and package versions. Existing runtime assets cause a restore to abort before any files are copied. For another operating-system distribution, use the standard worker setup instructions to reproduce a suitable environment. Drivers, glibc and system libraries remain requirements. Intel Arc is the default device for the packaged SAM runtime. The CPU probe explicitly sets all SAM workers to use the CPU and checks their availability. Upload analysis reports fallback and corroboration outages in the original observation and in the browser. [Worker setup](sam3_markings_liquid.md) · [CPU proof](../artifacts/detection_hillclimb/current_runtime_cpu.json)
+Restoration copies independent files, relinks the packaged interpreter and verifies the recorded files and package versions. Existing runtime assets cause a restore to abort before any files are copied. For another operating-system distribution, use the standard worker setup instructions to reproduce a suitable environment. Drivers, glibc and system libraries remain requirements. Set `MEDSYRINGE_DEVICE=cpu` to choose the CPU for detection and every SAM worker in the API, or pass `--device cpu` to the image CLI. Request Intel using `MEDSYRINGE_DEVICE=xpu` or `--device xpu` with the verified Intel Python environment. With an unsuccessful Intel startup, the application sets the SAM workers to CPU and reports the requested acceleration fallback. [Worker setup](sam3_markings_liquid.md) · [Earlier CPU proof](../artifacts/detection_hillclimb/current_runtime_cpu.json)
 
 The bundle occupies several gigabytes. A reflink-capable filesystem can copy it efficiently. Keep it separately from the source repository alongside its manifest and the code revision it restores.
 
@@ -42,3 +42,10 @@ The separate archive at `data/deliverables/precision-evidence` contains the exac
 Add `--include-capture-metadata` to include the capture partitions in a local archive. Add `--original-capture /path/to/Images_fil_rougev1` to check the local originals at replay time. The replay was run from an empty directory outside the project, verified all 177 supplied image hashes and reproduced every archived cohort's operating metrics and ranked estimates. This verifies exact metric replay from saved model outputs. Fresh inference can use the separately restored application runtime. [Portable replay evidence](../artifacts/detection_hillclimb/portable_precision_replay.json)
 
 The archive at `data/deliverables/precision-evidence-333da35` also includes the 23 native device-scene rasters and their stored application observations. Package those assets with `--include-native-device-audit`. The independent replay verified the rasters, the original Fil Rouge hashes, the device localization and exact-count results, and the reach of the top review candidates. [Native scene replay](../artifacts/detection_hillclimb/portable_native_replay.json)
+
+To run fresh inference from the portable scene archive, execute this command in the restored project. The command verifies every archived source image and the frozen reference record first. It uses its own results file for progress and accepted-instance comparison.
+
+```bash
+HF_HUB_OFFLINE=1 data/sam3/xpu-env/bin/python -m scripts.reinfer_native_evidence \
+  /path/to/precision-evidence --runtime . --device xpu --output /path/to/native-reinference.json
+```

@@ -5,7 +5,8 @@ from subprocess import check_output
 from time import perf_counter
 
 from medsyringe.data import digest, read_image, write_json
-from medsyringe.grounding_backend import analyze, enable_intel
+from medsyringe.grounding_backend import analyze
+from medsyringe.hardware import configure_device
 from medsyringe.pipeline import MedSyringeEngine
 from scripts.sam3_study import configure_cpu
 
@@ -17,15 +18,9 @@ def probe(args):
     revision = check_output(["git","-C",str(args.root),"rev-parse","HEAD"],text=True).strip()
     runs=[]
     try:
-        if args.device=="xpu":
-            enable_intel(engine,args.root)
-            if engine.identity.get("primary_backend")!="xpu":
-                raise ValueError("The packaged Intel path did not activate.")
-        else:
-            for worker in (engine.sam3,engine.expanded.worker,
-                           engine.crop_verifier.support_worker if engine.crop_verifier else None):
-                if worker is not None:
-                    worker.options = {**worker.options,"device":"cpu"}
+        configure_device(engine, args.root, args.device)
+        if args.device == "xpu" and engine.identity.get("primary_backend") != "xpu":
+            raise ValueError("The packaged Intel path did not activate.")
         setup=perf_counter()-beginning
         images=[(p,read_image(p),count,digest(p)) for p,count in zip(args.image,args.expected,strict=True)]
         for iteration in range(args.repeats):

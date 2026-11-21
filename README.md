@@ -31,6 +31,8 @@ Open [http://127.0.0.1:8765](http://127.0.0.1:8765). Upload a JPEG, PNG, WebP, o
 
 The first analysis checks model weights and release evidence by SHA-256. The app and CLI work offline after setup. Uploaded files are saved in the local observation database, allowing inspection of native-resolution crops. ZIP reports include the original bytes when available and record their SHA-256. Apparent fill is an image-based estimate. [RF-DETR verification and recovery](docs/rfdetr_verification.md)
 
+The review panel can open a candidate's native-resolution image crop before adoption. Crops also follow a box drawn or edited in the current draft. The inspection leaves the saved observation at its current revision.
+
 To restore the released weights and three packaged Python environments in a clean checkout at the bundle’s recorded Git revision, run the command below. The bundle also includes the base Python interpreter. Linux x86-64 and compatible host libraries are required. The Intel device is used by the verified SAM worker. [Runtime bundle documentation](docs/local_runtime_bundle.md)
 
 ```bash
@@ -42,6 +44,8 @@ HF_HUB_OFFLINE=1 .venv/bin/python -m uvicorn medsyringe.app:app --host 127.0.0.1
 HF_HUB_OFFLINE=1 uv run --locked python -m medsyringe.pipeline image.HEIC --ocr --output result.json
 uv run --locked python -m pytest -q
 ```
+
+Use `MEDSYRINGE_DEVICE=cpu` with the API launcher, or `--device cpu` with the image CLI, to run detection and all SAM operations on the CPU. The same settings accept `xpu` with the pinned Intel environment. [Local runtime and device selection](docs/local_runtime_bundle.md)
 
 Use `bash scripts/serve_intel.sh` on the delivered Intel Arc machine for the benchmarked XPU runtime. To restore the launcher in a separate checkout, first restore the XPU environment described in the local worker setup, then install the app dependencies there.
 

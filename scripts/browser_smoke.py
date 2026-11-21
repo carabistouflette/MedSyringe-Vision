@@ -41,6 +41,8 @@ def main():
                         help="Include a pending detection in a review and verify its provenance.")
     parser.add_argument("--native-evidence", action="store_true",
                         help="Verify the exact uploaded bytes and the native object crop.")
+    parser.add_argument("--draft-native-crop", action="store_true",
+                        help="Inspect the same native pixels before and after adopting an unsaved candidate.")
     parser.add_argument("--fill-control", action="store_true",
                         help="Check the piston overlay and export on a validated fill control image.")
     parser.add_argument("--manual-fill-control", action="store_true",
@@ -56,6 +58,8 @@ def main():
     if args.without_ocr and any((args.followup_control, args.expanded_markings_control,
                                  args.graduation_control, args.fill_control, args.manual_fill_control)):
         parser.error("Marking and fill controls require OCR.")
+    if args.draft_native_crop and not args.review_candidate:
+        parser.error("The draft native crop check requires the candidate review flow.")
     signal.signal(signal.SIGTERM, interrupted)
     project = args.project_root.resolve()
     screenshot_root = project/"data/workspace"
@@ -264,8 +268,20 @@ def main():
                         flows.append("two initial proposals and access to all remaining candidates")
                     page.get_by_role("button", name="Inspect candidate 1 ·", exact=False).first.click()
                     expect(page.locator('#boxes [data-label="Review candidate"]')).to_be_visible()
+                    if args.draft_native_crop:
+                        link = page.get_by_role("link", name="Inspect candidate at native resolution", exact=True)
+                        expect(link).to_be_visible()
+                        native = page.request.get(address.rstrip("/") + link.get_attribute("href"))
+                        assert native.ok and "image/png" in native.headers["content-type"]
                     page.get_by_role("button", name="Add candidate 1 to review", exact=True).click()
                     expect(page.locator("#boxes button")).to_have_count(count+1)
+                    if args.draft_native_crop:
+                        unsaved = page.locator(".object.active").get_by_role(
+                            "link", name="Inspect native-resolution crop", exact=True)
+                        expect(unsaved).to_be_visible()
+                        crop = page.request.get(address.rstrip("/") + unsaved.get_attribute("href"))
+                        assert crop.ok and crop.body() == native.body()
+                        flows.append("matching native crop before candidate adoption and before saving")
                     page.locator("#reviewer").fill("Browser check")
                     page.locator("#note").fill("Checked candidate review provenance in a temporary workspace")
                     page.get_by_role("button", name="Save review").click()

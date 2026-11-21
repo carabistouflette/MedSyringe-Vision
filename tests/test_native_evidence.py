@@ -28,6 +28,14 @@ def test_original_pixels_and_source_archive_follow_the_reviewed_box(tmp_path):
     patch = Image.open(BytesIO(native.content))
     assert patch.size == (120,60) and patch.getpixel((0,0)) == (200,10,40)
     assert client.get(route+"/objects/unknown/crop").status_code == 404
+    draft = client.get(route+"/crop", params={"bbox": [.25, .25, .5, .5]})
+    assert draft.status_code == 200 and draft.headers["cache-control"] == "private, no-store"
+    with Image.open(BytesIO(draft.content)) as cropped:
+        assert cropped.size == (60, 30) and cropped.getpixel((0, 0)) == (200, 10, 40)
+    saved = client.get(route).json()
+    assert saved["revision"] == 0 and saved["objects"][0]["bbox"] == [.25, .25, .75, .75]
+    for invalid in ([.6, .25, .5, .5], [.25, .5], [-.1, .2, .5, .6], ["nan", .25, .5, .6]):
+        assert client.get(route+"/crop", params={"bbox": invalid}).status_code == 422
     payload = client.post(route+"/export",json={"revision":0})
     with ZipFile(BytesIO(payload.content)) as exported:
         assert exported.read("source.png") == original

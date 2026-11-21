@@ -1,0 +1,84 @@
+{
+  "passed": false,
+  "device": "xpu",
+  "source_caches": [
+    "6fb5522e9ff7e402bf74c683933f3543adf16e36169e6398046f2cb4aff0985a",
+    "604c40ff3787ea6970004c94a0a15a45bdee13d6f1652dd0298068e0e60bd640"
+  ],
+  "code": {
+    "scripts/shared_sam_parity.py": "11a6bb9e8ee6acf36453f31cab1a9be2114ccd90458a871233fc684ae500ace1",
+    "medsyringe/shared_sam.py": "dd71b5304c100eb1e0593cc85906689a72bff3f10c0070be84aee565183b80d5",
+    "scripts/shared_sam_worker.py": "b56aa7dfbb6494a636a88fbd2fb8cccb6c895ab8c2bd6b2c539f68a3016c561d",
+    "scripts/shared_sam_worker.sh": "33c554e7e7208cb4880963da339a17b1365873f46292fa8e1df893624d892ac5",
+    "artifacts/sam3_release.json": "dcd7f0c1262cbdafed1915ab6e20adbbab58bf5739e07d2a8fbcc6338769dc30",
+    "artifacts/detection_hillclimb/appearance_release.json": "d9f0a449f448e0f04116a5b813463ffc1971fc96d132332b2c08ae4f40fdce10"
+  },
+  "trials": [
+    {
+      "image": "IMG_3316.jpeg",
+      "sha256": "bfe339118bcb93524964d3d0034f168b084c14ca8fdb40625b9b8b707cac5d5e",
+      "matches": false,
+      "different_fields": [
+        "below_threshold_candidates"
+      ],
+      "previous_seconds": 38.6191144359982,
+      "shared_seconds": 44.21096916700117,
+      "counts": [
+        1,
+        1
+      ],
+      "supplemental": null,
+      "ocr": false
+    },
+    {
+      "image": "fr4KaYX2NdrKAcwFd4Sh.jpg",
+      "sha256": "946cd7b519e6e16f6fb5e6c94683a672d3e479872c7ed5ef9f8787c209c461ac",
+      "matches": false,
+      "different_fields": [
+        "objects",
+        "below_threshold_candidates"
+      ],
+      "previous_seconds": 34.773297446998185,
+      "shared_seconds": 12.464788491000945,
+      "counts": [
+        3,
+        3
+      ],
+      "supplemental": null,
+      "ocr": false
+    },
+    {
+      "image": "Gu84gAdw3JXDHshiDkll.jpg",
+      "sha256": "a0296c3492a5ff64592b26be6bc781d69261445df450c4811f39236a08c5c833",
+      "matches": false,
+      "different_fields": [
+        "objects",
+        "below_threshold_candidates"
+      ],
+      "previous_seconds": 18.573339058002603,
+      "shared_seconds": 13.750285661000817,
+      "counts": [
+        5,
+        5
+      ],
+      "supplemental": null,
+      "ocr": false
+    },
+    {
+      "image": "194453423.jpg",
+      "sha256": "a1305aa295432ebd6d6b411e5b0963e83a2886cb0666782116c7d52ae7d415f9",
+      "matches": false,
+      "different_fields": [
+        "below_threshold_candidates"
+      ],
+      "previous_seconds": 5.434374024000135,
+      "shared_seconds": 5.18785520000165,
+      "counts": [
+        0,
+        0
+      ],
+      "supplemental": null,
+      "ocr": false
+    }
+  ]
+}

@@ -1,0 +1,192 @@
+{
+  "variants": 288,
+  "safe_on_development": 88,
+  "leading": [
+    {
+      "setting": [
+        "repeat-real/whole",
+        0.24,
+        -0.005,
+        "prior",
+        "any"
+      ],
+      "scopes": {
+        "phlebotomy-development": {
+          "tp": 10,
+          "fp": 2,
+          "fn": 18,
+          "gained": 0
+        },
+        "public-development": {
+          "tp": 3,
+          "fp": 1,
+          "fn": 6,
+          "gained": 1
+        }
+      }
+    },
+    {
+      "setting": [
+        "mix-simulator/wide",
+        0.18,
+        0.018,
+        "supervised",
+        "empty"
+      ],
+      "scopes": {
+        "phlebotomy-development": {
+          "tp": 11,
+          "fp": 2,
+          "fn": 17,
+          "gained": 1
+        },
+        "public-development": {
+          "tp": 2,
+          "fp": 1,
+          "fn": 7,
+          "gained": 0
+        }
+      }
+    },
+    {
+      "setting": [
+        "mix-simulator/wide",
+        0.18,
+        0.018,
+        "supervised",
+        "any"
+      ],
+      "scopes": {
+        "phlebotomy-development": {
+          "tp": 11,
+          "fp": 2,
+          "fn": 17,
+          "gained": 1
+        },
+        "public-development": {
+          "tp": 2,
+          "fp": 1,
+          "fn": 7,
+          "gained": 0
+        }
+      }
+    },
+    {
+      "setting": [
+        "mix-simulator/wide",
+        0.24,
+        0.018,
+        "supervised",
+        "empty"
+      ],
+      "scopes": {
+        "phlebotomy-development": {
+          "tp": 11,
+          "fp": 2,
+          "fn": 17,
+          "gained": 1
+        },
+        "public-development": {
+          "tp": 2,
+          "fp": 1,
+          "fn": 7,
+          "gained": 0
+        }
+      }
+    },
+    {
+      "setting": [
+        "mix-simulator/wide",
+        0.24,
+        0.018,
+        "supervised",
+        "any"
+      ],
+      "scopes": {
+        "phlebotomy-development": {
+          "tp": 11,
+          "fp": 2,
+          "fn": 17,
+          "gained": 1
+        },
+        "public-development": {
+          "tp": 2,
+          "fp": 1,
+          "fn": 7,
+          "gained": 0
+        }
+      }
+    },
+    {
+      "setting": [
+        "mix-simulator/wide",
+        0.28,
+        0.018,
+        "supervised",
+        "empty"
+      ],
+      "scopes": {
+        "phlebotomy-development": {
+          "tp": 11,
+          "fp": 2,
+          "fn": 17,
+          "gained": 1
+        },
+        "public-development": {
+          "tp": 2,
+          "fp": 1,
+          "fn": 7,
+          "gained": 0
+        }
+      }
+    },
+    {
+      "setting": [
+        "mix-simulator/wide",
+        0.28,
+        0.018,
+        "supervised",
+        "any"
+      ],
+      "scopes": {
+        "phlebotomy-development": {
+          "tp": 11,
+          "fp": 2,
+          "fn": 17,
+          "gained": 1
+        },
+        "public-development": {
+          "tp": 2,
+          "fp": 1,
+          "fn": 7,
+          "gained": 0
+        }
+      }
+    },
+    {
+      "setting": [
+        "mix-simulator/wide",
+        0.32,
+        0.018,
+        "prior",
+        "empty"
+      ],
+      "scopes": {
+        "phlebotomy-development": {
+          "tp": 11,
+          "fp": 2,
+          "fn": 17,
+          "gained": 1
+        },
+        "public-development": {
+          "tp": 2,
+          "fp": 1,
+          "fn": 7,
+          "gained": 0
+        }
+      }
+    }
+  ],
+  "records_sha256": "d950d83cdcc7c109171cb8c27b3a79c2649000b34617fbdd08d38ec9403f5dc5",
+  "scores": "One additional box at most. Compare two trained auxiliaries and two views, SigLIP crop agreement and separate detector witnesses."
+}

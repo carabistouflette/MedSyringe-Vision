@@ -108,6 +108,16 @@ function addCandidate(index) {
   editsPending();
 }
 
+function nativeCropLink(bbox, label) {
+  const query = new URLSearchParams();
+  for (const coordinate of bbox) query.append("bbox", coordinate);
+  const link = node("a", label, "ocr");
+  link.href = path("/crop?") + query.toString();
+  link.target = "_blank";
+  link.rel = "noopener";
+  return link;
+}
+
 function renderCandidates() {
   const below = report?.original.below_threshold_candidates || [];
   $("uncertain").hidden = !below.length;
@@ -126,6 +136,9 @@ function renderCandidates() {
       $("source").scrollIntoView({block: "nearest"});
     });
     row.append(inspect);
+    if (candidate === index && report.original.source_extension) {
+      row.append(nativeCropLink(pred.bbox, "Inspect candidate at native resolution"));
+    }
     if (objects.some(obj => obj.candidate_index === index)) {
       row.append(node("small", "Included in review"));
     } else if (candidate === index) {
@@ -293,11 +306,7 @@ function objectCard(obj) {
     card.append(node("small", `Reviewed from candidate ${obj.candidate_index+1}`, "ocr"));
   }
   if (report.original.source_extension) {
-    const pixels = node("a", "Inspect native-resolution crop", "ocr");
-    pixels.href = path("/objects/" + encodeURIComponent(obj.id) + "/crop");
-    pixels.target = "_blank";
-    pixels.rel = "noopener";
-    card.append(pixels);
+    card.append(nativeCropLink(obj.bbox, "Inspect native-resolution crop"));
   }
   if (obj.evidence) {
     const text = Object.values(obj.evidence).map((entry) => entry.reason);

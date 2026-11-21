@@ -6,7 +6,8 @@ from time import perf_counter
 from .appearance_runtime import install_appearance
 from .data import digest, read_image, write_json
 from .detection_checks import DetectionChecks
-from .grounding_backend import analyze, enable_intel
+from .grounding_backend import analyze
+from .hardware import configure_device, device_request
 from .production import ProductionEngine
 from .scale_runtime import scale_reader
 
@@ -46,12 +47,17 @@ def main():
     parser.add_argument("--root", type=Path, default=Path("."))
     parser.add_argument("--output", type=Path, default=Path("result.json"))
     parser.add_argument("--ocr", action="store_true")
-    parser.add_argument("--intel", action="store_true")
+    hardware = parser.add_mutually_exclusive_group()
+    hardware.add_argument("--intel", action="store_true", help="Use the validated Intel XPU runtime.")
+    hardware.add_argument("--device", choices=("cpu", "xpu"), help="Choose the local detection and SAM device.")
     args = parser.parse_args()
+    try:
+        requested = "xpu" if args.intel else args.device or device_request()
+    except ValueError as exc:
+        parser.error(str(exc))
     engine = MedSyringeEngine(args.root)
     try:
-        if args.intel:
-            enable_intel(engine, args.root)
+        configure_device(engine, args.root, requested)
         report = analyze(engine, read_image(args.image), args.ocr)
     finally:
         engine.close()

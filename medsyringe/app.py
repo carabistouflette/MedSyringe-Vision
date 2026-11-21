@@ -9,7 +9,7 @@ from threading import Lock
 from typing import Annotated, Literal
 from zipfile import ZIP_DEFLATED, ZipFile
 
-from fastapi import FastAPI, File, Form, HTTPException, UploadFile
+from fastapi import FastAPI, File, Form, HTTPException, Query, UploadFile
 from fastapi.responses import FileResponse, Response
 from fastapi.staticfiles import StaticFiles
 from PIL import Image, ImageOps, UnidentifiedImageError
@@ -18,7 +18,8 @@ from starlette.middleware.trustedhost import TrustedHostMiddleware
 
 from .attributes import FIELDS, crop
 from .data import coco, digest, read_image, read_json, train_rows, valid_box
-from .grounding_backend import analyze as analyze_local, enable_intel
+from .grounding_backend import analyze as analyze_local
+from .hardware import configure_device, device_request
 from .manual_fill import estimate as estimate_manual_fill
 from .pipeline import MedSyringeEngine
 from .scene import Conflict, Store, compare, inventory
@@ -188,19 +189,28 @@ def create_app(root):
             raise HTTPException(409, "The stored source fails its integrity check.")
         return raw
 
+    def crop_response(report, bbox):
+        raw = source_bytes(report)
+        if raw is None:
+            raise HTTPException(404, "A native-resolution crop is unavailable for this observation.")
+        image = read_image(io.BytesIO(raw))
+        output = io.BytesIO()
+        crop(image, bbox).save(output, format="PNG", icc_profile=image.info.get("icc_profile"))
+        return Response(output.getvalue(), media_type="image/png", headers={"Cache-Control":"private, no-store"})
+
+    @app.get("/api/observations/{identifier}/crop")
+    def region_crop(identifier: str, bbox: Annotated[list[UnitCoordinate], Query(min_length=4, max_length=4)]):
+        if not valid_box(bbox):
+            raise HTTPException(422, "Choose a valid image region.")
+        return crop_response(load(identifier), bbox)
+
     @app.get("/api/observations/{identifier}/objects/{object_id}/crop")
     def native_crop(identifier: str, object_id: str):
         report = load(identifier)
         obj = next((item for item in report["objects"] if item["id"] == object_id), None)
         if obj is None:
             raise HTTPException(404, "The object was not found in this revision.")
-        raw = source_bytes(report)
-        if raw is None:
-            raise HTTPException(404, "A native-resolution crop is unavailable for this observation.")
-        image = read_image(io.BytesIO(raw))
-        output = io.BytesIO()
-        crop(image, obj["bbox"]).save(output, format="PNG", icc_profile=image.info.get("icc_profile"))
-        return Response(output.getvalue(), media_type="image/png", headers={"Cache-Control":"private, no-store"})
+        return crop_response(report, obj["bbox"])
 
     @app.post("/api/observations")
     def analyze(file: UploadFile = File(...), ocr: bool = Form(False)):
@@ -222,11 +232,14 @@ def create_app(root):
         with condition:
             if engine is None:
                 try:
+                    requested = device_request()
+                except ValueError as exc:
+                    raise HTTPException(503, str(exc)) from exc
+                try:
                     engine = MedSyringeEngine(root)
                 except (OSError, ValueError) as exc:
                     raise HTTPException(503, "The verified local checkpoint is unavailable. See setup instructions.") from exc
-                if os.environ.get("MEDSYRINGE_PRIMARY_DEVICE") == "xpu":
-                    enable_intel(engine, root)
+                configure_device(engine, root, requested)
             result = analyze_local(engine, image, ocr)
         record = dict(**result, name=Path(file.filename or "image").name[:160], kind="inference",
                       source_sha256=checksum, source_extension=extension, review_status="unreviewed")
