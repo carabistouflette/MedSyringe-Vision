@@ -1,0 +1,30 @@
+{
+  "id": "optimized-detector-v3",
+  "original_freeze_sha256": "5eb41d98a2b08c1a93045920e1c7b4f805ba2014bc9189e552c5f78897a42395",
+  "refinement_sha256": "9f6f8086c2b68b11bfef5fb5fcc2b63c22c280b02bb0143d604484a5657de163",
+  "validation_sha256": "07cfd8706f4a67bf6b5d5c4873e1c86383494f653a9b63e02f910c8a36aeda4d",
+  "holdout_manifest_sha256": "2fbe70962eb40aac562ccf88885b21ab4a13279b673314cb73125eb8e31ec708",
+  "views": [
+    "original",
+    "opposite_turn"
+  ],
+  "strategy": "max",
+  "overlap": 0.6,
+  "cutoff": 0.6772280764893512,
+  "precision": 0.8125,
+  "recall": 0.8666666666666667,
+  "f1": 0.8387096774193549,
+  "ap50": 0.8258543596295115,
+  "ap50_95": 0.539442386230485,
+  "exact_count": 18,
+  "tp": 13,
+  "fp": 3,
+  "fn": 2,
+  "heads": [
+    "logistic-appearance",
+    "trees-geometry-augmented"
+  ],
+  "weight": 0.375,
+  "proposal_learning_sha256": "87768b4ba9f955f3faab08eaed15a7a80a0600b9a140b9b94a5582fc6598a3ee",
+  "proposal_heads_sha256": "56bef5e5db1f750d59e19d9f4cf45c662c82d917740f7277ac78b3497f4aa850"
+}

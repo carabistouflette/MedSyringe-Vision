@@ -1,0 +1,132 @@
+{
+  "manifest_sha256": "1b19beafa412f9d3190ea369661d6dba796ffc9cc6302781d08504db46b14e30",
+  "source": "https://doi.org/10.17632/mh6zpc7y9g.1",
+  "reviewed": 20,
+  "positive": 12,
+  "negative": 8,
+  "corrections": 0,
+  "method": "Manual visual inspection of the reference montage and publisher box overlays before any model outputs. Byte hashes and normalized coordinates checked for every frame.",
+  "scope": "One publisher setup. Repeated specimens and layouts are likely. Publisher resized the evaluation frames to 512x512.",
+  "rows": [
+    {
+      "id": "dental-47f4d9105268c281",
+      "image_sha256": "47f4d9105268c281078457fecc7c6df003af4042c0366bb54efa2de347434a35",
+      "reference_count": 1,
+      "retained": true
+    },
+    {
+      "id": "dental-c647185ad95c5a30",
+      "image_sha256": "c647185ad95c5a30e2a985415db88676fda894cbf5ffad59420ff252f9e7bc49",
+      "reference_count": 1,
+      "retained": true
+    },
+    {
+      "id": "dental-8952609922f60257",
+      "image_sha256": "8952609922f60257fe4a96275f3999c03ebad7b49c32af425b5f8db385f93b26",
+      "reference_count": 0,
+      "retained": true
+    },
+    {
+      "id": "dental-ec27af74296a54a0",
+      "image_sha256": "ec27af74296a54a0cea32c1304aa5dc02a26e5814ea118c00394146110d89697",
+      "reference_count": 1,
+      "retained": true
+    },
+    {
+      "id": "dental-3de2e7be2bbb0f4d",
+      "image_sha256": "3de2e7be2bbb0f4d8c1fbeb03d6988a2b5740a317e4282963707c3628e212efc",
+      "reference_count": 0,
+      "retained": true
+    },
+    {
+      "id": "dental-f5f0d5258154ea1a",
+      "image_sha256": "f5f0d5258154ea1a08eeb87e10491426add7c5fcf99aac027c6fd9ccebd9b3e5",
+      "reference_count": 1,
+      "retained": true
+    },
+    {
+      "id": "dental-b14fe6d47d554199",
+      "image_sha256": "b14fe6d47d554199ba425010f0590f258d5e8b0c71a41d01d128a80d6063907b",
+      "reference_count": 1,
+      "retained": true
+    },
+    {
+      "id": "dental-8d2968e05e738454",
+      "image_sha256": "8d2968e05e7384546e449e5d9f1a83e2116886dbd3e47d2557c30c5ab564393c",
+      "reference_count": 1,
+      "retained": true
+    },
+    {
+      "id": "dental-70a3759dd1fee676",
+      "image_sha256": "70a3759dd1fee67638fd4dc9b8f9a4cf32f023c683a73d9d575605983a11e3d0",
+      "reference_count": 1,
+      "retained": true
+    },
+    {
+      "id": "dental-9d69371c2fe55e18",
+      "image_sha256": "9d69371c2fe55e18808b257fde390aa2442691383c590bc64d000278304beca9",
+      "reference_count": 1,
+      "retained": true
+    },
+    {
+      "id": "dental-9cde794c57ea9163",
+      "image_sha256": "9cde794c57ea9163c99a1fc7e9b098695f8bf7875ef1d8d4d35233566034d715",
+      "reference_count": 0,
+      "retained": true
+    },
+    {
+      "id": "dental-71e541a1aba724ea",
+      "image_sha256": "71e541a1aba724ea747cc57f41953eb667edcde485da390478763a64d23e2960",
+      "reference_count": 1,
+      "retained": true
+    },
+    {
+      "id": "dental-fd42bb3d834dfda6",
+      "image_sha256": "fd42bb3d834dfda657501235f703301899157a62bf0f45dd9b33f299ee4eff12",
+      "reference_count": 1,
+      "retained": true
+    },
+    {
+      "id": "dental-3585a50a6af9f1e0",
+      "image_sha256": "3585a50a6af9f1e0e174724b4b4871ff9472e0cc54efa5918908a2dbedee9b46",
+      "reference_count": 1,
+      "retained": true
+    },
+    {
+      "id": "dental-3e4fa4c5b24eb0ae",
+      "image_sha256": "3e4fa4c5b24eb0ae27841d4b7962900475c371017d6cf19793c142d82158361d",
+      "reference_count": 1,
+      "retained": true
+    },
+    {
+      "id": "dental-c430908d9d696ab8",
+      "image_sha256": "c430908d9d696ab8a7ab6f15ee8c08cd1b104c986737f9ea02db91226bb6bc7a",
+      "reference_count": 0,
+      "retained": true
+    },
+    {
+      "id": "dental-02b7ba125649ccf4",
+      "image_sha256": "02b7ba125649ccf414da5f63b504e1c600bc46359f3aeee9ba50dae0fe46d75f",
+      "reference_count": 0,
+      "retained": true
+    },
+    {
+      "id": "dental-0e2e4e880820e2c4",
+      "image_sha256": "0e2e4e880820e2c4267f53d6f6bbfcd251a1f237c160120debcf127d70afc6b4",
+      "reference_count": 0,
+      "retained": true
+    },
+    {
+      "id": "dental-b03cc1eb7e04bfa4",
+      "image_sha256": "b03cc1eb7e04bfa40e397a932f7210a1a9cfc00525c43ca51d4e24f659d5fd11",
+      "reference_count": 0,
+      "retained": true
+    },
+    {
+      "id": "dental-3cd0c177ab8f6863",
+      "image_sha256": "3cd0c177ab8f6863a03060dc64dfbe68e26cc20c025f0cd078b775b17b0615aa",
+      "reference_count": 0,
+      "retained": true
+    }
+  ]
+}

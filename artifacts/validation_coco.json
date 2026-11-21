@@ -1,0 +1,366 @@
+{
+  "images": [
+    {
+      "id": 1,
+      "file_name": "commons/102692397.jpg",
+      "width": 500,
+      "height": 800
+    },
+    {
+      "id": 2,
+      "file_name": "commons/10594783.jpg",
+      "width": 500,
+      "height": 352
+    },
+    {
+      "id": 3,
+      "file_name": "commons/113356854.jpg",
+      "width": 500,
+      "height": 231
+    },
+    {
+      "id": 4,
+      "file_name": "commons/113535121.jpg",
+      "width": 500,
+      "height": 281
+    },
+    {
+      "id": 5,
+      "file_name": "commons/132996017.jpg",
+      "width": 500,
+      "height": 246
+    },
+    {
+      "id": 6,
+      "file_name": "commons/134231489.jpg",
+      "width": 500,
+      "height": 374
+    },
+    {
+      "id": 7,
+      "file_name": "commons/136214041.jpg",
+      "width": 500,
+      "height": 332
+    },
+    {
+      "id": 8,
+      "file_name": "commons/159797971.jpg",
+      "width": 500,
+      "height": 215
+    },
+    {
+      "id": 9,
+      "file_name": "commons/18047842.jpg",
+      "width": 500,
+      "height": 500
+    },
+    {
+      "id": 10,
+      "file_name": "commons/203324650.jpg",
+      "width": 500,
+      "height": 333
+    },
+    {
+      "id": 11,
+      "file_name": "commons/26451793.jpg",
+      "width": 500,
+      "height": 667
+    },
+    {
+      "id": 12,
+      "file_name": "commons/35437526.jpg",
+      "width": 500,
+      "height": 323
+    },
+    {
+      "id": 13,
+      "file_name": "commons/46357426.jpg",
+      "width": 500,
+      "height": 333
+    },
+    {
+      "id": 14,
+      "file_name": "commons/48702109.jpg",
+      "width": 500,
+      "height": 281
+    },
+    {
+      "id": 15,
+      "file_name": "commons/63816980.jpg",
+      "width": 500,
+      "height": 496
+    },
+    {
+      "id": 16,
+      "file_name": "commons/6992139.jpg",
+      "width": 500,
+      "height": 433
+    },
+    {
+      "id": 17,
+      "file_name": "commons/73507147.jpg",
+      "width": 500,
+      "height": 667
+    },
+    {
+      "id": 18,
+      "file_name": "commons/75489712.jpg",
+      "width": 500,
+      "height": 375
+    },
+    {
+      "id": 19,
+      "file_name": "commons/89487969.jpg",
+      "width": 500,
+      "height": 357
+    }
+  ],
+  "annotations": [
+    {
+      "id": 1,
+      "image_id": 1,
+      "category_id": 1,
+      "bbox": [
+        153.29999999999998,
+        47.28,
+        167.85,
+        632.7199999999999
+      ],
+      "area": 106202.05199999998,
+      "iscrowd": 0,
+      "attributes": {
+        "method": "visual annotation"
+      }
+    },
+    {
+      "id": 2,
+      "image_id": 4,
+      "category_id": 1,
+      "bbox": [
+        0,
+        85.03059999999999,
+        451.84999999999997,
+        90.59440000000001
+      ],
+      "area": 40935.07964,
+      "iscrowd": 0,
+      "attributes": {
+        "method": "visual annotation"
+      }
+    },
+    {
+      "id": 3,
+      "image_id": 5,
+      "category_id": 1,
+      "bbox": [
+        22.2,
+        81.40140000000001,
+        437.05,
+        107.28059999999999
+      ],
+      "area": 46886.986229999995,
+      "iscrowd": 0,
+      "attributes": {
+        "method": "visual annotation"
+      }
+    },
+    {
+      "id": 4,
+      "image_id": 7,
+      "category_id": 1,
+      "bbox": [
+        79.65,
+        137.2488,
+        387.0,
+        70.48360000000001
+      ],
+      "area": 27277.153200000004,
+      "iscrowd": 0,
+      "attributes": {
+        "method": "visual annotation"
+      }
+    },
+    {
+      "id": 5,
+      "image_id": 9,
+      "category_id": 1,
+      "bbox": [
+        29.55,
+        2.25,
+        454.54999999999995,
+        481.85
+      ],
+      "area": 219024.91749999998,
+      "iscrowd": 0,
+      "attributes": {
+        "method": "visual annotation"
+      }
+    },
+    {
+      "id": 6,
+      "image_id": 10,
+      "category_id": 1,
+      "bbox": [
+        188.9,
+        38.8611,
+        120.35000000000001,
+        105.46109999999999
+      ],
+      "area": 12692.243385,
+      "iscrowd": 0,
+      "attributes": {
+        "method": "visual annotation"
+      }
+    },
+    {
+      "id": 7,
+      "image_id": 11,
+      "category_id": 1,
+      "bbox": [
+        93.95,
+        6.0697,
+        169.7,
+        660.9303
+      ],
+      "area": 112159.87190999999,
+      "iscrowd": 0,
+      "attributes": {
+        "method": "visual annotation"
+      }
+    },
+    {
+      "id": 8,
+      "image_id": 11,
+      "category_id": 1,
+      "bbox": [
+        257.6,
+        3.0014999999999996,
+        106.04999999999998,
+        582.1576
+      ],
+      "area": 61737.81347999999,
+      "iscrowd": 0,
+      "attributes": {
+        "method": "visual annotation"
+      }
+    },
+    {
+      "id": 9,
+      "image_id": 12,
+      "category_id": 1,
+      "bbox": [
+        222.20000000000002,
+        116.9583,
+        277.8,
+        176.3257
+      ],
+      "area": 48983.279460000005,
+      "iscrowd": 0,
+      "attributes": {
+        "method": "visual annotation"
+      }
+    },
+    {
+      "id": 10,
+      "image_id": 13,
+      "category_id": 1,
+      "bbox": [
+        133.35,
+        155.4111,
+        209.25000000000003,
+        118.41480000000001
+      ],
+      "area": 24778.296900000005,
+      "iscrowd": 0,
+      "attributes": {
+        "method": "visual annotation"
+      }
+    },
+    {
+      "id": 11,
+      "image_id": 14,
+      "category_id": 1,
+      "bbox": [
+        0,
+        70.25,
+        498.15,
+        85.03059999999999
+      ],
+      "area": 42357.993389999996,
+      "iscrowd": 0,
+      "attributes": {
+        "method": "visual annotation"
+      }
+    },
+    {
+      "id": 12,
+      "image_id": 15,
+      "category_id": 1,
+      "bbox": [
+        137.4,
+        0,
+        272.49999999999994,
+        496
+      ],
+      "area": 135159.99999999997,
+      "iscrowd": 0,
+      "attributes": {
+        "method": "visual annotation"
+      }
+    },
+    {
+      "id": 13,
+      "image_id": 17,
+      "category_id": 1,
+      "bbox": [
+        75.75,
+        36.3515,
+        242.45,
+        479.03940000000006
+      ],
+      "area": 116143.10253,
+      "iscrowd": 0,
+      "attributes": {
+        "method": "visual annotation"
+      }
+    },
+    {
+      "id": 14,
+      "image_id": 18,
+      "category_id": 1,
+      "bbox": [
+        38.9,
+        86.8125,
+        444.45,
+        212.4375
+      ],
+      "area": 94417.846875,
+      "iscrowd": 0,
+      "attributes": {
+        "method": "visual annotation"
+      }
+    },
+    {
+      "id": 15,
+      "image_id": 19,
+      "category_id": 1,
+      "bbox": [
+        394.45000000000005,
+        112.812,
+        42.59999999999997,
+        125.7711
+      ],
+      "area": 5357.848859999996,
+      "iscrowd": 0,
+      "attributes": {
+        "method": "visual annotation"
+      }
+    }
+  ],
+  "categories": [
+    {
+      "id": 1,
+      "name": "syringe"
+    }
+  ]
+}

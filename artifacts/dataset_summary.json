@@ -1,0 +1,372 @@
+{
+  "files": 75,
+  "source_bytes": 85890694,
+  "unique_training_scenes": 74,
+  "draft_instances": 74,
+  "local_groups": {
+    "local-2026-11-07-session": 74
+  },
+  "exact_duplicate_files": [
+    {
+      "source": "IMG_3215(1).HEIC",
+      "canonical": "IMG_3215.HEIC"
+    }
+  ],
+  "possible_near_duplicate_pairs": [
+    {
+      "images": [
+        "IMG_3316",
+        "IMG_3317"
+      ],
+      "hamming_distance": 4
+    }
+  ],
+  "scale": {
+    "60-scale": 16,
+    "20-scale": 58
+  },
+  "color": {
+    "amber-brown": 32,
+    "orange": 36,
+    "unknown": 6
+  },
+  "background": {
+    "wood": 1,
+    "window": 2,
+    "pale-surface": 1,
+    "pale-wall": 13,
+    "dark-wall": 56,
+    "flash-dark-wall": 1
+  },
+  "burst": {
+    "3198": 1,
+    "3199": 2,
+    "3202": 1,
+    "3206": 1,
+    "3215": 6,
+    "3223": 6,
+    "3230": 6,
+    "3238": 4,
+    "3243": 5,
+    "3251": 3,
+    "3263": 4,
+    "3272": 4,
+    "3292": 3,
+    "3296": 7,
+    "3304": 3,
+    "3310": 2,
+    "3315": 4,
+    "3321": 1,
+    "3322": 5,
+    "3329": 6
+  },
+  "draft_flags": {
+    "clipped extent at image edge": 42,
+    "ambiguous visible extent": 6,
+    "ambiguous lighting-dependent barrel color": 6
+  },
+  "orientation_corrected_size": {
+    "3024 × 4032": 73,
+    "4032 × 3024": 1
+  },
+  "annotation_sha256": "9f7f270ebba4199965574cc9045afa442fba1fba7a2bc45e37155d30fa158681",
+  "draft_agreement_warning": "Top proposal is a discrepancy signal, not an annotation reference.",
+  "draft_top_proposal_agreement": [
+    {
+      "id": "IMG_3315",
+      "top_proposal_iou": 0.5118892409085241
+    },
+    {
+      "id": "IMG_3295",
+      "top_proposal_iou": 0.5978004939836865
+    },
+    {
+      "id": "IMG_3247",
+      "top_proposal_iou": 0.6278862678425522
+    },
+    {
+      "id": "IMG_3275",
+      "top_proposal_iou": 0.6537777579258386
+    },
+    {
+      "id": "IMG_3292",
+      "top_proposal_iou": 0.6903298062362078
+    },
+    {
+      "id": "IMG_3239",
+      "top_proposal_iou": 0.6991319774254012
+    },
+    {
+      "id": "IMG_3316",
+      "top_proposal_iou": 0.7391587278937388
+    },
+    {
+      "id": "IMG_3323",
+      "top_proposal_iou": 0.7465323484985592
+    },
+    {
+      "id": "IMG_3245",
+      "top_proposal_iou": 0.7566191262737163
+    },
+    {
+      "id": "IMG_3223",
+      "top_proposal_iou": 0.7691172283041556
+    },
+    {
+      "id": "IMG_3335",
+      "top_proposal_iou": 0.7719531070679028
+    },
+    {
+      "id": "IMG_3317",
+      "top_proposal_iou": 0.7756759423661272
+    },
+    {
+      "id": "IMG_3230",
+      "top_proposal_iou": 0.7781480239004869
+    },
+    {
+      "id": "IMG_3294",
+      "top_proposal_iou": 0.7932628399261014
+    },
+    {
+      "id": "IMG_3231",
+      "top_proposal_iou": 0.7962377247585712
+    },
+    {
+      "id": "IMG_3257",
+      "top_proposal_iou": 0.7964912553805512
+    },
+    {
+      "id": "IMG_3221",
+      "top_proposal_iou": 0.8023825773898607
+    },
+    {
+      "id": "IMG_3229",
+      "top_proposal_iou": 0.8077519155901953
+    },
+    {
+      "id": "IMG_3238",
+      "top_proposal_iou": 0.828664155936677
+    },
+    {
+      "id": "IMG_3234",
+      "top_proposal_iou": 0.8320944349232245
+    },
+    {
+      "id": "IMG_3332",
+      "top_proposal_iou": 0.8347335768521327
+    },
+    {
+      "id": "IMG_3298",
+      "top_proposal_iou": 0.8363006633435177
+    },
+    {
+      "id": "IMG_3206",
+      "top_proposal_iou": 0.8462145998942713
+    },
+    {
+      "id": "IMG_3334",
+      "top_proposal_iou": 0.8463165381237839
+    },
+    {
+      "id": "IMG_3305",
+      "top_proposal_iou": 0.8571691894116941
+    },
+    {
+      "id": "IMG_3325",
+      "top_proposal_iou": 0.858161775539299
+    },
+    {
+      "id": "IMG_3263",
+      "top_proposal_iou": 0.8647270256788753
+    },
+    {
+      "id": "IMG_3227",
+      "top_proposal_iou": 0.8655704910571496
+    },
+    {
+      "id": "IMG_3228",
+      "top_proposal_iou": 0.8656858523468097
+    },
+    {
+      "id": "IMG_3200",
+      "top_proposal_iou": 0.8665647375300136
+    },
+    {
+      "id": "IMG_3301",
+      "top_proposal_iou": 0.8742599600503668
+    },
+    {
+      "id": "IMG_3244",
+      "top_proposal_iou": 0.8747764495115513
+    },
+    {
+      "id": "IMG_3215",
+      "top_proposal_iou": 0.8800140166400503
+    },
+    {
+      "id": "IMG_3283",
+      "top_proposal_iou": 0.8828524241914254
+    },
+    {
+      "id": "IMG_3272",
+      "top_proposal_iou": 0.8833256676656104
+    },
+    {
+      "id": "IMG_3225",
+      "top_proposal_iou": 0.8864792373280819
+    },
+    {
+      "id": "IMG_3199",
+      "top_proposal_iou": 0.8972544379378357
+    },
+    {
+      "id": "IMG_3222",
+      "top_proposal_iou": 0.9072177908464709
+    },
+    {
+      "id": "IMG_3235",
+      "top_proposal_iou": 0.91077052450036
+    },
+    {
+      "id": "IMG_3264",
+      "top_proposal_iou": 0.9110474190984754
+    },
+    {
+      "id": "IMG_3202",
+      "top_proposal_iou": 0.9111317471269159
+    },
+    {
+      "id": "IMG_3297",
+      "top_proposal_iou": 0.9145825180179906
+    },
+    {
+      "id": "IMG_3318",
+      "top_proposal_iou": 0.9169345179137333
+    },
+    {
+      "id": "IMG_3299",
+      "top_proposal_iou": 0.917703411495482
+    },
+    {
+      "id": "IMG_3322",
+      "top_proposal_iou": 0.9237859156365111
+    },
+    {
+      "id": "IMG_3219",
+      "top_proposal_iou": 0.9288563772674452
+    },
+    {
+      "id": "IMG_3243",
+      "top_proposal_iou": 0.9340095324338898
+    },
+    {
+      "id": "IMG_3333",
+      "top_proposal_iou": 0.9375928109440349
+    },
+    {
+      "id": "IMG_3218",
+      "top_proposal_iou": 0.9414671331849505
+    },
+    {
+      "id": "IMG_3302",
+      "top_proposal_iou": 0.947742377010411
+    },
+    {
+      "id": "IMG_3321",
+      "top_proposal_iou": 0.948615423071786
+    },
+    {
+      "id": "IMG_3217",
+      "top_proposal_iou": 0.950093680070629
+    },
+    {
+      "id": "IMG_3241",
+      "top_proposal_iou": 0.9543092942880512
+    },
+    {
+      "id": "IMG_3226",
+      "top_proposal_iou": 0.9545768732748822
+    },
+    {
+      "id": "IMG_3198",
+      "top_proposal_iou": 0.9551764742255885
+    },
+    {
+      "id": "IMG_3306",
+      "top_proposal_iou": 0.9557031217902157
+    },
+    {
+      "id": "IMG_3251",
+      "top_proposal_iou": 0.9557483180209847
+    },
+    {
+      "id": "IMG_3233",
+      "top_proposal_iou": 0.9579194929229871
+    },
+    {
+      "id": "IMG_3311",
+      "top_proposal_iou": 0.9636259538856873
+    },
+    {
+      "id": "IMG_3240",
+      "top_proposal_iou": 0.9646694743673118
+    },
+    {
+      "id": "IMG_3296",
+      "top_proposal_iou": 0.9656319623013179
+    },
+    {
+      "id": "IMG_3304",
+      "top_proposal_iou": 0.9658558288031266
+    },
+    {
+      "id": "IMG_3300",
+      "top_proposal_iou": 0.9684898813074673
+    },
+    {
+      "id": "IMG_3252",
+      "top_proposal_iou": 0.9687417716951903
+    },
+    {
+      "id": "IMG_3232",
+      "top_proposal_iou": 0.9701829567904148
+    },
+    {
+      "id": "IMG_3326",
+      "top_proposal_iou": 0.9704408028239401
+    },
+    {
+      "id": "IMG_3324",
+      "top_proposal_iou": 0.9712577244358386
+    },
+    {
+      "id": "IMG_3329",
+      "top_proposal_iou": 0.9718984979804649
+    },
+    {
+      "id": "IMG_3279",
+      "top_proposal_iou": 0.9736440784434298
+    },
+    {
+      "id": "IMG_3268",
+      "top_proposal_iou": 0.9771701912872919
+    },
+    {
+      "id": "IMG_3246",
+      "top_proposal_iou": 0.9777805076079596
+    },
+    {
+      "id": "IMG_3331",
+      "top_proposal_iou": 0.979597467526098
+    },
+    {
+      "id": "IMG_3269",
+      "top_proposal_iou": 0.9864912672730424
+    },
+    {
+      "id": "IMG_3310",
+      "top_proposal_iou": 0.9878249356066919
+    }
+  ]
+}

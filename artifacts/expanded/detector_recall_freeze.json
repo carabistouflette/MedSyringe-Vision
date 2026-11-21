@@ -1,0 +1,5978 @@
+{
+  "selected": {
+    "policy": {
+      "options": {
+        "method": "logistic-70",
+        "channels": "all",
+        "box": "mask",
+        "preserve": false,
+        "cutoff": 0.3
+      },
+      "guard": null
+    },
+    "outcome": {
+      "fit": {
+        "result": {
+          "images": 116,
+          "objects": 98,
+          "tp": 98,
+          "fp": 4,
+          "fn": 0,
+          "precision": 0.9607843137254902,
+          "recall": 1.0,
+          "f1": 0.98,
+          "ap50": 0.9993107918591416,
+          "ap50_95": 0.6205199124159442,
+          "exact_count": 112,
+          "negative_images": 18,
+          "correct_empty": 15
+        },
+        "guard": {
+          "passed": true,
+          "lost_matches": [],
+          "recovered_matches": 1,
+          "baseline_matches": 97,
+          "candidate_matches": 98
+        },
+        "max_fp": 20
+      },
+      "calibration": {
+        "result": {
+          "images": 87,
+          "objects": 72,
+          "tp": 68,
+          "fp": 8,
+          "fn": 4,
+          "precision": 0.8947368421052632,
+          "recall": 0.9444444444444444,
+          "f1": 0.918918918918919,
+          "ap50": 0.9058902065234219,
+          "ap50_95": 0.5634478037041278,
+          "exact_count": 83,
+          "negative_images": 15,
+          "correct_empty": 12
+        },
+        "guard": {
+          "passed": true,
+          "lost_matches": [],
+          "recovered_matches": 0,
+          "baseline_matches": 68,
+          "candidate_matches": 68
+        },
+        "max_fp": 23
+      }
+    },
+    "eligible": true
+  },
+  "compared": [
+    {
+      "policy": {
+        "options": {
+          "method": "logistic-50-unweighted",
+          "channels": "all",
+          "box": "anchor",
+          "preserve": false,
+          "cutoff": 0.9
+        },
+        "guard": null
+      },
+      "outcome": {
+        "fit": {
+          "result": {
+            "images": 116,
+            "objects": 98,
+            "tp": 95,
+            "fp": 4,
+            "fn": 3,
+            "precision": 0.9595959595959596,
+            "recall": 0.9693877551020408,
+            "f1": 0.964467005076142,
+            "ap50": 0.9843298924667135,
+            "ap50_95": 0.6496059244741333,
+            "exact_count": 111,
+            "negative_images": 18,
+            "correct_empty": 15
+          },
+          "guard": {
+            "passed": false,
+            "lost_matches": [
+              {
+                "id": "176339130",
+                "box": [
+                  0.08260869565217391,
+                  0.0,
+                  0.6217391304347826,
+                  0.3870967741935484
+                ]
+              },
+              {
+                "id": "36737404",
+                "box": [
+                  0.3826086956521739,
+                  0.3741935483870968,
+                  0.5869565217391305,
+                  0.567741935483871
+                ]
+              }
+            ],
+            "recovered_matches": 0,
+            "baseline_matches": 97,
+            "candidate_matches": 95
+          },
+          "max_fp": 20
+        },
+        "calibration": {
+          "result": {
+            "images": 87,
+            "objects": 72,
+            "tp": 68,
+            "fp": 7,
+            "fn": 4,
+            "precision": 0.9066666666666666,
+            "recall": 0.9444444444444444,
+            "f1": 0.9251700680272109,
+            "ap50": 0.9023589115592113,
+            "ap50_95": 0.5732742209990074,
+            "exact_count": 83,
+            "negative_images": 15,
+            "correct_empty": 12
+          },
+          "guard": {
+            "passed": true,
+            "lost_matches": [],
+            "recovered_matches": 0,
+            "baseline_matches": 68,
+            "candidate_matches": 68
+          },
+          "max_fp": 23
+        }
+      },
+      "eligible": false
+    },
+    {
+      "policy": {
+        "options": {
+          "method": "logistic-50-unweighted",
+          "channels": "all",
+          "box": "mask",
+          "preserve": false,
+          "cutoff": 0.9
+        },
+        "guard": null
+      },
+      "outcome": {
+        "fit": {
+          "result": {
+            "images": 116,
+            "objects": 98,
+            "tp": 96,
+            "fp": 3,
+            "fn": 2,
+            "precision": 0.9696969696969697,
+            "recall": 0.9795918367346939,
+            "f1": 0.9746192893401016,
+            "ap50": 0.9967608515644067,
+            "ap50_95": 0.6521580576706101,
+            "exact_count": 111,
+            "negative_images": 18,
+            "correct_empty": 15
+          },
+          "guard": {
+            "passed": false,
+            "lost_matches": [
+              {
+                "id": "176339130",
+                "box": [
+                  0.08260869565217391,
+                  0.0,
+                  0.6217391304347826,
+                  0.3870967741935484
+                ]
+              },
+              {
+                "id": "36737404",
+                "box": [
+                  0.3826086956521739,
+                  0.3741935483870968,
+                  0.5869565217391305,
+                  0.567741935483871
+                ]
+              }
+            ],
+            "recovered_matches": 1,
+            "baseline_matches": 97,
+            "candidate_matches": 96
+          },
+          "max_fp": 20
+        },
+        "calibration": {
+          "result": {
+            "images": 87,
+            "objects": 72,
+            "tp": 68,
+            "fp": 7,
+            "fn": 4,
+            "precision": 0.9066666666666666,
+            "recall": 0.9444444444444444,
+            "f1": 0.9251700680272109,
+            "ap50": 0.9023589115592113,
+            "ap50_95": 0.5732742209990074,
+            "exact_count": 83,
+            "negative_images": 15,
+            "correct_empty": 12
+          },
+          "guard": {
+            "passed": true,
+            "lost_matches": [],
+            "recovered_matches": 0,
+            "baseline_matches": 68,
+            "candidate_matches": 68
+          },
+          "max_fp": 23
+        }
+      },
+      "eligible": false
+    },
+    {
+      "policy": {
+        "options": {
+          "method": "logistic-70",
+          "channels": "all",
+          "box": "mask",
+          "preserve": false,
+          "cutoff": 0.6
+        },
+        "guard": null
+      },
+      "outcome": {
+        "fit": {
+          "result": {
+            "images": 116,
+            "objects": 98,
+            "tp": 97,
+            "fp": 2,
+            "fn": 1,
+            "precision": 0.9797979797979798,
+            "recall": 0.9897959183673469,
+            "f1": 0.9847715736040609,
+            "ap50": 0.9993107918591416,
+            "ap50_95": 0.6205199124159442,
+            "exact_count": 113,
+            "negative_images": 18,
+            "correct_empty": 16
+          },
+          "guard": {
+            "passed": false,
+            "lost_matches": [
+              {
+                "id": "36737404",
+                "box": [
+                  0.3826086956521739,
+                  0.3741935483870968,
+                  0.5869565217391305,
+                  0.567741935483871
+                ]
+              }
+            ],
+            "recovered_matches": 1,
+            "baseline_matches": 97,
+            "candidate_matches": 97
+          },
+          "max_fp": 20
+        },
+        "calibration": {
+          "result": {
+            "images": 87,
+            "objects": 72,
+            "tp": 68,
+            "fp": 7,
+            "fn": 4,
+            "precision": 0.9066666666666666,
+            "recall": 0.9444444444444444,
+            "f1": 0.9251700680272109,
+            "ap50": 0.9058902065234219,
+            "ap50_95": 0.5634478037041278,
+            "exact_count": 83,
+            "negative_images": 15,
+            "correct_empty": 12
+          },
+          "guard": {
+            "passed": true,
+            "lost_matches": [],
+            "recovered_matches": 0,
+            "baseline_matches": 68,
+            "candidate_matches": 68
+          },
+          "max_fp": 23
+        }
+      },
+      "eligible": false
+    },
+    {
+      "policy": {
+        "options": {
+          "method": "logistic-70",
+          "channels": "all",
+          "box": "mask",
+          "preserve": false,
+          "cutoff": 0.5
+        },
+        "guard": null
+      },
+      "outcome": {
+        "fit": {
+          "result": {
+            "images": 116,
+            "objects": 98,
+            "tp": 97,
+            "fp": 2,
+            "fn": 1,
+            "precision": 0.9797979797979798,
+            "recall": 0.9897959183673469,
+            "f1": 0.9847715736040609,
+            "ap50": 0.9993107918591416,
+            "ap50_95": 0.6205199124159442,
+            "exact_count": 113,
+            "negative_images": 18,
+            "correct_empty": 16
+          },
+          "guard": {
+            "passed": false,
+            "lost_matches": [
+              {
+                "id": "36737404",
+                "box": [
+                  0.3826086956521739,
+                  0.3741935483870968,
+                  0.5869565217391305,
+                  0.567741935483871
+                ]
+              }
+            ],
+            "recovered_matches": 1,
+            "baseline_matches": 97,
+            "candidate_matches": 97
+          },
+          "max_fp": 20
+        },
+        "calibration": {
+          "result": {
+            "images": 87,
+            "objects": 72,
+            "tp": 68,
+            "fp": 7,
+            "fn": 4,
+            "precision": 0.9066666666666666,
+            "recall": 0.9444444444444444,
+            "f1": 0.9251700680272109,
+            "ap50": 0.9058902065234219,
+            "ap50_95": 0.5634478037041278,
+            "exact_count": 83,
+            "negative_images": 15,
+            "correct_empty": 12
+          },
+          "guard": {
+            "passed": true,
+            "lost_matches": [],
+            "recovered_matches": 0,
+            "baseline_matches": 68,
+            "candidate_matches": 68
+          },
+          "max_fp": 23
+        }
+      },
+      "eligible": false
+    },
+    {
+      "policy": {
+        "options": {
+          "method": "logistic-70",
+          "channels": "all",
+          "box": "anchor",
+          "preserve": false,
+          "cutoff": 0.6
+        },
+        "guard": null
+      },
+      "outcome": {
+        "fit": {
+          "result": {
+            "images": 116,
+            "objects": 98,
+            "tp": 96,
+            "fp": 3,
+            "fn": 2,
+            "precision": 0.9696969696969697,
+            "recall": 0.9795918367346939,
+            "f1": 0.9746192893401016,
+            "ap50": 0.9844293596764265,
+            "ap50_95": 0.599871796076384,
+            "exact_count": 113,
+            "negative_images": 18,
+            "correct_empty": 16
+          },
+          "guard": {
+            "passed": false,
+            "lost_matches": [
+              {
+                "id": "36737404",
+                "box": [
+                  0.3826086956521739,
+                  0.3741935483870968,
+                  0.5869565217391305,
+                  0.567741935483871
+                ]
+              }
+            ],
+            "recovered_matches": 0,
+            "baseline_matches": 97,
+            "candidate_matches": 96
+          },
+          "max_fp": 20
+        },
+        "calibration": {
+          "result": {
+            "images": 87,
+            "objects": 72,
+            "tp": 68,
+            "fp": 7,
+            "fn": 4,
+            "precision": 0.9066666666666666,
+            "recall": 0.9444444444444444,
+            "f1": 0.9251700680272109,
+            "ap50": 0.9058410971531446,
+            "ap50_95": 0.5475459372900523,
+            "exact_count": 83,
+            "negative_images": 15,
+            "correct_empty": 12
+          },
+          "guard": {
+            "passed": true,
+            "lost_matches": [],
+            "recovered_matches": 0,
+            "baseline_matches": 68,
+            "candidate_matches": 68
+          },
+          "max_fp": 23
+        }
+      },
+      "eligible": false
+    },
+    {
+      "policy": {
+        "options": {
+          "method": "logistic-70",
+          "channels": "all",
+          "box": "anchor",
+          "preserve": false,
+          "cutoff": 0.5
+        },
+        "guard": null
+      },
+      "outcome": {
+        "fit": {
+          "result": {
+            "images": 116,
+            "objects": 98,
+            "tp": 96,
+            "fp": 3,
+            "fn": 2,
+            "precision": 0.9696969696969697,
+            "recall": 0.9795918367346939,
+            "f1": 0.9746192893401016,
+            "ap50": 0.9844293596764265,
+            "ap50_95": 0.599871796076384,
+            "exact_count": 113,
+            "negative_images": 18,
+            "correct_empty": 16
+          },
+          "guard": {
+            "passed": false,
+            "lost_matches": [
+              {
+                "id": "36737404",
+                "box": [
+                  0.3826086956521739,
+                  0.3741935483870968,
+                  0.5869565217391305,
+                  0.567741935483871
+                ]
+              }
+            ],
+            "recovered_matches": 0,
+            "baseline_matches": 97,
+            "candidate_matches": 96
+          },
+          "max_fp": 20
+        },
+        "calibration": {
+          "result": {
+            "images": 87,
+            "objects": 72,
+            "tp": 68,
+            "fp": 7,
+            "fn": 4,
+            "precision": 0.9066666666666666,
+            "recall": 0.9444444444444444,
+            "f1": 0.9251700680272109,
+            "ap50": 0.9058410971531446,
+            "ap50_95": 0.5475459372900523,
+            "exact_count": 83,
+            "negative_images": 15,
+            "correct_empty": 12
+          },
+          "guard": {
+            "passed": true,
+            "lost_matches": [],
+            "recovered_matches": 0,
+            "baseline_matches": 68,
+            "candidate_matches": 68
+          },
+          "max_fp": 23
+        }
+      },
+      "eligible": false
+    },
+    {
+      "policy": {
+        "options": {
+          "method": "logistic-70",
+          "channels": "all",
+          "box": "mask",
+          "preserve": false,
+          "cutoff": 0.4
+        },
+        "guard": null
+      },
+      "outcome": {
+        "fit": {
+          "result": {
+            "images": 116,
+            "objects": 98,
+            "tp": 97,
+            "fp": 2,
+            "fn": 1,
+            "precision": 0.9797979797979798,
+            "recall": 0.9897959183673469,
+            "f1": 0.9847715736040609,
+            "ap50": 0.9993107918591416,
+            "ap50_95": 0.6205199124159442,
+            "exact_count": 113,
+            "negative_images": 18,
+            "correct_empty": 16
+          },
+          "guard": {
+            "passed": false,
+            "lost_matches": [
+              {
+                "id": "36737404",
+                "box": [
+                  0.3826086956521739,
+                  0.3741935483870968,
+                  0.5869565217391305,
+                  0.567741935483871
+                ]
+              }
+            ],
+            "recovered_matches": 1,
+            "baseline_matches": 97,
+            "candidate_matches": 97
+          },
+          "max_fp": 20
+        },
+        "calibration": {
+          "result": {
+            "images": 87,
+            "objects": 72,
+            "tp": 68,
+            "fp": 8,
+            "fn": 4,
+            "precision": 0.8947368421052632,
+            "recall": 0.9444444444444444,
+            "f1": 0.918918918918919,
+            "ap50": 0.9058902065234219,
+            "ap50_95": 0.5634478037041278,
+            "exact_count": 83,
+            "negative_images": 15,
+            "correct_empty": 12
+          },
+          "guard": {
+            "passed": true,
+            "lost_matches": [],
+            "recovered_matches": 0,
+            "baseline_matches": 68,
+            "candidate_matches": 68
+          },
+          "max_fp": 23
+        }
+      },
+      "eligible": false
+    },
+    {
+      "policy": {
+        "options": {
+          "method": "logistic-70",
+          "channels": "all",
+          "box": "mask",
+          "preserve": false,
+          "cutoff": 0.3
+        },
+        "guard": null
+      },
+      "outcome": {
+        "fit": {
+          "result": {
+            "images": 116,
+            "objects": 98,
+            "tp": 98,
+            "fp": 4,
+            "fn": 0,
+            "precision": 0.9607843137254902,
+            "recall": 1.0,
+            "f1": 0.98,
+            "ap50": 0.9993107918591416,
+            "ap50_95": 0.6205199124159442,
+            "exact_count": 112,
+            "negative_images": 18,
+            "correct_empty": 15
+          },
+          "guard": {
+            "passed": true,
+            "lost_matches": [],
+            "recovered_matches": 1,
+            "baseline_matches": 97,
+            "candidate_matches": 98
+          },
+          "max_fp": 20
+        },
+        "calibration": {
+          "result": {
+            "images": 87,
+            "objects": 72,
+            "tp": 68,
+            "fp": 8,
+            "fn": 4,
+            "precision": 0.8947368421052632,
+            "recall": 0.9444444444444444,
+            "f1": 0.918918918918919,
+            "ap50": 0.9058902065234219,
+            "ap50_95": 0.5634478037041278,
+            "exact_count": 83,
+            "negative_images": 15,
+            "correct_empty": 12
+          },
+          "guard": {
+            "passed": true,
+            "lost_matches": [],
+            "recovered_matches": 0,
+            "baseline_matches": 68,
+            "candidate_matches": 68
+          },
+          "max_fp": 23
+        }
+      },
+      "eligible": true
+    },
+    {
+      "policy": {
+        "options": {
+          "method": "logistic-70",
+          "channels": "all",
+          "box": "anchor",
+          "preserve": false,
+          "cutoff": 0.4
+        },
+        "guard": null
+      },
+      "outcome": {
+        "fit": {
+          "result": {
+            "images": 116,
+            "objects": 98,
+            "tp": 96,
+            "fp": 3,
+            "fn": 2,
+            "precision": 0.9696969696969697,
+            "recall": 0.9795918367346939,
+            "f1": 0.9746192893401016,
+            "ap50": 0.9844293596764265,
+            "ap50_95": 0.599871796076384,
+            "exact_count": 113,
+            "negative_images": 18,
+            "correct_empty": 16
+          },
+          "guard": {
+            "passed": false,
+            "lost_matches": [
+              {
+                "id": "36737404",
+                "box": [
+                  0.3826086956521739,
+                  0.3741935483870968,
+                  0.5869565217391305,
+                  0.567741935483871
+                ]
+              }
+            ],
+            "recovered_matches": 0,
+            "baseline_matches": 97,
+            "candidate_matches": 96
+          },
+          "max_fp": 20
+        },
+        "calibration": {
+          "result": {
+            "images": 87,
+            "objects": 72,
+            "tp": 68,
+            "fp": 8,
+            "fn": 4,
+            "precision": 0.8947368421052632,
+            "recall": 0.9444444444444444,
+            "f1": 0.918918918918919,
+            "ap50": 0.9058410971531446,
+            "ap50_95": 0.5475459372900523,
+            "exact_count": 83,
+            "negative_images": 15,
+            "correct_empty": 12
+          },
+          "guard": {
+            "passed": true,
+            "lost_matches": [],
+            "recovered_matches": 0,
+            "baseline_matches": 68,
+            "candidate_matches": 68
+          },
+          "max_fp": 23
+        }
+      },
+      "eligible": false
+    },
+    {
+      "policy": {
+        "options": {
+          "method": "logistic-70",
+          "channels": "all",
+          "box": "anchor",
+          "preserve": false,
+          "cutoff": 0.3
+        },
+        "guard": null
+      },
+      "outcome": {
+        "fit": {
+          "result": {
+            "images": 116,
+            "objects": 98,
+            "tp": 97,
+            "fp": 5,
+            "fn": 1,
+            "precision": 0.9509803921568627,
+            "recall": 0.9897959183673469,
+            "f1": 0.9700000000000001,
+            "ap50": 0.9844293596764265,
+            "ap50_95": 0.599871796076384,
+            "exact_count": 112,
+            "negative_images": 18,
+            "correct_empty": 15
+          },
+          "guard": {
+            "passed": true,
+            "lost_matches": [],
+            "recovered_matches": 0,
+            "baseline_matches": 97,
+            "candidate_matches": 97
+          },
+          "max_fp": 20
+        },
+        "calibration": {
+          "result": {
+            "images": 87,
+            "objects": 72,
+            "tp": 68,
+            "fp": 8,
+            "fn": 4,
+            "precision": 0.8947368421052632,
+            "recall": 0.9444444444444444,
+            "f1": 0.918918918918919,
+            "ap50": 0.9058410971531446,
+            "ap50_95": 0.5475459372900523,
+            "exact_count": 83,
+            "negative_images": 15,
+            "correct_empty": 12
+          },
+          "guard": {
+            "passed": true,
+            "lost_matches": [],
+            "recovered_matches": 0,
+            "baseline_matches": 68,
+            "candidate_matches": 68
+          },
+          "max_fp": 23
+        }
+      },
+      "eligible": true
+    },
+    {
+      "policy": {
+        "options": {
+          "method": "logistic-50-unweighted",
+          "channels": "all",
+          "box": "anchor",
+          "preserve": false,
+          "cutoff": 0.8
+        },
+        "guard": null
+      },
+      "outcome": {
+        "fit": {
+          "result": {
+            "images": 116,
+            "objects": 98,
+            "tp": 97,
+            "fp": 4,
+            "fn": 1,
+            "precision": 0.9603960396039604,
+            "recall": 0.9897959183673469,
+            "f1": 0.9748743718592964,
+            "ap50": 0.9843298924667135,
+            "ap50_95": 0.6496059244741333,
+            "exact_count": 113,
+            "negative_images": 18,
+            "correct_empty": 15
+          },
+          "guard": {
+            "passed": true,
+            "lost_matches": [],
+            "recovered_matches": 0,
+            "baseline_matches": 97,
+            "candidate_matches": 97
+          },
+          "max_fp": 20
+        },
+        "calibration": {
+          "result": {
+            "images": 87,
+            "objects": 72,
+            "tp": 68,
+            "fp": 10,
+            "fn": 4,
+            "precision": 0.8717948717948718,
+            "recall": 0.9444444444444444,
+            "f1": 0.9066666666666667,
+            "ap50": 0.9023589115592113,
+            "ap50_95": 0.5732742209990074,
+            "exact_count": 82,
+            "negative_images": 15,
+            "correct_empty": 11
+          },
+          "guard": {
+            "passed": true,
+            "lost_matches": [],
+            "recovered_matches": 0,
+            "baseline_matches": 68,
+            "candidate_matches": 68
+          },
+          "max_fp": 23
+        }
+      },
+      "eligible": true
+    },
+    {
+      "policy": {
+        "options": {
+          "method": "logistic-50-unweighted",
+          "channels": "all",
+          "box": "mask",
+          "preserve": false,
+          "cutoff": 0.8
+        },
+        "guard": null
+      },
+      "outcome": {
+        "fit": {
+          "result": {
+            "images": 116,
+            "objects": 98,
+            "tp": 98,
+            "fp": 3,
+            "fn": 0,
+            "precision": 0.9702970297029703,
+            "recall": 1.0,
+            "f1": 0.9849246231155778,
+            "ap50": 0.9967608515644067,
+            "ap50_95": 0.6521580576706101,
+            "exact_count": 113,
+            "negative_images": 18,
+            "correct_empty": 15
+          },
+          "guard": {
+            "passed": true,
+            "lost_matches": [],
+            "recovered_matches": 1,
+            "baseline_matches": 97,
+            "candidate_matches": 98
+          },
+          "max_fp": 20
+        },
+        "calibration": {
+          "result": {
+            "images": 87,
+            "objects": 72,
+            "tp": 68,
+            "fp": 10,
+            "fn": 4,
+            "precision": 0.8717948717948718,
+            "recall": 0.9444444444444444,
+            "f1": 0.9066666666666667,
+            "ap50": 0.9023589115592113,
+            "ap50_95": 0.5732742209990074,
+            "exact_count": 82,
+            "negative_images": 15,
+            "correct_empty": 11
+          },
+          "guard": {
+            "passed": true,
+            "lost_matches": [],
+            "recovered_matches": 0,
+            "baseline_matches": 68,
+            "candidate_matches": 68
+          },
+          "max_fp": 23
+        }
+      },
+      "eligible": true
+    },
+    {
+      "policy": {
+        "options": {
+          "method": "logistic-70",
+          "channels": "all",
+          "box": "mask",
+          "preserve": false,
+          "cutoff": 0.2
+        },
+        "guard": null
+      },
+      "outcome": {
+        "fit": {
+          "result": {
+            "images": 116,
+            "objects": 98,
+            "tp": 98,
+            "fp": 7,
+            "fn": 0,
+            "precision": 0.9333333333333333,
+            "recall": 1.0,
+            "f1": 0.9655172413793104,
+            "ap50": 0.9993107918591416,
+            "ap50_95": 0.6205199124159442,
+            "exact_count": 109,
+            "negative_images": 18,
+            "correct_empty": 14
+          },
+          "guard": {
+            "passed": true,
+            "lost_matches": [],
+            "recovered_matches": 1,
+            "baseline_matches": 97,
+            "candidate_matches": 98
+          },
+          "max_fp": 20
+        },
+        "calibration": {
+          "result": {
+            "images": 87,
+            "objects": 72,
+            "tp": 68,
+            "fp": 10,
+            "fn": 4,
+            "precision": 0.8717948717948718,
+            "recall": 0.9444444444444444,
+            "f1": 0.9066666666666667,
+            "ap50": 0.9058902065234219,
+            "ap50_95": 0.5634478037041278,
+            "exact_count": 83,
+            "negative_images": 15,
+            "correct_empty": 11
+          },
+          "guard": {
+            "passed": true,
+            "lost_matches": [],
+            "recovered_matches": 0,
+            "baseline_matches": 68,
+            "candidate_matches": 68
+          },
+          "max_fp": 23
+        }
+      },
+      "eligible": true
+    },
+    {
+      "policy": {
+        "options": {
+          "method": "logistic-70",
+          "channels": "all",
+          "box": "anchor",
+          "preserve": false,
+          "cutoff": 0.2
+        },
+        "guard": null
+      },
+      "outcome": {
+        "fit": {
+          "result": {
+            "images": 116,
+            "objects": 98,
+            "tp": 97,
+            "fp": 8,
+            "fn": 1,
+            "precision": 0.9238095238095239,
+            "recall": 0.9897959183673469,
+            "f1": 0.9556650246305419,
+            "ap50": 0.9844293596764265,
+            "ap50_95": 0.599871796076384,
+            "exact_count": 109,
+            "negative_images": 18,
+            "correct_empty": 14
+          },
+          "guard": {
+            "passed": true,
+            "lost_matches": [],
+            "recovered_matches": 0,
+            "baseline_matches": 97,
+            "candidate_matches": 97
+          },
+          "max_fp": 20
+        },
+        "calibration": {
+          "result": {
+            "images": 87,
+            "objects": 72,
+            "tp": 68,
+            "fp": 10,
+            "fn": 4,
+            "precision": 0.8717948717948718,
+            "recall": 0.9444444444444444,
+            "f1": 0.9066666666666667,
+            "ap50": 0.9058410971531446,
+            "ap50_95": 0.5475459372900523,
+            "exact_count": 83,
+            "negative_images": 15,
+            "correct_empty": 11
+          },
+          "guard": {
+            "passed": true,
+            "lost_matches": [],
+            "recovered_matches": 0,
+            "baseline_matches": 68,
+            "candidate_matches": 68
+          },
+          "max_fp": 23
+        }
+      },
+      "eligible": true
+    },
+    {
+      "policy": {
+        "options": {
+          "method": "logistic-50-unweighted",
+          "channels": "all",
+          "box": "anchor",
+          "preserve": false,
+          "cutoff": 0.7
+        },
+        "guard": null
+      },
+      "outcome": {
+        "fit": {
+          "result": {
+            "images": 116,
+            "objects": 98,
+            "tp": 97,
+            "fp": 5,
+            "fn": 1,
+            "precision": 0.9509803921568627,
+            "recall": 0.9897959183673469,
+            "f1": 0.9700000000000001,
+            "ap50": 0.9843298924667135,
+            "ap50_95": 0.6496059244741333,
+            "exact_count": 112,
+            "negative_images": 18,
+            "correct_empty": 15
+          },
+          "guard": {
+            "passed": true,
+            "lost_matches": [],
+            "recovered_matches": 0,
+            "baseline_matches": 97,
+            "candidate_matches": 97
+          },
+          "max_fp": 20
+        },
+        "calibration": {
+          "result": {
+            "images": 87,
+            "objects": 72,
+            "tp": 68,
+            "fp": 13,
+            "fn": 4,
+            "precision": 0.8395061728395061,
+            "recall": 0.9444444444444444,
+            "f1": 0.888888888888889,
+            "ap50": 0.9023589115592113,
+            "ap50_95": 0.5732742209990074,
+            "exact_count": 81,
+            "negative_images": 15,
+            "correct_empty": 10
+          },
+          "guard": {
+            "passed": true,
+            "lost_matches": [],
+            "recovered_matches": 0,
+            "baseline_matches": 68,
+            "candidate_matches": 68
+          },
+          "max_fp": 23
+        }
+      },
+      "eligible": true
+    },
+    {
+      "policy": {
+        "options": {
+          "method": "logistic-50-unweighted",
+          "channels": "all",
+          "box": "mask",
+          "preserve": false,
+          "cutoff": 0.7
+        },
+        "guard": null
+      },
+      "outcome": {
+        "fit": {
+          "result": {
+            "images": 116,
+            "objects": 98,
+            "tp": 98,
+            "fp": 4,
+            "fn": 0,
+            "precision": 0.9607843137254902,
+            "recall": 1.0,
+            "f1": 0.98,
+            "ap50": 0.9967608515644067,
+            "ap50_95": 0.6521580576706101,
+            "exact_count": 112,
+            "negative_images": 18,
+            "correct_empty": 15
+          },
+          "guard": {
+            "passed": true,
+            "lost_matches": [],
+            "recovered_matches": 1,
+            "baseline_matches": 97,
+            "candidate_matches": 98
+          },
+          "max_fp": 20
+        },
+        "calibration": {
+          "result": {
+            "images": 87,
+            "objects": 72,
+            "tp": 68,
+            "fp": 13,
+            "fn": 4,
+            "precision": 0.8395061728395061,
+            "recall": 0.9444444444444444,
+            "f1": 0.888888888888889,
+            "ap50": 0.9023589115592113,
+            "ap50_95": 0.5732742209990074,
+            "exact_count": 81,
+            "negative_images": 15,
+            "correct_empty": 10
+          },
+          "guard": {
+            "passed": true,
+            "lost_matches": [],
+            "recovered_matches": 0,
+            "baseline_matches": 68,
+            "candidate_matches": 68
+          },
+          "max_fp": 23
+        }
+      },
+      "eligible": true
+    },
+    {
+      "policy": {
+        "options": {
+          "method": "logistic-50-unweighted",
+          "channels": "all",
+          "box": "anchor",
+          "preserve": false,
+          "cutoff": 0.6
+        },
+        "guard": null
+      },
+      "outcome": {
+        "fit": {
+          "result": {
+            "images": 116,
+            "objects": 98,
+            "tp": 97,
+            "fp": 9,
+            "fn": 1,
+            "precision": 0.9150943396226415,
+            "recall": 0.9897959183673469,
+            "f1": 0.9509803921568627,
+            "ap50": 0.9843298924667135,
+            "ap50_95": 0.6496059244741333,
+            "exact_count": 108,
+            "negative_images": 18,
+            "correct_empty": 14
+          },
+          "guard": {
+            "passed": true,
+            "lost_matches": [],
+            "recovered_matches": 0,
+            "baseline_matches": 97,
+            "candidate_matches": 97
+          },
+          "max_fp": 20
+        },
+        "calibration": {
+          "result": {
+            "images": 87,
+            "objects": 72,
+            "tp": 68,
+            "fp": 17,
+            "fn": 4,
+            "precision": 0.8,
+            "recall": 0.9444444444444444,
+            "f1": 0.8662420382165604,
+            "ap50": 0.9023589115592113,
+            "ap50_95": 0.5732742209990074,
+            "exact_count": 77,
+            "negative_images": 15,
+            "correct_empty": 10
+          },
+          "guard": {
+            "passed": true,
+            "lost_matches": [],
+            "recovered_matches": 0,
+            "baseline_matches": 68,
+            "candidate_matches": 68
+          },
+          "max_fp": 23
+        }
+      },
+      "eligible": true
+    },
+    {
+      "policy": {
+        "options": {
+          "method": "logistic-50-unweighted",
+          "channels": "all",
+          "box": "mask",
+          "preserve": false,
+          "cutoff": 0.6
+        },
+        "guard": null
+      },
+      "outcome": {
+        "fit": {
+          "result": {
+            "images": 116,
+            "objects": 98,
+            "tp": 98,
+            "fp": 8,
+            "fn": 0,
+            "precision": 0.9245283018867925,
+            "recall": 1.0,
+            "f1": 0.9607843137254902,
+            "ap50": 0.9967608515644067,
+            "ap50_95": 0.6521580576706101,
+            "exact_count": 108,
+            "negative_images": 18,
+            "correct_empty": 14
+          },
+          "guard": {
+            "passed": true,
+            "lost_matches": [],
+            "recovered_matches": 1,
+            "baseline_matches": 97,
+            "candidate_matches": 98
+          },
+          "max_fp": 20
+        },
+        "calibration": {
+          "result": {
+            "images": 87,
+            "objects": 72,
+            "tp": 68,
+            "fp": 17,
+            "fn": 4,
+            "precision": 0.8,
+            "recall": 0.9444444444444444,
+            "f1": 0.8662420382165604,
+            "ap50": 0.9023589115592113,
+            "ap50_95": 0.5732742209990074,
+            "exact_count": 77,
+            "negative_images": 15,
+            "correct_empty": 10
+          },
+          "guard": {
+            "passed": true,
+            "lost_matches": [],
+            "recovered_matches": 0,
+            "baseline_matches": 68,
+            "candidate_matches": 68
+          },
+          "max_fp": 23
+        }
+      },
+      "eligible": true
+    },
+    {
+      "policy": {
+        "options": {
+          "method": "logistic-50-unweighted",
+          "channels": "all",
+          "box": "anchor",
+          "preserve": false,
+          "cutoff": 0.5
+        },
+        "guard": null
+      },
+      "outcome": {
+        "fit": {
+          "result": {
+            "images": 116,
+            "objects": 98,
+            "tp": 97,
+            "fp": 31,
+            "fn": 1,
+            "precision": 0.7578125,
+            "recall": 0.9897959183673469,
+            "f1": 0.8584070796460176,
+            "ap50": 0.9843298924667135,
+            "ap50_95": 0.6496059244741333,
+            "exact_count": 91,
+            "negative_images": 18,
+            "correct_empty": 12
+          },
+          "guard": {
+            "passed": true,
+            "lost_matches": [],
+            "recovered_matches": 0,
+            "baseline_matches": 97,
+            "candidate_matches": 97
+          },
+          "max_fp": 20
+        },
+        "calibration": {
+          "result": {
+            "images": 87,
+            "objects": 72,
+            "tp": 68,
+            "fp": 23,
+            "fn": 4,
+            "precision": 0.7472527472527473,
+            "recall": 0.9444444444444444,
+            "f1": 0.834355828220859,
+            "ap50": 0.9023589115592113,
+            "ap50_95": 0.5732742209990074,
+            "exact_count": 72,
+            "negative_images": 15,
+            "correct_empty": 10
+          },
+          "guard": {
+            "passed": true,
+            "lost_matches": [],
+            "recovered_matches": 0,
+            "baseline_matches": 68,
+            "candidate_matches": 68
+          },
+          "max_fp": 23
+        }
+      },
+      "eligible": false
+    },
+    {
+      "policy": {
+        "options": {
+          "method": "logistic-50-unweighted",
+          "channels": "all",
+          "box": "mask",
+          "preserve": false,
+          "cutoff": 0.5
+        },
+        "guard": null
+      },
+      "outcome": {
+        "fit": {
+          "result": {
+            "images": 116,
+            "objects": 98,
+            "tp": 98,
+            "fp": 30,
+            "fn": 0,
+            "precision": 0.765625,
+            "recall": 1.0,
+            "f1": 0.8672566371681416,
+            "ap50": 0.9967608515644067,
+            "ap50_95": 0.6521580576706101,
+            "exact_count": 91,
+            "negative_images": 18,
+            "correct_empty": 12
+          },
+          "guard": {
+            "passed": true,
+            "lost_matches": [],
+            "recovered_matches": 1,
+            "baseline_matches": 97,
+            "candidate_matches": 98
+          },
+          "max_fp": 20
+        },
+        "calibration": {
+          "result": {
+            "images": 87,
+            "objects": 72,
+            "tp": 68,
+            "fp": 23,
+            "fn": 4,
+            "precision": 0.7472527472527473,
+            "recall": 0.9444444444444444,
+            "f1": 0.834355828220859,
+            "ap50": 0.9023589115592113,
+            "ap50_95": 0.5732742209990074,
+            "exact_count": 72,
+            "negative_images": 15,
+            "correct_empty": 10
+          },
+          "guard": {
+            "passed": true,
+            "lost_matches": [],
+            "recovered_matches": 0,
+            "baseline_matches": 68,
+            "candidate_matches": 68
+          },
+          "max_fp": 23
+        }
+      },
+      "eligible": false
+    },
+    {
+      "policy": {
+        "options": {
+          "method": "logistic-50-unweighted",
+          "channels": "all",
+          "box": "weighted",
+          "preserve": false,
+          "cutoff": 0.5
+        },
+        "guard": null
+      },
+      "outcome": {
+        "fit": {
+          "result": {
+            "images": 116,
+            "objects": 98,
+            "tp": 98,
+            "fp": 33,
+            "fn": 0,
+            "precision": 0.7480916030534351,
+            "recall": 1.0,
+            "f1": 0.8558951965065502,
+            "ap50": 0.9967608515644067,
+            "ap50_95": 0.6135898436530498,
+            "exact_count": 88,
+            "negative_images": 18,
+            "correct_empty": 12
+          },
+          "guard": {
+            "passed": true,
+            "lost_matches": [],
+            "recovered_matches": 1,
+            "baseline_matches": 97,
+            "candidate_matches": 98
+          },
+          "max_fp": 20
+        },
+        "calibration": {
+          "result": {
+            "images": 87,
+            "objects": 72,
+            "tp": 68,
+            "fp": 23,
+            "fn": 4,
+            "precision": 0.7472527472527473,
+            "recall": 0.9444444444444444,
+            "f1": 0.834355828220859,
+            "ap50": 0.8934094519835372,
+            "ap50_95": 0.5350250302581578,
+            "exact_count": 71,
+            "negative_images": 15,
+            "correct_empty": 10
+          },
+          "guard": {
+            "passed": true,
+            "lost_matches": [],
+            "recovered_matches": 0,
+            "baseline_matches": 68,
+            "candidate_matches": 68
+          },
+          "max_fp": 23
+        }
+      },
+      "eligible": false
+    },
+    {
+      "policy": {
+        "options": {
+          "method": "union",
+          "channels": "all",
+          "box": "anchor",
+          "preserve": true,
+          "cutoff": 0.9
+        },
+        "guard": null
+      },
+      "outcome": {
+        "fit": {
+          "result": {
+            "images": 116,
+            "objects": 98,
+            "tp": 97,
+            "fp": 20,
+            "fn": 1,
+            "precision": 0.8290598290598291,
+            "recall": 0.9897959183673469,
+            "f1": 0.9023255813953488,
+            "ap50": 0.9051494382395893,
+            "ap50_95": 0.5845732453110186,
+            "exact_count": 100,
+            "negative_images": 18,
+            "correct_empty": 2
+          },
+          "guard": {
+            "passed": true,
+            "lost_matches": [],
+            "recovered_matches": 0,
+            "baseline_matches": 97,
+            "candidate_matches": 97
+          },
+          "max_fp": 20
+        },
+        "calibration": {
+          "result": {
+            "images": 87,
+            "objects": 72,
+            "tp": 68,
+            "fp": 23,
+            "fn": 4,
+            "precision": 0.7472527472527473,
+            "recall": 0.9444444444444444,
+            "f1": 0.834355828220859,
+            "ap50": 0.8874869160087567,
+            "ap50_95": 0.5110948089242625,
+            "exact_count": 74,
+            "negative_images": 15,
+            "correct_empty": 2
+          },
+          "guard": {
+            "passed": true,
+            "lost_matches": [],
+            "recovered_matches": 0,
+            "baseline_matches": 68,
+            "candidate_matches": 68
+          },
+          "max_fp": 23
+        }
+      },
+      "eligible": false
+    },
+    {
+      "policy": {
+        "options": {
+          "method": "union",
+          "channels": "all",
+          "box": "weighted",
+          "preserve": true,
+          "cutoff": 0.9
+        },
+        "guard": null
+      },
+      "outcome": {
+        "fit": {
+          "result": {
+            "images": 116,
+            "objects": 98,
+            "tp": 97,
+            "fp": 20,
+            "fn": 1,
+            "precision": 0.8290598290598291,
+            "recall": 0.9897959183673469,
+            "f1": 0.9023255813953488,
+            "ap50": 0.9051494382395893,
+            "ap50_95": 0.5845732453110186,
+            "exact_count": 100,
+            "negative_images": 18,
+            "correct_empty": 2
+          },
+          "guard": {
+            "passed": true,
+            "lost_matches": [],
+            "recovered_matches": 0,
+            "baseline_matches": 97,
+            "candidate_matches": 97
+          },
+          "max_fp": 20
+        },
+        "calibration": {
+          "result": {
+            "images": 87,
+            "objects": 72,
+            "tp": 68,
+            "fp": 23,
+            "fn": 4,
+            "precision": 0.7472527472527473,
+            "recall": 0.9444444444444444,
+            "f1": 0.834355828220859,
+            "ap50": 0.8874869160087567,
+            "ap50_95": 0.5110948089242625,
+            "exact_count": 74,
+            "negative_images": 15,
+            "correct_empty": 2
+          },
+          "guard": {
+            "passed": true,
+            "lost_matches": [],
+            "recovered_matches": 0,
+            "baseline_matches": 68,
+            "candidate_matches": 68
+          },
+          "max_fp": 23
+        }
+      },
+      "eligible": false
+    },
+    {
+      "policy": {
+        "options": {
+          "method": "union",
+          "channels": "all",
+          "box": "mask",
+          "preserve": true,
+          "cutoff": 0.9
+        },
+        "guard": null
+      },
+      "outcome": {
+        "fit": {
+          "result": {
+            "images": 116,
+            "objects": 98,
+            "tp": 97,
+            "fp": 20,
+            "fn": 1,
+            "precision": 0.8290598290598291,
+            "recall": 0.9897959183673469,
+            "f1": 0.9023255813953488,
+            "ap50": 0.9051494382395893,
+            "ap50_95": 0.5845732453110186,
+            "exact_count": 100,
+            "negative_images": 18,
+            "correct_empty": 2
+          },
+          "guard": {
+            "passed": true,
+            "lost_matches": [],
+            "recovered_matches": 0,
+            "baseline_matches": 97,
+            "candidate_matches": 97
+          },
+          "max_fp": 20
+        },
+        "calibration": {
+          "result": {
+            "images": 87,
+            "objects": 72,
+            "tp": 68,
+            "fp": 23,
+            "fn": 4,
+            "precision": 0.7472527472527473,
+            "recall": 0.9444444444444444,
+            "f1": 0.834355828220859,
+            "ap50": 0.8874869160087567,
+            "ap50_95": 0.5110948089242625,
+            "exact_count": 74,
+            "negative_images": 15,
+            "correct_empty": 2
+          },
+          "guard": {
+            "passed": true,
+            "lost_matches": [],
+            "recovered_matches": 0,
+            "baseline_matches": 68,
+            "candidate_matches": 68
+          },
+          "max_fp": 23
+        }
+      },
+      "eligible": false
+    },
+    {
+      "policy": {
+        "options": {
+          "method": "agreement",
+          "channels": "all",
+          "box": "anchor",
+          "preserve": true,
+          "cutoff": 0.9
+        },
+        "guard": null
+      },
+      "outcome": {
+        "fit": {
+          "result": {
+            "images": 116,
+            "objects": 98,
+            "tp": 97,
+            "fp": 20,
+            "fn": 1,
+            "precision": 0.8290598290598291,
+            "recall": 0.9897959183673469,
+            "f1": 0.9023255813953488,
+            "ap50": 0.9051494382395893,
+            "ap50_95": 0.5845732453110186,
+            "exact_count": 100,
+            "negative_images": 18,
+            "correct_empty": 2
+          },
+          "guard": {
+            "passed": true,
+            "lost_matches": [],
+            "recovered_matches": 0,
+            "baseline_matches": 97,
+            "candidate_matches": 97
+          },
+          "max_fp": 20
+        },
+        "calibration": {
+          "result": {
+            "images": 87,
+            "objects": 72,
+            "tp": 68,
+            "fp": 23,
+            "fn": 4,
+            "precision": 0.7472527472527473,
+            "recall": 0.9444444444444444,
+            "f1": 0.834355828220859,
+            "ap50": 0.8874869160087567,
+            "ap50_95": 0.5110948089242625,
+            "exact_count": 74,
+            "negative_images": 15,
+            "correct_empty": 2
+          },
+          "guard": {
+            "passed": true,
+            "lost_matches": [],
+            "recovered_matches": 0,
+            "baseline_matches": 68,
+            "candidate_matches": 68
+          },
+          "max_fp": 23
+        }
+      },
+      "eligible": false
+    },
+    {
+      "policy": {
+        "options": {
+          "method": "agreement",
+          "channels": "all",
+          "box": "weighted",
+          "preserve": true,
+          "cutoff": 0.9
+        },
+        "guard": null
+      },
+      "outcome": {
+        "fit": {
+          "result": {
+            "images": 116,
+            "objects": 98,
+            "tp": 97,
+            "fp": 20,
+            "fn": 1,
+            "precision": 0.8290598290598291,
+            "recall": 0.9897959183673469,
+            "f1": 0.9023255813953488,
+            "ap50": 0.9051494382395893,
+            "ap50_95": 0.5845732453110186,
+            "exact_count": 100,
+            "negative_images": 18,
+            "correct_empty": 2
+          },
+          "guard": {
+            "passed": true,
+            "lost_matches": [],
+            "recovered_matches": 0,
+            "baseline_matches": 97,
+            "candidate_matches": 97
+          },
+          "max_fp": 20
+        },
+        "calibration": {
+          "result": {
+            "images": 87,
+            "objects": 72,
+            "tp": 68,
+            "fp": 23,
+            "fn": 4,
+            "precision": 0.7472527472527473,
+            "recall": 0.9444444444444444,
+            "f1": 0.834355828220859,
+            "ap50": 0.8874869160087567,
+            "ap50_95": 0.5110948089242625,
+            "exact_count": 74,
+            "negative_images": 15,
+            "correct_empty": 2
+          },
+          "guard": {
+            "passed": true,
+            "lost_matches": [],
+            "recovered_matches": 0,
+            "baseline_matches": 68,
+            "candidate_matches": 68
+          },
+          "max_fp": 23
+        }
+      },
+      "eligible": false
+    },
+    {
+      "policy": {
+        "options": {
+          "method": "agreement",
+          "channels": "all",
+          "box": "mask",
+          "preserve": true,
+          "cutoff": 0.9
+        },
+        "guard": null
+      },
+      "outcome": {
+        "fit": {
+          "result": {
+            "images": 116,
+            "objects": 98,
+            "tp": 97,
+            "fp": 20,
+            "fn": 1,
+            "precision": 0.8290598290598291,
+            "recall": 0.9897959183673469,
+            "f1": 0.9023255813953488,
+            "ap50": 0.9051494382395893,
+            "ap50_95": 0.5845732453110186,
+            "exact_count": 100,
+            "negative_images": 18,
+            "correct_empty": 2
+          },
+          "guard": {
+            "passed": true,
+            "lost_matches": [],
+            "recovered_matches": 0,
+            "baseline_matches": 97,
+            "candidate_matches": 97
+          },
+          "max_fp": 20
+        },
+        "calibration": {
+          "result": {
+            "images": 87,
+            "objects": 72,
+            "tp": 68,
+            "fp": 23,
+            "fn": 4,
+            "precision": 0.7472527472527473,
+            "recall": 0.9444444444444444,
+            "f1": 0.834355828220859,
+            "ap50": 0.8874869160087567,
+            "ap50_95": 0.5110948089242625,
+            "exact_count": 74,
+            "negative_images": 15,
+            "correct_empty": 2
+          },
+          "guard": {
+            "passed": true,
+            "lost_matches": [],
+            "recovered_matches": 0,
+            "baseline_matches": 68,
+            "candidate_matches": 68
+          },
+          "max_fp": 23
+        }
+      },
+      "eligible": false
+    },
+    {
+      "policy": {
+        "options": {
+          "method": "logistic-50",
+          "channels": "all",
+          "box": "anchor",
+          "preserve": true,
+          "cutoff": 0.9
+        },
+        "guard": null
+      },
+      "outcome": {
+        "fit": {
+          "result": {
+            "images": 116,
+            "objects": 98,
+            "tp": 97,
+            "fp": 20,
+            "fn": 1,
+            "precision": 0.8290598290598291,
+            "recall": 0.9897959183673469,
+            "f1": 0.9023255813953488,
+            "ap50": 0.9051494382395893,
+            "ap50_95": 0.5845732453110186,
+            "exact_count": 100,
+            "negative_images": 18,
+            "correct_empty": 2
+          },
+          "guard": {
+            "passed": true,
+            "lost_matches": [],
+            "recovered_matches": 0,
+            "baseline_matches": 97,
+            "candidate_matches": 97
+          },
+          "max_fp": 20
+        },
+        "calibration": {
+          "result": {
+            "images": 87,
+            "objects": 72,
+            "tp": 68,
+            "fp": 23,
+            "fn": 4,
+            "precision": 0.7472527472527473,
+            "recall": 0.9444444444444444,
+            "f1": 0.834355828220859,
+            "ap50": 0.8874869160087567,
+            "ap50_95": 0.5110948089242625,
+            "exact_count": 74,
+            "negative_images": 15,
+            "correct_empty": 2
+          },
+          "guard": {
+            "passed": true,
+            "lost_matches": [],
+            "recovered_matches": 0,
+            "baseline_matches": 68,
+            "candidate_matches": 68
+          },
+          "max_fp": 23
+        }
+      },
+      "eligible": false
+    },
+    {
+      "policy": {
+        "options": {
+          "method": "logistic-50",
+          "channels": "all",
+          "box": "weighted",
+          "preserve": true,
+          "cutoff": 0.9
+        },
+        "guard": null
+      },
+      "outcome": {
+        "fit": {
+          "result": {
+            "images": 116,
+            "objects": 98,
+            "tp": 97,
+            "fp": 20,
+            "fn": 1,
+            "precision": 0.8290598290598291,
+            "recall": 0.9897959183673469,
+            "f1": 0.9023255813953488,
+            "ap50": 0.9051494382395893,
+            "ap50_95": 0.5845732453110186,
+            "exact_count": 100,
+            "negative_images": 18,
+            "correct_empty": 2
+          },
+          "guard": {
+            "passed": true,
+            "lost_matches": [],
+            "recovered_matches": 0,
+            "baseline_matches": 97,
+            "candidate_matches": 97
+          },
+          "max_fp": 20
+        },
+        "calibration": {
+          "result": {
+            "images": 87,
+            "objects": 72,
+            "tp": 68,
+            "fp": 23,
+            "fn": 4,
+            "precision": 0.7472527472527473,
+            "recall": 0.9444444444444444,
+            "f1": 0.834355828220859,
+            "ap50": 0.8874869160087567,
+            "ap50_95": 0.5110948089242625,
+            "exact_count": 74,
+            "negative_images": 15,
+            "correct_empty": 2
+          },
+          "guard": {
+            "passed": true,
+            "lost_matches": [],
+            "recovered_matches": 0,
+            "baseline_matches": 68,
+            "candidate_matches": 68
+          },
+          "max_fp": 23
+        }
+      },
+      "eligible": false
+    },
+    {
+      "policy": {
+        "options": {
+          "method": "logistic-50",
+          "channels": "all",
+          "box": "mask",
+          "preserve": true,
+          "cutoff": 0.9
+        },
+        "guard": null
+      },
+      "outcome": {
+        "fit": {
+          "result": {
+            "images": 116,
+            "objects": 98,
+            "tp": 97,
+            "fp": 20,
+            "fn": 1,
+            "precision": 0.8290598290598291,
+            "recall": 0.9897959183673469,
+            "f1": 0.9023255813953488,
+            "ap50": 0.9051494382395893,
+            "ap50_95": 0.5845732453110186,
+            "exact_count": 100,
+            "negative_images": 18,
+            "correct_empty": 2
+          },
+          "guard": {
+            "passed": true,
+            "lost_matches": [],
+            "recovered_matches": 0,
+            "baseline_matches": 97,
+            "candidate_matches": 97
+          },
+          "max_fp": 20
+        },
+        "calibration": {
+          "result": {
+            "images": 87,
+            "objects": 72,
+            "tp": 68,
+            "fp": 23,
+            "fn": 4,
+            "precision": 0.7472527472527473,
+            "recall": 0.9444444444444444,
+            "f1": 0.834355828220859,
+            "ap50": 0.8874869160087567,
+            "ap50_95": 0.5110948089242625,
+            "exact_count": 74,
+            "negative_images": 15,
+            "correct_empty": 2
+          },
+          "guard": {
+            "passed": true,
+            "lost_matches": [],
+            "recovered_matches": 0,
+            "baseline_matches": 68,
+            "candidate_matches": 68
+          },
+          "max_fp": 23
+        }
+      },
+      "eligible": false
+    },
+    {
+      "policy": {
+        "options": {
+          "method": "logistic-70",
+          "channels": "all",
+          "box": "anchor",
+          "preserve": true,
+          "cutoff": 0.9
+        },
+        "guard": null
+      },
+      "outcome": {
+        "fit": {
+          "result": {
+            "images": 116,
+            "objects": 98,
+            "tp": 97,
+            "fp": 20,
+            "fn": 1,
+            "precision": 0.8290598290598291,
+            "recall": 0.9897959183673469,
+            "f1": 0.9023255813953488,
+            "ap50": 0.9051494382395893,
+            "ap50_95": 0.5845732453110186,
+            "exact_count": 100,
+            "negative_images": 18,
+            "correct_empty": 2
+          },
+          "guard": {
+            "passed": true,
+            "lost_matches": [],
+            "recovered_matches": 0,
+            "baseline_matches": 97,
+            "candidate_matches": 97
+          },
+          "max_fp": 20
+        },
+        "calibration": {
+          "result": {
+            "images": 87,
+            "objects": 72,
+            "tp": 68,
+            "fp": 23,
+            "fn": 4,
+            "precision": 0.7472527472527473,
+            "recall": 0.9444444444444444,
+            "f1": 0.834355828220859,
+            "ap50": 0.8874869160087567,
+            "ap50_95": 0.5110948089242625,
+            "exact_count": 74,
+            "negative_images": 15,
+            "correct_empty": 2
+          },
+          "guard": {
+            "passed": true,
+            "lost_matches": [],
+            "recovered_matches": 0,
+            "baseline_matches": 68,
+            "candidate_matches": 68
+          },
+          "max_fp": 23
+        }
+      },
+      "eligible": false
+    },
+    {
+      "policy": {
+        "options": {
+          "method": "logistic-70",
+          "channels": "all",
+          "box": "weighted",
+          "preserve": true,
+          "cutoff": 0.9
+        },
+        "guard": null
+      },
+      "outcome": {
+        "fit": {
+          "result": {
+            "images": 116,
+            "objects": 98,
+            "tp": 97,
+            "fp": 20,
+            "fn": 1,
+            "precision": 0.8290598290598291,
+            "recall": 0.9897959183673469,
+            "f1": 0.9023255813953488,
+            "ap50": 0.9051494382395893,
+            "ap50_95": 0.5845732453110186,
+            "exact_count": 100,
+            "negative_images": 18,
+            "correct_empty": 2
+          },
+          "guard": {
+            "passed": true,
+            "lost_matches": [],
+            "recovered_matches": 0,
+            "baseline_matches": 97,
+            "candidate_matches": 97
+          },
+          "max_fp": 20
+        },
+        "calibration": {
+          "result": {
+            "images": 87,
+            "objects": 72,
+            "tp": 68,
+            "fp": 23,
+            "fn": 4,
+            "precision": 0.7472527472527473,
+            "recall": 0.9444444444444444,
+            "f1": 0.834355828220859,
+            "ap50": 0.8874869160087567,
+            "ap50_95": 0.5110948089242625,
+            "exact_count": 74,
+            "negative_images": 15,
+            "correct_empty": 2
+          },
+          "guard": {
+            "passed": true,
+            "lost_matches": [],
+            "recovered_matches": 0,
+            "baseline_matches": 68,
+            "candidate_matches": 68
+          },
+          "max_fp": 23
+        }
+      },
+      "eligible": false
+    },
+    {
+      "policy": {
+        "options": {
+          "method": "logistic-70",
+          "channels": "all",
+          "box": "mask",
+          "preserve": true,
+          "cutoff": 0.9
+        },
+        "guard": null
+      },
+      "outcome": {
+        "fit": {
+          "result": {
+            "images": 116,
+            "objects": 98,
+            "tp": 97,
+            "fp": 20,
+            "fn": 1,
+            "precision": 0.8290598290598291,
+            "recall": 0.9897959183673469,
+            "f1": 0.9023255813953488,
+            "ap50": 0.9051494382395893,
+            "ap50_95": 0.5845732453110186,
+            "exact_count": 100,
+            "negative_images": 18,
+            "correct_empty": 2
+          },
+          "guard": {
+            "passed": true,
+            "lost_matches": [],
+            "recovered_matches": 0,
+            "baseline_matches": 97,
+            "candidate_matches": 97
+          },
+          "max_fp": 20
+        },
+        "calibration": {
+          "result": {
+            "images": 87,
+            "objects": 72,
+            "tp": 68,
+            "fp": 23,
+            "fn": 4,
+            "precision": 0.7472527472527473,
+            "recall": 0.9444444444444444,
+            "f1": 0.834355828220859,
+            "ap50": 0.8874869160087567,
+            "ap50_95": 0.5110948089242625,
+            "exact_count": 74,
+            "negative_images": 15,
+            "correct_empty": 2
+          },
+          "guard": {
+            "passed": true,
+            "lost_matches": [],
+            "recovered_matches": 0,
+            "baseline_matches": 68,
+            "candidate_matches": 68
+          },
+          "max_fp": 23
+        }
+      },
+      "eligible": false
+    },
+    {
+      "policy": {
+        "options": {
+          "method": "logistic-50-unweighted",
+          "channels": "all",
+          "box": "anchor",
+          "preserve": true,
+          "cutoff": 0.9
+        },
+        "guard": null
+      },
+      "outcome": {
+        "fit": {
+          "result": {
+            "images": 116,
+            "objects": 98,
+            "tp": 97,
+            "fp": 20,
+            "fn": 1,
+            "precision": 0.8290598290598291,
+            "recall": 0.9897959183673469,
+            "f1": 0.9023255813953488,
+            "ap50": 0.9051494382395893,
+            "ap50_95": 0.5845732453110186,
+            "exact_count": 100,
+            "negative_images": 18,
+            "correct_empty": 2
+          },
+          "guard": {
+            "passed": true,
+            "lost_matches": [],
+            "recovered_matches": 0,
+            "baseline_matches": 97,
+            "candidate_matches": 97
+          },
+          "max_fp": 20
+        },
+        "calibration": {
+          "result": {
+            "images": 87,
+            "objects": 72,
+            "tp": 68,
+            "fp": 23,
+            "fn": 4,
+            "precision": 0.7472527472527473,
+            "recall": 0.9444444444444444,
+            "f1": 0.834355828220859,
+            "ap50": 0.8874869160087567,
+            "ap50_95": 0.5110948089242625,
+            "exact_count": 74,
+            "negative_images": 15,
+            "correct_empty": 2
+          },
+          "guard": {
+            "passed": true,
+            "lost_matches": [],
+            "recovered_matches": 0,
+            "baseline_matches": 68,
+            "candidate_matches": 68
+          },
+          "max_fp": 23
+        }
+      },
+      "eligible": false
+    },
+    {
+      "policy": {
+        "options": {
+          "method": "logistic-50-unweighted",
+          "channels": "all",
+          "box": "weighted",
+          "preserve": true,
+          "cutoff": 0.9
+        },
+        "guard": null
+      },
+      "outcome": {
+        "fit": {
+          "result": {
+            "images": 116,
+            "objects": 98,
+            "tp": 97,
+            "fp": 20,
+            "fn": 1,
+            "precision": 0.8290598290598291,
+            "recall": 0.9897959183673469,
+            "f1": 0.9023255813953488,
+            "ap50": 0.9051494382395893,
+            "ap50_95": 0.5845732453110186,
+            "exact_count": 100,
+            "negative_images": 18,
+            "correct_empty": 2
+          },
+          "guard": {
+            "passed": true,
+            "lost_matches": [],
+            "recovered_matches": 0,
+            "baseline_matches": 97,
+            "candidate_matches": 97
+          },
+          "max_fp": 20
+        },
+        "calibration": {
+          "result": {
+            "images": 87,
+            "objects": 72,
+            "tp": 68,
+            "fp": 23,
+            "fn": 4,
+            "precision": 0.7472527472527473,
+            "recall": 0.9444444444444444,
+            "f1": 0.834355828220859,
+            "ap50": 0.8874869160087567,
+            "ap50_95": 0.5110948089242625,
+            "exact_count": 74,
+            "negative_images": 15,
+            "correct_empty": 2
+          },
+          "guard": {
+            "passed": true,
+            "lost_matches": [],
+            "recovered_matches": 0,
+            "baseline_matches": 68,
+            "candidate_matches": 68
+          },
+          "max_fp": 23
+        }
+      },
+      "eligible": false
+    },
+    {
+      "policy": {
+        "options": {
+          "method": "logistic-50-unweighted",
+          "channels": "all",
+          "box": "mask",
+          "preserve": true,
+          "cutoff": 0.9
+        },
+        "guard": null
+      },
+      "outcome": {
+        "fit": {
+          "result": {
+            "images": 116,
+            "objects": 98,
+            "tp": 97,
+            "fp": 20,
+            "fn": 1,
+            "precision": 0.8290598290598291,
+            "recall": 0.9897959183673469,
+            "f1": 0.9023255813953488,
+            "ap50": 0.9051494382395893,
+            "ap50_95": 0.5845732453110186,
+            "exact_count": 100,
+            "negative_images": 18,
+            "correct_empty": 2
+          },
+          "guard": {
+            "passed": true,
+            "lost_matches": [],
+            "recovered_matches": 0,
+            "baseline_matches": 97,
+            "candidate_matches": 97
+          },
+          "max_fp": 20
+        },
+        "calibration": {
+          "result": {
+            "images": 87,
+            "objects": 72,
+            "tp": 68,
+            "fp": 23,
+            "fn": 4,
+            "precision": 0.7472527472527473,
+            "recall": 0.9444444444444444,
+            "f1": 0.834355828220859,
+            "ap50": 0.8874869160087567,
+            "ap50_95": 0.5110948089242625,
+            "exact_count": 74,
+            "negative_images": 15,
+            "correct_empty": 2
+          },
+          "guard": {
+            "passed": true,
+            "lost_matches": [],
+            "recovered_matches": 0,
+            "baseline_matches": 68,
+            "candidate_matches": 68
+          },
+          "max_fp": 23
+        }
+      },
+      "eligible": false
+    },
+    {
+      "policy": {
+        "options": {
+          "method": "union",
+          "channels": [
+            "rf",
+            "sam"
+          ],
+          "box": "anchor",
+          "preserve": true,
+          "cutoff": 0.9
+        },
+        "guard": null
+      },
+      "outcome": {
+        "fit": {
+          "result": {
+            "images": 116,
+            "objects": 98,
+            "tp": 97,
+            "fp": 20,
+            "fn": 1,
+            "precision": 0.8290598290598291,
+            "recall": 0.9897959183673469,
+            "f1": 0.9023255813953488,
+            "ap50": 0.9051494382395893,
+            "ap50_95": 0.5845732453110186,
+            "exact_count": 100,
+            "negative_images": 18,
+            "correct_empty": 2
+          },
+          "guard": {
+            "passed": true,
+            "lost_matches": [],
+            "recovered_matches": 0,
+            "baseline_matches": 97,
+            "candidate_matches": 97
+          },
+          "max_fp": 20
+        },
+        "calibration": {
+          "result": {
+            "images": 87,
+            "objects": 72,
+            "tp": 68,
+            "fp": 23,
+            "fn": 4,
+            "precision": 0.7472527472527473,
+            "recall": 0.9444444444444444,
+            "f1": 0.834355828220859,
+            "ap50": 0.8874869160087567,
+            "ap50_95": 0.5110948089242625,
+            "exact_count": 74,
+            "negative_images": 15,
+            "correct_empty": 2
+          },
+          "guard": {
+            "passed": true,
+            "lost_matches": [],
+            "recovered_matches": 0,
+            "baseline_matches": 68,
+            "candidate_matches": 68
+          },
+          "max_fp": 23
+        }
+      },
+      "eligible": false
+    },
+    {
+      "policy": {
+        "options": {
+          "method": "union",
+          "channels": [
+            "rf",
+            "sam"
+          ],
+          "box": "weighted",
+          "preserve": true,
+          "cutoff": 0.9
+        },
+        "guard": null
+      },
+      "outcome": {
+        "fit": {
+          "result": {
+            "images": 116,
+            "objects": 98,
+            "tp": 97,
+            "fp": 20,
+            "fn": 1,
+            "precision": 0.8290598290598291,
+            "recall": 0.9897959183673469,
+            "f1": 0.9023255813953488,
+            "ap50": 0.9051494382395893,
+            "ap50_95": 0.5845732453110186,
+            "exact_count": 100,
+            "negative_images": 18,
+            "correct_empty": 2
+          },
+          "guard": {
+            "passed": true,
+            "lost_matches": [],
+            "recovered_matches": 0,
+            "baseline_matches": 97,
+            "candidate_matches": 97
+          },
+          "max_fp": 20
+        },
+        "calibration": {
+          "result": {
+            "images": 87,
+            "objects": 72,
+            "tp": 68,
+            "fp": 23,
+            "fn": 4,
+            "precision": 0.7472527472527473,
+            "recall": 0.9444444444444444,
+            "f1": 0.834355828220859,
+            "ap50": 0.8874869160087567,
+            "ap50_95": 0.5110948089242625,
+            "exact_count": 74,
+            "negative_images": 15,
+            "correct_empty": 2
+          },
+          "guard": {
+            "passed": true,
+            "lost_matches": [],
+            "recovered_matches": 0,
+            "baseline_matches": 68,
+            "candidate_matches": 68
+          },
+          "max_fp": 23
+        }
+      },
+      "eligible": false
+    },
+    {
+      "policy": {
+        "options": {
+          "method": "union",
+          "channels": [
+            "rf",
+            "sam"
+          ],
+          "box": "mask",
+          "preserve": true,
+          "cutoff": 0.9
+        },
+        "guard": null
+      },
+      "outcome": {
+        "fit": {
+          "result": {
+            "images": 116,
+            "objects": 98,
+            "tp": 97,
+            "fp": 20,
+            "fn": 1,
+            "precision": 0.8290598290598291,
+            "recall": 0.9897959183673469,
+            "f1": 0.9023255813953488,
+            "ap50": 0.9051494382395893,
+            "ap50_95": 0.5845732453110186,
+            "exact_count": 100,
+            "negative_images": 18,
+            "correct_empty": 2
+          },
+          "guard": {
+            "passed": true,
+            "lost_matches": [],
+            "recovered_matches": 0,
+            "baseline_matches": 97,
+            "candidate_matches": 97
+          },
+          "max_fp": 20
+        },
+        "calibration": {
+          "result": {
+            "images": 87,
+            "objects": 72,
+            "tp": 68,
+            "fp": 23,
+            "fn": 4,
+            "precision": 0.7472527472527473,
+            "recall": 0.9444444444444444,
+            "f1": 0.834355828220859,
+            "ap50": 0.8874869160087567,
+            "ap50_95": 0.5110948089242625,
+            "exact_count": 74,
+            "negative_images": 15,
+            "correct_empty": 2
+          },
+          "guard": {
+            "passed": true,
+            "lost_matches": [],
+            "recovered_matches": 0,
+            "baseline_matches": 68,
+            "candidate_matches": 68
+          },
+          "max_fp": 23
+        }
+      },
+      "eligible": false
+    },
+    {
+      "policy": {
+        "options": {
+          "method": "agreement",
+          "channels": [
+            "rf",
+            "sam"
+          ],
+          "box": "anchor",
+          "preserve": true,
+          "cutoff": 0.9
+        },
+        "guard": null
+      },
+      "outcome": {
+        "fit": {
+          "result": {
+            "images": 116,
+            "objects": 98,
+            "tp": 97,
+            "fp": 20,
+            "fn": 1,
+            "precision": 0.8290598290598291,
+            "recall": 0.9897959183673469,
+            "f1": 0.9023255813953488,
+            "ap50": 0.9051494382395893,
+            "ap50_95": 0.5845732453110186,
+            "exact_count": 100,
+            "negative_images": 18,
+            "correct_empty": 2
+          },
+          "guard": {
+            "passed": true,
+            "lost_matches": [],
+            "recovered_matches": 0,
+            "baseline_matches": 97,
+            "candidate_matches": 97
+          },
+          "max_fp": 20
+        },
+        "calibration": {
+          "result": {
+            "images": 87,
+            "objects": 72,
+            "tp": 68,
+            "fp": 23,
+            "fn": 4,
+            "precision": 0.7472527472527473,
+            "recall": 0.9444444444444444,
+            "f1": 0.834355828220859,
+            "ap50": 0.8874869160087567,
+            "ap50_95": 0.5110948089242625,
+            "exact_count": 74,
+            "negative_images": 15,
+            "correct_empty": 2
+          },
+          "guard": {
+            "passed": true,
+            "lost_matches": [],
+            "recovered_matches": 0,
+            "baseline_matches": 68,
+            "candidate_matches": 68
+          },
+          "max_fp": 23
+        }
+      },
+      "eligible": false
+    },
+    {
+      "policy": {
+        "options": {
+          "method": "agreement",
+          "channels": [
+            "rf",
+            "sam"
+          ],
+          "box": "weighted",
+          "preserve": true,
+          "cutoff": 0.9
+        },
+        "guard": null
+      },
+      "outcome": {
+        "fit": {
+          "result": {
+            "images": 116,
+            "objects": 98,
+            "tp": 97,
+            "fp": 20,
+            "fn": 1,
+            "precision": 0.8290598290598291,
+            "recall": 0.9897959183673469,
+            "f1": 0.9023255813953488,
+            "ap50": 0.9051494382395893,
+            "ap50_95": 0.5845732453110186,
+            "exact_count": 100,
+            "negative_images": 18,
+            "correct_empty": 2
+          },
+          "guard": {
+            "passed": true,
+            "lost_matches": [],
+            "recovered_matches": 0,
+            "baseline_matches": 97,
+            "candidate_matches": 97
+          },
+          "max_fp": 20
+        },
+        "calibration": {
+          "result": {
+            "images": 87,
+            "objects": 72,
+            "tp": 68,
+            "fp": 23,
+            "fn": 4,
+            "precision": 0.7472527472527473,
+            "recall": 0.9444444444444444,
+            "f1": 0.834355828220859,
+            "ap50": 0.8874869160087567,
+            "ap50_95": 0.5110948089242625,
+            "exact_count": 74,
+            "negative_images": 15,
+            "correct_empty": 2
+          },
+          "guard": {
+            "passed": true,
+            "lost_matches": [],
+            "recovered_matches": 0,
+            "baseline_matches": 68,
+            "candidate_matches": 68
+          },
+          "max_fp": 23
+        }
+      },
+      "eligible": false
+    },
+    {
+      "policy": {
+        "options": {
+          "method": "agreement",
+          "channels": [
+            "rf",
+            "sam"
+          ],
+          "box": "mask",
+          "preserve": true,
+          "cutoff": 0.9
+        },
+        "guard": null
+      },
+      "outcome": {
+        "fit": {
+          "result": {
+            "images": 116,
+            "objects": 98,
+            "tp": 97,
+            "fp": 20,
+            "fn": 1,
+            "precision": 0.8290598290598291,
+            "recall": 0.9897959183673469,
+            "f1": 0.9023255813953488,
+            "ap50": 0.9051494382395893,
+            "ap50_95": 0.5845732453110186,
+            "exact_count": 100,
+            "negative_images": 18,
+            "correct_empty": 2
+          },
+          "guard": {
+            "passed": true,
+            "lost_matches": [],
+            "recovered_matches": 0,
+            "baseline_matches": 97,
+            "candidate_matches": 97
+          },
+          "max_fp": 20
+        },
+        "calibration": {
+          "result": {
+            "images": 87,
+            "objects": 72,
+            "tp": 68,
+            "fp": 23,
+            "fn": 4,
+            "precision": 0.7472527472527473,
+            "recall": 0.9444444444444444,
+            "f1": 0.834355828220859,
+            "ap50": 0.8874869160087567,
+            "ap50_95": 0.5110948089242625,
+            "exact_count": 74,
+            "negative_images": 15,
+            "correct_empty": 2
+          },
+          "guard": {
+            "passed": true,
+            "lost_matches": [],
+            "recovered_matches": 0,
+            "baseline_matches": 68,
+            "candidate_matches": 68
+          },
+          "max_fp": 23
+        }
+      },
+      "eligible": false
+    },
+    {
+      "policy": {
+        "options": {
+          "method": "union",
+          "channels": "all",
+          "box": "anchor",
+          "preserve": true,
+          "cutoff": 0.8
+        },
+        "guard": null
+      },
+      "outcome": {
+        "fit": {
+          "result": {
+            "images": 116,
+            "objects": 98,
+            "tp": 97,
+            "fp": 20,
+            "fn": 1,
+            "precision": 0.8290598290598291,
+            "recall": 0.9897959183673469,
+            "f1": 0.9023255813953488,
+            "ap50": 0.8842505004178001,
+            "ap50_95": 0.5775977153994396,
+            "exact_count": 100,
+            "negative_images": 18,
+            "correct_empty": 2
+          },
+          "guard": {
+            "passed": true,
+            "lost_matches": [],
+            "recovered_matches": 0,
+            "baseline_matches": 97,
+            "candidate_matches": 97
+          },
+          "max_fp": 20
+        },
+        "calibration": {
+          "result": {
+            "images": 87,
+            "objects": 72,
+            "tp": 68,
+            "fp": 23,
+            "fn": 4,
+            "precision": 0.7472527472527473,
+            "recall": 0.9444444444444444,
+            "f1": 0.834355828220859,
+            "ap50": 0.8594121699287686,
+            "ap50_95": 0.4878972880119325,
+            "exact_count": 74,
+            "negative_images": 15,
+            "correct_empty": 2
+          },
+          "guard": {
+            "passed": true,
+            "lost_matches": [],
+            "recovered_matches": 0,
+            "baseline_matches": 68,
+            "candidate_matches": 68
+          },
+          "max_fp": 23
+        }
+      },
+      "eligible": false
+    },
+    {
+      "policy": {
+        "options": {
+          "method": "union",
+          "channels": "all",
+          "box": "weighted",
+          "preserve": true,
+          "cutoff": 0.8
+        },
+        "guard": null
+      },
+      "outcome": {
+        "fit": {
+          "result": {
+            "images": 116,
+            "objects": 98,
+            "tp": 97,
+            "fp": 20,
+            "fn": 1,
+            "precision": 0.8290598290598291,
+            "recall": 0.9897959183673469,
+            "f1": 0.9023255813953488,
+            "ap50": 0.8842505004178001,
+            "ap50_95": 0.5775977153994396,
+            "exact_count": 100,
+            "negative_images": 18,
+            "correct_empty": 2
+          },
+          "guard": {
+            "passed": true,
+            "lost_matches": [],
+            "recovered_matches": 0,
+            "baseline_matches": 97,
+            "candidate_matches": 97
+          },
+          "max_fp": 20
+        },
+        "calibration": {
+          "result": {
+            "images": 87,
+            "objects": 72,
+            "tp": 68,
+            "fp": 23,
+            "fn": 4,
+            "precision": 0.7472527472527473,
+            "recall": 0.9444444444444444,
+            "f1": 0.834355828220859,
+            "ap50": 0.8594121699287686,
+            "ap50_95": 0.4878972880119325,
+            "exact_count": 74,
+            "negative_images": 15,
+            "correct_empty": 2
+          },
+          "guard": {
+            "passed": true,
+            "lost_matches": [],
+            "recovered_matches": 0,
+            "baseline_matches": 68,
+            "candidate_matches": 68
+          },
+          "max_fp": 23
+        }
+      },
+      "eligible": false
+    },
+    {
+      "policy": {
+        "options": {
+          "method": "union",
+          "channels": "all",
+          "box": "mask",
+          "preserve": true,
+          "cutoff": 0.8
+        },
+        "guard": null
+      },
+      "outcome": {
+        "fit": {
+          "result": {
+            "images": 116,
+            "objects": 98,
+            "tp": 97,
+            "fp": 20,
+            "fn": 1,
+            "precision": 0.8290598290598291,
+            "recall": 0.9897959183673469,
+            "f1": 0.9023255813953488,
+            "ap50": 0.8842505004178001,
+            "ap50_95": 0.5775977153994396,
+            "exact_count": 100,
+            "negative_images": 18,
+            "correct_empty": 2
+          },
+          "guard": {
+            "passed": true,
+            "lost_matches": [],
+            "recovered_matches": 0,
+            "baseline_matches": 97,
+            "candidate_matches": 97
+          },
+          "max_fp": 20
+        },
+        "calibration": {
+          "result": {
+            "images": 87,
+            "objects": 72,
+            "tp": 68,
+            "fp": 23,
+            "fn": 4,
+            "precision": 0.7472527472527473,
+            "recall": 0.9444444444444444,
+            "f1": 0.834355828220859,
+            "ap50": 0.8594121699287686,
+            "ap50_95": 0.4878972880119325,
+            "exact_count": 74,
+            "negative_images": 15,
+            "correct_empty": 2
+          },
+          "guard": {
+            "passed": true,
+            "lost_matches": [],
+            "recovered_matches": 0,
+            "baseline_matches": 68,
+            "candidate_matches": 68
+          },
+          "max_fp": 23
+        }
+      },
+      "eligible": false
+    },
+    {
+      "policy": {
+        "options": {
+          "method": "logistic-70",
+          "channels": "all",
+          "box": "anchor",
+          "preserve": true,
+          "cutoff": 0.8
+        },
+        "guard": null
+      },
+      "outcome": {
+        "fit": {
+          "result": {
+            "images": 116,
+            "objects": 98,
+            "tp": 97,
+            "fp": 20,
+            "fn": 1,
+            "precision": 0.8290598290598291,
+            "recall": 0.9897959183673469,
+            "f1": 0.9023255813953488,
+            "ap50": 0.8842505004178001,
+            "ap50_95": 0.5775977153994396,
+            "exact_count": 100,
+            "negative_images": 18,
+            "correct_empty": 2
+          },
+          "guard": {
+            "passed": true,
+            "lost_matches": [],
+            "recovered_matches": 0,
+            "baseline_matches": 97,
+            "candidate_matches": 97
+          },
+          "max_fp": 20
+        },
+        "calibration": {
+          "result": {
+            "images": 87,
+            "objects": 72,
+            "tp": 68,
+            "fp": 23,
+            "fn": 4,
+            "precision": 0.7472527472527473,
+            "recall": 0.9444444444444444,
+            "f1": 0.834355828220859,
+            "ap50": 0.8594121699287686,
+            "ap50_95": 0.4878972880119325,
+            "exact_count": 74,
+            "negative_images": 15,
+            "correct_empty": 2
+          },
+          "guard": {
+            "passed": true,
+            "lost_matches": [],
+            "recovered_matches": 0,
+            "baseline_matches": 68,
+            "candidate_matches": 68
+          },
+          "max_fp": 23
+        }
+      },
+      "eligible": false
+    },
+    {
+      "policy": {
+        "options": {
+          "method": "logistic-70",
+          "channels": "all",
+          "box": "weighted",
+          "preserve": true,
+          "cutoff": 0.8
+        },
+        "guard": null
+      },
+      "outcome": {
+        "fit": {
+          "result": {
+            "images": 116,
+            "objects": 98,
+            "tp": 97,
+            "fp": 20,
+            "fn": 1,
+            "precision": 0.8290598290598291,
+            "recall": 0.9897959183673469,
+            "f1": 0.9023255813953488,
+            "ap50": 0.8842505004178001,
+            "ap50_95": 0.5775977153994396,
+            "exact_count": 100,
+            "negative_images": 18,
+            "correct_empty": 2
+          },
+          "guard": {
+            "passed": true,
+            "lost_matches": [],
+            "recovered_matches": 0,
+            "baseline_matches": 97,
+            "candidate_matches": 97
+          },
+          "max_fp": 20
+        },
+        "calibration": {
+          "result": {
+            "images": 87,
+            "objects": 72,
+            "tp": 68,
+            "fp": 23,
+            "fn": 4,
+            "precision": 0.7472527472527473,
+            "recall": 0.9444444444444444,
+            "f1": 0.834355828220859,
+            "ap50": 0.8594121699287686,
+            "ap50_95": 0.4878972880119325,
+            "exact_count": 74,
+            "negative_images": 15,
+            "correct_empty": 2
+          },
+          "guard": {
+            "passed": true,
+            "lost_matches": [],
+            "recovered_matches": 0,
+            "baseline_matches": 68,
+            "candidate_matches": 68
+          },
+          "max_fp": 23
+        }
+      },
+      "eligible": false
+    },
+    {
+      "policy": {
+        "options": {
+          "method": "logistic-70",
+          "channels": "all",
+          "box": "mask",
+          "preserve": true,
+          "cutoff": 0.8
+        },
+        "guard": null
+      },
+      "outcome": {
+        "fit": {
+          "result": {
+            "images": 116,
+            "objects": 98,
+            "tp": 97,
+            "fp": 20,
+            "fn": 1,
+            "precision": 0.8290598290598291,
+            "recall": 0.9897959183673469,
+            "f1": 0.9023255813953488,
+            "ap50": 0.8842505004178001,
+            "ap50_95": 0.5775977153994396,
+            "exact_count": 100,
+            "negative_images": 18,
+            "correct_empty": 2
+          },
+          "guard": {
+            "passed": true,
+            "lost_matches": [],
+            "recovered_matches": 0,
+            "baseline_matches": 97,
+            "candidate_matches": 97
+          },
+          "max_fp": 20
+        },
+        "calibration": {
+          "result": {
+            "images": 87,
+            "objects": 72,
+            "tp": 68,
+            "fp": 23,
+            "fn": 4,
+            "precision": 0.7472527472527473,
+            "recall": 0.9444444444444444,
+            "f1": 0.834355828220859,
+            "ap50": 0.8594121699287686,
+            "ap50_95": 0.4878972880119325,
+            "exact_count": 74,
+            "negative_images": 15,
+            "correct_empty": 2
+          },
+          "guard": {
+            "passed": true,
+            "lost_matches": [],
+            "recovered_matches": 0,
+            "baseline_matches": 68,
+            "candidate_matches": 68
+          },
+          "max_fp": 23
+        }
+      },
+      "eligible": false
+    },
+    {
+      "policy": {
+        "options": {
+          "method": "union",
+          "channels": [
+            "rf",
+            "sam"
+          ],
+          "box": "anchor",
+          "preserve": true,
+          "cutoff": 0.8
+        },
+        "guard": null
+      },
+      "outcome": {
+        "fit": {
+          "result": {
+            "images": 116,
+            "objects": 98,
+            "tp": 97,
+            "fp": 20,
+            "fn": 1,
+            "precision": 0.8290598290598291,
+            "recall": 0.9897959183673469,
+            "f1": 0.9023255813953488,
+            "ap50": 0.8842505004178001,
+            "ap50_95": 0.5775977153994396,
+            "exact_count": 100,
+            "negative_images": 18,
+            "correct_empty": 2
+          },
+          "guard": {
+            "passed": true,
+            "lost_matches": [],
+            "recovered_matches": 0,
+            "baseline_matches": 97,
+            "candidate_matches": 97
+          },
+          "max_fp": 20
+        },
+        "calibration": {
+          "result": {
+            "images": 87,
+            "objects": 72,
+            "tp": 68,
+            "fp": 23,
+            "fn": 4,
+            "precision": 0.7472527472527473,
+            "recall": 0.9444444444444444,
+            "f1": 0.834355828220859,
+            "ap50": 0.8594121699287686,
+            "ap50_95": 0.4878972880119325,
+            "exact_count": 74,
+            "negative_images": 15,
+            "correct_empty": 2
+          },
+          "guard": {
+            "passed": true,
+            "lost_matches": [],
+            "recovered_matches": 0,
+            "baseline_matches": 68,
+            "candidate_matches": 68
+          },
+          "max_fp": 23
+        }
+      },
+      "eligible": false
+    },
+    {
+      "policy": {
+        "options": {
+          "method": "union",
+          "channels": [
+            "rf",
+            "sam"
+          ],
+          "box": "weighted",
+          "preserve": true,
+          "cutoff": 0.8
+        },
+        "guard": null
+      },
+      "outcome": {
+        "fit": {
+          "result": {
+            "images": 116,
+            "objects": 98,
+            "tp": 97,
+            "fp": 20,
+            "fn": 1,
+            "precision": 0.8290598290598291,
+            "recall": 0.9897959183673469,
+            "f1": 0.9023255813953488,
+            "ap50": 0.8842505004178001,
+            "ap50_95": 0.5775977153994396,
+            "exact_count": 100,
+            "negative_images": 18,
+            "correct_empty": 2
+          },
+          "guard": {
+            "passed": true,
+            "lost_matches": [],
+            "recovered_matches": 0,
+            "baseline_matches": 97,
+            "candidate_matches": 97
+          },
+          "max_fp": 20
+        },
+        "calibration": {
+          "result": {
+            "images": 87,
+            "objects": 72,
+            "tp": 68,
+            "fp": 23,
+            "fn": 4,
+            "precision": 0.7472527472527473,
+            "recall": 0.9444444444444444,
+            "f1": 0.834355828220859,
+            "ap50": 0.8594121699287686,
+            "ap50_95": 0.4878972880119325,
+            "exact_count": 74,
+            "negative_images": 15,
+            "correct_empty": 2
+          },
+          "guard": {
+            "passed": true,
+            "lost_matches": [],
+            "recovered_matches": 0,
+            "baseline_matches": 68,
+            "candidate_matches": 68
+          },
+          "max_fp": 23
+        }
+      },
+      "eligible": false
+    },
+    {
+      "policy": {
+        "options": {
+          "method": "union",
+          "channels": [
+            "rf",
+            "sam"
+          ],
+          "box": "mask",
+          "preserve": true,
+          "cutoff": 0.8
+        },
+        "guard": null
+      },
+      "outcome": {
+        "fit": {
+          "result": {
+            "images": 116,
+            "objects": 98,
+            "tp": 97,
+            "fp": 20,
+            "fn": 1,
+            "precision": 0.8290598290598291,
+            "recall": 0.9897959183673469,
+            "f1": 0.9023255813953488,
+            "ap50": 0.8842505004178001,
+            "ap50_95": 0.5775977153994396,
+            "exact_count": 100,
+            "negative_images": 18,
+            "correct_empty": 2
+          },
+          "guard": {
+            "passed": true,
+            "lost_matches": [],
+            "recovered_matches": 0,
+            "baseline_matches": 97,
+            "candidate_matches": 97
+          },
+          "max_fp": 20
+        },
+        "calibration": {
+          "result": {
+            "images": 87,
+            "objects": 72,
+            "tp": 68,
+            "fp": 23,
+            "fn": 4,
+            "precision": 0.7472527472527473,
+            "recall": 0.9444444444444444,
+            "f1": 0.834355828220859,
+            "ap50": 0.8594121699287686,
+            "ap50_95": 0.4878972880119325,
+            "exact_count": 74,
+            "negative_images": 15,
+            "correct_empty": 2
+          },
+          "guard": {
+            "passed": true,
+            "lost_matches": [],
+            "recovered_matches": 0,
+            "baseline_matches": 68,
+            "candidate_matches": 68
+          },
+          "max_fp": 23
+        }
+      },
+      "eligible": false
+    },
+    {
+      "policy": {
+        "options": {
+          "method": "agreement",
+          "channels": [
+            "rf",
+            "sam"
+          ],
+          "box": "anchor",
+          "preserve": true,
+          "cutoff": 0.8
+        },
+        "guard": null
+      },
+      "outcome": {
+        "fit": {
+          "result": {
+            "images": 116,
+            "objects": 98,
+            "tp": 97,
+            "fp": 21,
+            "fn": 1,
+            "precision": 0.8220338983050848,
+            "recall": 0.9897959183673469,
+            "f1": 0.898148148148148,
+            "ap50": 0.8832443055142664,
+            "ap50_95": 0.5770599525102981,
+            "exact_count": 100,
+            "negative_images": 18,
+            "correct_empty": 2
+          },
+          "guard": {
+            "passed": true,
+            "lost_matches": [],
+            "recovered_matches": 0,
+            "baseline_matches": 97,
+            "candidate_matches": 97
+          },
+          "max_fp": 20
+        },
+        "calibration": {
+          "result": {
+            "images": 87,
+            "objects": 72,
+            "tp": 68,
+            "fp": 23,
+            "fn": 4,
+            "precision": 0.7472527472527473,
+            "recall": 0.9444444444444444,
+            "f1": 0.834355828220859,
+            "ap50": 0.8594121699287686,
+            "ap50_95": 0.4878972880119325,
+            "exact_count": 74,
+            "negative_images": 15,
+            "correct_empty": 2
+          },
+          "guard": {
+            "passed": true,
+            "lost_matches": [],
+            "recovered_matches": 0,
+            "baseline_matches": 68,
+            "candidate_matches": 68
+          },
+          "max_fp": 23
+        }
+      },
+      "eligible": false
+    },
+    {
+      "policy": {
+        "options": {
+          "method": "agreement",
+          "channels": [
+            "rf",
+            "sam"
+          ],
+          "box": "weighted",
+          "preserve": true,
+          "cutoff": 0.8
+        },
+        "guard": null
+      },
+      "outcome": {
+        "fit": {
+          "result": {
+            "images": 116,
+            "objects": 98,
+            "tp": 97,
+            "fp": 21,
+            "fn": 1,
+            "precision": 0.8220338983050848,
+            "recall": 0.9897959183673469,
+            "f1": 0.898148148148148,
+            "ap50": 0.8832443055142664,
+            "ap50_95": 0.5770599525102981,
+            "exact_count": 100,
+            "negative_images": 18,
+            "correct_empty": 2
+          },
+          "guard": {
+            "passed": true,
+            "lost_matches": [],
+            "recovered_matches": 0,
+            "baseline_matches": 97,
+            "candidate_matches": 97
+          },
+          "max_fp": 20
+        },
+        "calibration": {
+          "result": {
+            "images": 87,
+            "objects": 72,
+            "tp": 68,
+            "fp": 23,
+            "fn": 4,
+            "precision": 0.7472527472527473,
+            "recall": 0.9444444444444444,
+            "f1": 0.834355828220859,
+            "ap50": 0.8594121699287686,
+            "ap50_95": 0.4878972880119325,
+            "exact_count": 74,
+            "negative_images": 15,
+            "correct_empty": 2
+          },
+          "guard": {
+            "passed": true,
+            "lost_matches": [],
+            "recovered_matches": 0,
+            "baseline_matches": 68,
+            "candidate_matches": 68
+          },
+          "max_fp": 23
+        }
+      },
+      "eligible": false
+    },
+    {
+      "policy": {
+        "options": {
+          "method": "agreement",
+          "channels": [
+            "rf",
+            "sam"
+          ],
+          "box": "mask",
+          "preserve": true,
+          "cutoff": 0.8
+        },
+        "guard": null
+      },
+      "outcome": {
+        "fit": {
+          "result": {
+            "images": 116,
+            "objects": 98,
+            "tp": 97,
+            "fp": 21,
+            "fn": 1,
+            "precision": 0.8220338983050848,
+            "recall": 0.9897959183673469,
+            "f1": 0.898148148148148,
+            "ap50": 0.8832443055142664,
+            "ap50_95": 0.5770599525102981,
+            "exact_count": 100,
+            "negative_images": 18,
+            "correct_empty": 2
+          },
+          "guard": {
+            "passed": true,
+            "lost_matches": [],
+            "recovered_matches": 0,
+            "baseline_matches": 97,
+            "candidate_matches": 97
+          },
+          "max_fp": 20
+        },
+        "calibration": {
+          "result": {
+            "images": 87,
+            "objects": 72,
+            "tp": 68,
+            "fp": 23,
+            "fn": 4,
+            "precision": 0.7472527472527473,
+            "recall": 0.9444444444444444,
+            "f1": 0.834355828220859,
+            "ap50": 0.8594121699287686,
+            "ap50_95": 0.4878972880119325,
+            "exact_count": 74,
+            "negative_images": 15,
+            "correct_empty": 2
+          },
+          "guard": {
+            "passed": true,
+            "lost_matches": [],
+            "recovered_matches": 0,
+            "baseline_matches": 68,
+            "candidate_matches": 68
+          },
+          "max_fp": 23
+        }
+      },
+      "eligible": false
+    },
+    {
+      "policy": {
+        "options": {
+          "method": "logistic-70",
+          "channels": "all",
+          "box": "anchor",
+          "preserve": true,
+          "cutoff": 0.7
+        },
+        "guard": null
+      },
+      "outcome": {
+        "fit": {
+          "result": {
+            "images": 116,
+            "objects": 98,
+            "tp": 97,
+            "fp": 20,
+            "fn": 1,
+            "precision": 0.8290598290598291,
+            "recall": 0.9897959183673469,
+            "f1": 0.9023255813953488,
+            "ap50": 0.8812732721209887,
+            "ap50_95": 0.5762648960498475,
+            "exact_count": 100,
+            "negative_images": 18,
+            "correct_empty": 2
+          },
+          "guard": {
+            "passed": true,
+            "lost_matches": [],
+            "recovered_matches": 0,
+            "baseline_matches": 97,
+            "candidate_matches": 97
+          },
+          "max_fp": 20
+        },
+        "calibration": {
+          "result": {
+            "images": 87,
+            "objects": 72,
+            "tp": 68,
+            "fp": 23,
+            "fn": 4,
+            "precision": 0.7472527472527473,
+            "recall": 0.9444444444444444,
+            "f1": 0.834355828220859,
+            "ap50": 0.8535588168890514,
+            "ap50_95": 0.48354370460212986,
+            "exact_count": 74,
+            "negative_images": 15,
+            "correct_empty": 2
+          },
+          "guard": {
+            "passed": true,
+            "lost_matches": [],
+            "recovered_matches": 0,
+            "baseline_matches": 68,
+            "candidate_matches": 68
+          },
+          "max_fp": 23
+        }
+      },
+      "eligible": false
+    },
+    {
+      "policy": {
+        "options": {
+          "method": "logistic-70",
+          "channels": "all",
+          "box": "weighted",
+          "preserve": true,
+          "cutoff": 0.7
+        },
+        "guard": null
+      },
+      "outcome": {
+        "fit": {
+          "result": {
+            "images": 116,
+            "objects": 98,
+            "tp": 97,
+            "fp": 20,
+            "fn": 1,
+            "precision": 0.8290598290598291,
+            "recall": 0.9897959183673469,
+            "f1": 0.9023255813953488,
+            "ap50": 0.8812732721209887,
+            "ap50_95": 0.5762648960498475,
+            "exact_count": 100,
+            "negative_images": 18,
+            "correct_empty": 2
+          },
+          "guard": {
+            "passed": true,
+            "lost_matches": [],
+            "recovered_matches": 0,
+            "baseline_matches": 97,
+            "candidate_matches": 97
+          },
+          "max_fp": 20
+        },
+        "calibration": {
+          "result": {
+            "images": 87,
+            "objects": 72,
+            "tp": 68,
+            "fp": 23,
+            "fn": 4,
+            "precision": 0.7472527472527473,
+            "recall": 0.9444444444444444,
+            "f1": 0.834355828220859,
+            "ap50": 0.8535588168890514,
+            "ap50_95": 0.48354370460212986,
+            "exact_count": 74,
+            "negative_images": 15,
+            "correct_empty": 2
+          },
+          "guard": {
+            "passed": true,
+            "lost_matches": [],
+            "recovered_matches": 0,
+            "baseline_matches": 68,
+            "candidate_matches": 68
+          },
+          "max_fp": 23
+        }
+      },
+      "eligible": false
+    },
+    {
+      "policy": {
+        "options": {
+          "method": "logistic-70",
+          "channels": "all",
+          "box": "mask",
+          "preserve": true,
+          "cutoff": 0.7
+        },
+        "guard": null
+      },
+      "outcome": {
+        "fit": {
+          "result": {
+            "images": 116,
+            "objects": 98,
+            "tp": 97,
+            "fp": 20,
+            "fn": 1,
+            "precision": 0.8290598290598291,
+            "recall": 0.9897959183673469,
+            "f1": 0.9023255813953488,
+            "ap50": 0.8812732721209887,
+            "ap50_95": 0.5762648960498475,
+            "exact_count": 100,
+            "negative_images": 18,
+            "correct_empty": 2
+          },
+          "guard": {
+            "passed": true,
+            "lost_matches": [],
+            "recovered_matches": 0,
+            "baseline_matches": 97,
+            "candidate_matches": 97
+          },
+          "max_fp": 20
+        },
+        "calibration": {
+          "result": {
+            "images": 87,
+            "objects": 72,
+            "tp": 68,
+            "fp": 23,
+            "fn": 4,
+            "precision": 0.7472527472527473,
+            "recall": 0.9444444444444444,
+            "f1": 0.834355828220859,
+            "ap50": 0.8535588168890514,
+            "ap50_95": 0.48354370460212986,
+            "exact_count": 74,
+            "negative_images": 15,
+            "correct_empty": 2
+          },
+          "guard": {
+            "passed": true,
+            "lost_matches": [],
+            "recovered_matches": 0,
+            "baseline_matches": 68,
+            "candidate_matches": 68
+          },
+          "max_fp": 23
+        }
+      },
+      "eligible": false
+    },
+    {
+      "policy": {
+        "options": {
+          "method": "logistic-70",
+          "channels": "all",
+          "box": "anchor",
+          "preserve": true,
+          "cutoff": 0.6
+        },
+        "guard": null
+      },
+      "outcome": {
+        "fit": {
+          "result": {
+            "images": 116,
+            "objects": 98,
+            "tp": 97,
+            "fp": 20,
+            "fn": 1,
+            "precision": 0.8290598290598291,
+            "recall": 0.9897959183673469,
+            "f1": 0.9023255813953488,
+            "ap50": 0.8808244294407612,
+            "ap50_95": 0.576024696066574,
+            "exact_count": 100,
+            "negative_images": 18,
+            "correct_empty": 2
+          },
+          "guard": {
+            "passed": true,
+            "lost_matches": [],
+            "recovered_matches": 0,
+            "baseline_matches": 97,
+            "candidate_matches": 97
+          },
+          "max_fp": 20
+        },
+        "calibration": {
+          "result": {
+            "images": 87,
+            "objects": 72,
+            "tp": 68,
+            "fp": 23,
+            "fn": 4,
+            "precision": 0.7472527472527473,
+            "recall": 0.9444444444444444,
+            "f1": 0.834355828220859,
+            "ap50": 0.853257193320101,
+            "ap50_95": 0.48334215147978465,
+            "exact_count": 74,
+            "negative_images": 15,
+            "correct_empty": 2
+          },
+          "guard": {
+            "passed": true,
+            "lost_matches": [],
+            "recovered_matches": 0,
+            "baseline_matches": 68,
+            "candidate_matches": 68
+          },
+          "max_fp": 23
+        }
+      },
+      "eligible": false
+    },
+    {
+      "policy": {
+        "options": {
+          "method": "logistic-70",
+          "channels": "all",
+          "box": "weighted",
+          "preserve": true,
+          "cutoff": 0.6
+        },
+        "guard": null
+      },
+      "outcome": {
+        "fit": {
+          "result": {
+            "images": 116,
+            "objects": 98,
+            "tp": 97,
+            "fp": 20,
+            "fn": 1,
+            "precision": 0.8290598290598291,
+            "recall": 0.9897959183673469,
+            "f1": 0.9023255813953488,
+            "ap50": 0.8808244294407612,
+            "ap50_95": 0.576024696066574,
+            "exact_count": 100,
+            "negative_images": 18,
+            "correct_empty": 2
+          },
+          "guard": {
+            "passed": true,
+            "lost_matches": [],
+            "recovered_matches": 0,
+            "baseline_matches": 97,
+            "candidate_matches": 97
+          },
+          "max_fp": 20
+        },
+        "calibration": {
+          "result": {
+            "images": 87,
+            "objects": 72,
+            "tp": 68,
+            "fp": 23,
+            "fn": 4,
+            "precision": 0.7472527472527473,
+            "recall": 0.9444444444444444,
+            "f1": 0.834355828220859,
+            "ap50": 0.853257193320101,
+            "ap50_95": 0.48334215147978465,
+            "exact_count": 74,
+            "negative_images": 15,
+            "correct_empty": 2
+          },
+          "guard": {
+            "passed": true,
+            "lost_matches": [],
+            "recovered_matches": 0,
+            "baseline_matches": 68,
+            "candidate_matches": 68
+          },
+          "max_fp": 23
+        }
+      },
+      "eligible": false
+    },
+    {
+      "policy": {
+        "options": {
+          "method": "logistic-70",
+          "channels": "all",
+          "box": "mask",
+          "preserve": true,
+          "cutoff": 0.6
+        },
+        "guard": null
+      },
+      "outcome": {
+        "fit": {
+          "result": {
+            "images": 116,
+            "objects": 98,
+            "tp": 97,
+            "fp": 20,
+            "fn": 1,
+            "precision": 0.8290598290598291,
+            "recall": 0.9897959183673469,
+            "f1": 0.9023255813953488,
+            "ap50": 0.8808244294407612,
+            "ap50_95": 0.576024696066574,
+            "exact_count": 100,
+            "negative_images": 18,
+            "correct_empty": 2
+          },
+          "guard": {
+            "passed": true,
+            "lost_matches": [],
+            "recovered_matches": 0,
+            "baseline_matches": 97,
+            "candidate_matches": 97
+          },
+          "max_fp": 20
+        },
+        "calibration": {
+          "result": {
+            "images": 87,
+            "objects": 72,
+            "tp": 68,
+            "fp": 23,
+            "fn": 4,
+            "precision": 0.7472527472527473,
+            "recall": 0.9444444444444444,
+            "f1": 0.834355828220859,
+            "ap50": 0.853257193320101,
+            "ap50_95": 0.48334215147978465,
+            "exact_count": 74,
+            "negative_images": 15,
+            "correct_empty": 2
+          },
+          "guard": {
+            "passed": true,
+            "lost_matches": [],
+            "recovered_matches": 0,
+            "baseline_matches": 68,
+            "candidate_matches": 68
+          },
+          "max_fp": 23
+        }
+      },
+      "eligible": false
+    },
+    {
+      "policy": {
+        "options": {
+          "method": "logistic-70",
+          "channels": "all",
+          "box": "anchor",
+          "preserve": true,
+          "cutoff": 0.5
+        },
+        "guard": null
+      },
+      "outcome": {
+        "fit": {
+          "result": {
+            "images": 116,
+            "objects": 98,
+            "tp": 97,
+            "fp": 20,
+            "fn": 1,
+            "precision": 0.8290598290598291,
+            "recall": 0.9897959183673469,
+            "f1": 0.9023255813953488,
+            "ap50": 0.8808244294407612,
+            "ap50_95": 0.576024696066574,
+            "exact_count": 100,
+            "negative_images": 18,
+            "correct_empty": 2
+          },
+          "guard": {
+            "passed": true,
+            "lost_matches": [],
+            "recovered_matches": 0,
+            "baseline_matches": 97,
+            "candidate_matches": 97
+          },
+          "max_fp": 20
+        },
+        "calibration": {
+          "result": {
+            "images": 87,
+            "objects": 72,
+            "tp": 68,
+            "fp": 23,
+            "fn": 4,
+            "precision": 0.7472527472527473,
+            "recall": 0.9444444444444444,
+            "f1": 0.834355828220859,
+            "ap50": 0.853257193320101,
+            "ap50_95": 0.48334215147978465,
+            "exact_count": 74,
+            "negative_images": 15,
+            "correct_empty": 2
+          },
+          "guard": {
+            "passed": true,
+            "lost_matches": [],
+            "recovered_matches": 0,
+            "baseline_matches": 68,
+            "candidate_matches": 68
+          },
+          "max_fp": 23
+        }
+      },
+      "eligible": false
+    },
+    {
+      "policy": {
+        "options": {
+          "method": "logistic-70",
+          "channels": "all",
+          "box": "weighted",
+          "preserve": true,
+          "cutoff": 0.5
+        },
+        "guard": null
+      },
+      "outcome": {
+        "fit": {
+          "result": {
+            "images": 116,
+            "objects": 98,
+            "tp": 97,
+            "fp": 20,
+            "fn": 1,
+            "precision": 0.8290598290598291,
+            "recall": 0.9897959183673469,
+            "f1": 0.9023255813953488,
+            "ap50": 0.8808244294407612,
+            "ap50_95": 0.576024696066574,
+            "exact_count": 100,
+            "negative_images": 18,
+            "correct_empty": 2
+          },
+          "guard": {
+            "passed": true,
+            "lost_matches": [],
+            "recovered_matches": 0,
+            "baseline_matches": 97,
+            "candidate_matches": 97
+          },
+          "max_fp": 20
+        },
+        "calibration": {
+          "result": {
+            "images": 87,
+            "objects": 72,
+            "tp": 68,
+            "fp": 23,
+            "fn": 4,
+            "precision": 0.7472527472527473,
+            "recall": 0.9444444444444444,
+            "f1": 0.834355828220859,
+            "ap50": 0.853257193320101,
+            "ap50_95": 0.48334215147978465,
+            "exact_count": 74,
+            "negative_images": 15,
+            "correct_empty": 2
+          },
+          "guard": {
+            "passed": true,
+            "lost_matches": [],
+            "recovered_matches": 0,
+            "baseline_matches": 68,
+            "candidate_matches": 68
+          },
+          "max_fp": 23
+        }
+      },
+      "eligible": false
+    },
+    {
+      "policy": {
+        "options": {
+          "method": "logistic-70",
+          "channels": "all",
+          "box": "mask",
+          "preserve": true,
+          "cutoff": 0.5
+        },
+        "guard": null
+      },
+      "outcome": {
+        "fit": {
+          "result": {
+            "images": 116,
+            "objects": 98,
+            "tp": 97,
+            "fp": 20,
+            "fn": 1,
+            "precision": 0.8290598290598291,
+            "recall": 0.9897959183673469,
+            "f1": 0.9023255813953488,
+            "ap50": 0.8808244294407612,
+            "ap50_95": 0.576024696066574,
+            "exact_count": 100,
+            "negative_images": 18,
+            "correct_empty": 2
+          },
+          "guard": {
+            "passed": true,
+            "lost_matches": [],
+            "recovered_matches": 0,
+            "baseline_matches": 97,
+            "candidate_matches": 97
+          },
+          "max_fp": 20
+        },
+        "calibration": {
+          "result": {
+            "images": 87,
+            "objects": 72,
+            "tp": 68,
+            "fp": 23,
+            "fn": 4,
+            "precision": 0.7472527472527473,
+            "recall": 0.9444444444444444,
+            "f1": 0.834355828220859,
+            "ap50": 0.853257193320101,
+            "ap50_95": 0.48334215147978465,
+            "exact_count": 74,
+            "negative_images": 15,
+            "correct_empty": 2
+          },
+          "guard": {
+            "passed": true,
+            "lost_matches": [],
+            "recovered_matches": 0,
+            "baseline_matches": 68,
+            "candidate_matches": 68
+          },
+          "max_fp": 23
+        }
+      },
+      "eligible": false
+    },
+    {
+      "policy": {
+        "options": {
+          "method": "logistic-50-unweighted",
+          "channels": "all",
+          "box": "anchor",
+          "preserve": false,
+          "cutoff": 0.9
+        },
+        "guard": [
+          0.6772280764893512,
+          0.045
+        ]
+      },
+      "outcome": {
+        "fit": {
+          "result": {
+            "images": 116,
+            "objects": 98,
+            "tp": 95,
+            "fp": 7,
+            "fn": 3,
+            "precision": 0.9313725490196079,
+            "recall": 0.9693877551020408,
+            "f1": 0.95,
+            "ap50": 0.9570305372942044,
+            "ap50_95": 0.643237025060493,
+            "exact_count": 109,
+            "negative_images": 18,
+            "correct_empty": 13
+          },
+          "guard": {
+            "passed": false,
+            "lost_matches": [
+              {
+                "id": "176339130",
+                "box": [
+                  0.08260869565217391,
+                  0.0,
+                  0.6217391304347826,
+                  0.3870967741935484
+                ]
+              },
+              {
+                "id": "36737404",
+                "box": [
+                  0.3826086956521739,
+                  0.3741935483870968,
+                  0.5869565217391305,
+                  0.567741935483871
+                ]
+              }
+            ],
+            "recovered_matches": 0,
+            "baseline_matches": 97,
+            "candidate_matches": 95
+          },
+          "max_fp": 20
+        },
+        "calibration": {
+          "result": {
+            "images": 87,
+            "objects": 72,
+            "tp": 68,
+            "fp": 9,
+            "fn": 4,
+            "precision": 0.8831168831168831,
+            "recall": 0.9444444444444444,
+            "f1": 0.912751677852349,
+            "ap50": 0.8937637465780102,
+            "ap50_95": 0.5644559263891068,
+            "exact_count": 83,
+            "negative_images": 15,
+            "correct_empty": 11
+          },
+          "guard": {
+            "passed": true,
+            "lost_matches": [],
+            "recovered_matches": 0,
+            "baseline_matches": 68,
+            "candidate_matches": 68
+          },
+          "max_fp": 23
+        }
+      },
+      "eligible": false
+    },
+    {
+      "policy": {
+        "options": {
+          "method": "logistic-50-unweighted",
+          "channels": "all",
+          "box": "anchor",
+          "preserve": false,
+          "cutoff": 0.9
+        },
+        "guard": [
+          0.6772280764893512,
+          0.09
+        ]
+      },
+      "outcome": {
+        "fit": {
+          "result": {
+            "images": 116,
+            "objects": 98,
+            "tp": 96,
+            "fp": 7,
+            "fn": 2,
+            "precision": 0.9320388349514563,
+            "recall": 0.9795918367346939,
+            "f1": 0.9552238805970149,
+            "ap50": 0.9662586445709516,
+            "ap50_95": 0.6426996897735662,
+            "exact_count": 110,
+            "negative_images": 18,
+            "correct_empty": 13
+          },
+          "guard": {
+            "passed": false,
+            "lost_matches": [
+              {
+                "id": "176339130",
+                "box": [
+                  0.08260869565217391,
+                  0.0,
+                  0.6217391304347826,
+                  0.3870967741935484
+                ]
+              }
+            ],
+            "recovered_matches": 0,
+            "baseline_matches": 97,
+            "candidate_matches": 96
+          },
+          "max_fp": 20
+        },
+        "calibration": {
+          "result": {
+            "images": 87,
+            "objects": 72,
+            "tp": 68,
+            "fp": 9,
+            "fn": 4,
+            "precision": 0.8831168831168831,
+            "recall": 0.9444444444444444,
+            "f1": 0.912751677852349,
+            "ap50": 0.8939400411419353,
+            "ap50_95": 0.5646698666759205,
+            "exact_count": 83,
+            "negative_images": 15,
+            "correct_empty": 11
+          },
+          "guard": {
+            "passed": true,
+            "lost_matches": [],
+            "recovered_matches": 0,
+            "baseline_matches": 68,
+            "candidate_matches": 68
+          },
+          "max_fp": 23
+        }
+      },
+      "eligible": false
+    },
+    {
+      "policy": {
+        "options": {
+          "method": "logistic-50-unweighted",
+          "channels": "all",
+          "box": "anchor",
+          "preserve": false,
+          "cutoff": 0.9
+        },
+        "guard": [
+          0.6772280764893512,
+          0.16
+        ]
+      },
+      "outcome": {
+        "fit": {
+          "result": {
+            "images": 116,
+            "objects": 98,
+            "tp": 97,
+            "fp": 11,
+            "fn": 1,
+            "precision": 0.8981481481481481,
+            "recall": 0.9897959183673469,
+            "f1": 0.941747572815534,
+            "ap50": 0.9707266355390842,
+            "ap50_95": 0.6438440076574673,
+            "exact_count": 109,
+            "negative_images": 18,
+            "correct_empty": 11
+          },
+          "guard": {
+            "passed": true,
+            "lost_matches": [],
+            "recovered_matches": 0,
+            "baseline_matches": 97,
+            "candidate_matches": 97
+          },
+          "max_fp": 20
+        },
+        "calibration": {
+          "result": {
+            "images": 87,
+            "objects": 72,
+            "tp": 68,
+            "fp": 11,
+            "fn": 4,
+            "precision": 0.8607594936708861,
+            "recall": 0.9444444444444444,
+            "f1": 0.9006622516556292,
+            "ap50": 0.8875824175824177,
+            "ap50_95": 0.5654376912417357,
+            "exact_count": 82,
+            "negative_images": 15,
+            "correct_empty": 10
+          },
+          "guard": {
+            "passed": true,
+            "lost_matches": [],
+            "recovered_matches": 0,
+            "baseline_matches": 68,
+            "candidate_matches": 68
+          },
+          "max_fp": 23
+        }
+      },
+      "eligible": true
+    },
+    {
+      "policy": {
+        "options": {
+          "method": "logistic-50-unweighted",
+          "channels": "all",
+          "box": "anchor",
+          "preserve": false,
+          "cutoff": 0.9
+        },
+        "guard": [
+          0.6772280764893512,
+          0.3
+        ]
+      },
+      "outcome": {
+        "fit": {
+          "result": {
+            "images": 116,
+            "objects": 98,
+            "tp": 97,
+            "fp": 13,
+            "fn": 1,
+            "precision": 0.8818181818181818,
+            "recall": 0.9897959183673469,
+            "f1": 0.9326923076923076,
+            "ap50": 0.9538329044148934,
+            "ap50_95": 0.6315068167919002,
+            "exact_count": 107,
+            "negative_images": 18,
+            "correct_empty": 9
+          },
+          "guard": {
+            "passed": true,
+            "lost_matches": [],
+            "recovered_matches": 0,
+            "baseline_matches": 97,
+            "candidate_matches": 97
+          },
+          "max_fp": 20
+        },
+        "calibration": {
+          "result": {
+            "images": 87,
+            "objects": 72,
+            "tp": 68,
+            "fp": 16,
+            "fn": 4,
+            "precision": 0.8095238095238095,
+            "recall": 0.9444444444444444,
+            "f1": 0.8717948717948718,
+            "ap50": 0.8852020337168853,
+            "ap50_95": 0.5590336064083081,
+            "exact_count": 79,
+            "negative_images": 15,
+            "correct_empty": 7
+          },
+          "guard": {
+            "passed": true,
+            "lost_matches": [],
+            "recovered_matches": 0,
+            "baseline_matches": 68,
+            "candidate_matches": 68
+          },
+          "max_fp": 23
+        }
+      },
+      "eligible": true
+    },
+    {
+      "policy": {
+        "options": {
+          "method": "logistic-50-unweighted",
+          "channels": "all",
+          "box": "anchor",
+          "preserve": false,
+          "cutoff": 0.9
+        },
+        "guard": [
+          0.6772280764893512,
+          1.0
+        ]
+      },
+      "outcome": {
+        "fit": {
+          "result": {
+            "images": 116,
+            "objects": 98,
+            "tp": 97,
+            "fp": 20,
+            "fn": 1,
+            "precision": 0.8290598290598291,
+            "recall": 0.9897959183673469,
+            "f1": 0.9023255813953488,
+            "ap50": 0.9051494382395893,
+            "ap50_95": 0.5845732453110186,
+            "exact_count": 100,
+            "negative_images": 18,
+            "correct_empty": 2
+          },
+          "guard": {
+            "passed": true,
+            "lost_matches": [],
+            "recovered_matches": 0,
+            "baseline_matches": 97,
+            "candidate_matches": 97
+          },
+          "max_fp": 20
+        },
+        "calibration": {
+          "result": {
+            "images": 87,
+            "objects": 72,
+            "tp": 68,
+            "fp": 23,
+            "fn": 4,
+            "precision": 0.7472527472527473,
+            "recall": 0.9444444444444444,
+            "f1": 0.834355828220859,
+            "ap50": 0.8874869160087567,
+            "ap50_95": 0.5110948089242625,
+            "exact_count": 74,
+            "negative_images": 15,
+            "correct_empty": 2
+          },
+          "guard": {
+            "passed": true,
+            "lost_matches": [],
+            "recovered_matches": 0,
+            "baseline_matches": 68,
+            "candidate_matches": 68
+          },
+          "max_fp": 23
+        }
+      },
+      "eligible": false
+    },
+    {
+      "policy": {
+        "options": {
+          "method": "logistic-50-unweighted",
+          "channels": "all",
+          "box": "anchor",
+          "preserve": false,
+          "cutoff": 0.9
+        },
+        "guard": [
+          0.72,
+          0.045
+        ]
+      },
+      "outcome": {
+        "fit": {
+          "result": {
+            "images": 116,
+            "objects": 98,
+            "tp": 95,
+            "fp": 6,
+            "fn": 3,
+            "precision": 0.9405940594059405,
+            "recall": 0.9693877551020408,
+            "f1": 0.9547738693467337,
+            "ap50": 0.9570305372942044,
+            "ap50_95": 0.643237025060493,
+            "exact_count": 109,
+            "negative_images": 18,
+            "correct_empty": 13
+          },
+          "guard": {
+            "passed": false,
+            "lost_matches": [
+              {
+                "id": "176339130",
+                "box": [
+                  0.08260869565217391,
+                  0.0,
+                  0.6217391304347826,
+                  0.3870967741935484
+                ]
+              },
+              {
+                "id": "36737404",
+                "box": [
+                  0.3826086956521739,
+                  0.3741935483870968,
+                  0.5869565217391305,
+                  0.567741935483871
+                ]
+              }
+            ],
+            "recovered_matches": 0,
+            "baseline_matches": 97,
+            "candidate_matches": 95
+          },
+          "max_fp": 20
+        },
+        "calibration": {
+          "result": {
+            "images": 87,
+            "objects": 72,
+            "tp": 68,
+            "fp": 8,
+            "fn": 4,
+            "precision": 0.8947368421052632,
+            "recall": 0.9444444444444444,
+            "f1": 0.918918918918919,
+            "ap50": 0.8937637465780102,
+            "ap50_95": 0.5644559263891068,
+            "exact_count": 84,
+            "negative_images": 15,
+            "correct_empty": 12
+          },
+          "guard": {
+            "passed": true,
+            "lost_matches": [],
+            "recovered_matches": 0,
+            "baseline_matches": 68,
+            "candidate_matches": 68
+          },
+          "max_fp": 23
+        }
+      },
+      "eligible": false
+    },
+    {
+      "policy": {
+        "options": {
+          "method": "logistic-50-unweighted",
+          "channels": "all",
+          "box": "anchor",
+          "preserve": false,
+          "cutoff": 0.9
+        },
+        "guard": [
+          0.72,
+          0.09
+        ]
+      },
+      "outcome": {
+        "fit": {
+          "result": {
+            "images": 116,
+            "objects": 98,
+            "tp": 95,
+            "fp": 6,
+            "fn": 3,
+            "precision": 0.9405940594059405,
+            "recall": 0.9693877551020408,
+            "f1": 0.9547738693467337,
+            "ap50": 0.9570305372942044,
+            "ap50_95": 0.643237025060493,
+            "exact_count": 109,
+            "negative_images": 18,
+            "correct_empty": 13
+          },
+          "guard": {
+            "passed": false,
+            "lost_matches": [
+              {
+                "id": "176339130",
+                "box": [
+                  0.08260869565217391,
+                  0.0,
+                  0.6217391304347826,
+                  0.3870967741935484
+                ]
+              },
+              {
+                "id": "36737404",
+                "box": [
+                  0.3826086956521739,
+                  0.3741935483870968,
+                  0.5869565217391305,
+                  0.567741935483871
+                ]
+              }
+            ],
+            "recovered_matches": 0,
+            "baseline_matches": 97,
+            "candidate_matches": 95
+          },
+          "max_fp": 20
+        },
+        "calibration": {
+          "result": {
+            "images": 87,
+            "objects": 72,
+            "tp": 68,
+            "fp": 8,
+            "fn": 4,
+            "precision": 0.8947368421052632,
+            "recall": 0.9444444444444444,
+            "f1": 0.918918918918919,
+            "ap50": 0.8939400411419353,
+            "ap50_95": 0.5646698666759205,
+            "exact_count": 84,
+            "negative_images": 15,
+            "correct_empty": 12
+          },
+          "guard": {
+            "passed": true,
+            "lost_matches": [],
+            "recovered_matches": 0,
+            "baseline_matches": 68,
+            "candidate_matches": 68
+          },
+          "max_fp": 23
+        }
+      },
+      "eligible": false
+    },
+    {
+      "policy": {
+        "options": {
+          "method": "logistic-50-unweighted",
+          "channels": "all",
+          "box": "anchor",
+          "preserve": false,
+          "cutoff": 0.9
+        },
+        "guard": [
+          0.72,
+          0.16
+        ]
+      },
+      "outcome": {
+        "fit": {
+          "result": {
+            "images": 116,
+            "objects": 98,
+            "tp": 95,
+            "fp": 10,
+            "fn": 3,
+            "precision": 0.9047619047619048,
+            "recall": 0.9693877551020408,
+            "f1": 0.9359605911330049,
+            "ap50": 0.9527950201345714,
+            "ap50_95": 0.640162475376637,
+            "exact_count": 107,
+            "negative_images": 18,
+            "correct_empty": 11
+          },
+          "guard": {
+            "passed": false,
+            "lost_matches": [
+              {
+                "id": "176339130",
+                "box": [
+                  0.08260869565217391,
+                  0.0,
+                  0.6217391304347826,
+                  0.3870967741935484
+                ]
+              },
+              {
+                "id": "36737404",
+                "box": [
+                  0.3826086956521739,
+                  0.3741935483870968,
+                  0.5869565217391305,
+                  0.567741935483871
+                ]
+              }
+            ],
+            "recovered_matches": 0,
+            "baseline_matches": 97,
+            "candidate_matches": 95
+          },
+          "max_fp": 20
+        },
+        "calibration": {
+          "result": {
+            "images": 87,
+            "objects": 72,
+            "tp": 68,
+            "fp": 10,
+            "fn": 4,
+            "precision": 0.8717948717948718,
+            "recall": 0.9444444444444444,
+            "f1": 0.9066666666666667,
+            "ap50": 0.8878381354618977,
+            "ap50_95": 0.568862857564878,
+            "exact_count": 83,
+            "negative_images": 15,
+            "correct_empty": 11
+          },
+          "guard": {
+            "passed": true,
+            "lost_matches": [],
+            "recovered_matches": 0,
+            "baseline_matches": 68,
+            "candidate_matches": 68
+          },
+          "max_fp": 23
+        }
+      },
+      "eligible": false
+    },
+    {
+      "policy": {
+        "options": {
+          "method": "logistic-50-unweighted",
+          "channels": "all",
+          "box": "anchor",
+          "preserve": false,
+          "cutoff": 0.9
+        },
+        "guard": [
+          0.72,
+          0.3
+        ]
+      },
+      "outcome": {
+        "fit": {
+          "result": {
+            "images": 116,
+            "objects": 98,
+            "tp": 95,
+            "fp": 12,
+            "fn": 3,
+            "precision": 0.8878504672897196,
+            "recall": 0.9693877551020408,
+            "f1": 0.926829268292683,
+            "ap50": 0.9304002349585757,
+            "ap50_95": 0.6220315355910063,
+            "exact_count": 105,
+            "negative_images": 18,
+            "correct_empty": 9
+          },
+          "guard": {
+            "passed": false,
+            "lost_matches": [
+              {
+                "id": "176339130",
+                "box": [
+                  0.08260869565217391,
+                  0.0,
+                  0.6217391304347826,
+                  0.3870967741935484
+                ]
+              },
+              {
+                "id": "36737404",
+                "box": [
+                  0.3826086956521739,
+                  0.3741935483870968,
+                  0.5869565217391305,
+                  0.567741935483871
+                ]
+              }
+            ],
+            "recovered_matches": 0,
+            "baseline_matches": 97,
+            "candidate_matches": 95
+          },
+          "max_fp": 20
+        },
+        "calibration": {
+          "result": {
+            "images": 87,
+            "objects": 72,
+            "tp": 68,
+            "fp": 14,
+            "fn": 4,
+            "precision": 0.8292682926829268,
+            "recall": 0.9444444444444444,
+            "f1": 0.883116883116883,
+            "ap50": 0.8852020337168853,
+            "ap50_95": 0.5651441254448104,
+            "exact_count": 80,
+            "negative_images": 15,
+            "correct_empty": 8
+          },
+          "guard": {
+            "passed": true,
+            "lost_matches": [],
+            "recovered_matches": 0,
+            "baseline_matches": 68,
+            "candidate_matches": 68
+          },
+          "max_fp": 23
+        }
+      },
+      "eligible": false
+    },
+    {
+      "policy": {
+        "options": {
+          "method": "logistic-50-unweighted",
+          "channels": "all",
+          "box": "anchor",
+          "preserve": false,
+          "cutoff": 0.9
+        },
+        "guard": [
+          0.72,
+          1.0
+        ]
+      },
+      "outcome": {
+        "fit": {
+          "result": {
+            "images": 116,
+            "objects": 98,
+            "tp": 95,
+            "fp": 18,
+            "fn": 3,
+            "precision": 0.8407079646017699,
+            "recall": 0.9693877551020408,
+            "f1": 0.900473933649289,
+            "ap50": 0.880965981213506,
+            "ap50_95": 0.5619622996291751,
+            "exact_count": 99,
+            "negative_images": 18,
+            "correct_empty": 3
+          },
+          "guard": {
+            "passed": false,
+            "lost_matches": [
+              {
+                "id": "176339130",
+                "box": [
+                  0.08260869565217391,
+                  0.0,
+                  0.6217391304347826,
+                  0.3870967741935484
+                ]
+              },
+              {
+                "id": "36737404",
+                "box": [
+                  0.3826086956521739,
+                  0.3741935483870968,
+                  0.5869565217391305,
+                  0.567741935483871
+                ]
+              }
+            ],
+            "recovered_matches": 0,
+            "baseline_matches": 97,
+            "candidate_matches": 95
+          },
+          "max_fp": 20
+        },
+        "calibration": {
+          "result": {
+            "images": 87,
+            "objects": 72,
+            "tp": 68,
+            "fp": 20,
+            "fn": 4,
+            "precision": 0.7727272727272727,
+            "recall": 0.9444444444444444,
+            "f1": 0.85,
+            "ap50": 0.8892592454023829,
+            "ap50_95": 0.5243605663436802,
+            "exact_count": 75,
+            "negative_images": 15,
+            "correct_empty": 3
+          },
+          "guard": {
+            "passed": true,
+            "lost_matches": [],
+            "recovered_matches": 0,
+            "baseline_matches": 68,
+            "candidate_matches": 68
+          },
+          "max_fp": 23
+        }
+      },
+      "eligible": false
+    },
+    {
+      "policy": {
+        "options": {
+          "method": "logistic-50-unweighted",
+          "channels": "all",
+          "box": "anchor",
+          "preserve": false,
+          "cutoff": 0.9
+        },
+        "guard": [
+          0.8,
+          0.045
+        ]
+      },
+      "outcome": {
+        "fit": {
+          "result": {
+            "images": 116,
+            "objects": 98,
+            "tp": 95,
+            "fp": 5,
+            "fn": 3,
+            "precision": 0.95,
+            "recall": 0.9693877551020408,
+            "f1": 0.9595959595959594,
+            "ap50": 0.9570305372942044,
+            "ap50_95": 0.643237025060493,
+            "exact_count": 110,
+            "negative_images": 18,
+            "correct_empty": 14
+          },
+          "guard": {
+            "passed": false,
+            "lost_matches": [
+              {
+                "id": "176339130",
+                "box": [
+                  0.08260869565217391,
+                  0.0,
+                  0.6217391304347826,
+                  0.3870967741935484
+                ]
+              },
+              {
+                "id": "36737404",
+                "box": [
+                  0.3826086956521739,
+                  0.3741935483870968,
+                  0.5869565217391305,
+                  0.567741935483871
+                ]
+              }
+            ],
+            "recovered_matches": 0,
+            "baseline_matches": 97,
+            "candidate_matches": 95
+          },
+          "max_fp": 20
+        },
+        "calibration": {
+          "result": {
+            "images": 87,
+            "objects": 72,
+            "tp": 68,
+            "fp": 8,
+            "fn": 4,
+            "precision": 0.8947368421052632,
+            "recall": 0.9444444444444444,
+            "f1": 0.918918918918919,
+            "ap50": 0.8937637465780102,
+            "ap50_95": 0.5644559263891068,
+            "exact_count": 84,
+            "negative_images": 15,
+            "correct_empty": 12
+          },
+          "guard": {
+            "passed": true,
+            "lost_matches": [],
+            "recovered_matches": 0,
+            "baseline_matches": 68,
+            "candidate_matches": 68
+          },
+          "max_fp": 23
+        }
+      },
+      "eligible": false
+    },
+    {
+      "policy": {
+        "options": {
+          "method": "logistic-50-unweighted",
+          "channels": "all",
+          "box": "anchor",
+          "preserve": false,
+          "cutoff": 0.9
+        },
+        "guard": [
+          0.8,
+          0.09
+        ]
+      },
+      "outcome": {
+        "fit": {
+          "result": {
+            "images": 116,
+            "objects": 98,
+            "tp": 95,
+            "fp": 5,
+            "fn": 3,
+            "precision": 0.95,
+            "recall": 0.9693877551020408,
+            "f1": 0.9595959595959594,
+            "ap50": 0.9570305372942044,
+            "ap50_95": 0.643237025060493,
+            "exact_count": 110,
+            "negative_images": 18,
+            "correct_empty": 14
+          },
+          "guard": {
+            "passed": false,
+            "lost_matches": [
+              {
+                "id": "176339130",
+                "box": [
+                  0.08260869565217391,
+                  0.0,
+                  0.6217391304347826,
+                  0.3870967741935484
+                ]
+              },
+              {
+                "id": "36737404",
+                "box": [
+                  0.3826086956521739,
+                  0.3741935483870968,
+                  0.5869565217391305,
+                  0.567741935483871
+                ]
+              }
+            ],
+            "recovered_matches": 0,
+            "baseline_matches": 97,
+            "candidate_matches": 95
+          },
+          "max_fp": 20
+        },
+        "calibration": {
+          "result": {
+            "images": 87,
+            "objects": 72,
+            "tp": 68,
+            "fp": 8,
+            "fn": 4,
+            "precision": 0.8947368421052632,
+            "recall": 0.9444444444444444,
+            "f1": 0.918918918918919,
+            "ap50": 0.8939400411419353,
+            "ap50_95": 0.5646698666759205,
+            "exact_count": 84,
+            "negative_images": 15,
+            "correct_empty": 12
+          },
+          "guard": {
+            "passed": true,
+            "lost_matches": [],
+            "recovered_matches": 0,
+            "baseline_matches": 68,
+            "candidate_matches": 68
+          },
+          "max_fp": 23
+        }
+      },
+      "eligible": false
+    },
+    {
+      "policy": {
+        "options": {
+          "method": "logistic-50-unweighted",
+          "channels": "all",
+          "box": "anchor",
+          "preserve": false,
+          "cutoff": 0.9
+        },
+        "guard": [
+          0.8,
+          0.16
+        ]
+      },
+      "outcome": {
+        "fit": {
+          "result": {
+            "images": 116,
+            "objects": 98,
+            "tp": 95,
+            "fp": 9,
+            "fn": 3,
+            "precision": 0.9134615384615384,
+            "recall": 0.9693877551020408,
+            "f1": 0.9405940594059407,
+            "ap50": 0.951296137213247,
+            "ap50_95": 0.6393444542933341,
+            "exact_count": 107,
+            "negative_images": 18,
+            "correct_empty": 11
+          },
+          "guard": {
+            "passed": false,
+            "lost_matches": [
+              {
+                "id": "176339130",
+                "box": [
+                  0.08260869565217391,
+                  0.0,
+                  0.6217391304347826,
+                  0.3870967741935484
+                ]
+              },
+              {
+                "id": "36737404",
+                "box": [
+                  0.3826086956521739,
+                  0.3741935483870968,
+                  0.5869565217391305,
+                  0.567741935483871
+                ]
+              }
+            ],
+            "recovered_matches": 0,
+            "baseline_matches": 97,
+            "candidate_matches": 95
+          },
+          "max_fp": 20
+        },
+        "calibration": {
+          "result": {
+            "images": 87,
+            "objects": 72,
+            "tp": 68,
+            "fp": 10,
+            "fn": 4,
+            "precision": 0.8717948717948718,
+            "recall": 0.9444444444444444,
+            "f1": 0.9066666666666667,
+            "ap50": 0.8878381354618977,
+            "ap50_95": 0.568862857564878,
+            "exact_count": 83,
+            "negative_images": 15,
+            "correct_empty": 11
+          },
+          "guard": {
+            "passed": true,
+            "lost_matches": [],
+            "recovered_matches": 0,
+            "baseline_matches": 68,
+            "candidate_matches": 68
+          },
+          "max_fp": 23
+        }
+      },
+      "eligible": false
+    },
+    {
+      "policy": {
+        "options": {
+          "method": "logistic-50-unweighted",
+          "channels": "all",
+          "box": "anchor",
+          "preserve": false,
+          "cutoff": 0.9
+        },
+        "guard": [
+          0.8,
+          0.3
+        ]
+      },
+      "outcome": {
+        "fit": {
+          "result": {
+            "images": 116,
+            "objects": 98,
+            "tp": 95,
+            "fp": 11,
+            "fn": 3,
+            "precision": 0.8962264150943396,
+            "recall": 0.9693877551020408,
+            "f1": 0.9313725490196079,
+            "ap50": 0.9262441550068671,
+            "ap50_95": 0.6201083909312145,
+            "exact_count": 105,
+            "negative_images": 18,
+            "correct_empty": 9
+          },
+          "guard": {
+            "passed": false,
+            "lost_matches": [
+              {
+                "id": "176339130",
+                "box": [
+                  0.08260869565217391,
+                  0.0,
+                  0.6217391304347826,
+                  0.3870967741935484
+                ]
+              },
+              {
+                "id": "36737404",
+                "box": [
+                  0.3826086956521739,
+                  0.3741935483870968,
+                  0.5869565217391305,
+                  0.567741935483871
+                ]
+              }
+            ],
+            "recovered_matches": 0,
+            "baseline_matches": 97,
+            "candidate_matches": 95
+          },
+          "max_fp": 20
+        },
+        "calibration": {
+          "result": {
+            "images": 87,
+            "objects": 72,
+            "tp": 68,
+            "fp": 10,
+            "fn": 4,
+            "precision": 0.8717948717948718,
+            "recall": 0.9444444444444444,
+            "f1": 0.9066666666666667,
+            "ap50": 0.8852020337168853,
+            "ap50_95": 0.573837847383967,
+            "exact_count": 83,
+            "negative_images": 15,
+            "correct_empty": 11
+          },
+          "guard": {
+            "passed": true,
+            "lost_matches": [],
+            "recovered_matches": 0,
+            "baseline_matches": 68,
+            "candidate_matches": 68
+          },
+          "max_fp": 23
+        }
+      },
+      "eligible": false
+    },
+    {
+      "policy": {
+        "options": {
+          "method": "logistic-50-unweighted",
+          "channels": "all",
+          "box": "anchor",
+          "preserve": false,
+          "cutoff": 0.9
+        },
+        "guard": [
+          0.8,
+          1.0
+        ]
+      },
+      "outcome": {
+        "fit": {
+          "result": {
+            "images": 116,
+            "objects": 98,
+            "tp": 95,
+            "fp": 16,
+            "fn": 3,
+            "precision": 0.8558558558558559,
+            "recall": 0.9693877551020408,
+            "f1": 0.9090909090909091,
+            "ap50": 0.8757018558998759,
+            "ap50_95": 0.5633496885570098,
+            "exact_count": 100,
+            "negative_images": 18,
+            "correct_empty": 4
+          },
+          "guard": {
+            "passed": false,
+            "lost_matches": [
+              {
+                "id": "176339130",
+                "box": [
+                  0.08260869565217391,
+                  0.0,
+                  0.6217391304347826,
+                  0.3870967741935484
+                ]
+              },
+              {
+                "id": "36737404",
+                "box": [
+                  0.3826086956521739,
+                  0.3741935483870968,
+                  0.5869565217391305,
+                  0.567741935483871
+                ]
+              }
+            ],
+            "recovered_matches": 0,
+            "baseline_matches": 97,
+            "candidate_matches": 95
+          },
+          "max_fp": 20
+        },
+        "calibration": {
+          "result": {
+            "images": 87,
+            "objects": 72,
+            "tp": 68,
+            "fp": 14,
+            "fn": 4,
+            "precision": 0.8292682926829268,
+            "recall": 0.9444444444444444,
+            "f1": 0.883116883116883,
+            "ap50": 0.8528396383181861,
+            "ap50_95": 0.49835212765733206,
+            "exact_count": 79,
+            "negative_images": 15,
+            "correct_empty": 7
+          },
+          "guard": {
+            "passed": true,
+            "lost_matches": [],
+            "recovered_matches": 0,
+            "baseline_matches": 68,
+            "candidate_matches": 68
+          },
+          "max_fp": 23
+        }
+      },
+      "eligible": false
+    },
+    {
+      "policy": {
+        "options": {
+          "method": "logistic-50-unweighted",
+          "channels": "all",
+          "box": "anchor",
+          "preserve": false,
+          "cutoff": 0.9
+        },
+        "guard": [
+          0.85,
+          0.045
+        ]
+      },
+      "outcome": {
+        "fit": {
+          "result": {
+            "images": 116,
+            "objects": 98,
+            "tp": 95,
+            "fp": 4,
+            "fn": 3,
+            "precision": 0.9595959595959596,
+            "recall": 0.9693877551020408,
+            "f1": 0.964467005076142,
+            "ap50": 0.9570305372942044,
+            "ap50_95": 0.643237025060493,
+            "exact_count": 111,
+            "negative_images": 18,
+            "correct_empty": 15
+          },
+          "guard": {
+            "passed": false,
+            "lost_matches": [
+              {
+                "id": "176339130",
+                "box": [
+                  0.08260869565217391,
+                  0.0,
+                  0.6217391304347826,
+                  0.3870967741935484
+                ]
+              },
+              {
+                "id": "36737404",
+                "box": [
+                  0.3826086956521739,
+                  0.3741935483870968,
+                  0.5869565217391305,
+                  0.567741935483871
+                ]
+              }
+            ],
+            "recovered_matches": 0,
+            "baseline_matches": 97,
+            "candidate_matches": 95
+          },
+          "max_fp": 20
+        },
+        "calibration": {
+          "result": {
+            "images": 87,
+            "objects": 72,
+            "tp": 68,
+            "fp": 8,
+            "fn": 4,
+            "precision": 0.8947368421052632,
+            "recall": 0.9444444444444444,
+            "f1": 0.918918918918919,
+            "ap50": 0.8937637465780102,
+            "ap50_95": 0.5644559263891068,
+            "exact_count": 84,
+            "negative_images": 15,
+            "correct_empty": 12
+          },
+          "guard": {
+            "passed": true,
+            "lost_matches": [],
+            "recovered_matches": 0,
+            "baseline_matches": 68,
+            "candidate_matches": 68
+          },
+          "max_fp": 23
+        }
+      },
+      "eligible": false
+    },
+    {
+      "policy": {
+        "options": {
+          "method": "logistic-50-unweighted",
+          "channels": "all",
+          "box": "anchor",
+          "preserve": false,
+          "cutoff": 0.9
+        },
+        "guard": [
+          0.85,
+          0.09
+        ]
+      },
+      "outcome": {
+        "fit": {
+          "result": {
+            "images": 116,
+            "objects": 98,
+            "tp": 95,
+            "fp": 4,
+            "fn": 3,
+            "precision": 0.9595959595959596,
+            "recall": 0.9693877551020408,
+            "f1": 0.964467005076142,
+            "ap50": 0.9570305372942044,
+            "ap50_95": 0.643237025060493,
+            "exact_count": 111,
+            "negative_images": 18,
+            "correct_empty": 15
+          },
+          "guard": {
+            "passed": false,
+            "lost_matches": [
+              {
+                "id": "176339130",
+                "box": [
+                  0.08260869565217391,
+                  0.0,
+                  0.6217391304347826,
+                  0.3870967741935484
+                ]
+              },
+              {
+                "id": "36737404",
+                "box": [
+                  0.3826086956521739,
+                  0.3741935483870968,
+                  0.5869565217391305,
+                  0.567741935483871
+                ]
+              }
+            ],
+            "recovered_matches": 0,
+            "baseline_matches": 97,
+            "candidate_matches": 95
+          },
+          "max_fp": 20
+        },
+        "calibration": {
+          "result": {
+            "images": 87,
+            "objects": 72,
+            "tp": 68,
+            "fp": 8,
+            "fn": 4,
+            "precision": 0.8947368421052632,
+            "recall": 0.9444444444444444,
+            "f1": 0.918918918918919,
+            "ap50": 0.8939400411419353,
+            "ap50_95": 0.5646698666759205,
+            "exact_count": 84,
+            "negative_images": 15,
+            "correct_empty": 12
+          },
+          "guard": {
+            "passed": true,
+            "lost_matches": [],
+            "recovered_matches": 0,
+            "baseline_matches": 68,
+            "candidate_matches": 68
+          },
+          "max_fp": 23
+        }
+      },
+      "eligible": false
+    },
+    {
+      "policy": {
+        "options": {
+          "method": "logistic-50-unweighted",
+          "channels": "all",
+          "box": "anchor",
+          "preserve": false,
+          "cutoff": 0.9
+        },
+        "guard": [
+          0.85,
+          0.16
+        ]
+      },
+      "outcome": {
+        "fit": {
+          "result": {
+            "images": 116,
+            "objects": 98,
+            "tp": 95,
+            "fp": 6,
+            "fn": 3,
+            "precision": 0.9405940594059405,
+            "recall": 0.9693877551020408,
+            "f1": 0.9547738693467337,
+            "ap50": 0.9514921223119881,
+            "ap50_95": 0.639103309962519,
+            "exact_count": 109,
+            "negative_images": 18,
+            "correct_empty": 13
+          },
+          "guard": {
+            "passed": false,
+            "lost_matches": [
+              {
+                "id": "176339130",
+                "box": [
+                  0.08260869565217391,
+                  0.0,
+                  0.6217391304347826,
+                  0.3870967741935484
+                ]
+              },
+              {
+                "id": "36737404",
+                "box": [
+                  0.3826086956521739,
+                  0.3741935483870968,
+                  0.5869565217391305,
+                  0.567741935483871
+                ]
+              }
+            ],
+            "recovered_matches": 0,
+            "baseline_matches": 97,
+            "candidate_matches": 95
+          },
+          "max_fp": 20
+        },
+        "calibration": {
+          "result": {
+            "images": 87,
+            "objects": 72,
+            "tp": 68,
+            "fp": 8,
+            "fn": 4,
+            "precision": 0.8947368421052632,
+            "recall": 0.9444444444444444,
+            "f1": 0.918918918918919,
+            "ap50": 0.8881039530884368,
+            "ap50_95": 0.5695314579288002,
+            "exact_count": 84,
+            "negative_images": 15,
+            "correct_empty": 12
+          },
+          "guard": {
+            "passed": true,
+            "lost_matches": [],
+            "recovered_matches": 0,
+            "baseline_matches": 68,
+            "candidate_matches": 68
+          },
+          "max_fp": 23
+        }
+      },
+      "eligible": false
+    },
+    {
+      "policy": {
+        "options": {
+          "method": "logistic-50-unweighted",
+          "channels": "all",
+          "box": "anchor",
+          "preserve": false,
+          "cutoff": 0.9
+        },
+        "guard": [
+          0.85,
+          0.3
+        ]
+      },
+      "outcome": {
+        "fit": {
+          "result": {
+            "images": 116,
+            "objects": 98,
+            "tp": 95,
+            "fp": 8,
+            "fn": 3,
+            "precision": 0.9223300970873787,
+            "recall": 0.9693877551020408,
+            "f1": 0.9452736318407962,
+            "ap50": 0.9266995351414999,
+            "ap50_95": 0.6188576845544189,
+            "exact_count": 107,
+            "negative_images": 18,
+            "correct_empty": 11
+          },
+          "guard": {
+            "passed": false,
+            "lost_matches": [
+              {
+                "id": "176339130",
+                "box": [
+                  0.08260869565217391,
+                  0.0,
+                  0.6217391304347826,
+                  0.3870967741935484
+                ]
+              },
+              {
+                "id": "36737404",
+                "box": [
+                  0.3826086956521739,
+                  0.3741935483870968,
+                  0.5869565217391305,
+                  0.567741935483871
+                ]
+              }
+            ],
+            "recovered_matches": 0,
+            "baseline_matches": 97,
+            "candidate_matches": 95
+          },
+          "max_fp": 20
+        },
+        "calibration": {
+          "result": {
+            "images": 87,
+            "objects": 72,
+            "tp": 68,
+            "fp": 8,
+            "fn": 4,
+            "precision": 0.8947368421052632,
+            "recall": 0.9444444444444444,
+            "f1": 0.918918918918919,
+            "ap50": 0.8777797779777975,
+            "ap50_95": 0.5755817660789644,
+            "exact_count": 84,
+            "negative_images": 15,
+            "correct_empty": 12
+          },
+          "guard": {
+            "passed": true,
+            "lost_matches": [],
+            "recovered_matches": 0,
+            "baseline_matches": 68,
+            "candidate_matches": 68
+          },
+          "max_fp": 23
+        }
+      },
+      "eligible": false
+    },
+    {
+      "policy": {
+        "options": {
+          "method": "logistic-50-unweighted",
+          "channels": "all",
+          "box": "anchor",
+          "preserve": false,
+          "cutoff": 0.9
+        },
+        "guard": [
+          0.85,
+          1.0
+        ]
+      },
+      "outcome": {
+        "fit": {
+          "result": {
+            "images": 116,
+            "objects": 98,
+            "tp": 95,
+            "fp": 13,
+            "fn": 3,
+            "precision": 0.8796296296296297,
+            "recall": 0.9693877551020408,
+            "f1": 0.9223300970873787,
+            "ap50": 0.8781416603198782,
+            "ap50_95": 0.569189164511539,
+            "exact_count": 102,
+            "negative_images": 18,
+            "correct_empty": 6
+          },
+          "guard": {
+            "passed": false,
+            "lost_matches": [
+              {
+                "id": "176339130",
+                "box": [
+                  0.08260869565217391,
+                  0.0,
+                  0.6217391304347826,
+                  0.3870967741935484
+                ]
+              },
+              {
+                "id": "36737404",
+                "box": [
+                  0.3826086956521739,
+                  0.3741935483870968,
+                  0.5869565217391305,
+                  0.567741935483871
+                ]
+              }
+            ],
+            "recovered_matches": 0,
+            "baseline_matches": 97,
+            "candidate_matches": 95
+          },
+          "max_fp": 20
+        },
+        "calibration": {
+          "result": {
+            "images": 87,
+            "objects": 72,
+            "tp": 68,
+            "fp": 9,
+            "fn": 4,
+            "precision": 0.8831168831168831,
+            "recall": 0.9444444444444444,
+            "f1": 0.912751677852349,
+            "ap50": 0.8478374153204796,
+            "ap50_95": 0.48917235067973,
+            "exact_count": 83,
+            "negative_images": 15,
+            "correct_empty": 11
+          },
+          "guard": {
+            "passed": true,
+            "lost_matches": [],
+            "recovered_matches": 0,
+            "baseline_matches": 68,
+            "candidate_matches": 68
+          },
+          "max_fp": 23
+        }
+      },
+      "eligible": false
+    }
+  ],
+  "base_freeze": "22be81ad4a7c5f158e029d4f954965a4cb0a04029a83f532541d96440d86a0c9",
+  "selection_inputs": [
+    "fit",
+    "calibration"
+  ],
+  "new_clear_scope": "The parent clear-block report is not consulted by selection."
+}

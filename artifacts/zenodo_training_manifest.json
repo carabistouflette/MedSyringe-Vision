@@ -1,0 +1,3219 @@
+{
+  "rows": [
+    {
+      "id": "zenodo-1f6154342876c84b",
+      "group": "zenodo:16924786",
+      "split": "public-training",
+      "image": "zenodo/sample/zenodo-1f6154342876c84b.jpg",
+      "sha256": "1f6154342876c84b1bba2f9def75e21e8894a8bce015cdb8100463def6b5cd4c",
+      "dhash": "79333b3b37979f97",
+      "license": "CC BY 4.0",
+      "objects": [
+        {
+          "bbox": [
+            0.48229166718750005,
+            0.837037036111111,
+            0.5296875,
+            0.9981481472222222
+          ]
+        }
+      ],
+      "width": 640,
+      "height": 360,
+      "member": "train/images/frame_0005_3_jpg.rf.96fe9e37698e7841a704cb2690e29327.jpg"
+    },
+    {
+      "id": "zenodo-072a06a2a38c2425",
+      "group": "zenodo:16924786",
+      "split": "public-training",
+      "image": "zenodo/sample/zenodo-072a06a2a38c2425.jpg",
+      "sha256": "072a06a2a38c24252587b89bb7ce38c6b80580e36010caa6c00156813a50d0d1",
+      "dhash": "9f939393b9383636",
+      "license": "CC BY 4.0",
+      "objects": [
+        {
+          "bbox": [
+            0.125,
+            0.4,
+            0.23697916718749998,
+            0.43703703611111117
+          ]
+        }
+      ],
+      "width": 640,
+      "height": 360,
+      "member": "train/images/frame_0014_44_jpg.rf.68dc19e52eba92cf77fa6c176dd9d122.jpg"
+    },
+    {
+      "id": "zenodo-af4d0431ea3aa0bf",
+      "group": "zenodo:16924786",
+      "split": "public-training",
+      "image": "zenodo/sample/zenodo-af4d0431ea3aa0bf.jpg",
+      "sha256": "af4d0431ea3aa0bf0ae3b6f0250431192461936c561ed50255108aad40bdbd4f",
+      "dhash": "4c1c2d6c9e8e9293",
+      "license": "CC BY 4.0",
+      "objects": [
+        {
+          "bbox": [
+            0.4890625,
+            0.08541666666666667,
+            0.5109375,
+            0.22291666666666668
+          ]
+        }
+      ],
+      "width": 640,
+      "height": 480,
+      "member": "train/images/frame_0014_75_jpg.rf.4bd42f5f3469588ff8471fb5bee5d091.jpg"
+    },
+    {
+      "id": "zenodo-69b310b5de735750",
+      "group": "zenodo:16924786",
+      "split": "public-training",
+      "image": "zenodo/sample/zenodo-69b310b5de735750.jpg",
+      "sha256": "69b310b5de7357508dc3d6e2192ae11e3b48a98f742b4ea9032730bff7f0954c",
+      "dhash": "cbe16179783cb736",
+      "license": "CC BY 4.0",
+      "objects": [],
+      "width": 640,
+      "height": 480,
+      "member": "train/images/frame_0007_95_jpg.rf.f8f2e9d781c5cbc69531d30ec53dd1f9.jpg"
+    },
+    {
+      "id": "zenodo-4b28fed130ad42b9",
+      "group": "zenodo:16924786",
+      "split": "public-training",
+      "image": "zenodo/sample/zenodo-4b28fed130ad42b9.jpg",
+      "sha256": "4b28fed130ad42b94a3728eb7a9d42a942d97dcbcfeb0ff6d5510c29af42be76",
+      "dhash": "6f2323b3b9383636",
+      "license": "CC BY 4.0",
+      "objects": [],
+      "width": 640,
+      "height": 360,
+      "member": "train/images/frame_0005_48_jpg.rf.c89c3d183eefae18c64a10b85fbf3425.jpg"
+    },
+    {
+      "id": "zenodo-5ba6fff8d5c60b1f",
+      "group": "zenodo:16924786",
+      "split": "public-training",
+      "image": "zenodo/sample/zenodo-5ba6fff8d5c60b1f.jpg",
+      "sha256": "5ba6fff8d5c60b1ffc5ddb585adccd9b0304035cf79eb6f82ef8230589f8eb3d",
+      "dhash": "e6c343454486878e",
+      "license": "CC BY 4.0",
+      "objects": [
+        {
+          "bbox": [
+            0.9140625,
+            0.3703129638888889,
+            0.9765625,
+            0.5234379638888889
+          ]
+        }
+      ],
+      "width": 640,
+      "height": 360,
+      "member": "train/images/frame_0001_33_jpg.rf.144118f539814f90cad1b2e1e33c9127.jpg"
+    },
+    {
+      "id": "zenodo-6937900763407061",
+      "group": "zenodo:16924786",
+      "split": "public-training",
+      "image": "zenodo/sample/zenodo-6937900763407061.jpg",
+      "sha256": "6937900763407061fdfccd10494bdd498690286bb6fad1a9ac45434cfffb538a",
+      "dhash": "1b712139383c3736",
+      "license": "CC BY 4.0",
+      "objects": [
+        {
+          "bbox": [
+            0.3296875,
+            0.20416666666666666,
+            0.35625,
+            0.35625
+          ]
+        }
+      ],
+      "width": 640,
+      "height": 480,
+      "member": "train/images/frame_0012_107_jpg.rf.7a482baab273f597f977a2debf8f61a8.jpg"
+    },
+    {
+      "id": "zenodo-7709c622afeb539e",
+      "group": "zenodo:16924786",
+      "split": "public-training",
+      "image": "zenodo/sample/zenodo-7709c622afeb539e.jpg",
+      "sha256": "7709c622afeb539e038dfca6b23353ef5fbd36fc4c535bab7518e9312a11ddfc",
+      "dhash": "0f23233339b83636",
+      "license": "CC BY 4.0",
+      "objects": [
+        {
+          "bbox": [
+            0.3109375,
+            0.5481481472222223,
+            0.3260416671875,
+            0.6370370361111112
+          ]
+        }
+      ],
+      "width": 640,
+      "height": 360,
+      "member": "train/images/frame_0010_46_jpg.rf.f2bd2fb2c5ed010d95c1fdedde300f07.jpg"
+    },
+    {
+      "id": "zenodo-e833e76dabcadad9",
+      "group": "zenodo:16924786",
+      "split": "public-training",
+      "image": "zenodo/sample/zenodo-e833e76dabcadad9.jpg",
+      "sha256": "e833e76dabcadad9f93557b5879bbd8e14568d85bbee46b5509f662535e393e9",
+      "dhash": "0f1e3f3f37979696",
+      "license": "CC BY 4.0",
+      "objects": [
+        {
+          "bbox": [
+            0.4234375,
+            0.7361111111111112,
+            0.4765625,
+            0.9305555555555556
+          ]
+        }
+      ],
+      "width": 640,
+      "height": 360,
+      "member": "train/images/frame_0000_87_jpg.rf.3530e845d502fa8684581d94631ff303.jpg"
+    },
+    {
+      "id": "zenodo-51a9585e39c001bf",
+      "group": "zenodo:16924786",
+      "split": "public-training",
+      "image": "zenodo/sample/zenodo-51a9585e39c001bf.jpg",
+      "sha256": "51a9585e39c001bf8ffa179d81ca75a084059a3cf28311524e2db9af80ce9ef2",
+      "dhash": "44252d7c87869b9b",
+      "license": "CC BY 4.0",
+      "objects": [
+        {
+          "bbox": [
+            0.4796875,
+            0.31666666666666665,
+            0.5265625,
+            0.3541666666666667
+          ]
+        }
+      ],
+      "width": 640,
+      "height": 480,
+      "member": "train/images/frame_0027_63_jpg.rf.2a2b81b7c771fbe1dedce20fe5869a6c.jpg"
+    },
+    {
+      "id": "zenodo-81a51f237736b10c",
+      "group": "zenodo:16924786",
+      "split": "public-training",
+      "image": "zenodo/sample/zenodo-81a51f237736b10c.jpg",
+      "sha256": "81a51f237736b10cca638a6ac2228dda1c193c329d12bc74392a17281d192a29",
+      "dhash": "5b092d6d87869b9b",
+      "license": "CC BY 4.0",
+      "objects": [],
+      "width": 640,
+      "height": 480,
+      "member": "train/images/frame_0042_8_jpg.rf.9215e5545f8269b6dd5f541227e08cb4.jpg"
+    },
+    {
+      "id": "zenodo-b417e8aee09e75fd",
+      "group": "zenodo:16924786",
+      "split": "public-training",
+      "image": "zenodo/sample/zenodo-b417e8aee09e75fd.jpg",
+      "sha256": "b417e8aee09e75fd0318bf485a0415aed8b0eafabbb1ec0d5f3cf1b34b5b558d",
+      "dhash": "1f1919b9f87c3736",
+      "license": "CC BY 4.0",
+      "objects": [
+        {
+          "bbox": [
+            0.16875,
+            0.4166666666666667,
+            0.296875,
+            0.5375
+          ]
+        }
+      ],
+      "width": 640,
+      "height": 480,
+      "member": "train/images/frame_0018_102_jpg.rf.815eced88f337d6c56ecad388d70b97e.jpg"
+    },
+    {
+      "id": "zenodo-e4ebfaded4d45587",
+      "group": "zenodo:16924786",
+      "split": "public-training",
+      "image": "zenodo/sample/zenodo-e4ebfaded4d45587.jpg",
+      "sha256": "e4ebfaded4d45587e1d8523872f5af6b4cf2b78c88e6bd7928a1173e19dd5e44",
+      "dhash": "7737397979bd9587",
+      "license": "CC BY 4.0",
+      "objects": [
+        {
+          "bbox": [
+            0.4088541671875,
+            0.875,
+            0.53125,
+            0.9296296305555556
+          ]
+        }
+      ],
+      "width": 640,
+      "height": 360,
+      "member": "train/images/frame_0011_252_jpg.rf.f92658384a7380da962e7d142594e74a.jpg"
+    },
+    {
+      "id": "zenodo-b67e9f7aa3b863c2",
+      "group": "zenodo:16924786",
+      "split": "public-training",
+      "image": "zenodo/sample/zenodo-b67e9f7aa3b863c2.jpg",
+      "sha256": "b67e9f7aa3b863c2942564bd1df2e639866867c507b0c1c0a8d3ddf025409105",
+      "dhash": "669f362c4dcec2d2",
+      "license": "CC BY 4.0",
+      "objects": [
+        {
+          "bbox": [
+            0.5921875,
+            0.45462963055555555,
+            0.609375,
+            0.5935185194444444
+          ]
+        }
+      ],
+      "width": 640,
+      "height": 360,
+      "member": "train/images/frame_0014_18_jpg.rf.b31dc0bdd617fac64de102ec7a9bcc60.jpg"
+    },
+    {
+      "id": "zenodo-2ff32ac141f08827",
+      "group": "zenodo:16924786",
+      "split": "public-training",
+      "image": "zenodo/sample/zenodo-2ff32ac141f08827.jpg",
+      "sha256": "2ff32ac141f08827670e6b9c6c93055f9238df6ba27e701348d575fafde82595",
+      "dhash": "9b03233bb9b8b636",
+      "license": "CC BY 4.0",
+      "objects": [
+        {
+          "bbox": [
+            0.321875,
+            0.4824074083333333,
+            0.3359375,
+            0.6046296305555555
+          ]
+        }
+      ],
+      "width": 640,
+      "height": 360,
+      "member": "train/images/frame_0013_62_jpg.rf.3ccb4519ba05a8f26d9e01e192e87037.jpg"
+    },
+    {
+      "id": "zenodo-066965726d9b5bcb",
+      "group": "zenodo:16924786",
+      "split": "public-training",
+      "image": "zenodo/sample/zenodo-066965726d9b5bcb.jpg",
+      "sha256": "066965726d9b5bcb9a602ca19e9a62bddaf6b1ad6d9ae2f859cdf28532123932",
+      "dhash": "24383c3c3cbd9f96",
+      "license": "CC BY 4.0",
+      "objects": [
+        {
+          "bbox": [
+            0.48229166718750005,
+            0.8351851861111111,
+            0.5296875,
+            0.9981481472222222
+          ]
+        }
+      ],
+      "width": 640,
+      "height": 360,
+      "member": "train/images/frame_0009_176_jpg.rf.3f37136b3d9ca02744cc998ea80a7884.jpg"
+    },
+    {
+      "id": "zenodo-df34eea04c09af32",
+      "group": "zenodo:16924786",
+      "split": "public-training",
+      "image": "zenodo/sample/zenodo-df34eea04c09af32.jpg",
+      "sha256": "df34eea04c09af32c05a062953b5aa2076b3198a88a2db19556ada14fdb611d4",
+      "dhash": "6f233393b9f8b636",
+      "license": "CC BY 4.0",
+      "objects": [
+        {
+          "bbox": [
+            0.1676390625,
+            0.424074075,
+            0.2911213546875,
+            0.6493342583333334
+          ]
+        }
+      ],
+      "width": 640,
+      "height": 360,
+      "member": "train/images/frame_0021_41_jpg.rf.cbba678f82c50feed04585189f7ec6d6.jpg"
+    },
+    {
+      "id": "zenodo-a508de9b74013007",
+      "group": "zenodo:16924786",
+      "split": "public-training",
+      "image": "zenodo/sample/zenodo-a508de9b74013007.jpg",
+      "sha256": "a508de9b740130072ae51f63738b16013dd921d35f82f6a6bb350a97d5a7b80b",
+      "dhash": "66f6e6ec0c12079a",
+      "license": "CC BY 4.0",
+      "objects": [
+        {
+          "bbox": [
+            0.5390625,
+            0.4953129638888889,
+            0.5765625,
+            0.584375
+          ]
+        }
+      ],
+      "width": 640,
+      "height": 360,
+      "member": "train/images/frame_0015_10_jpg.rf.91e6f95c0537c9898e7b2fd19277ab24.jpg"
+    },
+    {
+      "id": "zenodo-1468a0c48319dcb8",
+      "group": "zenodo:16924786",
+      "split": "public-training",
+      "image": "zenodo/sample/zenodo-1468a0c48319dcb8.jpg",
+      "sha256": "1468a0c48319dcb82bc8a9ba1be24a08cecd4548e59845d6ef006081763013ea",
+      "dhash": "cb9babc941918f87",
+      "license": "CC BY 4.0",
+      "objects": [
+        {
+          "bbox": [
+            0.696875,
+            0.4640625,
+            0.7234375,
+            0.6484375
+          ]
+        }
+      ],
+      "width": 640,
+      "height": 480,
+      "member": "train/images/frame_0009_87_jpg.rf.d82450751038802d6be193d6524469ee.jpg"
+    },
+    {
+      "id": "zenodo-9b7e47204313cb56",
+      "group": "zenodo:16924786",
+      "split": "public-training",
+      "image": "zenodo/sample/zenodo-9b7e47204313cb56.jpg",
+      "sha256": "9b7e47204313cb563382f5e54b59eaa66d300a6649f8673bdeef81c877fd5f95",
+      "dhash": "1ea1e179783c3736",
+      "license": "CC BY 4.0",
+      "objects": [],
+      "width": 640,
+      "height": 480,
+      "member": "train/images/frame_0029_68_jpg.rf.5accf89837d221415b815521be5abca0.jpg"
+    },
+    {
+      "id": "zenodo-0e668ebf12fb1844",
+      "group": "zenodo:16924786",
+      "split": "public-training",
+      "image": "zenodo/sample/zenodo-0e668ebf12fb1844.jpg",
+      "sha256": "0e668ebf12fb18445e4563bf07a095958f65d1e95b58d99a511423e15b75a21c",
+      "dhash": "5f212139183c3776",
+      "license": "CC BY 4.0",
+      "objects": [
+        {
+          "bbox": [
+            0.2515625,
+            0.7020833333333333,
+            0.2890625,
+            0.7479166666666667
+          ]
+        }
+      ],
+      "width": 640,
+      "height": 480,
+      "member": "train/images/frame_0028_89_jpg.rf.507411149b198051043331dd2dfb56c1.jpg"
+    },
+    {
+      "id": "zenodo-e64da56c976493c5",
+      "group": "zenodo:16924786",
+      "split": "public-training",
+      "image": "zenodo/sample/zenodo-e64da56c976493c5.jpg",
+      "sha256": "e64da56c976493c5d1eb032debe8e7b7436e68e391bd37e4429f01ba63775bb7",
+      "dhash": "33333c7c3bbb9586",
+      "license": "CC BY 4.0",
+      "objects": [
+        {
+          "bbox": [
+            0.4088541671875,
+            0.875,
+            0.53125,
+            0.9296296305555556
+          ]
+        }
+      ],
+      "width": 640,
+      "height": 360,
+      "member": "train/images/frame_0004_263_jpg.rf.33a6c6f1a542f3493e818823e22c8e23.jpg"
+    },
+    {
+      "id": "zenodo-0886d262e1a333a0",
+      "group": "zenodo:16924786",
+      "split": "public-training",
+      "image": "zenodo/sample/zenodo-0886d262e1a333a0.jpg",
+      "sha256": "0886d262e1a333a0c428d6070acc2cb572f2e4445ab37965aa8edc80ae1ffbd9",
+      "dhash": "9f212139387c3736",
+      "license": "CC BY 4.0",
+      "objects": [
+        {
+          "bbox": [
+            0.246875,
+            0.4640625,
+            0.2703125,
+            0.6390625
+          ]
+        }
+      ],
+      "width": 640,
+      "height": 480,
+      "member": "train/images/frame_0000_98_jpg.rf.3e48d81c664e3f062fbde8f3dcfaa79f.jpg"
+    },
+    {
+      "id": "zenodo-b58536fceac5f736",
+      "group": "zenodo:16924786",
+      "split": "public-training",
+      "image": "zenodo/sample/zenodo-b58536fceac5f736.jpg",
+      "sha256": "b58536fceac5f736561c3d78368b6083bddd3fe7b7a1034d32c1e6c708c6964e",
+      "dhash": "53192c6d978e9b9b",
+      "license": "CC BY 4.0",
+      "objects": [],
+      "width": 640,
+      "height": 480,
+      "member": "train/images/frame_0013_88_jpg.rf.865794e9b327716cc0bf88ab61af34b9.jpg"
+    },
+    {
+      "id": "zenodo-436ac0c0116f7ae1",
+      "group": "zenodo:16924786",
+      "split": "public-training",
+      "image": "zenodo/sample/zenodo-436ac0c0116f7ae1.jpg",
+      "sha256": "436ac0c0116f7ae1cb05f358fc1a82758da44d985bdb6f073314ae65f5c7f431",
+      "dhash": "670d6d6d8f869b9b",
+      "license": "CC BY 4.0",
+      "objects": [],
+      "width": 640,
+      "height": 480,
+      "member": "train/images/frame_0030_55_jpg.rf.f515e9d1d620464e446c14e6383caeae.jpg"
+    },
+    {
+      "id": "zenodo-b058a69bc9843442",
+      "group": "zenodo:16924786",
+      "split": "public-training",
+      "image": "zenodo/sample/zenodo-b058a69bc9843442.jpg",
+      "sha256": "b058a69bc9843442e76be3e6bdb59173eeeb0bbca809c384d3850882ce6bc7b9",
+      "dhash": "6c8d3d2353cec6d2",
+      "license": "CC BY 4.0",
+      "objects": [
+        {
+          "bbox": [
+            0.5385416671875001,
+            0.26018518611111113,
+            0.5557291671875,
+            0.33055555555555555
+          ]
+        }
+      ],
+      "width": 640,
+      "height": 360,
+      "member": "train/images/frame_0028_25_jpg.rf.8562c0ba982c044a3c980a0c618f9e2c.jpg"
+    },
+    {
+      "id": "zenodo-26b868c8d45afa32",
+      "group": "zenodo:16924786",
+      "split": "public-training",
+      "image": "zenodo/sample/zenodo-26b868c8d45afa32.jpg",
+      "sha256": "26b868c8d45afa3282c49d003d971ba18c2fed9277f14f689f217c5eb9ee68e1",
+      "dhash": "8f9f3f2f4fcfd6d2",
+      "license": "CC BY 4.0",
+      "objects": [
+        {
+          "bbox": [
+            0.603125,
+            0.5111111111111111,
+            0.6270833328125,
+            0.6703703694444445
+          ]
+        }
+      ],
+      "width": 640,
+      "height": 360,
+      "member": "train/images/frame_0023_25_jpg.rf.32be2c6e552150e6bceaeb0583d3375a.jpg"
+    },
+    {
+      "id": "zenodo-9c840844380b6b23",
+      "group": "zenodo:16924786",
+      "split": "public-training",
+      "image": "zenodo/sample/zenodo-9c840844380b6b23.jpg",
+      "sha256": "9c840844380b6b2341fbd3c5f41b355a263ea52a89f756e4fcdd9cb6f9cd7c46",
+      "dhash": "0f0f3f6f36be9696",
+      "license": "CC BY 4.0",
+      "objects": [
+        {
+          "bbox": [
+            0.40625,
+            0.878125,
+            0.5296875,
+            0.934375
+          ]
+        }
+      ],
+      "width": 640,
+      "height": 360,
+      "member": "train/images/frame_0011_190_jpg.rf.f8bfdec958cb7751baa2f8df73799cca.jpg"
+    },
+    {
+      "id": "zenodo-1a5998b47fc5661e",
+      "group": "zenodo:16924786",
+      "split": "public-training",
+      "image": "zenodo/sample/zenodo-1a5998b47fc5661e.jpg",
+      "sha256": "1a5998b47fc5661e462e880e3bd7d7b8dcc7dafa4f7e5cab15ae97e478413da2",
+      "dhash": "977b2b6d87869b9b",
+      "license": "CC BY 4.0",
+      "objects": [
+        {
+          "bbox": [
+            0.125,
+            0.14375,
+            0.309375,
+            0.21041666666666667
+          ]
+        }
+      ],
+      "width": 640,
+      "height": 480,
+      "member": "train/images/frame_0037_20_jpg.rf.1eb25330e9ed38c402ace0481e71f812.jpg"
+    },
+    {
+      "id": "zenodo-d137e7b78e0ed9d7",
+      "group": "zenodo:16924786",
+      "split": "public-training",
+      "image": "zenodo/sample/zenodo-d137e7b78e0ed9d7.jpg",
+      "sha256": "d137e7b78e0ed9d7aad1ab530dac30d1bb7d147ae04631006dcc35d2ea3adde2",
+      "dhash": "0d890949cc849797",
+      "license": "CC BY 4.0",
+      "objects": [],
+      "width": 640,
+      "height": 360,
+      "member": "train/images/frame_0003_196_jpg.rf.63021da7817fb3f5988140ea53295376.jpg"
+    },
+    {
+      "id": "zenodo-2e3d430e748589b0",
+      "group": "zenodo:16924786",
+      "split": "public-training",
+      "image": "zenodo/sample/zenodo-2e3d430e748589b0.jpg",
+      "sha256": "2e3d430e748589b0c336bfa61a335eb74dc7e686e934338ee8fd9a3d210ca8b9",
+      "dhash": "5999392b4fcfc7d3",
+      "license": "CC BY 4.0",
+      "objects": [
+        {
+          "bbox": [
+            0.4359375,
+            0.18240740833333335,
+            0.5213541671875,
+            0.2638888888888889
+          ]
+        }
+      ],
+      "width": 640,
+      "height": 360,
+      "member": "train/images/frame_0021_31_jpg.rf.560c62c693dd54a1318eddd8ce186b0b.jpg"
+    },
+    {
+      "id": "zenodo-376bc9ffd4d96c93",
+      "group": "zenodo:16924786",
+      "split": "public-training",
+      "image": "zenodo/sample/zenodo-376bc9ffd4d96c93.jpg",
+      "sha256": "376bc9ffd4d96c93b59c9458a3072a18e4b321acabde5365d148c5c95c7890f6",
+      "dhash": "452d2c6e9e8c9b9b",
+      "license": "CC BY 4.0",
+      "objects": [
+        {
+          "bbox": [
+            0.5171875,
+            0.3229166666666667,
+            0.56875,
+            0.47291666666666665
+          ]
+        }
+      ],
+      "width": 640,
+      "height": 480,
+      "member": "train/images/frame_0015_92_jpg.rf.9558aceeeee59d6678a7fff44fe570c0.jpg"
+    },
+    {
+      "id": "zenodo-c46a974b641f7b89",
+      "group": "zenodo:16924786",
+      "split": "public-training",
+      "image": "zenodo/sample/zenodo-c46a974b641f7b89.jpg",
+      "sha256": "c46a974b641f7b896682d69712fceb57b0162eaa62c848a0eda4b8cfa5d5fda2",
+      "dhash": "9fa3a3d379383636",
+      "license": "CC BY 4.0",
+      "objects": [
+        {
+          "bbox": [
+            0.2984375,
+            0.4421879638888889,
+            0.321875,
+            0.615625
+          ]
+        }
+      ],
+      "width": 640,
+      "height": 360,
+      "member": "train/images/frame_0019_45_jpg.rf.a809f6d6a059887b62f9ca449f9328e8.jpg"
+    },
+    {
+      "id": "zenodo-ddaa64b143f8589d",
+      "group": "zenodo:16924786",
+      "split": "public-training",
+      "image": "zenodo/sample/zenodo-ddaa64b143f8589d.jpg",
+      "sha256": "ddaa64b143f8589d4915249f9d9677a17bc5c049140983519d960f3dcc6784b4",
+      "dhash": "678687a7c7879797",
+      "license": "CC BY 4.0",
+      "objects": [
+        {
+          "bbox": [
+            0.325,
+            0.3453129638888889,
+            0.353125,
+            0.48125
+          ]
+        },
+        {
+          "bbox": [
+            0.49375,
+            0.459375,
+            0.5109375,
+            0.560937963888889
+          ]
+        }
+      ],
+      "width": 640,
+      "height": 360,
+      "member": "train/images/frame_0010_218_jpg.rf.db1043c317e76cf9e7f55de6ff45c97b.jpg"
+    },
+    {
+      "id": "zenodo-19b842b79aa106f8",
+      "group": "zenodo:16924786",
+      "split": "public-training",
+      "image": "zenodo/sample/zenodo-19b842b79aa106f8.jpg",
+      "sha256": "19b842b79aa106f87349a97350ac51d7e19539125375572ae6a262a01e94eb05",
+      "dhash": "67363f3f37979797",
+      "license": "CC BY 4.0",
+      "objects": [
+        {
+          "bbox": [
+            0.4984375,
+            0.41875,
+            0.521875,
+            0.592187963888889
+          ]
+        }
+      ],
+      "width": 640,
+      "height": 360,
+      "member": "train/images/frame_0022_55_jpg.rf.d6f92844f0c8b16ab96372234f4d7bba.jpg"
+    },
+    {
+      "id": "zenodo-d6bf323228267853",
+      "group": "zenodo:16924786",
+      "split": "public-training",
+      "image": "zenodo/sample/zenodo-d6bf323228267853.jpg",
+      "sha256": "d6bf323228267853df67ece041c5574d0cd87d3c6736d5695fcfb0d0fe618b00",
+      "dhash": "469e3d6d4eced2d3",
+      "license": "CC BY 4.0",
+      "objects": [
+        {
+          "bbox": [
+            0.5609375,
+            0.3,
+            0.5760416671875,
+            0.39351851944444444
+          ]
+        }
+      ],
+      "width": 640,
+      "height": 360,
+      "member": "train/images/frame_0020_10_jpg.rf.7125f45bffafa783d7ab46251a02046a.jpg"
+    },
+    {
+      "id": "zenodo-e777ae5f8db202fc",
+      "group": "zenodo:16924786",
+      "split": "public-training",
+      "image": "zenodo/sample/zenodo-e777ae5f8db202fc.jpg",
+      "sha256": "e777ae5f8db202fcfa4fba994aae91081d052ebab13ed99988d17549d2f8a169",
+      "dhash": "e463494584868786",
+      "license": "CC BY 4.0",
+      "objects": [
+        {
+          "bbox": [
+            0.915625,
+            0.3638888888888889,
+            0.978125,
+            0.5120370361111112
+          ]
+        }
+      ],
+      "width": 640,
+      "height": 360,
+      "member": "train/images/frame_0009_109_jpg.rf.9bb5e3f8e30a4388d9319f0b8d3e9a30.jpg"
+    },
+    {
+      "id": "zenodo-5085a1e636fc7708",
+      "group": "zenodo:16924786",
+      "split": "public-training",
+      "image": "zenodo/sample/zenodo-5085a1e636fc7708.jpg",
+      "sha256": "5085a1e636fc77084559bcea46e7c1ee522151416716961c82d8fbc90c0484d7",
+      "dhash": "1b21211938bcf776",
+      "license": "CC BY 4.0",
+      "objects": [
+        {
+          "bbox": [
+            0.228125,
+            0.4953125,
+            0.253125,
+            0.6671875
+          ]
+        }
+      ],
+      "width": 640,
+      "height": 480,
+      "member": "train/images/frame_0019_108_jpg.rf.e57d9fa96cfc24151a12b1156fe62245.jpg"
+    },
+    {
+      "id": "zenodo-d5113aeeb3414b13",
+      "group": "zenodo:16924786",
+      "split": "public-training",
+      "image": "zenodo/sample/zenodo-d5113aeeb3414b13.jpg",
+      "sha256": "d5113aeeb3414b135c042ee8dd6a48c2d610b4201c51b0436013eae574bb9538",
+      "dhash": "4bdb2f6f4fcfd7d3",
+      "license": "CC BY 4.0",
+      "objects": [],
+      "width": 640,
+      "height": 360,
+      "member": "train/images/frame_0037_2_jpg.rf.33c76e0e2d1fa67617e4ee34d6d42f9f.jpg"
+    },
+    {
+      "id": "zenodo-b92b9365c84a7268",
+      "group": "zenodo:16924786",
+      "split": "public-training",
+      "image": "zenodo/sample/zenodo-b92b9365c84a7268.jpg",
+      "sha256": "b92b9365c84a7268bf98aa4d0fd9db9d2f5e9b1a0804712d1cba7790e5e8f630",
+      "dhash": "5b0141d9783c3736",
+      "license": "CC BY 4.0",
+      "objects": [
+        {
+          "bbox": [
+            0.2359375,
+            0.54375,
+            0.2515625,
+            0.6541666666666667
+          ]
+        }
+      ],
+      "width": 640,
+      "height": 480,
+      "member": "train/images/frame_0008_120_jpg.rf.d49a968b4dfe657b044d87a00cc1f29f.jpg"
+    },
+    {
+      "id": "zenodo-7c181b4c43cfa112",
+      "group": "zenodo:16924786",
+      "split": "public-training",
+      "image": "zenodo/sample/zenodo-7c181b4c43cfa112.jpg",
+      "sha256": "7c181b4c43cfa112031bc8f9f046a6ea178788e53523e0fd00f0ed6c5aef88bd",
+      "dhash": "45252c6c8c8e9b9b",
+      "license": "CC BY 4.0",
+      "objects": [
+        {
+          "bbox": [
+            0.5171875,
+            0.28541666666666665,
+            0.58125,
+            0.475
+          ]
+        }
+      ],
+      "width": 640,
+      "height": 480,
+      "member": "train/images/frame_0007_93_jpg.rf.2d98e1e417ee8121a7f1f622394515a5.jpg"
+    },
+    {
+      "id": "zenodo-dc8a22eedafcfc11",
+      "group": "zenodo:16924786",
+      "split": "public-training",
+      "image": "zenodo/sample/zenodo-dc8a22eedafcfc11.jpg",
+      "sha256": "dc8a22eedafcfc116a693c9239223856fd30064dcde7647391c98defe78b481f",
+      "dhash": "cc112f6c8e868b9b",
+      "license": "CC BY 4.0",
+      "objects": [
+        {
+          "bbox": [
+            0.7,
+            0.5421875,
+            0.721875,
+            0.709375
+          ]
+        }
+      ],
+      "width": 640,
+      "height": 480,
+      "member": "train/images/frame_0024_51_jpg.rf.768ff2d582bdf41b66576dbd5ad65820.jpg"
+    },
+    {
+      "id": "zenodo-9c0cbf2448bdb6c4",
+      "group": "zenodo:16924786",
+      "split": "public-training",
+      "image": "zenodo/sample/zenodo-9c0cbf2448bdb6c4.jpg",
+      "sha256": "9c0cbf2448bdb6c45b105712943297cdc340785bd460794d031e8f30b1ac8f09",
+      "dhash": "e5cda96be7878797",
+      "license": "CC BY 4.0",
+      "objects": [
+        {
+          "bbox": [
+            0.47447916718750005,
+            0.44814814722222224,
+            0.496875,
+            0.5324074083333333
+          ]
+        }
+      ],
+      "width": 640,
+      "height": 360,
+      "member": "train/images/frame_0014_39_jpg.rf.6b7186a870eb2695e0a63626a50205a2.jpg"
+    },
+    {
+      "id": "zenodo-c91f0605c89f6010",
+      "group": "zenodo:16924786",
+      "split": "public-training",
+      "image": "zenodo/sample/zenodo-c91f0605c89f6010.jpg",
+      "sha256": "c91f0605c89f601033aeb9913e7f2f08cb65e0d5c0ebf786c70084fdaf58c283",
+      "dhash": "9e8f020c1c362c3c",
+      "license": "CC BY 4.0",
+      "objects": [
+        {
+          "bbox": [
+            0.428125,
+            0.7328129638888888,
+            0.453125,
+            0.98125
+          ]
+        }
+      ],
+      "width": 640,
+      "height": 360,
+      "member": "train/images/frame_0007_233_jpg.rf.27dc3ae9b1b2332c91aa87af0e9c5d66.jpg"
+    },
+    {
+      "id": "zenodo-804786374f9aa8f4",
+      "group": "zenodo:16924786",
+      "split": "public-training",
+      "image": "zenodo/sample/zenodo-804786374f9aa8f4.jpg",
+      "sha256": "804786374f9aa8f48806e7bb624db4d299b0b8e5d741b1bc0627b4c121cdf116",
+      "dhash": "c060707d8b8b9b9b",
+      "license": "CC BY 4.0",
+      "objects": [],
+      "width": 640,
+      "height": 480,
+      "member": "train/images/frame_0012_91_jpg.rf.4c752de6fcf8cb9ae9dd42c4270a96fd.jpg"
+    },
+    {
+      "id": "zenodo-a8d11066780e8fc8",
+      "group": "zenodo:16924786",
+      "split": "public-training",
+      "image": "zenodo/sample/zenodo-a8d11066780e8fc8.jpg",
+      "sha256": "a8d11066780e8fc8d11bc351b3647794c7280cfb64044b6b6f2425813a1bdbc9",
+      "dhash": "4c9c2d2d4dccc6d6",
+      "license": "CC BY 4.0",
+      "objects": [],
+      "width": 640,
+      "height": 360,
+      "member": "train/images/frame_0038_6_jpg.rf.3b72efabadf635733e518bc8b5b00153.jpg"
+    },
+    {
+      "id": "zenodo-68b705c1d04f1d94",
+      "group": "zenodo:16924786",
+      "split": "public-training",
+      "image": "zenodo/sample/zenodo-68b705c1d04f1d94.jpg",
+      "sha256": "68b705c1d04f1d945b07a9ece1f92cfc04f349ef2fc2f098e7721f2a96d54680",
+      "dhash": "f6f6eccc1902079a",
+      "license": "CC BY 4.0",
+      "objects": [
+        {
+          "bbox": [
+            0.5359375,
+            0.42314814722222227,
+            0.5609375,
+            0.525925925
+          ]
+        }
+      ],
+      "width": 640,
+      "height": 360,
+      "member": "train/images/frame_0014_17_jpg.rf.15435943992d60f8e43064134eb4fd0d.jpg"
+    },
+    {
+      "id": "zenodo-3cd42abd8b012d96",
+      "group": "zenodo:16924786",
+      "split": "public-training",
+      "image": "zenodo/sample/zenodo-3cd42abd8b012d96.jpg",
+      "sha256": "3cd42abd8b012d96b1fc4f9132592faca6e3e343b2b3564b8cde1ae19cb30a7e",
+      "dhash": "1f33331339383636",
+      "license": "CC BY 4.0",
+      "objects": [
+        {
+          "bbox": [
+            0.2796875,
+            0.471875,
+            0.3,
+            0.634375
+          ]
+        }
+      ],
+      "width": 640,
+      "height": 360,
+      "member": "train/images/frame_0001_36_jpg.rf.586e9671a03e05238956fe1c49652b5b.jpg"
+    },
+    {
+      "id": "zenodo-5b61a5b4ecf55a24",
+      "group": "zenodo:16924786",
+      "split": "public-training",
+      "image": "zenodo/sample/zenodo-5b61a5b4ecf55a24.jpg",
+      "sha256": "5b61a5b4ecf55a248fb8bcbb859cc41f3f265fba9ce35b24504626359fe6300d",
+      "dhash": "b11d2d6c96869393",
+      "license": "CC BY 4.0",
+      "objects": [
+        {
+          "bbox": [
+            0.6578125,
+            0.4703125,
+            0.6828125,
+            0.6421875
+          ]
+        }
+      ],
+      "width": 640,
+      "height": 480,
+      "member": "train/images/frame_0002_79_jpg.rf.df5ce988d24cd564ee43062cdd59d6e0.jpg"
+    },
+    {
+      "id": "zenodo-558d1c9a5d839aaf",
+      "group": "zenodo:16924786",
+      "split": "public-training",
+      "image": "zenodo/sample/zenodo-558d1c9a5d839aaf.jpg",
+      "sha256": "558d1c9a5d839aafc712dfffbed4d59ddfbb1e3288b28b3aa0e52990b8fef1d7",
+      "dhash": "5b8b186de9968787",
+      "license": "CC BY 4.0",
+      "objects": [],
+      "width": 640,
+      "height": 360,
+      "member": "train/images/frame_0006_165_jpg.rf.6ef2ad33a4ce6b419ad38ba41d141f2a.jpg"
+    },
+    {
+      "id": "zenodo-27173ce200b64e37",
+      "group": "zenodo:16924786",
+      "split": "public-training",
+      "image": "zenodo/sample/zenodo-27173ce200b64e37.jpg",
+      "sha256": "27173ce200b64e37c26be0056cac0159414f3ad3b36cd19fdd93849df0a391da",
+      "dhash": "0f0f2f6d97869b9b",
+      "license": "CC BY 4.0",
+      "objects": [],
+      "width": 640,
+      "height": 480,
+      "member": "train/images/frame_0033_29_jpg.rf.baa91749a4606aa7a10885ac0225a8d0.jpg"
+    },
+    {
+      "id": "zenodo-c597c9c8928c996c",
+      "group": "zenodo:16924786",
+      "split": "public-training",
+      "image": "zenodo/sample/zenodo-c597c9c8928c996c.jpg",
+      "sha256": "c597c9c8928c996c860a611545ae0fb32058ddd3f15991fce03c25a10a12012f",
+      "dhash": "669734244dc4c6d3",
+      "license": "CC BY 4.0",
+      "objects": [],
+      "width": 640,
+      "height": 360,
+      "member": "train/images/frame_0020_20_jpg.rf.9e1dd0694a995d2a7ece65385925ce06.jpg"
+    },
+    {
+      "id": "zenodo-42c34039720766f2",
+      "group": "zenodo:16924786",
+      "split": "public-training",
+      "image": "zenodo/sample/zenodo-42c34039720766f2.jpg",
+      "sha256": "42c34039720766f21443920584aa7a59485231b0c4bf21eae26f241db4b37116",
+      "dhash": "4e0c2c6c87869b9b",
+      "license": "CC BY 4.0",
+      "objects": [],
+      "width": 640,
+      "height": 480,
+      "member": "train/images/frame_0033_31_jpg.rf.e1a7df63acbeef815c338ce670a8d7e7.jpg"
+    },
+    {
+      "id": "zenodo-d5d766a73807eed0",
+      "group": "zenodo:16924786",
+      "split": "public-training",
+      "image": "zenodo/sample/zenodo-d5d766a73807eed0.jpg",
+      "sha256": "d5d766a73807eed0302b83be65282400f2fbc373d5c42425c5bc0d71544fa67c",
+      "dhash": "e6e3e9c5c4060786",
+      "license": "CC BY 4.0",
+      "objects": [
+        {
+          "bbox": [
+            0.915625,
+            0.36203703611111115,
+            0.978125,
+            0.5092592583333334
+          ]
+        }
+      ],
+      "width": 640,
+      "height": 360,
+      "member": "train/images/frame_0006_22_jpg.rf.a7cdb4e3d0f7a938d9855dd7bd82089f.jpg"
+    },
+    {
+      "id": "zenodo-a331e5c96daa9a1e",
+      "group": "zenodo:16924786",
+      "split": "public-training",
+      "image": "zenodo/sample/zenodo-a331e5c96daa9a1e.jpg",
+      "sha256": "a331e5c96daa9a1e3c7c0f993a15f104687ded00a378ae32295c7a3baf7205bf",
+      "dhash": "9e8736141c363636",
+      "license": "CC BY 4.0",
+      "objects": [
+        {
+          "bbox": [
+            0.3671875,
+            0.703125,
+            0.3828125,
+            0.93125
+          ]
+        }
+      ],
+      "width": 640,
+      "height": 360,
+      "member": "train/images/frame_0000_160_jpg.rf.5e6caa0b46d72271b17defdd78227648.jpg"
+    },
+    {
+      "id": "zenodo-6e4a20a47cb169a1",
+      "group": "zenodo:16924786",
+      "split": "public-training",
+      "image": "zenodo/sample/zenodo-6e4a20a47cb169a1.jpg",
+      "sha256": "6e4a20a47cb169a1b8b0f2bc719eab5fc883b1d26ea15515793276906403ae5b",
+      "dhash": "9e8794141cb6b636",
+      "license": "CC BY 4.0",
+      "objects": [
+        {
+          "bbox": [
+            0.3671875,
+            0.7046879638888889,
+            0.3828125,
+            0.93125
+          ]
+        }
+      ],
+      "width": 640,
+      "height": 360,
+      "member": "train/images/frame_0011_144_jpg.rf.155f8bbd28f5e616b0c6b49c564e58b6.jpg"
+    },
+    {
+      "id": "zenodo-16feb54cd665e678",
+      "group": "zenodo:16924786",
+      "split": "public-training",
+      "image": "zenodo/sample/zenodo-16feb54cd665e678.jpg",
+      "sha256": "16feb54cd665e678dd0440dc2ff9a81c427309775348e0dc7eeabbd7dc298618",
+      "dhash": "441c2d6d8e8e939b",
+      "license": "CC BY 4.0",
+      "objects": [
+        {
+          "bbox": [
+            0.5609375,
+            0.49166666666666664,
+            0.596875,
+            0.5979166666666667
+          ]
+        }
+      ],
+      "width": 640,
+      "height": 480,
+      "member": "train/images/frame_0016_81_jpg.rf.52f00fa21cfd545d34531b58e3e46ac1.jpg"
+    },
+    {
+      "id": "zenodo-2ab871c9d73f39c6",
+      "group": "zenodo:16924786",
+      "split": "public-training",
+      "image": "zenodo/sample/zenodo-2ab871c9d73f39c6.jpg",
+      "sha256": "2ab871c9d73f39c6bf29922ad76381c3e28dc08d1e25f3c2753fe546a763d34c",
+      "dhash": "4e0f0a0c3c36ac3c",
+      "license": "CC BY 4.0",
+      "objects": [
+        {
+          "bbox": [
+            0.4322916671875,
+            0.7351851861111112,
+            0.45208333281249996,
+            0.9824074083333334
+          ]
+        }
+      ],
+      "width": 640,
+      "height": 360,
+      "member": "train/images/frame_0004_98_jpg.rf.f36d26b800631a1fc2e9e79e8703c23b.jpg"
+    },
+    {
+      "id": "zenodo-e59724c067fa254e",
+      "group": "zenodo:16924786",
+      "split": "public-training",
+      "image": "zenodo/sample/zenodo-e59724c067fa254e.jpg",
+      "sha256": "e59724c067fa254e9e6268b411e6d14919b85a00abd9d3dd9833da308eb8d807",
+      "dhash": "f6d399981a12db1e",
+      "license": "CC BY 4.0",
+      "objects": [],
+      "width": 640,
+      "height": 360,
+      "member": "train/images/frame_0004_197_jpg.rf.c75ad466407cf96cdfee8bf937eeca2f.jpg"
+    },
+    {
+      "id": "zenodo-6ea19996e55fea97",
+      "group": "zenodo:16924786",
+      "split": "public-training",
+      "image": "zenodo/sample/zenodo-6ea19996e55fea97.jpg",
+      "sha256": "6ea19996e55fea97de591d931123e012d2b2729f9c3ab558944ca386f8e5b6b0",
+      "dhash": "e4e3e9c504268786",
+      "license": "CC BY 4.0",
+      "objects": [
+        {
+          "bbox": [
+            0.915625,
+            0.3625,
+            0.978125,
+            0.5109379638888889
+          ]
+        }
+      ],
+      "width": 640,
+      "height": 360,
+      "member": "train/images/frame_0006_161_jpg.rf.f4ed070f21b2b6e2bd3b9901d68495b3.jpg"
+    },
+    {
+      "id": "zenodo-89809907d91156a8",
+      "group": "zenodo:16924786",
+      "split": "public-training",
+      "image": "zenodo/sample/zenodo-89809907d91156a8.jpg",
+      "sha256": "89809907d91156a895d2832fb96f563c9bb1af26a8b2cc413ead7142c8a02846",
+      "dhash": "733a3b3fa7979797",
+      "license": "CC BY 4.0",
+      "objects": [
+        {
+          "bbox": [
+            0.3265625,
+            0.346875,
+            0.3609375,
+            0.5375
+          ]
+        },
+        {
+          "bbox": [
+            0.5015625,
+            0.4296879638888889,
+            0.5296875,
+            0.592187963888889
+          ]
+        }
+      ],
+      "width": 640,
+      "height": 360,
+      "member": "train/images/frame_0022_50_jpg.rf.2890533e8810a73a04400e7aa7ad4a87.jpg"
+    },
+    {
+      "id": "zenodo-0e7169294edcc7c9",
+      "group": "zenodo:16924786",
+      "split": "public-training",
+      "image": "zenodo/sample/zenodo-0e7169294edcc7c9.jpg",
+      "sha256": "0e7169294edcc7c985fb767864f2f9e43ff753c46f69cf80514a52f8227748c5",
+      "dhash": "6f63233339b8b676",
+      "license": "CC BY 4.0",
+      "objects": [],
+      "width": 640,
+      "height": 360,
+      "member": "train/images/frame_0013_35_jpg.rf.af83a417ab9ee8a0aa2bf231f5ca8640.jpg"
+    },
+    {
+      "id": "zenodo-8fa7f86bace70107",
+      "group": "zenodo:16924786",
+      "split": "public-training",
+      "image": "zenodo/sample/zenodo-8fa7f86bace70107.jpg",
+      "sha256": "8fa7f86bace70107e701dfd94d526e14d95c71e634f208af7fc12f154b93465e",
+      "dhash": "3f31e139383c3736",
+      "license": "CC BY 4.0",
+      "objects": [
+        {
+          "bbox": [
+            0.2546875,
+            0.4484375,
+            0.2796875,
+            0.6296875
+          ]
+        }
+      ],
+      "width": 640,
+      "height": 480,
+      "member": "train/images/frame_0016_95_jpg.rf.0ed8940a9e737c39246370c1d95c9397.jpg"
+    },
+    {
+      "id": "zenodo-aa63deef36584da0",
+      "group": "zenodo:16924786",
+      "split": "public-training",
+      "image": "zenodo/sample/zenodo-aa63deef36584da0.jpg",
+      "sha256": "aa63deef36584da0bf5066207a5e2b923552808eef2c75334b742a457f7acdc0",
+      "dhash": "469636254cced2d6",
+      "license": "CC BY 4.0",
+      "objects": [
+        {
+          "bbox": [
+            0.5869791671875,
+            0.4527777777777778,
+            0.609375,
+            0.6074074083333333
+          ]
+        }
+      ],
+      "width": 640,
+      "height": 360,
+      "member": "train/images/frame_0006_20_jpg.rf.7645888ca6279d288375d995b717fc57.jpg"
+    },
+    {
+      "id": "zenodo-725d9e182a69b463",
+      "group": "zenodo:16924786",
+      "split": "public-training",
+      "image": "zenodo/sample/zenodo-725d9e182a69b463.jpg",
+      "sha256": "725d9e182a69b463e52ff2c0da589a6030bb605d9641f04f430081aace6f1e35",
+      "dhash": "eccb89150486870e",
+      "license": "CC BY 4.0",
+      "objects": [
+        {
+          "bbox": [
+            0.915625,
+            0.3625,
+            0.978125,
+            0.509375
+          ]
+        }
+      ],
+      "width": 640,
+      "height": 360,
+      "member": "train/images/frame_0002_119_jpg.rf.7191b1dbf863b43e4b5625c4efd66c0f.jpg"
+    },
+    {
+      "id": "zenodo-8a0f6b7c31e62109",
+      "group": "zenodo:16924786",
+      "split": "public-training",
+      "image": "zenodo/sample/zenodo-8a0f6b7c31e62109.jpg",
+      "sha256": "8a0f6b7c31e62109a2daba6815cee14179b8305b06343e70938c4571d7031670",
+      "dhash": "2b213139783c3736",
+      "license": "CC BY 4.0",
+      "objects": [
+        {
+          "bbox": [
+            0.1125,
+            0.55625,
+            0.1921875,
+            0.61875
+          ]
+        }
+      ],
+      "width": 640,
+      "height": 480,
+      "member": "train/images/frame_0018_118_jpg.rf.77d374171411cbfcd572bf286e2e1a83.jpg"
+    },
+    {
+      "id": "zenodo-c578e8eb58a01c92",
+      "group": "zenodo:16924786",
+      "split": "public-training",
+      "image": "zenodo/sample/zenodo-c578e8eb58a01c92.jpg",
+      "sha256": "c578e8eb58a01c923f64b12daf349c91e20a34e019e62e13ca7acc2045fa1c6c",
+      "dhash": "e6c383c18586079a",
+      "license": "CC BY 4.0",
+      "objects": [
+        {
+          "bbox": [
+            0.5234375,
+            0.3703129638888889,
+            0.565625,
+            0.5359379638888889
+          ]
+        }
+      ],
+      "width": 640,
+      "height": 360,
+      "member": "train/images/frame_0020_53_jpg.rf.54a29ef6575235b2d2e4a50f2458b133.jpg"
+    },
+    {
+      "id": "zenodo-57e94771be23bbf2",
+      "group": "zenodo:16924786",
+      "split": "public-training",
+      "image": "zenodo/sample/zenodo-57e94771be23bbf2.jpg",
+      "sha256": "57e94771be23bbf28533ce0e55e70954605b8f501d92824dc97b7300446f9d56",
+      "dhash": "3b393159b87c3736",
+      "license": "CC BY 4.0",
+      "objects": [
+        {
+          "bbox": [
+            0.3596546875,
+            0.14893125,
+            0.3887671875,
+            0.26200416666666665
+          ]
+        }
+      ],
+      "width": 640,
+      "height": 480,
+      "member": "train/images/frame_0016_99_jpg.rf.ef16b2fb69e53046f62e59d180fbc612.jpg"
+    },
+    {
+      "id": "zenodo-66b431fdb41a7b4b",
+      "group": "zenodo:16924786",
+      "split": "public-training",
+      "image": "zenodo/sample/zenodo-66b431fdb41a7b4b.jpg",
+      "sha256": "66b431fdb41a7b4b37375b8c6b1712651d1157067e360d53da27d4df036417db",
+      "dhash": "92c7d0d43c363636",
+      "license": "CC BY 4.0",
+      "objects": [
+        {
+          "bbox": [
+            0.3645833328125,
+            0.675,
+            0.384375,
+            0.8953703694444444
+          ]
+        }
+      ],
+      "width": 640,
+      "height": 360,
+      "member": "train/images/frame_0007_189_jpg.rf.2407c8817a13e3b88faf805d01d251be.jpg"
+    },
+    {
+      "id": "zenodo-d9cd911d5b1904cc",
+      "group": "zenodo:16924786",
+      "split": "public-training",
+      "image": "zenodo/sample/zenodo-d9cd911d5b1904cc.jpg",
+      "sha256": "d9cd911d5b1904ccff7e0b87535f50b72ccff2fa03705656602297de534603c7",
+      "dhash": "092909497b52049a",
+      "license": "CC BY 4.0",
+      "objects": [
+        {
+          "bbox": [
+            0.325,
+            0.5407407416666666,
+            0.43333333281249997,
+            0.6611111111111111
+          ]
+        }
+      ],
+      "width": 640,
+      "height": 360,
+      "member": "train/images/frame_0006_162_jpg.rf.2da3adeaa8b3c6caaf6257eb5ead1fa4.jpg"
+    },
+    {
+      "id": "zenodo-2de5975eec6ef9c9",
+      "group": "zenodo:16924786",
+      "split": "public-training",
+      "image": "zenodo/sample/zenodo-2de5975eec6ef9c9.jpg",
+      "sha256": "2de5975eec6ef9c957f463420332c478a60bc353d7107305c38dd8f9e3b7b2d3",
+      "dhash": "bbb3739b393c3636",
+      "license": "CC BY 4.0",
+      "objects": [
+        {
+          "bbox": [
+            0.2026041671875,
+            0.25462963055555554,
+            0.24375,
+            0.3055555555555556
+          ]
+        }
+      ],
+      "width": 640,
+      "height": 360,
+      "member": "train/images/frame_0018_48_jpg.rf.fefc67b5bfbefb3c229672fba9bd6bd3.jpg"
+    },
+    {
+      "id": "zenodo-f7f6c0ac22b07fac",
+      "group": "zenodo:16924786",
+      "split": "public-training",
+      "image": "zenodo/sample/zenodo-f7f6c0ac22b07fac.jpg",
+      "sha256": "f7f6c0ac22b07facdf26fda63bf4a6e30c1d28dd0b88016dcb639bca99646e37",
+      "dhash": "8f8f2f2f4fcfd7d7",
+      "license": "CC BY 4.0",
+      "objects": [],
+      "width": 640,
+      "height": 360,
+      "member": "train/images/frame_0032_14_jpg.rf.06c84d1eb419289bcafa783b49775935.jpg"
+    },
+    {
+      "id": "zenodo-de8f528222d0d015",
+      "group": "zenodo:16924786",
+      "split": "public-training",
+      "image": "zenodo/sample/zenodo-de8f528222d0d015.jpg",
+      "sha256": "de8f528222d0d015d7f72bdd8c6cd695a9bc64f334d30cc769284d2b1eb63a09",
+      "dhash": "de6732b4bcb63636",
+      "license": "CC BY 4.0",
+      "objects": [
+        {
+          "bbox": [
+            0.36875,
+            0.710185186111111,
+            0.38229166718749996,
+            0.9296296305555556
+          ]
+        }
+      ],
+      "width": 640,
+      "height": 360,
+      "member": "train/images/frame_0009_177_jpg.rf.2769ac4ac77b67a85430059a874ecfb9.jpg"
+    },
+    {
+      "id": "zenodo-559c1a049b42eb46",
+      "group": "zenodo:16924786",
+      "split": "public-training",
+      "image": "zenodo/sample/zenodo-559c1a049b42eb46.jpg",
+      "sha256": "559c1a049b42eb46694490e1399c4a43512205f83fda72bcddc8692a6fadbb2e",
+      "dhash": "42163666968e9293",
+      "license": "CC BY 4.0",
+      "objects": [],
+      "width": 640,
+      "height": 480,
+      "member": "train/images/frame_0020_75_jpg.rf.545ecdff01dba17c71fb0f296cbc2650.jpg"
+    },
+    {
+      "id": "zenodo-5f9956c4cdf46ec9",
+      "group": "zenodo:16924786",
+      "split": "public-training",
+      "image": "zenodo/sample/zenodo-5f9956c4cdf46ec9.jpg",
+      "sha256": "5f9956c4cdf46ec9c1daa25197c4cf91cbbc52c86abc816573ee17c3aa1bac80",
+      "dhash": "656d2947b7979797",
+      "license": "CC BY 4.0",
+      "objects": [
+        {
+          "bbox": [
+            0.565625,
+            0.10925925833333335,
+            0.5885416671875,
+            0.21018518611111112
+          ]
+        }
+      ],
+      "width": 640,
+      "height": 360,
+      "member": "train/images/frame_0006_201_jpg.rf.0fca9dd1a20acf2bc7c3b0b3c5d45020.jpg"
+    },
+    {
+      "id": "zenodo-6ccf8406aed26022",
+      "group": "zenodo:16924786",
+      "split": "public-training",
+      "image": "zenodo/sample/zenodo-6ccf8406aed26022.jpg",
+      "sha256": "6ccf8406aed26022264cbc73c4d90e093356a68f49e0a36b385f2a1e381ce64a",
+      "dhash": "4c8c2d2c4cc5c7c6",
+      "license": "CC BY 4.0",
+      "objects": [
+        {
+          "bbox": [
+            0.575,
+            0.53125,
+            0.5984375,
+            0.654687963888889
+          ]
+        }
+      ],
+      "width": 640,
+      "height": 360,
+      "member": "train/images/frame_0004_16_jpg.rf.bf7f56d34bed8960ad3a011645ee8c3b.jpg"
+    },
+    {
+      "id": "zenodo-f576ab5ad500aa72",
+      "group": "zenodo:16924786",
+      "split": "public-training",
+      "image": "zenodo/sample/zenodo-f576ab5ad500aa72.jpg",
+      "sha256": "f576ab5ad500aa72e29a1d5752ce4275e332646a176183b49ca63a9e12a8a9c8",
+      "dhash": "5f4353d3b938b636",
+      "license": "CC BY 4.0",
+      "objects": [
+        {
+          "bbox": [
+            0.2921875,
+            0.4984379638888889,
+            0.3109375,
+            0.6609379638888889
+          ]
+        }
+      ],
+      "width": 640,
+      "height": 360,
+      "member": "train/images/frame_0002_40_jpg.rf.5ceedb51dd1de4988c86f71923532dae.jpg"
+    },
+    {
+      "id": "zenodo-d46d57a6c1eb59fb",
+      "group": "zenodo:16924786",
+      "split": "public-training",
+      "image": "zenodo/sample/zenodo-d46d57a6c1eb59fb.jpg",
+      "sha256": "d46d57a6c1eb59fb75491f662494c49d541f6d47cb3e364c796d6e5499bec14d",
+      "dhash": "8c0c2d6d8e868593",
+      "license": "CC BY 4.0",
+      "objects": [
+        {
+          "bbox": [
+            0.6859375,
+            0.5265625,
+            0.728125,
+            0.696875
+          ]
+        }
+      ],
+      "width": 640,
+      "height": 480,
+      "member": "train/images/frame_0012_81_jpg.rf.92f658a367a19526c175e0b91b147e15.jpg"
+    },
+    {
+      "id": "zenodo-3df51010c5c06790",
+      "group": "zenodo:16924786",
+      "split": "public-training",
+      "image": "zenodo/sample/zenodo-3df51010c5c06790.jpg",
+      "sha256": "3df51010c5c0679097c888ded81efbf8b0a4a177ad5f8184eda0571d5e5232c1",
+      "dhash": "9918286c85858793",
+      "license": "CC BY 4.0",
+      "objects": [
+        {
+          "bbox": [
+            0.653125,
+            0.4546875,
+            0.6796875,
+            0.6296875
+          ]
+        }
+      ],
+      "width": 640,
+      "height": 480,
+      "member": "train/images/frame_0005_69_jpg.rf.470a6a7f2231f1602bade32461c35d3b.jpg"
+    },
+    {
+      "id": "zenodo-3a2cf6b95d56cdaa",
+      "group": "zenodo:16924786",
+      "split": "public-training",
+      "image": "zenodo/sample/zenodo-3a2cf6b95d56cdaa.jpg",
+      "sha256": "3a2cf6b95d56cdaab3d2f44bc8d4371daf416466fab85d6245a5987aa7dbe4b4",
+      "dhash": "e4ede9a3131e1d9b",
+      "license": "CC BY 4.0",
+      "objects": [
+        {
+          "bbox": [
+            0.4859375,
+            0.3890629638888889,
+            0.5078125,
+            0.5046879638888889
+          ]
+        }
+      ],
+      "width": 640,
+      "height": 360,
+      "member": "train/images/frame_0016_52_jpg.rf.6e946de650234b6a9dbd6e51641859a9.jpg"
+    },
+    {
+      "id": "zenodo-862bda155e872c22",
+      "group": "zenodo:16924786",
+      "split": "public-training",
+      "image": "zenodo/sample/zenodo-862bda155e872c22.jpg",
+      "sha256": "862bda155e872c22f24390b01aaa5b752bac7f4576442ca94b26480cffdac036",
+      "dhash": "693b357d7dbd9787",
+      "license": "CC BY 4.0",
+      "objects": [
+        {
+          "bbox": [
+            0.40729166718750004,
+            0.8777777777777778,
+            0.5296875,
+            0.9324074083333334
+          ]
+        }
+      ],
+      "width": 640,
+      "height": 360,
+      "member": "train/images/frame_0006_198_jpg.rf.27a6e5af24f269b728e9e6ead16d5ca7.jpg"
+    },
+    {
+      "id": "zenodo-741879c86904259e",
+      "group": "zenodo:16924786",
+      "split": "public-training",
+      "image": "zenodo/sample/zenodo-741879c86904259e.jpg",
+      "sha256": "741879c86904259e7ffe4c42e7f0993753a4cba8988b9bccec5994f6a1384df0",
+      "dhash": "82c44c6d8b8b9b9b",
+      "license": "CC BY 4.0",
+      "objects": [
+        {
+          "bbox": [
+            0.4609375,
+            0.25,
+            0.55625,
+            0.41875
+          ]
+        }
+      ],
+      "width": 640,
+      "height": 480,
+      "member": "train/images/frame_0025_80_jpg.rf.45807e019e2c38c0e3434fadcf259604.jpg"
+    },
+    {
+      "id": "zenodo-19a5bf5a5e91aa32",
+      "group": "zenodo:16924786",
+      "split": "public-training",
+      "image": "zenodo/sample/zenodo-19a5bf5a5e91aa32.jpg",
+      "sha256": "19a5bf5a5e91aa321bf315c63635de9cde558170a4646639e60814904f1c7f97",
+      "dhash": "df6363733938b636",
+      "license": "CC BY 4.0",
+      "objects": [],
+      "width": 640,
+      "height": 360,
+      "member": "train/images/frame_0005_56_jpg.rf.5650dc59fae1736e8a7f0ba13c09bf39.jpg"
+    },
+    {
+      "id": "zenodo-8d359ace6f557bdf",
+      "group": "zenodo:16924786",
+      "split": "public-training",
+      "image": "zenodo/sample/zenodo-8d359ace6f557bdf.jpg",
+      "sha256": "8d359ace6f557bdf87c5fe99b35737a998d32344f053cb3bb5d7c4c393ad49f6",
+      "dhash": "ebdbebcb67138b87",
+      "license": "CC BY 4.0",
+      "objects": [
+        {
+          "bbox": [
+            0.66875,
+            0.5140625,
+            0.6875,
+            0.6828125
+          ]
+        }
+      ],
+      "width": 640,
+      "height": 480,
+      "member": "train/images/frame_0009_88_jpg.rf.540efbee3f58066a36b30de1bab00988.jpg"
+    },
+    {
+      "id": "zenodo-914c7f710d944a95",
+      "group": "zenodo:16924786",
+      "split": "public-training",
+      "image": "zenodo/sample/zenodo-914c7f710d944a95.jpg",
+      "sha256": "914c7f710d944a9501f93dee4a16f1224368fe57eefc89d8079796542e171c7d",
+      "dhash": "1b3f3d6d7dbf9786",
+      "license": "CC BY 4.0",
+      "objects": [
+        {
+          "bbox": [
+            0.40625,
+            0.878125,
+            0.5296875,
+            0.9328129638888888
+          ]
+        }
+      ],
+      "width": 640,
+      "height": 360,
+      "member": "train/images/frame_0002_219_jpg.rf.7499f4492f85ccc1fc3e90c62f68ce0e.jpg"
+    },
+    {
+      "id": "zenodo-f3f45ed78816e6d0",
+      "group": "zenodo:16924786",
+      "split": "public-training",
+      "image": "zenodo/sample/zenodo-f3f45ed78816e6d0.jpg",
+      "sha256": "f3f45ed78816e6d03d776ab7f48631b71231e8eea48c674a6a85e577a25ad809",
+      "dhash": "679636354cc6c6d6",
+      "license": "CC BY 4.0",
+      "objects": [],
+      "width": 640,
+      "height": 360,
+      "member": "train/images/frame_0012_4_jpg.rf.04d1e5a4ece9efb6039faa3dad3c5fc9.jpg"
+    },
+    {
+      "id": "zenodo-31435c87e40e175d",
+      "group": "zenodo:16924786",
+      "split": "public-training",
+      "image": "zenodo/sample/zenodo-31435c87e40e175d.jpg",
+      "sha256": "31435c87e40e175dc2ea65599f609db95f43b4d3340c26d2c2f0bd789874136b",
+      "dhash": "4f1f2f6f9686939b",
+      "license": "CC BY 4.0",
+      "objects": [
+        {
+          "bbox": [
+            0.659375,
+            0.5265625,
+            0.6796875,
+            0.6984375
+          ]
+        }
+      ],
+      "width": 640,
+      "height": 480,
+      "member": "train/images/frame_0000_88_jpg.rf.13fd763908e6c5e9d962888dda526778.jpg"
+    },
+    {
+      "id": "zenodo-81725f7f0761a731",
+      "group": "zenodo:16924786",
+      "split": "public-training",
+      "image": "zenodo/sample/zenodo-81725f7f0761a731.jpg",
+      "sha256": "81725f7f0761a73139985dab0fef3583a3dd142164c908aa9793550f724104b5",
+      "dhash": "848716148c84a41c",
+      "license": "CC BY 4.0",
+      "objects": [
+        {
+          "bbox": [
+            0.3625,
+            0.7109379638888889,
+            0.38125,
+            0.94375
+          ]
+        }
+      ],
+      "width": 640,
+      "height": 360,
+      "member": "train/images/frame_0013_92_jpg.rf.08cb642f9d8cae2b060dbe43a88cdb69.jpg"
+    },
+    {
+      "id": "zenodo-f1586e3e1488a478",
+      "group": "zenodo:16924786",
+      "split": "public-training",
+      "image": "zenodo/sample/zenodo-f1586e3e1488a478.jpg",
+      "sha256": "f1586e3e1488a478beeba3d1431f881c20105e0b30caf2ab2f1e5b07b7ab0890",
+      "dhash": "d5c70b6bc7879797",
+      "license": "CC BY 4.0",
+      "objects": [
+        {
+          "bbox": [
+            0.40625,
+            0.875,
+            0.5260416671875,
+            0.9324074083333334
+          ]
+        }
+      ],
+      "width": 640,
+      "height": 360,
+      "member": "train/images/frame_0008_142_jpg.rf.9f107566cf7e08fd17ea7048e4b4fed8.jpg"
+    },
+    {
+      "id": "zenodo-a1be34995d68fc8b",
+      "group": "zenodo:16924786",
+      "split": "public-training",
+      "image": "zenodo/sample/zenodo-a1be34995d68fc8b.jpg",
+      "sha256": "a1be34995d68fc8bae68d310b509039f70fbf05250ec289511c983e8dc2fc39c",
+      "dhash": "4d1c2c6c9e8e9b9b",
+      "license": "CC BY 4.0",
+      "objects": [
+        {
+          "bbox": [
+            0.478125,
+            0.06666666666666667,
+            0.5359375,
+            0.16549295833333336
+          ]
+        }
+      ],
+      "width": 640,
+      "height": 480,
+      "member": "train/images/frame_0007_85_jpg.rf.7500366d710c263c5a50f2aeb3af586c.jpg"
+    },
+    {
+      "id": "zenodo-5602208c0e8b4dba",
+      "group": "zenodo:16924786",
+      "split": "public-training",
+      "image": "zenodo/sample/zenodo-5602208c0e8b4dba.jpg",
+      "sha256": "5602208c0e8b4dba313f0fcb424ad6b6ca7df44a1fe2de674e5aa9431349bd75",
+      "dhash": "dc9c1d69cd879797",
+      "license": "CC BY 4.0",
+      "objects": [
+        {
+          "bbox": [
+            0.4078125,
+            0.875,
+            0.5296875,
+            0.9328129638888888
+          ]
+        }
+      ],
+      "width": 640,
+      "height": 360,
+      "member": "train/images/frame_0004_66_jpg.rf.aba3ffe94ee5e781cde4591cb6b2ab94.jpg"
+    },
+    {
+      "id": "zenodo-bdf83318f2da3f79",
+      "group": "zenodo:16924786",
+      "split": "public-training",
+      "image": "zenodo/sample/zenodo-bdf83318f2da3f79.jpg",
+      "sha256": "bdf83318f2da3f796ba05f5760c3586fd866e34431a258049a7585c4daef6122",
+      "dhash": "3338387c3cbd9686",
+      "license": "CC BY 4.0",
+      "objects": [
+        {
+          "bbox": [
+            0.4088541671875,
+            0.875,
+            0.53125,
+            0.9296296305555556
+          ]
+        }
+      ],
+      "width": 640,
+      "height": 360,
+      "member": "train/images/frame_0013_208_jpg.rf.bef038378696bc844efec13470609aef.jpg"
+    },
+    {
+      "id": "zenodo-d9c1dde74958315e",
+      "group": "zenodo:16924786",
+      "split": "public-training",
+      "image": "zenodo/sample/zenodo-d9c1dde74958315e.jpg",
+      "sha256": "d9c1dde74958315ea79b774cb939ee08527b9290762992f04f4e79357c2e71db",
+      "dhash": "4e0f808c9cb6acbc",
+      "license": "CC BY 4.0",
+      "objects": [
+        {
+          "bbox": [
+            0.4328125,
+            0.7359379638888888,
+            0.4515625,
+            0.971875
+          ]
+        }
+      ],
+      "width": 640,
+      "height": 360,
+      "member": "train/images/frame_0004_93_jpg.rf.1f0d1b75eea2b8604b15263a2a31ec44.jpg"
+    },
+    {
+      "id": "zenodo-b9a026fa68edda03",
+      "group": "zenodo:16924786",
+      "split": "public-training",
+      "image": "zenodo/sample/zenodo-b9a026fa68edda03.jpg",
+      "sha256": "b9a026fa68edda035bcd9bddd5969c05bc75bcf8433309333b96849ccf31f6fc",
+      "dhash": "0f131393b9b83636",
+      "license": "CC BY 4.0",
+      "objects": [
+        {
+          "bbox": [
+            0.1385416671875,
+            0.5212962972222221,
+            0.2421875,
+            0.5592592583333333
+          ]
+        }
+      ],
+      "width": 640,
+      "height": 360,
+      "member": "train/images/frame_0018_41_jpg.rf.d2c648ef4df6c0601c90a2a0516d6dec.jpg"
+    },
+    {
+      "id": "zenodo-5188473f108b24fa",
+      "group": "zenodo:16924786",
+      "split": "public-training",
+      "image": "zenodo/sample/zenodo-5188473f108b24fa.jpg",
+      "sha256": "5188473f108b24fa8c3dbf74337e4326ec5e147263613cea139731abe04cc601",
+      "dhash": "d7de3f3f37979797",
+      "license": "CC BY 4.0",
+      "objects": [
+        {
+          "bbox": [
+            0.4890625,
+            0.4359379638888889,
+            0.5171875,
+            0.6046879638888889
+          ]
+        }
+      ],
+      "width": 640,
+      "height": 360,
+      "member": "train/images/frame_0020_65_jpg.rf.7b52bab8c9a9fc26ceea1057fe0e2c46.jpg"
+    },
+    {
+      "id": "zenodo-509745eeb6ebada0",
+      "group": "zenodo:16924786",
+      "split": "public-training",
+      "image": "zenodo/sample/zenodo-509745eeb6ebada0.jpg",
+      "sha256": "509745eeb6ebada0da60f2e00851c0836c2bc6035effe23062bd77f6804e0e97",
+      "dhash": "9fb32313b9b8b636",
+      "license": "CC BY 4.0",
+      "objects": [
+        {
+          "bbox": [
+            0.2984375,
+            0.4578129638888889,
+            0.321875,
+            0.6171879638888889
+          ]
+        }
+      ],
+      "width": 640,
+      "height": 360,
+      "member": "train/images/frame_0021_58_jpg.rf.a642a635735f309603579fffbd2d6121.jpg"
+    },
+    {
+      "id": "zenodo-3184e3c5f0ee8c92",
+      "group": "zenodo:16924786",
+      "split": "public-training",
+      "image": "zenodo/sample/zenodo-3184e3c5f0ee8c92.jpg",
+      "sha256": "3184e3c5f0ee8c92ec62c5bcfb2a4bb588b9112b5341b9967e18d5410346780e",
+      "dhash": "16a3e3e313161d9b",
+      "license": "CC BY 4.0",
+      "objects": [
+        {
+          "bbox": [
+            0.5265625,
+            0.36875,
+            0.5578125,
+            0.5484379638888889
+          ]
+        }
+      ],
+      "width": 640,
+      "height": 360,
+      "member": "train/images/frame_0019_7_jpg.rf.541accbecf6930dc79f75c474a60715d.jpg"
+    },
+    {
+      "id": "zenodo-0c80f25e4c8e6034",
+      "group": "zenodo:16924786",
+      "split": "public-training",
+      "image": "zenodo/sample/zenodo-0c80f25e4c8e6034.jpg",
+      "sha256": "0c80f25e4c8e603423490a19f4af1926c6bcca0c5a9562b70d1e5333601aad86",
+      "dhash": "271f2f6f97869393",
+      "license": "CC BY 4.0",
+      "objects": [
+        {
+          "bbox": [
+            0.6546875,
+            0.534375,
+            0.675,
+            0.696875
+          ]
+        }
+      ],
+      "width": 640,
+      "height": 480,
+      "member": "train/images/frame_0024_58_jpg.rf.d4953f82c2145013c0d4d95b5df6cb45.jpg"
+    },
+    {
+      "id": "zenodo-b9d61791826eff30",
+      "group": "zenodo:16924786",
+      "split": "public-training",
+      "image": "zenodo/sample/zenodo-b9d61791826eff30.jpg",
+      "sha256": "b9d61791826eff307f5ae1ebd03caecf4b7da200b4e82f09f4595773742b2eeb",
+      "dhash": "67972f2d57cfcdd7",
+      "license": "CC BY 4.0",
+      "objects": [
+        {
+          "bbox": [
+            0.5814942703125,
+            0.21709351944444444,
+            0.5979166671875,
+            0.25862314722222224
+          ]
+        },
+        {
+          "bbox": [
+            0.45445156249999996,
+            0.23357963055555556,
+            0.5592489578125,
+            0.32876851944444446
+          ]
+        }
+      ],
+      "width": 640,
+      "height": 360,
+      "member": "train/images/frame_0020_37_jpg.rf.ccf1516339e6930f202a0991d8397e7d.jpg"
+    },
+    {
+      "id": "zenodo-51baf44a1e36cfc2",
+      "group": "zenodo:16924786",
+      "split": "public-training",
+      "image": "zenodo/sample/zenodo-51baf44a1e36cfc2.jpg",
+      "sha256": "51baf44a1e36cfc28cff458681cfc5b358043304641f0fbe259d7ebea9f93bdc",
+      "dhash": "23b19139383c3736",
+      "license": "CC BY 4.0",
+      "objects": [
+        {
+          "bbox": [
+            0.15315,
+            0.07251458333333334,
+            0.330575,
+            0.200625
+          ]
+        }
+      ],
+      "width": 640,
+      "height": 480,
+      "member": "train/images/frame_0017_104_jpg.rf.62b47effb55c35404baf82f6a2600d31.jpg"
+    },
+    {
+      "id": "zenodo-f433932cd8e09476",
+      "group": "zenodo:16924786",
+      "split": "public-training",
+      "image": "zenodo/sample/zenodo-f433932cd8e09476.jpg",
+      "sha256": "f433932cd8e09476065edce28f385b9f809d779a9433ad921293ac827c4508a0",
+      "dhash": "4f636333b9b8b6b6",
+      "license": "CC BY 4.0",
+      "objects": [],
+      "width": 640,
+      "height": 360,
+      "member": "train/images/frame_0009_56_jpg.rf.e7582b891fed1a1d1e169a4c50f5b281.jpg"
+    },
+    {
+      "id": "zenodo-e22743ffa4dcc6f3",
+      "group": "zenodo:16924786",
+      "split": "public-training",
+      "image": "zenodo/sample/zenodo-e22743ffa4dcc6f3.jpg",
+      "sha256": "e22743ffa4dcc6f30cad985d5f9e542117a73ae0c89d68211b82a7ff240a21f3",
+      "dhash": "6c8d2d2c4cccc7d3",
+      "license": "CC BY 4.0",
+      "objects": [
+        {
+          "bbox": [
+            0.571875,
+            0.46875,
+            0.603125,
+            0.628125
+          ]
+        }
+      ],
+      "width": 640,
+      "height": 360,
+      "member": "train/images/frame_0011_25_jpg.rf.48b12907b18f41a0b3ef472e5596037e.jpg"
+    },
+    {
+      "id": "zenodo-20273d58e8fa725f",
+      "group": "zenodo:16924786",
+      "split": "public-training",
+      "image": "zenodo/sample/zenodo-20273d58e8fa725f.jpg",
+      "sha256": "20273d58e8fa725f9b5f5ea9b04b073ac310eae2657cccb60849197758b06588",
+      "dhash": "840796948c24241c",
+      "license": "CC BY 4.0",
+      "objects": [
+        {
+          "bbox": [
+            0.3625,
+            0.709375,
+            0.38125,
+            0.94375
+          ]
+        }
+      ],
+      "width": 640,
+      "height": 360,
+      "member": "train/images/frame_0013lc10_jpg.rf.cd7e808bd36f4111c8ebc1026b97ac9b.jpg"
+    },
+    {
+      "id": "zenodo-9a347122a26753de",
+      "group": "zenodo:16924786",
+      "split": "public-training",
+      "image": "zenodo/sample/zenodo-9a347122a26753de.jpg",
+      "sha256": "9a347122a26753de85cd3b58ee941cd32d8e373b5c4f92e2363e1827629c6859",
+      "dhash": "69092f6d97869b9b",
+      "license": "CC BY 4.0",
+      "objects": [],
+      "width": 640,
+      "height": 480,
+      "member": "train/images/frame_0036_22_jpg.rf.6c235f14faeccba1b2352cf509900e9f.jpg"
+    },
+    {
+      "id": "zenodo-f7d0553a77b5f48f",
+      "group": "zenodo:16924786",
+      "split": "public-training",
+      "image": "zenodo/sample/zenodo-f7d0553a77b5f48f.jpg",
+      "sha256": "f7d0553a77b5f48f1ff1b5a1830e7b9c7de29c49af96ae41b83240d041166f50",
+      "dhash": "66f4a4ad03060c9a",
+      "license": "CC BY 4.0",
+      "objects": [],
+      "width": 640,
+      "height": 360,
+      "member": "train/images/frame_0017_89_jpg.rf.bbcdbaffc7ec157bb5357a3f2d2fe793.jpg"
+    },
+    {
+      "id": "zenodo-f7a23fabc5f2267e",
+      "group": "zenodo:16924786",
+      "split": "public-training",
+      "image": "zenodo/sample/zenodo-f7a23fabc5f2267e.jpg",
+      "sha256": "f7a23fabc5f2267e0fcb1776417fa2edbcd2baffed59540c17f2f595ab8b9758",
+      "dhash": "679e352d4cced7d6",
+      "license": "CC BY 4.0",
+      "objects": [
+        {
+          "bbox": [
+            0.59375,
+            0.4962962972222222,
+            0.6072916671875,
+            0.6074074083333333
+          ]
+        }
+      ],
+      "width": 640,
+      "height": 360,
+      "member": "train/images/frame_0011_21_jpg.rf.54130216e345813fb27777a42ed891f2.jpg"
+    },
+    {
+      "id": "zenodo-822d19591dd05125",
+      "group": "zenodo:16924786",
+      "split": "public-training",
+      "image": "zenodo/sample/zenodo-822d19591dd05125.jpg",
+      "sha256": "822d19591dd0512592113aab522846a66b51bdbcb126ab58575dd756e04bc982",
+      "dhash": "cf9e1e6ec6879597",
+      "license": "CC BY 4.0",
+      "objects": [
+        {
+          "bbox": [
+            0.40625,
+            0.875,
+            0.5244791671875,
+            0.9324074083333334
+          ]
+        }
+      ],
+      "width": 640,
+      "height": 360,
+      "member": "train/images/frame_0010_252_jpg.rf.dc34653abc63432e9778c480c740c6c7.jpg"
+    },
+    {
+      "id": "zenodo-f6bbcdd41494a0e8",
+      "group": "zenodo:16924786",
+      "split": "public-training",
+      "image": "zenodo/sample/zenodo-f6bbcdd41494a0e8.jpg",
+      "sha256": "f6bbcdd41494a0e804b873c1359e32494edbb3da79c0c3de7dcc40752631dfb9",
+      "dhash": "e6f4eded43161d9b",
+      "license": "CC BY 4.0",
+      "objects": [
+        {
+          "bbox": [
+            0.540625,
+            0.40625,
+            0.5640625,
+            0.5328129638888889
+          ]
+        }
+      ],
+      "width": 640,
+      "height": 360,
+      "member": "train/images/frame_0019_82_jpg.rf.fff8c5d16254613276e88df74ed5b56b.jpg"
+    },
+    {
+      "id": "zenodo-839ba08f7c1512fa",
+      "group": "zenodo:16924786",
+      "split": "public-training",
+      "image": "zenodo/sample/zenodo-839ba08f7c1512fa.jpg",
+      "sha256": "839ba08f7c1512fa93300e23e1c328e9b83764b1d1d977ae14baa9f41e6183a3",
+      "dhash": "599a3e2c4ccdc3d3",
+      "license": "CC BY 4.0",
+      "objects": [
+        {
+          "bbox": [
+            0.61875,
+            0.5171879638888889,
+            0.6390625,
+            0.6796879638888889
+          ]
+        }
+      ],
+      "width": 640,
+      "height": 360,
+      "member": "train/images/frame_0003_24_jpg.rf.e9c24c54ad65c01ff5c754c0ac7f538f.jpg"
+    },
+    {
+      "id": "zenodo-4c38599bf72f162c",
+      "group": "zenodo:16924786",
+      "split": "public-training",
+      "image": "zenodo/sample/zenodo-4c38599bf72f162c.jpg",
+      "sha256": "4c38599bf72f162c1e1e70f174e92c13312ce1756c04fecb61668d0991bd9884",
+      "dhash": "4b8d396a6c858796",
+      "license": "CC BY 4.0",
+      "objects": [],
+      "width": 640,
+      "height": 360,
+      "member": "train/images/frame_0002_184_jpg.rf.60b97b38e81a70c019a879250492b274.jpg"
+    },
+    {
+      "id": "zenodo-ddc7f5826475779a",
+      "group": "zenodo:16924786",
+      "split": "public-training",
+      "image": "zenodo/sample/zenodo-ddc7f5826475779a.jpg",
+      "sha256": "ddc7f5826475779ab93ede8702853eee5e457c7cd0f6a5384814cfd8827fdc4d",
+      "dhash": "1b1f393d3f9d9f96",
+      "license": "CC BY 4.0",
+      "objects": [
+        {
+          "bbox": [
+            0.48229166718750005,
+            0.8592592583333333,
+            0.5322916671875,
+            0.9981481472222222
+          ]
+        }
+      ],
+      "width": 640,
+      "height": 360,
+      "member": "train/images/frame_0010_228_jpg.rf.51bd64821f077f92c0ad444fe2f935cb.jpg"
+    },
+    {
+      "id": "zenodo-33c7614c6d40c14b",
+      "group": "zenodo:16924786",
+      "split": "public-training",
+      "image": "zenodo/sample/zenodo-33c7614c6d40c14b.jpg",
+      "sha256": "33c7614c6d40c14ba486655572ac5f0f9f4383b65ac3190771002b25aa8b7e16",
+      "dhash": "1321217978783736",
+      "license": "CC BY 4.0",
+      "objects": [],
+      "width": 640,
+      "height": 480,
+      "member": "train/images/frame_0022_110_jpg.rf.857fc4e63139d723cb79f53b10b25618.jpg"
+    },
+    {
+      "id": "zenodo-f988c5e32ce9da3a",
+      "group": "zenodo:16924786",
+      "split": "public-training",
+      "image": "zenodo/sample/zenodo-f988c5e32ce9da3a.jpg",
+      "sha256": "f988c5e32ce9da3a6902a88495a4c3f670f4e7f9134ce22e1d10d158495a7bf5",
+      "dhash": "4c1c2c6e96869393",
+      "license": "CC BY 4.0",
+      "objects": [
+        {
+          "bbox": [
+            0.65625,
+            0.471875,
+            0.68125,
+            0.64375
+          ]
+        }
+      ],
+      "width": 640,
+      "height": 480,
+      "member": "train/images/frame_0026_40_jpg.rf.ac650443bb615d06af2bac1988c8f1ce.jpg"
+    },
+    {
+      "id": "zenodo-b3d1a98544b166a7",
+      "group": "zenodo:16924786",
+      "split": "public-training",
+      "image": "zenodo/sample/zenodo-b3d1a98544b166a7.jpg",
+      "sha256": "b3d1a98544b166a70159c6d2fec3cf175485c5cea598a78d26247858248d04ca",
+      "dhash": "cb9babcfe7138b8b",
+      "license": "CC BY 4.0",
+      "objects": [
+        {
+          "bbox": [
+            0.659375,
+            0.528125,
+            0.678125,
+            0.6953125
+          ]
+        }
+      ],
+      "width": 640,
+      "height": 480,
+      "member": "train/images/frame_0005_88_jpg.rf.c1efd756a13bd69b2c02e2afac623aa9.jpg"
+    },
+    {
+      "id": "zenodo-37fd5b5097587c53",
+      "group": "zenodo:16924786",
+      "split": "public-training",
+      "image": "zenodo/sample/zenodo-37fd5b5097587c53.jpg",
+      "sha256": "37fd5b5097587c53291a399c087613660b8727213820017da424985127b52521",
+      "dhash": "440c286996868b9b",
+      "license": "CC BY 4.0",
+      "objects": [
+        {
+          "bbox": [
+            0.58125,
+            0.13125,
+            0.6421875,
+            0.31666666666666665
+          ]
+        }
+      ],
+      "width": 640,
+      "height": 480,
+      "member": "train/images/frame_0014_86_jpg.rf.060b83b30d0005a19a59260ed6d0a0be.jpg"
+    },
+    {
+      "id": "zenodo-4d82a0ddf483636d",
+      "group": "zenodo:16924786",
+      "split": "public-training",
+      "image": "zenodo/sample/zenodo-4d82a0ddf483636d.jpg",
+      "sha256": "4d82a0ddf483636d67e39d739fe52e18015ced02cf1390794629d55926b7d1d9",
+      "dhash": "6b93362d4fcfc6d7",
+      "license": "CC BY 4.0",
+      "objects": [
+        {
+          "bbox": [
+            0.5375,
+            0.3851851861111111,
+            0.5671875,
+            0.4712962972222222
+          ]
+        }
+      ],
+      "width": 640,
+      "height": 360,
+      "member": "train/images/frame_0022_jpg.rf.d2d034b0b696458ed079d6fd2e0b3420.jpg"
+    },
+    {
+      "id": "zenodo-f140ff6c132ac936",
+      "group": "zenodo:16924786",
+      "split": "public-training",
+      "image": "zenodo/sample/zenodo-f140ff6c132ac936.jpg",
+      "sha256": "f140ff6c132ac9361540846c1c0b78079e7e9714d51957bf094497e2045842be",
+      "dhash": "a4b3d999ce1a9b9e",
+      "license": "CC BY 4.0",
+      "objects": [
+        {
+          "bbox": [
+            0.553125,
+            0.6324074083333333,
+            0.5854166671875001,
+            0.8148148138888889
+          ]
+        }
+      ],
+      "width": 640,
+      "height": 360,
+      "member": "train/images/frame_0012_222_jpg.rf.a3d91a65575cf9ca8fd4e7940ab58dd4.jpg"
+    },
+    {
+      "id": "zenodo-b1a199ccc9009163",
+      "group": "zenodo:16924786",
+      "split": "public-training",
+      "image": "zenodo/sample/zenodo-b1a199ccc9009163.jpg",
+      "sha256": "b1a199ccc9009163b86ad3eeb376a29c42ef39118c8942b92360914d93dcbc95",
+      "dhash": "9e8790949c363636",
+      "license": "CC BY 4.0",
+      "objects": [
+        {
+          "bbox": [
+            0.3671875,
+            0.7046296305555555,
+            0.3807291671875,
+            0.9296296305555556
+          ]
+        }
+      ],
+      "width": 640,
+      "height": 360,
+      "member": "train/images/frame_0010_181_jpg.rf.492e51ebd7977af2400361e15e4cd5ff.jpg"
+    },
+    {
+      "id": "zenodo-cc51b3be0020ad5f",
+      "group": "zenodo:16924786",
+      "split": "public-training",
+      "image": "zenodo/sample/zenodo-cc51b3be0020ad5f.jpg",
+      "sha256": "cc51b3be0020ad5f3c6cb23947223723a74b48e2c71d545c2c8d74353132c669",
+      "dhash": "591e2c6d878e9b9b",
+      "license": "CC BY 4.0",
+      "objects": [],
+      "width": 640,
+      "height": 480,
+      "member": "train/images/frame_0015_88_jpg.rf.2a3c5c073579537e5223571c318612d5.jpg"
+    },
+    {
+      "id": "zenodo-2e05f775cb51f597",
+      "group": "zenodo:16924786",
+      "split": "public-training",
+      "image": "zenodo/sample/zenodo-2e05f775cb51f597.jpg",
+      "sha256": "2e05f775cb51f5971cc76f881b8846d7ad08b93fae47cbf89a7e240ce96b2dcd",
+      "dhash": "e796d7c7e7978797",
+      "license": "CC BY 4.0",
+      "objects": [
+        {
+          "bbox": [
+            0.5046875,
+            0.42962963055555553,
+            0.5260416671875,
+            0.5388888888888889
+          ]
+        }
+      ],
+      "width": 640,
+      "height": 360,
+      "member": "train/images/frame_0011_208_jpg.rf.ee2f469843a9a7f8fc4bbcfc9d1eeb5a.jpg"
+    },
+    {
+      "id": "zenodo-70c2434fb3c693bf",
+      "group": "zenodo:16924786",
+      "split": "public-training",
+      "image": "zenodo/sample/zenodo-70c2434fb3c693bf.jpg",
+      "sha256": "70c2434fb3c693bf2d06e421b45793f8366cd4d4753b0f03afd949ac579d8a9f",
+      "dhash": "c6e3e38302068d9a",
+      "license": "CC BY 4.0",
+      "objects": [
+        {
+          "bbox": [
+            0.5609375,
+            0.3875,
+            0.615625,
+            0.540625
+          ]
+        }
+      ],
+      "width": 640,
+      "height": 360,
+      "member": "train/images/frame_0024_25_jpg.rf.271a6719b7bc40a4cfa5e982cedcf2ea.jpg"
+    },
+    {
+      "id": "zenodo-f37d9c02c5569949",
+      "group": "zenodo:16924786",
+      "split": "public-training",
+      "image": "zenodo/sample/zenodo-f37d9c02c5569949.jpg",
+      "sha256": "f37d9c02c55699499bc56762e81e61c9603dfa050b80df1a1051fc69660a7beb",
+      "dhash": "6c8d2c2c4ccfc6d2",
+      "license": "CC BY 4.0",
+      "objects": [
+        {
+          "bbox": [
+            0.578125,
+            0.4484379638888889,
+            0.603125,
+            0.5984379638888889
+          ]
+        }
+      ],
+      "width": 640,
+      "height": 360,
+      "member": "train/images/frame_0006_5_jpg.rf.d0897e2e54ef3bb0c1551eb62fe678a6.jpg"
+    },
+    {
+      "id": "zenodo-3d55497468b208b3",
+      "group": "zenodo:16924786",
+      "split": "public-training",
+      "image": "zenodo/sample/zenodo-3d55497468b208b3.jpg",
+      "sha256": "3d55497468b208b300bab685de0f3169157def225686dd312663138c3bd64178",
+      "dhash": "9ba1a199d87c3736",
+      "license": "CC BY 4.0",
+      "objects": [
+        {
+          "bbox": [
+            0.1796875,
+            0.4765625,
+            0.2421875,
+            0.659375
+          ]
+        }
+      ],
+      "width": 640,
+      "height": 480,
+      "member": "train/images/frame_0016_92_jpg.rf.db605bd92e53b7aa94763fb318136189.jpg"
+    },
+    {
+      "id": "zenodo-183178c7f3899b4a",
+      "group": "zenodo:16924786",
+      "split": "public-training",
+      "image": "zenodo/sample/zenodo-183178c7f3899b4a.jpg",
+      "sha256": "183178c7f3899b4a09aee2706ac6464a95dc65fdbe807ff3e9c568bfe548e5b0",
+      "dhash": "6f9f3f2d5fcfc7d6",
+      "license": "CC BY 4.0",
+      "objects": [
+        {
+          "bbox": [
+            0.5056437500000001,
+            0.039395369444444446,
+            0.5817953124999999,
+            0.09898703611111112
+          ]
+        }
+      ],
+      "width": 640,
+      "height": 360,
+      "member": "train/images/frame_0018_37_jpg.rf.f384535fff989fa4939f5ed5ac0a90cc.jpg"
+    },
+    {
+      "id": "zenodo-4876ba2205f9b945",
+      "group": "zenodo:16924786",
+      "split": "public-training",
+      "image": "zenodo/sample/zenodo-4876ba2205f9b945.jpg",
+      "sha256": "4876ba2205f9b9452b3b52d6d8b4c01df6dff605db0d17ca4cbde34e5743ddee",
+      "dhash": "e5b43869cd879797",
+      "license": "CC BY 4.0",
+      "objects": [
+        {
+          "bbox": [
+            0.4010416671875,
+            0.8731481472222222,
+            0.5151041671875001,
+            0.9351851861111111
+          ]
+        }
+      ],
+      "width": 640,
+      "height": 360,
+      "member": "train/images/frame_0009_51_jpg.rf.bb1221b0f568b6ed30320e01f2acc028.jpg"
+    },
+    {
+      "id": "zenodo-eed76c4ae08197ab",
+      "group": "zenodo:16924786",
+      "split": "public-training",
+      "image": "zenodo/sample/zenodo-eed76c4ae08197ab.jpg",
+      "sha256": "eed76c4ae08197ab2d0f4f8159d69b6e48112297d3d1d4c045d881d7e3b0a33c",
+      "dhash": "33373f5b73979797",
+      "license": "CC BY 4.0",
+      "objects": [
+        {
+          "bbox": [
+            0.3296875,
+            0.3462962972222222,
+            0.3546875,
+            0.5185185194444444
+          ]
+        },
+        {
+          "bbox": [
+            0.3963541671875,
+            0.8111111111111111,
+            0.4291666671875,
+            0.899074075
+          ]
+        }
+      ],
+      "width": 640,
+      "height": 360,
+      "member": "train/images/frame_0003_243_jpg.rf.2c3403b2b20d5f05016d7ab0211a7c33.jpg"
+    },
+    {
+      "id": "zenodo-e371d9199fde8b09",
+      "group": "zenodo:16924786",
+      "split": "public-training",
+      "image": "zenodo/sample/zenodo-e371d9199fde8b09.jpg",
+      "sha256": "e371d9199fde8b09d02517292674ea80eb44d7a7731df9100fe23d1b44721d4b",
+      "dhash": "b697d0743c363636",
+      "license": "CC BY 4.0",
+      "objects": [
+        {
+          "bbox": [
+            0.3671875,
+            0.7046296305555555,
+            0.3807291671875,
+            0.9296296305555556
+          ]
+        }
+      ],
+      "width": 640,
+      "height": 360,
+      "member": "train/images/frame_0005_183_jpg.rf.3394a37bcc9b7583fb2c1c17eba5dc61.jpg"
+    },
+    {
+      "id": "zenodo-e0beec5b93984f7f",
+      "group": "zenodo:16924786",
+      "split": "public-training",
+      "image": "zenodo/sample/zenodo-e0beec5b93984f7f.jpg",
+      "sha256": "e0beec5b93984f7f370dceb2197e83c5eea6e7357c3a4ecf9dd06f797f78b00d",
+      "dhash": "d6cbe3e302068d9a",
+      "license": "CC BY 4.0",
+      "objects": [
+        {
+          "bbox": [
+            0.46979166718750004,
+            0.2,
+            0.5135416671875,
+            0.300925925
+          ]
+        }
+      ],
+      "width": 640,
+      "height": 360,
+      "member": "train/images/frame_0003_247_jpg.rf.c85afc26509734a52b0b2f50ff61699e.jpg"
+    },
+    {
+      "id": "zenodo-bad7f0fa2ea2f199",
+      "group": "zenodo:16924786",
+      "split": "public-training",
+      "image": "zenodo/sample/zenodo-bad7f0fa2ea2f199.jpg",
+      "sha256": "bad7f0fa2ea2f199393a27a0d258868e02b7fc3df2891b8c4655ba6cef513583",
+      "dhash": "3b3b3b393b9f9f97",
+      "license": "CC BY 4.0",
+      "objects": [
+        {
+          "bbox": [
+            0.48229166718750005,
+            0.8592592583333333,
+            0.5322916671875,
+            0.9981481472222222
+          ]
+        }
+      ],
+      "width": 640,
+      "height": 360,
+      "member": "train/images/frame_0008_236_jpg.rf.f1546644c4f6323c51d41baf06bb80b4.jpg"
+    },
+    {
+      "id": "zenodo-b9bd71f19368952a",
+      "group": "zenodo:16924786",
+      "split": "public-training",
+      "image": "zenodo/sample/zenodo-b9bd71f19368952a.jpg",
+      "sha256": "b9bd71f19368952abf82b7dbf8d7f76296638a5b41c54663757815a579ec70df",
+      "dhash": "e44349290e929b9e",
+      "license": "CC BY 4.0",
+      "objects": [],
+      "width": 640,
+      "height": 360,
+      "member": "train/images/frame_0011_130_jpg.rf.75d72ed12c801d7dd9c6caa6a42e7745.jpg"
+    },
+    {
+      "id": "zenodo-a913322771cb256f",
+      "group": "zenodo:16924786",
+      "split": "public-training",
+      "image": "zenodo/sample/zenodo-a913322771cb256f.jpg",
+      "sha256": "a913322771cb256f4f076052efd546c0913503be7e863da48a14b4eec9b221c3",
+      "dhash": "693333393bb79787",
+      "license": "CC BY 4.0",
+      "objects": [
+        {
+          "bbox": [
+            0.484375,
+            0.8574074083333334,
+            0.5151041671875001,
+            0.9731481472222222
+          ]
+        }
+      ],
+      "width": 640,
+      "height": 360,
+      "member": "train/images/frame_0003_235_jpg.rf.939d4862e371d044787050fd0d5f5184.jpg"
+    },
+    {
+      "id": "zenodo-6ddc65ea66ffc224",
+      "group": "zenodo:16924786",
+      "split": "public-training",
+      "image": "zenodo/sample/zenodo-6ddc65ea66ffc224.jpg",
+      "sha256": "6ddc65ea66ffc224a1962ff14e692a94ab78a930cf2c5b3d695a933a104c2ce9",
+      "dhash": "e7ae2a69cd879797",
+      "license": "CC BY 4.0",
+      "objects": [
+        {
+          "bbox": [
+            0.40729166718750004,
+            0.875,
+            0.5296875,
+            0.9324074083333334
+          ]
+        }
+      ],
+      "width": 640,
+      "height": 360,
+      "member": "train/images/frame_0009_47_jpg.rf.02f5e045c8ba1daefff3d7a579d4ef1a.jpg"
+    },
+    {
+      "id": "zenodo-25287d461ca4ef77",
+      "group": "zenodo:16924786",
+      "split": "public-training",
+      "image": "zenodo/sample/zenodo-25287d461ca4ef77.jpg",
+      "sha256": "25287d461ca4ef77ccb9fe8f970af1b2693a6ff57a1e7da7020e3461813fe775",
+      "dhash": "f1ebea9403060c9a",
+      "license": "CC BY 4.0",
+      "objects": [
+        {
+          "bbox": [
+            0.540625,
+            0.375,
+            0.58125,
+            0.5328129638888889
+          ]
+        }
+      ],
+      "width": 640,
+      "height": 360,
+      "member": "train/images/frame_0016_41_jpg.rf.11326ac1334f7bbd80dabc7a73aa0540.jpg"
+    },
+    {
+      "id": "zenodo-2b1cff7214e05e63",
+      "group": "zenodo:16924786",
+      "split": "public-training",
+      "image": "zenodo/sample/zenodo-2b1cff7214e05e63.jpg",
+      "sha256": "2b1cff7214e05e632fdffb2b0d80a18522907b420414ddb62fc53ed6a6e4f90f",
+      "dhash": "1313535b9b0e2d1b",
+      "license": "CC BY 4.0",
+      "objects": [
+        {
+          "bbox": [
+            0.35989583281250004,
+            0.7425925916666666,
+            0.48802083281249997,
+            0.8194444444444444
+          ]
+        }
+      ],
+      "width": 640,
+      "height": 360,
+      "member": "train/images/frame_0004_18_jpg.rf.79ffd6736503d4a36c817ecca9ed75b3.jpg"
+    },
+    {
+      "id": "zenodo-3099d6ffc7e0aa4f",
+      "group": "zenodo:16924786",
+      "split": "public-training",
+      "image": "zenodo/sample/zenodo-3099d6ffc7e0aa4f.jpg",
+      "sha256": "3099d6ffc7e0aa4f15f974db9a9e8f3221e0d7993aa40d42a7ca1ca7049f9bab",
+      "dhash": "f0f3b3834206959a",
+      "license": "CC BY 4.0",
+      "objects": [
+        {
+          "bbox": [
+            0.5484375,
+            0.36875,
+            0.590625,
+            0.53125
+          ]
+        }
+      ],
+      "width": 640,
+      "height": 360,
+      "member": "train/images/frame_0019_10_jpg.rf.dc9ddee743b61f9915de2a5ab7ed7985.jpg"
+    },
+    {
+      "id": "zenodo-c758c016bbdfc962",
+      "group": "zenodo:16924786",
+      "split": "public-training",
+      "image": "zenodo/sample/zenodo-c758c016bbdfc962.jpg",
+      "sha256": "c758c016bbdfc962527cdba60c01b6e787e8202ba461b9cbe4a77f6ba2abff06",
+      "dhash": "6c8d3d2d5ac3c7d2",
+      "license": "CC BY 4.0",
+      "objects": [
+        {
+          "bbox": [
+            0.47067447968750004,
+            0.250050925,
+            0.5013468750000001,
+            0.43518518611111107
+          ]
+        }
+      ],
+      "width": 640,
+      "height": 360,
+      "member": "train/images/frame_0023_29_jpg.rf.48bc34f56a2caf8167319b1e0a6005c8.jpg"
+    },
+    {
+      "id": "zenodo-4881076521616c12",
+      "group": "zenodo:16924786",
+      "split": "public-training",
+      "image": "zenodo/sample/zenodo-4881076521616c12.jpg",
+      "sha256": "4881076521616c12c07ae4855a70af12655fa9d4301f070cb3e6acfccf735dcf",
+      "dhash": "4b1c2c6d9c879b9b",
+      "license": "CC BY 4.0",
+      "objects": [
+        {
+          "bbox": [
+            0.41875,
+            0.004166666666666667,
+            0.4703125,
+            0.2125
+          ]
+        }
+      ],
+      "width": 640,
+      "height": 480,
+      "member": "train/images/frame_0011_96_jpg.rf.4fae8a65e2ca791b4b20b2ce61b47607.jpg"
+    },
+    {
+      "id": "zenodo-88e31f92232cfc62",
+      "group": "zenodo:16924786",
+      "split": "public-training",
+      "image": "zenodo/sample/zenodo-88e31f92232cfc62.jpg",
+      "sha256": "88e31f92232cfc62c3efcfa8a9c8916b73377eb04ff5df129467f8e6a7b8a2a4",
+      "dhash": "4f16346c9c8e9b9b",
+      "license": "CC BY 4.0",
+      "objects": [
+        {
+          "bbox": [
+            0.5765625,
+            0.4791666666666667,
+            0.6140625,
+            0.6125
+          ]
+        }
+      ],
+      "width": 640,
+      "height": 480,
+      "member": "train/images/frame_0013_83_jpg.rf.fbcbe211a03ef43a8785c6e99cca03a9.jpg"
+    },
+    {
+      "id": "zenodo-e7718f7c61968f82",
+      "group": "zenodo:16924786",
+      "split": "public-training",
+      "image": "zenodo/sample/zenodo-e7718f7c61968f82.jpg",
+      "sha256": "e7718f7c61968f82c7e1671dc1fc561bc80b757ca715ea075ee4c3e8c07ae498",
+      "dhash": "c7c697c3e7978797",
+      "license": "CC BY 4.0",
+      "objects": [
+        {
+          "bbox": [
+            0.3260416671875,
+            0.34444444444444444,
+            0.3505208328125,
+            0.41944444444444445
+          ]
+        },
+        {
+          "bbox": [
+            0.490625,
+            0.4935185194444444,
+            0.5244791671875,
+            0.5944444444444444
+          ]
+        },
+        {
+          "bbox": [
+            0.47447916718750005,
+            0.37777777777777777,
+            0.5005208328124999,
+            0.4685185194444444
+          ]
+        }
+      ],
+      "width": 640,
+      "height": 360,
+      "member": "train/images/frame_0028_1_jpg.rf.eb2cd06e7dab72155c966fc020ff571d.jpg"
+    },
+    {
+      "id": "zenodo-e2e819ec847068ae",
+      "group": "zenodo:16924786",
+      "split": "public-training",
+      "image": "zenodo/sample/zenodo-e2e819ec847068ae.jpg",
+      "sha256": "e2e819ec847068ae200d17028dd350a8767f3a6c2382da807b77f5f78fb5fb65",
+      "dhash": "9f171a4ccc362c3c",
+      "license": "CC BY 4.0",
+      "objects": [],
+      "width": 640,
+      "height": 360,
+      "member": "train/images/frame_0003_230_jpg.rf.794f041a8a01c8e78d8c1d75d3727983.jpg"
+    },
+    {
+      "id": "zenodo-7d592681d3aa5899",
+      "group": "zenodo:16924786",
+      "split": "public-training",
+      "image": "zenodo/sample/zenodo-7d592681d3aa5899.jpg",
+      "sha256": "7d592681d3aa58999ce18d8632422ece1c17d905d64f6a433f421b6c58dcbcab",
+      "dhash": "6f8b3f2f4fcfd7d2",
+      "license": "CC BY 4.0",
+      "objects": [
+        {
+          "bbox": [
+            0.578125,
+            0.44814814722222224,
+            0.6052083328125,
+            0.6120370361111112
+          ]
+        }
+      ],
+      "width": 640,
+      "height": 360,
+      "member": "train/images/frame_0023_2_jpg.rf.66810967886f9e5e87eb55b6221b6576.jpg"
+    },
+    {
+      "id": "zenodo-4bf9db2271c4092f",
+      "group": "zenodo:16924786",
+      "split": "public-training",
+      "image": "zenodo/sample/zenodo-4bf9db2271c4092f.jpg",
+      "sha256": "4bf9db2271c4092f361457cec8733988d50e503ddcc41008f06e62ea347f7a78",
+      "dhash": "e5ab0b69c3879797",
+      "license": "CC BY 4.0",
+      "objects": [
+        {
+          "bbox": [
+            0.40625,
+            0.875,
+            0.5260416671875,
+            0.9324074083333334
+          ]
+        }
+      ],
+      "width": 640,
+      "height": 360,
+      "member": "train/images/frame_0008_145_jpg.rf.6bddccc155c03e48e8213f9f20add844.jpg"
+    },
+    {
+      "id": "zenodo-10f73c5a3cd0ad3d",
+      "group": "zenodo:16924786",
+      "split": "public-training",
+      "image": "zenodo/sample/zenodo-10f73c5a3cd0ad3d.jpg",
+      "sha256": "10f73c5a3cd0ad3d72b215ddb5b4cbe7905d2e6e85f5c89b3eb0d9330e4df360",
+      "dhash": "3336367839b99d87",
+      "license": "CC BY 4.0",
+      "objects": [
+        {
+          "bbox": [
+            0.4010416671875,
+            0.8666666666666667,
+            0.5,
+            0.9981481472222222
+          ]
+        }
+      ],
+      "width": 640,
+      "height": 360,
+      "member": "train/images/frame_0013_82_jpg.rf.b6e2bfe2d75cad144ce97a9f321f0a16.jpg"
+    },
+    {
+      "id": "zenodo-d276120ac6896a5f",
+      "group": "zenodo:16924786",
+      "split": "public-training",
+      "image": "zenodo/sample/zenodo-d276120ac6896a5f.jpg",
+      "sha256": "d276120ac6896a5f7343cb2ee770aa3a0484873334bc09b10f4a14d9a6a52430",
+      "dhash": "0e1e3e3c3d9d9e96",
+      "license": "CC BY 4.0",
+      "objects": [
+        {
+          "bbox": [
+            0.48229166718750005,
+            0.8435185194444444,
+            0.53125,
+            0.9962962972222222
+          ]
+        }
+      ],
+      "width": 640,
+      "height": 360,
+      "member": "train/images/frame_0010_92_jpg.rf.d0d4a89e5527746ba033bca7752c403d.jpg"
+    },
+    {
+      "id": "zenodo-42ed8325ce511571",
+      "group": "zenodo:16924786",
+      "split": "public-training",
+      "image": "zenodo/sample/zenodo-42ed8325ce511571.jpg",
+      "sha256": "42ed8325ce511571c8ee21cc122068464814a837fc5c3eca15876aeaa152bd3e",
+      "dhash": "ef4f2f2f4fc7d6d2",
+      "license": "CC BY 4.0",
+      "objects": [
+        {
+          "bbox": [
+            0.5640625,
+            0.4796879638888889,
+            0.5953125,
+            0.63125
+          ]
+        }
+      ],
+      "width": 640,
+      "height": 360,
+      "member": "train/images/frame_0001_6_jpg.rf.c98cbf69b853aa4688a94fbf59356493.jpg"
+    },
+    {
+      "id": "zenodo-ac5259d6fa86c67e",
+      "group": "zenodo:16924786",
+      "split": "public-training",
+      "image": "zenodo/sample/zenodo-ac5259d6fa86c67e.jpg",
+      "sha256": "ac5259d6fa86c67e6e550e5cbb412540051784638cfd2465cba4266f2adb5c73",
+      "dhash": "1d18383d3dbd9f96",
+      "license": "CC BY 4.0",
+      "objects": [
+        {
+          "bbox": [
+            0.484375,
+            0.875,
+            0.534375,
+            0.9981481472222222
+          ]
+        }
+      ],
+      "width": 640,
+      "height": 360,
+      "member": "train/images/frame_0004_250_jpg.rf.912ceb89000a9b020ee5b31b1feca5c2.jpg"
+    },
+    {
+      "id": "zenodo-5e42e9a0fa89e55d",
+      "group": "zenodo:16924786",
+      "split": "public-training",
+      "image": "zenodo/sample/zenodo-5e42e9a0fa89e55d.jpg",
+      "sha256": "5e42e9a0fa89e55d8b279ed7cbbc5a04304e0264f63acf8089e7ea6624012831",
+      "dhash": "f4963c6ccd859797",
+      "license": "CC BY 4.0",
+      "objects": [
+        {
+          "bbox": [
+            0.403125,
+            0.875,
+            0.51875,
+            0.934375
+          ]
+        }
+      ],
+      "width": 640,
+      "height": 360,
+      "member": "train/images/frame_0009_202_jpg.rf.248442c63a94a164a6f9e1c488c71458.jpg"
+    },
+    {
+      "id": "zenodo-aa95c4b9aedb1bf7",
+      "group": "zenodo:16924786",
+      "split": "public-training",
+      "image": "zenodo/sample/zenodo-aa95c4b9aedb1bf7.jpg",
+      "sha256": "aa95c4b9aedb1bf7038616f49ed9b5f2b88e7bef05f332b43a242a8ee5112db4",
+      "dhash": "cc8b1b6dc5879797",
+      "license": "CC BY 4.0",
+      "objects": [
+        {
+          "bbox": [
+            0.4078125,
+            0.8734379638888888,
+            0.53125,
+            0.934375
+          ]
+        }
+      ],
+      "width": 640,
+      "height": 360,
+      "member": "train/images/frame_0007_279_jpg.rf.75f12fe679454b0ce4e4ebd4170b9fd0.jpg"
+    },
+    {
+      "id": "zenodo-6e4d60f1d4ff3458",
+      "group": "zenodo:16924786",
+      "split": "public-training",
+      "image": "zenodo/sample/zenodo-6e4d60f1d4ff3458.jpg",
+      "sha256": "6e4d60f1d4ff3458d26af21820920b53f8d810efc01102020bcca49d30894234",
+      "dhash": "cfcb6f6d87869b9b",
+      "license": "CC BY 4.0",
+      "objects": [],
+      "width": 640,
+      "height": 480,
+      "member": "train/images/frame_0042_6_jpg.rf.098cfe4eff36a4a8a6ff7328d17c95f0.jpg"
+    },
+    {
+      "id": "zenodo-fea6d8d255184592",
+      "group": "zenodo:16924786",
+      "split": "public-training",
+      "image": "zenodo/sample/zenodo-fea6d8d255184592.jpg",
+      "sha256": "fea6d8d2551845924698660a1e0718a5c468f0b53686ae7d1a56fc37f8e71ef9",
+      "dhash": "339b0b2d4dcfc7d3",
+      "license": "CC BY 4.0",
+      "objects": [],
+      "width": 640,
+      "height": 360,
+      "member": "train/images/frame_0026_30_jpg.rf.92f74fd56a6f47d143101cb056483ce7.jpg"
+    },
+    {
+      "id": "zenodo-d8d2275f55229546",
+      "group": "zenodo:16924786",
+      "split": "public-training",
+      "image": "zenodo/sample/zenodo-d8d2275f55229546.jpg",
+      "sha256": "d8d2275f552295465686942ef0bae2e8526dd1b5ac165cfe3b30a6d0aef52d73",
+      "dhash": "529b3a6cad898696",
+      "license": "CC BY 4.0",
+      "objects": [],
+      "width": 640,
+      "height": 360,
+      "member": "train/images/frame_0007_174_jpg.rf.32977279075f5eda8286a0bf03502abc.jpg"
+    },
+    {
+      "id": "zenodo-103c336a2cf0d634",
+      "group": "zenodo:16924786",
+      "split": "public-training",
+      "image": "zenodo/sample/zenodo-103c336a2cf0d634.jpg",
+      "sha256": "103c336a2cf0d6340b48077777c6416c3c2ef3d1895a470f6f27c6e5d9cb1821",
+      "dhash": "4e9a3b6c4cccd7d3",
+      "license": "CC BY 4.0",
+      "objects": [],
+      "width": 640,
+      "height": 360,
+      "member": "train/images/frame_0026_24_jpg.rf.94995c2a40154830d5017176265f3eeb.jpg"
+    },
+    {
+      "id": "zenodo-7e7a3f6539d78926",
+      "group": "zenodo:16924786",
+      "split": "public-training",
+      "image": "zenodo/sample/zenodo-7e7a3f6539d78926.jpg",
+      "sha256": "7e7a3f6539d78926e384f8c2cf857bfc2547bea3125ae51bb8637445f8f945a3",
+      "dhash": "5b9b296d4dcfd7d3",
+      "license": "CC BY 4.0",
+      "objects": [],
+      "width": 640,
+      "height": 360,
+      "member": "train/images/frame_0032_15_jpg.rf.5a80031659a8eaa469fe46c64c98e92e.jpg"
+    },
+    {
+      "id": "zenodo-a494d6fe05e24890",
+      "group": "zenodo:16924786",
+      "split": "public-training",
+      "image": "zenodo/sample/zenodo-a494d6fe05e24890.jpg",
+      "sha256": "a494d6fe05e248906b804d0b1e7433f28c4a70261b57df257844ff71624e61d4",
+      "dhash": "9bbb3b3b39383637",
+      "license": "CC BY 4.0",
+      "objects": [],
+      "width": 640,
+      "height": 360,
+      "member": "train/images/frame_0029_41_jpg.rf.b7ea9ff8d61c083cc2eded5c20691435.jpg"
+    },
+    {
+      "id": "zenodo-692a7b73d5785ebd",
+      "group": "zenodo:16924786",
+      "split": "public-training",
+      "image": "zenodo/sample/zenodo-692a7b73d5785ebd.jpg",
+      "sha256": "692a7b73d5785ebdc0b6cf56d8460f6cf47946912169ebdf078999491f2aadf9",
+      "dhash": "46963f6753ced6d3",
+      "license": "CC BY 4.0",
+      "objects": [],
+      "width": 640,
+      "height": 360,
+      "member": "train/images/frame_0032_4_jpg.rf.99ed12b3212fae500e02e1f004a477df.jpg"
+    },
+    {
+      "id": "zenodo-4007747c56af712d",
+      "group": "zenodo:16924786",
+      "split": "public-training",
+      "image": "zenodo/sample/zenodo-4007747c56af712d.jpg",
+      "sha256": "4007747c56af712d1e67d465adab4a820771bc8d29cc672f3f25a83bcc7e364e",
+      "dhash": "9ba1e159583c3736",
+      "license": "CC BY 4.0",
+      "objects": [],
+      "width": 640,
+      "height": 480,
+      "member": "train/images/frame_0005_101_jpg.rf.41cec2d2419491bb9f3a106611bda312.jpg"
+    },
+    {
+      "id": "zenodo-85cabd043d51972e",
+      "group": "zenodo:16924786",
+      "split": "public-training",
+      "image": "zenodo/sample/zenodo-85cabd043d51972e.jpg",
+      "sha256": "85cabd043d51972e81bd3897fa236213eea4e2c5492c0187ff1893ef384ec5c6",
+      "dhash": "8f03231339b8b6b6",
+      "license": "CC BY 4.0",
+      "objects": [],
+      "width": 640,
+      "height": 360,
+      "member": "train/images/frame_0012_56_jpg.rf.92703a390c17b702879416526e8e2ee1.jpg"
+    },
+    {
+      "id": "zenodo-2956d8264dd6255c",
+      "group": "zenodo:16924786",
+      "split": "public-training",
+      "image": "zenodo/sample/zenodo-2956d8264dd6255c.jpg",
+      "sha256": "2956d8264dd6255c079e81edb03a5869a9f7663ae2e24207d314ea5162e28c8b",
+      "dhash": "6d8d262455c6c2d2",
+      "license": "CC BY 4.0",
+      "objects": [],
+      "width": 640,
+      "height": 360,
+      "member": "train/images/frame_0013_12_jpg.rf.d4abaa9a2c9d4a122fc8f61c3514200a.jpg"
+    },
+    {
+      "id": "zenodo-c01af31c052f7ebf",
+      "group": "zenodo:16924786",
+      "split": "public-training",
+      "image": "zenodo/sample/zenodo-c01af31c052f7ebf.jpg",
+      "sha256": "c01af31c052f7ebf37f19ae1892d9a59dd83e8c25fe94951a2e50f2e9335aacf",
+      "dhash": "669a3b2356c6c7d6",
+      "license": "CC BY 4.0",
+      "objects": [],
+      "width": 640,
+      "height": 360,
+      "member": "train/images/frame_0006_27_jpg.rf.e13c870dce04172203a112e21190d91d.jpg"
+    },
+    {
+      "id": "zenodo-6fb12abfcdca14d3",
+      "group": "zenodo:16924786",
+      "split": "public-training",
+      "image": "zenodo/sample/zenodo-6fb12abfcdca14d3.jpg",
+      "sha256": "6fb12abfcdca14d306653f6638dade27ce4e2a2a4760321cd917c7ae83fccaca",
+      "dhash": "499b323655ccc7d2",
+      "license": "CC BY 4.0",
+      "objects": [],
+      "width": 640,
+      "height": 360,
+      "member": "train/images/frame_0008_9_jpg.rf.1671c1e4e65e54148ce018745939020b.jpg"
+    }
+  ],
+  "doi": "https://doi.org/10.5281/zenodo.16924786",
+  "archive_sha256": "9b1321fa8e0b41db65a53c73906a4e00b9e113301bb982c6f066bd62d2a4b4ac",
+  "archive_train_images": 8319,
+  "class_id": 3,
+  "positives": 120,
+  "negatives": 40,
+  "excluded_near_hash_matches": 51
+}

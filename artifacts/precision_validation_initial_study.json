@@ -1,0 +1,30 @@
+{
+  "baseline": {
+    "precision": 0.7209302325581395,
+    "recall": 0.8857142857142857,
+    "f1": 0.7948717948717948,
+    "ap50": 0.8629800909235987,
+    "ap50_95": 0.5855910976338089,
+    "exact_count": 37,
+    "tp": 31,
+    "fp": 12,
+    "fn": 4
+  },
+  "candidate": {
+    "precision": 0.7209302325581395,
+    "recall": 0.8857142857142857,
+    "f1": 0.7948717948717948,
+    "ap50": 0.8179149542805702,
+    "ap50_95": 0.5468163429577257,
+    "exact_count": 37,
+    "tp": 31,
+    "fp": 12,
+    "fn": 4
+  },
+  "fitted_C": 1,
+  "train_scenes": 33,
+  "calibration_scenes": 43,
+  "positive_crops": 23,
+  "negative_crops": 18,
+  "eligible_settings": 3
+}

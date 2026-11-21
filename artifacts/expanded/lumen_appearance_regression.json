@@ -1,0 +1,4096 @@
+{
+  "passed": false,
+  "selection_sha256": "68d048b7b019e43cec996d9d1bd4365d281c2eb8422dd091517178075acd8916",
+  "summary": {
+    "calibration": {
+      "images": 68,
+      "geometry": 50,
+      "legacy": {
+        "correct_region": 58,
+        "median_lstar_error": 2.375,
+        "false_appearance": 0
+      },
+      "candidate": {
+        "correct_region": 53,
+        "median_lstar_error": 2.1662353515625057,
+        "false_appearance": 0
+      }
+    },
+    "test": {
+      "images": 14,
+      "geometry": 10,
+      "legacy": {
+        "correct_region": 0,
+        "median_lstar_error": null,
+        "false_appearance": 1
+      },
+      "candidate": {
+        "correct_region": 0,
+        "median_lstar_error": null,
+        "false_appearance": 0
+      }
+    },
+    "public": {
+      "images": 6,
+      "geometry": 1,
+      "legacy": {
+        "correct_region": 0,
+        "median_lstar_error": null,
+        "false_appearance": 0
+      },
+      "candidate": {
+        "correct_region": 0,
+        "median_lstar_error": null,
+        "false_appearance": 0
+      }
+    }
+  },
+  "outputs": {
+    "calibration": {
+      "IMG_3203": {
+        "geometry": true,
+        "legacy": {
+          "status": "appearance measured",
+          "reason": "Colored interior of the segmented syringe",
+          "lightness": {
+            "lstar": 25.1,
+            "iqr": [
+              22.1,
+              28.4
+            ],
+            "category": "dark"
+          },
+          "region": [
+            0.21782178217821782,
+            0.05952380952380952,
+            0.6336633663366337,
+            0.41904761904761906
+          ],
+          "support_fraction": 0.313,
+          "opacity": null,
+          "opacity_reason": "A registered clear-barrel reference at the same exposure is required."
+        },
+        "candidate": {
+          "status": "appearance measured",
+          "reason": "Measured within the supported barrel interior",
+          "lightness": {
+            "lstar": 23.6,
+            "iqr": [
+              22.2,
+              27.8
+            ],
+            "category": "dark"
+          },
+          "apparent_color": {
+            "lab": [
+              23.6,
+              22.2,
+              32.0
+            ],
+            "chroma": 39.0,
+            "srgb": [
+              96,
+              40,
+              2
+            ],
+            "profile": "Embedded profile converted to sRGB"
+          },
+          "region": [
+            0.297029702970297,
+            0.11904761904761904,
+            0.5643564356435643,
+            0.3595238095238095
+          ],
+          "opacity": null,
+          "opacity_reason": "A registered clear-barrel reference at the same exposure is required."
+        },
+        "valid_region": true,
+        "legacy_error": 0.2770019531250014,
+        "candidate_error": 1.2229980468749986
+      },
+      "IMG_3204": {
+        "geometry": true,
+        "legacy": {
+          "status": "appearance measured",
+          "reason": "Colored interior of the segmented syringe",
+          "lightness": {
+            "lstar": 23.1,
+            "iqr": [
+              20.8,
+              27.7
+            ],
+            "category": "dark"
+          },
+          "region": [
+            0.49416342412451364,
+            0.06428571428571428,
+            0.8832684824902723,
+            0.45714285714285713
+          ],
+          "support_fraction": 0.321,
+          "opacity": null,
+          "opacity_reason": "A registered clear-barrel reference at the same exposure is required."
+        },
+        "candidate": {
+          "status": "appearance measured",
+          "reason": "Measured within the supported barrel interior",
+          "lightness": {
+            "lstar": 23.9,
+            "iqr": [
+              21.3,
+              27.7
+            ],
+            "category": "dark"
+          },
+          "apparent_color": {
+            "lab": [
+              23.9,
+              21.7,
+              31.6
+            ],
+            "chroma": 38.3,
+            "srgb": [
+              96,
+              42,
+              3
+            ],
+            "profile": "Embedded profile converted to sRGB"
+          },
+          "region": [
+            0.5642023346303502,
+            0.10714285714285714,
+            0.8132295719844358,
+            0.36428571428571427
+          ],
+          "opacity": null,
+          "opacity_reason": "A registered clear-barrel reference at the same exposure is required."
+        },
+        "valid_region": true,
+        "legacy_error": 9.215063476562499,
+        "candidate_error": 8.415063476562501
+      },
+      "IMG_3205": {
+        "geometry": false,
+        "legacy": {
+          "status": "insufficient evidence",
+          "reason": "The syringe silhouette is too small or incomplete.",
+          "lightness": null,
+          "opacity": null,
+          "opacity_reason": "A registered clear-barrel reference at the same exposure is required."
+        },
+        "candidate": {
+          "status": "insufficient evidence",
+          "reason": "The syringe silhouette is too small or incomplete.",
+          "lightness": null,
+          "opacity": null,
+          "opacity_reason": "A registered clear-barrel reference at the same exposure is required."
+        },
+        "valid_region": true
+      },
+      "IMG_3206": {
+        "geometry": true,
+        "legacy": {
+          "status": "appearance measured",
+          "reason": "Colored interior of the segmented syringe",
+          "lightness": {
+            "lstar": 25.7,
+            "iqr": [
+              22.6,
+              32.3
+            ],
+            "category": "dark"
+          },
+          "region": [
+            0.4787234042553192,
+            0.04523809523809524,
+            0.925531914893617,
+            0.5
+          ],
+          "support_fraction": 0.401,
+          "opacity": null,
+          "opacity_reason": "A registered clear-barrel reference at the same exposure is required."
+        },
+        "candidate": {
+          "status": "appearance measured",
+          "reason": "Measured within the supported barrel interior",
+          "lightness": {
+            "lstar": 32.6,
+            "iqr": [
+              27.1,
+              37.1
+            ],
+            "category": "dark"
+          },
+          "apparent_color": {
+            "lab": [
+              32.6,
+              18.9,
+              28.1
+            ],
+            "chroma": 33.9,
+            "srgb": [
+              115,
+              64,
+              32
+            ],
+            "profile": "Embedded profile converted to sRGB"
+          },
+          "region": [
+            0.5283687943262412,
+            0.05952380952380952,
+            0.8333333333333334,
+            0.39285714285714285
+          ],
+          "opacity": null,
+          "opacity_reason": "A registered clear-barrel reference at the same exposure is required."
+        },
+        "valid_region": true,
+        "legacy_error": 0.2094238281250007,
+        "candidate_error": 6.690576171875001
+      },
+      "IMG_3207": {
+        "geometry": false,
+        "legacy": {
+          "status": "appearance measured",
+          "reason": "Colored interior of the segmented syringe",
+          "lightness": {
+            "lstar": 28.3,
+            "iqr": [
+              26.4,
+              31.4
+            ],
+            "category": "dark"
+          },
+          "region": [
+            0.3,
+            0.19047619047619047,
+            0.7125,
+            0.5071428571428571
+          ],
+          "support_fraction": 0.327,
+          "opacity": null,
+          "opacity_reason": "A registered clear-barrel reference at the same exposure is required."
+        },
+        "candidate": {
+          "status": "appearance measured",
+          "reason": "Colored interior of the segmented syringe",
+          "lightness": {
+            "lstar": 28.3,
+            "iqr": [
+              26.4,
+              31.4
+            ],
+            "category": "dark"
+          },
+          "region": [
+            0.3,
+            0.19047619047619047,
+            0.7125,
+            0.5071428571428571
+          ],
+          "support_fraction": 0.327,
+          "opacity": null,
+          "opacity_reason": "A registered clear-barrel reference at the same exposure is required."
+        },
+        "valid_region": true,
+        "legacy_error": 49.782275390625,
+        "candidate_error": 49.782275390625
+      },
+      "IMG_3208": {
+        "geometry": true,
+        "legacy": {
+          "status": "appearance measured",
+          "reason": "Colored interior of the segmented syringe",
+          "lightness": {
+            "lstar": 27.0,
+            "iqr": [
+              24.7,
+              30.1
+            ],
+            "category": "dark"
+          },
+          "region": [
+            0.07801418439716312,
+            0.16904761904761906,
+            0.48936170212765956,
+            0.4976190476190476
+          ],
+          "support_fraction": 0.32,
+          "opacity": null,
+          "opacity_reason": "A registered clear-barrel reference at the same exposure is required."
+        },
+        "candidate": {
+          "status": "appearance measured",
+          "reason": "Measured within the supported barrel interior",
+          "lightness": {
+            "lstar": 26.4,
+            "iqr": [
+              25.4,
+              28.9
+            ],
+            "category": "dark"
+          },
+          "apparent_color": {
+            "lab": [
+              26.4,
+              24.1,
+              36.4
+            ],
+            "chroma": 43.7,
+            "srgb": [
+              107,
+              44,
+              0
+            ],
+            "profile": "Embedded profile converted to sRGB"
+          },
+          "region": [
+            0.10638297872340426,
+            0.23095238095238096,
+            0.4397163120567376,
+            0.4380952380952381
+          ],
+          "opacity": null,
+          "opacity_reason": "A registered clear-barrel reference at the same exposure is required."
+        },
+        "valid_region": true,
+        "legacy_error": 51.472900390625
+      },
+      "IMG_3209": {
+        "geometry": false,
+        "legacy": {
+          "status": "insufficient evidence",
+          "reason": "The syringe silhouette is too small or incomplete.",
+          "lightness": null,
+          "opacity": null,
+          "opacity_reason": "A registered clear-barrel reference at the same exposure is required."
+        },
+        "candidate": {
+          "status": "insufficient evidence",
+          "reason": "The syringe silhouette is too small or incomplete.",
+          "lightness": null,
+          "opacity": null,
+          "opacity_reason": "A registered clear-barrel reference at the same exposure is required."
+        },
+        "valid_region": true
+      },
+      "IMG_3210": {
+        "geometry": false,
+        "legacy": {
+          "status": "insufficient evidence",
+          "reason": "The syringe silhouette is too small or incomplete.",
+          "lightness": null,
+          "opacity": null,
+          "opacity_reason": "A registered clear-barrel reference at the same exposure is required."
+        },
+        "candidate": {
+          "status": "insufficient evidence",
+          "reason": "The syringe silhouette is too small or incomplete.",
+          "lightness": null,
+          "opacity": null,
+          "opacity_reason": "A registered clear-barrel reference at the same exposure is required."
+        },
+        "valid_region": true
+      },
+      "IMG_3211": {
+        "geometry": true,
+        "legacy": {
+          "status": "appearance measured",
+          "reason": "Colored interior of the segmented syringe",
+          "lightness": {
+            "lstar": 27.8,
+            "iqr": [
+              26.2,
+              29.9
+            ],
+            "category": "dark"
+          },
+          "region": [
+            0.42424242424242425,
+            0.07142857142857142,
+            0.9090909090909091,
+            0.430952380952381
+          ],
+          "support_fraction": 0.282,
+          "opacity": null,
+          "opacity_reason": "A registered clear-barrel reference at the same exposure is required."
+        },
+        "candidate": {
+          "status": "appearance measured",
+          "reason": "Measured within the supported barrel interior",
+          "lightness": {
+            "lstar": 27.5,
+            "iqr": [
+              26.7,
+              29.0
+            ],
+            "category": "dark"
+          },
+          "apparent_color": {
+            "lab": [
+              27.5,
+              23.1,
+              37.8
+            ],
+            "chroma": 44.3,
+            "srgb": [
+              108,
+              49,
+              0
+            ],
+            "profile": "Embedded profile converted to sRGB"
+          },
+          "region": [
+            0.48484848484848486,
+            0.11666666666666667,
+            0.898989898989899,
+            0.3880952380952381
+          ],
+          "opacity": null,
+          "opacity_reason": "A registered clear-barrel reference at the same exposure is required."
+        },
+        "valid_region": true,
+        "legacy_error": 0.07475585937499929,
+        "candidate_error": 0.374755859375
+      },
+      "IMG_3212": {
+        "geometry": false,
+        "legacy": {
+          "status": "insufficient evidence",
+          "reason": "The syringe silhouette is too small or incomplete.",
+          "lightness": null,
+          "opacity": null,
+          "opacity_reason": "A registered clear-barrel reference at the same exposure is required."
+        },
+        "candidate": {
+          "status": "insufficient evidence",
+          "reason": "The syringe silhouette is too small or incomplete.",
+          "lightness": null,
+          "opacity": null,
+          "opacity_reason": "A registered clear-barrel reference at the same exposure is required."
+        },
+        "valid_region": true
+      },
+      "IMG_3213": {
+        "geometry": false,
+        "legacy": {
+          "status": "appearance measured",
+          "reason": "Colored interior of the segmented syringe",
+          "lightness": {
+            "lstar": 29.5,
+            "iqr": [
+              27.2,
+              31.3
+            ],
+            "category": "dark"
+          },
+          "region": [
+            0.14285714285714285,
+            0.11428571428571428,
+            0.7362637362637363,
+            0.4928571428571429
+          ],
+          "support_fraction": 0.336,
+          "opacity": null,
+          "opacity_reason": "A registered clear-barrel reference at the same exposure is required."
+        },
+        "candidate": {
+          "status": "appearance measured",
+          "reason": "Colored interior of the segmented syringe",
+          "lightness": {
+            "lstar": 29.5,
+            "iqr": [
+              27.2,
+              31.3
+            ],
+            "category": "dark"
+          },
+          "region": [
+            0.14285714285714285,
+            0.11428571428571428,
+            0.7362637362637363,
+            0.4928571428571429
+          ],
+          "support_fraction": 0.336,
+          "opacity": null,
+          "opacity_reason": "A registered clear-barrel reference at the same exposure is required."
+        },
+        "valid_region": true,
+        "legacy_error": 1.16748046875,
+        "candidate_error": 1.16748046875
+      },
+      "IMG_3230": {
+        "geometry": true,
+        "legacy": {
+          "status": "appearance measured",
+          "reason": "Colored interior of the segmented syringe",
+          "lightness": {
+            "lstar": 44.1,
+            "iqr": [
+              35.1,
+              52.0
+            ],
+            "category": "medium"
+          },
+          "region": [
+            0.24489795918367346,
+            0.05952380952380952,
+            0.7040816326530612,
+            0.4380952380952381
+          ],
+          "support_fraction": 0.313,
+          "opacity": null,
+          "opacity_reason": "A registered clear-barrel reference at the same exposure is required."
+        },
+        "candidate": {
+          "status": "appearance measured",
+          "reason": "Measured within the supported barrel interior",
+          "lightness": {
+            "lstar": 39.8,
+            "iqr": [
+              34.8,
+              47.3
+            ],
+            "category": "medium"
+          },
+          "apparent_color": {
+            "lab": [
+              39.8,
+              18.3,
+              36.3
+            ],
+            "chroma": 40.7,
+            "srgb": [
+              135,
+              81,
+              34
+            ],
+            "profile": "Embedded profile converted to sRGB"
+          },
+          "region": [
+            0.3877551020408163,
+            0.11666666666666667,
+            0.7244897959183674,
+            0.34523809523809523
+          ],
+          "opacity": null,
+          "opacity_reason": "A registered clear-barrel reference at the same exposure is required."
+        },
+        "valid_region": true,
+        "legacy_error": 4.685400390624999
+      },
+      "IMG_3231": {
+        "geometry": true,
+        "legacy": {
+          "status": "appearance measured",
+          "reason": "Colored interior of the segmented syringe",
+          "lightness": {
+            "lstar": 41.2,
+            "iqr": [
+              32.3,
+              48.6
+            ],
+            "category": "medium"
+          },
+          "region": [
+            0.16326530612244897,
+            0.07380952380952381,
+            0.6326530612244898,
+            0.4785714285714286
+          ],
+          "support_fraction": 0.321,
+          "opacity": null,
+          "opacity_reason": "A registered clear-barrel reference at the same exposure is required."
+        },
+        "candidate": {
+          "status": "appearance measured",
+          "reason": "Measured within the supported barrel interior",
+          "lightness": {
+            "lstar": 39.8,
+            "iqr": [
+              33.4,
+              48.0
+            ],
+            "category": "medium"
+          },
+          "apparent_color": {
+            "lab": [
+              39.8,
+              17.2,
+              35.8
+            ],
+            "chroma": 39.8,
+            "srgb": [
+              134,
+              82,
+              32
+            ],
+            "profile": "Embedded profile converted to sRGB"
+          },
+          "region": [
+            0.2755102040816326,
+            0.06428571428571428,
+            0.5408163265306123,
+            0.34523809523809523
+          ],
+          "opacity": null,
+          "opacity_reason": "A registered clear-barrel reference at the same exposure is required."
+        },
+        "valid_region": true,
+        "legacy_error": 0.15996093750000284,
+        "candidate_error": 1.2400390625000028
+      },
+      "IMG_3232": {
+        "geometry": true,
+        "legacy": {
+          "status": "appearance measured",
+          "reason": "Colored interior of the segmented syringe",
+          "lightness": {
+            "lstar": 42.0,
+            "iqr": [
+              32.4,
+              48.8
+            ],
+            "category": "medium"
+          },
+          "region": [
+            0.5477031802120141,
+            0.05476190476190476,
+            0.9717314487632509,
+            0.43333333333333335
+          ],
+          "support_fraction": 0.311,
+          "opacity": null,
+          "opacity_reason": "A registered clear-barrel reference at the same exposure is required."
+        },
+        "candidate": {
+          "status": "appearance measured",
+          "reason": "Measured within the supported barrel interior",
+          "lightness": {
+            "lstar": 46.7,
+            "iqr": [
+              42.4,
+              56.8
+            ],
+            "category": "medium"
+          },
+          "apparent_color": {
+            "lab": [
+              46.7,
+              11.7,
+              22.0
+            ],
+            "chroma": 24.9,
+            "srgb": [
+              140,
+              103,
+              74
+            ],
+            "profile": "Embedded profile converted to sRGB"
+          },
+          "region": [
+            0.568904593639576,
+            0.05476190476190476,
+            0.8798586572438163,
+            0.32857142857142857
+          ],
+          "opacity": null,
+          "opacity_reason": "A registered clear-barrel reference at the same exposure is required."
+        },
+        "valid_region": true,
+        "legacy_error": 5.824462890625,
+        "candidate_error": 10.524462890625003
+      },
+      "IMG_3233": {
+        "geometry": false,
+        "legacy": {
+          "status": "appearance measured",
+          "reason": "Colored interior of the segmented syringe",
+          "lightness": {
+            "lstar": 33.6,
+            "iqr": [
+              27.2,
+              37.6
+            ],
+            "category": "dark"
+          },
+          "region": [
+            0.5880952380952381,
+            0.03680981595092025,
+            0.9523809523809523,
+            0.42024539877300615
+          ],
+          "support_fraction": 0.315,
+          "opacity": null,
+          "opacity_reason": "A registered clear-barrel reference at the same exposure is required."
+        },
+        "candidate": {
+          "status": "appearance measured",
+          "reason": "Colored interior of the segmented syringe",
+          "lightness": {
+            "lstar": 33.6,
+            "iqr": [
+              27.2,
+              37.6
+            ],
+            "category": "dark"
+          },
+          "region": [
+            0.5880952380952381,
+            0.03680981595092025,
+            0.9523809523809523,
+            0.42024539877300615
+          ],
+          "support_fraction": 0.315,
+          "opacity": null,
+          "opacity_reason": "A registered clear-barrel reference at the same exposure is required."
+        },
+        "valid_region": true,
+        "legacy_error": 3.9430175781250014,
+        "candidate_error": 3.9430175781250014
+      },
+      "IMG_3234": {
+        "geometry": true,
+        "legacy": {
+          "status": "appearance measured",
+          "reason": "Colored interior of the segmented syringe",
+          "lightness": {
+            "lstar": 30.2,
+            "iqr": [
+              24.4,
+              33.2
+            ],
+            "category": "dark"
+          },
+          "region": [
+            0.5976190476190476,
+            0.011494252873563218,
+            0.9642857142857143,
+            0.4061302681992337
+          ],
+          "support_fraction": 0.334,
+          "opacity": null,
+          "opacity_reason": "A registered clear-barrel reference at the same exposure is required."
+        },
+        "candidate": {
+          "status": "appearance measured",
+          "reason": "Measured within the supported barrel interior",
+          "lightness": {
+            "lstar": 28.3,
+            "iqr": [
+              24.8,
+              33.9
+            ],
+            "category": "dark"
+          },
+          "apparent_color": {
+            "lab": [
+              28.3,
+              16.6,
+              30.7
+            ],
+            "chroma": 34.9,
+            "srgb": [
+              100,
+              56,
+              19
+            ],
+            "profile": "Embedded profile converted to sRGB"
+          },
+          "region": [
+            0.680952380952381,
+            0.09961685823754789,
+            0.9452380952380952,
+            0.3716475095785441
+          ],
+          "opacity": null,
+          "opacity_reason": "A registered clear-barrel reference at the same exposure is required."
+        },
+        "valid_region": true,
+        "legacy_error": 4.437060546874999,
+        "candidate_error": 2.5370605468750007
+      },
+      "IMG_3235": {
+        "geometry": false,
+        "legacy": {
+          "status": "appearance measured",
+          "reason": "Colored interior of the segmented syringe",
+          "lightness": {
+            "lstar": 25.1,
+            "iqr": [
+              21.3,
+              30.3
+            ],
+            "category": "dark"
+          },
+          "region": [
+            0.6095238095238096,
+            0.07766990291262135,
+            0.9571428571428572,
+            0.6310679611650486
+          ],
+          "support_fraction": 0.343,
+          "opacity": null,
+          "opacity_reason": "A registered clear-barrel reference at the same exposure is required."
+        },
+        "candidate": {
+          "status": "appearance measured",
+          "reason": "Colored interior of the segmented syringe",
+          "lightness": {
+            "lstar": 25.1,
+            "iqr": [
+              21.3,
+              30.3
+            ],
+            "category": "dark"
+          },
+          "region": [
+            0.6095238095238096,
+            0.07766990291262135,
+            0.9571428571428572,
+            0.6310679611650486
+          ],
+          "support_fraction": 0.343,
+          "opacity": null,
+          "opacity_reason": "A registered clear-barrel reference at the same exposure is required."
+        },
+        "valid_region": true,
+        "legacy_error": 3.0052734375000014,
+        "candidate_error": 3.0052734375000014
+      },
+      "IMG_3236": {
+        "geometry": false,
+        "legacy": {
+          "status": "appearance measured",
+          "reason": "Colored interior of the segmented syringe",
+          "lightness": {
+            "lstar": 43.2,
+            "iqr": [
+              35.2,
+              49.9
+            ],
+            "category": "medium"
+          },
+          "region": [
+            0.32786885245901637,
+            0.06666666666666667,
+            0.6311475409836066,
+            0.45
+          ],
+          "support_fraction": 0.288,
+          "opacity": null,
+          "opacity_reason": "A registered clear-barrel reference at the same exposure is required."
+        },
+        "candidate": {
+          "status": "appearance measured",
+          "reason": "Colored interior of the segmented syringe",
+          "lightness": {
+            "lstar": 43.2,
+            "iqr": [
+              35.2,
+              49.9
+            ],
+            "category": "medium"
+          },
+          "region": [
+            0.32786885245901637,
+            0.06666666666666667,
+            0.6311475409836066,
+            0.45
+          ],
+          "support_fraction": 0.288,
+          "opacity": null,
+          "opacity_reason": "A registered clear-barrel reference at the same exposure is required."
+        },
+        "valid_region": true,
+        "legacy_error": 4.528125000000003,
+        "candidate_error": 4.528125000000003
+      },
+      "IMG_3237": {
+        "geometry": false,
+        "legacy": {
+          "status": "appearance measured",
+          "reason": "Colored interior of the segmented syringe",
+          "lightness": {
+            "lstar": 43.1,
+            "iqr": [
+              34.5,
+              50.0
+            ],
+            "category": "medium"
+          },
+          "region": [
+            0.28431372549019607,
+            0.05714285714285714,
+            0.6764705882352942,
+            0.45476190476190476
+          ],
+          "support_fraction": 0.32,
+          "opacity": null,
+          "opacity_reason": "A registered clear-barrel reference at the same exposure is required."
+        },
+        "candidate": {
+          "status": "appearance measured",
+          "reason": "Colored interior of the segmented syringe",
+          "lightness": {
+            "lstar": 43.1,
+            "iqr": [
+              34.5,
+              50.0
+            ],
+            "category": "medium"
+          },
+          "region": [
+            0.28431372549019607,
+            0.05714285714285714,
+            0.6764705882352942,
+            0.45476190476190476
+          ],
+          "support_fraction": 0.32,
+          "opacity": null,
+          "opacity_reason": "A registered clear-barrel reference at the same exposure is required."
+        },
+        "valid_region": true,
+        "legacy_error": 3.4759765625000014,
+        "candidate_error": 3.4759765625000014
+      },
+      "IMG_3238": {
+        "geometry": true,
+        "legacy": {
+          "status": "appearance measured",
+          "reason": "Colored interior of the segmented syringe",
+          "lightness": {
+            "lstar": 39.9,
+            "iqr": [
+              31.0,
+              46.2
+            ],
+            "category": "medium"
+          },
+          "region": [
+            0.18666666666666668,
+            0.06904761904761905,
+            0.7333333333333333,
+            0.47619047619047616
+          ],
+          "support_fraction": 0.346,
+          "opacity": null,
+          "opacity_reason": "A registered clear-barrel reference at the same exposure is required."
+        },
+        "candidate": {
+          "status": "appearance measured",
+          "reason": "Measured within the supported barrel interior",
+          "lightness": {
+            "lstar": 36.1,
+            "iqr": [
+              30.9,
+              45.9
+            ],
+            "category": "medium"
+          },
+          "apparent_color": {
+            "lab": [
+              36.1,
+              17.4,
+              37.3
+            ],
+            "chroma": 41.2,
+            "srgb": [
+              126,
+              71,
+              20
+            ],
+            "profile": "Embedded profile converted to sRGB"
+          },
+          "region": [
+            0.14666666666666667,
+            0.11666666666666667,
+            0.6933333333333334,
+            0.36904761904761907
+          ],
+          "opacity": null,
+          "opacity_reason": "A registered clear-barrel reference at the same exposure is required."
+        },
+        "valid_region": true,
+        "legacy_error": 5.796606445312499,
+        "candidate_error": 1.9966064453125014
+      },
+      "IMG_3239": {
+        "geometry": false,
+        "legacy": {
+          "status": "insufficient evidence",
+          "reason": "The syringe silhouette is too small or incomplete.",
+          "lightness": null,
+          "opacity": null,
+          "opacity_reason": "A registered clear-barrel reference at the same exposure is required."
+        },
+        "candidate": {
+          "status": "insufficient evidence",
+          "reason": "The syringe silhouette is too small or incomplete.",
+          "lightness": null,
+          "opacity": null,
+          "opacity_reason": "A registered clear-barrel reference at the same exposure is required."
+        },
+        "valid_region": true
+      },
+      "IMG_3240": {
+        "geometry": false,
+        "legacy": {
+          "status": "appearance measured",
+          "reason": "Colored interior of the segmented syringe",
+          "lightness": {
+            "lstar": 36.5,
+            "iqr": [
+              28.4,
+              42.0
+            ],
+            "category": "medium"
+          },
+          "region": [
+            0.5547619047619048,
+            0.048109965635738834,
+            0.9380952380952381,
+            0.49140893470790376
+          ],
+          "support_fraction": 0.409,
+          "opacity": null,
+          "opacity_reason": "A registered clear-barrel reference at the same exposure is required."
+        },
+        "candidate": {
+          "status": "appearance measured",
+          "reason": "Colored interior of the segmented syringe",
+          "lightness": {
+            "lstar": 36.5,
+            "iqr": [
+              28.4,
+              42.0
+            ],
+            "category": "medium"
+          },
+          "region": [
+            0.5547619047619048,
+            0.048109965635738834,
+            0.9380952380952381,
+            0.49140893470790376
+          ],
+          "support_fraction": 0.409,
+          "opacity": null,
+          "opacity_reason": "A registered clear-barrel reference at the same exposure is required."
+        },
+        "valid_region": true,
+        "legacy_error": 3.392578125,
+        "candidate_error": 3.392578125
+      },
+      "IMG_3241": {
+        "geometry": true,
+        "legacy": {
+          "status": "appearance measured",
+          "reason": "Colored interior of the segmented syringe",
+          "lightness": {
+            "lstar": 38.9,
+            "iqr": [
+              32.4,
+              45.6
+            ],
+            "category": "medium"
+          },
+          "region": [
+            0.023809523809523808,
+            0.06481481481481481,
+            0.39285714285714285,
+            0.41358024691358025
+          ],
+          "support_fraction": 0.27,
+          "opacity": null,
+          "opacity_reason": "A registered clear-barrel reference at the same exposure is required."
+        },
+        "candidate": {
+          "status": "appearance measured",
+          "reason": "Measured within the supported barrel interior",
+          "lightness": {
+            "lstar": 40.8,
+            "iqr": [
+              35.5,
+              48.6
+            ],
+            "category": "medium"
+          },
+          "apparent_color": {
+            "lab": [
+              40.8,
+              17.1,
+              29.0
+            ],
+            "chroma": 33.7,
+            "srgb": [
+              135,
+              84,
+              48
+            ],
+            "profile": "Embedded profile converted to sRGB"
+          },
+          "region": [
+            0.03571428571428571,
+            0.04938271604938271,
+            0.30952380952380953,
+            0.2993827160493827
+          ],
+          "opacity": null,
+          "opacity_reason": "A registered clear-barrel reference at the same exposure is required."
+        },
+        "valid_region": true,
+        "legacy_error": 4.386132812500001,
+        "candidate_error": 2.486132812500003
+      },
+      "IMG_3242": {
+        "geometry": true,
+        "legacy": {
+          "status": "appearance measured",
+          "reason": "Colored interior of the segmented syringe",
+          "lightness": {
+            "lstar": 39.9,
+            "iqr": [
+              37.1,
+              45.2
+            ],
+            "category": "medium"
+          },
+          "region": [
+            0.05476190476190476,
+            0.4562043795620438,
+            0.4095238095238095,
+            0.6642335766423357
+          ],
+          "support_fraction": 0.265,
+          "opacity": null,
+          "opacity_reason": "A registered clear-barrel reference at the same exposure is required."
+        },
+        "candidate": {
+          "status": "appearance measured",
+          "reason": "Measured within the supported barrel interior",
+          "lightness": {
+            "lstar": 42.9,
+            "iqr": [
+              39.8,
+              48.7
+            ],
+            "category": "medium"
+          },
+          "apparent_color": {
+            "lab": [
+              42.9,
+              16.1,
+              29.8
+            ],
+            "chroma": 33.8,
+            "srgb": [
+              139,
+              90,
+              54
+            ],
+            "profile": "Embedded profile converted to sRGB"
+          },
+          "region": [
+            0.05476190476190476,
+            0.44525547445255476,
+            0.32857142857142857,
+            0.6131386861313869
+          ],
+          "opacity": null,
+          "opacity_reason": "A registered clear-barrel reference at the same exposure is required."
+        },
+        "valid_region": true
+      },
+      "IMG_3243": {
+        "geometry": false,
+        "legacy": {
+          "status": "appearance measured",
+          "reason": "Colored interior of the segmented syringe",
+          "lightness": {
+            "lstar": 39.7,
+            "iqr": [
+              30.9,
+              47.5
+            ],
+            "category": "medium"
+          },
+          "region": [
+            0.2345679012345679,
+            0.05714285714285714,
+            0.7777777777777778,
+            0.4142857142857143
+          ],
+          "support_fraction": 0.312,
+          "opacity": null,
+          "opacity_reason": "A registered clear-barrel reference at the same exposure is required."
+        },
+        "candidate": {
+          "status": "appearance measured",
+          "reason": "Colored interior of the segmented syringe",
+          "lightness": {
+            "lstar": 39.7,
+            "iqr": [
+              30.9,
+              47.5
+            ],
+            "category": "medium"
+          },
+          "region": [
+            0.2345679012345679,
+            0.05714285714285714,
+            0.7777777777777778,
+            0.4142857142857143
+          ],
+          "support_fraction": 0.312,
+          "opacity": null,
+          "opacity_reason": "A registered clear-barrel reference at the same exposure is required."
+        },
+        "valid_region": true,
+        "legacy_error": 4.910595703124997,
+        "candidate_error": 4.910595703124997
+      },
+      "IMG_3244": {
+        "geometry": true,
+        "legacy": {
+          "status": "appearance measured",
+          "reason": "Colored interior of the segmented syringe",
+          "lightness": {
+            "lstar": 41.8,
+            "iqr": [
+              32.5,
+              49.1
+            ],
+            "category": "medium"
+          },
+          "region": [
+            0.2631578947368421,
+            0.06190476190476191,
+            0.7894736842105263,
+            0.45714285714285713
+          ],
+          "support_fraction": 0.358,
+          "opacity": null,
+          "opacity_reason": "A registered clear-barrel reference at the same exposure is required."
+        },
+        "candidate": {
+          "status": "appearance measured",
+          "reason": "Measured within the supported barrel interior",
+          "lightness": {
+            "lstar": 40.6,
+            "iqr": [
+              32.0,
+              48.8
+            ],
+            "category": "medium"
+          },
+          "apparent_color": {
+            "lab": [
+              40.6,
+              16.3,
+              34.4
+            ],
+            "chroma": 38.0,
+            "srgb": [
+              136,
+              83,
+              29
+            ],
+            "profile": "Embedded profile converted to sRGB"
+          },
+          "region": [
+            0.29473684210526313,
+            0.12142857142857143,
+            0.6210526315789474,
+            0.3880952380952381
+          ],
+          "opacity": null,
+          "opacity_reason": "A registered clear-barrel reference at the same exposure is required."
+        },
+        "valid_region": true,
+        "legacy_error": 4.745410156250003,
+        "candidate_error": 5.945410156249999
+      },
+      "IMG_3245": {
+        "geometry": true,
+        "legacy": {
+          "status": "appearance measured",
+          "reason": "Colored interior of the segmented syringe",
+          "lightness": {
+            "lstar": 41.3,
+            "iqr": [
+              32.4,
+              49.4
+            ],
+            "category": "medium"
+          },
+          "region": [
+            0.2882882882882883,
+            0.07380952380952381,
+            0.7927927927927928,
+            0.530952380952381
+          ],
+          "support_fraction": 0.37,
+          "opacity": null,
+          "opacity_reason": "A registered clear-barrel reference at the same exposure is required."
+        },
+        "candidate": {
+          "status": "appearance measured",
+          "reason": "Measured within the supported barrel interior",
+          "lightness": {
+            "lstar": 38.1,
+            "iqr": [
+              32.3,
+              44.3
+            ],
+            "category": "medium"
+          },
+          "apparent_color": {
+            "lab": [
+              38.1,
+              19.4,
+              39.7
+            ],
+            "chroma": 44.2,
+            "srgb": [
+              132,
+              76,
+              16
+            ],
+            "profile": "Embedded profile converted to sRGB"
+          },
+          "region": [
+            0.38738738738738737,
+            0.07142857142857142,
+            0.7387387387387387,
+            0.45476190476190476
+          ],
+          "opacity": null,
+          "opacity_reason": "A registered clear-barrel reference at the same exposure is required."
+        },
+        "valid_region": true,
+        "legacy_error": 8.956347656250003,
+        "candidate_error": 12.156347656249999
+      },
+      "IMG_3246": {
+        "geometry": false,
+        "legacy": {
+          "status": "appearance measured",
+          "reason": "Colored interior of the segmented syringe",
+          "lightness": {
+            "lstar": 35.5,
+            "iqr": [
+              25.9,
+              43.6
+            ],
+            "category": "medium"
+          },
+          "region": [
+            0.46774193548387094,
+            0.05476190476190476,
+            0.978494623655914,
+            0.4666666666666667
+          ],
+          "support_fraction": 0.343,
+          "opacity": null,
+          "opacity_reason": "A registered clear-barrel reference at the same exposure is required."
+        },
+        "candidate": {
+          "status": "appearance measured",
+          "reason": "Colored interior of the segmented syringe",
+          "lightness": {
+            "lstar": 35.5,
+            "iqr": [
+              25.9,
+              43.6
+            ],
+            "category": "medium"
+          },
+          "region": [
+            0.46774193548387094,
+            0.05476190476190476,
+            0.978494623655914,
+            0.4666666666666667
+          ],
+          "support_fraction": 0.343,
+          "opacity": null,
+          "opacity_reason": "A registered clear-barrel reference at the same exposure is required."
+        },
+        "valid_region": true,
+        "legacy_error": 7.291748046875,
+        "candidate_error": 7.291748046875
+      },
+      "IMG_3247": {
+        "geometry": true,
+        "legacy": {
+          "status": "appearance measured",
+          "reason": "Colored interior of the segmented syringe",
+          "lightness": {
+            "lstar": 42.4,
+            "iqr": [
+              36.7,
+              47.4
+            ],
+            "category": "medium"
+          },
+          "region": [
+            0.29464285714285715,
+            0.0380952380952381,
+            0.9285714285714286,
+            0.43333333333333335
+          ],
+          "support_fraction": 0.39,
+          "opacity": null,
+          "opacity_reason": "A registered clear-barrel reference at the same exposure is required."
+        },
+        "candidate": {
+          "status": "appearance measured",
+          "reason": "Measured within the supported barrel interior",
+          "lightness": {
+            "lstar": 42.1,
+            "iqr": [
+              37.2,
+              45.5
+            ],
+            "category": "medium"
+          },
+          "apparent_color": {
+            "lab": [
+              42.1,
+              17.5,
+              33.9
+            ],
+            "chroma": 38.1,
+            "srgb": [
+              140,
+              87,
+              41
+            ],
+            "profile": "Embedded profile converted to sRGB"
+          },
+          "region": [
+            0.5,
+            0.05714285714285714,
+            0.8839285714285714,
+            0.3404761904761905
+          ],
+          "opacity": null,
+          "opacity_reason": "A registered clear-barrel reference at the same exposure is required."
+        },
+        "valid_region": true
+      },
+      "IMG_3288": {
+        "geometry": true,
+        "legacy": {
+          "status": "appearance measured",
+          "reason": "Colored interior of the segmented syringe",
+          "lightness": {
+            "lstar": 66.6,
+            "iqr": [
+              62.0,
+              70.8
+            ],
+            "category": "light"
+          },
+          "region": [
+            0.24761904761904763,
+            0.04285714285714286,
+            0.6190476190476191,
+            0.4857142857142857
+          ],
+          "support_fraction": 0.373,
+          "opacity": null,
+          "opacity_reason": "A registered clear-barrel reference at the same exposure is required."
+        },
+        "candidate": {
+          "status": "appearance measured",
+          "reason": "Measured within the supported barrel interior",
+          "lightness": {
+            "lstar": 69.3,
+            "iqr": [
+              64.9,
+              72.2
+            ],
+            "category": "light"
+          },
+          "apparent_color": {
+            "lab": [
+              69.3,
+              27.5,
+              49.8
+            ],
+            "chroma": 56.9,
+            "srgb": [
+              239,
+              147,
+              75
+            ],
+            "profile": "Embedded profile converted to sRGB"
+          },
+          "region": [
+            0.3142857142857143,
+            0.06428571428571428,
+            0.5523809523809524,
+            0.38333333333333336
+          ],
+          "opacity": null,
+          "opacity_reason": "A registered clear-barrel reference at the same exposure is required."
+        },
+        "valid_region": true,
+        "legacy_error": 1.4694580078125057,
+        "candidate_error": 1.2305419921874972
+      },
+      "IMG_3289": {
+        "geometry": true,
+        "legacy": {
+          "status": "appearance measured",
+          "reason": "Colored interior of the segmented syringe",
+          "lightness": {
+            "lstar": 63.7,
+            "iqr": [
+              59.1,
+              67.6
+            ],
+            "category": "medium"
+          },
+          "region": [
+            0.20408163265306123,
+            0.05476190476190476,
+            0.5408163265306123,
+            0.5071428571428571
+          ],
+          "support_fraction": 0.405,
+          "opacity": null,
+          "opacity_reason": "A registered clear-barrel reference at the same exposure is required."
+        },
+        "candidate": {
+          "status": "appearance measured",
+          "reason": "Measured within the supported barrel interior",
+          "lightness": {
+            "lstar": 66.2,
+            "iqr": [
+              62.5,
+              69.3
+            ],
+            "category": "light"
+          },
+          "apparent_color": {
+            "lab": [
+              66.2,
+              27.1,
+              45.2
+            ],
+            "chroma": 52.7,
+            "srgb": [
+              228,
+              139,
+              78
+            ],
+            "profile": "Embedded profile converted to sRGB"
+          },
+          "region": [
+            0.23469387755102042,
+            0.06666666666666667,
+            0.45918367346938777,
+            0.38571428571428573
+          ],
+          "opacity": null,
+          "opacity_reason": "A registered clear-barrel reference at the same exposure is required."
+        },
+        "valid_region": true,
+        "legacy_error": 1.0460937499999972,
+        "candidate_error": 1.4539062500000028
+      },
+      "IMG_3290": {
+        "geometry": true,
+        "legacy": {
+          "status": "appearance measured",
+          "reason": "Colored interior of the segmented syringe",
+          "lightness": {
+            "lstar": 65.2,
+            "iqr": [
+              61.4,
+              67.6
+            ],
+            "category": "light"
+          },
+          "region": [
+            0.46923076923076923,
+            0.05238095238095238,
+            0.9423076923076923,
+            0.4785714285714286
+          ],
+          "support_fraction": 0.388,
+          "opacity": null,
+          "opacity_reason": "A registered clear-barrel reference at the same exposure is required."
+        },
+        "candidate": {
+          "status": "appearance measured",
+          "reason": "Measured within the supported barrel interior",
+          "lightness": {
+            "lstar": 66.8,
+            "iqr": [
+              63.3,
+              70.1
+            ],
+            "category": "light"
+          },
+          "apparent_color": {
+            "lab": [
+              66.8,
+              25.6,
+              41.9
+            ],
+            "chroma": 49.1,
+            "srgb": [
+              226,
+              143,
+              88
+            ],
+            "profile": "Embedded profile converted to sRGB"
+          },
+          "region": [
+            0.5346153846153846,
+            0.05952380952380952,
+            0.8692307692307693,
+            0.3976190476190476
+          ],
+          "opacity": null,
+          "opacity_reason": "A registered clear-barrel reference at the same exposure is required."
+        },
+        "valid_region": true,
+        "legacy_error": 1.2489746093749972,
+        "candidate_error": 0.35102539062499716
+      },
+      "IMG_3291": {
+        "geometry": false,
+        "legacy": {
+          "status": "insufficient evidence",
+          "reason": "The syringe silhouette is too small or incomplete.",
+          "lightness": null,
+          "opacity": null,
+          "opacity_reason": "A registered clear-barrel reference at the same exposure is required."
+        },
+        "candidate": {
+          "status": "insufficient evidence",
+          "reason": "The syringe silhouette is too small or incomplete.",
+          "lightness": null,
+          "opacity": null,
+          "opacity_reason": "A registered clear-barrel reference at the same exposure is required."
+        },
+        "valid_region": true
+      },
+      "IMG_3292": {
+        "geometry": true,
+        "legacy": {
+          "status": "appearance measured",
+          "reason": "Colored interior of the segmented syringe",
+          "lightness": {
+            "lstar": 67.5,
+            "iqr": [
+              64.2,
+              70.8
+            ],
+            "category": "light"
+          },
+          "region": [
+            0.24468085106382978,
+            0.06428571428571428,
+            0.9148936170212766,
+            0.5952380952380952
+          ],
+          "support_fraction": 0.468,
+          "opacity": null,
+          "opacity_reason": "A registered clear-barrel reference at the same exposure is required."
+        },
+        "candidate": {
+          "status": "appearance measured",
+          "reason": "Measured within the supported barrel interior",
+          "lightness": {
+            "lstar": 67.6,
+            "iqr": [
+              64.7,
+              71.1
+            ],
+            "category": "light"
+          },
+          "apparent_color": {
+            "lab": [
+              67.6,
+              24.3,
+              39.4
+            ],
+            "chroma": 46.3,
+            "srgb": [
+              230,
+              145,
+              95
+            ],
+            "profile": "Embedded profile converted to sRGB"
+          },
+          "region": [
+            0.22340425531914893,
+            0.13095238095238096,
+            0.7021276595744681,
+            0.4976190476190476
+          ],
+          "opacity": null,
+          "opacity_reason": "A registered clear-barrel reference at the same exposure is required."
+        },
+        "valid_region": true,
+        "legacy_error": 2.2662353515625,
+        "candidate_error": 2.1662353515625057
+      },
+      "IMG_3293": {
+        "geometry": true,
+        "legacy": {
+          "status": "appearance measured",
+          "reason": "Colored interior of the segmented syringe",
+          "lightness": {
+            "lstar": 64.3,
+            "iqr": [
+              60.5,
+              67.5
+            ],
+            "category": "medium"
+          },
+          "region": [
+            0.30952380952380953,
+            0.05,
+            0.7023809523809523,
+            0.4976190476190476
+          ],
+          "support_fraction": 0.381,
+          "opacity": null,
+          "opacity_reason": "A registered clear-barrel reference at the same exposure is required."
+        },
+        "candidate": {
+          "status": "appearance measured",
+          "reason": "Measured within the supported barrel interior",
+          "lightness": {
+            "lstar": 65.7,
+            "iqr": [
+              62.4,
+              68.1
+            ],
+            "category": "light"
+          },
+          "apparent_color": {
+            "lab": [
+              65.7,
+              29.0,
+              49.0
+            ],
+            "chroma": 56.9,
+            "srgb": [
+              230,
+              137,
+              70
+            ],
+            "profile": "Embedded profile converted to sRGB"
+          },
+          "region": [
+            0.36904761904761907,
+            0.06190476190476191,
+            0.6666666666666666,
+            0.3595238095238095
+          ],
+          "opacity": null,
+          "opacity_reason": "A registered clear-barrel reference at the same exposure is required."
+        },
+        "valid_region": true,
+        "legacy_error": 1.0747558593750028,
+        "candidate_error": 0.32524414062500284
+      },
+      "IMG_3294": {
+        "geometry": true,
+        "legacy": {
+          "status": "appearance measured",
+          "reason": "Colored interior of the segmented syringe",
+          "lightness": {
+            "lstar": 63.7,
+            "iqr": [
+              60.7,
+              66.8
+            ],
+            "category": "medium"
+          },
+          "region": [
+            0.1232876712328767,
+            0.05952380952380952,
+            0.684931506849315,
+            0.5285714285714286
+          ],
+          "support_fraction": 0.564,
+          "opacity": null,
+          "opacity_reason": "A registered clear-barrel reference at the same exposure is required."
+        },
+        "candidate": {
+          "status": "appearance measured",
+          "reason": "Measured within the supported barrel interior",
+          "lightness": {
+            "lstar": 62.9,
+            "iqr": [
+              60.7,
+              65.2
+            ],
+            "category": "medium"
+          },
+          "apparent_color": {
+            "lab": [
+              62.9,
+              31.4,
+              45.8
+            ],
+            "chroma": 55.5,
+            "srgb": [
+              222,
+              128,
+              70
+            ],
+            "profile": "Embedded profile converted to sRGB"
+          },
+          "region": [
+            0.2602739726027397,
+            0.1261904761904762,
+            0.684931506849315,
+            0.4452380952380952
+          ],
+          "opacity": null,
+          "opacity_reason": "A registered clear-barrel reference at the same exposure is required."
+        },
+        "valid_region": true,
+        "legacy_error": 0.40043945312500284,
+        "candidate_error": 0.3995605468750014
+      },
+      "IMG_3295": {
+        "geometry": true,
+        "legacy": {
+          "status": "appearance measured",
+          "reason": "Colored interior of the segmented syringe",
+          "lightness": {
+            "lstar": 64.3,
+            "iqr": [
+              61.0,
+              68.1
+            ],
+            "category": "medium"
+          },
+          "region": [
+            0.16842105263157894,
+            0.08333333333333333,
+            0.7052631578947368,
+            0.5952380952380952
+          ],
+          "support_fraction": 0.438,
+          "opacity": null,
+          "opacity_reason": "A registered clear-barrel reference at the same exposure is required."
+        },
+        "candidate": {
+          "status": "appearance measured",
+          "reason": "Measured within the supported barrel interior",
+          "lightness": {
+            "lstar": 64.5,
+            "iqr": [
+              61.6,
+              67.2
+            ],
+            "category": "medium"
+          },
+          "apparent_color": {
+            "lab": [
+              64.5,
+              29.7,
+              44.9
+            ],
+            "chroma": 53.9,
+            "srgb": [
+              226,
+              133,
+              75
+            ],
+            "profile": "Embedded profile converted to sRGB"
+          },
+          "region": [
+            0.16842105263157894,
+            0.12857142857142856,
+            0.6631578947368421,
+            0.4976190476190476
+          ],
+          "opacity": null,
+          "opacity_reason": "A registered clear-barrel reference at the same exposure is required."
+        },
+        "valid_region": true,
+        "legacy_error": 0.26298828125000284,
+        "candidate_error": 0.06298828125
+      },
+      "IMG_3296": {
+        "geometry": true,
+        "legacy": {
+          "status": "appearance measured",
+          "reason": "Colored interior of the segmented syringe",
+          "lightness": {
+            "lstar": 64.6,
+            "iqr": [
+              59.3,
+              68.1
+            ],
+            "category": "medium"
+          },
+          "region": [
+            0.12244897959183673,
+            0.11904761904761904,
+            0.6190476190476191,
+            0.5452380952380952
+          ],
+          "support_fraction": 0.353,
+          "opacity": null,
+          "opacity_reason": "A registered clear-barrel reference at the same exposure is required."
+        },
+        "candidate": {
+          "status": "appearance measured",
+          "reason": "Measured within the supported barrel interior",
+          "lightness": {
+            "lstar": 63.9,
+            "iqr": [
+              58.8,
+              67.9
+            ],
+            "category": "medium"
+          },
+          "apparent_color": {
+            "lab": [
+              63.9,
+              31.3,
+              43.7
+            ],
+            "chroma": 53.8,
+            "srgb": [
+              224,
+              131,
+              77
+            ],
+            "profile": "Embedded profile converted to sRGB"
+          },
+          "region": [
+            0.10884353741496598,
+            0.13333333333333333,
+            0.6054421768707483,
+            0.5404761904761904
+          ],
+          "opacity": null,
+          "opacity_reason": "A registered clear-barrel reference at the same exposure is required."
+        },
+        "valid_region": true,
+        "legacy_error": 1.6849609374999943,
+        "candidate_error": 0.9849609374999986
+      },
+      "IMG_3297": {
+        "geometry": true,
+        "legacy": {
+          "status": "appearance measured",
+          "reason": "Colored interior of the segmented syringe",
+          "lightness": {
+            "lstar": 62.6,
+            "iqr": [
+              58.9,
+              65.9
+            ],
+            "category": "medium"
+          },
+          "region": [
+            0.13043478260869565,
+            0.08095238095238096,
+            0.6376811594202898,
+            0.5428571428571428
+          ],
+          "support_fraction": 0.405,
+          "opacity": null,
+          "opacity_reason": "A registered clear-barrel reference at the same exposure is required."
+        },
+        "candidate": {
+          "status": "appearance measured",
+          "reason": "Measured within the supported barrel interior",
+          "lightness": {
+            "lstar": 62.4,
+            "iqr": [
+              59.6,
+              66.7
+            ],
+            "category": "medium"
+          },
+          "apparent_color": {
+            "lab": [
+              62.4,
+              29.6,
+              41.9
+            ],
+            "chroma": 51.3,
+            "srgb": [
+              221,
+              128,
+              75
+            ],
+            "profile": "Embedded profile converted to sRGB"
+          },
+          "region": [
+            0.09420289855072464,
+            0.12142857142857143,
+            0.5289855072463768,
+            0.45714285714285713
+          ],
+          "opacity": null,
+          "opacity_reason": "A registered clear-barrel reference at the same exposure is required."
+        },
+        "valid_region": true,
+        "legacy_error": 3.8475585937500014,
+        "candidate_error": 3.6475585937499986
+      },
+      "IMG_3298": {
+        "geometry": true,
+        "legacy": {
+          "status": "appearance measured",
+          "reason": "Colored interior of the segmented syringe",
+          "lightness": {
+            "lstar": 70.4,
+            "iqr": [
+              66.8,
+              75.1
+            ],
+            "category": "light"
+          },
+          "region": [
+            0.32432432432432434,
+            0.08095238095238096,
+            0.7972972972972973,
+            0.5214285714285715
+          ],
+          "support_fraction": 0.251,
+          "opacity": null,
+          "opacity_reason": "A registered clear-barrel reference at the same exposure is required."
+        },
+        "candidate": {
+          "status": "appearance measured",
+          "reason": "Measured within the supported barrel interior",
+          "lightness": {
+            "lstar": 70.9,
+            "iqr": [
+              67.4,
+              76.4
+            ],
+            "category": "light"
+          },
+          "apparent_color": {
+            "lab": [
+              70.9,
+              25.8,
+              43.4
+            ],
+            "chroma": 50.5,
+            "srgb": [
+              239,
+              154,
+              93
+            ],
+            "profile": "Embedded profile converted to sRGB"
+          },
+          "region": [
+            0.3716216216216216,
+            0.13333333333333333,
+            0.7972972972972973,
+            0.5214285714285715
+          ],
+          "opacity": null,
+          "opacity_reason": "A registered clear-barrel reference at the same exposure is required."
+        },
+        "valid_region": true,
+        "legacy_error": 23.195410156250006,
+        "candidate_error": 23.695410156250006
+      },
+      "IMG_3299": {
+        "geometry": true,
+        "legacy": {
+          "status": "appearance measured",
+          "reason": "Colored interior of the segmented syringe",
+          "lightness": {
+            "lstar": 66.3,
+            "iqr": [
+              62.4,
+              70.0
+            ],
+            "category": "light"
+          },
+          "region": [
+            0.5,
+            0.05238095238095238,
+            0.9532710280373832,
+            0.48095238095238096
+          ],
+          "support_fraction": 0.365,
+          "opacity": null,
+          "opacity_reason": "A registered clear-barrel reference at the same exposure is required."
+        },
+        "candidate": {
+          "status": "appearance measured",
+          "reason": "Measured within the supported barrel interior",
+          "lightness": {
+            "lstar": 69.0,
+            "iqr": [
+              64.7,
+              71.5
+            ],
+            "category": "light"
+          },
+          "apparent_color": {
+            "lab": [
+              69.0,
+              23.6,
+              37.1
+            ],
+            "chroma": 43.9,
+            "srgb": [
+              228,
+              151,
+              103
+            ],
+            "profile": "Embedded profile converted to sRGB"
+          },
+          "region": [
+            0.5700934579439252,
+            0.06190476190476191,
+            0.883177570093458,
+            0.3904761904761905
+          ],
+          "opacity": null,
+          "opacity_reason": "A registered clear-barrel reference at the same exposure is required."
+        },
+        "valid_region": true,
+        "legacy_error": 1.6809570312500028,
+        "candidate_error": 1.01904296875
+      },
+      "IMG_3300": {
+        "geometry": false,
+        "legacy": {
+          "status": "insufficient evidence",
+          "reason": "The syringe silhouette is too small or incomplete.",
+          "lightness": null,
+          "opacity": null,
+          "opacity_reason": "A registered clear-barrel reference at the same exposure is required."
+        },
+        "candidate": {
+          "status": "insufficient evidence",
+          "reason": "The syringe silhouette is too small or incomplete.",
+          "lightness": null,
+          "opacity": null,
+          "opacity_reason": "A registered clear-barrel reference at the same exposure is required."
+        },
+        "valid_region": true
+      },
+      "IMG_3301": {
+        "geometry": false,
+        "legacy": {
+          "status": "appearance measured",
+          "reason": "Colored interior of the segmented syringe",
+          "lightness": {
+            "lstar": 66.1,
+            "iqr": [
+              62.5,
+              70.7
+            ],
+            "category": "light"
+          },
+          "region": [
+            0.21649484536082475,
+            0.05952380952380952,
+            0.865979381443299,
+            0.5547619047619048
+          ],
+          "support_fraction": 0.524,
+          "opacity": null,
+          "opacity_reason": "A registered clear-barrel reference at the same exposure is required."
+        },
+        "candidate": {
+          "status": "appearance measured",
+          "reason": "Colored interior of the segmented syringe",
+          "lightness": {
+            "lstar": 66.1,
+            "iqr": [
+              62.5,
+              70.7
+            ],
+            "category": "light"
+          },
+          "region": [
+            0.21649484536082475,
+            0.05952380952380952,
+            0.865979381443299,
+            0.5547619047619048
+          ],
+          "support_fraction": 0.524,
+          "opacity": null,
+          "opacity_reason": "A registered clear-barrel reference at the same exposure is required."
+        },
+        "valid_region": true,
+        "legacy_error": 17.241357421874994,
+        "candidate_error": 17.241357421874994
+      },
+      "IMG_3302": {
+        "geometry": true,
+        "legacy": {
+          "status": "appearance measured",
+          "reason": "Colored interior of the segmented syringe",
+          "lightness": {
+            "lstar": 65.8,
+            "iqr": [
+              61.5,
+              70.3
+            ],
+            "category": "light"
+          },
+          "region": [
+            0.3684210526315789,
+            0.03571428571428571,
+            0.8842105263157894,
+            0.48095238095238096
+          ],
+          "support_fraction": 0.342,
+          "opacity": null,
+          "opacity_reason": "A registered clear-barrel reference at the same exposure is required."
+        },
+        "candidate": {
+          "status": "appearance measured",
+          "reason": "Measured within the supported barrel interior",
+          "lightness": {
+            "lstar": 66.2,
+            "iqr": [
+              62.6,
+              70.8
+            ],
+            "category": "light"
+          },
+          "apparent_color": {
+            "lab": [
+              66.2,
+              29.4,
+              45.0
+            ],
+            "chroma": 53.7,
+            "srgb": [
+              229,
+              139,
+              80
+            ],
+            "profile": "Embedded profile converted to sRGB"
+          },
+          "region": [
+            0.4631578947368421,
+            0.06190476190476191,
+            0.8631578947368421,
+            0.38095238095238093
+          ],
+          "opacity": null,
+          "opacity_reason": "A registered clear-barrel reference at the same exposure is required."
+        },
+        "valid_region": true,
+        "legacy_error": 17.386914062499997
+      },
+      "IMG_3303": {
+        "geometry": true,
+        "legacy": {
+          "status": "appearance measured",
+          "reason": "Colored interior of the segmented syringe",
+          "lightness": {
+            "lstar": 63.4,
+            "iqr": [
+              58.1,
+              67.6
+            ],
+            "category": "medium"
+          },
+          "region": [
+            0.07391304347826087,
+            0.009523809523809525,
+            0.4782608695652174,
+            0.4142857142857143
+          ],
+          "support_fraction": 0.32,
+          "opacity": null,
+          "opacity_reason": "A registered clear-barrel reference at the same exposure is required."
+        },
+        "candidate": {
+          "status": "appearance measured",
+          "reason": "Measured within the supported barrel interior",
+          "lightness": {
+            "lstar": 65.3,
+            "iqr": [
+              59.5,
+              69.0
+            ],
+            "category": "light"
+          },
+          "apparent_color": {
+            "lab": [
+              65.3,
+              29.9,
+              47.6
+            ],
+            "chroma": 56.3,
+            "srgb": [
+              230,
+              135,
+              71
+            ],
+            "profile": "Embedded profile converted to sRGB"
+          },
+          "region": [
+            0.08260869565217391,
+            0.05,
+            0.4391304347826087,
+            0.34523809523809523
+          ],
+          "opacity": null,
+          "opacity_reason": "A registered clear-barrel reference at the same exposure is required."
+        },
+        "valid_region": true,
+        "legacy_error": 2.7157958984374986,
+        "candidate_error": 4.615795898437497
+      },
+      "IMG_3304": {
+        "geometry": true,
+        "legacy": {
+          "status": "appearance measured",
+          "reason": "Colored interior of the segmented syringe",
+          "lightness": {
+            "lstar": 58.3,
+            "iqr": [
+              54.3,
+              64.2
+            ],
+            "category": "medium"
+          },
+          "region": [
+            0.019230769230769232,
+            0.016666666666666666,
+            0.5256410256410257,
+            0.5142857142857142
+          ],
+          "support_fraction": 0.372,
+          "opacity": null,
+          "opacity_reason": "A registered clear-barrel reference at the same exposure is required."
+        },
+        "candidate": {
+          "status": "appearance measured",
+          "reason": "Measured within the supported barrel interior",
+          "lightness": {
+            "lstar": 58.3,
+            "iqr": [
+              56.6,
+              62.0
+            ],
+            "category": "medium"
+          },
+          "apparent_color": {
+            "lab": [
+              58.3,
+              30.6,
+              44.8
+            ],
+            "chroma": 54.2,
+            "srgb": [
+              212,
+              115,
+              63
+            ],
+            "profile": "Embedded profile converted to sRGB"
+          },
+          "region": [
+            0.11858974358974358,
+            0.06904761904761905,
+            0.46153846153846156,
+            0.4166666666666667
+          ],
+          "opacity": null,
+          "opacity_reason": "A registered clear-barrel reference at the same exposure is required."
+        },
+        "valid_region": true,
+        "legacy_error": 0.13654785156249716,
+        "candidate_error": 0.13654785156249716
+      },
+      "IMG_3305": {
+        "geometry": true,
+        "legacy": {
+          "status": "appearance measured",
+          "reason": "Colored interior of the segmented syringe",
+          "lightness": {
+            "lstar": 65.9,
+            "iqr": [
+              62.0,
+              69.4
+            ],
+            "category": "light"
+          },
+          "region": [
+            0.1262135922330097,
+            0.05,
+            0.6407766990291263,
+            0.5833333333333334
+          ],
+          "support_fraction": 0.424,
+          "opacity": null,
+          "opacity_reason": "A registered clear-barrel reference at the same exposure is required."
+        },
+        "candidate": {
+          "status": "appearance measured",
+          "reason": "Measured within the supported barrel interior",
+          "lightness": {
+            "lstar": 65.1,
+            "iqr": [
+              61.9,
+              68.7
+            ],
+            "category": "light"
+          },
+          "apparent_color": {
+            "lab": [
+              65.1,
+              31.3,
+              47.6
+            ],
+            "chroma": 57.0,
+            "srgb": [
+              231,
+              133,
+              74
+            ],
+            "profile": "Embedded profile converted to sRGB"
+          },
+          "region": [
+            0.2815533980582524,
+            0.13333333333333333,
+            0.6310679611650486,
+            0.5214285714285715
+          ],
+          "opacity": null,
+          "opacity_reason": "A registered clear-barrel reference at the same exposure is required."
+        },
+        "valid_region": true,
+        "legacy_error": 2.0962158203124943,
+        "candidate_error": 2.8962158203125057
+      },
+      "IMG_3306": {
+        "geometry": true,
+        "legacy": {
+          "status": "appearance measured",
+          "reason": "Colored interior of the segmented syringe",
+          "lightness": {
+            "lstar": 64.5,
+            "iqr": [
+              61.2,
+              68.4
+            ],
+            "category": "medium"
+          },
+          "region": [
+            0.35714285714285715,
+            0.04047619047619048,
+            0.9081632653061225,
+            0.5238095238095238
+          ],
+          "support_fraction": 0.633,
+          "opacity": null,
+          "opacity_reason": "A registered clear-barrel reference at the same exposure is required."
+        },
+        "candidate": {
+          "status": "appearance measured",
+          "reason": "Measured within the supported barrel interior",
+          "lightness": {
+            "lstar": 65.1,
+            "iqr": [
+              62.4,
+              67.9
+            ],
+            "category": "light"
+          },
+          "apparent_color": {
+            "lab": [
+              65.1,
+              31.1,
+              48.0
+            ],
+            "chroma": 57.2,
+            "srgb": [
+              228,
+              133,
+              72
+            ],
+            "profile": "Embedded profile converted to sRGB"
+          },
+          "region": [
+            0.5102040816326531,
+            0.06666666666666667,
+            0.8877551020408163,
+            0.40714285714285714
+          ],
+          "opacity": null,
+          "opacity_reason": "A registered clear-barrel reference at the same exposure is required."
+        },
+        "valid_region": true,
+        "legacy_error": 1.005126953125,
+        "candidate_error": 1.6051269531249943
+      },
+      "IMG_3307": {
+        "geometry": true,
+        "legacy": {
+          "status": "appearance measured",
+          "reason": "Colored interior of the segmented syringe",
+          "lightness": {
+            "lstar": 63.4,
+            "iqr": [
+              58.6,
+              69.9
+            ],
+            "category": "medium"
+          },
+          "region": [
+            0.41379310344827586,
+            0.05238095238095238,
+            0.9080459770114943,
+            0.5452380952380952
+          ],
+          "support_fraction": 0.371,
+          "opacity": null,
+          "opacity_reason": "A registered clear-barrel reference at the same exposure is required."
+        },
+        "candidate": {
+          "status": "appearance measured",
+          "reason": "Measured within the supported barrel interior",
+          "lightness": {
+            "lstar": 66.1,
+            "iqr": [
+              60.3,
+              72.4
+            ],
+            "category": "light"
+          },
+          "apparent_color": {
+            "lab": [
+              66.1,
+              30.3,
+              49.4
+            ],
+            "chroma": 58.0,
+            "srgb": [
+              233,
+              137,
+              71
+            ],
+            "profile": "Embedded profile converted to sRGB"
+          },
+          "region": [
+            0.5172413793103449,
+            0.06666666666666667,
+            0.8390804597701149,
+            0.40714285714285714
+          ],
+          "opacity": null,
+          "opacity_reason": "A registered clear-barrel reference at the same exposure is required."
+        },
+        "valid_region": true,
+        "legacy_error": 2.4355712890625014,
+        "candidate_error": 0.2644287109374943
+      },
+      "IMG_3308": {
+        "geometry": true,
+        "legacy": {
+          "status": "appearance measured",
+          "reason": "Colored interior of the segmented syringe",
+          "lightness": {
+            "lstar": 63.0,
+            "iqr": [
+              58.6,
+              68.0
+            ],
+            "category": "medium"
+          },
+          "region": [
+            0.37662337662337664,
+            0.04523809523809524,
+            0.8961038961038961,
+            0.4642857142857143
+          ],
+          "support_fraction": 0.36,
+          "opacity": null,
+          "opacity_reason": "A registered clear-barrel reference at the same exposure is required."
+        },
+        "candidate": {
+          "status": "appearance measured",
+          "reason": "Measured within the supported barrel interior",
+          "lightness": {
+            "lstar": 64.8,
+            "iqr": [
+              60.8,
+              68.7
+            ],
+            "category": "medium"
+          },
+          "apparent_color": {
+            "lab": [
+              64.8,
+              27.3,
+              45.8
+            ],
+            "chroma": 53.3,
+            "srgb": [
+              226,
+              135,
+              72
+            ],
+            "profile": "Embedded profile converted to sRGB"
+          },
+          "region": [
+            0.4025974025974026,
+            0.11904761904761904,
+            0.7532467532467533,
+            0.35714285714285715
+          ],
+          "opacity": null,
+          "opacity_reason": "A registered clear-barrel reference at the same exposure is required."
+        },
+        "valid_region": true,
+        "legacy_error": 2.4144287109375,
+        "candidate_error": 0.6144287109375028
+      },
+      "IMG_3309": {
+        "geometry": true,
+        "legacy": {
+          "status": "appearance measured",
+          "reason": "Colored interior of the segmented syringe",
+          "lightness": {
+            "lstar": 63.5,
+            "iqr": [
+              57.5,
+              68.1
+            ],
+            "category": "medium"
+          },
+          "region": [
+            0.11894273127753303,
+            0.023809523809523808,
+            0.5242290748898678,
+            0.42142857142857143
+          ],
+          "support_fraction": 0.333,
+          "opacity": null,
+          "opacity_reason": "A registered clear-barrel reference at the same exposure is required."
+        },
+        "candidate": {
+          "status": "appearance measured",
+          "reason": "Measured within the supported barrel interior",
+          "lightness": {
+            "lstar": 66.5,
+            "iqr": [
+              62.8,
+              71.0
+            ],
+            "category": "light"
+          },
+          "apparent_color": {
+            "lab": [
+              66.5,
+              26.7,
+              43.3
+            ],
+            "chroma": 50.9,
+            "srgb": [
+              229,
+              141,
+              83
+            ],
+            "profile": "Embedded profile converted to sRGB"
+          },
+          "region": [
+            0.13656387665198239,
+            0.05,
+            0.43171806167400884,
+            0.3333333333333333
+          ],
+          "opacity": null,
+          "opacity_reason": "A registered clear-barrel reference at the same exposure is required."
+        },
+        "valid_region": true,
+        "legacy_error": 2.3355712890625,
+        "candidate_error": 0.6644287109375
+      },
+      "IMG_3310": {
+        "geometry": true,
+        "legacy": {
+          "status": "appearance measured",
+          "reason": "Colored interior of the segmented syringe",
+          "lightness": {
+            "lstar": 63.4,
+            "iqr": [
+              60.4,
+              66.2
+            ],
+            "category": "medium"
+          },
+          "region": [
+            0.044585987261146494,
+            0.016666666666666666,
+            0.4840764331210191,
+            0.3619047619047619
+          ],
+          "support_fraction": 0.284,
+          "opacity": null,
+          "opacity_reason": "A registered clear-barrel reference at the same exposure is required."
+        },
+        "candidate": {
+          "status": "appearance measured",
+          "reason": "Measured within the supported barrel interior",
+          "lightness": {
+            "lstar": 63.7,
+            "iqr": [
+              61.7,
+              65.2
+            ],
+            "category": "medium"
+          },
+          "apparent_color": {
+            "lab": [
+              63.7,
+              29.3,
+              44.5
+            ],
+            "chroma": 53.3,
+            "srgb": [
+              219,
+              132,
+              75
+            ],
+            "profile": "Embedded profile converted to sRGB"
+          },
+          "region": [
+            0.10828025477707007,
+            0.05,
+            0.42038216560509556,
+            0.2904761904761905
+          ],
+          "opacity": null,
+          "opacity_reason": "A registered clear-barrel reference at the same exposure is required."
+        },
+        "valid_region": true,
+        "legacy_error": 15.774267578124999,
+        "candidate_error": 16.074267578125003
+      },
+      "IMG_3311": {
+        "geometry": true,
+        "legacy": {
+          "status": "appearance measured",
+          "reason": "Colored interior of the segmented syringe",
+          "lightness": {
+            "lstar": 58.5,
+            "iqr": [
+              55.9,
+              61.8
+            ],
+            "category": "medium"
+          },
+          "region": [
+            0.03862660944206009,
+            0.023809523809523808,
+            0.45493562231759654,
+            0.3952380952380952
+          ],
+          "support_fraction": 0.302,
+          "opacity": null,
+          "opacity_reason": "A registered clear-barrel reference at the same exposure is required."
+        },
+        "candidate": {
+          "status": "appearance measured",
+          "reason": "Measured within the supported barrel interior",
+          "lightness": {
+            "lstar": 58.4,
+            "iqr": [
+              56.8,
+              59.7
+            ],
+            "category": "medium"
+          },
+          "apparent_color": {
+            "lab": [
+              58.4,
+              30.6,
+              42.1
+            ],
+            "chroma": 52.0,
+            "srgb": [
+              205,
+              118,
+              67
+            ],
+            "profile": "Embedded profile converted to sRGB"
+          },
+          "region": [
+            0.11587982832618025,
+            0.05,
+            0.39914163090128757,
+            0.28809523809523807
+          ],
+          "opacity": null,
+          "opacity_reason": "A registered clear-barrel reference at the same exposure is required."
+        },
+        "valid_region": true,
+        "legacy_error": 1.55419921875,
+        "candidate_error": 1.4541992187499986
+      },
+      "IMG_3312": {
+        "geometry": true,
+        "legacy": {
+          "status": "appearance measured",
+          "reason": "Colored interior of the segmented syringe",
+          "lightness": {
+            "lstar": 65.6,
+            "iqr": [
+              60.1,
+              70.5
+            ],
+            "category": "light"
+          },
+          "region": [
+            0.37383177570093457,
+            0.05476190476190476,
+            0.7009345794392523,
+            0.44285714285714284
+          ],
+          "support_fraction": 0.355,
+          "opacity": null,
+          "opacity_reason": "A registered clear-barrel reference at the same exposure is required."
+        },
+        "candidate": {
+          "status": "appearance measured",
+          "reason": "Measured within the supported barrel interior",
+          "lightness": {
+            "lstar": 67.2,
+            "iqr": [
+              60.9,
+              71.3
+            ],
+            "category": "light"
+          },
+          "apparent_color": {
+            "lab": [
+              67.2,
+              27.3,
+              39.4
+            ],
+            "chroma": 48.0,
+            "srgb": [
+              230,
+              143,
+              92
+            ],
+            "profile": "Embedded profile converted to sRGB"
+          },
+          "region": [
+            0.37383177570093457,
+            0.11904761904761904,
+            0.616822429906542,
+            0.36666666666666664
+          ],
+          "opacity": null,
+          "opacity_reason": "A registered clear-barrel reference at the same exposure is required."
+        },
+        "valid_region": true,
+        "legacy_error": 1.7309326171875057,
+        "candidate_error": 0.13093261718749716
+      },
+      "IMG_3313": {
+        "geometry": true,
+        "legacy": {
+          "status": "appearance measured",
+          "reason": "Colored interior of the segmented syringe",
+          "lightness": {
+            "lstar": 63.2,
+            "iqr": [
+              57.8,
+              68.8
+            ],
+            "category": "medium"
+          },
+          "region": [
+            0.12435233160621761,
+            0.0380952380952381,
+            0.538860103626943,
+            0.4238095238095238
+          ],
+          "support_fraction": 0.33,
+          "opacity": null,
+          "opacity_reason": "A registered clear-barrel reference at the same exposure is required."
+        },
+        "candidate": {
+          "status": "appearance measured",
+          "reason": "Measured within the supported barrel interior",
+          "lightness": {
+            "lstar": 66.4,
+            "iqr": [
+              61.8,
+              71.3
+            ],
+            "category": "light"
+          },
+          "apparent_color": {
+            "lab": [
+              66.4,
+              26.2,
+              37.6
+            ],
+            "chroma": 45.8,
+            "srgb": [
+              226,
+              141,
+              91
+            ],
+            "profile": "Embedded profile converted to sRGB"
+          },
+          "region": [
+            0.12953367875647667,
+            0.05476190476190476,
+            0.41450777202072536,
+            0.35
+          ],
+          "opacity": null,
+          "opacity_reason": "A registered clear-barrel reference at the same exposure is required."
+        },
+        "valid_region": true,
+        "legacy_error": 0.9357421874999972,
+        "candidate_error": 2.2642578125000057
+      },
+      "IMG_3314": {
+        "geometry": true,
+        "legacy": {
+          "status": "appearance measured",
+          "reason": "Colored interior of the segmented syringe",
+          "lightness": {
+            "lstar": 60.4,
+            "iqr": [
+              54.2,
+              67.6
+            ],
+            "category": "medium"
+          },
+          "region": [
+            0.04523809523809524,
+            0.04678362573099415,
+            0.4238095238095238,
+            0.4152046783625731
+          ],
+          "support_fraction": 0.296,
+          "opacity": null,
+          "opacity_reason": "A registered clear-barrel reference at the same exposure is required."
+        },
+        "candidate": {
+          "status": "appearance measured",
+          "reason": "Measured within the supported barrel interior",
+          "lightness": {
+            "lstar": 61.2,
+            "iqr": [
+              56.3,
+              67.1
+            ],
+            "category": "medium"
+          },
+          "apparent_color": {
+            "lab": [
+              61.2,
+              31.3,
+              43.0
+            ],
+            "chroma": 53.2,
+            "srgb": [
+              217,
+              124,
+              71
+            ],
+            "profile": "Embedded profile converted to sRGB"
+          },
+          "region": [
+            0.08571428571428572,
+            0.04678362573099415,
+            0.3523809523809524,
+            0.32456140350877194
+          ],
+          "opacity": null,
+          "opacity_reason": "A registered clear-barrel reference at the same exposure is required."
+        },
+        "valid_region": true,
+        "legacy_error": 6.366357421875001,
+        "candidate_error": 5.566357421874997
+      },
+      "IMG_3315": {
+        "geometry": false,
+        "legacy": {
+          "status": "insufficient evidence",
+          "reason": "The syringe silhouette is too small or incomplete.",
+          "lightness": null,
+          "opacity": null,
+          "opacity_reason": "A registered clear-barrel reference at the same exposure is required."
+        },
+        "candidate": {
+          "status": "insufficient evidence",
+          "reason": "The syringe silhouette is too small or incomplete.",
+          "lightness": null,
+          "opacity": null,
+          "opacity_reason": "A registered clear-barrel reference at the same exposure is required."
+        },
+        "valid_region": true
+      },
+      "IMG_3316": {
+        "geometry": true,
+        "legacy": {
+          "status": "appearance measured",
+          "reason": "Colored interior of the segmented syringe",
+          "lightness": {
+            "lstar": 66.9,
+            "iqr": [
+              62.0,
+              70.4
+            ],
+            "category": "light"
+          },
+          "region": [
+            0.24468085106382978,
+            0.05238095238095238,
+            0.9148936170212766,
+            0.4880952380952381
+          ],
+          "support_fraction": 0.478,
+          "opacity": null,
+          "opacity_reason": "A registered clear-barrel reference at the same exposure is required."
+        },
+        "candidate": {
+          "status": "appearance measured",
+          "reason": "Measured within the supported barrel interior",
+          "lightness": {
+            "lstar": 67.2,
+            "iqr": [
+              63.1,
+              69.3
+            ],
+            "category": "light"
+          },
+          "apparent_color": {
+            "lab": [
+              67.2,
+              29.5,
+              49.2
+            ],
+            "chroma": 57.4,
+            "srgb": [
+              230,
+              141,
+              74
+            ],
+            "profile": "Embedded profile converted to sRGB"
+          },
+          "region": [
+            0.4574468085106383,
+            0.06428571428571428,
+            0.9148936170212766,
+            0.3904761904761905
+          ],
+          "opacity": null,
+          "opacity_reason": "A registered clear-barrel reference at the same exposure is required."
+        },
+        "valid_region": true,
+        "legacy_error": 5.523046875000006,
+        "candidate_error": 5.823046875000003
+      },
+      "IMG_3317": {
+        "geometry": true,
+        "legacy": {
+          "status": "appearance measured",
+          "reason": "Colored interior of the segmented syringe",
+          "lightness": {
+            "lstar": 65.8,
+            "iqr": [
+              60.5,
+              69.0
+            ],
+            "category": "light"
+          },
+          "region": [
+            0.23333333333333334,
+            0.0380952380952381,
+            0.8333333333333334,
+            0.4666666666666667
+          ],
+          "support_fraction": 0.396,
+          "opacity": null,
+          "opacity_reason": "A registered clear-barrel reference at the same exposure is required."
+        },
+        "candidate": {
+          "status": "appearance measured",
+          "reason": "Measured within the supported barrel interior",
+          "lightness": {
+            "lstar": 66.5,
+            "iqr": [
+              61.6,
+              68.6
+            ],
+            "category": "light"
+          },
+          "apparent_color": {
+            "lab": [
+              66.5,
+              29.6,
+              50.9
+            ],
+            "chroma": 58.8,
+            "srgb": [
+              226,
+              139,
+              68
+            ],
+            "profile": "Embedded profile converted to sRGB"
+          },
+          "region": [
+            0.43333333333333335,
+            0.06190476190476191,
+            0.8777777777777778,
+            0.3738095238095238
+          ],
+          "opacity": null,
+          "opacity_reason": "A registered clear-barrel reference at the same exposure is required."
+        },
+        "valid_region": true,
+        "legacy_error": 1.2593261718750028
+      },
+      "IMG_3318": {
+        "geometry": true,
+        "legacy": {
+          "status": "appearance measured",
+          "reason": "Colored interior of the segmented syringe",
+          "lightness": {
+            "lstar": 67.4,
+            "iqr": [
+              63.1,
+              71.4
+            ],
+            "category": "light"
+          },
+          "region": [
+            0.24,
+            0.05476190476190476,
+            0.85,
+            0.5095238095238095
+          ],
+          "support_fraction": 0.37,
+          "opacity": null,
+          "opacity_reason": "A registered clear-barrel reference at the same exposure is required."
+        },
+        "candidate": {
+          "status": "appearance measured",
+          "reason": "Measured within the supported barrel interior",
+          "lightness": {
+            "lstar": 67.6,
+            "iqr": [
+              63.9,
+              72.5
+            ],
+            "category": "light"
+          },
+          "apparent_color": {
+            "lab": [
+              67.6,
+              26.6,
+              47.3
+            ],
+            "chroma": 54.2,
+            "srgb": [
+              231,
+              144,
+              77
+            ],
+            "profile": "Embedded profile converted to sRGB"
+          },
+          "region": [
+            0.28,
+            0.06428571428571428,
+            0.78,
+            0.4095238095238095
+          ],
+          "opacity": null,
+          "opacity_reason": "A registered clear-barrel reference at the same exposure is required."
+        },
+        "valid_region": true,
+        "legacy_error": 0.5298828125000057,
+        "candidate_error": 0.7298828124999943
+      },
+      "IMG_3319": {
+        "geometry": true,
+        "legacy": {
+          "status": "appearance measured",
+          "reason": "Colored interior of the segmented syringe",
+          "lightness": {
+            "lstar": 67.0,
+            "iqr": [
+              61.3,
+              71.5
+            ],
+            "category": "light"
+          },
+          "region": [
+            0.32653061224489793,
+            0.05476190476190476,
+            0.7857142857142857,
+            0.4119047619047619
+          ],
+          "support_fraction": 0.287,
+          "opacity": null,
+          "opacity_reason": "A registered clear-barrel reference at the same exposure is required."
+        },
+        "candidate": {
+          "status": "appearance measured",
+          "reason": "Measured within the supported barrel interior",
+          "lightness": {
+            "lstar": 67.4,
+            "iqr": [
+              62.8,
+              71.2
+            ],
+            "category": "light"
+          },
+          "apparent_color": {
+            "lab": [
+              67.4,
+              27.4,
+              49.4
+            ],
+            "chroma": 56.5,
+            "srgb": [
+              232,
+              142,
+              72
+            ],
+            "profile": "Embedded profile converted to sRGB"
+          },
+          "region": [
+            0.40816326530612246,
+            0.11666666666666667,
+            0.6938775510204082,
+            0.3333333333333333
+          ],
+          "opacity": null,
+          "opacity_reason": "A registered clear-barrel reference at the same exposure is required."
+        },
+        "valid_region": true,
+        "legacy_error": 0.822265625,
+        "candidate_error": 0.4222656249999943
+      },
+      "IMG_3320": {
+        "geometry": true,
+        "legacy": {
+          "status": "appearance measured",
+          "reason": "Colored interior of the segmented syringe",
+          "lightness": {
+            "lstar": 66.6,
+            "iqr": [
+              60.7,
+              71.4
+            ],
+            "category": "light"
+          },
+          "region": [
+            0.23529411764705882,
+            0.04285714285714286,
+            0.7176470588235294,
+            0.3976190476190476
+          ],
+          "support_fraction": 0.29,
+          "opacity": null,
+          "opacity_reason": "A registered clear-barrel reference at the same exposure is required."
+        },
+        "candidate": {
+          "status": "appearance measured",
+          "reason": "Measured within the supported barrel interior",
+          "lightness": {
+            "lstar": 67.3,
+            "iqr": [
+              62.9,
+              71.4
+            ],
+            "category": "light"
+          },
+          "apparent_color": {
+            "lab": [
+              67.3,
+              25.1,
+              43.3
+            ],
+            "chroma": 50.1,
+            "srgb": [
+              230,
+              144,
+              84
+            ],
+            "profile": "Embedded profile converted to sRGB"
+          },
+          "region": [
+            0.27058823529411763,
+            0.11428571428571428,
+            0.5764705882352941,
+            0.30952380952380953
+          ],
+          "opacity": null,
+          "opacity_reason": "A registered clear-barrel reference at the same exposure is required."
+        },
+        "valid_region": true,
+        "legacy_error": 0.3097167968749943,
+        "candidate_error": 1.0097167968749972
+      },
+      "IMG_3321": {
+        "geometry": true,
+        "legacy": {
+          "status": "appearance measured",
+          "reason": "Colored interior of the segmented syringe",
+          "lightness": {
+            "lstar": 60.7,
+            "iqr": [
+              57.9,
+              63.4
+            ],
+            "category": "medium"
+          },
+          "region": [
+            0.10869565217391304,
+            0.05952380952380952,
+            0.6630434782608695,
+            0.3619047619047619
+          ],
+          "support_fraction": 0.232,
+          "opacity": null,
+          "opacity_reason": "A registered clear-barrel reference at the same exposure is required."
+        },
+        "candidate": {
+          "status": "appearance measured",
+          "reason": "Measured within the supported barrel interior",
+          "lightness": {
+            "lstar": 62.4,
+            "iqr": [
+              59.7,
+              65.4
+            ],
+            "category": "medium"
+          },
+          "apparent_color": {
+            "lab": [
+              62.4,
+              23.1,
+              36.2
+            ],
+            "chroma": 43.0,
+            "srgb": [
+              206,
+              134,
+              86
+            ],
+            "profile": "Embedded profile converted to sRGB"
+          },
+          "region": [
+            0.22826086956521738,
+            0.05952380952380952,
+            0.6521739130434783,
+            0.2857142857142857
+          ],
+          "opacity": null,
+          "opacity_reason": "A registered clear-barrel reference at the same exposure is required."
+        },
+        "valid_region": true,
+        "legacy_error": 3.289257812499997,
+        "candidate_error": 1.5892578125000014
+      },
+      "IMG_3322": {
+        "geometry": true,
+        "legacy": {
+          "status": "appearance measured",
+          "reason": "Colored interior of the segmented syringe",
+          "lightness": {
+            "lstar": 68.4,
+            "iqr": [
+              62.2,
+              72.7
+            ],
+            "category": "light"
+          },
+          "region": [
+            0.1348314606741573,
+            0.05714285714285714,
+            0.651685393258427,
+            0.40714285714285714
+          ],
+          "support_fraction": 0.267,
+          "opacity": null,
+          "opacity_reason": "A registered clear-barrel reference at the same exposure is required."
+        },
+        "candidate": {
+          "status": "appearance measured",
+          "reason": "Measured within the supported barrel interior",
+          "lightness": {
+            "lstar": 69.1,
+            "iqr": [
+              65.0,
+              72.5
+            ],
+            "category": "light"
+          },
+          "apparent_color": {
+            "lab": [
+              69.1,
+              28.5,
+              57.3
+            ],
+            "chroma": 64.0,
+            "srgb": [
+              236,
+              147,
+              63
+            ],
+            "profile": "Embedded profile converted to sRGB"
+          },
+          "region": [
+            0.24719101123595505,
+            0.11190476190476191,
+            0.6741573033707865,
+            0.30952380952380953
+          ],
+          "opacity": null,
+          "opacity_reason": "A registered clear-barrel reference at the same exposure is required."
+        },
+        "valid_region": true,
+        "legacy_error": 2.4759277343750057,
+        "candidate_error": 3.1759277343749943
+      },
+      "IMG_3323": {
+        "geometry": true,
+        "legacy": {
+          "status": "appearance measured",
+          "reason": "Colored interior of the segmented syringe",
+          "lightness": {
+            "lstar": 68.3,
+            "iqr": [
+              63.2,
+              72.1
+            ],
+            "category": "light"
+          },
+          "region": [
+            0.14606741573033707,
+            0.05238095238095238,
+            0.6853932584269663,
+            0.43333333333333335
+          ],
+          "support_fraction": 0.299,
+          "opacity": null,
+          "opacity_reason": "A registered clear-barrel reference at the same exposure is required."
+        },
+        "candidate": {
+          "status": "appearance measured",
+          "reason": "Measured within the supported barrel interior",
+          "lightness": {
+            "lstar": 68.6,
+            "iqr": [
+              65.6,
+              71.8
+            ],
+            "category": "light"
+          },
+          "apparent_color": {
+            "lab": [
+              68.6,
+              26.8,
+              54.2
+            ],
+            "chroma": 60.4,
+            "srgb": [
+              234,
+              147,
+              69
+            ],
+            "profile": "Embedded profile converted to sRGB"
+          },
+          "region": [
+            0.20224719101123595,
+            0.05952380952380952,
+            0.651685393258427,
+            0.3380952380952381
+          ],
+          "opacity": null,
+          "opacity_reason": "A registered clear-barrel reference at the same exposure is required."
+        },
+        "valid_region": true,
+        "legacy_error": 1.6557128906249972,
+        "candidate_error": 1.9557128906249943
+      },
+      "IMG_3324": {
+        "geometry": true,
+        "legacy": {
+          "status": "appearance measured",
+          "reason": "Colored interior of the segmented syringe",
+          "lightness": {
+            "lstar": 66.1,
+            "iqr": [
+              62.2,
+              69.7
+            ],
+            "category": "light"
+          },
+          "region": [
+            0.3795620437956204,
+            0.0880952380952381,
+            0.8686131386861314,
+            0.4928571428571429
+          ],
+          "support_fraction": 0.348,
+          "opacity": null,
+          "opacity_reason": "A registered clear-barrel reference at the same exposure is required."
+        },
+        "candidate": {
+          "status": "appearance measured",
+          "reason": "Measured within the supported barrel interior",
+          "lightness": {
+            "lstar": 66.9,
+            "iqr": [
+              65.4,
+              68.6
+            ],
+            "category": "light"
+          },
+          "apparent_color": {
+            "lab": [
+              66.9,
+              27.3,
+              52.3
+            ],
+            "chroma": 59.0,
+            "srgb": [
+              231,
+              141,
+              65
+            ],
+            "profile": "Embedded profile converted to sRGB"
+          },
+          "region": [
+            0.48175182481751827,
+            0.08333333333333333,
+            0.8102189781021898,
+            0.38571428571428573
+          ],
+          "opacity": null,
+          "opacity_reason": "A registered clear-barrel reference at the same exposure is required."
+        },
+        "valid_region": true,
+        "legacy_error": 0.24916992187499432
+      },
+      "IMG_3325": {
+        "geometry": true,
+        "legacy": {
+          "status": "appearance measured",
+          "reason": "Colored interior of the segmented syringe",
+          "lightness": {
+            "lstar": 65.4,
+            "iqr": [
+              58.1,
+              69.2
+            ],
+            "category": "light"
+          },
+          "region": [
+            0.3492063492063492,
+            0.05714285714285714,
+            0.8492063492063492,
+            0.44285714285714284
+          ],
+          "support_fraction": 0.315,
+          "opacity": null,
+          "opacity_reason": "A registered clear-barrel reference at the same exposure is required."
+        },
+        "candidate": {
+          "status": "appearance measured",
+          "reason": "Measured within the supported barrel interior",
+          "lightness": {
+            "lstar": 66.2,
+            "iqr": [
+              62.3,
+              69.2
+            ],
+            "category": "light"
+          },
+          "apparent_color": {
+            "lab": [
+              66.2,
+              25.7,
+              48.3
+            ],
+            "chroma": 54.7,
+            "srgb": [
+              225,
+              141,
+              74
+            ],
+            "profile": "Embedded profile converted to sRGB"
+          },
+          "region": [
+            0.40476190476190477,
+            0.11666666666666667,
+            0.7063492063492064,
+            0.3476190476190476
+          ],
+          "opacity": null,
+          "opacity_reason": "A registered clear-barrel reference at the same exposure is required."
+        },
+        "valid_region": true,
+        "legacy_error": 1.1954589843749943,
+        "candidate_error": 0.39545898437499716
+      },
+      "IMG_3326": {
+        "geometry": true,
+        "legacy": {
+          "status": "appearance measured",
+          "reason": "Colored interior of the segmented syringe",
+          "lightness": {
+            "lstar": 68.2,
+            "iqr": [
+              61.3,
+              72.0
+            ],
+            "category": "light"
+          },
+          "region": [
+            0.017543859649122806,
+            0.023809523809523808,
+            0.40789473684210525,
+            0.3547619047619048
+          ],
+          "support_fraction": 0.269,
+          "opacity": null,
+          "opacity_reason": "A registered clear-barrel reference at the same exposure is required."
+        },
+        "candidate": {
+          "status": "appearance measured",
+          "reason": "Measured within the supported barrel interior",
+          "lightness": {
+            "lstar": 70.4,
+            "iqr": [
+              66.2,
+              72.7
+            ],
+            "category": "light"
+          },
+          "apparent_color": {
+            "lab": [
+              70.4,
+              26.0,
+              47.9
+            ],
+            "chroma": 54.5,
+            "srgb": [
+              236,
+              153,
+              84
+            ],
+            "profile": "Embedded profile converted to sRGB"
+          },
+          "region": [
+            0.05263157894736842,
+            0.04523809523809524,
+            0.36403508771929827,
+            0.2571428571428571
+          ],
+          "opacity": null,
+          "opacity_reason": "A registered clear-barrel reference at the same exposure is required."
+        },
+        "valid_region": true,
+        "legacy_error": 1.4336425781250028,
+        "candidate_error": 3.6336425781250057
+      }
+    },
+    "test": {
+      "IMG_3178": {
+        "geometry": true,
+        "legacy": {
+          "status": "insufficient evidence",
+          "reason": "The visible color covers too little of the barrel.",
+          "lightness": null,
+          "opacity": null,
+          "opacity_reason": "A registered clear-barrel reference at the same exposure is required."
+        },
+        "candidate": {
+          "status": "insufficient evidence",
+          "lightness": null,
+          "apparent_color": null,
+          "opacity": null,
+          "opacity_reason": "A registered clear-barrel reference at the same exposure is required."
+        },
+        "valid_region": false
+      },
+      "IMG_3179": {
+        "geometry": true,
+        "legacy": {
+          "status": "insufficient evidence",
+          "reason": "The visible color covers too little of the barrel.",
+          "lightness": null,
+          "opacity": null,
+          "opacity_reason": "A registered clear-barrel reference at the same exposure is required."
+        },
+        "candidate": {
+          "status": "insufficient evidence",
+          "lightness": null,
+          "apparent_color": null,
+          "opacity": null,
+          "opacity_reason": "A registered clear-barrel reference at the same exposure is required."
+        },
+        "valid_region": false
+      },
+      "IMG_3180": {
+        "geometry": true,
+        "legacy": {
+          "status": "appearance measured",
+          "reason": "Colored interior of the segmented syringe",
+          "lightness": {
+            "lstar": 58.9,
+            "iqr": [
+              53.5,
+              61.5
+            ],
+            "category": "medium"
+          },
+          "region": [
+            0.5725593667546174,
+            0.11904761904761904,
+            0.8232189973614775,
+            0.34523809523809523
+          ],
+          "support_fraction": 0.11,
+          "opacity": null,
+          "opacity_reason": "A registered clear-barrel reference at the same exposure is required."
+        },
+        "candidate": {
+          "status": "insufficient evidence",
+          "lightness": null,
+          "apparent_color": null,
+          "opacity": null,
+          "opacity_reason": "A registered clear-barrel reference at the same exposure is required."
+        },
+        "valid_region": false
+      },
+      "IMG_3181": {
+        "geometry": true,
+        "legacy": {
+          "status": "insufficient evidence",
+          "reason": "The visible color covers too little of the barrel.",
+          "lightness": null,
+          "opacity": null,
+          "opacity_reason": "A registered clear-barrel reference at the same exposure is required."
+        },
+        "candidate": {
+          "status": "insufficient evidence",
+          "lightness": null,
+          "apparent_color": null,
+          "opacity": null,
+          "opacity_reason": "A registered clear-barrel reference at the same exposure is required."
+        },
+        "valid_region": false
+      },
+      "IMG_3182": {
+        "geometry": false,
+        "legacy": {
+          "status": "insufficient evidence",
+          "reason": "A colored liquid region could not be isolated.",
+          "lightness": null,
+          "opacity": null,
+          "opacity_reason": "A registered clear-barrel reference at the same exposure is required."
+        },
+        "candidate": {
+          "status": "insufficient evidence",
+          "reason": "A colored liquid region could not be isolated.",
+          "lightness": null,
+          "opacity": null,
+          "opacity_reason": "A registered clear-barrel reference at the same exposure is required."
+        },
+        "valid_region": false
+      },
+      "IMG_3183": {
+        "geometry": true,
+        "legacy": {
+          "status": "insufficient evidence",
+          "reason": "A colored liquid region could not be isolated.",
+          "lightness": null,
+          "opacity": null,
+          "opacity_reason": "A registered clear-barrel reference at the same exposure is required."
+        },
+        "candidate": {
+          "status": "insufficient evidence",
+          "lightness": null,
+          "apparent_color": null,
+          "opacity": null,
+          "opacity_reason": "A registered clear-barrel reference at the same exposure is required."
+        },
+        "valid_region": false
+      },
+      "IMG_3184": {
+        "geometry": true,
+        "legacy": {
+          "status": "insufficient evidence",
+          "reason": "A colored liquid region could not be isolated.",
+          "lightness": null,
+          "opacity": null,
+          "opacity_reason": "A registered clear-barrel reference at the same exposure is required."
+        },
+        "candidate": {
+          "status": "insufficient evidence",
+          "lightness": null,
+          "apparent_color": null,
+          "opacity": null,
+          "opacity_reason": "A registered clear-barrel reference at the same exposure is required."
+        },
+        "valid_region": false
+      },
+      "IMG_3185": {
+        "geometry": true,
+        "legacy": {
+          "status": "insufficient evidence",
+          "reason": "The visible color covers too little of the barrel.",
+          "lightness": null,
+          "opacity": null,
+          "opacity_reason": "A registered clear-barrel reference at the same exposure is required."
+        },
+        "candidate": {
+          "status": "insufficient evidence",
+          "lightness": null,
+          "apparent_color": null,
+          "opacity": null,
+          "opacity_reason": "A registered clear-barrel reference at the same exposure is required."
+        },
+        "valid_region": false
+      },
+      "IMG_3186": {
+        "geometry": false,
+        "legacy": {
+          "status": "insufficient evidence",
+          "reason": "A colored liquid region could not be isolated.",
+          "lightness": null,
+          "opacity": null,
+          "opacity_reason": "A registered clear-barrel reference at the same exposure is required."
+        },
+        "candidate": {
+          "status": "insufficient evidence",
+          "reason": "A colored liquid region could not be isolated.",
+          "lightness": null,
+          "opacity": null,
+          "opacity_reason": "A registered clear-barrel reference at the same exposure is required."
+        },
+        "valid_region": false
+      },
+      "IMG_3187": {
+        "geometry": false,
+        "legacy": {
+          "status": "insufficient evidence",
+          "reason": "The visible color covers too little of the barrel.",
+          "lightness": null,
+          "opacity": null,
+          "opacity_reason": "A registered clear-barrel reference at the same exposure is required."
+        },
+        "candidate": {
+          "status": "insufficient evidence",
+          "reason": "The visible color covers too little of the barrel.",
+          "lightness": null,
+          "opacity": null,
+          "opacity_reason": "A registered clear-barrel reference at the same exposure is required."
+        },
+        "valid_region": false
+      },
+      "IMG_3188": {
+        "geometry": true,
+        "legacy": {
+          "status": "insufficient evidence",
+          "reason": "The visible color covers too little of the barrel.",
+          "lightness": null,
+          "opacity": null,
+          "opacity_reason": "A registered clear-barrel reference at the same exposure is required."
+        },
+        "candidate": {
+          "status": "insufficient evidence",
+          "lightness": null,
+          "apparent_color": null,
+          "opacity": null,
+          "opacity_reason": "A registered clear-barrel reference at the same exposure is required."
+        },
+        "valid_region": false
+      },
+      "IMG_3189": {
+        "geometry": false,
+        "legacy": {
+          "status": "insufficient evidence",
+          "reason": "The visible color covers too little of the barrel.",
+          "lightness": null,
+          "opacity": null,
+          "opacity_reason": "A registered clear-barrel reference at the same exposure is required."
+        },
+        "candidate": {
+          "status": "insufficient evidence",
+          "reason": "The visible color covers too little of the barrel.",
+          "lightness": null,
+          "opacity": null,
+          "opacity_reason": "A registered clear-barrel reference at the same exposure is required."
+        },
+        "valid_region": false
+      },
+      "IMG_3190": {
+        "geometry": true,
+        "legacy": {
+          "status": "insufficient evidence",
+          "reason": "The visible color covers too little of the barrel.",
+          "lightness": null,
+          "opacity": null,
+          "opacity_reason": "A registered clear-barrel reference at the same exposure is required."
+        },
+        "candidate": {
+          "status": "insufficient evidence",
+          "lightness": null,
+          "apparent_color": null,
+          "opacity": null,
+          "opacity_reason": "A registered clear-barrel reference at the same exposure is required."
+        },
+        "valid_region": false
+      },
+      "IMG_3191": {
+        "geometry": true,
+        "legacy": {
+          "status": "insufficient evidence",
+          "reason": "The visible color covers too little of the barrel.",
+          "lightness": null,
+          "opacity": null,
+          "opacity_reason": "A registered clear-barrel reference at the same exposure is required."
+        },
+        "candidate": {
+          "status": "insufficient evidence",
+          "lightness": null,
+          "apparent_color": null,
+          "opacity": null,
+          "opacity_reason": "A registered clear-barrel reference at the same exposure is required."
+        },
+        "valid_region": false
+      }
+    },
+    "public": {
+      "163322504": {
+        "geometry": true,
+        "legacy": {
+          "status": "insufficient evidence",
+          "reason": "A colored liquid region could not be isolated.",
+          "lightness": null,
+          "opacity": null,
+          "opacity_reason": "A registered clear-barrel reference at the same exposure is required."
+        },
+        "candidate": {
+          "status": "insufficient evidence",
+          "lightness": null,
+          "apparent_color": null,
+          "opacity": null,
+          "opacity_reason": "A registered clear-barrel reference at the same exposure is required."
+        },
+        "valid_region": false
+      },
+      "178849232": {
+        "geometry": false,
+        "legacy": {
+          "status": "insufficient evidence",
+          "reason": "The syringe silhouette is too small or incomplete.",
+          "lightness": null,
+          "opacity": null,
+          "opacity_reason": "A registered clear-barrel reference at the same exposure is required."
+        },
+        "candidate": {
+          "status": "insufficient evidence",
+          "reason": "The syringe silhouette is too small or incomplete.",
+          "lightness": null,
+          "opacity": null,
+          "opacity_reason": "A registered clear-barrel reference at the same exposure is required."
+        },
+        "valid_region": false
+      },
+      "201441851": {
+        "geometry": false,
+        "legacy": {
+          "status": "insufficient evidence",
+          "reason": "The syringe silhouette is too small or incomplete.",
+          "lightness": null,
+          "opacity": null,
+          "opacity_reason": "A registered clear-barrel reference at the same exposure is required."
+        },
+        "candidate": {
+          "status": "insufficient evidence",
+          "reason": "The syringe silhouette is too small or incomplete.",
+          "lightness": null,
+          "opacity": null,
+          "opacity_reason": "A registered clear-barrel reference at the same exposure is required."
+        },
+        "valid_region": false
+      },
+      "146786108": {
+        "geometry": false,
+        "legacy": {
+          "status": "insufficient evidence",
+          "reason": "The syringe silhouette is too small or incomplete.",
+          "lightness": null,
+          "opacity": null,
+          "opacity_reason": "A registered clear-barrel reference at the same exposure is required."
+        },
+        "candidate": {
+          "status": "insufficient evidence",
+          "reason": "The syringe silhouette is too small or incomplete.",
+          "lightness": null,
+          "opacity": null,
+          "opacity_reason": "A registered clear-barrel reference at the same exposure is required."
+        },
+        "valid_region": false
+      },
+      "40322872": {
+        "geometry": false,
+        "legacy": {
+          "status": "insufficient evidence",
+          "reason": "The visible color covers too little of the barrel.",
+          "lightness": null,
+          "opacity": null,
+          "opacity_reason": "A registered clear-barrel reference at the same exposure is required."
+        },
+        "candidate": {
+          "status": "insufficient evidence",
+          "reason": "The visible color covers too little of the barrel.",
+          "lightness": null,
+          "opacity": null,
+          "opacity_reason": "A registered clear-barrel reference at the same exposure is required."
+        },
+        "valid_region": false
+      },
+      "19682206": {
+        "geometry": false,
+        "legacy": {
+          "status": "insufficient evidence",
+          "reason": "The syringe silhouette is too small or incomplete.",
+          "lightness": null,
+          "opacity": null,
+          "opacity_reason": "A registered clear-barrel reference at the same exposure is required."
+        },
+        "candidate": {
+          "status": "insufficient evidence",
+          "reason": "The syringe silhouette is too small or incomplete.",
+          "lightness": null,
+          "opacity": null,
+          "opacity_reason": "A registered clear-barrel reference at the same exposure is required."
+        },
+        "valid_region": false
+      }
+    }
+  },
+  "scope": "Appearance only. Previously consulted clear and public controls."
+}

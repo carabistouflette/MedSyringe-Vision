@@ -1,0 +1,1041 @@
+{
+  "scope": "Single-session draft scale references. Explicit unit/number visibility was manually confirmed on the separate nine-image subset.",
+  "files": [
+    {
+      "id": "IMG_3198",
+      "scale": "60-scale",
+      "burst": "3198",
+      "bbox": [
+        0.1679,
+        0,
+        0.5725,
+        1
+      ],
+      "capacity_visible": "60",
+      "image": "data/ocr-v6/reference/IMG_3198.png",
+      "sha256": "fda2c74e6ce2270f15675afd399e197db6a719a9dd95a119eb3155ed53446a32"
+    },
+    {
+      "id": "IMG_3199",
+      "scale": "60-scale",
+      "burst": "3199",
+      "bbox": [
+        0.1527,
+        0.0057,
+        0.5115,
+        1
+      ],
+      "capacity_visible": null,
+      "image": "data/ocr-v6/reference/IMG_3199.png",
+      "sha256": "66519f0d33386b0d041c4dd873f81dd6907ca13f0e74d360d49ec5a016f750f7"
+    },
+    {
+      "id": "IMG_3200",
+      "scale": "60-scale",
+      "burst": "3199",
+      "bbox": [
+        0.1832,
+        0.0057,
+        0.5267,
+        1
+      ],
+      "capacity_visible": null,
+      "image": "data/ocr-v6/reference/IMG_3200.png",
+      "sha256": "2ecdf098bee6dfd4c58eecc308862359783ca2096f29be1a6f46c9b634cbf034"
+    },
+    {
+      "id": "IMG_3202",
+      "scale": "60-scale",
+      "burst": "3202",
+      "bbox": [
+        0.2672,
+        0.408,
+        1,
+        0.7586
+      ],
+      "capacity_visible": null,
+      "image": "data/ocr-v6/reference/IMG_3202.png",
+      "sha256": "161c8a51c3220da35695cacc0183e8c70dd95f5c5e6d67e1bc49d1d76f7d6f33"
+    },
+    {
+      "id": "IMG_3206",
+      "scale": "60-scale",
+      "burst": "3206",
+      "bbox": [
+        0,
+        0.1897,
+        0.7252,
+        1
+      ],
+      "capacity_visible": "60",
+      "image": "data/ocr-v6/reference/IMG_3206.png",
+      "sha256": "edc7717bc952f9482e70708142c2e1dd9a4c53d74c8caea27ab7950f15ff505e"
+    },
+    {
+      "id": "IMG_3215",
+      "scale": "20-scale",
+      "burst": "3215",
+      "bbox": [
+        0.2824,
+        0.1092,
+        0.5267,
+        0.8966
+      ],
+      "capacity_visible": "20",
+      "image": "data/ocr-v6/reference/IMG_3215.png",
+      "sha256": "1b36af1b9a873f9f710a32d3f07772fd09f2484b49cfc81a77cfd84983c84d3f"
+    },
+    {
+      "id": "IMG_3217",
+      "scale": "20-scale",
+      "burst": "3215",
+      "bbox": [
+        0.0687,
+        0.2586,
+        0.7481,
+        0.8736
+      ],
+      "capacity_visible": null,
+      "image": "data/ocr-v6/reference/IMG_3217.png",
+      "sha256": "e64aa398f3c5cdbfe0434bdb9e6c0afca67c4d7bbfe492572be62c5c5d3df3fe"
+    },
+    {
+      "id": "IMG_3218",
+      "scale": "20-scale",
+      "burst": "3215",
+      "bbox": [
+        0,
+        0.3391,
+        0.8779,
+        0.8276
+      ],
+      "capacity_visible": null,
+      "image": "data/ocr-v6/reference/IMG_3218.png",
+      "sha256": "fca3e7f77c7422a7d32f3c91457d688566bc2b46709f990a76c0291dba6e4e21"
+    },
+    {
+      "id": "IMG_3219",
+      "scale": "20-scale",
+      "burst": "3215",
+      "bbox": [
+        0,
+        0.3506,
+        0.9084,
+        0.8276
+      ],
+      "capacity_visible": null,
+      "image": "data/ocr-v6/reference/IMG_3219.png",
+      "sha256": "5d9b81bdff288afa69ec702cd7c7af197b70be16f2ce99618149a151132ce77c"
+    },
+    {
+      "id": "IMG_3221",
+      "scale": "20-scale",
+      "burst": "3215",
+      "bbox": [
+        0.3359,
+        0.3391,
+        0.5954,
+        0.8851
+      ],
+      "capacity_visible": null,
+      "image": "data/ocr-v6/reference/IMG_3221.png",
+      "sha256": "2114ef8597a7e98327968e5ebee3fc7a94648d00119c696fc7b2979f384b2ab7"
+    },
+    {
+      "id": "IMG_3222",
+      "scale": "20-scale",
+      "burst": "3215",
+      "bbox": [
+        0.3206,
+        0.3276,
+        0.5954,
+        0.7989
+      ],
+      "capacity_visible": null,
+      "image": "data/ocr-v6/reference/IMG_3222.png",
+      "sha256": "6406c90362c7425293c150f59e5baef9517b9ba7aac8676ca3552a87a94fed9a"
+    },
+    {
+      "id": "IMG_3223",
+      "scale": "20-scale",
+      "burst": "3223",
+      "bbox": [
+        0.2595,
+        0.0977,
+        0.4962,
+        0.8736
+      ],
+      "capacity_visible": null,
+      "image": "data/ocr-v6/reference/IMG_3223.png",
+      "sha256": "ff0e6b5880f8d50bacad7fadc05b6d80509d882e183a3a1e0d9c8c8c23d9ba1d"
+    },
+    {
+      "id": "IMG_3225",
+      "scale": "20-scale",
+      "burst": "3223",
+      "bbox": [
+        0,
+        0.2644,
+        0.7328,
+        0.8276
+      ],
+      "capacity_visible": null,
+      "image": "data/ocr-v6/reference/IMG_3225.png",
+      "sha256": "f98c5edb2bcd23135f4ae8f4413674b577124df75ae517b3e0ccb0b5f4665a9a"
+    },
+    {
+      "id": "IMG_3226",
+      "scale": "20-scale",
+      "burst": "3223",
+      "bbox": [
+        0.0305,
+        0.0977,
+        0.7328,
+        0.6322
+      ],
+      "capacity_visible": null,
+      "image": "data/ocr-v6/reference/IMG_3226.png",
+      "sha256": "3973011d23465aa12d34809f52b7c40ec04e849ee54d6fda5144b4780206e322"
+    },
+    {
+      "id": "IMG_3227",
+      "scale": "20-scale",
+      "burst": "3223",
+      "bbox": [
+        0.2977,
+        0.1552,
+        0.5344,
+        0.9425
+      ],
+      "capacity_visible": null,
+      "image": "data/ocr-v6/reference/IMG_3227.png",
+      "sha256": "6f78fedbb031cdc7b75663c942df666265617e117031ef9355bab5f5d4d053ac"
+    },
+    {
+      "id": "IMG_3228",
+      "scale": "20-scale",
+      "burst": "3223",
+      "bbox": [
+        0.2366,
+        0.069,
+        0.542,
+        1
+      ],
+      "capacity_visible": "20",
+      "image": "data/ocr-v6/reference/IMG_3228.png",
+      "sha256": "d1c26566dcee6ec35468233a236d3d105f3124a928928b29294d11da4f3facd4"
+    },
+    {
+      "id": "IMG_3229",
+      "scale": "20-scale",
+      "burst": "3223",
+      "bbox": [
+        0.3282,
+        0.3046,
+        0.4962,
+        0.8851
+      ],
+      "capacity_visible": null,
+      "image": "data/ocr-v6/reference/IMG_3229.png",
+      "sha256": "1061325d43156e761152163ea1628b3ca8a517d1a2c7d57168be74a6659cd733"
+    },
+    {
+      "id": "IMG_3230",
+      "scale": "20-scale",
+      "burst": "3230",
+      "bbox": [
+        0.2672,
+        0.1552,
+        0.5115,
+        0.9425
+      ],
+      "capacity_visible": null,
+      "image": "data/ocr-v6/reference/IMG_3230.png",
+      "sha256": "2fe795537aaf106ac664d0dd2b99222887a5e2bf8e1bdd3f8da83f9f7b5e56f2"
+    },
+    {
+      "id": "IMG_3231",
+      "scale": "20-scale",
+      "burst": "3230",
+      "bbox": [
+        0.3053,
+        0.2011,
+        0.542,
+        0.9598
+      ],
+      "capacity_visible": null,
+      "image": "data/ocr-v6/reference/IMG_3231.png",
+      "sha256": "e69cf56f2e6abf14e4cd8a434fd1fe659446d306d61f181547bf02f9695709f6"
+    },
+    {
+      "id": "IMG_3232",
+      "scale": "20-scale",
+      "burst": "3230",
+      "bbox": [
+        0,
+        0.1839,
+        0.7328,
+        1
+      ],
+      "capacity_visible": null,
+      "image": "data/ocr-v6/reference/IMG_3232.png",
+      "sha256": "256f7a971969aafb9444b1af3d5b39f0f408992d62e0205c8bc71358b12f74ef"
+    },
+    {
+      "id": "IMG_3233",
+      "scale": "20-scale",
+      "burst": "3230",
+      "bbox": [
+        0,
+        0.3391,
+        0.9389,
+        0.8851
+      ],
+      "capacity_visible": null,
+      "image": "data/ocr-v6/reference/IMG_3233.png",
+      "sha256": "4bef7a56d26b45706dd2d9b8af79eff73b982b25caa834ab8c842dcb5c5acbc3"
+    },
+    {
+      "id": "IMG_3234",
+      "scale": "20-scale",
+      "burst": "3230",
+      "bbox": [
+        0,
+        0.4368,
+        0.9237,
+        0.8678
+      ],
+      "capacity_visible": null,
+      "image": "data/ocr-v6/reference/IMG_3234.png",
+      "sha256": "7d23e0a399650b64ea41ec2053e6c87026a5dc675be5e75b0b118d449c10d7c3"
+    },
+    {
+      "id": "IMG_3235",
+      "scale": "20-scale",
+      "burst": "3230",
+      "bbox": [
+        0,
+        0.5172,
+        0.9389,
+        0.6897
+      ],
+      "capacity_visible": null,
+      "image": "data/ocr-v6/reference/IMG_3235.png",
+      "sha256": "4ed8a62d652ed64f226c4c3767c8cc6798b8bae7830c9d2743e13a24d8efe6a4"
+    },
+    {
+      "id": "IMG_3238",
+      "scale": "20-scale",
+      "burst": "3238",
+      "bbox": [
+        0.3588,
+        0.046,
+        0.5802,
+        0.9713
+      ],
+      "capacity_visible": null,
+      "image": "data/ocr-v6/reference/IMG_3238.png",
+      "sha256": "974fe6e121c0a5c81fb1cee8ef8630c5dfdae1376d17a7e236f2b17c334f6051"
+    },
+    {
+      "id": "IMG_3239",
+      "scale": "20-scale",
+      "burst": "3238",
+      "bbox": [
+        0,
+        0.2874,
+        0.7786,
+        0.7241
+      ],
+      "capacity_visible": null,
+      "image": "data/ocr-v6/reference/IMG_3239.png",
+      "sha256": "8be338005539b5cbdb1fe6768f73d8381e80fe5ca04757a651c1082f393cd28c"
+    },
+    {
+      "id": "IMG_3240",
+      "scale": "20-scale",
+      "burst": "3238",
+      "bbox": [
+        0,
+        0.3103,
+        0.9618,
+        0.8103
+      ],
+      "capacity_visible": null,
+      "image": "data/ocr-v6/reference/IMG_3240.png",
+      "sha256": "e8fa5fa6c9f959f8f458bd52b108bb2b3eeda9218ac0fc2c0a98ced14648e1b4"
+    },
+    {
+      "id": "IMG_3241",
+      "scale": "20-scale",
+      "burst": "3238",
+      "bbox": [
+        0.0382,
+        0.3391,
+        0.8321,
+        0.7989
+      ],
+      "capacity_visible": null,
+      "image": "data/ocr-v6/reference/IMG_3241.png",
+      "sha256": "87f306ec7fb0c75dea3485e64ef7198dd8792ef2f04685c0dbfacb9eb15e7223"
+    },
+    {
+      "id": "IMG_3243",
+      "scale": "20-scale",
+      "burst": "3243",
+      "bbox": [
+        0.4122,
+        0.1839,
+        0.6107,
+        0.9598
+      ],
+      "capacity_visible": null,
+      "image": "data/ocr-v6/reference/IMG_3243.png",
+      "sha256": "a49c8589c49d3430c84200996dea549d9d20e53eccc0caebcdc8a9bb7ed91c0b"
+    },
+    {
+      "id": "IMG_3244",
+      "scale": "20-scale",
+      "burst": "3243",
+      "bbox": [
+        0.3359,
+        0.0862,
+        0.6107,
+        1
+      ],
+      "capacity_visible": null,
+      "image": "data/ocr-v6/reference/IMG_3244.png",
+      "sha256": "3e7b98576ed6163285ce7f60ba2f6ef541686c363959ed9450aae2d7da4732be"
+    },
+    {
+      "id": "IMG_3245",
+      "scale": "20-scale",
+      "burst": "3243",
+      "bbox": [
+        0.313,
+        0,
+        0.6641,
+        1
+      ],
+      "capacity_visible": "20",
+      "image": "data/ocr-v6/reference/IMG_3245.png",
+      "sha256": "6a2c9e234d5c03cb8a190bf7102adfdff3a3393741e985c454121b48eb4a90d5"
+    },
+    {
+      "id": "IMG_3246",
+      "scale": "20-scale",
+      "burst": "3243",
+      "bbox": [
+        0.3435,
+        0.1724,
+        0.8321,
+        1
+      ],
+      "capacity_visible": null,
+      "image": "data/ocr-v6/reference/IMG_3246.png",
+      "sha256": "a9092f3505371a97959e144420899497f280045a706887fe850447941739ab8f"
+    },
+    {
+      "id": "IMG_3247",
+      "scale": "20-scale",
+      "burst": "3243",
+      "bbox": [
+        0.3664,
+        0.1552,
+        0.6183,
+        0.8621
+      ],
+      "capacity_visible": null,
+      "image": "data/ocr-v6/reference/IMG_3247.png",
+      "sha256": "5da0865c9d47ec9bde0678ea7d15395c848ff8af82ee4de11f61a90015be7d83"
+    },
+    {
+      "id": "IMG_3251",
+      "scale": "60-scale",
+      "burst": "3251",
+      "bbox": [
+        0.2595,
+        0.1609,
+        0.687,
+        1
+      ],
+      "capacity_visible": "60",
+      "image": "data/ocr-v6/reference/IMG_3251.png",
+      "sha256": "fe0802edcf4a257b4c17305c34440a91df16f6d4a45d3c94c28f9aeca641d793"
+    },
+    {
+      "id": "IMG_3252",
+      "scale": "60-scale",
+      "burst": "3251",
+      "bbox": [
+        0.2519,
+        0.2011,
+        0.6641,
+        1
+      ],
+      "capacity_visible": null,
+      "image": "data/ocr-v6/reference/IMG_3252.png",
+      "sha256": "f757211e04e50ed90cb6ff5722194b6cf668cf711ea5fa6e6a5cbb379c51cf6e"
+    },
+    {
+      "id": "IMG_3257",
+      "scale": "60-scale",
+      "burst": "3251",
+      "bbox": [
+        0.3817,
+        0.2414,
+        0.6565,
+        1
+      ],
+      "capacity_visible": null,
+      "image": "data/ocr-v6/reference/IMG_3257.png",
+      "sha256": "00edaa1be5096eae6869801d52a70e6e1ad32f91eff0f7d87d789c3e21414c2f"
+    },
+    {
+      "id": "IMG_3263",
+      "scale": "60-scale",
+      "burst": "3263",
+      "bbox": [
+        0.3206,
+        0.1782,
+        0.5496,
+        1
+      ],
+      "capacity_visible": null,
+      "image": "data/ocr-v6/reference/IMG_3263.png",
+      "sha256": "b7b1da8ba2b11f5354f42c641b858e572ea9cdaf01e998db7f074942db27775d"
+    },
+    {
+      "id": "IMG_3264",
+      "scale": "60-scale",
+      "burst": "3263",
+      "bbox": [
+        0.1145,
+        0.2529,
+        1,
+        0.954
+      ],
+      "capacity_visible": null,
+      "image": "data/ocr-v6/reference/IMG_3264.png",
+      "sha256": "7c1e8fb06b002fbffac23b5aa3e3e3057311fd15f8eb73d0bcc8d015394ccfe1"
+    },
+    {
+      "id": "IMG_3268",
+      "scale": "60-scale",
+      "burst": "3263",
+      "bbox": [
+        0.1298,
+        0,
+        0.9542,
+        0.9828
+      ],
+      "capacity_visible": null,
+      "image": "data/ocr-v6/reference/IMG_3268.png",
+      "sha256": "0aee5fc7eb6d0f9f67b9c16ba1cbe4997ed6b839644d9f2a0f7b28cd6546d58d"
+    },
+    {
+      "id": "IMG_3269",
+      "scale": "60-scale",
+      "burst": "3263",
+      "bbox": [
+        0.2443,
+        0.1782,
+        0.8168,
+        0.8908
+      ],
+      "capacity_visible": null,
+      "image": "data/ocr-v6/reference/IMG_3269.png",
+      "sha256": "3dbc3556ba256c1f9c9db128d1a83a756b650cde499786a5599b8c7d7d1d3435"
+    },
+    {
+      "id": "IMG_3272",
+      "scale": "60-scale",
+      "burst": "3272",
+      "bbox": [
+        0.3282,
+        0.1494,
+        0.5878,
+        0.9023
+      ],
+      "capacity_visible": null,
+      "image": "data/ocr-v6/reference/IMG_3272.png",
+      "sha256": "2ecd1f6e34d3bf006f54a61a13cd06be130d1757b7a74703b3512643b314a00b"
+    },
+    {
+      "id": "IMG_3275",
+      "scale": "60-scale",
+      "burst": "3272",
+      "bbox": [
+        0.2824,
+        0.0977,
+        0.8092,
+        1
+      ],
+      "capacity_visible": null,
+      "image": "data/ocr-v6/reference/IMG_3275.png",
+      "sha256": "5724274266f1bc2ffa91b9a8372fd65e32bdf805a864fce0d6f20c7a113c4968"
+    },
+    {
+      "id": "IMG_3279",
+      "scale": "60-scale",
+      "burst": "3272",
+      "bbox": [
+        0.1985,
+        0.1207,
+        0.8015,
+        0.9943
+      ],
+      "capacity_visible": null,
+      "image": "data/ocr-v6/reference/IMG_3279.png",
+      "sha256": "034ffa458b4101a6b529f12466bd81500d8aa9b3a7ff6420cb56159769886d6e"
+    },
+    {
+      "id": "IMG_3283",
+      "scale": "60-scale",
+      "burst": "3272",
+      "bbox": [
+        0.2595,
+        0.1897,
+        0.771,
+        1
+      ],
+      "capacity_visible": null,
+      "image": "data/ocr-v6/reference/IMG_3283.png",
+      "sha256": "aac75915f5ded988d94af7fce919fb422634d746d8a94c575b9ff176951b1709"
+    },
+    {
+      "id": "IMG_3292",
+      "scale": "20-scale",
+      "burst": "3292",
+      "bbox": [
+        0.2824,
+        0.0287,
+        0.5725,
+        1
+      ],
+      "capacity_visible": "20",
+      "image": "data/ocr-v6/reference/IMG_3292.png",
+      "sha256": "31022c5cc6b622f7153846e77db626bbb00be8f12e4e8c3e1b118510d7d959a2"
+    },
+    {
+      "id": "IMG_3294",
+      "scale": "20-scale",
+      "burst": "3292",
+      "bbox": [
+        0.3664,
+        0.1437,
+        0.5649,
+        1
+      ],
+      "capacity_visible": null,
+      "image": "data/ocr-v6/reference/IMG_3294.png",
+      "sha256": "67c697ef8fd3865a84c6c4f22221141eb024db4d5e5c3d5153f4366e02a3c7cd"
+    },
+    {
+      "id": "IMG_3295",
+      "scale": "20-scale",
+      "burst": "3292",
+      "bbox": [
+        0.3664,
+        0.2644,
+        0.5878,
+        1
+      ],
+      "capacity_visible": null,
+      "image": "data/ocr-v6/reference/IMG_3295.png",
+      "sha256": "dba29076794e4640ea94cbf026cbd270410eccb445da4e7bd7ef2bcd1dc5dd23"
+    },
+    {
+      "id": "IMG_3296",
+      "scale": "20-scale",
+      "burst": "3296",
+      "bbox": [
+        0.0916,
+        0.2126,
+        0.458,
+        1
+      ],
+      "capacity_visible": null,
+      "image": "data/ocr-v6/reference/IMG_3296.png",
+      "sha256": "45e7dce45a991241f28a55cc42cdbc072288138ff5114636d90e7c829387534e"
+    },
+    {
+      "id": "IMG_3297",
+      "scale": "20-scale",
+      "burst": "3296",
+      "bbox": [
+        0.1756,
+        0.1494,
+        0.5496,
+        1
+      ],
+      "capacity_visible": null,
+      "image": "data/ocr-v6/reference/IMG_3297.png",
+      "sha256": "cb1e83c2a1aa24bcca0d90a581329431f6305ad21d8571d21843315ac3ecdcc2"
+    },
+    {
+      "id": "IMG_3298",
+      "scale": "20-scale",
+      "burst": "3296",
+      "bbox": [
+        0.1374,
+        0.2011,
+        0.5115,
+        1
+      ],
+      "capacity_visible": null,
+      "image": "data/ocr-v6/reference/IMG_3298.png",
+      "sha256": "7745777219b54002e4443b11da623a5a493bb9446186d461479b41453610984a"
+    },
+    {
+      "id": "IMG_3299",
+      "scale": "20-scale",
+      "burst": "3296",
+      "bbox": [
+        0.1374,
+        0.1379,
+        0.6565,
+        0.9023
+      ],
+      "capacity_visible": null,
+      "image": "data/ocr-v6/reference/IMG_3299.png",
+      "sha256": "1e83dae7db7732faae1ceb983baa3045ecccfb4792b5b40654d0a43b58ea5f38"
+    },
+    {
+      "id": "IMG_3300",
+      "scale": "20-scale",
+      "burst": "3296",
+      "bbox": [
+        0,
+        0.2586,
+        0.9008,
+        0.8391
+      ],
+      "capacity_visible": null,
+      "image": "data/ocr-v6/reference/IMG_3300.png",
+      "sha256": "13b01d8b0aa6869fac5b26008f60565260930a0934cf119e464177cae3ad95a0"
+    },
+    {
+      "id": "IMG_3301",
+      "scale": "20-scale",
+      "burst": "3296",
+      "bbox": [
+        0.2824,
+        0.1092,
+        0.5573,
+        1
+      ],
+      "capacity_visible": null,
+      "image": "data/ocr-v6/reference/IMG_3301.png",
+      "sha256": "ae1150eb703eca799d7c15e575e3a771cb1588a25c3c0e3f0a0c889dbe084a80"
+    },
+    {
+      "id": "IMG_3302",
+      "scale": "20-scale",
+      "burst": "3296",
+      "bbox": [
+        0.2901,
+        0.2126,
+        0.4962,
+        0.8966
+      ],
+      "capacity_visible": null,
+      "image": "data/ocr-v6/reference/IMG_3302.png",
+      "sha256": "52a0123b0dba219ffc356eaaa6abf5a73383928e619a0c203954ea374f6b93e3"
+    },
+    {
+      "id": "IMG_3304",
+      "scale": "20-scale",
+      "burst": "3304",
+      "bbox": [
+        0.0611,
+        0.1839,
+        0.8702,
+        1
+      ],
+      "capacity_visible": null,
+      "image": "data/ocr-v6/reference/IMG_3304.png",
+      "sha256": "6fa9c815f6c5b3446096f0e98f985816286c1a96276f2bd628a9fd255568266c"
+    },
+    {
+      "id": "IMG_3305",
+      "scale": "20-scale",
+      "burst": "3304",
+      "bbox": [
+        0.3359,
+        0.092,
+        0.6336,
+        1
+      ],
+      "capacity_visible": null,
+      "image": "data/ocr-v6/reference/IMG_3305.png",
+      "sha256": "3375511117fa40cc314d8d02903f7c3ee98a05a5c65e3cad7e378fd9e7601bec"
+    },
+    {
+      "id": "IMG_3306",
+      "scale": "20-scale",
+      "burst": "3304",
+      "bbox": [
+        0.3206,
+        0.1782,
+        0.5267,
+        0.8391
+      ],
+      "capacity_visible": null,
+      "image": "data/ocr-v6/reference/IMG_3306.png",
+      "sha256": "6371d864c91d268468eb79339c1b7f1f84938186166ffab43760d5d985c8d0ed"
+    },
+    {
+      "id": "IMG_3310",
+      "scale": "20-scale",
+      "burst": "3310",
+      "bbox": [
+        0.1908,
+        0.1437,
+        0.6183,
+        1
+      ],
+      "capacity_visible": null,
+      "image": "data/ocr-v6/reference/IMG_3310.png",
+      "sha256": "9cacc076e7e53cc008be8ba6ad5c0ffe26b82ea11fc94eeb2dcd719bcee5325a"
+    },
+    {
+      "id": "IMG_3311",
+      "scale": "20-scale",
+      "burst": "3310",
+      "bbox": [
+        0.1374,
+        0.0805,
+        0.6718,
+        0.8046
+      ],
+      "capacity_visible": null,
+      "image": "data/ocr-v6/reference/IMG_3311.png",
+      "sha256": "48071266db5e8395050b86ef19d0a9cca7f73d2f44770350be3a1ff12f7ad93b"
+    },
+    {
+      "id": "IMG_3315",
+      "scale": "20-scale",
+      "burst": "3315",
+      "bbox": [
+        0.0382,
+        0.2299,
+        0.687,
+        0.6322
+      ],
+      "capacity_visible": null,
+      "image": "data/ocr-v6/reference/IMG_3315.png",
+      "sha256": "d0a3635c59f1ea2f5b98e843ed38203faa43dfd670650590c3bac33443c45068"
+    },
+    {
+      "id": "IMG_3316",
+      "scale": "20-scale",
+      "burst": "3315",
+      "bbox": [
+        0.2977,
+        0.1034,
+        0.4962,
+        0.7701
+      ],
+      "capacity_visible": null,
+      "image": "data/ocr-v6/reference/IMG_3316.png",
+      "sha256": "675b85e4fa20892e90a7d6b11c3e69143f7d666810ebcb4c6513819e7a270353"
+    },
+    {
+      "id": "IMG_3317",
+      "scale": "20-scale",
+      "burst": "3315",
+      "bbox": [
+        0.2824,
+        0.046,
+        0.542,
+        0.9598
+      ],
+      "capacity_visible": null,
+      "image": "data/ocr-v6/reference/IMG_3317.png",
+      "sha256": "5b19c2deaea8d76a17e6079e25779064686ec44562a6820fa53927e180af4e97"
+    },
+    {
+      "id": "IMG_3318",
+      "scale": "20-scale",
+      "burst": "3315",
+      "bbox": [
+        0.2137,
+        0.1322,
+        0.4885,
+        1
+      ],
+      "capacity_visible": "20",
+      "image": "data/ocr-v6/reference/IMG_3318.png",
+      "sha256": "2d753dd9d10a8c27852c1803d2654f42b489292b5f4095177ae81f4e927ab8d5"
+    },
+    {
+      "id": "IMG_3321",
+      "scale": "20-scale",
+      "burst": "3321",
+      "bbox": [
+        0.229,
+        0.0575,
+        0.4809,
+        0.9253
+      ],
+      "capacity_visible": "20",
+      "image": "data/ocr-v6/reference/IMG_3321.png",
+      "sha256": "43748c2c4d03ddc55ea3dc0cb4fc5d937c77c981657158b3bc9e82cf5c0acdd8"
+    },
+    {
+      "id": "IMG_3322",
+      "scale": "20-scale",
+      "burst": "3322",
+      "bbox": [
+        0.2672,
+        0.1552,
+        0.4885,
+        0.9425
+      ],
+      "capacity_visible": null,
+      "image": "data/ocr-v6/reference/IMG_3322.png",
+      "sha256": "1e390facf4942292241ed10631a353fddb94c13bbe1211505166248e68ad06ff"
+    },
+    {
+      "id": "IMG_3323",
+      "scale": "20-scale",
+      "burst": "3322",
+      "bbox": [
+        0.2214,
+        0.0517,
+        0.4885,
+        1
+      ],
+      "capacity_visible": null,
+      "image": "data/ocr-v6/reference/IMG_3323.png",
+      "sha256": "4cd0601d701d3ab8c6dd699ab2be6dd6dac0f4f77466b1354efcb53f0fa1ea3f"
+    },
+    {
+      "id": "IMG_3324",
+      "scale": "20-scale",
+      "burst": "3322",
+      "bbox": [
+        0.2061,
+        0.0172,
+        0.6336,
+        1
+      ],
+      "capacity_visible": null,
+      "image": "data/ocr-v6/reference/IMG_3324.png",
+      "sha256": "dfb4d7796bf382be92965ca14282a905945df140fde345650be124652cd6b9b7"
+    },
+    {
+      "id": "IMG_3325",
+      "scale": "20-scale",
+      "burst": "3322",
+      "bbox": [
+        0.374,
+        0.2126,
+        0.6412,
+        0.8793
+      ],
+      "capacity_visible": null,
+      "image": "data/ocr-v6/reference/IMG_3325.png",
+      "sha256": "807ab5a1b47e0fafce9d2ef879b4e7d9507387c7a8b27ab57afbfcdb0f00210a"
+    },
+    {
+      "id": "IMG_3326",
+      "scale": "20-scale",
+      "burst": "3322",
+      "bbox": [
+        0.145,
+        0.2356,
+        0.6641,
+        0.954
+      ],
+      "capacity_visible": null,
+      "image": "data/ocr-v6/reference/IMG_3326.png",
+      "sha256": "1f2d1053067f81b1c9ae66f6aa5519dcea7dd70475bb2dfed3b301bc293b2752"
+    },
+    {
+      "id": "IMG_3329",
+      "scale": "20-scale",
+      "burst": "3329",
+      "bbox": [
+        0,
+        0.1839,
+        0.8473,
+        0.9483
+      ],
+      "capacity_visible": null,
+      "image": "data/ocr-v6/reference/IMG_3329.png",
+      "sha256": "c5c67f6ecdcc991684338dc2d1d89b02e0efbc221846e6a445b49738c211aaf6"
+    },
+    {
+      "id": "IMG_3331",
+      "scale": "20-scale",
+      "burst": "3329",
+      "bbox": [
+        0.3206,
+        0.1609,
+        0.7176,
+        0.8621
+      ],
+      "capacity_visible": null,
+      "image": "data/ocr-v6/reference/IMG_3331.png",
+      "sha256": "304520333784137c0628862d293b4c25fe1dee5809671910ea2f38fb3f11fd88"
+    },
+    {
+      "id": "IMG_3332",
+      "scale": "20-scale",
+      "burst": "3329",
+      "bbox": [
+        0.3053,
+        0.1782,
+        0.5344,
+        0.8161
+      ],
+      "capacity_visible": null,
+      "image": "data/ocr-v6/reference/IMG_3332.png",
+      "sha256": "3764079be7f7ac355d27c6a667ab72a43adb585534c55b7562c4cddbde3ead33"
+    },
+    {
+      "id": "IMG_3333",
+      "scale": "20-scale",
+      "burst": "3329",
+      "bbox": [
+        0.084,
+        0,
+        0.4733,
+        1
+      ],
+      "capacity_visible": null,
+      "image": "data/ocr-v6/reference/IMG_3333.png",
+      "sha256": "e57cdd8aba47373901072c4269a492e686092ca6c6e269dcfe207cee8a5f429a"
+    },
+    {
+      "id": "IMG_3334",
+      "scale": "20-scale",
+      "burst": "3329",
+      "bbox": [
+        0.3282,
+        0.1207,
+        0.6031,
+        0.8103
+      ],
+      "capacity_visible": null,
+      "image": "data/ocr-v6/reference/IMG_3334.png",
+      "sha256": "6f400514207018fd7c3c5645e85bd02efbe16c1ab0f8bbd69fed7a3ddd08b866"
+    },
+    {
+      "id": "IMG_3335",
+      "scale": "20-scale",
+      "burst": "3329",
+      "bbox": [
+        0.4275,
+        0.1609,
+        0.5878,
+        0.8103
+      ],
+      "capacity_visible": null,
+      "image": "data/ocr-v6/reference/IMG_3335.png",
+      "sha256": "8bc219e60272338a3b9e6ec81a73a5e64addf5842e33ad85efb903345ea21252"
+    }
+  ]
+}

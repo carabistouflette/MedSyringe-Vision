@@ -1,0 +1,1772 @@
+{
+  "rows": [
+    {
+      "id": "103762660",
+      "title": "File:COVID-19 Vaccination record card and a blue pen on black background (51021144963).jpg",
+      "category": "COVID-19 vaccination in the United States",
+      "intent": "syringe",
+      "author": "Jernej Furman from Maribor, Slovenia",
+      "profile_keys": [],
+      "group": "commons:jernej furman from maribor, slovenia",
+      "source_url": "https://commons.wikimedia.org/wiki/File:COVID-19_Vaccination_record_card_and_a_blue_pen_on_black_background_(51021144963).jpg",
+      "original_url": "https://upload.wikimedia.org/wikipedia/commons/1/14/COVID-19_Vaccination_record_card_and_a_blue_pen_on_black_background_%2851021144963%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "thumbnail_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/14/COVID-19_Vaccination_record_card_and_a_blue_pen_on_black_background_%2851021144963%29.jpg/960px-COVID-19_Vaccination_record_card_and_a_blue_pen_on_black_background_%2851021144963%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "license": "https://creativecommons.org/licenses/by/2.0",
+      "license_label": "CC BY 2.0",
+      "file_timestamp": "2021-04-16T16:26:10Z",
+      "source_dimensions": [
+        5442,
+        3623
+      ],
+      "mime": "image/jpeg",
+      "size": 7643098,
+      "image": "detection_hillclimb/public/images/103762660.jpg",
+      "image_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/14/COVID-19_Vaccination_record_card_and_a_blue_pen_on_black_background_%2851021144963%29.jpg/960px-COVID-19_Vaccination_record_card_and_a_blue_pen_on_black_background_%2851021144963%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "original_bytes": false,
+      "width": 960,
+      "height": 639,
+      "sha256": "8945ae9b5d8cd17f33001a60bd6d95b705adadccc86709de8d544df82196f4e7",
+      "dhash": "0c30438c37292e13",
+      "objects": [],
+      "lookalikes": [
+        {
+          "bbox": [
+            0.48162,
+            0.61326,
+            0.99632,
+            0.9558
+          ],
+          "kind": "pen"
+        }
+      ],
+      "review_notes": "Blue pen alongside a paper vaccination card, with no syringe visible.",
+      "reference_review": "manual single-pass full-image review without predictions",
+      "split": "public-audit"
+    },
+    {
+      "id": "116806768",
+      "title": "File:Pos pipette showing grappler.jpg",
+      "category": "Pipettes",
+      "intent": "lookalike",
+      "author": "Squidonius ( talk )",
+      "profile_keys": [
+        "squidonius"
+      ],
+      "group": "commons:squidonius ( talk )",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Pos_pipette_showing_grappler.jpg",
+      "original_url": "https://upload.wikimedia.org/wikipedia/commons/0/07/Pos_pipette_showing_grappler.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "thumbnail_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/07/Pos_pipette_showing_grappler.jpg/960px-Pos_pipette_showing_grappler.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "license": "Public domain",
+      "license_label": "Public domain",
+      "file_timestamp": "2009-09-10T16:40:03Z",
+      "source_dimensions": [
+        2816,
+        1299
+      ],
+      "mime": "image/jpeg",
+      "size": 452931,
+      "image": "detection_hillclimb/public/images/116806768.jpg",
+      "image_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/07/Pos_pipette_showing_grappler.jpg/960px-Pos_pipette_showing_grappler.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "original_bytes": false,
+      "width": 960,
+      "height": 443,
+      "sha256": "7868c8d215076179a48ff5e7583ae820190d6d049ae17635557d485a5de2d672",
+      "dhash": "0f2f1f8ff5f7cf1f",
+      "objects": [],
+      "lookalikes": [
+        {
+          "bbox": [
+            0,
+            0.15079,
+            1,
+            0.77778
+          ],
+          "kind": "automatic pipette"
+        }
+      ],
+      "review_notes": "Close-up of a positive displacement pipette and its removable component.",
+      "reference_review": "manual single-pass full-image review without predictions",
+      "split": "public-audit"
+    },
+    {
+      "id": "14929101",
+      "title": "File:Home Anesthetic.jpg",
+      "category": "Hypodermic needles",
+      "intent": "syringe",
+      "author": "Psychonaught",
+      "profile_keys": [
+        "psychonaught"
+      ],
+      "group": "commons:psychonaught",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Home_Anesthetic.jpg",
+      "original_url": "https://upload.wikimedia.org/wikipedia/commons/7/79/Home_Anesthetic.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "thumbnail_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/79/Home_Anesthetic.jpg/960px-Home_Anesthetic.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "license": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+      "license_label": "CC0",
+      "file_timestamp": "2011-04-16T06:12:00Z",
+      "source_dimensions": [
+        1974,
+        1869
+      ],
+      "mime": "image/jpeg",
+      "size": 1661527,
+      "image": "detection_hillclimb/public/images/14929101.jpg",
+      "image_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/79/Home_Anesthetic.jpg/960px-Home_Anesthetic.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "original_bytes": false,
+      "width": 960,
+      "height": 909,
+      "sha256": "6f847331804e68e6ee99be8b38d0373fcfd4b105a59d1aca1abf5e86f8e318d2",
+      "dhash": "122203850f0f0656",
+      "objects": [
+        {
+          "bbox": [
+            0.56158,
+            0.01242,
+            0.74671,
+            0.93627
+          ],
+          "occluded": true,
+          "truncated": false
+        }
+      ],
+      "lookalikes": [],
+      "review_notes": "Orange-capped syringe behind a vial, visible on both sides of the occluder.",
+      "reference_review": "manual single-pass full-image review without predictions",
+      "split": "public-audit"
+    },
+    {
+      "id": "154891431",
+      "title": "File:Ramstein surpasses 20,000 COVID-19 vaccinations (6665371).jpg",
+      "category": "COVID-19 vaccination",
+      "intent": "syringe",
+      "author": "U.S. Air Force photo by Senior Airman Milton Hamilton",
+      "profile_keys": [],
+      "group": "commons:u.s. air force photo by senior airman milton hamilton",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Ramstein_surpasses_20,000_COVID-19_vaccinations_(6665371).jpg",
+      "original_url": "https://upload.wikimedia.org/wikipedia/commons/e/eb/Ramstein_surpasses_20%2C000_COVID-19_vaccinations_%286665371%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "thumbnail_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/eb/Ramstein_surpasses_20%2C000_COVID-19_vaccinations_%286665371%29.jpg/960px-Ramstein_surpasses_20%2C000_COVID-19_vaccinations_%286665371%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "license": "Public domain",
+      "license_label": "Public domain",
+      "file_timestamp": "2024-11-05T03:07:55Z",
+      "source_dimensions": [
+        6048,
+        4024
+      ],
+      "mime": "image/jpeg",
+      "size": 2924685,
+      "image": "detection_hillclimb/public/images/154891431.jpg",
+      "image_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/eb/Ramstein_surpasses_20%2C000_COVID-19_vaccinations_%286665371%29.jpg/960px-Ramstein_surpasses_20%2C000_COVID-19_vaccinations_%286665371%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "original_bytes": false,
+      "width": 960,
+      "height": 639,
+      "sha256": "fee1b462b2965cca8bb05d564ed7d5cf32e56dfbafd550a76dea15628548f999",
+      "dhash": "8b97938b4fc28ea7",
+      "objects": [
+        {
+          "bbox": [
+            0.43968,
+            0.49279,
+            0.51384,
+            0.52192
+          ],
+          "occluded": true,
+          "truncated": false
+        }
+      ],
+      "lookalikes": [],
+      "review_notes": "Horizontal syringe held between two hands. Keep the actual horizontal syringe and attached end.",
+      "reference_review": "manual single-pass full-image review without predictions",
+      "split": "public-audit"
+    },
+    {
+      "id": "154900789",
+      "title": "File:2d TSB Leadership volunteers for COVID-19 vaccinations (6504944).jpg",
+      "category": "COVID-19 vaccination",
+      "intent": "syringe",
+      "author": "U.S. Army photo by Candy C Knight",
+      "profile_keys": [],
+      "group": "commons:u.s. army photo by candy c knight",
+      "source_url": "https://commons.wikimedia.org/wiki/File:2d_TSB_Leadership_volunteers_for_COVID-19_vaccinations_(6504944).jpg",
+      "original_url": "https://upload.wikimedia.org/wikipedia/commons/d/d6/2d_TSB_Leadership_volunteers_for_COVID-19_vaccinations_%286504944%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "thumbnail_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d6/2d_TSB_Leadership_volunteers_for_COVID-19_vaccinations_%286504944%29.jpg/960px-2d_TSB_Leadership_volunteers_for_COVID-19_vaccinations_%286504944%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "license": "Public domain",
+      "license_label": "Public domain",
+      "file_timestamp": "2024-11-05T09:46:18Z",
+      "source_dimensions": [
+        2176,
+        1960
+      ],
+      "mime": "image/jpeg",
+      "size": 637420,
+      "image": "detection_hillclimb/public/images/154900789.jpg",
+      "image_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d6/2d_TSB_Leadership_volunteers_for_COVID-19_vaccinations_%286504944%29.jpg/960px-2d_TSB_Leadership_volunteers_for_COVID-19_vaccinations_%286504944%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "original_bytes": false,
+      "width": 960,
+      "height": 865,
+      "sha256": "a4c3864ee26250f2e571e786e6d228a9d1aca71148dc59bba1063dad779aed67",
+      "dhash": "6f67c4cd8898d8ca",
+      "objects": [
+        {
+          "bbox": [
+            0.45609,
+            0.48984,
+            0.52363,
+            0.54277
+          ],
+          "occluded": true,
+          "truncated": false
+        }
+      ],
+      "lookalikes": [],
+      "review_notes": "Small syringe and protector visible between gloves and shoulder, partially covered.",
+      "reference_review": "manual single-pass full-image review without predictions",
+      "split": "public-audit"
+    },
+    {
+      "id": "157440205",
+      "title": "File:COVID-19 vaccinations begin for U K tri-base community (6469636).jpg",
+      "category": "COVID-19 vaccination",
+      "intent": "syringe",
+      "author": "U.S. Air Force photo by Senior Airman Madeline Herzog",
+      "profile_keys": [],
+      "group": "commons:u.s. air force photo by senior airman madeline herzog",
+      "source_url": "https://commons.wikimedia.org/wiki/File:COVID-19_vaccinations_begin_for_U_K_tri-base_community_(6469636).jpg",
+      "original_url": "https://upload.wikimedia.org/wikipedia/commons/f/f4/COVID-19_vaccinations_begin_for_U_K_tri-base_community_%286469636%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "thumbnail_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f4/COVID-19_vaccinations_begin_for_U_K_tri-base_community_%286469636%29.jpg/960px-COVID-19_vaccinations_begin_for_U_K_tri-base_community_%286469636%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "license": "Public domain",
+      "license_label": "Public domain",
+      "file_timestamp": "2025-01-02T05:36:36Z",
+      "source_dimensions": [
+        5497,
+        3926
+      ],
+      "mime": "image/jpeg",
+      "size": 2384874,
+      "image": "detection_hillclimb/public/images/157440205.jpg",
+      "image_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f4/COVID-19_vaccinations_begin_for_U_K_tri-base_community_%286469636%29.jpg/960px-COVID-19_vaccinations_begin_for_U_K_tri-base_community_%286469636%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "original_bytes": false,
+      "width": 960,
+      "height": 686,
+      "sha256": "bce3339fe3646d4d57391716b5ed5cdcfb17f427b7dc2e74b52bd7d147a2c1e1",
+      "dhash": "7b49c9c989ccc5b6",
+      "objects": [
+        {
+          "bbox": [
+            0.45008,
+            0.41635,
+            0.49347,
+            0.47814
+          ],
+          "occluded": true,
+          "truncated": false
+        }
+      ],
+      "lookalikes": [],
+      "review_notes": "Syringe barrel, black stopper and blue hub visible at the shoulder.",
+      "reference_review": "manual single-pass full-image review without predictions",
+      "split": "public-audit"
+    },
+    {
+      "id": "17344783",
+      "title": "File:Einwegpipetten.jpg",
+      "category": "Pasteur pipettes",
+      "intent": "lookalike",
+      "author": "Gmhofmann",
+      "profile_keys": [
+        "gmhofmann"
+      ],
+      "group": "commons:gmhofmann",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Einwegpipetten.jpg",
+      "original_url": "https://upload.wikimedia.org/wikipedia/commons/b/be/Einwegpipetten.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "thumbnail_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/be/Einwegpipetten.jpg/960px-Einwegpipetten.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "license": "https://creativecommons.org/licenses/by-sa/3.0",
+      "license_label": "CC BY-SA 3.0",
+      "file_timestamp": "2017-06-02T04:44:10Z",
+      "source_dimensions": [
+        1478,
+        1108
+      ],
+      "mime": "image/jpeg",
+      "size": 271579,
+      "image": "detection_hillclimb/public/images/17344783.jpg",
+      "image_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/be/Einwegpipetten.jpg/960px-Einwegpipetten.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "original_bytes": false,
+      "width": 960,
+      "height": 720,
+      "sha256": "23addf486f8f28ecae34659e749edc1b78e96220fd9e436411fd4ba406e1f5ba",
+      "dhash": "051b26cc1105410e",
+      "objects": [],
+      "lookalikes": [
+        {
+          "bbox": [
+            0.08456,
+            0.09804,
+            0.87132,
+            0.77451
+          ],
+          "kind": "plastic pipette"
+        },
+        {
+          "bbox": [
+            0.09559,
+            0.48529,
+            0.99632,
+            0.65686
+          ],
+          "kind": "plastic pipette"
+        },
+        {
+          "bbox": [
+            0.07721,
+            0.59314,
+            0.98897,
+            0.82353
+          ],
+          "kind": "plastic pipette"
+        }
+      ],
+      "review_notes": "Three transparent disposable pipettes crossing on a dark background.",
+      "reference_review": "manual single-pass full-image review without predictions",
+      "split": "public-audit"
+    },
+    {
+      "id": "175793232",
+      "title": "File:Insulin pen inside a refridgerator.png",
+      "category": "Insulin pens",
+      "intent": "lookalike",
+      "author": "Ian1237",
+      "profile_keys": [
+        "ian1237"
+      ],
+      "group": "commons:ian1237",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Insulin_pen_inside_a_refridgerator.png",
+      "original_url": "https://upload.wikimedia.org/wikipedia/commons/9/95/Insulin_pen_inside_a_refridgerator.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "thumbnail_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/95/Insulin_pen_inside_a_refridgerator.png/960px-Insulin_pen_inside_a_refridgerator.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "license": "https://creativecommons.org/licenses/by-sa/4.0",
+      "license_label": "CC BY-SA 4.0",
+      "file_timestamp": "2025-09-29T11:51:38Z",
+      "source_dimensions": [
+        2159,
+        3837
+      ],
+      "mime": "image/png",
+      "size": 39242051,
+      "image": "detection_hillclimb/public/images/175793232.png",
+      "image_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/95/Insulin_pen_inside_a_refridgerator.png/960px-Insulin_pen_inside_a_refridgerator.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "original_bytes": false,
+      "width": 960,
+      "height": 1706,
+      "sha256": "d6e5be778550d9c2ed8c1402f59dcb54c4c95bf2df389e2d2ca1528123293818",
+      "dhash": "2226f88786904c27",
+      "objects": [],
+      "lookalikes": [
+        {
+          "bbox": [
+            0.02459,
+            0.45622,
+            1,
+            0.67742
+          ],
+          "kind": "insulin pen"
+        }
+      ],
+      "review_notes": "Insulin pen with a dial and integrated cap, photographed inside a refrigerator.",
+      "reference_review": "manual single-pass full-image review without predictions",
+      "split": "public-audit"
+    },
+    {
+      "id": "181882778",
+      "title": "File:Used syringe hidden and ready to stick someone on the top of a cupboard.jpg",
+      "category": "Insulin syringes",
+      "intent": "syringe",
+      "author": "Biscuitroot",
+      "profile_keys": [
+        "biscuitroot"
+      ],
+      "group": "commons:biscuitroot",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Used_syringe_hidden_and_ready_to_stick_someone_on_the_top_of_a_cupboard.jpg",
+      "original_url": "https://upload.wikimedia.org/wikipedia/commons/d/d9/Used_syringe_hidden_and_ready_to_stick_someone_on_the_top_of_a_cupboard.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "thumbnail_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d9/Used_syringe_hidden_and_ready_to_stick_someone_on_the_top_of_a_cupboard.jpg/960px-Used_syringe_hidden_and_ready_to_stick_someone_on_the_top_of_a_cupboard.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "license": "https://creativecommons.org/licenses/by-sa/4.0",
+      "license_label": "CC BY-SA 4.0",
+      "file_timestamp": "2026-01-15T21:02:53Z",
+      "source_dimensions": [
+        3232,
+        2424
+      ],
+      "mime": "image/jpeg",
+      "size": 1180411,
+      "image": "detection_hillclimb/public/images/181882778.jpg",
+      "image_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d9/Used_syringe_hidden_and_ready_to_stick_someone_on_the_top_of_a_cupboard.jpg/960px-Used_syringe_hidden_and_ready_to_stick_someone_on_the_top_of_a_cupboard.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "original_bytes": false,
+      "width": 960,
+      "height": 720,
+      "sha256": "64b643ee74d062a62ffdaa04218d001c0bf747e66e9d5bdacc6fe51f04bf3912",
+      "dhash": "63603e9fc3c14343",
+      "objects": [
+        {
+          "bbox": [
+            0.35685,
+            0.39371,
+            0.45869,
+            0.78406
+          ],
+          "occluded": true,
+          "truncated": false
+        }
+      ],
+      "lookalikes": [],
+      "review_notes": "White plunger and barrel partly occluded by a paper envelope.",
+      "reference_review": "manual single-pass full-image review without predictions",
+      "split": "public-audit"
+    },
+    {
+      "id": "19682197",
+      "title": "File:Heroin needle in the street.jpg",
+      "category": "Hypodermic needles",
+      "intent": "syringe",
+      "author": "eric molina from New York City, United States",
+      "profile_keys": [],
+      "group": "commons:eric molina from new york city, united states",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Heroin_needle_in_the_street.jpg",
+      "original_url": "https://upload.wikimedia.org/wikipedia/commons/9/98/Heroin_needle_in_the_street.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "thumbnail_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/98/Heroin_needle_in_the_street.jpg/960px-Heroin_needle_in_the_street.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "license": "https://creativecommons.org/licenses/by/2.0",
+      "license_label": "CC BY 2.0",
+      "file_timestamp": "2012-05-31T18:23:28Z",
+      "source_dimensions": [
+        2048,
+        1536
+      ],
+      "mime": "image/jpeg",
+      "size": 1705405,
+      "image": "detection_hillclimb/public/images/19682197.jpg",
+      "image_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/98/Heroin_needle_in_the_street.jpg/960px-Heroin_needle_in_the_street.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "original_bytes": false,
+      "width": 960,
+      "height": 720,
+      "sha256": "d582ac31fc4b1a1cd1ae60d8b77f9d9c0f90435183b81dbead9bfc41fcca72fd",
+      "dhash": "00e2209232acd6a8",
+      "objects": [
+        {
+          "bbox": [
+            0.20221,
+            0.37745,
+            0.58088,
+            0.77451
+          ],
+          "occluded": false,
+          "truncated": false
+        }
+      ],
+      "lookalikes": [],
+      "review_notes": "Single discarded syringe with orange cap on a rough concrete background.",
+      "reference_review": "manual single-pass full-image review without predictions",
+      "split": "public-audit"
+    },
+    {
+      "id": "197444125",
+      "title": "File:Nadeln 001 2026 08 07.jpg",
+      "category": "Disposable syringes",
+      "intent": "syringe",
+      "author": "Friedrich Haag",
+      "profile_keys": [
+        "f. riedelio"
+      ],
+      "group": "commons:friedrich haag",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Nadeln_001_2026_08_07.jpg",
+      "original_url": "https://upload.wikimedia.org/wikipedia/commons/e/ea/Nadeln_001_2026_08_07.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "thumbnail_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ea/Nadeln_001_2026_08_07.jpg/960px-Nadeln_001_2026_08_07.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "license": "https://creativecommons.org/licenses/by-sa/4.0",
+      "license_label": "CC BY-SA 4.0",
+      "file_timestamp": "2026-08-14T13:47:15Z",
+      "source_dimensions": [
+        4913,
+        3622
+      ],
+      "mime": "image/jpeg",
+      "size": 345900,
+      "image": "detection_hillclimb/public/images/197444125.jpg",
+      "image_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ea/Nadeln_001_2026_08_07.jpg/960px-Nadeln_001_2026_08_07.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "original_bytes": false,
+      "width": 960,
+      "height": 708,
+      "sha256": "4ce71f1df8bfe378ca51ca3a972a9cde9f93e6beecdaec0701010dddf7b9fe9b",
+      "dhash": "35899224c9372b5a",
+      "objects": [
+        {
+          "bbox": [
+            0.11029,
+            0.12935,
+            0.86029,
+            0.9005
+          ],
+          "occluded": false,
+          "truncated": false
+        }
+      ],
+      "lookalikes": [],
+      "review_notes": "Single syringe, attached metal needle, orange hub and fully visible rear.",
+      "reference_review": "manual single-pass full-image review without predictions",
+      "split": "public-audit"
+    },
+    {
+      "id": "199574572",
+      "title": "File:Mechanical pencil (6690848739).jpg",
+      "category": "Mechanical pencils",
+      "intent": "lookalike",
+      "author": "rob madeo",
+      "profile_keys": [],
+      "group": "commons:rob madeo",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Mechanical_pencil_(6690848739).jpg",
+      "original_url": "https://upload.wikimedia.org/wikipedia/commons/5/5f/Mechanical_pencil_%286690848739%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "thumbnail_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5f/Mechanical_pencil_%286690848739%29.jpg/960px-Mechanical_pencil_%286690848739%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "license": "https://creativecommons.org/licenses/by/2.0",
+      "license_label": "CC BY 2.0",
+      "file_timestamp": "2026-09-16T00:09:53Z",
+      "source_dimensions": [
+        3696,
+        2448
+      ],
+      "mime": "image/jpeg",
+      "size": 1021119,
+      "image": "detection_hillclimb/public/images/199574572.jpg",
+      "image_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5f/Mechanical_pencil_%286690848739%29.jpg/960px-Mechanical_pencil_%286690848739%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "original_bytes": false,
+      "width": 960,
+      "height": 636,
+      "sha256": "a97e0404611f675148aab8ca61111b46318df26c7f163142be306c947edc133a",
+      "dhash": "889c387ef0ffffff",
+      "objects": [],
+      "lookalikes": [
+        {
+          "bbox": [
+            0.08824,
+            0.36111,
+            0.86029,
+            0.68333
+          ],
+          "kind": "mechanical pencil"
+        }
+      ],
+      "review_notes": "Single yellow mechanical pencil on a textured surface.",
+      "reference_review": "manual single-pass full-image review without predictions",
+      "split": "public-audit"
+    },
+    {
+      "id": "21875446",
+      "title": "File:Eppendorfi automaatpipettid.JPG",
+      "category": "Air displacement pipettes",
+      "intent": "lookalike",
+      "author": "Thctamm",
+      "profile_keys": [
+        "thctamm"
+      ],
+      "group": "commons:thctamm",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Eppendorfi_automaatpipettid.JPG",
+      "original_url": "https://upload.wikimedia.org/wikipedia/commons/7/76/Eppendorfi_automaatpipettid.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "thumbnail_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/76/Eppendorfi_automaatpipettid.JPG/960px-Eppendorfi_automaatpipettid.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "license": "https://creativecommons.org/licenses/by-sa/3.0",
+      "license_label": "CC BY-SA 3.0",
+      "file_timestamp": "2012-10-02T17:44:10Z",
+      "source_dimensions": [
+        5472,
+        3648
+      ],
+      "mime": "image/jpeg",
+      "size": 5623313,
+      "image": "detection_hillclimb/public/images/21875446.jpg",
+      "image_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/76/Eppendorfi_automaatpipettid.JPG/960px-Eppendorfi_automaatpipettid.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "original_bytes": false,
+      "width": 960,
+      "height": 640,
+      "sha256": "38f255b77173e07f6ea2d29737dc829f69bcf8fee2cfa1383f3f5fb609bc2f01",
+      "dhash": "b3b4b69c9e0c9c9c",
+      "objects": [],
+      "lookalikes": [
+        {
+          "bbox": [
+            0.22426,
+            0.14917,
+            0.41912,
+            0.89503
+          ],
+          "kind": "automatic pipette"
+        },
+        {
+          "bbox": [
+            0.38235,
+            0.1768,
+            0.54412,
+            0.97238
+          ],
+          "kind": "automatic pipette"
+        },
+        {
+          "bbox": [
+            0.51838,
+            0.12707,
+            0.68015,
+            0.86188
+          ],
+          "kind": "automatic pipette"
+        }
+      ],
+      "review_notes": "Three single-channel automatic pipettes on a stand.",
+      "reference_review": "manual single-pass full-image review without predictions",
+      "split": "public-audit"
+    },
+    {
+      "id": "24359151",
+      "title": "File:0.1-2.5 μL Micropipette, Tips and Vials - VIR Department of Biotechnology - Pushkin, Saint Petersburg, Russia.jpg",
+      "category": "Air displacement pipettes",
+      "intent": "lookalike",
+      "author": "Luigi Guarino from Rome, Italy",
+      "profile_keys": [],
+      "group": "commons:luigi guarino from rome, italy",
+      "source_url": "https://commons.wikimedia.org/wiki/File:0.1-2.5_%CE%BCL_Micropipette,_Tips_and_Vials_-_VIR_Department_of_Biotechnology_-_Pushkin,_Saint_Petersburg,_Russia.jpg",
+      "original_url": "https://upload.wikimedia.org/wikipedia/commons/c/cc/0.1-2.5_%CE%BCL_Micropipette%2C_Tips_and_Vials_-_VIR_Department_of_Biotechnology_-_Pushkin%2C_Saint_Petersburg%2C_Russia.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "thumbnail_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/cc/0.1-2.5_%CE%BCL_Micropipette%2C_Tips_and_Vials_-_VIR_Department_of_Biotechnology_-_Pushkin%2C_Saint_Petersburg%2C_Russia.jpg/960px-0.1-2.5_%CE%BCL_Micropipette%2C_Tips_and_Vials_-_VIR_Department_of_Biotechnology_-_Pushkin%2C_Saint_Petersburg%2C_Russia.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "license": "https://creativecommons.org/licenses/by/2.0",
+      "license_label": "CC BY 2.0",
+      "file_timestamp": "2013-01-31T13:32:04Z",
+      "source_dimensions": [
+        3456,
+        2592
+      ],
+      "mime": "image/jpeg",
+      "size": 4274918,
+      "image": "detection_hillclimb/public/images/24359151.jpg",
+      "image_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/cc/0.1-2.5_%CE%BCL_Micropipette%2C_Tips_and_Vials_-_VIR_Department_of_Biotechnology_-_Pushkin%2C_Saint_Petersburg%2C_Russia.jpg/960px-0.1-2.5_%CE%BCL_Micropipette%2C_Tips_and_Vials_-_VIR_Department_of_Biotechnology_-_Pushkin%2C_Saint_Petersburg%2C_Russia.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "original_bytes": false,
+      "width": 960,
+      "height": 720,
+      "sha256": "cb3a453833e2912b9133241c2406817a8f37af6b952893a281e18fe4ca9200dd",
+      "dhash": "87cdd83e787ff371",
+      "objects": [],
+      "lookalikes": [
+        {
+          "bbox": [
+            0.32353,
+            0.48529,
+            0.55515,
+            0.95098
+          ],
+          "kind": "automatic pipette"
+        },
+        {
+          "bbox": [
+            0.17279,
+            0.55392,
+            0.3125,
+            0.88725
+          ],
+          "kind": "pen"
+        }
+      ],
+      "review_notes": "Automatic microlitre pipette and a writing pen near pipette tips.",
+      "reference_review": "manual single-pass full-image review without predictions",
+      "split": "public-audit"
+    },
+    {
+      "id": "29085527",
+      "title": "File:Einwegpipette.JPG",
+      "category": "Pasteur pipettes",
+      "intent": "lookalike",
+      "author": "Walber",
+      "profile_keys": [
+        "walber"
+      ],
+      "group": "commons:walber",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Einwegpipette.JPG",
+      "original_url": "https://upload.wikimedia.org/wikipedia/commons/7/7c/Einwegpipette.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "thumbnail_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7c/Einwegpipette.JPG/960px-Einwegpipette.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "license": "https://creativecommons.org/licenses/by-sa/3.0",
+      "license_label": "CC BY-SA 3.0",
+      "file_timestamp": "2017-06-02T04:35:03Z",
+      "source_dimensions": [
+        3264,
+        2448
+      ],
+      "mime": "image/jpeg",
+      "size": 537227,
+      "image": "detection_hillclimb/public/images/29085527.jpg",
+      "image_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7c/Einwegpipette.JPG/960px-Einwegpipette.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "original_bytes": false,
+      "width": 960,
+      "height": 720,
+      "sha256": "9c204437a27b300b6efa89e3d7dbeb238f3a82d5b2463aa2b195bc6ca6daf099",
+      "dhash": "104a313e47812001",
+      "objects": [],
+      "lookalikes": [
+        {
+          "bbox": [
+            0.19853,
+            0.32353,
+            0.97426,
+            0.65196
+          ],
+          "kind": "plastic pipette"
+        },
+        {
+          "bbox": [
+            0.10662,
+            0.40686,
+            0.90074,
+            0.66176
+          ],
+          "kind": "plastic pipette"
+        },
+        {
+          "bbox": [
+            0.01838,
+            0.48039,
+            0.77941,
+            0.66667
+          ],
+          "kind": "plastic pipette"
+        }
+      ],
+      "review_notes": "Three transparent disposable pipettes overlap on a dark background.",
+      "reference_review": "manual single-pass full-image review without predictions",
+      "split": "public-audit"
+    },
+    {
+      "id": "35041773",
+      "title": "File:Pasteur pipette 01.JPG",
+      "category": "Pasteur pipettes",
+      "intent": "lookalike",
+      "author": "Witia",
+      "profile_keys": [
+        "witia"
+      ],
+      "group": "commons:witia",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Pasteur_pipette_01.JPG",
+      "original_url": "https://upload.wikimedia.org/wikipedia/commons/b/b2/Pasteur_pipette_01.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "thumbnail_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b2/Pasteur_pipette_01.JPG/960px-Pasteur_pipette_01.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "license": "https://creativecommons.org/licenses/by/3.0",
+      "license_label": "CC BY 3.0",
+      "file_timestamp": "2014-08-31T14:45:32Z",
+      "source_dimensions": [
+        4288,
+        3216
+      ],
+      "mime": "image/jpeg",
+      "size": 3977039,
+      "image": "detection_hillclimb/public/images/35041773.jpg",
+      "image_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b2/Pasteur_pipette_01.JPG/960px-Pasteur_pipette_01.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "original_bytes": false,
+      "width": 960,
+      "height": 720,
+      "sha256": "e2ef7bd581338c7ddebb165d9285a258735dbaf46c8204ce71419d2759e9ab54",
+      "dhash": "d268b098f7e18039",
+      "objects": [],
+      "lookalikes": [
+        {
+          "bbox": [
+            0.08456,
+            0.2598,
+            0.79412,
+            0.69118
+          ],
+          "kind": "glass pipette"
+        }
+      ],
+      "review_notes": "Pipette with a bulb held by a glove above a microscope slide.",
+      "reference_review": "manual single-pass full-image review without predictions",
+      "split": "public-audit"
+    },
+    {
+      "id": "35445128",
+      "title": "File:CSIRO ScienceImage 1398 Pipette at sunset.jpg",
+      "category": "Air displacement pipettes",
+      "intent": "lookalike",
+      "author": "Nick Hamilton, CSIRO",
+      "profile_keys": [],
+      "group": "commons:nick hamilton, csiro",
+      "source_url": "https://commons.wikimedia.org/wiki/File:CSIRO_ScienceImage_1398_Pipette_at_sunset.jpg",
+      "original_url": "https://upload.wikimedia.org/wikipedia/commons/f/f3/CSIRO_ScienceImage_1398_Pipette_at_sunset.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "thumbnail_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f3/CSIRO_ScienceImage_1398_Pipette_at_sunset.jpg/960px-CSIRO_ScienceImage_1398_Pipette_at_sunset.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "license": "https://creativecommons.org/licenses/by/3.0",
+      "license_label": "CC BY 3.0",
+      "file_timestamp": "2014-09-17T20:43:50Z",
+      "source_dimensions": [
+        1772,
+        1181
+      ],
+      "mime": "image/jpeg",
+      "size": 1546782,
+      "image": "detection_hillclimb/public/images/35445128.jpg",
+      "image_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f3/CSIRO_ScienceImage_1398_Pipette_at_sunset.jpg/960px-CSIRO_ScienceImage_1398_Pipette_at_sunset.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "original_bytes": false,
+      "width": 960,
+      "height": 640,
+      "sha256": "167a6df27e96ba176ea8cd120fa2f0c54f939002251b1f8a416196a561f43454",
+      "dhash": "010018d8c2f41c03",
+      "objects": [],
+      "lookalikes": [
+        {
+          "bbox": [
+            0.15441,
+            0.59116,
+            0.94485,
+            0.79558
+          ],
+          "kind": "automatic pipette"
+        }
+      ],
+      "review_notes": "Automatic pipette horizontal beside racks with orange lighting.",
+      "reference_review": "manual single-pass full-image review without predictions",
+      "split": "public-audit"
+    },
+    {
+      "id": "472944",
+      "title": "File:Ampoule prefilled JPN.jpg",
+      "category": "Disposable syringes",
+      "intent": "syringe",
+      "author": "ignis",
+      "profile_keys": [
+        "ignis"
+      ],
+      "group": "commons:ignis",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Ampoule_prefilled_JPN.jpg",
+      "original_url": "https://upload.wikimedia.org/wikipedia/commons/8/85/Ampoule_prefilled_JPN.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "thumbnail_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/85/Ampoule_prefilled_JPN.jpg/960px-Ampoule_prefilled_JPN.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "license": "http://creativecommons.org/licenses/by-sa/3.0/",
+      "license_label": "CC BY-SA 3.0",
+      "file_timestamp": "2005-12-22T13:00:13Z",
+      "source_dimensions": [
+        2990,
+        1997
+      ],
+      "mime": "image/jpeg",
+      "size": 1046005,
+      "image": "detection_hillclimb/public/images/472944.jpg",
+      "image_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/85/Ampoule_prefilled_JPN.jpg/960px-Ampoule_prefilled_JPN.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "original_bytes": false,
+      "width": 960,
+      "height": 641,
+      "sha256": "7fbb2eafe4912a11aadf6d3a7f20489355b57f8389c6571a8ffcf9bfe9748f3e",
+      "dhash": "a73d13c21b0f9591",
+      "objects": [
+        {
+          "bbox": [
+            0.02413,
+            0.16204,
+            0.96169,
+            0.40018
+          ],
+          "occluded": false,
+          "truncated": false
+        },
+        {
+          "bbox": [
+            0.02413,
+            0.58655,
+            0.6687,
+            0.86611
+          ],
+          "occluded": false,
+          "truncated": false
+        }
+      ],
+      "lookalikes": [],
+      "review_notes": "Two prefilled medical syringes, including both distinct visible plunger ends.",
+      "reference_review": "manual single-pass full-image review without predictions",
+      "split": "public-audit"
+    },
+    {
+      "id": "54151019",
+      "title": "File:Concussion study-Gaetz-GW Graham 09 (9457757161).jpg",
+      "category": "Syringes",
+      "intent": "syringe",
+      "author": "University of the Fraser Valley",
+      "profile_keys": [],
+      "group": "commons:university of the fraser valley",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Concussion_study-Gaetz-GW_Graham_09_(9457757161).jpg",
+      "original_url": "https://upload.wikimedia.org/wikipedia/commons/4/41/Concussion_study-Gaetz-GW_Graham_09_%289457757161%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "thumbnail_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/41/Concussion_study-Gaetz-GW_Graham_09_%289457757161%29.jpg/960px-Concussion_study-Gaetz-GW_Graham_09_%289457757161%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "license": "https://creativecommons.org/licenses/by/2.0",
+      "license_label": "CC BY 2.0",
+      "file_timestamp": "2016-12-16T09:38:17Z",
+      "source_dimensions": [
+        4288,
+        2848
+      ],
+      "mime": "image/jpeg",
+      "size": 9410955,
+      "image": "detection_hillclimb/public/images/54151019.jpg",
+      "image_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/41/Concussion_study-Gaetz-GW_Graham_09_%289457757161%29.jpg/960px-Concussion_study-Gaetz-GW_Graham_09_%289457757161%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "original_bytes": false,
+      "width": 960,
+      "height": 638,
+      "sha256": "be8ff64c4be15f1842e4af3682b440396120ffcf58bb42f19694721f1452ae7d",
+      "dhash": "33316569c94d4613",
+      "objects": [
+        {
+          "bbox": [
+            0.51471,
+            0,
+            0.98897,
+            0.59116
+          ],
+          "occluded": true,
+          "truncated": true
+        },
+        {
+          "bbox": [
+            0.53309,
+            0.09945,
+            0.91912,
+            0.71823
+          ],
+          "occluded": true,
+          "truncated": false
+        }
+      ],
+      "lookalikes": [],
+      "review_notes": "Two overlapping syringes with attached metal tips. The upper syringe rear is clipped at the image edge.",
+      "reference_review": "manual single-pass full-image review without predictions",
+      "split": "public-audit"
+    },
+    {
+      "id": "63594664",
+      "title": "File:171023-N-FB203-011 - HM2 Majesta Hagemyer, USN.jpg",
+      "category": "Hypodermic needles",
+      "intent": "syringe",
+      "author": "USN",
+      "profile_keys": [],
+      "group": "commons:usn",
+      "source_url": "https://commons.wikimedia.org/wiki/File:171023-N-FB203-011_-_HM2_Majesta_Hagemyer,_USN.jpg",
+      "original_url": "https://upload.wikimedia.org/wikipedia/commons/0/0a/171023-N-FB203-011_-_HM2_Majesta_Hagemyer%2C_USN.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "thumbnail_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0a/171023-N-FB203-011_-_HM2_Majesta_Hagemyer%2C_USN.jpg/960px-171023-N-FB203-011_-_HM2_Majesta_Hagemyer%2C_USN.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "license": "Public domain",
+      "license_label": "Public domain",
+      "file_timestamp": "2017-10-25T10:41:10Z",
+      "source_dimensions": [
+        4928,
+        3280
+      ],
+      "mime": "image/jpeg",
+      "size": 725972,
+      "image": "detection_hillclimb/public/images/63594664.jpg",
+      "image_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0a/171023-N-FB203-011_-_HM2_Majesta_Hagemyer%2C_USN.jpg/960px-171023-N-FB203-011_-_HM2_Majesta_Hagemyer%2C_USN.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "original_bytes": false,
+      "width": 960,
+      "height": 639,
+      "sha256": "7f8dadf31b33f30e12a165e942f5f6e5b0def27343c1e6ff397b21ac22abb879",
+      "dhash": "d692b6b6a3323232",
+      "objects": [
+        {
+          "bbox": [
+            0.35846,
+            0.50586,
+            0.52668,
+            0.80204
+          ],
+          "occluded": true,
+          "truncated": false
+        }
+      ],
+      "lookalikes": [],
+      "review_notes": "Clear syringe held obliquely. Two gloves restrict visible ends.",
+      "reference_review": "manual single-pass full-image review without predictions",
+      "split": "public-audit"
+    },
+    {
+      "id": "66493077",
+      "title": "File:NoctuaNH-D14 08 (5974640421).jpg",
+      "category": "Disposable syringes",
+      "intent": "syringe",
+      "author": "tc_manasan from Philippines",
+      "profile_keys": [],
+      "group": "commons:tc_manasan from philippines",
+      "source_url": "https://commons.wikimedia.org/wiki/File:NoctuaNH-D14_08_(5974640421).jpg",
+      "original_url": "https://upload.wikimedia.org/wikipedia/commons/9/93/NoctuaNH-D14_08_%285974640421%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "thumbnail_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/93/NoctuaNH-D14_08_%285974640421%29.jpg/960px-NoctuaNH-D14_08_%285974640421%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "license": "https://creativecommons.org/licenses/by/2.0",
+      "license_label": "CC BY 2.0",
+      "file_timestamp": "2018-02-16T17:39:07Z",
+      "source_dimensions": [
+        4288,
+        2848
+      ],
+      "mime": "image/jpeg",
+      "size": 5476114,
+      "image": "detection_hillclimb/public/images/66493077.jpg",
+      "image_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/93/NoctuaNH-D14_08_%285974640421%29.jpg/960px-NoctuaNH-D14_08_%285974640421%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "original_bytes": false,
+      "width": 960,
+      "height": 638,
+      "sha256": "50f3eab6b51169663c8ac1149e0ee25c8531aa79a61c6dc736fe53e5f4fc29d9",
+      "dhash": "0303012370793323",
+      "objects": [],
+      "lookalikes": [
+        {
+          "bbox": [
+            0.0625,
+            0.40331,
+            0.83088,
+            0.75691
+          ],
+          "kind": "thermal paste applicator"
+        }
+      ],
+      "review_notes": "Noctua thermal paste applicator, a strong visual lookalike whose printed industrial use is legible.",
+      "reference_review": "manual single-pass full-image review without predictions",
+      "split": "public-audit"
+    },
+    {
+      "id": "7278183",
+      "title": "File:Braun Perfusor.jpg",
+      "category": "Syringe drivers",
+      "intent": "syringe",
+      "author": "Philipp Lensing",
+      "profile_keys": [],
+      "group": "commons:philipp lensing",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Braun_Perfusor.jpg",
+      "original_url": "https://upload.wikimedia.org/wikipedia/commons/3/3f/Braun_Perfusor.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "thumbnail_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3f/Braun_Perfusor.jpg/960px-Braun_Perfusor.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "license": "https://creativecommons.org/licenses/by-sa/3.0/de/deed.en",
+      "license_label": "CC BY-SA 3.0 de",
+      "file_timestamp": "2021-08-19T11:38:37Z",
+      "source_dimensions": [
+        1950,
+        654
+      ],
+      "mime": "image/jpeg",
+      "size": 285938,
+      "image": "detection_hillclimb/public/images/7278183.jpg",
+      "image_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3f/Braun_Perfusor.jpg/960px-Braun_Perfusor.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "original_bytes": false,
+      "width": 960,
+      "height": 322,
+      "sha256": "da2a8db8cfb53bb321dd8a4b0b552a996a42e62599c3128ecb15791e3ea067ed",
+      "dhash": "82929033a3a7a310",
+      "objects": [
+        {
+          "bbox": [
+            0.04968,
+            0.43693,
+            0.89928,
+            0.79933
+          ],
+          "occluded": true,
+          "truncated": false
+        }
+      ],
+      "lookalikes": [],
+      "review_notes": "Transparent syringe connected to a driver. Keep visible syringe extent only.",
+      "reference_review": "manual single-pass full-image review without predictions",
+      "split": "public-audit"
+    },
+    {
+      "id": "8774999",
+      "title": "File:Mechpencil05.jpg",
+      "category": "Mechanical pencils",
+      "intent": "lookalike",
+      "author": "w:User:Knulclunk",
+      "profile_keys": [
+        "knulclunk"
+      ],
+      "group": "commons:w:user:knulclunk",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Mechpencil05.jpg",
+      "original_url": "https://upload.wikimedia.org/wikipedia/commons/2/21/Mechpencil05.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "thumbnail_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/21/Mechpencil05.jpg/960px-Mechpencil05.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "license": "Public domain",
+      "license_label": "Public domain",
+      "file_timestamp": "2014-05-14T19:32:30Z",
+      "source_dimensions": [
+        1300,
+        763
+      ],
+      "mime": "image/jpeg",
+      "size": 349222,
+      "image": "detection_hillclimb/public/images/8774999.jpg",
+      "image_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/21/Mechpencil05.jpg/960px-Mechpencil05.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "original_bytes": false,
+      "width": 960,
+      "height": 563,
+      "sha256": "b802111dfcbd11b5d14700f5316f43c2a368396c2c34dd0489c7ced122da39b4",
+      "dhash": "ecf8f36baaeef0fc",
+      "objects": [],
+      "lookalikes": [
+        {
+          "bbox": [
+            0.00735,
+            0.09375,
+            0.97426,
+            0.26875
+          ],
+          "kind": "mechanical pencil"
+        }
+      ],
+      "review_notes": "Disassembled mechanical pencil and the corresponding full pencil, all seen on white.",
+      "reference_review": "manual single-pass full-image review without predictions",
+      "split": "public-audit"
+    },
+    {
+      "id": "90760385",
+      "title": "File:AJOVY.jpg",
+      "category": "Syringes",
+      "intent": "syringe",
+      "author": "Karl Johan Stensland",
+      "profile_keys": [
+        "kjstensland dy"
+      ],
+      "group": "commons:karl johan stensland",
+      "source_url": "https://commons.wikimedia.org/wiki/File:AJOVY.jpg",
+      "original_url": "https://upload.wikimedia.org/wikipedia/commons/e/e7/AJOVY.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "thumbnail_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e7/AJOVY.jpg/960px-AJOVY.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "license": "https://creativecommons.org/licenses/by-sa/4.0",
+      "license_label": "CC BY-SA 4.0",
+      "file_timestamp": "2020-05-29T14:41:19Z",
+      "source_dimensions": [
+        3958,
+        1014
+      ],
+      "mime": "image/jpeg",
+      "size": 312590,
+      "image": "detection_hillclimb/public/images/90760385.jpg",
+      "image_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e7/AJOVY.jpg/960px-AJOVY.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "original_bytes": false,
+      "width": 960,
+      "height": 246,
+      "sha256": "4c0f2c1232c78e011982d0d9b6f5188e7ba58714f6e614ff7db2c28259f07368",
+      "dhash": "e5c5c59190f2f2fa",
+      "objects": [
+        {
+          "bbox": [
+            0.05515,
+            0.24286,
+            0.94485,
+            0.87143
+          ],
+          "occluded": false,
+          "truncated": false
+        }
+      ],
+      "lookalikes": [],
+      "review_notes": "Single prefilled, capped medication syringe. Full visible assembly retained.",
+      "reference_review": "manual single-pass full-image review without predictions",
+      "split": "public-audit"
+    },
+    {
+      "id": "99361482",
+      "title": "File:COVID-19 Vaccine vial and syringe - US Census.jpg",
+      "category": "COVID-19 vaccination in the United States",
+      "intent": "syringe",
+      "author": "United States Census",
+      "profile_keys": [],
+      "group": "commons:united states census",
+      "source_url": "https://commons.wikimedia.org/wiki/File:COVID-19_Vaccine_vial_and_syringe_-_US_Census.jpg",
+      "original_url": "https://upload.wikimedia.org/wikipedia/commons/4/43/COVID-19_Vaccine_vial_and_syringe_-_US_Census.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "thumbnail_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/43/COVID-19_Vaccine_vial_and_syringe_-_US_Census.jpg/960px-COVID-19_Vaccine_vial_and_syringe_-_US_Census.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "license": "Public domain",
+      "license_label": "Public domain",
+      "file_timestamp": "2025-11-13T18:59:21Z",
+      "source_dimensions": [
+        1024,
+        577
+      ],
+      "mime": "image/jpeg",
+      "size": 148901,
+      "image": "detection_hillclimb/public/images/99361482.jpg",
+      "image_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/43/COVID-19_Vaccine_vial_and_syringe_-_US_Census.jpg/960px-COVID-19_Vaccine_vial_and_syringe_-_US_Census.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "original_bytes": false,
+      "width": 960,
+      "height": 541,
+      "sha256": "2d930bcd444b4392fedc0e56e8e410e77aa21b08e27b3d3b2485a733af1206e4",
+      "dhash": "228685cb8a6c4ccc",
+      "objects": [
+        {
+          "bbox": [
+            0.241,
+            0.34124,
+            0.66274,
+            0.64748
+          ],
+          "occluded": true,
+          "truncated": false
+        }
+      ],
+      "lookalikes": [],
+      "review_notes": "Single transparent syringe with its tip against a vial. Do not include the vial.",
+      "reference_review": "manual single-pass full-image review without predictions",
+      "split": "public-audit"
+    },
+    {
+      "id": "118606096",
+      "title": "File:Pasteur pipeta zumaiako institutua.jpg",
+      "category": "Pasteur pipettes",
+      "intent": "lookalike",
+      "author": "ZumaiaHE6",
+      "profile_keys": [
+        "zumaiahe6"
+      ],
+      "group": "commons:zumaiahe6",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Pasteur_pipeta_zumaiako_institutua.jpg",
+      "original_url": "https://upload.wikimedia.org/wikipedia/commons/c/cf/Pasteur_pipeta_zumaiako_institutua.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "thumbnail_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/cf/Pasteur_pipeta_zumaiako_institutua.jpg/960px-Pasteur_pipeta_zumaiako_institutua.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "license": "https://creativecommons.org/licenses/by-sa/4.0",
+      "license_label": "CC BY-SA 4.0",
+      "file_timestamp": "2022-06-02T07:42:17Z",
+      "source_dimensions": [
+        1968,
+        4160
+      ],
+      "mime": "image/jpeg",
+      "size": 1048799,
+      "image": "detection_hillclimb/public/images/118606096.jpg",
+      "image_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/cf/Pasteur_pipeta_zumaiako_institutua.jpg/960px-Pasteur_pipeta_zumaiako_institutua.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "original_bytes": false,
+      "width": 960,
+      "height": 2029,
+      "sha256": "44e8fde58d649d59450feae756bc96cef79b6b7b68674c21b20e5c5e903ffdb9",
+      "dhash": "000925534b040000",
+      "objects": [],
+      "lookalikes": [
+        {
+          "bbox": [
+            0.38835,
+            0.20737,
+            0.82524,
+            0.63134
+          ],
+          "kind": "plastic pipette"
+        }
+      ],
+      "review_notes": "Translucent disposable dropper on a pale background.",
+      "reference_review": "manual single-pass full-image review without predictions",
+      "split": "public-development"
+    },
+    {
+      "id": "1501426",
+      "title": "File:Pasteur Pipets.jpg",
+      "category": "Pasteur pipettes",
+      "intent": "lookalike",
+      "author": "No machine-readable author provided. Beliason assumed (based on copyright claims).",
+      "profile_keys": [
+        "beliason"
+      ],
+      "group": "commons:no machine-readable author provided. beliason assumed (based on copyright claims).",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Pasteur_Pipets.jpg",
+      "original_url": "https://upload.wikimedia.org/wikipedia/commons/9/9b/Pasteur_Pipets.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "thumbnail_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9b/Pasteur_Pipets.jpg/960px-Pasteur_Pipets.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "license": "https://creativecommons.org/licenses/by/2.5",
+      "license_label": "CC BY 2.5",
+      "file_timestamp": "2006-12-28T18:52:35Z",
+      "source_dimensions": [
+        1760,
+        1288
+      ],
+      "mime": "image/jpeg",
+      "size": 1489299,
+      "image": "detection_hillclimb/public/images/1501426.jpg",
+      "image_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9b/Pasteur_Pipets.jpg/960px-Pasteur_Pipets.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "original_bytes": false,
+      "width": 960,
+      "height": 703,
+      "sha256": "c39e928d2ef1dae9f332df7aed3b9a59db5d79055f6e8bb2a4353d58e63004c2",
+      "dhash": "7c7d3d3d1f9bdefe",
+      "objects": [],
+      "lookalikes": [
+        {
+          "bbox": [
+            0.03309,
+            0.29146,
+            0.98162,
+            0.50754
+          ],
+          "kind": "glass pipette"
+        },
+        {
+          "bbox": [
+            0.08824,
+            0.49246,
+            0.83088,
+            0.68844
+          ],
+          "kind": "glass pipette"
+        }
+      ],
+      "review_notes": "Two glass Pasteur pipettes.",
+      "reference_review": "manual single-pass full-image review without predictions",
+      "split": "public-development"
+    },
+    {
+      "id": "154888950",
+      "title": "File:Local National workforce receives their second dose of COVID-19 vaccination (6711423).jpg",
+      "category": "COVID-19 vaccination",
+      "intent": "syringe",
+      "author": "U.S. Army USAGW by Nadine Bower",
+      "profile_keys": [],
+      "group": "commons:u.s. army usagw by nadine bower",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Local_National_workforce_receives_their_second_dose_of_COVID-19_vaccination_(6711423).jpg",
+      "original_url": "https://upload.wikimedia.org/wikipedia/commons/c/c6/Local_National_workforce_receives_their_second_dose_of_COVID-19_vaccination_%286711423%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "thumbnail_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c6/Local_National_workforce_receives_their_second_dose_of_COVID-19_vaccination_%286711423%29.jpg/960px-Local_National_workforce_receives_their_second_dose_of_COVID-19_vaccination_%286711423%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "license": "Public domain",
+      "license_label": "Public domain",
+      "file_timestamp": "2024-11-05T00:57:01Z",
+      "source_dimensions": [
+        3024,
+        4032
+      ],
+      "mime": "image/jpeg",
+      "size": 2432197,
+      "image": "detection_hillclimb/public/images/154888950.jpg",
+      "image_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c6/Local_National_workforce_receives_their_second_dose_of_COVID-19_vaccination_%286711423%29.jpg/960px-Local_National_workforce_receives_their_second_dose_of_COVID-19_vaccination_%286711423%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "original_bytes": false,
+      "width": 960,
+      "height": 1280,
+      "sha256": "9be693dc7a263b38b62689517f04571004bea2e0886d5fe72c03eabd9aaf74b1",
+      "dhash": "5ec68349f2d0d09c",
+      "objects": [
+        {
+          "bbox": [
+            0.48958,
+            0.42729,
+            0.59766,
+            0.4537
+          ],
+          "occluded": true,
+          "truncated": false
+        }
+      ],
+      "lookalikes": [],
+      "review_notes": "Small syringe with a safety hub, partially covered by fingers during injection.",
+      "reference_review": "manual single-pass full-image review without predictions",
+      "split": "public-development"
+    },
+    {
+      "id": "157429146",
+      "title": "File:501st CSW begins COVID-19 vaccinations (6562078).jpg",
+      "category": "COVID-19 vaccination",
+      "intent": "syringe",
+      "author": "U.S. Air Force photo by Senior Airman Eugene Oliver",
+      "profile_keys": [],
+      "group": "commons:u.s. air force photo by senior airman eugene oliver",
+      "source_url": "https://commons.wikimedia.org/wiki/File:501st_CSW_begins_COVID-19_vaccinations_(6562078).jpg",
+      "original_url": "https://upload.wikimedia.org/wikipedia/commons/e/e8/501st_CSW_begins_COVID-19_vaccinations_%286562078%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "thumbnail_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e8/501st_CSW_begins_COVID-19_vaccinations_%286562078%29.jpg/960px-501st_CSW_begins_COVID-19_vaccinations_%286562078%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "license": "Public domain",
+      "license_label": "Public domain",
+      "file_timestamp": "2025-01-01T21:43:50Z",
+      "source_dimensions": [
+        3000,
+        2000
+      ],
+      "mime": "image/jpeg",
+      "size": 3943471,
+      "image": "detection_hillclimb/public/images/157429146.jpg",
+      "image_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e8/501st_CSW_begins_COVID-19_vaccinations_%286562078%29.jpg/960px-501st_CSW_begins_COVID-19_vaccinations_%286562078%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "original_bytes": false,
+      "width": 960,
+      "height": 640,
+      "sha256": "eaa40facf125083f6adfeff849ca71f91fad48d6ce463985fea7417522bf1bd9",
+      "dhash": "49399b076f1337af",
+      "objects": [
+        {
+          "bbox": [
+            0.76287,
+            0.37312,
+            0.81947,
+            0.59132
+          ],
+          "occluded": true,
+          "truncated": false
+        }
+      ],
+      "lookalikes": [],
+      "review_notes": "Thin graduated syringe underneath the vial or bag assembly. Hands restrict both ends.",
+      "reference_review": "manual single-pass full-image review without predictions",
+      "split": "public-development"
+    },
+    {
+      "id": "157438208",
+      "title": "File:Ansbach, Grafenwoehr and Vilseck Army health clinics begin COVID-19 vaccinations (6469363).jpg",
+      "category": "COVID-19 vaccination",
+      "intent": "syringe",
+      "author": "U.S. Army RHCE by Alain M. Polynice",
+      "profile_keys": [],
+      "group": "commons:u.s. army rhce by alain m. polynice",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Ansbach,_Grafenwoehr_and_Vilseck_Army_health_clinics_begin_COVID-19_vaccinations_(6469363).jpg",
+      "original_url": "https://upload.wikimedia.org/wikipedia/commons/2/20/Ansbach%2C_Grafenwoehr_and_Vilseck_Army_health_clinics_begin_COVID-19_vaccinations_%286469363%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "thumbnail_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/20/Ansbach%2C_Grafenwoehr_and_Vilseck_Army_health_clinics_begin_COVID-19_vaccinations_%286469363%29.jpg/960px-Ansbach%2C_Grafenwoehr_and_Vilseck_Army_health_clinics_begin_COVID-19_vaccinations_%286469363%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "license": "Public domain",
+      "license_label": "Public domain",
+      "file_timestamp": "2025-01-02T03:50:09Z",
+      "source_dimensions": [
+        1137,
+        758
+      ],
+      "mime": "image/jpeg",
+      "size": 152003,
+      "image": "detection_hillclimb/public/images/157438208.jpg",
+      "image_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/20/Ansbach%2C_Grafenwoehr_and_Vilseck_Army_health_clinics_begin_COVID-19_vaccinations_%286469363%29.jpg/960px-Ansbach%2C_Grafenwoehr_and_Vilseck_Army_health_clinics_begin_COVID-19_vaccinations_%286469363%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "original_bytes": false,
+      "width": 960,
+      "height": 640,
+      "sha256": "4855c53a3e4ac98f7e3e4e2e6651738ef4ef0687db576fab3185e5d11b271247",
+      "dhash": "4e46d646ea97e0b0",
+      "objects": [
+        {
+          "bbox": [
+            0.57117,
+            0.44578,
+            0.6605,
+            0.5141
+          ],
+          "occluded": true,
+          "truncated": false
+        }
+      ],
+      "lookalikes": [],
+      "review_notes": "Small syringe held in front of the injector; its front is partly covered by uniform fabric.",
+      "reference_review": "manual single-pass full-image review without predictions",
+      "split": "public-development"
+    },
+    {
+      "id": "159462910",
+      "title": "File:Colombia COVID-19 Vaccine at Mobile Site (51685590020).jpg",
+      "category": "COVID-19 vaccination",
+      "intent": "syringe",
+      "author": "USAID U.S. Agency for International Development",
+      "profile_keys": [],
+      "group": "commons:usaid u.s. agency for international development",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Colombia_COVID-19_Vaccine_at_Mobile_Site_(51685590020).jpg",
+      "original_url": "https://upload.wikimedia.org/wikipedia/commons/4/49/Colombia_COVID-19_Vaccine_at_Mobile_Site_%2851685590020%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "thumbnail_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/49/Colombia_COVID-19_Vaccine_at_Mobile_Site_%2851685590020%29.jpg/960px-Colombia_COVID-19_Vaccine_at_Mobile_Site_%2851685590020%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "license": "Public domain",
+      "license_label": "Public domain",
+      "file_timestamp": "2025-02-10T02:39:49Z",
+      "source_dimensions": [
+        3500,
+        2444
+      ],
+      "mime": "image/jpeg",
+      "size": 5768419,
+      "image": "detection_hillclimb/public/images/159462910.jpg",
+      "image_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/49/Colombia_COVID-19_Vaccine_at_Mobile_Site_%2851685590020%29.jpg/960px-Colombia_COVID-19_Vaccine_at_Mobile_Site_%2851685590020%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "original_bytes": false,
+      "width": 960,
+      "height": 670,
+      "sha256": "212ac60d6635ec0fd4b84a25fa69fbdbdf0f1b221e51cb1dd34bc52c3005fae8",
+      "dhash": "c3726343613998b0",
+      "objects": [
+        {
+          "bbox": [
+            0.42944,
+            0.48655,
+            0.48677,
+            0.54416
+          ],
+          "occluded": true,
+          "truncated": false
+        }
+      ],
+      "lookalikes": [],
+      "review_notes": "Small white-gloved injector holds syringe toward the shoulder. Part of the assembly is hidden by the grip.",
+      "reference_review": "manual single-pass full-image review without predictions",
+      "split": "public-development"
+    },
+    {
+      "id": "16176548",
+      "title": "File:Eppendorf pipet.jpg",
+      "category": "Air displacement pipettes",
+      "intent": "lookalike",
+      "author": "Jucember",
+      "profile_keys": [
+        "jucember"
+      ],
+      "group": "commons:jucember",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Eppendorf_pipet.jpg",
+      "original_url": "https://upload.wikimedia.org/wikipedia/commons/0/06/Eppendorf_pipet.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "thumbnail_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/06/Eppendorf_pipet.jpg/960px-Eppendorf_pipet.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "license": "https://creativecommons.org/licenses/by-sa/3.0",
+      "license_label": "CC BY-SA 3.0",
+      "file_timestamp": "2011-08-21T16:20:14Z",
+      "source_dimensions": [
+        4752,
+        3168
+      ],
+      "mime": "image/jpeg",
+      "size": 3458122,
+      "image": "detection_hillclimb/public/images/16176548.jpg",
+      "image_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/06/Eppendorf_pipet.jpg/960px-Eppendorf_pipet.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "original_bytes": false,
+      "width": 960,
+      "height": 640,
+      "sha256": "ed63d538e0b457408909e85e0c60691d91158febb916727e158be90c5484aea8",
+      "dhash": "8d5c2c36363e1c9d",
+      "objects": [],
+      "lookalikes": [
+        {
+          "bbox": [
+            0.20956,
+            0.1326,
+            0.70588,
+            0.9558
+          ],
+          "kind": "multichannel pipette"
+        }
+      ],
+      "review_notes": "A single multichannel laboratory pipette.",
+      "reference_review": "manual single-pass full-image review without predictions",
+      "split": "public-development"
+    },
+    {
+      "id": "4627441",
+      "title": "File:Alaris BD Perfusor.JPG",
+      "category": "Syringe drivers",
+      "intent": "syringe",
+      "author": "User:Mattes",
+      "profile_keys": [
+        "mattes"
+      ],
+      "group": "commons:user:mattes",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Alaris_BD_Perfusor.JPG",
+      "original_url": "https://upload.wikimedia.org/wikipedia/commons/2/2e/Alaris_BD_Perfusor.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "thumbnail_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2e/Alaris_BD_Perfusor.JPG/960px-Alaris_BD_Perfusor.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "license": "https://creativecommons.org/licenses/by-sa/3.0",
+      "license_label": "CC BY-SA 3.0",
+      "file_timestamp": "2008-08-25T12:32:48Z",
+      "source_dimensions": [
+        1632,
+        1224
+      ],
+      "mime": "image/jpeg",
+      "size": 301967,
+      "image": "detection_hillclimb/public/images/4627441.jpg",
+      "image_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2e/Alaris_BD_Perfusor.JPG/960px-Alaris_BD_Perfusor.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "original_bytes": false,
+      "width": 960,
+      "height": 720,
+      "sha256": "524faa504fbddddfdbe2f78e0b18028c8fe8acb771dfe534c305ae9bb5422b2a",
+      "dhash": "303537a49ce8b0a1",
+      "objects": [
+        {
+          "bbox": [
+            0.04492,
+            0.64229,
+            0.89103,
+            0.87079
+          ],
+          "occluded": true,
+          "truncated": false
+        }
+      ],
+      "lookalikes": [],
+      "review_notes": "Transparent barrel and plunger installed horizontally in a syringe driver.",
+      "reference_review": "manual single-pass full-image review without predictions",
+      "split": "public-development"
+    },
+    {
+      "id": "64294696",
+      "title": "File:A scantron pen and a mechanical pencil for The South Korea College Scholastic Ability Test, 2018.jpg",
+      "category": "Mechanical pencils",
+      "intent": "lookalike",
+      "author": "고려",
+      "profile_keys": [
+        "고려"
+      ],
+      "group": "commons:고려",
+      "source_url": "https://commons.wikimedia.org/wiki/File:A_scantron_pen_and_a_mechanical_pencil_for_The_South_Korea_College_Scholastic_Ability_Test,_2018.jpg",
+      "original_url": "https://upload.wikimedia.org/wikipedia/commons/3/38/A_scantron_pen_and_a_mechanical_pencil_for_The_South_Korea_College_Scholastic_Ability_Test%2C_2018.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "thumbnail_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/38/A_scantron_pen_and_a_mechanical_pencil_for_The_South_Korea_College_Scholastic_Ability_Test%2C_2018.jpg/960px-A_scantron_pen_and_a_mechanical_pencil_for_The_South_Korea_College_Scholastic_Ability_Test%2C_2018.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "license": "https://creativecommons.org/licenses/by/4.0",
+      "license_label": "CC BY 4.0",
+      "file_timestamp": "2017-11-24T06:00:23Z",
+      "source_dimensions": [
+        5312,
+        2988
+      ],
+      "mime": "image/jpeg",
+      "size": 3389822,
+      "image": "detection_hillclimb/public/images/64294696.jpg",
+      "image_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/38/A_scantron_pen_and_a_mechanical_pencil_for_The_South_Korea_College_Scholastic_Ability_Test%2C_2018.jpg/960px-A_scantron_pen_and_a_mechanical_pencil_for_The_South_Korea_College_Scholastic_Ability_Test%2C_2018.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "original_bytes": false,
+      "width": 960,
+      "height": 540,
+      "sha256": "91deb2b3f26fb777dda7ae1fd9762595115b9cbfa0342df2cae85ed06f9b762c",
+      "dhash": "cdcd24e443e84d49",
+      "objects": [],
+      "lookalikes": [
+        {
+          "bbox": [
+            0.15441,
+            0.33333,
+            0.84559,
+            0.46405
+          ],
+          "kind": "pen"
+        },
+        {
+          "bbox": [
+            0.15809,
+            0.52288,
+            0.84926,
+            0.67974
+          ],
+          "kind": "mechanical pencil"
+        }
+      ],
+      "review_notes": "Writing instrument and pink mechanical pencil.",
+      "reference_review": "manual single-pass full-image review without predictions",
+      "split": "public-development"
+    },
+    {
+      "id": "74844063",
+      "title": "File:TC hood (731570003).jpg",
+      "category": "Pipettes",
+      "intent": "lookalike",
+      "author": "Rachel Haller",
+      "profile_keys": [],
+      "group": "commons:rachel haller",
+      "source_url": "https://commons.wikimedia.org/wiki/File:TC_hood_(731570003).jpg",
+      "original_url": "https://upload.wikimedia.org/wikipedia/commons/1/10/TC_hood_%28731570003%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "thumbnail_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/10/TC_hood_%28731570003%29.jpg/960px-TC_hood_%28731570003%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "license": "https://creativecommons.org/licenses/by/2.0",
+      "license_label": "CC BY 2.0",
+      "file_timestamp": "2018-12-04T12:07:44Z",
+      "source_dimensions": [
+        1600,
+        1200
+      ],
+      "mime": "image/jpeg",
+      "size": 168774,
+      "image": "detection_hillclimb/public/images/74844063.jpg",
+      "image_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/10/TC_hood_%28731570003%29.jpg/960px-TC_hood_%28731570003%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "original_bytes": false,
+      "width": 960,
+      "height": 720,
+      "sha256": "361b5cdd7d8cfff77de1c9e1074a31e711a7d383e711cf4962b75c96bc81015c",
+      "dhash": "01070b43c61c2101",
+      "objects": [],
+      "lookalikes": [
+        {
+          "bbox": [
+            0.05515,
+            0.38235,
+            0.87868,
+            0.60784
+          ],
+          "kind": "automatic pipette"
+        }
+      ],
+      "review_notes": "Automatic pipette in a hood with colored illumination.",
+      "reference_review": "manual single-pass full-image review without predictions",
+      "split": "public-development"
+    },
+    {
+      "id": "9778179",
+      "title": "File:Amir Karam Fat Transfer Facelift 12.jpg",
+      "category": "Syringes",
+      "intent": "syringe",
+      "author": "BestInPlastics",
+      "profile_keys": [
+        "bestinplastics"
+      ],
+      "group": "commons:bestinplastics",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Amir_Karam_Fat_Transfer_Facelift_12.jpg",
+      "original_url": "https://upload.wikimedia.org/wikipedia/commons/3/3c/Amir_Karam_Fat_Transfer_Facelift_12.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "thumbnail_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3c/Amir_Karam_Fat_Transfer_Facelift_12.jpg/960px-Amir_Karam_Fat_Transfer_Facelift_12.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "license": "https://creativecommons.org/licenses/by-sa/3.0",
+      "license_label": "CC BY-SA 3.0",
+      "file_timestamp": "2010-03-19T15:40:04Z",
+      "source_dimensions": [
+        1800,
+        1350
+      ],
+      "mime": "image/jpeg",
+      "size": 1585137,
+      "image": "detection_hillclimb/public/images/9778179.jpg",
+      "image_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3c/Amir_Karam_Fat_Transfer_Facelift_12.jpg/960px-Amir_Karam_Fat_Transfer_Facelift_12.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "original_bytes": false,
+      "width": 960,
+      "height": 720,
+      "sha256": "bfadf382460ed50699ddd25236fe4993fd3112b7133eff78b81d1eefbcae8674",
+      "dhash": "3f7780eccecfe666",
+      "objects": [
+        {
+          "bbox": [
+            0.18815,
+            0.00556,
+            0.98201,
+            0.20053
+          ],
+          "occluded": false,
+          "truncated": true
+        },
+        {
+          "bbox": [
+            0.00417,
+            0.2096,
+            0.86617,
+            0.35016
+          ],
+          "occluded": true,
+          "truncated": true
+        },
+        {
+          "bbox": [
+            0.00417,
+            0.32296,
+            0.91727,
+            0.45899
+          ],
+          "occluded": true,
+          "truncated": true
+        },
+        {
+          "bbox": [
+            0.00417,
+            0.42725,
+            0.9786,
+            0.55874
+          ],
+          "occluded": true,
+          "truncated": true
+        }
+      ],
+      "lookalikes": [],
+      "review_notes": "Four visible syringes arranged in a tight overlapping group. The large top barrel and orange barrels are image-edge truncated.",
+      "reference_review": "manual single-pass full-image review without predictions",
+      "split": "public-development"
+    }
+  ],
+  "partitions": {
+    "public-audit": {
+      "images": 25,
+      "groups": 25,
+      "positives": 13,
+      "negatives": 12,
+      "boxes": 15,
+      "multi": 2,
+      "partial": 9
+    },
+    "public-development": {
+      "images": 11,
+      "groups": 11,
+      "positives": 6,
+      "negatives": 5,
+      "boxes": 9,
+      "multi": 1,
+      "partial": 6
+    }
+  },
+  "prior_exposure_counts": {
+    "ids": 628,
+    "urls": 499,
+    "titles": 181,
+    "authors": 178,
+    "hashes": 925,
+    "difference": 654
+  },
+  "review_sha256": "4ff53b316b2efbb4579203478fbee090689dbecbf96a2ba7ef7118c4f968302d",
+  "assignment_seed": "independent-2026-11-21-v1",
+  "assignment": "Sort photographer groups by a seeded SHA-256 in each phenotype stratum. Every third group enters development; all others enter audit.",
+  "domain": "Independent Wikimedia Commons photographs with author and file-level attribution.",
+  "exclusion_threshold": "Exact hashes and dHash at Hamming distance <=4 over all reflected and rotated orientations.",
+  "benchmark_scope": "Curated stress set. Operating precision depends on this class prevalence."
+}

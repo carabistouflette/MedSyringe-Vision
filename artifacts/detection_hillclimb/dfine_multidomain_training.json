@@ -1,0 +1,126 @@
+{
+  "seed": 1148,
+  "trials": [
+    {
+      "epoch": 1,
+      "loss": 20.09124909017397,
+      "outcomes": {
+        "phlebotomy-development": {
+          "images": 40,
+          "objects": 28,
+          "tp": 16,
+          "fp": 9,
+          "fn": 12,
+          "precision": 0.64,
+          "recall": 0.5714285714285714,
+          "f1": 0.6037735849056605,
+          "ap50": 0.4938044759325062,
+          "ap50_95": 0.17825124381567564,
+          "exact_count": 26,
+          "negative_images": 14,
+          "correct_empty": 12
+        },
+        "public-development": {
+          "images": 11,
+          "objects": 9,
+          "tp": 4,
+          "fp": 236,
+          "fn": 5,
+          "precision": 0.016666666666666666,
+          "recall": 0.4444444444444444,
+          "f1": 0.0321285140562249,
+          "ap50": 0.009904514419168542,
+          "ap50_95": 0.003340543932279883,
+          "exact_count": 0,
+          "negative_images": 5,
+          "correct_empty": 0
+        }
+      },
+      "elapsed_seconds": 30.932803616000456
+    },
+    {
+      "epoch": 2,
+      "loss": 19.135128325742222,
+      "outcomes": {
+        "phlebotomy-development": {
+          "images": 40,
+          "objects": 28,
+          "tp": 15,
+          "fp": 14,
+          "fn": 13,
+          "precision": 0.5172413793103449,
+          "recall": 0.5357142857142857,
+          "f1": 0.5263157894736843,
+          "ap50": 0.44510028812441277,
+          "ap50_95": 0.1634235612873231,
+          "exact_count": 25,
+          "negative_images": 14,
+          "correct_empty": 11
+        },
+        "public-development": {
+          "images": 11,
+          "objects": 9,
+          "tp": 1,
+          "fp": 15,
+          "fn": 8,
+          "precision": 0.0625,
+          "recall": 0.1111111111111111,
+          "f1": 0.08,
+          "ap50": 0.01621248032690812,
+          "ap50_95": 0.005554042182357256,
+          "exact_count": 6,
+          "negative_images": 5,
+          "correct_empty": 4
+        }
+      },
+      "elapsed_seconds": 63.34190457400018
+    },
+    {
+      "epoch": 3,
+      "loss": 19.103507767552916,
+      "outcomes": {
+        "phlebotomy-development": {
+          "images": 40,
+          "objects": 28,
+          "tp": 16,
+          "fp": 11,
+          "fn": 12,
+          "precision": 0.5925925925925926,
+          "recall": 0.5714285714285714,
+          "f1": 0.5818181818181818,
+          "ap50": 0.5335941719844872,
+          "ap50_95": 0.21145507987855852,
+          "exact_count": 26,
+          "negative_images": 14,
+          "correct_empty": 12
+        },
+        "public-development": {
+          "images": 11,
+          "objects": 9,
+          "tp": 1,
+          "fp": 31,
+          "fn": 8,
+          "precision": 0.03125,
+          "recall": 0.1111111111111111,
+          "f1": 0.04878048780487805,
+          "ap50": 0.010482643354395136,
+          "ap50_95": 0.005375581357232038,
+          "exact_count": 1,
+          "negative_images": 5,
+          "correct_empty": 1
+        }
+      },
+      "elapsed_seconds": 97.43974868399982
+    }
+  ],
+  "selected_epoch": 2,
+  "files": {
+    "data/detection_hillclimb/runs/dfine-multidomain/best/config.json": "71d48f58ac9cb31ccf017d673fbc8baec8b30435a7d9ae142dcfe63dce6c1adf",
+    "data/detection_hillclimb/runs/dfine-multidomain/best/model.safetensors": "70c7ef925b2bce0ff8dae4d971aa390063b26adaf093d7a534b28776e83c9b8d"
+  },
+  "dataset_sha256": "6a4274db480f44ae51700cd9b02e595650bcd9ee76dfa3715ab3c7d3f2aa18df",
+  "initial_sha256": "f7d52826893874d96b9727cbae4c79285bdd04c94ed5dd9b030096c09e80e767",
+  "train_device": "cpu",
+  "code_sha256": "19eb035349e790ee6137fbc6c4b12fb7337bec6cf6fe836209adb50625f8f959",
+  "elapsed_seconds": 97.58679405099974
+}

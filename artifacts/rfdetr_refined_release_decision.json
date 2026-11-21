@@ -1,0 +1,357 @@
+{
+  "eligible_for_release": true,
+  "preserved_all_matches": true,
+  "no_extra_false_positives": true,
+  "novel_positive_recovery": true,
+  "cohorts": {
+    "previous_zenodo": {
+      "baseline": {
+        "precision": 0.3333333333333333,
+        "recall": 0.1111111111111111,
+        "f1": 0.16666666666666666,
+        "ap50": 0.18573402304233402,
+        "ap50_95": 0.11898421656830585,
+        "exact_count": 18,
+        "tp": 1,
+        "fp": 2,
+        "fn": 8
+      },
+      "hybrid": {
+        "precision": 0.6,
+        "recall": 0.3333333333333333,
+        "f1": 0.42857142857142855,
+        "ap50": 0.2573845183704633,
+        "ap50_95": 0.16476888444519894,
+        "exact_count": 20,
+        "tp": 3,
+        "fp": 2,
+        "fn": 6
+      },
+      "verified": {
+        "precision": 0.6,
+        "recall": 0.3333333333333333,
+        "f1": 0.42857142857142855,
+        "ap50": 0.2573845183704633,
+        "ap50_95": 0.16476888444519894,
+        "exact_count": 20,
+        "tp": 3,
+        "fp": 2,
+        "fn": 6
+      },
+      "guard": {
+        "passed": true,
+        "lost_matches": [],
+        "recovered_matches": 2,
+        "baseline_matches": 1,
+        "candidate_matches": 3
+      },
+      "extra_guard": {
+        "passed": true,
+        "lost_matches": [],
+        "recovered_matches": 0,
+        "baseline_matches": 3,
+        "candidate_matches": 3
+      }
+    },
+    "previous_external": {
+      "baseline": {
+        "precision": 0.7692307692307693,
+        "recall": 0.8333333333333334,
+        "f1": 0.8,
+        "ap50": 0.908840169731259,
+        "ap50_95": 0.6826025459688827,
+        "exact_count": 9,
+        "tp": 10,
+        "fp": 3,
+        "fn": 2
+      },
+      "hybrid": {
+        "precision": 0.625,
+        "recall": 0.8333333333333334,
+        "f1": 0.7142857142857143,
+        "ap50": 0.8845307345690513,
+        "ap50_95": 0.6649794139341193,
+        "exact_count": 8,
+        "tp": 10,
+        "fp": 6,
+        "fn": 2
+      },
+      "verified": {
+        "precision": 0.7692307692307693,
+        "recall": 0.8333333333333334,
+        "f1": 0.8,
+        "ap50": 0.908840169731259,
+        "ap50_95": 0.6826025459688827,
+        "exact_count": 9,
+        "tp": 10,
+        "fp": 3,
+        "fn": 2
+      },
+      "guard": {
+        "passed": true,
+        "lost_matches": [],
+        "recovered_matches": 0,
+        "baseline_matches": 10,
+        "candidate_matches": 10
+      },
+      "extra_guard": {
+        "passed": true,
+        "lost_matches": [],
+        "recovered_matches": 0,
+        "baseline_matches": 10,
+        "candidate_matches": 10
+      }
+    },
+    "fil_rouge": {
+      "baseline": {
+        "precision": 1.0,
+        "recall": 0.9459459459459459,
+        "f1": 0.9722222222222222,
+        "ap50": 1.0,
+        "ap50_95": 0.7635691888570749,
+        "exact_count": 70,
+        "tp": 70,
+        "fp": 0,
+        "fn": 4
+      },
+      "hybrid": {
+        "precision": 1.0,
+        "recall": 0.9459459459459459,
+        "f1": 0.9722222222222222,
+        "ap50": 1.0,
+        "ap50_95": 0.7635691888570749,
+        "exact_count": 70,
+        "tp": 70,
+        "fp": 0,
+        "fn": 4
+      },
+      "verified": {
+        "precision": 1.0,
+        "recall": 0.9459459459459459,
+        "f1": 0.9722222222222222,
+        "ap50": 1.0,
+        "ap50_95": 0.7635691888570749,
+        "exact_count": 70,
+        "tp": 70,
+        "fp": 0,
+        "fn": 4
+      },
+      "guard": {
+        "passed": true,
+        "lost_matches": [],
+        "recovered_matches": 0,
+        "baseline_matches": 70,
+        "candidate_matches": 70
+      },
+      "extra_guard": {
+        "passed": true,
+        "lost_matches": [],
+        "recovered_matches": 0,
+        "baseline_matches": 70,
+        "candidate_matches": 70
+      }
+    },
+    "historical": {
+      "baseline": {
+        "precision": 1.0,
+        "recall": 0.6,
+        "f1": 0.7499999999999999,
+        "ap50": 0.8830305611206279,
+        "ap50_95": 0.7118888663059852,
+        "exact_count": 7,
+        "tp": 9,
+        "fp": 0,
+        "fn": 6
+      },
+      "hybrid": {
+        "precision": 1.0,
+        "recall": 0.6,
+        "f1": 0.7499999999999999,
+        "ap50": 0.8830305611206279,
+        "ap50_95": 0.7118888663059852,
+        "exact_count": 7,
+        "tp": 9,
+        "fp": 0,
+        "fn": 6
+      },
+      "verified": {
+        "precision": 1.0,
+        "recall": 0.6,
+        "f1": 0.7499999999999999,
+        "ap50": 0.8830305611206279,
+        "ap50_95": 0.7118888663059852,
+        "exact_count": 7,
+        "tp": 9,
+        "fp": 0,
+        "fn": 6
+      },
+      "guard": {
+        "passed": true,
+        "lost_matches": [],
+        "recovered_matches": 0,
+        "baseline_matches": 9,
+        "candidate_matches": 9
+      },
+      "extra_guard": {
+        "passed": true,
+        "lost_matches": [],
+        "recovered_matches": 0,
+        "baseline_matches": 9,
+        "candidate_matches": 9
+      }
+    },
+    "fresh": {
+      "baseline": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "ap50": 0.17801780178017798,
+        "ap50_95": 0.0548054805480548,
+        "exact_count": 0,
+        "tp": 0,
+        "fp": 0,
+        "fn": 3
+      },
+      "hybrid": {
+        "precision": 1.0,
+        "recall": 0.3333333333333333,
+        "f1": 0.5,
+        "ap50": 0.4596888260254595,
+        "ap50_95": 0.14007987353357182,
+        "exact_count": 1,
+        "tp": 1,
+        "fp": 0,
+        "fn": 2
+      },
+      "verified": {
+        "precision": 1.0,
+        "recall": 0.3333333333333333,
+        "f1": 0.5,
+        "ap50": 0.4596888260254595,
+        "ap50_95": 0.14007987353357182,
+        "exact_count": 1,
+        "tp": 1,
+        "fp": 0,
+        "fn": 2
+      },
+      "guard": {
+        "passed": true,
+        "lost_matches": [],
+        "recovered_matches": 1,
+        "baseline_matches": 0,
+        "candidate_matches": 1
+      },
+      "extra_guard": {
+        "passed": true,
+        "lost_matches": [],
+        "recovered_matches": 0,
+        "baseline_matches": 1,
+        "candidate_matches": 1
+      }
+    },
+    "pen_reserve": {
+      "baseline": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "ap50": null,
+        "ap50_95": null,
+        "exact_count": 1,
+        "tp": 0,
+        "fp": 8,
+        "fn": 0
+      },
+      "hybrid": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "ap50": null,
+        "ap50_95": null,
+        "exact_count": 1,
+        "tp": 0,
+        "fp": 8,
+        "fn": 0
+      },
+      "verified": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "ap50": null,
+        "ap50_95": null,
+        "exact_count": 1,
+        "tp": 0,
+        "fp": 8,
+        "fn": 0
+      },
+      "guard": {
+        "passed": true,
+        "lost_matches": [],
+        "recovered_matches": 0,
+        "baseline_matches": 0,
+        "candidate_matches": 0
+      },
+      "extra_guard": {
+        "passed": true,
+        "lost_matches": [],
+        "recovered_matches": 0,
+        "baseline_matches": 0,
+        "candidate_matches": 0
+      }
+    },
+    "syringe_reserve": {
+      "baseline": {
+        "precision": 0.6,
+        "recall": 0.6666666666666666,
+        "f1": 0.631578947368421,
+        "ap50": 0.5773346271504227,
+        "ap50_95": 0.368215135467035,
+        "exact_count": 4,
+        "tp": 6,
+        "fp": 4,
+        "fn": 3
+      },
+      "hybrid": {
+        "precision": 0.6,
+        "recall": 0.6666666666666666,
+        "f1": 0.631578947368421,
+        "ap50": 0.5773346271504227,
+        "ap50_95": 0.368215135467035,
+        "exact_count": 4,
+        "tp": 6,
+        "fp": 4,
+        "fn": 3
+      },
+      "verified": {
+        "precision": 0.6,
+        "recall": 0.6666666666666666,
+        "f1": 0.631578947368421,
+        "ap50": 0.5773346271504227,
+        "ap50_95": 0.368215135467035,
+        "exact_count": 4,
+        "tp": 6,
+        "fp": 4,
+        "fn": 3
+      },
+      "guard": {
+        "passed": true,
+        "lost_matches": [],
+        "recovered_matches": 0,
+        "baseline_matches": 6,
+        "candidate_matches": 6
+      },
+      "extra_guard": {
+        "passed": true,
+        "lost_matches": [],
+        "recovered_matches": 0,
+        "baseline_matches": 6,
+        "candidate_matches": 6
+      }
+    }
+  },
+  "protocol_sha256": "2b4e2c7ffaf89ff3546a101aea1819ebe1fa6636c86e51d5d00acf7cd11d7b30",
+  "independent_cohorts": [
+    "fresh",
+    "pen_reserve",
+    "syringe_reserve"
+  ]
+}

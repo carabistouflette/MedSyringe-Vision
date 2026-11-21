@@ -1,0 +1,6146 @@
+{
+  "rows": [
+    {
+      "id": "IMG_3161",
+      "file": "IMG_3161.jpeg",
+      "sha256": "9ba6d31c322b29f42f00b37fd3598e64f4785031e799f7f296c58f5d51aa1561",
+      "bytes": 2810566,
+      "capture": "2026-11-07T17:35:35",
+      "subsecond": "325",
+      "camera": "iPhone 17 Pro Max",
+      "stored_size": [
+        5712,
+        4284
+      ],
+      "orientation": 6,
+      "has_icc": true,
+      "dhash": "2010686c6ce4c480",
+      "group": "clear-60-wall",
+      "split": "fit",
+      "observed_condition": "uncolored",
+      "group_scale": "60-scale",
+      "objects": [
+        {
+          "bbox": [
+            0.26,
+            0.28,
+            0.5,
+            0.81
+          ]
+        }
+      ],
+      "status": "reviewed draft",
+      "provenance": "Visible extent independently marked on the oriented JPEG",
+      "flags": []
+    },
+    {
+      "id": "IMG_3162",
+      "file": "IMG_3162.jpeg",
+      "sha256": "89a417506b29fe93e4c4b5807eaf18cc75f4e22c92d0790171eb2f3da8d5f7df",
+      "bytes": 2922923,
+      "capture": "2026-11-07T17:35:39",
+      "subsecond": "953",
+      "camera": "iPhone 17 Pro Max",
+      "stored_size": [
+        5712,
+        4284
+      ],
+      "orientation": 6,
+      "has_icc": true,
+      "dhash": "0031b4246cccc484",
+      "group": "clear-60-wall",
+      "split": "fit",
+      "observed_condition": "uncolored",
+      "group_scale": "60-scale",
+      "objects": [
+        {
+          "bbox": [
+            0.21,
+            0.23,
+            0.53,
+            0.79
+          ]
+        }
+      ],
+      "status": "reviewed draft",
+      "provenance": "Visible extent independently marked on the oriented JPEG",
+      "flags": []
+    },
+    {
+      "id": "IMG_3163",
+      "file": "IMG_3163.jpeg",
+      "sha256": "ff19e19fafacdcab523caf07812ca2e1cd7c58d3efbc884ec40123be019a3f03",
+      "bytes": 2808809,
+      "capture": "2026-11-07T17:35:42",
+      "subsecond": "079",
+      "camera": "iPhone 17 Pro Max",
+      "stored_size": [
+        5712,
+        4284
+      ],
+      "orientation": 6,
+      "has_icc": true,
+      "dhash": "00040818e2cc84a4",
+      "group": "clear-60-wall",
+      "split": "fit",
+      "observed_condition": "uncolored",
+      "group_scale": "60-scale",
+      "objects": [
+        {
+          "bbox": [
+            0.17,
+            0.32,
+            0.7,
+            0.76
+          ]
+        }
+      ],
+      "status": "reviewed draft",
+      "provenance": "Visible extent independently marked on the oriented JPEG",
+      "flags": []
+    },
+    {
+      "id": "IMG_3164",
+      "file": "IMG_3164.jpeg",
+      "sha256": "ad47cf10b6fefe171e0d8c56d8c2cc8b0ed02da0457d2c0c4f2635b28de22d4a",
+      "bytes": 2913688,
+      "capture": "2026-11-07T17:35:43",
+      "subsecond": "588",
+      "camera": "iPhone 17 Pro Max",
+      "stored_size": [
+        5712,
+        4284
+      ],
+      "orientation": 6,
+      "has_icc": true,
+      "dhash": "00010619a0860464",
+      "group": "clear-60-wall",
+      "split": "fit",
+      "observed_condition": "uncolored",
+      "group_scale": "60-scale",
+      "objects": [
+        {
+          "bbox": [
+            0.16,
+            0.39,
+            0.75,
+            0.71
+          ]
+        }
+      ],
+      "status": "reviewed draft",
+      "provenance": "Visible extent independently marked on the oriented JPEG",
+      "flags": []
+    },
+    {
+      "id": "IMG_3165",
+      "file": "IMG_3165.jpeg",
+      "sha256": "87a7ccfa6eee70a8c85d155ea9c937597fb2e3b650ce0a91dff10b5cceab1b08",
+      "bytes": 3001432,
+      "capture": "2026-11-07T17:35:44",
+      "subsecond": "859",
+      "camera": "iPhone 17 Pro Max",
+      "stored_size": [
+        5712,
+        4284
+      ],
+      "orientation": 6,
+      "has_icc": true,
+      "dhash": "0100408689094664",
+      "group": "clear-60-wall",
+      "split": "fit",
+      "observed_condition": "uncolored",
+      "group_scale": "60-scale",
+      "objects": [
+        {
+          "bbox": [
+            0.0,
+            0.5,
+            0.75,
+            0.68
+          ]
+        }
+      ],
+      "status": "reviewed draft",
+      "provenance": "Visible extent independently marked on the oriented JPEG",
+      "flags": [
+        "Frame-edge clipping"
+      ]
+    },
+    {
+      "id": "IMG_3166",
+      "file": "IMG_3166.jpeg",
+      "sha256": "d3bcb3c7a7d77041ae93d7801816c829dfb95adb269a7c9463c633fd389d4ea1",
+      "bytes": 2805549,
+      "capture": "2026-11-07T17:35:48",
+      "subsecond": "038",
+      "camera": "iPhone 17 Pro Max",
+      "stored_size": [
+        5712,
+        4284
+      ],
+      "orientation": 6,
+      "has_icc": true,
+      "dhash": "006090cc62b2f2e0",
+      "group": "clear-60-wall",
+      "split": "fit",
+      "observed_condition": "uncolored",
+      "group_scale": "60-scale",
+      "objects": [
+        {
+          "bbox": [
+            0.13,
+            0.28,
+            0.55,
+            0.7
+          ]
+        }
+      ],
+      "status": "reviewed draft",
+      "provenance": "Visible extent independently marked on the oriented JPEG",
+      "flags": []
+    },
+    {
+      "id": "IMG_3167",
+      "file": "IMG_3167.jpeg",
+      "sha256": "aff0b7c759c2e186691396ac7d99894b99579281c4d96b8fa4aebeb3e135c0bc",
+      "bytes": 2470771,
+      "capture": "2026-11-07T17:35:50",
+      "subsecond": "792",
+      "camera": "iPhone 17 Pro Max",
+      "stored_size": [
+        5712,
+        4284
+      ],
+      "orientation": 6,
+      "has_icc": true,
+      "dhash": "c080c8e06072f0f0",
+      "group": "clear-60-wall",
+      "split": "fit",
+      "observed_condition": "uncolored",
+      "group_scale": "60-scale",
+      "objects": [
+        {
+          "bbox": [
+            0.1,
+            0.06,
+            0.81,
+            0.98
+          ]
+        }
+      ],
+      "status": "reviewed draft",
+      "provenance": "Visible extent independently marked on the oriented JPEG",
+      "flags": []
+    },
+    {
+      "id": "IMG_3168",
+      "file": "IMG_3168.jpeg",
+      "sha256": "5e90f8f1c4c4da249ac97008fa04db057a0e25727b3a4ff572d50e1e1453ccf6",
+      "bytes": 2457840,
+      "capture": "2026-11-07T17:35:52",
+      "subsecond": "321",
+      "camera": "iPhone 17 Pro Max",
+      "stored_size": [
+        5712,
+        4284
+      ],
+      "orientation": 6,
+      "has_icc": true,
+      "dhash": "0430b0b2b2b2f0e0",
+      "group": "clear-60-wall",
+      "split": "fit",
+      "observed_condition": "uncolored",
+      "group_scale": "60-scale",
+      "objects": [
+        {
+          "bbox": [
+            0.36,
+            0.1,
+            0.65,
+            1.0
+          ]
+        }
+      ],
+      "status": "reviewed draft",
+      "provenance": "Visible extent independently marked on the oriented JPEG",
+      "flags": [
+        "Frame-edge clipping"
+      ]
+    },
+    {
+      "id": "IMG_3169",
+      "file": "IMG_3169.jpeg",
+      "sha256": "c7a9828a28c274140149993f2cb35c4874dde55dfdb23b01e0a9bcbdfcaeabb7",
+      "bytes": 2431441,
+      "capture": "2026-11-07T17:35:53",
+      "subsecond": "559",
+      "camera": "iPhone 17 Pro Max",
+      "stored_size": [
+        5712,
+        4284
+      ],
+      "orientation": 6,
+      "has_icc": true,
+      "dhash": "0810b2b0a0b4f2e2",
+      "group": "clear-60-wall",
+      "split": "fit",
+      "observed_condition": "uncolored",
+      "group_scale": "60-scale",
+      "objects": [
+        {
+          "bbox": [
+            0.32,
+            0.24,
+            0.6,
+            0.98
+          ]
+        }
+      ],
+      "status": "reviewed draft",
+      "provenance": "Visible extent independently marked on the oriented JPEG",
+      "flags": []
+    },
+    {
+      "id": "IMG_3170",
+      "file": "IMG_3170.jpeg",
+      "sha256": "2a6057a74dffd7445d0aecc4e4ffa4ee3882f25c3f6cccbc2289c2ab27271110",
+      "bytes": 2479505,
+      "capture": "2026-11-07T17:35:56",
+      "subsecond": "319",
+      "camera": "iPhone 17 Pro Max",
+      "stored_size": [
+        5712,
+        4284
+      ],
+      "orientation": 6,
+      "has_icc": true,
+      "dhash": "0002cccc9230e4c4",
+      "group": "clear-60-wall",
+      "split": "fit",
+      "observed_condition": "uncolored",
+      "group_scale": "60-scale",
+      "objects": [
+        {
+          "bbox": [
+            0.21,
+            0.31,
+            0.77,
+            1.0
+          ]
+        }
+      ],
+      "status": "reviewed draft",
+      "provenance": "Visible extent independently marked on the oriented JPEG",
+      "flags": [
+        "Frame-edge clipping"
+      ]
+    },
+    {
+      "id": "IMG_3171",
+      "file": "IMG_3171.jpeg",
+      "sha256": "6cfccb35a4c3a8501aebab3644c916ad576047aced7346b1a8626dfad9b2852f",
+      "bytes": 2423718,
+      "capture": "2026-11-07T17:35:57",
+      "subsecond": "572",
+      "camera": "iPhone 17 Pro Max",
+      "stored_size": [
+        5712,
+        4284
+      ],
+      "orientation": 6,
+      "has_icc": true,
+      "dhash": "1004d8b0b464e4e4",
+      "group": "clear-60-wall",
+      "split": "fit",
+      "observed_condition": "uncolored",
+      "group_scale": "60-scale",
+      "objects": [
+        {
+          "bbox": [
+            0.17,
+            0.27,
+            0.67,
+            0.97
+          ]
+        }
+      ],
+      "status": "reviewed draft",
+      "provenance": "Visible extent independently marked on the oriented JPEG",
+      "flags": []
+    },
+    {
+      "id": "IMG_3172",
+      "file": "IMG_3172.jpeg",
+      "sha256": "1088457e705301c48e2fdf7db38568806bf6f1cb558466219b236983803183a9",
+      "bytes": 2665880,
+      "capture": "2026-11-07T17:36:01",
+      "subsecond": "705",
+      "camera": "iPhone 17 Pro Max",
+      "stored_size": [
+        5712,
+        4284
+      ],
+      "orientation": 6,
+      "has_icc": true,
+      "dhash": "002000880c24f0c4",
+      "group": "clear-60-wall",
+      "split": "fit",
+      "observed_condition": "uncolored",
+      "group_scale": "60-scale",
+      "objects": [
+        {
+          "bbox": [
+            0.14,
+            0.28,
+            0.59,
+            0.86
+          ]
+        }
+      ],
+      "status": "reviewed draft",
+      "provenance": "Visible extent independently marked on the oriented JPEG",
+      "flags": []
+    },
+    {
+      "id": "IMG_3173",
+      "file": "IMG_3173.jpeg",
+      "sha256": "02e802c52f839b4be5fed18ca1c6f424c8b1f11004d7ede141f9ad689cd7ecaf",
+      "bytes": 3037400,
+      "capture": "2026-11-07T17:36:09",
+      "subsecond": "556",
+      "camera": "iPhone 17 Pro Max",
+      "stored_size": [
+        5712,
+        4284
+      ],
+      "orientation": 6,
+      "has_icc": true,
+      "dhash": "000000428c894664",
+      "group": "clear-60-wall",
+      "split": "fit",
+      "observed_condition": "uncolored",
+      "group_scale": "60-scale",
+      "objects": [
+        {
+          "bbox": [
+            0.18,
+            0.55,
+            0.79,
+            0.69
+          ]
+        }
+      ],
+      "status": "reviewed draft",
+      "provenance": "Visible extent independently marked on the oriented JPEG",
+      "flags": []
+    },
+    {
+      "id": "IMG_3174",
+      "file": "IMG_3174.jpeg",
+      "sha256": "0798511bb7415d0267c6242e5756e59bbed64f70bbce785aa01902b25012fbb7",
+      "bytes": 2483849,
+      "capture": "2026-11-07T17:36:11",
+      "subsecond": "876",
+      "camera": "iPhone 17 Pro Max",
+      "stored_size": [
+        5712,
+        4284
+      ],
+      "orientation": 6,
+      "has_icc": true,
+      "dhash": "0020c080060142e6",
+      "group": "clear-60-wall",
+      "split": "fit",
+      "observed_condition": "uncolored",
+      "group_scale": "60-scale",
+      "objects": [
+        {
+          "bbox": [
+            0.05,
+            0.47,
+            0.94,
+            0.96
+          ]
+        }
+      ],
+      "status": "reviewed draft",
+      "provenance": "Visible extent independently marked on the oriented JPEG",
+      "flags": []
+    },
+    {
+      "id": "IMG_3175",
+      "file": "IMG_3175.jpeg",
+      "sha256": "ef79b7a91ddda9f01be8c2d657b56b1f2ba817e217c433dcd9854bba3eb32132",
+      "bytes": 2425257,
+      "capture": "2026-11-07T17:36:12",
+      "subsecond": "986",
+      "camera": "iPhone 17 Pro Max",
+      "stored_size": [
+        5712,
+        4284
+      ],
+      "orientation": 6,
+      "has_icc": true,
+      "dhash": "10701000068160e4",
+      "group": "clear-60-wall",
+      "split": "fit",
+      "observed_condition": "uncolored",
+      "group_scale": "60-scale",
+      "objects": [
+        {
+          "bbox": [
+            0.0,
+            0.33,
+            0.9,
+            0.98
+          ]
+        }
+      ],
+      "status": "reviewed draft",
+      "provenance": "Visible extent independently marked on the oriented JPEG",
+      "flags": [
+        "Frame-edge clipping"
+      ]
+    },
+    {
+      "id": "IMG_3176",
+      "file": "IMG_3176.jpeg",
+      "sha256": "da017e8a11ea9fc6f08211d3a48ffc4c6a706259ce067ef1d0e89211e451e69b",
+      "bytes": 2496057,
+      "capture": "2026-11-07T17:36:14",
+      "subsecond": "972",
+      "camera": "iPhone 17 Pro Max",
+      "stored_size": [
+        5712,
+        4284
+      ],
+      "orientation": 6,
+      "has_icc": true,
+      "dhash": "01069e70c8d04404",
+      "group": "clear-60-wall",
+      "split": "fit",
+      "observed_condition": "uncolored",
+      "group_scale": "60-scale",
+      "objects": [
+        {
+          "bbox": [
+            0.01,
+            0.14,
+            1.0,
+            0.95
+          ]
+        }
+      ],
+      "status": "reviewed draft",
+      "provenance": "Visible extent independently marked on the oriented JPEG",
+      "flags": [
+        "Frame-edge clipping"
+      ]
+    },
+    {
+      "id": "IMG_3177",
+      "file": "IMG_3177.jpeg",
+      "sha256": "83f9ccab5386b1df4ac21c6777ba9022964eabe47ec69b027da737cf136db771",
+      "bytes": 2531889,
+      "capture": "2026-11-07T17:36:17",
+      "subsecond": "159",
+      "camera": "iPhone 17 Pro Max",
+      "stored_size": [
+        5712,
+        4284
+      ],
+      "orientation": 6,
+      "has_icc": true,
+      "dhash": "10484848e4e4c4a4",
+      "group": "clear-60-wall",
+      "split": "fit",
+      "observed_condition": "uncolored",
+      "group_scale": "60-scale",
+      "objects": [
+        {
+          "bbox": [
+            0.19,
+            0.14,
+            0.42,
+            0.78
+          ]
+        }
+      ],
+      "status": "reviewed draft",
+      "provenance": "Visible extent independently marked on the oriented JPEG",
+      "flags": []
+    },
+    {
+      "id": "IMG_3178",
+      "file": "IMG_3178.jpeg",
+      "sha256": "59672ac41ecdbda48a8a63061df546f09dc5056bca9e4525ec11eb339926ad58",
+      "bytes": 2439437,
+      "capture": "2026-11-07T17:36:24",
+      "subsecond": "438",
+      "camera": "iPhone 17 Pro Max",
+      "stored_size": [
+        5712,
+        4284
+      ],
+      "orientation": 6,
+      "has_icc": true,
+      "dhash": "0010684868c4c4c4",
+      "group": "clear-20-wall",
+      "split": "test",
+      "observed_condition": "uncolored",
+      "group_scale": "20-scale",
+      "objects": [
+        {
+          "bbox": [
+            0.26,
+            0.26,
+            0.51,
+            0.87
+          ]
+        }
+      ],
+      "status": "reviewed draft",
+      "provenance": "Visible extent independently marked on the oriented JPEG",
+      "flags": []
+    },
+    {
+      "id": "IMG_3179",
+      "file": "IMG_3179.jpeg",
+      "sha256": "f2eaebb92460e86c45953ba7637cca10c690ad995f94d4f9d1f0fa4a9a1c1c9b",
+      "bytes": 2430855,
+      "capture": "2026-11-07T17:36:25",
+      "subsecond": "252",
+      "camera": "iPhone 17 Pro Max",
+      "stored_size": [
+        5712,
+        4284
+      ],
+      "orientation": 6,
+      "has_icc": true,
+      "dhash": "2018a4e464c08084",
+      "group": "clear-20-wall",
+      "split": "test",
+      "observed_condition": "uncolored",
+      "group_scale": "20-scale",
+      "objects": [
+        {
+          "bbox": [
+            0.17,
+            0.29,
+            0.5,
+            0.82
+          ]
+        }
+      ],
+      "status": "reviewed draft",
+      "provenance": "Visible extent independently marked on the oriented JPEG",
+      "flags": []
+    },
+    {
+      "id": "IMG_3180",
+      "file": "IMG_3180.jpeg",
+      "sha256": "371bd056b472be8eba195df2d95e1e4d15eb1ddf93c85dc2fa2b7a9e261186bd",
+      "bytes": 2473849,
+      "capture": "2026-11-07T17:36:26",
+      "subsecond": "723",
+      "camera": "iPhone 17 Pro Max",
+      "stored_size": [
+        5712,
+        4284
+      ],
+      "orientation": 6,
+      "has_icc": true,
+      "dhash": "1024d8b2e4c08444",
+      "group": "clear-20-wall",
+      "split": "test",
+      "observed_condition": "uncolored",
+      "group_scale": "20-scale",
+      "objects": [
+        {
+          "bbox": [
+            0.16,
+            0.33,
+            0.69,
+            0.77
+          ]
+        }
+      ],
+      "status": "reviewed draft",
+      "provenance": "Visible extent independently marked on the oriented JPEG",
+      "flags": []
+    },
+    {
+      "id": "IMG_3181",
+      "file": "IMG_3181.jpeg",
+      "sha256": "0064243aea6ce60fdfa0bfd83859ad615f499c55ef12c196778ba1b7b4fc8841",
+      "bytes": 2450503,
+      "capture": "2026-11-07T17:36:28",
+      "subsecond": "502",
+      "camera": "iPhone 17 Pro Max",
+      "stored_size": [
+        5712,
+        4284
+      ],
+      "orientation": 6,
+      "has_icc": true,
+      "dhash": "002070920c9042e4",
+      "group": "clear-20-wall",
+      "split": "test",
+      "observed_condition": "uncolored",
+      "group_scale": "20-scale",
+      "objects": [
+        {
+          "bbox": [
+            0.0,
+            0.49,
+            0.77,
+            0.69
+          ]
+        }
+      ],
+      "status": "reviewed draft",
+      "provenance": "Visible extent independently marked on the oriented JPEG",
+      "flags": [
+        "Frame-edge clipping"
+      ]
+    },
+    {
+      "id": "IMG_3182",
+      "file": "IMG_3182.jpeg",
+      "sha256": "f4d1ffe5c42d82b8a52ed32f838e80b7808b9885d86648d6fda0a9bd00d9b9bc",
+      "bytes": 2473962,
+      "capture": "2026-11-07T17:36:29",
+      "subsecond": "538",
+      "camera": "iPhone 17 Pro Max",
+      "stored_size": [
+        5712,
+        4284
+      ],
+      "orientation": 6,
+      "has_icc": true,
+      "dhash": "0000c0a082840062",
+      "group": "clear-20-wall",
+      "split": "test",
+      "observed_condition": "uncolored",
+      "group_scale": "20-scale",
+      "objects": [
+        {
+          "bbox": [
+            0.0,
+            0.61,
+            0.81,
+            0.85
+          ]
+        }
+      ],
+      "status": "reviewed draft",
+      "provenance": "Visible extent independently marked on the oriented JPEG",
+      "flags": [
+        "Frame-edge clipping"
+      ]
+    },
+    {
+      "id": "IMG_3183",
+      "file": "IMG_3183.jpeg",
+      "sha256": "518ab09cde94f277c070722811c3aa5656b283ec7b9c85dee10c231a76260307",
+      "bytes": 2441770,
+      "capture": "2026-11-07T17:36:33",
+      "subsecond": "574",
+      "camera": "iPhone 17 Pro Max",
+      "stored_size": [
+        5712,
+        4284
+      ],
+      "orientation": 6,
+      "has_icc": true,
+      "dhash": "0020d0d0c8c8c484",
+      "group": "clear-20-wall",
+      "split": "test",
+      "observed_condition": "uncolored",
+      "group_scale": "20-scale",
+      "objects": [
+        {
+          "bbox": [
+            0.15,
+            0.26,
+            0.4,
+            0.79
+          ]
+        }
+      ],
+      "status": "reviewed draft",
+      "provenance": "Visible extent independently marked on the oriented JPEG",
+      "flags": []
+    },
+    {
+      "id": "IMG_3184",
+      "file": "IMG_3184.jpeg",
+      "sha256": "efb14070b51c587745dc4f18e22c94ae9c42eff4e8f65d7d237a784ccf095e1a",
+      "bytes": 2503828,
+      "capture": "2026-11-07T17:36:35",
+      "subsecond": "027",
+      "camera": "iPhone 17 Pro Max",
+      "stored_size": [
+        5712,
+        4284
+      ],
+      "orientation": 6,
+      "has_icc": true,
+      "dhash": "00c020a088c4c4c4",
+      "group": "clear-20-wall",
+      "split": "test",
+      "observed_condition": "uncolored",
+      "group_scale": "20-scale",
+      "objects": [
+        {
+          "bbox": [
+            0.02,
+            0.29,
+            0.39,
+            0.8
+          ]
+        }
+      ],
+      "status": "reviewed draft",
+      "provenance": "Visible extent independently marked on the oriented JPEG",
+      "flags": []
+    },
+    {
+      "id": "IMG_3185",
+      "file": "IMG_3185.jpeg",
+      "sha256": "facb5453edd0b5b5cd1954badb45a17cc5a660182d1cfe263a6d9acaba5d3b27",
+      "bytes": 2421739,
+      "capture": "2026-11-07T17:36:37",
+      "subsecond": "331",
+      "camera": "iPhone 17 Pro Max",
+      "stored_size": [
+        5712,
+        4284
+      ],
+      "orientation": 6,
+      "has_icc": true,
+      "dhash": "0034a0a0a47060e0",
+      "group": "clear-20-wall",
+      "split": "test",
+      "observed_condition": "uncolored",
+      "group_scale": "20-scale",
+      "objects": [
+        {
+          "bbox": [
+            0.26,
+            0.07,
+            0.66,
+            0.92
+          ]
+        }
+      ],
+      "status": "reviewed draft",
+      "provenance": "Visible extent independently marked on the oriented JPEG",
+      "flags": []
+    },
+    {
+      "id": "IMG_3186",
+      "file": "IMG_3186.jpeg",
+      "sha256": "c038b846442166984269b8a4230e3d3c375f8dcc19557ac879036fd0bdc63c5c",
+      "bytes": 2467269,
+      "capture": "2026-11-07T17:36:38",
+      "subsecond": "774",
+      "camera": "iPhone 17 Pro Max",
+      "stored_size": [
+        5712,
+        4284
+      ],
+      "orientation": 6,
+      "has_icc": true,
+      "dhash": "646060606464d0d9",
+      "group": "clear-20-wall",
+      "split": "test",
+      "observed_condition": "uncolored",
+      "group_scale": "20-scale",
+      "objects": [
+        {
+          "bbox": [
+            0.23,
+            0.0,
+            0.64,
+            1.0
+          ]
+        }
+      ],
+      "status": "reviewed draft",
+      "provenance": "Visible extent independently marked on the oriented JPEG",
+      "flags": [
+        "Frame-edge clipping"
+      ]
+    },
+    {
+      "id": "IMG_3187",
+      "file": "IMG_3187.jpeg",
+      "sha256": "cd4275fab7dc7df776d9a95ff5f5f0d55ce32dc777b861f9d8d0aafa74fdebb6",
+      "bytes": 2451071,
+      "capture": "2026-11-07T17:36:40",
+      "subsecond": "040",
+      "camera": "iPhone 17 Pro Max",
+      "stored_size": [
+        5712,
+        4284
+      ],
+      "orientation": 6,
+      "has_icc": true,
+      "dhash": "0008a4a4a46462e2",
+      "group": "clear-20-wall",
+      "split": "test",
+      "observed_condition": "uncolored",
+      "group_scale": "20-scale",
+      "objects": [
+        {
+          "bbox": [
+            0.32,
+            0.25,
+            0.56,
+            0.92
+          ]
+        }
+      ],
+      "status": "reviewed draft",
+      "provenance": "Visible extent independently marked on the oriented JPEG",
+      "flags": []
+    },
+    {
+      "id": "IMG_3188",
+      "file": "IMG_3188.jpeg",
+      "sha256": "d369e703f79eeeb0116d1c5a0631f5e1ee7c765d7b98738450d51770d7441688",
+      "bytes": 2437381,
+      "capture": "2026-11-07T17:36:41",
+      "subsecond": "623",
+      "camera": "iPhone 17 Pro Max",
+      "stored_size": [
+        5712,
+        4284
+      ],
+      "orientation": 6,
+      "has_icc": true,
+      "dhash": "0000c059b0800004",
+      "group": "clear-20-wall",
+      "split": "test",
+      "observed_condition": "uncolored",
+      "group_scale": "20-scale",
+      "objects": [
+        {
+          "bbox": [
+            0.15,
+            0.38,
+            0.81,
+            0.86
+          ]
+        }
+      ],
+      "status": "reviewed draft",
+      "provenance": "Visible extent independently marked on the oriented JPEG",
+      "flags": []
+    },
+    {
+      "id": "IMG_3189",
+      "file": "IMG_3189.jpeg",
+      "sha256": "d139aa66b8d0affab210d3e911fe2da8a75d3c1bff2997c105192d59cde67387",
+      "bytes": 2237253,
+      "capture": "2026-11-07T17:36:48",
+      "subsecond": "762",
+      "camera": "iPhone 17 Pro Max",
+      "stored_size": [
+        5712,
+        4284
+      ],
+      "orientation": 6,
+      "has_icc": true,
+      "dhash": "0020d0d0d4c9cbc7",
+      "group": "clear-20-wall",
+      "split": "test",
+      "observed_condition": "uncolored",
+      "group_scale": "20-scale",
+      "objects": [
+        {
+          "bbox": [
+            0.13,
+            0.28,
+            0.34,
+            0.86
+          ]
+        }
+      ],
+      "status": "reviewed draft",
+      "provenance": "Visible extent independently marked on the oriented JPEG",
+      "flags": []
+    },
+    {
+      "id": "IMG_3190",
+      "file": "IMG_3190.jpeg",
+      "sha256": "4e7bfba18d92c95f14ecd659e7875faff2aee0771899f39d3af68f1863973606",
+      "bytes": 2672078,
+      "capture": "2026-11-07T17:36:51",
+      "subsecond": "039",
+      "camera": "iPhone 17 Pro Max",
+      "stored_size": [
+        5712,
+        4284
+      ],
+      "orientation": 6,
+      "has_icc": true,
+      "dhash": "0000081624227260",
+      "group": "clear-20-wall",
+      "split": "test",
+      "observed_condition": "uncolored",
+      "group_scale": "20-scale",
+      "objects": [
+        {
+          "bbox": [
+            0.37,
+            0.45,
+            0.55,
+            0.85
+          ]
+        }
+      ],
+      "status": "reviewed draft",
+      "provenance": "Visible extent independently marked on the oriented JPEG",
+      "flags": []
+    },
+    {
+      "id": "IMG_3191",
+      "file": "IMG_3191.jpeg",
+      "sha256": "826255e9b1280a5576962a1168c5c4fa3506797b20cc9bdac742a1a69004f531",
+      "bytes": 2329871,
+      "capture": "2026-11-07T17:36:54",
+      "subsecond": "079",
+      "camera": "iPhone 17 Pro Max",
+      "stored_size": [
+        5712,
+        4284
+      ],
+      "orientation": 6,
+      "has_icc": true,
+      "dhash": "0000c8c8c0c88084",
+      "group": "clear-20-wall",
+      "split": "test",
+      "observed_condition": "uncolored",
+      "group_scale": "20-scale",
+      "objects": [
+        {
+          "bbox": [
+            0.16,
+            0.22,
+            0.48,
+            1.0
+          ]
+        }
+      ],
+      "status": "reviewed draft",
+      "provenance": "Visible extent independently marked on the oriented JPEG",
+      "flags": [
+        "Frame-edge clipping"
+      ]
+    },
+    {
+      "id": "IMG_3192",
+      "file": "IMG_3192.jpeg",
+      "sha256": "6622116bd9e6b5fa1ba86ff9fdbb3fb55eaaf28bd31825a73e20ec91e74fc991",
+      "bytes": 2823420,
+      "capture": "2026-11-07T17:40:20",
+      "subsecond": "220",
+      "camera": "iPhone 17 Pro Max",
+      "stored_size": [
+        5712,
+        4284
+      ],
+      "orientation": 6,
+      "has_icc": true,
+      "dhash": "1468646c6ce4c482",
+      "group": "amber-60-initial",
+      "split": "fit",
+      "observed_condition": "amber",
+      "group_scale": "60-scale",
+      "objects": [
+        {
+          "bbox": [
+            0.22,
+            0.15,
+            0.5,
+            0.92
+          ]
+        }
+      ],
+      "status": "reviewed draft",
+      "provenance": "Visible extent independently marked on the oriented JPEG",
+      "flags": []
+    },
+    {
+      "id": "IMG_3193",
+      "file": "IMG_3193.jpeg",
+      "sha256": "3095db42a8a84caa269a4b24b40f808eae0a52c903ddd844bdacb21e82e2bddf",
+      "bytes": 2880858,
+      "capture": "2026-11-07T17:40:21",
+      "subsecond": "857",
+      "camera": "iPhone 17 Pro Max",
+      "stored_size": [
+        5712,
+        4284
+      ],
+      "orientation": 6,
+      "has_icc": true,
+      "dhash": "0d32b0a46e8c0803",
+      "group": "amber-60-initial",
+      "split": "fit",
+      "observed_condition": "amber",
+      "group_scale": "60-scale",
+      "objects": [
+        {
+          "bbox": [
+            0.15,
+            0.16,
+            0.6,
+            0.88
+          ]
+        }
+      ],
+      "status": "reviewed draft",
+      "provenance": "Visible extent independently marked on the oriented JPEG",
+      "flags": []
+    },
+    {
+      "id": "IMG_3194",
+      "file": "IMG_3194.jpeg",
+      "sha256": "332a0c64abdf59465c2857cfee057255e5d14dbb467ff1717072fb9092ebeb5c",
+      "bytes": 2754696,
+      "capture": "2026-11-07T17:40:23",
+      "subsecond": "340",
+      "camera": "iPhone 17 Pro Max",
+      "stored_size": [
+        5712,
+        4284
+      ],
+      "orientation": 6,
+      "has_icc": true,
+      "dhash": "00020c9838200c01",
+      "group": "amber-60-initial",
+      "split": "fit",
+      "observed_condition": "amber",
+      "group_scale": "60-scale",
+      "objects": [
+        {
+          "bbox": [
+            0.08,
+            0.3,
+            0.81,
+            0.88
+          ]
+        }
+      ],
+      "status": "reviewed draft",
+      "provenance": "Visible extent independently marked on the oriented JPEG",
+      "flags": []
+    },
+    {
+      "id": "IMG_3195",
+      "file": "IMG_3195.jpeg",
+      "sha256": "e0a1427418781c4a8586dbfe4519a14ed5df28cdaecbd6a7128e252e8fa294c8",
+      "bytes": 2738339,
+      "capture": "2026-11-07T17:40:24",
+      "subsecond": "557",
+      "camera": "iPhone 17 Pro Max",
+      "stored_size": [
+        5712,
+        4284
+      ],
+      "orientation": 6,
+      "has_icc": true,
+      "dhash": "0020c08e3c318004",
+      "group": "amber-60-initial",
+      "split": "fit",
+      "observed_condition": "amber",
+      "group_scale": "60-scale",
+      "objects": [
+        {
+          "bbox": [
+            0.13,
+            0.36,
+            1.0,
+            0.84
+          ]
+        }
+      ],
+      "status": "reviewed draft",
+      "provenance": "Visible extent independently marked on the oriented JPEG",
+      "flags": [
+        "Frame-edge clipping"
+      ]
+    },
+    {
+      "id": "IMG_3196",
+      "file": "IMG_3196.jpeg",
+      "sha256": "c6a8c3f7a1aa7778075407396da12f79b565637d9f5d8ff336ec591f4cc01396",
+      "bytes": 2664703,
+      "capture": "2026-11-07T17:40:28",
+      "subsecond": "832",
+      "camera": "iPhone 17 Pro Max",
+      "stored_size": [
+        5712,
+        4284
+      ],
+      "orientation": 6,
+      "has_icc": true,
+      "dhash": "40b090cec462f0f0",
+      "group": "amber-60-initial",
+      "split": "fit",
+      "observed_condition": "amber",
+      "group_scale": "60-scale",
+      "objects": [
+        {
+          "bbox": [
+            0.08,
+            0.19,
+            0.74,
+            0.96
+          ]
+        }
+      ],
+      "status": "reviewed draft",
+      "provenance": "Visible extent independently marked on the oriented JPEG",
+      "flags": []
+    },
+    {
+      "id": "IMG_3197",
+      "file": "IMG_3197.jpeg",
+      "sha256": "6137b2fd9c9bc13eb3daad34f9edf7ee27793bc1c481fd8f44455d3052415522",
+      "bytes": 1764835,
+      "capture": "2026-11-07T17:40:38",
+      "subsecond": "149",
+      "camera": "iPhone 17 Pro Max",
+      "stored_size": [
+        4032,
+        3024
+      ],
+      "orientation": 6,
+      "has_icc": true,
+      "dhash": "113303080c4ccdcc",
+      "group": "amber-60-surfaces",
+      "split": "fit",
+      "observed_condition": "amber",
+      "group_scale": "60-scale",
+      "objects": [
+        {
+          "bbox": [
+            0.32,
+            0.0,
+            0.7,
+            0.97
+          ]
+        }
+      ],
+      "status": "reviewed draft",
+      "provenance": "Visible extent independently marked on the oriented JPEG",
+      "flags": [
+        "Frame-edge clipping"
+      ]
+    },
+    {
+      "id": "IMG_3198",
+      "file": "IMG_3198.jpeg",
+      "sha256": "904c940ee115e87dae152173a7a1a6b52b698ed689381d6137670886dd9992f9",
+      "bytes": 1678630,
+      "capture": "2026-11-07T17:40:44",
+      "subsecond": "380",
+      "camera": "iPhone 17 Pro Max",
+      "stored_size": [
+        4032,
+        3024
+      ],
+      "orientation": 6,
+      "has_icc": true,
+      "dhash": "4ecf9717971b1319",
+      "group": "amber-60-surfaces",
+      "split": "fit",
+      "observed_condition": "amber",
+      "group_scale": "60-scale",
+      "previous_sha256": "28326015818fe7eec0fca1a607aabdb5c00b734ff0193fdc5aad85e5ceb922a3",
+      "previous_dhash_distance": 1,
+      "objects": [
+        {
+          "bbox": [
+            0.1679,
+            0,
+            0.5725,
+            1
+          ]
+        }
+      ],
+      "status": "reviewed draft",
+      "provenance": "Draft extent transferred from perceptually matched HEIC",
+      "flags": [
+        "Frame-edge clipping"
+      ]
+    },
+    {
+      "id": "IMG_3199",
+      "file": "IMG_3199.jpeg",
+      "sha256": "250c62fc206b998ba2dc517d843b09caee67359174a93d11edc786c95f352d22",
+      "bytes": 1257081,
+      "capture": "2026-11-07T17:40:55",
+      "subsecond": "223",
+      "camera": "iPhone 17 Pro Max",
+      "stored_size": [
+        4032,
+        3024
+      ],
+      "orientation": 6,
+      "has_icc": true,
+      "dhash": "60c050309098d2de",
+      "group": "amber-60-surfaces",
+      "split": "fit",
+      "observed_condition": "amber",
+      "group_scale": "60-scale",
+      "previous_sha256": "63809f855f6eee2a7ba8d28f660bd520b3710cc9f12cd6721e5d9c052e2df65f",
+      "previous_dhash_distance": 2,
+      "objects": [
+        {
+          "bbox": [
+            0.1527,
+            0.0057,
+            0.5115,
+            1
+          ]
+        }
+      ],
+      "status": "reviewed draft",
+      "provenance": "Draft extent transferred from perceptually matched HEIC",
+      "flags": [
+        "Frame-edge clipping"
+      ]
+    },
+    {
+      "id": "IMG_3200",
+      "file": "IMG_3200.jpeg",
+      "sha256": "1c9be57e61b4e2120431e4ab15f955b4f90badf59a6ca108b9246ddc7e4ebf37",
+      "bytes": 1273119,
+      "capture": "2026-11-07T17:40:56",
+      "subsecond": "946",
+      "camera": "iPhone 17 Pro Max",
+      "stored_size": [
+        4032,
+        3024
+      ],
+      "orientation": 6,
+      "has_icc": true,
+      "dhash": "d0e06111b1b0b667",
+      "group": "amber-60-surfaces",
+      "split": "fit",
+      "observed_condition": "amber",
+      "group_scale": "60-scale",
+      "previous_sha256": "9a6a95e855dff3c1ffdf5f601aaa8dcdb8d66a89e9e54df8e4c52ad534a5daea",
+      "previous_dhash_distance": 1,
+      "objects": [
+        {
+          "bbox": [
+            0.1832,
+            0.0057,
+            0.5267,
+            1
+          ]
+        }
+      ],
+      "status": "reviewed draft",
+      "provenance": "Draft extent transferred from perceptually matched HEIC",
+      "flags": [
+        "Frame-edge clipping"
+      ]
+    },
+    {
+      "id": "IMG_3201",
+      "file": "IMG_3201.jpeg",
+      "sha256": "89e2419e856a1165ae069a3d1f8adc0f5c71ae2549fb331f735054be1666f788",
+      "bytes": 1113535,
+      "capture": "2026-11-07T17:41:04",
+      "subsecond": "366",
+      "camera": "iPhone 17 Pro Max",
+      "stored_size": [
+        4032,
+        3024
+      ],
+      "orientation": 1,
+      "has_icc": true,
+      "dhash": "0f1f040c1e040703",
+      "group": "amber-60-surfaces",
+      "split": "fit",
+      "observed_condition": "amber",
+      "group_scale": "60-scale",
+      "objects": [
+        {
+          "bbox": [
+            0.31,
+            0.38,
+            1.0,
+            0.8
+          ]
+        }
+      ],
+      "status": "reviewed draft",
+      "provenance": "Visible extent independently marked on the oriented JPEG",
+      "flags": [
+        "Frame-edge clipping"
+      ]
+    },
+    {
+      "id": "IMG_3202",
+      "file": "IMG_3202.jpeg",
+      "sha256": "90d0d2e18fa37ddcdcd218a01604ebc7d9cf4efb766981b0788333d41e1b4289",
+      "bytes": 1101985,
+      "capture": "2026-11-07T17:41:05",
+      "subsecond": "395",
+      "camera": "iPhone 17 Pro Max",
+      "stored_size": [
+        4032,
+        3024
+      ],
+      "orientation": 1,
+      "has_icc": true,
+      "dhash": "0f0f0c1e1e060f13",
+      "group": "amber-60-surfaces",
+      "split": "fit",
+      "observed_condition": "amber",
+      "group_scale": "60-scale",
+      "previous_sha256": "bb7e75fc3bb818ca924d12a13b6d256f83b66ff1da010b2a1d9d575f18a65df1",
+      "previous_dhash_distance": 0,
+      "objects": [
+        {
+          "bbox": [
+            0.2672,
+            0.408,
+            1,
+            0.7586
+          ]
+        }
+      ],
+      "status": "reviewed draft",
+      "provenance": "Draft extent transferred from perceptually matched HEIC",
+      "flags": [
+        "Frame-edge clipping"
+      ]
+    },
+    {
+      "id": "IMG_3203",
+      "file": "IMG_3203.jpeg",
+      "sha256": "b3cbff1c3d59ac569c32cd878e04c1c709db873aa94db1a29d3a01ea492a6612",
+      "bytes": 3258494,
+      "capture": "2026-11-07T17:41:45",
+      "subsecond": "468",
+      "camera": "iPhone 17 Pro Max",
+      "stored_size": [
+        5712,
+        4284
+      ],
+      "orientation": 6,
+      "has_icc": true,
+      "dhash": "dfe7e7b2f2e3d198",
+      "group": "amber-60-wall",
+      "split": "calibration",
+      "observed_condition": "amber",
+      "group_scale": "60-scale",
+      "objects": [
+        {
+          "bbox": [
+            0.32,
+            0.17,
+            0.54,
+            0.86
+          ]
+        }
+      ],
+      "status": "reviewed draft",
+      "provenance": "Visible extent independently marked on the oriented JPEG",
+      "flags": []
+    },
+    {
+      "id": "IMG_3204",
+      "file": "IMG_3204.jpeg",
+      "sha256": "15f2fc4a5467abe43096a2c81a7a0fbdbae0283b4b31125e35eda6fe7a4004fe",
+      "bytes": 3571183,
+      "capture": "2026-11-07T17:41:46",
+      "subsecond": "635",
+      "camera": "iPhone 17 Pro Max",
+      "stored_size": [
+        5712,
+        4284
+      ],
+      "orientation": 6,
+      "has_icc": true,
+      "dhash": "ffdfb3e3a70767f2",
+      "group": "amber-60-wall",
+      "split": "calibration",
+      "observed_condition": "amber",
+      "group_scale": "60-scale",
+      "objects": [
+        {
+          "bbox": [
+            0.09,
+            0.22,
+            0.58,
+            0.82
+          ]
+        }
+      ],
+      "status": "reviewed draft",
+      "provenance": "Visible extent independently marked on the oriented JPEG",
+      "flags": []
+    },
+    {
+      "id": "IMG_3205",
+      "file": "IMG_3205.jpeg",
+      "sha256": "3948c579a324f459fb5c50df374161c4a729bc5a47472bdcd72126d6d66e1203",
+      "bytes": 3425358,
+      "capture": "2026-11-07T17:41:47",
+      "subsecond": "436",
+      "camera": "iPhone 17 Pro Max",
+      "stored_size": [
+        5712,
+        4284
+      ],
+      "orientation": 6,
+      "has_icc": true,
+      "dhash": "ffdff362074fe7e6",
+      "group": "amber-60-wall",
+      "split": "calibration",
+      "observed_condition": "amber",
+      "group_scale": "60-scale",
+      "objects": [
+        {
+          "bbox": [
+            0.0,
+            0.19,
+            0.61,
+            0.81
+          ]
+        }
+      ],
+      "status": "reviewed draft",
+      "provenance": "Visible extent independently marked on the oriented JPEG",
+      "flags": [
+        "Frame-edge clipping"
+      ]
+    },
+    {
+      "id": "IMG_3206",
+      "file": "IMG_3206.jpeg",
+      "sha256": "cd93d829f0395d683cf55ebedc91c7a873c78a2244a72d4d62a6fd08d5287b3e",
+      "bytes": 1436018,
+      "capture": "2026-11-07T17:41:49",
+      "subsecond": "478",
+      "camera": "iPhone 17 Pro Max",
+      "stored_size": [
+        4032,
+        3024
+      ],
+      "orientation": 6,
+      "has_icc": true,
+      "dhash": "07195830e1a30363",
+      "group": "amber-60-wall",
+      "split": "calibration",
+      "observed_condition": "amber",
+      "group_scale": "60-scale",
+      "previous_sha256": "0b451087391a58e0dff029cd4c3f1da4b260ec3b61ee503ed787fb6ef1b9a016",
+      "previous_dhash_distance": 0,
+      "objects": [
+        {
+          "bbox": [
+            0,
+            0.1897,
+            0.7252,
+            1
+          ]
+        }
+      ],
+      "status": "reviewed draft",
+      "provenance": "Draft extent transferred from perceptually matched HEIC",
+      "flags": [
+        "Frame-edge clipping"
+      ]
+    },
+    {
+      "id": "IMG_3207",
+      "file": "IMG_3207.jpeg",
+      "sha256": "d47936bd65c82c32e88e4a98e6bddbb092de90c7e8d986e1e7c514703e30b400",
+      "bytes": 3307863,
+      "capture": "2026-11-07T17:41:52",
+      "subsecond": "447",
+      "camera": "iPhone 17 Pro Max",
+      "stored_size": [
+        5712,
+        4284
+      ],
+      "orientation": 6,
+      "has_icc": true,
+      "dhash": "ffdfa3b3e9e9d998",
+      "group": "amber-60-wall",
+      "split": "calibration",
+      "observed_condition": "amber",
+      "group_scale": "60-scale",
+      "objects": [
+        {
+          "bbox": [
+            0.32,
+            0.11,
+            0.52,
+            0.9
+          ]
+        }
+      ],
+      "status": "reviewed draft",
+      "provenance": "Visible extent independently marked on the oriented JPEG",
+      "flags": []
+    },
+    {
+      "id": "IMG_3208",
+      "file": "IMG_3208.jpeg",
+      "sha256": "ac3211a8abe67861ba5675261024a80b5bda39ed889f74c28dc5d9d315e73443",
+      "bytes": 3406022,
+      "capture": "2026-11-07T17:41:53",
+      "subsecond": "884",
+      "camera": "iPhone 17 Pro Max",
+      "stored_size": [
+        5712,
+        4284
+      ],
+      "orientation": 6,
+      "has_icc": true,
+      "dhash": "ffbfcf4773e3d998",
+      "group": "amber-60-wall",
+      "split": "calibration",
+      "observed_condition": "amber",
+      "group_scale": "60-scale",
+      "objects": [
+        {
+          "bbox": [
+            0.21,
+            0.15,
+            0.54,
+            0.89
+          ]
+        }
+      ],
+      "status": "reviewed draft",
+      "provenance": "Visible extent independently marked on the oriented JPEG",
+      "flags": []
+    },
+    {
+      "id": "IMG_3209",
+      "file": "IMG_3209.jpeg",
+      "sha256": "6495832c66f7e78eb5864770d78a203ae987acb53aa93a283526d0e05e869b03",
+      "bytes": 3656964,
+      "capture": "2026-11-07T17:41:55",
+      "subsecond": "154",
+      "camera": "iPhone 17 Pro Max",
+      "stored_size": [
+        5712,
+        4284
+      ],
+      "orientation": 6,
+      "has_icc": true,
+      "dhash": "ff7f9fcfe7e3c9cc",
+      "group": "amber-60-wall",
+      "split": "calibration",
+      "observed_condition": "amber",
+      "group_scale": "60-scale",
+      "objects": [
+        {
+          "bbox": [
+            0.07,
+            0.15,
+            0.62,
+            0.9
+          ]
+        }
+      ],
+      "status": "reviewed draft",
+      "provenance": "Visible extent independently marked on the oriented JPEG",
+      "flags": []
+    },
+    {
+      "id": "IMG_3210",
+      "file": "IMG_3210.jpeg",
+      "sha256": "99eefee58a54f38aed782e75ea73167c32fc1de8b0a221af062cd77c671731ea",
+      "bytes": 3587171,
+      "capture": "2026-11-07T17:41:56",
+      "subsecond": "390",
+      "camera": "iPhone 17 Pro Max",
+      "stored_size": [
+        5712,
+        4284
+      ],
+      "orientation": 6,
+      "has_icc": true,
+      "dhash": "ffff7f9fc761e0e8",
+      "group": "amber-60-wall",
+      "split": "calibration",
+      "observed_condition": "amber",
+      "group_scale": "60-scale",
+      "objects": [
+        {
+          "bbox": [
+            0.03,
+            0.24,
+            0.83,
+            0.87
+          ]
+        }
+      ],
+      "status": "reviewed draft",
+      "provenance": "Visible extent independently marked on the oriented JPEG",
+      "flags": []
+    },
+    {
+      "id": "IMG_3211",
+      "file": "IMG_3211.jpeg",
+      "sha256": "7c809852c28a22282907bf7144102870742ef16586e4d03924d006587f32d8ee",
+      "bytes": 2759314,
+      "capture": "2026-11-07T17:41:58",
+      "subsecond": "937",
+      "camera": "iPhone 17 Pro Max",
+      "stored_size": [
+        5712,
+        4284
+      ],
+      "orientation": 6,
+      "has_icc": true,
+      "dhash": "eff7b2b6b5c5c7c6",
+      "group": "amber-60-wall",
+      "split": "calibration",
+      "observed_condition": "amber",
+      "group_scale": "60-scale",
+      "objects": [
+        {
+          "bbox": [
+            0.3,
+            0.17,
+            0.55,
+            0.97
+          ]
+        }
+      ],
+      "status": "reviewed draft",
+      "provenance": "Visible extent independently marked on the oriented JPEG",
+      "flags": []
+    },
+    {
+      "id": "IMG_3212",
+      "file": "IMG_3212.jpeg",
+      "sha256": "cef2e0910c1003e763465e829f1137830601afcf33a852cbb7f1d484221b12f9",
+      "bytes": 3250199,
+      "capture": "2026-11-07T17:42:01",
+      "subsecond": "042",
+      "camera": "iPhone 17 Pro Max",
+      "stored_size": [
+        5712,
+        4284
+      ],
+      "orientation": 6,
+      "has_icc": true,
+      "dhash": "fffff3bc9a1479d8",
+      "group": "amber-60-wall",
+      "split": "calibration",
+      "observed_condition": "amber",
+      "group_scale": "60-scale",
+      "objects": [
+        {
+          "bbox": [
+            0.01,
+            0.24,
+            0.88,
+            0.62
+          ]
+        }
+      ],
+      "status": "reviewed draft",
+      "provenance": "Visible extent independently marked on the oriented JPEG",
+      "flags": []
+    },
+    {
+      "id": "IMG_3213",
+      "file": "IMG_3213.jpeg",
+      "sha256": "b464c8a482fffa7c236e9d083187d9d0d8ae691080f9e09d70d23df396077454",
+      "bytes": 2661506,
+      "capture": "2026-11-07T17:42:03",
+      "subsecond": "119",
+      "camera": "iPhone 17 Pro Max",
+      "stored_size": [
+        5712,
+        4284
+      ],
+      "orientation": 6,
+      "has_icc": true,
+      "dhash": "ef6f6566e6f4c5c7",
+      "group": "amber-60-wall",
+      "split": "calibration",
+      "observed_condition": "amber",
+      "group_scale": "60-scale",
+      "objects": [
+        {
+          "bbox": [
+            0.23,
+            0.0,
+            0.52,
+            1.0
+          ]
+        }
+      ],
+      "status": "reviewed draft",
+      "provenance": "Visible extent independently marked on the oriented JPEG",
+      "flags": [
+        "Frame-edge clipping"
+      ]
+    },
+    {
+      "id": "IMG_3214",
+      "file": "IMG_3214.jpeg",
+      "sha256": "7350640a1c93f693fcdd4e241167bb95322f44065aa45da4b05a17c4b378079e",
+      "bytes": 2623719,
+      "capture": "2026-11-07T17:42:32",
+      "subsecond": "110",
+      "camera": "iPhone 17 Pro Max",
+      "stored_size": [
+        5712,
+        4284
+      ],
+      "orientation": 6,
+      "has_icc": true,
+      "dhash": "48686868e4c4c400",
+      "group": "amber-20-wall",
+      "split": "fit",
+      "observed_condition": "amber",
+      "group_scale": "20-scale",
+      "objects": [
+        {
+          "bbox": [
+            0.22,
+            0.06,
+            0.52,
+            0.85
+          ]
+        }
+      ],
+      "status": "reviewed draft",
+      "provenance": "Visible extent independently marked on the oriented JPEG",
+      "flags": []
+    },
+    {
+      "id": "IMG_3215",
+      "file": "IMG_3215.jpeg",
+      "sha256": "86950c979a2baba2f1f49ea754445aa01da03af2b2383bf058ef320c369b2df1",
+      "bytes": 1412455,
+      "capture": "2026-11-07T17:42:34",
+      "subsecond": "314",
+      "camera": "iPhone 17 Pro Max",
+      "stored_size": [
+        4032,
+        3024
+      ],
+      "orientation": 6,
+      "has_icc": true,
+      "dhash": "1f67676767c7c583",
+      "group": "amber-20-wall",
+      "split": "fit",
+      "observed_condition": "amber",
+      "group_scale": "20-scale",
+      "previous_sha256": "cd717fe151273436be7410647758243e9791840dab999b1321630b4e9cebab09",
+      "previous_dhash_distance": 2,
+      "objects": [
+        {
+          "bbox": [
+            0.2824,
+            0.1092,
+            0.5267,
+            0.8966
+          ]
+        }
+      ],
+      "status": "reviewed draft",
+      "provenance": "Draft extent transferred from perceptually matched HEIC",
+      "flags": []
+    },
+    {
+      "id": "IMG_3216",
+      "file": "IMG_3216.jpeg",
+      "sha256": "979ef90bd5e5aba386d0785ee4d926d2c7f37a33a67ff7516a7f28984e6e8e23",
+      "bytes": 1393631,
+      "capture": "2026-11-07T17:42:35",
+      "subsecond": "727",
+      "camera": "iPhone 17 Pro Max",
+      "stored_size": [
+        4032,
+        3024
+      ],
+      "orientation": 6,
+      "has_icc": true,
+      "dhash": "0f27272767e7c383",
+      "group": "amber-20-wall",
+      "split": "fit",
+      "observed_condition": "amber",
+      "group_scale": "20-scale",
+      "objects": [
+        {
+          "bbox": [
+            0.26,
+            0.11,
+            0.53,
+            0.86
+          ]
+        }
+      ],
+      "status": "reviewed draft",
+      "provenance": "Visible extent independently marked on the oriented JPEG",
+      "flags": []
+    },
+    {
+      "id": "IMG_3217",
+      "file": "IMG_3217.jpeg",
+      "sha256": "5ffd4b70df57032befc0702d33c027a471ec7c211f932f35c2924fbba868e1df",
+      "bytes": 1397946,
+      "capture": "2026-11-07T17:42:36",
+      "subsecond": "921",
+      "camera": "iPhone 17 Pro Max",
+      "stored_size": [
+        4032,
+        3024
+      ],
+      "orientation": 6,
+      "has_icc": true,
+      "dhash": "0b0719392793c50b",
+      "group": "amber-20-wall",
+      "split": "fit",
+      "observed_condition": "amber",
+      "group_scale": "20-scale",
+      "previous_sha256": "ab57ece49bdf3fbfe8f84fb6c153ca94e6220e27191f146272049eb0249eba1c",
+      "previous_dhash_distance": 0,
+      "objects": [
+        {
+          "bbox": [
+            0.0687,
+            0.2586,
+            0.7481,
+            0.8736
+          ]
+        }
+      ],
+      "status": "reviewed draft",
+      "provenance": "Draft extent transferred from perceptually matched HEIC",
+      "flags": []
+    },
+    {
+      "id": "IMG_3218",
+      "file": "IMG_3218.jpeg",
+      "sha256": "2dc07cbed76d550d5a44d13dab75f360f79116423907973d501a7114fa6c27f2",
+      "bytes": 1425735,
+      "capture": "2026-11-07T17:42:37",
+      "subsecond": "748",
+      "camera": "iPhone 17 Pro Max",
+      "stored_size": [
+        4032,
+        3024
+      ],
+      "orientation": 6,
+      "has_icc": true,
+      "dhash": "070b063c01d3830f",
+      "group": "amber-20-wall",
+      "split": "fit",
+      "observed_condition": "amber",
+      "group_scale": "20-scale",
+      "previous_sha256": "b28b5939c6b4ddbb4ddfa546ad56fdafdab1d9d526c207194d602bef91739a56",
+      "previous_dhash_distance": 0,
+      "objects": [
+        {
+          "bbox": [
+            0,
+            0.3391,
+            0.8779,
+            0.8276
+          ]
+        }
+      ],
+      "status": "reviewed draft",
+      "provenance": "Draft extent transferred from perceptually matched HEIC",
+      "flags": [
+        "Frame-edge clipping"
+      ]
+    },
+    {
+      "id": "IMG_3219",
+      "file": "IMG_3219.jpeg",
+      "sha256": "24456a94328db31446fae3f617f9873a606bb3f3030fd35afb413b6f2bc19642",
+      "bytes": 1461359,
+      "capture": "2026-11-07T17:42:38",
+      "subsecond": "002",
+      "camera": "iPhone 17 Pro Max",
+      "stored_size": [
+        4032,
+        3024
+      ],
+      "orientation": 6,
+      "has_icc": true,
+      "dhash": "0709061c05cb830d",
+      "group": "amber-20-wall",
+      "split": "fit",
+      "observed_condition": "amber",
+      "group_scale": "20-scale",
+      "previous_sha256": "3bcb490d761065aefec0d0f61eb42d72f2a2e3acc7f086b843b84fd02c11bc18",
+      "previous_dhash_distance": 1,
+      "objects": [
+        {
+          "bbox": [
+            0,
+            0.3506,
+            0.9084,
+            0.8276
+          ]
+        }
+      ],
+      "status": "reviewed draft",
+      "provenance": "Draft extent transferred from perceptually matched HEIC",
+      "flags": [
+        "Frame-edge clipping"
+      ]
+    },
+    {
+      "id": "IMG_3220",
+      "file": "IMG_3220.jpeg",
+      "sha256": "512653231e1609110b93dc9144d8321a2c452473f420587c73e683172f52c4c1",
+      "bytes": 1458882,
+      "capture": "2026-11-07T17:42:40",
+      "subsecond": "038",
+      "camera": "iPhone 17 Pro Max",
+      "stored_size": [
+        4032,
+        3024
+      ],
+      "orientation": 6,
+      "has_icc": true,
+      "dhash": "1f0767a7838b1343",
+      "group": "amber-20-wall",
+      "split": "fit",
+      "observed_condition": "amber",
+      "group_scale": "20-scale",
+      "objects": [
+        {
+          "bbox": [
+            0.17,
+            0.11,
+            0.67,
+            0.77
+          ]
+        }
+      ],
+      "status": "reviewed draft",
+      "provenance": "Visible extent independently marked on the oriented JPEG",
+      "flags": []
+    },
+    {
+      "id": "IMG_3221",
+      "file": "IMG_3221.jpeg",
+      "sha256": "9b6fe3e11e2e3d0ef712602d90563503212fa447f75dd234ac196f3088b6988e",
+      "bytes": 1462561,
+      "capture": "2026-11-07T17:42:41",
+      "subsecond": "280",
+      "camera": "iPhone 17 Pro Max",
+      "stored_size": [
+        4032,
+        3024
+      ],
+      "orientation": 6,
+      "has_icc": true,
+      "dhash": "1f0783c783333325",
+      "group": "amber-20-wall",
+      "split": "fit",
+      "observed_condition": "amber",
+      "group_scale": "20-scale",
+      "previous_sha256": "9425ef5e7e6377a6137d50838fbc5263ddf06eac7edd0469e1f703361eeb8794",
+      "previous_dhash_distance": 1,
+      "objects": [
+        {
+          "bbox": [
+            0.3359,
+            0.3391,
+            0.5954,
+            0.8851
+          ]
+        }
+      ],
+      "status": "reviewed draft",
+      "provenance": "Draft extent transferred from perceptually matched HEIC",
+      "flags": []
+    },
+    {
+      "id": "IMG_3222",
+      "file": "IMG_3222.jpeg",
+      "sha256": "d2164094f376f8628332dba8258c63df5ef1f66df949a3387df14d1534994387",
+      "bytes": 1431659,
+      "capture": "2026-11-07T17:42:42",
+      "subsecond": "122",
+      "camera": "iPhone 17 Pro Max",
+      "stored_size": [
+        4032,
+        3024
+      ],
+      "orientation": 6,
+      "has_icc": true,
+      "dhash": "370f878787333705",
+      "group": "amber-20-wall",
+      "split": "fit",
+      "observed_condition": "amber",
+      "group_scale": "20-scale",
+      "previous_sha256": "3e22732d86df39c1d84fade2b09657068d953301ff9c7a7cde989ad0a459ebfc",
+      "previous_dhash_distance": 0,
+      "objects": [
+        {
+          "bbox": [
+            0.3206,
+            0.3276,
+            0.5954,
+            0.7989
+          ]
+        }
+      ],
+      "status": "reviewed draft",
+      "provenance": "Draft extent transferred from perceptually matched HEIC",
+      "flags": []
+    },
+    {
+      "id": "IMG_3223",
+      "file": "IMG_3223.jpeg",
+      "sha256": "7468671061d160eb6800d3663075a102eabc7a1d9a4b4c402611b21432cd0ce9",
+      "bytes": 1092198,
+      "capture": "2026-11-07T17:42:54",
+      "subsecond": "713",
+      "camera": "iPhone 17 Pro Max",
+      "stored_size": [
+        4032,
+        3024
+      ],
+      "orientation": 6,
+      "has_icc": true,
+      "dhash": "1f1f3f1f9b1b5bdf",
+      "group": "amber-20-low-fill-dark-wall",
+      "split": "fit",
+      "observed_condition": "amber",
+      "group_scale": "20-scale",
+      "previous_sha256": "c651d46e371f14ba11eae103529b342e325b7c8a09782e5f639c1d81bb0c2b26",
+      "previous_dhash_distance": 1,
+      "objects": [
+        {
+          "bbox": [
+            0.2595,
+            0.0977,
+            0.4962,
+            0.8736
+          ]
+        }
+      ],
+      "status": "reviewed draft",
+      "provenance": "Draft extent transferred from perceptually matched HEIC",
+      "flags": []
+    },
+    {
+      "id": "IMG_3224",
+      "file": "IMG_3224.jpeg",
+      "sha256": "fb4488c452d6a02959cdd89d6af4fed5ec20d070e09da4c7d81d4e6bfab5d278",
+      "bytes": 1223005,
+      "capture": "2026-11-07T17:42:55",
+      "subsecond": "556",
+      "camera": "iPhone 17 Pro Max",
+      "stored_size": [
+        4032,
+        3024
+      ],
+      "orientation": 6,
+      "has_icc": true,
+      "dhash": "3f2f5f1f37677f9f",
+      "group": "amber-20-low-fill-dark-wall",
+      "split": "fit",
+      "observed_condition": "amber",
+      "group_scale": "20-scale",
+      "objects": [
+        {
+          "bbox": [
+            0.11,
+            0.13,
+            0.6,
+            0.82
+          ]
+        }
+      ],
+      "status": "reviewed draft",
+      "provenance": "Visible extent independently marked on the oriented JPEG",
+      "flags": []
+    },
+    {
+      "id": "IMG_3225",
+      "file": "IMG_3225.jpeg",
+      "sha256": "eb1eeb032d26b06fb0e40c4e47a360790202c98ed768b3b7415217cd11be944a",
+      "bytes": 1131129,
+      "capture": "2026-11-07T17:42:56",
+      "subsecond": "223",
+      "camera": "iPhone 17 Pro Max",
+      "stored_size": [
+        4032,
+        3024
+      ],
+      "orientation": 6,
+      "has_icc": true,
+      "dhash": "1f1f071b37675f1f",
+      "group": "amber-20-low-fill-dark-wall",
+      "split": "fit",
+      "observed_condition": "amber",
+      "group_scale": "20-scale",
+      "previous_sha256": "d56d87f925dde4fc23b8542035a5f2eb92e3411f73a4c9610dcf73aa0a9a3326",
+      "previous_dhash_distance": 1,
+      "objects": [
+        {
+          "bbox": [
+            0,
+            0.2644,
+            0.7328,
+            0.8276
+          ]
+        }
+      ],
+      "status": "reviewed draft",
+      "provenance": "Draft extent transferred from perceptually matched HEIC",
+      "flags": [
+        "Frame-edge clipping"
+      ]
+    },
+    {
+      "id": "IMG_3226",
+      "file": "IMG_3226.jpeg",
+      "sha256": "c68907c0e23bc1bc07f1ffafb9696070692deea6ddbf7020f7298e17491c731d",
+      "bytes": 1145927,
+      "capture": "2026-11-07T17:42:57",
+      "subsecond": "834",
+      "camera": "iPhone 17 Pro Max",
+      "stored_size": [
+        4032,
+        3024
+      ],
+      "orientation": 6,
+      "has_icc": true,
+      "dhash": "5f6f334c6a1f1f1f",
+      "group": "amber-20-low-fill-dark-wall",
+      "split": "fit",
+      "observed_condition": "amber",
+      "group_scale": "20-scale",
+      "previous_sha256": "171041f9126fc158b2a43686c42f568539b5b2f919a80643cd56e165cee782e1",
+      "previous_dhash_distance": 0,
+      "objects": [
+        {
+          "bbox": [
+            0.0305,
+            0.0977,
+            0.7328,
+            0.6322
+          ]
+        }
+      ],
+      "status": "reviewed draft",
+      "provenance": "Draft extent transferred from perceptually matched HEIC",
+      "flags": []
+    },
+    {
+      "id": "IMG_3227",
+      "file": "IMG_3227.jpeg",
+      "sha256": "85cbdbaf3600bb00c67cf167d37257c230ddcb446ddc00e6665d7d043bdcc37e",
+      "bytes": 1186947,
+      "capture": "2026-11-07T17:43:01",
+      "subsecond": "442",
+      "camera": "iPhone 17 Pro Max",
+      "stored_size": [
+        4032,
+        3024
+      ],
+      "orientation": 6,
+      "has_icc": true,
+      "dhash": "7f1f2f1f1f1b1f1f",
+      "group": "amber-20-low-fill-dark-wall",
+      "split": "fit",
+      "observed_condition": "amber",
+      "group_scale": "20-scale",
+      "previous_sha256": "ceab320022b365ce371f2fd3c1f9eb40227b829b61d31aa0c2d166daec9ec5e0",
+      "previous_dhash_distance": 1,
+      "objects": [
+        {
+          "bbox": [
+            0.2977,
+            0.1552,
+            0.5344,
+            0.9425
+          ]
+        }
+      ],
+      "status": "reviewed draft",
+      "provenance": "Draft extent transferred from perceptually matched HEIC",
+      "flags": []
+    },
+    {
+      "id": "IMG_3228",
+      "file": "IMG_3228.jpeg",
+      "sha256": "452b202b198376c3797c315abe6fe99640f981fe635513822d89cc05b0f734ed",
+      "bytes": 1180184,
+      "capture": "2026-11-07T17:43:02",
+      "subsecond": "559",
+      "camera": "iPhone 17 Pro Max",
+      "stored_size": [
+        4032,
+        3024
+      ],
+      "orientation": 6,
+      "has_icc": true,
+      "dhash": "1f1f271f1f9f1f1b",
+      "group": "amber-20-low-fill-dark-wall",
+      "split": "fit",
+      "observed_condition": "amber",
+      "group_scale": "20-scale",
+      "previous_sha256": "54206d15893a5bbe04c6d2503f8ada3f5472b48009689d9dd74908426c230c72",
+      "previous_dhash_distance": 0,
+      "objects": [
+        {
+          "bbox": [
+            0.2366,
+            0.069,
+            0.542,
+            1
+          ]
+        }
+      ],
+      "status": "reviewed draft",
+      "provenance": "Draft extent transferred from perceptually matched HEIC",
+      "flags": [
+        "Frame-edge clipping"
+      ]
+    },
+    {
+      "id": "IMG_3229",
+      "file": "IMG_3229.jpeg",
+      "sha256": "9d39e4e3c9566b5e0169dc5c0b60b7a0f80973e093973c55ea9fb98f5f98076c",
+      "bytes": 1167657,
+      "capture": "2026-11-07T17:43:04",
+      "subsecond": "387",
+      "camera": "iPhone 17 Pro Max",
+      "stored_size": [
+        4032,
+        3024
+      ],
+      "orientation": 6,
+      "has_icc": true,
+      "dhash": "3f3f1f1f1b1b9f3f",
+      "group": "amber-20-low-fill-dark-wall",
+      "split": "fit",
+      "observed_condition": "amber",
+      "group_scale": "20-scale",
+      "previous_sha256": "f1658a3c8725c2850d7993103b3e377a9da059249d390f6e26e5deedeac7ac81",
+      "previous_dhash_distance": 0,
+      "objects": [
+        {
+          "bbox": [
+            0.3282,
+            0.3046,
+            0.4962,
+            0.8851
+          ]
+        }
+      ],
+      "status": "reviewed draft",
+      "provenance": "Draft extent transferred from perceptually matched HEIC",
+      "flags": []
+    },
+    {
+      "id": "IMG_3230",
+      "file": "IMG_3230.jpeg",
+      "sha256": "98d40446269691f102d91f34a87d61677aa3adf048dea9fba5342ba791c80e58",
+      "bytes": 1079454,
+      "capture": "2026-11-07T17:43:30",
+      "subsecond": "815",
+      "camera": "iPhone 17 Pro Max",
+      "stored_size": [
+        4032,
+        3024
+      ],
+      "orientation": 6,
+      "has_icc": true,
+      "dhash": "3f1f7f6f1b5b5bd7",
+      "group": "amber-20-high-fill-dark-wall",
+      "split": "calibration",
+      "observed_condition": "amber",
+      "group_scale": "20-scale",
+      "previous_sha256": "fd56f0843d529fb96d4fb354fbb245f1085403cb7aecab576b8d534a6f1d0289",
+      "previous_dhash_distance": 0,
+      "objects": [
+        {
+          "bbox": [
+            0.2672,
+            0.1552,
+            0.5115,
+            0.9425
+          ]
+        }
+      ],
+      "status": "reviewed draft",
+      "provenance": "Draft extent transferred from perceptually matched HEIC",
+      "flags": []
+    },
+    {
+      "id": "IMG_3231",
+      "file": "IMG_3231.jpeg",
+      "sha256": "f331f44847d54c22aea06e52c86e72f6b2874441342b465fe4ac982796b298ac",
+      "bytes": 1126666,
+      "capture": "2026-11-07T17:43:32",
+      "subsecond": "626",
+      "camera": "iPhone 17 Pro Max",
+      "stored_size": [
+        4032,
+        3024
+      ],
+      "orientation": 6,
+      "has_icc": true,
+      "dhash": "7f1f1f6f1b1b3b5b",
+      "group": "amber-20-high-fill-dark-wall",
+      "split": "calibration",
+      "observed_condition": "amber",
+      "group_scale": "20-scale",
+      "previous_sha256": "944f2ea1af3f5fc709f412eea198217e91c5013ce3a0295deab88a20c4c75c72",
+      "previous_dhash_distance": 0,
+      "objects": [
+        {
+          "bbox": [
+            0.3053,
+            0.2011,
+            0.542,
+            0.9598
+          ]
+        }
+      ],
+      "status": "reviewed draft",
+      "provenance": "Draft extent transferred from perceptually matched HEIC",
+      "flags": []
+    },
+    {
+      "id": "IMG_3232",
+      "file": "IMG_3232.jpeg",
+      "sha256": "9c5ed7fc7e621949d7fc186a2047de075fb020ca79f0ab015d54c495ffc7a50b",
+      "bytes": 1175334,
+      "capture": "2026-11-07T17:43:34",
+      "subsecond": "044",
+      "camera": "iPhone 17 Pro Max",
+      "stored_size": [
+        4032,
+        3024
+      ],
+      "orientation": 6,
+      "has_icc": true,
+      "dhash": "3f372f5f1fb7ffdf",
+      "group": "amber-20-high-fill-dark-wall",
+      "split": "calibration",
+      "observed_condition": "amber",
+      "group_scale": "20-scale",
+      "previous_sha256": "8e7ef83e2f922a39ebce5595b1581644628f21d325b68d7780135321ed765f36",
+      "previous_dhash_distance": 0,
+      "objects": [
+        {
+          "bbox": [
+            0,
+            0.1839,
+            0.7328,
+            1
+          ]
+        }
+      ],
+      "status": "reviewed draft",
+      "provenance": "Draft extent transferred from perceptually matched HEIC",
+      "flags": [
+        "Frame-edge clipping"
+      ]
+    },
+    {
+      "id": "IMG_3233",
+      "file": "IMG_3233.jpeg",
+      "sha256": "022d5b3a4e64d10838d0c1c8578bb15404eb791e5094350bc08a43216e6e8372",
+      "bytes": 1185362,
+      "capture": "2026-11-07T17:43:35",
+      "subsecond": "329",
+      "camera": "iPhone 17 Pro Max",
+      "stored_size": [
+        4032,
+        3024
+      ],
+      "orientation": 6,
+      "has_icc": true,
+      "dhash": "3f3f3f6d4f1f379f",
+      "group": "amber-20-high-fill-dark-wall",
+      "split": "calibration",
+      "observed_condition": "amber",
+      "group_scale": "20-scale",
+      "previous_sha256": "5b81ce1b6ea5f1fd32bf10d99c61078acf5be3458994866a354679ec7d1927ee",
+      "previous_dhash_distance": 0,
+      "objects": [
+        {
+          "bbox": [
+            0,
+            0.3391,
+            0.9389,
+            0.8851
+          ]
+        }
+      ],
+      "status": "reviewed draft",
+      "provenance": "Draft extent transferred from perceptually matched HEIC",
+      "flags": [
+        "Frame-edge clipping"
+      ]
+    },
+    {
+      "id": "IMG_3234",
+      "file": "IMG_3234.jpeg",
+      "sha256": "7c0f3f4b3caf6d0fba5bf64cf4f989931513583dd5531777d37dc492c8a44dcf",
+      "bytes": 1174735,
+      "capture": "2026-11-07T17:43:36",
+      "subsecond": "078",
+      "camera": "iPhone 17 Pro Max",
+      "stored_size": [
+        4032,
+        3024
+      ],
+      "orientation": 6,
+      "has_icc": true,
+      "dhash": "3f3f3f756d1f371f",
+      "group": "amber-20-high-fill-dark-wall",
+      "split": "calibration",
+      "observed_condition": "amber",
+      "group_scale": "20-scale",
+      "previous_sha256": "eab43b3256af33be4a3e8c3fea95f86cab2c004b7ee6fd6af09bde11f6e536da",
+      "previous_dhash_distance": 0,
+      "objects": [
+        {
+          "bbox": [
+            0,
+            0.4368,
+            0.9237,
+            0.8678
+          ]
+        }
+      ],
+      "status": "reviewed draft",
+      "provenance": "Draft extent transferred from perceptually matched HEIC",
+      "flags": [
+        "Frame-edge clipping"
+      ]
+    },
+    {
+      "id": "IMG_3235",
+      "file": "IMG_3235.jpeg",
+      "sha256": "83f911fc9cc136841f098601106e556f54ae5bdce989afcd97496bc256378ba6",
+      "bytes": 1169816,
+      "capture": "2026-11-07T17:43:36",
+      "subsecond": "809",
+      "camera": "iPhone 17 Pro Max",
+      "stored_size": [
+        4032,
+        3024
+      ],
+      "orientation": 6,
+      "has_icc": true,
+      "dhash": "3f3f7f772d1f1f1f",
+      "group": "amber-20-high-fill-dark-wall",
+      "split": "calibration",
+      "observed_condition": "amber",
+      "group_scale": "20-scale",
+      "previous_sha256": "1c4f11741869fa57965a7e92ad4acccfcfcd61b81a4fc7cd0c0b5bc07cacb373",
+      "previous_dhash_distance": 3,
+      "objects": [
+        {
+          "bbox": [
+            0,
+            0.5172,
+            0.9389,
+            0.6897
+          ]
+        }
+      ],
+      "status": "reviewed draft",
+      "provenance": "Draft extent transferred from perceptually matched HEIC",
+      "flags": [
+        "Frame-edge clipping"
+      ]
+    },
+    {
+      "id": "IMG_3236",
+      "file": "IMG_3236.jpeg",
+      "sha256": "eda0cb903abd5bd5fc2f7b9eff27d9924aca346d92171ba3b555a12b3821e093",
+      "bytes": 2865373,
+      "capture": "2026-11-07T17:43:40",
+      "subsecond": "763",
+      "camera": "iPhone 17 Pro Max",
+      "stored_size": [
+        5712,
+        4284
+      ],
+      "orientation": 6,
+      "has_icc": true,
+      "dhash": "fffffbfeda99397d",
+      "group": "amber-20-high-fill-dark-wall",
+      "split": "calibration",
+      "observed_condition": "amber",
+      "group_scale": "20-scale",
+      "objects": [
+        {
+          "bbox": [
+            0.36,
+            0.23,
+            0.58,
+            0.8
+          ]
+        }
+      ],
+      "status": "reviewed draft",
+      "provenance": "Visible extent independently marked on the oriented JPEG",
+      "flags": []
+    },
+    {
+      "id": "IMG_3237",
+      "file": "IMG_3237.jpeg",
+      "sha256": "a09f03c5137b3e9b910feb813d1a915dc2319b6800e738f4b8d6ae22e6469dbf",
+      "bytes": 2570132,
+      "capture": "2026-11-07T17:43:41",
+      "subsecond": "882",
+      "camera": "iPhone 17 Pro Max",
+      "stored_size": [
+        5712,
+        4284
+      ],
+      "orientation": 6,
+      "has_icc": true,
+      "dhash": "ffffe5dcd82c4d7b",
+      "group": "amber-20-high-fill-dark-wall",
+      "split": "calibration",
+      "observed_condition": "amber",
+      "group_scale": "20-scale",
+      "objects": [
+        {
+          "bbox": [
+            0.31,
+            0.11,
+            0.56,
+            0.88
+          ]
+        }
+      ],
+      "status": "reviewed draft",
+      "provenance": "Visible extent independently marked on the oriented JPEG",
+      "flags": []
+    },
+    {
+      "id": "IMG_3238",
+      "file": "IMG_3238.jpeg",
+      "sha256": "c975c761ec4eab942ee2fd21f6dea0fe5bb168cfe2b0a55ee318b478e975362b",
+      "bytes": 1170106,
+      "capture": "2026-11-07T17:43:42",
+      "subsecond": "939",
+      "camera": "iPhone 17 Pro Max",
+      "stored_size": [
+        4032,
+        3024
+      ],
+      "orientation": 6,
+      "has_icc": true,
+      "dhash": "5f3f373f4f0f6f4f",
+      "group": "amber-20-high-fill-dark-wall",
+      "split": "calibration",
+      "observed_condition": "amber",
+      "group_scale": "20-scale",
+      "previous_sha256": "fdcda8e4b6640bcbc0cf059284bec96e0dd6b75ce5331bf28dc9ef79c34e60ed",
+      "previous_dhash_distance": 0,
+      "objects": [
+        {
+          "bbox": [
+            0.3588,
+            0.046,
+            0.5802,
+            0.9713
+          ]
+        }
+      ],
+      "status": "reviewed draft",
+      "provenance": "Draft extent transferred from perceptually matched HEIC",
+      "flags": []
+    },
+    {
+      "id": "IMG_3239",
+      "file": "IMG_3239.jpeg",
+      "sha256": "bd3c059307fbadff8db69f19d2022c40684318d985c446af8fa65d6dc0790b5d",
+      "bytes": 1169172,
+      "capture": "2026-11-07T17:43:44",
+      "subsecond": "298",
+      "camera": "iPhone 17 Pro Max",
+      "stored_size": [
+        4032,
+        3024
+      ],
+      "orientation": 6,
+      "has_icc": true,
+      "dhash": "7f3f3f5b9bf7cf3f",
+      "group": "amber-20-high-fill-dark-wall",
+      "split": "calibration",
+      "observed_condition": "amber",
+      "group_scale": "20-scale",
+      "previous_sha256": "e450a33307627672188f409fd28c1eed1e0764fc09da4fa3949a6e0e47a6d135",
+      "previous_dhash_distance": 1,
+      "objects": [
+        {
+          "bbox": [
+            0,
+            0.2874,
+            0.7786,
+            0.7241
+          ]
+        }
+      ],
+      "status": "reviewed draft",
+      "provenance": "Draft extent transferred from perceptually matched HEIC",
+      "flags": [
+        "Frame-edge clipping"
+      ]
+    },
+    {
+      "id": "IMG_3240",
+      "file": "IMG_3240.jpeg",
+      "sha256": "80c2160b56a4bce7bb6244d62d461eb92303bd104a180fee2368d057a89e0873",
+      "bytes": 1179202,
+      "capture": "2026-11-07T17:43:45",
+      "subsecond": "345",
+      "camera": "iPhone 17 Pro Max",
+      "stored_size": [
+        4032,
+        3024
+      ],
+      "orientation": 6,
+      "has_icc": true,
+      "dhash": "7f3f3d6dcb376fdf",
+      "group": "amber-20-high-fill-dark-wall",
+      "split": "calibration",
+      "observed_condition": "amber",
+      "group_scale": "20-scale",
+      "previous_sha256": "f31ad599c4af2aad93997498e0326f1dcb4b47c9d36addbd7ff920fc32835281",
+      "previous_dhash_distance": 0,
+      "objects": [
+        {
+          "bbox": [
+            0,
+            0.3103,
+            0.9618,
+            0.8103
+          ]
+        }
+      ],
+      "status": "reviewed draft",
+      "provenance": "Draft extent transferred from perceptually matched HEIC",
+      "flags": [
+        "Frame-edge clipping"
+      ]
+    },
+    {
+      "id": "IMG_3241",
+      "file": "IMG_3241.jpeg",
+      "sha256": "5ce9a56bc481e38e65a183ee5965be001a8e0a3c8d3c65bb12214966d3f59509",
+      "bytes": 1134020,
+      "capture": "2026-11-07T17:43:48",
+      "subsecond": "096",
+      "camera": "iPhone 17 Pro Max",
+      "stored_size": [
+        4032,
+        3024
+      ],
+      "orientation": 6,
+      "has_icc": true,
+      "dhash": "3f3f3fdf4f178fbd",
+      "group": "amber-20-high-fill-dark-wall",
+      "split": "calibration",
+      "observed_condition": "amber",
+      "group_scale": "20-scale",
+      "previous_sha256": "5b48e828ef5c41b02231f4284932da6cee281b206b94336f3b82afe717fa84b6",
+      "previous_dhash_distance": 0,
+      "objects": [
+        {
+          "bbox": [
+            0.0382,
+            0.3391,
+            0.8321,
+            0.7989
+          ]
+        }
+      ],
+      "status": "reviewed draft",
+      "provenance": "Draft extent transferred from perceptually matched HEIC",
+      "flags": []
+    },
+    {
+      "id": "IMG_3242",
+      "file": "IMG_3242.jpeg",
+      "sha256": "71a254da69fdf7e80a428b949958d31f0106a75d0d9be810a3aea6c2188c4022",
+      "bytes": 2504058,
+      "capture": "2026-11-07T17:43:50",
+      "subsecond": "499",
+      "camera": "iPhone 17 Pro Max",
+      "stored_size": [
+        5712,
+        4284
+      ],
+      "orientation": 6,
+      "has_icc": true,
+      "dhash": "ffffffff66c6ce4f",
+      "group": "amber-20-high-fill-dark-wall",
+      "split": "calibration",
+      "observed_condition": "amber",
+      "group_scale": "20-scale",
+      "objects": [
+        {
+          "bbox": [
+            0.14,
+            0.36,
+            1.0,
+            0.78
+          ]
+        }
+      ],
+      "status": "reviewed draft",
+      "provenance": "Visible extent independently marked on the oriented JPEG",
+      "flags": [
+        "Frame-edge clipping"
+      ]
+    },
+    {
+      "id": "IMG_3243",
+      "file": "IMG_3243.jpeg",
+      "sha256": "b073c83e43e70836487a50726982f85c7917059ba9b401888f428e0daa56e8d6",
+      "bytes": 1147954,
+      "capture": "2026-11-07T17:43:55",
+      "subsecond": "726",
+      "camera": "iPhone 17 Pro Max",
+      "stored_size": [
+        4032,
+        3024
+      ],
+      "orientation": 6,
+      "has_icc": true,
+      "dhash": "3f2f3f370f0f3f2f",
+      "group": "amber-20-high-fill-dark-wall",
+      "split": "calibration",
+      "observed_condition": "amber",
+      "group_scale": "20-scale",
+      "previous_sha256": "fba9bbfe6e5e30f5e3f9fbd37531a499fef095fce8f86a36723ecc095a2bc747",
+      "previous_dhash_distance": 1,
+      "objects": [
+        {
+          "bbox": [
+            0.4122,
+            0.1839,
+            0.6107,
+            0.9598
+          ]
+        }
+      ],
+      "status": "reviewed draft",
+      "provenance": "Draft extent transferred from perceptually matched HEIC",
+      "flags": []
+    },
+    {
+      "id": "IMG_3244",
+      "file": "IMG_3244.jpeg",
+      "sha256": "e5c8ffc9c5ff6b638adad690b955f75df6aa146e37ff5134c7af0e35d21c80ff",
+      "bytes": 1204940,
+      "capture": "2026-11-07T17:43:56",
+      "subsecond": "484",
+      "camera": "iPhone 17 Pro Max",
+      "stored_size": [
+        4032,
+        3024
+      ],
+      "orientation": 6,
+      "has_icc": true,
+      "dhash": "2f0f37370f0f2f3f",
+      "group": "amber-20-high-fill-dark-wall",
+      "split": "calibration",
+      "observed_condition": "amber",
+      "group_scale": "20-scale",
+      "previous_sha256": "8e070d746970d155e6ad34da21172b6d07e4ea93aefad0b4424119712092ec6a",
+      "previous_dhash_distance": 0,
+      "objects": [
+        {
+          "bbox": [
+            0.3359,
+            0.0862,
+            0.6107,
+            1
+          ]
+        }
+      ],
+      "status": "reviewed draft",
+      "provenance": "Draft extent transferred from perceptually matched HEIC",
+      "flags": [
+        "Frame-edge clipping"
+      ]
+    },
+    {
+      "id": "IMG_3245",
+      "file": "IMG_3245.jpeg",
+      "sha256": "bcf994c9b9dc855fea695ef6d0817c2d91d31e3db7d1a458ed772ac1b84964bb",
+      "bytes": 1227838,
+      "capture": "2026-11-07T17:43:57",
+      "subsecond": "359",
+      "camera": "iPhone 17 Pro Max",
+      "stored_size": [
+        4032,
+        3024
+      ],
+      "orientation": 6,
+      "has_icc": true,
+      "dhash": "0f373737170f4f6f",
+      "group": "amber-20-high-fill-dark-wall",
+      "split": "calibration",
+      "observed_condition": "amber",
+      "group_scale": "20-scale",
+      "previous_sha256": "4c61f641d3eeea1386fcd917668a5390407795a5f67706d14510d85d39a17041",
+      "previous_dhash_distance": 0,
+      "objects": [
+        {
+          "bbox": [
+            0.313,
+            0,
+            0.6641,
+            1
+          ]
+        }
+      ],
+      "status": "reviewed draft",
+      "provenance": "Draft extent transferred from perceptually matched HEIC",
+      "flags": [
+        "Frame-edge clipping"
+      ]
+    },
+    {
+      "id": "IMG_3246",
+      "file": "IMG_3246.jpeg",
+      "sha256": "ce0328b1d15495cc55cd082125e45eb17be89c4cccd9bfb8060e1700b6d539fa",
+      "bytes": 1143434,
+      "capture": "2026-11-07T17:43:58",
+      "subsecond": "397",
+      "camera": "iPhone 17 Pro Max",
+      "stored_size": [
+        4032,
+        3024
+      ],
+      "orientation": 6,
+      "has_icc": true,
+      "dhash": "3f3b1f3f478f3f5f",
+      "group": "amber-20-high-fill-dark-wall",
+      "split": "calibration",
+      "observed_condition": "amber",
+      "group_scale": "20-scale",
+      "previous_sha256": "185dd94e919e0c45f86de97bca500978e66f2baf491f2ba669b0bb539f87f905",
+      "previous_dhash_distance": 0,
+      "objects": [
+        {
+          "bbox": [
+            0.3435,
+            0.1724,
+            0.8321,
+            1
+          ]
+        }
+      ],
+      "status": "reviewed draft",
+      "provenance": "Draft extent transferred from perceptually matched HEIC",
+      "flags": [
+        "Frame-edge clipping"
+      ]
+    },
+    {
+      "id": "IMG_3247",
+      "file": "IMG_3247.jpeg",
+      "sha256": "a95318ba12c378e538e961b74873b7761213f41a4b6c95c4aec82ce66bf4179b",
+      "bytes": 1118186,
+      "capture": "2026-11-07T17:43:59",
+      "subsecond": "361",
+      "camera": "iPhone 17 Pro Max",
+      "stored_size": [
+        4032,
+        3024
+      ],
+      "orientation": 6,
+      "has_icc": true,
+      "dhash": "3f2f371f0f1f5f5f",
+      "group": "amber-20-high-fill-dark-wall",
+      "split": "calibration",
+      "observed_condition": "amber",
+      "group_scale": "20-scale",
+      "previous_sha256": "13ddc03baa25eeee3577323402d1d967a094fa6fb3a700cb21348ea688c26a61",
+      "previous_dhash_distance": 1,
+      "objects": [
+        {
+          "bbox": [
+            0.3664,
+            0.1552,
+            0.6183,
+            0.8621
+          ]
+        }
+      ],
+      "status": "reviewed draft",
+      "provenance": "Draft extent transferred from perceptually matched HEIC",
+      "flags": []
+    },
+    {
+      "id": "IMG_3248",
+      "file": "IMG_3248.jpeg",
+      "sha256": "0e93043bc9a47534b6be51e52e7173a139fe3fd1f52aab187896650410a68b8e",
+      "bytes": 2714899,
+      "capture": "2026-11-07T17:45:35",
+      "subsecond": "718",
+      "camera": "iPhone 17 Pro Max",
+      "stored_size": [
+        5712,
+        4284
+      ],
+      "orientation": 6,
+      "has_icc": true,
+      "dhash": "ffdf9bd89b1b5bdb",
+      "group": "orange-60-dark-wall",
+      "split": "fit",
+      "observed_condition": "orange",
+      "group_scale": "60-scale",
+      "objects": [
+        {
+          "bbox": [
+            0.26,
+            0.16,
+            0.53,
+            1.0
+          ]
+        }
+      ],
+      "status": "reviewed draft",
+      "provenance": "Visible extent independently marked on the oriented JPEG",
+      "flags": [
+        "Frame-edge clipping"
+      ]
+    },
+    {
+      "id": "IMG_3249",
+      "file": "IMG_3249.jpeg",
+      "sha256": "920bbb3bef8e75f632da5de35bad48432af4144b65d82362dfbfd23786c2685b",
+      "bytes": 2838019,
+      "capture": "2026-11-07T17:45:36",
+      "subsecond": "712",
+      "camera": "iPhone 17 Pro Max",
+      "stored_size": [
+        5712,
+        4284
+      ],
+      "orientation": 6,
+      "has_icc": true,
+      "dhash": "ffefcdd81b9bf7be",
+      "group": "orange-60-dark-wall",
+      "split": "fit",
+      "observed_condition": "orange",
+      "group_scale": "60-scale",
+      "objects": [
+        {
+          "bbox": [
+            0.22,
+            0.16,
+            0.6,
+            1.0
+          ]
+        }
+      ],
+      "status": "reviewed draft",
+      "provenance": "Visible extent independently marked on the oriented JPEG",
+      "flags": [
+        "Frame-edge clipping"
+      ]
+    },
+    {
+      "id": "IMG_3250",
+      "file": "IMG_3250.jpeg",
+      "sha256": "7697c4a63a4f2820ee0f24487c42c25e004eff57cd322f1b85b970615f8214bc",
+      "bytes": 2627294,
+      "capture": "2026-11-07T17:45:37",
+      "subsecond": "681",
+      "camera": "iPhone 17 Pro Max",
+      "stored_size": [
+        5712,
+        4284
+      ],
+      "orientation": 6,
+      "has_icc": true,
+      "dhash": "cfdf9ebe9eb83bf7",
+      "group": "orange-60-dark-wall",
+      "split": "fit",
+      "observed_condition": "orange",
+      "group_scale": "60-scale",
+      "objects": [
+        {
+          "bbox": [
+            0.22,
+            0.0,
+            0.62,
+            1.0
+          ]
+        }
+      ],
+      "status": "reviewed draft",
+      "provenance": "Visible extent independently marked on the oriented JPEG",
+      "flags": [
+        "Frame-edge clipping"
+      ]
+    },
+    {
+      "id": "IMG_3251",
+      "file": "IMG_3251.jpeg",
+      "sha256": "b689c061b6feb085212efdeae8afdb6530ed7c2dd5521863f7c96ac6b418bb82",
+      "bytes": 1111959,
+      "capture": "2026-11-07T17:45:38",
+      "subsecond": "909",
+      "camera": "iPhone 17 Pro Max",
+      "stored_size": [
+        4032,
+        3024
+      ],
+      "orientation": 6,
+      "has_icc": true,
+      "dhash": "7f1f1f1f1f4f0f5f",
+      "group": "orange-60-dark-wall",
+      "split": "fit",
+      "observed_condition": "orange",
+      "group_scale": "60-scale",
+      "previous_sha256": "12e33f9179060533e3cbd2ccf8ab45b1fb3f7e3c5ad06e75594286d3331e3b0a",
+      "previous_dhash_distance": 0,
+      "objects": [
+        {
+          "bbox": [
+            0.2595,
+            0.1609,
+            0.687,
+            1
+          ]
+        }
+      ],
+      "status": "reviewed draft",
+      "provenance": "Draft extent transferred from perceptually matched HEIC",
+      "flags": [
+        "Frame-edge clipping"
+      ]
+    },
+    {
+      "id": "IMG_3252",
+      "file": "IMG_3252.jpeg",
+      "sha256": "cd0b3241dba13608c05028ff767ae06b7c122562b7b373ff2c104c72aa30845d",
+      "bytes": 1071062,
+      "capture": "2026-11-07T17:45:39",
+      "subsecond": "979",
+      "camera": "iPhone 17 Pro Max",
+      "stored_size": [
+        4032,
+        3024
+      ],
+      "orientation": 6,
+      "has_icc": true,
+      "dhash": "5f3f37195c1f2d67",
+      "group": "orange-60-dark-wall",
+      "split": "fit",
+      "observed_condition": "orange",
+      "group_scale": "60-scale",
+      "previous_sha256": "3f1a6292185410ba71db83e9f3102fc8fe58314d1851da903aedc44c45fdd6de",
+      "previous_dhash_distance": 0,
+      "objects": [
+        {
+          "bbox": [
+            0.2519,
+            0.2011,
+            0.6641,
+            1
+          ]
+        }
+      ],
+      "status": "reviewed draft",
+      "provenance": "Draft extent transferred from perceptually matched HEIC",
+      "flags": [
+        "Frame-edge clipping"
+      ]
+    },
+    {
+      "id": "IMG_3253",
+      "file": "IMG_3253.jpeg",
+      "sha256": "228ff389bb6aa3a6be0763c51a1a43833718a49c2e3863cf75913e7e2e3d2603",
+      "bytes": 2721884,
+      "capture": "2026-11-07T17:45:41",
+      "subsecond": "447",
+      "camera": "iPhone 17 Pro Max",
+      "stored_size": [
+        5712,
+        4284
+      ],
+      "orientation": 6,
+      "has_icc": true,
+      "dhash": "fffffdf3ee9d735f",
+      "group": "orange-60-dark-wall",
+      "split": "fit",
+      "observed_condition": "orange",
+      "group_scale": "60-scale",
+      "objects": [
+        {
+          "bbox": [
+            0.02,
+            0.33,
+            0.93,
+            0.97
+          ]
+        }
+      ],
+      "status": "reviewed draft",
+      "provenance": "Visible extent independently marked on the oriented JPEG",
+      "flags": []
+    },
+    {
+      "id": "IMG_3254",
+      "file": "IMG_3254.jpeg",
+      "sha256": "52010be03145791236e1d180adb6f6469a65e2ea8301c0039c6391fad7c15588",
+      "bytes": 2674705,
+      "capture": "2026-11-07T17:45:42",
+      "subsecond": "387",
+      "camera": "iPhone 17 Pro Max",
+      "stored_size": [
+        5712,
+        4284
+      ],
+      "orientation": 6,
+      "has_icc": true,
+      "dhash": "fffffff5899ff57f",
+      "group": "orange-60-dark-wall",
+      "split": "fit",
+      "observed_condition": "orange",
+      "group_scale": "60-scale",
+      "objects": [
+        {
+          "bbox": [
+            0.0,
+            0.5,
+            1.0,
+            0.78
+          ]
+        }
+      ],
+      "status": "reviewed draft",
+      "provenance": "Visible extent independently marked on the oriented JPEG",
+      "flags": [
+        "Frame-edge clipping"
+      ]
+    },
+    {
+      "id": "IMG_3255",
+      "file": "IMG_3255.jpeg",
+      "sha256": "3fe17a22a1a85798ef8c93952661606bef259534a44a0d2a1a40b7009dfcfa37",
+      "bytes": 2561146,
+      "capture": "2026-11-07T17:45:43",
+      "subsecond": "691",
+      "camera": "iPhone 17 Pro Max",
+      "stored_size": [
+        5712,
+        4284
+      ],
+      "orientation": 6,
+      "has_icc": true,
+      "dhash": "ffffedec4c0d9d3d",
+      "group": "orange-60-dark-wall",
+      "split": "fit",
+      "observed_condition": "orange",
+      "group_scale": "60-scale",
+      "objects": [
+        {
+          "bbox": [
+            0.42,
+            0.24,
+            0.65,
+            1.0
+          ]
+        }
+      ],
+      "status": "reviewed draft",
+      "provenance": "Visible extent independently marked on the oriented JPEG",
+      "flags": [
+        "Frame-edge clipping"
+      ]
+    },
+    {
+      "id": "IMG_3256",
+      "file": "IMG_3256.jpeg",
+      "sha256": "9326981e030d140c8bb6283305da46fdab7ca6a4d8ead2584d186165745796c9",
+      "bytes": 2487682,
+      "capture": "2026-11-07T17:45:44",
+      "subsecond": "440",
+      "camera": "iPhone 17 Pro Max",
+      "stored_size": [
+        5712,
+        4284
+      ],
+      "orientation": 6,
+      "has_icc": true,
+      "dhash": "df9fdede1f0d7f7f",
+      "group": "orange-60-dark-wall",
+      "split": "fit",
+      "observed_condition": "orange",
+      "group_scale": "60-scale",
+      "objects": [
+        {
+          "bbox": [
+            0.28,
+            0.05,
+            0.49,
+            1.0
+          ]
+        }
+      ],
+      "status": "reviewed draft",
+      "provenance": "Visible extent independently marked on the oriented JPEG",
+      "flags": [
+        "Frame-edge clipping"
+      ]
+    },
+    {
+      "id": "IMG_3257",
+      "file": "IMG_3257.jpeg",
+      "sha256": "73d019371958b9dda49796adc3fa67e484b433e1d61b79ffc21ec6cedc180896",
+      "bytes": 1090398,
+      "capture": "2026-11-07T17:45:45",
+      "subsecond": "322",
+      "camera": "iPhone 17 Pro Max",
+      "stored_size": [
+        4032,
+        3024
+      ],
+      "orientation": 6,
+      "has_icc": true,
+      "dhash": "3f3f4f4f4f0f8f2f",
+      "group": "orange-60-dark-wall",
+      "split": "fit",
+      "observed_condition": "orange",
+      "group_scale": "60-scale",
+      "previous_sha256": "ac1dc181e8d91df93e9fda56f597df9b930f3f8fa3ee8d890483d867f6be835a",
+      "previous_dhash_distance": 1,
+      "objects": [
+        {
+          "bbox": [
+            0.3817,
+            0.2414,
+            0.6565,
+            1
+          ]
+        }
+      ],
+      "status": "reviewed draft",
+      "provenance": "Draft extent transferred from perceptually matched HEIC",
+      "flags": [
+        "Frame-edge clipping"
+      ]
+    },
+    {
+      "id": "IMG_3258",
+      "file": "IMG_3258.jpeg",
+      "sha256": "925dfdec4cbc048806b52ea6d5ae07cac94273af1ca97ae09b5196402188823c",
+      "bytes": 2751283,
+      "capture": "2026-11-07T17:45:47",
+      "subsecond": "380",
+      "camera": "iPhone 17 Pro Max",
+      "stored_size": [
+        5712,
+        4284
+      ],
+      "orientation": 6,
+      "has_icc": true,
+      "dhash": "ffff7f3acc4e1b39",
+      "group": "orange-60-dark-wall",
+      "split": "fit",
+      "observed_condition": "orange",
+      "group_scale": "60-scale",
+      "objects": [
+        {
+          "bbox": [
+            0.1,
+            0.16,
+            0.9,
+            0.97
+          ]
+        }
+      ],
+      "status": "reviewed draft",
+      "provenance": "Visible extent independently marked on the oriented JPEG",
+      "flags": []
+    },
+    {
+      "id": "IMG_3259",
+      "file": "IMG_3259.jpeg",
+      "sha256": "6c1947444fa61d4593af5e6a61994351124ada4d11b6713a21e24b5fec5cc59f",
+      "bytes": 2663065,
+      "capture": "2026-11-07T17:45:48",
+      "subsecond": "219",
+      "camera": "iPhone 17 Pro Max",
+      "stored_size": [
+        5712,
+        4284
+      ],
+      "orientation": 6,
+      "has_icc": true,
+      "dhash": "ffffff7f6e4f4c4f",
+      "group": "orange-60-dark-wall",
+      "split": "fit",
+      "observed_condition": "orange",
+      "group_scale": "60-scale",
+      "objects": [
+        {
+          "bbox": [
+            0.06,
+            0.29,
+            1.0,
+            0.85
+          ]
+        }
+      ],
+      "status": "reviewed draft",
+      "provenance": "Visible extent independently marked on the oriented JPEG",
+      "flags": [
+        "Frame-edge clipping"
+      ]
+    },
+    {
+      "id": "IMG_3260",
+      "file": "IMG_3260.jpeg",
+      "sha256": "bb38b4bafdb3b90cb9ca3e73b9c1dcd94c7961847b9cadc7ff3c04d38656933f",
+      "bytes": 2983886,
+      "capture": "2026-11-07T17:45:58",
+      "subsecond": "591",
+      "camera": "iPhone 17 Pro Max",
+      "stored_size": [
+        5712,
+        4284
+      ],
+      "orientation": 6,
+      "has_icc": true,
+      "dhash": "ffdfd9d89c3edad8",
+      "group": "orange-60-dark-wall",
+      "split": "fit",
+      "observed_condition": "orange",
+      "group_scale": "60-scale",
+      "objects": [
+        {
+          "bbox": [
+            0.34,
+            0.14,
+            0.56,
+            0.95
+          ]
+        }
+      ],
+      "status": "reviewed draft",
+      "provenance": "Visible extent independently marked on the oriented JPEG",
+      "flags": []
+    },
+    {
+      "id": "IMG_3261",
+      "file": "IMG_3261.jpeg",
+      "sha256": "3b1eda85688eb755cbd7ff06795cdc2d7057b7f6bc5fba59134d4ee2307e6918",
+      "bytes": 2791870,
+      "capture": "2026-11-07T17:45:59",
+      "subsecond": "603",
+      "camera": "iPhone 17 Pro Max",
+      "stored_size": [
+        5712,
+        4284
+      ],
+      "orientation": 6,
+      "has_icc": true,
+      "dhash": "ffbfb6d9dc3e6fef",
+      "group": "orange-60-dark-wall",
+      "split": "fit",
+      "observed_condition": "orange",
+      "group_scale": "60-scale",
+      "objects": [
+        {
+          "bbox": [
+            0.25,
+            0.15,
+            0.66,
+            0.99
+          ]
+        }
+      ],
+      "status": "reviewed draft",
+      "provenance": "Visible extent independently marked on the oriented JPEG",
+      "flags": []
+    },
+    {
+      "id": "IMG_3262",
+      "file": "IMG_3262.jpeg",
+      "sha256": "bafb5d94c0fb55b0b7185bfc02cc9b45f53078eaef86ba91b98e379cb1809498",
+      "bytes": 2502033,
+      "capture": "2026-11-07T17:46:00",
+      "subsecond": "407",
+      "camera": "iPhone 17 Pro Max",
+      "stored_size": [
+        5712,
+        4284
+      ],
+      "orientation": 6,
+      "has_icc": true,
+      "dhash": "ffff6fb6999c367f",
+      "group": "orange-60-dark-wall",
+      "split": "fit",
+      "observed_condition": "orange",
+      "group_scale": "60-scale",
+      "objects": [
+        {
+          "bbox": [
+            0.03,
+            0.2,
+            0.79,
+            0.93
+          ]
+        }
+      ],
+      "status": "reviewed draft",
+      "provenance": "Visible extent independently marked on the oriented JPEG",
+      "flags": []
+    },
+    {
+      "id": "IMG_3263",
+      "file": "IMG_3263.jpeg",
+      "sha256": "de3c210a75bd3b63e035bb58d72ef5f83c8073579f27b5352a7cd94716858a44",
+      "bytes": 1101842,
+      "capture": "2026-11-07T17:46:02",
+      "subsecond": "583",
+      "camera": "iPhone 17 Pro Max",
+      "stored_size": [
+        4032,
+        3024
+      ],
+      "orientation": 6,
+      "has_icc": true,
+      "dhash": "2f1f1b5b9f0f5fdf",
+      "group": "orange-60-dark-wall",
+      "split": "fit",
+      "observed_condition": "orange",
+      "group_scale": "60-scale",
+      "previous_sha256": "6975519a628b7f9107d9bdfd4c72c4d507fe5ea1883966d255c26e869d508e0f",
+      "previous_dhash_distance": 1,
+      "objects": [
+        {
+          "bbox": [
+            0.3206,
+            0.1782,
+            0.5496,
+            1
+          ]
+        }
+      ],
+      "status": "reviewed draft",
+      "provenance": "Draft extent transferred from perceptually matched HEIC",
+      "flags": [
+        "Frame-edge clipping"
+      ]
+    },
+    {
+      "id": "IMG_3264",
+      "file": "IMG_3264.jpeg",
+      "sha256": "7cab1ecefda92268a32d3f558d060c9f864376b33acf17780d9eca3db536bbdb",
+      "bytes": 1135126,
+      "capture": "2026-11-07T17:46:03",
+      "subsecond": "993",
+      "camera": "iPhone 17 Pro Max",
+      "stored_size": [
+        4032,
+        3024
+      ],
+      "orientation": 6,
+      "has_icc": true,
+      "dhash": "3f5f7f1b9f8f9b19",
+      "group": "orange-60-dark-wall",
+      "split": "fit",
+      "observed_condition": "orange",
+      "group_scale": "60-scale",
+      "previous_sha256": "ac3dba9b980d3af234087f3d7178e9805735da2a9e66171ae2fe0242dbc7bafc",
+      "previous_dhash_distance": 1,
+      "objects": [
+        {
+          "bbox": [
+            0.1145,
+            0.2529,
+            1,
+            0.954
+          ]
+        }
+      ],
+      "status": "reviewed draft",
+      "provenance": "Draft extent transferred from perceptually matched HEIC",
+      "flags": [
+        "Frame-edge clipping"
+      ]
+    },
+    {
+      "id": "IMG_3265",
+      "file": "IMG_3265.jpeg",
+      "sha256": "cd44eb9010be20327bcbd15c1e3ee0052756052b05019adbb0575bba108b3fdd",
+      "bytes": 3056525,
+      "capture": "2026-11-07T17:46:06",
+      "subsecond": "218",
+      "camera": "iPhone 17 Pro Max",
+      "stored_size": [
+        5712,
+        4284
+      ],
+      "orientation": 6,
+      "has_icc": true,
+      "dhash": "fffffffd5ecbcd4e",
+      "group": "orange-60-dark-wall",
+      "split": "fit",
+      "observed_condition": "orange",
+      "group_scale": "60-scale",
+      "objects": [
+        {
+          "bbox": [
+            0.03,
+            0.49,
+            0.92,
+            0.8
+          ]
+        }
+      ],
+      "status": "reviewed draft",
+      "provenance": "Visible extent independently marked on the oriented JPEG",
+      "flags": []
+    },
+    {
+      "id": "IMG_3266",
+      "file": "IMG_3266.jpeg",
+      "sha256": "dfbbe5b5c0db7eceebc73e45e3f04173304d6f780ab3531e49a318e4b8a2e566",
+      "bytes": 2898948,
+      "capture": "2026-11-07T17:46:08",
+      "subsecond": "362",
+      "camera": "iPhone 17 Pro Max",
+      "stored_size": [
+        5712,
+        4284
+      ],
+      "orientation": 6,
+      "has_icc": true,
+      "dhash": "ffffffff6f63e6e6",
+      "group": "orange-60-dark-wall",
+      "split": "fit",
+      "observed_condition": "orange",
+      "group_scale": "60-scale",
+      "objects": [
+        {
+          "bbox": [
+            0.05,
+            0.51,
+            1.0,
+            0.82
+          ]
+        }
+      ],
+      "status": "reviewed draft",
+      "provenance": "Visible extent independently marked on the oriented JPEG",
+      "flags": [
+        "Frame-edge clipping"
+      ]
+    },
+    {
+      "id": "IMG_3267",
+      "file": "IMG_3267.jpeg",
+      "sha256": "42f1cac371fa7999c524d156e5cb7249d9a90e37aaa4541bf164a09dfc6724d7",
+      "bytes": 2810952,
+      "capture": "2026-11-07T17:46:10",
+      "subsecond": "231",
+      "camera": "iPhone 17 Pro Max",
+      "stored_size": [
+        5712,
+        4284
+      ],
+      "orientation": 6,
+      "has_icc": true,
+      "dhash": "fffbf6ac4cd8b53f",
+      "group": "orange-60-dark-wall",
+      "split": "fit",
+      "observed_condition": "orange",
+      "group_scale": "60-scale",
+      "objects": [
+        {
+          "bbox": [
+            0.16,
+            0.16,
+            0.82,
+            0.91
+          ]
+        }
+      ],
+      "status": "reviewed draft",
+      "provenance": "Visible extent independently marked on the oriented JPEG",
+      "flags": []
+    },
+    {
+      "id": "IMG_3268",
+      "file": "IMG_3268.jpeg",
+      "sha256": "ceab8f0a9eb4b02d12f1d08ff7a8e120fd2609f21bd8ddc934fe5302ff316c42",
+      "bytes": 1232677,
+      "capture": "2026-11-07T17:46:11",
+      "subsecond": "759",
+      "camera": "iPhone 17 Pro Max",
+      "stored_size": [
+        4032,
+        3024
+      ],
+      "orientation": 6,
+      "has_icc": true,
+      "dhash": "3913332f0ddfbf2f",
+      "group": "orange-60-dark-wall",
+      "split": "fit",
+      "observed_condition": "orange",
+      "group_scale": "60-scale",
+      "previous_sha256": "e1a9c4d5ac8ee38b62b57a67d3cc518f402615dfdff87706e96cefe3e6145984",
+      "previous_dhash_distance": 0,
+      "objects": [
+        {
+          "bbox": [
+            0.1298,
+            0,
+            0.9542,
+            0.9828
+          ]
+        }
+      ],
+      "status": "reviewed draft",
+      "provenance": "Draft extent transferred from perceptually matched HEIC",
+      "flags": [
+        "Frame-edge clipping"
+      ]
+    },
+    {
+      "id": "IMG_3269",
+      "file": "IMG_3269.jpeg",
+      "sha256": "d1f6729a4d537886396a08589be05b8f5439e710a93d74a6841b0ab93a0f00b5",
+      "bytes": 1173418,
+      "capture": "2026-11-07T17:46:12",
+      "subsecond": "869",
+      "camera": "iPhone 17 Pro Max",
+      "stored_size": [
+        4032,
+        3024
+      ],
+      "orientation": 6,
+      "has_icc": true,
+      "dhash": "3f1b13070d6f973f",
+      "group": "orange-60-dark-wall",
+      "split": "fit",
+      "observed_condition": "orange",
+      "group_scale": "60-scale",
+      "previous_sha256": "9a414d03e1d72cec335e8c547199295e85c5e4d20438392c37a572bd8c038c66",
+      "previous_dhash_distance": 1,
+      "objects": [
+        {
+          "bbox": [
+            0.2443,
+            0.1782,
+            0.8168,
+            0.8908
+          ]
+        }
+      ],
+      "status": "reviewed draft",
+      "provenance": "Draft extent transferred from perceptually matched HEIC",
+      "flags": []
+    },
+    {
+      "id": "IMG_3270",
+      "file": "IMG_3270.jpeg",
+      "sha256": "bce7e679b34ef3f18bf9c1457002e0c81393d75c1624d5d29ced3e978a9c8ac1",
+      "bytes": 2589627,
+      "capture": "2026-11-07T17:46:24",
+      "subsecond": "500",
+      "camera": "iPhone 17 Pro Max",
+      "stored_size": [
+        5712,
+        4284
+      ],
+      "orientation": 6,
+      "has_icc": true,
+      "dhash": "ffffdfdece8c2ded",
+      "group": "orange-60-dark-wall",
+      "split": "fit",
+      "observed_condition": "orange",
+      "group_scale": "60-scale",
+      "objects": [
+        {
+          "bbox": [
+            0.32,
+            0.21,
+            0.59,
+            1.0
+          ]
+        }
+      ],
+      "status": "reviewed draft",
+      "provenance": "Visible extent independently marked on the oriented JPEG",
+      "flags": [
+        "Frame-edge clipping"
+      ]
+    },
+    {
+      "id": "IMG_3271",
+      "file": "IMG_3271.jpeg",
+      "sha256": "9d0eea6155d69c35d2490886c097c2cc70cae4e567edf15f782ed76d84f30371",
+      "bytes": 2772971,
+      "capture": "2026-11-07T17:46:25",
+      "subsecond": "309",
+      "camera": "iPhone 17 Pro Max",
+      "stored_size": [
+        5712,
+        4284
+      ],
+      "orientation": 6,
+      "has_icc": true,
+      "dhash": "ffdfd9c88a2d7dff",
+      "group": "orange-60-dark-wall",
+      "split": "fit",
+      "observed_condition": "orange",
+      "group_scale": "60-scale",
+      "objects": [
+        {
+          "bbox": [
+            0.34,
+            0.16,
+            0.59,
+            0.83
+          ]
+        }
+      ],
+      "status": "reviewed draft",
+      "provenance": "Visible extent independently marked on the oriented JPEG",
+      "flags": []
+    },
+    {
+      "id": "IMG_3272",
+      "file": "IMG_3272.jpeg",
+      "sha256": "fbefe9ac9d371678612e821e9dab10b6f51776231bfc7d4dc7c66c0db83ff4cc",
+      "bytes": 1122344,
+      "capture": "2026-11-07T17:46:26",
+      "subsecond": "602",
+      "camera": "iPhone 17 Pro Max",
+      "stored_size": [
+        4032,
+        3024
+      ],
+      "orientation": 6,
+      "has_icc": true,
+      "dhash": "3f1f1f1b1b4fcf3b",
+      "group": "orange-60-dark-wall",
+      "split": "fit",
+      "observed_condition": "orange",
+      "group_scale": "60-scale",
+      "previous_sha256": "a8804038d16047330a5f09e491dd98d0f57b4fa4173050c506ff4c5d04ce8e76",
+      "previous_dhash_distance": 0,
+      "objects": [
+        {
+          "bbox": [
+            0.3282,
+            0.1494,
+            0.5878,
+            0.9023
+          ]
+        }
+      ],
+      "status": "reviewed draft",
+      "provenance": "Draft extent transferred from perceptually matched HEIC",
+      "flags": []
+    },
+    {
+      "id": "IMG_3273",
+      "file": "IMG_3273.jpeg",
+      "sha256": "9c984a4d00225367bc0348b76e8085c14283b7b065d7d990c69cba27fad50133",
+      "bytes": 2573349,
+      "capture": "2026-11-07T17:46:28",
+      "subsecond": "867",
+      "camera": "iPhone 17 Pro Max",
+      "stored_size": [
+        5712,
+        4284
+      ],
+      "orientation": 6,
+      "has_icc": true,
+      "dhash": "f7f7edcc8c3858ff",
+      "group": "orange-60-dark-wall",
+      "split": "fit",
+      "observed_condition": "orange",
+      "group_scale": "60-scale",
+      "objects": [
+        {
+          "bbox": [
+            0.26,
+            0.0,
+            0.77,
+            0.85
+          ]
+        }
+      ],
+      "status": "reviewed draft",
+      "provenance": "Visible extent independently marked on the oriented JPEG",
+      "flags": [
+        "Frame-edge clipping"
+      ]
+    },
+    {
+      "id": "IMG_3274",
+      "file": "IMG_3274.jpeg",
+      "sha256": "bc193d5821959bf4b5d20c80700526a0193ca940454b36d993736393f2071700",
+      "bytes": 2591332,
+      "capture": "2026-11-07T17:46:29",
+      "subsecond": "866",
+      "camera": "iPhone 17 Pro Max",
+      "stored_size": [
+        5712,
+        4284
+      ],
+      "orientation": 6,
+      "has_icc": true,
+      "dhash": "fff7f5eccc99387f",
+      "group": "orange-60-dark-wall",
+      "split": "fit",
+      "observed_condition": "orange",
+      "group_scale": "60-scale",
+      "objects": [
+        {
+          "bbox": [
+            0.38,
+            0.2,
+            0.7,
+            0.82
+          ]
+        }
+      ],
+      "status": "reviewed draft",
+      "provenance": "Visible extent independently marked on the oriented JPEG",
+      "flags": []
+    },
+    {
+      "id": "IMG_3275",
+      "file": "IMG_3275.jpeg",
+      "sha256": "9dba88b0586fdb4fe61a7bebe48ef9993824b3b2a9ae41d83c496b9ad44ebd83",
+      "bytes": 1087503,
+      "capture": "2026-11-07T17:46:31",
+      "subsecond": "233",
+      "camera": "iPhone 17 Pro Max",
+      "stored_size": [
+        4032,
+        3024
+      ],
+      "orientation": 6,
+      "has_icc": true,
+      "dhash": "3f33372f2f8d2d5b",
+      "group": "orange-60-dark-wall",
+      "split": "fit",
+      "observed_condition": "orange",
+      "group_scale": "60-scale",
+      "previous_sha256": "6e904bf7de3905c1ccd7029f2bcb66dd627500b395966b2c1200180c7bd18a32",
+      "previous_dhash_distance": 1,
+      "objects": [
+        {
+          "bbox": [
+            0.2824,
+            0.0977,
+            0.8092,
+            1
+          ]
+        }
+      ],
+      "status": "reviewed draft",
+      "provenance": "Draft extent transferred from perceptually matched HEIC",
+      "flags": [
+        "Frame-edge clipping"
+      ]
+    },
+    {
+      "id": "IMG_3276",
+      "file": "IMG_3276.jpeg",
+      "sha256": "1b6211c294b12cc26e435c11d001d3b97cfa7bf000327dcf1d57a841348ade46",
+      "bytes": 2643105,
+      "capture": "2026-11-07T17:46:32",
+      "subsecond": "750",
+      "camera": "iPhone 17 Pro Max",
+      "stored_size": [
+        5712,
+        4284
+      ],
+      "orientation": 6,
+      "has_icc": true,
+      "dhash": "ffff3ecce6cfdd9e",
+      "group": "orange-60-dark-wall",
+      "split": "fit",
+      "observed_condition": "orange",
+      "group_scale": "60-scale",
+      "objects": [
+        {
+          "bbox": [
+            0.17,
+            0.21,
+            0.94,
+            0.84
+          ]
+        }
+      ],
+      "status": "reviewed draft",
+      "provenance": "Visible extent independently marked on the oriented JPEG",
+      "flags": []
+    },
+    {
+      "id": "IMG_3277",
+      "file": "IMG_3277.jpeg",
+      "sha256": "9d613c562fb9e3755115c5d9672105b218d4eccfa28d9ad4d9c362856e830553",
+      "bytes": 2599887,
+      "capture": "2026-11-07T17:46:33",
+      "subsecond": "920",
+      "camera": "iPhone 17 Pro Max",
+      "stored_size": [
+        5712,
+        4284
+      ],
+      "orientation": 6,
+      "has_icc": true,
+      "dhash": "ffffff5e87cccf9e",
+      "group": "orange-60-dark-wall",
+      "split": "fit",
+      "observed_condition": "orange",
+      "group_scale": "60-scale",
+      "objects": [
+        {
+          "bbox": [
+            0.0,
+            0.34,
+            1.0,
+            0.8
+          ]
+        }
+      ],
+      "status": "reviewed draft",
+      "provenance": "Visible extent independently marked on the oriented JPEG",
+      "flags": [
+        "Frame-edge clipping"
+      ]
+    },
+    {
+      "id": "IMG_3278",
+      "file": "IMG_3278.jpeg",
+      "sha256": "03cdc8209ee0f506e88795dac1124c6b44af6337d25f3d857a7b8fb9ac943599",
+      "bytes": 2727003,
+      "capture": "2026-11-07T17:46:35",
+      "subsecond": "088",
+      "camera": "iPhone 17 Pro Max",
+      "stored_size": [
+        5712,
+        4284
+      ],
+      "orientation": 6,
+      "has_icc": true,
+      "dhash": "ffffffff7e47cd4f",
+      "group": "orange-60-dark-wall",
+      "split": "fit",
+      "observed_condition": "orange",
+      "group_scale": "60-scale",
+      "objects": [
+        {
+          "bbox": [
+            0.07,
+            0.55,
+            1.0,
+            0.9
+          ]
+        }
+      ],
+      "status": "reviewed draft",
+      "provenance": "Visible extent independently marked on the oriented JPEG",
+      "flags": [
+        "Frame-edge clipping"
+      ]
+    },
+    {
+      "id": "IMG_3279",
+      "file": "IMG_3279.jpeg",
+      "sha256": "d2eeccfbc487ccafef35c842027648db1542bc871d0cb1a1d3c6f61cccefed24",
+      "bytes": 1165492,
+      "capture": "2026-11-07T17:46:37",
+      "subsecond": "506",
+      "camera": "iPhone 17 Pro Max",
+      "stored_size": [
+        4032,
+        3024
+      ],
+      "orientation": 6,
+      "has_icc": true,
+      "dhash": "3f13172f8d1b5bb7",
+      "group": "orange-60-dark-wall",
+      "split": "fit",
+      "observed_condition": "orange",
+      "group_scale": "60-scale",
+      "previous_sha256": "817732b6266f4801ae7e0d1e316991462cd52d3945c71f9466b5f8b483daac4e",
+      "previous_dhash_distance": 0,
+      "objects": [
+        {
+          "bbox": [
+            0.1985,
+            0.1207,
+            0.8015,
+            0.9943
+          ]
+        }
+      ],
+      "status": "reviewed draft",
+      "provenance": "Draft extent transferred from perceptually matched HEIC",
+      "flags": []
+    },
+    {
+      "id": "IMG_3280",
+      "file": "IMG_3280.jpeg",
+      "sha256": "70c0820b945b7d016192b74394d07385653bcf48d21a0930e31b2512054b4733",
+      "bytes": 2899053,
+      "capture": "2026-11-07T17:46:45",
+      "subsecond": "138",
+      "camera": "iPhone 17 Pro Max",
+      "stored_size": [
+        5712,
+        4284
+      ],
+      "orientation": 6,
+      "has_icc": true,
+      "dhash": "ffdfdbd8de1a587c",
+      "group": "orange-60-dark-wall",
+      "split": "fit",
+      "observed_condition": "orange",
+      "group_scale": "60-scale",
+      "objects": [
+        {
+          "bbox": [
+            0.3,
+            0.18,
+            0.58,
+            0.93
+          ]
+        }
+      ],
+      "status": "reviewed draft",
+      "provenance": "Visible extent independently marked on the oriented JPEG",
+      "flags": []
+    },
+    {
+      "id": "IMG_3281",
+      "file": "IMG_3281.jpeg",
+      "sha256": "29c887f8a3c60c36a95d228033bebbccdbd77e1f0011d01e3d6cd3bec9fec48b",
+      "bytes": 2745155,
+      "capture": "2026-11-07T17:46:45",
+      "subsecond": "906",
+      "camera": "iPhone 17 Pro Max",
+      "stored_size": [
+        5712,
+        4284
+      ],
+      "orientation": 6,
+      "has_icc": true,
+      "dhash": "ffff27b3989e2f2f",
+      "group": "orange-60-dark-wall",
+      "split": "fit",
+      "observed_condition": "orange",
+      "group_scale": "60-scale",
+      "objects": [
+        {
+          "bbox": [
+            0.15,
+            0.06,
+            0.63,
+            0.95
+          ]
+        }
+      ],
+      "status": "reviewed draft",
+      "provenance": "Visible extent independently marked on the oriented JPEG",
+      "flags": []
+    },
+    {
+      "id": "IMG_3282",
+      "file": "IMG_3282.jpeg",
+      "sha256": "ecac5e3bc1028f382d47a69881691099a545cec0e58fc54e6afd1b17093d650d",
+      "bytes": 2677951,
+      "capture": "2026-11-07T17:46:46",
+      "subsecond": "404",
+      "camera": "iPhone 17 Pro Max",
+      "stored_size": [
+        5712,
+        4284
+      ],
+      "orientation": 6,
+      "has_icc": true,
+      "dhash": "ff7f7fb79c9b2d2d",
+      "group": "orange-60-dark-wall",
+      "split": "fit",
+      "observed_condition": "orange",
+      "group_scale": "60-scale",
+      "objects": [
+        {
+          "bbox": [
+            0.06,
+            0.03,
+            0.66,
+            0.94
+          ]
+        }
+      ],
+      "status": "reviewed draft",
+      "provenance": "Visible extent independently marked on the oriented JPEG",
+      "flags": []
+    },
+    {
+      "id": "IMG_3283",
+      "file": "IMG_3283.jpeg",
+      "sha256": "fe2ecba868f98bb3bdd562e6ee9b438a6763add1b3db5323900d26a3ecea5b38",
+      "bytes": 1155673,
+      "capture": "2026-11-07T17:46:47",
+      "subsecond": "161",
+      "camera": "iPhone 17 Pro Max",
+      "stored_size": [
+        4032,
+        3024
+      ],
+      "orientation": 6,
+      "has_icc": true,
+      "dhash": "7f1f1f5f0f4f1693",
+      "group": "orange-60-dark-wall",
+      "split": "fit",
+      "observed_condition": "orange",
+      "group_scale": "60-scale",
+      "previous_sha256": "28493cf1b7593ca310d1e6615bd0fc2cc02cbc3dcdcfe22415e2c3e44f74c3e5",
+      "previous_dhash_distance": 1,
+      "objects": [
+        {
+          "bbox": [
+            0.2595,
+            0.1897,
+            0.771,
+            1
+          ]
+        }
+      ],
+      "status": "reviewed draft",
+      "provenance": "Draft extent transferred from perceptually matched HEIC",
+      "flags": [
+        "Frame-edge clipping"
+      ]
+    },
+    {
+      "id": "IMG_3284",
+      "file": "IMG_3284.jpeg",
+      "sha256": "4004efea3aabf2d602bb48c7a783c2ae9fd8ec4a49295cfff074655a772f3e0f",
+      "bytes": 2817818,
+      "capture": "2026-11-07T17:46:47",
+      "subsecond": "932",
+      "camera": "iPhone 17 Pro Max",
+      "stored_size": [
+        5712,
+        4284
+      ],
+      "orientation": 6,
+      "has_icc": true,
+      "dhash": "ffffb79bd88cb79d",
+      "group": "orange-60-dark-wall",
+      "split": "fit",
+      "observed_condition": "orange",
+      "group_scale": "60-scale",
+      "objects": [
+        {
+          "bbox": [
+            0.19,
+            0.05,
+            0.72,
+            0.94
+          ]
+        }
+      ],
+      "status": "reviewed draft",
+      "provenance": "Visible extent independently marked on the oriented JPEG",
+      "flags": []
+    },
+    {
+      "id": "IMG_3285",
+      "file": "IMG_3285.jpeg",
+      "sha256": "7fbdda382150784ef145c71717092db0c03c2cc81a46b00f33334fde3c25cc86",
+      "bytes": 2886330,
+      "capture": "2026-11-07T17:46:50",
+      "subsecond": "208",
+      "camera": "iPhone 17 Pro Max",
+      "stored_size": [
+        5712,
+        4284
+      ],
+      "orientation": 6,
+      "has_icc": true,
+      "dhash": "ffffcdcccc8c2d6d",
+      "group": "orange-60-dark-wall",
+      "split": "fit",
+      "observed_condition": "orange",
+      "group_scale": "60-scale",
+      "objects": [
+        {
+          "bbox": [
+            0.34,
+            0.05,
+            0.63,
+            0.99
+          ]
+        }
+      ],
+      "status": "reviewed draft",
+      "provenance": "Visible extent independently marked on the oriented JPEG",
+      "flags": []
+    },
+    {
+      "id": "IMG_3286",
+      "file": "IMG_3286.jpeg",
+      "sha256": "180618d581994e0df88f81874654f5fe2ade46879ec07de175e6ca72bb93bdf2",
+      "bytes": 2700048,
+      "capture": "2026-11-07T17:46:51",
+      "subsecond": "431",
+      "camera": "iPhone 17 Pro Max",
+      "stored_size": [
+        5712,
+        4284
+      ],
+      "orientation": 6,
+      "has_icc": true,
+      "dhash": "fffbf3e64cd89535",
+      "group": "orange-60-dark-wall",
+      "split": "fit",
+      "observed_condition": "orange",
+      "group_scale": "60-scale",
+      "objects": [
+        {
+          "bbox": [
+            0.23,
+            0.19,
+            0.86,
+            0.91
+          ]
+        }
+      ],
+      "status": "reviewed draft",
+      "provenance": "Visible extent independently marked on the oriented JPEG",
+      "flags": []
+    },
+    {
+      "id": "IMG_3287",
+      "file": "IMG_3287.jpeg",
+      "sha256": "1721ee7e6e971ccb26cac167c5db62ffd4f98abf6d3bbe3a76ee033e7650f8a1",
+      "bytes": 2698592,
+      "capture": "2026-11-07T17:46:52",
+      "subsecond": "213",
+      "camera": "iPhone 17 Pro Max",
+      "stored_size": [
+        5712,
+        4284
+      ],
+      "orientation": 6,
+      "has_icc": true,
+      "dhash": "fffff9e7ce98737f",
+      "group": "orange-60-dark-wall",
+      "split": "fit",
+      "observed_condition": "orange",
+      "group_scale": "60-scale",
+      "objects": [
+        {
+          "bbox": [
+            0.0,
+            0.27,
+            0.95,
+            0.93
+          ]
+        }
+      ],
+      "status": "reviewed draft",
+      "provenance": "Visible extent independently marked on the oriented JPEG",
+      "flags": [
+        "Frame-edge clipping"
+      ]
+    },
+    {
+      "id": "IMG_3288",
+      "file": "IMG_3288.jpeg",
+      "sha256": "d6122a6803c2ee3bf4d0f0d8bc1b1b7f8134a9d05918a5b1a1e9494143d1cfca",
+      "bytes": 2592392,
+      "capture": "2026-11-07T17:47:11",
+      "subsecond": "313",
+      "camera": "iPhone 17 Pro Max",
+      "stored_size": [
+        5712,
+        4284
+      ],
+      "orientation": 6,
+      "has_icc": true,
+      "dhash": "ffdfdbdb9a3b5bde",
+      "group": "orange-20-dark-wall",
+      "split": "calibration",
+      "observed_condition": "orange",
+      "group_scale": "20-scale",
+      "objects": [
+        {
+          "bbox": [
+            0.27,
+            0.15,
+            0.54,
+            0.96
+          ]
+        }
+      ],
+      "status": "reviewed draft",
+      "provenance": "Visible extent independently marked on the oriented JPEG",
+      "flags": []
+    },
+    {
+      "id": "IMG_3289",
+      "file": "IMG_3289.jpeg",
+      "sha256": "c56b8bb4ef9ef284b5b58aca00c9c4208a37f3663c1133ed204187f549263c36",
+      "bytes": 2655782,
+      "capture": "2026-11-07T17:47:13",
+      "subsecond": "546",
+      "camera": "iPhone 17 Pro Max",
+      "stored_size": [
+        5712,
+        4284
+      ],
+      "orientation": 6,
+      "has_icc": true,
+      "dhash": "ffdfdbdc3a7bdfde",
+      "group": "orange-20-dark-wall",
+      "split": "calibration",
+      "observed_condition": "orange",
+      "group_scale": "20-scale",
+      "objects": [
+        {
+          "bbox": [
+            0.3,
+            0.1,
+            0.57,
+            0.97
+          ]
+        }
+      ],
+      "status": "reviewed draft",
+      "provenance": "Visible extent independently marked on the oriented JPEG",
+      "flags": []
+    },
+    {
+      "id": "IMG_3290",
+      "file": "IMG_3290.jpeg",
+      "sha256": "076b0937401ebb793b229ce26cbb8128656aff5367a8679b0a90b8dcdb845018",
+      "bytes": 2789178,
+      "capture": "2026-11-07T17:47:14",
+      "subsecond": "270",
+      "camera": "iPhone 17 Pro Max",
+      "stored_size": [
+        5712,
+        4284
+      ],
+      "orientation": 6,
+      "has_icc": true,
+      "dhash": "ffe5ccdbb723df7e",
+      "group": "orange-20-dark-wall",
+      "split": "calibration",
+      "observed_condition": "orange",
+      "group_scale": "20-scale",
+      "objects": [
+        {
+          "bbox": [
+            0.05,
+            0.14,
+            0.66,
+            0.88
+          ]
+        }
+      ],
+      "status": "reviewed draft",
+      "provenance": "Visible extent independently marked on the oriented JPEG",
+      "flags": []
+    },
+    {
+      "id": "IMG_3291",
+      "file": "IMG_3291.jpeg",
+      "sha256": "e7a408c46eb6f5610d2c5d948b2e8e10deac3a3705a9c0978a4c36faaa609ee3",
+      "bytes": 2649532,
+      "capture": "2026-11-07T17:47:15",
+      "subsecond": "075",
+      "camera": "iPhone 17 Pro Max",
+      "stored_size": [
+        5712,
+        4284
+      ],
+      "orientation": 6,
+      "has_icc": true,
+      "dhash": "fffbf3e6b8f1df7f",
+      "group": "orange-20-dark-wall",
+      "split": "calibration",
+      "observed_condition": "orange",
+      "group_scale": "20-scale",
+      "objects": [
+        {
+          "bbox": [
+            0.0,
+            0.23,
+            0.85,
+            0.91
+          ]
+        }
+      ],
+      "status": "reviewed draft",
+      "provenance": "Visible extent independently marked on the oriented JPEG",
+      "flags": [
+        "Frame-edge clipping"
+      ]
+    },
+    {
+      "id": "IMG_3292",
+      "file": "IMG_3292.jpeg",
+      "sha256": "3255a3008bc3f56ee8e45b98244e8b3118d8ebd7b34e2dd80f843a79c7e2ff75",
+      "bytes": 1080312,
+      "capture": "2026-11-07T17:47:16",
+      "subsecond": "554",
+      "camera": "iPhone 17 Pro Max",
+      "stored_size": [
+        4032,
+        3024
+      ],
+      "orientation": 6,
+      "has_icc": true,
+      "dhash": "4f4f0f5f3f5fdb9f",
+      "group": "orange-20-dark-wall",
+      "split": "calibration",
+      "observed_condition": "orange",
+      "group_scale": "20-scale",
+      "previous_sha256": "6612b598f6169dc8b0540304fc244e0113e069f1a85c199639147eda0beb0270",
+      "previous_dhash_distance": 0,
+      "objects": [
+        {
+          "bbox": [
+            0.2824,
+            0.0287,
+            0.5725,
+            1
+          ]
+        }
+      ],
+      "status": "reviewed draft",
+      "provenance": "Draft extent transferred from perceptually matched HEIC",
+      "flags": [
+        "Frame-edge clipping"
+      ]
+    },
+    {
+      "id": "IMG_3293",
+      "file": "IMG_3293.jpeg",
+      "sha256": "46ce9090e77537c9a299ad30de4898fd05c168ef1be336fabca9d5e8f5945975",
+      "bytes": 2774971,
+      "capture": "2026-11-07T17:47:18",
+      "subsecond": "404",
+      "camera": "iPhone 17 Pro Max",
+      "stored_size": [
+        5712,
+        4284
+      ],
+      "orientation": 6,
+      "has_icc": true,
+      "dhash": "f6c8c8cc9cbc287c",
+      "group": "orange-20-dark-wall",
+      "split": "calibration",
+      "observed_condition": "orange",
+      "group_scale": "20-scale",
+      "objects": [
+        {
+          "bbox": [
+            0.38,
+            0.17,
+            0.58,
+            0.92
+          ]
+        }
+      ],
+      "status": "reviewed draft",
+      "provenance": "Visible extent independently marked on the oriented JPEG",
+      "flags": []
+    },
+    {
+      "id": "IMG_3294",
+      "file": "IMG_3294.jpeg",
+      "sha256": "a256501c4e02ac9283f690f18c59205bd1d3138265ac54526b74c1ff4373e56e",
+      "bytes": 1084085,
+      "capture": "2026-11-07T17:47:19",
+      "subsecond": "558",
+      "camera": "iPhone 17 Pro Max",
+      "stored_size": [
+        4032,
+        3024
+      ],
+      "orientation": 6,
+      "has_icc": true,
+      "dhash": "3f4f4f5f9f3b7bdb",
+      "group": "orange-20-dark-wall",
+      "split": "calibration",
+      "observed_condition": "orange",
+      "group_scale": "20-scale",
+      "previous_sha256": "97d9ebd6e87419ca61b30a718e72339ada73a2ab37eb69f1808e6fa549d410d6",
+      "previous_dhash_distance": 0,
+      "objects": [
+        {
+          "bbox": [
+            0.3664,
+            0.1437,
+            0.5649,
+            1
+          ]
+        }
+      ],
+      "status": "reviewed draft",
+      "provenance": "Draft extent transferred from perceptually matched HEIC",
+      "flags": [
+        "Frame-edge clipping"
+      ]
+    },
+    {
+      "id": "IMG_3295",
+      "file": "IMG_3295.jpeg",
+      "sha256": "a793e21575b5b7af66ddacf33371cf7c307b4684b0824948af0cd2ff2de3f5cd",
+      "bytes": 1083153,
+      "capture": "2026-11-07T17:47:20",
+      "subsecond": "358",
+      "camera": "iPhone 17 Pro Max",
+      "stored_size": [
+        4032,
+        3024
+      ],
+      "orientation": 6,
+      "has_icc": true,
+      "dhash": "3f3f4f0f4f1f3f7b",
+      "group": "orange-20-dark-wall",
+      "split": "calibration",
+      "observed_condition": "orange",
+      "group_scale": "20-scale",
+      "previous_sha256": "8eb29d8868ffc601a5ff703edb76c4a9dbd6818b0e52e63fdd60c2a13e0ad65a",
+      "previous_dhash_distance": 0,
+      "objects": [
+        {
+          "bbox": [
+            0.3664,
+            0.2644,
+            0.5878,
+            1
+          ]
+        }
+      ],
+      "status": "reviewed draft",
+      "provenance": "Draft extent transferred from perceptually matched HEIC",
+      "flags": [
+        "Frame-edge clipping"
+      ]
+    },
+    {
+      "id": "IMG_3296",
+      "file": "IMG_3296.jpeg",
+      "sha256": "9bf88aa4788c1f659a25ea0075a50d27a31325956c8ee3e73f5be58f25ed9ea0",
+      "bytes": 950159,
+      "capture": "2026-11-07T17:47:58",
+      "subsecond": "987",
+      "camera": "iPhone 17 Pro Max",
+      "stored_size": [
+        4032,
+        3024
+      ],
+      "orientation": 6,
+      "has_icc": true,
+      "dhash": "1f5f6f6f27f753fb",
+      "group": "orange-20-dark-wall",
+      "split": "calibration",
+      "observed_condition": "orange",
+      "group_scale": "20-scale",
+      "previous_sha256": "84f84e3de3f065fee8e9d56dc32c6d5be0e287e82076d6b2cfce02daea716f2d",
+      "previous_dhash_distance": 0,
+      "objects": [
+        {
+          "bbox": [
+            0.0916,
+            0.2126,
+            0.458,
+            1
+          ]
+        }
+      ],
+      "status": "reviewed draft",
+      "provenance": "Draft extent transferred from perceptually matched HEIC",
+      "flags": [
+        "Frame-edge clipping"
+      ]
+    },
+    {
+      "id": "IMG_3297",
+      "file": "IMG_3297.jpeg",
+      "sha256": "3627eafde7f338024e36d047a125d7d8c5d3643d406feb22847c0c27fe0490d3",
+      "bytes": 1101258,
+      "capture": "2026-11-07T17:47:59",
+      "subsecond": "910",
+      "camera": "iPhone 17 Pro Max",
+      "stored_size": [
+        4032,
+        3024
+      ],
+      "orientation": 6,
+      "has_icc": true,
+      "dhash": "1f3f3f3773dbdb89",
+      "group": "orange-20-dark-wall",
+      "split": "calibration",
+      "observed_condition": "orange",
+      "group_scale": "20-scale",
+      "previous_sha256": "c8b8c0ec8a06e5cfc26cee93665b21b67509742e6683b0fe11ed31eee27928ba",
+      "previous_dhash_distance": 1,
+      "objects": [
+        {
+          "bbox": [
+            0.1756,
+            0.1494,
+            0.5496,
+            1
+          ]
+        }
+      ],
+      "status": "reviewed draft",
+      "provenance": "Draft extent transferred from perceptually matched HEIC",
+      "flags": [
+        "Frame-edge clipping"
+      ]
+    },
+    {
+      "id": "IMG_3298",
+      "file": "IMG_3298.jpeg",
+      "sha256": "aaac26a8791a5ee69efc37687244890084726e3f70787d2fa8fb8ec10cf43f41",
+      "bytes": 1087388,
+      "capture": "2026-11-07T17:48:01",
+      "subsecond": "061",
+      "camera": "iPhone 17 Pro Max",
+      "stored_size": [
+        4032,
+        3024
+      ],
+      "orientation": 6,
+      "has_icc": true,
+      "dhash": "3f1f1b9f3f7436be",
+      "group": "orange-20-dark-wall",
+      "split": "calibration",
+      "observed_condition": "orange",
+      "group_scale": "20-scale",
+      "previous_sha256": "da4da5e3ff6526829bf39bccb4fd1c3bf80815f567cab185ac2d1d8362826625",
+      "previous_dhash_distance": 0,
+      "objects": [
+        {
+          "bbox": [
+            0.1374,
+            0.2011,
+            0.5115,
+            1
+          ]
+        }
+      ],
+      "status": "reviewed draft",
+      "provenance": "Draft extent transferred from perceptually matched HEIC",
+      "flags": [
+        "Frame-edge clipping"
+      ]
+    },
+    {
+      "id": "IMG_3299",
+      "file": "IMG_3299.jpeg",
+      "sha256": "02f314a20fafee74d2d768cc0e8af492e677c6b7b2adf7b6cc07adb390c68e3b",
+      "bytes": 1097141,
+      "capture": "2026-11-07T17:48:02",
+      "subsecond": "478",
+      "camera": "iPhone 17 Pro Max",
+      "stored_size": [
+        4032,
+        3024
+      ],
+      "orientation": 6,
+      "has_icc": true,
+      "dhash": "3f272d1bfbf7af5f",
+      "group": "orange-20-dark-wall",
+      "split": "calibration",
+      "observed_condition": "orange",
+      "group_scale": "20-scale",
+      "previous_sha256": "08db81d2758a9b1597f3889f436de664d24f6e943c0287461acd551a49424d57",
+      "previous_dhash_distance": 1,
+      "objects": [
+        {
+          "bbox": [
+            0.1374,
+            0.1379,
+            0.6565,
+            0.9023
+          ]
+        }
+      ],
+      "status": "reviewed draft",
+      "provenance": "Draft extent transferred from perceptually matched HEIC",
+      "flags": []
+    },
+    {
+      "id": "IMG_3300",
+      "file": "IMG_3300.jpeg",
+      "sha256": "4f8385631b65b2f4089dab1e4a3be7be7ce7a7664798465f75c661296ceb2006",
+      "bytes": 1076554,
+      "capture": "2026-11-07T17:48:03",
+      "subsecond": "345",
+      "camera": "iPhone 17 Pro Max",
+      "stored_size": [
+        4032,
+        3024
+      ],
+      "orientation": 6,
+      "has_icc": true,
+      "dhash": "3f3f33e7bdffdf5f",
+      "group": "orange-20-dark-wall",
+      "split": "calibration",
+      "observed_condition": "orange",
+      "group_scale": "20-scale",
+      "previous_sha256": "249fcc59cb4e60c2c3e17989281154b2f7ae701421b26b2dbbaac8a3859068e9",
+      "previous_dhash_distance": 0,
+      "objects": [
+        {
+          "bbox": [
+            0,
+            0.2586,
+            0.9008,
+            0.8391
+          ]
+        }
+      ],
+      "status": "reviewed draft",
+      "provenance": "Draft extent transferred from perceptually matched HEIC",
+      "flags": [
+        "Frame-edge clipping"
+      ]
+    },
+    {
+      "id": "IMG_3301",
+      "file": "IMG_3301.jpeg",
+      "sha256": "a322a96899ffaff8946d44c8e10af044d1f5c18048124f51dfc0eca37f8a517e",
+      "bytes": 1071967,
+      "capture": "2026-11-07T17:48:04",
+      "subsecond": "409",
+      "camera": "iPhone 17 Pro Max",
+      "stored_size": [
+        4032,
+        3024
+      ],
+      "orientation": 6,
+      "has_icc": true,
+      "dhash": "2f4f5f1f3fdbbfbf",
+      "group": "orange-20-dark-wall",
+      "split": "calibration",
+      "observed_condition": "orange",
+      "group_scale": "20-scale",
+      "previous_sha256": "b07981530bc8ccb19c37c67290c19a254718e8e6386c1ef56304cf67af59c9cb",
+      "previous_dhash_distance": 0,
+      "objects": [
+        {
+          "bbox": [
+            0.2824,
+            0.1092,
+            0.5573,
+            1
+          ]
+        }
+      ],
+      "status": "reviewed draft",
+      "provenance": "Draft extent transferred from perceptually matched HEIC",
+      "flags": [
+        "Frame-edge clipping"
+      ]
+    },
+    {
+      "id": "IMG_3302",
+      "file": "IMG_3302.jpeg",
+      "sha256": "e80597c901a6d3864ede3835172be56e55be654b027c1f60eafd896d1abc5343",
+      "bytes": 1035085,
+      "capture": "2026-11-07T17:48:05",
+      "subsecond": "261",
+      "camera": "iPhone 17 Pro Max",
+      "stored_size": [
+        4032,
+        3024
+      ],
+      "orientation": 6,
+      "has_icc": true,
+      "dhash": "3f1f5b1b3b7bd7d7",
+      "group": "orange-20-dark-wall",
+      "split": "calibration",
+      "observed_condition": "orange",
+      "group_scale": "20-scale",
+      "previous_sha256": "998f01620410253065ce6e9b11ef9308132c7f489dbbc69f191fd69f32647325",
+      "previous_dhash_distance": 0,
+      "objects": [
+        {
+          "bbox": [
+            0.2901,
+            0.2126,
+            0.4962,
+            0.8966
+          ]
+        }
+      ],
+      "status": "reviewed draft",
+      "provenance": "Draft extent transferred from perceptually matched HEIC",
+      "flags": []
+    },
+    {
+      "id": "IMG_3303",
+      "file": "IMG_3303.jpeg",
+      "sha256": "cbcb5ced29419cccb97afadcba8af9611471663cb78b1935363f7cb65bfe5873",
+      "bytes": 2706482,
+      "capture": "2026-11-07T17:48:06",
+      "subsecond": "090",
+      "camera": "iPhone 17 Pro Max",
+      "stored_size": [
+        5712,
+        4284
+      ],
+      "orientation": 6,
+      "has_icc": true,
+      "dhash": "ff7f37b0186d64e6",
+      "group": "orange-20-dark-wall",
+      "split": "calibration",
+      "observed_condition": "orange",
+      "group_scale": "20-scale",
+      "objects": [
+        {
+          "bbox": [
+            0.17,
+            0.23,
+            0.66,
+            0.9
+          ]
+        }
+      ],
+      "status": "reviewed draft",
+      "provenance": "Visible extent independently marked on the oriented JPEG",
+      "flags": []
+    },
+    {
+      "id": "IMG_3304",
+      "file": "IMG_3304.jpeg",
+      "sha256": "c771eeae99cf7dec40ef2458b7aa8480f7b2ecc8f77db095f7d105d89935635d",
+      "bytes": 1124337,
+      "capture": "2026-11-07T17:48:07",
+      "subsecond": "313",
+      "camera": "iPhone 17 Pro Max",
+      "stored_size": [
+        4032,
+        3024
+      ],
+      "orientation": 6,
+      "has_icc": true,
+      "dhash": "3f5f7f3f2d2f777b",
+      "group": "orange-20-dark-wall",
+      "split": "calibration",
+      "observed_condition": "orange",
+      "group_scale": "20-scale",
+      "previous_sha256": "5b287daf10c6aa5b7ddafc62a0071401a330c5f749f47ad41683afa8cc437278",
+      "previous_dhash_distance": 0,
+      "objects": [
+        {
+          "bbox": [
+            0.0611,
+            0.1839,
+            0.8702,
+            1
+          ]
+        }
+      ],
+      "status": "reviewed draft",
+      "provenance": "Draft extent transferred from perceptually matched HEIC",
+      "flags": [
+        "Frame-edge clipping"
+      ]
+    },
+    {
+      "id": "IMG_3305",
+      "file": "IMG_3305.jpeg",
+      "sha256": "e190ec966643687a7ad58553076f401e2ae4dd107274eeb5d4ffc533d82bbd25",
+      "bytes": 1092229,
+      "capture": "2026-11-07T17:48:07",
+      "subsecond": "855",
+      "camera": "iPhone 17 Pro Max",
+      "stored_size": [
+        4032,
+        3024
+      ],
+      "orientation": 6,
+      "has_icc": true,
+      "dhash": "5f5f0f4f1f5fcdef",
+      "group": "orange-20-dark-wall",
+      "split": "calibration",
+      "observed_condition": "orange",
+      "group_scale": "20-scale",
+      "previous_sha256": "3263f808f75ca125367b7fb2a256d9b543b8c1c7e7b013c55c7bf7fa3a566f0b",
+      "previous_dhash_distance": 1,
+      "objects": [
+        {
+          "bbox": [
+            0.3359,
+            0.092,
+            0.6336,
+            1
+          ]
+        }
+      ],
+      "status": "reviewed draft",
+      "provenance": "Draft extent transferred from perceptually matched HEIC",
+      "flags": [
+        "Frame-edge clipping"
+      ]
+    },
+    {
+      "id": "IMG_3306",
+      "file": "IMG_3306.jpeg",
+      "sha256": "2ce4f646afe48d78a8a7ebbd8a522bbca9fc360321bd43d720b5c798102f66fa",
+      "bytes": 1040557,
+      "capture": "2026-11-07T17:48:08",
+      "subsecond": "862",
+      "camera": "iPhone 17 Pro Max",
+      "stored_size": [
+        4032,
+        3024
+      ],
+      "orientation": 6,
+      "has_icc": true,
+      "dhash": "3f0f4b1b3b7bf7ef",
+      "group": "orange-20-dark-wall",
+      "split": "calibration",
+      "observed_condition": "orange",
+      "group_scale": "20-scale",
+      "previous_sha256": "eb9c304dd1afa4268e23469ffaf1cbd62a28b5e2500fbbc335b15602e8f9700a",
+      "previous_dhash_distance": 0,
+      "objects": [
+        {
+          "bbox": [
+            0.3206,
+            0.1782,
+            0.5267,
+            0.8391
+          ]
+        }
+      ],
+      "status": "reviewed draft",
+      "provenance": "Draft extent transferred from perceptually matched HEIC",
+      "flags": []
+    },
+    {
+      "id": "IMG_3307",
+      "file": "IMG_3307.jpeg",
+      "sha256": "7cd7b726c7058fc5c865f2b0fadc0a6cdb54421b3f8cef6993b859a5fb115d9f",
+      "bytes": 2570518,
+      "capture": "2026-11-07T17:48:09",
+      "subsecond": "756",
+      "camera": "iPhone 17 Pro Max",
+      "stored_size": [
+        5712,
+        4284
+      ],
+      "orientation": 6,
+      "has_icc": true,
+      "dhash": "dfdbd998385895f6",
+      "group": "orange-20-dark-wall",
+      "split": "calibration",
+      "observed_condition": "orange",
+      "group_scale": "20-scale",
+      "objects": [
+        {
+          "bbox": [
+            0.25,
+            0.04,
+            0.51,
+            0.98
+          ]
+        }
+      ],
+      "status": "reviewed draft",
+      "provenance": "Visible extent independently marked on the oriented JPEG",
+      "flags": []
+    },
+    {
+      "id": "IMG_3308",
+      "file": "IMG_3308.jpeg",
+      "sha256": "461b26736c7e7acf4dd78b0450bf6f009f23b7e6e9e4650e90966a35cc0babdd",
+      "bytes": 2549232,
+      "capture": "2026-11-07T17:48:15",
+      "subsecond": "463",
+      "camera": "iPhone 17 Pro Max",
+      "stored_size": [
+        5712,
+        4284
+      ],
+      "orientation": 6,
+      "has_icc": true,
+      "dhash": "ffffdbdb1878d1ff",
+      "group": "orange-20-dark-wall",
+      "split": "calibration",
+      "observed_condition": "orange",
+      "group_scale": "20-scale",
+      "objects": [
+        {
+          "bbox": [
+            0.3,
+            0.22,
+            0.47,
+            0.92
+          ]
+        }
+      ],
+      "status": "reviewed draft",
+      "provenance": "Visible extent independently marked on the oriented JPEG",
+      "flags": []
+    },
+    {
+      "id": "IMG_3309",
+      "file": "IMG_3309.jpeg",
+      "sha256": "711d738ee274c48ebfb34d79088f10520c96a01fed2d5ff9a7d11ee4f63dc66b",
+      "bytes": 2637941,
+      "capture": "2026-11-07T17:48:16",
+      "subsecond": "218",
+      "camera": "iPhone 17 Pro Max",
+      "stored_size": [
+        5712,
+        4284
+      ],
+      "orientation": 6,
+      "has_icc": true,
+      "dhash": "df3fb4da8c3e7676",
+      "group": "orange-20-dark-wall",
+      "split": "calibration",
+      "observed_condition": "orange",
+      "group_scale": "20-scale",
+      "objects": [
+        {
+          "bbox": [
+            0.16,
+            0.17,
+            0.7,
+            0.92
+          ]
+        }
+      ],
+      "status": "reviewed draft",
+      "provenance": "Visible extent independently marked on the oriented JPEG",
+      "flags": []
+    },
+    {
+      "id": "IMG_3310",
+      "file": "IMG_3310.jpeg",
+      "sha256": "7300f1ef08fd8683874384044223bfc317bf00f079f8b6a84f84d26e212fa23c",
+      "bytes": 1146516,
+      "capture": "2026-11-07T17:48:17",
+      "subsecond": "103",
+      "camera": "iPhone 17 Pro Max",
+      "stored_size": [
+        4032,
+        3024
+      ],
+      "orientation": 6,
+      "has_icc": true,
+      "dhash": "7f3f379f1b5f5fcd",
+      "group": "orange-20-dark-wall",
+      "split": "calibration",
+      "observed_condition": "orange",
+      "group_scale": "20-scale",
+      "previous_sha256": "6cb9ad9a9e05280ef842aed3a86ecd5d139a729c182da067a2f9faed64475834",
+      "previous_dhash_distance": 0,
+      "objects": [
+        {
+          "bbox": [
+            0.1908,
+            0.1437,
+            0.6183,
+            1
+          ]
+        }
+      ],
+      "status": "reviewed draft",
+      "provenance": "Draft extent transferred from perceptually matched HEIC",
+      "flags": [
+        "Frame-edge clipping"
+      ]
+    },
+    {
+      "id": "IMG_3311",
+      "file": "IMG_3311.jpeg",
+      "sha256": "0671c358390fd27642b68f4ae40a294c4ad50c16d1985e6ad558c96928ee3b7a",
+      "bytes": 1158418,
+      "capture": "2026-11-07T17:48:17",
+      "subsecond": "950",
+      "camera": "iPhone 17 Pro Max",
+      "stored_size": [
+        4032,
+        3024
+      ],
+      "orientation": 6,
+      "has_icc": true,
+      "dhash": "7f6fb31a3f5ff7bb",
+      "group": "orange-20-dark-wall",
+      "split": "calibration",
+      "observed_condition": "orange",
+      "group_scale": "20-scale",
+      "previous_sha256": "bfe9bbd591f162a96830cf44725fdc3fcd29f28bcdb512a378feb4a78015b1cb",
+      "previous_dhash_distance": 0,
+      "objects": [
+        {
+          "bbox": [
+            0.1374,
+            0.0805,
+            0.6718,
+            0.8046
+          ]
+        }
+      ],
+      "status": "reviewed draft",
+      "provenance": "Draft extent transferred from perceptually matched HEIC",
+      "flags": []
+    },
+    {
+      "id": "IMG_3312",
+      "file": "IMG_3312.jpeg",
+      "sha256": "304a69aebd1f3d87031a802f3f12a2513b9bea708a746621f08b55160bc67440",
+      "bytes": 3020354,
+      "capture": "2026-11-07T17:48:19",
+      "subsecond": "451",
+      "camera": "iPhone 17 Pro Max",
+      "stored_size": [
+        5712,
+        4284
+      ],
+      "orientation": 6,
+      "has_icc": true,
+      "dhash": "ffdbda9a3a7afef6",
+      "group": "orange-20-dark-wall",
+      "split": "calibration",
+      "observed_condition": "orange",
+      "group_scale": "20-scale",
+      "objects": [
+        {
+          "bbox": [
+            0.32,
+            0.09,
+            0.57,
+            0.83
+          ]
+        }
+      ],
+      "status": "reviewed draft",
+      "provenance": "Visible extent independently marked on the oriented JPEG",
+      "flags": []
+    },
+    {
+      "id": "IMG_3313",
+      "file": "IMG_3313.jpeg",
+      "sha256": "d45d8ec4b7cea31be3782d139149ffc3b0193a4420786e9b5890196cef9d0c53",
+      "bytes": 2729097,
+      "capture": "2026-11-07T17:48:20",
+      "subsecond": "385",
+      "camera": "iPhone 17 Pro Max",
+      "stored_size": [
+        5712,
+        4284
+      ],
+      "orientation": 6,
+      "has_icc": true,
+      "dhash": "ffbfb7da9a2d6e77",
+      "group": "orange-20-dark-wall",
+      "split": "calibration",
+      "observed_condition": "orange",
+      "group_scale": "20-scale",
+      "objects": [
+        {
+          "bbox": [
+            0.19,
+            0.14,
+            0.65,
+            0.89
+          ]
+        }
+      ],
+      "status": "reviewed draft",
+      "provenance": "Visible extent independently marked on the oriented JPEG",
+      "flags": []
+    },
+    {
+      "id": "IMG_3314",
+      "file": "IMG_3314.jpeg",
+      "sha256": "c100ad55849577d99c67e07d407d139bbdc71caa9f04dcbbf14e6a1302d18898",
+      "bytes": 2687664,
+      "capture": "2026-11-07T17:48:21",
+      "subsecond": "199",
+      "camera": "iPhone 17 Pro Max",
+      "stored_size": [
+        5712,
+        4284
+      ],
+      "orientation": 6,
+      "has_icc": true,
+      "dhash": "fffffff5ac3b3b3e",
+      "group": "orange-20-dark-wall",
+      "split": "calibration",
+      "observed_condition": "orange",
+      "group_scale": "20-scale",
+      "objects": [
+        {
+          "bbox": [
+            0.0,
+            0.3,
+            0.82,
+            0.8
+          ]
+        }
+      ],
+      "status": "reviewed draft",
+      "provenance": "Visible extent independently marked on the oriented JPEG",
+      "flags": [
+        "Frame-edge clipping"
+      ]
+    },
+    {
+      "id": "IMG_3315",
+      "file": "IMG_3315.jpeg",
+      "sha256": "109e89a19f2a5cf8eca24107313ff8fad8448966048ff6000f2b99784d9834ae",
+      "bytes": 1070186,
+      "capture": "2026-11-07T17:48:23",
+      "subsecond": "074",
+      "camera": "iPhone 17 Pro Max",
+      "stored_size": [
+        4032,
+        3024
+      ],
+      "orientation": 6,
+      "has_icc": true,
+      "dhash": "677b5bcf271f1f1f",
+      "group": "orange-20-dark-wall",
+      "split": "calibration",
+      "observed_condition": "orange",
+      "group_scale": "20-scale",
+      "previous_sha256": "2915acbe2505a387a2f8999cf39932b90f45ef1bdd423fca93141f27d1e89d10",
+      "previous_dhash_distance": 0,
+      "objects": [
+        {
+          "bbox": [
+            0.0382,
+            0.2299,
+            0.687,
+            0.6322
+          ]
+        }
+      ],
+      "status": "reviewed draft",
+      "provenance": "Draft extent transferred from perceptually matched HEIC",
+      "flags": []
+    },
+    {
+      "id": "IMG_3316",
+      "file": "IMG_3316.jpeg",
+      "sha256": "bfe339118bcb93524964d3d0034f168b084c14ca8fdb40625b9b8b707cac5d5e",
+      "bytes": 1074605,
+      "capture": "2026-11-07T17:48:24",
+      "subsecond": "965",
+      "camera": "iPhone 17 Pro Max",
+      "stored_size": [
+        4032,
+        3024
+      ],
+      "orientation": 6,
+      "has_icc": true,
+      "dhash": "5f5f1b1f1b1b5fdf",
+      "group": "orange-20-dark-wall",
+      "split": "calibration",
+      "observed_condition": "orange",
+      "group_scale": "20-scale",
+      "previous_sha256": "c8ae89b9395777454c404aedbbb11b0d6e5bb9071fc521a35d8fe7edc41d8567",
+      "previous_dhash_distance": 0,
+      "objects": [
+        {
+          "bbox": [
+            0.2977,
+            0.1034,
+            0.4962,
+            0.7701
+          ]
+        }
+      ],
+      "status": "reviewed draft",
+      "provenance": "Draft extent transferred from perceptually matched HEIC",
+      "flags": []
+    },
+    {
+      "id": "IMG_3317",
+      "file": "IMG_3317.jpeg",
+      "sha256": "cc9ad77c1dc5f807e3d740b78bba50ad48d4647729e6b19779bf4dae794b4a73",
+      "bytes": 1072641,
+      "capture": "2026-11-07T17:48:26",
+      "subsecond": "030",
+      "camera": "iPhone 17 Pro Max",
+      "stored_size": [
+        4032,
+        3024
+      ],
+      "orientation": 6,
+      "has_icc": true,
+      "dhash": "5f5f1f1f9f1b1bdf",
+      "group": "orange-20-dark-wall",
+      "split": "calibration",
+      "observed_condition": "orange",
+      "group_scale": "20-scale",
+      "previous_sha256": "5903a149b362a8455080e19879b3d4235bdfc98e904159f687b0f28639655e2d",
+      "previous_dhash_distance": 1,
+      "objects": [
+        {
+          "bbox": [
+            0.2824,
+            0.046,
+            0.542,
+            0.9598
+          ]
+        }
+      ],
+      "status": "reviewed draft",
+      "provenance": "Draft extent transferred from perceptually matched HEIC",
+      "flags": []
+    },
+    {
+      "id": "IMG_3318",
+      "file": "IMG_3318.jpeg",
+      "sha256": "a7c9276fa804b9e97198db4b920d321a7c89e400150605e1c68471d4b5e23a0d",
+      "bytes": 1063209,
+      "capture": "2026-11-07T17:48:27",
+      "subsecond": "030",
+      "camera": "iPhone 17 Pro Max",
+      "stored_size": [
+        4032,
+        3024
+      ],
+      "orientation": 6,
+      "has_icc": true,
+      "dhash": "7f1f1f1f3f3f1fbf",
+      "group": "orange-20-dark-wall",
+      "split": "calibration",
+      "observed_condition": "orange",
+      "group_scale": "20-scale",
+      "previous_sha256": "a934e7a1a285e8aefdd62facf1061cbd0ec8ac07f4bb7a805594460e5771df75",
+      "previous_dhash_distance": 0,
+      "objects": [
+        {
+          "bbox": [
+            0.2137,
+            0.1322,
+            0.4885,
+            1
+          ]
+        }
+      ],
+      "status": "reviewed draft",
+      "provenance": "Draft extent transferred from perceptually matched HEIC",
+      "flags": [
+        "Frame-edge clipping"
+      ]
+    },
+    {
+      "id": "IMG_3319",
+      "file": "IMG_3319.jpeg",
+      "sha256": "485613b8715cd37ae6d6ca6a57705819264cdecd825b355106f0c5ac1907df07",
+      "bytes": 2817703,
+      "capture": "2026-11-07T17:48:39",
+      "subsecond": "519",
+      "camera": "iPhone 17 Pro Max",
+      "stored_size": [
+        5712,
+        4284
+      ],
+      "orientation": 6,
+      "has_icc": true,
+      "dhash": "ffbf36b63677b8ec",
+      "group": "orange-20-dark-wall",
+      "split": "calibration",
+      "observed_condition": "orange",
+      "group_scale": "20-scale",
+      "objects": [
+        {
+          "bbox": [
+            0.15,
+            0.13,
+            0.37,
+            0.84
+          ]
+        }
+      ],
+      "status": "reviewed draft",
+      "provenance": "Visible extent independently marked on the oriented JPEG",
+      "flags": []
+    },
+    {
+      "id": "IMG_3320",
+      "file": "IMG_3320.jpeg",
+      "sha256": "338612c3176e7dbb9b2eeeab1f299d49de649df5721351749ce80359bac7d5b2",
+      "bytes": 2759324,
+      "capture": "2026-11-07T17:48:40",
+      "subsecond": "197",
+      "camera": "iPhone 17 Pro Max",
+      "stored_size": [
+        5712,
+        4284
+      ],
+      "orientation": 6,
+      "has_icc": true,
+      "dhash": "ffb7b6b63070b7e6",
+      "group": "orange-20-dark-wall",
+      "split": "calibration",
+      "observed_condition": "orange",
+      "group_scale": "20-scale",
+      "objects": [
+        {
+          "bbox": [
+            0.22,
+            0.14,
+            0.42,
+            0.88
+          ]
+        }
+      ],
+      "status": "reviewed draft",
+      "provenance": "Visible extent independently marked on the oriented JPEG",
+      "flags": []
+    },
+    {
+      "id": "IMG_3321",
+      "file": "IMG_3321.jpeg",
+      "sha256": "05e15d6a4b8c676435897461c2e62a0dd74449adcfd8a26faa995f2f319435e3",
+      "bytes": 1293290,
+      "capture": "2026-11-07T17:58:22",
+      "subsecond": "376",
+      "camera": "iPhone 17 Pro Max",
+      "stored_size": [
+        4032,
+        3024
+      ],
+      "orientation": 6,
+      "has_icc": true,
+      "dhash": "232737371b3b595b",
+      "group": "orange-20-dark-wall",
+      "split": "calibration",
+      "observed_condition": "orange",
+      "group_scale": "20-scale",
+      "previous_sha256": "f72a8b2d69733b739ce6f78012ed9ff6c450af7cea7aa77a249ace88e9730c5a",
+      "previous_dhash_distance": 0,
+      "objects": [
+        {
+          "bbox": [
+            0.229,
+            0.0575,
+            0.4809,
+            0.9253
+          ]
+        }
+      ],
+      "status": "reviewed draft",
+      "provenance": "Draft extent transferred from perceptually matched HEIC",
+      "flags": []
+    },
+    {
+      "id": "IMG_3322",
+      "file": "IMG_3322.jpeg",
+      "sha256": "9295fd6d9637b47a7093fc9cdbece209db31ae2c6e91bd332aedc72297004ee5",
+      "bytes": 1126804,
+      "capture": "2026-11-07T17:58:29",
+      "subsecond": "138",
+      "camera": "iPhone 17 Pro Max",
+      "stored_size": [
+        4032,
+        3024
+      ],
+      "orientation": 6,
+      "has_icc": true,
+      "dhash": "3f1f1f1f9f1b1f5f",
+      "group": "orange-20-dark-wall",
+      "split": "calibration",
+      "observed_condition": "orange",
+      "group_scale": "20-scale",
+      "previous_sha256": "ed8456731b71352319bbb90ae0d43daa600211bc7d95d23ce5d685facfdcd294",
+      "previous_dhash_distance": 0,
+      "objects": [
+        {
+          "bbox": [
+            0.2672,
+            0.1552,
+            0.4885,
+            0.9425
+          ]
+        }
+      ],
+      "status": "reviewed draft",
+      "provenance": "Draft extent transferred from perceptually matched HEIC",
+      "flags": []
+    },
+    {
+      "id": "IMG_3323",
+      "file": "IMG_3323.jpeg",
+      "sha256": "d1c1b2574ca13eeadeb68518a452d8b778c900f60970ac5aa9385bd92ace0a60",
+      "bytes": 1124693,
+      "capture": "2026-11-07T17:58:29",
+      "subsecond": "807",
+      "camera": "iPhone 17 Pro Max",
+      "stored_size": [
+        4032,
+        3024
+      ],
+      "orientation": 6,
+      "has_icc": true,
+      "dhash": "3f1f1f3f3f3f5fdf",
+      "group": "orange-20-dark-wall",
+      "split": "calibration",
+      "observed_condition": "orange",
+      "group_scale": "20-scale",
+      "previous_sha256": "f933ed8b971e60b016592151755f734d78ad98bd8df4d63ee1cb8ad62ba2102c",
+      "previous_dhash_distance": 0,
+      "objects": [
+        {
+          "bbox": [
+            0.2214,
+            0.0517,
+            0.4885,
+            1
+          ]
+        }
+      ],
+      "status": "reviewed draft",
+      "provenance": "Draft extent transferred from perceptually matched HEIC",
+      "flags": [
+        "Frame-edge clipping"
+      ]
+    },
+    {
+      "id": "IMG_3324",
+      "file": "IMG_3324.jpeg",
+      "sha256": "c0a5e5e1aa3257a433532b4749dc0bf64e583b10cbd1587246cf24aa12d1dc29",
+      "bytes": 1176773,
+      "capture": "2026-11-07T17:58:30",
+      "subsecond": "906",
+      "camera": "iPhone 17 Pro Max",
+      "stored_size": [
+        4032,
+        3024
+      ],
+      "orientation": 6,
+      "has_icc": true,
+      "dhash": "2f0f0f0f1f1f5fdf",
+      "group": "orange-20-dark-wall",
+      "split": "calibration",
+      "observed_condition": "orange",
+      "group_scale": "20-scale",
+      "previous_sha256": "6f9b34f36460dd615f1ff11953d39cff53a2ab4f84effbdc2bcd04a7a53a5f8d",
+      "previous_dhash_distance": 1,
+      "objects": [
+        {
+          "bbox": [
+            0.2061,
+            0.0172,
+            0.6336,
+            1
+          ]
+        }
+      ],
+      "status": "reviewed draft",
+      "provenance": "Draft extent transferred from perceptually matched HEIC",
+      "flags": [
+        "Frame-edge clipping"
+      ]
+    },
+    {
+      "id": "IMG_3325",
+      "file": "IMG_3325.jpeg",
+      "sha256": "1c216868a38b5faac8622c59433bdc292dd4a505bdf2fec2abc054c911fca694",
+      "bytes": 1064269,
+      "capture": "2026-11-07T17:58:31",
+      "subsecond": "687",
+      "camera": "iPhone 17 Pro Max",
+      "stored_size": [
+        4032,
+        3024
+      ],
+      "orientation": 6,
+      "has_icc": true,
+      "dhash": "3f2f2f2f4f8d3f6f",
+      "group": "orange-20-dark-wall",
+      "split": "calibration",
+      "observed_condition": "orange",
+      "group_scale": "20-scale",
+      "previous_sha256": "a9fb3439474a05b8bb0a6d171a61df74519e9ece7346537752451b34f8ee07c6",
+      "previous_dhash_distance": 0,
+      "objects": [
+        {
+          "bbox": [
+            0.374,
+            0.2126,
+            0.6412,
+            0.8793
+          ]
+        }
+      ],
+      "status": "reviewed draft",
+      "provenance": "Draft extent transferred from perceptually matched HEIC",
+      "flags": []
+    },
+    {
+      "id": "IMG_3326",
+      "file": "IMG_3326.jpeg",
+      "sha256": "9c52b0fd45156a969e83a7792285b4341cc9bddef6af972d6dc09f710fefc913",
+      "bytes": 1069397,
+      "capture": "2026-11-07T17:58:33",
+      "subsecond": "107",
+      "camera": "iPhone 17 Pro Max",
+      "stored_size": [
+        4032,
+        3024
+      ],
+      "orientation": 6,
+      "has_icc": true,
+      "dhash": "3f1f7f3f1f9baf2f",
+      "group": "orange-20-dark-wall",
+      "split": "calibration",
+      "observed_condition": "orange",
+      "group_scale": "20-scale",
+      "previous_sha256": "6b7837e7c28f3cb2152ec530fc2b51c24fbd7dd3b48d861eef974e6249d88358",
+      "previous_dhash_distance": 0,
+      "objects": [
+        {
+          "bbox": [
+            0.145,
+            0.2356,
+            0.6641,
+            0.954
+          ]
+        }
+      ],
+      "status": "reviewed draft",
+      "provenance": "Draft extent transferred from perceptually matched HEIC",
+      "flags": []
+    },
+    {
+      "id": "IMG_3327",
+      "file": "IMG_3327.jpeg",
+      "sha256": "b93955d01e147f0d66571dd55bf0970700f002b4d55ca74936cb368b45715e45",
+      "bytes": 2600744,
+      "capture": "2026-11-07T17:58:42",
+      "subsecond": "074",
+      "camera": "iPhone 17 Pro Max",
+      "stored_size": [
+        5712,
+        4284
+      ],
+      "orientation": 6,
+      "has_icc": true,
+      "dhash": "206060e4c4c4e0c0",
+      "group": "warm-20-return-wall",
+      "split": "fit",
+      "observed_condition": "warm",
+      "group_scale": "20-scale",
+      "objects": [
+        {
+          "bbox": [
+            0.28,
+            0.08,
+            0.5,
+            0.8
+          ]
+        }
+      ],
+      "status": "reviewed draft",
+      "provenance": "Visible extent independently marked on the oriented JPEG",
+      "flags": []
+    },
+    {
+      "id": "IMG_3328",
+      "file": "IMG_3328.jpeg",
+      "sha256": "61576054ab80ad6da34b7bed09371514f091c58d23a266f11e8f3ea95a0dd263",
+      "bytes": 2464518,
+      "capture": "2026-11-07T17:58:42",
+      "subsecond": "711",
+      "camera": "iPhone 17 Pro Max",
+      "stored_size": [
+        5712,
+        4284
+      ],
+      "orientation": 6,
+      "has_icc": true,
+      "dhash": "00c04864e0c0a440",
+      "group": "warm-20-return-wall",
+      "split": "fit",
+      "observed_condition": "warm",
+      "group_scale": "20-scale",
+      "objects": [
+        {
+          "bbox": [
+            0.17,
+            0.11,
+            0.59,
+            0.79
+          ]
+        }
+      ],
+      "status": "reviewed draft",
+      "provenance": "Visible extent independently marked on the oriented JPEG",
+      "flags": []
+    },
+    {
+      "id": "IMG_3329",
+      "file": "IMG_3329.jpeg",
+      "sha256": "38be3bb43dc7750c0b380d6b5472e9ef53e25962ca4d34415fa41635b127260b",
+      "bytes": 1007767,
+      "capture": "2026-11-07T17:58:43",
+      "subsecond": "961",
+      "camera": "iPhone 17 Pro Max",
+      "stored_size": [
+        4032,
+        3024
+      ],
+      "orientation": 6,
+      "has_icc": true,
+      "dhash": "03279fd361e9e052",
+      "group": "warm-20-return-wall",
+      "split": "fit",
+      "observed_condition": "warm",
+      "group_scale": "20-scale",
+      "previous_sha256": "ccf6caf920a1cdff2e99b137a71a6aa71dde9d9350e43f2b8df05cdd34a5aafc",
+      "previous_dhash_distance": 2,
+      "objects": [
+        {
+          "bbox": [
+            0,
+            0.1839,
+            0.8473,
+            0.9483
+          ]
+        }
+      ],
+      "status": "reviewed draft",
+      "provenance": "Draft extent transferred from perceptually matched HEIC",
+      "flags": [
+        "Frame-edge clipping"
+      ]
+    },
+    {
+      "id": "IMG_3330",
+      "file": "IMG_3330.jpeg",
+      "sha256": "af11e38399ff78ad84fa074512fd556ed0456dd4b09bea2cb7651419c2ba7213",
+      "bytes": 1355082,
+      "capture": "2026-11-07T17:58:44",
+      "subsecond": "663",
+      "camera": "iPhone 17 Pro Max",
+      "stored_size": [
+        4032,
+        3024
+      ],
+      "orientation": 6,
+      "has_icc": true,
+      "dhash": "0317cb672170f0a2",
+      "group": "warm-20-return-wall",
+      "split": "fit",
+      "observed_condition": "warm",
+      "group_scale": "20-scale",
+      "objects": [
+        {
+          "bbox": [
+            0.11,
+            0.19,
+            0.95,
+            1.0
+          ]
+        }
+      ],
+      "status": "reviewed draft",
+      "provenance": "Visible extent independently marked on the oriented JPEG",
+      "flags": [
+        "Frame-edge clipping"
+      ]
+    },
+    {
+      "id": "IMG_3331",
+      "file": "IMG_3331.jpeg",
+      "sha256": "1bb4ce18574da7217e4b8b350dece9b3a76f5a47aaa62e808248f880989baeff",
+      "bytes": 1344832,
+      "capture": "2026-11-07T17:58:45",
+      "subsecond": "378",
+      "camera": "iPhone 17 Pro Max",
+      "stored_size": [
+        4032,
+        3024
+      ],
+      "orientation": 6,
+      "has_icc": true,
+      "dhash": "1323253361e1d1b2",
+      "group": "warm-20-return-wall",
+      "split": "fit",
+      "observed_condition": "warm",
+      "group_scale": "20-scale",
+      "previous_sha256": "21ef15e9d3710bcce2b314097655bd08fce9af401db9ef9cd30e2c61c263d9ea",
+      "previous_dhash_distance": 0,
+      "objects": [
+        {
+          "bbox": [
+            0.3206,
+            0.1609,
+            0.7176,
+            0.8621
+          ]
+        }
+      ],
+      "status": "reviewed draft",
+      "provenance": "Draft extent transferred from perceptually matched HEIC",
+      "flags": []
+    },
+    {
+      "id": "IMG_3332",
+      "file": "IMG_3332.jpeg",
+      "sha256": "1aebe541cef002602cfd5594d9488635ebdfb88fa73ffc0294203729ead52592",
+      "bytes": 1375040,
+      "capture": "2026-11-07T17:58:46",
+      "subsecond": "056",
+      "camera": "iPhone 17 Pro Max",
+      "stored_size": [
+        4032,
+        3024
+      ],
+      "orientation": 6,
+      "has_icc": true,
+      "dhash": "176f677363c39124",
+      "group": "warm-20-return-wall",
+      "split": "fit",
+      "observed_condition": "warm",
+      "group_scale": "20-scale",
+      "previous_sha256": "73d1abdc89ce35a7a6699409ab85ae9ed836ea262ea2d08a25c480332d2e88ae",
+      "previous_dhash_distance": 1,
+      "objects": [
+        {
+          "bbox": [
+            0.3053,
+            0.1782,
+            0.5344,
+            0.8161
+          ]
+        }
+      ],
+      "status": "reviewed draft",
+      "provenance": "Draft extent transferred from perceptually matched HEIC",
+      "flags": []
+    },
+    {
+      "id": "IMG_3333",
+      "file": "IMG_3333.jpeg",
+      "sha256": "715c192c6e3495d3006d5c9c9dafcd1eba656fce02f36789c5377686a7d83373",
+      "bytes": 1434294,
+      "capture": "2026-11-07T17:58:46",
+      "subsecond": "684",
+      "camera": "iPhone 17 Pro Max",
+      "stored_size": [
+        4032,
+        3024
+      ],
+      "orientation": 6,
+      "has_icc": true,
+      "dhash": "cfcbcbc7a32383a0",
+      "group": "warm-20-return-wall",
+      "split": "fit",
+      "observed_condition": "warm",
+      "group_scale": "20-scale",
+      "previous_sha256": "52b960ec40683a9b39b3b78173c4ace54e8ea26938cefbc589a37765f959566e",
+      "previous_dhash_distance": 0,
+      "objects": [
+        {
+          "bbox": [
+            0.084,
+            0,
+            0.4733,
+            1
+          ]
+        }
+      ],
+      "status": "reviewed draft",
+      "provenance": "Draft extent transferred from perceptually matched HEIC",
+      "flags": [
+        "Frame-edge clipping"
+      ]
+    },
+    {
+      "id": "IMG_3334",
+      "file": "IMG_3334.jpeg",
+      "sha256": "babbc0e4f117b7d123d33ffea59ae64fd33100eab923a01506f187add5fd1fe6",
+      "bytes": 1334451,
+      "capture": "2026-11-07T17:58:47",
+      "subsecond": "647",
+      "camera": "iPhone 17 Pro Max",
+      "stored_size": [
+        4032,
+        3024
+      ],
+      "orientation": 6,
+      "has_icc": true,
+      "dhash": "1f27273363e3d3a1",
+      "group": "warm-20-return-wall",
+      "split": "fit",
+      "observed_condition": "warm",
+      "group_scale": "20-scale",
+      "previous_sha256": "dea795bc2f99d4dad938cea9e8f1d5e6f57866a0e9652af844fe302e3bb82ebe",
+      "previous_dhash_distance": 0,
+      "objects": [
+        {
+          "bbox": [
+            0.3282,
+            0.1207,
+            0.6031,
+            0.8103
+          ]
+        }
+      ],
+      "status": "reviewed draft",
+      "provenance": "Draft extent transferred from perceptually matched HEIC",
+      "flags": []
+    },
+    {
+      "id": "IMG_3335",
+      "file": "IMG_3335.jpeg",
+      "sha256": "ac16773943ae96ef9f9a2b05f76b71755b4006643afd8a0ac328bb3d1d5e35ef",
+      "bytes": 1376876,
+      "capture": "2026-11-07T17:58:48",
+      "subsecond": "326",
+      "camera": "iPhone 17 Pro Max",
+      "stored_size": [
+        4032,
+        3024
+      ],
+      "orientation": 6,
+      "has_icc": true,
+      "dhash": "0f13133363e3b3e5",
+      "group": "warm-20-return-wall",
+      "split": "fit",
+      "observed_condition": "warm",
+      "group_scale": "20-scale",
+      "previous_sha256": "8defbbf1395a2fe0ecf9156fbcfd46943af92e655cd6a185ae3d152151f5d116",
+      "previous_dhash_distance": 0,
+      "objects": [
+        {
+          "bbox": [
+            0.4275,
+            0.1609,
+            0.5878,
+            0.8103
+          ]
+        }
+      ],
+      "status": "reviewed draft",
+      "provenance": "Draft extent transferred from perceptually matched HEIC",
+      "flags": []
+    },
+    {
+      "id": "IMG_3336",
+      "file": "IMG_3336.jpeg",
+      "sha256": "c58513ac9ae86ecf596f9cb78ec235dccfe0bcc67ada210622b5b543031dbeba",
+      "bytes": 2608873,
+      "capture": "2026-11-07T17:58:48",
+      "subsecond": "904",
+      "camera": "iPhone 17 Pro Max",
+      "stored_size": [
+        5712,
+        4284
+      ],
+      "orientation": 6,
+      "has_icc": true,
+      "dhash": "06095832e0e0b0e0",
+      "group": "warm-20-return-wall",
+      "split": "fit",
+      "observed_condition": "warm",
+      "group_scale": "20-scale",
+      "objects": [
+        {
+          "bbox": [
+            0.23,
+            0.14,
+            0.7,
+            0.81
+          ]
+        }
+      ],
+      "status": "reviewed draft",
+      "provenance": "Visible extent independently marked on the oriented JPEG",
+      "flags": []
+    },
+    {
+      "id": "IMG_3337",
+      "file": "IMG_3337.jpeg",
+      "sha256": "0a60d75ff7344652d5065ba9b863a38860162e420776f857eb6a0b16271042a9",
+      "bytes": 2432535,
+      "capture": "2026-11-07T17:58:49",
+      "subsecond": "293",
+      "camera": "iPhone 17 Pro Max",
+      "stored_size": [
+        5712,
+        4284
+      ],
+      "orientation": 6,
+      "has_icc": true,
+      "dhash": "0d095872e2c0b0a0",
+      "group": "warm-20-return-wall",
+      "split": "fit",
+      "observed_condition": "warm",
+      "group_scale": "20-scale",
+      "objects": [
+        {
+          "bbox": [
+            0.21,
+            0.06,
+            0.78,
+            0.88
+          ]
+        }
+      ],
+      "status": "reviewed draft",
+      "provenance": "Visible extent independently marked on the oriented JPEG",
+      "flags": []
+    }
+  ],
+  "counts": {
+    "fit": 95,
+    "test": 14,
+    "calibration": 68
+  },
+  "inventory_sha256": "2377ac492915da9f2ce4fe3e7230c774d744f09c9c06aba15140bafeb51a90fe",
+  "boxes_sha256": "c5e3f19bb512d39528985ed9dbf0c3739524f4ad2c08a08fb05d1e957d8eca90"
+}

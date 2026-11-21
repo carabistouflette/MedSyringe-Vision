@@ -1,0 +1,80 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>MedSyringe Vision</title>
+  <link rel="stylesheet" href="/static/app.css">
+  <script type="module" src="/static/app.js"></script>
+</head>
+<body>
+  <header class="masthead">
+    <a href="/" class="wordmark"><span class="mark" aria-hidden="true"></span>MedSyringe Vision</a>
+    <span class="local"><span></span> Local workspace</span>
+  </header>
+  <main>
+    <section class="intro">
+      <div><h1>Scene inspection</h1><p>Locate syringes, review visual evidence and compare observations.</p></div>
+      <button id="export" class="secondary" disabled>Export report</button>
+    </section>
+    <div class="workspace">
+      <section class="panel observation" aria-labelledby="observation-heading">
+        <div class="panel-head"><h2 id="observation-heading">Observation</h2><span class="chip" id="revision">No image loaded</span></div>
+        <div class="stage" id="stage">
+          <div class="empty" id="empty">
+            <div class="focus" aria-hidden="true"></div>
+            <h3>Open an image to begin</h3>
+            <p>JPEG, PNG, WebP or HEIC · Up to 24 MiB</p>
+            <label class="primary file-label" for="file">Choose image</label>
+          </div>
+          <div class="image-frame" id="frame" hidden>
+            <img id="source" alt="Current observation">
+            <div id="boxes" aria-label="Object evidence"></div>
+          </div>
+        </div>
+        <form id="upload" class="upload">
+          <input type="file" id="file" name="file" accept="image/jpeg,image/png,image/webp,image/heic,image/heif,.heic,.heif" aria-label="Image to analyze">
+          <label class="checkbox"><input type="checkbox" name="ocr" value="true" checked> Read visible markings</label>
+          <button class="primary" id="analyze" type="submit">Analyze</button>
+        </form>
+        <p class="status" id="status" role="status" aria-live="polite"></p>
+        <details class="lower">
+          <summary>Open an observation or review a draft annotation</summary>
+          <div class="select-row"><select id="recent" aria-label="Saved observation"></select><button id="open-recent" class="secondary">Open</button></div>
+          <div class="select-row"><select id="library" aria-label="Draft annotation"></select><button id="open-draft" class="secondary">Review draft</button></div>
+          <a href="/api/library-coco" download="reviewed-coco.json">Export approved annotations (COCO)</a>
+        </details>
+      </section>
+      <aside class="sidebar">
+        <section class="panel objects" aria-labelledby="objects-heading">
+          <div class="panel-head"><h2 id="objects-heading">Detected objects</h2><strong class="total" id="total">—</strong></div>
+          <p id="summary" class="hint">Load an image to inspect object boxes, scale and barrel color.</p>
+          <div id="objects"></div>
+          <details id="uncertain" class="lower" hidden><summary>Candidates for review</summary><div id="candidates"></div></details>
+          <form id="review" class="review" hidden>
+            <div class="button-row"><button type="button" id="insert" class="secondary">Draw box</button><button type="button" id="move" class="secondary" disabled>Redraw selected</button></div>
+            <label>Reviewer<input id="reviewer" required maxlength="80" placeholder="Name or initials"></label>
+            <label>Review note<input id="note" required maxlength="600" placeholder="What did you verify or correct?"></label>
+            <div class="button-row"><select id="approval" aria-label="Review status"><option>needs review</option><option>approved</option></select><button class="primary">Save review</button></div>
+          </form>
+        </section>
+        <section class="panel" aria-labelledby="reference-heading">
+          <div class="panel-head"><h2 id="reference-heading">Reference checks</h2></div>
+          <div class="reference">
+            <form id="inventory">
+              <label>Expected inventory<select id="mode"><option value="count">Total count</option><option value="scale">Visual scale</option><option value="color">Barrel color</option></select></label>
+              <div id="expected"></div>
+              <button class="secondary" type="submit" disabled>Compare inventory</button>
+            </form>
+            <form id="comparison">
+              <label>Previous observation<select id="reference"></select></label>
+              <button class="secondary" type="submit" disabled>Compare observations</button>
+            </form>
+            <div id="results" aria-live="polite"></div>
+          </div>
+        </section>
+      </aside>
+    </div>
+  </main>
+</body>
+</html>

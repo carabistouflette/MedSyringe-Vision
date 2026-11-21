@@ -1,0 +1,23 @@
+{
+  "id": "multiview-v2",
+  "original_freeze_sha256": "5eb41d98a2b08c1a93045920e1c7b4f805ba2014bc9189e552c5f78897a42395",
+  "refinement_sha256": "9f6f8086c2b68b11bfef5fb5fcc2b63c22c280b02bb0143d604484a5657de163",
+  "validation_sha256": "07cfd8706f4a67bf6b5d5c4873e1c86383494f653a9b63e02f910c8a36aeda4d",
+  "holdout_manifest_sha256": "2fbe70962eb40aac562ccf88885b21ab4a13279b673314cb73125eb8e31ec708",
+  "views": [
+    "original",
+    "opposite_turn"
+  ],
+  "strategy": "max",
+  "overlap": 0.6,
+  "cutoff": 0.5522102117538452,
+  "precision": 0.8125,
+  "recall": 0.8666666666666667,
+  "f1": 0.8387096774193549,
+  "ap50": 0.8176567656765676,
+  "ap50_95": 0.5313593029471015,
+  "exact_count": 18,
+  "tp": 13,
+  "fp": 3,
+  "fn": 2
+}

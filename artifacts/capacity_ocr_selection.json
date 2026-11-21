@@ -1,0 +1,1262 @@
+{
+  "options": {
+    "mode": "guided",
+    "cutoff": 0.74,
+    "repeats": 1,
+    "scale_cutoff": 0.8
+  },
+  "calibration_ids": [
+    "IMG_3199",
+    "IMG_3200",
+    "IMG_3202",
+    "IMG_3215",
+    "IMG_3217",
+    "IMG_3218",
+    "IMG_3219",
+    "IMG_3221",
+    "IMG_3222",
+    "IMG_3223",
+    "IMG_3225",
+    "IMG_3226",
+    "IMG_3227",
+    "IMG_3228",
+    "IMG_3229",
+    "IMG_3230",
+    "IMG_3231",
+    "IMG_3232",
+    "IMG_3233",
+    "IMG_3234",
+    "IMG_3235",
+    "IMG_3251",
+    "IMG_3252",
+    "IMG_3257",
+    "IMG_3263",
+    "IMG_3264",
+    "IMG_3268",
+    "IMG_3269",
+    "IMG_3272",
+    "IMG_3275",
+    "IMG_3279",
+    "IMG_3283",
+    "IMG_3292",
+    "IMG_3294",
+    "IMG_3295",
+    "IMG_3304",
+    "IMG_3305",
+    "IMG_3306",
+    "IMG_3315",
+    "IMG_3316",
+    "IMG_3317",
+    "IMG_3318",
+    "IMG_3321",
+    "IMG_3322",
+    "IMG_3323",
+    "IMG_3324",
+    "IMG_3325",
+    "IMG_3326",
+    "IMG_3329",
+    "IMG_3331",
+    "IMG_3332",
+    "IMG_3333",
+    "IMG_3334",
+    "IMG_3335"
+  ],
+  "heldout_ids": [
+    "IMG_3198",
+    "IMG_3206",
+    "IMG_3238",
+    "IMG_3239",
+    "IMG_3240",
+    "IMG_3241",
+    "IMG_3243",
+    "IMG_3244",
+    "IMG_3245",
+    "IMG_3246",
+    "IMG_3247",
+    "IMG_3296",
+    "IMG_3297",
+    "IMG_3298",
+    "IMG_3299",
+    "IMG_3300",
+    "IMG_3301",
+    "IMG_3302",
+    "IMG_3310",
+    "IMG_3311"
+  ],
+  "selection": {
+    "options": {
+      "mode": "guided",
+      "cutoff": 0.74,
+      "repeats": 1,
+      "scale_cutoff": 0.8
+    },
+    "capacity": {
+      "answered": 24,
+      "correct": 24,
+      "wrong": 0
+    },
+    "type": {
+      "answered": 25,
+      "correct": 25,
+      "wrong": 0
+    }
+  },
+  "trials": [
+    {
+      "options": {
+        "mode": "quarter_turns",
+        "cutoff": 0.74,
+        "repeats": 1,
+        "scale_cutoff": 0.8
+      },
+      "capacity": {
+        "answered": 6,
+        "correct": 6,
+        "wrong": 0
+      },
+      "type": {
+        "answered": 11,
+        "correct": 11,
+        "wrong": 0
+      }
+    },
+    {
+      "options": {
+        "mode": "quarter_turns",
+        "cutoff": 0.74,
+        "repeats": 1,
+        "scale_cutoff": 0.88
+      },
+      "capacity": {
+        "answered": 6,
+        "correct": 6,
+        "wrong": 0
+      },
+      "type": {
+        "answered": 10,
+        "correct": 10,
+        "wrong": 0
+      }
+    },
+    {
+      "options": {
+        "mode": "quarter_turns",
+        "cutoff": 0.74,
+        "repeats": 2,
+        "scale_cutoff": 0.8
+      },
+      "capacity": {
+        "answered": 0,
+        "correct": 0,
+        "wrong": 0
+      },
+      "type": {
+        "answered": 9,
+        "correct": 9,
+        "wrong": 0
+      }
+    },
+    {
+      "options": {
+        "mode": "quarter_turns",
+        "cutoff": 0.74,
+        "repeats": 2,
+        "scale_cutoff": 0.88
+      },
+      "capacity": {
+        "answered": 0,
+        "correct": 0,
+        "wrong": 0
+      },
+      "type": {
+        "answered": 8,
+        "correct": 8,
+        "wrong": 0
+      }
+    },
+    {
+      "options": {
+        "mode": "quarter_turns",
+        "cutoff": 0.8,
+        "repeats": 1,
+        "scale_cutoff": 0.8
+      },
+      "capacity": {
+        "answered": 5,
+        "correct": 5,
+        "wrong": 0
+      },
+      "type": {
+        "answered": 10,
+        "correct": 10,
+        "wrong": 0
+      }
+    },
+    {
+      "options": {
+        "mode": "quarter_turns",
+        "cutoff": 0.8,
+        "repeats": 1,
+        "scale_cutoff": 0.88
+      },
+      "capacity": {
+        "answered": 5,
+        "correct": 5,
+        "wrong": 0
+      },
+      "type": {
+        "answered": 9,
+        "correct": 9,
+        "wrong": 0
+      }
+    },
+    {
+      "options": {
+        "mode": "quarter_turns",
+        "cutoff": 0.8,
+        "repeats": 2,
+        "scale_cutoff": 0.8
+      },
+      "capacity": {
+        "answered": 0,
+        "correct": 0,
+        "wrong": 0
+      },
+      "type": {
+        "answered": 9,
+        "correct": 9,
+        "wrong": 0
+      }
+    },
+    {
+      "options": {
+        "mode": "quarter_turns",
+        "cutoff": 0.8,
+        "repeats": 2,
+        "scale_cutoff": 0.88
+      },
+      "capacity": {
+        "answered": 0,
+        "correct": 0,
+        "wrong": 0
+      },
+      "type": {
+        "answered": 8,
+        "correct": 8,
+        "wrong": 0
+      }
+    },
+    {
+      "options": {
+        "mode": "quarter_turns",
+        "cutoff": 0.86,
+        "repeats": 1,
+        "scale_cutoff": 0.8
+      },
+      "capacity": {
+        "answered": 4,
+        "correct": 4,
+        "wrong": 0
+      },
+      "type": {
+        "answered": 9,
+        "correct": 9,
+        "wrong": 0
+      }
+    },
+    {
+      "options": {
+        "mode": "quarter_turns",
+        "cutoff": 0.86,
+        "repeats": 1,
+        "scale_cutoff": 0.88
+      },
+      "capacity": {
+        "answered": 4,
+        "correct": 4,
+        "wrong": 0
+      },
+      "type": {
+        "answered": 8,
+        "correct": 8,
+        "wrong": 0
+      }
+    },
+    {
+      "options": {
+        "mode": "quarter_turns",
+        "cutoff": 0.86,
+        "repeats": 2,
+        "scale_cutoff": 0.8
+      },
+      "capacity": {
+        "answered": 0,
+        "correct": 0,
+        "wrong": 0
+      },
+      "type": {
+        "answered": 9,
+        "correct": 9,
+        "wrong": 0
+      }
+    },
+    {
+      "options": {
+        "mode": "quarter_turns",
+        "cutoff": 0.86,
+        "repeats": 2,
+        "scale_cutoff": 0.88
+      },
+      "capacity": {
+        "answered": 0,
+        "correct": 0,
+        "wrong": 0
+      },
+      "type": {
+        "answered": 8,
+        "correct": 8,
+        "wrong": 0
+      }
+    },
+    {
+      "options": {
+        "mode": "quarter_turns",
+        "cutoff": 0.92,
+        "repeats": 1,
+        "scale_cutoff": 0.8
+      },
+      "capacity": {
+        "answered": 3,
+        "correct": 3,
+        "wrong": 0
+      },
+      "type": {
+        "answered": 9,
+        "correct": 9,
+        "wrong": 0
+      }
+    },
+    {
+      "options": {
+        "mode": "quarter_turns",
+        "cutoff": 0.92,
+        "repeats": 1,
+        "scale_cutoff": 0.88
+      },
+      "capacity": {
+        "answered": 3,
+        "correct": 3,
+        "wrong": 0
+      },
+      "type": {
+        "answered": 8,
+        "correct": 8,
+        "wrong": 0
+      }
+    },
+    {
+      "options": {
+        "mode": "quarter_turns",
+        "cutoff": 0.92,
+        "repeats": 2,
+        "scale_cutoff": 0.8
+      },
+      "capacity": {
+        "answered": 0,
+        "correct": 0,
+        "wrong": 0
+      },
+      "type": {
+        "answered": 9,
+        "correct": 9,
+        "wrong": 0
+      }
+    },
+    {
+      "options": {
+        "mode": "quarter_turns",
+        "cutoff": 0.92,
+        "repeats": 2,
+        "scale_cutoff": 0.88
+      },
+      "capacity": {
+        "answered": 0,
+        "correct": 0,
+        "wrong": 0
+      },
+      "type": {
+        "answered": 8,
+        "correct": 8,
+        "wrong": 0
+      }
+    },
+    {
+      "options": {
+        "mode": "rectified",
+        "cutoff": 0.74,
+        "repeats": 1,
+        "scale_cutoff": 0.8
+      },
+      "capacity": {
+        "answered": 6,
+        "correct": 6,
+        "wrong": 0
+      },
+      "type": {
+        "answered": 12,
+        "correct": 12,
+        "wrong": 0
+      }
+    },
+    {
+      "options": {
+        "mode": "rectified",
+        "cutoff": 0.74,
+        "repeats": 1,
+        "scale_cutoff": 0.88
+      },
+      "capacity": {
+        "answered": 6,
+        "correct": 6,
+        "wrong": 0
+      },
+      "type": {
+        "answered": 11,
+        "correct": 11,
+        "wrong": 0
+      }
+    },
+    {
+      "options": {
+        "mode": "rectified",
+        "cutoff": 0.74,
+        "repeats": 2,
+        "scale_cutoff": 0.8
+      },
+      "capacity": {
+        "answered": 1,
+        "correct": 1,
+        "wrong": 0
+      },
+      "type": {
+        "answered": 11,
+        "correct": 11,
+        "wrong": 0
+      }
+    },
+    {
+      "options": {
+        "mode": "rectified",
+        "cutoff": 0.74,
+        "repeats": 2,
+        "scale_cutoff": 0.88
+      },
+      "capacity": {
+        "answered": 1,
+        "correct": 1,
+        "wrong": 0
+      },
+      "type": {
+        "answered": 9,
+        "correct": 9,
+        "wrong": 0
+      }
+    },
+    {
+      "options": {
+        "mode": "rectified",
+        "cutoff": 0.8,
+        "repeats": 1,
+        "scale_cutoff": 0.8
+      },
+      "capacity": {
+        "answered": 5,
+        "correct": 5,
+        "wrong": 0
+      },
+      "type": {
+        "answered": 11,
+        "correct": 11,
+        "wrong": 0
+      }
+    },
+    {
+      "options": {
+        "mode": "rectified",
+        "cutoff": 0.8,
+        "repeats": 1,
+        "scale_cutoff": 0.88
+      },
+      "capacity": {
+        "answered": 5,
+        "correct": 5,
+        "wrong": 0
+      },
+      "type": {
+        "answered": 10,
+        "correct": 10,
+        "wrong": 0
+      }
+    },
+    {
+      "options": {
+        "mode": "rectified",
+        "cutoff": 0.8,
+        "repeats": 2,
+        "scale_cutoff": 0.8
+      },
+      "capacity": {
+        "answered": 1,
+        "correct": 1,
+        "wrong": 0
+      },
+      "type": {
+        "answered": 11,
+        "correct": 11,
+        "wrong": 0
+      }
+    },
+    {
+      "options": {
+        "mode": "rectified",
+        "cutoff": 0.8,
+        "repeats": 2,
+        "scale_cutoff": 0.88
+      },
+      "capacity": {
+        "answered": 1,
+        "correct": 1,
+        "wrong": 0
+      },
+      "type": {
+        "answered": 9,
+        "correct": 9,
+        "wrong": 0
+      }
+    },
+    {
+      "options": {
+        "mode": "rectified",
+        "cutoff": 0.86,
+        "repeats": 1,
+        "scale_cutoff": 0.8
+      },
+      "capacity": {
+        "answered": 4,
+        "correct": 4,
+        "wrong": 0
+      },
+      "type": {
+        "answered": 11,
+        "correct": 11,
+        "wrong": 0
+      }
+    },
+    {
+      "options": {
+        "mode": "rectified",
+        "cutoff": 0.86,
+        "repeats": 1,
+        "scale_cutoff": 0.88
+      },
+      "capacity": {
+        "answered": 4,
+        "correct": 4,
+        "wrong": 0
+      },
+      "type": {
+        "answered": 9,
+        "correct": 9,
+        "wrong": 0
+      }
+    },
+    {
+      "options": {
+        "mode": "rectified",
+        "cutoff": 0.86,
+        "repeats": 2,
+        "scale_cutoff": 0.8
+      },
+      "capacity": {
+        "answered": 1,
+        "correct": 1,
+        "wrong": 0
+      },
+      "type": {
+        "answered": 11,
+        "correct": 11,
+        "wrong": 0
+      }
+    },
+    {
+      "options": {
+        "mode": "rectified",
+        "cutoff": 0.86,
+        "repeats": 2,
+        "scale_cutoff": 0.88
+      },
+      "capacity": {
+        "answered": 1,
+        "correct": 1,
+        "wrong": 0
+      },
+      "type": {
+        "answered": 9,
+        "correct": 9,
+        "wrong": 0
+      }
+    },
+    {
+      "options": {
+        "mode": "rectified",
+        "cutoff": 0.92,
+        "repeats": 1,
+        "scale_cutoff": 0.8
+      },
+      "capacity": {
+        "answered": 3,
+        "correct": 3,
+        "wrong": 0
+      },
+      "type": {
+        "answered": 11,
+        "correct": 11,
+        "wrong": 0
+      }
+    },
+    {
+      "options": {
+        "mode": "rectified",
+        "cutoff": 0.92,
+        "repeats": 1,
+        "scale_cutoff": 0.88
+      },
+      "capacity": {
+        "answered": 3,
+        "correct": 3,
+        "wrong": 0
+      },
+      "type": {
+        "answered": 9,
+        "correct": 9,
+        "wrong": 0
+      }
+    },
+    {
+      "options": {
+        "mode": "rectified",
+        "cutoff": 0.92,
+        "repeats": 2,
+        "scale_cutoff": 0.8
+      },
+      "capacity": {
+        "answered": 1,
+        "correct": 1,
+        "wrong": 0
+      },
+      "type": {
+        "answered": 11,
+        "correct": 11,
+        "wrong": 0
+      }
+    },
+    {
+      "options": {
+        "mode": "rectified",
+        "cutoff": 0.92,
+        "repeats": 2,
+        "scale_cutoff": 0.88
+      },
+      "capacity": {
+        "answered": 1,
+        "correct": 1,
+        "wrong": 0
+      },
+      "type": {
+        "answered": 9,
+        "correct": 9,
+        "wrong": 0
+      }
+    },
+    {
+      "options": {
+        "mode": "targeted",
+        "cutoff": 0.74,
+        "repeats": 1,
+        "scale_cutoff": 0.8
+      },
+      "capacity": {
+        "answered": 18,
+        "correct": 18,
+        "wrong": 0
+      },
+      "type": {
+        "answered": 19,
+        "correct": 19,
+        "wrong": 0
+      }
+    },
+    {
+      "options": {
+        "mode": "targeted",
+        "cutoff": 0.74,
+        "repeats": 1,
+        "scale_cutoff": 0.88
+      },
+      "capacity": {
+        "answered": 18,
+        "correct": 18,
+        "wrong": 0
+      },
+      "type": {
+        "answered": 18,
+        "correct": 18,
+        "wrong": 0
+      }
+    },
+    {
+      "options": {
+        "mode": "targeted",
+        "cutoff": 0.74,
+        "repeats": 2,
+        "scale_cutoff": 0.8
+      },
+      "capacity": {
+        "answered": 7,
+        "correct": 7,
+        "wrong": 0
+      },
+      "type": {
+        "answered": 13,
+        "correct": 13,
+        "wrong": 0
+      }
+    },
+    {
+      "options": {
+        "mode": "targeted",
+        "cutoff": 0.74,
+        "repeats": 2,
+        "scale_cutoff": 0.88
+      },
+      "capacity": {
+        "answered": 7,
+        "correct": 7,
+        "wrong": 0
+      },
+      "type": {
+        "answered": 11,
+        "correct": 11,
+        "wrong": 0
+      }
+    },
+    {
+      "options": {
+        "mode": "targeted",
+        "cutoff": 0.8,
+        "repeats": 1,
+        "scale_cutoff": 0.8
+      },
+      "capacity": {
+        "answered": 15,
+        "correct": 15,
+        "wrong": 0
+      },
+      "type": {
+        "answered": 16,
+        "correct": 16,
+        "wrong": 0
+      }
+    },
+    {
+      "options": {
+        "mode": "targeted",
+        "cutoff": 0.8,
+        "repeats": 1,
+        "scale_cutoff": 0.88
+      },
+      "capacity": {
+        "answered": 15,
+        "correct": 15,
+        "wrong": 0
+      },
+      "type": {
+        "answered": 15,
+        "correct": 15,
+        "wrong": 0
+      }
+    },
+    {
+      "options": {
+        "mode": "targeted",
+        "cutoff": 0.8,
+        "repeats": 2,
+        "scale_cutoff": 0.8
+      },
+      "capacity": {
+        "answered": 5,
+        "correct": 5,
+        "wrong": 0
+      },
+      "type": {
+        "answered": 13,
+        "correct": 13,
+        "wrong": 0
+      }
+    },
+    {
+      "options": {
+        "mode": "targeted",
+        "cutoff": 0.8,
+        "repeats": 2,
+        "scale_cutoff": 0.88
+      },
+      "capacity": {
+        "answered": 5,
+        "correct": 5,
+        "wrong": 0
+      },
+      "type": {
+        "answered": 11,
+        "correct": 11,
+        "wrong": 0
+      }
+    },
+    {
+      "options": {
+        "mode": "targeted",
+        "cutoff": 0.86,
+        "repeats": 1,
+        "scale_cutoff": 0.8
+      },
+      "capacity": {
+        "answered": 12,
+        "correct": 12,
+        "wrong": 0
+      },
+      "type": {
+        "answered": 15,
+        "correct": 15,
+        "wrong": 0
+      }
+    },
+    {
+      "options": {
+        "mode": "targeted",
+        "cutoff": 0.86,
+        "repeats": 1,
+        "scale_cutoff": 0.88
+      },
+      "capacity": {
+        "answered": 12,
+        "correct": 12,
+        "wrong": 0
+      },
+      "type": {
+        "answered": 13,
+        "correct": 13,
+        "wrong": 0
+      }
+    },
+    {
+      "options": {
+        "mode": "targeted",
+        "cutoff": 0.86,
+        "repeats": 2,
+        "scale_cutoff": 0.8
+      },
+      "capacity": {
+        "answered": 3,
+        "correct": 3,
+        "wrong": 0
+      },
+      "type": {
+        "answered": 13,
+        "correct": 13,
+        "wrong": 0
+      }
+    },
+    {
+      "options": {
+        "mode": "targeted",
+        "cutoff": 0.86,
+        "repeats": 2,
+        "scale_cutoff": 0.88
+      },
+      "capacity": {
+        "answered": 3,
+        "correct": 3,
+        "wrong": 0
+      },
+      "type": {
+        "answered": 11,
+        "correct": 11,
+        "wrong": 0
+      }
+    },
+    {
+      "options": {
+        "mode": "targeted",
+        "cutoff": 0.92,
+        "repeats": 1,
+        "scale_cutoff": 0.8
+      },
+      "capacity": {
+        "answered": 11,
+        "correct": 11,
+        "wrong": 0
+      },
+      "type": {
+        "answered": 14,
+        "correct": 14,
+        "wrong": 0
+      }
+    },
+    {
+      "options": {
+        "mode": "targeted",
+        "cutoff": 0.92,
+        "repeats": 1,
+        "scale_cutoff": 0.88
+      },
+      "capacity": {
+        "answered": 11,
+        "correct": 11,
+        "wrong": 0
+      },
+      "type": {
+        "answered": 12,
+        "correct": 12,
+        "wrong": 0
+      }
+    },
+    {
+      "options": {
+        "mode": "targeted",
+        "cutoff": 0.92,
+        "repeats": 2,
+        "scale_cutoff": 0.8
+      },
+      "capacity": {
+        "answered": 3,
+        "correct": 3,
+        "wrong": 0
+      },
+      "type": {
+        "answered": 13,
+        "correct": 13,
+        "wrong": 0
+      }
+    },
+    {
+      "options": {
+        "mode": "targeted",
+        "cutoff": 0.92,
+        "repeats": 2,
+        "scale_cutoff": 0.88
+      },
+      "capacity": {
+        "answered": 3,
+        "correct": 3,
+        "wrong": 0
+      },
+      "type": {
+        "answered": 11,
+        "correct": 11,
+        "wrong": 0
+      }
+    },
+    {
+      "options": {
+        "mode": "guided",
+        "cutoff": 0.74,
+        "repeats": 1,
+        "scale_cutoff": 0.8
+      },
+      "capacity": {
+        "answered": 24,
+        "correct": 24,
+        "wrong": 0
+      },
+      "type": {
+        "answered": 25,
+        "correct": 25,
+        "wrong": 0
+      }
+    },
+    {
+      "options": {
+        "mode": "guided",
+        "cutoff": 0.74,
+        "repeats": 1,
+        "scale_cutoff": 0.88
+      },
+      "capacity": {
+        "answered": 24,
+        "correct": 24,
+        "wrong": 0
+      },
+      "type": {
+        "answered": 24,
+        "correct": 24,
+        "wrong": 0
+      }
+    },
+    {
+      "options": {
+        "mode": "guided",
+        "cutoff": 0.74,
+        "repeats": 2,
+        "scale_cutoff": 0.8
+      },
+      "capacity": {
+        "answered": 8,
+        "correct": 8,
+        "wrong": 0
+      },
+      "type": {
+        "answered": 20,
+        "correct": 20,
+        "wrong": 0
+      }
+    },
+    {
+      "options": {
+        "mode": "guided",
+        "cutoff": 0.74,
+        "repeats": 2,
+        "scale_cutoff": 0.88
+      },
+      "capacity": {
+        "answered": 8,
+        "correct": 8,
+        "wrong": 0
+      },
+      "type": {
+        "answered": 19,
+        "correct": 19,
+        "wrong": 0
+      }
+    },
+    {
+      "options": {
+        "mode": "guided",
+        "cutoff": 0.8,
+        "repeats": 1,
+        "scale_cutoff": 0.8
+      },
+      "capacity": {
+        "answered": 22,
+        "correct": 22,
+        "wrong": 0
+      },
+      "type": {
+        "answered": 23,
+        "correct": 23,
+        "wrong": 0
+      }
+    },
+    {
+      "options": {
+        "mode": "guided",
+        "cutoff": 0.8,
+        "repeats": 1,
+        "scale_cutoff": 0.88
+      },
+      "capacity": {
+        "answered": 22,
+        "correct": 22,
+        "wrong": 0
+      },
+      "type": {
+        "answered": 22,
+        "correct": 22,
+        "wrong": 0
+      }
+    },
+    {
+      "options": {
+        "mode": "guided",
+        "cutoff": 0.8,
+        "repeats": 2,
+        "scale_cutoff": 0.8
+      },
+      "capacity": {
+        "answered": 6,
+        "correct": 6,
+        "wrong": 0
+      },
+      "type": {
+        "answered": 20,
+        "correct": 20,
+        "wrong": 0
+      }
+    },
+    {
+      "options": {
+        "mode": "guided",
+        "cutoff": 0.8,
+        "repeats": 2,
+        "scale_cutoff": 0.88
+      },
+      "capacity": {
+        "answered": 6,
+        "correct": 6,
+        "wrong": 0
+      },
+      "type": {
+        "answered": 19,
+        "correct": 19,
+        "wrong": 0
+      }
+    },
+    {
+      "options": {
+        "mode": "guided",
+        "cutoff": 0.86,
+        "repeats": 1,
+        "scale_cutoff": 0.8
+      },
+      "capacity": {
+        "answered": 19,
+        "correct": 19,
+        "wrong": 0
+      },
+      "type": {
+        "answered": 22,
+        "correct": 22,
+        "wrong": 0
+      }
+    },
+    {
+      "options": {
+        "mode": "guided",
+        "cutoff": 0.86,
+        "repeats": 1,
+        "scale_cutoff": 0.88
+      },
+      "capacity": {
+        "answered": 19,
+        "correct": 19,
+        "wrong": 0
+      },
+      "type": {
+        "answered": 21,
+        "correct": 21,
+        "wrong": 0
+      }
+    },
+    {
+      "options": {
+        "mode": "guided",
+        "cutoff": 0.86,
+        "repeats": 2,
+        "scale_cutoff": 0.8
+      },
+      "capacity": {
+        "answered": 4,
+        "correct": 4,
+        "wrong": 0
+      },
+      "type": {
+        "answered": 20,
+        "correct": 20,
+        "wrong": 0
+      }
+    },
+    {
+      "options": {
+        "mode": "guided",
+        "cutoff": 0.86,
+        "repeats": 2,
+        "scale_cutoff": 0.88
+      },
+      "capacity": {
+        "answered": 4,
+        "correct": 4,
+        "wrong": 0
+      },
+      "type": {
+        "answered": 19,
+        "correct": 19,
+        "wrong": 0
+      }
+    },
+    {
+      "options": {
+        "mode": "guided",
+        "cutoff": 0.92,
+        "repeats": 1,
+        "scale_cutoff": 0.8
+      },
+      "capacity": {
+        "answered": 18,
+        "correct": 18,
+        "wrong": 0
+      },
+      "type": {
+        "answered": 21,
+        "correct": 21,
+        "wrong": 0
+      }
+    },
+    {
+      "options": {
+        "mode": "guided",
+        "cutoff": 0.92,
+        "repeats": 1,
+        "scale_cutoff": 0.88
+      },
+      "capacity": {
+        "answered": 18,
+        "correct": 18,
+        "wrong": 0
+      },
+      "type": {
+        "answered": 20,
+        "correct": 20,
+        "wrong": 0
+      }
+    },
+    {
+      "options": {
+        "mode": "guided",
+        "cutoff": 0.92,
+        "repeats": 2,
+        "scale_cutoff": 0.8
+      },
+      "capacity": {
+        "answered": 4,
+        "correct": 4,
+        "wrong": 0
+      },
+      "type": {
+        "answered": 20,
+        "correct": 20,
+        "wrong": 0
+      }
+    },
+    {
+      "options": {
+        "mode": "guided",
+        "cutoff": 0.92,
+        "repeats": 2,
+        "scale_cutoff": 0.88
+      },
+      "capacity": {
+        "answered": 4,
+        "correct": 4,
+        "wrong": 0
+      },
+      "type": {
+        "answered": 19,
+        "correct": 19,
+        "wrong": 0
+      }
+    }
+  ],
+  "reference_manifest_sha256": "7bd1cdf0a7605375415fb6bf72ba04a010dac7e34eff8ffc597766d0bb031bb1",
+  "reader_sha256": "db7b58f94ad4c0203a46d10b151f992c08d0430e0b4c8d58b64b213a5fc85ab4",
+  "refiner_sha256": "4c58b34cc5884caf29cdf7324a692506ea021ee0a1cb033ed710588c03cb0846",
+  "scope": "Burst-disjoint development and verification, all from a single acquisition session."
+}

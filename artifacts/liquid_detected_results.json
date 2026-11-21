@@ -1,0 +1,1679 @@
+{
+  "scope": "Same-session visible color measurements. Absolute optical opacity is unavailable.",
+  "cohort": "detected",
+  "frames": {
+    "IMG_3198": {
+      "status": "appearance measured",
+      "reason": "Colored interior of the segmented syringe",
+      "lightness": {
+        "lstar": 22.7,
+        "iqr": [
+          17.5,
+          26.7
+        ],
+        "category": "dark"
+      },
+      "region": [
+        0.12096774193548387,
+        0.016666666666666666,
+        0.5564516129032258,
+        0.23333333333333334
+      ],
+      "support_fraction": 0.136,
+      "opacity": null,
+      "opacity_reason": "A registered clear-barrel reference at the same exposure is required.",
+      "syringe_mask_score": 0.7701186537742615,
+      "seconds": 5.054495626987773
+    },
+    "IMG_3199": {
+      "status": "appearance measured",
+      "reason": "Colored interior of the segmented syringe",
+      "lightness": {
+        "lstar": 31.4,
+        "iqr": [
+          28.4,
+          37.0
+        ],
+        "category": "dark"
+      },
+      "region": [
+        0.08088235294117647,
+        0.04047619047619048,
+        0.5441176470588235,
+        0.34285714285714286
+      ],
+      "support_fraction": 0.275,
+      "opacity": null,
+      "opacity_reason": "A registered clear-barrel reference at the same exposure is required.",
+      "syringe_mask_score": 0.9379582405090332,
+      "seconds": 1.1199434910085984
+    },
+    "IMG_3200": {
+      "status": "appearance measured",
+      "reason": "Colored interior of the segmented syringe",
+      "lightness": {
+        "lstar": 28.6,
+        "iqr": [
+          26.2,
+          31.7
+        ],
+        "category": "dark"
+      },
+      "region": [
+        0.325,
+        0.04523809523809524,
+        0.8833333333333333,
+        0.37857142857142856
+      ],
+      "support_fraction": 0.286,
+      "opacity": null,
+      "opacity_reason": "A registered clear-barrel reference at the same exposure is required.",
+      "syringe_mask_score": 0.8632587194442749,
+      "seconds": 0.9377211979881395
+    },
+    "IMG_3202": {
+      "status": "appearance measured",
+      "reason": "Colored interior of the segmented syringe",
+      "lightness": {
+        "lstar": 18.9,
+        "iqr": [
+          15.2,
+          22.8
+        ],
+        "category": "dark"
+      },
+      "region": [
+        0.7142857142857143,
+        0.07317073170731707,
+        1.0,
+        0.5487804878048781
+      ],
+      "support_fraction": 0.156,
+      "opacity": null,
+      "opacity_reason": "A registered clear-barrel reference at the same exposure is required.",
+      "syringe_mask_score": 0.7906011343002319,
+      "seconds": 0.960384972000611
+    },
+    "IMG_3206": {
+      "status": "appearance measured",
+      "reason": "Colored interior of the segmented syringe",
+      "lightness": {
+        "lstar": 25.6,
+        "iqr": [
+          22.6,
+          32.2
+        ],
+        "category": "dark"
+      },
+      "region": [
+        0.4190871369294606,
+        0.05952380952380952,
+        0.9336099585062241,
+        0.5095238095238095
+      ],
+      "support_fraction": 0.398,
+      "opacity": null,
+      "opacity_reason": "A registered clear-barrel reference at the same exposure is required.",
+      "syringe_mask_score": 0.9549098610877991,
+      "seconds": 1.0029375889862422
+    },
+    "IMG_3215": {
+      "status": "appearance measured",
+      "reason": "Colored interior of the segmented syringe",
+      "lightness": {
+        "lstar": 34.4,
+        "iqr": [
+          33.1,
+          35.6
+        ],
+        "category": "dark"
+      },
+      "region": [
+        0.12790697674418605,
+        0.07857142857142857,
+        0.7093023255813954,
+        0.25
+      ],
+      "support_fraction": 0.134,
+      "opacity": null,
+      "opacity_reason": "A registered clear-barrel reference at the same exposure is required.",
+      "syringe_mask_score": 0.7660356760025024,
+      "seconds": 0.9164363570016576
+    },
+    "IMG_3217": {
+      "status": "appearance measured",
+      "reason": "Colored interior of the segmented syringe",
+      "lightness": {
+        "lstar": 35.8,
+        "iqr": [
+          34.1,
+          38.0
+        ],
+        "category": "medium"
+      },
+      "region": [
+        0.6835820895522388,
+        0.047619047619047616,
+        0.9641791044776119,
+        0.2976190476190476
+      ],
+      "support_fraction": 0.168,
+      "opacity": null,
+      "opacity_reason": "A registered clear-barrel reference at the same exposure is required.",
+      "syringe_mask_score": 0.9693979024887085,
+      "seconds": 1.0734345829987433
+    },
+    "IMG_3218": {
+      "status": "appearance measured",
+      "reason": "Colored interior of the segmented syringe",
+      "lightness": {
+        "lstar": 34.2,
+        "iqr": [
+          31.1,
+          38.4
+        ],
+        "category": "dark"
+      },
+      "region": [
+        0.7547619047619047,
+        0.033846153846153845,
+        0.9785714285714285,
+        0.2953846153846154
+      ],
+      "support_fraction": 0.139,
+      "opacity": null,
+      "opacity_reason": "A registered clear-barrel reference at the same exposure is required.",
+      "syringe_mask_score": 0.9846316576004028,
+      "seconds": 1.0495774800074287
+    },
+    "IMG_3219": {
+      "status": "appearance measured",
+      "reason": "Colored interior of the segmented syringe",
+      "lightness": {
+        "lstar": 34.5,
+        "iqr": [
+          32.0,
+          38.1
+        ],
+        "category": "dark"
+      },
+      "region": [
+        0.7571428571428571,
+        0.03322259136212625,
+        0.9642857142857143,
+        0.3089700996677741
+      ],
+      "support_fraction": 0.145,
+      "opacity": null,
+      "opacity_reason": "A registered clear-barrel reference at the same exposure is required.",
+      "syringe_mask_score": 0.9268717169761658,
+      "seconds": 1.068620092002675
+    },
+    "IMG_3221": {
+      "status": "appearance measured",
+      "reason": "Colored interior of the segmented syringe",
+      "lightness": {
+        "lstar": 27.8,
+        "iqr": [
+          25.5,
+          30.9
+        ],
+        "category": "dark"
+      },
+      "region": [
+        0.4380165289256198,
+        0.7,
+        0.8677685950413223,
+        0.9857142857142858
+      ],
+      "support_fraction": 0.171,
+      "opacity": null,
+      "opacity_reason": "A registered clear-barrel reference at the same exposure is required.",
+      "syringe_mask_score": 0.7562842965126038,
+      "seconds": 0.9410667839983944
+    },
+    "IMG_3222": {
+      "status": "appearance measured",
+      "reason": "Colored interior of the segmented syringe",
+      "lightness": {
+        "lstar": 27.9,
+        "iqr": [
+          26.3,
+          30.2
+        ],
+        "category": "dark"
+      },
+      "region": [
+        0.45408163265306123,
+        0.6238095238095238,
+        0.8061224489795918,
+        0.8595238095238096
+      ],
+      "support_fraction": 0.123,
+      "opacity": null,
+      "opacity_reason": "A registered clear-barrel reference at the same exposure is required.",
+      "syringe_mask_score": 0.957776665687561,
+      "seconds": 0.9708235880098073
+    },
+    "IMG_3223": {
+      "status": "appearance measured",
+      "reason": "Colored interior of the segmented syringe",
+      "lightness": {
+        "lstar": 48.1,
+        "iqr": [
+          37.9,
+          55.6
+        ],
+        "category": "medium"
+      },
+      "region": [
+        0.15584415584415584,
+        0.05952380952380952,
+        0.7922077922077922,
+        0.29523809523809524
+      ],
+      "support_fraction": 0.161,
+      "opacity": null,
+      "opacity_reason": "A registered clear-barrel reference at the same exposure is required.",
+      "syringe_mask_score": 0.6077560782432556,
+      "seconds": 0.8861634470085846
+    },
+    "IMG_3225": {
+      "status": "appearance measured",
+      "reason": "Colored interior of the segmented syringe",
+      "lightness": {
+        "lstar": 47.1,
+        "iqr": [
+          36.9,
+          56.9
+        ],
+        "category": "medium"
+      },
+      "region": [
+        0.6904761904761905,
+        0.03367875647668394,
+        0.9857142857142858,
+        0.33419689119170987
+      ],
+      "support_fraction": 0.2,
+      "opacity": null,
+      "opacity_reason": "A registered clear-barrel reference at the same exposure is required.",
+      "syringe_mask_score": 0.9649462699890137,
+      "seconds": 1.0827962139883311
+    },
+    "IMG_3226": {
+      "status": "insufficient evidence",
+      "reason": "The colored region does not extend along the barrel.",
+      "lightness": null,
+      "opacity": null,
+      "opacity_reason": "A registered clear-barrel reference at the same exposure is required.",
+      "syringe_mask_score": 0.968985378742218,
+      "seconds": 1.0907685030106222
+    },
+    "IMG_3227": {
+      "status": "appearance measured",
+      "reason": "Colored interior of the segmented syringe",
+      "lightness": {
+        "lstar": 47.3,
+        "iqr": [
+          37.3,
+          56.3
+        ],
+        "category": "medium"
+      },
+      "region": [
+        0.13953488372093023,
+        0.05,
+        0.7325581395348837,
+        0.30714285714285716
+      ],
+      "support_fraction": 0.163,
+      "opacity": null,
+      "opacity_reason": "A registered clear-barrel reference at the same exposure is required.",
+      "syringe_mask_score": 0.8999719619750977,
+      "seconds": 0.8973758450010791
+    },
+    "IMG_3228": {
+      "status": "appearance measured",
+      "reason": "Colored interior of the segmented syringe",
+      "lightness": {
+        "lstar": 49.6,
+        "iqr": [
+          39.0,
+          56.9
+        ],
+        "category": "medium"
+      },
+      "region": [
+        0.14285714285714285,
+        0.05714285714285714,
+        0.7802197802197802,
+        0.3380952380952381
+      ],
+      "support_fraction": 0.174,
+      "opacity": null,
+      "opacity_reason": "A registered clear-barrel reference at the same exposure is required.",
+      "syringe_mask_score": 0.806145429611206,
+      "seconds": 0.9350447390024783
+    },
+    "IMG_3229": {
+      "status": "appearance measured",
+      "reason": "Colored interior of the segmented syringe",
+      "lightness": {
+        "lstar": 48.2,
+        "iqr": [
+          38.4,
+          57.0
+        ],
+        "category": "medium"
+      },
+      "region": [
+        0.2328767123287671,
+        0.06428571428571428,
+        0.8904109589041096,
+        0.28095238095238095
+      ],
+      "support_fraction": 0.163,
+      "opacity": null,
+      "opacity_reason": "A registered clear-barrel reference at the same exposure is required.",
+      "syringe_mask_score": 0.720801055431366,
+      "seconds": 0.9279998959973454
+    },
+    "IMG_3230": {
+      "status": "appearance measured",
+      "reason": "Colored interior of the segmented syringe",
+      "lightness": {
+        "lstar": 44.3,
+        "iqr": [
+          35.2,
+          51.9
+        ],
+        "category": "medium"
+      },
+      "region": [
+        0.23684210526315788,
+        0.06666666666666667,
+        0.8157894736842105,
+        0.4357142857142857
+      ],
+      "support_fraction": 0.303,
+      "opacity": null,
+      "opacity_reason": "A registered clear-barrel reference at the same exposure is required.",
+      "syringe_mask_score": 0.7754349112510681,
+      "seconds": 0.9156556839880068
+    },
+    "IMG_3231": {
+      "status": "appearance measured",
+      "reason": "Colored interior of the segmented syringe",
+      "lightness": {
+        "lstar": 41.0,
+        "iqr": [
+          32.3,
+          48.5
+        ],
+        "category": "medium"
+      },
+      "region": [
+        0.12658227848101267,
+        0.07142857142857142,
+        0.7088607594936709,
+        0.45476190476190476
+      ],
+      "support_fraction": 0.435,
+      "opacity": null,
+      "opacity_reason": "A registered clear-barrel reference at the same exposure is required.",
+      "syringe_mask_score": 0.8569105267524719,
+      "seconds": 0.8987714129907545
+    },
+    "IMG_3232": {
+      "status": "appearance measured",
+      "reason": "Colored interior of the segmented syringe",
+      "lightness": {
+        "lstar": 42.0,
+        "iqr": [
+          32.5,
+          48.8
+        ],
+        "category": "medium"
+      },
+      "region": [
+        0.548951048951049,
+        0.04523809523809524,
+        0.972027972027972,
+        0.42857142857142855
+      ],
+      "support_fraction": 0.313,
+      "opacity": null,
+      "opacity_reason": "A registered clear-barrel reference at the same exposure is required.",
+      "syringe_mask_score": 0.9787611365318298,
+      "seconds": 1.031221060999087
+    },
+    "IMG_3233": {
+      "status": "appearance measured",
+      "reason": "Colored interior of the segmented syringe",
+      "lightness": {
+        "lstar": 33.5,
+        "iqr": [
+          27.1,
+          37.5
+        ],
+        "category": "dark"
+      },
+      "region": [
+        0.5952380952380952,
+        0.029850746268656716,
+        0.9642857142857143,
+        0.41492537313432837
+      ],
+      "support_fraction": 0.317,
+      "opacity": null,
+      "opacity_reason": "A registered clear-barrel reference at the same exposure is required.",
+      "syringe_mask_score": 0.9687840342521667,
+      "seconds": 1.0908263210003497
+    },
+    "IMG_3234": {
+      "status": "appearance measured",
+      "reason": "Colored interior of the segmented syringe",
+      "lightness": {
+        "lstar": 30.3,
+        "iqr": [
+          24.6,
+          33.2
+        ],
+        "category": "dark"
+      },
+      "region": [
+        0.5952380952380952,
+        0.05286343612334802,
+        0.9571428571428572,
+        0.47577092511013214
+      ],
+      "support_fraction": 0.336,
+      "opacity": null,
+      "opacity_reason": "A registered clear-barrel reference at the same exposure is required.",
+      "syringe_mask_score": 0.983332097530365,
+      "seconds": 0.9904726969980402
+    },
+    "IMG_3235": {
+      "status": "appearance measured",
+      "reason": "Colored interior of the segmented syringe",
+      "lightness": {
+        "lstar": 25.6,
+        "iqr": [
+          21.4,
+          30.6
+        ],
+        "category": "dark"
+      },
+      "region": [
+        0.6190476190476191,
+        0.11956521739130435,
+        0.9928571428571429,
+        0.7717391304347826
+      ],
+      "support_fraction": 0.351,
+      "opacity": null,
+      "opacity_reason": "A registered clear-barrel reference at the same exposure is required.",
+      "syringe_mask_score": 0.9363723397254944,
+      "seconds": 0.9222514309949474
+    },
+    "IMG_3238": {
+      "status": "appearance measured",
+      "reason": "Colored interior of the segmented syringe",
+      "lightness": {
+        "lstar": 39.8,
+        "iqr": [
+          31.0,
+          46.2
+        ],
+        "category": "medium"
+      },
+      "region": [
+        0.15384615384615385,
+        0.06904761904761905,
+        0.8153846153846154,
+        0.4928571428571429
+      ],
+      "support_fraction": 0.353,
+      "opacity": null,
+      "opacity_reason": "A registered clear-barrel reference at the same exposure is required.",
+      "syringe_mask_score": 0.8242852091789246,
+      "seconds": 0.8886064149992308
+    },
+    "IMG_3239": {
+      "status": "appearance measured",
+      "reason": "Colored interior of the segmented syringe",
+      "lightness": {
+        "lstar": 36.1,
+        "iqr": [
+          29.1,
+          44.9
+        ],
+        "category": "medium"
+      },
+      "region": [
+        0.5190476190476191,
+        0.06340057636887608,
+        0.9571428571428572,
+        0.5331412103746398
+      ],
+      "support_fraction": 0.402,
+      "opacity": null,
+      "opacity_reason": "A registered clear-barrel reference at the same exposure is required.",
+      "syringe_mask_score": 0.7803521752357483,
+      "seconds": 1.0849586560070748
+    },
+    "IMG_3240": {
+      "status": "appearance measured",
+      "reason": "Colored interior of the segmented syringe",
+      "lightness": {
+        "lstar": 36.5,
+        "iqr": [
+          28.4,
+          42.0
+        ],
+        "category": "medium"
+      },
+      "region": [
+        0.5547619047619048,
+        0.048109965635738834,
+        0.9452380952380952,
+        0.4948453608247423
+      ],
+      "support_fraction": 0.41,
+      "opacity": null,
+      "opacity_reason": "A registered clear-barrel reference at the same exposure is required.",
+      "syringe_mask_score": 0.9588729739189148,
+      "seconds": 1.0265523669950198
+    },
+    "IMG_3241": {
+      "status": "appearance measured",
+      "reason": "Colored interior of the segmented syringe",
+      "lightness": {
+        "lstar": 39.1,
+        "iqr": [
+          32.5,
+          45.8
+        ],
+        "category": "medium"
+      },
+      "region": [
+        0.030952380952380953,
+        0.04113924050632911,
+        0.4,
+        0.4177215189873418
+      ],
+      "support_fraction": 0.27,
+      "opacity": null,
+      "opacity_reason": "A registered clear-barrel reference at the same exposure is required.",
+      "syringe_mask_score": 0.9913536906242371,
+      "seconds": 1.0375491570011945
+    },
+    "IMG_3243": {
+      "status": "appearance measured",
+      "reason": "Colored interior of the segmented syringe",
+      "lightness": {
+        "lstar": 40.2,
+        "iqr": [
+          31.4,
+          48.0
+        ],
+        "category": "medium"
+      },
+      "region": [
+        0.2823529411764706,
+        0.05476190476190476,
+        0.8,
+        0.3952380952380952
+      ],
+      "support_fraction": 0.304,
+      "opacity": null,
+      "opacity_reason": "A registered clear-barrel reference at the same exposure is required.",
+      "syringe_mask_score": 0.8258344531059265,
+      "seconds": 0.9015656669944292
+    },
+    "IMG_3244": {
+      "status": "appearance measured",
+      "reason": "Colored interior of the segmented syringe",
+      "lightness": {
+        "lstar": 42.2,
+        "iqr": [
+          33.0,
+          49.3
+        ],
+        "category": "medium"
+      },
+      "region": [
+        0.1411764705882353,
+        0.06428571428571428,
+        0.7176470588235294,
+        0.4523809523809524
+      ],
+      "support_fraction": 0.347,
+      "opacity": null,
+      "opacity_reason": "A registered clear-barrel reference at the same exposure is required.",
+      "syringe_mask_score": 0.8359546661376953,
+      "seconds": 0.9063446979998844
+    },
+    "IMG_3245": {
+      "status": "appearance measured",
+      "reason": "Colored interior of the segmented syringe",
+      "lightness": {
+        "lstar": 40.8,
+        "iqr": [
+          32.2,
+          48.7
+        ],
+        "category": "medium"
+      },
+      "region": [
+        0.14736842105263157,
+        0.07142857142857142,
+        0.7578947368421053,
+        0.5571428571428572
+      ],
+      "support_fraction": 0.412,
+      "opacity": null,
+      "opacity_reason": "A registered clear-barrel reference at the same exposure is required.",
+      "syringe_mask_score": 0.8727604150772095,
+      "seconds": 0.9537830679910257
+    },
+    "IMG_3246": {
+      "status": "appearance measured",
+      "reason": "Colored interior of the segmented syringe",
+      "lightness": {
+        "lstar": 35.7,
+        "iqr": [
+          25.9,
+          43.7
+        ],
+        "category": "medium"
+      },
+      "region": [
+        0.4607329842931937,
+        0.05476190476190476,
+        0.9633507853403142,
+        0.45714285714285713
+      ],
+      "support_fraction": 0.345,
+      "opacity": null,
+      "opacity_reason": "A registered clear-barrel reference at the same exposure is required.",
+      "syringe_mask_score": 0.887814998626709,
+      "seconds": 0.987907503003953
+    },
+    "IMG_3247": {
+      "status": "appearance measured",
+      "reason": "Colored interior of the segmented syringe",
+      "lightness": {
+        "lstar": 42.3,
+        "iqr": [
+          36.7,
+          47.3
+        ],
+        "category": "medium"
+      },
+      "region": [
+        0.4740740740740741,
+        0.030952380952380953,
+        0.9481481481481482,
+        0.3761904761904762
+      ],
+      "support_fraction": 0.298,
+      "opacity": null,
+      "opacity_reason": "A registered clear-barrel reference at the same exposure is required.",
+      "syringe_mask_score": 0.9767735004425049,
+      "seconds": 0.9495653240010142
+    },
+    "IMG_3251": {
+      "status": "appearance measured",
+      "reason": "Colored interior of the segmented syringe",
+      "lightness": {
+        "lstar": 65.7,
+        "iqr": [
+          61.8,
+          68.7
+        ],
+        "category": "light"
+      },
+      "region": [
+        0.07096774193548387,
+        0.047619047619047616,
+        0.5935483870967742,
+        0.4452380952380952
+      ],
+      "support_fraction": 0.335,
+      "opacity": null,
+      "opacity_reason": "A registered clear-barrel reference at the same exposure is required.",
+      "syringe_mask_score": 0.8503195643424988,
+      "seconds": 0.953078947000904
+    },
+    "IMG_3252": {
+      "status": "appearance measured",
+      "reason": "Colored interior of the segmented syringe",
+      "lightness": {
+        "lstar": 63.2,
+        "iqr": [
+          59.2,
+          66.1
+        ],
+        "category": "medium"
+      },
+      "region": [
+        0.06097560975609756,
+        0.05238095238095238,
+        0.47560975609756095,
+        0.319047619047619
+      ],
+      "support_fraction": 0.223,
+      "opacity": null,
+      "opacity_reason": "A registered clear-barrel reference at the same exposure is required.",
+      "syringe_mask_score": 0.978155791759491,
+      "seconds": 0.9571690930024488
+    },
+    "IMG_3257": {
+      "status": "appearance measured",
+      "reason": "Colored interior of the segmented syringe",
+      "lightness": {
+        "lstar": 65.3,
+        "iqr": [
+          59.5,
+          70.2
+        ],
+        "category": "light"
+      },
+      "region": [
+        0.1267605633802817,
+        0.07380952380952381,
+        0.6830985915492958,
+        0.5833333333333334
+      ],
+      "support_fraction": 0.389,
+      "opacity": null,
+      "opacity_reason": "A registered clear-barrel reference at the same exposure is required.",
+      "syringe_mask_score": 0.9622594118118286,
+      "seconds": 0.9680010150041198
+    },
+    "IMG_3263": {
+      "status": "appearance measured",
+      "reason": "Colored interior of the segmented syringe",
+      "lightness": {
+        "lstar": 56.5,
+        "iqr": [
+          54.2,
+          59.9
+        ],
+        "category": "medium"
+      },
+      "region": [
+        0.16666666666666666,
+        0.011904761904761904,
+        0.7692307692307693,
+        0.24523809523809523
+      ],
+      "support_fraction": 0.162,
+      "opacity": null,
+      "opacity_reason": "A registered clear-barrel reference at the same exposure is required.",
+      "syringe_mask_score": 0.9308531880378723,
+      "seconds": 0.9251873550092569
+    },
+    "IMG_3264": {
+      "status": "appearance measured",
+      "reason": "Colored interior of the segmented syringe",
+      "lightness": {
+        "lstar": 58.6,
+        "iqr": [
+          52.4,
+          63.1
+        ],
+        "category": "medium"
+      },
+      "region": [
+        0.01634877384196185,
+        0.01904761904761905,
+        0.32697547683923706,
+        0.3
+      ],
+      "support_fraction": 0.204,
+      "opacity": null,
+      "opacity_reason": "A registered clear-barrel reference at the same exposure is required.",
+      "syringe_mask_score": 0.7785345911979675,
+      "seconds": 1.0932246119919
+    },
+    "IMG_3268": {
+      "status": "appearance measured",
+      "reason": "Colored interior of the segmented syringe",
+      "lightness": {
+        "lstar": 56.0,
+        "iqr": [
+          52.6,
+          61.2
+        ],
+        "category": "medium"
+      },
+      "region": [
+        0.5269230769230769,
+        0.08095238095238096,
+        0.9076923076923077,
+        0.41904761904761906
+      ],
+      "support_fraction": 0.224,
+      "opacity": null,
+      "opacity_reason": "A registered clear-barrel reference at the same exposure is required.",
+      "syringe_mask_score": 0.979587972164154,
+      "seconds": 1.0255459550098749
+    },
+    "IMG_3269": {
+      "status": "appearance measured",
+      "reason": "Colored interior of the segmented syringe",
+      "lightness": {
+        "lstar": 60.5,
+        "iqr": [
+          55.5,
+          65.5
+        ],
+        "category": "medium"
+      },
+      "region": [
+        0.5787401574803149,
+        0.05952380952380952,
+        0.9133858267716536,
+        0.37857142857142856
+      ],
+      "support_fraction": 0.222,
+      "opacity": null,
+      "opacity_reason": "A registered clear-barrel reference at the same exposure is required.",
+      "syringe_mask_score": 0.9820693135261536,
+      "seconds": 1.0124768640089314
+    },
+    "IMG_3272": {
+      "status": "appearance measured",
+      "reason": "Colored interior of the segmented syringe",
+      "lightness": {
+        "lstar": 60.5,
+        "iqr": [
+          57.4,
+          64.1
+        ],
+        "category": "medium"
+      },
+      "region": [
+        0.11827956989247312,
+        0.0380952380952381,
+        0.5806451612903226,
+        0.2
+      ],
+      "support_fraction": 0.122,
+      "opacity": null,
+      "opacity_reason": "A registered clear-barrel reference at the same exposure is required.",
+      "syringe_mask_score": 0.8197071552276611,
+      "seconds": 0.901531581999734
+    },
+    "IMG_3275": {
+      "status": "appearance measured",
+      "reason": "Colored interior of the segmented syringe",
+      "lightness": {
+        "lstar": 62.4,
+        "iqr": [
+          56.9,
+          67.7
+        ],
+        "category": "medium"
+      },
+      "region": [
+        0.47305389221556887,
+        0.04523809523809524,
+        0.9101796407185628,
+        0.38095238095238093
+      ],
+      "support_fraction": 0.24,
+      "opacity": null,
+      "opacity_reason": "A registered clear-barrel reference at the same exposure is required.",
+      "syringe_mask_score": 0.9680577516555786,
+      "seconds": 0.9555666129890596
+    },
+    "IMG_3279": {
+      "status": "appearance measured",
+      "reason": "Colored interior of the segmented syringe",
+      "lightness": {
+        "lstar": 61.4,
+        "iqr": [
+          55.5,
+          66.5
+        ],
+        "category": "medium"
+      },
+      "region": [
+        0.5675675675675675,
+        0.05238095238095238,
+        0.9234234234234234,
+        0.3595238095238095
+      ],
+      "support_fraction": 0.198,
+      "opacity": null,
+      "opacity_reason": "A registered clear-barrel reference at the same exposure is required.",
+      "syringe_mask_score": 0.9865562319755554,
+      "seconds": 1.0165083949977998
+    },
+    "IMG_3283": {
+      "status": "appearance measured",
+      "reason": "Colored interior of the segmented syringe",
+      "lightness": {
+        "lstar": 66.0,
+        "iqr": [
+          52.7,
+          71.2
+        ],
+        "category": "light"
+      },
+      "region": [
+        0.0425531914893617,
+        0.07380952380952381,
+        0.48404255319148937,
+        0.3238095238095238
+      ],
+      "support_fraction": 0.199,
+      "opacity": null,
+      "opacity_reason": "A registered clear-barrel reference at the same exposure is required.",
+      "syringe_mask_score": 0.9070379137992859,
+      "seconds": 0.9861156989936717
+    },
+    "IMG_3292": {
+      "status": "appearance measured",
+      "reason": "Colored interior of the segmented syringe",
+      "lightness": {
+        "lstar": 67.5,
+        "iqr": [
+          64.3,
+          70.6
+        ],
+        "category": "light"
+      },
+      "region": [
+        0.17647058823529413,
+        0.07142857142857142,
+        0.8705882352941177,
+        0.6
+      ],
+      "support_fraction": 0.503,
+      "opacity": null,
+      "opacity_reason": "A registered clear-barrel reference at the same exposure is required.",
+      "syringe_mask_score": 0.863156259059906,
+      "seconds": 0.9177317139983643
+    },
+    "IMG_3294": {
+      "status": "appearance measured",
+      "reason": "Colored interior of the segmented syringe",
+      "lightness": {
+        "lstar": 63.6,
+        "iqr": [
+          60.3,
+          66.7
+        ],
+        "category": "medium"
+      },
+      "region": [
+        0.2077922077922078,
+        0.06428571428571428,
+        0.7402597402597403,
+        0.5380952380952381
+      ],
+      "support_fraction": 0.577,
+      "opacity": null,
+      "opacity_reason": "A registered clear-barrel reference at the same exposure is required.",
+      "syringe_mask_score": 0.8619518876075745,
+      "seconds": 0.9596398370049428
+    },
+    "IMG_3295": {
+      "status": "appearance measured",
+      "reason": "Colored interior of the segmented syringe",
+      "lightness": {
+        "lstar": 64.1,
+        "iqr": [
+          60.8,
+          67.7
+        ],
+        "category": "medium"
+      },
+      "region": [
+        0.16049382716049382,
+        0.08095238095238096,
+        0.8024691358024691,
+        0.6023809523809524
+      ],
+      "support_fraction": 0.443,
+      "opacity": null,
+      "opacity_reason": "A registered clear-barrel reference at the same exposure is required.",
+      "syringe_mask_score": 0.7810922265052795,
+      "seconds": 0.9381083070038585
+    },
+    "IMG_3296": {
+      "status": "appearance measured",
+      "reason": "Colored interior of the segmented syringe",
+      "lightness": {
+        "lstar": 64.5,
+        "iqr": [
+          59.4,
+          68.1
+        ],
+        "category": "medium"
+      },
+      "region": [
+        0.09219858156028368,
+        0.11190476190476191,
+        0.6099290780141844,
+        0.5452380952380952
+      ],
+      "support_fraction": 0.36,
+      "opacity": null,
+      "opacity_reason": "A registered clear-barrel reference at the same exposure is required.",
+      "syringe_mask_score": 0.6895052790641785,
+      "seconds": 0.9630985940020764
+    },
+    "IMG_3297": {
+      "status": "appearance measured",
+      "reason": "Colored interior of the segmented syringe",
+      "lightness": {
+        "lstar": 62.2,
+        "iqr": [
+          58.7,
+          65.7
+        ],
+        "category": "medium"
+      },
+      "region": [
+        0.08527131782945736,
+        0.07142857142857142,
+        0.6666666666666666,
+        0.5452380952380952
+      ],
+      "support_fraction": 0.422,
+      "opacity": null,
+      "opacity_reason": "A registered clear-barrel reference at the same exposure is required.",
+      "syringe_mask_score": 0.9162740111351013,
+      "seconds": 0.9505605369922705
+    },
+    "IMG_3298": {
+      "status": "appearance measured",
+      "reason": "Colored interior of the segmented syringe",
+      "lightness": {
+        "lstar": 70.3,
+        "iqr": [
+          66.7,
+          75.6
+        ],
+        "category": "light"
+      },
+      "region": [
+        0.2867647058823529,
+        0.07380952380952381,
+        0.7279411764705882,
+        0.5166666666666667
+      ],
+      "support_fraction": 0.236,
+      "opacity": null,
+      "opacity_reason": "A registered clear-barrel reference at the same exposure is required.",
+      "syringe_mask_score": 0.9465294480323792,
+      "seconds": 0.9592749129951699
+    },
+    "IMG_3299": {
+      "status": "appearance measured",
+      "reason": "Colored interior of the segmented syringe",
+      "lightness": {
+        "lstar": 66.3,
+        "iqr": [
+          62.6,
+          69.9
+        ],
+        "category": "light"
+      },
+      "region": [
+        0.5024390243902439,
+        0.04285714285714286,
+        0.9512195121951219,
+        0.42857142857142855
+      ],
+      "support_fraction": 0.346,
+      "opacity": null,
+      "opacity_reason": "A registered clear-barrel reference at the same exposure is required.",
+      "syringe_mask_score": 0.9875127077102661,
+      "seconds": 1.0200741690059658
+    },
+    "IMG_3300": {
+      "status": "insufficient evidence",
+      "reason": "The syringe mask could not be validated.",
+      "lightness": null,
+      "opacity": null,
+      "opacity_reason": "A registered clear-barrel reference at the same exposure is required.",
+      "seconds": 1.0594010170025285
+    },
+    "IMG_3301": {
+      "status": "appearance measured",
+      "reason": "Colored interior of the segmented syringe",
+      "lightness": {
+        "lstar": 66.4,
+        "iqr": [
+          62.7,
+          70.9
+        ],
+        "category": "light"
+      },
+      "region": [
+        0.32407407407407407,
+        0.06190476190476191,
+        0.8888888888888888,
+        0.5547619047619048
+      ],
+      "support_fraction": 0.382,
+      "opacity": null,
+      "opacity_reason": "A registered clear-barrel reference at the same exposure is required.",
+      "syringe_mask_score": 0.8885680437088013,
+      "seconds": 1.0442805709899403
+    },
+    "IMG_3302": {
+      "status": "appearance measured",
+      "reason": "Colored interior of the segmented syringe",
+      "lightness": {
+        "lstar": 65.6,
+        "iqr": [
+          61.4,
+          70.2
+        ],
+        "category": "light"
+      },
+      "region": [
+        0.3870967741935484,
+        0.03333333333333333,
+        0.9032258064516129,
+        0.4857142857142857
+      ],
+      "support_fraction": 0.341,
+      "opacity": null,
+      "opacity_reason": "A registered clear-barrel reference at the same exposure is required.",
+      "syringe_mask_score": 0.9640107154846191,
+      "seconds": 1.217197665013373
+    },
+    "IMG_3304": {
+      "status": "appearance measured",
+      "reason": "Colored interior of the segmented syringe",
+      "lightness": {
+        "lstar": 58.3,
+        "iqr": [
+          54.3,
+          64.2
+        ],
+        "category": "medium"
+      },
+      "region": [
+        0.02476780185758514,
+        0.016666666666666666,
+        0.5170278637770898,
+        0.5238095238095238
+      ],
+      "support_fraction": 0.373,
+      "opacity": null,
+      "opacity_reason": "A registered clear-barrel reference at the same exposure is required.",
+      "syringe_mask_score": 0.9658684134483337,
+      "seconds": 1.3152988200017717
+    },
+    "IMG_3305": {
+      "status": "appearance measured",
+      "reason": "Colored interior of the segmented syringe",
+      "lightness": {
+        "lstar": 65.7,
+        "iqr": [
+          61.8,
+          69.2
+        ],
+        "category": "light"
+      },
+      "region": [
+        0.09090909090909091,
+        0.05714285714285714,
+        0.6363636363636364,
+        0.5928571428571429
+      ],
+      "support_fraction": 0.436,
+      "opacity": null,
+      "opacity_reason": "A registered clear-barrel reference at the same exposure is required.",
+      "syringe_mask_score": 0.8950973749160767,
+      "seconds": 1.1610751709959004
+    },
+    "IMG_3306": {
+      "status": "appearance measured",
+      "reason": "Colored interior of the segmented syringe",
+      "lightness": {
+        "lstar": 64.6,
+        "iqr": [
+          61.2,
+          68.5
+        ],
+        "category": "medium"
+      },
+      "region": [
+        0.37,
+        0.047619047619047616,
+        0.91,
+        0.5261904761904762
+      ],
+      "support_fraction": 0.456,
+      "opacity": null,
+      "opacity_reason": "A registered clear-barrel reference at the same exposure is required.",
+      "syringe_mask_score": 0.8333075642585754,
+      "seconds": 1.1254226640012348
+    },
+    "IMG_3310": {
+      "status": "appearance measured",
+      "reason": "Colored interior of the segmented syringe",
+      "lightness": {
+        "lstar": 63.4,
+        "iqr": [
+          60.7,
+          66.1
+        ],
+        "category": "medium"
+      },
+      "region": [
+        0.044585987261146494,
+        0.030952380952380953,
+        0.4713375796178344,
+        0.3619047619047619
+      ],
+      "support_fraction": 0.279,
+      "opacity": null,
+      "opacity_reason": "A registered clear-barrel reference at the same exposure is required.",
+      "syringe_mask_score": 0.9604535102844238,
+      "seconds": 1.1395711389923235
+    },
+    "IMG_3311": {
+      "status": "appearance measured",
+      "reason": "Colored interior of the segmented syringe",
+      "lightness": {
+        "lstar": 58.5,
+        "iqr": [
+          55.9,
+          61.5
+        ],
+        "category": "medium"
+      },
+      "region": [
+        0.03056768558951965,
+        0.030952380952380953,
+        0.45414847161572053,
+        0.38333333333333336
+      ],
+      "support_fraction": 0.294,
+      "opacity": null,
+      "opacity_reason": "A registered clear-barrel reference at the same exposure is required.",
+      "syringe_mask_score": 0.9892675876617432,
+      "seconds": 1.1655669980100356
+    },
+    "IMG_3315": {
+      "status": "appearance measured",
+      "reason": "Colored interior of the segmented syringe",
+      "lightness": {
+        "lstar": 52.4,
+        "iqr": [
+          46.2,
+          54.9
+        ],
+        "category": "medium"
+      },
+      "region": [
+        0.4652567975830816,
+        0.38571428571428573,
+        0.7613293051359517,
+        0.7571428571428571
+      ],
+      "support_fraction": 0.229,
+      "opacity": null,
+      "opacity_reason": "A registered clear-barrel reference at the same exposure is required.",
+      "syringe_mask_score": 0.8948872089385986,
+      "seconds": 1.135291357000824
+    },
+    "IMG_3316": {
+      "status": "appearance measured",
+      "reason": "Colored interior of the segmented syringe",
+      "lightness": {
+        "lstar": 66.7,
+        "iqr": [
+          61.6,
+          70.5
+        ],
+        "category": "light"
+      },
+      "region": [
+        0.35714285714285715,
+        0.03571428571428571,
+        0.9081632653061225,
+        0.4523809523809524
+      ],
+      "support_fraction": 0.331,
+      "opacity": null,
+      "opacity_reason": "A registered clear-barrel reference at the same exposure is required.",
+      "syringe_mask_score": 0.9422887563705444,
+      "seconds": 1.029099829000188
+    },
+    "IMG_3317": {
+      "status": "appearance measured",
+      "reason": "Colored interior of the segmented syringe",
+      "lightness": {
+        "lstar": 65.6,
+        "iqr": [
+          60.2,
+          69.0
+        ],
+        "category": "light"
+      },
+      "region": [
+        0.3111111111111111,
+        0.04523809523809524,
+        0.9111111111111111,
+        0.45714285714285713
+      ],
+      "support_fraction": 0.359,
+      "opacity": null,
+      "opacity_reason": "A registered clear-barrel reference at the same exposure is required.",
+      "syringe_mask_score": 0.9237574934959412,
+      "seconds": 1.0702732740028296
+    },
+    "IMG_3318": {
+      "status": "appearance measured",
+      "reason": "Colored interior of the segmented syringe",
+      "lightness": {
+        "lstar": 67.5,
+        "iqr": [
+          63.3,
+          71.3
+        ],
+        "category": "light"
+      },
+      "region": [
+        0.26436781609195403,
+        0.06666666666666667,
+        0.9425287356321839,
+        0.5119047619047619
+      ],
+      "support_fraction": 0.39,
+      "opacity": null,
+      "opacity_reason": "A registered clear-barrel reference at the same exposure is required.",
+      "syringe_mask_score": 0.8827309012413025,
+      "seconds": 1.1209201149904402
+    },
+    "IMG_3321": {
+      "status": "appearance measured",
+      "reason": "Colored interior of the segmented syringe",
+      "lightness": {
+        "lstar": 60.9,
+        "iqr": [
+          58.0,
+          64.0
+        ],
+        "category": "medium"
+      },
+      "region": [
+        0.09375,
+        0.047619047619047616,
+        0.6354166666666666,
+        0.35714285714285715
+      ],
+      "support_fraction": 0.245,
+      "opacity": null,
+      "opacity_reason": "A registered clear-barrel reference at the same exposure is required.",
+      "syringe_mask_score": 0.9236520528793335,
+      "seconds": 1.1016135959944222
+    },
+    "IMG_3322": {
+      "status": "appearance measured",
+      "reason": "Colored interior of the segmented syringe",
+      "lightness": {
+        "lstar": 68.4,
+        "iqr": [
+          62.0,
+          72.7
+        ],
+        "category": "light"
+      },
+      "region": [
+        0.13095238095238096,
+        0.05,
+        0.6666666666666666,
+        0.4023809523809524
+      ],
+      "support_fraction": 0.27,
+      "opacity": null,
+      "opacity_reason": "A registered clear-barrel reference at the same exposure is required.",
+      "syringe_mask_score": 0.8565945625305176,
+      "seconds": 1.0996131759893615
+    },
+    "IMG_3323": {
+      "status": "appearance measured",
+      "reason": "Colored interior of the segmented syringe",
+      "lightness": {
+        "lstar": 68.6,
+        "iqr": [
+          63.7,
+          72.3
+        ],
+        "category": "light"
+      },
+      "region": [
+        0.13793103448275862,
+        0.05238095238095238,
+        0.7011494252873564,
+        0.430952380952381
+      ],
+      "support_fraction": 0.289,
+      "opacity": null,
+      "opacity_reason": "A registered clear-barrel reference at the same exposure is required.",
+      "syringe_mask_score": 0.8956550359725952,
+      "seconds": 1.0944400379958097
+    },
+    "IMG_3324": {
+      "status": "appearance measured",
+      "reason": "Colored interior of the segmented syringe",
+      "lightness": {
+        "lstar": 66.3,
+        "iqr": [
+          62.8,
+          70.0
+        ],
+        "category": "light"
+      },
+      "region": [
+        0.3488372093023256,
+        0.07857142857142857,
+        0.8914728682170543,
+        0.4857142857142857
+      ],
+      "support_fraction": 0.352,
+      "opacity": null,
+      "opacity_reason": "A registered clear-barrel reference at the same exposure is required.",
+      "syringe_mask_score": 0.9516434073448181,
+      "seconds": 1.0767320989980362
+    },
+    "IMG_3325": {
+      "status": "appearance measured",
+      "reason": "Colored interior of the segmented syringe",
+      "lightness": {
+        "lstar": 65.3,
+        "iqr": [
+          56.9,
+          69.4
+        ],
+        "category": "light"
+      },
+      "region": [
+        0.3898305084745763,
+        0.05238095238095238,
+        0.9067796610169492,
+        0.430952380952381
+      ],
+      "support_fraction": 0.323,
+      "opacity": null,
+      "opacity_reason": "A registered clear-barrel reference at the same exposure is required.",
+      "syringe_mask_score": 0.955817461013794,
+      "seconds": 1.1637819550087443
+    },
+    "IMG_3326": {
+      "status": "appearance measured",
+      "reason": "Colored interior of the segmented syringe",
+      "lightness": {
+        "lstar": 67.9,
+        "iqr": [
+          61.2,
+          71.8
+        ],
+        "category": "light"
+      },
+      "region": [
+        0.02553191489361702,
+        0.009523809523809525,
+        0.41702127659574467,
+        0.34523809523809523
+      ],
+      "support_fraction": 0.266,
+      "opacity": null,
+      "opacity_reason": "A registered clear-barrel reference at the same exposure is required.",
+      "syringe_mask_score": 0.9838319420814514,
+      "seconds": 1.223484614994959
+    },
+    "IMG_3329": {
+      "status": "appearance measured",
+      "reason": "Colored interior of the segmented syringe",
+      "lightness": {
+        "lstar": 52.0,
+        "iqr": [
+          46.7,
+          55.1
+        ],
+        "category": "medium"
+      },
+      "region": [
+        0.011235955056179775,
+        0.030952380952380953,
+        0.33707865168539325,
+        0.3261904761904762
+      ],
+      "support_fraction": 0.217,
+      "opacity": null,
+      "opacity_reason": "A registered clear-barrel reference at the same exposure is required.",
+      "syringe_mask_score": 0.9769389629364014,
+      "seconds": 1.2228441379993455
+    },
+    "IMG_3331": {
+      "status": "appearance measured",
+      "reason": "Colored interior of the segmented syringe",
+      "lightness": {
+        "lstar": 46.5,
+        "iqr": [
+          42.2,
+          49.0
+        ],
+        "category": "medium"
+      },
+      "region": [
+        0.04519774011299435,
+        0.030952380952380953,
+        0.4067796610169492,
+        0.2904761904761905
+      ],
+      "support_fraction": 0.185,
+      "opacity": null,
+      "opacity_reason": "A registered clear-barrel reference at the same exposure is required.",
+      "syringe_mask_score": 0.981396496295929,
+      "seconds": 1.1735859229956986
+    },
+    "IMG_3332": {
+      "status": "appearance measured",
+      "reason": "Colored interior of the segmented syringe",
+      "lightness": {
+        "lstar": 45.5,
+        "iqr": [
+          41.4,
+          49.0
+        ],
+        "category": "medium"
+      },
+      "region": [
+        0.06818181818181818,
+        0.030952380952380953,
+        0.4621212121212121,
+        0.23809523809523808
+      ],
+      "support_fraction": 0.166,
+      "opacity": null,
+      "opacity_reason": "A registered clear-barrel reference at the same exposure is required.",
+      "syringe_mask_score": 0.9635348916053772,
+      "seconds": 1.107977331004804
+    },
+    "IMG_3333": {
+      "status": "appearance measured",
+      "reason": "Colored interior of the segmented syringe",
+      "lightness": {
+        "lstar": 48.0,
+        "iqr": [
+          44.6,
+          50.6
+        ],
+        "category": "medium"
+      },
+      "region": [
+        0.13157894736842105,
+        0.0,
+        0.6929824561403509,
+        0.2904761904761905
+      ],
+      "support_fraction": 0.25,
+      "opacity": null,
+      "opacity_reason": "A registered clear-barrel reference at the same exposure is required.",
+      "syringe_mask_score": 0.707521915435791,
+      "seconds": 1.127997351999511
+    },
+    "IMG_3334": {
+      "status": "appearance measured",
+      "reason": "Colored interior of the segmented syringe",
+      "lightness": {
+        "lstar": 45.1,
+        "iqr": [
+          40.4,
+          47.7
+        ],
+        "category": "medium"
+      },
+      "region": [
+        0.078125,
+        0.04047619047619048,
+        0.5,
+        0.30238095238095236
+      ],
+      "support_fraction": 0.211,
+      "opacity": null,
+      "opacity_reason": "A registered clear-barrel reference at the same exposure is required.",
+      "syringe_mask_score": 0.9598923921585083,
+      "seconds": 1.1591915320022963
+    },
+    "IMG_3335": {
+      "status": "appearance measured",
+      "reason": "Colored interior of the segmented syringe",
+      "lightness": {
+        "lstar": 46.3,
+        "iqr": [
+          41.5,
+          48.9
+        ],
+        "category": "medium"
+      },
+      "region": [
+        0.37362637362637363,
+        0.02142857142857143,
+        0.9120879120879121,
+        0.430952380952381
+      ],
+      "support_fraction": 0.264,
+      "opacity": null,
+      "opacity_reason": "A registered clear-barrel reference at the same exposure is required.",
+      "syringe_mask_score": 0.9487901329994202,
+      "seconds": 1.1533023529918864
+    }
+  }
+}

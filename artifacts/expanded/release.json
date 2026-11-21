@@ -1,0 +1,23 @@
+{
+  "id": "expanded-local-hybrid",
+  "features": {
+    "markings": "both"
+  },
+  "code": {
+    "medsyringe/expanded_runtime.py": "7270800f3b5c9460a38f8aaac368e710af4581e894d22fc312e710214d57ef9c",
+    "medsyringe/hybrid_detection.py": "731fa50eed0905d83799699d7e8839f9f24c12a4fffddd63d0d40bcfa0437d0e",
+    "medsyringe/inference.py": "4a52c2d5ed16d473a99d12b013c64dfed4bf73c7a7b5c83b5a3db58545c0b568",
+    "medsyringe/marking_views.py": "33b46d6af31f5cc799c8b8f520e443cdc70db9217bc7b228a4539686206eeb44",
+    "medsyringe/markings_guard.py": "dee5da468e922be2d7560f96c4c2e09e185f703647d72b72878b64e290e762bb",
+    "medsyringe/liquid_color.py": "17ff2a0b6d51127b606fed9f3a0a9cf27ce95ba537780b6a06c52e39792261aa",
+    "medsyringe/liquid_context.py": "aed8b59993c93d84acb93b69b392d014988c0ffa20dbaca929e3ae3544572b9b",
+    "scripts/expanded_worker_xpu.sh": "4ce78190172ed8961f4cfac765ced836e2f7feaa44d1571d0cbaa966401d06f5",
+    "scripts/expanded_worker.py": "ec4b03498bfc0032d870f679b931b1c0b48735f781bf958abce3eb841510d170",
+    "scripts/expanded_liquid.py": "f9915a7984698d0d9d717855e2943825563ec75b6f551ebc068b2cb478aa323f",
+    "scripts/expanded_detection_study.py": "67aa965394145e24329a2e646899af459b99feaa2f9e71efaa08e941eb1c7cfe",
+    "scripts/expanded_recall_selection.py": "0060bc84c668de7c45bb53a4519eecfc995f90a7b7dc9825248880416f20f739"
+  },
+  "models": {},
+  "evidence": "artifacts/expanded/release_assessment.json",
+  "evidence_sha256": "17fe5d61f6786f303abc2b31b9be4078effe42b92b8d920ff6b4faea65924182"
+}

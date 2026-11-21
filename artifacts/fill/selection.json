@@ -1,0 +1,686 @@
+{
+  "inputs": {
+    "artifacts/fill/visual_reference.tsv": "8dcc01e168d3807df9127782ff81d3d50860c5030545214e9047b8ceac80638f",
+    "artifacts/expanded/annotations.json": "de8260db8f917cdd57d7700cb21b5f56a1c51a3e601c124f7586b81abc7ccebb",
+    "medsyringe/fill.py": "861b94b85772275db9e8780b74f2abd736855cabea62ec7c55364be2078ec5b9",
+    "/home/arobin/Work/Repos/MedSyringe-Vision/scripts/fill_study.py": "2e898272ba886ce93e296d2c3987627fa91e26cf6b5304e3aa18a25da688e451",
+    "artifacts/expanded/liquid_calibration.json": "9c18c89a54c05aa7ab2e23fcfab97e067ff4ed8602a7d5476ef4dd8a3d4bd851",
+    "data/expanded/markings-calibration.json": "11e3211df89d7cc478d552803bf39ba1bcaea9dbfd6aae0a9c70622b29f9ee98",
+    "artifacts/marking_detected_manifest.json": "628fed037d259ee3470e14d31948eeee49d95b0e5da03befbc602cf3782e8bac",
+    "artifacts/liquid_detected_results.json": "4d95f1be047c48274e7a7e7692d00389263da6472a3a7b1dfb59e35a32841121",
+    "data/ocr-v6/markings-detected.json": "bf8744188330541c99595833d460df45b0442ca2305b10b38ac39601d9c1b882",
+    "data/ocr-v6/markings-detected-guided.json": "15e2187c46a1bf497758eee2db94a9bd64a554fef02a02f4888f479b96114fee"
+  },
+  "heldout_groups": [
+    "orange-20-dark-wall",
+    "orange-60-dark-wall"
+  ],
+  "selected": {
+    "settings": {
+      "ocr_min": 0.57,
+      "min_drop": 8.0,
+      "continuity": 0.8,
+      "tick_check": true
+    },
+    "metrics": {
+      "images": 31,
+      "answered": 7,
+      "median_error_ml": 0.0,
+      "worst_error_ml": 0.0,
+      "within_visible_bracket": 7,
+      "within_one_minor_mark": 7,
+      "intervals_overlap": 7,
+      "false_clear_answers": 0
+    }
+  },
+  "trials": [
+    {
+      "settings": {
+        "ocr_min": 0.57,
+        "min_drop": 8.0,
+        "continuity": 0.8,
+        "tick_check": true
+      },
+      "metrics": {
+        "images": 31,
+        "answered": 7,
+        "median_error_ml": 0.0,
+        "worst_error_ml": 0.0,
+        "within_visible_bracket": 7,
+        "within_one_minor_mark": 7,
+        "intervals_overlap": 7,
+        "false_clear_answers": 0
+      }
+    },
+    {
+      "settings": {
+        "ocr_min": 0.68,
+        "min_drop": 8.0,
+        "continuity": 0.8,
+        "tick_check": true
+      },
+      "metrics": {
+        "images": 31,
+        "answered": 7,
+        "median_error_ml": 0.0,
+        "worst_error_ml": 0.0,
+        "within_visible_bracket": 7,
+        "within_one_minor_mark": 7,
+        "intervals_overlap": 7,
+        "false_clear_answers": 0
+      }
+    },
+    {
+      "settings": {
+        "ocr_min": 0.77,
+        "min_drop": 8.0,
+        "continuity": 0.8,
+        "tick_check": true
+      },
+      "metrics": {
+        "images": 31,
+        "answered": 7,
+        "median_error_ml": 0.0,
+        "worst_error_ml": 0.0,
+        "within_visible_bracket": 7,
+        "within_one_minor_mark": 7,
+        "intervals_overlap": 7,
+        "false_clear_answers": 0
+      }
+    },
+    {
+      "settings": {
+        "ocr_min": 0.57,
+        "min_drop": 8.0,
+        "continuity": 0.66,
+        "tick_check": true
+      },
+      "metrics": {
+        "images": 31,
+        "answered": 7,
+        "median_error_ml": 0.0,
+        "worst_error_ml": 0.0,
+        "within_visible_bracket": 7,
+        "within_one_minor_mark": 7,
+        "intervals_overlap": 7,
+        "false_clear_answers": 0
+      }
+    },
+    {
+      "settings": {
+        "ocr_min": 0.68,
+        "min_drop": 8.0,
+        "continuity": 0.66,
+        "tick_check": true
+      },
+      "metrics": {
+        "images": 31,
+        "answered": 7,
+        "median_error_ml": 0.0,
+        "worst_error_ml": 0.0,
+        "within_visible_bracket": 7,
+        "within_one_minor_mark": 7,
+        "intervals_overlap": 7,
+        "false_clear_answers": 0
+      }
+    },
+    {
+      "settings": {
+        "ocr_min": 0.77,
+        "min_drop": 8.0,
+        "continuity": 0.66,
+        "tick_check": true
+      },
+      "metrics": {
+        "images": 31,
+        "answered": 7,
+        "median_error_ml": 0.0,
+        "worst_error_ml": 0.0,
+        "within_visible_bracket": 7,
+        "within_one_minor_mark": 7,
+        "intervals_overlap": 7,
+        "false_clear_answers": 0
+      }
+    },
+    {
+      "settings": {
+        "ocr_min": 0.57,
+        "min_drop": 11.0,
+        "continuity": 0.8,
+        "tick_check": true
+      },
+      "metrics": {
+        "images": 31,
+        "answered": 6,
+        "median_error_ml": 0.0,
+        "worst_error_ml": 0.0,
+        "within_visible_bracket": 6,
+        "within_one_minor_mark": 6,
+        "intervals_overlap": 6,
+        "false_clear_answers": 0
+      }
+    },
+    {
+      "settings": {
+        "ocr_min": 0.68,
+        "min_drop": 11.0,
+        "continuity": 0.8,
+        "tick_check": true
+      },
+      "metrics": {
+        "images": 31,
+        "answered": 6,
+        "median_error_ml": 0.0,
+        "worst_error_ml": 0.0,
+        "within_visible_bracket": 6,
+        "within_one_minor_mark": 6,
+        "intervals_overlap": 6,
+        "false_clear_answers": 0
+      }
+    },
+    {
+      "settings": {
+        "ocr_min": 0.77,
+        "min_drop": 11.0,
+        "continuity": 0.8,
+        "tick_check": true
+      },
+      "metrics": {
+        "images": 31,
+        "answered": 6,
+        "median_error_ml": 0.0,
+        "worst_error_ml": 0.0,
+        "within_visible_bracket": 6,
+        "within_one_minor_mark": 6,
+        "intervals_overlap": 6,
+        "false_clear_answers": 0
+      }
+    },
+    {
+      "settings": {
+        "ocr_min": 0.57,
+        "min_drop": 8.0,
+        "continuity": 0.8,
+        "tick_check": false
+      },
+      "metrics": {
+        "images": 31,
+        "answered": 6,
+        "median_error_ml": 0.0,
+        "worst_error_ml": 0.0,
+        "within_visible_bracket": 6,
+        "within_one_minor_mark": 6,
+        "intervals_overlap": 6,
+        "false_clear_answers": 0
+      }
+    },
+    {
+      "settings": {
+        "ocr_min": 0.68,
+        "min_drop": 8.0,
+        "continuity": 0.8,
+        "tick_check": false
+      },
+      "metrics": {
+        "images": 31,
+        "answered": 6,
+        "median_error_ml": 0.0,
+        "worst_error_ml": 0.0,
+        "within_visible_bracket": 6,
+        "within_one_minor_mark": 6,
+        "intervals_overlap": 6,
+        "false_clear_answers": 0
+      }
+    },
+    {
+      "settings": {
+        "ocr_min": 0.77,
+        "min_drop": 8.0,
+        "continuity": 0.8,
+        "tick_check": false
+      },
+      "metrics": {
+        "images": 31,
+        "answered": 6,
+        "median_error_ml": 0.0,
+        "worst_error_ml": 0.0,
+        "within_visible_bracket": 6,
+        "within_one_minor_mark": 6,
+        "intervals_overlap": 6,
+        "false_clear_answers": 0
+      }
+    },
+    {
+      "settings": {
+        "ocr_min": 0.57,
+        "min_drop": 11.0,
+        "continuity": 0.66,
+        "tick_check": true
+      },
+      "metrics": {
+        "images": 31,
+        "answered": 6,
+        "median_error_ml": 0.0,
+        "worst_error_ml": 0.0,
+        "within_visible_bracket": 6,
+        "within_one_minor_mark": 6,
+        "intervals_overlap": 6,
+        "false_clear_answers": 0
+      }
+    },
+    {
+      "settings": {
+        "ocr_min": 0.68,
+        "min_drop": 11.0,
+        "continuity": 0.66,
+        "tick_check": true
+      },
+      "metrics": {
+        "images": 31,
+        "answered": 6,
+        "median_error_ml": 0.0,
+        "worst_error_ml": 0.0,
+        "within_visible_bracket": 6,
+        "within_one_minor_mark": 6,
+        "intervals_overlap": 6,
+        "false_clear_answers": 0
+      }
+    },
+    {
+      "settings": {
+        "ocr_min": 0.77,
+        "min_drop": 11.0,
+        "continuity": 0.66,
+        "tick_check": true
+      },
+      "metrics": {
+        "images": 31,
+        "answered": 6,
+        "median_error_ml": 0.0,
+        "worst_error_ml": 0.0,
+        "within_visible_bracket": 6,
+        "within_one_minor_mark": 6,
+        "intervals_overlap": 6,
+        "false_clear_answers": 0
+      }
+    },
+    {
+      "settings": {
+        "ocr_min": 0.57,
+        "min_drop": 8.0,
+        "continuity": 0.66,
+        "tick_check": false
+      },
+      "metrics": {
+        "images": 31,
+        "answered": 6,
+        "median_error_ml": 0.0,
+        "worst_error_ml": 0.0,
+        "within_visible_bracket": 6,
+        "within_one_minor_mark": 6,
+        "intervals_overlap": 6,
+        "false_clear_answers": 0
+      }
+    },
+    {
+      "settings": {
+        "ocr_min": 0.68,
+        "min_drop": 8.0,
+        "continuity": 0.66,
+        "tick_check": false
+      },
+      "metrics": {
+        "images": 31,
+        "answered": 6,
+        "median_error_ml": 0.0,
+        "worst_error_ml": 0.0,
+        "within_visible_bracket": 6,
+        "within_one_minor_mark": 6,
+        "intervals_overlap": 6,
+        "false_clear_answers": 0
+      }
+    },
+    {
+      "settings": {
+        "ocr_min": 0.77,
+        "min_drop": 8.0,
+        "continuity": 0.66,
+        "tick_check": false
+      },
+      "metrics": {
+        "images": 31,
+        "answered": 6,
+        "median_error_ml": 0.0,
+        "worst_error_ml": 0.0,
+        "within_visible_bracket": 6,
+        "within_one_minor_mark": 6,
+        "intervals_overlap": 6,
+        "false_clear_answers": 0
+      }
+    },
+    {
+      "settings": {
+        "ocr_min": 0.57,
+        "min_drop": 11.0,
+        "continuity": 0.8,
+        "tick_check": false
+      },
+      "metrics": {
+        "images": 31,
+        "answered": 5,
+        "median_error_ml": 0.0,
+        "worst_error_ml": 0.0,
+        "within_visible_bracket": 5,
+        "within_one_minor_mark": 5,
+        "intervals_overlap": 5,
+        "false_clear_answers": 0
+      }
+    },
+    {
+      "settings": {
+        "ocr_min": 0.68,
+        "min_drop": 11.0,
+        "continuity": 0.8,
+        "tick_check": false
+      },
+      "metrics": {
+        "images": 31,
+        "answered": 5,
+        "median_error_ml": 0.0,
+        "worst_error_ml": 0.0,
+        "within_visible_bracket": 5,
+        "within_one_minor_mark": 5,
+        "intervals_overlap": 5,
+        "false_clear_answers": 0
+      }
+    },
+    {
+      "settings": {
+        "ocr_min": 0.77,
+        "min_drop": 11.0,
+        "continuity": 0.8,
+        "tick_check": false
+      },
+      "metrics": {
+        "images": 31,
+        "answered": 5,
+        "median_error_ml": 0.0,
+        "worst_error_ml": 0.0,
+        "within_visible_bracket": 5,
+        "within_one_minor_mark": 5,
+        "intervals_overlap": 5,
+        "false_clear_answers": 0
+      }
+    },
+    {
+      "settings": {
+        "ocr_min": 0.57,
+        "min_drop": 11.0,
+        "continuity": 0.66,
+        "tick_check": false
+      },
+      "metrics": {
+        "images": 31,
+        "answered": 5,
+        "median_error_ml": 0.0,
+        "worst_error_ml": 0.0,
+        "within_visible_bracket": 5,
+        "within_one_minor_mark": 5,
+        "intervals_overlap": 5,
+        "false_clear_answers": 0
+      }
+    },
+    {
+      "settings": {
+        "ocr_min": 0.68,
+        "min_drop": 11.0,
+        "continuity": 0.66,
+        "tick_check": false
+      },
+      "metrics": {
+        "images": 31,
+        "answered": 5,
+        "median_error_ml": 0.0,
+        "worst_error_ml": 0.0,
+        "within_visible_bracket": 5,
+        "within_one_minor_mark": 5,
+        "intervals_overlap": 5,
+        "false_clear_answers": 0
+      }
+    },
+    {
+      "settings": {
+        "ocr_min": 0.77,
+        "min_drop": 11.0,
+        "continuity": 0.66,
+        "tick_check": false
+      },
+      "metrics": {
+        "images": 31,
+        "answered": 5,
+        "median_error_ml": 0.0,
+        "worst_error_ml": 0.0,
+        "within_visible_bracket": 5,
+        "within_one_minor_mark": 5,
+        "intervals_overlap": 5,
+        "false_clear_answers": 0
+      }
+    },
+    {
+      "settings": {
+        "ocr_min": 0.57,
+        "min_drop": 15.0,
+        "continuity": 0.8,
+        "tick_check": false
+      },
+      "metrics": {
+        "images": 31,
+        "answered": 4,
+        "median_error_ml": 0.0,
+        "worst_error_ml": 0.0,
+        "within_visible_bracket": 4,
+        "within_one_minor_mark": 4,
+        "intervals_overlap": 4,
+        "false_clear_answers": 0
+      }
+    },
+    {
+      "settings": {
+        "ocr_min": 0.57,
+        "min_drop": 15.0,
+        "continuity": 0.8,
+        "tick_check": true
+      },
+      "metrics": {
+        "images": 31,
+        "answered": 4,
+        "median_error_ml": 0.0,
+        "worst_error_ml": 0.0,
+        "within_visible_bracket": 4,
+        "within_one_minor_mark": 4,
+        "intervals_overlap": 4,
+        "false_clear_answers": 0
+      }
+    },
+    {
+      "settings": {
+        "ocr_min": 0.68,
+        "min_drop": 15.0,
+        "continuity": 0.8,
+        "tick_check": false
+      },
+      "metrics": {
+        "images": 31,
+        "answered": 4,
+        "median_error_ml": 0.0,
+        "worst_error_ml": 0.0,
+        "within_visible_bracket": 4,
+        "within_one_minor_mark": 4,
+        "intervals_overlap": 4,
+        "false_clear_answers": 0
+      }
+    },
+    {
+      "settings": {
+        "ocr_min": 0.68,
+        "min_drop": 15.0,
+        "continuity": 0.8,
+        "tick_check": true
+      },
+      "metrics": {
+        "images": 31,
+        "answered": 4,
+        "median_error_ml": 0.0,
+        "worst_error_ml": 0.0,
+        "within_visible_bracket": 4,
+        "within_one_minor_mark": 4,
+        "intervals_overlap": 4,
+        "false_clear_answers": 0
+      }
+    },
+    {
+      "settings": {
+        "ocr_min": 0.77,
+        "min_drop": 15.0,
+        "continuity": 0.8,
+        "tick_check": false
+      },
+      "metrics": {
+        "images": 31,
+        "answered": 4,
+        "median_error_ml": 0.0,
+        "worst_error_ml": 0.0,
+        "within_visible_bracket": 4,
+        "within_one_minor_mark": 4,
+        "intervals_overlap": 4,
+        "false_clear_answers": 0
+      }
+    },
+    {
+      "settings": {
+        "ocr_min": 0.77,
+        "min_drop": 15.0,
+        "continuity": 0.8,
+        "tick_check": true
+      },
+      "metrics": {
+        "images": 31,
+        "answered": 4,
+        "median_error_ml": 0.0,
+        "worst_error_ml": 0.0,
+        "within_visible_bracket": 4,
+        "within_one_minor_mark": 4,
+        "intervals_overlap": 4,
+        "false_clear_answers": 0
+      }
+    },
+    {
+      "settings": {
+        "ocr_min": 0.57,
+        "min_drop": 15.0,
+        "continuity": 0.66,
+        "tick_check": false
+      },
+      "metrics": {
+        "images": 31,
+        "answered": 4,
+        "median_error_ml": 0.0,
+        "worst_error_ml": 0.0,
+        "within_visible_bracket": 4,
+        "within_one_minor_mark": 4,
+        "intervals_overlap": 4,
+        "false_clear_answers": 0
+      }
+    },
+    {
+      "settings": {
+        "ocr_min": 0.57,
+        "min_drop": 15.0,
+        "continuity": 0.66,
+        "tick_check": true
+      },
+      "metrics": {
+        "images": 31,
+        "answered": 4,
+        "median_error_ml": 0.0,
+        "worst_error_ml": 0.0,
+        "within_visible_bracket": 4,
+        "within_one_minor_mark": 4,
+        "intervals_overlap": 4,
+        "false_clear_answers": 0
+      }
+    },
+    {
+      "settings": {
+        "ocr_min": 0.68,
+        "min_drop": 15.0,
+        "continuity": 0.66,
+        "tick_check": false
+      },
+      "metrics": {
+        "images": 31,
+        "answered": 4,
+        "median_error_ml": 0.0,
+        "worst_error_ml": 0.0,
+        "within_visible_bracket": 4,
+        "within_one_minor_mark": 4,
+        "intervals_overlap": 4,
+        "false_clear_answers": 0
+      }
+    },
+    {
+      "settings": {
+        "ocr_min": 0.68,
+        "min_drop": 15.0,
+        "continuity": 0.66,
+        "tick_check": true
+      },
+      "metrics": {
+        "images": 31,
+        "answered": 4,
+        "median_error_ml": 0.0,
+        "worst_error_ml": 0.0,
+        "within_visible_bracket": 4,
+        "within_one_minor_mark": 4,
+        "intervals_overlap": 4,
+        "false_clear_answers": 0
+      }
+    },
+    {
+      "settings": {
+        "ocr_min": 0.77,
+        "min_drop": 15.0,
+        "continuity": 0.66,
+        "tick_check": false
+      },
+      "metrics": {
+        "images": 31,
+        "answered": 4,
+        "median_error_ml": 0.0,
+        "worst_error_ml": 0.0,
+        "within_visible_bracket": 4,
+        "within_one_minor_mark": 4,
+        "intervals_overlap": 4,
+        "false_clear_answers": 0
+      }
+    },
+    {
+      "settings": {
+        "ocr_min": 0.77,
+        "min_drop": 15.0,
+        "continuity": 0.66,
+        "tick_check": true
+      },
+      "metrics": {
+        "images": 31,
+        "answered": 4,
+        "median_error_ml": 0.0,
+        "worst_error_ml": 0.0,
+        "within_visible_bracket": 4,
+        "within_one_minor_mark": 4,
+        "intervals_overlap": 4,
+        "false_clear_answers": 0
+      }
+    }
+  ]
+}

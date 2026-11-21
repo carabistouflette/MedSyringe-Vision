@@ -1,0 +1,115 @@
+{
+  "selected": {
+    "tolerance": 1,
+    "outcome": {
+      "eligible": 6,
+      "answered": 3,
+      "within_bracket": 3,
+      "accepted": [
+        "IMG_3204",
+        "IMG_3231",
+        "IMG_3244"
+      ]
+    }
+  },
+  "shadow": {
+    "tolerance": 1,
+    "outcome": {
+      "eligible": 6,
+      "answered": 3,
+      "within_bracket": 3,
+      "accepted": [
+        "IMG_3204",
+        "IMG_3231",
+        "IMG_3244"
+      ]
+    }
+  },
+  "trials": [
+    {
+      "tolerance": 0,
+      "outcome": {
+        "eligible": 6,
+        "answered": 2,
+        "within_bracket": 2,
+        "accepted": [
+          "IMG_3204",
+          "IMG_3244"
+        ]
+      }
+    },
+    {
+      "tolerance": 1,
+      "outcome": {
+        "eligible": 6,
+        "answered": 3,
+        "within_bracket": 3,
+        "accepted": [
+          "IMG_3204",
+          "IMG_3231",
+          "IMG_3244"
+        ]
+      }
+    }
+  ],
+  "source_freezes": {
+    "artifacts/fill/piston_selection.json": "68d048b7b019e43cec996d9d1bd4365d281c2eb8422dd091517178075acd8916",
+    "artifacts/fill/graduation_ocr_selection.json": "4c55c1fe7385419db58ed4640f36310fb632270e636cb1b90bc7711510b4f7e7"
+  },
+  "estimates": {
+    "IMG_3204": {
+      "optical": 38,
+      "physical": 38,
+      "minor": 2,
+      "reference": [
+        35.0,
+        39.0
+      ]
+    },
+    "IMG_3231": {
+      "optical": 15,
+      "physical": 14,
+      "minor": 1,
+      "reference": [
+        12.0,
+        15.0
+      ]
+    },
+    "IMG_3237": {
+      "optical": 14,
+      "physical": null,
+      "minor": 1,
+      "reference": [
+        12.0,
+        15.0
+      ]
+    },
+    "IMG_3244": {
+      "optical": 14,
+      "physical": 14,
+      "minor": 1,
+      "reference": [
+        12.0,
+        15.0
+      ]
+    },
+    "IMG_3246": {
+      "optical": 15,
+      "physical": null,
+      "minor": 1,
+      "reference": [
+        12.0,
+        15.0
+      ]
+    },
+    "IMG_3228": {
+      "optical": 5,
+      "physical": null,
+      "minor": 1,
+      "reference": [
+        4.0,
+        7.0
+      ]
+    }
+  }
+}

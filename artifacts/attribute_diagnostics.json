@@ -1,0 +1,74 @@
+{
+  "scale-scene": {
+    "total": 74,
+    "answered": 21,
+    "correct": 18,
+    "confusion": {
+      "20-scale": {
+        "20-scale": 16,
+        "60-scale": 3,
+        "unknown": 39
+      },
+      "60-scale": {
+        "20-scale": 0,
+        "60-scale": 2,
+        "unknown": 14
+      }
+    },
+    "design": "same-session leave-burst-out diagnostic"
+  },
+  "scale-crop": {
+    "total": 74,
+    "answered": 49,
+    "correct": 36,
+    "confusion": {
+      "20-scale": {
+        "20-scale": 29,
+        "60-scale": 10,
+        "unknown": 19
+      },
+      "60-scale": {
+        "20-scale": 3,
+        "60-scale": 7,
+        "unknown": 6
+      }
+    },
+    "design": "same-session leave-burst-out diagnostic"
+  },
+  "color-scene": {
+    "total": 68,
+    "answered": 41,
+    "correct": 37,
+    "confusion": {
+      "amber-brown": {
+        "amber-brown": 10,
+        "orange": 2,
+        "unknown": 20
+      },
+      "orange": {
+        "amber-brown": 2,
+        "orange": 27,
+        "unknown": 7
+      }
+    },
+    "design": "same-session leave-burst-out diagnostic"
+  },
+  "color-crop": {
+    "total": 68,
+    "answered": 39,
+    "correct": 37,
+    "confusion": {
+      "amber-brown": {
+        "amber-brown": 13,
+        "orange": 2,
+        "unknown": 17
+      },
+      "orange": {
+        "amber-brown": 0,
+        "orange": 24,
+        "unknown": 12
+      }
+    },
+    "design": "same-session leave-burst-out diagnostic"
+  }
+}

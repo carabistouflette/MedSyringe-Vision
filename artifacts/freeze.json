@@ -1,0 +1,35 @@
+{
+  "winner": "dino",
+  "backbone": "dino",
+  "threshold": 0.5398514270782471,
+  "model_id": "IDEA-Research/grounding-dino-tiny",
+  "revision": "a2bb814dd30d776dcf7e30523b00659f4f141c71",
+  "bundle_sha256": {
+    "config.json": "eec82c5ab66e16df12a9a212e68ac011779927c2536cf9078658e35d85f0c67a",
+    "preprocessor_config.json": "8454179ba95e2ad22947835aad7b45862a601fc0055ab88bf1ee70892d3aea60",
+    "tokenizer_config.json": "d40ab645b68211910b9170d22433d43186a6ec8ee6fd10ba170524b25bf4fb56",
+    "special_tokens_map.json": "b6d346be366a7d1d48332dbc9fdf3bf8960b5d879522b7799ddba59e76237ee3",
+    "added_tokens.json": "909e96cb32d92ce728a01bc99850cbba26196d74115c17ebeb019275412588f2",
+    "model.safetensors": "1a2412ef99bd74bcd3c2a246fa1e48581f8889a1300c9051974741314fc042f3",
+    "tokenizer.json": "d241a60d5e8f04cc1b2b3e9ef7a4921b27bf526d9f6050ab90f9267a1f9e5c66",
+    "vocab.txt": "07eced375cec144d27c900241f3e339478dec958f92fddbc551f295c992038a3"
+  },
+  "proposal_checkpoint": null,
+  "validation_sha256": "07cfd8706f4a67bf6b5d5c4873e1c86383494f653a9b63e02f910c8a36aeda4d",
+  "validation_results_sha256": "dfd1cb59fbb89042741132e6269b6c6fd7ace5441bf775b838400c06b25f548f",
+  "training_inventory_sha256": "472020fe3ca53c1ce9cef02a1ada1604c3a3ba4e736cded98a0376a498d9d68b",
+  "draft_annotations_sha256": "9f7f270ebba4199965574cc9045afa442fba1fba7a2bc45e37155d30fa158681",
+  "code_sha256": {
+    "data.py": "5b5cb7137c5e64b3eaec37b685677e0e11e6831cabb5ee1a1045a2f32e1355ea",
+    "detectors.py": "5264bef891b30ac1d11fb915402fd0f7dc44126787f71a71f63d34fc95b47121",
+    "evaluate.py": "a6f1a2baca66409dcbdc551d8ace8910675862b6539c451aa177be5c2028028c"
+  },
+  "environment_lock_sha256": "3f2a9c4636458dad83973703d892340b8d437c81785f60419f552210920308dd",
+  "prompt": "syringe",
+  "raw_minimum": 0.02,
+  "nms_iou": 0.6,
+  "threads": 4,
+  "platform": "Linux-7.2.15-arch1-1-x86_64-with-glibc2.44",
+  "python": "3.12.14",
+  "seed": 607
+}

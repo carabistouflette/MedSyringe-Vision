@@ -1,0 +1,240 @@
+{
+  "entries": [
+    {
+      "id": "IMG_3284",
+      "file": "IMG_3284.jpeg",
+      "sha256": "4004efea3aabf2d602bb48c7a783c2ae9fd8ec4a49295cfff074655a772f3e0f",
+      "partition": "fit",
+      "draft": [
+        0.19,
+        0.05,
+        0.72,
+        0.94
+      ],
+      "alternative": [
+        0.206,
+        0.231,
+        0.631,
+        0.823
+      ],
+      "reason": "The draft included substantial surrounding hand and background.",
+      "model_box": [
+        0.20735833048820496,
+        0.23516619205474854,
+        0.616356372833252,
+        0.8105869293212891
+      ],
+      "draft_iou": 0.4989314290158124,
+      "alternative_iou": 0.9353972776898201
+    },
+    {
+      "id": "IMG_3212",
+      "file": "IMG_3212.jpeg",
+      "sha256": "cef2e0910c1003e763465e829f1137830601afcf33a852cbb7f1d484221b12f9",
+      "partition": "calibration",
+      "draft": [
+        0.01,
+        0.24,
+        0.88,
+        0.62
+      ],
+      "alternative": [
+        0.07,
+        0.424,
+        0.867,
+        0.766
+      ],
+      "reason": "The draft was vertically displaced from the syringe.",
+      "model_box": [
+        0.07224324259326126,
+        0.4253851198682598,
+        0.8606595877283205,
+        0.7656420325698639
+      ],
+      "draft_iou": 0.34447329059376164,
+      "alternative_iou": 0.9841881893325759
+    },
+    {
+      "id": "IMG_3236",
+      "file": "IMG_3236.jpeg",
+      "sha256": "eda0cb903abd5bd5fc2f7b9eff27d9924aca346d92171ba3b555a12b3821e093",
+      "partition": "calibration",
+      "draft": [
+        0.36,
+        0.23,
+        0.58,
+        0.8
+      ],
+      "alternative": [
+        0.411,
+        0.235,
+        0.517,
+        0.78
+      ],
+      "reason": "The draft included fingers outside the visible transparent piston.",
+      "model_box": [
+        0.409545414031498,
+        0.2365608963311887,
+        0.5199238468173728,
+        0.7794125767982975
+      ],
+      "draft_iou": 0.4778239053041302,
+      "alternative_iou": 0.9566966197455811
+    },
+    {
+      "id": "IMG_3242",
+      "file": "IMG_3242.jpeg",
+      "sha256": "71a254da69fdf7e80a428b949958d31f0106a75d0d9be810a3aea6c2188c4022",
+      "partition": "calibration",
+      "draft": [
+        0.14,
+        0.36,
+        1.0,
+        0.78
+      ],
+      "alternative": [
+        0.141,
+        0.544,
+        1.0,
+        0.716
+      ],
+      "reason": "The draft extended above and below the horizontally clipped syringe.",
+      "model_box": [
+        0.13938531955751052,
+        0.5406247520981049,
+        0.9985392594537815,
+        0.7191856234681373
+      ],
+      "draft_iou": 0.42429387784845257,
+      "alternative_iou": 0.9598745956045818
+    },
+    {
+      "id": "IMG_3190",
+      "file": "IMG_3190.jpeg",
+      "sha256": "4e7bfba18d92c95f14ecd659e7875faff2aee0771899f39d3af68f1863973606",
+      "partition": "test",
+      "draft": [
+        0.37,
+        0.45,
+        0.55,
+        0.85
+      ],
+      "alternative": [
+        0.429,
+        0.456,
+        0.517,
+        0.765
+      ],
+      "reason": "The draft included the surrounding hand below the plunger.",
+      "model_box": [
+        0.42522361320830415,
+        0.4544345631318934,
+        0.5350366302119807,
+        0.7716933819426208
+      ],
+      "draft_iou": 0.4838770564531769,
+      "alternative_iou": 0.7805012898006918
+    }
+  ],
+  "results": {
+    "fit": {
+      "draft": {
+        "images": 95,
+        "objects": 95,
+        "tp": 94,
+        "fp": 1,
+        "fn": 1,
+        "precision": 0.9894736842105263,
+        "recall": 0.9894736842105263,
+        "f1": 0.9894736842105263,
+        "ap50": 0.9991999199919992,
+        "ap50_95": 0.6574543290685622,
+        "exact_count": 95,
+        "negative_images": 0,
+        "correct_empty": 0
+      },
+      "alternative": {
+        "images": 95,
+        "objects": 95,
+        "tp": 95,
+        "fp": 0,
+        "fn": 0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "ap50": 1.0,
+        "ap50_95": 0.661351786191202,
+        "exact_count": 95,
+        "negative_images": 0,
+        "correct_empty": 0
+      }
+    },
+    "calibration": {
+      "draft": {
+        "images": 68,
+        "objects": 68,
+        "tp": 65,
+        "fp": 3,
+        "fn": 3,
+        "precision": 0.9558823529411765,
+        "recall": 0.9558823529411765,
+        "f1": 0.9558823529411765,
+        "ap50": 0.9292939663313008,
+        "ap50_95": 0.5498722036336037,
+        "exact_count": 68,
+        "negative_images": 0,
+        "correct_empty": 0
+      },
+      "alternative": {
+        "images": 68,
+        "objects": 68,
+        "tp": 68,
+        "fp": 0,
+        "fn": 0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "ap50": 1.0,
+        "ap50_95": 0.6162430326366348,
+        "exact_count": 68,
+        "negative_images": 0,
+        "correct_empty": 0
+      }
+    },
+    "test": {
+      "draft": {
+        "images": 14,
+        "objects": 14,
+        "tp": 13,
+        "fp": 1,
+        "fn": 1,
+        "precision": 0.9285714285714286,
+        "recall": 0.9285714285714286,
+        "f1": 0.9285714285714286,
+        "ap50": 0.9247356939083737,
+        "ap50_95": 0.47187488183160353,
+        "exact_count": 14,
+        "negative_images": 0,
+        "correct_empty": 0
+      },
+      "alternative": {
+        "images": 14,
+        "objects": 14,
+        "tp": 14,
+        "fp": 0,
+        "fn": 0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "ap50": 1.0,
+        "ap50_95": 0.5135852897030594,
+        "exact_count": 14,
+        "negative_images": 0,
+        "correct_empty": 0
+      }
+    }
+  },
+  "description": "Post-hoc sensitivity check on selected localization disagreements. Five sources were inspected at full size with an independent coordinate grid and their original bytes verified. A prior model replay selected the cases. No dataset or model bytes changed. No claim of blind annotation, independent validation or complete reference review is made.",
+  "reference_sha256": "de8260db8f917cdd57d7700cb21b5f56a1c51a3e601c124f7586b81abc7ccebb",
+  "code_sha256": "67ab281f20a8fb0ac9edf0b735cba6ef8aecc666e3ca44ad82d1d65e6857896f"
+}

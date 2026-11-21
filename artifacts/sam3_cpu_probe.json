@@ -1,0 +1,44 @@
+{
+  "scope": "Architecture and resource probe with random weights and synthetic input; no detector accuracy measured.",
+  "parameters": 840376374,
+  "load_seconds": 12.156489975008299,
+  "device": "cpu",
+  "threads": 4,
+  "dtype": "float32",
+  "transformers": "5.23.0",
+  "torch": "2.9.1+cpu",
+  "measurements": [
+    {
+      "edge": 1008,
+      "seconds": 46.59404581200215,
+      "box_shape": [
+        1,
+        200,
+        4
+      ],
+      "mask_shape": [
+        1,
+        200,
+        288,
+        288
+      ],
+      "peak_rss_kib": 4588028
+    },
+    {
+      "edge": 1008,
+      "seconds": 45.44160767800349,
+      "box_shape": [
+        1,
+        200,
+        4
+      ],
+      "mask_shape": [
+        1,
+        200,
+        288,
+        288
+      ],
+      "peak_rss_kib": 4665016
+    }
+  ]
+}

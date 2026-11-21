@@ -1,0 +1,115 @@
+{
+  "passed": true,
+  "controls": [
+    {
+      "image": "IMG_3229",
+      "orientation": 0,
+      "expected": 20,
+      "capacity": {
+        "value": 20.0,
+        "unit": "mL",
+        "score": 0.8185445070266724,
+        "method": "adjacent number and unit",
+        "evidence": [
+          {
+            "text": "ml",
+            "crop_bbox": [
+              0.28440366972477066,
+              0.5088141025641025,
+              0.8302752293577982,
+              0.592948717948718
+            ],
+            "rotation": 0.0
+          },
+          {
+            "text": "20",
+            "crop_bbox": [
+              0.3577981651376147,
+              0.5448717948717948,
+              0.7201834862385321,
+              0.6346153846153846
+            ],
+            "rotation": 0.0
+          }
+        ]
+      }
+    },
+    {
+      "image": "IMG_3229",
+      "orientation": 180,
+      "expected": 20,
+      "capacity": {
+        "value": 20.0,
+        "unit": "mL",
+        "score": 0.7856051921844482,
+        "method": "adjacent number and unit",
+        "evidence": [
+          {
+            "text": "ml",
+            "crop_bbox": [
+              0.16513761467889895,
+              0.40544871794871795,
+              0.7110091743119265,
+              0.4895833333333333
+            ],
+            "rotation": 180.0
+          },
+          {
+            "text": "20",
+            "crop_bbox": [
+              0.275229357798165,
+              0.36378205128205127,
+              0.6376146788990824,
+              0.453525641025641
+            ],
+            "rotation": 180.0
+          }
+        ]
+      }
+    },
+    {
+      "image": "IMG_3198",
+      "orientation": 0,
+      "expected": 60,
+      "capacity": {
+        "value": 60.0,
+        "unit": "mL",
+        "score": 0.9204007387161255,
+        "method": "adjacent number and unit",
+        "evidence": [
+          {
+            "text": "ml",
+            "crop_bbox": [
+              0.5068119891008175,
+              0.47435897435897434,
+              0.7683923705722071,
+              0.5384615384615384
+            ],
+            "rotation": 0.0
+          },
+          {
+            "text": "60",
+            "crop_bbox": [
+              0.5422343324250681,
+              0.5272435897435898,
+              0.7166212534059946,
+              0.5833333333333334
+            ],
+            "rotation": 0.0
+          }
+        ]
+      }
+    },
+    {
+      "image": "IMG_3198",
+      "orientation": 180,
+      "expected": 60,
+      "capacity": null
+    }
+  ],
+  "selection_sha256": "1aa3bc3b87eda562c1fedb8b1e4f2e746452e8cb41f3cbd8e7238adf9995a80e",
+  "evidence_review": {
+    "outputs": 36,
+    "status": "All 36 emitted unit-and-number regions were reviewed visually on the detector crops."
+  }
+}

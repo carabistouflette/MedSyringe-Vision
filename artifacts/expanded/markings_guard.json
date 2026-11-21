@@ -1,0 +1,59 @@
+{
+  "config": {
+    "base_freeze_sha256": "d28fc3ad87b0797416006712182cfd16a5df5f8af5e8735031eea9e3440ca191",
+    "code_sha256": "dee5da468e922be2d7560f96c4c2e09e185f703647d72b72878b64e290e762bb",
+    "policy": "Apply to all capacities that lack a corroborating visible scale."
+  },
+  "groups": {
+    "calibration": {
+      "metrics": {
+        "correct": 44,
+        "wrong": 0,
+        "abstained": 24
+      },
+      "suppressions": []
+    },
+    "test": {
+      "metrics": {
+        "correct": 8,
+        "wrong": 0,
+        "abstained": 6
+      },
+      "suppressions": [
+        {
+          "id": "IMG_3190",
+          "suppressed": {
+            "value": 26.0,
+            "unit": "mL",
+            "score": 0.7634385228157043,
+            "method": "adjacent number and unit",
+            "evidence": [
+              {
+                "text": "ml",
+                "crop_bbox": [
+                  0.5747253648139039,
+                  0.464893351800554,
+                  0.706837186424004,
+                  0.5038518005540167
+                ],
+                "rotation": 0.0
+              },
+              {
+                "text": "26",
+                "crop_bbox": [
+                  0.5616113744075829,
+                  0.46073717948717946,
+                  0.7251184834123223,
+                  0.5416666666666666
+                ],
+                "rotation": 0.0
+              }
+            ]
+          },
+          "group_capacity": 20.0
+        }
+      ]
+    }
+  },
+  "scope": "Additional evidence rule evaluated after a discovered error. Test results are regression evidence."
+}

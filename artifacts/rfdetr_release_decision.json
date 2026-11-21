@@ -1,0 +1,132 @@
+{
+  "selected_on_calibration": true,
+  "eligible_for_release": false,
+  "scope": "The reserve is independent by Zenodo clip only. Fil rouge is development data.",
+  "protocol_sha256": "fa18c6c3d19be7d37cf6778b95eef32fe4c7757e59f49b67231d906287ae4eac",
+  "cohorts": {
+    "fresh": {
+      "baseline": {
+        "precision": 0.3333333333333333,
+        "recall": 0.1111111111111111,
+        "f1": 0.16666666666666666,
+        "ap50": 0.18573402304233402,
+        "ap50_95": 0.11898421656830585,
+        "exact_count": 18,
+        "tp": 1,
+        "fp": 2,
+        "fn": 8
+      },
+      "candidate": {
+        "precision": 0.6,
+        "recall": 0.3333333333333333,
+        "f1": 0.42857142857142855,
+        "ap50": 0.2573845183704633,
+        "ap50_95": 0.16476888444519894,
+        "exact_count": 20,
+        "tp": 3,
+        "fp": 2,
+        "fn": 6
+      },
+      "guard": {
+        "passed": true,
+        "lost_matches": [],
+        "recovered_matches": 2,
+        "baseline_matches": 1,
+        "candidate_matches": 3
+      }
+    },
+    "fil_rouge": {
+      "baseline": {
+        "precision": 1.0,
+        "recall": 0.9459459459459459,
+        "f1": 0.9722222222222222,
+        "ap50": 1.0,
+        "ap50_95": 0.7635691888570749,
+        "exact_count": 70,
+        "tp": 70,
+        "fp": 0,
+        "fn": 4
+      },
+      "candidate": {
+        "precision": 1.0,
+        "recall": 0.9459459459459459,
+        "f1": 0.9722222222222222,
+        "ap50": 1.0,
+        "ap50_95": 0.7635691888570749,
+        "exact_count": 70,
+        "tp": 70,
+        "fp": 0,
+        "fn": 4
+      },
+      "guard": {
+        "passed": true,
+        "lost_matches": [],
+        "recovered_matches": 0,
+        "baseline_matches": 70,
+        "candidate_matches": 70
+      }
+    },
+    "historical": {
+      "baseline": {
+        "precision": 1.0,
+        "recall": 0.6,
+        "f1": 0.7499999999999999,
+        "ap50": 0.8830305611206279,
+        "ap50_95": 0.7118888663059852,
+        "exact_count": 7,
+        "tp": 9,
+        "fp": 0,
+        "fn": 6
+      },
+      "candidate": {
+        "precision": 1.0,
+        "recall": 0.6,
+        "f1": 0.7499999999999999,
+        "ap50": 0.8830305611206279,
+        "ap50_95": 0.7118888663059852,
+        "exact_count": 7,
+        "tp": 9,
+        "fp": 0,
+        "fn": 6
+      },
+      "guard": {
+        "passed": true,
+        "lost_matches": [],
+        "recovered_matches": 0,
+        "baseline_matches": 9,
+        "candidate_matches": 9
+      }
+    },
+    "previous_external": {
+      "baseline": {
+        "precision": 0.7692307692307693,
+        "recall": 0.8333333333333334,
+        "f1": 0.8,
+        "ap50": 0.908840169731259,
+        "ap50_95": 0.6826025459688827,
+        "exact_count": 9,
+        "tp": 10,
+        "fp": 3,
+        "fn": 2
+      },
+      "candidate": {
+        "precision": 0.625,
+        "recall": 0.8333333333333334,
+        "f1": 0.7142857142857143,
+        "ap50": 0.8845307345690513,
+        "ap50_95": 0.6649794139341193,
+        "exact_count": 8,
+        "tp": 10,
+        "fp": 6,
+        "fn": 2
+      },
+      "guard": {
+        "passed": true,
+        "lost_matches": [],
+        "recovered_matches": 0,
+        "baseline_matches": 10,
+        "candidate_matches": 10
+      }
+    }
+  }
+}

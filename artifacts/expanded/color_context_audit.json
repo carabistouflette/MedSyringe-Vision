@@ -1,0 +1,143 @@
+{
+  "freeze_sha256": "39bcb911fbeafb0b2adccaa4c956dbcc2ea872852a893c7c3b5b9957f2214755",
+  "clear_regression": {
+    "IMG_3178": false,
+    "IMG_3179": false,
+    "IMG_3180": false,
+    "IMG_3181": false,
+    "IMG_3182": false,
+    "IMG_3183": false,
+    "IMG_3184": false,
+    "IMG_3185": false,
+    "IMG_3186": false,
+    "IMG_3187": false,
+    "IMG_3188": false,
+    "IMG_3189": false,
+    "IMG_3190": false,
+    "IMG_3191": false
+  },
+  "public_controls": {
+    "163322504": {
+      "baseline": true,
+      "candidate": true,
+      "candidate_observation": {
+        "status": "appearance measured",
+        "reason": "Measured within the supported barrel interior",
+        "lightness": {
+          "lstar": 61.0,
+          "iqr": [
+            55.5,
+            65.0
+          ],
+          "category": "medium"
+        },
+        "apparent_color": {
+          "lab": [
+            61.0,
+            -2.5,
+            -21.7
+          ],
+          "chroma": 21.8,
+          "srgb": [
+            123,
+            147,
+            189
+          ],
+          "profile": "Embedded profile converted to sRGB"
+        },
+        "region": [
+          0.0851063829787234,
+          0.014285714285714285,
+          0.5957446808510638,
+          0.4452380952380952
+        ],
+        "opacity": null,
+        "opacity_reason": "A registered clear-barrel reference at the same exposure is required."
+      }
+    },
+    "178849232": {
+      "baseline": false,
+      "candidate": false,
+      "candidate_observation": {
+        "status": "insufficient evidence",
+        "lightness": null,
+        "apparent_color": null,
+        "opacity": null,
+        "opacity_reason": "A registered clear-barrel reference at the same exposure is required."
+      }
+    },
+    "201441851": {
+      "baseline": false,
+      "candidate": false,
+      "candidate_observation": {
+        "status": "insufficient evidence",
+        "lightness": null,
+        "apparent_color": null,
+        "opacity": null,
+        "opacity_reason": "A registered clear-barrel reference at the same exposure is required."
+      }
+    },
+    "146786108": {
+      "baseline": false,
+      "candidate": false,
+      "candidate_observation": {
+        "status": "insufficient evidence",
+        "lightness": null,
+        "apparent_color": null,
+        "opacity": null,
+        "opacity_reason": "A registered clear-barrel reference at the same exposure is required."
+      }
+    },
+    "40322872": {
+      "baseline": true,
+      "candidate": true,
+      "candidate_observation": {
+        "status": "appearance measured",
+        "reason": "Measured within the supported barrel interior",
+        "lightness": {
+          "lstar": 62.3,
+          "iqr": [
+            48.0,
+            68.8
+          ],
+          "category": "medium"
+        },
+        "apparent_color": {
+          "lab": [
+            62.3,
+            19.2,
+            43.5
+          ],
+          "chroma": 47.5,
+          "srgb": [
+            201,
+            135,
+            59
+          ],
+          "profile": "sRGB assumed"
+        },
+        "region": [
+          0.48333333333333334,
+          0.2777777777777778,
+          0.6904761904761905,
+          0.7592592592592593
+        ],
+        "opacity": null,
+        "opacity_reason": "A registered clear-barrel reference at the same exposure is required."
+      }
+    },
+    "19682206": {
+      "baseline": false,
+      "candidate": false,
+      "candidate_observation": {
+        "status": "insufficient evidence",
+        "lightness": null,
+        "apparent_color": null,
+        "opacity": null,
+        "opacity_reason": "A registered clear-barrel reference at the same exposure is required."
+      }
+    }
+  },
+  "false_regression": 0,
+  "false_public": 2
+}

@@ -1,0 +1,372 @@
+{
+  "selected": null,
+  "shadow": {
+    "policy": {
+      "method": "stacked-hybrid",
+      "confidence": 0.95,
+      "sam": 0.15
+    },
+    "shadow_tp": 43,
+    "shadow_fp": 8,
+    "natural_additions": 0,
+    "safe_proxy": false,
+    "safe_live": true
+  },
+  "trials": [
+    {
+      "policy": {
+        "method": "crop",
+        "confidence": 0.55,
+        "sam": 0.15
+      },
+      "shadow_tp": 42,
+      "shadow_fp": 27,
+      "natural_additions": 0,
+      "safe_proxy": false,
+      "safe_live": true
+    },
+    {
+      "policy": {
+        "method": "crop",
+        "confidence": 0.68,
+        "sam": 0.15
+      },
+      "shadow_tp": 42,
+      "shadow_fp": 26,
+      "natural_additions": 0,
+      "safe_proxy": false,
+      "safe_live": true
+    },
+    {
+      "policy": {
+        "method": "crop",
+        "confidence": 0.78,
+        "sam": 0.15
+      },
+      "shadow_tp": 40,
+      "shadow_fp": 25,
+      "natural_additions": 0,
+      "safe_proxy": false,
+      "safe_live": true
+    },
+    {
+      "policy": {
+        "method": "crop",
+        "confidence": 0.88,
+        "sam": 0.15
+      },
+      "shadow_tp": 36,
+      "shadow_fp": 22,
+      "natural_additions": 0,
+      "safe_proxy": false,
+      "safe_live": true
+    },
+    {
+      "policy": {
+        "method": "crop",
+        "confidence": 0.95,
+        "sam": 0.15
+      },
+      "shadow_tp": 26,
+      "shadow_fp": 13,
+      "natural_additions": 0,
+      "safe_proxy": false,
+      "safe_live": true
+    },
+    {
+      "policy": {
+        "method": "crop+sam",
+        "confidence": 0.55,
+        "sam": 0.15
+      },
+      "shadow_tp": 43,
+      "shadow_fp": 21,
+      "natural_additions": 0,
+      "safe_proxy": false,
+      "safe_live": true
+    },
+    {
+      "policy": {
+        "method": "crop+sam",
+        "confidence": 0.55,
+        "sam": 0.35
+      },
+      "shadow_tp": 43,
+      "shadow_fp": 21,
+      "natural_additions": 0,
+      "safe_proxy": false,
+      "safe_live": true
+    },
+    {
+      "policy": {
+        "method": "crop+sam",
+        "confidence": 0.68,
+        "sam": 0.15
+      },
+      "shadow_tp": 43,
+      "shadow_fp": 21,
+      "natural_additions": 0,
+      "safe_proxy": false,
+      "safe_live": true
+    },
+    {
+      "policy": {
+        "method": "crop+sam",
+        "confidence": 0.68,
+        "sam": 0.35
+      },
+      "shadow_tp": 43,
+      "shadow_fp": 21,
+      "natural_additions": 0,
+      "safe_proxy": false,
+      "safe_live": true
+    },
+    {
+      "policy": {
+        "method": "crop+sam",
+        "confidence": 0.78,
+        "sam": 0.15
+      },
+      "shadow_tp": 41,
+      "shadow_fp": 20,
+      "natural_additions": 0,
+      "safe_proxy": false,
+      "safe_live": true
+    },
+    {
+      "policy": {
+        "method": "crop+sam",
+        "confidence": 0.78,
+        "sam": 0.35
+      },
+      "shadow_tp": 41,
+      "shadow_fp": 20,
+      "natural_additions": 0,
+      "safe_proxy": false,
+      "safe_live": true
+    },
+    {
+      "policy": {
+        "method": "crop+sam",
+        "confidence": 0.88,
+        "sam": 0.15
+      },
+      "shadow_tp": 37,
+      "shadow_fp": 18,
+      "natural_additions": 0,
+      "safe_proxy": false,
+      "safe_live": true
+    },
+    {
+      "policy": {
+        "method": "crop+sam",
+        "confidence": 0.88,
+        "sam": 0.35
+      },
+      "shadow_tp": 37,
+      "shadow_fp": 18,
+      "natural_additions": 0,
+      "safe_proxy": false,
+      "safe_live": true
+    },
+    {
+      "policy": {
+        "method": "crop+sam",
+        "confidence": 0.95,
+        "sam": 0.15
+      },
+      "shadow_tp": 27,
+      "shadow_fp": 11,
+      "natural_additions": 0,
+      "safe_proxy": false,
+      "safe_live": true
+    },
+    {
+      "policy": {
+        "method": "crop+sam",
+        "confidence": 0.95,
+        "sam": 0.35
+      },
+      "shadow_tp": 27,
+      "shadow_fp": 11,
+      "natural_additions": 0,
+      "safe_proxy": false,
+      "safe_live": true
+    },
+    {
+      "policy": {
+        "method": "stacked-basic",
+        "confidence": 0.55,
+        "sam": 0.15
+      },
+      "shadow_tp": 47,
+      "shadow_fp": 22,
+      "natural_additions": 0,
+      "safe_proxy": false,
+      "safe_live": true
+    },
+    {
+      "policy": {
+        "method": "stacked-basic",
+        "confidence": 0.68,
+        "sam": 0.15
+      },
+      "shadow_tp": 47,
+      "shadow_fp": 22,
+      "natural_additions": 0,
+      "safe_proxy": false,
+      "safe_live": true
+    },
+    {
+      "policy": {
+        "method": "stacked-basic",
+        "confidence": 0.78,
+        "sam": 0.15
+      },
+      "shadow_tp": 47,
+      "shadow_fp": 21,
+      "natural_additions": 0,
+      "safe_proxy": false,
+      "safe_live": true
+    },
+    {
+      "policy": {
+        "method": "stacked-basic",
+        "confidence": 0.88,
+        "sam": 0.15
+      },
+      "shadow_tp": 47,
+      "shadow_fp": 20,
+      "natural_additions": 0,
+      "safe_proxy": false,
+      "safe_live": true
+    },
+    {
+      "policy": {
+        "method": "stacked-basic",
+        "confidence": 0.95,
+        "sam": 0.15
+      },
+      "shadow_tp": 40,
+      "shadow_fp": 15,
+      "natural_additions": 0,
+      "safe_proxy": false,
+      "safe_live": true
+    },
+    {
+      "policy": {
+        "method": "stacked-hybrid",
+        "confidence": 0.55,
+        "sam": 0.15
+      },
+      "shadow_tp": 54,
+      "shadow_fp": 15,
+      "natural_additions": 1,
+      "safe_proxy": false,
+      "safe_live": false
+    },
+    {
+      "policy": {
+        "method": "stacked-hybrid",
+        "confidence": 0.68,
+        "sam": 0.15
+      },
+      "shadow_tp": 52,
+      "shadow_fp": 14,
+      "natural_additions": 1,
+      "safe_proxy": false,
+      "safe_live": false
+    },
+    {
+      "policy": {
+        "method": "stacked-hybrid",
+        "confidence": 0.78,
+        "sam": 0.15
+      },
+      "shadow_tp": 52,
+      "shadow_fp": 13,
+      "natural_additions": 0,
+      "safe_proxy": false,
+      "safe_live": true
+    },
+    {
+      "policy": {
+        "method": "stacked-hybrid",
+        "confidence": 0.88,
+        "sam": 0.15
+      },
+      "shadow_tp": 52,
+      "shadow_fp": 10,
+      "natural_additions": 0,
+      "safe_proxy": false,
+      "safe_live": true
+    },
+    {
+      "policy": {
+        "method": "stacked-hybrid",
+        "confidence": 0.95,
+        "sam": 0.15
+      },
+      "shadow_tp": 43,
+      "shadow_fp": 8,
+      "natural_additions": 0,
+      "safe_proxy": false,
+      "safe_live": true
+    }
+  ],
+  "models": {
+    "stacked-basic": {
+      "weights": [
+        3.1579778691105638,
+        0.14329941167417984
+      ],
+      "bias": 0.003911591416299749,
+      "mean": [
+        0.48451326201198774,
+        0.39242210211562534
+      ],
+      "scale": [
+        0.42961962558817973,
+        0.13336884831415974
+      ],
+      "features": 2
+    },
+    "stacked-hybrid": {
+      "weights": [
+        2.4547501853615272,
+        0.2059084291091259,
+        0.9047141850127817,
+        0.1648528417995923,
+        -0.10405958054180207,
+        -0.07039340796061436,
+        0.48988601383396113,
+        0.567303375011942
+      ],
+      "bias": -0.030560193663852122,
+      "mean": [
+        0.48451326201198774,
+        0.3924221021156254,
+        0.5291518979639892,
+        0.1353274960430847,
+        0.057424703700952755,
+        0.024225416264449844,
+        0.3995082868356713,
+        -1.5301712475396836
+      ],
+      "scale": [
+        0.4296196255881797,
+        0.13336884831415974,
+        0.4420263130523088,
+        0.292592444073758,
+        0.07064011466947502,
+        0.053623417509641,
+        0.4415601350603898,
+        0.9612633699006109
+      ],
+      "features": 8
+    }
+  },
+  "fit_sha256": "81afce7405457865a73f4b8ac5c91a802ee2de057c2b8f8b63092c9ba24d92c2",
+  "calibration_sha256": "3a318706d9d9a5212e24d7c648389d168d90a00f19736aef42bf19f77b8d2549",
+  "scope": "Development rescue simulation by masking published predictions. No reserve data used."
+}

@@ -1,0 +1,277 @@
+{
+  "scope": "Known misses and previously consulted development controls.",
+  "parameters": {
+    "input_sha256": "e032abae022380d26af9c01a5600975db0bf630a3215571165b852da8f5ffe60",
+    "checkpoint_sha256": "31bb1d7c1246179d7b107f903c3b9af322c22e6c3b1830544c7c946260598112",
+    "code_sha256": "672278ed74cd9a58340a818f1bae8bade9067b92ce9961b0f2b29d3532b2ad49",
+    "edge": 504,
+    "prompt": "syringe",
+    "device": "cpu",
+    "torch": "2.9.1+cpu",
+    "transformers": "5.23.0"
+  },
+  "baseline": {
+    "precision": 0.6666666666666666,
+    "recall": 0.5,
+    "f1": 0.5714285714285715,
+    "ap50": 0.7999999999999998,
+    "ap50_95": 0.6119471947194719,
+    "exact_count": 4,
+    "tp": 4,
+    "fp": 2,
+    "fn": 4
+  },
+  "trials": [
+    {
+      "view": "full",
+      "score": 0.2,
+      "precision": 0.8,
+      "recall": 1.0,
+      "f1": 0.888888888888889,
+      "ap50": 0.7999999999999998,
+      "ap50_95": 0.5775427542754275,
+      "exact_count": 8,
+      "tp": 8,
+      "fp": 2,
+      "fn": 0,
+      "guard": {
+        "passed": true,
+        "lost_matches": [],
+        "recovered_matches": 4,
+        "baseline_matches": 4,
+        "candidate_matches": 8
+      }
+    },
+    {
+      "view": "full",
+      "score": 0.35,
+      "precision": 0.8,
+      "recall": 1.0,
+      "f1": 0.888888888888889,
+      "ap50": 0.7999999999999998,
+      "ap50_95": 0.5775427542754275,
+      "exact_count": 8,
+      "tp": 8,
+      "fp": 2,
+      "fn": 0,
+      "guard": {
+        "passed": true,
+        "lost_matches": [],
+        "recovered_matches": 4,
+        "baseline_matches": 4,
+        "candidate_matches": 8
+      }
+    },
+    {
+      "view": "full",
+      "score": 0.5,
+      "precision": 0.8,
+      "recall": 1.0,
+      "f1": 0.888888888888889,
+      "ap50": 0.7999999999999998,
+      "ap50_95": 0.5775427542754275,
+      "exact_count": 8,
+      "tp": 8,
+      "fp": 2,
+      "fn": 0,
+      "guard": {
+        "passed": true,
+        "lost_matches": [],
+        "recovered_matches": 4,
+        "baseline_matches": 4,
+        "candidate_matches": 8
+      }
+    },
+    {
+      "view": "full",
+      "score": 0.65,
+      "precision": 0.8,
+      "recall": 1.0,
+      "f1": 0.888888888888889,
+      "ap50": 0.7999999999999998,
+      "ap50_95": 0.5775427542754275,
+      "exact_count": 8,
+      "tp": 8,
+      "fp": 2,
+      "fn": 0,
+      "guard": {
+        "passed": true,
+        "lost_matches": [],
+        "recovered_matches": 4,
+        "baseline_matches": 4,
+        "candidate_matches": 8
+      }
+    },
+    {
+      "view": "full",
+      "score": 0.8,
+      "precision": 0.8,
+      "recall": 1.0,
+      "f1": 0.888888888888889,
+      "ap50": 0.7999999999999998,
+      "ap50_95": 0.5775427542754275,
+      "exact_count": 8,
+      "tp": 8,
+      "fp": 2,
+      "fn": 0,
+      "guard": {
+        "passed": true,
+        "lost_matches": [],
+        "recovered_matches": 4,
+        "baseline_matches": 4,
+        "candidate_matches": 8
+      }
+    }
+  ],
+  "roles": {
+    "IMG_3229": "known_miss",
+    "IMG_3235": "known_miss",
+    "IMG_3283": "known_miss",
+    "IMG_3318": "known_miss",
+    "IMG_3198": "positive_control",
+    "IMG_3223": "positive_control",
+    "IMG_3304": "positive_control",
+    "IMG_3234": "positive_control",
+    "187533233": "negative_development_control",
+    "69986635": "negative_development_control"
+  },
+  "latency_seconds": {
+    "full": 12.261684370991134
+  },
+  "frames": {
+    "IMG_3229": {
+      "times": {
+        "full": 14.04031870700419
+      },
+      "coverage": [
+        {
+          "full": {
+            "best_iou": 0.7378786518345563,
+            "best_matching_score": 0.9403463006019592,
+            "best_mask_box_iou": 0.7798214975636262
+          }
+        }
+      ],
+      "peak_rss_kib": 4020852
+    },
+    "IMG_3235": {
+      "times": {
+        "full": 11.38006336100807
+      },
+      "coverage": [
+        {
+          "full": {
+            "best_iou": 0.782793927063116,
+            "best_matching_score": 0.9140477180480957,
+            "best_mask_box_iou": 0.8441500306402341
+          }
+        }
+      ],
+      "peak_rss_kib": 4064240
+    },
+    "IMG_3283": {
+      "times": {
+        "full": 11.446031287006917
+      },
+      "coverage": [
+        {
+          "full": {
+            "best_iou": 0.8116888441586251,
+            "best_matching_score": 0.9614665508270264,
+            "best_mask_box_iou": 0.8447343597341141
+          }
+        }
+      ],
+      "peak_rss_kib": 4064240
+    },
+    "IMG_3318": {
+      "times": {
+        "full": 12.483934064992354
+      },
+      "coverage": [
+        {
+          "full": {
+            "best_iou": 0.860715364894041,
+            "best_matching_score": 0.9701675176620483,
+            "best_mask_box_iou": 0.8776641744024898
+          }
+        }
+      ],
+      "peak_rss_kib": 4064240
+    },
+    "IMG_3198": {
+      "times": {
+        "full": 13.38132124200638
+      },
+      "coverage": [
+        {
+          "full": {
+            "best_iou": 0.9048274622366554,
+            "best_matching_score": 0.954908013343811,
+            "best_mask_box_iou": 0.9374494623557484
+          }
+        }
+      ],
+      "peak_rss_kib": 4064240
+    },
+    "IMG_3223": {
+      "times": {
+        "full": 12.708549899005448
+      },
+      "coverage": [
+        {
+          "full": {
+            "best_iou": 0.6722794228177758,
+            "best_matching_score": 0.9495454430580139,
+            "best_mask_box_iou": 0.708981283238971
+          }
+        }
+      ],
+      "peak_rss_kib": 4075124
+    },
+    "IMG_3304": {
+      "times": {
+        "full": 13.778056098002708
+      },
+      "coverage": [
+        {
+          "full": {
+            "best_iou": 0.9735486570030829,
+            "best_matching_score": 0.9351506233215332,
+            "best_mask_box_iou": 0.9573392600339687
+          }
+        }
+      ],
+      "peak_rss_kib": 4075124
+    },
+    "IMG_3234": {
+      "times": {
+        "full": 12.039434676989913
+      },
+      "coverage": [
+        {
+          "full": {
+            "best_iou": 0.763206678721652,
+            "best_matching_score": 0.9803088903427124,
+            "best_mask_box_iou": 0.8314651996485398
+          }
+        }
+      ],
+      "peak_rss_kib": 4075124
+    },
+    "187533233": {
+      "times": {
+        "full": 11.296412436990067
+      },
+      "coverage": [],
+      "peak_rss_kib": 4075124
+    },
+    "69986635": {
+      "times": {
+        "full": 11.319241489996784
+      },
+      "coverage": [],
+      "peak_rss_kib": 4075124
+    }
+  }
+}

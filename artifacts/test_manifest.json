@@ -1,0 +1,338 @@
+{
+  "rows": [
+    {
+      "id": "20680ed0b1432b10",
+      "group": "openimages:https://www.flickr.com/people/rvoegtli",
+      "split": "test",
+      "image": "openimages/test/20680ed0b1432b10.jpg",
+      "sha256": "c3b0edb7ae39b899914e1f016fd71ab47fe151ad8d55a8ec9706d6528005bad5",
+      "dhash": "0f19310911610103",
+      "width": 1024,
+      "height": 796,
+      "objects": [
+        {
+          "bbox": [
+            0.05732484,
+            0.020491803,
+            0.9681529,
+            0.7663934
+          ],
+          "occluded": false,
+          "truncated": false
+        }
+      ],
+      "author": "Rosmarie Voegtli",
+      "source_url": "https://www.flickr.com/photos/rvoegtli/4927466810",
+      "download_url": "https://open-images-dataset.s3.amazonaws.com/test/20680ed0b1432b10.jpg",
+      "license": "https://creativecommons.org/licenses/by/2.0",
+      "title": "Injektion"
+    },
+    {
+      "id": "3de6083514fb3c33",
+      "group": "openimages:https://www.flickr.com/people/whiterimage",
+      "split": "test",
+      "image": "openimages/test/3de6083514fb3c33.jpg",
+      "sha256": "97ecef020b79b876ab548a11d77f68d31ba8b08fc741e0f07386bf9a20c7e13c",
+      "dhash": "08dedebec8b0c4c8",
+      "width": 1024,
+      "height": 770,
+      "objects": [
+        {
+          "bbox": [
+            0.112676054,
+            0.19375,
+            0.91705793,
+            0.3875
+          ],
+          "occluded": false,
+          "truncated": false
+        },
+        {
+          "bbox": [
+            0.11737089,
+            0.104166664,
+            0.92175275,
+            0.27083334
+          ],
+          "occluded": true,
+          "truncated": false
+        },
+        {
+          "bbox": [
+            0.13615024,
+            0.28125,
+            0.91392803,
+            0.62916666
+          ],
+          "occluded": false,
+          "truncated": false
+        },
+        {
+          "bbox": [
+            0.18622848,
+            0.35625,
+            0.9342723,
+            0.90833336
+          ],
+          "occluded": false,
+          "truncated": false
+        }
+      ],
+      "author": "Whiter Image",
+      "source_url": "https://www.flickr.com/photos/whiterimage/5656607346",
+      "download_url": "https://open-images-dataset.s3.amazonaws.com/test/3de6083514fb3c33.jpg",
+      "license": "https://creativecommons.org/licenses/by/2.0",
+      "title": "Syringes without Packaging"
+    },
+    {
+      "id": "92de7044b30f8bec",
+      "group": "openimages:https://www.flickr.com/people/oskay",
+      "split": "test",
+      "image": "openimages/test/92de7044b30f8bec.jpg",
+      "sha256": "b92a5564d36727efac0d75aadfd8a8e6456cc3bcb697330f6103f3b4e30ffffd",
+      "dhash": "07030638e1816103",
+      "width": 1024,
+      "height": 768,
+      "objects": [
+        {
+          "bbox": [
+            0.109375,
+            0.28958333,
+            0.871875,
+            0.6645833
+          ],
+          "occluded": false,
+          "truncated": false
+        }
+      ],
+      "author": "Windell Oskay",
+      "source_url": "https://www.flickr.com/photos/oskay/2362751571/",
+      "download_url": "https://open-images-dataset.s3.amazonaws.com/test/92de7044b30f8bec.jpg",
+      "license": "https://creativecommons.org/licenses/by/2.0",
+      "title": "Drying tube"
+    },
+    {
+      "id": "93808fbe0bb9dd09",
+      "group": "openimages:https://www.flickr.com/people/v1ctor",
+      "split": "test",
+      "image": "openimages/test/93808fbe0bb9dd09.jpg",
+      "sha256": "7956ab17957cba846d222612a24097b106d5c675dde719b503646d042ac3a202",
+      "dhash": "ffff7de1e11f0f0f",
+      "width": 1024,
+      "height": 601,
+      "objects": [
+        {
+          "bbox": [
+            0.062240664,
+            0.22877358,
+            0.9571231,
+            0.5330189
+          ],
+          "occluded": false,
+          "truncated": false
+        },
+        {
+          "bbox": [
+            0.073305674,
+            0.370283,
+            0.9515906,
+            0.625
+          ],
+          "occluded": false,
+          "truncated": false
+        }
+      ],
+      "author": "Victor",
+      "source_url": "https://www.flickr.com/photos/v1ctor/7615946548",
+      "download_url": "https://open-images-dataset.s3.amazonaws.com/test/93808fbe0bb9dd09.jpg",
+      "license": "https://creativecommons.org/licenses/by/2.0",
+      "title": "Syringe"
+    },
+    {
+      "id": "a47d8017a8106c57",
+      "group": "openimages:https://www.flickr.com/people/abood2-2",
+      "split": "test",
+      "image": "openimages/test/a47d8017a8106c57.jpg",
+      "sha256": "fc3c01f9c83ddec1155b65f91b6703194123bccd33e6d15edde5582988e78bb0",
+      "dhash": "bfbd94d6e766ebcb",
+      "width": 1024,
+      "height": 768,
+      "objects": [
+        {
+          "bbox": [
+            0.1,
+            0.22083333,
+            0.55625,
+            0.96875
+          ],
+          "occluded": true,
+          "truncated": false
+        },
+        {
+          "bbox": [
+            0.196875,
+            0.35416666,
+            0.525,
+            1.0
+          ],
+          "occluded": true,
+          "truncated": true
+        },
+        {
+          "bbox": [
+            0.4171875,
+            0.14791666,
+            0.5625,
+            1.0
+          ],
+          "occluded": false,
+          "truncated": false
+        }
+      ],
+      "author": "ABDULLAH SOLIMAN",
+      "source_url": "https://www.flickr.com/photos/abood2-2/5209851019",
+      "download_url": "https://open-images-dataset.s3.amazonaws.com/test/a47d8017a8106c57.jpg",
+      "license": "https://creativecommons.org/licenses/by/2.0",
+      "title": "My Medicine"
+    },
+    {
+      "id": "c0daa05df96c7f49",
+      "group": "openimages:https://www.flickr.com/people/124631280@N06",
+      "split": "test",
+      "image": "openimages/test/c0daa05df96c7f49.jpg",
+      "sha256": "5113eeaa67b1da727ab2710c63a7ceb6f7594c8f0651e980d6d9f08cf482a825",
+      "dhash": "4f810d6d6dc03ab8",
+      "width": 1024,
+      "height": 668,
+      "objects": [
+        {
+          "bbox": [
+            0.010204081,
+            0.21923937,
+            1.0,
+            0.655481
+          ],
+          "occluded": false,
+          "truncated": false
+        }
+      ],
+      "author": "Cayla Devine",
+      "source_url": "https://www.flickr.com/photos/124631280@N06/14475676923",
+      "download_url": "https://open-images-dataset.s3.amazonaws.com/test/c0daa05df96c7f49.jpg",
+      "license": "https://creativecommons.org/licenses/by/2.0",
+      "title": "vvv chylous effusion"
+    },
+    {
+      "id": "c7962f4c24e15b00",
+      "group": "openimages:https://www.flickr.com/people/sooperkuh",
+      "split": "test",
+      "image": "openimages/test/c7962f4c24e15b00.jpg",
+      "sha256": "ae9c9bcdf90d9a008057f9784b9fec64ad9dc36130674e445892e44e874b23af",
+      "dhash": "7f3d33c65bb74f3f",
+      "width": 1024,
+      "height": 768,
+      "objects": [
+        {
+          "bbox": [
+            0.18779343,
+            0.30625,
+            0.7370892,
+            0.77916664
+          ],
+          "occluded": false,
+          "truncated": false
+        }
+      ],
+      "author": "Ralph Aichinger",
+      "source_url": "https://www.flickr.com/photos/sooperkuh/4572048565",
+      "download_url": "https://open-images-dataset.s3.amazonaws.com/test/c7962f4c24e15b00.jpg",
+      "license": "https://creativecommons.org/licenses/by/2.0",
+      "title": "147"
+    },
+    {
+      "id": "dd8a2f0b95823265",
+      "group": "openimages:https://www.flickr.com/people/miran",
+      "split": "test",
+      "image": "openimages/test/dd8a2f0b95823265.jpg",
+      "sha256": "cf95324476f99a579ee5a41735ce0447c7bc523ea04bd59170427194b1a56bd0",
+      "dhash": "65f3b8555539330a",
+      "width": 1024,
+      "height": 768,
+      "objects": [
+        {
+          "bbox": [
+            0.259375,
+            0.03125,
+            0.846875,
+            0.42916667
+          ],
+          "occluded": false,
+          "truncated": false
+        },
+        {
+          "bbox": [
+            0.3140625,
+            0.52708334,
+            0.834375,
+            0.90625
+          ],
+          "occluded": false,
+          "truncated": false
+        }
+      ],
+      "author": "Miran  Rijavec",
+      "source_url": "https://www.flickr.com/photos/miran/20749226708",
+      "download_url": "https://open-images-dataset.s3.amazonaws.com/test/dd8a2f0b95823265.jpg",
+      "license": "https://creativecommons.org/licenses/by/2.0",
+      "title": "IMG_20150828_015028"
+    },
+    {
+      "id": "67555d88764b9d7f",
+      "group": "openimages:https://www.flickr.com/people/nayukim",
+      "split": "test",
+      "image": "openimages/test/67555d88764b9d7f.jpg",
+      "sha256": "1ba216765eb69f13e966560ae695b84e60ff9efc5202ee3891d8c60dcb7f590b",
+      "dhash": "01a0d0d1d1616929",
+      "width": 716,
+      "height": 1024,
+      "objects": [],
+      "author": "Nayuki",
+      "source_url": "https://www.flickr.com/photos/nayukim/3826328711",
+      "download_url": "https://open-images-dataset.s3.amazonaws.com/test/67555d88764b9d7f.jpg",
+      "license": "https://creativecommons.org/licenses/by/2.0",
+      "title": "Colorful lead pencils"
+    },
+    {
+      "id": "b7a1435b16b4fc39",
+      "group": "openimages:https://www.flickr.com/people/24995357@N03",
+      "split": "test",
+      "image": "openimages/test/b7a1435b16b4fc39.jpg",
+      "sha256": "37878c6ec90a3d9075b68ae56a78ce63dde51eba8241334177d45797fb46d932",
+      "dhash": "333931316dd4d6d6",
+      "width": 680,
+      "height": 1024,
+      "objects": [],
+      "author": "Doug",
+      "source_url": "https://www.flickr.com/photos/24995357@N03/4120052902",
+      "download_url": "https://open-images-dataset.s3.amazonaws.com/test/b7a1435b16b4fc39.jpg",
+      "license": "https://creativecommons.org/licenses/by/2.0",
+      "title": "The Nurse Practitioner Will See You Now"
+    }
+  ],
+  "rejected": {
+    "23e87e620f03ad91": "ambiguous group, depiction or inside",
+    "c6643ebd07378055": "ambiguous group, depiction or inside"
+  },
+  "sources": {
+    "boxes": "https://storage.googleapis.com/openimages/v5/test-annotations-bbox.csv",
+    "labels": "https://storage.googleapis.com/openimages/v5/test-annotations-human-imagelabels-boxable.csv",
+    "metadata": "https://storage.googleapis.com/openimages/2018_04/test/test-images-with-rotation.csv"
+  },
+  "candidate_negatives": 2,
+  "candidate_positives": 10,
+  "csv_sha256": {
+    "boxes": "fe22e579b9453875601576859d14ef3304058165de139c66b725e599202bd7b1",
+    "labels": "f293c5f7cf5ec61b9ff2eb3e986b8bafac135c930b87d80c8f3a081a7ec5b6d2",
+    "metadata": "de55c6b8cbda32a79f4a20f28572d54e9c49d527a4006725675764074a51a36d"
+  }
+}

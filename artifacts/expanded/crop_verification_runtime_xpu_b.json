@@ -1,0 +1,1294 @@
+{
+  "passed": true,
+  "candidate_sha256": "18754b614460a858b87059d0174ebca5c17d8175bd975502e0ecef436577fc5c",
+  "cases": [
+    {
+      "id": "IMG_3185",
+      "orientation": 0,
+      "passed": true,
+      "baseline_recheck": null,
+      "result": {
+        "model": {
+          "name": "dino",
+          "revision": "a2bb814dd30d776dcf7e30523b00659f4f141c71",
+          "pipeline": "optimized-detector-v3+rfdetr-verified+sam3-fallback+expanded",
+          "selection_sha256": "6481fabde0f83dc58083049abb0f6a69f94d2b734d94234a28fa0b2e197e7897",
+          "attributes_sha256": "026e40a5d54c323c623775bb040890e8408cc893ef8721e3cae56a0525ee589b",
+          "recovery_sha256": "218082dfc0ecf028f8bfc902ad9c51a41fdb369818b2a566320688682e4e19a7",
+          "sam3_sha256": "dcd7f0c1262cbdafed1915ab6e20adbbab58bf5739e07d2a8fbcc6338769dc30",
+          "marking_sha256": "8cfc9bf9e707d5f1457474c927bc2e42a61e391198849f39fa810e928218cb2c",
+          "liquid_sha256": "3d63ef06a07b4ff095aa227abb8c3d61df09bc3522fdccb1a168aef4e38c4d46",
+          "expanded_sha256": "0b99b829602968349c343ea58a7a4ba7def74ac5aaa35a3bbffad0a5e74cb8be",
+          "fill_sha256": "bf0e4db95fe1bb58625e61c07b12d6f9ffebe527f7bfc2b124dc87634b8c9772",
+          "crop_verification_sha256": "18754b614460a858b87059d0174ebca5c17d8175bd975502e0ecef436577fc5c",
+          "primary_backend": "xpu"
+        },
+        "threshold": 0.6772280764893512,
+        "objects": [
+          {
+            "id": "object-1",
+            "bbox": [
+              0.34412567110177406,
+              0.08210126091452208,
+              0.6074902047407504,
+              0.9135700781472257
+            ],
+            "score": 0.9205577460749994,
+            "detection_evidence": {},
+            "scale": "20-scale",
+            "color": null,
+            "evidence": {
+              "scale": {
+                "value": "20-scale",
+                "score": 0.9723541736602783,
+                "method": "read number and unit",
+                "evidence": [
+                  {
+                    "text": "ml",
+                    "crop_bbox": [
+                      0.20875420875420875,
+                      0.624198717948718,
+                      0.7878787878787878,
+                      0.6738782051282052
+                    ],
+                    "rotation": 0.0
+                  },
+                  {
+                    "text": "20",
+                    "crop_bbox": [
+                      0.28619528619528617,
+                      0.6217948717948718,
+                      0.6734006734006734,
+                      0.7355769230769231
+                    ],
+                    "rotation": 0.0
+                  }
+                ],
+                "reason": "Supported by visible markings"
+              },
+              "color": {
+                "value": null,
+                "reason": "Outside development support or ambiguous",
+                "distance": 5.821840439335371,
+                "margin": 1.1985223686768673
+              }
+            },
+            "inscriptions": {
+              "status": "capacity read",
+              "candidates": [
+                {
+                  "text": "15",
+                  "score": 0.9996333122253418,
+                  "crop_bbox": [
+                    0.32996632996632996,
+                    0.530448717948718,
+                    0.6363636363636364,
+                    0.5833333333333334
+                  ],
+                  "view_bbox": [
+                    98.0,
+                    662.0,
+                    189.0,
+                    728.0
+                  ],
+                  "rotation": 0.0,
+                  "family": "raw"
+                },
+                {
+                  "text": "15",
+                  "score": 0.9995529651641846,
+                  "crop_bbox": [
+                    0.30752212389380534,
+                    0.5263157894736842,
+                    0.6504424778761062,
+                    0.5889473684210527
+                  ],
+                  "view_bbox": [
+                    91.33407079646018,
+                    656.8421052631579,
+                    193.18141592920355,
+                    735.0063157894738
+                  ],
+                  "rotation": 0.0,
+                  "family": "raw",
+                  "source": "graduation-guided crop"
+                },
+                {
+                  "text": "10",
+                  "score": 0.9923902750015259,
+                  "crop_bbox": [
+                    0.3164983164983165,
+                    0.38221153846153844,
+                    0.6430976430976431,
+                    0.43830128205128205
+                  ],
+                  "view_bbox": [
+                    94.0,
+                    477.0,
+                    191.0,
+                    547.0
+                  ],
+                  "rotation": 0.0,
+                  "family": "raw"
+                },
+                {
+                  "text": "20",
+                  "score": 0.9723541736602783,
+                  "crop_bbox": [
+                    0.28619528619528617,
+                    0.6217948717948718,
+                    0.6734006734006734,
+                    0.7355769230769231
+                  ],
+                  "view_bbox": [
+                    85.0,
+                    776.0,
+                    200.0,
+                    918.0
+                  ],
+                  "rotation": 0.0,
+                  "family": "raw"
+                },
+                {
+                  "text": "ml",
+                  "score": 0.9723541736602783,
+                  "crop_bbox": [
+                    0.20875420875420875,
+                    0.624198717948718,
+                    0.7878787878787878,
+                    0.6738782051282052
+                  ],
+                  "view_bbox": [
+                    62.0,
+                    779.0,
+                    234.0,
+                    841.0
+                  ],
+                  "rotation": 0.0,
+                  "family": "raw",
+                  "source": "unit crop",
+                  "anchor_bbox": [
+                    0.28619528619528617,
+                    0.6217948717948718,
+                    0.6734006734006734,
+                    0.7355769230769231
+                  ]
+                },
+                {
+                  "text": "BD",
+                  "score": 0.931770920753479,
+                  "crop_bbox": [
+                    0.07407407407407407,
+                    0.3060897435897436,
+                    0.3063973063973064,
+                    0.3782051282051282
+                  ],
+                  "view_bbox": [
+                    22.0,
+                    382.0,
+                    91.0,
+                    472.0
+                  ],
+                  "rotation": 0.0,
+                  "family": "raw"
+                },
+                {
+                  "text": "-20",
+                  "score": 0.8682231307029724,
+                  "crop_bbox": [
+                    0.23451327433628322,
+                    0.6205263157894737,
+                    0.7035398230088497,
+                    0.7373684210526316
+                  ],
+                  "view_bbox": [
+                    69.65044247787611,
+                    774.4168421052632,
+                    208.95132743362834,
+                    920.2357894736842
+                  ],
+                  "rotation": 0.0,
+                  "family": "raw",
+                  "source": "graduation-guided crop"
+                },
+                {
+                  "text": "子10",
+                  "score": 0.7506182193756104,
+                  "crop_bbox": [
+                    0.05088495575221239,
+                    0.38263157894736843,
+                    0.6526548672566371,
+                    0.4463157894736842
+                  ],
+                  "view_bbox": [
+                    15.11283185840708,
+                    477.5242105263158,
+                    193.83849557522123,
+                    557.0021052631579
+                  ],
+                  "rotation": 0.0,
+                  "family": "raw",
+                  "source": "graduation-guided crop"
+                },
+                {
+                  "text": "O1",
+                  "score": 0.7056783437728882,
+                  "crop_bbox": [
+                    0.3063973063973065,
+                    0.38461538461538464,
+                    0.6329966329966331,
+                    0.43990384615384615
+                  ],
+                  "view_bbox": [
+                    109.0,
+                    699.0,
+                    206.0,
+                    768.0
+                  ],
+                  "rotation": 180.0,
+                  "family": "raw"
+                },
+                {
+                  "text": "F",
+                  "score": 0.6496358513832092,
+                  "crop_bbox": [
+                    0.03030303030303025,
+                    0.3573717948717949,
+                    0.3703703703703703,
+                    0.4407051282051282
+                  ],
+                  "view_bbox": [
+                    698.0,
+                    9.0,
+                    802.0,
+                    110.0
+                  ],
+                  "rotation": 270.0,
+                  "family": "raw"
+                },
+                {
+                  "text": "SI",
+                  "score": 0.6245113611221313,
+                  "crop_bbox": [
+                    0.3804713804713807,
+                    0.5344551282051282,
+                    0.6228956228956231,
+                    0.5881410256410257
+                  ],
+                  "view_bbox": [
+                    112.0,
+                    514.0,
+                    184.0,
+                    581.0
+                  ],
+                  "rotation": 180.0,
+                  "family": "raw"
+                },
+                {
+                  "text": "0",
+                  "score": 0.6177256107330322,
+                  "crop_bbox": [
+                    0.3468013468013468,
+                    0.37900641025641024,
+                    0.6296296296296295,
+                    0.4439102564102564
+                  ],
+                  "view_bbox": [
+                    694.0,
+                    103.0,
+                    775.0,
+                    187.0
+                  ],
+                  "rotation": 270.0,
+                  "family": "raw"
+                },
+                {
+                  "text": "小",
+                  "score": 0.6157962083816528,
+                  "crop_bbox": [
+                    0.09090909090909072,
+                    0.5208333333333334,
+                    0.34343434343434326,
+                    0.6065705128205128
+                  ],
+                  "view_bbox": [
+                    650.0,
+                    195.0,
+                    757.0,
+                    270.0
+                  ],
+                  "rotation": 90.0,
+                  "family": "raw"
+                },
+                {
+                  "text": "0",
+                  "score": 0.4930136799812317,
+                  "crop_bbox": [
+                    0.38383838383838353,
+                    0.375,
+                    0.6195286195286193,
+                    0.4479166666666667
+                  ],
+                  "view_bbox": [
+                    468.0,
+                    113.0,
+                    559.0,
+                    183.0
+                  ],
+                  "rotation": 90.0,
+                  "family": "raw"
+                },
+                {
+                  "text": "132",
+                  "score": 0.3878107964992523,
+                  "crop_bbox": [
+                    0.3602693602693601,
+                    0.5064102564102564,
+                    0.6734006734006732,
+                    0.7323717948717948
+                  ],
+                  "view_bbox": [
+                    632.0,
+                    97.0,
+                    914.0,
+                    190.0
+                  ],
+                  "rotation": 90.0,
+                  "family": "raw"
+                }
+              ],
+              "scale": {
+                "value": "20-scale",
+                "score": 0.9723541736602783,
+                "method": "read number and unit",
+                "evidence": [
+                  {
+                    "text": "ml",
+                    "crop_bbox": [
+                      0.20875420875420875,
+                      0.624198717948718,
+                      0.7878787878787878,
+                      0.6738782051282052
+                    ],
+                    "rotation": 0.0
+                  },
+                  {
+                    "text": "20",
+                    "crop_bbox": [
+                      0.28619528619528617,
+                      0.6217948717948718,
+                      0.6734006734006734,
+                      0.7355769230769231
+                    ],
+                    "rotation": 0.0
+                  }
+                ]
+              },
+              "capacity": {
+                "value": 20.0,
+                "unit": "mL",
+                "score": 0.9723541736602783,
+                "method": "adjacent number and unit",
+                "evidence": [
+                  {
+                    "text": "ml",
+                    "crop_bbox": [
+                      0.20875420875420875,
+                      0.624198717948718,
+                      0.7878787878787878,
+                      0.6738782051282052
+                    ],
+                    "rotation": 0.0
+                  },
+                  {
+                    "text": "20",
+                    "crop_bbox": [
+                      0.28619528619528617,
+                      0.6217948717948718,
+                      0.6734006734006734,
+                      0.7355769230769231
+                    ],
+                    "rotation": 0.0
+                  }
+                ]
+              },
+              "apparent_volume": null
+            },
+            "liquid_appearance": {
+              "status": "insufficient evidence",
+              "reason": "The syringe mask could not be validated.",
+              "lightness": null,
+              "opacity": null,
+              "opacity_reason": "A registered clear-barrel reference at the same exposure is required."
+            },
+            "fill_level": {
+              "status": "insufficient evidence",
+              "reason": "A continuous visible liquid region could not be established."
+            },
+            "origin": "model"
+          }
+        ],
+        "dimensions": [
+          4284,
+          5712
+        ],
+        "accepted_count": 1,
+        "below_threshold_candidates": [
+          {
+            "bbox": [
+              0.24037097749255953,
+              0.0561976713292739,
+              0.6800960537209676,
+              0.9404813194809174
+            ],
+            "score": 0.3291256516587573
+          },
+          {
+            "bbox": [
+              0.147283046519389,
+              0.018255581041010105,
+              0.8263877491100607,
+              0.9913412629723215
+            ],
+            "score": 0.2936922814590783
+          },
+          {
+            "bbox": [
+              0.28422260017288165,
+              0.07197433493050541,
+              0.6470990577220471,
+              0.709111702542345
+            ],
+            "score": 0.26397999357841323
+          },
+          {
+            "bbox": [
+              0.33165968210200747,
+              0.08356535668466605,
+              0.5761769470157855,
+              0.5703545150970545
+            ],
+            "score": 0.17329110712503307
+          },
+          {
+            "bbox": [
+              0.2652906173862774,
+              0.6750453660468094,
+              0.6110439781381303,
+              0.9129275367373512
+            ],
+            "score": 0.15543910860415233
+          }
+        ],
+        "sam3_status": null,
+        "elapsed_ms": 27953.434105999804
+      }
+    },
+    {
+      "id": "IMG_3229",
+      "orientation": 0,
+      "passed": true,
+      "baseline_recheck": null,
+      "result": {
+        "model": {
+          "name": "dino",
+          "revision": "a2bb814dd30d776dcf7e30523b00659f4f141c71",
+          "pipeline": "optimized-detector-v3+rfdetr-verified+sam3-fallback+expanded",
+          "selection_sha256": "6481fabde0f83dc58083049abb0f6a69f94d2b734d94234a28fa0b2e197e7897",
+          "attributes_sha256": "026e40a5d54c323c623775bb040890e8408cc893ef8721e3cae56a0525ee589b",
+          "recovery_sha256": "218082dfc0ecf028f8bfc902ad9c51a41fdb369818b2a566320688682e4e19a7",
+          "sam3_sha256": "dcd7f0c1262cbdafed1915ab6e20adbbab58bf5739e07d2a8fbcc6338769dc30",
+          "marking_sha256": "8cfc9bf9e707d5f1457474c927bc2e42a61e391198849f39fa810e928218cb2c",
+          "liquid_sha256": "3d63ef06a07b4ff095aa227abb8c3d61df09bc3522fdccb1a168aef4e38c4d46",
+          "expanded_sha256": "0b99b829602968349c343ea58a7a4ba7def74ac5aaa35a3bbffad0a5e74cb8be",
+          "fill_sha256": "bf0e4db95fe1bb58625e61c07b12d6f9ffebe527f7bfc2b124dc87634b8c9772",
+          "crop_verification_sha256": "18754b614460a858b87059d0174ebca5c17d8175bd975502e0ecef436577fc5c",
+          "primary_backend": "xpu"
+        },
+        "threshold": 0.6772280764893512,
+        "objects": [
+          {
+            "id": "object-1",
+            "bbox": [
+              0.32522761821746826,
+              0.29848605394363403,
+              0.45844757556915283,
+              0.8723466992378235
+            ],
+            "score": 0.6772280764893512,
+            "detection_evidence": {
+              "source": "sam3",
+              "auxiliary_score": 0.9380649924278259
+            },
+            "scale": "20-scale",
+            "color": null,
+            "evidence": {
+              "scale": {
+                "value": "20-scale",
+                "score": 0.8358355760574341,
+                "method": "read number and unit",
+                "evidence": [
+                  {
+                    "text": "ml",
+                    "crop_bbox": [
+                      0.28440366972477066,
+                      0.5088141025641025,
+                      0.8302752293577982,
+                      0.592948717948718
+                    ],
+                    "rotation": 0.0
+                  },
+                  {
+                    "text": "20",
+                    "crop_bbox": [
+                      0.3577981651376147,
+                      0.5448717948717948,
+                      0.7201834862385321,
+                      0.6346153846153846
+                    ],
+                    "rotation": 0.0
+                  }
+                ],
+                "reason": "Supported by visible markings"
+              },
+              "color": {
+                "value": null,
+                "reason": "Outside development support or ambiguous",
+                "distance": 2.5703422229029864,
+                "margin": 0.33987198632953985
+              }
+            },
+            "inscriptions": {
+              "status": "capacity read",
+              "candidates": [
+                {
+                  "text": "15",
+                  "score": 0.9905847311019897,
+                  "crop_bbox": [
+                    0.44036697247706424,
+                    0.45913461538461536,
+                    0.7110091743119266,
+                    0.500801282051282
+                  ],
+                  "view_bbox": [
+                    96.0,
+                    573.0,
+                    155.0,
+                    625.0
+                  ],
+                  "rotation": 0.0,
+                  "family": "raw"
+                },
+                {
+                  "text": "20",
+                  "score": 0.8358355760574341,
+                  "crop_bbox": [
+                    0.3577981651376147,
+                    0.5448717948717948,
+                    0.7201834862385321,
+                    0.6346153846153846
+                  ],
+                  "view_bbox": [
+                    78.0,
+                    680.0,
+                    157.0,
+                    792.0
+                  ],
+                  "rotation": 0.0,
+                  "family": "raw"
+                },
+                {
+                  "text": "ml",
+                  "score": 0.8358355760574341,
+                  "crop_bbox": [
+                    0.28440366972477066,
+                    0.5088141025641025,
+                    0.8302752293577982,
+                    0.592948717948718
+                  ],
+                  "view_bbox": [
+                    62.0,
+                    635.0,
+                    181.0,
+                    740.0
+                  ],
+                  "rotation": 0.0,
+                  "family": "raw",
+                  "source": "unit crop",
+                  "anchor_bbox": [
+                    0.3577981651376147,
+                    0.5448717948717948,
+                    0.7201834862385321,
+                    0.6346153846153846
+                  ]
+                },
+                {
+                  "text": "ml",
+                  "score": 0.8358355760574341,
+                  "crop_bbox": [
+                    0.28440366972477066,
+                    0.5464743589743589,
+                    0.8302752293577982,
+                    0.5865384615384616
+                  ],
+                  "view_bbox": [
+                    62.0,
+                    682.0,
+                    181.0,
+                    732.0
+                  ],
+                  "rotation": 0.0,
+                  "family": "raw",
+                  "source": "unit crop",
+                  "anchor_bbox": [
+                    0.3577981651376147,
+                    0.5448717948717948,
+                    0.7201834862385321,
+                    0.6346153846153846
+                  ]
+                },
+                {
+                  "text": "ju",
+                  "score": 0.6867028474807739,
+                  "crop_bbox": [
+                    0.38073394495412843,
+                    0.5536858974358975,
+                    0.6788990825688074,
+                    0.5969551282051282
+                  ],
+                  "view_bbox": [
+                    70.0,
+                    503.0,
+                    135.0,
+                    557.0
+                  ],
+                  "rotation": 180.0,
+                  "family": "raw"
+                },
+                {
+                  "text": "15m2",
+                  "score": 0.6668089032173157,
+                  "crop_bbox": [
+                    0.34403669724770614,
+                    0.44551282051282054,
+                    0.770642201834862,
+                    0.6370192307692307
+                  ],
+                  "view_bbox": [
+                    556.0,
+                    50.0,
+                    795.0,
+                    143.0
+                  ],
+                  "rotation": 90.0,
+                  "family": "raw"
+                },
+                {
+                  "text": "0乙",
+                  "score": 0.5518776178359985,
+                  "crop_bbox": [
+                    0.37155963302752293,
+                    0.5881410256410257,
+                    0.6926605504587156,
+                    0.6330128205128205
+                  ],
+                  "view_bbox": [
+                    67.0,
+                    458.0,
+                    137.0,
+                    514.0
+                  ],
+                  "rotation": 180.0,
+                  "family": "raw"
+                },
+                {
+                  "text": "s1",
+                  "score": 0.5253487229347229,
+                  "crop_bbox": [
+                    0.43577981651376135,
+                    0.46073717948717946,
+                    0.7110091743119265,
+                    0.5040064102564102
+                  ],
+                  "view_bbox": [
+                    63.0,
+                    619.0,
+                    123.0,
+                    673.0
+                  ],
+                  "rotation": 180.0,
+                  "family": "raw"
+                }
+              ],
+              "scale": {
+                "value": "20-scale",
+                "score": 0.8358355760574341,
+                "method": "read number and unit",
+                "evidence": [
+                  {
+                    "text": "ml",
+                    "crop_bbox": [
+                      0.28440366972477066,
+                      0.5088141025641025,
+                      0.8302752293577982,
+                      0.592948717948718
+                    ],
+                    "rotation": 0.0
+                  },
+                  {
+                    "text": "20",
+                    "crop_bbox": [
+                      0.3577981651376147,
+                      0.5448717948717948,
+                      0.7201834862385321,
+                      0.6346153846153846
+                    ],
+                    "rotation": 0.0
+                  }
+                ]
+              },
+              "capacity": {
+                "value": 20.0,
+                "unit": "mL",
+                "score": 0.8358355760574341,
+                "method": "adjacent number and unit",
+                "evidence": [
+                  {
+                    "text": "ml",
+                    "crop_bbox": [
+                      0.28440366972477066,
+                      0.5088141025641025,
+                      0.8302752293577982,
+                      0.592948717948718
+                    ],
+                    "rotation": 0.0
+                  },
+                  {
+                    "text": "20",
+                    "crop_bbox": [
+                      0.3577981651376147,
+                      0.5448717948717948,
+                      0.7201834862385321,
+                      0.6346153846153846
+                    ],
+                    "rotation": 0.0
+                  }
+                ]
+              },
+              "apparent_volume": null
+            },
+            "liquid_appearance": {
+              "status": "appearance measured",
+              "reason": "Colored interior of the segmented syringe",
+              "lightness": {
+                "lstar": 48.2,
+                "iqr": [
+                  38.3,
+                  56.8
+                ],
+                "category": "medium"
+              },
+              "region": [
+                0.2328767123287671,
+                0.06666666666666667,
+                0.8904109589041096,
+                0.28095238095238095
+              ],
+              "support_fraction": 0.163,
+              "opacity": null,
+              "opacity_reason": "A registered clear-barrel reference at the same exposure is required.",
+              "syringe_mask_score": 0.7296670079231262
+            },
+            "fill_level": {
+              "status": "insufficient evidence",
+              "reason": "Three consistent numbered graduations are required."
+            },
+            "origin": "model"
+          }
+        ],
+        "dimensions": [
+          3024,
+          4032
+        ],
+        "accepted_count": 1,
+        "below_threshold_candidates": [
+          {
+            "bbox": [
+              0.32126791010458,
+              0.3009409828791543,
+              0.47597753938543735,
+              0.8852480933779762
+            ],
+            "score": 0.6468636076472074
+          },
+          {
+            "bbox": [
+              0.2559122963557168,
+              0.2887779114738343,
+              0.5113971851490162,
+              0.8908052595834883
+            ],
+            "score": 0.46167095770292
+          },
+          {
+            "bbox": [
+              0.2188927584855014,
+              0.2603770967513796,
+              0.606783629725219,
+              0.9215661911737352
+            ],
+            "score": 0.33200360063184986
+          },
+          {
+            "bbox": [
+              0.1547711488431093,
+              0.27551666138664127,
+              0.7888645394138558,
+              0.9914378211611793
+            ],
+            "score": 0.2505581647052738
+          },
+          {
+            "bbox": [
+              0.28296530183660923,
+              0.29840172661675346,
+              0.6294449094742064,
+              0.767531364683121
+            ],
+            "score": 0.22474500308083933
+          }
+        ],
+        "sam3_status": "completed",
+        "elapsed_ms": 13253.861216000132
+      }
+    },
+    {
+      "id": "IMG_3322",
+      "orientation": 0,
+      "passed": true,
+      "baseline_recheck": null,
+      "result": {
+        "model": {
+          "name": "dino",
+          "revision": "a2bb814dd30d776dcf7e30523b00659f4f141c71",
+          "pipeline": "optimized-detector-v3+rfdetr-verified+sam3-fallback+expanded",
+          "selection_sha256": "6481fabde0f83dc58083049abb0f6a69f94d2b734d94234a28fa0b2e197e7897",
+          "attributes_sha256": "026e40a5d54c323c623775bb040890e8408cc893ef8721e3cae56a0525ee589b",
+          "recovery_sha256": "218082dfc0ecf028f8bfc902ad9c51a41fdb369818b2a566320688682e4e19a7",
+          "sam3_sha256": "dcd7f0c1262cbdafed1915ab6e20adbbab58bf5739e07d2a8fbcc6338769dc30",
+          "marking_sha256": "8cfc9bf9e707d5f1457474c927bc2e42a61e391198849f39fa810e928218cb2c",
+          "liquid_sha256": "3d63ef06a07b4ff095aa227abb8c3d61df09bc3522fdccb1a168aef4e38c4d46",
+          "expanded_sha256": "0b99b829602968349c343ea58a7a4ba7def74ac5aaa35a3bbffad0a5e74cb8be",
+          "fill_sha256": "bf0e4db95fe1bb58625e61c07b12d6f9ffebe527f7bfc2b124dc87634b8c9772",
+          "crop_verification_sha256": "18754b614460a858b87059d0174ebca5c17d8175bd975502e0ecef436577fc5c",
+          "primary_backend": "xpu"
+        },
+        "threshold": 0.6772280764893512,
+        "objects": [
+          {
+            "id": "object-1",
+            "bbox": [
+              0.27110464106161125,
+              0.15986221555679558,
+              0.480322419020234,
+              0.9451078763083807
+            ],
+            "score": 0.9186999980793585,
+            "detection_evidence": {},
+            "scale": null,
+            "color": "orange",
+            "evidence": {
+              "scale": {
+                "value": null,
+                "reason": "Scale markings are unreadable or ambiguous"
+              },
+              "color": {
+                "value": "orange",
+                "distance": 1.5915724624986198,
+                "margin": 1.7115448026579434,
+                "reason": "Experimental suggestion from the object crop"
+              }
+            },
+            "inscriptions": {
+              "status": "markings only",
+              "candidates": [
+                {
+                  "text": "5",
+                  "score": 0.9999628067016602,
+                  "crop_bbox": [
+                    0.456,
+                    0.18830128205128205,
+                    0.576,
+                    0.21955128205128205
+                  ],
+                  "view_bbox": [
+                    114.0,
+                    235.0,
+                    144.0,
+                    274.0
+                  ],
+                  "rotation": 0.0,
+                  "family": "raw"
+                },
+                {
+                  "text": "15",
+                  "score": 0.9913411140441895,
+                  "crop_bbox": [
+                    0.5,
+                    0.40865384615384615,
+                    0.692,
+                    0.44551282051282054
+                  ],
+                  "view_bbox": [
+                    125.0,
+                    510.0,
+                    173.0,
+                    556.0
+                  ],
+                  "rotation": 0.0,
+                  "family": "raw"
+                },
+                {
+                  "text": "E2",
+                  "score": 0.918974757194519,
+                  "crop_bbox": [
+                    0.4852908587257618,
+                    0.4912811634349031,
+                    0.718808864265928,
+                    0.5597797783933518
+                  ],
+                  "view_bbox": [
+                    121.32271468144044,
+                    613.1188919667591,
+                    179.702216066482,
+                    698.605163434903
+                  ],
+                  "rotation": 0.0,
+                  "family": "raw",
+                  "source": "graduation-guided crop"
+                },
+                {
+                  "text": "E2",
+                  "score": 0.869239330291748,
+                  "crop_bbox": [
+                    0.492,
+                    0.4911858974358974,
+                    0.716,
+                    0.5584935897435898
+                  ],
+                  "view_bbox": [
+                    123.0,
+                    613.0,
+                    179.0,
+                    697.0
+                  ],
+                  "rotation": 0.0,
+                  "family": "raw"
+                },
+                {
+                  "text": "2E2",
+                  "score": 0.7196061015129089,
+                  "crop_bbox": [
+                    0.48399999999999965,
+                    0.41907051282051283,
+                    0.7239999999999998,
+                    0.5600961538461539
+                  ],
+                  "view_bbox": [
+                    523.0,
+                    69.0,
+                    699.0,
+                    129.0
+                  ],
+                  "rotation": 90.0,
+                  "family": "raw"
+                },
+                {
+                  "text": "ol",
+                  "score": 0.6103362441062927,
+                  "crop_bbox": [
+                    0.5199999999999998,
+                    0.30528846153846156,
+                    0.6599999999999998,
+                    0.3349358974358974
+                  ],
+                  "view_bbox": [
+                    85.0,
+                    830.0,
+                    120.0,
+                    867.0
+                  ],
+                  "rotation": 180.0,
+                  "family": "raw"
+                },
+                {
+                  "text": "ju",
+                  "score": 0.6103224754333496,
+                  "crop_bbox": [
+                    0.5039999999999999,
+                    0.49759615384615385,
+                    0.676,
+                    0.5288461538461539
+                  ],
+                  "view_bbox": [
+                    81.0,
+                    588.0,
+                    124.0,
+                    627.0
+                  ],
+                  "rotation": 180.0,
+                  "family": "raw"
+                }
+              ],
+              "scale": null,
+              "capacity": null,
+              "apparent_volume": null
+            },
+            "liquid_appearance": {
+              "status": "appearance measured",
+              "reason": "Colored interior of the segmented syringe",
+              "lightness": {
+                "lstar": 68.4,
+                "iqr": [
+                  61.9,
+                  72.7
+                ],
+                "category": "light"
+              },
+              "region": [
+                0.13095238095238096,
+                0.05,
+                0.6666666666666666,
+                0.4023809523809524
+              ],
+              "support_fraction": 0.27,
+              "opacity": null,
+              "opacity_reason": "A registered clear-barrel reference at the same exposure is required.",
+              "syringe_mask_score": 0.8412901163101196
+            },
+            "fill_level": {
+              "status": "insufficient evidence",
+              "reason": "A visible 20 mL or 60 mL capacity is required."
+            },
+            "origin": "model"
+          }
+        ],
+        "dimensions": [
+          3024,
+          4032
+        ],
+        "accepted_count": 1,
+        "below_threshold_candidates": [
+          {
+            "bbox": [
+              0.171811441895823,
+              0.13826766846671937,
+              0.5713299544400008,
+              0.950562007843502
+            ],
+            "score": 0.39973058610503387
+          },
+          {
+            "bbox": [
+              0.22948060212311922,
+              0.1476833252679734,
+              0.5188571990482391,
+              0.7557970682779948
+            ],
+            "score": 0.3553268912533419
+          },
+          {
+            "bbox": [
+              0.10565704264968791,
+              0.06895312808808826,
+              0.693746011723917,
+              0.9937270633758061
+            ],
+            "score": 0.2769499942837181
+          },
+          {
+            "bbox": [
+              0.270983963416367,
+              0.16065252394903273,
+              0.439060715771226,
+              0.6166663396926153
+            ],
+            "score": 0.2693396785597786
+          },
+          {
+            "bbox": [
+              0.28152366920753763,
+              0.42279564388214597,
+              0.4488319518074157,
+              0.9408165462433346
+            ],
+            "score": 0.2344918357646844
+          }
+        ],
+        "sam3_status": null,
+        "elapsed_ms": 6398.26725499961
+      }
+    },
+    {
+      "id": "179983069",
+      "orientation": 0,
+      "passed": true,
+      "baseline_recheck": null,
+      "result": {
+        "model": {
+          "name": "dino",
+          "revision": "a2bb814dd30d776dcf7e30523b00659f4f141c71",
+          "pipeline": "optimized-detector-v3+rfdetr-verified+sam3-fallback+expanded",
+          "selection_sha256": "6481fabde0f83dc58083049abb0f6a69f94d2b734d94234a28fa0b2e197e7897",
+          "attributes_sha256": "026e40a5d54c323c623775bb040890e8408cc893ef8721e3cae56a0525ee589b",
+          "recovery_sha256": "218082dfc0ecf028f8bfc902ad9c51a41fdb369818b2a566320688682e4e19a7",
+          "sam3_sha256": "dcd7f0c1262cbdafed1915ab6e20adbbab58bf5739e07d2a8fbcc6338769dc30",
+          "marking_sha256": "8cfc9bf9e707d5f1457474c927bc2e42a61e391198849f39fa810e928218cb2c",
+          "liquid_sha256": "3d63ef06a07b4ff095aa227abb8c3d61df09bc3522fdccb1a168aef4e38c4d46",
+          "expanded_sha256": "0b99b829602968349c343ea58a7a4ba7def74ac5aaa35a3bbffad0a5e74cb8be",
+          "fill_sha256": "bf0e4db95fe1bb58625e61c07b12d6f9ffebe527f7bfc2b124dc87634b8c9772",
+          "crop_verification_sha256": "18754b614460a858b87059d0174ebca5c17d8175bd975502e0ecef436577fc5c",
+          "primary_backend": "xpu"
+        },
+        "threshold": 0.6772280764893512,
+        "objects": [],
+        "dimensions": [
+          500,
+          889
+        ],
+        "accepted_count": 0,
+        "below_threshold_candidates": [
+          {
+            "bbox": [
+              0.06784388732910156,
+              0.06355572283200928,
+              0.791828125,
+              0.852445930678343
+            ],
+            "score": 0.615779317322155
+          },
+          {
+            "bbox": [
+              0.6768378295898437,
+              0.2915689577804239,
+              0.7940068359375,
+              0.8511567432244798
+            ],
+            "score": 0.6098457607709376
+          },
+          {
+            "bbox": [
+              0.06907109832763672,
+              0.08976410907620924,
+              0.3212178344726562,
+              0.8013658555742056
+            ],
+            "score": 0.45691719577603807
+          },
+          {
+            "bbox": [
+              0.6323828125,
+              0.27493500682714955,
+              0.8415673217773437,
+              0.8611860071446147
+            ],
+            "score": 0.39252761987223844
+          },
+          {
+            "bbox": [
+              0.5552686157226563,
+              0.0744133210155371,
+              0.7945014038085938,
+              0.8537372121392541
+            ],
+            "score": 0.32703548256170467
+          }
+        ],
+        "sam3_status": "completed",
+        "elapsed_ms": 7456.012951000048
+      }
+    },
+    {
+      "id": "141484090",
+      "orientation": 0,
+      "passed": true,
+      "baseline_recheck": null,
+      "result": {
+        "model": {
+          "name": "dino",
+          "revision": "a2bb814dd30d776dcf7e30523b00659f4f141c71",
+          "pipeline": "optimized-detector-v3+rfdetr-verified+sam3-fallback+expanded",
+          "selection_sha256": "6481fabde0f83dc58083049abb0f6a69f94d2b734d94234a28fa0b2e197e7897",
+          "attributes_sha256": "026e40a5d54c323c623775bb040890e8408cc893ef8721e3cae56a0525ee589b",
+          "recovery_sha256": "218082dfc0ecf028f8bfc902ad9c51a41fdb369818b2a566320688682e4e19a7",
+          "sam3_sha256": "dcd7f0c1262cbdafed1915ab6e20adbbab58bf5739e07d2a8fbcc6338769dc30",
+          "marking_sha256": "8cfc9bf9e707d5f1457474c927bc2e42a61e391198849f39fa810e928218cb2c",
+          "liquid_sha256": "3d63ef06a07b4ff095aa227abb8c3d61df09bc3522fdccb1a168aef4e38c4d46",
+          "expanded_sha256": "0b99b829602968349c343ea58a7a4ba7def74ac5aaa35a3bbffad0a5e74cb8be",
+          "fill_sha256": "bf0e4db95fe1bb58625e61c07b12d6f9ffebe527f7bfc2b124dc87634b8c9772",
+          "crop_verification_sha256": "18754b614460a858b87059d0174ebca5c17d8175bd975502e0ecef436577fc5c",
+          "primary_backend": "xpu"
+        },
+        "threshold": 0.6772280764893512,
+        "objects": [],
+        "dimensions": [
+          500,
+          375
+        ],
+        "accepted_count": 0,
+        "below_threshold_candidates": [
+          {
+            "bbox": [
+              0.0343043212890625,
+              0.07551390075683594,
+              0.8700056762695313,
+              0.7497686360677084
+            ],
+            "score": 0.0067722807648935126,
+            "original_score": 0.7478483609503861,
+            "crop_score": 0.1824420314047925,
+            "review_reason": "Weak crop evidence without agreement from two detectors"
+          },
+          {
+            "bbox": [
+              0.17918199157714843,
+              0.1265194498697917,
+              0.8677083740234375,
+              0.45286474609375005
+            ],
+            "score": 0.4890617091969489
+          },
+          {
+            "bbox": [
+              0.3447705078125,
+              0.21089031982421874,
+              0.8704401245117187,
+              0.4529715576171875
+            ],
+            "score": 0.4815088240312976
+          },
+          {
+            "bbox": [
+              0.0346303596496582,
+              0.07675582377115886,
+              0.4495206298828125,
+              0.7507314453125
+            ],
+            "score": 0.4126716950000258
+          },
+          {
+            "bbox": [
+              0.028961935043334962,
+              0.07807161458333334,
+              0.22267076110839842,
+              0.7530431518554688
+            ],
+            "score": 0.31122173241155426
+          }
+        ],
+        "sam3_status": null,
+        "elapsed_ms": 29301.2071549997
+      }
+    }
+  ]
+}

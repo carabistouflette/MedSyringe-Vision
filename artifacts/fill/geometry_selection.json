@@ -1,0 +1,126 @@
+{
+  "inputs": {
+    "artifacts/fill/visual_reference.tsv": "8dcc01e168d3807df9127782ff81d3d50860c5030545214e9047b8ceac80638f",
+    "artifacts/expanded/annotations.json": "de8260db8f917cdd57d7700cb21b5f56a1c51a3e601c124f7586b81abc7ccebb",
+    "medsyringe/fill.py": "861b94b85772275db9e8780b74f2abd736855cabea62ec7c55364be2078ec5b9",
+    "/home/arobin/Work/Repos/MedSyringe-Vision/scripts/fill_study.py": "2e898272ba886ce93e296d2c3987627fa91e26cf6b5304e3aa18a25da688e451",
+    "artifacts/expanded/liquid_calibration.json": "9c18c89a54c05aa7ab2e23fcfab97e067ff4ed8602a7d5476ef4dd8a3d4bd851",
+    "data/expanded/markings-calibration.json": "11e3211df89d7cc478d552803bf39ba1bcaea9dbfd6aae0a9c70622b29f9ee98",
+    "artifacts/marking_detected_manifest.json": "628fed037d259ee3470e14d31948eeee49d95b0e5da03befbc602cf3782e8bac",
+    "artifacts/liquid_detected_results.json": "4d95f1be047c48274e7a7e7692d00389263da6472a3a7b1dfb59e35a32841121",
+    "data/ocr-v6/markings-detected.json": "bf8744188330541c99595833d460df45b0442ca2305b10b38ac39601d9c1b882",
+    "data/ocr-v6/markings-detected-guided.json": "15e2187c46a1bf497758eee2db94a9bd64a554fef02a02f4888f479b96114fee",
+    "/home/arobin/Work/Repos/MedSyringe-Vision/scripts/fill_geometry_study.py": "d74d8dceb335a8423cfee4ec6820a48176e2d5c22fc43717c5c8957e4485d916",
+    "medsyringe/graduation_geometry.py": "07b7e11fa8969883c5f13cb7753834572c77f82ba3f23d62190ef689bcfb7af9",
+    "artifacts/fill/release.json": "bf0e4db95fe1bb58625e61c07b12d6f9ffebe527f7bfc2b124dc87634b8c9772"
+  },
+  "trials": [
+    {
+      "strategy": {
+        "min_span": 0.24,
+        "ordered_scale": false
+      },
+      "counts": {
+        "images": 31,
+        "baseline": 7,
+        "added": 0,
+        "correct": 0,
+        "within_one_mark": 0,
+        "false_answers": 0
+      },
+      "added_cases": []
+    },
+    {
+      "strategy": {
+        "min_span": 0.24,
+        "ordered_scale": true
+      },
+      "counts": {
+        "images": 31,
+        "baseline": 7,
+        "added": 0,
+        "correct": 0,
+        "within_one_mark": 0,
+        "false_answers": 0
+      },
+      "added_cases": []
+    },
+    {
+      "strategy": {
+        "min_span": 0.34,
+        "ordered_scale": false
+      },
+      "counts": {
+        "images": 31,
+        "baseline": 7,
+        "added": 0,
+        "correct": 0,
+        "within_one_mark": 0,
+        "false_answers": 0
+      },
+      "added_cases": []
+    },
+    {
+      "strategy": {
+        "min_span": 0.34,
+        "ordered_scale": true
+      },
+      "counts": {
+        "images": 31,
+        "baseline": 7,
+        "added": 0,
+        "correct": 0,
+        "within_one_mark": 0,
+        "false_answers": 0
+      },
+      "added_cases": []
+    },
+    {
+      "strategy": {
+        "min_span": 0.44,
+        "ordered_scale": false
+      },
+      "counts": {
+        "images": 31,
+        "baseline": 7,
+        "added": 0,
+        "correct": 0,
+        "within_one_mark": 0,
+        "false_answers": 0
+      },
+      "added_cases": []
+    },
+    {
+      "strategy": {
+        "min_span": 0.44,
+        "ordered_scale": true
+      },
+      "counts": {
+        "images": 31,
+        "baseline": 7,
+        "added": 0,
+        "correct": 0,
+        "within_one_mark": 0,
+        "false_answers": 0
+      },
+      "added_cases": []
+    }
+  ],
+  "selected": null,
+  "shadow": {
+    "strategy": {
+      "min_span": 0.44,
+      "ordered_scale": false
+    },
+    "counts": {
+      "images": 31,
+      "baseline": 7,
+      "added": 0,
+      "correct": 0,
+      "within_one_mark": 0,
+      "false_answers": 0
+    },
+    "added_cases": []
+  },
+  "criterion": "At least one additional prediction, all inside visual reference brackets."
+}

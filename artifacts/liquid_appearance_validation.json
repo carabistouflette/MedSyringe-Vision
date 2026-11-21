@@ -1,0 +1,1199 @@
+{
+  "passed": true,
+  "all": {
+    "images": 74,
+    "answered": 72,
+    "reference_comparisons": 72,
+    "centerline_supported": 72,
+    "median_absolute_lstar_difference": 2.1100000000000003,
+    "frames": {
+      "IMG_3198": {
+        "status": "measured",
+        "lstar": 22.7,
+        "reference_lstar": 26.49,
+        "absolute_difference": 3.79,
+        "centerline_supported": true
+      },
+      "IMG_3199": {
+        "status": "measured",
+        "lstar": 31.4,
+        "reference_lstar": 33.73,
+        "absolute_difference": 2.33,
+        "centerline_supported": true
+      },
+      "IMG_3200": {
+        "status": "measured",
+        "lstar": 28.6,
+        "reference_lstar": 31.09,
+        "absolute_difference": 2.49,
+        "centerline_supported": true
+      },
+      "IMG_3202": {
+        "status": "measured",
+        "lstar": 18.9,
+        "reference_lstar": 15.91,
+        "absolute_difference": 2.99,
+        "centerline_supported": true
+      },
+      "IMG_3206": {
+        "status": "measured",
+        "lstar": 25.6,
+        "reference_lstar": 25.69,
+        "absolute_difference": 0.09,
+        "centerline_supported": true
+      },
+      "IMG_3215": {
+        "status": "measured",
+        "lstar": 34.4,
+        "reference_lstar": 33.78,
+        "absolute_difference": 0.62,
+        "centerline_supported": true
+      },
+      "IMG_3217": {
+        "status": "measured",
+        "lstar": 35.8,
+        "reference_lstar": 35.38,
+        "absolute_difference": 0.42,
+        "centerline_supported": true
+      },
+      "IMG_3218": {
+        "status": "measured",
+        "lstar": 34.2,
+        "reference_lstar": 32.67,
+        "absolute_difference": 1.53,
+        "centerline_supported": true
+      },
+      "IMG_3219": {
+        "status": "measured",
+        "lstar": 34.5,
+        "reference_lstar": 33.89,
+        "absolute_difference": 0.61,
+        "centerline_supported": true
+      },
+      "IMG_3221": {
+        "status": "measured",
+        "lstar": 27.8,
+        "reference_lstar": 31.64,
+        "absolute_difference": 3.84,
+        "centerline_supported": true
+      },
+      "IMG_3222": {
+        "status": "measured",
+        "lstar": 27.9,
+        "reference_lstar": 27.42,
+        "absolute_difference": 0.48,
+        "centerline_supported": true
+      },
+      "IMG_3223": {
+        "status": "measured",
+        "lstar": 48.1,
+        "reference_lstar": 42.27,
+        "absolute_difference": 5.83,
+        "centerline_supported": true
+      },
+      "IMG_3225": {
+        "status": "measured",
+        "lstar": 47.1,
+        "reference_lstar": 43.76,
+        "absolute_difference": 3.34,
+        "centerline_supported": true
+      },
+      "IMG_3226": {
+        "status": "abstained",
+        "reason": "The colored region does not extend along the barrel."
+      },
+      "IMG_3227": {
+        "status": "measured",
+        "lstar": 47.3,
+        "reference_lstar": 49.63,
+        "absolute_difference": 2.33,
+        "centerline_supported": true
+      },
+      "IMG_3228": {
+        "status": "measured",
+        "lstar": 49.6,
+        "reference_lstar": 42.22,
+        "absolute_difference": 7.38,
+        "centerline_supported": true
+      },
+      "IMG_3229": {
+        "status": "measured",
+        "lstar": 48.2,
+        "reference_lstar": 53.23,
+        "absolute_difference": 5.03,
+        "centerline_supported": true
+      },
+      "IMG_3230": {
+        "status": "measured",
+        "lstar": 44.3,
+        "reference_lstar": 46.42,
+        "absolute_difference": 2.12,
+        "centerline_supported": true
+      },
+      "IMG_3231": {
+        "status": "measured",
+        "lstar": 41.0,
+        "reference_lstar": 39.98,
+        "absolute_difference": 1.02,
+        "centerline_supported": true
+      },
+      "IMG_3232": {
+        "status": "measured",
+        "lstar": 42.0,
+        "reference_lstar": 36.38,
+        "absolute_difference": 5.62,
+        "centerline_supported": true
+      },
+      "IMG_3233": {
+        "status": "measured",
+        "lstar": 33.5,
+        "reference_lstar": 29.64,
+        "absolute_difference": 3.86,
+        "centerline_supported": true
+      },
+      "IMG_3234": {
+        "status": "measured",
+        "lstar": 30.3,
+        "reference_lstar": 26.03,
+        "absolute_difference": 4.27,
+        "centerline_supported": true
+      },
+      "IMG_3235": {
+        "status": "measured",
+        "lstar": 25.6,
+        "reference_lstar": 21.86,
+        "absolute_difference": 3.74,
+        "centerline_supported": true
+      },
+      "IMG_3238": {
+        "status": "measured",
+        "lstar": 39.8,
+        "reference_lstar": 34.78,
+        "absolute_difference": 5.02,
+        "centerline_supported": true
+      },
+      "IMG_3239": {
+        "status": "measured",
+        "lstar": 36.1,
+        "reference_lstar": 33.72,
+        "absolute_difference": 2.38,
+        "centerline_supported": true
+      },
+      "IMG_3240": {
+        "status": "measured",
+        "lstar": 36.5,
+        "reference_lstar": 39.77,
+        "absolute_difference": 3.27,
+        "centerline_supported": true
+      },
+      "IMG_3241": {
+        "status": "measured",
+        "lstar": 39.1,
+        "reference_lstar": 42.23,
+        "absolute_difference": 3.13,
+        "centerline_supported": true
+      },
+      "IMG_3243": {
+        "status": "measured",
+        "lstar": 40.2,
+        "reference_lstar": 44.08,
+        "absolute_difference": 3.88,
+        "centerline_supported": true
+      },
+      "IMG_3244": {
+        "status": "measured",
+        "lstar": 42.2,
+        "reference_lstar": 45.38,
+        "absolute_difference": 3.18,
+        "centerline_supported": true
+      },
+      "IMG_3245": {
+        "status": "measured",
+        "lstar": 40.8,
+        "reference_lstar": 49.0,
+        "absolute_difference": 8.2,
+        "centerline_supported": true
+      },
+      "IMG_3246": {
+        "status": "measured",
+        "lstar": 35.7,
+        "reference_lstar": 42.65,
+        "absolute_difference": 6.95,
+        "centerline_supported": true
+      },
+      "IMG_3247": {
+        "status": "measured",
+        "lstar": 42.3,
+        "reference_lstar": 51.04,
+        "absolute_difference": 8.74,
+        "centerline_supported": true
+      },
+      "IMG_3251": {
+        "status": "measured",
+        "lstar": 65.7,
+        "reference_lstar": 66.68,
+        "absolute_difference": 0.98,
+        "centerline_supported": true
+      },
+      "IMG_3252": {
+        "status": "measured",
+        "lstar": 63.2,
+        "reference_lstar": 61.76,
+        "absolute_difference": 1.44,
+        "centerline_supported": true
+      },
+      "IMG_3257": {
+        "status": "measured",
+        "lstar": 65.3,
+        "reference_lstar": 68.29,
+        "absolute_difference": 2.99,
+        "centerline_supported": true
+      },
+      "IMG_3263": {
+        "status": "measured",
+        "lstar": 56.5,
+        "reference_lstar": 57.72,
+        "absolute_difference": 1.22,
+        "centerline_supported": true
+      },
+      "IMG_3264": {
+        "status": "measured",
+        "lstar": 58.6,
+        "reference_lstar": 59.62,
+        "absolute_difference": 1.02,
+        "centerline_supported": true
+      },
+      "IMG_3268": {
+        "status": "measured",
+        "lstar": 56.0,
+        "reference_lstar": 56.87,
+        "absolute_difference": 0.87,
+        "centerline_supported": true
+      },
+      "IMG_3269": {
+        "status": "measured",
+        "lstar": 60.5,
+        "reference_lstar": 64.23,
+        "absolute_difference": 3.73,
+        "centerline_supported": true
+      },
+      "IMG_3272": {
+        "status": "measured",
+        "lstar": 60.5,
+        "reference_lstar": 59.6,
+        "absolute_difference": 0.9,
+        "centerline_supported": true
+      },
+      "IMG_3275": {
+        "status": "measured",
+        "lstar": 62.4,
+        "reference_lstar": 67.09,
+        "absolute_difference": 4.69,
+        "centerline_supported": true
+      },
+      "IMG_3279": {
+        "status": "measured",
+        "lstar": 61.4,
+        "reference_lstar": 58.89,
+        "absolute_difference": 2.51,
+        "centerline_supported": true
+      },
+      "IMG_3283": {
+        "status": "measured",
+        "lstar": 66.0,
+        "reference_lstar": 66.88,
+        "absolute_difference": 0.88,
+        "centerline_supported": true
+      },
+      "IMG_3292": {
+        "status": "measured",
+        "lstar": 67.5,
+        "reference_lstar": 68.89,
+        "absolute_difference": 1.39,
+        "centerline_supported": true
+      },
+      "IMG_3294": {
+        "status": "measured",
+        "lstar": 63.6,
+        "reference_lstar": 62.98,
+        "absolute_difference": 0.62,
+        "centerline_supported": true
+      },
+      "IMG_3295": {
+        "status": "measured",
+        "lstar": 64.1,
+        "reference_lstar": 64.2,
+        "absolute_difference": 0.1,
+        "centerline_supported": true
+      },
+      "IMG_3296": {
+        "status": "measured",
+        "lstar": 64.5,
+        "reference_lstar": 62.87,
+        "absolute_difference": 1.63,
+        "centerline_supported": true
+      },
+      "IMG_3297": {
+        "status": "measured",
+        "lstar": 62.2,
+        "reference_lstar": 58.91,
+        "absolute_difference": 3.29,
+        "centerline_supported": true
+      },
+      "IMG_3298": {
+        "status": "measured",
+        "lstar": 70.3,
+        "reference_lstar": 47.38,
+        "absolute_difference": 22.92,
+        "centerline_supported": true
+      },
+      "IMG_3299": {
+        "status": "measured",
+        "lstar": 66.3,
+        "reference_lstar": 66.93,
+        "absolute_difference": 0.63,
+        "centerline_supported": true
+      },
+      "IMG_3300": {
+        "status": "abstained",
+        "reason": "The syringe mask could not be validated."
+      },
+      "IMG_3301": {
+        "status": "measured",
+        "lstar": 66.4,
+        "reference_lstar": 48.86,
+        "absolute_difference": 17.54,
+        "centerline_supported": true
+      },
+      "IMG_3302": {
+        "status": "measured",
+        "lstar": 65.6,
+        "reference_lstar": 48.68,
+        "absolute_difference": 16.92,
+        "centerline_supported": true
+      },
+      "IMG_3304": {
+        "status": "measured",
+        "lstar": 58.3,
+        "reference_lstar": 57.9,
+        "absolute_difference": 0.4,
+        "centerline_supported": true
+      },
+      "IMG_3305": {
+        "status": "measured",
+        "lstar": 65.7,
+        "reference_lstar": 66.93,
+        "absolute_difference": 1.23,
+        "centerline_supported": true
+      },
+      "IMG_3306": {
+        "status": "measured",
+        "lstar": 64.6,
+        "reference_lstar": 63.46,
+        "absolute_difference": 1.14,
+        "centerline_supported": true
+      },
+      "IMG_3310": {
+        "status": "measured",
+        "lstar": 63.4,
+        "reference_lstar": 47.94,
+        "absolute_difference": 15.46,
+        "centerline_supported": true
+      },
+      "IMG_3311": {
+        "status": "measured",
+        "lstar": 58.5,
+        "reference_lstar": 56.59,
+        "absolute_difference": 1.91,
+        "centerline_supported": true
+      },
+      "IMG_3315": {
+        "status": "measured",
+        "lstar": 52.4,
+        "reference_lstar": 53.79,
+        "absolute_difference": 1.39,
+        "centerline_supported": true
+      },
+      "IMG_3316": {
+        "status": "measured",
+        "lstar": 66.7,
+        "reference_lstar": 61.62,
+        "absolute_difference": 5.08,
+        "centerline_supported": true
+      },
+      "IMG_3317": {
+        "status": "measured",
+        "lstar": 65.6,
+        "reference_lstar": 65.93,
+        "absolute_difference": 0.33,
+        "centerline_supported": true
+      },
+      "IMG_3318": {
+        "status": "measured",
+        "lstar": 67.5,
+        "reference_lstar": 66.46,
+        "absolute_difference": 1.04,
+        "centerline_supported": true
+      },
+      "IMG_3321": {
+        "status": "measured",
+        "lstar": 60.9,
+        "reference_lstar": 63.0,
+        "absolute_difference": 2.1,
+        "centerline_supported": true
+      },
+      "IMG_3322": {
+        "status": "measured",
+        "lstar": 68.4,
+        "reference_lstar": 65.96,
+        "absolute_difference": 2.44,
+        "centerline_supported": true
+      },
+      "IMG_3323": {
+        "status": "measured",
+        "lstar": 68.6,
+        "reference_lstar": 66.61,
+        "absolute_difference": 1.99,
+        "centerline_supported": true
+      },
+      "IMG_3324": {
+        "status": "measured",
+        "lstar": 66.3,
+        "reference_lstar": 65.14,
+        "absolute_difference": 1.16,
+        "centerline_supported": true
+      },
+      "IMG_3325": {
+        "status": "measured",
+        "lstar": 65.3,
+        "reference_lstar": 65.41,
+        "absolute_difference": 0.11,
+        "centerline_supported": true
+      },
+      "IMG_3326": {
+        "status": "measured",
+        "lstar": 67.9,
+        "reference_lstar": 66.05,
+        "absolute_difference": 1.85,
+        "centerline_supported": true
+      },
+      "IMG_3329": {
+        "status": "measured",
+        "lstar": 52.0,
+        "reference_lstar": 50.54,
+        "absolute_difference": 1.46,
+        "centerline_supported": true
+      },
+      "IMG_3331": {
+        "status": "measured",
+        "lstar": 46.5,
+        "reference_lstar": 46.69,
+        "absolute_difference": 0.19,
+        "centerline_supported": true
+      },
+      "IMG_3332": {
+        "status": "measured",
+        "lstar": 45.5,
+        "reference_lstar": 43.7,
+        "absolute_difference": 1.8,
+        "centerline_supported": true
+      },
+      "IMG_3333": {
+        "status": "measured",
+        "lstar": 48.0,
+        "reference_lstar": 48.36,
+        "absolute_difference": 0.36,
+        "centerline_supported": true
+      },
+      "IMG_3334": {
+        "status": "measured",
+        "lstar": 45.1,
+        "reference_lstar": 44.97,
+        "absolute_difference": 0.13,
+        "centerline_supported": true
+      },
+      "IMG_3335": {
+        "status": "measured",
+        "lstar": 46.3,
+        "reference_lstar": 44.08,
+        "absolute_difference": 2.22,
+        "centerline_supported": true
+      }
+    }
+  },
+  "old": {
+    "images": 74,
+    "answered": 73,
+    "reference_comparisons": 73,
+    "centerline_supported": 55,
+    "median_absolute_lstar_difference": 2.93,
+    "frames": {
+      "IMG_3198": {
+        "status": "measured",
+        "lstar": 24.6,
+        "reference_lstar": 26.49,
+        "absolute_difference": 1.89,
+        "centerline_supported": true
+      },
+      "IMG_3199": {
+        "status": "measured",
+        "lstar": 31.4,
+        "reference_lstar": 33.73,
+        "absolute_difference": 2.33,
+        "centerline_supported": true
+      },
+      "IMG_3200": {
+        "status": "measured",
+        "lstar": 28.7,
+        "reference_lstar": 31.09,
+        "absolute_difference": 2.39,
+        "centerline_supported": true
+      },
+      "IMG_3202": {
+        "status": "measured",
+        "lstar": 41.4,
+        "reference_lstar": 15.91,
+        "absolute_difference": 25.49,
+        "centerline_supported": true
+      },
+      "IMG_3206": {
+        "status": "measured",
+        "lstar": 26.1,
+        "reference_lstar": 25.69,
+        "absolute_difference": 0.41,
+        "centerline_supported": true
+      },
+      "IMG_3215": {
+        "status": "measured",
+        "lstar": 41.7,
+        "reference_lstar": 33.78,
+        "absolute_difference": 7.92,
+        "centerline_supported": false
+      },
+      "IMG_3217": {
+        "status": "measured",
+        "lstar": 35.8,
+        "reference_lstar": 35.38,
+        "absolute_difference": 0.42,
+        "centerline_supported": true
+      },
+      "IMG_3218": {
+        "status": "measured",
+        "lstar": 34.4,
+        "reference_lstar": 32.67,
+        "absolute_difference": 1.73,
+        "centerline_supported": true
+      },
+      "IMG_3219": {
+        "status": "measured",
+        "lstar": 34.5,
+        "reference_lstar": 33.89,
+        "absolute_difference": 0.61,
+        "centerline_supported": true
+      },
+      "IMG_3221": {
+        "status": "measured",
+        "lstar": 28.0,
+        "reference_lstar": 31.64,
+        "absolute_difference": 3.64,
+        "centerline_supported": true
+      },
+      "IMG_3222": {
+        "status": "measured",
+        "lstar": 29.1,
+        "reference_lstar": 27.42,
+        "absolute_difference": 1.68,
+        "centerline_supported": true
+      },
+      "IMG_3223": {
+        "status": "measured",
+        "lstar": 74.8,
+        "reference_lstar": 42.27,
+        "absolute_difference": 32.53,
+        "centerline_supported": false
+      },
+      "IMG_3225": {
+        "status": "measured",
+        "lstar": 66.8,
+        "reference_lstar": 43.76,
+        "absolute_difference": 23.04,
+        "centerline_supported": false
+      },
+      "IMG_3226": {
+        "status": "measured",
+        "lstar": 29.4,
+        "reference_lstar": 24.32,
+        "absolute_difference": 5.08,
+        "centerline_supported": true
+      },
+      "IMG_3227": {
+        "status": "measured",
+        "lstar": 75.7,
+        "reference_lstar": 49.63,
+        "absolute_difference": 26.07,
+        "centerline_supported": false
+      },
+      "IMG_3228": {
+        "status": "measured",
+        "lstar": 67.2,
+        "reference_lstar": 42.22,
+        "absolute_difference": 24.98,
+        "centerline_supported": false
+      },
+      "IMG_3229": {
+        "status": "measured",
+        "lstar": 77.8,
+        "reference_lstar": 53.23,
+        "absolute_difference": 24.57,
+        "centerline_supported": false
+      },
+      "IMG_3230": {
+        "status": "measured",
+        "lstar": 55.2,
+        "reference_lstar": 46.42,
+        "absolute_difference": 8.78,
+        "centerline_supported": true
+      },
+      "IMG_3231": {
+        "status": "measured",
+        "lstar": 47.3,
+        "reference_lstar": 39.98,
+        "absolute_difference": 7.32,
+        "centerline_supported": true
+      },
+      "IMG_3232": {
+        "status": "measured",
+        "lstar": 57.9,
+        "reference_lstar": 36.38,
+        "absolute_difference": 21.52,
+        "centerline_supported": false
+      },
+      "IMG_3233": {
+        "status": "measured",
+        "lstar": 62.1,
+        "reference_lstar": 29.64,
+        "absolute_difference": 32.46,
+        "centerline_supported": false
+      },
+      "IMG_3234": {
+        "status": "measured",
+        "lstar": 30.5,
+        "reference_lstar": 26.03,
+        "absolute_difference": 4.47,
+        "centerline_supported": true
+      },
+      "IMG_3235": {
+        "status": "measured",
+        "lstar": 25.6,
+        "reference_lstar": 21.86,
+        "absolute_difference": 3.74,
+        "centerline_supported": true
+      },
+      "IMG_3238": {
+        "status": "measured",
+        "lstar": 54.3,
+        "reference_lstar": 34.78,
+        "absolute_difference": 19.52,
+        "centerline_supported": true
+      },
+      "IMG_3239": {
+        "status": "measured",
+        "lstar": 36.1,
+        "reference_lstar": 33.72,
+        "absolute_difference": 2.38,
+        "centerline_supported": true
+      },
+      "IMG_3240": {
+        "status": "measured",
+        "lstar": 36.5,
+        "reference_lstar": 39.77,
+        "absolute_difference": 3.27,
+        "centerline_supported": true
+      },
+      "IMG_3241": {
+        "status": "measured",
+        "lstar": 46.2,
+        "reference_lstar": 42.23,
+        "absolute_difference": 3.97,
+        "centerline_supported": true
+      },
+      "IMG_3243": {
+        "status": "measured",
+        "lstar": 65.3,
+        "reference_lstar": 44.08,
+        "absolute_difference": 21.22,
+        "centerline_supported": false
+      },
+      "IMG_3244": {
+        "status": "measured",
+        "lstar": 51.5,
+        "reference_lstar": 45.38,
+        "absolute_difference": 6.12,
+        "centerline_supported": true
+      },
+      "IMG_3245": {
+        "status": "measured",
+        "lstar": 46.3,
+        "reference_lstar": 49.0,
+        "absolute_difference": 2.7,
+        "centerline_supported": true
+      },
+      "IMG_3246": {
+        "status": "measured",
+        "lstar": 35.5,
+        "reference_lstar": 42.65,
+        "absolute_difference": 7.15,
+        "centerline_supported": true
+      },
+      "IMG_3247": {
+        "status": "measured",
+        "lstar": 42.4,
+        "reference_lstar": 51.04,
+        "absolute_difference": 8.64,
+        "centerline_supported": true
+      },
+      "IMG_3251": {
+        "status": "measured",
+        "lstar": 65.6,
+        "reference_lstar": 66.68,
+        "absolute_difference": 1.08,
+        "centerline_supported": true
+      },
+      "IMG_3252": {
+        "status": "measured",
+        "lstar": 63.8,
+        "reference_lstar": 61.76,
+        "absolute_difference": 2.04,
+        "centerline_supported": true
+      },
+      "IMG_3257": {
+        "status": "measured",
+        "lstar": 64.2,
+        "reference_lstar": 68.29,
+        "absolute_difference": 4.09,
+        "centerline_supported": true
+      },
+      "IMG_3263": {
+        "status": "measured",
+        "lstar": 56.1,
+        "reference_lstar": 57.72,
+        "absolute_difference": 1.62,
+        "centerline_supported": false
+      },
+      "IMG_3264": {
+        "status": "measured",
+        "lstar": 58.8,
+        "reference_lstar": 59.62,
+        "absolute_difference": 0.82,
+        "centerline_supported": true
+      },
+      "IMG_3268": {
+        "status": "measured",
+        "lstar": 56.4,
+        "reference_lstar": 56.87,
+        "absolute_difference": 0.47,
+        "centerline_supported": true
+      },
+      "IMG_3269": {
+        "status": "measured",
+        "lstar": 61.3,
+        "reference_lstar": 64.23,
+        "absolute_difference": 2.93,
+        "centerline_supported": true
+      },
+      "IMG_3272": {
+        "status": "measured",
+        "lstar": 61.9,
+        "reference_lstar": 59.6,
+        "absolute_difference": 2.3,
+        "centerline_supported": false
+      },
+      "IMG_3275": {
+        "status": "measured",
+        "lstar": 62.1,
+        "reference_lstar": 67.09,
+        "absolute_difference": 4.99,
+        "centerline_supported": false
+      },
+      "IMG_3279": {
+        "status": "measured",
+        "lstar": 50.7,
+        "reference_lstar": 58.89,
+        "absolute_difference": 8.19,
+        "centerline_supported": false
+      },
+      "IMG_3283": {
+        "status": "measured",
+        "lstar": 66.1,
+        "reference_lstar": 66.88,
+        "absolute_difference": 0.78,
+        "centerline_supported": true
+      },
+      "IMG_3292": {
+        "status": "measured",
+        "lstar": 66.9,
+        "reference_lstar": 68.89,
+        "absolute_difference": 1.99,
+        "centerline_supported": true
+      },
+      "IMG_3294": {
+        "status": "measured",
+        "lstar": 64.0,
+        "reference_lstar": 62.98,
+        "absolute_difference": 1.02,
+        "centerline_supported": true
+      },
+      "IMG_3295": {
+        "status": "measured",
+        "lstar": 62.6,
+        "reference_lstar": 64.2,
+        "absolute_difference": 1.6,
+        "centerline_supported": true
+      },
+      "IMG_3296": {
+        "status": "measured",
+        "lstar": 61.9,
+        "reference_lstar": 62.87,
+        "absolute_difference": 0.97,
+        "centerline_supported": true
+      },
+      "IMG_3297": {
+        "status": "measured",
+        "lstar": 62.5,
+        "reference_lstar": 58.91,
+        "absolute_difference": 3.59,
+        "centerline_supported": true
+      },
+      "IMG_3298": {
+        "status": "measured",
+        "lstar": 67.8,
+        "reference_lstar": 47.38,
+        "absolute_difference": 20.42,
+        "centerline_supported": true
+      },
+      "IMG_3299": {
+        "status": "measured",
+        "lstar": 61.8,
+        "reference_lstar": 66.93,
+        "absolute_difference": 5.13,
+        "centerline_supported": true
+      },
+      "IMG_3300": {
+        "status": "abstained",
+        "reason": "The syringe mask could not be validated."
+      },
+      "IMG_3301": {
+        "status": "measured",
+        "lstar": 63.7,
+        "reference_lstar": 48.86,
+        "absolute_difference": 14.84,
+        "centerline_supported": true
+      },
+      "IMG_3302": {
+        "status": "measured",
+        "lstar": 66.4,
+        "reference_lstar": 48.68,
+        "absolute_difference": 17.72,
+        "centerline_supported": true
+      },
+      "IMG_3304": {
+        "status": "measured",
+        "lstar": 56.0,
+        "reference_lstar": 57.9,
+        "absolute_difference": 1.9,
+        "centerline_supported": true
+      },
+      "IMG_3305": {
+        "status": "measured",
+        "lstar": 63.6,
+        "reference_lstar": 66.93,
+        "absolute_difference": 3.33,
+        "centerline_supported": true
+      },
+      "IMG_3306": {
+        "status": "measured",
+        "lstar": 65.0,
+        "reference_lstar": 63.46,
+        "absolute_difference": 1.54,
+        "centerline_supported": true
+      },
+      "IMG_3310": {
+        "status": "measured",
+        "lstar": 63.7,
+        "reference_lstar": 47.94,
+        "absolute_difference": 15.76,
+        "centerline_supported": true
+      },
+      "IMG_3311": {
+        "status": "measured",
+        "lstar": 60.0,
+        "reference_lstar": 56.59,
+        "absolute_difference": 3.41,
+        "centerline_supported": true
+      },
+      "IMG_3315": {
+        "status": "measured",
+        "lstar": 55.1,
+        "reference_lstar": 53.79,
+        "absolute_difference": 1.31,
+        "centerline_supported": true
+      },
+      "IMG_3316": {
+        "status": "measured",
+        "lstar": 67.8,
+        "reference_lstar": 61.62,
+        "absolute_difference": 6.18,
+        "centerline_supported": false
+      },
+      "IMG_3317": {
+        "status": "measured",
+        "lstar": 66.1,
+        "reference_lstar": 65.93,
+        "absolute_difference": 0.17,
+        "centerline_supported": true
+      },
+      "IMG_3318": {
+        "status": "measured",
+        "lstar": 68.3,
+        "reference_lstar": 66.46,
+        "absolute_difference": 1.84,
+        "centerline_supported": true
+      },
+      "IMG_3321": {
+        "status": "measured",
+        "lstar": 61.1,
+        "reference_lstar": 63.0,
+        "absolute_difference": 1.9,
+        "centerline_supported": true
+      },
+      "IMG_3322": {
+        "status": "measured",
+        "lstar": 68.8,
+        "reference_lstar": 65.96,
+        "absolute_difference": 2.84,
+        "centerline_supported": true
+      },
+      "IMG_3323": {
+        "status": "measured",
+        "lstar": 68.1,
+        "reference_lstar": 66.61,
+        "absolute_difference": 1.49,
+        "centerline_supported": true
+      },
+      "IMG_3324": {
+        "status": "measured",
+        "lstar": 66.3,
+        "reference_lstar": 65.14,
+        "absolute_difference": 1.16,
+        "centerline_supported": true
+      },
+      "IMG_3325": {
+        "status": "measured",
+        "lstar": 65.8,
+        "reference_lstar": 65.41,
+        "absolute_difference": 0.39,
+        "centerline_supported": true
+      },
+      "IMG_3326": {
+        "status": "measured",
+        "lstar": 70.7,
+        "reference_lstar": 66.05,
+        "absolute_difference": 4.65,
+        "centerline_supported": true
+      },
+      "IMG_3329": {
+        "status": "measured",
+        "lstar": 52.4,
+        "reference_lstar": 50.54,
+        "absolute_difference": 1.86,
+        "centerline_supported": false
+      },
+      "IMG_3331": {
+        "status": "measured",
+        "lstar": 48.3,
+        "reference_lstar": 46.69,
+        "absolute_difference": 1.61,
+        "centerline_supported": true
+      },
+      "IMG_3332": {
+        "status": "measured",
+        "lstar": 48.2,
+        "reference_lstar": 43.7,
+        "absolute_difference": 4.5,
+        "centerline_supported": false
+      },
+      "IMG_3333": {
+        "status": "measured",
+        "lstar": 48.5,
+        "reference_lstar": 48.36,
+        "absolute_difference": 0.14,
+        "centerline_supported": false
+      },
+      "IMG_3334": {
+        "status": "measured",
+        "lstar": 44.5,
+        "reference_lstar": 44.97,
+        "absolute_difference": 0.47,
+        "centerline_supported": false
+      },
+      "IMG_3335": {
+        "status": "measured",
+        "lstar": 42.9,
+        "reference_lstar": 44.08,
+        "absolute_difference": 1.18,
+        "centerline_supported": true
+      }
+    }
+  },
+  "heldout": {
+    "images": 13,
+    "answered": 13,
+    "reference_comparisons": 13,
+    "centerline_supported": 13,
+    "median_absolute_lstar_difference": 1.44,
+    "frames": {
+      "IMG_3206": {
+        "status": "measured",
+        "lstar": 25.6,
+        "reference_lstar": 25.69,
+        "absolute_difference": 0.09,
+        "centerline_supported": true
+      },
+      "IMG_3230": {
+        "status": "measured",
+        "lstar": 44.3,
+        "reference_lstar": 46.42,
+        "absolute_difference": 2.12,
+        "centerline_supported": true
+      },
+      "IMG_3231": {
+        "status": "measured",
+        "lstar": 41.0,
+        "reference_lstar": 39.98,
+        "absolute_difference": 1.02,
+        "centerline_supported": true
+      },
+      "IMG_3232": {
+        "status": "measured",
+        "lstar": 42.0,
+        "reference_lstar": 36.38,
+        "absolute_difference": 5.62,
+        "centerline_supported": true
+      },
+      "IMG_3233": {
+        "status": "measured",
+        "lstar": 33.5,
+        "reference_lstar": 29.64,
+        "absolute_difference": 3.86,
+        "centerline_supported": true
+      },
+      "IMG_3234": {
+        "status": "measured",
+        "lstar": 30.3,
+        "reference_lstar": 26.03,
+        "absolute_difference": 4.27,
+        "centerline_supported": true
+      },
+      "IMG_3235": {
+        "status": "measured",
+        "lstar": 25.6,
+        "reference_lstar": 21.86,
+        "absolute_difference": 3.74,
+        "centerline_supported": true
+      },
+      "IMG_3251": {
+        "status": "measured",
+        "lstar": 65.7,
+        "reference_lstar": 66.68,
+        "absolute_difference": 0.98,
+        "centerline_supported": true
+      },
+      "IMG_3252": {
+        "status": "measured",
+        "lstar": 63.2,
+        "reference_lstar": 61.76,
+        "absolute_difference": 1.44,
+        "centerline_supported": true
+      },
+      "IMG_3257": {
+        "status": "measured",
+        "lstar": 65.3,
+        "reference_lstar": 68.29,
+        "absolute_difference": 2.99,
+        "centerline_supported": true
+      },
+      "IMG_3304": {
+        "status": "measured",
+        "lstar": 58.3,
+        "reference_lstar": 57.9,
+        "absolute_difference": 0.4,
+        "centerline_supported": true
+      },
+      "IMG_3305": {
+        "status": "measured",
+        "lstar": 65.7,
+        "reference_lstar": 66.93,
+        "absolute_difference": 1.23,
+        "centerline_supported": true
+      },
+      "IMG_3306": {
+        "status": "measured",
+        "lstar": 64.6,
+        "reference_lstar": 63.46,
+        "absolute_difference": 1.14,
+        "centerline_supported": true
+      }
+    }
+  },
+  "synthetic_opacity": [
+    {
+      "expected_opacity": 0.15,
+      "value": 0.15,
+      "method": "Relative luminance contrast attenuation",
+      "fit_r2": 1.0,
+      "pixels": 6144
+    },
+    {
+      "expected_opacity": 0.45,
+      "value": 0.45,
+      "method": "Relative luminance contrast attenuation",
+      "fit_r2": 1.0,
+      "pixels": 6144
+    },
+    {
+      "expected_opacity": 0.75,
+      "value": 0.75,
+      "method": "Relative luminance contrast attenuation",
+      "fit_r2": 1.0,
+      "pixels": 6144
+    }
+  ],
+  "paired_real_references": 0,
+  "scope": "Single-session visual lightness from identified interior pixels; synthetic attenuation check.",
+  "worker_smoke": {
+    "image": "IMG_3229",
+    "observation": {
+      "status": "appearance measured",
+      "reason": "Colored interior of the segmented syringe",
+      "lightness": {
+        "lstar": 48.2,
+        "iqr": [
+          38.4,
+          57.0
+        ],
+        "category": "medium"
+      },
+      "region": [
+        0.2328767123287671,
+        0.06428571428571428,
+        0.8904109589041096,
+        0.28095238095238095
+      ],
+      "support_fraction": 0.163,
+      "opacity": null,
+      "opacity_reason": "A registered clear-barrel reference at the same exposure is required.",
+      "syringe_mask_score": 0.720801055431366
+    },
+    "seconds": 21.741276774992002
+  }
+}

@@ -1,0 +1,998 @@
+{
+  "passed": true,
+  "landmark_replay": {
+    "metrics": {
+      "images": 6,
+      "answered": 5,
+      "within_06": 4,
+      "within_10": 5,
+      "median_error": 0.022386144542842556,
+      "worst_error": 0.060189752458551654
+    },
+    "cases": {
+      "IMG_3249": {
+        "points": [
+          [
+            0.84375,
+            0.09375
+          ],
+          [
+            0.5647253910376024,
+            0.40765268508269725
+          ],
+          [
+            0.34375,
+            0.65625
+          ]
+        ],
+        "reviewed": [
+          [
+            0.75806,
+            0.09041
+          ],
+          [
+            0.55645,
+            0.41644
+          ],
+          [
+            0.33871,
+            0.64658
+          ]
+        ],
+        "normalized_errors": [
+          0.05114199441416353,
+          0.01607089513512446,
+          0.01710379646795288
+        ],
+        "contrast": 21.636734008789062
+      },
+      "IMG_3254": {
+        "points": [
+          [
+            0.90625,
+            0.09375
+          ],
+          [
+            0.5976626220473616,
+            0.4023373779526384
+          ],
+          [
+            0.34375,
+            0.65625
+          ]
+        ],
+        "reviewed": [
+          [
+            0.9037,
+            0.25743
+          ],
+          [
+            0.57778,
+            0.41584
+          ],
+          [
+            0.3037,
+            0.60396
+          ]
+        ],
+        "normalized_errors": [
+          0.09976520927844611,
+          0.03341885564029106,
+          0.07260279943106829
+        ],
+        "contrast": 14.591231346130371
+      },
+      "IMG_3260": {
+        "points": [
+          [
+            0.40625,
+            0.09375
+          ],
+          [
+            0.4583542619528187,
+            0.3542713097640933
+          ],
+          [
+            0.53125,
+            0.71875
+          ]
+        ],
+        "reviewed": [
+          [
+            0.48,
+            0.09041
+          ],
+          [
+            0.48,
+            0.36164
+          ],
+          [
+            0.50667,
+            0.63836
+          ]
+        ],
+        "normalized_errors": [
+          0.028224060842550826,
+          0.015692193817982474,
+          0.14699041921811198
+        ],
+        "contrast": 17.34571075439453
+      },
+      "IMG_3271": {
+        "points": [
+          [
+            0.21875,
+            0.03125
+          ],
+          [
+            0.3482522936459845,
+            0.29025458729196896
+          ],
+          [
+            0.53125,
+            0.65625
+          ]
+        ],
+        "reviewed": [
+          [
+            0.30097,
+            0.07945
+          ],
+          [
+            0.45631,
+            0.30411
+          ],
+          [
+            0.70874,
+            0.62192
+          ]
+        ],
+        "normalized_errors": [
+          0.09640342017727835,
+          0.060189752458551654,
+          0.10919363896994758
+        ],
+        "contrast": 22.900625228881836
+      },
+      "IMG_3276": null,
+      "IMG_3281": {
+        "points": [
+          [
+            0.21875,
+            0.21875
+          ],
+          [
+            0.32840813407893044,
+            0.344073581804492
+          ],
+          [
+            0.65625,
+            0.71875
+          ]
+        ],
+        "reviewed": [
+          [
+            0.18243,
+            0.24384
+          ],
+          [
+            0.31081,
+            0.35342
+          ],
+          [
+            0.58784,
+            0.74247
+          ]
+        ],
+        "normalized_errors": [
+          0.05539645537266596,
+          0.022386144542842556,
+          0.06945672553068265
+        ],
+        "contrast": 22.74980354309082
+      }
+    }
+  },
+  "fill": {
+    "development": {
+      "counts": {
+        "stroke_ocr": {
+          "added": 6,
+          "in_bracket": 6,
+          "false_clear": 0
+        },
+        "landmarks": {
+          "added": 0,
+          "in_bracket": 0,
+          "false_clear": 0
+        },
+        "combined": {
+          "added": 6,
+          "in_bracket": 6,
+          "false_clear": 0
+        }
+      },
+      "cases": {
+        "IMG_3204": {
+          "estimates": {
+            "stroke_ocr": 38,
+            "landmarks": null,
+            "combined": 38
+          },
+          "reference": [
+            35.0,
+            39.0
+          ],
+          "baseline_reason": "A visible 20 mL or 60 mL capacity is required."
+        },
+        "IMG_3205": {
+          "estimates": {
+            "stroke_ocr": null,
+            "landmarks": null,
+            "combined": null
+          },
+          "reference": [
+            35.0,
+            40.0
+          ],
+          "baseline_reason": "A continuous visible liquid region could not be established."
+        },
+        "IMG_3207": {
+          "estimates": {
+            "stroke_ocr": null,
+            "landmarks": null,
+            "combined": null
+          },
+          "reference": [
+            36.0,
+            41.0
+          ],
+          "baseline_reason": "A visible 20 mL or 60 mL capacity is required."
+        },
+        "IMG_3209": {
+          "estimates": {
+            "stroke_ocr": null,
+            "landmarks": null,
+            "combined": null
+          },
+          "reference": [
+            36.0,
+            41.0
+          ],
+          "baseline_reason": "A continuous visible liquid region could not be established."
+        },
+        "IMG_3210": {
+          "estimates": {
+            "stroke_ocr": null,
+            "landmarks": null,
+            "combined": null
+          },
+          "reference": [
+            36.0,
+            41.0
+          ],
+          "baseline_reason": "A visible 20 mL or 60 mL capacity is required."
+        },
+        "IMG_3212": {
+          "estimates": {
+            "stroke_ocr": null,
+            "landmarks": null,
+            "combined": null
+          },
+          "reference": [
+            37.0,
+            42.0
+          ],
+          "baseline_reason": "A visible 20 mL or 60 mL capacity is required."
+        },
+        "IMG_3230": {
+          "estimates": {
+            "stroke_ocr": null,
+            "landmarks": null,
+            "combined": null
+          },
+          "reference": [
+            12.0,
+            15.0
+          ],
+          "baseline_reason": "Three consistent numbered graduations are required."
+        },
+        "IMG_3231": {
+          "estimates": {
+            "stroke_ocr": 15,
+            "landmarks": null,
+            "combined": 15
+          },
+          "reference": [
+            12.0,
+            15.0
+          ],
+          "baseline_reason": "The two visible numbers have no corroborating graduation pattern."
+        },
+        "IMG_3232": {
+          "estimates": {
+            "stroke_ocr": null,
+            "landmarks": null,
+            "combined": null
+          },
+          "reference": [
+            12.0,
+            16.0
+          ],
+          "baseline_reason": "A visible 20 mL or 60 mL capacity is required."
+        },
+        "IMG_3233": {
+          "estimates": {
+            "stroke_ocr": null,
+            "landmarks": null,
+            "combined": null
+          },
+          "reference": [
+            12.0,
+            16.0
+          ],
+          "baseline_reason": "A visible 20 mL or 60 mL capacity is required."
+        },
+        "IMG_3234": {
+          "estimates": {
+            "stroke_ocr": null,
+            "landmarks": null,
+            "combined": null
+          },
+          "reference": [
+            12.0,
+            16.0
+          ],
+          "baseline_reason": "A visible 20 mL or 60 mL capacity is required."
+        },
+        "IMG_3235": {
+          "estimates": {
+            "stroke_ocr": null,
+            "landmarks": null,
+            "combined": null
+          },
+          "reference": [
+            12.0,
+            16.0
+          ],
+          "baseline_reason": "A visible 20 mL or 60 mL capacity is required."
+        },
+        "IMG_3236": {
+          "estimates": {
+            "stroke_ocr": null,
+            "landmarks": null,
+            "combined": null
+          },
+          "reference": [
+            12.0,
+            15.0
+          ],
+          "baseline_reason": "Three consistent numbered graduations are required."
+        },
+        "IMG_3237": {
+          "estimates": {
+            "stroke_ocr": 14,
+            "landmarks": null,
+            "combined": 14
+          },
+          "reference": [
+            12.0,
+            15.0
+          ],
+          "baseline_reason": "The two visible numbers have no corroborating graduation pattern."
+        },
+        "IMG_3238": {
+          "estimates": {
+            "stroke_ocr": null,
+            "landmarks": null,
+            "combined": null
+          },
+          "reference": [
+            12.0,
+            16.0
+          ],
+          "baseline_reason": "Three consistent numbered graduations are required."
+        },
+        "IMG_3241": {
+          "estimates": {
+            "stroke_ocr": null,
+            "landmarks": null,
+            "combined": null
+          },
+          "reference": [
+            12.0,
+            16.0
+          ],
+          "baseline_reason": "Three consistent numbered graduations are required."
+        },
+        "IMG_3243": {
+          "estimates": {
+            "stroke_ocr": null,
+            "landmarks": null,
+            "combined": null
+          },
+          "reference": [
+            12.0,
+            16.0
+          ],
+          "baseline_reason": "A visible 20 mL or 60 mL capacity is required."
+        },
+        "IMG_3244": {
+          "estimates": {
+            "stroke_ocr": 14,
+            "landmarks": null,
+            "combined": 14
+          },
+          "reference": [
+            12.0,
+            15.0
+          ],
+          "baseline_reason": "The two visible numbers have no corroborating graduation pattern."
+        },
+        "IMG_3246": {
+          "estimates": {
+            "stroke_ocr": 15,
+            "landmarks": null,
+            "combined": 15
+          },
+          "reference": [
+            12.0,
+            15.0
+          ],
+          "baseline_reason": "The two visible numbers have no corroborating graduation pattern."
+        },
+        "IMG_3247": {
+          "estimates": {
+            "stroke_ocr": null,
+            "landmarks": null,
+            "combined": null
+          },
+          "reference": [
+            12.0,
+            16.0
+          ],
+          "baseline_reason": "A visible 20 mL or 60 mL capacity is required."
+        },
+        "IMG_3223": {
+          "estimates": {
+            "stroke_ocr": null,
+            "landmarks": null,
+            "combined": null
+          },
+          "reference": [
+            4.0,
+            7.0
+          ],
+          "baseline_reason": "Three consistent numbered graduations are required."
+        },
+        "IMG_3225": {
+          "estimates": {
+            "stroke_ocr": null,
+            "landmarks": null,
+            "combined": null
+          },
+          "reference": [
+            4.0,
+            7.0
+          ],
+          "baseline_reason": "A visible 20 mL or 60 mL capacity is required."
+        },
+        "IMG_3228": {
+          "estimates": {
+            "stroke_ocr": 5,
+            "landmarks": null,
+            "combined": 5
+          },
+          "reference": [
+            4.0,
+            7.0
+          ],
+          "baseline_reason": "Three consistent numbered graduations are required."
+        },
+        "IMG_3229": {
+          "estimates": {
+            "stroke_ocr": null,
+            "landmarks": null,
+            "combined": null
+          },
+          "reference": [
+            4.0,
+            8.0
+          ],
+          "baseline_reason": "Three consistent numbered graduations are required."
+        }
+      }
+    },
+    "holdout": {
+      "counts": {
+        "stroke_ocr": {
+          "added": 4,
+          "in_bracket": 3,
+          "false_clear": 0
+        },
+        "landmarks": {
+          "added": 0,
+          "in_bracket": 0,
+          "false_clear": 0
+        },
+        "combined": {
+          "added": 4,
+          "in_bracket": 3,
+          "false_clear": 0
+        }
+      },
+      "cases": {
+        "IMG_3288": {
+          "estimates": {
+            "stroke_ocr": null,
+            "landmarks": null,
+            "combined": null
+          },
+          "reference": [
+            19.0,
+            21.0
+          ],
+          "baseline_reason": "The nearest piston edge or the uninterrupted liquid column is ambiguous."
+        },
+        "IMG_3291": {
+          "estimates": {
+            "stroke_ocr": null,
+            "landmarks": null,
+            "combined": null
+          },
+          "reference": [
+            19.0,
+            21.0
+          ],
+          "baseline_reason": "A continuous visible liquid region could not be established."
+        },
+        "IMG_3292": {
+          "estimates": {
+            "stroke_ocr": 19,
+            "landmarks": null,
+            "combined": 19
+          },
+          "reference": [
+            19.0,
+            22.0
+          ],
+          "baseline_reason": "A visible 20 mL or 60 mL capacity is required."
+        },
+        "IMG_3293": {
+          "estimates": {
+            "stroke_ocr": null,
+            "landmarks": null,
+            "combined": null
+          },
+          "reference": [
+            19.0,
+            22.0
+          ],
+          "baseline_reason": "The nearest piston edge or the uninterrupted liquid column is ambiguous."
+        },
+        "IMG_3294": {
+          "estimates": {
+            "stroke_ocr": 20,
+            "landmarks": null,
+            "combined": 20
+          },
+          "reference": [
+            19.0,
+            21.0
+          ],
+          "baseline_reason": "A visible 20 mL or 60 mL capacity is required."
+        },
+        "IMG_3296": {
+          "estimates": {
+            "stroke_ocr": 18,
+            "landmarks": null,
+            "combined": 18
+          },
+          "reference": [
+            19.0,
+            22.0
+          ],
+          "baseline_reason": "A visible 20 mL or 60 mL capacity is required."
+        },
+        "IMG_3298": {
+          "estimates": {
+            "stroke_ocr": null,
+            "landmarks": null,
+            "combined": null
+          },
+          "reference": [
+            19.0,
+            22.0
+          ],
+          "baseline_reason": "A visible 20 mL or 60 mL capacity is required."
+        },
+        "IMG_3299": {
+          "estimates": {
+            "stroke_ocr": null,
+            "landmarks": null,
+            "combined": null
+          },
+          "reference": [
+            19.0,
+            22.0
+          ],
+          "baseline_reason": "The nearest piston edge or the uninterrupted liquid column is ambiguous."
+        },
+        "IMG_3302": {
+          "estimates": {
+            "stroke_ocr": null,
+            "landmarks": null,
+            "combined": null
+          },
+          "reference": [
+            19.0,
+            22.0
+          ],
+          "baseline_reason": "The nearest piston edge or the uninterrupted liquid column is ambiguous."
+        },
+        "IMG_3304": {
+          "estimates": {
+            "stroke_ocr": null,
+            "landmarks": null,
+            "combined": null
+          },
+          "reference": [
+            19.0,
+            22.0
+          ],
+          "baseline_reason": "A visible 20 mL or 60 mL capacity is required."
+        },
+        "IMG_3305": {
+          "estimates": {
+            "stroke_ocr": null,
+            "landmarks": null,
+            "combined": null
+          },
+          "reference": [
+            20.0,
+            22.0
+          ],
+          "baseline_reason": "The nearest piston edge or the uninterrupted liquid column is ambiguous."
+        },
+        "IMG_3310": {
+          "estimates": {
+            "stroke_ocr": null,
+            "landmarks": null,
+            "combined": null
+          },
+          "reference": [
+            15.0,
+            18.0
+          ],
+          "baseline_reason": "A visible 20 mL or 60 mL capacity is required."
+        },
+        "IMG_3315": {
+          "estimates": {
+            "stroke_ocr": null,
+            "landmarks": null,
+            "combined": null
+          },
+          "reference": [
+            15.0,
+            18.0
+          ],
+          "baseline_reason": "A visible 20 mL or 60 mL capacity is required."
+        },
+        "IMG_3320": {
+          "estimates": {
+            "stroke_ocr": 12,
+            "landmarks": null,
+            "combined": 12
+          },
+          "reference": [
+            12.0,
+            15.0
+          ],
+          "baseline_reason": "A visible 20 mL or 60 mL capacity is required."
+        },
+        "IMG_3323": {
+          "estimates": {
+            "stroke_ocr": null,
+            "landmarks": null,
+            "combined": null
+          },
+          "reference": [
+            10.0,
+            13.0
+          ],
+          "baseline_reason": "A visible 20 mL or 60 mL capacity is required."
+        },
+        "IMG_3324": {
+          "estimates": {
+            "stroke_ocr": null,
+            "landmarks": null,
+            "combined": null
+          },
+          "reference": [
+            10.0,
+            13.0
+          ],
+          "baseline_reason": "A visible 20 mL or 60 mL capacity is required."
+        },
+        "IMG_3325": {
+          "estimates": {
+            "stroke_ocr": null,
+            "landmarks": null,
+            "combined": null
+          },
+          "reference": [
+            10.0,
+            13.0
+          ],
+          "baseline_reason": "A visible 20 mL or 60 mL capacity is required."
+        }
+      }
+    },
+    "holdout-60": {
+      "counts": {
+        "stroke_ocr": {
+          "added": 0,
+          "in_bracket": 0,
+          "false_clear": 0
+        },
+        "landmarks": {
+          "added": 0,
+          "in_bracket": 0,
+          "false_clear": 0
+        },
+        "combined": {
+          "added": 0,
+          "in_bracket": 0,
+          "false_clear": 0
+        }
+      },
+      "cases": {
+        "IMG_3251": {
+          "estimates": {
+            "stroke_ocr": null,
+            "landmarks": null,
+            "combined": null
+          },
+          "reference": [
+            37.0,
+            41.0
+          ],
+          "baseline_reason": "A visible 20 mL or 60 mL capacity is required."
+        },
+        "IMG_3263": {
+          "estimates": {
+            "stroke_ocr": null,
+            "landmarks": null,
+            "combined": null
+          },
+          "reference": [
+            27.0,
+            31.0
+          ],
+          "baseline_reason": "A visible 20 mL or 60 mL capacity is required."
+        },
+        "IMG_3268": {
+          "estimates": {
+            "stroke_ocr": null,
+            "landmarks": null,
+            "combined": null
+          },
+          "reference": [
+            28.0,
+            32.0
+          ],
+          "baseline_reason": "A visible 20 mL or 60 mL capacity is required."
+        },
+        "IMG_3269": {
+          "estimates": {
+            "stroke_ocr": null,
+            "landmarks": null,
+            "combined": null
+          },
+          "reference": [
+            28.0,
+            32.0
+          ],
+          "baseline_reason": "A visible 20 mL or 60 mL capacity is required."
+        },
+        "IMG_3272": {
+          "estimates": {
+            "stroke_ocr": null,
+            "landmarks": null,
+            "combined": null
+          },
+          "reference": [
+            26.0,
+            30.0
+          ],
+          "baseline_reason": "Three consistent numbered graduations are required."
+        },
+        "IMG_3275": {
+          "estimates": {
+            "stroke_ocr": null,
+            "landmarks": null,
+            "combined": null
+          },
+          "reference": [
+            23.0,
+            28.0
+          ],
+          "baseline_reason": "A visible 20 mL or 60 mL capacity is required."
+        },
+        "IMG_3279": {
+          "estimates": {
+            "stroke_ocr": null,
+            "landmarks": null,
+            "combined": null
+          },
+          "reference": [
+            23.0,
+            28.0
+          ],
+          "baseline_reason": "A visible 20 mL or 60 mL capacity is required."
+        },
+        "IMG_3283": {
+          "estimates": {
+            "stroke_ocr": null,
+            "landmarks": null,
+            "combined": null
+          },
+          "reference": [
+            17.0,
+            21.0
+          ],
+          "baseline_reason": "A visible 20 mL or 60 mL capacity is required."
+        }
+      }
+    },
+    "clear": {
+      "counts": {
+        "stroke_ocr": {
+          "added": 0,
+          "in_bracket": 0,
+          "false_clear": 0
+        },
+        "landmarks": {
+          "added": 0,
+          "in_bracket": 0,
+          "false_clear": 0
+        },
+        "combined": {
+          "added": 0,
+          "in_bracket": 0,
+          "false_clear": 0
+        }
+      },
+      "cases": {
+        "IMG_3178": {
+          "estimates": {
+            "stroke_ocr": null,
+            "landmarks": null,
+            "combined": null
+          },
+          "reference": null,
+          "baseline_reason": "A continuous visible liquid region could not be established."
+        },
+        "IMG_3179": {
+          "estimates": {
+            "stroke_ocr": null,
+            "landmarks": null,
+            "combined": null
+          },
+          "reference": null,
+          "baseline_reason": "A continuous visible liquid region could not be established."
+        },
+        "IMG_3180": {
+          "estimates": {
+            "stroke_ocr": null,
+            "landmarks": null,
+            "combined": null
+          },
+          "reference": null,
+          "baseline_reason": "A visible 20 mL or 60 mL capacity is required."
+        },
+        "IMG_3181": {
+          "estimates": {
+            "stroke_ocr": null,
+            "landmarks": null,
+            "combined": null
+          },
+          "reference": null,
+          "baseline_reason": "A visible 20 mL or 60 mL capacity is required."
+        },
+        "IMG_3182": {
+          "estimates": {
+            "stroke_ocr": null,
+            "landmarks": null,
+            "combined": null
+          },
+          "reference": null,
+          "baseline_reason": "A visible 20 mL or 60 mL capacity is required."
+        },
+        "IMG_3183": {
+          "estimates": {
+            "stroke_ocr": null,
+            "landmarks": null,
+            "combined": null
+          },
+          "reference": null,
+          "baseline_reason": "A continuous visible liquid region could not be established."
+        },
+        "IMG_3184": {
+          "estimates": {
+            "stroke_ocr": null,
+            "landmarks": null,
+            "combined": null
+          },
+          "reference": null,
+          "baseline_reason": "A continuous visible liquid region could not be established."
+        },
+        "IMG_3185": {
+          "estimates": {
+            "stroke_ocr": null,
+            "landmarks": null,
+            "combined": null
+          },
+          "reference": null,
+          "baseline_reason": "A continuous visible liquid region could not be established."
+        },
+        "IMG_3186": {
+          "estimates": {
+            "stroke_ocr": null,
+            "landmarks": null,
+            "combined": null
+          },
+          "reference": null,
+          "baseline_reason": "A visible 20 mL or 60 mL capacity is required."
+        },
+        "IMG_3187": {
+          "estimates": {
+            "stroke_ocr": null,
+            "landmarks": null,
+            "combined": null
+          },
+          "reference": null,
+          "baseline_reason": "A continuous visible liquid region could not be established."
+        },
+        "IMG_3188": {
+          "estimates": {
+            "stroke_ocr": null,
+            "landmarks": null,
+            "combined": null
+          },
+          "reference": null,
+          "baseline_reason": "A visible 20 mL or 60 mL capacity is required."
+        },
+        "IMG_3189": {
+          "estimates": {
+            "stroke_ocr": null,
+            "landmarks": null,
+            "combined": null
+          },
+          "reference": null,
+          "baseline_reason": "A continuous visible liquid region could not be established."
+        },
+        "IMG_3190": {
+          "estimates": {
+            "stroke_ocr": null,
+            "landmarks": null,
+            "combined": null
+          },
+          "reference": null,
+          "baseline_reason": "A visible 20 mL or 60 mL capacity is required."
+        },
+        "IMG_3191": {
+          "estimates": {
+            "stroke_ocr": null,
+            "landmarks": null,
+            "combined": null
+          },
+          "reference": null,
+          "baseline_reason": "A continuous visible liquid region could not be established."
+        }
+      }
+    }
+  },
+  "selection_sha256": "68d048b7b019e43cec996d9d1bd4365d281c2eb8422dd091517178075acd8916",
+  "scope": "Landmark references are approximate visual clicks. Secondary fill projection uses previously evaluated brackets."
+}

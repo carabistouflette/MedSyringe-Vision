@@ -1,0 +1,249 @@
+{
+  "passed": true,
+  "warm_median_ms": {
+    "cpu": 10549.848341999905,
+    "xpu": 5599.059466000199
+  },
+  "initialization_ms": {
+    "cpu": 2287.165390999917,
+    "xpu": 2368.290897999941
+  },
+  "cases": [
+    {
+      "id": "IMG_3203",
+      "rotation": 0,
+      "cpu_ms": 31177.27906900018,
+      "xpu_ms": 26506.582838999973,
+      "cpu_count": 1,
+      "xpu_count": 1,
+      "objects": [
+        {
+          "iou": 0.9999773819632656,
+          "stable": true,
+          "cpu": {
+            "capacity": 60.0,
+            "scale": "60-scale",
+            "color": null,
+            "fill_ml": 38,
+            "fill_status": "visual estimate",
+            "lightness": 24.7
+          },
+          "xpu": {
+            "capacity": 60.0,
+            "scale": "60-scale",
+            "color": null,
+            "fill_ml": 38,
+            "fill_status": "visual estimate",
+            "lightness": 24.7
+          }
+        }
+      ],
+      "cpu_sam3": null,
+      "xpu_sam3": null
+    },
+    {
+      "id": "IMG_3203",
+      "rotation": 180,
+      "cpu_ms": 10174.925778999977,
+      "xpu_ms": 5198.9410189999035,
+      "cpu_count": 1,
+      "xpu_count": 1,
+      "objects": [
+        {
+          "iou": 0.9999985588088846,
+          "stable": true,
+          "cpu": {
+            "capacity": 60.0,
+            "scale": "60-scale",
+            "color": null,
+            "fill_ml": 38,
+            "fill_status": "visual estimate",
+            "lightness": null
+          },
+          "xpu": {
+            "capacity": 60.0,
+            "scale": "60-scale",
+            "color": null,
+            "fill_ml": 38,
+            "fill_status": "visual estimate",
+            "lightness": null
+          }
+        }
+      ],
+      "cpu_sam3": null,
+      "xpu_sam3": null
+    },
+    {
+      "id": "IMG_3316",
+      "rotation": 0,
+      "cpu_ms": 9388.656858999866,
+      "xpu_ms": 4659.641553999791,
+      "cpu_count": 1,
+      "xpu_count": 1,
+      "objects": [
+        {
+          "iou": 0.9999928205160821,
+          "stable": true,
+          "cpu": {
+            "capacity": 20.0,
+            "scale": "20-scale",
+            "color": "orange",
+            "fill_ml": 16,
+            "fill_status": "visual estimate",
+            "lightness": 66.7
+          },
+          "xpu": {
+            "capacity": 20.0,
+            "scale": "20-scale",
+            "color": "orange",
+            "fill_ml": 16,
+            "fill_status": "visual estimate",
+            "lightness": 66.7
+          }
+        }
+      ],
+      "cpu_sam3": null,
+      "xpu_sam3": null
+    },
+    {
+      "id": "IMG_3316",
+      "rotation": 180,
+      "cpu_ms": 10549.848341999905,
+      "xpu_ms": 5599.059466000199,
+      "cpu_count": 1,
+      "xpu_count": 1,
+      "objects": [
+        {
+          "iou": 0.9999913378362151,
+          "stable": true,
+          "cpu": {
+            "capacity": 20.0,
+            "scale": "20-scale",
+            "color": "orange",
+            "fill_ml": 16,
+            "fill_status": "visual estimate",
+            "lightness": null
+          },
+          "xpu": {
+            "capacity": 20.0,
+            "scale": "20-scale",
+            "color": "orange",
+            "fill_ml": 16,
+            "fill_status": "visual estimate",
+            "lightness": null
+          }
+        }
+      ],
+      "cpu_sam3": null,
+      "xpu_sam3": null
+    },
+    {
+      "id": "IMG_3185",
+      "rotation": 0,
+      "cpu_ms": 8792.668090999996,
+      "xpu_ms": 3888.7022330000036,
+      "cpu_count": 1,
+      "xpu_count": 1,
+      "objects": [
+        {
+          "iou": 0.9999996476320138,
+          "stable": true,
+          "cpu": {
+            "capacity": 20.0,
+            "scale": "20-scale",
+            "color": null,
+            "fill_ml": null,
+            "fill_status": "insufficient evidence",
+            "lightness": null
+          },
+          "xpu": {
+            "capacity": 20.0,
+            "scale": "20-scale",
+            "color": null,
+            "fill_ml": null,
+            "fill_status": "insufficient evidence",
+            "lightness": null
+          }
+        }
+      ],
+      "cpu_sam3": null,
+      "xpu_sam3": null
+    },
+    {
+      "id": "IMG_3229",
+      "rotation": 0,
+      "cpu_ms": 16396.938981999938,
+      "xpu_ms": 11684.144987000082,
+      "cpu_count": 1,
+      "xpu_count": 1,
+      "objects": [
+        {
+          "iou": 1.0,
+          "stable": true,
+          "cpu": {
+            "capacity": 20.0,
+            "scale": "20-scale",
+            "color": null,
+            "fill_ml": null,
+            "fill_status": "insufficient evidence",
+            "lightness": 48.2
+          },
+          "xpu": {
+            "capacity": 20.0,
+            "scale": "20-scale",
+            "color": null,
+            "fill_ml": null,
+            "fill_status": "insufficient evidence",
+            "lightness": 48.2
+          }
+        }
+      ],
+      "cpu_sam3": "completed",
+      "xpu_sam3": "completed"
+    },
+    {
+      "id": "IMG_3322",
+      "rotation": 0,
+      "cpu_ms": 11065.46375400012,
+      "xpu_ms": 5604.111433000071,
+      "cpu_count": 1,
+      "xpu_count": 1,
+      "objects": [
+        {
+          "iou": 0.9999973811029073,
+          "stable": true,
+          "cpu": {
+            "capacity": null,
+            "scale": null,
+            "color": "orange",
+            "fill_ml": null,
+            "fill_status": "insufficient evidence",
+            "lightness": 68.4
+          },
+          "xpu": {
+            "capacity": null,
+            "scale": null,
+            "color": "orange",
+            "fill_ml": null,
+            "fill_status": "insufficient evidence",
+            "lightness": 68.4
+          }
+        }
+      ],
+      "cpu_sam3": null,
+      "xpu_sam3": null
+    },
+    {
+      "id": "179983069",
+      "rotation": 0,
+      "cpu_ms": 12290.827978999914,
+      "xpu_ms": 7213.9113970001745,
+      "cpu_count": 0,
+      "xpu_count": 0,
+      "objects": [],
+      "cpu_sam3": "completed",
+      "xpu_sam3": "completed"
+    }
+  ],
+  "scope": "Fixed regression controls. Grounding DINO device varies. SAM and OCR use the same workers."
+}

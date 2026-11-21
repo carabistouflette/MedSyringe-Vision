@@ -1,0 +1,1927 @@
+{
+  "passed": true,
+  "cohorts": {
+    "holdout": {
+      "metrics": {
+        "images": 35,
+        "answered": 18,
+        "median_error_ml": 0.0,
+        "worst_error_ml": 0.0,
+        "within_visible_bracket": 18,
+        "within_one_minor_mark": 18,
+        "intervals_overlap": 18,
+        "false_clear_answers": 0
+      },
+      "cases": {
+        "IMG_3288": {
+          "result": {
+            "status": "insufficient evidence",
+            "reason": "The nearest piston edge or the uninterrupted liquid column is ambiguous."
+          },
+          "reference_ml": [
+            19.0,
+            21.0
+          ]
+        },
+        "IMG_3289": {
+          "result": {
+            "status": "visual estimate",
+            "method": "Numbered graduations and nearest piston edge",
+            "ml": 20,
+            "interval_ml": [
+              18,
+              20
+            ],
+            "percent": 100,
+            "interval_percent": [
+              90,
+              100
+            ],
+            "capacity_ml": 20,
+            "piston_line": [
+              [
+                0.2166555863733691,
+                0.4347319959432233
+              ],
+              [
+                0.5278325672871923,
+                0.43475456836741844
+              ]
+            ],
+            "graduations": [
+              {
+                "ml": 10,
+                "crop_bbox": [
+                  0.30689655172413793,
+                  0.2419871794871795,
+                  0.4379310344827586,
+                  0.266025641025641
+                ],
+                "text": "10"
+              },
+              {
+                "ml": 15,
+                "crop_bbox": [
+                  0.2896551724137931,
+                  0.3317307692307692,
+                  0.4517241379310345,
+                  0.36217948717948717
+                ],
+                "text": "15"
+              },
+              {
+                "ml": 20,
+                "crop_bbox": [
+                  0.2918552036199095,
+                  0.4215789473684211,
+                  0.4524886877828055,
+                  0.4494736842105263
+                ],
+                "text": "20"
+              }
+            ],
+            "localization": {
+              "contrast": 15.9,
+              "scale_residual_ml": 0.08,
+              "tick_train_verified": false
+            }
+          },
+          "reference_ml": [
+            19.0,
+            21.0
+          ],
+          "error_beyond_bracket_ml": 0.0,
+          "interval_overlaps": true
+        },
+        "IMG_3290": {
+          "result": {
+            "status": "visual estimate",
+            "method": "Numbered graduations and nearest piston edge",
+            "ml": 20,
+            "interval_ml": [
+              18,
+              20
+            ],
+            "percent": 100,
+            "interval_percent": [
+              90,
+              100
+            ],
+            "capacity_ml": 20,
+            "piston_line": [
+              [
+                0.4986084889958484,
+                0.40496654561438195
+              ],
+              [
+                0.6134394276374875,
+                0.44604860367195887
+              ]
+            ],
+            "graduations": [
+              {
+                "ml": 5,
+                "crop_bbox": [
+                  0.7815171119382095,
+                  0.1404638481219829,
+                  0.8554326505145712,
+                  0.1872197740349935
+                ],
+                "text": "5"
+              },
+              {
+                "ml": 10,
+                "crop_bbox": [
+                  0.7006832642118522,
+                  0.22886776504846076,
+                  0.7912095257352987,
+                  0.2831326541634144
+                ],
+                "text": "10"
+              },
+              {
+                "ml": 15,
+                "crop_bbox": [
+                  0.6164450565755182,
+                  0.3195000993235713,
+                  0.7007019707147335,
+                  0.37100104312195487
+                ],
+                "text": "15"
+              },
+              {
+                "ml": 20,
+                "crop_bbox": [
+                  0.528604433328959,
+                  0.40365368792433587,
+                  0.6129273660349236,
+                  0.4562280019887582
+                ],
+                "text": "20"
+              }
+            ],
+            "localization": {
+              "contrast": 19.2,
+              "scale_residual_ml": 0.2,
+              "tick_train_verified": false
+            }
+          },
+          "reference_ml": [
+            19.0,
+            21.0
+          ],
+          "error_beyond_bracket_ml": 0.0,
+          "interval_overlaps": true
+        },
+        "IMG_3291": {
+          "result": {
+            "status": "insufficient evidence",
+            "reason": "A continuous visible liquid region could not be established."
+          },
+          "reference_ml": [
+            19.0,
+            21.0
+          ]
+        },
+        "IMG_3292": {
+          "result": {
+            "status": "insufficient evidence",
+            "reason": "A visible 20 mL or 60 mL capacity is required."
+          },
+          "reference_ml": [
+            19.0,
+            22.0
+          ]
+        },
+        "IMG_3293": {
+          "result": {
+            "status": "insufficient evidence",
+            "reason": "The nearest piston edge or the uninterrupted liquid column is ambiguous."
+          },
+          "reference_ml": [
+            19.0,
+            22.0
+          ]
+        },
+        "IMG_3294": {
+          "result": {
+            "status": "insufficient evidence",
+            "reason": "A visible 20 mL or 60 mL capacity is required."
+          },
+          "reference_ml": [
+            19.0,
+            21.0
+          ]
+        },
+        "IMG_3295": {
+          "result": {
+            "status": "visual estimate",
+            "method": "Numbered graduations and nearest piston edge",
+            "ml": 19,
+            "interval_ml": [
+              18,
+              20
+            ],
+            "percent": 95,
+            "interval_percent": [
+              90,
+              100
+            ],
+            "capacity_ml": 20,
+            "piston_line": [
+              [
+                0.2173671167781256,
+                0.5615481542718223
+              ],
+              [
+                0.614850148452334,
+                0.5634450809857703
+              ]
+            ],
+            "graduations": [
+              {
+                "ml": 5,
+                "crop_bbox": [
+                  0.43617021276595747,
+                  0.21794871794871795,
+                  0.5602836879432624,
+                  0.25240384615384615
+                ],
+                "text": "5"
+              },
+              {
+                "ml": 10,
+                "crop_bbox": [
+                  0.41843971631205673,
+                  0.33092948717948717,
+                  0.6276595744680851,
+                  0.3685897435897436
+                ],
+                "text": "10"
+              },
+              {
+                "ml": 15,
+                "crop_bbox": [
+                  0.39361702127659576,
+                  0.4439102564102564,
+                  0.6028368794326241,
+                  0.48157051282051283
+                ],
+                "text": "15"
+              },
+              {
+                "ml": 20,
+                "crop_bbox": [
+                  0.35815602836879434,
+                  0.5504807692307693,
+                  0.5851063829787234,
+                  0.5953525641025641
+                ],
+                "text": "20"
+              }
+            ],
+            "localization": {
+              "contrast": 20.7,
+              "scale_residual_ml": 0.21,
+              "tick_train_verified": false
+            }
+          },
+          "reference_ml": [
+            19.0,
+            21.0
+          ],
+          "error_beyond_bracket_ml": 0.0,
+          "interval_overlaps": true
+        },
+        "IMG_3296": {
+          "result": {
+            "status": "insufficient evidence",
+            "reason": "A visible 20 mL or 60 mL capacity is required."
+          },
+          "reference_ml": [
+            19.0,
+            22.0
+          ]
+        },
+        "IMG_3297": {
+          "result": {
+            "status": "visual estimate",
+            "method": "Numbered graduations and nearest piston edge",
+            "ml": 19,
+            "interval_ml": [
+              18,
+              20
+            ],
+            "percent": 95,
+            "interval_percent": [
+              90,
+              100
+            ],
+            "capacity_ml": 20,
+            "piston_line": [
+              [
+                0.36861201746297795,
+                0.4989871952979967
+              ],
+              [
+                0.6058043184360242,
+                0.48415762218131847
+              ]
+            ],
+            "graduations": [
+              {
+                "ml": 10,
+                "crop_bbox": [
+                  0.37187890694913045,
+                  0.28195246942635227,
+                  0.498901017788285,
+                  0.32080016983993515
+                ],
+                "text": "10"
+              },
+              {
+                "ml": 15,
+                "crop_bbox": [
+                  0.44460454434842694,
+                  0.38417603631499825,
+                  0.5572327317464217,
+                  0.4182718966181982
+                ],
+                "text": "15"
+              },
+              {
+                "ml": 20,
+                "crop_bbox": [
+                  0.4694001221002938,
+                  0.47397663783963934,
+                  0.6260703044049729,
+                  0.5201432980321741
+                ],
+                "text": "20"
+              }
+            ],
+            "localization": {
+              "contrast": 15.7,
+              "scale_residual_ml": 0.12,
+              "tick_train_verified": false
+            }
+          },
+          "reference_ml": [
+            19.0,
+            21.0
+          ],
+          "error_beyond_bracket_ml": 0.0,
+          "interval_overlaps": true
+        },
+        "IMG_3298": {
+          "result": {
+            "status": "insufficient evidence",
+            "reason": "A visible 20 mL or 60 mL capacity is required."
+          },
+          "reference_ml": [
+            19.0,
+            22.0
+          ]
+        },
+        "IMG_3299": {
+          "result": {
+            "status": "insufficient evidence",
+            "reason": "The nearest piston edge or the uninterrupted liquid column is ambiguous."
+          },
+          "reference_ml": [
+            19.0,
+            22.0
+          ]
+        },
+        "IMG_3301": {
+          "result": {
+            "status": "visual estimate",
+            "method": "Numbered graduations and nearest piston edge",
+            "ml": 20,
+            "interval_ml": [
+              18,
+              20
+            ],
+            "percent": 100,
+            "interval_percent": [
+              90,
+              100
+            ],
+            "capacity_ml": 20,
+            "piston_line": [
+              [
+                0.21715052593857725,
+                0.5135728563804925
+              ],
+              [
+                0.6017659105539619,
+                0.5263544655758949
+              ]
+            ],
+            "graduations": [
+              {
+                "ml": 10,
+                "crop_bbox": [
+                  0.4689655172413793,
+                  0.2764423076923077,
+                  0.6689655172413793,
+                  0.3189102564102564
+                ],
+                "text": "10"
+              },
+              {
+                "ml": 15,
+                "crop_bbox": [
+                  0.38620689655172413,
+                  0.38621794871794873,
+                  0.6172413793103448,
+                  0.43349358974358976
+                ],
+                "text": "15"
+              },
+              {
+                "ml": 20,
+                "crop_bbox": [
+                  0.31724137931034485,
+                  0.49439102564102566,
+                  0.5448275862068965,
+                  0.5464743589743589
+                ],
+                "text": "20"
+              }
+            ],
+            "localization": {
+              "contrast": 15.9,
+              "scale_residual_ml": 0.03,
+              "tick_train_verified": false
+            }
+          },
+          "reference_ml": [
+            19.0,
+            22.0
+          ],
+          "error_beyond_bracket_ml": 0.0,
+          "interval_overlaps": true
+        },
+        "IMG_3302": {
+          "result": {
+            "status": "insufficient evidence",
+            "reason": "The nearest piston edge or the uninterrupted liquid column is ambiguous."
+          },
+          "reference_ml": [
+            19.0,
+            22.0
+          ]
+        },
+        "IMG_3304": {
+          "result": {
+            "status": "insufficient evidence",
+            "reason": "A visible 20 mL or 60 mL capacity is required."
+          },
+          "reference_ml": [
+            19.0,
+            22.0
+          ]
+        },
+        "IMG_3305": {
+          "result": {
+            "status": "insufficient evidence",
+            "reason": "The nearest piston edge or the uninterrupted liquid column is ambiguous."
+          },
+          "reference_ml": [
+            20.0,
+            22.0
+          ]
+        },
+        "IMG_3306": {
+          "result": {
+            "status": "visual estimate",
+            "method": "Numbered graduations and nearest piston edge",
+            "ml": 20,
+            "interval_ml": [
+              18,
+              20
+            ],
+            "percent": 100,
+            "interval_percent": [
+              90,
+              100
+            ],
+            "capacity_ml": 20,
+            "piston_line": [
+              [
+                0.4035586140715524,
+                0.44368817465961713
+              ],
+              [
+                0.7225163961786423,
+                0.4510058329580491
+              ]
+            ],
+            "graduations": [
+              {
+                "ml": 5,
+                "crop_bbox": [
+                  0.6472602739726028,
+                  0.15384615384615385,
+                  0.7671232876712328,
+                  0.1858974358974359
+                ],
+                "text": "5"
+              },
+              {
+                "ml": 10,
+                "crop_bbox": [
+                  0.6232876712328768,
+                  0.25,
+                  0.7671232876712328,
+                  0.27884615384615385
+                ],
+                "text": "10"
+              },
+              {
+                "ml": 15,
+                "crop_bbox": [
+                  0.5616438356164384,
+                  0.3421474358974359,
+                  0.7191780821917808,
+                  0.3733974358974359
+                ],
+                "text": "15"
+              },
+              {
+                "ml": 20,
+                "crop_bbox": [
+                  0.5147013601419279,
+                  0.4326315789473685,
+                  0.6748669426374927,
+                  0.46507479224376735
+                ],
+                "text": "20"
+              }
+            ],
+            "localization": {
+              "contrast": 12.6,
+              "scale_residual_ml": 0.21,
+              "tick_train_verified": false
+            }
+          },
+          "reference_ml": [
+            19.0,
+            22.0
+          ],
+          "error_beyond_bracket_ml": 0.0,
+          "interval_overlaps": true
+        },
+        "IMG_3307": {
+          "result": {
+            "status": "visual estimate",
+            "method": "Numbered graduations and nearest piston edge",
+            "ml": 20,
+            "interval_ml": [
+              18,
+              20
+            ],
+            "percent": 100,
+            "interval_percent": [
+              90,
+              100
+            ],
+            "capacity_ml": 20,
+            "piston_line": [
+              [
+                0.428760463473422,
+                0.4514489313996279
+              ],
+              [
+                0.7901374112955044,
+                0.45656777811168864
+              ]
+            ],
+            "graduations": [
+              {
+                "ml": 10,
+                "crop_bbox": [
+                  0.6332046332046332,
+                  0.25240384615384615,
+                  0.7992277992277992,
+                  0.28525641025641024
+                ],
+                "text": "10"
+              },
+              {
+                "ml": 15,
+                "crop_bbox": [
+                  0.5868725868725869,
+                  0.34615384615384615,
+                  0.7837837837837838,
+                  0.38221153846153844
+                ],
+                "text": "15"
+              },
+              {
+                "ml": 20,
+                "crop_bbox": [
+                  0.5563852524712797,
+                  0.43903324099722996,
+                  0.7522041143467806,
+                  0.4720498614958449
+                ],
+                "text": "20"
+              }
+            ],
+            "localization": {
+              "contrast": 13.7,
+              "scale_residual_ml": 0.07,
+              "tick_train_verified": false
+            }
+          },
+          "reference_ml": [
+            19.0,
+            22.0
+          ],
+          "error_beyond_bracket_ml": 0.0,
+          "interval_overlaps": true
+        },
+        "IMG_3309": {
+          "result": {
+            "status": "visual estimate",
+            "method": "Numbered graduations and nearest piston edge",
+            "ml": 16,
+            "interval_ml": [
+              14,
+              17
+            ],
+            "percent": 80,
+            "interval_percent": [
+              70,
+              85
+            ],
+            "capacity_ml": 20,
+            "piston_line": [
+              [
+                0.36446405064173343,
+                0.38341542574961157
+              ],
+              [
+                0.5057530777079002,
+                0.35107618103338367
+              ]
+            ],
+            "graduations": [
+              {
+                "ml": 10,
+                "crop_bbox": [
+                  0.28963694652533506,
+                  0.23079142807804745,
+                  0.385650603783752,
+                  0.27690275523278984
+                ],
+                "text": "10"
+              },
+              {
+                "ml": 15,
+                "crop_bbox": [
+                  0.3790810529034939,
+                  0.32812384337588796,
+                  0.4605199606542265,
+                  0.3711809119690399
+                ],
+                "text": "15"
+              },
+              {
+                "ml": 20,
+                "crop_bbox": [
+                  0.44151191678053753,
+                  0.422771507761469,
+                  0.5332130846047333,
+                  0.46640304862801824
+                ],
+                "text": "20"
+              }
+            ],
+            "localization": {
+              "contrast": 21.7,
+              "scale_residual_ml": 0.13,
+              "tick_train_verified": false
+            }
+          },
+          "reference_ml": [
+            15.0,
+            18.0
+          ],
+          "error_beyond_bracket_ml": 0.0,
+          "interval_overlaps": true
+        },
+        "IMG_3310": {
+          "result": {
+            "status": "insufficient evidence",
+            "reason": "A visible 20 mL or 60 mL capacity is required."
+          },
+          "reference_ml": [
+            15.0,
+            18.0
+          ]
+        },
+        "IMG_3311": {
+          "result": {
+            "status": "visual estimate",
+            "method": "Numbered graduations and nearest piston edge",
+            "ml": 16,
+            "interval_ml": [
+              15,
+              18
+            ],
+            "percent": 80,
+            "interval_percent": [
+              75,
+              90
+            ],
+            "capacity_ml": 20,
+            "piston_line": [
+              [
+                0.28770998707879064,
+                0.3392003841327291
+              ],
+              [
+                0.41477868546869734,
+                0.3027311215950074
+              ]
+            ],
+            "graduations": [
+              {
+                "ml": 5,
+                "crop_bbox": [
+                  0.11548043365767331,
+                  0.10901030101812144,
+                  0.1836859405840178,
+                  0.14926660816464654
+                ],
+                "text": "5"
+              },
+              {
+                "ml": 10,
+                "crop_bbox": [
+                  0.1914785339762963,
+                  0.18130993664145206,
+                  0.291420572173306,
+                  0.23456986722385137
+                ],
+                "text": "10"
+              },
+              {
+                "ml": 15,
+                "crop_bbox": [
+                  0.2707391035536491,
+                  0.27358250525783706,
+                  0.36783672324385813,
+                  0.3216159297174582
+                ],
+                "text": "15"
+              },
+              {
+                "ml": 20,
+                "crop_bbox": [
+                  0.34464666970106356,
+                  0.3658070150783064,
+                  0.45186334591685434,
+                  0.4186249040879226
+                ],
+                "text": "20"
+              }
+            ],
+            "localization": {
+              "contrast": 24.6,
+              "scale_residual_ml": 0.29,
+              "tick_train_verified": false
+            }
+          },
+          "reference_ml": [
+            15.0,
+            18.0
+          ],
+          "error_beyond_bracket_ml": 0.0,
+          "interval_overlaps": true
+        },
+        "IMG_3313": {
+          "result": {
+            "status": "visual estimate",
+            "method": "Numbered graduations and nearest piston edge",
+            "ml": 16,
+            "interval_ml": [
+              15,
+              18
+            ],
+            "percent": 80,
+            "interval_percent": [
+              75,
+              90
+            ],
+            "capacity_ml": 20,
+            "piston_line": [
+              [
+                0.3722072286290705,
+                0.39576319071362703
+              ],
+              [
+                0.5377233217700971,
+                0.36704699441425753
+              ]
+            ],
+            "graduations": [
+              {
+                "ml": 5,
+                "crop_bbox": [
+                  0.21970841379351125,
+                  0.15727530743170304,
+                  0.2856546970337089,
+                  0.19309022243714916
+                ],
+                "text": "5"
+              },
+              {
+                "ml": 10,
+                "crop_bbox": [
+                  0.30070163129513516,
+                  0.24656435965567353,
+                  0.397444728638629,
+                  0.28856732293453446
+                ],
+                "text": "10"
+              },
+              {
+                "ml": 15,
+                "crop_bbox": [
+                  0.3626863949867551,
+                  0.3439698885266961,
+                  0.4718643114904829,
+                  0.3866594326689541
+                ],
+                "text": "15"
+              },
+              {
+                "ml": 20,
+                "crop_bbox": [
+                  0.436707147701936,
+                  0.4375901866749467,
+                  0.5434087950631388,
+                  0.4820878206993597
+                ],
+                "text": "20"
+              }
+            ],
+            "localization": {
+              "contrast": 21.3,
+              "scale_residual_ml": 0.26,
+              "tick_train_verified": false
+            }
+          },
+          "reference_ml": [
+            15.0,
+            18.0
+          ],
+          "error_beyond_bracket_ml": 0.0,
+          "interval_overlaps": true
+        },
+        "IMG_3314": {
+          "result": {
+            "status": "visual estimate",
+            "method": "Numbered graduations and nearest piston edge",
+            "ml": 16,
+            "interval_ml": [
+              15,
+              18
+            ],
+            "percent": 80,
+            "interval_percent": [
+              75,
+              90
+            ],
+            "capacity_ml": 20,
+            "piston_line": [
+              [
+                0.3262826489681341,
+                0.3913515646861303
+              ],
+              [
+                0.383458399122634,
+                0.3010718046736822
+              ]
+            ],
+            "graduations": [
+              {
+                "ml": 10,
+                "crop_bbox": [
+                  0.2098845934361585,
+                  0.20397043915545987,
+                  0.2734590645037145,
+                  0.28117190367857536
+                ],
+                "text": "10"
+              },
+              {
+                "ml": 15,
+                "crop_bbox": [
+                  0.29931419917426677,
+                  0.29189516710488683,
+                  0.3620269995575654,
+                  0.37263548005384733
+                ],
+                "text": "15"
+              },
+              {
+                "ml": 20,
+                "crop_bbox": [
+                  0.395212229587438,
+                  0.37994207720405687,
+                  0.4552691190697236,
+                  0.45669053297321593
+                ],
+                "text": "20"
+              }
+            ],
+            "localization": {
+              "contrast": 17.6,
+              "scale_residual_ml": 0.09,
+              "tick_train_verified": false
+            }
+          },
+          "reference_ml": [
+            15.0,
+            18.0
+          ],
+          "error_beyond_bracket_ml": 0.0,
+          "interval_overlaps": true
+        },
+        "IMG_3315": {
+          "result": {
+            "status": "insufficient evidence",
+            "reason": "A visible 20 mL or 60 mL capacity is required."
+          },
+          "reference_ml": [
+            15.0,
+            18.0
+          ]
+        },
+        "IMG_3316": {
+          "result": {
+            "status": "visual estimate",
+            "method": "Numbered graduations and nearest piston edge",
+            "ml": 16,
+            "interval_ml": [
+              15,
+              18
+            ],
+            "percent": 80,
+            "interval_percent": [
+              75,
+              90
+            ],
+            "capacity_ml": 20,
+            "piston_line": [
+              [
+                0.28921748597151764,
+                0.43973420850602696
+              ],
+              [
+                0.6835954107598394,
+                0.4502454901586308
+              ]
+            ],
+            "graduations": [
+              {
+                "ml": 5,
+                "crop_bbox": [
+                  0.5443164023584212,
+                  0.17548098160726705,
+                  0.6817096242070746,
+                  0.21352305013841955
+                ],
+                "text": "5"
+              },
+              {
+                "ml": 10,
+                "crop_bbox": [
+                  0.5006591401192771,
+                  0.289907085257513,
+                  0.6794121869036338,
+                  0.32787049745797037
+                ],
+                "text": "10"
+              },
+              {
+                "ml": 15,
+                "crop_bbox": [
+                  0.39475328253990194,
+                  0.39995336802440246,
+                  0.6292354185134144,
+                  0.4483772403667747
+                ],
+                "text": "15"
+              },
+              {
+                "ml": 20,
+                "crop_bbox": [
+                  0.2969061299020781,
+                  0.4835159754527737,
+                  0.5889354366904508,
+                  0.562618185534836
+                ],
+                "text": "20"
+              }
+            ],
+            "localization": {
+              "contrast": 25.8,
+              "scale_residual_ml": 0.29,
+              "tick_train_verified": false
+            }
+          },
+          "reference_ml": [
+            15.0,
+            18.0
+          ],
+          "error_beyond_bracket_ml": 0.0,
+          "interval_overlaps": true
+        },
+        "IMG_3317": {
+          "result": {
+            "status": "visual estimate",
+            "method": "Numbered graduations and nearest piston edge",
+            "ml": 16,
+            "interval_ml": [
+              15,
+              18
+            ],
+            "percent": 80,
+            "interval_percent": [
+              75,
+              90
+            ],
+            "capacity_ml": 20,
+            "piston_line": [
+              [
+                0.27014000970891094,
+                0.4164235514142236
+              ],
+              [
+                0.6571592404781417,
+                0.423742402849929
+              ]
+            ],
+            "graduations": [
+              {
+                "ml": 5,
+                "crop_bbox": [
+                  0.4681647940074906,
+                  0.17147435897435898,
+                  0.5655430711610487,
+                  0.1971153846153846
+                ],
+                "text": "5"
+              },
+              {
+                "ml": 10,
+                "crop_bbox": [
+                  0.3970037453183521,
+                  0.2724358974358974,
+                  0.6179775280898876,
+                  0.31169871794871795
+                ],
+                "text": "10"
+              },
+              {
+                "ml": 15,
+                "crop_bbox": [
+                  0.36329588014981273,
+                  0.3838141025641026,
+                  0.5468164794007491,
+                  0.41586538461538464
+                ],
+                "text": "15"
+              },
+              {
+                "ml": 20,
+                "crop_bbox": [
+                  0.2247191011235955,
+                  0.453525641025641,
+                  0.5580524344569289,
+                  0.53125
+                ],
+                "text": "20"
+              }
+            ],
+            "localization": {
+              "contrast": 25.7,
+              "scale_residual_ml": 0.31,
+              "tick_train_verified": false
+            }
+          },
+          "reference_ml": [
+            15.0,
+            18.0
+          ],
+          "error_beyond_bracket_ml": 0.0,
+          "interval_overlaps": true
+        },
+        "IMG_3318": {
+          "result": {
+            "status": "visual estimate",
+            "method": "Numbered graduations and nearest piston edge",
+            "ml": 15,
+            "interval_ml": [
+              14,
+              17
+            ],
+            "percent": 75,
+            "interval_percent": [
+              70,
+              85
+            ],
+            "capacity_ml": 20,
+            "piston_line": [
+              [
+                0.280886910795704,
+                0.4714334459083519
+              ],
+              [
+                0.6657452763806838,
+                0.4795386378048418
+              ]
+            ],
+            "graduations": [
+              {
+                "ml": 5,
+                "crop_bbox": [
+                  0.45791245791245794,
+                  0.21875,
+                  0.5622895622895623,
+                  0.2483974358974359
+                ],
+                "text": "5"
+              },
+              {
+                "ml": 10,
+                "crop_bbox": [
+                  0.37037037037037035,
+                  0.3293269230769231,
+                  0.6262626262626263,
+                  0.3782051282051282
+                ],
+                "text": "10"
+              },
+              {
+                "ml": 20,
+                "crop_bbox": [
+                  0.2511877037727061,
+                  0.536398891966759,
+                  0.5262459245458779,
+                  0.6208975069252077
+                ],
+                "text": "20"
+              }
+            ],
+            "localization": {
+              "contrast": 20.6,
+              "scale_residual_ml": 0.24,
+              "tick_train_verified": false
+            }
+          },
+          "reference_ml": [
+            15.0,
+            18.0
+          ],
+          "error_beyond_bracket_ml": 0.0,
+          "interval_overlaps": true
+        },
+        "IMG_3319": {
+          "result": {
+            "status": "visual estimate",
+            "method": "Numbered graduations and nearest piston edge",
+            "ml": 13,
+            "interval_ml": [
+              11,
+              14
+            ],
+            "percent": 65,
+            "interval_percent": [
+              55,
+              70
+            ],
+            "capacity_ml": 20,
+            "piston_line": [
+              [
+                0.4242102382675335,
+                0.3742834646680861
+              ],
+              [
+                0.7832142868505296,
+                0.367521931407567
+              ]
+            ],
+            "graduations": [
+              {
+                "ml": 5,
+                "crop_bbox": [
+                  0.5482758620689655,
+                  0.1955128205128205,
+                  0.6275862068965518,
+                  0.22516025641025642
+                ],
+                "text": "5"
+              },
+              {
+                "ml": 10,
+                "crop_bbox": [
+                  0.5655172413793104,
+                  0.3004807692307692,
+                  0.7344827586206897,
+                  0.3317307692307692
+                ],
+                "text": "10"
+              },
+              {
+                "ml": 15,
+                "crop_bbox": [
+                  0.5927601809954751,
+                  0.40631578947368424,
+                  0.7714932126696833,
+                  0.43842105263157893
+                ],
+                "text": "15"
+              },
+              {
+                "ml": 20,
+                "crop_bbox": [
+                  0.6085972850678734,
+                  0.5078947368421053,
+                  0.7873303167420814,
+                  0.54
+                ],
+                "text": "20"
+              }
+            ],
+            "localization": {
+              "contrast": 24.5,
+              "scale_residual_ml": 0.15,
+              "tick_train_verified": false
+            }
+          },
+          "reference_ml": [
+            12.0,
+            15.0
+          ],
+          "error_beyond_bracket_ml": 0.0,
+          "interval_overlaps": true
+        },
+        "IMG_3320": {
+          "result": {
+            "status": "insufficient evidence",
+            "reason": "A visible 20 mL or 60 mL capacity is required."
+          },
+          "reference_ml": [
+            12.0,
+            15.0
+          ]
+        },
+        "IMG_3321": {
+          "result": {
+            "status": "visual estimate",
+            "method": "Numbered graduations and nearest piston edge",
+            "ml": 11,
+            "interval_ml": [
+              9,
+              12
+            ],
+            "percent": 55,
+            "interval_percent": [
+              45,
+              60
+            ],
+            "capacity_ml": 20,
+            "piston_line": [
+              [
+                0.22067626227288267,
+                0.35364819682268056
+              ],
+              [
+                0.6269424864319502,
+                0.34841171285207445
+              ]
+            ],
+            "graduations": [
+              {
+                "ml": 10,
+                "crop_bbox": [
+                  0.46058274589174675,
+                  0.31180446868318645,
+                  0.6667621633873184,
+                  0.35528118728309704
+                ],
+                "text": "10"
+              },
+              {
+                "ml": 15,
+                "crop_bbox": [
+                  0.4884115872119543,
+                  0.4266750210928862,
+                  0.7051333545426954,
+                  0.4671795995778415
+                ],
+                "text": "15"
+              },
+              {
+                "ml": 20,
+                "crop_bbox": [
+                  0.5214977972034706,
+                  0.5356813149531069,
+                  0.7257665923184822,
+                  0.5749116357201581
+                ],
+                "text": "20"
+              }
+            ],
+            "localization": {
+              "contrast": 13.3,
+              "scale_residual_ml": 0.08,
+              "tick_train_verified": false
+            }
+          },
+          "reference_ml": [
+            10.0,
+            13.0
+          ],
+          "error_beyond_bracket_ml": 0.0,
+          "interval_overlaps": true
+        },
+        "IMG_3322": {
+          "result": {
+            "status": "visual estimate",
+            "method": "Numbered graduations and nearest piston edge",
+            "ml": 11,
+            "interval_ml": [
+              9,
+              12
+            ],
+            "percent": 55,
+            "interval_percent": [
+              45,
+              60
+            ],
+            "capacity_ml": 20,
+            "piston_line": [
+              [
+                0.2143826402971702,
+                0.3419696542554596
+              ],
+              [
+                0.6198944513207925,
+                0.3379455731401237
+              ]
+            ],
+            "graduations": [
+              {
+                "ml": 5,
+                "crop_bbox": [
+                  0.44106463878326996,
+                  0.19150641025641027,
+                  0.5741444866920152,
+                  0.22596153846153846
+                ],
+                "text": "5"
+              },
+              {
+                "ml": 10,
+                "crop_bbox": [
+                  0.4828897338403042,
+                  0.30448717948717946,
+                  0.6539923954372624,
+                  0.33653846153846156
+                ],
+                "text": "10"
+              },
+              {
+                "ml": 15,
+                "crop_bbox": [
+                  0.4790874524714829,
+                  0.41426282051282054,
+                  0.6768060836501901,
+                  0.4495192307692308
+                ],
+                "text": "15"
+              },
+              {
+                "ml": 20,
+                "crop_bbox": [
+                  0.4714828897338403,
+                  0.49599358974358976,
+                  0.6958174904942965,
+                  0.5625
+                ],
+                "text": "20"
+              }
+            ],
+            "localization": {
+              "contrast": 28.6,
+              "scale_residual_ml": 0.27,
+              "tick_train_verified": false
+            }
+          },
+          "reference_ml": [
+            10.0,
+            13.0
+          ],
+          "error_beyond_bracket_ml": 0.0,
+          "interval_overlaps": true
+        },
+        "IMG_3323": {
+          "result": {
+            "status": "insufficient evidence",
+            "reason": "A visible 20 mL or 60 mL capacity is required."
+          },
+          "reference_ml": [
+            10.0,
+            13.0
+          ]
+        },
+        "IMG_3324": {
+          "result": {
+            "status": "insufficient evidence",
+            "reason": "A visible 20 mL or 60 mL capacity is required."
+          },
+          "reference_ml": [
+            10.0,
+            13.0
+          ]
+        },
+        "IMG_3325": {
+          "result": {
+            "status": "insufficient evidence",
+            "reason": "A visible 20 mL or 60 mL capacity is required."
+          },
+          "reference_ml": [
+            10.0,
+            13.0
+          ]
+        },
+        "IMG_3326": {
+          "result": {
+            "status": "visual estimate",
+            "method": "Numbered graduations and nearest piston edge",
+            "ml": 11,
+            "interval_ml": [
+              9,
+              12
+            ],
+            "percent": 55,
+            "interval_percent": [
+              45,
+              60
+            ],
+            "capacity_ml": 20,
+            "piston_line": [
+              [
+                0.2205034873894872,
+                0.3009911995904858
+              ],
+              [
+                0.3741002783990224,
+                0.2589604186221523
+              ]
+            ],
+            "graduations": [
+              {
+                "ml": 10,
+                "crop_bbox": [
+                  0.18124996992370074,
+                  0.2521027701149558,
+                  0.27820465742617256,
+                  0.3046975805630114
+                ],
+                "text": "10"
+              },
+              {
+                "ml": 15,
+                "crop_bbox": [
+                  0.2606601165055214,
+                  0.3455377820253449,
+                  0.3855147892227549,
+                  0.41110930146536984
+                ],
+                "text": "15"
+              },
+              {
+                "ml": 20,
+                "crop_bbox": [
+                  0.3638886857142579,
+                  0.45502054881282394,
+                  0.48354238134330885,
+                  0.5177711108493008
+                ],
+                "text": "20"
+              }
+            ],
+            "localization": {
+              "contrast": 30.8,
+              "scale_residual_ml": 0.13,
+              "tick_train_verified": false
+            }
+          },
+          "reference_ml": [
+            10.0,
+            13.0
+          ],
+          "error_beyond_bracket_ml": 0.0,
+          "interval_overlaps": true
+        }
+      }
+    },
+    "holdout-60": {
+      "metrics": {
+        "images": 10,
+        "answered": 2,
+        "median_error_ml": 0.0,
+        "worst_error_ml": 0.0,
+        "within_visible_bracket": 2,
+        "within_one_minor_mark": 2,
+        "intervals_overlap": 2,
+        "false_clear_answers": 0
+      },
+      "cases": {
+        "IMG_3251": {
+          "result": {
+            "status": "insufficient evidence",
+            "reason": "A visible 20 mL or 60 mL capacity is required."
+          },
+          "reference_ml": [
+            37.0,
+            41.0
+          ]
+        },
+        "IMG_3252": {
+          "result": {
+            "status": "visual estimate",
+            "method": "Numbered graduations and nearest piston edge",
+            "ml": 38,
+            "interval_ml": [
+              36,
+              42
+            ],
+            "percent": 63,
+            "interval_percent": [
+              60,
+              70
+            ],
+            "capacity_ml": 60,
+            "piston_line": [
+              [
+                0.2779465966112402,
+                0.302155977651566
+              ],
+              [
+                0.42331454609367997,
+                0.28530148168671227
+              ]
+            ],
+            "graduations": [
+              {
+                "ml": 10,
+                "crop_bbox": [
+                  0.10472279260780287,
+                  0.07451923076923077,
+                  0.23408624229979466,
+                  0.12259615384615384
+                ],
+                "text": "10"
+              },
+              {
+                "ml": 20,
+                "crop_bbox": [
+                  0.14784394250513347,
+                  0.13782051282051283,
+                  0.2813141683778234,
+                  0.1875
+                ],
+                "text": "20"
+              },
+              {
+                "ml": 30,
+                "crop_bbox": [
+                  0.19301848049281314,
+                  0.20432692307692307,
+                  0.3408624229979466,
+                  0.25961538461538464
+                ],
+                "text": "30"
+              },
+              {
+                "ml": 50,
+                "crop_bbox": [
+                  0.3141683778234086,
+                  0.35176282051282054,
+                  0.44969199178644764,
+                  0.4046474358974359
+                ],
+                "text": "50"
+              },
+              {
+                "ml": 60,
+                "crop_bbox": [
+                  0.3655030800821355,
+                  0.421474358974359,
+                  0.5051334702258727,
+                  0.4791666666666667
+                ],
+                "text": "60"
+              }
+            ],
+            "localization": {
+              "contrast": 27.8,
+              "scale_residual_ml": 0.65,
+              "tick_train_verified": false
+            }
+          },
+          "reference_ml": [
+            37.0,
+            41.0
+          ],
+          "error_beyond_bracket_ml": 0.0,
+          "interval_overlaps": true
+        },
+        "IMG_3257": {
+          "result": {
+            "status": "visual estimate",
+            "method": "Numbered graduations and nearest piston edge",
+            "ml": 38,
+            "interval_ml": [
+              36,
+              42
+            ],
+            "percent": 63,
+            "interval_percent": [
+              60,
+              70
+            ],
+            "capacity_ml": 60,
+            "piston_line": [
+              [
+                0.3158581822867284,
+                0.5773328540263731
+              ],
+              [
+                0.5982868133134126,
+                0.5704613685861027
+              ]
+            ],
+            "graduations": [
+              {
+                "ml": 10,
+                "crop_bbox": [
+                  0.31370213967790134,
+                  0.18746646796304384,
+                  0.5371012735096593,
+                  0.26516467948361266
+                ],
+                "text": "10"
+              },
+              {
+                "ml": 20,
+                "crop_bbox": [
+                  0.3465868599238838,
+                  0.30982231922638714,
+                  0.5544901737094853,
+                  0.3818742575412956
+                ],
+                "text": "20"
+              },
+              {
+                "ml": 30,
+                "crop_bbox": [
+                  0.368923716758124,
+                  0.4273293551366197,
+                  0.5866811766586018,
+                  0.5016813523948122
+                ],
+                "text": "30"
+              },
+              {
+                "ml": 50,
+                "crop_bbox": [
+                  0.4003177234565009,
+                  0.6694174435594082,
+                  0.6376647801163691,
+                  0.7469588477163771
+                ],
+                "text": "50"
+              },
+              {
+                "ml": 60,
+                "crop_bbox": [
+                  0.43575601698043875,
+                  0.7801966830939635,
+                  0.6789469773498535,
+                  0.861710257433443
+                ],
+                "text": "60"
+              }
+            ],
+            "localization": {
+              "contrast": 20.0,
+              "scale_residual_ml": 0.39,
+              "tick_train_verified": false
+            }
+          },
+          "reference_ml": [
+            35.0,
+            40.0
+          ],
+          "error_beyond_bracket_ml": 0.0,
+          "interval_overlaps": true
+        },
+        "IMG_3263": {
+          "result": {
+            "status": "insufficient evidence",
+            "reason": "A visible 20 mL or 60 mL capacity is required."
+          },
+          "reference_ml": [
+            27.0,
+            31.0
+          ]
+        },
+        "IMG_3268": {
+          "result": {
+            "status": "insufficient evidence",
+            "reason": "A visible 20 mL or 60 mL capacity is required."
+          },
+          "reference_ml": [
+            28.0,
+            32.0
+          ]
+        },
+        "IMG_3269": {
+          "result": {
+            "status": "insufficient evidence",
+            "reason": "A visible 20 mL or 60 mL capacity is required."
+          },
+          "reference_ml": [
+            28.0,
+            32.0
+          ]
+        },
+        "IMG_3272": {
+          "result": {
+            "status": "insufficient evidence",
+            "reason": "Three consistent numbered graduations are required."
+          },
+          "reference_ml": [
+            26.0,
+            30.0
+          ]
+        },
+        "IMG_3275": {
+          "result": {
+            "status": "insufficient evidence",
+            "reason": "A visible 20 mL or 60 mL capacity is required."
+          },
+          "reference_ml": [
+            23.0,
+            28.0
+          ]
+        },
+        "IMG_3279": {
+          "result": {
+            "status": "insufficient evidence",
+            "reason": "A visible 20 mL or 60 mL capacity is required."
+          },
+          "reference_ml": [
+            23.0,
+            28.0
+          ]
+        },
+        "IMG_3283": {
+          "result": {
+            "status": "insufficient evidence",
+            "reason": "A visible 20 mL or 60 mL capacity is required."
+          },
+          "reference_ml": [
+            17.0,
+            21.0
+          ]
+        }
+      }
+    },
+    "clear": {
+      "metrics": {
+        "images": 14,
+        "answered": 0,
+        "median_error_ml": null,
+        "worst_error_ml": null,
+        "within_visible_bracket": 0,
+        "within_one_minor_mark": 0,
+        "intervals_overlap": 0,
+        "false_clear_answers": 0
+      },
+      "cases": {
+        "IMG_3178": {
+          "result": {
+            "status": "insufficient evidence",
+            "reason": "A continuous visible liquid region could not be established."
+          },
+          "reference_ml": null
+        },
+        "IMG_3179": {
+          "result": {
+            "status": "insufficient evidence",
+            "reason": "A continuous visible liquid region could not be established."
+          },
+          "reference_ml": null
+        },
+        "IMG_3180": {
+          "result": {
+            "status": "insufficient evidence",
+            "reason": "A visible 20 mL or 60 mL capacity is required."
+          },
+          "reference_ml": null
+        },
+        "IMG_3181": {
+          "result": {
+            "status": "insufficient evidence",
+            "reason": "A visible 20 mL or 60 mL capacity is required."
+          },
+          "reference_ml": null
+        },
+        "IMG_3182": {
+          "result": {
+            "status": "insufficient evidence",
+            "reason": "A visible 20 mL or 60 mL capacity is required."
+          },
+          "reference_ml": null
+        },
+        "IMG_3183": {
+          "result": {
+            "status": "insufficient evidence",
+            "reason": "A continuous visible liquid region could not be established."
+          },
+          "reference_ml": null
+        },
+        "IMG_3184": {
+          "result": {
+            "status": "insufficient evidence",
+            "reason": "A continuous visible liquid region could not be established."
+          },
+          "reference_ml": null
+        },
+        "IMG_3185": {
+          "result": {
+            "status": "insufficient evidence",
+            "reason": "A continuous visible liquid region could not be established."
+          },
+          "reference_ml": null
+        },
+        "IMG_3186": {
+          "result": {
+            "status": "insufficient evidence",
+            "reason": "A visible 20 mL or 60 mL capacity is required."
+          },
+          "reference_ml": null
+        },
+        "IMG_3187": {
+          "result": {
+            "status": "insufficient evidence",
+            "reason": "A continuous visible liquid region could not be established."
+          },
+          "reference_ml": null
+        },
+        "IMG_3188": {
+          "result": {
+            "status": "insufficient evidence",
+            "reason": "A visible 20 mL or 60 mL capacity is required."
+          },
+          "reference_ml": null
+        },
+        "IMG_3189": {
+          "result": {
+            "status": "insufficient evidence",
+            "reason": "A continuous visible liquid region could not be established."
+          },
+          "reference_ml": null
+        },
+        "IMG_3190": {
+          "result": {
+            "status": "insufficient evidence",
+            "reason": "A visible 20 mL or 60 mL capacity is required."
+          },
+          "reference_ml": null
+        },
+        "IMG_3191": {
+          "result": {
+            "status": "insufficient evidence",
+            "reason": "A continuous visible liquid region could not be established."
+          },
+          "reference_ml": null
+        }
+      }
+    }
+  },
+  "selection_sha256": "2fd24eb9424fd1e78544ef4b205cf68dd5d9ff25b9e5cc0552053f628b6dd85c",
+  "scope": "Graduation-bracket references from one photo session. No calibrated liquid-volume readings."
+}

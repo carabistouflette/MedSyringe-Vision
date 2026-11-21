@@ -1,0 +1,62 @@
+# Specification status
+
+These statuses cover the six-page project PDF and the execution and delivery requirements. Independent external evidence applies to generic localization. The source photos remain one development group.
+
+The expanded 177-image release adds guarded two-view OCR. Its follow-up activates a DINOv2 crop verifier after checking instance-level recall on the full capture and public reserve. It also adds reviewed fill landmarks and an optional Intel runtime. [Expanded Fil Rouge study](expanded_report.md) · [Follow-up and release evidence](improvement_regression.md)
+
+| Objective | Status | Evidence |
+| --- | --- | --- |
+| O1 Locate distinct syringes and count them | Implemented and validated | The original [external test](../artifacts/test_results.json) scored 10/15 boxes and 8/10 exact counts. The latest [frozen regression](../artifacts/expanded/crop_verification_full_capture.json) retained 172 matches across 177 capture photos, with all image counts correct. On the public reserve, the verifier retained four matches and cut false positives from 16 to two. Broad generalization and the multi-object recall target remain open. |
+| O2 Describe scale, color and visible attributes per instance | Implemented but not fully validated | [Attribute diagnostics](../artifacts/attribute_diagnostics.json) compare crops and full images. [Liquid appearance validation](../artifacts/liquid_appearance_validation.json) shows 72 of 74 centerline-supported L* measurements within one capture. Relative opacity requires a matched clear-barrel reference, and real paired validation is unavailable. |
+| O3 Read markings, stated capacity or apparent volume with uncertainty | Implemented but not fully validated | [Detected-box OCR](../artifacts/capacity_ocr_detected_results.json) read 36 of 74 stated capacities. The [stroke-guided capacity extension](graduation_piston_recovery.md) added six correct capacities on 59 crop replays and one live full-image read. [Apparent fill](fill_measurement.md) reports mL and percent from the visible piston and numbered marks. It returned 20 estimates on 45 cross-group colored crops. The application also supports reviewed landmark interpolation. Independent physical volume measurements remain unavailable. |
+| O4 Follow additions, removals and movements | Partially implemented | Scene counts and visual-attribute deltas can be compared between two saved observations. Physical continuity is explicitly unresolved. No validated temporal sequence is available. |
+| O5 Compare to an expected inventory or a reference scene | Implemented but not fully validated | Total, scale and color comparisons identify missing, extra and unresolved items by observation ID. The API and UI were exercised. There is no independently collected set of inventory scenarios. |
+| O6 Answer scene questions with evidence | Partially implemented | Structured count, discrepancy and comparison questions cite object IDs and saved revisions. Physical movement questions are unresolved. No general natural-language question interface was evaluated. |
+| O7 Remain useful in varied conditions | Partially implemented | [External slices](../artifacts/test_results.json) include negatives, occlusion and simultaneous instances. [Perturbation study](../artifacts/development_robustness.json) varies brightness and blur. Two cluttered test scenes produced no accepted boxes. |
+| O8 Report unknowns at field level | Implemented but not fully validated | The app exposes below-threshold detections, attribute rejection and unreadable OCR. It has no labeled unseen-type test to measure the proposed 95% unknown rejection. |
+| O9 Retain human control and correction | Implemented and validated | Bounding boxes, labels, transcriptions and apparent fill can be corrected. Optimistic concurrency protects review histories. Export preserves original predictions, human fill landmarks and append-only revisions. |
+| O10 Produce a shareable, traceable report | Implemented and validated | The application exports a ZIP with structured JSON and local observation JPEG. Tested workflows preserve checks and linked evidence. Physical tracking outcomes are absent. |
+| O11 Extend to new types, conditions and objects and show gains | Partially implemented | Boundaries between the dataset, detector, classifier, reports and UI support change. No extension to new objects was trained and independently qualified. |
+| O12 Demonstrate accuracy, labor savings and rate of human intervention | Partially implemented | Localization, coverage, abstention, latency and failure cases were measured. Proposal disagreement is available, but labor savings and real reviewer intervention rates need a timed study. |
+
+The [detector optimization report](detector_optimization.md) records the newer unified release. The [historical Fil rouge regression](../artifacts/fil_rouge_regression.json) documents the former collection-specific setting, which is no longer exposed by the application.
+
+## Proposed acceptance targets
+
+| Target | Status | Result |
+| --- | --- | --- |
+| At least 95% detection precision and recall | Partially implemented | Test precision was 10/10 and recall 10/15. Recall missed the target and precision sample size is small. |
+| At least 90% complete localization, type and color | Implemented but not fully validated | The intended-domain holdout with matching labels does not exist. Same-session type diagnostics are below the proposed target. |
+| At least 95% of unknown cases flagged at the appropriate field | Implemented but not fully validated | Rejection rules are present. Controlled out-of-distribution labels and independent unknown-case scoring are unavailable. |
+| At least 90% exact inventory discrepancies and changes | Partially implemented | Inventory logic has automated scenarios and real-app checks. Physical tracking and independent scenario-level accuracy remain unmeasured. |
+| Every result inspectable and human corrections traceable | Implemented and validated | Observation images, model identity, scores, candidate boxes, source hashes, reviewer notes and revisions are persisted or exported. |
+| Demonstrated time savings against manual practice | Not implemented | No independent manual baseline or human timing observations were supplied or generated. |
+| Four demonstration situations | Partially implemented | Crowded public scenes and negatives are in the test. Inventory and field-rejection paths are implemented. The add/remove/move benchmark with ground-truth identities is unavailable. |
+
+## Implementation and execution requirements
+
+| Requirement | Status | Evidence |
+| --- | --- | --- |
+| Inspect the full PDF, all source photos and local hardware before implementation | Implemented and validated | [Protocol](protocol.md), [inventory](../artifacts/source_inventory.json), and [engineering report](engineering.md). |
+| Keep originals intact and perform deterministic HEIC conversion | Implemented and validated | RGB PNG derivatives preserve decoded pixels and orientation. All 75 original SHA-256 digests matched after work. |
+| Design a grouped split, document taxonomy and prevent leakage | Implemented and validated | An entire session was reserved for development, with distinct sources for validation and test. [Integrity checks](../artifacts/integrity.json) passed under explicit evidence rules. |
+| Verify annotations, flag ambiguity and export standard formats | Implemented but not fully validated | Drafts were visually inspected and checked for geometry, coverage and proposal discrepancy. An independent reviewer must approve the source reference. COCO round trips and approved-only export are tested. |
+| Prioritize local annotation and compare Roboflow options | Implemented and validated | Functional local queue and [documented comparison](research.md) of CVAT and Roboflow. Hosted annotation and training were not trialed with the supplied dataset. |
+| Investigate contemporary model options and compare empirical alternatives | Implemented and validated | Primary-source research covers candidate model, OCR, tracking and licensing paths. Two backbones and two supervised variants were compared on the same validation data. YOLOE-26 prompts and RF-DETR training, transfer, tiling and crop verification were also run locally. [RF-DETR evidence](rfdetr_verification.md) |
+| Train and evaluate locally, capture artifacts and follow paid compute approval rules | Implemented and validated | CPU proposal heads, attributes and OCR were run locally. No remote resources or data transfer were required. Weights are available locally and revision-pinned. |
+| Preserve environments, data versions, checkpoints, metrics, traces and diagnostics | Implemented and validated | [Freeze](../artifacts/freeze.json), lock file, input and model hashes, trained checkpoints, outputs and figures are preserved. The RF-DETR trials add loss curves, optimizer checkpoints, native model hashes and a frozen runtime study. [RF-DETR experiment](rfdetr_transfer.md) |
+| Run targeted QA, automated tests and real end-to-end inference | Implemented and validated | Unit tests and offline smoke checks cover data loading, metrics, inference output, corrections and reference checks. [API smoke](../artifacts/app_smoke.json) and [browser smoke](../artifacts/browser_smoke.json) use real HEIC inference. |
+| Evaluate full-scale validation, model robustness and unknown scenarios | Partially implemented | Public independent detection and controlled validation perturbations are available. Independent type/color, temporal, unknown and labor benchmarks require additional reference data. |
+| Documentation, scientific report, visualization, and presentation in English | Implemented and validated | [Engineering](engineering.md), [scientific report](report.md), [figures](../artifacts/figures/), and [presentation](presentation.pdf). |
+| Add future video tracking or physical volume features without unsupported claims | Not applicable with the available data | No continuous labeled observations, validated scale geometry, or physical reference measurements were supplied. |
+
+## Milestone closeout
+
+| Milestone | Executed and verified | Outstanding evidence |
+| --- | --- | --- |
+| 1 · Audit and design | Read all six pages, inventoried and examined 75 images, assessed CPU/Arc tools, and designed the partition protocol. | Physical identity is inferred conservatively from acquisition evidence. |
+| 2 · Data preparation | Prepared 74 oriented PNGs, drafted visual boxes, computed exact and near-duplicate checks, and generated dataset manifests and COCO. | Independent annotation approval is pending. |
+| 3 · Baseline | Compared two local detectors on 19 validation scenes and applied the frozen winner to ten official external test scenes. | Intended-domain acquisitions were unavailable for independent scoring. |
+| 4 · Research | Ran the augmentation ablation, attribute crop comparison, OCR probe, perturbation diagnostic, and crowding error analysis. | Timed human comparison and genuinely unseen type/appearance cases remain open. |
+| 5 · Application | Exercised real upload, image overlays, review, inventory and evidence archive against the frozen checkpoint. | Task-specific operator usability was not measured. |
+| 6 · Validation and delivery | Preserved the freeze, test artifacts, integrity checks, runbook, scientific report and slides. | No broader claim of 95% detection, exhaustive attributes, or identification of physical changes is supported. |

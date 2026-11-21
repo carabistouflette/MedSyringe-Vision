@@ -1,0 +1,118 @@
+{
+  "image": "IMG_3228.HEIC",
+  "model": {
+    "name": "dino",
+    "revision": "a2bb814dd30d776dcf7e30523b00659f4f141c71",
+    "pipeline": "optimized-detector-v3",
+    "selection_sha256": "6481fabde0f83dc58083049abb0f6a69f94d2b734d94234a28fa0b2e197e7897",
+    "attributes_sha256": "026e40a5d54c323c623775bb040890e8408cc893ef8721e3cae56a0525ee589b"
+  },
+  "source_sha256": "54206d15893a5bbe04c6d2503f8ada3f5472b48009689d9dd74908426c230c72",
+  "latency_ms_including_ocr": 9107.832478999626,
+  "working_routes": [
+    "home",
+    "assets",
+    "upload/inference",
+    "evidence image",
+    "persisted review",
+    "inventory",
+    "observation comparison"
+  ],
+  "predicted_objects": 1,
+  "objects": [
+    {
+      "id": "object-1",
+      "bbox": [
+        0.26360803432565516,
+        0.07244580889505053,
+        0.530447177786045,
+        0.9948674762059772
+      ],
+      "score": 0.8511514132171818,
+      "detection_evidence": {},
+      "scale": null,
+      "color": null,
+      "evidence": {
+        "scale": {
+          "value": null,
+          "reason": "Outside development support or ambiguous",
+          "distance": 3.425798085135615,
+          "margin": 0.7460084476578674
+        },
+        "color": {
+          "value": null,
+          "reason": "Outside development support or ambiguous",
+          "distance": 4.100633993122459,
+          "margin": 0.8380604835837193
+        }
+      },
+      "inscriptions": {
+        "status": "review",
+        "candidates": [
+          {
+            "text": "20",
+            "score": 0.9697538,
+            "crop_bbox": [
+              0.3128834355828221,
+              0.7266666666666667,
+              0.5521472392638037,
+              0.7626666666666667
+            ],
+            "rotation": 0
+          },
+          {
+            "text": "10",
+            "score": 0.96525246,
+            "crop_bbox": [
+              0.3282208588957055,
+              0.412,
+              0.5552147239263804,
+              0.45
+            ],
+            "rotation": 0
+          },
+          {
+            "text": "15",
+            "score": 0.9618042800000001,
+            "crop_bbox": [
+              0.3312883435582822,
+              0.572,
+              0.549079754601227,
+              0.6086666666666667
+            ],
+            "rotation": 0
+          }
+        ],
+        "capacity": null,
+        "apparent_volume": null
+      },
+      "origin": "model"
+    }
+  ],
+  "embedded_color_profile_preserved": true,
+  "inventory": {
+    "observation_id": "1a91477922304a3e99f2f5be3db36296",
+    "revision": 1,
+    "mode": "count",
+    "expected": {
+      "syringe": 0
+    },
+    "observed": {
+      "syringe": 1
+    },
+    "missing": {
+      "syringe": 0
+    },
+    "extra": {
+      "syringe": 1
+    },
+    "evidence": {
+      "syringe": [
+        "object-1"
+      ]
+    },
+    "unresolved": [],
+    "minimum_missing": 0
+  },
+  "review_revision": 1
+}

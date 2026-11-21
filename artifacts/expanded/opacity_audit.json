@@ -1,0 +1,174 @@
+{
+  "checked_pairs": [
+    {
+      "clear_frame": "IMG_3161.jpeg",
+      "colored_frame": "IMG_3192.jpeg",
+      "clear_settings": {
+        "ExposureTime": "1/50",
+        "ISO": 200,
+        "FNumber": 1.8,
+        "FocalLength": "6.8 mm"
+      },
+      "colored_settings": {
+        "ExposureTime": "1/60",
+        "ISO": 200,
+        "FNumber": 1.8,
+        "FocalLength": "6.8 mm"
+      },
+      "differences": [
+        "ExposureTime"
+      ],
+      "valid_reference": false
+    },
+    {
+      "clear_frame": "IMG_3162.jpeg",
+      "colored_frame": "IMG_3193.jpeg",
+      "clear_settings": {
+        "ExposureTime": "1/50",
+        "ISO": 200,
+        "FNumber": 1.8,
+        "FocalLength": "6.8 mm"
+      },
+      "colored_settings": {
+        "ExposureTime": "1/60",
+        "ISO": 200,
+        "FNumber": 1.8,
+        "FocalLength": "6.8 mm"
+      },
+      "differences": [
+        "ExposureTime"
+      ],
+      "valid_reference": false
+    },
+    {
+      "clear_frame": "IMG_3163.jpeg",
+      "colored_frame": "IMG_3194.jpeg",
+      "clear_settings": {
+        "ExposureTime": "1/50",
+        "ISO": 200,
+        "FNumber": 1.8,
+        "FocalLength": "6.8 mm"
+      },
+      "colored_settings": {
+        "ExposureTime": "1/60",
+        "ISO": 200,
+        "FNumber": 1.8,
+        "FocalLength": "6.8 mm"
+      },
+      "differences": [
+        "ExposureTime"
+      ],
+      "valid_reference": false
+    },
+    {
+      "clear_frame": "IMG_3164.jpeg",
+      "colored_frame": "IMG_3195.jpeg",
+      "clear_settings": {
+        "ExposureTime": "1/50",
+        "ISO": 200,
+        "FNumber": 1.8,
+        "FocalLength": "6.8 mm"
+      },
+      "colored_settings": {
+        "ExposureTime": "1/60",
+        "ISO": 250,
+        "FNumber": 1.8,
+        "FocalLength": "6.8 mm"
+      },
+      "differences": [
+        "ExposureTime",
+        "ISO"
+      ],
+      "valid_reference": false
+    },
+    {
+      "clear_frame": "IMG_3166.jpeg",
+      "colored_frame": "IMG_3196.jpeg",
+      "clear_settings": {
+        "ExposureTime": "1/50",
+        "ISO": 200,
+        "FNumber": 1.8,
+        "FocalLength": "6.8 mm"
+      },
+      "colored_settings": {
+        "ExposureTime": "1/60",
+        "ISO": 200,
+        "FNumber": 1.8,
+        "FocalLength": "6.8 mm"
+      },
+      "differences": [
+        "ExposureTime"
+      ],
+      "valid_reference": false
+    },
+    {
+      "clear_frame": "IMG_3178.jpeg",
+      "colored_frame": "IMG_3214.jpeg",
+      "clear_settings": {
+        "ExposureTime": "1/50",
+        "ISO": 200,
+        "FNumber": 1.8,
+        "FocalLength": "6.8 mm"
+      },
+      "colored_settings": {
+        "ExposureTime": "1/60",
+        "ISO": 250,
+        "FNumber": 1.8,
+        "FocalLength": "6.8 mm"
+      },
+      "differences": [
+        "ExposureTime",
+        "ISO"
+      ],
+      "valid_reference": false
+    },
+    {
+      "clear_frame": "IMG_3183.jpeg",
+      "colored_frame": "IMG_3216.jpeg",
+      "clear_settings": {
+        "ExposureTime": "1/50",
+        "ISO": 200,
+        "FNumber": 1.8,
+        "FocalLength": "6.8 mm"
+      },
+      "colored_settings": {
+        "ExposureTime": "1/60",
+        "ISO": 400,
+        "FNumber": 2.2,
+        "FocalLength": "2.2 mm"
+      },
+      "differences": [
+        "ExposureTime",
+        "ISO",
+        "FNumber",
+        "FocalLength"
+      ],
+      "valid_reference": false
+    },
+    {
+      "clear_frame": "IMG_3180.jpeg",
+      "colored_frame": "IMG_3217.jpeg",
+      "clear_settings": {
+        "ExposureTime": "1/50",
+        "ISO": 200,
+        "FNumber": 1.8,
+        "FocalLength": "6.8 mm"
+      },
+      "colored_settings": {
+        "ExposureTime": "1/60",
+        "ISO": 400,
+        "FNumber": 2.2,
+        "FocalLength": "2.2 mm"
+      },
+      "differences": [
+        "ExposureTime",
+        "ISO",
+        "FNumber",
+        "FocalLength"
+      ],
+      "valid_reference": false
+    }
+  ],
+  "valid_pairs": 0,
+  "reason": "The visually similar acquisitions have different exposure settings and moving viewpoints. The plain wall provides no controlled backdrop texture through both barrels."
+}

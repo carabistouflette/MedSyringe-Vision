@@ -1,0 +1,552 @@
+{
+  "scope": "Common validation set only. No former test predictions used for selection.",
+  "selection_order": [
+    "f1",
+    "recall",
+    "ap50_95",
+    "fewer views"
+  ],
+  "trials": [
+    {
+      "views": [
+        "original",
+        "opposite_turn"
+      ],
+      "strategy": "max",
+      "overlap": 0.6,
+      "cutoff": 0.5522102117538452,
+      "precision": 0.8125,
+      "recall": 0.8666666666666667,
+      "f1": 0.8387096774193549,
+      "ap50": 0.8176567656765676,
+      "ap50_95": 0.5313593029471015,
+      "exact_count": 18,
+      "tp": 13,
+      "fp": 3,
+      "fn": 2
+    },
+    {
+      "views": [
+        "original",
+        "mirror",
+        "opposite_turn"
+      ],
+      "strategy": "consensus",
+      "overlap": 0.6,
+      "cutoff": 0.7672241650704397,
+      "precision": 0.7647058823529411,
+      "recall": 0.8666666666666667,
+      "f1": 0.8125,
+      "ap50": 0.802302509662731,
+      "ap50_95": 0.5560401223945924,
+      "exact_count": 17,
+      "tp": 13,
+      "fp": 4,
+      "fn": 2
+    },
+    {
+      "views": [
+        "original",
+        "mirror",
+        "opposite_turn"
+      ],
+      "strategy": "consensus",
+      "overlap": 0.75,
+      "cutoff": 0.7672241650704397,
+      "precision": 0.7647058823529411,
+      "recall": 0.8666666666666667,
+      "f1": 0.8125,
+      "ap50": 0.8013836677785426,
+      "ap50_95": 0.5554259984822012,
+      "exact_count": 17,
+      "tp": 13,
+      "fp": 4,
+      "fn": 2
+    },
+    {
+      "views": [
+        "original",
+        "mirror",
+        "opposite_turn"
+      ],
+      "strategy": "max",
+      "overlap": 0.6,
+      "cutoff": 0.5522102117538452,
+      "precision": 0.7647058823529411,
+      "recall": 0.8666666666666667,
+      "f1": 0.8125,
+      "ap50": 0.8193854679585606,
+      "ap50_95": 0.5507483236828519,
+      "exact_count": 17,
+      "tp": 13,
+      "fp": 4,
+      "fn": 2
+    },
+    {
+      "views": [
+        "original",
+        "opposite_turn"
+      ],
+      "strategy": "max",
+      "overlap": 0.75,
+      "cutoff": 0.5522102117538452,
+      "precision": 0.7647058823529411,
+      "recall": 0.8666666666666667,
+      "f1": 0.8125,
+      "ap50": 0.8050138877162756,
+      "ap50_95": 0.541560545788851,
+      "exact_count": 17,
+      "tp": 13,
+      "fp": 4,
+      "fn": 2
+    },
+    {
+      "views": [
+        "original",
+        "quarter_turn",
+        "opposite_turn"
+      ],
+      "strategy": "max",
+      "overlap": 0.6,
+      "cutoff": 0.5522102117538452,
+      "precision": 0.7647058823529411,
+      "recall": 0.8666666666666667,
+      "f1": 0.8125,
+      "ap50": 0.8100045298647512,
+      "ap50_95": 0.530512473266982,
+      "exact_count": 17,
+      "tp": 13,
+      "fp": 4,
+      "fn": 2
+    },
+    {
+      "views": [
+        "original",
+        "quarter_turn",
+        "opposite_turn"
+      ],
+      "strategy": "consensus",
+      "overlap": 0.6,
+      "cutoff": 0.7671739071390125,
+      "precision": 0.7647058823529411,
+      "recall": 0.8666666666666667,
+      "f1": 0.8125,
+      "ap50": 0.7917880023296449,
+      "ap50_95": 0.5276366505850439,
+      "exact_count": 17,
+      "tp": 13,
+      "fp": 4,
+      "fn": 2
+    },
+    {
+      "views": [
+        "original",
+        "quarter_turn",
+        "opposite_turn"
+      ],
+      "strategy": "consensus",
+      "overlap": 0.75,
+      "cutoff": 0.7671739071390125,
+      "precision": 0.7647058823529411,
+      "recall": 0.8666666666666667,
+      "f1": 0.8125,
+      "ap50": 0.7909726266744324,
+      "ap50_95": 0.5257698126262166,
+      "exact_count": 17,
+      "tp": 13,
+      "fp": 4,
+      "fn": 2
+    },
+    {
+      "views": [
+        "original",
+        "quarter_turn",
+        "mirror"
+      ],
+      "strategy": "consensus",
+      "overlap": 0.6,
+      "cutoff": 0.7929772245950275,
+      "precision": 0.8,
+      "recall": 0.8,
+      "f1": 0.8000000000000002,
+      "ap50": 0.8039191419141917,
+      "ap50_95": 0.5553963609645136,
+      "exact_count": 17,
+      "tp": 12,
+      "fp": 3,
+      "fn": 3
+    },
+    {
+      "views": [
+        "original",
+        "quarter_turn",
+        "mirror"
+      ],
+      "strategy": "consensus",
+      "overlap": 0.75,
+      "cutoff": 0.7929772245950275,
+      "precision": 0.8,
+      "recall": 0.8,
+      "f1": 0.8000000000000002,
+      "ap50": 0.8030003000300031,
+      "ap50_95": 0.5541206285950436,
+      "exact_count": 17,
+      "tp": 12,
+      "fp": 3,
+      "fn": 3
+    },
+    {
+      "views": [
+        "original",
+        "quarter_turn",
+        "mirror",
+        "opposite_turn"
+      ],
+      "strategy": "consensus",
+      "overlap": 0.6,
+      "cutoff": 0.81478356007214,
+      "precision": 0.8,
+      "recall": 0.8,
+      "f1": 0.8000000000000002,
+      "ap50": 0.7979950936270098,
+      "ap50_95": 0.5465537491633622,
+      "exact_count": 17,
+      "tp": 12,
+      "fp": 3,
+      "fn": 3
+    },
+    {
+      "views": [
+        "original",
+        "opposite_turn"
+      ],
+      "strategy": "consensus",
+      "overlap": 0.6,
+      "cutoff": 0.8174463362149407,
+      "precision": 0.8,
+      "recall": 0.8,
+      "f1": 0.8000000000000002,
+      "ap50": 0.7964096409640965,
+      "ap50_95": 0.5460331658165817,
+      "exact_count": 17,
+      "tp": 12,
+      "fp": 3,
+      "fn": 3
+    },
+    {
+      "views": [
+        "original",
+        "quarter_turn",
+        "mirror",
+        "opposite_turn"
+      ],
+      "strategy": "consensus",
+      "overlap": 0.75,
+      "cutoff": 0.81478356007214,
+      "precision": 0.8,
+      "recall": 0.8,
+      "f1": 0.8000000000000002,
+      "ap50": 0.7971797179717973,
+      "ap50_95": 0.5450974332077493,
+      "exact_count": 17,
+      "tp": 12,
+      "fp": 3,
+      "fn": 3
+    },
+    {
+      "views": [
+        "original",
+        "quarter_turn",
+        "mirror",
+        "opposite_turn"
+      ],
+      "strategy": "max",
+      "overlap": 0.6,
+      "cutoff": 0.6131731867790222,
+      "precision": 0.8,
+      "recall": 0.8,
+      "f1": 0.8000000000000002,
+      "ap50": 0.8074807480748076,
+      "ap50_95": 0.5428928255823241,
+      "exact_count": 17,
+      "tp": 12,
+      "fp": 3,
+      "fn": 3
+    },
+    {
+      "views": [
+        "original"
+      ],
+      "strategy": "max",
+      "overlap": 0.6,
+      "cutoff": 0.5398514270782471,
+      "precision": 0.8,
+      "recall": 0.8,
+      "f1": 0.8000000000000002,
+      "ap50": 0.7969764718407325,
+      "ap50_95": 0.5426541612686615,
+      "exact_count": 17,
+      "tp": 12,
+      "fp": 3,
+      "fn": 3
+    },
+    {
+      "views": [
+        "original",
+        "opposite_turn"
+      ],
+      "strategy": "consensus",
+      "overlap": 0.75,
+      "cutoff": 0.8174463362149407,
+      "precision": 0.8,
+      "recall": 0.8,
+      "f1": 0.8000000000000002,
+      "ap50": 0.7956811897405959,
+      "ap50_95": 0.5425255768820125,
+      "exact_count": 17,
+      "tp": 12,
+      "fp": 3,
+      "fn": 3
+    },
+    {
+      "views": [
+        "original",
+        "mirror",
+        "opposite_turn"
+      ],
+      "strategy": "max",
+      "overlap": 0.75,
+      "cutoff": 0.5522102117538452,
+      "precision": 0.7222222222222222,
+      "recall": 0.8666666666666667,
+      "f1": 0.7878787878787877,
+      "ap50": 0.8074807480748074,
+      "ap50_95": 0.5620980951358991,
+      "exact_count": 16,
+      "tp": 13,
+      "fp": 5,
+      "fn": 2
+    },
+    {
+      "views": [
+        "original",
+        "mirror"
+      ],
+      "strategy": "max",
+      "overlap": 0.75,
+      "cutoff": 0.47355616092681885,
+      "precision": 0.7222222222222222,
+      "recall": 0.8666666666666667,
+      "f1": 0.7878787878787877,
+      "ap50": 0.7931803757298806,
+      "ap50_95": 0.5604218710332572,
+      "exact_count": 16,
+      "tp": 13,
+      "fp": 5,
+      "fn": 2
+    },
+    {
+      "views": [
+        "original",
+        "mirror"
+      ],
+      "strategy": "max",
+      "overlap": 0.6,
+      "cutoff": 0.47355616092681885,
+      "precision": 0.7222222222222222,
+      "recall": 0.8666666666666667,
+      "f1": 0.7878787878787877,
+      "ap50": 0.7941584977356296,
+      "ap50_95": 0.5582935016718847,
+      "exact_count": 16,
+      "tp": 13,
+      "fp": 5,
+      "fn": 2
+    },
+    {
+      "views": [
+        "original",
+        "mirror"
+      ],
+      "strategy": "consensus",
+      "overlap": 0.75,
+      "cutoff": 0.6976577695844917,
+      "precision": 0.7222222222222222,
+      "recall": 0.8666666666666667,
+      "f1": 0.7878787878787877,
+      "ap50": 0.7872397816704748,
+      "ap50_95": 0.5494074769336347,
+      "exact_count": 16,
+      "tp": 13,
+      "fp": 5,
+      "fn": 2
+    },
+    {
+      "views": [
+        "original",
+        "mirror"
+      ],
+      "strategy": "consensus",
+      "overlap": 0.6,
+      "cutoff": 0.6976577695844917,
+      "precision": 0.7222222222222222,
+      "recall": 0.8666666666666667,
+      "f1": 0.7878787878787877,
+      "ap50": 0.7892612338156891,
+      "ap50_95": 0.5483955318608784,
+      "exact_count": 16,
+      "tp": 13,
+      "fp": 5,
+      "fn": 2
+    },
+    {
+      "views": [
+        "original",
+        "quarter_turn",
+        "opposite_turn"
+      ],
+      "strategy": "max",
+      "overlap": 0.75,
+      "cutoff": 0.5522102117538452,
+      "precision": 0.7222222222222222,
+      "recall": 0.8666666666666667,
+      "f1": 0.7878787878787877,
+      "ap50": 0.7978547854785479,
+      "ap50_95": 0.5410629510486651,
+      "exact_count": 16,
+      "tp": 13,
+      "fp": 5,
+      "fn": 2
+    },
+    {
+      "views": [
+        "original",
+        "quarter_turn",
+        "mirror",
+        "opposite_turn"
+      ],
+      "strategy": "max",
+      "overlap": 0.75,
+      "cutoff": 0.6131731867790222,
+      "precision": 0.75,
+      "recall": 0.8,
+      "f1": 0.7741935483870969,
+      "ap50": 0.7955966649296509,
+      "ap50_95": 0.5538854966323699,
+      "exact_count": 16,
+      "tp": 12,
+      "fp": 4,
+      "fn": 3
+    },
+    {
+      "views": [
+        "original",
+        "quarter_turn"
+      ],
+      "strategy": "max",
+      "overlap": 0.6,
+      "cutoff": 0.5522102117538452,
+      "precision": 0.75,
+      "recall": 0.8,
+      "f1": 0.7741935483870969,
+      "ap50": 0.7899654251139401,
+      "ap50_95": 0.530332668022486,
+      "exact_count": 16,
+      "tp": 12,
+      "fp": 4,
+      "fn": 3
+    },
+    {
+      "views": [
+        "original",
+        "quarter_turn"
+      ],
+      "strategy": "consensus",
+      "overlap": 0.6,
+      "cutoff": 0.7929269666636003,
+      "precision": 0.75,
+      "recall": 0.8,
+      "f1": 0.7741935483870969,
+      "ap50": 0.7801212148864656,
+      "ap50_95": 0.5300771054914613,
+      "exact_count": 16,
+      "tp": 12,
+      "fp": 4,
+      "fn": 3
+    },
+    {
+      "views": [
+        "original",
+        "quarter_turn"
+      ],
+      "strategy": "max",
+      "overlap": 0.75,
+      "cutoff": 0.5522102117538452,
+      "precision": 0.75,
+      "recall": 0.8,
+      "f1": 0.7741935483870969,
+      "ap50": 0.7892369738904393,
+      "ap50_95": 0.5300757119821768,
+      "exact_count": 16,
+      "tp": 12,
+      "fp": 4,
+      "fn": 3
+    },
+    {
+      "views": [
+        "original",
+        "quarter_turn"
+      ],
+      "strategy": "consensus",
+      "overlap": 0.75,
+      "cutoff": 0.7929269666636003,
+      "precision": 0.75,
+      "recall": 0.8,
+      "f1": 0.7741935483870969,
+      "ap50": 0.7782242509965283,
+      "ap50_95": 0.5280211993838331,
+      "exact_count": 16,
+      "tp": 12,
+      "fp": 4,
+      "fn": 3
+    },
+    {
+      "views": [
+        "original",
+        "quarter_turn",
+        "mirror"
+      ],
+      "strategy": "max",
+      "overlap": 0.6,
+      "cutoff": 0.47355616092681885,
+      "precision": 0.6842105263157895,
+      "recall": 0.8666666666666667,
+      "f1": 0.7647058823529413,
+      "ap50": 0.7907788302050021,
+      "ap50_95": 0.5341728886472812,
+      "exact_count": 15,
+      "tp": 13,
+      "fp": 6,
+      "fn": 2
+    },
+    {
+      "views": [
+        "original",
+        "quarter_turn",
+        "mirror"
+      ],
+      "strategy": "max",
+      "overlap": 0.75,
+      "cutoff": 0.47355616092681885,
+      "precision": 0.6842105263157895,
+      "recall": 0.8666666666666667,
+      "f1": 0.7647058823529413,
+      "ap50": 0.7900503789815014,
+      "ap50_95": 0.5341233108796254,
+      "exact_count": 15,
+      "tp": 13,
+      "fp": 6,
+      "fn": 2
+    }
+  ]
+}

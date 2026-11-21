@@ -1,0 +1,1041 @@
+{
+  "scope": "Single-session draft scale references. Explicit unit/number visibility was manually confirmed on the separate nine-image subset.",
+  "files": [
+    {
+      "id": "IMG_3198",
+      "scale": "60-scale",
+      "burst": "3198",
+      "bbox": [
+        0.17559941609700522,
+        0.004326820373535156,
+        0.5648540113338087,
+        0.9971587771461123
+      ],
+      "capacity_visible": "60",
+      "image": "data/ocr-v6/detected/IMG_3198.png",
+      "sha256": "7c2222b7cbb77fda5c0db6059cbfa213a55a3f695241339783cd3a4bc7dfeab9"
+    },
+    {
+      "id": "IMG_3199",
+      "scale": "60-scale",
+      "burst": "3199",
+      "bbox": [
+        0.14045709276956225,
+        0.004351903521825351,
+        0.5652703179253472,
+        0.9870646595954895
+      ],
+      "capacity_visible": null,
+      "image": "data/ocr-v6/detected/IMG_3199.png",
+      "sha256": "f5227d86c2cede4bbe1ff4b073a52ed9fa45427de37fe6974ddb3279fefc9110"
+    },
+    {
+      "id": "IMG_3200",
+      "scale": "60-scale",
+      "burst": "3199",
+      "bbox": [
+        0.19141377847661417,
+        0.013633546375092953,
+        0.5353180012374958,
+        0.9199680676535955
+      ],
+      "capacity_visible": null,
+      "image": "data/ocr-v6/detected/IMG_3200.png",
+      "sha256": "1ed039d70e6b9f7bfd3fce77ca93dcee82754c446371a1232c76b37ef2d33660"
+    },
+    {
+      "id": "IMG_3202",
+      "scale": "60-scale",
+      "burst": "3202",
+      "bbox": [
+        0.2973017011369978,
+        0.393219236343626,
+        0.9984116932702443,
+        0.7569849125291935
+      ],
+      "capacity_visible": null,
+      "image": "data/ocr-v6/detected/IMG_3202.png",
+      "sha256": "8f4c44e722c41c3239bc707c59f2a6b33c5fa5da5bc73fc599d9bccbdfec19ac"
+    },
+    {
+      "id": "IMG_3206",
+      "scale": "60-scale",
+      "burst": "3206",
+      "bbox": [
+        0.08759286668565539,
+        0.1818765155852787,
+        0.7095244069578787,
+        0.9958628699893043
+      ],
+      "capacity_visible": "60",
+      "image": "data/ocr-v6/detected/IMG_3206.png",
+      "sha256": "26c2212d9790b95fe5313cfa364abad8a286d79e2e71c00c30e995ce68bd535b"
+    },
+    {
+      "id": "IMG_3215",
+      "scale": "20-scale",
+      "burst": "3215",
+      "bbox": [
+        0.28882360710668814,
+        0.10945656186058406,
+        0.5009834249183615,
+        0.8887338941059415
+      ],
+      "capacity_visible": "20",
+      "image": "data/ocr-v6/detected/IMG_3215.png",
+      "sha256": "e2dc9ad70a7edd1324f91a777c9a0b5b2b3731a3017ea5f291d7dba6b5179668"
+    },
+    {
+      "id": "IMG_3217",
+      "scale": "20-scale",
+      "burst": "3215",
+      "bbox": [
+        0.08498638899868759,
+        0.25550557696630083,
+        0.7429464027364417,
+        0.874619272020128
+      ],
+      "capacity_visible": null,
+      "image": "data/ocr-v6/detected/IMG_3217.png",
+      "sha256": "ce3f409c56d52c0973d51e7e66219227a141bc91b070f6d9637d50b73826b061"
+    },
+    {
+      "id": "IMG_3218",
+      "scale": "20-scale",
+      "burst": "3215",
+      "bbox": [
+        0.031567603822738405,
+        0.34356807527087985,
+        0.8683311825706845,
+        0.8292098272414434
+      ],
+      "capacity_visible": null,
+      "image": "data/ocr-v6/detected/IMG_3218.png",
+      "sha256": "7bef6d756dbfd750752bc235628f98d994f65f9a9cd71187f389aea493965db0"
+    },
+    {
+      "id": "IMG_3219",
+      "scale": "20-scale",
+      "burst": "3215",
+      "bbox": [
+        0.038828582360000204,
+        0.3543867686438182,
+        0.9039454384455605,
+        0.8196184673006572
+      ],
+      "capacity_visible": null,
+      "image": "data/ocr-v6/detected/IMG_3219.png",
+      "sha256": "6f2d57f0900b86f6ded9f73657dda4c61d478d165f8393a3e3b979009ae5af1d"
+    },
+    {
+      "id": "IMG_3221",
+      "scale": "20-scale",
+      "burst": "3215",
+      "bbox": [
+        0.3342997636744585,
+        0.2214291284954737,
+        0.5918527835260623,
+        0.8900754716661241
+      ],
+      "capacity_visible": null,
+      "image": "data/ocr-v6/detected/IMG_3221.png",
+      "sha256": "b51fdc79bed190fa0c0e6ec07832892ef8b73b6aa63d4d97333695a75b016d76"
+    },
+    {
+      "id": "IMG_3222",
+      "scale": "20-scale",
+      "burst": "3215",
+      "bbox": [
+        0.29855746314639137,
+        0.32145684862893725,
+        0.5965499474258019,
+        0.8005249992249504
+      ],
+      "capacity_visible": null,
+      "image": "data/ocr-v6/detected/IMG_3222.png",
+      "sha256": "68221c7e967868589423c11c54a85add5664688b08d839c70d809f30537883a8"
+    },
+    {
+      "id": "IMG_3223",
+      "scale": "20-scale",
+      "burst": "3223",
+      "bbox": [
+        0.2867833697606647,
+        0.10451628669859869,
+        0.4713083902994792,
+        0.8627602107941158
+      ],
+      "capacity_visible": null,
+      "image": "data/ocr-v6/detected/IMG_3223.png",
+      "sha256": "b25e9fd3dbba799d252be4b0a04a56860f8548f85d3f60acaac3546a8058c65a"
+    },
+    {
+      "id": "IMG_3225",
+      "scale": "20-scale",
+      "burst": "3223",
+      "bbox": [
+        0.0026405155658721924,
+        0.26766858782087055,
+        0.7321246919177827,
+        0.7701744806198847
+      ],
+      "capacity_visible": null,
+      "image": "data/ocr-v6/detected/IMG_3225.png",
+      "sha256": "69e265e5c0bd6274aa9bdd106f365a5809503de79cef10afb66764ee42eca617"
+    },
+    {
+      "id": "IMG_3226",
+      "scale": "20-scale",
+      "burst": "3223",
+      "bbox": [
+        0.050217628479003906,
+        0.10053285719856384,
+        0.7405770922464038,
+        0.6331577603779142
+      ],
+      "capacity_visible": null,
+      "image": "data/ocr-v6/detected/IMG_3226.png",
+      "sha256": "2342a62d8db74a097167e3dfea919cacfc0afe61d89363d77c5b955350127650"
+    },
+    {
+      "id": "IMG_3227",
+      "scale": "20-scale",
+      "burst": "3223",
+      "bbox": [
+        0.2990557352701823,
+        0.15735844203404015,
+        0.5089013639581267,
+        0.9261312484741211
+      ],
+      "capacity_visible": null,
+      "image": "data/ocr-v6/detected/IMG_3227.png",
+      "sha256": "1cdbd73b5807396afc84d75809aa1fea0ccc4617c9f25ab864de3cf1f2ee36ca"
+    },
+    {
+      "id": "IMG_3228",
+      "scale": "20-scale",
+      "burst": "3223",
+      "bbox": [
+        0.26360803432565516,
+        0.07244580889505053,
+        0.530447177786045,
+        0.9948674762059772
+      ],
+      "capacity_visible": "20",
+      "image": "data/ocr-v6/detected/IMG_3228.png",
+      "sha256": "9d56868bb4d000da9d9072bfe31036d5b02fe2bb77ecdcfcb1ea6781cc88dc1b"
+    },
+    {
+      "id": "IMG_3229",
+      "scale": "20-scale",
+      "burst": "3223",
+      "bbox": [
+        0.32502949237823486,
+        0.2985950708389282,
+        0.4583420753479004,
+        0.8722844123840332
+      ],
+      "capacity_visible": null,
+      "image": "data/ocr-v6/detected/IMG_3229.png",
+      "sha256": "42dd1503f031f12366d417bfe36104830babfd297d0c4e1ab17e18c582a29ac1"
+    },
+    {
+      "id": "IMG_3230",
+      "scale": "20-scale",
+      "burst": "3230",
+      "bbox": [
+        0.28179931640625,
+        0.14911409408327136,
+        0.4734628667276372,
+        0.9426530013008723
+      ],
+      "capacity_visible": null,
+      "image": "data/ocr-v6/detected/IMG_3230.png",
+      "sha256": "56138c484c3eeee832c86124c8edcc377b973c82d8c224ca44c2f082d55e40f0"
+    },
+    {
+      "id": "IMG_3231",
+      "scale": "20-scale",
+      "burst": "3230",
+      "bbox": [
+        0.31902995437541337,
+        0.2032799493698847,
+        0.509924469801484,
+        0.9654730842227027
+      ],
+      "capacity_visible": null,
+      "image": "data/ocr-v6/detected/IMG_3231.png",
+      "sha256": "726c40ef314906ffd15dff16c9d64830970c991b5088d4cee92579b5d982ee24"
+    },
+    {
+      "id": "IMG_3232",
+      "scale": "20-scale",
+      "burst": "3230",
+      "bbox": [
+        0.0011627674102783203,
+        0.19274829682849703,
+        0.7321972720837467,
+        0.9970804452896118
+      ],
+      "capacity_visible": null,
+      "image": "data/ocr-v6/detected/IMG_3232.png",
+      "sha256": "3342a5b65e7e566f26213b1b58cc53f87da8abb6f064b8fd2802062347a24c25"
+    },
+    {
+      "id": "IMG_3233",
+      "scale": "20-scale",
+      "burst": "3230",
+      "bbox": [
+        0.0034885406494140625,
+        0.34294652181958396,
+        0.9272651470527447,
+        0.8961310613723028
+      ],
+      "capacity_visible": null,
+      "image": "data/ocr-v6/detected/IMG_3233.png",
+      "sha256": "8a81cd0b4cd2d19b9058f1aeb9718f9204757578d3ad17790165b4b03288dda7"
+    },
+    {
+      "id": "IMG_3234",
+      "scale": "20-scale",
+      "burst": "3230",
+      "bbox": [
+        0.0029057860374450684,
+        0.42985416594005765,
+        0.9258887073981068,
+        0.8030822390601748
+      ],
+      "capacity_visible": null,
+      "image": "data/ocr-v6/detected/IMG_3234.png",
+      "sha256": "44be70a42a3d78a1db6be606450c876a4c0cb845388dbf163c624f24cc99d67b"
+    },
+    {
+      "id": "IMG_3235",
+      "scale": "20-scale",
+      "burst": "3230",
+      "bbox": [
+        0.0012364089488983154,
+        0.5092044472694397,
+        0.9268344640731812,
+        0.660431444644928
+      ],
+      "capacity_visible": null,
+      "image": "data/ocr-v6/detected/IMG_3235.png",
+      "sha256": "5ebfab66d05f4f7b924e10fef58cae90b90a74802507865e6dd22c06fae87720"
+    },
+    {
+      "id": "IMG_3238",
+      "scale": "20-scale",
+      "burst": "3238",
+      "bbox": [
+        0.3695675885235822,
+        0.047032250298394085,
+        0.5576014443049355,
+        0.9603940267411489
+      ],
+      "capacity_visible": null,
+      "image": "data/ocr-v6/detected/IMG_3238.png",
+      "sha256": "5626a66b7033d5af493663c19200d34677b54332bd504e7fe95b1f0f318b514e"
+    },
+    {
+      "id": "IMG_3239",
+      "scale": "20-scale",
+      "burst": "3238",
+      "bbox": [
+        0.1529970118608424,
+        0.2825927734375,
+        0.7833485275349289,
+        0.6728091769748263
+      ],
+      "capacity_visible": null,
+      "image": "data/ocr-v6/detected/IMG_3239.png",
+      "sha256": "cf52aa9a47377931b96bcaed7b71f02ecaf66598cf97e365a899152695054fb1"
+    },
+    {
+      "id": "IMG_3240",
+      "scale": "20-scale",
+      "burst": "3238",
+      "bbox": [
+        0.00973653793334961,
+        0.3119254642062717,
+        0.9544004410032242,
+        0.8030096992613778
+      ],
+      "capacity_visible": null,
+      "image": "data/ocr-v6/detected/IMG_3240.png",
+      "sha256": "0839a6146c22b02ade46ff05868613f4d14df6a2bf348c3ccca9e4e1c95a190e"
+    },
+    {
+      "id": "IMG_3241",
+      "scale": "20-scale",
+      "burst": "3238",
+      "bbox": [
+        0.03399300449108951,
+        0.34977728223043775,
+        0.8231725945043816,
+        0.7958404298812624
+      ],
+      "capacity_visible": null,
+      "image": "data/ocr-v6/detected/IMG_3241.png",
+      "sha256": "ac375af6fd9ee1503d82b8067556e46a7ee373bd9a837c28e275a374a67aacec"
+    },
+    {
+      "id": "IMG_3243",
+      "scale": "20-scale",
+      "burst": "3243",
+      "bbox": [
+        0.4015660765309813,
+        0.1858978271484375,
+        0.6093599026796048,
+        0.9602061529008169
+      ],
+      "capacity_visible": null,
+      "image": "data/ocr-v6/detected/IMG_3243.png",
+      "sha256": "cf3fd3cb8f4d2d16b528d1f68af61d2d46c543b1971b65cf4c8b691a746cb0eb"
+    },
+    {
+      "id": "IMG_3244",
+      "scale": "20-scale",
+      "burst": "3243",
+      "bbox": [
+        0.37357471607349535,
+        0.0851702614436074,
+        0.6190696998878762,
+        0.9973205924034119
+      ],
+      "capacity_visible": null,
+      "image": "data/ocr-v6/detected/IMG_3244.png",
+      "sha256": "a060cc6645de414be373a7672682fbfce84fdc4fa7b7c3bf2822f9824e26b1e1"
+    },
+    {
+      "id": "IMG_3245",
+      "scale": "20-scale",
+      "burst": "3243",
+      "bbox": [
+        0.36503722175719244,
+        0.001614101349361352,
+        0.6643662629304109,
+        0.9974524974822998
+      ],
+      "capacity_visible": "20",
+      "image": "data/ocr-v6/detected/IMG_3245.png",
+      "sha256": "5923b6338f0c4c2af0ec62ec384f5dedb5e987c4377cdbe485cb27429733f671"
+    },
+    {
+      "id": "IMG_3246",
+      "scale": "20-scale",
+      "burst": "3243",
+      "bbox": [
+        0.3387125812510334,
+        0.172637939453125,
+        0.8395644092055224,
+        0.9978312253952026
+      ],
+      "capacity_visible": null,
+      "image": "data/ocr-v6/detected/IMG_3246.png",
+      "sha256": "471561e0a3aff9699da7fda2c40530d89b2e35429fa820b8a6393da59b01704e"
+    },
+    {
+      "id": "IMG_3247",
+      "scale": "20-scale",
+      "burst": "3243",
+      "bbox": [
+        0.27302882280299273,
+        0.15818320380316842,
+        0.6160799460436301,
+        0.9594855308532715
+      ],
+      "capacity_visible": null,
+      "image": "data/ocr-v6/detected/IMG_3247.png",
+      "sha256": "54044211c98fc1abada31965d21cb258527e7b4dcdc0bf3456a71a1fd94b0b2d"
+    },
+    {
+      "id": "IMG_3251",
+      "scale": "60-scale",
+      "burst": "3251",
+      "bbox": [
+        0.25908840522564275,
+        0.15447023179796004,
+        0.675342458896536,
+        0.9984887540340424
+      ],
+      "capacity_visible": "60",
+      "image": "data/ocr-v6/detected/IMG_3251.png",
+      "sha256": "ca5749488ec38d144751157c7846587d51ed938cea329fe95cd5cd8d2eabb8a2"
+    },
+    {
+      "id": "IMG_3252",
+      "scale": "60-scale",
+      "burst": "3251",
+      "bbox": [
+        0.25695300228381285,
+        0.20089358375186012,
+        0.6687263206199363,
+        0.9935581267826141
+      ],
+      "capacity_visible": null,
+      "image": "data/ocr-v6/detected/IMG_3252.png",
+      "sha256": "fb51d20a9c065f0ba7fa1198109e71bdd7d2571a2d903701fdc7b44c697a2acf"
+    },
+    {
+      "id": "IMG_3257",
+      "scale": "60-scale",
+      "burst": "3251",
+      "bbox": [
+        0.37881215413411456,
+        0.23647284129309276,
+        0.6629994710286459,
+        0.8666900150359623
+      ],
+      "capacity_visible": null,
+      "image": "data/ocr-v6/detected/IMG_3257.png",
+      "sha256": "6d79ef76e54872f9c4927ae3fe32f13002e6671b51beeb885977a4b853b0856a"
+    },
+    {
+      "id": "IMG_3263",
+      "scale": "60-scale",
+      "burst": "3263",
+      "bbox": [
+        0.33033782716781374,
+        0.1829809612698025,
+        0.5301572204266907,
+        0.9973908076210628
+      ],
+      "capacity_visible": null,
+      "image": "data/ocr-v6/detected/IMG_3263.png",
+      "sha256": "81547155b5e3be2a424879f1690136f371d08b3327cb154f4d878138942707e3"
+    },
+    {
+      "id": "IMG_3264",
+      "scale": "60-scale",
+      "burst": "3263",
+      "bbox": [
+        0.11476925441196986,
+        0.2579124087379092,
+        0.9289328761832424,
+        0.9564249212779696
+      ],
+      "capacity_visible": null,
+      "image": "data/ocr-v6/detected/IMG_3264.png",
+      "sha256": "3cced0fe9fe578541f642ce9a277073f071c8cc450ce5a83e21bfe5c8173ed4e"
+    },
+    {
+      "id": "IMG_3268",
+      "scale": "60-scale",
+      "burst": "3263",
+      "bbox": [
+        0.13955113244435144,
+        0.0032026502821180802,
+        0.9500316640056631,
+        0.9830906391143799
+      ],
+      "capacity_visible": null,
+      "image": "data/ocr-v6/detected/IMG_3268.png",
+      "sha256": "0c5b133c1fb27ebbe3490002eb8aad27969ef120f51d2447b9ac378521209366"
+    },
+    {
+      "id": "IMG_3269",
+      "scale": "60-scale",
+      "burst": "3263",
+      "bbox": [
+        0.24637535135582012,
+        0.1796812632727245,
+        0.8181167683273396,
+        0.8894479842413039
+      ],
+      "capacity_visible": null,
+      "image": "data/ocr-v6/detected/IMG_3269.png",
+      "sha256": "cc6d6bb1dd0c1b20a1e53cd474bf6484fce25006bec0261c7300e9cb2cd39dfd"
+    },
+    {
+      "id": "IMG_3272",
+      "scale": "60-scale",
+      "burst": "3272",
+      "bbox": [
+        0.338040205536696,
+        0.14843931652250741,
+        0.5812117965133102,
+        0.9704991881809537
+      ],
+      "capacity_visible": null,
+      "image": "data/ocr-v6/detected/IMG_3272.png",
+      "sha256": "8407797d173c9a070be1bd0a18d036b4a5864f1aade176e690c1edbedbc1999b"
+    },
+    {
+      "id": "IMG_3275",
+      "scale": "60-scale",
+      "burst": "3272",
+      "bbox": [
+        0.3262774351412657,
+        0.09755670456659227,
+        0.8022532791056961,
+        0.995671272277832
+      ],
+      "capacity_visible": null,
+      "image": "data/ocr-v6/detected/IMG_3275.png",
+      "sha256": "bcfc054802551c9f9f4adb73c61d73556b6cd1d1b370aa9dfb39b1d38c757a4f"
+    },
+    {
+      "id": "IMG_3279",
+      "scale": "60-scale",
+      "burst": "3272",
+      "bbox": [
+        0.19520566829297908,
+        0.11767862713526167,
+        0.8084155693256035,
+        0.9868016242980957
+      ],
+      "capacity_visible": null,
+      "image": "data/ocr-v6/detected/IMG_3279.png",
+      "sha256": "edfe45cd305eb8137786dcd3f8844e2adf97f54d7bae0bff5a1725efbeac9115"
+    },
+    {
+      "id": "IMG_3283",
+      "scale": "60-scale",
+      "burst": "3272",
+      "bbox": [
+        0.26587292551994324,
+        0.1978209912776947,
+        0.7136368751525879,
+        0.9491530656814575
+      ],
+      "capacity_visible": null,
+      "image": "data/ocr-v6/detected/IMG_3283.png",
+      "sha256": "9aad78822561b1f29c8a2b26f8fbb85a85ee3cd7859e43a6a79932da62468d2d"
+    },
+    {
+      "id": "IMG_3292",
+      "scale": "20-scale",
+      "burst": "3292",
+      "bbox": [
+        0.310970629333819,
+        0.023732684907459056,
+        0.5746986752464658,
+        0.9971710443496704
+      ],
+      "capacity_visible": "20",
+      "image": "data/ocr-v6/detected/IMG_3292.png",
+      "sha256": "7cede6bd36123f3726df427b593560b87422b4c5aa693f311a765fa8643d295a"
+    },
+    {
+      "id": "IMG_3294",
+      "scale": "20-scale",
+      "burst": "3292",
+      "bbox": [
+        0.3484885806129092,
+        0.1391926720028832,
+        0.5571619669596354,
+        0.9969325363636017
+      ],
+      "capacity_visible": null,
+      "image": "data/ocr-v6/detected/IMG_3294.png",
+      "sha256": "82d328428287a282e6cd8540d517fe7ae439e71a050a306e32879358bddea1d2"
+    },
+    {
+      "id": "IMG_3295",
+      "scale": "20-scale",
+      "burst": "3292",
+      "bbox": [
+        0.37148397940176503,
+        0.2686677963014633,
+        0.559490789181341,
+        0.9978457987308502
+      ],
+      "capacity_visible": null,
+      "image": "data/ocr-v6/detected/IMG_3295.png",
+      "sha256": "6c77ee6ea612a13c3d0818751d460e1b4590d6092da9ed40a67255390f8b1e37"
+    },
+    {
+      "id": "IMG_3296",
+      "scale": "20-scale",
+      "burst": "3296",
+      "bbox": [
+        0.09736252840233858,
+        0.21923755464099703,
+        0.44710815268218834,
+        0.9985373616218567
+      ],
+      "capacity_visible": null,
+      "image": "data/ocr-v6/detected/IMG_3296.png",
+      "sha256": "8f908f4e8ec223bec63e55d7192d7047b81fff85a8532b5675276572bb479373"
+    },
+    {
+      "id": "IMG_3297",
+      "scale": "20-scale",
+      "burst": "3296",
+      "bbox": [
+        0.19174914889865452,
+        0.15680912562779015,
+        0.5353005626214244,
+        0.997688889503479
+      ],
+      "capacity_visible": null,
+      "image": "data/ocr-v6/detected/IMG_3297.png",
+      "sha256": "c3dceeb8bd5b0681392808da646583daf7ca56ba004e7b8a12364d8011b0613a"
+    },
+    {
+      "id": "IMG_3298",
+      "scale": "20-scale",
+      "burst": "3296",
+      "bbox": [
+        0.1552264198424324,
+        0.20710433475554935,
+        0.49614465299737515,
+        0.9949414134025574
+      ],
+      "capacity_visible": null,
+      "image": "data/ocr-v6/detected/IMG_3298.png",
+      "sha256": "86c81d70c5e7838efb8a1b5e781315e0a531e3805ba100938c28f757fb27e990"
+    },
+    {
+      "id": "IMG_3299",
+      "scale": "20-scale",
+      "burst": "3296",
+      "bbox": [
+        0.130848556599289,
+        0.1411200629340278,
+        0.6606701644009383,
+        0.9551571588667612
+      ],
+      "capacity_visible": null,
+      "image": "data/ocr-v6/detected/IMG_3299.png",
+      "sha256": "e0a3141bd7dd75c493cf0095179f5d1ab8946484e4a43cdc431596e92501bd20"
+    },
+    {
+      "id": "IMG_3300",
+      "scale": "20-scale",
+      "burst": "3296",
+      "bbox": [
+        0.003406345844268799,
+        0.25969686962309335,
+        0.8881793955646494,
+        0.8320891970679873
+      ],
+      "capacity_visible": null,
+      "image": "data/ocr-v6/detected/IMG_3300.png",
+      "sha256": "8e4794e2c7fa4a31d3a20487d4daed7f3ecd0607d5614c9d76dd919125cb0196"
+    },
+    {
+      "id": "IMG_3301",
+      "scale": "20-scale",
+      "burst": "3296",
+      "bbox": [
+        0.24619926977409887,
+        0.10825202578590032,
+        0.5503440332160425,
+        0.9982545673847198
+      ],
+      "capacity_visible": null,
+      "image": "data/ocr-v6/detected/IMG_3301.png",
+      "sha256": "8a8e3f4b1c6ffa14aa6a124e6117c0e7cc7c44b531aa714bea094c3501f1efcc"
+    },
+    {
+      "id": "IMG_3302",
+      "scale": "20-scale",
+      "burst": "3296",
+      "bbox": [
+        0.29000055222284227,
+        0.21402286347888766,
+        0.49018133254278273,
+        0.8967514038085938
+      ],
+      "capacity_visible": null,
+      "image": "data/ocr-v6/detected/IMG_3302.png",
+      "sha256": "ae5190dd3d34b838dbcf7989bf661541a4be32de14f0317265b56203db0dfc81"
+    },
+    {
+      "id": "IMG_3304",
+      "scale": "20-scale",
+      "burst": "3304",
+      "bbox": [
+        0.05584341382223462,
+        0.18381026434519934,
+        0.8890884641617064,
+        0.995620364234561
+      ],
+      "capacity_visible": null,
+      "image": "data/ocr-v6/detected/IMG_3304.png",
+      "sha256": "4ed171faf707d0cda19250bd4456cf94a3f37a63c25e2431ef00e674912a271b"
+    },
+    {
+      "id": "IMG_3305",
+      "scale": "20-scale",
+      "burst": "3304",
+      "bbox": [
+        0.34609638193927744,
+        0.09175648764958455,
+        0.631337564458292,
+        0.9978334307670593
+      ],
+      "capacity_visible": null,
+      "image": "data/ocr-v6/detected/IMG_3305.png",
+      "sha256": "e82d2b3146b09d8d6e9a4dbc46b1943d08b4215590c6e460e44e6d223fff003b"
+    },
+    {
+      "id": "IMG_3306",
+      "scale": "20-scale",
+      "burst": "3304",
+      "bbox": [
+        0.3178124200730097,
+        0.17615442427377848,
+        0.5265902160967468,
+        0.8329032716296968
+      ],
+      "capacity_visible": null,
+      "image": "data/ocr-v6/detected/IMG_3306.png",
+      "sha256": "9b141cfc16720a0ba0b917393cd673c1e0eb90f058c87e5e8824237c3cfeb692"
+    },
+    {
+      "id": "IMG_3310",
+      "scale": "20-scale",
+      "burst": "3310",
+      "bbox": [
+        0.19332958403087797,
+        0.1433911399235801,
+        0.6177247062562004,
+        0.9960680159311446
+      ],
+      "capacity_visible": null,
+      "image": "data/ocr-v6/detected/IMG_3310.png",
+      "sha256": "bf128285277da9e36a1bd6e01a6e3cd9cfdc4e6caa8d5f55e013a98272a0f809"
+    },
+    {
+      "id": "IMG_3311",
+      "scale": "20-scale",
+      "burst": "3310",
+      "bbox": [
+        0.1432993449862041,
+        0.08448949692741273,
+        0.6637259185629547,
+        0.8009859115358383
+      ],
+      "capacity_visible": null,
+      "image": "data/ocr-v6/detected/IMG_3311.png",
+      "sha256": "0f436784b5d3a31971cbc1ea9caa8363d6691a81894cd81c0ffb5050fdc5150a"
+    },
+    {
+      "id": "IMG_3315",
+      "scale": "20-scale",
+      "burst": "3315",
+      "bbox": [
+        0.31114709440362515,
+        0.27340776958162827,
+        0.6878749302455357,
+        0.6317990318177238
+      ],
+      "capacity_visible": null,
+      "image": "data/ocr-v6/detected/IMG_3315.png",
+      "sha256": "dfaf1f505bff2dd8b02be5fbd03579a1f96c894802992902f2d79a50ec79bdf7"
+    },
+    {
+      "id": "IMG_3316",
+      "scale": "20-scale",
+      "burst": "3315",
+      "bbox": [
+        0.2644675724090092,
+        0.10429685077969986,
+        0.4994789809776992,
+        0.8615916418650793
+      ],
+      "capacity_visible": null,
+      "image": "data/ocr-v6/detected/IMG_3316.png",
+      "sha256": "4e197607990fd86dd66aefdd6cd13495f6edf1fcda262791fae1507391216857"
+    },
+    {
+      "id": "IMG_3317",
+      "scale": "20-scale",
+      "burst": "3315",
+      "bbox": [
+        0.25431242443266366,
+        0.04421367342509919,
+        0.5236240770450975,
+        0.9875116944313049
+      ],
+      "capacity_visible": null,
+      "image": "data/ocr-v6/detected/IMG_3317.png",
+      "sha256": "dbb479a99c69f3ada204c31ba231cbdb26323238d717f415f834b153c0df60cd"
+    },
+    {
+      "id": "IMG_3318",
+      "scale": "20-scale",
+      "burst": "3315",
+      "bbox": [
+        0.2196888029575348,
+        0.13068723678588867,
+        0.4578252136707306,
+        0.9954285621643066
+      ],
+      "capacity_visible": "20",
+      "image": "data/ocr-v6/detected/IMG_3318.png",
+      "sha256": "17239de1bdfdbacddf17f886000164c603795eedb3b538cb5592a3cf9022f66d"
+    },
+    {
+      "id": "IMG_3321",
+      "scale": "20-scale",
+      "burst": "3321",
+      "bbox": [
+        0.23111926689349785,
+        0.06317271883525544,
+        0.49325012529968587,
+        0.9237323715573266
+      ],
+      "capacity_visible": "20",
+      "image": "data/ocr-v6/detected/IMG_3321.png",
+      "sha256": "c8f065fc04b0d06f9b6313f22cc4bcf039518c8d63e55f0076c3fc974c1a28c2"
+    },
+    {
+      "id": "IMG_3322",
+      "scale": "20-scale",
+      "burst": "3322",
+      "bbox": [
+        0.2710551105479084,
+        0.1598751128665985,
+        0.48050717954282407,
+        0.9451227793617853
+      ],
+      "capacity_visible": null,
+      "image": "data/ocr-v6/detected/IMG_3322.png",
+      "sha256": "d38139c08019b7f4002a9ae0cdb6d12b959102d61c710d1413bc5df5902e6dc4"
+    },
+    {
+      "id": "IMG_3323",
+      "scale": "20-scale",
+      "burst": "3322",
+      "bbox": [
+        0.2233315523339327,
+        0.05068037245008683,
+        0.4847259521484375,
+        0.9959709346294403
+      ],
+      "capacity_visible": null,
+      "image": "data/ocr-v6/detected/IMG_3323.png",
+      "sha256": "fba072041b74f4a0451f70862ee86d562bc81366c5e687d7b8ee6db03679aca9"
+    },
+    {
+      "id": "IMG_3324",
+      "scale": "20-scale",
+      "burst": "3322",
+      "bbox": [
+        0.2289122122305411,
+        0.02366946992420016,
+        0.6279927410145916,
+        0.99595046043396
+      ],
+      "capacity_visible": null,
+      "image": "data/ocr-v6/detected/IMG_3324.png",
+      "sha256": "57521428b6cac759e607e162a091a94e3915d1881cb64b46cb86a5a66d1ee906"
+    },
+    {
+      "id": "IMG_3325",
+      "scale": "20-scale",
+      "burst": "3322",
+      "bbox": [
+        0.36647820851159474,
+        0.21578162057059147,
+        0.6236457219199528,
+        0.9028149862138052
+      ],
+      "capacity_visible": null,
+      "image": "data/ocr-v6/detected/IMG_3325.png",
+      "sha256": "cfb744441de50131491f089bffde7281b280dab2e7f9f003337f036cbdbabbaf"
+    },
+    {
+      "id": "IMG_3326",
+      "scale": "20-scale",
+      "burst": "3322",
+      "bbox": [
+        0.13986310000142094,
+        0.24267989870101686,
+        0.6653751191638765,
+        0.9483029199024987
+      ],
+      "capacity_visible": null,
+      "image": "data/ocr-v6/detected/IMG_3326.png",
+      "sha256": "c23117d4134d1d4de2393d86956ccfac750e237750317867ba07d11bf5c9cf92"
+    },
+    {
+      "id": "IMG_3329",
+      "scale": "20-scale",
+      "burst": "3329",
+      "bbox": [
+        0.0019358992576599121,
+        0.19787329719180152,
+        0.8518568573805391,
+        0.9502186245388455
+      ],
+      "capacity_visible": null,
+      "image": "data/ocr-v6/detected/IMG_3329.png",
+      "sha256": "dbfcb5ea8d22d24f69addb4cceb0f5e2c2402aa334c7b3442814c44efa3e2443"
+    },
+    {
+      "id": "IMG_3331",
+      "scale": "20-scale",
+      "burst": "3329",
+      "bbox": [
+        0.3255428738064236,
+        0.16325741722470238,
+        0.7188536628844246,
+        0.8632190643794952
+      ],
+      "capacity_visible": null,
+      "image": "data/ocr-v6/detected/IMG_3331.png",
+      "sha256": "65f75b7e3827a08f67ba0c75257293299f8fd747f4ac7c4d7761f5d7b7d11eb0"
+    },
+    {
+      "id": "IMG_3332",
+      "scale": "20-scale",
+      "burst": "3329",
+      "bbox": [
+        0.3041253064675306,
+        0.1759370622180757,
+        0.5745373276806383,
+        0.8233834524003286
+      ],
+      "capacity_visible": null,
+      "image": "data/ocr-v6/detected/IMG_3332.png",
+      "sha256": "15adb57d367911724fb4848676692173e82c48d801a3910091a9d489e0d19c20"
+    },
+    {
+      "id": "IMG_3333",
+      "scale": "20-scale",
+      "burst": "3329",
+      "bbox": [
+        0.11131857816504423,
+        0.0016188848586309312,
+        0.4700134923218419,
+        0.9975615441799164
+      ],
+      "capacity_visible": null,
+      "image": "data/ocr-v6/detected/IMG_3333.png",
+      "sha256": "54678163bc226d59fa3136fc2aa136bd71ef79111a15377d56d1b32c2de5a466"
+    },
+    {
+      "id": "IMG_3334",
+      "scale": "20-scale",
+      "burst": "3329",
+      "bbox": [
+        0.3414635229363013,
+        0.1286019067915659,
+        0.6262600611126612,
+        0.8292114621117002
+      ],
+      "capacity_visible": null,
+      "image": "data/ocr-v6/detected/IMG_3334.png",
+      "sha256": "1a499949076602a53686e2ba16ba976950a3d035e945a123706d1a3577430630"
+    },
+    {
+      "id": "IMG_3335",
+      "scale": "20-scale",
+      "burst": "3329",
+      "bbox": [
+        0.39932715198981067,
+        0.16740926106770837,
+        0.5798208650457796,
+        0.7929223227122473
+      ],
+      "capacity_visible": null,
+      "image": "data/ocr-v6/detected/IMG_3335.png",
+      "sha256": "8e77549fcaaddddcadae0dc5361c4523cd987c6a54b1b2b39d169f2c30a6bf56"
+    }
+  ]
+}

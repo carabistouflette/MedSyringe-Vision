@@ -1,0 +1,245 @@
+{
+  "passed": false,
+  "outcomes": {
+    "fit": {
+      "previous": {
+        "images": 95,
+        "objects": 95,
+        "tp": 94,
+        "fp": 1,
+        "fn": 1,
+        "precision": 0.9894736842105263,
+        "recall": 0.9894736842105263,
+        "f1": 0.9894736842105263,
+        "ap50": 0.9991999199919992,
+        "ap50_95": 0.6574543290685622,
+        "exact_count": 95,
+        "negative_images": 0,
+        "correct_empty": 0
+      },
+      "candidate": {
+        "images": 95,
+        "objects": 95,
+        "tp": 94,
+        "fp": 6,
+        "fn": 1,
+        "precision": 0.94,
+        "recall": 0.9894736842105263,
+        "f1": 0.964102564102564,
+        "ap50": 0.9973677185323607,
+        "ap50_95": 0.6564291172704226,
+        "exact_count": 90,
+        "negative_images": 0,
+        "correct_empty": 0
+      },
+      "guard": {
+        "passed": true,
+        "lost_matches": [],
+        "recovered_matches": 0,
+        "baseline_matches": 94,
+        "candidate_matches": 94
+      },
+      "revised_reference_sensitivity": {
+        "previous": {
+          "images": 95,
+          "objects": 95,
+          "tp": 95,
+          "fp": 0,
+          "fn": 0,
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0,
+          "ap50": 1.0,
+          "ap50_95": 0.661351786191202,
+          "exact_count": 95,
+          "negative_images": 0,
+          "correct_empty": 0
+        },
+        "candidate": {
+          "images": 95,
+          "objects": 95,
+          "tp": 95,
+          "fp": 5,
+          "fn": 0,
+          "precision": 0.95,
+          "recall": 1.0,
+          "f1": 0.9743589743589743,
+          "ap50": 0.9984845423317845,
+          "ap50_95": 0.6602668852169187,
+          "exact_count": 90,
+          "negative_images": 0,
+          "correct_empty": 0
+        },
+        "guard": {
+          "passed": true,
+          "lost_matches": [],
+          "recovered_matches": 0,
+          "baseline_matches": 95,
+          "candidate_matches": 95
+        }
+      },
+      "added_median_seconds": 5.916546639999069
+    },
+    "calibration": {
+      "previous": {
+        "images": 68,
+        "objects": 68,
+        "tp": 65,
+        "fp": 3,
+        "fn": 3,
+        "precision": 0.9558823529411765,
+        "recall": 0.9558823529411765,
+        "f1": 0.9558823529411765,
+        "ap50": 0.9292939663313008,
+        "ap50_95": 0.5498722036336037,
+        "exact_count": 68,
+        "negative_images": 0,
+        "correct_empty": 0
+      },
+      "candidate": {
+        "images": 68,
+        "objects": 68,
+        "tp": 65,
+        "fp": 5,
+        "fn": 3,
+        "precision": 0.9285714285714286,
+        "recall": 0.9558823529411765,
+        "f1": 0.9420289855072465,
+        "ap50": 0.9281787986349166,
+        "ap50_95": 0.5476647902172129,
+        "exact_count": 66,
+        "negative_images": 0,
+        "correct_empty": 0
+      },
+      "guard": {
+        "passed": true,
+        "lost_matches": [],
+        "recovered_matches": 0,
+        "baseline_matches": 65,
+        "candidate_matches": 65
+      },
+      "revised_reference_sensitivity": {
+        "previous": {
+          "images": 68,
+          "objects": 68,
+          "tp": 68,
+          "fp": 0,
+          "fn": 0,
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0,
+          "ap50": 1.0,
+          "ap50_95": 0.6162430326366348,
+          "exact_count": 68,
+          "negative_images": 0,
+          "correct_empty": 0
+        },
+        "candidate": {
+          "images": 68,
+          "objects": 68,
+          "tp": 68,
+          "fp": 2,
+          "fn": 0,
+          "precision": 0.9714285714285714,
+          "recall": 1.0,
+          "f1": 0.9855072463768115,
+          "ap50": 0.9994342291371995,
+          "ap50_95": 0.6148440229133918,
+          "exact_count": 66,
+          "negative_images": 0,
+          "correct_empty": 0
+        },
+        "guard": {
+          "passed": true,
+          "lost_matches": [],
+          "recovered_matches": 0,
+          "baseline_matches": 68,
+          "candidate_matches": 68
+        }
+      },
+      "added_median_seconds": 4.740303791999395
+    },
+    "test": {
+      "previous": {
+        "images": 14,
+        "objects": 14,
+        "tp": 13,
+        "fp": 1,
+        "fn": 1,
+        "precision": 0.9285714285714286,
+        "recall": 0.9285714285714286,
+        "f1": 0.9285714285714286,
+        "ap50": 0.9247356939083737,
+        "ap50_95": 0.47187488183160353,
+        "exact_count": 14,
+        "negative_images": 0,
+        "correct_empty": 0
+      },
+      "candidate": {
+        "images": 14,
+        "objects": 14,
+        "tp": 13,
+        "fp": 2,
+        "fn": 1,
+        "precision": 0.8666666666666667,
+        "recall": 0.9285714285714286,
+        "f1": 0.896551724137931,
+        "ap50": 0.9193703985783195,
+        "ap50_95": 0.4676726284217671,
+        "exact_count": 13,
+        "negative_images": 0,
+        "correct_empty": 0
+      },
+      "guard": {
+        "passed": true,
+        "lost_matches": [],
+        "recovered_matches": 0,
+        "baseline_matches": 13,
+        "candidate_matches": 13
+      },
+      "revised_reference_sensitivity": {
+        "previous": {
+          "images": 14,
+          "objects": 14,
+          "tp": 14,
+          "fp": 0,
+          "fn": 0,
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0,
+          "ap50": 1.0,
+          "ap50_95": 0.5135852897030594,
+          "exact_count": 14,
+          "negative_images": 0,
+          "correct_empty": 0
+        },
+        "candidate": {
+          "images": 14,
+          "objects": 14,
+          "tp": 14,
+          "fp": 1,
+          "fn": 0,
+          "precision": 0.9333333333333333,
+          "recall": 1.0,
+          "f1": 0.9655172413793104,
+          "ap50": 0.9947194719471949,
+          "ap50_95": 0.5091437100275773,
+          "exact_count": 13,
+          "negative_images": 0,
+          "correct_empty": 0
+        },
+        "guard": {
+          "passed": true,
+          "lost_matches": [],
+          "recovered_matches": 0,
+          "baseline_matches": 14,
+          "candidate_matches": 14
+        }
+      },
+      "added_median_seconds": 3.8301414620000287
+    }
+  },
+  "selection_sha256": "77a20b493fcde8947a80bf0b22818d6b358e3cb8f1b38da04eaa75273b59cd3c",
+  "cache_sha256": "63fa54659ca4c93681149732920b819642785530c7d679a8e52848a6fe667a04",
+  "scope": "Same-session complete capture replay. Both original boxes and the separately reviewed-sensitive boxes."
+}

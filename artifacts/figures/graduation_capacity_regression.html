@@ -1,0 +1,26 @@
+<!doctype html><html lang="en"><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Nominal capacity regression</title>
+<style>
+:root{color:var(--foreground,#20322c);font:15px var(--font-sans,system-ui),sans-serif}
+body{margin:0}
+section{box-sizing:border-box;border:1px solid var(--border,#d9e4df);border-radius:var(--radius,9px);background:var(--card,#fff);padding:16px}
+h2{font-size:1.1rem;margin:0 0 .5rem}
+.row{display:grid;grid-template-columns:7.5rem minmax(0,1fr) 6.5rem;align-items:center;gap:.55rem;margin:1rem 0}
+.track{height:.7rem;overflow:hidden;border-radius:4px;background:var(--secondary,#e5ece9);display:flex}
+.known{background:var(--chart-3,#829e95)}.new{background:var(--chart-2,#14805d)}
+.metric{font-variant-numeric:tabular-nums;text-align:right}
+.legend,.note{margin:.4rem 0;color:var(--muted-foreground,#53635e);font-size:.83rem}
+i{display:inline-block;width:.6rem;height:.6rem;border-radius:2px;margin-right:.3rem}
+.legend span{margin-right:1rem}
+@media(max-width:420px){.row{grid-template-columns:5.6rem minmax(0,1fr) 5.1rem;gap:.35rem;font-size:.85rem}}
+</style><section>
+<h2>Nominal capacity read from the printed scale</h2>
+<div class="legend"><span><i class="known"></i>Previous reads</span><span><i class="new"></i>New verified reads</span></div>
+<div class="row"><span>Orange 20 mL</span><div class="track" aria-label="28 of 35 capacities read">
+ <span class="known" style="width:68.57%"></span><span class="new" style="width:11.43%"></span></div>
+ <span class="metric">24 → 28 / 35</span></div><div class="row"><span>Orange 60 mL</span><div class="track" aria-label="4 of 10 capacities read">
+ <span class="known" style="width:30.00%"></span><span class="new" style="width:10.00%"></span></div>
+ <span class="metric">3 → 4 / 10</span></div><div class="row"><span>Clear 20 mL</span><div class="track" aria-label="9 of 14 capacities read">
+ <span class="known" style="width:57.14%"></span><span class="new" style="width:7.14%"></span></div>
+ <span class="metric">8 → 9 / 14</span></div><p class="note">Previously examined controls · 59 crops · 6 additional correct reads · 0 wrong additions observed</p>
+</section></html>

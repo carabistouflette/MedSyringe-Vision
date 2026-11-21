@@ -1,0 +1,61 @@
+{
+  "transfer": [
+    {
+      "cache": "dino-train-augmented.json",
+      "before": {
+        "detectors.py": "5264bef891b30ac1d11fb915402fd0f7dc44126787f71a71f63d34fc95b47121",
+        "data.py": "e2f0ed0de8dc87c91cc7d5ecf9041eef830e3170e29d990257d15978b7596058"
+      },
+      "after": {
+        "detectors.py": "5264bef891b30ac1d11fb915402fd0f7dc44126787f71a71f63d34fc95b47121",
+        "data.py": "5b5cb7137c5e64b3eaec37b685677e0e11e6831cabb5ee1a1045a2f32e1355ea"
+      },
+      "before_sha256": "d2de41c783abe7f83567bf8f18e96b880863986f9f4cf1f87bc325051be2bf42",
+      "after_sha256": "ac07b2e8594a1a113bf3a18d854f2dcb95fc0f8ecd1ae300e8762591889265fd",
+      "preserved_predictions": 60
+    },
+    {
+      "cache": "dino-train-original.json",
+      "before": {
+        "detectors.py": "5264bef891b30ac1d11fb915402fd0f7dc44126787f71a71f63d34fc95b47121",
+        "data.py": "d3f8fb575ccca85734861e5a4082e01a4fe2c08735e03778bea3389ac3f71a78"
+      },
+      "after": {
+        "detectors.py": "5264bef891b30ac1d11fb915402fd0f7dc44126787f71a71f63d34fc95b47121",
+        "data.py": "5b5cb7137c5e64b3eaec37b685677e0e11e6831cabb5ee1a1045a2f32e1355ea"
+      },
+      "before_sha256": "65d7f744a8570da72a2258a9d8162223680724d27af977cd810f7994ca33888e",
+      "after_sha256": "8e418707d55b0b4b2719d1a5f18baa054c371e5c02fae57e6dc2d84cbfec18f0",
+      "preserved_predictions": 60
+    },
+    {
+      "cache": "dino-validation-original.json",
+      "before": {
+        "detectors.py": "5264bef891b30ac1d11fb915402fd0f7dc44126787f71a71f63d34fc95b47121",
+        "data.py": "e2f0ed0de8dc87c91cc7d5ecf9041eef830e3170e29d990257d15978b7596058"
+      },
+      "after": {
+        "detectors.py": "5264bef891b30ac1d11fb915402fd0f7dc44126787f71a71f63d34fc95b47121",
+        "data.py": "5b5cb7137c5e64b3eaec37b685677e0e11e6831cabb5ee1a1045a2f32e1355ea"
+      },
+      "before_sha256": "a592618f885d36693c1d23f7c2adad8cf795c3e797ab08f8cf44956c2de7a1cd",
+      "after_sha256": "c5a8209fe029fcf4931c2276ea84bfa70304e857042a384df215059860664b96",
+      "preserved_predictions": 19
+    },
+    {
+      "cache": "owl-validation-original.json",
+      "before": {
+        "detectors.py": "5264bef891b30ac1d11fb915402fd0f7dc44126787f71a71f63d34fc95b47121",
+        "data.py": "e2f0ed0de8dc87c91cc7d5ecf9041eef830e3170e29d990257d15978b7596058"
+      },
+      "after": {
+        "detectors.py": "5264bef891b30ac1d11fb915402fd0f7dc44126787f71a71f63d34fc95b47121",
+        "data.py": "5b5cb7137c5e64b3eaec37b685677e0e11e6831cabb5ee1a1045a2f32e1355ea"
+      },
+      "before_sha256": "1a6454e2451d6fa19ed02802c7b8109c8827a6c0b9dba44e86dfba2d4881f210",
+      "after_sha256": "63cf145df42245977cb3d3ef9cf6ae666ea3e06c6fa709ac457700d6e8b689d3",
+      "preserved_predictions": 19
+    }
+  ],
+  "basis": "Public partition assembly and source integrity checks changed. Image reader and HEIF registration have identical Python ASTs. Detector code, weight files, per-image SHA-256, preprocessing variant and prompt remain separately checked by the cache key. Scores and timings were preserved."
+}

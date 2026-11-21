@@ -1,0 +1,90 @@
+{
+  "passed": true,
+  "inventory_sha256": "2377ac492915da9f2ce4fe3e7230c774d744f09c9c06aba15140bafeb51a90fe",
+  "annotations_sha256": "de8260db8f917cdd57d7700cb21b5f56a1c51a3e601c124f7586b81abc7ccebb",
+  "high_similarity_checks": {
+    "passed": true,
+    "previous_in_test": [],
+    "strong_cross_partition": []
+  },
+  "weaker_cross_partition_pairs": [
+    {
+      "a": "IMG_3223",
+      "b": "IMG_3316",
+      "dhash_distance": 6,
+      "rgb_mean_difference": 13.321,
+      "strong": false,
+      "cross_split": true
+    },
+    {
+      "a": "IMG_3223",
+      "b": "IMG_3317",
+      "dhash_distance": 5,
+      "rgb_mean_difference": 14.635,
+      "strong": false,
+      "cross_split": true
+    }
+  ],
+  "disposition": "IMG_3223 versus IMG_3316 and IMG_3317 were visually checked. Pose and backdrop are similar. Contents, filling extent, hand position and capture block differ.",
+  "public_author_hash_checks": [
+    {
+      "partitions": [
+        "fit",
+        "calibration"
+      ],
+      "pairs": 399,
+      "matches": []
+    },
+    {
+      "partitions": [
+        "fit",
+        "reserve"
+      ],
+      "pairs": 441,
+      "matches": []
+    },
+    {
+      "partitions": [
+        "calibration",
+        "reserve"
+      ],
+      "pairs": 399,
+      "matches": []
+    }
+  ],
+  "public_counts": {
+    "fit": {
+      "images": 21,
+      "positives": 3,
+      "groups": 20
+    },
+    "calibration": {
+      "images": 19,
+      "positives": 4,
+      "groups": 19
+    },
+    "reserve": {
+      "images": 21,
+      "positives": 7,
+      "groups": 21
+    }
+  },
+  "scope": "One session. A physical specimen may recur across setup blocks. The public reserve is a previously measured regression cohort.",
+  "capture_counts": {
+    "fit": {
+      "60-scale/uncolored": 17,
+      "60-scale/amber": 11,
+      "20-scale/amber": 16,
+      "60-scale/orange": 40,
+      "20-scale/warm": 11
+    },
+    "calibration": {
+      "60-scale/amber": 11,
+      "20-scale/amber": 18,
+      "20-scale/orange": 39
+    },
+    "test": {
+      "20-scale/uncolored": 14
+    }
+  }
+}

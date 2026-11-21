@@ -1,0 +1,10 @@
+{
+  "passed": true,
+  "full_capture_sha256": "7b7d3a8b13fa91ee6a2213ff43cfb70a9c130966f58a32b7dae1443c1eb1eb45",
+  "paired": {
+    "artifacts/expanded/crop_verification_runtime_cpu_a.json": "872341203a05345e05e53b1acb859d6225d3ad61322beeaf7fdae28b7e4cdcc3",
+    "artifacts/expanded/crop_verification_runtime_cpu_b.json": "82c0d4bb8ed8d18ce7869520dd60b3006bfd1b09ddbbe96ef83270d6af6c8d0c",
+    "artifacts/expanded/crop_verification_runtime_xpu_a.json": "a6093d58bf6d09b318d459832eafcc82baabf4de3422c04584dad6cd5f1939f7",
+    "artifacts/expanded/crop_verification_runtime_xpu_b.json": "e7b90f284cbe9d439a5a508a372f91cc68cec5ca9c6e2060b934ab511bd2037a"
+  }
+}

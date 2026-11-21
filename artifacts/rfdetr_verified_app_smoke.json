@@ -1,0 +1,89 @@
+{
+  "image": "zenodo-verifier-6410396234a29962.jpg",
+  "model": {
+    "name": "dino",
+    "revision": "a2bb814dd30d776dcf7e30523b00659f4f141c71",
+    "pipeline": "optimized-detector-v3+rfdetr-verified",
+    "selection_sha256": "6481fabde0f83dc58083049abb0f6a69f94d2b734d94234a28fa0b2e197e7897",
+    "attributes_sha256": "026e40a5d54c323c623775bb040890e8408cc893ef8721e3cae56a0525ee589b",
+    "recovery_sha256": "218082dfc0ecf028f8bfc902ad9c51a41fdb369818b2a566320688682e4e19a7"
+  },
+  "source_sha256": "6410396234a29962ef1d4a7ce6031715e6ad4503324caca5a6b3474f3518054f",
+  "latency_ms_including_ocr": 9095.305783004733,
+  "working_routes": [
+    "home",
+    "assets",
+    "upload/inference",
+    "evidence image",
+    "persisted review",
+    "inventory",
+    "observation comparison"
+  ],
+  "predicted_objects": 1,
+  "objects": [
+    {
+      "id": "object-1",
+      "bbox": [
+        0.5281427714042366,
+        0.5016270649619401,
+        0.5867012538947165,
+        0.5399745603402456
+      ],
+      "score": 0.6772280764893512,
+      "detection_evidence": {
+        "verification_score": 3.8715719183449875,
+        "source": "auxiliary",
+        "auxiliary_score": 0.3548561930656433
+      },
+      "scale": null,
+      "color": null,
+      "evidence": {
+        "scale": {
+          "value": null,
+          "reason": "Outside development support or ambiguous",
+          "distance": 4.314964933212413,
+          "margin": 1.1267244162102976
+        },
+        "color": {
+          "value": null,
+          "reason": "Outside development support or ambiguous",
+          "distance": 9.236964680650882,
+          "margin": 0.3758029175063644
+        }
+      },
+      "inscriptions": {
+        "status": "unreadable",
+        "candidates": [],
+        "capacity": null,
+        "apparent_volume": null
+      },
+      "origin": "model"
+    }
+  ],
+  "embedded_color_profile_preserved": true,
+  "inventory": {
+    "observation_id": "67c7f7f68e0d493fa96cc704bad5f492",
+    "revision": 1,
+    "mode": "count",
+    "expected": {
+      "syringe": 0
+    },
+    "observed": {
+      "syringe": 1
+    },
+    "missing": {
+      "syringe": 0
+    },
+    "extra": {
+      "syringe": 1
+    },
+    "evidence": {
+      "syringe": [
+        "object-1"
+      ]
+    },
+    "unresolved": [],
+    "minimum_missing": 0
+  },
+  "review_revision": 1
+}

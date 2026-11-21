@@ -1,0 +1,828 @@
+{
+  "passed": false,
+  "selection_sha256": "f4ab5747b5700e0562b2d071cc632e36a86d36a343ef67039001f71b651815a3",
+  "cases": {
+    "public-audit": {
+      "baseline": {
+        "images": 25,
+        "objects": 15,
+        "tp": 10,
+        "fp": 10,
+        "fn": 5,
+        "precision": 0.5,
+        "recall": 0.6666666666666666,
+        "f1": 0.5714285714285715,
+        "ap50": 0.5947227618578103,
+        "ap50_95": 0.4395841696556859,
+        "exact_count": 12,
+        "negative_images": 12,
+        "correct_empty": 4
+      },
+      "candidate": {
+        "images": 25,
+        "objects": 15,
+        "tp": 10,
+        "fp": 10,
+        "fn": 5,
+        "precision": 0.5,
+        "recall": 0.6666666666666666,
+        "f1": 0.5714285714285715,
+        "ap50": 0.5947227618578103,
+        "ap50_95": 0.4395841696556859,
+        "exact_count": 12,
+        "negative_images": 12,
+        "correct_empty": 4
+      },
+      "guard": {
+        "passed": true,
+        "lost_matches": [],
+        "recovered_matches": 0,
+        "baseline_matches": 10,
+        "candidate_matches": 10
+      },
+      "baseline_errors": {
+        "fp": [
+          {
+            "id": "66493077",
+            "prediction": {
+              "bbox": [
+                0.08582585652669271,
+                0.40289794539209445,
+                0.8214198430379231,
+                0.7617686639385164
+              ],
+              "score": 0.9286667184343733
+            },
+            "best_unmatched_iou": 0
+          },
+          {
+            "id": "35445128",
+            "prediction": {
+              "bbox": [
+                0.11004227002461751,
+                0.6071364879608154,
+                0.9088122049967448,
+                0.7894305229187012
+              ],
+              "score": 0.9000249653676431
+            },
+            "best_unmatched_iou": 0
+          },
+          {
+            "id": "35041773",
+            "prediction": {
+              "bbox": [
+                0.09839173952738443,
+                0.27853440178765193,
+                0.7840870539347331,
+                0.6769129435221354
+              ],
+              "score": 0.8966056481153397
+            },
+            "best_unmatched_iou": 0
+          },
+          {
+            "id": "116806768",
+            "prediction": {
+              "bbox": [
+                0.0021659433841705322,
+                0.3392245118289715,
+                0.9973746617635091,
+                0.7953366522864348
+              ],
+              "score": 0.7616552133908212
+            },
+            "best_unmatched_iou": 0
+          },
+          {
+            "id": "29085527",
+            "prediction": {
+              "bbox": [
+                0.20587066014607747,
+                0.33020311991373696,
+                0.9659591674804687,
+                0.6388796064588759
+              ],
+              "score": 0.7341064549482992
+            },
+            "best_unmatched_iou": 0
+          },
+          {
+            "id": "29085527",
+            "prediction": {
+              "bbox": [
+                0.02102285623550415,
+                0.5019418080647786,
+                0.8539653142293294,
+                0.6563372717963325
+              ],
+              "score": 0.7160419010128483
+            },
+            "best_unmatched_iou": 0
+          },
+          {
+            "id": "24359151",
+            "prediction": {
+              "bbox": [
+                0.3530689875284831,
+                0.4847610473632813,
+                0.5533576965332031,
+                0.9664419730504353
+              ],
+              "score": 0.7117448059692849
+            },
+            "best_unmatched_iou": 0
+          },
+          {
+            "id": "17344783",
+            "prediction": {
+              "bbox": [
+                0.36801829977581896,
+                0.6419580591221651,
+                0.9740207701921463,
+                0.8124472445083989
+              ],
+              "score": 0.6772280764893512,
+              "mask_bbox": [
+                0.3716869212962963,
+                0.6426504629629629,
+                0.9816550925925926,
+                0.8213252314814814
+              ],
+              "mask_area_fraction": 0.0428421620533354,
+              "auxiliary_score": 0.9195989966392517,
+              "source": "sam3"
+            },
+            "best_unmatched_iou": 0
+          },
+          {
+            "id": "17344783",
+            "prediction": {
+              "bbox": [
+                0.07853969931602478,
+                0.47889479994773865,
+                0.9695056676864624,
+                0.683141827583313
+              ],
+              "score": 0.6772280764893512,
+              "mask_bbox": [
+                0.0763888888888889,
+                0.4791666666666667,
+                0.9861111111111112,
+                0.6944444444444444
+              ],
+              "mask_area_fraction": 0.056086033950617294,
+              "auxiliary_score": 0.9001545310020447,
+              "source": "sam3"
+            },
+            "best_unmatched_iou": 0
+          },
+          {
+            "id": "21875446",
+            "prediction": {
+              "bbox": [
+                0.0055637823107341925,
+                0.0006288093514740467,
+                0.1092859880067408,
+                0.42359226420521734
+              ],
+              "score": 0.6772280764893512,
+              "mask_bbox": [
+                0.004586226851851852,
+                0.0,
+                0.1146556712962963,
+                0.43042534722222225
+              ],
+              "mask_area_fraction": 0.014154202810530798,
+              "auxiliary_score": 0.9178762435913086,
+              "source": "sam3"
+            },
+            "best_unmatched_iou": 0
+          }
+        ],
+        "fn": [
+          {
+            "id": "14929101",
+            "box": [
+              0.56158,
+              0.01242,
+              0.74671,
+              0.93627
+            ]
+          },
+          {
+            "id": "154891431",
+            "box": [
+              0.43968,
+              0.49279,
+              0.51384,
+              0.52192
+            ]
+          },
+          {
+            "id": "154900789",
+            "box": [
+              0.45609,
+              0.48984,
+              0.52363,
+              0.54277
+            ]
+          },
+          {
+            "id": "157440205",
+            "box": [
+              0.45008,
+              0.41635,
+              0.49347,
+              0.47814
+            ]
+          },
+          {
+            "id": "7278183",
+            "box": [
+              0.04968,
+              0.43693,
+              0.89928,
+              0.79933
+            ]
+          }
+        ]
+      },
+      "candidate_errors": {
+        "fp": [
+          {
+            "id": "66493077",
+            "prediction": {
+              "bbox": [
+                0.08582585652669271,
+                0.40289794539209445,
+                0.8214198430379231,
+                0.7617686639385164
+              ],
+              "score": 0.9286667184343733
+            },
+            "best_unmatched_iou": 0
+          },
+          {
+            "id": "35445128",
+            "prediction": {
+              "bbox": [
+                0.11004227002461751,
+                0.6071364879608154,
+                0.9088122049967448,
+                0.7894305229187012
+              ],
+              "score": 0.9000249653676431
+            },
+            "best_unmatched_iou": 0
+          },
+          {
+            "id": "35041773",
+            "prediction": {
+              "bbox": [
+                0.09839173952738443,
+                0.27853440178765193,
+                0.7840870539347331,
+                0.6769129435221354
+              ],
+              "score": 0.8966056481153397
+            },
+            "best_unmatched_iou": 0
+          },
+          {
+            "id": "116806768",
+            "prediction": {
+              "bbox": [
+                0.0021659433841705322,
+                0.3392245118289715,
+                0.9973746617635091,
+                0.7953366522864348
+              ],
+              "score": 0.7616552133908212
+            },
+            "best_unmatched_iou": 0
+          },
+          {
+            "id": "29085527",
+            "prediction": {
+              "bbox": [
+                0.20587066014607747,
+                0.33020311991373696,
+                0.9659591674804687,
+                0.6388796064588759
+              ],
+              "score": 0.7341064549482992
+            },
+            "best_unmatched_iou": 0
+          },
+          {
+            "id": "29085527",
+            "prediction": {
+              "bbox": [
+                0.02102285623550415,
+                0.5019418080647786,
+                0.8539653142293294,
+                0.6563372717963325
+              ],
+              "score": 0.7160419010128483
+            },
+            "best_unmatched_iou": 0
+          },
+          {
+            "id": "24359151",
+            "prediction": {
+              "bbox": [
+                0.3530689875284831,
+                0.4847610473632813,
+                0.5533576965332031,
+                0.9664419730504353
+              ],
+              "score": 0.7117448059692849
+            },
+            "best_unmatched_iou": 0
+          },
+          {
+            "id": "17344783",
+            "prediction": {
+              "bbox": [
+                0.36801829977581896,
+                0.6419580591221651,
+                0.9740207701921463,
+                0.8124472445083989
+              ],
+              "score": 0.6772280764893512,
+              "mask_bbox": [
+                0.3716869212962963,
+                0.6426504629629629,
+                0.9816550925925926,
+                0.8213252314814814
+              ],
+              "mask_area_fraction": 0.0428421620533354,
+              "auxiliary_score": 0.9195989966392517,
+              "source": "sam3"
+            },
+            "best_unmatched_iou": 0
+          },
+          {
+            "id": "17344783",
+            "prediction": {
+              "bbox": [
+                0.07853969931602478,
+                0.47889479994773865,
+                0.9695056676864624,
+                0.683141827583313
+              ],
+              "score": 0.6772280764893512,
+              "mask_bbox": [
+                0.0763888888888889,
+                0.4791666666666667,
+                0.9861111111111112,
+                0.6944444444444444
+              ],
+              "mask_area_fraction": 0.056086033950617294,
+              "auxiliary_score": 0.9001545310020447,
+              "source": "sam3"
+            },
+            "best_unmatched_iou": 0
+          },
+          {
+            "id": "21875446",
+            "prediction": {
+              "bbox": [
+                0.0055637823107341925,
+                0.0006288093514740467,
+                0.1092859880067408,
+                0.42359226420521734
+              ],
+              "score": 0.6772280764893512,
+              "mask_bbox": [
+                0.004586226851851852,
+                0.0,
+                0.1146556712962963,
+                0.43042534722222225
+              ],
+              "mask_area_fraction": 0.014154202810530798,
+              "auxiliary_score": 0.9178762435913086,
+              "source": "sam3"
+            },
+            "best_unmatched_iou": 0
+          }
+        ],
+        "fn": [
+          {
+            "id": "14929101",
+            "box": [
+              0.56158,
+              0.01242,
+              0.74671,
+              0.93627
+            ]
+          },
+          {
+            "id": "154891431",
+            "box": [
+              0.43968,
+              0.49279,
+              0.51384,
+              0.52192
+            ]
+          },
+          {
+            "id": "154900789",
+            "box": [
+              0.45609,
+              0.48984,
+              0.52363,
+              0.54277
+            ]
+          },
+          {
+            "id": "157440205",
+            "box": [
+              0.45008,
+              0.41635,
+              0.49347,
+              0.47814
+            ]
+          },
+          {
+            "id": "7278183",
+            "box": [
+              0.04968,
+              0.43693,
+              0.89928,
+              0.79933
+            ]
+          }
+        ]
+      },
+      "slices": {
+        "baseline": {
+          "small": {
+            "references": 3,
+            "found": 0
+          },
+          "partial": {
+            "references": 10,
+            "found": 5
+          },
+          "multiple": {
+            "references": 4,
+            "found": 4
+          },
+          "negative": {
+            "automatic pipette": {
+              "images": 4,
+              "false_alarm_images": 4
+            },
+            "glass pipette": {
+              "images": 1,
+              "false_alarm_images": 1
+            },
+            "insulin pen": {
+              "images": 1,
+              "false_alarm_images": 0
+            },
+            "mechanical pencil": {
+              "images": 2,
+              "false_alarm_images": 0
+            },
+            "pen": {
+              "images": 2,
+              "false_alarm_images": 1
+            },
+            "plastic pipette": {
+              "images": 2,
+              "false_alarm_images": 2
+            },
+            "thermal paste applicator": {
+              "images": 1,
+              "false_alarm_images": 1
+            }
+          }
+        },
+        "candidate": {
+          "small": {
+            "references": 3,
+            "found": 0
+          },
+          "partial": {
+            "references": 10,
+            "found": 5
+          },
+          "multiple": {
+            "references": 4,
+            "found": 4
+          },
+          "negative": {
+            "automatic pipette": {
+              "images": 4,
+              "false_alarm_images": 4
+            },
+            "glass pipette": {
+              "images": 1,
+              "false_alarm_images": 1
+            },
+            "insulin pen": {
+              "images": 1,
+              "false_alarm_images": 0
+            },
+            "mechanical pencil": {
+              "images": 2,
+              "false_alarm_images": 0
+            },
+            "pen": {
+              "images": 2,
+              "false_alarm_images": 1
+            },
+            "plastic pipette": {
+              "images": 2,
+              "false_alarm_images": 2
+            },
+            "thermal paste applicator": {
+              "images": 1,
+              "false_alarm_images": 1
+            }
+          }
+        }
+      },
+      "group_count": 25,
+      "selected_groups": {
+        "commons:jernej furman from maribor, slovenia": 1,
+        "commons:squidonius ( talk )": 1,
+        "commons:psychonaught": 1,
+        "commons:u.s. air force photo by senior airman milton hamilton": 1,
+        "commons:u.s. army photo by candy c knight": 1,
+        "commons:u.s. air force photo by senior airman madeline herzog": 1,
+        "commons:gmhofmann": 1,
+        "commons:ian1237": 1,
+        "commons:biscuitroot": 1,
+        "commons:eric molina from new york city, united states": 1,
+        "commons:friedrich haag": 1,
+        "commons:rob madeo": 1,
+        "commons:thctamm": 1,
+        "commons:luigi guarino from rome, italy": 1,
+        "commons:walber": 1,
+        "commons:witia": 1,
+        "commons:nick hamilton, csiro": 1,
+        "commons:ignis": 1,
+        "commons:university of the fraser valley": 1,
+        "commons:usn": 1,
+        "commons:tc_manasan from philippines": 1,
+        "commons:philipp lensing": 1,
+        "commons:w:user:knulclunk": 1,
+        "commons:karl johan stensland": 1,
+        "commons:united states census": 1
+      },
+      "group_bootstrap": {
+        "groups": 25,
+        "samples": 2000,
+        "interval_recall_delta": [
+          0.0,
+          0.0
+        ],
+        "interval_precision_delta": [
+          0.0,
+          0.0
+        ]
+      }
+    },
+    "previous-reserve": {
+      "baseline": {
+        "images": 21,
+        "objects": 7,
+        "tp": 4,
+        "fp": 2,
+        "fn": 3,
+        "precision": 0.6666666666666666,
+        "recall": 0.5714285714285714,
+        "f1": 0.6153846153846153,
+        "ap50": 0.6842091901497845,
+        "ap50_95": 0.5690786213899905,
+        "exact_count": 16,
+        "negative_images": 14,
+        "correct_empty": 12
+      },
+      "candidate": {
+        "images": 21,
+        "objects": 7,
+        "tp": 4,
+        "fp": 2,
+        "fn": 3,
+        "precision": 0.6666666666666666,
+        "recall": 0.5714285714285714,
+        "f1": 0.6153846153846153,
+        "ap50": 0.6842091901497845,
+        "ap50_95": 0.5690786213899905,
+        "exact_count": 16,
+        "negative_images": 14,
+        "correct_empty": 12
+      },
+      "guard": {
+        "passed": true,
+        "lost_matches": [],
+        "recovered_matches": 0,
+        "baseline_matches": 4,
+        "candidate_matches": 4
+      },
+      "baseline_errors": {
+        "fp": [
+          {
+            "id": "114097304",
+            "prediction": {
+              "bbox": [
+                0.06007883071899414,
+                0.35038387044270836,
+                0.8980980834960938,
+                0.6134253336588542
+              ],
+              "score": 0.9359043747993974
+            },
+            "best_unmatched_iou": 0
+          },
+          {
+            "id": "74927244",
+            "prediction": {
+              "bbox": [
+                0.7673716227213542,
+                0.6463438798782419,
+                0.8508293151855468,
+                0.9629726261132965
+              ],
+              "score": 0.7307939944294264
+            },
+            "best_unmatched_iou": 0
+          }
+        ],
+        "fn": [
+          {
+            "id": "146984159",
+            "box": [
+              0.1656441717791411,
+              0.10736196319018405,
+              0.8558282208588958,
+              0.950920245398773
+            ]
+          },
+          {
+            "id": "178849232",
+            "box": [
+              0.5246913580246914,
+              0.5092592592592593,
+              0.6604938271604939,
+              0.9212962962962963
+            ]
+          },
+          {
+            "id": "112606301",
+            "box": [
+              0.22699386503067484,
+              0.559748427672956,
+              0.8588957055214724,
+              0.8113207547169812
+            ]
+          }
+        ]
+      },
+      "candidate_errors": {
+        "fp": [
+          {
+            "id": "114097304",
+            "prediction": {
+              "bbox": [
+                0.06007883071899414,
+                0.35038387044270836,
+                0.8980980834960938,
+                0.6134253336588542
+              ],
+              "score": 0.9359043747993974
+            },
+            "best_unmatched_iou": 0
+          },
+          {
+            "id": "74927244",
+            "prediction": {
+              "bbox": [
+                0.7673716227213542,
+                0.6463438798782419,
+                0.8508293151855468,
+                0.9629726261132965
+              ],
+              "score": 0.7307939944294264
+            },
+            "best_unmatched_iou": 0
+          }
+        ],
+        "fn": [
+          {
+            "id": "146984159",
+            "box": [
+              0.1656441717791411,
+              0.10736196319018405,
+              0.8558282208588958,
+              0.950920245398773
+            ]
+          },
+          {
+            "id": "178849232",
+            "box": [
+              0.5246913580246914,
+              0.5092592592592593,
+              0.6604938271604939,
+              0.9212962962962963
+            ]
+          },
+          {
+            "id": "112606301",
+            "box": [
+              0.22699386503067484,
+              0.559748427672956,
+              0.8588957055214724,
+              0.8113207547169812
+            ]
+          }
+        ]
+      },
+      "slices": {
+        "baseline": {
+          "small": {
+            "references": 1,
+            "found": 1
+          },
+          "partial": {
+            "references": 0,
+            "found": 0
+          },
+          "multiple": {
+            "references": 0,
+            "found": 0
+          },
+          "negative": {
+            "unspecified negative": {
+              "images": 14,
+              "false_alarm_images": 2
+            }
+          }
+        },
+        "candidate": {
+          "small": {
+            "references": 1,
+            "found": 1
+          },
+          "partial": {
+            "references": 0,
+            "found": 0
+          },
+          "multiple": {
+            "references": 0,
+            "found": 0
+          },
+          "negative": {
+            "unspecified negative": {
+              "images": 14,
+              "false_alarm_images": 2
+            }
+          }
+        }
+      },
+      "group_count": 21,
+      "selected_groups": {
+        "commons:fatimah bello": 1,
+        "commons:philcapawiki": 1,
+        "commons:ssg hector robertin": 1,
+        "commons:1milk6ice": 1,
+        "commons:gracy sambath": 1,
+        "commons:shyamal": 1,
+        "commons:schott pharma": 1,
+        "commons:microbiologymarcus": 1,
+        "commons:hariprasad shetty10": 1,
+        "commons:cap sciences belgique": 1,
+        "commons:sarathkumaran ranganathan": 1,
+        "commons:frankincense diala": 1,
+        "commons:augusteblanqui": 1,
+        "commons:p1898": 1,
+        "commons:gallium tsai": 1,
+        "commons:bharath kishore from thanjavur, india": 1,
+        "commons:joe haupt from usa": 1,
+        "commons:billjones94": 1,
+        "commons:the white house": 1,
+        "commons:vvteja": 1,
+        "commons:horst j. meuter": 1
+      },
+      "group_bootstrap": {
+        "groups": 21,
+        "samples": 2000,
+        "interval_recall_delta": [
+          0.0,
+          0.0
+        ],
+        "interval_precision_delta": [
+          0.0,
+          0.0
+        ]
+      }
+    }
+  },
+  "review": {},
+  "review_passed": false
+}

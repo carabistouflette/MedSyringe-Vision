@@ -1,0 +1,212 @@
+{
+  "passed": true,
+  "cohorts": {
+    "previous_zenodo": {
+      "parity": true,
+      "metrics": {
+        "precision": 0.6,
+        "recall": 0.3333333333333333,
+        "f1": 0.42857142857142855,
+        "ap50": 0.2573845183704633,
+        "ap50_95": 0.16476888444519894,
+        "exact_count": 20,
+        "tp": 3,
+        "fp": 2,
+        "fn": 6
+      },
+      "guard": {
+        "passed": true,
+        "lost_matches": [],
+        "recovered_matches": 2,
+        "baseline_matches": 1,
+        "candidate_matches": 3
+      },
+      "expected_guard": {
+        "passed": true,
+        "lost_matches": [],
+        "recovered_matches": 0,
+        "baseline_matches": 3,
+        "candidate_matches": 3
+      },
+      "median_added_ms": 905.8449219955946
+    },
+    "previous_external": {
+      "parity": true,
+      "metrics": {
+        "precision": 0.7692307692307693,
+        "recall": 0.8333333333333334,
+        "f1": 0.8,
+        "ap50": 0.908840169731259,
+        "ap50_95": 0.6826025459688827,
+        "exact_count": 9,
+        "tp": 10,
+        "fp": 3,
+        "fn": 2
+      },
+      "guard": {
+        "passed": true,
+        "lost_matches": [],
+        "recovered_matches": 0,
+        "baseline_matches": 10,
+        "candidate_matches": 10
+      },
+      "expected_guard": {
+        "passed": true,
+        "lost_matches": [],
+        "recovered_matches": 0,
+        "baseline_matches": 10,
+        "candidate_matches": 10
+      },
+      "median_added_ms": 0.02755799505393952
+    },
+    "fil_rouge": {
+      "parity": true,
+      "metrics": {
+        "precision": 1.0,
+        "recall": 0.9459459459459459,
+        "f1": 0.9722222222222222,
+        "ap50": 1.0,
+        "ap50_95": 0.7635691888570749,
+        "exact_count": 70,
+        "tp": 70,
+        "fp": 0,
+        "fn": 4
+      },
+      "guard": {
+        "passed": true,
+        "lost_matches": [],
+        "recovered_matches": 0,
+        "baseline_matches": 70,
+        "candidate_matches": 70
+      },
+      "expected_guard": {
+        "passed": true,
+        "lost_matches": [],
+        "recovered_matches": 0,
+        "baseline_matches": 70,
+        "candidate_matches": 70
+      },
+      "median_added_ms": 0.024066001060418785
+    },
+    "historical": {
+      "parity": true,
+      "metrics": {
+        "precision": 1.0,
+        "recall": 0.6,
+        "f1": 0.7499999999999999,
+        "ap50": 0.8830305611206279,
+        "ap50_95": 0.7118888663059852,
+        "exact_count": 7,
+        "tp": 9,
+        "fp": 0,
+        "fn": 6
+      },
+      "guard": {
+        "passed": true,
+        "lost_matches": [],
+        "recovered_matches": 0,
+        "baseline_matches": 9,
+        "candidate_matches": 9
+      },
+      "expected_guard": {
+        "passed": true,
+        "lost_matches": [],
+        "recovered_matches": 0,
+        "baseline_matches": 9,
+        "candidate_matches": 9
+      },
+      "median_added_ms": 909.972530505911
+    },
+    "fresh": {
+      "parity": true,
+      "metrics": {
+        "precision": 1.0,
+        "recall": 0.3333333333333333,
+        "f1": 0.5,
+        "ap50": 0.4596888260254595,
+        "ap50_95": 0.14007987353357182,
+        "exact_count": 1,
+        "tp": 1,
+        "fp": 0,
+        "fn": 2
+      },
+      "guard": {
+        "passed": true,
+        "lost_matches": [],
+        "recovered_matches": 1,
+        "baseline_matches": 0,
+        "candidate_matches": 1
+      },
+      "expected_guard": {
+        "passed": true,
+        "lost_matches": [],
+        "recovered_matches": 0,
+        "baseline_matches": 1,
+        "candidate_matches": 1
+      },
+      "median_added_ms": 899.4558160047745
+    },
+    "pen_reserve": {
+      "parity": true,
+      "metrics": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "ap50": null,
+        "ap50_95": null,
+        "exact_count": 1,
+        "tp": 0,
+        "fp": 8,
+        "fn": 0
+      },
+      "guard": {
+        "passed": true,
+        "lost_matches": [],
+        "recovered_matches": 0,
+        "baseline_matches": 0,
+        "candidate_matches": 0
+      },
+      "expected_guard": {
+        "passed": true,
+        "lost_matches": [],
+        "recovered_matches": 0,
+        "baseline_matches": 0,
+        "candidate_matches": 0
+      },
+      "median_added_ms": 450.7725985022262
+    },
+    "syringe_reserve": {
+      "parity": true,
+      "metrics": {
+        "precision": 0.6,
+        "recall": 0.6666666666666666,
+        "f1": 0.631578947368421,
+        "ap50": 0.5773346271504227,
+        "ap50_95": 0.368215135467035,
+        "exact_count": 4,
+        "tp": 6,
+        "fp": 4,
+        "fn": 3
+      },
+      "guard": {
+        "passed": true,
+        "lost_matches": [],
+        "recovered_matches": 0,
+        "baseline_matches": 6,
+        "candidate_matches": 6
+      },
+      "expected_guard": {
+        "passed": true,
+        "lost_matches": [],
+        "recovered_matches": 0,
+        "baseline_matches": 6,
+        "candidate_matches": 6
+      },
+      "median_added_ms": 903.4540349966846
+    }
+  },
+  "study_sha256": "598aefe5091436db7ce39a0f5296296ae6c45701538d575dbe5fc0acdcc657fc",
+  "release_sha256": "6481fabde0f83dc58083049abb0f6a69f94d2b734d94234a28fa0b2e197e7897",
+  "runtime_sha256": "8871ffd2d7d037b45c016038d9ce01aa75c8933c29a25e36025e7c58fa0d7770",
+  "weights_sha256": "685909da04c5d282b711e867e9b51dfe94e8755fd1e3795c5ebe9e7bc3621ad5"
+}

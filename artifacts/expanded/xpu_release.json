@@ -1,0 +1,29 @@
+{
+  "id": "intel-grounding-dino",
+  "code": {
+    "scripts/expanded_runtime_pair.py": "c865de6532341b4d60a7d10df45f33228c08f71ad26405b13fee3fef83d97ab6",
+    "medsyringe/inference.py": "4a52c2d5ed16d473a99d12b013c64dfed4bf73c7a7b5c83b5a3db58545c0b568",
+    "medsyringe/xpu_grounding.py": "66c4871759baa178c9b7886d1328b3eecfbd3331d6435d6749acd42d830e4f8c",
+    "medsyringe/grounding_backend.py": "cfa248d3ff230f36d54b1c67247a03110da466e19a50b22acf9ed8bd6a286ede"
+  },
+  "evidence": "artifacts/expanded/runtime_pair.json",
+  "evidence_sha256": "43d2f83a0068da812d2a110a869bbc07a60002b99446c6f4eb84ef93c533c03c",
+  "model": {
+    "name": "dino",
+    "revision": "a2bb814dd30d776dcf7e30523b00659f4f141c71",
+    "pipeline": "optimized-detector-v3+rfdetr-verified+sam3-fallback+expanded",
+    "selection_sha256": "6481fabde0f83dc58083049abb0f6a69f94d2b734d94234a28fa0b2e197e7897",
+    "attributes_sha256": "026e40a5d54c323c623775bb040890e8408cc893ef8721e3cae56a0525ee589b",
+    "recovery_sha256": "218082dfc0ecf028f8bfc902ad9c51a41fdb369818b2a566320688682e4e19a7",
+    "sam3_sha256": "dcd7f0c1262cbdafed1915ab6e20adbbab58bf5739e07d2a8fbcc6338769dc30",
+    "marking_sha256": "8cfc9bf9e707d5f1457474c927bc2e42a61e391198849f39fa810e928218cb2c",
+    "liquid_sha256": "3d63ef06a07b4ff095aa227abb8c3d61df09bc3522fdccb1a168aef4e38c4d46",
+    "expanded_sha256": "0b99b829602968349c343ea58a7a4ba7def74ac5aaa35a3bbffad0a5e74cb8be",
+    "fill_sha256": "bf0e4db95fe1bb58625e61c07b12d6f9ffebe527f7bfc2b124dc87634b8c9772"
+  },
+  "packages": {
+    "torch": "2.9.1+xpu",
+    "torchvision": "0.24.1+xpu",
+    "transformers": "5.23.0"
+  }
+}

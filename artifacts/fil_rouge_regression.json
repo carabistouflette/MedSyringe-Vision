@@ -1,0 +1,3078 @@
+{
+  "scope": "Live inference on development originals against draft references; not independent",
+  "original_files_verified": 75,
+  "unique_images": 74,
+  "duplicates": [
+    {
+      "source": "IMG_3215(1).HEIC",
+      "canonical": "IMG_3215.HEIC"
+    }
+  ],
+  "freeze_sha256": "5eb41d98a2b08c1a93045920e1c7b4f805ba2014bc9189e552c5f78897a42395",
+  "cutoffs": {
+    "general": 0.5398514270782471,
+    "fil-rouge": 0.35
+  },
+  "scores": {
+    "general": {
+      "tp": 54,
+      "fp": 0,
+      "fn": 20,
+      "exact_count": 54
+    },
+    "fil-rouge": {
+      "tp": 74,
+      "fp": 0,
+      "fn": 0,
+      "exact_count": 74
+    }
+  },
+  "attribute_diagnostics": {
+    "scale": {
+      "eligible": 74,
+      "answered": 50,
+      "correct": 37
+    },
+    "color": {
+      "eligible": 68,
+      "answered": 38,
+      "correct": 38
+    }
+  },
+  "frames": [
+    {
+      "id": "IMG_3198",
+      "count": 1,
+      "best_iou": 0.9551764742255885,
+      "detections": [
+        {
+          "id": "object-1",
+          "bbox": [
+            0.17559941609700522,
+            0.004326820373535156,
+            0.5648540113338087,
+            0.9971587771461123
+          ],
+          "score": 0.6619902849197388,
+          "scale": "20-scale",
+          "color": null,
+          "evidence": {
+            "scale": {
+              "value": "20-scale",
+              "distance": 1.050162365327301,
+              "margin": 0.9231461921535582,
+              "reason": "Experimental suggestion from the object crop"
+            },
+            "color": {
+              "value": null,
+              "reason": "Outside development support or ambiguous",
+              "distance": 7.343412100416127,
+              "margin": 1.4026846766073247
+            }
+          },
+          "inscriptions": {
+            "status": "not requested",
+            "candidates": [],
+            "capacity": null,
+            "apparent_volume": null
+          },
+          "origin": "model"
+        }
+      ],
+      "elapsed_ms": 3371.473266000976
+    },
+    {
+      "id": "IMG_3199",
+      "count": 1,
+      "best_iou": 0.8972544379378357,
+      "detections": [
+        {
+          "id": "object-1",
+          "bbox": [
+            0.1431520250108507,
+            0.002817809581756592,
+            0.5098826897838128,
+            0.9266230265299479
+          ],
+          "score": 0.44753268361091614,
+          "scale": null,
+          "color": "amber-brown",
+          "evidence": {
+            "scale": {
+              "value": null,
+              "reason": "Outside development support or ambiguous",
+              "distance": 2.135455203794418,
+              "margin": 0.3676799308334733
+            },
+            "color": {
+              "value": "amber-brown",
+              "distance": 2.899933897396903,
+              "margin": 1.6290333292649435,
+              "reason": "Experimental suggestion from the object crop"
+            }
+          },
+          "inscriptions": {
+            "status": "not requested",
+            "candidates": [],
+            "capacity": null,
+            "apparent_volume": null
+          },
+          "origin": "model"
+        }
+      ],
+      "elapsed_ms": 3182.990001994767
+    },
+    {
+      "id": "IMG_3200",
+      "count": 1,
+      "best_iou": 0.8665647375300136,
+      "detections": [
+        {
+          "id": "object-1",
+          "bbox": [
+            0.19239300520962507,
+            0.012247235055953737,
+            0.5305906023297992,
+            0.906585451156374
+          ],
+          "score": 0.6532929539680481,
+          "scale": null,
+          "color": null,
+          "evidence": {
+            "scale": {
+              "value": null,
+              "reason": "Outside development support or ambiguous",
+              "distance": 1.7645375927143436,
+              "margin": 0.11307913124937263
+            },
+            "color": {
+              "value": null,
+              "reason": "Outside development support or ambiguous",
+              "distance": 5.091903611011521,
+              "margin": 1.6717449410813812
+            }
+          },
+          "inscriptions": {
+            "status": "not requested",
+            "candidates": [],
+            "capacity": null,
+            "apparent_volume": null
+          },
+          "origin": "model"
+        }
+      ],
+      "elapsed_ms": 3190.517251001438
+    },
+    {
+      "id": "IMG_3202",
+      "count": 1,
+      "best_iou": 0.9111317471269159,
+      "detections": [
+        {
+          "id": "object-1",
+          "bbox": [
+            0.2983417510986328,
+            0.3956043303958953,
+            0.9991513206845238,
+            0.7533187462539269
+          ],
+          "score": 0.4245781898498535,
+          "scale": "60-scale",
+          "color": null,
+          "evidence": {
+            "scale": {
+              "value": "60-scale",
+              "distance": 1.678021859054796,
+              "margin": 1.2408165326582576,
+              "reason": "Experimental suggestion from the object crop"
+            },
+            "color": {
+              "value": null,
+              "reason": "Outside development support or ambiguous",
+              "distance": 7.958763088826564,
+              "margin": 1.9996565055039541
+            }
+          },
+          "inscriptions": {
+            "status": "not requested",
+            "candidates": [],
+            "capacity": null,
+            "apparent_volume": null
+          },
+          "origin": "model"
+        }
+      ],
+      "elapsed_ms": 3057.8637909929967
+    },
+    {
+      "id": "IMG_3206",
+      "count": 1,
+      "best_iou": 0.8462145998942713,
+      "detections": [
+        {
+          "id": "object-1",
+          "bbox": [
+            0.08759286668565539,
+            0.1818765155852787,
+            0.7095244069578787,
+            0.9958628699893043
+          ],
+          "score": 0.803480327129364,
+          "scale": "60-scale",
+          "color": null,
+          "evidence": {
+            "scale": {
+              "value": "60-scale",
+              "distance": 1.6584563825243275,
+              "margin": 1.2403555074290291,
+              "reason": "Experimental suggestion from the object crop"
+            },
+            "color": {
+              "value": null,
+              "reason": "Outside development support or ambiguous",
+              "distance": 3.9884797644869976,
+              "margin": 1.6586222222364229
+            }
+          },
+          "inscriptions": {
+            "status": "not requested",
+            "candidates": [],
+            "capacity": null,
+            "apparent_volume": null
+          },
+          "origin": "model"
+        }
+      ],
+      "elapsed_ms": 3398.282497000764
+    },
+    {
+      "id": "IMG_3215",
+      "count": 1,
+      "best_iou": 0.8800140166400503,
+      "detections": [
+        {
+          "id": "object-1",
+          "bbox": [
+            0.2883077954489087,
+            0.10699719474429176,
+            0.5066762449880126,
+            0.8863470894949776
+          ],
+          "score": 0.844528079032898,
+          "scale": null,
+          "color": "amber-brown",
+          "evidence": {
+            "scale": {
+              "value": null,
+              "reason": "Outside development support or ambiguous",
+              "distance": 1.647753204353235,
+              "margin": 0.3812351544417001
+            },
+            "color": {
+              "value": "amber-brown",
+              "distance": 2.72381563387537,
+              "margin": 2.430798411857352,
+              "reason": "Experimental suggestion from the object crop"
+            }
+          },
+          "inscriptions": {
+            "status": "not requested",
+            "candidates": [],
+            "capacity": null,
+            "apparent_volume": null
+          },
+          "origin": "model"
+        }
+      ],
+      "elapsed_ms": 3274.501402003807
+    },
+    {
+      "id": "IMG_3217",
+      "count": 1,
+      "best_iou": 0.950093680070629,
+      "detections": [
+        {
+          "id": "object-1",
+          "bbox": [
+            0.0887995926791398,
+            0.2512719290597098,
+            0.7424025762648809,
+            0.8743031214153956
+          ],
+          "score": 0.8461521863937378,
+          "scale": null,
+          "color": "amber-brown",
+          "evidence": {
+            "scale": {
+              "value": null,
+              "reason": "Outside development support or ambiguous",
+              "distance": 3.205310827542129,
+              "margin": 1.3126946373048396
+            },
+            "color": {
+              "value": "amber-brown",
+              "distance": 2.68332012855385,
+              "margin": 2.386097497366437,
+              "reason": "Experimental suggestion from the object crop"
+            }
+          },
+          "inscriptions": {
+            "status": "not requested",
+            "candidates": [],
+            "capacity": null,
+            "apparent_volume": null
+          },
+          "origin": "model"
+        }
+      ],
+      "elapsed_ms": 3471.3348599907476
+    },
+    {
+      "id": "IMG_3218",
+      "count": 1,
+      "best_iou": 0.9414671331849505,
+      "detections": [
+        {
+          "id": "object-1",
+          "bbox": [
+            0.031567603822738405,
+            0.34356807527087985,
+            0.8683311825706845,
+            0.8292098272414434
+          ],
+          "score": 0.8714985251426697,
+          "scale": null,
+          "color": "amber-brown",
+          "evidence": {
+            "scale": {
+              "value": null,
+              "reason": "Outside development support or ambiguous",
+              "distance": 2.7016373315019457,
+              "margin": 1.293463035374018
+            },
+            "color": {
+              "value": "amber-brown",
+              "distance": 1.8983017140138716,
+              "margin": 2.1696136937561445,
+              "reason": "Experimental suggestion from the object crop"
+            }
+          },
+          "inscriptions": {
+            "status": "not requested",
+            "candidates": [],
+            "capacity": null,
+            "apparent_volume": null
+          },
+          "origin": "model"
+        }
+      ],
+      "elapsed_ms": 3435.8230119978543
+    },
+    {
+      "id": "IMG_3219",
+      "count": 1,
+      "best_iou": 0.9288563772674452,
+      "detections": [
+        {
+          "id": "object-1",
+          "bbox": [
+            0.038828582360000204,
+            0.3543867686438182,
+            0.9039454384455605,
+            0.8196184673006572
+          ],
+          "score": 0.8219177722930908,
+          "scale": "60-scale",
+          "color": "amber-brown",
+          "evidence": {
+            "scale": {
+              "value": "60-scale",
+              "distance": 2.3790621309047966,
+              "margin": 1.3368796923339037,
+              "reason": "Experimental suggestion from the object crop"
+            },
+            "color": {
+              "value": "amber-brown",
+              "distance": 2.072099172856636,
+              "margin": 1.497346785620754,
+              "reason": "Experimental suggestion from the object crop"
+            }
+          },
+          "inscriptions": {
+            "status": "not requested",
+            "candidates": [],
+            "capacity": null,
+            "apparent_volume": null
+          },
+          "origin": "model"
+        }
+      ],
+      "elapsed_ms": 3525.4360510007245
+    },
+    {
+      "id": "IMG_3221",
+      "count": 1,
+      "best_iou": 0.8023825773898607,
+      "detections": [
+        {
+          "id": "object-1",
+          "bbox": [
+            0.33423247160734953,
+            0.2172935273912218,
+            0.5930366314277447,
+            0.888396490187872
+          ],
+          "score": 0.5299380421638489,
+          "scale": null,
+          "color": "amber-brown",
+          "evidence": {
+            "scale": {
+              "value": null,
+              "reason": "Outside development support or ambiguous",
+              "distance": 1.2620189650196814,
+              "margin": 0.05809828106397008
+            },
+            "color": {
+              "value": "amber-brown",
+              "distance": 3.169843069402761,
+              "margin": 2.589294970812248,
+              "reason": "Experimental suggestion from the object crop"
+            }
+          },
+          "inscriptions": {
+            "status": "not requested",
+            "candidates": [],
+            "capacity": null,
+            "apparent_volume": null
+          },
+          "origin": "model"
+        }
+      ],
+      "elapsed_ms": 4705.626580995158
+    },
+    {
+      "id": "IMG_3222",
+      "count": 1,
+      "best_iou": 0.9072177908464709,
+      "detections": [
+        {
+          "id": "object-1",
+          "bbox": [
+            0.29855746314639137,
+            0.32145684862893725,
+            0.5965499474258019,
+            0.8005249992249504
+          ],
+          "score": 0.9360567331314087,
+          "scale": "60-scale",
+          "color": null,
+          "evidence": {
+            "scale": {
+              "value": "60-scale",
+              "distance": 1.4470398786731051,
+              "margin": 1.3595117288081622,
+              "reason": "Experimental suggestion from the object crop"
+            },
+            "color": {
+              "value": null,
+              "reason": "Outside development support or ambiguous",
+              "distance": 5.043882143505132,
+              "margin": 2.2310572258668095
+            }
+          },
+          "inscriptions": {
+            "status": "not requested",
+            "candidates": [],
+            "capacity": null,
+            "apparent_volume": null
+          },
+          "origin": "model"
+        }
+      ],
+      "elapsed_ms": 4065.1964389981003
+    },
+    {
+      "id": "IMG_3223",
+      "count": 1,
+      "best_iou": 0.7691172283041556,
+      "detections": [
+        {
+          "id": "object-1",
+          "bbox": [
+            0.2863311767578125,
+            0.10219642851087782,
+            0.4737636021205357,
+            0.8558154030451699
+          ],
+          "score": 0.4458000957965851,
+          "scale": "20-scale",
+          "color": null,
+          "evidence": {
+            "scale": {
+              "value": "20-scale",
+              "distance": 3.008805263278218,
+              "margin": 1.031449010763382,
+              "reason": "Experimental suggestion from the object crop"
+            },
+            "color": {
+              "value": null,
+              "reason": "Outside development support or ambiguous",
+              "distance": 2.611116640349569,
+              "margin": 0.31815361976493817
+            }
+          },
+          "inscriptions": {
+            "status": "not requested",
+            "candidates": [],
+            "capacity": null,
+            "apparent_volume": null
+          },
+          "origin": "model"
+        }
+      ],
+      "elapsed_ms": 3453.537851004512
+    },
+    {
+      "id": "IMG_3225",
+      "count": 1,
+      "best_iou": 0.8864792373280819,
+      "detections": [
+        {
+          "id": "object-1",
+          "bbox": [
+            0.0035153627395629883,
+            0.2654891543918186,
+            0.7310774061414931,
+            0.768348633296906
+          ],
+          "score": 0.8635768294334412,
+          "scale": "60-scale",
+          "color": null,
+          "evidence": {
+            "scale": {
+              "value": "60-scale",
+              "distance": 2.384999147036643,
+              "margin": 1.2309443089858725,
+              "reason": "Experimental suggestion from the object crop"
+            },
+            "color": {
+              "value": null,
+              "reason": "Outside development support or ambiguous",
+              "distance": 2.805933724033821,
+              "margin": 0.7837268310274865
+            }
+          },
+          "inscriptions": {
+            "status": "not requested",
+            "candidates": [],
+            "capacity": null,
+            "apparent_volume": null
+          },
+          "origin": "model"
+        }
+      ],
+      "elapsed_ms": 3199.888369999826
+    },
+    {
+      "id": "IMG_3226",
+      "count": 1,
+      "best_iou": 0.9545768732748822,
+      "detections": [
+        {
+          "id": "object-1",
+          "bbox": [
+            0.050217628479003906,
+            0.10053285719856384,
+            0.7405770922464038,
+            0.6331577603779142
+          ],
+          "score": 0.8974993824958801,
+          "scale": null,
+          "color": null,
+          "evidence": {
+            "scale": {
+              "value": null,
+              "reason": "Outside development support or ambiguous",
+              "distance": 3.3780130218715914,
+              "margin": 1.133068264805479
+            },
+            "color": {
+              "value": null,
+              "reason": "Outside development support or ambiguous",
+              "distance": 2.5017582725303162,
+              "margin": 0.2796870204310893
+            }
+          },
+          "inscriptions": {
+            "status": "not requested",
+            "candidates": [],
+            "capacity": null,
+            "apparent_volume": null
+          },
+          "origin": "model"
+        }
+      ],
+      "elapsed_ms": 3258.7364650098607
+    },
+    {
+      "id": "IMG_3227",
+      "count": 1,
+      "best_iou": 0.8655704910571496,
+      "detections": [
+        {
+          "id": "object-1",
+          "bbox": [
+            0.2992092112384776,
+            0.15623145633273655,
+            0.5100164262075273,
+            0.9213971334790426
+          ],
+          "score": 0.8306682705879211,
+          "scale": "20-scale",
+          "color": null,
+          "evidence": {
+            "scale": {
+              "value": "20-scale",
+              "distance": 2.701319452884991,
+              "margin": 0.9590862738340711,
+              "reason": "Experimental suggestion from the object crop"
+            },
+            "color": {
+              "value": null,
+              "reason": "Outside development support or ambiguous",
+              "distance": 2.5352094437416772,
+              "margin": 0.019508288687938524
+            }
+          },
+          "inscriptions": {
+            "status": "not requested",
+            "candidates": [],
+            "capacity": null,
+            "apparent_volume": null
+          },
+          "origin": "model"
+        }
+      ],
+      "elapsed_ms": 3167.547527991701
+    },
+    {
+      "id": "IMG_3228",
+      "count": 1,
+      "best_iou": 0.8656858523468097,
+      "detections": [
+        {
+          "id": "object-1",
+          "bbox": [
+            0.26360803432565516,
+            0.07244580889505053,
+            0.530447177786045,
+            0.9948674762059772
+          ],
+          "score": 0.8137863874435425,
+          "scale": null,
+          "color": null,
+          "evidence": {
+            "scale": {
+              "value": null,
+              "reason": "Outside development support or ambiguous",
+              "distance": 3.425798085135615,
+              "margin": 0.7460084476578674
+            },
+            "color": {
+              "value": null,
+              "reason": "Outside development support or ambiguous",
+              "distance": 4.100633993122459,
+              "margin": 0.8380604835837193
+            }
+          },
+          "inscriptions": {
+            "status": "not requested",
+            "candidates": [],
+            "capacity": null,
+            "apparent_volume": null
+          },
+          "origin": "model"
+        }
+      ],
+      "elapsed_ms": 3193.454443011433
+    },
+    {
+      "id": "IMG_3229",
+      "count": 1,
+      "best_iou": 0.8077519155901953,
+      "detections": [
+        {
+          "id": "object-1",
+          "bbox": [
+            0.31644288320390007,
+            0.29971310449024985,
+            0.4746149456690228,
+            0.8845054989769345
+          ],
+          "score": 0.44790250062942505,
+          "scale": "20-scale",
+          "color": null,
+          "evidence": {
+            "scale": {
+              "value": "20-scale",
+              "distance": 2.868324675164101,
+              "margin": 1.0580216433716325,
+              "reason": "Experimental suggestion from the object crop"
+            },
+            "color": {
+              "value": null,
+              "reason": "Outside development support or ambiguous",
+              "distance": 1.9874959681258493,
+              "margin": 0.6212852321659903
+            }
+          },
+          "inscriptions": {
+            "status": "not requested",
+            "candidates": [],
+            "capacity": null,
+            "apparent_volume": null
+          },
+          "origin": "model"
+        }
+      ],
+      "elapsed_ms": 3144.3216309999116
+    },
+    {
+      "id": "IMG_3230",
+      "count": 1,
+      "best_iou": 0.7781480239004869,
+      "detections": [
+        {
+          "id": "object-1",
+          "bbox": [
+            0.27876681373232887,
+            0.14863345736549013,
+            0.4702729724702381,
+            0.9418353126162574
+          ],
+          "score": 0.6492336988449097,
+          "scale": "20-scale",
+          "color": null,
+          "evidence": {
+            "scale": {
+              "value": "20-scale",
+              "distance": 2.7960737817348638,
+              "margin": 1.3598770859386735,
+              "reason": "Experimental suggestion from the object crop"
+            },
+            "color": {
+              "value": null,
+              "reason": "Outside development support or ambiguous",
+              "distance": 3.0279157737889,
+              "margin": 0.07594417981240476
+            }
+          },
+          "inscriptions": {
+            "status": "not requested",
+            "candidates": [],
+            "capacity": null,
+            "apparent_volume": null
+          },
+          "origin": "model"
+        }
+      ],
+      "elapsed_ms": 3305.456582995248
+    },
+    {
+      "id": "IMG_3231",
+      "count": 1,
+      "best_iou": 0.7962377247585712,
+      "detections": [
+        {
+          "id": "object-1",
+          "bbox": [
+            0.31678503530996815,
+            0.20249530247279576,
+            0.5065444865554729,
+            0.9645251319521949
+          ],
+          "score": 0.6494916677474976,
+          "scale": "20-scale",
+          "color": "amber-brown",
+          "evidence": {
+            "scale": {
+              "value": "20-scale",
+              "distance": 2.465262298378184,
+              "margin": 1.4190982546265611,
+              "reason": "Experimental suggestion from the object crop"
+            },
+            "color": {
+              "value": "amber-brown",
+              "distance": 1.9327278237018355,
+              "margin": 0.8923400545369495,
+              "reason": "Experimental suggestion from the object crop"
+            }
+          },
+          "inscriptions": {
+            "status": "not requested",
+            "candidates": [],
+            "capacity": null,
+            "apparent_volume": null
+          },
+          "origin": "model"
+        }
+      ],
+      "elapsed_ms": 3219.3951759982156
+    },
+    {
+      "id": "IMG_3232",
+      "count": 1,
+      "best_iou": 0.9701829567904148,
+      "detections": [
+        {
+          "id": "object-1",
+          "bbox": [
+            0.0032725037721099046,
+            0.19025390867203001,
+            0.7301621210007441,
+            0.9884581187414745
+          ],
+          "score": 0.7760700583457947,
+          "scale": "60-scale",
+          "color": "amber-brown",
+          "evidence": {
+            "scale": {
+              "value": "60-scale",
+              "distance": 1.9642882529655419,
+              "margin": 1.2832378926218457,
+              "reason": "Experimental suggestion from the object crop"
+            },
+            "color": {
+              "value": "amber-brown",
+              "distance": 1.0406459874998961,
+              "margin": 2.3028789859434706,
+              "reason": "Experimental suggestion from the object crop"
+            }
+          },
+          "inscriptions": {
+            "status": "not requested",
+            "candidates": [],
+            "capacity": null,
+            "apparent_volume": null
+          },
+          "origin": "model"
+        }
+      ],
+      "elapsed_ms": 3334.133219002979
+    },
+    {
+      "id": "IMG_3233",
+      "count": 1,
+      "best_iou": 0.9579194929229871,
+      "detections": [
+        {
+          "id": "object-1",
+          "bbox": [
+            0.0034885406494140625,
+            0.34294652181958396,
+            0.9272651470527447,
+            0.8961310613723028
+          ],
+          "score": 0.8035399317741394,
+          "scale": "60-scale",
+          "color": null,
+          "evidence": {
+            "scale": {
+              "value": "60-scale",
+              "distance": 2.5512355293506284,
+              "margin": 1.1252692531859294,
+              "reason": "Experimental suggestion from the object crop"
+            },
+            "color": {
+              "value": null,
+              "reason": "Outside development support or ambiguous",
+              "distance": 1.931464239886106,
+              "margin": 0.8236815853389923
+            }
+          },
+          "inscriptions": {
+            "status": "not requested",
+            "candidates": [],
+            "capacity": null,
+            "apparent_volume": null
+          },
+          "origin": "model"
+        }
+      ],
+      "elapsed_ms": 3335.230237993528
+    },
+    {
+      "id": "IMG_3234",
+      "count": 1,
+      "best_iou": 0.8320944349232245,
+      "detections": [
+        {
+          "id": "object-1",
+          "bbox": [
+            0.0029057860374450684,
+            0.42985416594005765,
+            0.9258887073981068,
+            0.8030822390601748
+          ],
+          "score": 0.8630056977272034,
+          "scale": null,
+          "color": null,
+          "evidence": {
+            "scale": {
+              "value": null,
+              "reason": "Outside development support or ambiguous",
+              "distance": 1.345943064244772,
+              "margin": 0.8463942196234784
+            },
+            "color": {
+              "value": null,
+              "reason": "Outside development support or ambiguous",
+              "distance": 2.069600022142198,
+              "margin": 0.34965108659472577
+            }
+          },
+          "inscriptions": {
+            "status": "not requested",
+            "candidates": [],
+            "capacity": null,
+            "apparent_volume": null
+          },
+          "origin": "model"
+        }
+      ],
+      "elapsed_ms": 3341.6616619942943
+    },
+    {
+      "id": "IMG_3235",
+      "count": 1,
+      "best_iou": 0.91077052450036,
+      "detections": [
+        {
+          "id": "object-1",
+          "bbox": [
+            0.01549431634327722,
+            0.5113004048665365,
+            0.9422156924293155,
+            0.6971387106274801
+          ],
+          "score": 0.37778592109680176,
+          "scale": "20-scale",
+          "color": "amber-brown",
+          "evidence": {
+            "scale": {
+              "value": "20-scale",
+              "distance": 0.8284674552588065,
+              "margin": 1.0578253327413636,
+              "reason": "Experimental suggestion from the object crop"
+            },
+            "color": {
+              "value": "amber-brown",
+              "distance": 2.1768533882312027,
+              "margin": 1.2846102087307818,
+              "reason": "Experimental suggestion from the object crop"
+            }
+          },
+          "inscriptions": {
+            "status": "not requested",
+            "candidates": [],
+            "capacity": null,
+            "apparent_volume": null
+          },
+          "origin": "model"
+        }
+      ],
+      "elapsed_ms": 3446.8508120044135
+    },
+    {
+      "id": "IMG_3238",
+      "count": 1,
+      "best_iou": 0.828664155936677,
+      "detections": [
+        {
+          "id": "object-1",
+          "bbox": [
+            0.37043665325830855,
+            0.045793862569899785,
+            0.5564680149946263,
+            0.9587121993776352
+          ],
+          "score": 0.8106346130371094,
+          "scale": "20-scale",
+          "color": "amber-brown",
+          "evidence": {
+            "scale": {
+              "value": "20-scale",
+              "distance": 3.1545091049313645,
+              "margin": 1.4631190981132396,
+              "reason": "Experimental suggestion from the object crop"
+            },
+            "color": {
+              "value": "amber-brown",
+              "distance": 1.9437520946779754,
+              "margin": 1.4111645870192546,
+              "reason": "Experimental suggestion from the object crop"
+            }
+          },
+          "inscriptions": {
+            "status": "not requested",
+            "candidates": [],
+            "capacity": null,
+            "apparent_volume": null
+          },
+          "origin": "model"
+        }
+      ],
+      "elapsed_ms": 4881.207430007635
+    },
+    {
+      "id": "IMG_3239",
+      "count": 1,
+      "best_iou": 0.6991319774254012,
+      "detections": [
+        {
+          "id": "object-1",
+          "bbox": [
+            0.1529970118608424,
+            0.2825927734375,
+            0.7833485275349289,
+            0.6728091769748263
+          ],
+          "score": 0.9078366756439209,
+          "scale": "60-scale",
+          "color": "amber-brown",
+          "evidence": {
+            "scale": {
+              "value": "60-scale",
+              "distance": 2.3536685560193042,
+              "margin": 1.1284533809451718,
+              "reason": "Experimental suggestion from the object crop"
+            },
+            "color": {
+              "value": "amber-brown",
+              "distance": 1.8278879133431132,
+              "margin": 1.9291490755910337,
+              "reason": "Experimental suggestion from the object crop"
+            }
+          },
+          "inscriptions": {
+            "status": "not requested",
+            "candidates": [],
+            "capacity": null,
+            "apparent_volume": null
+          },
+          "origin": "model"
+        }
+      ],
+      "elapsed_ms": 3237.9249069927027
+    },
+    {
+      "id": "IMG_3240",
+      "count": 1,
+      "best_iou": 0.9646694743673118,
+      "detections": [
+        {
+          "id": "object-1",
+          "bbox": [
+            0.00973653793334961,
+            0.3119254642062717,
+            0.9544004410032242,
+            0.8030096992613778
+          ],
+          "score": 0.5977306365966797,
+          "scale": null,
+          "color": "amber-brown",
+          "evidence": {
+            "scale": {
+              "value": null,
+              "reason": "Outside development support or ambiguous",
+              "distance": 2.7061323412088463,
+              "margin": 1.1749786221112304
+            },
+            "color": {
+              "value": "amber-brown",
+              "distance": 1.447903296634365,
+              "margin": 1.8245154098025005,
+              "reason": "Experimental suggestion from the object crop"
+            }
+          },
+          "inscriptions": {
+            "status": "not requested",
+            "candidates": [],
+            "capacity": null,
+            "apparent_volume": null
+          },
+          "origin": "model"
+        }
+      ],
+      "elapsed_ms": 3126.330579005298
+    },
+    {
+      "id": "IMG_3241",
+      "count": 1,
+      "best_iou": 0.9543092942880512,
+      "detections": [
+        {
+          "id": "object-1",
+          "bbox": [
+            0.03399300449108951,
+            0.34977728223043775,
+            0.8231725945043816,
+            0.7958404298812624
+          ],
+          "score": 0.9449782967567444,
+          "scale": "60-scale",
+          "color": null,
+          "evidence": {
+            "scale": {
+              "value": "60-scale",
+              "distance": 2.5283303509162,
+              "margin": 1.1310475408591332,
+              "reason": "Experimental suggestion from the object crop"
+            },
+            "color": {
+              "value": null,
+              "reason": "Outside development support or ambiguous",
+              "distance": 1.9691392374827321,
+              "margin": 0.3235253418896138
+            }
+          },
+          "inscriptions": {
+            "status": "not requested",
+            "candidates": [],
+            "capacity": null,
+            "apparent_volume": null
+          },
+          "origin": "model"
+        }
+      ],
+      "elapsed_ms": 3137.2641089983517
+    },
+    {
+      "id": "IMG_3243",
+      "count": 1,
+      "best_iou": 0.9340095324338898,
+      "detections": [
+        {
+          "id": "object-1",
+          "bbox": [
+            0.4051931068380043,
+            0.18433057694208055,
+            0.604315096739108,
+            0.9595210362994482
+          ],
+          "score": 0.649863600730896,
+          "scale": "20-scale",
+          "color": "amber-brown",
+          "evidence": {
+            "scale": {
+              "value": "20-scale",
+              "distance": 2.6275646704751994,
+              "margin": 1.3116710580333355,
+              "reason": "Experimental suggestion from the object crop"
+            },
+            "color": {
+              "value": "amber-brown",
+              "distance": 1.5901213547855317,
+              "margin": 1.4075353366938141,
+              "reason": "Experimental suggestion from the object crop"
+            }
+          },
+          "inscriptions": {
+            "status": "not requested",
+            "candidates": [],
+            "capacity": null,
+            "apparent_volume": null
+          },
+          "origin": "model"
+        }
+      ],
+      "elapsed_ms": 3110.5638820008608
+    },
+    {
+      "id": "IMG_3244",
+      "count": 1,
+      "best_iou": 0.8747764495115513,
+      "detections": [
+        {
+          "id": "object-1",
+          "bbox": [
+            0.3686803585637814,
+            0.08405894324893043,
+            0.6105188844065187,
+            0.9963942028227306
+          ],
+          "score": 0.5091486573219299,
+          "scale": "20-scale",
+          "color": "amber-brown",
+          "evidence": {
+            "scale": {
+              "value": "20-scale",
+              "distance": 2.520102635295428,
+              "margin": 1.2991584764373814,
+              "reason": "Experimental suggestion from the object crop"
+            },
+            "color": {
+              "value": "amber-brown",
+              "distance": 2.7906739993305725,
+              "margin": 1.627384499081773,
+              "reason": "Experimental suggestion from the object crop"
+            }
+          },
+          "inscriptions": {
+            "status": "not requested",
+            "candidates": [],
+            "capacity": null,
+            "apparent_volume": null
+          },
+          "origin": "model"
+        }
+      ],
+      "elapsed_ms": 3149.7004159900825
+    },
+    {
+      "id": "IMG_3245",
+      "count": 1,
+      "best_iou": 0.7566191262737163,
+      "detections": [
+        {
+          "id": "object-1",
+          "bbox": [
+            0.3670047578357515,
+            0.002077460289001465,
+            0.6600384586071842,
+            0.908624982076978
+          ],
+          "score": 0.3951878249645233,
+          "scale": "20-scale",
+          "color": null,
+          "evidence": {
+            "scale": {
+              "value": "20-scale",
+              "distance": 1.6632329609611067,
+              "margin": 1.2683107919385093,
+              "reason": "Experimental suggestion from the object crop"
+            },
+            "color": {
+              "value": null,
+              "reason": "Outside development support or ambiguous",
+              "distance": 6.3956919443070115,
+              "margin": 1.1718572584219986
+            }
+          },
+          "inscriptions": {
+            "status": "not requested",
+            "candidates": [],
+            "capacity": null,
+            "apparent_volume": null
+          },
+          "origin": "model"
+        }
+      ],
+      "elapsed_ms": 3169.056715007173
+    },
+    {
+      "id": "IMG_3246",
+      "count": 1,
+      "best_iou": 0.9777805076079596,
+      "detections": [
+        {
+          "id": "object-1",
+          "bbox": [
+            0.3426894737929894,
+            0.17039582085987878,
+            0.8377334352523561,
+            0.9941941518632192
+          ],
+          "score": 0.38437792658805847,
+          "scale": "60-scale",
+          "color": "amber-brown",
+          "evidence": {
+            "scale": {
+              "value": "60-scale",
+              "distance": 0.9207524166169809,
+              "margin": 1.0407695757705364,
+              "reason": "Experimental suggestion from the object crop"
+            },
+            "color": {
+              "value": "amber-brown",
+              "distance": 0.9711966457919069,
+              "margin": 2.613590063670732,
+              "reason": "Experimental suggestion from the object crop"
+            }
+          },
+          "inscriptions": {
+            "status": "not requested",
+            "candidates": [],
+            "capacity": null,
+            "apparent_volume": null
+          },
+          "origin": "model"
+        }
+      ],
+      "elapsed_ms": 3131.6360080090817
+    },
+    {
+      "id": "IMG_3247",
+      "count": 1,
+      "best_iou": 0.6278862678425522,
+      "detections": [
+        {
+          "id": "object-1",
+          "bbox": [
+            0.27305673669885705,
+            0.15616536518884083,
+            0.6127354455372643,
+            0.9592312404087612
+          ],
+          "score": 0.7541018724441528,
+          "scale": "20-scale",
+          "color": null,
+          "evidence": {
+            "scale": {
+              "value": "20-scale",
+              "distance": 0.5547389105106886,
+              "margin": 1.183097654977515,
+              "reason": "Experimental suggestion from the object crop"
+            },
+            "color": {
+              "value": null,
+              "reason": "Outside development support or ambiguous",
+              "distance": 2.3663804546767406,
+              "margin": 0.1700626141048085
+            }
+          },
+          "inscriptions": {
+            "status": "not requested",
+            "candidates": [],
+            "capacity": null,
+            "apparent_volume": null
+          },
+          "origin": "model"
+        }
+      ],
+      "elapsed_ms": 3104.7690260020318
+    },
+    {
+      "id": "IMG_3251",
+      "count": 1,
+      "best_iou": 0.9557483180209847,
+      "detections": [
+        {
+          "id": "object-1",
+          "bbox": [
+            0.259661941931992,
+            0.15278938838413783,
+            0.6735482190651868,
+            0.9969988020639571
+          ],
+          "score": 0.8550275564193726,
+          "scale": null,
+          "color": "orange",
+          "evidence": {
+            "scale": {
+              "value": null,
+              "reason": "Outside development support or ambiguous",
+              "distance": 1.1897243857768203,
+              "margin": 0.3435403512493276
+            },
+            "color": {
+              "value": "orange",
+              "distance": 1.6533943392214854,
+              "margin": 2.284856088636607,
+              "reason": "Experimental suggestion from the object crop"
+            }
+          },
+          "inscriptions": {
+            "status": "not requested",
+            "candidates": [],
+            "capacity": null,
+            "apparent_volume": null
+          },
+          "origin": "model"
+        }
+      ],
+      "elapsed_ms": 3124.7250029991847
+    },
+    {
+      "id": "IMG_3252",
+      "count": 1,
+      "best_iou": 0.9687417716951903,
+      "detections": [
+        {
+          "id": "object-1",
+          "bbox": [
+            0.25695300228381285,
+            0.20089358375186012,
+            0.6687263206199363,
+            0.9935581267826141
+          ],
+          "score": 0.8939226865768433,
+          "scale": null,
+          "color": "orange",
+          "evidence": {
+            "scale": {
+              "value": null,
+              "reason": "Outside development support or ambiguous",
+              "distance": 0.8413697298276271,
+              "margin": 0.051577993723865734
+            },
+            "color": {
+              "value": "orange",
+              "distance": 1.3496507152129402,
+              "margin": 1.9335575156662104,
+              "reason": "Experimental suggestion from the object crop"
+            }
+          },
+          "inscriptions": {
+            "status": "not requested",
+            "candidates": [],
+            "capacity": null,
+            "apparent_volume": null
+          },
+          "origin": "model"
+        }
+      ],
+      "elapsed_ms": 3127.57902899466
+    },
+    {
+      "id": "IMG_3257",
+      "count": 1,
+      "best_iou": 0.7964912553805512,
+      "detections": [
+        {
+          "id": "object-1",
+          "bbox": [
+            0.37881215413411456,
+            0.23647284129309276,
+            0.6629994710286459,
+            0.8666900150359623
+          ],
+          "score": 0.6304014325141907,
+          "scale": null,
+          "color": null,
+          "evidence": {
+            "scale": {
+              "value": null,
+              "reason": "Outside development support or ambiguous",
+              "distance": 1.6851613561455898,
+              "margin": 0.6820688264216734
+            },
+            "color": {
+              "value": null,
+              "reason": "Outside development support or ambiguous",
+              "distance": 4.461512448423766,
+              "margin": 0.8956221406678724
+            }
+          },
+          "inscriptions": {
+            "status": "not requested",
+            "candidates": [],
+            "capacity": null,
+            "apparent_volume": null
+          },
+          "origin": "model"
+        }
+      ],
+      "elapsed_ms": 3061.3142880029045
+    },
+    {
+      "id": "IMG_3263",
+      "count": 1,
+      "best_iou": 0.8647270256788753,
+      "detections": [
+        {
+          "id": "object-1",
+          "bbox": [
+            0.33033782716781374,
+            0.1829809612698025,
+            0.5301572204266907,
+            0.9973908076210628
+          ],
+          "score": 0.8599660992622375,
+          "scale": "20-scale",
+          "color": "orange",
+          "evidence": {
+            "scale": {
+              "value": "20-scale",
+              "distance": 2.9709390602105845,
+              "margin": 0.8937830016086776,
+              "reason": "Experimental suggestion from the object crop"
+            },
+            "color": {
+              "value": "orange",
+              "distance": 1.886561006124376,
+              "margin": 1.860228495066874,
+              "reason": "Experimental suggestion from the object crop"
+            }
+          },
+          "inscriptions": {
+            "status": "not requested",
+            "candidates": [],
+            "capacity": null,
+            "apparent_volume": null
+          },
+          "origin": "model"
+        }
+      ],
+      "elapsed_ms": 3078.513244006899
+    },
+    {
+      "id": "IMG_3264",
+      "count": 1,
+      "best_iou": 0.9110474190984754,
+      "detections": [
+        {
+          "id": "object-1",
+          "bbox": [
+            0.11597305378585897,
+            0.25597699483235675,
+            0.9273967440166171,
+            0.9550717066204737
+          ],
+          "score": 0.8762327432632446,
+          "scale": "60-scale",
+          "color": "orange",
+          "evidence": {
+            "scale": {
+              "value": "60-scale",
+              "distance": 2.247210065999308,
+              "margin": 1.085595743036798,
+              "reason": "Experimental suggestion from the object crop"
+            },
+            "color": {
+              "value": "orange",
+              "distance": 1.6527795712957385,
+              "margin": 2.5557750504131347,
+              "reason": "Experimental suggestion from the object crop"
+            }
+          },
+          "inscriptions": {
+            "status": "not requested",
+            "candidates": [],
+            "capacity": null,
+            "apparent_volume": null
+          },
+          "origin": "model"
+        }
+      ],
+      "elapsed_ms": 3313.6959900002694
+    },
+    {
+      "id": "IMG_3268",
+      "count": 1,
+      "best_iou": 0.9771701912872919,
+      "detections": [
+        {
+          "id": "object-1",
+          "bbox": [
+            0.14022144943318038,
+            0.001931905746459961,
+            0.9481668623666915,
+            0.9818534851074219
+          ],
+          "score": 0.7637211680412292,
+          "scale": "60-scale",
+          "color": "orange",
+          "evidence": {
+            "scale": {
+              "value": "60-scale",
+              "distance": 1.8098701999413387,
+              "margin": 1.389104606144039,
+              "reason": "Experimental suggestion from the object crop"
+            },
+            "color": {
+              "value": "orange",
+              "distance": 1.6275893537709114,
+              "margin": 1.563527563587632,
+              "reason": "Experimental suggestion from the object crop"
+            }
+          },
+          "inscriptions": {
+            "status": "not requested",
+            "candidates": [],
+            "capacity": null,
+            "apparent_volume": null
+          },
+          "origin": "model"
+        }
+      ],
+      "elapsed_ms": 3216.321986008552
+    },
+    {
+      "id": "IMG_3269",
+      "count": 1,
+      "best_iou": 0.9864912672730424,
+      "detections": [
+        {
+          "id": "object-1",
+          "bbox": [
+            0.24879100335338128,
+            0.17756480262393043,
+            0.8177448252521494,
+            0.8885250394306485
+          ],
+          "score": 0.8831234574317932,
+          "scale": "60-scale",
+          "color": "orange",
+          "evidence": {
+            "scale": {
+              "value": "60-scale",
+              "distance": 1.709612401433782,
+              "margin": 1.387752096071641,
+              "reason": "Experimental suggestion from the object crop"
+            },
+            "color": {
+              "value": "orange",
+              "distance": 1.108628046425143,
+              "margin": 2.5344589144116307,
+              "reason": "Experimental suggestion from the object crop"
+            }
+          },
+          "inscriptions": {
+            "status": "not requested",
+            "candidates": [],
+            "capacity": null,
+            "apparent_volume": null
+          },
+          "origin": "model"
+        }
+      ],
+      "elapsed_ms": 3129.3418370041763
+    },
+    {
+      "id": "IMG_3272",
+      "count": 1,
+      "best_iou": 0.8833256676656104,
+      "detections": [
+        {
+          "id": "object-1",
+          "bbox": [
+            0.3375430636935764,
+            0.14882779499841114,
+            0.5754343264948123,
+            0.9324690198141431
+          ],
+          "score": 0.8719837069511414,
+          "scale": null,
+          "color": null,
+          "evidence": {
+            "scale": {
+              "value": null,
+              "reason": "Outside development support or ambiguous",
+              "distance": 2.7747318813449176,
+              "margin": 0.7373888274088882
+            },
+            "color": {
+              "value": null,
+              "reason": "Outside development support or ambiguous",
+              "distance": 2.0539294603152354,
+              "margin": 1.7630566628086264
+            }
+          },
+          "inscriptions": {
+            "status": "not requested",
+            "candidates": [],
+            "capacity": null,
+            "apparent_volume": null
+          },
+          "origin": "model"
+        }
+      ],
+      "elapsed_ms": 3083.034019000479
+    },
+    {
+      "id": "IMG_3275",
+      "count": 1,
+      "best_iou": 0.6537777579258386,
+      "detections": [
+        {
+          "id": "object-1",
+          "bbox": [
+            0.3801282448743386,
+            0.09579056785220191,
+            0.8010579265614666,
+            0.8372219025142609
+          ],
+          "score": 0.40978527069091797,
+          "scale": null,
+          "color": null,
+          "evidence": {
+            "scale": {
+              "value": null,
+              "reason": "Outside development support or ambiguous",
+              "distance": 1.8298661020722207,
+              "margin": 0.7095944401107681
+            },
+            "color": {
+              "value": null,
+              "reason": "Outside development support or ambiguous",
+              "distance": 3.3150547345937524,
+              "margin": 1.2806178948486608
+            }
+          },
+          "inscriptions": {
+            "status": "not requested",
+            "candidates": [],
+            "capacity": null,
+            "apparent_volume": null
+          },
+          "origin": "model"
+        }
+      ],
+      "elapsed_ms": 3128.1595420005033
+    },
+    {
+      "id": "IMG_3279",
+      "count": 1,
+      "best_iou": 0.9736440784434298,
+      "detections": [
+        {
+          "id": "object-1",
+          "bbox": [
+            0.19738270996739624,
+            0.11648058512854198,
+            0.8070393718739666,
+            0.9847157190716456
+          ],
+          "score": 0.5285980105400085,
+          "scale": "60-scale",
+          "color": null,
+          "evidence": {
+            "scale": {
+              "value": "60-scale",
+              "distance": 1.3982165437276768,
+              "margin": 1.3922710923951596,
+              "reason": "Experimental suggestion from the object crop"
+            },
+            "color": {
+              "value": null,
+              "reason": "Outside development support or ambiguous",
+              "distance": 1.8671126541955279,
+              "margin": 0.6179598265168564
+            }
+          },
+          "inscriptions": {
+            "status": "not requested",
+            "candidates": [],
+            "capacity": null,
+            "apparent_volume": null
+          },
+          "origin": "model"
+        }
+      ],
+      "elapsed_ms": 4217.8294969926355
+    },
+    {
+      "id": "IMG_3283",
+      "count": 1,
+      "best_iou": 0.8828524241914254,
+      "detections": [
+        {
+          "id": "object-1",
+          "bbox": [
+            0.26246285816979786,
+            0.1918350098625062,
+            0.7355839966466187,
+            0.965240478515625
+          ],
+          "score": 0.39694052934646606,
+          "scale": "60-scale",
+          "color": "orange",
+          "evidence": {
+            "scale": {
+              "value": "60-scale",
+              "distance": 0.6823291700001219,
+              "margin": 1.3637014512511672,
+              "reason": "Experimental suggestion from the object crop"
+            },
+            "color": {
+              "value": "orange",
+              "distance": 1.4740369731332263,
+              "margin": 0.9962892764537838,
+              "reason": "Experimental suggestion from the object crop"
+            }
+          },
+          "inscriptions": {
+            "status": "not requested",
+            "candidates": [],
+            "capacity": null,
+            "apparent_volume": null
+          },
+          "origin": "model"
+        }
+      ],
+      "elapsed_ms": 3335.034481002367
+    },
+    {
+      "id": "IMG_3292",
+      "count": 1,
+      "best_iou": 0.6903298062362078,
+      "detections": [
+        {
+          "id": "object-1",
+          "bbox": [
+            0.30852341021179525,
+            0.022215067394196042,
+            0.5728715765413153,
+            0.770776597280351
+          ],
+          "score": 0.42346903681755066,
+          "scale": "20-scale",
+          "color": null,
+          "evidence": {
+            "scale": {
+              "value": "20-scale",
+              "distance": 1.6243685271854964,
+              "margin": 1.2348624216357103,
+              "reason": "Experimental suggestion from the object crop"
+            },
+            "color": {
+              "value": null,
+              "reason": "Outside development support or ambiguous",
+              "distance": 5.071106553129052,
+              "margin": 1.1933908876809571
+            }
+          },
+          "inscriptions": {
+            "status": "not requested",
+            "candidates": [],
+            "capacity": null,
+            "apparent_volume": null
+          },
+          "origin": "model"
+        }
+      ],
+      "elapsed_ms": 3165.661799008376
+    },
+    {
+      "id": "IMG_3294",
+      "count": 1,
+      "best_iou": 0.7932628399261014,
+      "detections": [
+        {
+          "id": "object-1",
+          "bbox": [
+            0.3540687359199322,
+            0.13818135337224083,
+            0.5351691271262194,
+            0.9967756119985429
+          ],
+          "score": 0.5224505662918091,
+          "scale": null,
+          "color": "orange",
+          "evidence": {
+            "scale": {
+              "value": null,
+              "reason": "Outside development support or ambiguous",
+              "distance": 3.583053066363774,
+              "margin": 1.3765776302284718
+            },
+            "color": {
+              "value": "orange",
+              "distance": 1.178043433816912,
+              "margin": 2.58050817847045,
+              "reason": "Experimental suggestion from the object crop"
+            }
+          },
+          "inscriptions": {
+            "status": "not requested",
+            "candidates": [],
+            "capacity": null,
+            "apparent_volume": null
+          },
+          "origin": "model"
+        }
+      ],
+      "elapsed_ms": 3202.4032849876676
+    },
+    {
+      "id": "IMG_3295",
+      "count": 1,
+      "best_iou": 0.5978004939836865,
+      "detections": [
+        {
+          "id": "object-1",
+          "bbox": [
+            0.37887355259486605,
+            0.2681747012668186,
+            0.555798888837219,
+            0.81845704336015
+          ],
+          "score": 0.43885737657546997,
+          "scale": "20-scale",
+          "color": null,
+          "evidence": {
+            "scale": {
+              "value": "20-scale",
+              "distance": 3.1988052070620476,
+              "margin": 1.2951193397460523,
+              "reason": "Experimental suggestion from the object crop"
+            },
+            "color": {
+              "value": null,
+              "reason": "Outside development support or ambiguous",
+              "distance": 4.105124163218273,
+              "margin": 1.4075781158351122
+            }
+          },
+          "inscriptions": {
+            "status": "not requested",
+            "candidates": [],
+            "capacity": null,
+            "apparent_volume": null
+          },
+          "origin": "model"
+        }
+      ],
+      "elapsed_ms": 3275.497937007458
+    },
+    {
+      "id": "IMG_3296",
+      "count": 1,
+      "best_iou": 0.9656319623013179,
+      "detections": [
+        {
+          "id": "object-1",
+          "bbox": [
+            0.09590180210335544,
+            0.2175970683022151,
+            0.45309783289672206,
+            0.9975275312151227
+          ],
+          "score": 0.45743680000305176,
+          "scale": "20-scale",
+          "color": null,
+          "evidence": {
+            "scale": {
+              "value": "20-scale",
+              "distance": 2.049099740635201,
+              "margin": 1.3341235625080046,
+              "reason": "Experimental suggestion from the object crop"
+            },
+            "color": {
+              "value": null,
+              "reason": "Outside development support or ambiguous",
+              "distance": 2.1453206155896085,
+              "margin": 0.2093386424684982
+            }
+          },
+          "inscriptions": {
+            "status": "not requested",
+            "candidates": [],
+            "capacity": null,
+            "apparent_volume": null
+          },
+          "origin": "model"
+        }
+      ],
+      "elapsed_ms": 3219.363006995991
+    },
+    {
+      "id": "IMG_3297",
+      "count": 1,
+      "best_iou": 0.9145825180179906,
+      "detections": [
+        {
+          "id": "object-1",
+          "bbox": [
+            0.1904776033270296,
+            0.15499532790411086,
+            0.5361099243164062,
+            0.9967887515113467
+          ],
+          "score": 0.7205411791801453,
+          "scale": "20-scale",
+          "color": null,
+          "evidence": {
+            "scale": {
+              "value": "20-scale",
+              "distance": 1.2377022026253244,
+              "margin": 1.3116832575373978,
+              "reason": "Experimental suggestion from the object crop"
+            },
+            "color": {
+              "value": null,
+              "reason": "Outside development support or ambiguous",
+              "distance": 2.049568914341591,
+              "margin": 0.0753653582775029
+            }
+          },
+          "inscriptions": {
+            "status": "not requested",
+            "candidates": [],
+            "capacity": null,
+            "apparent_volume": null
+          },
+          "origin": "model"
+        }
+      ],
+      "elapsed_ms": 3382.8014180035098
+    },
+    {
+      "id": "IMG_3298",
+      "count": 1,
+      "best_iou": 0.8363006633435177,
+      "detections": [
+        {
+          "id": "object-1",
+          "bbox": [
+            0.09023551335410467,
+            0.2056659214080326,
+            0.4931944589766245,
+            0.9957506694490947
+          ],
+          "score": 0.5067397356033325,
+          "scale": null,
+          "color": "orange",
+          "evidence": {
+            "scale": {
+              "value": null,
+              "reason": "Outside development support or ambiguous",
+              "distance": 1.429777815143526,
+              "margin": 0.08067639883852795
+            },
+            "color": {
+              "value": "orange",
+              "distance": 1.3905400576108395,
+              "margin": 2.3200988210117153,
+              "reason": "Experimental suggestion from the object crop"
+            }
+          },
+          "inscriptions": {
+            "status": "not requested",
+            "candidates": [],
+            "capacity": null,
+            "apparent_volume": null
+          },
+          "origin": "model"
+        }
+      ],
+      "elapsed_ms": 3282.1338759968057
+    },
+    {
+      "id": "IMG_3299",
+      "count": 1,
+      "best_iou": 0.917703411495482,
+      "detections": [
+        {
+          "id": "object-1",
+          "bbox": [
+            0.1317282278071005,
+            0.1404773924085829,
+            0.6589961783595817,
+            0.9552204798138331
+          ],
+          "score": 0.8769491314888,
+          "scale": "60-scale",
+          "color": "orange",
+          "evidence": {
+            "scale": {
+              "value": "60-scale",
+              "distance": 1.611528783536173,
+              "margin": 1.1250086894620723,
+              "reason": "Experimental suggestion from the object crop"
+            },
+            "color": {
+              "value": "orange",
+              "distance": 1.1662331037506337,
+              "margin": 1.9530767836320966,
+              "reason": "Experimental suggestion from the object crop"
+            }
+          },
+          "inscriptions": {
+            "status": "not requested",
+            "candidates": [],
+            "capacity": null,
+            "apparent_volume": null
+          },
+          "origin": "model"
+        }
+      ],
+      "elapsed_ms": 3312.75886700314
+    },
+    {
+      "id": "IMG_3300",
+      "count": 1,
+      "best_iou": 0.9684898813074673,
+      "detections": [
+        {
+          "id": "object-1",
+          "bbox": [
+            0.003406345844268799,
+            0.25969686962309335,
+            0.8881793955646494,
+            0.8320891970679873
+          ],
+          "score": 0.8364613056182861,
+          "scale": null,
+          "color": "orange",
+          "evidence": {
+            "scale": {
+              "value": null,
+              "reason": "Outside development support or ambiguous",
+              "distance": 2.7024822694639283,
+              "margin": 1.048780192888981
+            },
+            "color": {
+              "value": "orange",
+              "distance": 0.8911010804561782,
+              "margin": 2.472404988708611,
+              "reason": "Experimental suggestion from the object crop"
+            }
+          },
+          "inscriptions": {
+            "status": "not requested",
+            "candidates": [],
+            "capacity": null,
+            "apparent_volume": null
+          },
+          "origin": "model"
+        }
+      ],
+      "elapsed_ms": 3250.544459995581
+    },
+    {
+      "id": "IMG_3301",
+      "count": 1,
+      "best_iou": 0.8742599600503668,
+      "detections": [
+        {
+          "id": "object-1",
+          "bbox": [
+            0.2565152607266865,
+            0.10643965100485181,
+            0.5470960909727389,
+            0.9965230548192584
+          ],
+          "score": 0.5582913160324097,
+          "scale": "20-scale",
+          "color": "orange",
+          "evidence": {
+            "scale": {
+              "value": "20-scale",
+              "distance": 1.2323783959426233,
+              "margin": 1.482729090700818,
+              "reason": "Experimental suggestion from the object crop"
+            },
+            "color": {
+              "value": "orange",
+              "distance": 1.0819695131327352,
+              "margin": 2.420447270787747,
+              "reason": "Experimental suggestion from the object crop"
+            }
+          },
+          "inscriptions": {
+            "status": "not requested",
+            "candidates": [],
+            "capacity": null,
+            "apparent_volume": null
+          },
+          "origin": "model"
+        }
+      ],
+      "elapsed_ms": 3344.7520850022556
+    },
+    {
+      "id": "IMG_3302",
+      "count": 1,
+      "best_iou": 0.947742377010411,
+      "detections": [
+        {
+          "id": "object-1",
+          "bbox": [
+            0.29120662224986565,
+            0.21321681189158606,
+            0.48692442878844244,
+            0.8958604600694444
+          ],
+          "score": 0.8131952285766602,
+          "scale": "20-scale",
+          "color": "orange",
+          "evidence": {
+            "scale": {
+              "value": "20-scale",
+              "distance": 1.0532431101241266,
+              "margin": 1.3986130006634017,
+              "reason": "Experimental suggestion from the object crop"
+            },
+            "color": {
+              "value": "orange",
+              "distance": 1.415835702264952,
+              "margin": 2.818473305355257,
+              "reason": "Experimental suggestion from the object crop"
+            }
+          },
+          "inscriptions": {
+            "status": "not requested",
+            "candidates": [],
+            "capacity": null,
+            "apparent_volume": null
+          },
+          "origin": "model"
+        }
+      ],
+      "elapsed_ms": 3033.8576460053446
+    },
+    {
+      "id": "IMG_3304",
+      "count": 1,
+      "best_iou": 0.9658558288031266,
+      "detections": [
+        {
+          "id": "object-1",
+          "bbox": [
+            0.05584341382223462,
+            0.18381026434519934,
+            0.8890884641617064,
+            0.995620364234561
+          ],
+          "score": 0.8604907989501953,
+          "scale": null,
+          "color": "orange",
+          "evidence": {
+            "scale": {
+              "value": null,
+              "reason": "Outside development support or ambiguous",
+              "distance": 2.4111860414155832,
+              "margin": 0.7866949493331323
+            },
+            "color": {
+              "value": "orange",
+              "distance": 0.37273135862609447,
+              "margin": 2.708041070588023,
+              "reason": "Experimental suggestion from the object crop"
+            }
+          },
+          "inscriptions": {
+            "status": "not requested",
+            "candidates": [],
+            "capacity": null,
+            "apparent_volume": null
+          },
+          "origin": "model"
+        }
+      ],
+      "elapsed_ms": 3186.907932002214
+    },
+    {
+      "id": "IMG_3305",
+      "count": 1,
+      "best_iou": 0.8571691894116941,
+      "detections": [
+        {
+          "id": "object-1",
+          "bbox": [
+            0.289756593250093,
+            0.09140854790097191,
+            0.6318671009527943,
+            0.9963026500883556
+          ],
+          "score": 0.5150853991508484,
+          "scale": "20-scale",
+          "color": "orange",
+          "evidence": {
+            "scale": {
+              "value": "20-scale",
+              "distance": 1.4115041365854308,
+              "margin": 1.4529953541224425,
+              "reason": "Experimental suggestion from the object crop"
+            },
+            "color": {
+              "value": "orange",
+              "distance": 1.3702351158123418,
+              "margin": 1.5287982648915144,
+              "reason": "Experimental suggestion from the object crop"
+            }
+          },
+          "inscriptions": {
+            "status": "not requested",
+            "candidates": [],
+            "capacity": null,
+            "apparent_volume": null
+          },
+          "origin": "model"
+        }
+      ],
+      "elapsed_ms": 3202.5333210040117
+    },
+    {
+      "id": "IMG_3306",
+      "count": 1,
+      "best_iou": 0.9557031217902157,
+      "detections": [
+        {
+          "id": "object-1",
+          "bbox": [
+            0.31818795582604786,
+            0.1757484617687407,
+            0.5225574553958954,
+            0.8326207115536645
+          ],
+          "score": 0.7786713242530823,
+          "scale": "20-scale",
+          "color": "orange",
+          "evidence": {
+            "scale": {
+              "value": "20-scale",
+              "distance": 0.5417076383402344,
+              "margin": 1.3560955881380046,
+              "reason": "Experimental suggestion from the object crop"
+            },
+            "color": {
+              "value": "orange",
+              "distance": 0.779597132866812,
+              "margin": 3.077724972252345,
+              "reason": "Experimental suggestion from the object crop"
+            }
+          },
+          "inscriptions": {
+            "status": "not requested",
+            "candidates": [],
+            "capacity": null,
+            "apparent_volume": null
+          },
+          "origin": "model"
+        }
+      ],
+      "elapsed_ms": 3057.2485769953346
+    },
+    {
+      "id": "IMG_3310",
+      "count": 1,
+      "best_iou": 0.9878249356066919,
+      "detections": [
+        {
+          "id": "object-1",
+          "bbox": [
+            0.19332958403087797,
+            0.1433911399235801,
+            0.6177247062562004,
+            0.9960680159311446
+          ],
+          "score": 0.8132827281951904,
+          "scale": null,
+          "color": "orange",
+          "evidence": {
+            "scale": {
+              "value": null,
+              "reason": "Outside development support or ambiguous",
+              "distance": 0.8260544651649157,
+              "margin": 0.7850805485309164
+            },
+            "color": {
+              "value": "orange",
+              "distance": 1.8043834599699036,
+              "margin": 0.9005490791310904,
+              "reason": "Experimental suggestion from the object crop"
+            }
+          },
+          "inscriptions": {
+            "status": "not requested",
+            "candidates": [],
+            "capacity": null,
+            "apparent_volume": null
+          },
+          "origin": "model"
+        }
+      ],
+      "elapsed_ms": 3151.467670002603
+    },
+    {
+      "id": "IMG_3311",
+      "count": 1,
+      "best_iou": 0.9636259538856873,
+      "detections": [
+        {
+          "id": "object-1",
+          "bbox": [
+            0.1432993449862041,
+            0.08448949692741273,
+            0.6637259185629547,
+            0.8009859115358383
+          ],
+          "score": 0.8902393579483032,
+          "scale": null,
+          "color": null,
+          "evidence": {
+            "scale": {
+              "value": null,
+              "reason": "Outside development support or ambiguous",
+              "distance": 1.44377362995153,
+              "margin": 0.45640684338938287
+            },
+            "color": {
+              "value": null,
+              "reason": "Outside development support or ambiguous",
+              "distance": 1.9822178470433625,
+              "margin": 2.0702600204555153
+            }
+          },
+          "inscriptions": {
+            "status": "not requested",
+            "candidates": [],
+            "capacity": null,
+            "apparent_volume": null
+          },
+          "origin": "model"
+        }
+      ],
+      "elapsed_ms": 3061.79491498915
+    },
+    {
+      "id": "IMG_3315",
+      "count": 1,
+      "best_iou": 0.5118892409085241,
+      "detections": [
+        {
+          "id": "object-1",
+          "bbox": [
+            0.321057294411634,
+            0.26579705495682976,
+            0.6885723941540592,
+            0.6317119295634921
+          ],
+          "score": 0.8130530118942261,
+          "scale": "60-scale",
+          "color": null,
+          "evidence": {
+            "scale": {
+              "value": "60-scale",
+              "distance": 2.492488359525604,
+              "margin": 1.0430128106199423,
+              "reason": "Experimental suggestion from the object crop"
+            },
+            "color": {
+              "value": null,
+              "reason": "Outside development support or ambiguous",
+              "distance": 2.504511882229541,
+              "margin": 0.3922267099654153
+            }
+          },
+          "inscriptions": {
+            "status": "not requested",
+            "candidates": [],
+            "capacity": null,
+            "apparent_volume": null
+          },
+          "origin": "model"
+        }
+      ],
+      "elapsed_ms": 3093.2825680065434
+    },
+    {
+      "id": "IMG_3316",
+      "count": 1,
+      "best_iou": 0.7391587278937388,
+      "detections": [
+        {
+          "id": "object-1",
+          "bbox": [
+            0.26042873644954945,
+            0.10309958079504589,
+            0.4965798110558242,
+            0.8612638806539868
+          ],
+          "score": 0.7959945201873779,
+          "scale": "20-scale",
+          "color": "orange",
+          "evidence": {
+            "scale": {
+              "value": "20-scale",
+              "distance": 1.7132694975754799,
+              "margin": 1.4973828650331735,
+              "reason": "Experimental suggestion from the object crop"
+            },
+            "color": {
+              "value": "orange",
+              "distance": 1.088401920165607,
+              "margin": 2.8003037203690018,
+              "reason": "Experimental suggestion from the object crop"
+            }
+          },
+          "inscriptions": {
+            "status": "not requested",
+            "candidates": [],
+            "capacity": null,
+            "apparent_volume": null
+          },
+          "origin": "model"
+        }
+      ],
+      "elapsed_ms": 3058.5979860043153
+    },
+    {
+      "id": "IMG_3317",
+      "count": 1,
+      "best_iou": 0.7756759423661272,
+      "detections": [
+        {
+          "id": "object-1",
+          "bbox": [
+            0.24446679170800265,
+            0.041794001110016354,
+            0.5211982525214947,
+            0.9896885705372643
+          ],
+          "score": 0.6755645275115967,
+          "scale": "20-scale",
+          "color": "orange",
+          "evidence": {
+            "scale": {
+              "value": "20-scale",
+              "distance": 1.8150153626331902,
+              "margin": 1.5102413614547647,
+              "reason": "Experimental suggestion from the object crop"
+            },
+            "color": {
+              "value": "orange",
+              "distance": 1.5544714318344959,
+              "margin": 1.768058703492798,
+              "reason": "Experimental suggestion from the object crop"
+            }
+          },
+          "inscriptions": {
+            "status": "not requested",
+            "candidates": [],
+            "capacity": null,
+            "apparent_volume": null
+          },
+          "origin": "model"
+        }
+      ],
+      "elapsed_ms": 3113.049306004541
+    },
+    {
+      "id": "IMG_3318",
+      "count": 1,
+      "best_iou": 0.9169345179137333,
+      "detections": [
+        {
+          "id": "object-1",
+          "bbox": [
+            0.21086025742626696,
+            0.13206500098818824,
+            0.4693672543480283,
+            0.9963893587627108
+          ],
+          "score": 0.41864722967147827,
+          "scale": "20-scale",
+          "color": "orange",
+          "evidence": {
+            "scale": {
+              "value": "20-scale",
+              "distance": 1.6798391599865812,
+              "margin": 1.497055899577965,
+              "reason": "Experimental suggestion from the object crop"
+            },
+            "color": {
+              "value": "orange",
+              "distance": 1.6708823841837477,
+              "margin": 2.513992463981695,
+              "reason": "Experimental suggestion from the object crop"
+            }
+          },
+          "inscriptions": {
+            "status": "not requested",
+            "candidates": [],
+            "capacity": null,
+            "apparent_volume": null
+          },
+          "origin": "model"
+        }
+      ],
+      "elapsed_ms": 3152.2442730056355
+    },
+    {
+      "id": "IMG_3321",
+      "count": 1,
+      "best_iou": 0.948615423071786,
+      "detections": [
+        {
+          "id": "object-1",
+          "bbox": [
+            0.2297137628787409,
+            0.06213301325601245,
+            0.49136473640562994,
+            0.9216492062523252
+          ],
+          "score": 0.8818519711494446,
+          "scale": "20-scale",
+          "color": "orange",
+          "evidence": {
+            "scale": {
+              "value": "20-scale",
+              "distance": 2.6894429927911845,
+              "margin": 1.0633341540370433,
+              "reason": "Experimental suggestion from the object crop"
+            },
+            "color": {
+              "value": "orange",
+              "distance": 1.8184462274317628,
+              "margin": 2.0517903815654375,
+              "reason": "Experimental suggestion from the object crop"
+            }
+          },
+          "inscriptions": {
+            "status": "not requested",
+            "candidates": [],
+            "capacity": null,
+            "apparent_volume": null
+          },
+          "origin": "model"
+        }
+      ],
+      "elapsed_ms": 3142.7951340010623
+    },
+    {
+      "id": "IMG_3322",
+      "count": 1,
+      "best_iou": 0.9237859156365111,
+      "detections": [
+        {
+          "id": "object-1",
+          "bbox": [
+            0.26466313114872686,
+            0.15765291547018384,
+            0.47471311861875826,
+            0.9421295287117125
+          ],
+          "score": 0.6199432015419006,
+          "scale": "20-scale",
+          "color": "orange",
+          "evidence": {
+            "scale": {
+              "value": "20-scale",
+              "distance": 3.1735711114324454,
+              "margin": 1.3456686029252953,
+              "reason": "Experimental suggestion from the object crop"
+            },
+            "color": {
+              "value": "orange",
+              "distance": 1.6253646792808276,
+              "margin": 1.7098229100617341,
+              "reason": "Experimental suggestion from the object crop"
+            }
+          },
+          "inscriptions": {
+            "status": "not requested",
+            "candidates": [],
+            "capacity": null,
+            "apparent_volume": null
+          },
+          "origin": "model"
+        }
+      ],
+      "elapsed_ms": 2999.687524003093
+    },
+    {
+      "id": "IMG_3323",
+      "count": 1,
+      "best_iou": 0.7465323484985592,
+      "detections": [
+        {
+          "id": "object-1",
+          "bbox": [
+            0.2231334302791212,
+            0.05008232782757471,
+            0.4900322162285053,
+            0.7685656471857949
+          ],
+          "score": 0.41941747069358826,
+          "scale": "20-scale",
+          "color": null,
+          "evidence": {
+            "scale": {
+              "value": "20-scale",
+              "distance": 3.1417259487739257,
+              "margin": 0.9030470100011052,
+              "reason": "Experimental suggestion from the object crop"
+            },
+            "color": {
+              "value": null,
+              "reason": "Outside development support or ambiguous",
+              "distance": 4.471585645523388,
+              "margin": 1.1179774841992263
+            }
+          },
+          "inscriptions": {
+            "status": "not requested",
+            "candidates": [],
+            "capacity": null,
+            "apparent_volume": null
+          },
+          "origin": "model"
+        }
+      ],
+      "elapsed_ms": 3033.195128009538
+    },
+    {
+      "id": "IMG_3324",
+      "count": 1,
+      "best_iou": 0.9712577244358386,
+      "detections": [
+        {
+          "id": "object-1",
+          "bbox": [
+            0.2028151416273975,
+            0.02182060574728345,
+            0.627946036202567,
+            0.9965383136083209
+          ],
+          "score": 0.552532434463501,
+          "scale": "20-scale",
+          "color": null,
+          "evidence": {
+            "scale": {
+              "value": "20-scale",
+              "distance": 1.7718197708628054,
+              "margin": 0.9430966820951858,
+              "reason": "Experimental suggestion from the object crop"
+            },
+            "color": {
+              "value": null,
+              "reason": "Outside development support or ambiguous",
+              "distance": 2.6631457836469714,
+              "margin": 0.47865270835618423
+            }
+          },
+          "inscriptions": {
+            "status": "not requested",
+            "candidates": [],
+            "capacity": null,
+            "apparent_volume": null
+          },
+          "origin": "model"
+        }
+      ],
+      "elapsed_ms": 3216.423139005201
+    },
+    {
+      "id": "IMG_3325",
+      "count": 1,
+      "best_iou": 0.858161775539299,
+      "detections": [
+        {
+          "id": "object-1",
+          "bbox": [
+            0.3605607855256903,
+            0.2136006582350958,
+            0.6224558996775794,
+            0.9008554125589038
+          ],
+          "score": 0.85506671667099,
+          "scale": "20-scale",
+          "color": null,
+          "evidence": {
+            "scale": {
+              "value": "20-scale",
+              "distance": 2.2153661983783803,
+              "margin": 1.125871328042476,
+              "reason": "Experimental suggestion from the object crop"
+            },
+            "color": {
+              "value": null,
+              "reason": "Outside development support or ambiguous",
+              "distance": 2.2942202276532426,
+              "margin": 0.00994653519181643
+            }
+          },
+          "inscriptions": {
+            "status": "not requested",
+            "candidates": [],
+            "capacity": null,
+            "apparent_volume": null
+          },
+          "origin": "model"
+        }
+      ],
+      "elapsed_ms": 3008.7073339964263
+    },
+    {
+      "id": "IMG_3326",
+      "count": 1,
+      "best_iou": 0.9704408028239401,
+      "detections": [
+        {
+          "id": "object-1",
+          "bbox": [
+            0.13986310000142094,
+            0.24267989870101686,
+            0.6653751191638765,
+            0.9483029199024987
+          ],
+          "score": 0.8847017884254456,
+          "scale": null,
+          "color": "orange",
+          "evidence": {
+            "scale": {
+              "value": null,
+              "reason": "Outside development support or ambiguous",
+              "distance": 1.678097044893689,
+              "margin": 0.8281067097928072
+            },
+            "color": {
+              "value": "orange",
+              "distance": 0.7238784863217916,
+              "margin": 2.335112730759976,
+              "reason": "Experimental suggestion from the object crop"
+            }
+          },
+          "inscriptions": {
+            "status": "not requested",
+            "candidates": [],
+            "capacity": null,
+            "apparent_volume": null
+          },
+          "origin": "model"
+        }
+      ],
+      "elapsed_ms": 3014.856037989375
+    },
+    {
+      "id": "IMG_3329",
+      "count": 1,
+      "best_iou": 0.9718984979804649,
+      "detections": [
+        {
+          "id": "object-1",
+          "bbox": [
+            0.0019358992576599121,
+            0.19787329719180152,
+            0.8518568573805391,
+            0.9502186245388455
+          ],
+          "score": 0.8900013566017151,
+          "scale": "60-scale",
+          "color": null,
+          "evidence": {
+            "scale": {
+              "value": "60-scale",
+              "distance": 2.5433228578045624,
+              "margin": 0.910754599323413,
+              "reason": "Experimental suggestion from the object crop"
+            },
+            "color": {
+              "value": null,
+              "reason": "Outside development support or ambiguous",
+              "distance": 2.7121774645830294,
+              "margin": 0.04602632708188503
+            }
+          },
+          "inscriptions": {
+            "status": "not requested",
+            "candidates": [],
+            "capacity": null,
+            "apparent_volume": null
+          },
+          "origin": "model"
+        }
+      ],
+      "elapsed_ms": 3057.8519200062146
+    },
+    {
+      "id": "IMG_3331",
+      "count": 1,
+      "best_iou": 0.979597467526098,
+      "detections": [
+        {
+          "id": "object-1",
+          "bbox": [
+            0.3255428738064236,
+            0.16325741722470238,
+            0.7188536628844246,
+            0.8632190643794952
+          ],
+          "score": 0.9120011925697327,
+          "scale": null,
+          "color": "amber-brown",
+          "evidence": {
+            "scale": {
+              "value": null,
+              "reason": "Outside development support or ambiguous",
+              "distance": 1.1414238551487503,
+              "margin": 0.10139820481995221
+            },
+            "color": {
+              "value": "amber-brown",
+              "distance": 2.541787841212489,
+              "margin": 1.5494534704216814,
+              "reason": "Experimental suggestion from the object crop"
+            }
+          },
+          "inscriptions": {
+            "status": "not requested",
+            "candidates": [],
+            "capacity": null,
+            "apparent_volume": null
+          },
+          "origin": "model"
+        }
+      ],
+      "elapsed_ms": 2997.1742880006786
+    },
+    {
+      "id": "IMG_3332",
+      "count": 1,
+      "best_iou": 0.8347335768521327,
+      "detections": [
+        {
+          "id": "object-1",
+          "bbox": [
+            0.3041253064675306,
+            0.1759370622180757,
+            0.5745373276806383,
+            0.8233834524003286
+          ],
+          "score": 0.9169540405273438,
+          "scale": "20-scale",
+          "color": null,
+          "evidence": {
+            "scale": {
+              "value": "20-scale",
+              "distance": 0.5055566294319613,
+              "margin": 1.362874349927305,
+              "reason": "Experimental suggestion from the object crop"
+            },
+            "color": {
+              "value": null,
+              "reason": "Outside development support or ambiguous",
+              "distance": 2.5908971655317243,
+              "margin": 0.5942832152629332
+            }
+          },
+          "inscriptions": {
+            "status": "not requested",
+            "candidates": [],
+            "capacity": null,
+            "apparent_volume": null
+          },
+          "origin": "model"
+        }
+      ],
+      "elapsed_ms": 3539.248985995073
+    },
+    {
+      "id": "IMG_3333",
+      "count": 1,
+      "best_iou": 0.9375928109440349,
+      "detections": [
+        {
+          "id": "object-1",
+          "bbox": [
+            0.10014290784401868,
+            0.0,
+            0.46545886488818616,
+            0.9991484747992622
+          ],
+          "score": 0.6152371168136597,
+          "scale": null,
+          "color": "amber-brown",
+          "evidence": {
+            "scale": {
+              "value": null,
+              "reason": "Outside development support or ambiguous",
+              "distance": 1.4003652993760194,
+              "margin": 0.14435594679313368
+            },
+            "color": {
+              "value": "amber-brown",
+              "distance": 1.0805030169355831,
+              "margin": 2.063130472642195,
+              "reason": "Experimental suggestion from the object crop"
+            }
+          },
+          "inscriptions": {
+            "status": "not requested",
+            "candidates": [],
+            "capacity": null,
+            "apparent_volume": null
+          },
+          "origin": "model"
+        }
+      ],
+      "elapsed_ms": 3089.399100994342
+    },
+    {
+      "id": "IMG_3334",
+      "count": 1,
+      "best_iou": 0.8463165381237839,
+      "detections": [
+        {
+          "id": "object-1",
+          "bbox": [
+            0.3414635229363013,
+            0.1286019067915659,
+            0.6262600611126612,
+            0.8292114621117002
+          ],
+          "score": 0.9025353789329529,
+          "scale": "20-scale",
+          "color": "amber-brown",
+          "evidence": {
+            "scale": {
+              "value": "20-scale",
+              "distance": 0.3419526619738617,
+              "margin": 1.3116727853060164,
+              "reason": "Experimental suggestion from the object crop"
+            },
+            "color": {
+              "value": "amber-brown",
+              "distance": 2.633985947921346,
+              "margin": 0.8760223205243034,
+              "reason": "Experimental suggestion from the object crop"
+            }
+          },
+          "inscriptions": {
+            "status": "not requested",
+            "candidates": [],
+            "capacity": null,
+            "apparent_volume": null
+          },
+          "origin": "model"
+        }
+      ],
+      "elapsed_ms": 2988.049266001326
+    },
+    {
+      "id": "IMG_3335",
+      "count": 1,
+      "best_iou": 0.7719531070679028,
+      "detections": [
+        {
+          "id": "object-1",
+          "bbox": [
+            0.39986306649667247,
+            0.1656384997897678,
+            0.5771603458142155,
+            0.7918518308609251
+          ],
+          "score": 0.8866360187530518,
+          "scale": "20-scale",
+          "color": "amber-brown",
+          "evidence": {
+            "scale": {
+              "value": "20-scale",
+              "distance": 1.657236492579478,
+              "margin": 1.3992040760986806,
+              "reason": "Experimental suggestion from the object crop"
+            },
+            "color": {
+              "value": "amber-brown",
+              "distance": 1.2888524721182992,
+              "margin": 2.6214650720746793,
+              "reason": "Experimental suggestion from the object crop"
+            }
+          },
+          "inscriptions": {
+            "status": "not requested",
+            "candidates": [],
+            "capacity": null,
+            "apparent_volume": null
+          },
+          "origin": "model"
+        }
+      ],
+      "elapsed_ms": 2982.344493997516
+    }
+  ]
+}

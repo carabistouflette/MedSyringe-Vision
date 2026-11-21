@@ -1,0 +1,9 @@
+{
+  "setting": {
+    "aux_cutoff": 0.65,
+    "support": 0.55,
+    "iou": 0.45
+  },
+  "manifest_sha256": "72b761604e5c3e33cf0c16b3a93b72c3e0afbf7c911b4e3b252a7d5d210da260",
+  "calibration_sha256": "6e44e08a67191a7f4fe0eaa1674ae08dfcb7138f2cbf5e494bab0374985187cf"
+}

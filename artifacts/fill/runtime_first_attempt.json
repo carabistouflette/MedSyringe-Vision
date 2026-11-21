@@ -1,0 +1,388 @@
+{
+  "passed": false,
+  "cases": [
+    {
+      "image": "IMG_3203",
+      "orientation": 0,
+      "fill": {
+        "status": "visual estimate",
+        "method": "Numbered graduations and nearest piston edge",
+        "ml": 38,
+        "interval_ml": [
+          36,
+          42
+        ],
+        "percent": 63,
+        "interval_percent": [
+          60,
+          70
+        ],
+        "capacity_ml": 60,
+        "piston_line": [
+          [
+            0.2667013373926211,
+            0.36796830318227447
+          ],
+          [
+            0.6319079303029848,
+            0.3662265689114974
+          ]
+        ],
+        "graduations": [
+          {
+            "ml": 10,
+            "crop_bbox": [
+              0.3813953488372093,
+              0.12099358974358974,
+              0.5720930232558139,
+              0.16346153846153846
+            ],
+            "text": "10"
+          },
+          {
+            "ml": 20,
+            "crop_bbox": [
+              0.3627906976744186,
+              0.20352564102564102,
+              0.5953488372093023,
+              0.24439102564102563
+            ],
+            "text": "20"
+          },
+          {
+            "ml": 30,
+            "crop_bbox": [
+              0.39069767441860465,
+              0.28525641025641024,
+              0.6093023255813953,
+              0.3229166666666667
+            ],
+            "text": "30"
+          },
+          {
+            "ml": 50,
+            "crop_bbox": [
+              0.4186046511627907,
+              0.44150641025641024,
+              0.641860465116279,
+              0.47836538461538464
+            ],
+            "text": "50"
+          },
+          {
+            "ml": 60,
+            "crop_bbox": [
+              0.4232558139534884,
+              0.5160256410256411,
+              0.641860465116279,
+              0.5520833333333334
+            ],
+            "text": "60"
+          }
+        ],
+        "localization": {
+          "contrast": 18.2,
+          "scale_residual_ml": 0.34,
+          "tick_train_verified": false
+        }
+      },
+      "bbox": [
+        0.34582704745309584,
+        0.1931725937445291,
+        0.5011088908219538,
+        0.870061014212814
+      ],
+      "nominal_capacity": {
+        "value": 60.0,
+        "unit": "mL",
+        "score": 0.9928858280181885,
+        "method": "adjacent number and unit",
+        "evidence": [
+          {
+            "text": "ml",
+            "crop_bbox": [
+              0.37212296797038463,
+              0.4748753462603879,
+              0.6718171575728311,
+              0.5214127423822715
+            ],
+            "rotation": 0.0
+          },
+          {
+            "text": "60",
+            "crop_bbox": [
+              0.4232558139534884,
+              0.5160256410256411,
+              0.641860465116279,
+              0.5520833333333334
+            ],
+            "rotation": 0.0
+          }
+        ]
+      },
+      "expected_ml": [
+        38.0,
+        42.0
+      ],
+      "elapsed_ms": 33293.4330930002
+    },
+    {
+      "image": "IMG_3245",
+      "orientation": 0,
+      "fill": {
+        "status": "insufficient evidence",
+        "reason": "A visible 20 mL or 60 mL capacity is required."
+      },
+      "bbox": [
+        0.3647805269433077,
+        0.0015425909133184312,
+        0.6661955010954035,
+        0.9974541664123535
+      ],
+      "nominal_capacity": null,
+      "expected_ml": [
+        12.0,
+        15.0
+      ],
+      "elapsed_ms": 11271.732430002885
+    },
+    {
+      "image": "IMG_3316",
+      "orientation": 0,
+      "fill": {
+        "status": "visual estimate",
+        "method": "Numbered graduations and nearest piston edge",
+        "ml": 16,
+        "interval_ml": [
+          14,
+          17
+        ],
+        "percent": 80,
+        "interval_percent": [
+          70,
+          85
+        ],
+        "capacity_ml": 20,
+        "piston_line": [
+          [
+            0.36780688225545183,
+            0.3831265168034536
+          ],
+          [
+            0.7129346710463781,
+            0.3951755445736016
+          ]
+        ],
+        "graduations": [
+          {
+            "ml": 10,
+            "crop_bbox": [
+              0.5518071346889899,
+              0.25200509212139116,
+              0.7289020068674963,
+              0.288636366700767
+            ],
+            "text": "10"
+          },
+          {
+            "ml": 15,
+            "crop_bbox": [
+              0.4887105581458981,
+              0.3535571566456364,
+              0.6668805812868801,
+              0.39177126510417104
+            ],
+            "text": "15"
+          },
+          {
+            "ml": 20,
+            "crop_bbox": [
+              0.40921932131255706,
+              0.4526755770104407,
+              0.6132963680264718,
+              0.4906149687344644
+            ],
+            "text": "20"
+          }
+        ],
+        "localization": {
+          "contrast": 24.1,
+          "scale_residual_ml": 0.06,
+          "tick_train_verified": false
+        }
+      },
+      "bbox": [
+        0.2642011087407511,
+        0.10431695362878224,
+        0.49953589868293236,
+        0.8616085960751488
+      ],
+      "nominal_capacity": {
+        "value": 20.0,
+        "unit": "mL",
+        "score": 0.9547459483146667,
+        "method": "adjacent number and unit",
+        "evidence": [
+          {
+            "text": "ml",
+            "crop_bbox": [
+              0.36769759450171824,
+              0.4270833333333333,
+              0.6804123711340206,
+              0.4583333333333333
+            ],
+            "rotation": 0.0
+          },
+          {
+            "text": "20",
+            "crop_bbox": [
+              0.4080551265296425,
+              0.4259224376731302,
+              0.6182963050968279,
+              0.49551246537396126
+            ],
+            "rotation": 0.0
+          }
+        ]
+      },
+      "expected_ml": [
+        15.0,
+        18.0
+      ],
+      "elapsed_ms": 10317.96071199642
+    },
+    {
+      "image": "IMG_3322",
+      "orientation": 0,
+      "fill": {
+        "status": "insufficient evidence",
+        "reason": "A visible 20 mL or 60 mL capacity is required."
+      },
+      "bbox": [
+        0.2710963456088273,
+        0.1598728724888393,
+        0.48035560083136986,
+        0.9451016471499488
+      ],
+      "nominal_capacity": null,
+      "expected_ml": [
+        10.0,
+        13.0
+      ],
+      "elapsed_ms": 11215.971660989453
+    },
+    {
+      "image": "IMG_3322",
+      "orientation": 180,
+      "fill": {
+        "status": "insufficient evidence",
+        "reason": "A visible 20 mL or 60 mL capacity is required."
+      },
+      "bbox": [
+        0.520540953943969,
+        0.054034036303323374,
+        0.7274205444981812,
+        0.8405094752236018
+      ],
+      "nominal_capacity": null,
+      "expected_ml": [
+        10.0,
+        13.0
+      ],
+      "elapsed_ms": 11016.65956499346
+    },
+    {
+      "image": "IMG_3185",
+      "orientation": 0,
+      "fill": {
+        "status": "insufficient evidence",
+        "reason": "A continuous visible liquid region could not be established."
+      },
+      "bbox": [
+        0.3441319683797998,
+        0.08211570761116949,
+        0.6075202379128735,
+        0.9135665305856229
+      ],
+      "nominal_capacity": {
+        "value": 20.0,
+        "unit": "mL",
+        "score": 0.7541369199752808,
+        "method": "adjacent number and unit",
+        "evidence": [
+          {
+            "text": "ml",
+            "crop_bbox": [
+              0.17845117845117844,
+              0.6201923076923077,
+              0.8047138047138047,
+              0.6730769230769231
+            ],
+            "rotation": 0.0
+          },
+          {
+            "text": "20",
+            "crop_bbox": [
+              0.26262626262626265,
+              0.6177884615384616,
+              0.6801346801346801,
+              0.7371794871794872
+            ],
+            "rotation": 0.0
+          }
+        ]
+      },
+      "expected_ml": null,
+      "elapsed_ms": 8900.471216998994
+    },
+    {
+      "image": "IMG_3229",
+      "orientation": 0,
+      "fill": {
+        "status": "insufficient evidence",
+        "reason": "Three consistent numbered graduations are required."
+      },
+      "bbox": [
+        0.32522761821746826,
+        0.29848605394363403,
+        0.45844757556915283,
+        0.8723466992378235
+      ],
+      "nominal_capacity": {
+        "value": 20.0,
+        "unit": "mL",
+        "score": 0.8358355760574341,
+        "method": "adjacent number and unit",
+        "evidence": [
+          {
+            "text": "ml",
+            "crop_bbox": [
+              0.28440366972477066,
+              0.5088141025641025,
+              0.8302752293577982,
+              0.592948717948718
+            ],
+            "rotation": 0.0
+          },
+          {
+            "text": "20",
+            "crop_bbox": [
+              0.3577981651376147,
+              0.5448717948717948,
+              0.7201834862385321,
+              0.6346153846153846
+            ],
+            "rotation": 0.0
+          }
+        ]
+      },
+      "expected_ml": [
+        4.0,
+        8.0
+      ],
+      "elapsed_ms": 17608.817226995598
+    }
+  ],
+  "audit_sha256": "e7aa5fb21eaa0a5c786aece06afc745cefcd910513a5176413b75a4c624d57de",
+  "scope": "Full JPEG inputs and detector crops, including physically reversed raster input."
+}

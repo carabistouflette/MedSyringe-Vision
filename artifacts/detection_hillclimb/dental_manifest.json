@@ -1,0 +1,733 @@
+{
+  "rows": [
+    {
+      "id": "dental-47f4d9105268c281",
+      "image": "detection_hillclimb/dental/images/dental-47f4d9105268c281.jpg",
+      "sha256": "47f4d9105268c281078457fecc7c6df003af4042c0366bb54efa2de347434a35",
+      "dhash": "a30d060f7963c95e",
+      "width": 512,
+      "height": 512,
+      "member": "test/images/GOPR1954_JPG.rf.6e46fe53da317f51a9bad7a8df11e4c5.jpg",
+      "source_url": "https://doi.org/10.17632/mh6zpc7y9g.1#test/images/GOPR1954_JPG.rf.6e46fe53da317f51a9bad7a8df11e4c5.jpg",
+      "license": "https://creativecommons.org/licenses/by/4.0/",
+      "split": "dental-audit",
+      "group": "mendeley-dental-instruments-v1",
+      "source_parent": "GOPR1954_JPG",
+      "objects": [
+        {
+          "bbox": [
+            0.7660639375,
+            0.269986830078125,
+            0.91427352734375,
+            0.50325383203125
+          ],
+          "subtype": "dental aspirating syringe"
+        }
+      ],
+      "distractors": [
+        "Wire Orthopedic Cutter",
+        "Andrew Tongue Depressor",
+        "Maxillary molar dental extraction forceps",
+        "Mandibular Cowhorn forceps",
+        "Mandibular lower incisors forceps",
+        "Maxillary upper molars extraction forceps",
+        "Maxillary upper incisors forceps",
+        "Mandibular anterior extraction forceps",
+        "Maxillary anterior canine forceps",
+        "Mandibular lower molar forceps",
+        "Angled artery forceps",
+        "Aji bone cutter",
+        "Cross Bar elevator",
+        "Frazier Suction Tube",
+        "Maxillary upper molar forceps",
+        "Mayo Hegar needle holder",
+        "Orthodontic ligature cutter",
+        "Dental elevator",
+        "Straight artery forceps",
+        "Straight tweezers",
+        "Curved gum scissors"
+      ]
+    },
+    {
+      "id": "dental-c647185ad95c5a30",
+      "image": "detection_hillclimb/dental/images/dental-c647185ad95c5a30.jpg",
+      "sha256": "c647185ad95c5a30e2a985415db88676fda894cbf5ffad59420ff252f9e7bc49",
+      "dhash": "c69a1b1b1b1b1b57",
+      "width": 512,
+      "height": 512,
+      "member": "valid/images/GOPR1856_JPG.rf.6ca8a1c1f1fe391efcec866c194fa8fb.jpg",
+      "source_url": "https://doi.org/10.17632/mh6zpc7y9g.1#valid/images/GOPR1856_JPG.rf.6ca8a1c1f1fe391efcec866c194fa8fb.jpg",
+      "license": "https://creativecommons.org/licenses/by/4.0/",
+      "split": "dental-audit",
+      "group": "mendeley-dental-instruments-v1",
+      "source_parent": "GOPR1856_JPG",
+      "objects": [
+        {
+          "bbox": [
+            0.54000592578125,
+            0.06726819921875,
+            0.652747666015625,
+            0.110386734375
+          ],
+          "subtype": "dental aspirating syringe"
+        }
+      ],
+      "distractors": [
+        "Wire Orthopedic Cutter",
+        "Andrew Tongue Depressor",
+        "Maxillary molar dental extraction forceps",
+        "Mandibular Cowhorn forceps",
+        "Mandibular lower incisors forceps",
+        "Maxillary upper molars extraction forceps",
+        "Maxillary upper incisors forceps",
+        "Mandibular anterior extraction forceps",
+        "Maxillary anterior canine forceps",
+        "Mandibular lower molar forceps",
+        "Angled artery forceps",
+        "Aji bone cutter",
+        "Cross Bar elevator",
+        "Frazier Suction Tube",
+        "Maxillary upper molar forceps",
+        "Mayo Hegar needle holder",
+        "Orthodontic ligature cutter",
+        "Dental elevator",
+        "Straight artery forceps",
+        "Straight tweezers",
+        "Curved gum scissors"
+      ]
+    },
+    {
+      "id": "dental-8952609922f60257",
+      "image": "detection_hillclimb/dental/images/dental-8952609922f60257.jpg",
+      "sha256": "8952609922f60257fe4a96275f3999c03ebad7b49c32af425b5f8db385f93b26",
+      "dhash": "383c0f33332b3f39",
+      "width": 512,
+      "height": 512,
+      "member": "test/images/Frazier-Suction-Tube-002_JPG.rf.513d9d98da991fceea9002ea272fe947.jpg",
+      "source_url": "https://doi.org/10.17632/mh6zpc7y9g.1#test/images/Frazier-Suction-Tube-002_JPG.rf.513d9d98da991fceea9002ea272fe947.jpg",
+      "license": "https://creativecommons.org/licenses/by/4.0/",
+      "split": "dental-audit",
+      "group": "mendeley-dental-instruments-v1",
+      "source_parent": "Frazier-Suction-Tube-002_JPG",
+      "objects": [],
+      "distractors": [
+        "Frazier Suction Tube"
+      ]
+    },
+    {
+      "id": "dental-ec27af74296a54a0",
+      "image": "detection_hillclimb/dental/images/dental-ec27af74296a54a0.jpg",
+      "sha256": "ec27af74296a54a0cea32c1304aa5dc02a26e5814ea118c00394146110d89697",
+      "dhash": "b4171d5cda491360",
+      "width": 512,
+      "height": 512,
+      "member": "test/images/GOPR1825_JPG.rf.224a7a8a5ea4067ae02b8c71f79b8560.jpg",
+      "source_url": "https://doi.org/10.17632/mh6zpc7y9g.1#test/images/GOPR1825_JPG.rf.224a7a8a5ea4067ae02b8c71f79b8560.jpg",
+      "license": "https://creativecommons.org/licenses/by/4.0/",
+      "split": "dental-audit",
+      "group": "mendeley-dental-instruments-v1",
+      "source_parent": "GOPR1825_JPG",
+      "objects": [
+        {
+          "bbox": [
+            0.216545796875,
+            0.261684626953125,
+            0.2991716953125,
+            0.3731709765625
+          ],
+          "subtype": "dental aspirating syringe"
+        }
+      ],
+      "distractors": [
+        "Wire Orthopedic Cutter",
+        "Andrew Tongue Depressor",
+        "Maxillary molar dental extraction forceps",
+        "Mandibular Cowhorn forceps",
+        "Mandibular lower incisors forceps",
+        "Maxillary upper molars extraction forceps",
+        "Maxillary upper incisors forceps",
+        "Mandibular anterior extraction forceps",
+        "Maxillary anterior canine forceps",
+        "Mandibular lower molar forceps",
+        "Aji bone cutter",
+        "Cross Bar elevator",
+        "Frazier Suction Tube",
+        "Maxillary upper molar forceps",
+        "Mayo Hegar needle holder",
+        "Orthodontic ligature cutter",
+        "Dental elevator",
+        "Straight artery forceps",
+        "Straight tweezers",
+        "Curved gum scissors",
+        "Angled artery forceps"
+      ]
+    },
+    {
+      "id": "dental-3de2e7be2bbb0f4d",
+      "image": "detection_hillclimb/dental/images/dental-3de2e7be2bbb0f4d.jpg",
+      "sha256": "3de2e7be2bbb0f4d8c1fbeb03d6988a2b5740a317e4282963707c3628e212efc",
+      "dhash": "381f2f3733332f19",
+      "width": 512,
+      "height": 512,
+      "member": "test/images/Frazier-Suction-Tube-008_JPG.rf.482c251ce2dacc0167db252ae34b9aae.jpg",
+      "source_url": "https://doi.org/10.17632/mh6zpc7y9g.1#test/images/Frazier-Suction-Tube-008_JPG.rf.482c251ce2dacc0167db252ae34b9aae.jpg",
+      "license": "https://creativecommons.org/licenses/by/4.0/",
+      "split": "dental-audit",
+      "group": "mendeley-dental-instruments-v1",
+      "source_parent": "Frazier-Suction-Tube-008_JPG",
+      "objects": [],
+      "distractors": [
+        "Frazier Suction Tube"
+      ]
+    },
+    {
+      "id": "dental-f5f0d5258154ea1a",
+      "image": "detection_hillclimb/dental/images/dental-f5f0d5258154ea1a.jpg",
+      "sha256": "f5f0d5258154ea1a08eeb87e10491426add7c5fcf99aac027c6fd9ccebd9b3e5",
+      "dhash": "66260b25d5d15336",
+      "width": 512,
+      "height": 512,
+      "member": "valid/images/GOPR1854_JPG.rf.22592d2d7b3f397fc863b44ef6d6434f.jpg",
+      "source_url": "https://doi.org/10.17632/mh6zpc7y9g.1#valid/images/GOPR1854_JPG.rf.22592d2d7b3f397fc863b44ef6d6434f.jpg",
+      "license": "https://creativecommons.org/licenses/by/4.0/",
+      "split": "dental-audit",
+      "group": "mendeley-dental-instruments-v1",
+      "source_parent": "GOPR1854_JPG",
+      "objects": [
+        {
+          "bbox": [
+            0.720513470703125,
+            0.5262452109375,
+            0.7859369609375,
+            0.7480900390625
+          ],
+          "subtype": "dental aspirating syringe"
+        }
+      ],
+      "distractors": [
+        "Wire Orthopedic Cutter",
+        "Andrew Tongue Depressor",
+        "Maxillary molar dental extraction forceps",
+        "Mandibular Cowhorn forceps",
+        "Mandibular lower incisors forceps",
+        "Maxillary upper molars extraction forceps",
+        "Maxillary upper incisors forceps",
+        "Mandibular anterior extraction forceps",
+        "Maxillary anterior canine forceps",
+        "Mandibular lower molar forceps",
+        "Angled artery forceps",
+        "Aji bone cutter",
+        "Cross Bar elevator",
+        "Frazier Suction Tube",
+        "Maxillary upper molar forceps",
+        "Mayo Hegar needle holder",
+        "Orthodontic ligature cutter",
+        "Dental elevator",
+        "Straight artery forceps",
+        "Straight tweezers",
+        "Curved gum scissors"
+      ]
+    },
+    {
+      "id": "dental-b14fe6d47d554199",
+      "image": "detection_hillclimb/dental/images/dental-b14fe6d47d554199.jpg",
+      "sha256": "b14fe6d47d554199ba425010f0590f258d5e8b0c71a41d01d128a80d6063907b",
+      "dhash": "6c2e3745c3431357",
+      "width": 512,
+      "height": 512,
+      "member": "test/images/GOPR1840_JPG.rf.ca7175e921c54dd5a47cb073370ae6f0.jpg",
+      "source_url": "https://doi.org/10.17632/mh6zpc7y9g.1#test/images/GOPR1840_JPG.rf.ca7175e921c54dd5a47cb073370ae6f0.jpg",
+      "license": "https://creativecommons.org/licenses/by/4.0/",
+      "split": "dental-audit",
+      "group": "mendeley-dental-instruments-v1",
+      "source_parent": "GOPR1840_JPG",
+      "objects": [
+        {
+          "bbox": [
+            0.760331896484375,
+            0.4572356328125,
+            0.854518498046875,
+            0.671315373046875
+          ],
+          "subtype": "dental aspirating syringe"
+        }
+      ],
+      "distractors": [
+        "Wire Orthopedic Cutter",
+        "Andrew Tongue Depressor",
+        "Maxillary molar dental extraction forceps",
+        "Mandibular Cowhorn forceps",
+        "Mandibular lower incisors forceps",
+        "Maxillary upper molars extraction forceps",
+        "Maxillary upper incisors forceps",
+        "Mandibular anterior extraction forceps",
+        "Maxillary anterior canine forceps",
+        "Mandibular lower molar forceps",
+        "Angled artery forceps",
+        "Aji bone cutter",
+        "Cross Bar elevator",
+        "Frazier Suction Tube",
+        "Maxillary upper molar forceps",
+        "Mayo Hegar needle holder",
+        "Orthodontic ligature cutter",
+        "Dental elevator",
+        "Straight artery forceps",
+        "Straight tweezers",
+        "Curved gum scissors"
+      ]
+    },
+    {
+      "id": "dental-8d2968e05e738454",
+      "image": "detection_hillclimb/dental/images/dental-8d2968e05e738454.jpg",
+      "sha256": "8d2968e05e7384546e449e5d9f1a83e2116886dbd3e47d2557c30c5ab564393c",
+      "dhash": "8919372f5e545c3d",
+      "width": 512,
+      "height": 512,
+      "member": "test/images/GOPR1832_JPG.rf.6d8525970edc72030c6c3fbd7a112d29.jpg",
+      "source_url": "https://doi.org/10.17632/mh6zpc7y9g.1#test/images/GOPR1832_JPG.rf.6d8525970edc72030c6c3fbd7a112d29.jpg",
+      "license": "https://creativecommons.org/licenses/by/4.0/",
+      "split": "dental-audit",
+      "group": "mendeley-dental-instruments-v1",
+      "source_parent": "GOPR1832_JPG",
+      "objects": [
+        {
+          "bbox": [
+            0.16793678125,
+            0.38860057421875,
+            0.30572575390625,
+            0.61722844921875
+          ],
+          "subtype": "dental aspirating syringe"
+        }
+      ],
+      "distractors": [
+        "Wire Orthopedic Cutter",
+        "Andrew Tongue Depressor",
+        "Maxillary molar dental extraction forceps",
+        "Mandibular Cowhorn forceps",
+        "Mandibular lower incisors forceps",
+        "Maxillary upper molars extraction forceps",
+        "Maxillary upper incisors forceps",
+        "Mandibular anterior extraction forceps",
+        "Maxillary anterior canine forceps",
+        "Mandibular lower molar forceps",
+        "Aji bone cutter",
+        "Cross Bar elevator",
+        "Frazier Suction Tube",
+        "Maxillary upper molar forceps",
+        "Mayo Hegar needle holder",
+        "Orthodontic ligature cutter",
+        "Dental elevator",
+        "Straight artery forceps",
+        "Straight tweezers",
+        "Curved gum scissors",
+        "Angled artery forceps"
+      ]
+    },
+    {
+      "id": "dental-70a3759dd1fee676",
+      "image": "detection_hillclimb/dental/images/dental-70a3759dd1fee676.jpg",
+      "sha256": "70a3759dd1fee67638fd4dc9b8f9a4cf32f023c683a73d9d575605983a11e3d0",
+      "dhash": "0d93951933736f3d",
+      "width": 512,
+      "height": 512,
+      "member": "valid/images/GOPR1876_JPG.rf.5b5ffdd22d389a30338c76b241110b50.jpg",
+      "source_url": "https://doi.org/10.17632/mh6zpc7y9g.1#valid/images/GOPR1876_JPG.rf.5b5ffdd22d389a30338c76b241110b50.jpg",
+      "license": "https://creativecommons.org/licenses/by/4.0/",
+      "split": "dental-audit",
+      "group": "mendeley-dental-instruments-v1",
+      "source_parent": "GOPR1876_JPG",
+      "objects": [
+        {
+          "bbox": [
+            0.780760775390625,
+            0.15964463671875,
+            0.899223240234375,
+            0.323053400390625
+          ],
+          "subtype": "dental aspirating syringe"
+        }
+      ],
+      "distractors": [
+        "Wire Orthopedic Cutter",
+        "Andrew Tongue Depressor",
+        "Maxillary molar dental extraction forceps",
+        "Mandibular Cowhorn forceps",
+        "Mandibular lower incisors forceps",
+        "Maxillary upper molars extraction forceps",
+        "Maxillary upper incisors forceps",
+        "Mandibular anterior extraction forceps",
+        "Maxillary anterior canine forceps",
+        "Mandibular lower molar forceps",
+        "Angled artery forceps",
+        "Aji bone cutter",
+        "Cross Bar elevator",
+        "Frazier Suction Tube",
+        "Maxillary upper molar forceps",
+        "Mayo Hegar needle holder",
+        "Orthodontic ligature cutter",
+        "Dental elevator",
+        "Straight artery forceps",
+        "Straight tweezers",
+        "Curved gum scissors"
+      ]
+    },
+    {
+      "id": "dental-9d69371c2fe55e18",
+      "image": "detection_hillclimb/dental/images/dental-9d69371c2fe55e18.jpg",
+      "sha256": "9d69371c2fe55e18808b257fde390aa2442691383c590bc64d000278304beca9",
+      "dhash": "2d6c6c0db4d05c39",
+      "width": 512,
+      "height": 512,
+      "member": "valid/images/GOPR1899_JPG.rf.f1058bddf002e6af311016528a186489.jpg",
+      "source_url": "https://doi.org/10.17632/mh6zpc7y9g.1#valid/images/GOPR1899_JPG.rf.f1058bddf002e6af311016528a186489.jpg",
+      "license": "https://creativecommons.org/licenses/by/4.0/",
+      "split": "dental-audit",
+      "group": "mendeley-dental-instruments-v1",
+      "source_parent": "GOPR1899_JPG",
+      "objects": [
+        {
+          "bbox": [
+            0.0716084765625,
+            0.220214080078125,
+            0.121951328125,
+            0.450578544921875
+          ],
+          "subtype": "dental aspirating syringe"
+        }
+      ],
+      "distractors": [
+        "Wire Orthopedic Cutter",
+        "Andrew Tongue Depressor",
+        "Maxillary molar dental extraction forceps",
+        "Mandibular Cowhorn forceps",
+        "Mandibular lower incisors forceps",
+        "Maxillary upper molars extraction forceps",
+        "Maxillary upper incisors forceps",
+        "Mandibular anterior extraction forceps",
+        "Maxillary anterior canine forceps",
+        "Mandibular lower molar forceps",
+        "Angled artery forceps",
+        "Aji bone cutter",
+        "Cross Bar elevator",
+        "Frazier Suction Tube",
+        "Maxillary upper molar forceps",
+        "Mayo Hegar needle holder",
+        "Orthodontic ligature cutter",
+        "Dental elevator",
+        "Straight artery forceps",
+        "Straight tweezers",
+        "Curved gum scissors"
+      ]
+    },
+    {
+      "id": "dental-9cde794c57ea9163",
+      "image": "detection_hillclimb/dental/images/dental-9cde794c57ea9163.jpg",
+      "sha256": "9cde794c57ea9163c99a1fc7e9b098695f8bf7875ef1d8d4d35233566034d715",
+      "dhash": "8b2333333333307d",
+      "width": 512,
+      "height": 512,
+      "member": "valid/images/Dental-elevator-006_JPG.rf.e66cca32f0cadc5af7339dfe15e79cd8.jpg",
+      "source_url": "https://doi.org/10.17632/mh6zpc7y9g.1#valid/images/Dental-elevator-006_JPG.rf.e66cca32f0cadc5af7339dfe15e79cd8.jpg",
+      "license": "https://creativecommons.org/licenses/by/4.0/",
+      "split": "dental-audit",
+      "group": "mendeley-dental-instruments-v1",
+      "source_parent": "Dental-elevator-006_JPG",
+      "objects": [],
+      "distractors": [
+        "Dental elevator"
+      ]
+    },
+    {
+      "id": "dental-71e541a1aba724ea",
+      "image": "detection_hillclimb/dental/images/dental-71e541a1aba724ea.jpg",
+      "sha256": "71e541a1aba724ea747cc57f41953eb667edcde485da390478763a64d23e2960",
+      "dhash": "4f1f35bc9c515939",
+      "width": 512,
+      "height": 512,
+      "member": "test/images/GOPR1912_JPG.rf.8e9921b7250fa5f3617c735202e3208b.jpg",
+      "source_url": "https://doi.org/10.17632/mh6zpc7y9g.1#test/images/GOPR1912_JPG.rf.8e9921b7250fa5f3617c735202e3208b.jpg",
+      "license": "https://creativecommons.org/licenses/by/4.0/",
+      "split": "dental-audit",
+      "group": "mendeley-dental-instruments-v1",
+      "source_parent": "GOPR1912_JPG",
+      "objects": [
+        {
+          "bbox": [
+            0.164284482421875,
+            0.275640326171875,
+            0.23982740625,
+            0.498695162109375
+          ],
+          "subtype": "dental aspirating syringe"
+        }
+      ],
+      "distractors": [
+        "Wire Orthopedic Cutter",
+        "Andrew Tongue Depressor",
+        "Maxillary molar dental extraction forceps",
+        "Mandibular Cowhorn forceps",
+        "Mandibular lower incisors forceps",
+        "Maxillary upper molars extraction forceps",
+        "Maxillary upper incisors forceps",
+        "Mandibular anterior extraction forceps",
+        "Maxillary anterior canine forceps",
+        "Mandibular lower molar forceps",
+        "Angled artery forceps",
+        "Aji bone cutter",
+        "Cross Bar elevator",
+        "Frazier Suction Tube",
+        "Maxillary upper molar forceps",
+        "Mayo Hegar needle holder",
+        "Orthodontic ligature cutter",
+        "Dental elevator",
+        "Straight artery forceps",
+        "Straight tweezers",
+        "Curved gum scissors"
+      ]
+    },
+    {
+      "id": "dental-fd42bb3d834dfda6",
+      "image": "detection_hillclimb/dental/images/dental-fd42bb3d834dfda6.jpg",
+      "sha256": "fd42bb3d834dfda657501235f703301899157a62bf0f45dd9b33f299ee4eff12",
+      "dhash": "1f35b6be92486c38",
+      "width": 512,
+      "height": 512,
+      "member": "valid/images/GOPR1906_JPG.rf.0b1bf1706935954630c38c37be5334c9.jpg",
+      "source_url": "https://doi.org/10.17632/mh6zpc7y9g.1#valid/images/GOPR1906_JPG.rf.0b1bf1706935954630c38c37be5334c9.jpg",
+      "license": "https://creativecommons.org/licenses/by/4.0/",
+      "split": "dental-audit",
+      "group": "mendeley-dental-instruments-v1",
+      "source_parent": "GOPR1906_JPG",
+      "objects": [
+        {
+          "bbox": [
+            0.128778017578125,
+            0.18227705859375,
+            0.197822376953125,
+            0.429843869140625
+          ],
+          "subtype": "dental aspirating syringe"
+        }
+      ],
+      "distractors": [
+        "Wire Orthopedic Cutter",
+        "Andrew Tongue Depressor",
+        "Maxillary molar dental extraction forceps",
+        "Mandibular Cowhorn forceps",
+        "Mandibular lower incisors forceps",
+        "Maxillary upper molars extraction forceps",
+        "Maxillary upper incisors forceps",
+        "Mandibular anterior extraction forceps",
+        "Maxillary anterior canine forceps",
+        "Mandibular lower molar forceps",
+        "Angled artery forceps",
+        "Aji bone cutter",
+        "Cross Bar elevator",
+        "Frazier Suction Tube",
+        "Maxillary upper molar forceps",
+        "Mayo Hegar needle holder",
+        "Orthodontic ligature cutter",
+        "Dental elevator",
+        "Straight artery forceps",
+        "Straight tweezers",
+        "Curved gum scissors"
+      ]
+    },
+    {
+      "id": "dental-3585a50a6af9f1e0",
+      "image": "detection_hillclimb/dental/images/dental-3585a50a6af9f1e0.jpg",
+      "sha256": "3585a50a6af9f1e0e174724b4b4871ff9472e0cc54efa5918908a2dbedee9b46",
+      "dhash": "0db52f2e0f1b3b1b",
+      "width": 512,
+      "height": 512,
+      "member": "valid/images/GOPR1883_JPG.rf.5601db58ec5fffaff8b1fdddba64605d.jpg",
+      "source_url": "https://doi.org/10.17632/mh6zpc7y9g.1#valid/images/GOPR1883_JPG.rf.5601db58ec5fffaff8b1fdddba64605d.jpg",
+      "license": "https://creativecommons.org/licenses/by/4.0/",
+      "split": "dental-audit",
+      "group": "mendeley-dental-instruments-v1",
+      "source_parent": "GOPR1883_JPG",
+      "objects": [
+        {
+          "bbox": [
+            0.31640625,
+            0.7666015625,
+            0.494140625,
+            0.8505859375
+          ],
+          "subtype": "dental aspirating syringe"
+        }
+      ],
+      "distractors": [
+        "Wire Orthopedic Cutter",
+        "Andrew Tongue Depressor",
+        "Maxillary molar dental extraction forceps",
+        "Mandibular Cowhorn forceps",
+        "Mandibular lower incisors forceps",
+        "Maxillary upper molars extraction forceps",
+        "Maxillary upper incisors forceps",
+        "Mandibular anterior extraction forceps",
+        "Maxillary anterior canine forceps",
+        "Mandibular lower molar forceps",
+        "Angled artery forceps",
+        "Aji bone cutter",
+        "Cross Bar elevator",
+        "Frazier Suction Tube",
+        "Maxillary upper molar forceps",
+        "Mayo Hegar needle holder",
+        "Orthodontic ligature cutter",
+        "Dental elevator",
+        "Straight artery forceps",
+        "Straight tweezers",
+        "Curved gum scissors"
+      ]
+    },
+    {
+      "id": "dental-3e4fa4c5b24eb0ae",
+      "image": "detection_hillclimb/dental/images/dental-3e4fa4c5b24eb0ae.jpg",
+      "sha256": "3e4fa4c5b24eb0ae27841d4b7962900475c371017d6cf19793c142d82158361d",
+      "dhash": "0b1b138317272f1b",
+      "width": 512,
+      "height": 512,
+      "member": "test/images/GOPR1822_JPG.rf.af0e166533205cb5bba14d2a8e1617b0.jpg",
+      "source_url": "https://doi.org/10.17632/mh6zpc7y9g.1#test/images/GOPR1822_JPG.rf.af0e166533205cb5bba14d2a8e1617b0.jpg",
+      "license": "https://creativecommons.org/licenses/by/4.0/",
+      "split": "dental-audit",
+      "group": "mendeley-dental-instruments-v1",
+      "source_parent": "GOPR1822_JPG",
+      "objects": [
+        {
+          "bbox": [
+            0.607012751953125,
+            0.18268821875,
+            0.7662196484375,
+            0.35925718359375
+          ],
+          "subtype": "dental aspirating syringe"
+        }
+      ],
+      "distractors": [
+        "Wire Orthopedic Cutter",
+        "Andrew Tongue Depressor",
+        "Maxillary molar dental extraction forceps",
+        "Mandibular Cowhorn forceps",
+        "Mandibular lower incisors forceps",
+        "Maxillary upper molars extraction forceps",
+        "Maxillary upper incisors forceps",
+        "Mandibular anterior extraction forceps",
+        "Maxillary anterior canine forceps",
+        "Mandibular lower molar forceps",
+        "Aji bone cutter",
+        "Cross Bar elevator",
+        "Frazier Suction Tube",
+        "Maxillary upper molar forceps",
+        "Mayo Hegar needle holder",
+        "Orthodontic ligature cutter",
+        "Dental elevator",
+        "Straight artery forceps",
+        "Straight tweezers",
+        "Curved gum scissors",
+        "Angled artery forceps"
+      ]
+    },
+    {
+      "id": "dental-c430908d9d696ab8",
+      "image": "detection_hillclimb/dental/images/dental-c430908d9d696ab8.jpg",
+      "sha256": "c430908d9d696ab8a7ab6f15ee8c08cd1b104c986737f9ea02db91226bb6bc7a",
+      "dhash": "0b03091135707066",
+      "width": 512,
+      "height": 512,
+      "member": "valid/images/Dental-elevator-011_JPG.rf.67db4ea0c3d080fcacaaf365e416f55f.jpg",
+      "source_url": "https://doi.org/10.17632/mh6zpc7y9g.1#valid/images/Dental-elevator-011_JPG.rf.67db4ea0c3d080fcacaaf365e416f55f.jpg",
+      "license": "https://creativecommons.org/licenses/by/4.0/",
+      "split": "dental-audit",
+      "group": "mendeley-dental-instruments-v1",
+      "source_parent": "Dental-elevator-011_JPG",
+      "objects": [],
+      "distractors": [
+        "Dental elevator"
+      ]
+    },
+    {
+      "id": "dental-02b7ba125649ccf4",
+      "image": "detection_hillclimb/dental/images/dental-02b7ba125649ccf4.jpg",
+      "sha256": "02b7ba125649ccf414da5f63b504e1c600bc46359f3aeee9ba50dae0fe46d75f",
+      "dhash": "832323331b313535",
+      "width": 512,
+      "height": 512,
+      "member": "valid/images/Dental-elevator-004_JPG.rf.0b3a8e1050d561f67d5235af2095f738.jpg",
+      "source_url": "https://doi.org/10.17632/mh6zpc7y9g.1#valid/images/Dental-elevator-004_JPG.rf.0b3a8e1050d561f67d5235af2095f738.jpg",
+      "license": "https://creativecommons.org/licenses/by/4.0/",
+      "split": "dental-audit",
+      "group": "mendeley-dental-instruments-v1",
+      "source_parent": "Dental-elevator-004_JPG",
+      "objects": [],
+      "distractors": [
+        "Dental elevator"
+      ]
+    },
+    {
+      "id": "dental-0e2e4e880820e2c4",
+      "image": "detection_hillclimb/dental/images/dental-0e2e4e880820e2c4.jpg",
+      "sha256": "0e2e4e880820e2c4267f53d6f6bbfcd251a1f237c160120debcf127d70afc6b4",
+      "dhash": "2b03213119717164",
+      "width": 512,
+      "height": 512,
+      "member": "valid/images/Dental-elevator-028_JPG.rf.6681986cb299e60ad7f5cd10aef33424.jpg",
+      "source_url": "https://doi.org/10.17632/mh6zpc7y9g.1#valid/images/Dental-elevator-028_JPG.rf.6681986cb299e60ad7f5cd10aef33424.jpg",
+      "license": "https://creativecommons.org/licenses/by/4.0/",
+      "split": "dental-audit",
+      "group": "mendeley-dental-instruments-v1",
+      "source_parent": "Dental-elevator-028_JPG",
+      "objects": [],
+      "distractors": [
+        "Dental elevator"
+      ]
+    },
+    {
+      "id": "dental-b03cc1eb7e04bfa4",
+      "image": "detection_hillclimb/dental/images/dental-b03cc1eb7e04bfa4.jpg",
+      "sha256": "b03cc1eb7e04bfa40e397a932f7210a1a9cfc00525c43ca51d4e24f659d5fd11",
+      "dhash": "ce1b2765360b1502",
+      "width": 512,
+      "height": 512,
+      "member": "valid/images/Cross-Bar-elevator-011_JPG.rf.4588273dc1f85d5506c5469d8dd5e1fd.jpg",
+      "source_url": "https://doi.org/10.17632/mh6zpc7y9g.1#valid/images/Cross-Bar-elevator-011_JPG.rf.4588273dc1f85d5506c5469d8dd5e1fd.jpg",
+      "license": "https://creativecommons.org/licenses/by/4.0/",
+      "split": "dental-audit",
+      "group": "mendeley-dental-instruments-v1",
+      "source_parent": "Cross-Bar-elevator-011_JPG",
+      "objects": [],
+      "distractors": [
+        "Cross Bar elevator"
+      ]
+    },
+    {
+      "id": "dental-3cd0c177ab8f6863",
+      "image": "detection_hillclimb/dental/images/dental-3cd0c177ab8f6863.jpg",
+      "sha256": "3cd0c177ab8f6863a03060dc64dfbe68e26cc20c025f0cd078b775b17b0615aa",
+      "dhash": "3f2b1571710d0d5f",
+      "width": 512,
+      "height": 512,
+      "member": "valid/images/Cross-Bar-elevator-006_JPG.rf.340f67ce918e214c489009cc69d309db.jpg",
+      "source_url": "https://doi.org/10.17632/mh6zpc7y9g.1#valid/images/Cross-Bar-elevator-006_JPG.rf.340f67ce918e214c489009cc69d309db.jpg",
+      "license": "https://creativecommons.org/licenses/by/4.0/",
+      "split": "dental-audit",
+      "group": "mendeley-dental-instruments-v1",
+      "source_parent": "Cross-Bar-elevator-006_JPG",
+      "objects": [],
+      "distractors": [
+        "Cross Bar elevator"
+      ]
+    }
+  ],
+  "source": "https://doi.org/10.17632/mh6zpc7y9g.1",
+  "license": "https://creativecommons.org/licenses/by/4.0/",
+  "archive_sha256": "8d55211ee5d1250fc8883c3c9f09a86413a89281c4290babb5b715fcc4a495a1",
+  "source_member": "Dental tools Datasets/Dental Surgical Tools.v1i.yolov11.zip",
+  "images": 20,
+  "positives": 12,
+  "negatives": 8,
+  "scope": "Single external dental source. Repeated specimens possible.",
+  "reference_status": "Publisher annotations pending the separate visual check."
+}

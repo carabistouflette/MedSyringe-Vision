@@ -1,0 +1,340 @@
+{
+  "design": "known-legible same-session development crops; one target token per image",
+  "code_sha256": "357a7d4d23710792661ac92c49b16d6966d8edca9dde4602176745585825011f",
+  "samples": [
+    {
+      "id": "IMG_3198",
+      "expected_visible_token": "60",
+      "status": "review",
+      "candidates": [
+        {
+          "text": "40",
+          "score": 0.9304734,
+          "crop_bbox": [
+            0.506578947368421,
+            0.3433333333333333,
+            0.618421052631579,
+            0.38
+          ],
+          "rotation": 0
+        },
+        {
+          "text": "60",
+          "score": 0.9269778399999999,
+          "crop_bbox": [
+            0.5723684210526315,
+            0.5406666666666666,
+            0.7741228070175439,
+            0.5806666666666667
+          ],
+          "rotation": 0
+        },
+        {
+          "text": "14",
+          "score": 0.66104797,
+          "crop_bbox": [
+            0.14692982456140352,
+            0.5820000000000001,
+            0.20614035087719298,
+            0.5986666666666667
+          ],
+          "rotation": 270
+        }
+      ],
+      "capacity": null,
+      "apparent_volume": null,
+      "matched": true,
+      "seconds": 2.1081972990068607
+    },
+    {
+      "id": "IMG_3206",
+      "expected_visible_token": "60",
+      "status": "review",
+      "candidates": [
+        {
+          "text": "7",
+          "score": 0.72761192,
+          "crop_bbox": [
+            0.4170804369414101,
+            0.486,
+            0.5044687189672294,
+            0.5446666666666666
+          ],
+          "rotation": 270
+        },
+        {
+          "text": "09",
+          "score": 0.6772663900000001,
+          "crop_bbox": [
+            0.4915590863952334,
+            0.5606666666666666,
+            0.5670307845084409,
+            0.6026666666666667
+          ],
+          "rotation": 180
+        }
+      ],
+      "capacity": null,
+      "apparent_volume": null,
+      "matched": false,
+      "seconds": 3.585374333008076
+    },
+    {
+      "id": "IMG_3215",
+      "expected_visible_token": "20",
+      "status": "review",
+      "candidates": [
+        {
+          "text": "15",
+          "score": 0.9062387099999999,
+          "crop_bbox": [
+            0.36103151862464183,
+            0.478,
+            0.5272206303724928,
+            0.508
+          ],
+          "rotation": 0
+        },
+        {
+          "text": "4",
+          "score": 0.81322693,
+          "crop_bbox": [
+            0.09455587392550144,
+            0.31066666666666665,
+            0.166189111747851,
+            0.31733333333333336
+          ],
+          "rotation": 270
+        },
+        {
+          "text": "3",
+          "score": 0.70085533,
+          "crop_bbox": [
+            0.2320916905444126,
+            0.42,
+            0.3180515759312321,
+            0.42733333333333334
+          ],
+          "rotation": 90
+        }
+      ],
+      "capacity": null,
+      "apparent_volume": null,
+      "matched": false,
+      "seconds": 2.3235239290079335
+    },
+    {
+      "id": "IMG_3228",
+      "expected_visible_token": "20",
+      "status": "review",
+      "candidates": [
+        {
+          "text": "20",
+          "score": 0.96908272,
+          "crop_bbox": [
+            0.35945945945945945,
+            0.724,
+            0.572972972972973,
+            0.7593333333333333
+          ],
+          "rotation": 0
+        },
+        {
+          "text": "10",
+          "score": 0.9663207199999999,
+          "crop_bbox": [
+            0.37567567567567567,
+            0.412,
+            0.572972972972973,
+            0.45
+          ],
+          "rotation": 0
+        },
+        {
+          "text": "15",
+          "score": 0.95590248,
+          "crop_bbox": [
+            0.37567567567567567,
+            0.5706666666666667,
+            0.5675675675675675,
+            0.6066666666666667
+          ],
+          "rotation": 0
+        }
+      ],
+      "capacity": null,
+      "apparent_volume": null,
+      "matched": true,
+      "seconds": 2.7431171420030296
+    },
+    {
+      "id": "IMG_3245",
+      "expected_visible_token": "20",
+      "status": "review",
+      "candidates": [
+        {
+          "text": "20",
+          "score": 0.95233093,
+          "crop_bbox": [
+            0.5670886075949367,
+            0.6773333333333333,
+            0.7088607594936709,
+            0.7153333333333334
+          ],
+          "rotation": 0
+        }
+      ],
+      "capacity": null,
+      "apparent_volume": null,
+      "matched": true,
+      "seconds": 3.177606287994422
+    },
+    {
+      "id": "IMG_3251",
+      "expected_visible_token": "60",
+      "status": "review",
+      "candidates": [
+        {
+          "text": "30",
+          "score": 0.95624634,
+          "crop_bbox": [
+            0.25435540069686413,
+            0.31333333333333335,
+            0.37630662020905925,
+            0.358
+          ],
+          "rotation": 0
+        },
+        {
+          "text": "09",
+          "score": 0.95143669,
+          "crop_bbox": [
+            0.43205574912891986,
+            0.6493333333333333,
+            0.5609756097560976,
+            0.6993333333333334
+          ],
+          "rotation": 180
+        },
+        {
+          "text": "09",
+          "score": 0.88591019,
+          "crop_bbox": [
+            0.35888501742160284,
+            0.524,
+            0.5156794425087108,
+            0.5873333333333333
+          ],
+          "rotation": 180
+        },
+        {
+          "text": "50",
+          "score": 0.86284271,
+          "crop_bbox": [
+            0.3588850174216028,
+            0.524,
+            0.5156794425087108,
+            0.5873333333333334
+          ],
+          "rotation": 0
+        },
+        {
+          "text": "ml",
+          "score": 0.67220291,
+          "crop_bbox": [
+            0.40069686411149824,
+            0.5926666666666667,
+            0.524390243902439,
+            0.6346666666666667
+          ],
+          "rotation": 0
+        }
+      ],
+      "capacity": null,
+      "apparent_volume": null,
+      "matched": false,
+      "seconds": 2.8884293739974964
+    },
+    {
+      "id": "IMG_3292",
+      "expected_visible_token": "20",
+      "status": "unreadable",
+      "candidates": [],
+      "capacity": null,
+      "apparent_volume": null,
+      "matched": false,
+      "seconds": 1.8324154570000246
+    },
+    {
+      "id": "IMG_3318",
+      "expected_visible_token": "20",
+      "status": "review",
+      "candidates": [
+        {
+          "text": "20",
+          "score": 0.96502731,
+          "crop_bbox": [
+            0.3081232492997199,
+            0.5793333333333334,
+            0.48179271708683474,
+            0.6086666666666667
+          ],
+          "rotation": 0
+        }
+      ],
+      "capacity": null,
+      "apparent_volume": null,
+      "matched": true,
+      "seconds": 2.13653659899137
+    },
+    {
+      "id": "IMG_3321",
+      "expected_visible_token": "20",
+      "status": "review",
+      "candidates": [
+        {
+          "text": "20",
+          "score": 0.96631897,
+          "crop_bbox": [
+            0.5565749235474006,
+            0.542,
+            0.7033639143730887,
+            0.572
+          ],
+          "rotation": 0
+        },
+        {
+          "text": "15",
+          "score": 0.88408806,
+          "crop_bbox": [
+            0.5321100917431193,
+            0.43333333333333335,
+            0.6697247706422018,
+            0.462
+          ],
+          "rotation": 0
+        },
+        {
+          "text": "ml",
+          "score": 0.65148575,
+          "crop_bbox": [
+            0.5504587155963303,
+            0.5086666666666667,
+            0.6819571865443425,
+            0.5393333333333333
+          ],
+          "rotation": 0
+        }
+      ],
+      "capacity": null,
+      "apparent_volume": null,
+      "matched": true,
+      "seconds": 1.9573954249935923
+    }
+  ],
+  "exact": 5,
+  "status_counts": {
+    "review": 8,
+    "unreadable": 1
+  }
+}

@@ -1,0 +1,485 @@
+{
+  "passed": false,
+  "totals": {
+    "clear": {
+      "legacy": {
+        "images": 14,
+        "supported": 0,
+        "median_lstar_error": null,
+        "false_reports": 1
+      },
+      "candidate": {
+        "images": 14,
+        "supported": 0,
+        "median_lstar_error": null,
+        "false_reports": 1
+      }
+    },
+    "public": {
+      "legacy": {
+        "images": 6,
+        "supported": 0,
+        "median_lstar_error": null,
+        "false_reports": 0
+      },
+      "candidate": {
+        "images": 6,
+        "supported": 0,
+        "median_lstar_error": null,
+        "false_reports": 2
+      },
+      "unguarded": {
+        "images": 6,
+        "supported": 0,
+        "median_lstar_error": null,
+        "false_reports": 2
+      }
+    }
+  },
+  "strategy": {
+    "width_fraction": 0.14,
+    "min_run": 3,
+    "cut_glare": false
+  },
+  "clear": {
+    "IMG_3178": {
+      "expected": false,
+      "legacy": {
+        "status": "insufficient evidence",
+        "reason": "The visible color covers too little of the barrel.",
+        "lightness": null,
+        "opacity": null,
+        "opacity_reason": "A registered clear-barrel reference at the same exposure is required."
+      },
+      "candidate": {
+        "status": "insufficient evidence",
+        "lightness": null,
+        "apparent_color": null,
+        "opacity": null,
+        "opacity_reason": "A registered clear-barrel reference at the same exposure is required."
+      }
+    },
+    "IMG_3179": {
+      "expected": false,
+      "legacy": {
+        "status": "insufficient evidence",
+        "reason": "The visible color covers too little of the barrel.",
+        "lightness": null,
+        "opacity": null,
+        "opacity_reason": "A registered clear-barrel reference at the same exposure is required."
+      },
+      "candidate": {
+        "status": "insufficient evidence",
+        "lightness": null,
+        "apparent_color": null,
+        "opacity": null,
+        "opacity_reason": "A registered clear-barrel reference at the same exposure is required."
+      }
+    },
+    "IMG_3180": {
+      "expected": false,
+      "legacy": {
+        "status": "appearance measured",
+        "reason": "Colored interior of the segmented syringe",
+        "lightness": {
+          "lstar": 58.9,
+          "iqr": [
+            53.5,
+            61.5
+          ],
+          "category": "medium"
+        },
+        "region": [
+          0.5725593667546174,
+          0.11904761904761904,
+          0.8232189973614775,
+          0.34523809523809523
+        ],
+        "support_fraction": 0.11,
+        "opacity": null,
+        "opacity_reason": "A registered clear-barrel reference at the same exposure is required."
+      },
+      "candidate": {
+        "status": "appearance measured",
+        "reason": "Measured within the supported barrel interior",
+        "lightness": {
+          "lstar": 61.1,
+          "iqr": [
+            58.9,
+            62.0
+          ],
+          "category": "medium"
+        },
+        "apparent_color": {
+          "lab": [
+            61.1,
+            3.2,
+            13.7
+          ],
+          "chroma": 14.0,
+          "srgb": [
+            163,
+            145,
+            122
+          ],
+          "profile": "Embedded profile converted to sRGB"
+        },
+        "region": [
+          0.5593667546174143,
+          0.11190476190476191,
+          0.8232189973614775,
+          0.3547619047619048
+        ],
+        "opacity": null,
+        "opacity_reason": "A registered clear-barrel reference at the same exposure is required."
+      }
+    },
+    "IMG_3181": {
+      "expected": false,
+      "legacy": {
+        "status": "insufficient evidence",
+        "reason": "The visible color covers too little of the barrel.",
+        "lightness": null,
+        "opacity": null,
+        "opacity_reason": "A registered clear-barrel reference at the same exposure is required."
+      },
+      "candidate": {
+        "status": "insufficient evidence",
+        "lightness": null,
+        "apparent_color": null,
+        "opacity": null,
+        "opacity_reason": "A registered clear-barrel reference at the same exposure is required."
+      }
+    },
+    "IMG_3182": {
+      "expected": false,
+      "legacy": {
+        "status": "insufficient evidence",
+        "reason": "A colored liquid region could not be isolated.",
+        "lightness": null,
+        "opacity": null,
+        "opacity_reason": "A registered clear-barrel reference at the same exposure is required."
+      },
+      "candidate": {
+        "status": "insufficient evidence",
+        "lightness": null,
+        "apparent_color": null,
+        "opacity": null,
+        "opacity_reason": "A registered clear-barrel reference at the same exposure is required."
+      }
+    },
+    "IMG_3183": {
+      "expected": false,
+      "legacy": {
+        "status": "insufficient evidence",
+        "reason": "A colored liquid region could not be isolated.",
+        "lightness": null,
+        "opacity": null,
+        "opacity_reason": "A registered clear-barrel reference at the same exposure is required."
+      },
+      "candidate": {
+        "status": "insufficient evidence",
+        "lightness": null,
+        "apparent_color": null,
+        "opacity": null,
+        "opacity_reason": "A registered clear-barrel reference at the same exposure is required."
+      }
+    },
+    "IMG_3184": {
+      "expected": false,
+      "legacy": {
+        "status": "insufficient evidence",
+        "reason": "A colored liquid region could not be isolated.",
+        "lightness": null,
+        "opacity": null,
+        "opacity_reason": "A registered clear-barrel reference at the same exposure is required."
+      },
+      "candidate": {
+        "status": "insufficient evidence",
+        "lightness": null,
+        "apparent_color": null,
+        "opacity": null,
+        "opacity_reason": "A registered clear-barrel reference at the same exposure is required."
+      }
+    },
+    "IMG_3185": {
+      "expected": false,
+      "legacy": {
+        "status": "insufficient evidence",
+        "reason": "The visible color covers too little of the barrel.",
+        "lightness": null,
+        "opacity": null,
+        "opacity_reason": "A registered clear-barrel reference at the same exposure is required."
+      },
+      "candidate": {
+        "status": "insufficient evidence",
+        "lightness": null,
+        "apparent_color": null,
+        "opacity": null,
+        "opacity_reason": "A registered clear-barrel reference at the same exposure is required."
+      }
+    },
+    "IMG_3186": {
+      "expected": false,
+      "legacy": {
+        "status": "insufficient evidence",
+        "reason": "A colored liquid region could not be isolated.",
+        "lightness": null,
+        "opacity": null,
+        "opacity_reason": "A registered clear-barrel reference at the same exposure is required."
+      },
+      "candidate": {
+        "status": "insufficient evidence",
+        "lightness": null,
+        "apparent_color": null,
+        "opacity": null,
+        "opacity_reason": "A registered clear-barrel reference at the same exposure is required."
+      }
+    },
+    "IMG_3187": {
+      "expected": false,
+      "legacy": {
+        "status": "insufficient evidence",
+        "reason": "The visible color covers too little of the barrel.",
+        "lightness": null,
+        "opacity": null,
+        "opacity_reason": "A registered clear-barrel reference at the same exposure is required."
+      },
+      "candidate": {
+        "status": "insufficient evidence",
+        "lightness": null,
+        "apparent_color": null,
+        "opacity": null,
+        "opacity_reason": "A registered clear-barrel reference at the same exposure is required."
+      }
+    },
+    "IMG_3188": {
+      "expected": false,
+      "legacy": {
+        "status": "insufficient evidence",
+        "reason": "The visible color covers too little of the barrel.",
+        "lightness": null,
+        "opacity": null,
+        "opacity_reason": "A registered clear-barrel reference at the same exposure is required."
+      },
+      "candidate": {
+        "status": "insufficient evidence",
+        "lightness": null,
+        "apparent_color": null,
+        "opacity": null,
+        "opacity_reason": "A registered clear-barrel reference at the same exposure is required."
+      }
+    },
+    "IMG_3189": {
+      "expected": false,
+      "legacy": {
+        "status": "insufficient evidence",
+        "reason": "The visible color covers too little of the barrel.",
+        "lightness": null,
+        "opacity": null,
+        "opacity_reason": "A registered clear-barrel reference at the same exposure is required."
+      },
+      "candidate": {
+        "status": "insufficient evidence",
+        "lightness": null,
+        "apparent_color": null,
+        "opacity": null,
+        "opacity_reason": "A registered clear-barrel reference at the same exposure is required."
+      }
+    },
+    "IMG_3190": {
+      "expected": false,
+      "legacy": {
+        "status": "insufficient evidence",
+        "reason": "The visible color covers too little of the barrel.",
+        "lightness": null,
+        "opacity": null,
+        "opacity_reason": "A registered clear-barrel reference at the same exposure is required."
+      },
+      "candidate": {
+        "status": "insufficient evidence",
+        "lightness": null,
+        "apparent_color": null,
+        "opacity": null,
+        "opacity_reason": "A registered clear-barrel reference at the same exposure is required."
+      }
+    },
+    "IMG_3191": {
+      "expected": false,
+      "legacy": {
+        "status": "insufficient evidence",
+        "reason": "The visible color covers too little of the barrel.",
+        "lightness": null,
+        "opacity": null,
+        "opacity_reason": "A registered clear-barrel reference at the same exposure is required."
+      },
+      "candidate": {
+        "status": "insufficient evidence",
+        "lightness": null,
+        "apparent_color": null,
+        "opacity": null,
+        "opacity_reason": "A registered clear-barrel reference at the same exposure is required."
+      }
+    }
+  },
+  "public": {
+    "163322504": {
+      "expected": false,
+      "legacy": {
+        "status": "insufficient evidence",
+        "reason": "A colored liquid region could not be isolated.",
+        "lightness": null,
+        "opacity": null,
+        "opacity_reason": "A registered clear-barrel reference at the same exposure is required."
+      },
+      "candidate": {
+        "status": "appearance measured",
+        "reason": "Measured within the supported barrel interior",
+        "lightness": {
+          "lstar": 60.7,
+          "iqr": [
+            54.7,
+            65.0
+          ],
+          "category": "medium"
+        },
+        "apparent_color": {
+          "lab": [
+            60.7,
+            -2.3,
+            -20.9
+          ],
+          "chroma": 21.0,
+          "srgb": [
+            124,
+            146,
+            187
+          ],
+          "profile": "Embedded profile converted to sRGB"
+        },
+        "region": [
+          0.0851063829787234,
+          0.03333333333333333,
+          0.5957446808510638,
+          0.4023809523809524
+        ],
+        "opacity": null,
+        "opacity_reason": "A registered clear-barrel reference at the same exposure is required."
+      }
+    },
+    "178849232": {
+      "expected": false,
+      "legacy": {
+        "status": "insufficient evidence",
+        "reason": "The syringe silhouette is too small or incomplete.",
+        "lightness": null,
+        "opacity": null,
+        "opacity_reason": "A registered clear-barrel reference at the same exposure is required."
+      },
+      "candidate": {
+        "status": "insufficient evidence",
+        "lightness": null,
+        "apparent_color": null,
+        "opacity": null,
+        "opacity_reason": "A registered clear-barrel reference at the same exposure is required."
+      }
+    },
+    "201441851": {
+      "expected": false,
+      "legacy": {
+        "status": "insufficient evidence",
+        "reason": "The syringe silhouette is too small or incomplete.",
+        "lightness": null,
+        "opacity": null,
+        "opacity_reason": "A registered clear-barrel reference at the same exposure is required."
+      },
+      "candidate": {
+        "status": "insufficient evidence",
+        "lightness": null,
+        "apparent_color": null,
+        "opacity": null,
+        "opacity_reason": "A registered clear-barrel reference at the same exposure is required."
+      }
+    },
+    "146786108": {
+      "expected": false,
+      "legacy": {
+        "status": "insufficient evidence",
+        "reason": "The syringe silhouette is too small or incomplete.",
+        "lightness": null,
+        "opacity": null,
+        "opacity_reason": "A registered clear-barrel reference at the same exposure is required."
+      },
+      "candidate": {
+        "status": "insufficient evidence",
+        "lightness": null,
+        "apparent_color": null,
+        "opacity": null,
+        "opacity_reason": "A registered clear-barrel reference at the same exposure is required."
+      }
+    },
+    "40322872": {
+      "expected": false,
+      "legacy": {
+        "status": "insufficient evidence",
+        "reason": "The visible color covers too little of the barrel.",
+        "lightness": null,
+        "opacity": null,
+        "opacity_reason": "A registered clear-barrel reference at the same exposure is required."
+      },
+      "candidate": {
+        "status": "appearance measured",
+        "reason": "Measured within the supported barrel interior",
+        "lightness": {
+          "lstar": 62.3,
+          "iqr": [
+            47.9,
+            68.8
+          ],
+          "category": "medium"
+        },
+        "apparent_color": {
+          "lab": [
+            62.3,
+            19.2,
+            43.5
+          ],
+          "chroma": 47.6,
+          "srgb": [
+            202,
+            135,
+            58
+          ],
+          "profile": "sRGB assumed"
+        },
+        "region": [
+          0.48333333333333334,
+          0.2777777777777778,
+          0.680952380952381,
+          0.7592592592592593
+        ],
+        "opacity": null,
+        "opacity_reason": "A registered clear-barrel reference at the same exposure is required."
+      }
+    },
+    "19682206": {
+      "expected": false,
+      "legacy": {
+        "status": "insufficient evidence",
+        "reason": "The syringe silhouette is too small or incomplete.",
+        "lightness": null,
+        "opacity": null,
+        "opacity_reason": "A registered clear-barrel reference at the same exposure is required."
+      },
+      "candidate": {
+        "status": "insufficient evidence",
+        "lightness": null,
+        "apparent_color": null,
+        "opacity": null,
+        "opacity_reason": "A registered clear-barrel reference at the same exposure is required."
+      }
+    }
+  },
+  "selection_sha256": "10fbe592616ce96d841672b015c5cb623047c7fedce64564a86bf52afb661495",
+  "scope": "Previously consulted appearance controls."
+}

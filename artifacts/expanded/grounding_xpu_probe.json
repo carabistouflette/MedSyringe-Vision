@@ -1,0 +1,83 @@
+[
+  {
+    "id": "IMG_3161",
+    "cpu_seconds": 8.47826519899536,
+    "xpu_seconds": 6.588999573999899,
+    "iou": 0.9997145041148491,
+    "abs_score": 0.0017347906075120267,
+    "cpu_accepted": 1,
+    "xpu_accepted": 1
+  },
+  {
+    "id": "IMG_3167",
+    "cpu_seconds": 6.959209273001761,
+    "xpu_seconds": 1.4325732750003226,
+    "iou": 0.9997670974494124,
+    "abs_score": 0.0005162685732471584,
+    "cpu_accepted": 1,
+    "xpu_accepted": 1
+  },
+  {
+    "id": "IMG_3173",
+    "cpu_seconds": 6.570008479000535,
+    "xpu_seconds": 1.6194620149908587,
+    "iou": 0.9995634965130348,
+    "abs_score": 0.002655491134375798,
+    "cpu_accepted": 1,
+    "xpu_accepted": 1
+  },
+  {
+    "id": "IMG_3193",
+    "cpu_seconds": 8.096076256013475,
+    "xpu_seconds": 1.847598549007671,
+    "iou": 0.9998306974312463,
+    "abs_score": 0.0003837050430821609,
+    "cpu_accepted": 1,
+    "xpu_accepted": 1
+  },
+  {
+    "id": "IMG_3199",
+    "cpu_seconds": 6.826180131000001,
+    "xpu_seconds": 1.3585919149918482,
+    "iou": 0.9992855899389638,
+    "abs_score": 0.0018816084036940017,
+    "cpu_accepted": 1,
+    "xpu_accepted": 1
+  },
+  {
+    "id": "IMG_3216",
+    "cpu_seconds": 6.704866012005368,
+    "xpu_seconds": 1.4626449419884011,
+    "iou": 0.9986267291772494,
+    "abs_score": 0.00028043001819699764,
+    "cpu_accepted": 1,
+    "xpu_accepted": 1
+  },
+  {
+    "id": "IMG_3222",
+    "cpu_seconds": 6.143680987996049,
+    "xpu_seconds": 1.3532148010126548,
+    "iou": 0.999402357864772,
+    "abs_score": 0.000456288795327886,
+    "cpu_accepted": 1,
+    "xpu_accepted": 1
+  },
+  {
+    "id": "IMG_3228",
+    "cpu_seconds": 6.758566339005483,
+    "xpu_seconds": 1.408078039996326,
+    "iou": 0.9998645463274174,
+    "abs_score": 2.7643526350318304e-05,
+    "cpu_accepted": 1,
+    "xpu_accepted": 1
+  },
+  {
+    "id": "IMG_3252",
+    "cpu_seconds": 7.197910850998596,
+    "xpu_seconds": 1.4700077990128193,
+    "iou": 0.9998426945195058,
+    "abs_score": 0.001157743577678283,
+    "cpu_accepted": 1,
+    "xpu_accepted": 1
+  }
+]

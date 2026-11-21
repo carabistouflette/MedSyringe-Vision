@@ -1,0 +1,15 @@
+{
+  "image": "IMG_3185.jpeg",
+  "detected": 1,
+  "browser": "Chromium",
+  "no_page_errors": true,
+  "flows": [
+    "image upload",
+    "real detection overlay",
+    "inventory",
+    "persisted review",
+    "ZIP report with evidence",
+    "mobile viewport without horizontal overflow",
+    "expanded marking release and preserved 20 mL evidence"
+  ]
+}

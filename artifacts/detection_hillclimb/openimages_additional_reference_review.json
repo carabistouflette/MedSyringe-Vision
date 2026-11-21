@@ -1,0 +1,439 @@
+{
+  "source_screen_sha256": "9bb1179eec1f5dc9206e2d05c6c56a9126b8d80e78cbf4066a4691df695c8ff0",
+  "reviews": {
+    "01580f1a8a17501c": {
+      "status": "verified",
+      "reason": "Reviewed the whole photo and the publisher boxes before model inference."
+    },
+    "55e6ba27e74b134d": {
+      "status": "verified",
+      "reason": "Reviewed the whole photo and the publisher boxes before model inference."
+    },
+    "360e140029ff7f49": {
+      "status": "verified",
+      "reason": "Reviewed the whole photo and the publisher boxes before model inference."
+    },
+    "f5eb5bedde206c8e": {
+      "status": "verified",
+      "reason": "Reviewed the whole photo and the publisher boxes before model inference."
+    },
+    "2014be0963d6756a": {
+      "status": "confirmed lookalike",
+      "reason": "syringe-shaped construction toy",
+      "lookalikes": [
+        {
+          "kind": "syringe-shaped construction toy",
+          "bbox": [
+            0.060625,
+            0.029167,
+            0.955,
+            0.87
+          ]
+        }
+      ]
+    },
+    "2e00d647dd51af32": {
+      "status": "verified",
+      "reason": "Reviewed the whole photo and the publisher boxes before model inference."
+    },
+    "832904078a0ea965": {
+      "status": "verified",
+      "reason": "Reviewed the whole photo and the publisher boxes before model inference."
+    },
+    "28a6f423a4bf5aee": {
+      "status": "confirmed lookalike",
+      "reason": "syringe-shaped construction toy",
+      "lookalikes": [
+        {
+          "kind": "syringe-shaped construction toy",
+          "bbox": [
+            0.113125,
+            0.064167,
+            0.915,
+            0.858333
+          ]
+        }
+      ]
+    },
+    "fe78451c2db38dce": {
+      "status": "verified",
+      "reason": "Reviewed the whole photo and the publisher boxes before model inference."
+    },
+    "01c97c250f9c7b75": {
+      "status": "verified",
+      "reason": "Reviewed the whole photo and the publisher boxes before model inference."
+    },
+    "b0797224195efa04": {
+      "status": "verified",
+      "reason": "Reviewed the whole photo and the publisher boxes before model inference."
+    },
+    "1861c78ee758842d": {
+      "status": "verified",
+      "reason": "Reviewed the whole photo and the publisher boxes before model inference."
+    },
+    "c02d9d9238dbe976": {
+      "status": "excluded",
+      "reason": "Front macro shows the needle, hub and an out-of-focus collar. The visible body does not resolve a complete syringe."
+    },
+    "d2544bac7b0778ff": {
+      "status": "verified",
+      "reason": "Reviewed the whole photo and the publisher boxes before model inference."
+    },
+    "80a9efaca7fbc8e8": {
+      "status": "verified",
+      "reason": "Reviewed the whole photo and the publisher boxes before model inference."
+    },
+    "7e26d26f5f55fd6f": {
+      "status": "verified",
+      "reason": "Reviewed the whole photo and the publisher boxes before model inference."
+    },
+    "63a457d450d123ad": {
+      "status": "confirmed lookalike",
+      "reason": "novelty pen shaped like a syringe",
+      "lookalikes": [
+        {
+          "kind": "novelty pen shaped like a syringe",
+          "bbox": [
+            0.01375,
+            0.2675,
+            0.985,
+            0.7275
+          ]
+        }
+      ]
+    },
+    "5d123e575e31fa98": {
+      "status": "verified",
+      "reason": "Reviewed the whole photo and the publisher boxes before model inference."
+    },
+    "dc64fc3bbba44127": {
+      "status": "verified",
+      "reason": "Reviewed the whole photo and the publisher boxes before model inference."
+    },
+    "486f23d95bd8459c": {
+      "status": "confirmed lookalike",
+      "reason": "vacuum blood tube and holder",
+      "lookalikes": [
+        {
+          "kind": "vacuum blood tube and holder",
+          "bbox": [
+            0.05875,
+            0.3371,
+            0.4,
+            0.623352
+          ]
+        }
+      ]
+    },
+    "6de98358da59fbac": {
+      "status": "excluded",
+      "reason": "Flexible pet enema product in a squeeze tube. The device identity and extent are outside the medical-barrel convention."
+    },
+    "ad461a3dd3c858d9": {
+      "status": "verified",
+      "reason": "Reviewed the whole photo and the publisher boxes before model inference."
+    },
+    "c2b3f0c49e0a8af2": {
+      "status": "verified",
+      "reason": "Reviewed the whole photo and the publisher boxes before model inference."
+    },
+    "3a4cf474c5431e86": {
+      "status": "verified",
+      "reason": "Two provider boxes overlap the same packaged prefilled syringe.",
+      "objects": [
+        {
+          "bbox": [
+            0.348125,
+            0.578799,
+            0.89,
+            0.861163
+          ],
+          "occluded": false,
+          "truncated": false,
+          "provider": "xclick"
+        }
+      ],
+      "upstream": [
+        {
+          "bbox": [
+            0.348125,
+            0.578799,
+            0.89,
+            0.861163
+          ],
+          "occluded": false,
+          "truncated": false,
+          "provider": "xclick"
+        },
+        {
+          "bbox": [
+            0.353125,
+            0.580675,
+            0.89875,
+            0.863039
+          ],
+          "occluded": true,
+          "truncated": false,
+          "provider": "xclick"
+        }
+      ]
+    },
+    "f2f670ac8ca58235": {
+      "status": "verified",
+      "reason": "Reviewed the whole photo and the publisher boxes before model inference."
+    },
+    "cc545bc71a3c8629": {
+      "status": "verified",
+      "reason": "Reviewed the whole photo and the publisher boxes before model inference."
+    },
+    "55bc93f3d3f21ef0": {
+      "status": "confirmed lookalike",
+      "reason": "laboratory pipette",
+      "lookalikes": [
+        {
+          "kind": "laboratory pipette",
+          "bbox": [
+            0.50625,
+            0.0,
+            0.72125,
+            0.489642
+          ]
+        }
+      ]
+    },
+    "a9db50fc8a63a04a": {
+      "status": "verified",
+      "reason": "Reviewed the whole photo and the publisher boxes before model inference."
+    },
+    "95c67bb630dfbeac": {
+      "status": "verified",
+      "reason": "Reviewed the whole photo and the publisher boxes before model inference."
+    },
+    "acf0c516bb829a9d": {
+      "status": "verified",
+      "reason": "Reviewed the whole photo and the publisher boxes before model inference."
+    },
+    "e8651a3ebd48ea2e": {
+      "status": "verified",
+      "reason": "Reviewed the whole photo and the publisher boxes before model inference."
+    },
+    "ef37bcd070fd645f": {
+      "status": "verified",
+      "reason": "Reviewed the whole photo and the publisher boxes before model inference."
+    },
+    "5e7343835f0ccff7": {
+      "status": "verified",
+      "reason": "Reviewed the whole photo and the publisher boxes before model inference."
+    },
+    "4cb439be6f4087b7": {
+      "status": "verified",
+      "reason": "Reviewed the whole photo and the publisher boxes before model inference."
+    },
+    "400af6371020af5f": {
+      "status": "verified",
+      "reason": "Reviewed the whole photo and the publisher boxes before model inference."
+    },
+    "962072942e0b6577": {
+      "status": "verified",
+      "reason": "Reviewed the whole photo and the publisher boxes before model inference."
+    },
+    "6b8f6b04c856313c": {
+      "status": "verified",
+      "reason": "Reviewed the whole photo and the publisher boxes before model inference."
+    },
+    "7a0474694d905f9a": {
+      "status": "verified",
+      "reason": "Reviewed the whole photo and the publisher boxes before model inference."
+    },
+    "90a98e099cd1c6f6": {
+      "status": "verified",
+      "reason": "Reviewed the whole photo and the publisher boxes before model inference."
+    },
+    "a929372e95964a4f": {
+      "status": "verified",
+      "reason": "Reviewed the whole photo and the publisher boxes before model inference."
+    },
+    "02fce391c03c8c47": {
+      "status": "verified",
+      "reason": "Reviewed the whole photo and the publisher boxes before model inference."
+    },
+    "a561e1a203e1ab11": {
+      "status": "verified",
+      "reason": "Reviewed the whole photo and the publisher boxes before model inference."
+    },
+    "78442109a927a8fd": {
+      "status": "verified",
+      "reason": "Reviewed the whole photo and the publisher boxes before model inference."
+    },
+    "fb14424e93fbad4e": {
+      "status": "verified",
+      "reason": "Reviewed the whole photo and the publisher boxes before model inference."
+    },
+    "6a69c05fe78341ea": {
+      "status": "verified",
+      "reason": "Reviewed the whole photo and the publisher boxes before model inference."
+    },
+    "35aa4fff107f6fe6": {
+      "status": "confirmed lookalike",
+      "reason": "vacuum blood tube and holder",
+      "lookalikes": [
+        {
+          "kind": "vacuum blood tube and holder",
+          "bbox": [
+            0.17125,
+            0.249531,
+            0.439375,
+            0.630394
+          ]
+        }
+      ]
+    },
+    "979ea76acd05bffe": {
+      "status": "verified",
+      "reason": "Reviewed the whole photo and the publisher boxes before model inference."
+    },
+    "152a40d2f486d717": {
+      "status": "verified",
+      "reason": "Reviewed the whole photo and the publisher boxes before model inference."
+    },
+    "71a7abecc54fb02f": {
+      "status": "verified",
+      "reason": "Reviewed the whole photo and the publisher boxes before model inference."
+    },
+    "28b0af2e39ad119f": {
+      "status": "verified",
+      "reason": "Reviewed the whole photo and the publisher boxes before model inference."
+    },
+    "a6b3ab40356b6e27": {
+      "status": "verified",
+      "reason": "Reviewed the whole photo and the publisher boxes before model inference."
+    },
+    "e0b2675607efe021": {
+      "status": "confirmed lookalike",
+      "reason": "syringe-shaped construction toy",
+      "lookalikes": [
+        {
+          "kind": "syringe-shaped construction toy",
+          "bbox": [
+            0.086875,
+            0.0575,
+            0.92875,
+            0.86
+          ]
+        }
+      ]
+    },
+    "a93917dd57d2b624": {
+      "status": "verified",
+      "reason": "Reviewed the whole photo and the publisher boxes before model inference."
+    },
+    "5ab43f1ce4c706c9": {
+      "status": "verified",
+      "reason": "Reviewed the whole photo and the publisher boxes before model inference."
+    },
+    "b9a3e3e74f40152e": {
+      "status": "verified",
+      "reason": "Reviewed the whole photo and the publisher boxes before model inference."
+    },
+    "896c467dacafb3af": {
+      "status": "verified",
+      "reason": "Reviewed the whole photo and the publisher boxes before model inference."
+    },
+    "02df4feb19de8d50": {
+      "status": "verified",
+      "reason": "Reviewed the whole photo and the publisher boxes before model inference."
+    },
+    "3fedd9e7ed19675b": {
+      "status": "verified",
+      "reason": "Reviewed the whole photo and the publisher boxes before model inference."
+    },
+    "f85bc02c9d89ede3": {
+      "status": "verified",
+      "reason": "Reviewed the whole photo and the publisher boxes before model inference."
+    },
+    "18bbeaa787b1ba0c": {
+      "status": "verified",
+      "reason": "Reviewed the whole photo and the publisher boxes before model inference."
+    },
+    "77c12485bbf897ef": {
+      "status": "verified",
+      "reason": "Reviewed the whole photo and the publisher boxes before model inference."
+    },
+    "d7a6b1e753dd41b2": {
+      "status": "verified",
+      "reason": "Reviewed the whole photo and the publisher boxes before model inference."
+    },
+    "2f26460900bbb1a8": {
+      "status": "verified",
+      "reason": "Reviewed the whole photo and the publisher boxes before model inference."
+    },
+    "6105fe2c402a1664": {
+      "status": "verified",
+      "reason": "Reviewed the whole photo and the publisher boxes before model inference."
+    },
+    "c504b548adbb7d1f": {
+      "status": "verified",
+      "reason": "Reviewed the whole photo and the publisher boxes before model inference."
+    },
+    "9b7497095d2f583a": {
+      "status": "verified",
+      "reason": "Reviewed the whole photo and the publisher boxes before model inference."
+    },
+    "a51933733e374f01": {
+      "status": "verified",
+      "reason": "Reviewed the whole photo and the publisher boxes before model inference."
+    },
+    "27cc284274223d0c": {
+      "status": "verified",
+      "reason": "Two provider boxes overlap the same syringe held under a vial.",
+      "objects": [
+        {
+          "bbox": [
+            0.25,
+            0.415341,
+            0.825625,
+            0.68101
+          ],
+          "occluded": true,
+          "truncated": false,
+          "provider": "xclick"
+        }
+      ],
+      "upstream": [
+        {
+          "bbox": [
+            0.25,
+            0.415341,
+            0.825625,
+            0.68101
+          ],
+          "occluded": true,
+          "truncated": false,
+          "provider": "xclick"
+        },
+        {
+          "bbox": [
+            0.255,
+            0.419083,
+            0.826875,
+            0.695042
+          ],
+          "occluded": true,
+          "truncated": false,
+          "provider": "xclick"
+        }
+      ]
+    },
+    "df4a083bd7377bd5": {
+      "status": "verified",
+      "reason": "Reviewed the whole photo and the publisher boxes before model inference."
+    }
+  },
+  "method": "All staged photos inspected with only publisher reference overlays. Larger views opened for crowded or ambiguous cases.",
+  "status_counts": {
+    "preserved": 58,
+    "box_duplicates_corrected": 2,
+    "reclassified_as_lookalikes": 7,
+    "excluded_ambiguous": 2
+  }
+}

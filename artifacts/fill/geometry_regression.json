@@ -1,0 +1,44 @@
+{
+  "passed": false,
+  "strategy": {
+    "min_span": 0.44,
+    "ordered_scale": false
+  },
+  "selection_sha256": "848529c8be9fabb3ccc45d84c3440b35144d53d621a266ac33e45f710f745718",
+  "cases": {
+    "holdout": {
+      "counts": {
+        "images": 35,
+        "baseline": 18,
+        "added": 0,
+        "correct": 0,
+        "within_one_mark": 0,
+        "false_answers": 0
+      },
+      "added_cases": []
+    },
+    "holdout-60": {
+      "counts": {
+        "images": 10,
+        "baseline": 2,
+        "added": 0,
+        "correct": 0,
+        "within_one_mark": 0,
+        "false_answers": 0
+      },
+      "added_cases": []
+    },
+    "clear": {
+      "counts": {
+        "images": 14,
+        "baseline": 0,
+        "added": 0,
+        "correct": 0,
+        "within_one_mark": 0,
+        "false_answers": 0
+      },
+      "added_cases": []
+    }
+  },
+  "scope": "Previously consulted groups. Regression only, not new independent evidence."
+}

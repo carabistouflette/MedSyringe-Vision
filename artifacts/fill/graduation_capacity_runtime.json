@@ -1,0 +1,476 @@
+{
+  "passed": true,
+  "regulation": "Nominal capacity and visible scale only",
+  "policy": {
+    "readers": [
+      "tiny",
+      "medium"
+    ],
+    "confidence": 0.93,
+    "stroke": 4.0
+  },
+  "cases": [
+    {
+      "id": "IMG_3292",
+      "rotation": 0,
+      "before": [
+        20.0
+      ],
+      "after": [
+        20.0
+      ],
+      "gained": 0,
+      "added_ms": 0.686226999732753,
+      "expected": 20,
+      "passed": true,
+      "previous_fill": [
+        {
+          "status": "visual estimate",
+          "method": "Numbered graduations and nearest piston edge",
+          "ml": 20,
+          "interval_ml": [
+            18,
+            20
+          ],
+          "percent": 100,
+          "interval_percent": [
+            90,
+            100
+          ],
+          "capacity_ml": 20,
+          "piston_line": [
+            [
+              0.18822058666427977,
+              0.5691577954766045
+            ],
+            [
+              0.6466105270428444,
+              0.5776191963561561
+            ]
+          ],
+          "graduations": [
+            {
+              "ml": 10,
+              "crop_bbox": [
+                0.35642093435194633,
+                0.3241495240780905,
+                0.6148541377483823,
+                0.3687683250877817
+              ],
+              "text": "10"
+            },
+            {
+              "ml": 15,
+              "crop_bbox": [
+                0.27509530285518813,
+                0.43673793175841863,
+                0.5930542193997937,
+                0.4957204500558402
+              ],
+              "text": "15"
+            },
+            {
+              "ml": 20,
+              "crop_bbox": [
+                0.22765291779413702,
+                0.5489714902434004,
+                0.5355549195631203,
+                0.609976131640679
+              ],
+              "text": "20"
+            }
+          ],
+          "localization": {
+            "contrast": 24.6,
+            "scale_residual_ml": 0.09,
+            "tick_train_verified": false
+          }
+        }
+      ],
+      "final_fill": [
+        {
+          "status": "visual estimate",
+          "method": "Numbered graduations and nearest piston edge",
+          "ml": 20,
+          "interval_ml": [
+            18,
+            20
+          ],
+          "percent": 100,
+          "interval_percent": [
+            90,
+            100
+          ],
+          "capacity_ml": 20,
+          "piston_line": [
+            [
+              0.18822058666427977,
+              0.5691577954766045
+            ],
+            [
+              0.6466105270428444,
+              0.5776191963561561
+            ]
+          ],
+          "graduations": [
+            {
+              "ml": 10,
+              "crop_bbox": [
+                0.35642093435194633,
+                0.3241495240780905,
+                0.6148541377483823,
+                0.3687683250877817
+              ],
+              "text": "10"
+            },
+            {
+              "ml": 15,
+              "crop_bbox": [
+                0.27509530285518813,
+                0.43673793175841863,
+                0.5930542193997937,
+                0.4957204500558402
+              ],
+              "text": "15"
+            },
+            {
+              "ml": 20,
+              "crop_bbox": [
+                0.22765291779413702,
+                0.5489714902434004,
+                0.5355549195631203,
+                0.609976131640679
+              ],
+              "text": "20"
+            }
+          ],
+          "localization": {
+            "contrast": 24.6,
+            "scale_residual_ml": 0.09,
+            "tick_train_verified": false
+          }
+        }
+      ]
+    },
+    {
+      "id": "IMG_3294",
+      "rotation": 0,
+      "before": [
+        null
+      ],
+      "after": [
+        20.0
+      ],
+      "gained": 1,
+      "added_ms": 5941.6493349999655,
+      "expected": 20,
+      "passed": true,
+      "previous_fill": [],
+      "final_fill": []
+    },
+    {
+      "id": "IMG_3190",
+      "rotation": 0,
+      "before": [
+        20.0
+      ],
+      "after": [
+        20.0
+      ],
+      "gained": 0,
+      "added_ms": 0.5858839999746124,
+      "expected": 20,
+      "passed": true,
+      "previous_fill": [],
+      "final_fill": []
+    },
+    {
+      "id": "IMG_3316",
+      "rotation": 0,
+      "before": [
+        20.0
+      ],
+      "after": [
+        20.0
+      ],
+      "gained": 0,
+      "added_ms": 0.9209659997395647,
+      "expected": 20,
+      "passed": true,
+      "previous_fill": [
+        {
+          "status": "visual estimate",
+          "method": "Numbered graduations and nearest piston edge",
+          "ml": 16,
+          "interval_ml": [
+            14,
+            17
+          ],
+          "percent": 80,
+          "interval_percent": [
+            70,
+            85
+          ],
+          "capacity_ml": 20,
+          "piston_line": [
+            [
+              0.3649140419474495,
+              0.38381170429909794
+            ],
+            [
+              0.7095207510278428,
+              0.3961809913944124
+            ]
+          ],
+          "graduations": [
+            {
+              "ml": 10,
+              "crop_bbox": [
+                0.5445205479452054,
+                0.25,
+                0.7363013698630136,
+                0.2900641025641026
+              ],
+              "text": "10"
+            },
+            {
+              "ml": 15,
+              "crop_bbox": [
+                0.4752252252252252,
+                0.35052631578947374,
+                0.6824324324324323,
+                0.39210526315789473
+              ],
+              "text": "15"
+            },
+            {
+              "ml": 20,
+              "crop_bbox": [
+                0.4054054054054054,
+                0.4515789473684211,
+                0.6103603603603603,
+                0.4905263157894737
+              ],
+              "text": "20"
+            }
+          ],
+          "localization": {
+            "contrast": 24.5,
+            "scale_residual_ml": 0.04,
+            "tick_train_verified": false
+          }
+        }
+      ],
+      "final_fill": [
+        {
+          "status": "visual estimate",
+          "method": "Numbered graduations and nearest piston edge",
+          "ml": 16,
+          "interval_ml": [
+            14,
+            17
+          ],
+          "percent": 80,
+          "interval_percent": [
+            70,
+            85
+          ],
+          "capacity_ml": 20,
+          "piston_line": [
+            [
+              0.3649140419474495,
+              0.38381170429909794
+            ],
+            [
+              0.7095207510278428,
+              0.3961809913944124
+            ]
+          ],
+          "graduations": [
+            {
+              "ml": 10,
+              "crop_bbox": [
+                0.5445205479452054,
+                0.25,
+                0.7363013698630136,
+                0.2900641025641026
+              ],
+              "text": "10"
+            },
+            {
+              "ml": 15,
+              "crop_bbox": [
+                0.4752252252252252,
+                0.35052631578947374,
+                0.6824324324324323,
+                0.39210526315789473
+              ],
+              "text": "15"
+            },
+            {
+              "ml": 20,
+              "crop_bbox": [
+                0.4054054054054054,
+                0.4515789473684211,
+                0.6103603603603603,
+                0.4905263157894737
+              ],
+              "text": "20"
+            }
+          ],
+          "localization": {
+            "contrast": 24.5,
+            "scale_residual_ml": 0.04,
+            "tick_train_verified": false
+          }
+        }
+      ]
+    },
+    {
+      "id": "IMG_3316",
+      "rotation": 180,
+      "before": [
+        20.0
+      ],
+      "after": [
+        20.0
+      ],
+      "gained": 0,
+      "added_ms": 0.7600100002491672,
+      "expected": 20,
+      "passed": true,
+      "previous_fill": [
+        {
+          "status": "visual estimate",
+          "method": "Numbered graduations and nearest piston edge",
+          "ml": 16,
+          "interval_ml": [
+            15,
+            18
+          ],
+          "percent": 80,
+          "interval_percent": [
+            75,
+            90
+          ],
+          "capacity_ml": 20,
+          "piston_line": [
+            [
+              0.6167541428017165,
+              0.6142067202492072
+            ],
+            [
+              0.3030223597037904,
+              0.6020667393592183
+            ]
+          ],
+          "graduations": [
+            {
+              "ml": 10,
+              "crop_bbox": [
+                0.27192374956297216,
+                0.7110812573482301,
+                0.41753424589490806,
+                0.7453955119552704
+              ],
+              "text": "10"
+            },
+            {
+              "ml": 15,
+              "crop_bbox": [
+                0.31143085693802686,
+                0.6066382062315191,
+                0.5094650679583195,
+                0.6483486445698594
+              ],
+              "text": "15"
+            },
+            {
+              "ml": 20,
+              "crop_bbox": [
+                0.3541454307667374,
+                0.5048306623694587,
+                0.58822883323258,
+                0.5751679672165297
+              ],
+              "text": "20"
+            }
+          ],
+          "localization": {
+            "contrast": 20.5,
+            "scale_residual_ml": 0.23,
+            "tick_train_verified": false
+          },
+          "appearance_rotation": 180
+        }
+      ],
+      "final_fill": [
+        {
+          "status": "visual estimate",
+          "method": "Numbered graduations and nearest piston edge",
+          "ml": 16,
+          "interval_ml": [
+            15,
+            18
+          ],
+          "percent": 80,
+          "interval_percent": [
+            75,
+            90
+          ],
+          "capacity_ml": 20,
+          "piston_line": [
+            [
+              0.6167541428017165,
+              0.6142067202492072
+            ],
+            [
+              0.3030223597037904,
+              0.6020667393592183
+            ]
+          ],
+          "graduations": [
+            {
+              "ml": 10,
+              "crop_bbox": [
+                0.27192374956297216,
+                0.7110812573482301,
+                0.41753424589490806,
+                0.7453955119552704
+              ],
+              "text": "10"
+            },
+            {
+              "ml": 15,
+              "crop_bbox": [
+                0.31143085693802686,
+                0.6066382062315191,
+                0.5094650679583195,
+                0.6483486445698594
+              ],
+              "text": "15"
+            },
+            {
+              "ml": 20,
+              "crop_bbox": [
+                0.3541454307667374,
+                0.5048306623694587,
+                0.58822883323258,
+                0.5751679672165297
+              ],
+              "text": "20"
+            }
+          ],
+          "localization": {
+            "contrast": 20.5,
+            "scale_residual_ml": 0.23,
+            "tick_train_verified": false
+          },
+          "appearance_rotation": 180
+        }
+      ]
+    }
+  ],
+  "crop_regression_additions": 6,
+  "crop_audit_sha256": "24079eeae9922360dad4cf50176ffd17ad3a3253d1d7beb444e438cad2119da2"
+}

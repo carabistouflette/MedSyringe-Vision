@@ -1,0 +1,84 @@
+{
+  "slices": {
+    "fit": {
+      "baseline": {
+        "images": 95,
+        "objects": 95,
+        "tp": 95,
+        "fp": 0,
+        "fn": 0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "ap50": 1.0,
+        "ap50_95": 0.6609006693624789,
+        "exact_count": 95,
+        "negative_images": 0,
+        "correct_empty": 0
+      },
+      "candidate": {
+        "images": 95,
+        "objects": 95,
+        "tp": 95,
+        "fp": 1,
+        "fn": 0,
+        "precision": 0.9895833333333334,
+        "recall": 1.0,
+        "f1": 0.9947643979057591,
+        "ap50": 1.0,
+        "ap50_95": 0.6324889353937205,
+        "exact_count": 94,
+        "negative_images": 0,
+        "correct_empty": 0
+      },
+      "guard": {
+        "passed": true,
+        "lost_matches": [],
+        "recovered_matches": 0,
+        "baseline_matches": 95,
+        "candidate_matches": 95
+      }
+    },
+    "calibration": {
+      "baseline": {
+        "images": 68,
+        "objects": 68,
+        "tp": 68,
+        "fp": 0,
+        "fn": 0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "ap50": 1.0,
+        "ap50_95": 0.6128379343628323,
+        "exact_count": 68,
+        "negative_images": 0,
+        "correct_empty": 0
+      },
+      "candidate": {
+        "images": 68,
+        "objects": 68,
+        "tp": 68,
+        "fp": 0,
+        "fn": 0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "ap50": 1.0,
+        "ap50_95": 0.6305896039225364,
+        "exact_count": 68,
+        "negative_images": 0,
+        "correct_empty": 0
+      },
+      "guard": {
+        "passed": true,
+        "lost_matches": [],
+        "recovered_matches": 0,
+        "baseline_matches": 68,
+        "candidate_matches": 68
+      }
+    }
+  },
+  "reference_sha256": "5bb7be1a8b32deeb4ae90f1b13b67aff3ad84a483286aa4437fc9bc13309ba3b",
+  "scope": "Post-score development annotation checks. These scores were not used for selection."
+}

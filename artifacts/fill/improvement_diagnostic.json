@@ -1,0 +1,867 @@
+{
+  "scope": "Offline known-capacity diagnostic on previously audited crops, using nominal capacities from their capture groups.",
+  "audit_sha256": "e7aa5fb21eaa0a5c786aece06afc745cefcd910513a5176413b75a4c624d57de",
+  "selection_sha256": "2fd24eb9424fd1e78544ef4b205cf68dd5d9ff25b9e5cc0552053f628b6dd85c",
+  "cohorts": {
+    "holdout": {
+      "images": 35,
+      "baseline_estimates": 18,
+      "first_barriers": {
+        "The nearest piston edge or the uninterrupted liquid column is ambiguous.": 5,
+        "A continuous visible liquid region could not be established.": 1,
+        "A visible 20 mL or 60 mL capacity is required.": 11
+      },
+      "nominal_capacity_supplied": 11,
+      "additional_estimates": 2,
+      "additional_estimates_in_reference": 2,
+      "remaining_reasons": {
+        "Three consistent numbered graduations are required.": 7,
+        "The nearest piston edge or the uninterrupted liquid column is ambiguous.": 1,
+        "A continuous visible liquid region could not be established.": 1
+      },
+      "cases": {
+        "IMG_3288": {
+          "baseline_reason": "The nearest piston edge or the uninterrupted liquid column is ambiguous.",
+          "baseline_ml": null,
+          "known_capacity_diagnostic": null,
+          "visible_reference_ml": [
+            19.0,
+            21.0
+          ],
+          "additional_estimate_in_reference": false
+        },
+        "IMG_3289": {
+          "baseline_reason": null,
+          "baseline_ml": 20,
+          "known_capacity_diagnostic": null,
+          "visible_reference_ml": [
+            19.0,
+            21.0
+          ],
+          "additional_estimate_in_reference": false
+        },
+        "IMG_3290": {
+          "baseline_reason": null,
+          "baseline_ml": 20,
+          "known_capacity_diagnostic": null,
+          "visible_reference_ml": [
+            19.0,
+            21.0
+          ],
+          "additional_estimate_in_reference": false
+        },
+        "IMG_3291": {
+          "baseline_reason": "A continuous visible liquid region could not be established.",
+          "baseline_ml": null,
+          "known_capacity_diagnostic": null,
+          "visible_reference_ml": [
+            19.0,
+            21.0
+          ],
+          "additional_estimate_in_reference": false
+        },
+        "IMG_3292": {
+          "baseline_reason": "A visible 20 mL or 60 mL capacity is required.",
+          "baseline_ml": null,
+          "known_capacity_diagnostic": {
+            "status": "visual estimate",
+            "method": "Numbered graduations and nearest piston edge",
+            "ml": 20,
+            "interval_ml": [
+              18,
+              20
+            ],
+            "percent": 100,
+            "interval_percent": [
+              90,
+              100
+            ],
+            "capacity_ml": 20,
+            "piston_line": [
+              [
+                0.31906663008108005,
+                0.5660750571226442
+              ],
+              [
+                0.7297450954719651,
+                0.5708982345748369
+              ]
+            ],
+            "graduations": [
+              {
+                "ml": 5,
+                "crop_bbox": [
+                  0.4736177465229788,
+                  0.20110058103132675,
+                  0.589616538676588,
+                  0.23355389711249927
+                ],
+                "text": "5"
+              },
+              {
+                "ml": 15,
+                "crop_bbox": [
+                  0.3819081409956174,
+                  0.4402841109603676,
+                  0.6133495580870553,
+                  0.48716451453783066
+                ],
+                "text": "15"
+              },
+              {
+                "ml": 20,
+                "crop_bbox": [
+                  0.31268703466988,
+                  0.5177589839276798,
+                  0.5799733850291967,
+                  0.6022201861158585
+                ],
+                "text": "20"
+              }
+            ],
+            "localization": {
+              "contrast": 23.9,
+              "scale_residual_ml": 0.52,
+              "tick_train_verified": false
+            }
+          },
+          "visible_reference_ml": [
+            19.0,
+            22.0
+          ],
+          "additional_estimate_in_reference": true
+        },
+        "IMG_3293": {
+          "baseline_reason": "The nearest piston edge or the uninterrupted liquid column is ambiguous.",
+          "baseline_ml": null,
+          "known_capacity_diagnostic": null,
+          "visible_reference_ml": [
+            19.0,
+            22.0
+          ],
+          "additional_estimate_in_reference": false
+        },
+        "IMG_3294": {
+          "baseline_reason": "A visible 20 mL or 60 mL capacity is required.",
+          "baseline_ml": null,
+          "known_capacity_diagnostic": {
+            "status": "insufficient evidence",
+            "reason": "Three consistent numbered graduations are required."
+          },
+          "visible_reference_ml": [
+            19.0,
+            21.0
+          ],
+          "additional_estimate_in_reference": false
+        },
+        "IMG_3295": {
+          "baseline_reason": null,
+          "baseline_ml": 19,
+          "known_capacity_diagnostic": null,
+          "visible_reference_ml": [
+            19.0,
+            21.0
+          ],
+          "additional_estimate_in_reference": false
+        },
+        "IMG_3296": {
+          "baseline_reason": "A visible 20 mL or 60 mL capacity is required.",
+          "baseline_ml": null,
+          "known_capacity_diagnostic": {
+            "status": "insufficient evidence",
+            "reason": "The nearest piston edge or the uninterrupted liquid column is ambiguous."
+          },
+          "visible_reference_ml": [
+            19.0,
+            22.0
+          ],
+          "additional_estimate_in_reference": false
+        },
+        "IMG_3297": {
+          "baseline_reason": null,
+          "baseline_ml": 19,
+          "known_capacity_diagnostic": null,
+          "visible_reference_ml": [
+            19.0,
+            21.0
+          ],
+          "additional_estimate_in_reference": false
+        },
+        "IMG_3298": {
+          "baseline_reason": "A visible 20 mL or 60 mL capacity is required.",
+          "baseline_ml": null,
+          "known_capacity_diagnostic": {
+            "status": "insufficient evidence",
+            "reason": "Three consistent numbered graduations are required."
+          },
+          "visible_reference_ml": [
+            19.0,
+            22.0
+          ],
+          "additional_estimate_in_reference": false
+        },
+        "IMG_3299": {
+          "baseline_reason": "The nearest piston edge or the uninterrupted liquid column is ambiguous.",
+          "baseline_ml": null,
+          "known_capacity_diagnostic": null,
+          "visible_reference_ml": [
+            19.0,
+            22.0
+          ],
+          "additional_estimate_in_reference": false
+        },
+        "IMG_3301": {
+          "baseline_reason": null,
+          "baseline_ml": 20,
+          "known_capacity_diagnostic": null,
+          "visible_reference_ml": [
+            19.0,
+            22.0
+          ],
+          "additional_estimate_in_reference": false
+        },
+        "IMG_3302": {
+          "baseline_reason": "The nearest piston edge or the uninterrupted liquid column is ambiguous.",
+          "baseline_ml": null,
+          "known_capacity_diagnostic": null,
+          "visible_reference_ml": [
+            19.0,
+            22.0
+          ],
+          "additional_estimate_in_reference": false
+        },
+        "IMG_3304": {
+          "baseline_reason": "A visible 20 mL or 60 mL capacity is required.",
+          "baseline_ml": null,
+          "known_capacity_diagnostic": {
+            "status": "insufficient evidence",
+            "reason": "Three consistent numbered graduations are required."
+          },
+          "visible_reference_ml": [
+            19.0,
+            22.0
+          ],
+          "additional_estimate_in_reference": false
+        },
+        "IMG_3305": {
+          "baseline_reason": "The nearest piston edge or the uninterrupted liquid column is ambiguous.",
+          "baseline_ml": null,
+          "known_capacity_diagnostic": null,
+          "visible_reference_ml": [
+            20.0,
+            22.0
+          ],
+          "additional_estimate_in_reference": false
+        },
+        "IMG_3306": {
+          "baseline_reason": null,
+          "baseline_ml": 20,
+          "known_capacity_diagnostic": null,
+          "visible_reference_ml": [
+            19.0,
+            22.0
+          ],
+          "additional_estimate_in_reference": false
+        },
+        "IMG_3307": {
+          "baseline_reason": null,
+          "baseline_ml": 20,
+          "known_capacity_diagnostic": null,
+          "visible_reference_ml": [
+            19.0,
+            22.0
+          ],
+          "additional_estimate_in_reference": false
+        },
+        "IMG_3309": {
+          "baseline_reason": null,
+          "baseline_ml": 16,
+          "known_capacity_diagnostic": null,
+          "visible_reference_ml": [
+            15.0,
+            18.0
+          ],
+          "additional_estimate_in_reference": false
+        },
+        "IMG_3310": {
+          "baseline_reason": "A visible 20 mL or 60 mL capacity is required.",
+          "baseline_ml": null,
+          "known_capacity_diagnostic": {
+            "status": "insufficient evidence",
+            "reason": "Three consistent numbered graduations are required."
+          },
+          "visible_reference_ml": [
+            15.0,
+            18.0
+          ],
+          "additional_estimate_in_reference": false
+        },
+        "IMG_3311": {
+          "baseline_reason": null,
+          "baseline_ml": 16,
+          "known_capacity_diagnostic": null,
+          "visible_reference_ml": [
+            15.0,
+            18.0
+          ],
+          "additional_estimate_in_reference": false
+        },
+        "IMG_3313": {
+          "baseline_reason": null,
+          "baseline_ml": 16,
+          "known_capacity_diagnostic": null,
+          "visible_reference_ml": [
+            15.0,
+            18.0
+          ],
+          "additional_estimate_in_reference": false
+        },
+        "IMG_3314": {
+          "baseline_reason": null,
+          "baseline_ml": 16,
+          "known_capacity_diagnostic": null,
+          "visible_reference_ml": [
+            15.0,
+            18.0
+          ],
+          "additional_estimate_in_reference": false
+        },
+        "IMG_3315": {
+          "baseline_reason": "A visible 20 mL or 60 mL capacity is required.",
+          "baseline_ml": null,
+          "known_capacity_diagnostic": {
+            "status": "insufficient evidence",
+            "reason": "A continuous visible liquid region could not be established."
+          },
+          "visible_reference_ml": [
+            15.0,
+            18.0
+          ],
+          "additional_estimate_in_reference": false
+        },
+        "IMG_3316": {
+          "baseline_reason": null,
+          "baseline_ml": 16,
+          "known_capacity_diagnostic": null,
+          "visible_reference_ml": [
+            15.0,
+            18.0
+          ],
+          "additional_estimate_in_reference": false
+        },
+        "IMG_3317": {
+          "baseline_reason": null,
+          "baseline_ml": 16,
+          "known_capacity_diagnostic": null,
+          "visible_reference_ml": [
+            15.0,
+            18.0
+          ],
+          "additional_estimate_in_reference": false
+        },
+        "IMG_3318": {
+          "baseline_reason": null,
+          "baseline_ml": 15,
+          "known_capacity_diagnostic": null,
+          "visible_reference_ml": [
+            15.0,
+            18.0
+          ],
+          "additional_estimate_in_reference": false
+        },
+        "IMG_3319": {
+          "baseline_reason": null,
+          "baseline_ml": 13,
+          "known_capacity_diagnostic": null,
+          "visible_reference_ml": [
+            12.0,
+            15.0
+          ],
+          "additional_estimate_in_reference": false
+        },
+        "IMG_3320": {
+          "baseline_reason": "A visible 20 mL or 60 mL capacity is required.",
+          "baseline_ml": null,
+          "known_capacity_diagnostic": {
+            "status": "visual estimate",
+            "method": "Numbered graduations and nearest piston edge",
+            "ml": 12,
+            "interval_ml": [
+              11,
+              14
+            ],
+            "percent": 60,
+            "interval_percent": [
+              55,
+              70
+            ],
+            "capacity_ml": 20,
+            "piston_line": [
+              [
+                0.3125488952014965,
+                0.3440967687200353
+              ],
+              [
+                0.7263256921750144,
+                0.33801277921872297
+              ]
+            ],
+            "graduations": [
+              {
+                "ml": 5,
+                "crop_bbox": [
+                  0.4763779527559055,
+                  0.17307692307692307,
+                  0.5748031496062992,
+                  0.20192307692307693
+                ],
+                "text": "5"
+              },
+              {
+                "ml": 10,
+                "crop_bbox": [
+                  0.4881889763779528,
+                  0.27564102564102566,
+                  0.6811023622047244,
+                  0.31009615384615385
+                ],
+                "text": "10"
+              },
+              {
+                "ml": 15,
+                "crop_bbox": [
+                  0.4881889763779528,
+                  0.3814102564102564,
+                  0.7125984251968503,
+                  0.41426282051282054
+                ],
+                "text": "15"
+              }
+            ],
+            "localization": {
+              "contrast": 25.3,
+              "scale_residual_ml": 0.14,
+              "tick_train_verified": false
+            }
+          },
+          "visible_reference_ml": [
+            12.0,
+            15.0
+          ],
+          "additional_estimate_in_reference": true
+        },
+        "IMG_3321": {
+          "baseline_reason": null,
+          "baseline_ml": 11,
+          "known_capacity_diagnostic": null,
+          "visible_reference_ml": [
+            10.0,
+            13.0
+          ],
+          "additional_estimate_in_reference": false
+        },
+        "IMG_3322": {
+          "baseline_reason": null,
+          "baseline_ml": 11,
+          "known_capacity_diagnostic": null,
+          "visible_reference_ml": [
+            10.0,
+            13.0
+          ],
+          "additional_estimate_in_reference": false
+        },
+        "IMG_3323": {
+          "baseline_reason": "A visible 20 mL or 60 mL capacity is required.",
+          "baseline_ml": null,
+          "known_capacity_diagnostic": {
+            "status": "insufficient evidence",
+            "reason": "Three consistent numbered graduations are required."
+          },
+          "visible_reference_ml": [
+            10.0,
+            13.0
+          ],
+          "additional_estimate_in_reference": false
+        },
+        "IMG_3324": {
+          "baseline_reason": "A visible 20 mL or 60 mL capacity is required.",
+          "baseline_ml": null,
+          "known_capacity_diagnostic": {
+            "status": "insufficient evidence",
+            "reason": "Three consistent numbered graduations are required."
+          },
+          "visible_reference_ml": [
+            10.0,
+            13.0
+          ],
+          "additional_estimate_in_reference": false
+        },
+        "IMG_3325": {
+          "baseline_reason": "A visible 20 mL or 60 mL capacity is required.",
+          "baseline_ml": null,
+          "known_capacity_diagnostic": {
+            "status": "insufficient evidence",
+            "reason": "Three consistent numbered graduations are required."
+          },
+          "visible_reference_ml": [
+            10.0,
+            13.0
+          ],
+          "additional_estimate_in_reference": false
+        },
+        "IMG_3326": {
+          "baseline_reason": null,
+          "baseline_ml": 11,
+          "known_capacity_diagnostic": null,
+          "visible_reference_ml": [
+            10.0,
+            13.0
+          ],
+          "additional_estimate_in_reference": false
+        }
+      }
+    },
+    "holdout-60": {
+      "images": 10,
+      "baseline_estimates": 2,
+      "first_barriers": {
+        "A visible 20 mL or 60 mL capacity is required.": 7,
+        "Three consistent numbered graduations are required.": 1
+      },
+      "nominal_capacity_supplied": 7,
+      "additional_estimates": 3,
+      "additional_estimates_in_reference": 3,
+      "remaining_reasons": {
+        "Three consistent numbered graduations are required.": 3,
+        "The nearest piston edge or the uninterrupted liquid column is ambiguous.": 1
+      },
+      "cases": {
+        "IMG_3251": {
+          "baseline_reason": "A visible 20 mL or 60 mL capacity is required.",
+          "baseline_ml": null,
+          "known_capacity_diagnostic": {
+            "status": "insufficient evidence",
+            "reason": "Three consistent numbered graduations are required."
+          },
+          "visible_reference_ml": [
+            37.0,
+            41.0
+          ],
+          "additional_estimate_in_reference": false
+        },
+        "IMG_3252": {
+          "baseline_reason": null,
+          "baseline_ml": 38,
+          "known_capacity_diagnostic": null,
+          "visible_reference_ml": [
+            37.0,
+            41.0
+          ],
+          "additional_estimate_in_reference": false
+        },
+        "IMG_3257": {
+          "baseline_reason": null,
+          "baseline_ml": 38,
+          "known_capacity_diagnostic": null,
+          "visible_reference_ml": [
+            35.0,
+            40.0
+          ],
+          "additional_estimate_in_reference": false
+        },
+        "IMG_3263": {
+          "baseline_reason": "A visible 20 mL or 60 mL capacity is required.",
+          "baseline_ml": null,
+          "known_capacity_diagnostic": {
+            "status": "insufficient evidence",
+            "reason": "Three consistent numbered graduations are required."
+          },
+          "visible_reference_ml": [
+            27.0,
+            31.0
+          ],
+          "additional_estimate_in_reference": false
+        },
+        "IMG_3268": {
+          "baseline_reason": "A visible 20 mL or 60 mL capacity is required.",
+          "baseline_ml": null,
+          "known_capacity_diagnostic": {
+            "status": "visual estimate",
+            "method": "Numbered graduations and nearest piston edge",
+            "ml": 30,
+            "interval_ml": [
+              26,
+              32
+            ],
+            "percent": 50,
+            "interval_percent": [
+              43,
+              54
+            ],
+            "capacity_ml": 60,
+            "piston_line": [
+              [
+                0.5593697122556556,
+                0.3374794069615513
+              ],
+              [
+                0.6783146638146552,
+                0.37906127514652577
+              ]
+            ],
+            "graduations": [
+              {
+                "ml": 10,
+                "crop_bbox": [
+                  0.7310346459206044,
+                  0.13769590239795115,
+                  0.8597108157323624,
+                  0.21877965232122853
+                ],
+                "text": "10"
+              },
+              {
+                "ml": 20,
+                "crop_bbox": [
+                  0.6386752457535785,
+                  0.23746736155649822,
+                  0.7672488306293503,
+                  0.31752765467455507
+                ],
+                "text": "20"
+              },
+              {
+                "ml": 30,
+                "crop_bbox": [
+                  0.5626070143434061,
+                  0.3394766014900376,
+                  0.67158898060983,
+                  0.40681005622816097
+                ],
+                "text": "30"
+              },
+              {
+                "ml": 40,
+                "crop_bbox": [
+                  0.4893203974721511,
+                  0.4331073198172609,
+                  0.5855168147061882,
+                  0.4918077633963334
+                ],
+                "text": "40"
+              },
+              {
+                "ml": 50,
+                "crop_bbox": [
+                  0.3920591002211542,
+                  0.5039109699733794,
+                  0.5258856769015594,
+                  0.5894279258367766
+                ],
+                "text": "50"
+              }
+            ],
+            "localization": {
+              "contrast": 22.9,
+              "scale_residual_ml": 0.61,
+              "tick_train_verified": false
+            }
+          },
+          "visible_reference_ml": [
+            28.0,
+            32.0
+          ],
+          "additional_estimate_in_reference": true
+        },
+        "IMG_3269": {
+          "baseline_reason": "A visible 20 mL or 60 mL capacity is required.",
+          "baseline_ml": null,
+          "known_capacity_diagnostic": {
+            "status": "visual estimate",
+            "method": "Numbered graduations and nearest piston edge",
+            "ml": 28,
+            "interval_ml": [
+              24,
+              30
+            ],
+            "percent": 47,
+            "interval_percent": [
+              40,
+              50
+            ],
+            "capacity_ml": 60,
+            "piston_line": [
+              [
+                0.6183449772679583,
+                0.28265199265947066
+              ],
+              [
+                0.7302862452303567,
+                0.3185092778417495
+              ]
+            ],
+            "graduations": [
+              {
+                "ml": 10,
+                "crop_bbox": [
+                  0.7614220463732745,
+                  0.11795878448833946,
+                  0.879886413889669,
+                  0.18844215039348855
+                ],
+                "text": "10"
+              },
+              {
+                "ml": 20,
+                "crop_bbox": [
+                  0.6841119882252659,
+                  0.20285759149400553,
+                  0.8038976554206573,
+                  0.27579473849582914
+                ],
+                "text": "20"
+              },
+              {
+                "ml": 40,
+                "crop_bbox": [
+                  0.5463540757755994,
+                  0.3797301060891431,
+                  0.6454338044493264,
+                  0.43747865094344224
+                ],
+                "text": "40"
+              },
+              {
+                "ml": 50,
+                "crop_bbox": [
+                  0.47091442226020397,
+                  0.45859281349091713,
+                  0.5756053648317703,
+                  0.522753637085956
+                ],
+                "text": "50"
+              }
+            ],
+            "localization": {
+              "contrast": 18.6,
+              "scale_residual_ml": 0.14,
+              "tick_train_verified": false
+            }
+          },
+          "visible_reference_ml": [
+            28.0,
+            32.0
+          ],
+          "additional_estimate_in_reference": true
+        },
+        "IMG_3272": {
+          "baseline_reason": "Three consistent numbered graduations are required.",
+          "baseline_ml": null,
+          "known_capacity_diagnostic": null,
+          "visible_reference_ml": [
+            26.0,
+            30.0
+          ],
+          "additional_estimate_in_reference": false
+        },
+        "IMG_3275": {
+          "baseline_reason": "A visible 20 mL or 60 mL capacity is required.",
+          "baseline_ml": null,
+          "known_capacity_diagnostic": {
+            "status": "insufficient evidence",
+            "reason": "Three consistent numbered graduations are required."
+          },
+          "visible_reference_ml": [
+            23.0,
+            28.0
+          ],
+          "additional_estimate_in_reference": false
+        },
+        "IMG_3279": {
+          "baseline_reason": "A visible 20 mL or 60 mL capacity is required.",
+          "baseline_ml": null,
+          "known_capacity_diagnostic": {
+            "status": "visual estimate",
+            "method": "Numbered graduations and nearest piston edge",
+            "ml": 26,
+            "interval_ml": [
+              22,
+              28
+            ],
+            "percent": 43,
+            "interval_percent": [
+              36,
+              47
+            ],
+            "capacity_ml": 60,
+            "piston_line": [
+              [
+                0.5996044344059597,
+                0.2830104210631466
+              ],
+              [
+                0.7314422837462917,
+                0.3148615086160656
+              ]
+            ],
+            "graduations": [
+              {
+                "ml": 10,
+                "crop_bbox": [
+                  0.773071104387292,
+                  0.15384615384615385,
+                  0.8623298033282905,
+                  0.19951923076923078
+                ],
+                "text": "10"
+              },
+              {
+                "ml": 20,
+                "crop_bbox": [
+                  0.6302186878727635,
+                  0.1978947368421053,
+                  0.8528827037773359,
+                  0.32526315789473687
+                ],
+                "text": "20"
+              },
+              {
+                "ml": 60,
+                "crop_bbox": [
+                  0.37972768532526474,
+                  0.5785256410256411,
+                  0.5037821482602118,
+                  0.6466346153846154
+                ],
+                "text": "60"
+              }
+            ],
+            "localization": {
+              "contrast": 18.2,
+              "scale_residual_ml": 0.15,
+              "tick_train_verified": false
+            }
+          },
+          "visible_reference_ml": [
+            23.0,
+            28.0
+          ],
+          "additional_estimate_in_reference": true
+        },
+        "IMG_3283": {
+          "baseline_reason": "A visible 20 mL or 60 mL capacity is required.",
+          "baseline_ml": null,
+          "known_capacity_diagnostic": {
+            "status": "insufficient evidence",
+            "reason": "The nearest piston edge or the uninterrupted liquid column is ambiguous."
+          },
+          "visible_reference_ml": [
+            17.0,
+            21.0
+          ],
+          "additional_estimate_in_reference": false
+        }
+      }
+    }
+  }
+}

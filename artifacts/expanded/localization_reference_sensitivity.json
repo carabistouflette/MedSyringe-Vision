@@ -1,0 +1,52 @@
+{
+  "cases": [
+    {
+      "id": "IMG_3284",
+      "split": "fit",
+      "frozen_iou": 0.4989314290158124,
+      "adjudicated_iou": 0.8216112844266795
+    },
+    {
+      "id": "IMG_3212",
+      "split": "calibration",
+      "frozen_iou": 0.34447329059376164,
+      "adjudicated_iou": 0.9712170385680353
+    },
+    {
+      "id": "IMG_3236",
+      "split": "calibration",
+      "frozen_iou": 0.4778239053041302,
+      "adjudicated_iou": 0.8366671722833081
+    },
+    {
+      "id": "IMG_3242",
+      "split": "calibration",
+      "frozen_iou": 0.42429387784845257,
+      "adjudicated_iou": 0.9533067818399733
+    },
+    {
+      "id": "IMG_3190",
+      "split": "test",
+      "frozen_iou": 0.4838770564531769,
+      "adjudicated_iou": 0.4838770564531769
+    }
+  ],
+  "groups": {
+    "fit": {
+      "reviewed": 95,
+      "frozen_matches": 94,
+      "adjudicated_matches": 95
+    },
+    "calibration": {
+      "reviewed": 68,
+      "frozen_matches": 65,
+      "adjudicated_matches": 68
+    },
+    "test": {
+      "reviewed": 14,
+      "frozen_matches": 13,
+      "adjudicated_matches": 13
+    }
+  },
+  "scope": "Previously revised boxes only. Post-score descriptive sensitivity, excluded from selection and release."
+}

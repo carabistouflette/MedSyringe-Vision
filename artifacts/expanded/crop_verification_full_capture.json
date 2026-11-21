@@ -1,0 +1,322 @@
+{
+  "passed": true,
+  "results": {
+    "fit": {
+      "baseline": {
+        "images": 95,
+        "objects": 95,
+        "tp": 94,
+        "fp": 1,
+        "fn": 1,
+        "precision": 0.9894736842105263,
+        "recall": 0.9894736842105263,
+        "f1": 0.9894736842105263,
+        "ap50": 0.9991999199919992,
+        "ap50_95": 0.6574543290685622,
+        "exact_count": 95,
+        "negative_images": 0,
+        "correct_empty": 0
+      },
+      "candidate": {
+        "images": 95,
+        "objects": 95,
+        "tp": 94,
+        "fp": 1,
+        "fn": 1,
+        "precision": 0.9894736842105263,
+        "recall": 0.9894736842105263,
+        "f1": 0.9894736842105263,
+        "ap50": 0.9991999199919992,
+        "ap50_95": 0.6574543290685622,
+        "exact_count": 95,
+        "negative_images": 0,
+        "correct_empty": 0
+      },
+      "instance_guard": {
+        "passed": true,
+        "lost_matches": [],
+        "recovered_matches": 0,
+        "baseline_matches": 94,
+        "candidate_matches": 94
+      },
+      "removed": []
+    },
+    "calibration": {
+      "baseline": {
+        "images": 68,
+        "objects": 68,
+        "tp": 65,
+        "fp": 3,
+        "fn": 3,
+        "precision": 0.9558823529411765,
+        "recall": 0.9558823529411765,
+        "f1": 0.9558823529411765,
+        "ap50": 0.9292939663313008,
+        "ap50_95": 0.5498722036336037,
+        "exact_count": 68,
+        "negative_images": 0,
+        "correct_empty": 0
+      },
+      "candidate": {
+        "images": 68,
+        "objects": 68,
+        "tp": 65,
+        "fp": 3,
+        "fn": 3,
+        "precision": 0.9558823529411765,
+        "recall": 0.9558823529411765,
+        "f1": 0.9558823529411765,
+        "ap50": 0.9292939663313008,
+        "ap50_95": 0.5498722036336037,
+        "exact_count": 68,
+        "negative_images": 0,
+        "correct_empty": 0
+      },
+      "instance_guard": {
+        "passed": true,
+        "lost_matches": [],
+        "recovered_matches": 0,
+        "baseline_matches": 65,
+        "candidate_matches": 65
+      },
+      "removed": []
+    },
+    "test": {
+      "baseline": {
+        "images": 14,
+        "objects": 14,
+        "tp": 13,
+        "fp": 1,
+        "fn": 1,
+        "precision": 0.9285714285714286,
+        "recall": 0.9285714285714286,
+        "f1": 0.9285714285714286,
+        "ap50": 0.9247356939083737,
+        "ap50_95": 0.47187488183160353,
+        "exact_count": 14,
+        "negative_images": 0,
+        "correct_empty": 0
+      },
+      "candidate": {
+        "images": 14,
+        "objects": 14,
+        "tp": 13,
+        "fp": 1,
+        "fn": 1,
+        "precision": 0.9285714285714286,
+        "recall": 0.9285714285714286,
+        "f1": 0.9285714285714286,
+        "ap50": 0.9247356939083737,
+        "ap50_95": 0.47187488183160353,
+        "exact_count": 14,
+        "negative_images": 0,
+        "correct_empty": 0
+      },
+      "instance_guard": {
+        "passed": true,
+        "lost_matches": [],
+        "recovered_matches": 0,
+        "baseline_matches": 13,
+        "candidate_matches": 13
+      },
+      "removed": []
+    },
+    "reserve": {
+      "baseline": {
+        "images": 21,
+        "objects": 7,
+        "tp": 4,
+        "fp": 16,
+        "fn": 3,
+        "precision": 0.2,
+        "recall": 0.5714285714285714,
+        "f1": 0.29629629629629634,
+        "ap50": 0.3273832818064414,
+        "ap50_95": 0.27176743761332656,
+        "exact_count": 7,
+        "negative_images": 14,
+        "correct_empty": 3
+      },
+      "candidate": {
+        "images": 21,
+        "objects": 7,
+        "tp": 4,
+        "fp": 2,
+        "fn": 3,
+        "precision": 0.6666666666666666,
+        "recall": 0.5714285714285714,
+        "f1": 0.6153846153846153,
+        "ap50": 0.6842091901497845,
+        "ap50_95": 0.5672862007686181,
+        "exact_count": 16,
+        "negative_images": 14,
+        "correct_empty": 12
+      },
+      "instance_guard": {
+        "passed": true,
+        "lost_matches": [],
+        "recovered_matches": 0,
+        "baseline_matches": 4,
+        "candidate_matches": 4
+      },
+      "removed": [
+        {
+          "id": "141484090",
+          "bbox": [
+            0.034304351806640626,
+            0.07551390075683594,
+            0.870005615234375,
+            0.7497686360677084
+          ],
+          "verification_score": 0.1824420314047925,
+          "branch_votes": 1
+        },
+        {
+          "id": "142731439",
+          "bbox": [
+            0.15580038452148437,
+            0.31361506956912033,
+            0.4256341552734375,
+            0.9753499929952022
+          ],
+          "verification_score": 0.008370177415609146,
+          "branch_votes": 1
+        },
+        {
+          "id": "142731439",
+          "bbox": [
+            0.624232666015625,
+            0.05314638969928187,
+            0.7978143920898437,
+            0.7058746228312247
+          ],
+          "verification_score": 0.011502518668179945,
+          "branch_votes": 1
+        },
+        {
+          "id": "142731439",
+          "bbox": [
+            0.402772216796875,
+            0.1733828532631564,
+            0.6057163696289063,
+            0.8356193254837228
+          ],
+          "verification_score": 0.006380691724159728,
+          "branch_votes": 1
+        },
+        {
+          "id": "142731439",
+          "bbox": [
+            0.4595289306640625,
+            0.1140586127070593,
+            0.6342122802734375,
+            0.7779358019734628
+          ],
+          "verification_score": 0.008510674498210807,
+          "branch_votes": 1
+        },
+        {
+          "id": "142731439",
+          "bbox": [
+            0.5917069091796875,
+            0.26189911600931326,
+            0.6947573852539063,
+            0.9445556387225003
+          ],
+          "verification_score": 0.005902260437383724,
+          "branch_votes": 1
+        },
+        {
+          "id": "126429036",
+          "bbox": [
+            0.21310469055175782,
+            0.1310214029947917,
+            0.6513359375,
+            0.886433329264323
+          ],
+          "verification_score": 0.023943751811263927,
+          "branch_votes": 1
+        },
+        {
+          "id": "187533233",
+          "bbox": [
+            0.3766494115193685,
+            0.341585876248407,
+            0.9841866811116536,
+            0.5933668528888243
+          ],
+          "verification_score": 0.1781538789230597,
+          "branch_votes": 1
+        },
+        {
+          "id": "33366419",
+          "bbox": [
+            0.41505949232313366,
+            0.5611635208129883,
+            0.9989099290635851,
+            0.8300558090209961
+          ],
+          "verification_score": 0.013848299348008302,
+          "branch_votes": 1
+        },
+        {
+          "id": "69986736",
+          "bbox": [
+            0.8602607727050782,
+            0.4471672905815972,
+            0.9263193130493164,
+            0.9995419681072235
+          ],
+          "verification_score": 0.03530255014095136,
+          "branch_votes": 1
+        },
+        {
+          "id": "69986736",
+          "bbox": [
+            0.7645390192667644,
+            0.38402294582790797,
+            0.8359113693237304,
+            0.9994906783103943
+          ],
+          "verification_score": 0.023137861589584495,
+          "branch_votes": 1
+        },
+        {
+          "id": "69986635",
+          "bbox": [
+            0.1663827896118164,
+            0.4254318333271915,
+            0.8391974131266277,
+            0.756836417336134
+          ],
+          "verification_score": 0.034290589996705395,
+          "branch_votes": 1
+        },
+        {
+          "id": "191040814",
+          "bbox": [
+            0.19319928487141927,
+            0.34884742084389997,
+            0.8028271357218425,
+            0.4287166895042539
+          ],
+          "verification_score": 0.041296351617231816,
+          "branch_votes": 1
+        },
+        {
+          "id": "83125130",
+          "bbox": [
+            0.05328503449757894,
+            0.39385178177445024,
+            0.941392199198405,
+            0.5774788750542534
+          ],
+          "verification_score": 0.006925152726937194,
+          "branch_votes": 1
+        }
+      ]
+    }
+  },
+  "selection_sha256": "e51f2a51b9007032acb231c773c653005177608d919c9ecc23b7c50cac6117d1",
+  "scope": "Complete 177-image capture with cached baseline proposals plus fixed public controls. Fit and calibration are included for regression safety. AP keeps unchanged proposals below the operating cutoff and excludes verifier-rejected boxes."
+}

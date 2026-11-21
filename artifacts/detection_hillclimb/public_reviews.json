@@ -1,0 +1,697 @@
+{
+  "method": "Manual blind review using original-oriented pixels or an archived publisher thumbnail, plus local zooms. No model inference or pseudo-labels.",
+  "box_policy": "Project visible-extent convention, normalized xyxy. An attached medical needle is included when visibly attached; nonmedical applicators, writing implements, insulin pens and laboratory pipettes are negatives. Hidden extremities are not extrapolated.",
+  "scope": "One reviewer. Cases with uncertain syringe identity or incomplete instance enumeration were excluded before assignment.",
+  "photos": {
+    "197444125": {
+      "objects": [
+        {
+          "bbox": [
+            0.11029,
+            0.12935,
+            0.86029,
+            0.9005
+          ],
+          "occluded": false,
+          "truncated": false
+        }
+      ],
+      "lookalikes": [],
+      "review_notes": "Single syringe, attached metal needle, orange hub and fully visible rear."
+    },
+    "63594664": {
+      "objects": [
+        {
+          "bbox": [
+            0.35846,
+            0.50586,
+            0.52668,
+            0.80204
+          ],
+          "occluded": true,
+          "truncated": false
+        }
+      ],
+      "lookalikes": [],
+      "review_notes": "Clear syringe held obliquely. Two gloves restrict visible ends."
+    },
+    "14929101": {
+      "objects": [
+        {
+          "bbox": [
+            0.56158,
+            0.01242,
+            0.74671,
+            0.93627
+          ],
+          "occluded": true,
+          "truncated": false
+        }
+      ],
+      "lookalikes": [],
+      "review_notes": "Orange-capped syringe behind a vial, visible on both sides of the occluder."
+    },
+    "181882778": {
+      "objects": [
+        {
+          "bbox": [
+            0.35685,
+            0.39371,
+            0.45869,
+            0.78406
+          ],
+          "occluded": true,
+          "truncated": false
+        }
+      ],
+      "lookalikes": [],
+      "review_notes": "White plunger and barrel partly occluded by a paper envelope."
+    },
+    "4627441": {
+      "objects": [
+        {
+          "bbox": [
+            0.04492,
+            0.64229,
+            0.89103,
+            0.87079
+          ],
+          "occluded": true,
+          "truncated": false
+        }
+      ],
+      "lookalikes": [],
+      "review_notes": "Transparent barrel and plunger installed horizontally in a syringe driver."
+    },
+    "7278183": {
+      "objects": [
+        {
+          "bbox": [
+            0.04968,
+            0.43693,
+            0.89928,
+            0.79933
+          ],
+          "occluded": true,
+          "truncated": false
+        }
+      ],
+      "lookalikes": [],
+      "review_notes": "Transparent syringe connected to a driver. Keep visible syringe extent only."
+    },
+    "9778179": {
+      "objects": [
+        {
+          "bbox": [
+            0.18815,
+            0.00556,
+            0.98201,
+            0.20053
+          ],
+          "occluded": false,
+          "truncated": true
+        },
+        {
+          "bbox": [
+            0.00417,
+            0.2096,
+            0.86617,
+            0.35016
+          ],
+          "occluded": true,
+          "truncated": true
+        },
+        {
+          "bbox": [
+            0.00417,
+            0.32296,
+            0.91727,
+            0.45899
+          ],
+          "occluded": true,
+          "truncated": true
+        },
+        {
+          "bbox": [
+            0.00417,
+            0.42725,
+            0.9786,
+            0.55874
+          ],
+          "occluded": true,
+          "truncated": true
+        }
+      ],
+      "lookalikes": [],
+      "review_notes": "Four visible syringes arranged in a tight overlapping group. The large top barrel and orange barrels are image-edge truncated."
+    },
+    "157438208": {
+      "objects": [
+        {
+          "bbox": [
+            0.57117,
+            0.44578,
+            0.6605,
+            0.5141
+          ],
+          "occluded": true,
+          "truncated": false
+        }
+      ],
+      "lookalikes": [],
+      "review_notes": "Small syringe held in front of the injector; its front is partly covered by uniform fabric."
+    },
+    "154888950": {
+      "objects": [
+        {
+          "bbox": [
+            0.48958,
+            0.42729,
+            0.59766,
+            0.4537
+          ],
+          "occluded": true,
+          "truncated": false
+        }
+      ],
+      "lookalikes": [],
+      "review_notes": "Small syringe with a safety hub, partially covered by fingers during injection."
+    },
+    "159462910": {
+      "objects": [
+        {
+          "bbox": [
+            0.42944,
+            0.48655,
+            0.48677,
+            0.54416
+          ],
+          "occluded": true,
+          "truncated": false
+        }
+      ],
+      "lookalikes": [],
+      "review_notes": "Small white-gloved injector holds syringe toward the shoulder. Part of the assembly is hidden by the grip."
+    },
+    "154900789": {
+      "objects": [
+        {
+          "bbox": [
+            0.45609,
+            0.48984,
+            0.52363,
+            0.54277
+          ],
+          "occluded": true,
+          "truncated": false
+        }
+      ],
+      "lookalikes": [],
+      "review_notes": "Small syringe and protector visible between gloves and shoulder, partially covered."
+    },
+    "157429146": {
+      "objects": [
+        {
+          "bbox": [
+            0.76287,
+            0.37312,
+            0.81947,
+            0.59132
+          ],
+          "occluded": true,
+          "truncated": false
+        }
+      ],
+      "lookalikes": [],
+      "review_notes": "Thin graduated syringe underneath the vial or bag assembly. Hands restrict both ends."
+    },
+    "157440205": {
+      "objects": [
+        {
+          "bbox": [
+            0.45008,
+            0.41635,
+            0.49347,
+            0.47814
+          ],
+          "occluded": true,
+          "truncated": false
+        }
+      ],
+      "lookalikes": [],
+      "review_notes": "Syringe barrel, black stopper and blue hub visible at the shoulder."
+    },
+    "154891431": {
+      "objects": [
+        {
+          "bbox": [
+            0.43968,
+            0.49279,
+            0.51384,
+            0.52192
+          ],
+          "occluded": true,
+          "truncated": false
+        }
+      ],
+      "lookalikes": [],
+      "review_notes": "Horizontal syringe held between two hands. Keep the actual horizontal syringe and attached end."
+    },
+    "99361482": {
+      "objects": [
+        {
+          "bbox": [
+            0.241,
+            0.34124,
+            0.66274,
+            0.64748
+          ],
+          "occluded": true,
+          "truncated": false
+        }
+      ],
+      "lookalikes": [],
+      "review_notes": "Single transparent syringe with its tip against a vial. Do not include the vial."
+    },
+    "472944": {
+      "objects": [
+        {
+          "bbox": [
+            0.02413,
+            0.16204,
+            0.96169,
+            0.40018
+          ],
+          "occluded": false,
+          "truncated": false
+        },
+        {
+          "bbox": [
+            0.02413,
+            0.58655,
+            0.6687,
+            0.86611
+          ],
+          "occluded": false,
+          "truncated": false
+        }
+      ],
+      "lookalikes": [],
+      "review_notes": "Two prefilled medical syringes, including both distinct visible plunger ends."
+    },
+    "54151019": {
+      "objects": [
+        {
+          "bbox": [
+            0.51471,
+            0,
+            0.98897,
+            0.59116
+          ],
+          "occluded": true,
+          "truncated": true
+        },
+        {
+          "bbox": [
+            0.53309,
+            0.09945,
+            0.91912,
+            0.71823
+          ],
+          "occluded": true,
+          "truncated": false
+        }
+      ],
+      "lookalikes": [],
+      "review_notes": "Two overlapping syringes with attached metal tips. The upper syringe rear is clipped at the image edge."
+    },
+    "90760385": {
+      "objects": [
+        {
+          "bbox": [
+            0.05515,
+            0.24286,
+            0.94485,
+            0.87143
+          ],
+          "occluded": false,
+          "truncated": false
+        }
+      ],
+      "lookalikes": [],
+      "review_notes": "Single prefilled, capped medication syringe. Full visible assembly retained."
+    },
+    "19682197": {
+      "objects": [
+        {
+          "bbox": [
+            0.20221,
+            0.37745,
+            0.58088,
+            0.77451
+          ],
+          "occluded": false,
+          "truncated": false
+        }
+      ],
+      "lookalikes": [],
+      "review_notes": "Single discarded syringe with orange cap on a rough concrete background."
+    },
+    "1501426": {
+      "objects": [],
+      "lookalikes": [
+        {
+          "bbox": [
+            0.03309,
+            0.29146,
+            0.98162,
+            0.50754
+          ],
+          "kind": "glass pipette"
+        },
+        {
+          "bbox": [
+            0.08824,
+            0.49246,
+            0.83088,
+            0.68844
+          ],
+          "kind": "glass pipette"
+        }
+      ],
+      "review_notes": "Two glass Pasteur pipettes."
+    },
+    "118606096": {
+      "objects": [],
+      "lookalikes": [
+        {
+          "bbox": [
+            0.38835,
+            0.20737,
+            0.82524,
+            0.63134
+          ],
+          "kind": "plastic pipette"
+        }
+      ],
+      "review_notes": "Translucent disposable dropper on a pale background."
+    },
+    "35041773": {
+      "objects": [],
+      "lookalikes": [
+        {
+          "bbox": [
+            0.08456,
+            0.2598,
+            0.79412,
+            0.69118
+          ],
+          "kind": "glass pipette"
+        }
+      ],
+      "review_notes": "Pipette with a bulb held by a glove above a microscope slide."
+    },
+    "29085527": {
+      "objects": [],
+      "lookalikes": [
+        {
+          "bbox": [
+            0.19853,
+            0.32353,
+            0.97426,
+            0.65196
+          ],
+          "kind": "plastic pipette"
+        },
+        {
+          "bbox": [
+            0.10662,
+            0.40686,
+            0.90074,
+            0.66176
+          ],
+          "kind": "plastic pipette"
+        },
+        {
+          "bbox": [
+            0.01838,
+            0.48039,
+            0.77941,
+            0.66667
+          ],
+          "kind": "plastic pipette"
+        }
+      ],
+      "review_notes": "Three transparent disposable pipettes overlap on a dark background."
+    },
+    "17344783": {
+      "objects": [],
+      "lookalikes": [
+        {
+          "bbox": [
+            0.08456,
+            0.09804,
+            0.87132,
+            0.77451
+          ],
+          "kind": "plastic pipette"
+        },
+        {
+          "bbox": [
+            0.09559,
+            0.48529,
+            0.99632,
+            0.65686
+          ],
+          "kind": "plastic pipette"
+        },
+        {
+          "bbox": [
+            0.07721,
+            0.59314,
+            0.98897,
+            0.82353
+          ],
+          "kind": "plastic pipette"
+        }
+      ],
+      "review_notes": "Three transparent disposable pipettes crossing on a dark background."
+    },
+    "74844063": {
+      "objects": [],
+      "lookalikes": [
+        {
+          "bbox": [
+            0.05515,
+            0.38235,
+            0.87868,
+            0.60784
+          ],
+          "kind": "automatic pipette"
+        }
+      ],
+      "review_notes": "Automatic pipette in a hood with colored illumination."
+    },
+    "116806768": {
+      "objects": [],
+      "lookalikes": [
+        {
+          "bbox": [
+            0,
+            0.15079,
+            1,
+            0.77778
+          ],
+          "kind": "automatic pipette"
+        }
+      ],
+      "review_notes": "Close-up of a positive displacement pipette and its removable component."
+    },
+    "175793232": {
+      "objects": [],
+      "lookalikes": [
+        {
+          "bbox": [
+            0.02459,
+            0.45622,
+            1,
+            0.67742
+          ],
+          "kind": "insulin pen"
+        }
+      ],
+      "review_notes": "Insulin pen with a dial and integrated cap, photographed inside a refrigerator."
+    },
+    "8774999": {
+      "objects": [],
+      "lookalikes": [
+        {
+          "bbox": [
+            0.00735,
+            0.09375,
+            0.97426,
+            0.26875
+          ],
+          "kind": "mechanical pencil"
+        }
+      ],
+      "review_notes": "Disassembled mechanical pencil and the corresponding full pencil, all seen on white."
+    },
+    "24359151": {
+      "objects": [],
+      "lookalikes": [
+        {
+          "bbox": [
+            0.32353,
+            0.48529,
+            0.55515,
+            0.95098
+          ],
+          "kind": "automatic pipette"
+        },
+        {
+          "bbox": [
+            0.17279,
+            0.55392,
+            0.3125,
+            0.88725
+          ],
+          "kind": "pen"
+        }
+      ],
+      "review_notes": "Automatic microlitre pipette and a writing pen near pipette tips."
+    },
+    "21875446": {
+      "objects": [],
+      "lookalikes": [
+        {
+          "bbox": [
+            0.22426,
+            0.14917,
+            0.41912,
+            0.89503
+          ],
+          "kind": "automatic pipette"
+        },
+        {
+          "bbox": [
+            0.38235,
+            0.1768,
+            0.54412,
+            0.97238
+          ],
+          "kind": "automatic pipette"
+        },
+        {
+          "bbox": [
+            0.51838,
+            0.12707,
+            0.68015,
+            0.86188
+          ],
+          "kind": "automatic pipette"
+        }
+      ],
+      "review_notes": "Three single-channel automatic pipettes on a stand."
+    },
+    "64294696": {
+      "objects": [],
+      "lookalikes": [
+        {
+          "bbox": [
+            0.15441,
+            0.33333,
+            0.84559,
+            0.46405
+          ],
+          "kind": "pen"
+        },
+        {
+          "bbox": [
+            0.15809,
+            0.52288,
+            0.84926,
+            0.67974
+          ],
+          "kind": "mechanical pencil"
+        }
+      ],
+      "review_notes": "Writing instrument and pink mechanical pencil."
+    },
+    "16176548": {
+      "objects": [],
+      "lookalikes": [
+        {
+          "bbox": [
+            0.20956,
+            0.1326,
+            0.70588,
+            0.9558
+          ],
+          "kind": "multichannel pipette"
+        }
+      ],
+      "review_notes": "A single multichannel laboratory pipette."
+    },
+    "199574572": {
+      "objects": [],
+      "lookalikes": [
+        {
+          "bbox": [
+            0.08824,
+            0.36111,
+            0.86029,
+            0.68333
+          ],
+          "kind": "mechanical pencil"
+        }
+      ],
+      "review_notes": "Single yellow mechanical pencil on a textured surface."
+    },
+    "35445128": {
+      "objects": [],
+      "lookalikes": [
+        {
+          "bbox": [
+            0.15441,
+            0.59116,
+            0.94485,
+            0.79558
+          ],
+          "kind": "automatic pipette"
+        }
+      ],
+      "review_notes": "Automatic pipette horizontal beside racks with orange lighting."
+    },
+    "103762660": {
+      "objects": [],
+      "lookalikes": [
+        {
+          "bbox": [
+            0.48162,
+            0.61326,
+            0.99632,
+            0.9558
+          ],
+          "kind": "pen"
+        }
+      ],
+      "review_notes": "Blue pen alongside a paper vaccination card, with no syringe visible."
+    },
+    "66493077": {
+      "objects": [],
+      "lookalikes": [
+        {
+          "bbox": [
+            0.0625,
+            0.40331,
+            0.83088,
+            0.75691
+          ],
+          "kind": "thermal paste applicator"
+        }
+      ],
+      "review_notes": "Noctua thermal paste applicator, a strong visual lookalike whose printed industrial use is legible."
+    }
+  }
+}

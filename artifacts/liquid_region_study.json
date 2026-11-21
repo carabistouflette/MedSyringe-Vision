@@ -1,0 +1,360 @@
+{
+  "scope": "Single-session burst-disjoint centerline supervision; no pixel-accurate mask annotations.",
+  "training_groups": [
+    "3272",
+    "3315",
+    "3215",
+    "3296",
+    "3263",
+    "3202",
+    "3199",
+    "3322",
+    "3321",
+    "3238",
+    "3310"
+  ],
+  "validation_groups": [
+    "3243",
+    "3198",
+    "3223",
+    "3329",
+    "3292"
+  ],
+  "holdout_groups": [
+    "3251",
+    "3230",
+    "3304",
+    "3206"
+  ],
+  "validation": {
+    "images": 21,
+    "answered": 21,
+    "bad": 0,
+    "median_centerline": 0.9485294117647058,
+    "evidence": {
+      "IMG_3198": {
+        "status": "measured",
+        "centerline_coverage": 0.937037037037037,
+        "remote_fraction": 0.0,
+        "bad": false
+      },
+      "IMG_3223": {
+        "status": "measured",
+        "centerline_coverage": 0.9386281588447654,
+        "remote_fraction": 0.0,
+        "bad": false
+      },
+      "IMG_3225": {
+        "status": "measured",
+        "centerline_coverage": 1.0,
+        "remote_fraction": 0.11869436201780416,
+        "bad": false
+      },
+      "IMG_3226": {
+        "status": "measured",
+        "centerline_coverage": 0.6741573033707865,
+        "remote_fraction": 0.0,
+        "bad": false
+      },
+      "IMG_3227": {
+        "status": "measured",
+        "centerline_coverage": 0.8775100401606426,
+        "remote_fraction": 0.003720238095238095,
+        "bad": false
+      },
+      "IMG_3228": {
+        "status": "measured",
+        "centerline_coverage": 0.9943502824858758,
+        "remote_fraction": 0.0,
+        "bad": false
+      },
+      "IMG_3229": {
+        "status": "measured",
+        "centerline_coverage": 0.8983739837398373,
+        "remote_fraction": 0.0027816411682892906,
+        "bad": false
+      },
+      "IMG_3243": {
+        "status": "measured",
+        "centerline_coverage": 1.0,
+        "remote_fraction": 0.002839564600094652,
+        "bad": false
+      },
+      "IMG_3244": {
+        "status": "measured",
+        "centerline_coverage": 0.9960159362549801,
+        "remote_fraction": 0.0004679457182966776,
+        "bad": false
+      },
+      "IMG_3245": {
+        "status": "measured",
+        "centerline_coverage": 0.9351585014409222,
+        "remote_fraction": 0.07158836689038031,
+        "bad": false
+      },
+      "IMG_3246": {
+        "status": "measured",
+        "centerline_coverage": 0.7252124645892352,
+        "remote_fraction": 0.25,
+        "bad": false
+      },
+      "IMG_3247": {
+        "status": "measured",
+        "centerline_coverage": 0.52,
+        "remote_fraction": 0.17630662020905924,
+        "bad": false
+      },
+      "IMG_3292": {
+        "status": "measured",
+        "centerline_coverage": 0.9296435272045028,
+        "remote_fraction": 0.0,
+        "bad": false
+      },
+      "IMG_3294": {
+        "status": "measured",
+        "centerline_coverage": 0.9911347517730497,
+        "remote_fraction": 0.002579218865143699,
+        "bad": false
+      },
+      "IMG_3295": {
+        "status": "measured",
+        "centerline_coverage": 0.9870259481037924,
+        "remote_fraction": 0.0028782894736842104,
+        "bad": false
+      },
+      "IMG_3329": {
+        "status": "measured",
+        "centerline_coverage": 1.0,
+        "remote_fraction": 0.043316831683168314,
+        "bad": false
+      },
+      "IMG_3331": {
+        "status": "measured",
+        "centerline_coverage": 0.9485294117647058,
+        "remote_fraction": 0.0,
+        "bad": false
+      },
+      "IMG_3332": {
+        "status": "measured",
+        "centerline_coverage": 0.9646739130434783,
+        "remote_fraction": 0.007395234182415777,
+        "bad": false
+      },
+      "IMG_3333": {
+        "status": "measured",
+        "centerline_coverage": 0.9946091644204852,
+        "remote_fraction": 0.01716961498439126,
+        "bad": false
+      },
+      "IMG_3334": {
+        "status": "measured",
+        "centerline_coverage": 1.0,
+        "remote_fraction": 0.0,
+        "bad": false
+      },
+      "IMG_3335": {
+        "status": "measured",
+        "centerline_coverage": 0.8939393939393939,
+        "remote_fraction": 0.035620743844945,
+        "bad": false
+      }
+    }
+  },
+  "heldout": {
+    "images": 13,
+    "answered": 13,
+    "bad": 0,
+    "median_centerline": 0.9619686800894854,
+    "evidence": {
+      "IMG_3206": {
+        "status": "measured",
+        "centerline_coverage": 1.0,
+        "remote_fraction": 0.014251781472684086,
+        "bad": false
+      },
+      "IMG_3230": {
+        "status": "measured",
+        "centerline_coverage": 0.8797619047619047,
+        "remote_fraction": 0.006272869837950863,
+        "bad": false
+      },
+      "IMG_3231": {
+        "status": "measured",
+        "centerline_coverage": 0.9619686800894854,
+        "remote_fraction": 0.005855855855855856,
+        "bad": false
+      },
+      "IMG_3232": {
+        "status": "measured",
+        "centerline_coverage": 1.0,
+        "remote_fraction": 0.082687338501292,
+        "bad": false
+      },
+      "IMG_3233": {
+        "status": "measured",
+        "centerline_coverage": 0.9547511312217195,
+        "remote_fraction": 0.10361445783132531,
+        "bad": false
+      },
+      "IMG_3234": {
+        "status": "measured",
+        "centerline_coverage": 0.9574468085106383,
+        "remote_fraction": 0.03985507246376811,
+        "bad": false
+      },
+      "IMG_3235": {
+        "status": "measured",
+        "centerline_coverage": 1.0,
+        "remote_fraction": 0.03156708004509583,
+        "bad": false
+      },
+      "IMG_3251": {
+        "status": "measured",
+        "centerline_coverage": 0.928388746803069,
+        "remote_fraction": 0.015220700152207,
+        "bad": false
+      },
+      "IMG_3252": {
+        "status": "measured",
+        "centerline_coverage": 0.9834983498349835,
+        "remote_fraction": 0.0,
+        "bad": false
+      },
+      "IMG_3257": {
+        "status": "measured",
+        "centerline_coverage": 0.912639405204461,
+        "remote_fraction": 0.05469141996989463,
+        "bad": false
+      },
+      "IMG_3304": {
+        "status": "measured",
+        "centerline_coverage": 1.0,
+        "remote_fraction": 0.06313993174061433,
+        "bad": false
+      },
+      "IMG_3305": {
+        "status": "measured",
+        "centerline_coverage": 0.922675026123302,
+        "remote_fraction": 0.016779721528025704,
+        "bad": false
+      },
+      "IMG_3306": {
+        "status": "measured",
+        "centerline_coverage": 0.9842406876790831,
+        "remote_fraction": 0.017433414043583534,
+        "bad": false
+      }
+    }
+  },
+  "head_sha256": "213ef26d4671df406ded8405d26a7562e25837607f02c99a354d7f1361852fc5",
+  "choices": [
+    {
+      "threshold": -0.3,
+      "regularization": 0.2,
+      "answered": 21,
+      "bad": 6
+    },
+    {
+      "threshold": 0.2,
+      "regularization": 0.2,
+      "answered": 21,
+      "bad": 4
+    },
+    {
+      "threshold": 0.7,
+      "regularization": 0.2,
+      "answered": 21,
+      "bad": 3
+    },
+    {
+      "threshold": 1.2,
+      "regularization": 0.2,
+      "answered": 21,
+      "bad": 1
+    },
+    {
+      "threshold": 1.7,
+      "regularization": 0.2,
+      "answered": 21,
+      "bad": 1
+    },
+    {
+      "threshold": 2.2,
+      "regularization": 0.2,
+      "answered": 21,
+      "bad": 3
+    },
+    {
+      "threshold": -0.3,
+      "regularization": 1.0,
+      "answered": 21,
+      "bad": 4
+    },
+    {
+      "threshold": 0.2,
+      "regularization": 1.0,
+      "answered": 21,
+      "bad": 4
+    },
+    {
+      "threshold": 0.7,
+      "regularization": 1.0,
+      "answered": 21,
+      "bad": 1
+    },
+    {
+      "threshold": 1.2,
+      "regularization": 1.0,
+      "answered": 21,
+      "bad": 1
+    },
+    {
+      "threshold": 1.7,
+      "regularization": 1.0,
+      "answered": 21,
+      "bad": 1
+    },
+    {
+      "threshold": 2.2,
+      "regularization": 1.0,
+      "answered": 21,
+      "bad": 1
+    },
+    {
+      "threshold": -0.3,
+      "regularization": 5.0,
+      "answered": 21,
+      "bad": 4
+    },
+    {
+      "threshold": 0.2,
+      "regularization": 5.0,
+      "answered": 21,
+      "bad": 3
+    },
+    {
+      "threshold": 0.7,
+      "regularization": 5.0,
+      "answered": 21,
+      "bad": 1
+    },
+    {
+      "threshold": 1.2,
+      "regularization": 5.0,
+      "answered": 21,
+      "bad": 1
+    },
+    {
+      "threshold": 1.7,
+      "regularization": 5.0,
+      "answered": 21,
+      "bad": 1
+    },
+    {
+      "threshold": 2.2,
+      "regularization": 5.0,
+      "answered": 21,
+      "bad": 0
+    }
+  ]
+}

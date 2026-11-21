@@ -1,0 +1,15 @@
+{
+  "image": "IMG_3316.jpeg",
+  "detected": 1,
+  "browser": "Chromium",
+  "no_page_errors": true,
+  "flows": [
+    "image upload",
+    "real detection overlay",
+    "inventory",
+    "persisted review",
+    "ZIP report with evidence",
+    "mobile viewport without horizontal overflow",
+    "candidate adoption with unchanged model output and linked review evidence"
+  ]
+}

@@ -1,0 +1,208 @@
+{
+  "inputs": {
+    "manifest_sha256": "079c6c7230e9ec96d838b1a576a89d32981d5ae5d42a0cc9760d8ecfe97d7680",
+    "variant_sha256": "d0c813a0ef22d1d6c492f1dc92b226ea772369f9631f54a46b4cb2134c5f49d0",
+    "script_sha256": "1da24c5aa6077c4c6980ae28278c1b24343112ebe70db27f0cac04b646c51d5d"
+  },
+  "summary": {
+    "baseline": {
+      "images": 13,
+      "groups": 13,
+      "boxes": 3,
+      "false_alarm_scenes": 3,
+      "specificity": 0.7692307692307693
+    },
+    "earlier": {
+      "images": 13,
+      "groups": 13,
+      "boxes": 3,
+      "false_alarm_scenes": 3,
+      "specificity": 0.7692307692307693
+    }
+  },
+  "new_false_alarm_scenes": {
+    "earlier": []
+  },
+  "cases": [
+    {
+      "id": "42859984",
+      "lookalike_type": "vacuum tube holder during blood collection",
+      "predictions": {
+        "baseline": [
+          {
+            "bbox": [
+              0.27985120287128523,
+              0.30632811901616114,
+              0.7569492813808466,
+              0.6603053971832874
+            ],
+            "score": 0.7376640224980853
+          }
+        ],
+        "earlier": [
+          {
+            "score": 0.6772280764893512,
+            "bbox": [
+              0.2804636238447202,
+              0.40156342001522294,
+              0.6397973852219925,
+              0.6604858099245557
+            ],
+            "semantic_margin": 1.4213388886181586
+          }
+        ]
+      }
+    },
+    {
+      "id": "21223434",
+      "lookalike_type": "capped vacuum collection tubes",
+      "predictions": {
+        "baseline": [],
+        "earlier": []
+      }
+    },
+    {
+      "id": "138944041",
+      "lookalike_type": "peripheral catheter and valves",
+      "predictions": {
+        "baseline": [],
+        "earlier": []
+      }
+    },
+    {
+      "id": "81461560",
+      "lookalike_type": "mechanical pencil",
+      "predictions": {
+        "baseline": [],
+        "earlier": []
+      }
+    },
+    {
+      "id": "50226394",
+      "lookalike_type": "industrial pressure pump",
+      "predictions": {
+        "baseline": [],
+        "earlier": []
+      }
+    },
+    {
+      "id": "57055359",
+      "lookalike_type": "mechanical pencil lead containers",
+      "predictions": {
+        "baseline": [],
+        "earlier": []
+      }
+    },
+    {
+      "id": "4341846",
+      "lookalike_type": "vacuum tube holder during blood collection",
+      "predictions": {
+        "baseline": [
+          {
+            "bbox": [
+              0.4511807123819987,
+              0.1585177044535792,
+              0.718725077311198,
+              0.41210037054017534
+            ],
+            "score": 0.7612063596506552
+          }
+        ],
+        "earlier": [
+          {
+            "score": 0.6772280764893512,
+            "bbox": [
+              0.44815702438354493,
+              0.157042569892351,
+              0.9968932469685873,
+              0.41545694927836574
+            ],
+            "semantic_margin": 1.023992169970286
+          }
+        ]
+      }
+    },
+    {
+      "id": "90705404",
+      "lookalike_type": "test tubes with colored liquids",
+      "predictions": {
+        "baseline": [],
+        "earlier": []
+      }
+    },
+    {
+      "id": "48209612",
+      "lookalike_type": "empty infusion syringe pump",
+      "predictions": {
+        "baseline": [],
+        "earlier": []
+      }
+    },
+    {
+      "id": "129644201",
+      "lookalike_type": "loose mechanical pencil leads",
+      "predictions": {
+        "baseline": [],
+        "earlier": []
+      }
+    },
+    {
+      "id": "35139514",
+      "lookalike_type": "pulmonary catheter assembly",
+      "predictions": {
+        "baseline": [
+          {
+            "bbox": [
+              0.12885831197102865,
+              0.13074501885308165,
+              0.46943419774373374,
+              0.3318901485866971
+            ],
+            "score": 0.7093929890387132
+          }
+        ],
+        "earlier": [
+          {
+            "bbox": [
+              0.12885831197102865,
+              0.13074501885308165,
+              0.46943419774373374,
+              0.3318901485866971
+            ],
+            "score": 0.7093929890387132
+          }
+        ]
+      }
+    },
+    {
+      "id": "8707173",
+      "lookalike_type": "mechanical pencil",
+      "predictions": {
+        "baseline": [],
+        "earlier": []
+      }
+    },
+    {
+      "id": "60465178",
+      "lookalike_type": "hemodialysis catheter",
+      "predictions": {
+        "baseline": [],
+        "earlier": []
+      }
+    }
+  ],
+  "categories": {
+    "vacuum tube holder during blood collection": 2,
+    "capped vacuum collection tubes": 1,
+    "peripheral catheter and valves": 1,
+    "mechanical pencil": 2,
+    "industrial pressure pump": 1,
+    "mechanical pencil lead containers": 1,
+    "test tubes with colored liquids": 1,
+    "empty infusion syringe pump": 1,
+    "loose mechanical pencil leads": 1,
+    "pulmonary catheter assembly": 1,
+    "hemodialysis catheter": 1
+  },
+  "scope": "Negative-only cohort. Reports image specificity and number of false boxes."
+}

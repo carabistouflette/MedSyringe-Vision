@@ -1,0 +1,14 @@
+{
+  "image": "IMG_3228.HEIC",
+  "detected": 1,
+  "browser": "Chromium",
+  "no_page_errors": true,
+  "flows": [
+    "image upload",
+    "real detection overlay",
+    "inventory",
+    "persisted review",
+    "ZIP report with evidence",
+    "mobile viewport without horizontal overflow"
+  ]
+}

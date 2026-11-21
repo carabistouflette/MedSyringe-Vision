@@ -1,0 +1,36 @@
+{
+  "status": "completed",
+  "model": {
+    "device": "cpu",
+    "pretrain_weights": "data/rfdetr/rf-detr-seg-nano.pt",
+    "segmentation_head": false,
+    "freeze_encoder": true,
+    "num_classes": 1
+  },
+  "train": {
+    "dataset_dir": "data/rfdetr/adapt",
+    "output_dir": "data/rfdetr/runs/direct",
+    "device": "cpu",
+    "epochs": 2,
+    "batch_size": 4,
+    "lr": 0.0002,
+    "lr_encoder": 0,
+    "multi_scale": false,
+    "num_workers": 0,
+    "checkpoint_interval": 1,
+    "use_ema": false,
+    "tensorboard": false,
+    "progress_bar": "tqdm",
+    "save_dataset_grids": false,
+    "run_test": false,
+    "num_sanity_val_steps": 0,
+    "resolution": 240,
+    "seed": 2602,
+    "train_log_on_step": true
+  },
+  "data_sha256": "7b5eef2f38852ae6169bbf7b23da5e08ad22f26ac15d0628e486aa601341842c",
+  "initial_sha256": "a44613a4ecd6b5ba61a62002c600b0b6cb7a9da2936a45317ec4b62c635fb99b",
+  "elapsed_seconds": 250.4515360769874,
+  "checkpoint": "data/rfdetr/runs/direct/checkpoint_best_total.pth",
+  "checkpoint_sha256": "ba81dce13d70d51f7080b2df635bb10da38b8afcc1ffd127a6ca7e2b3158775b"
+}

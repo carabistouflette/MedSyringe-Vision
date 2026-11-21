@@ -1,0 +1,10 @@
+{
+  "images": {
+    "train": 74,
+    "validation": 19,
+    "test": 10
+  },
+  "leakage": [],
+  "hash_mismatch": [],
+  "source": "75 original files match their initial SHA-256"
+}

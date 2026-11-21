@@ -1,0 +1,87 @@
+{
+  "passed": false,
+  "scores": {
+    "test": {
+      "baseline": {
+        "images": 14,
+        "objects": 14,
+        "tp": 13,
+        "fp": 1,
+        "fn": 1,
+        "precision": 0.9285714285714286,
+        "recall": 0.9285714285714286,
+        "f1": 0.9285714285714286,
+        "ap50": 0.905940594059406,
+        "ap50_95": 0.409124143183549,
+        "exact_count": 14,
+        "negative_images": 0,
+        "correct_empty": 0
+      },
+      "candidate": {
+        "images": 14,
+        "objects": 14,
+        "tp": 13,
+        "fp": 1,
+        "fn": 1,
+        "precision": 0.9285714285714286,
+        "recall": 0.9285714285714286,
+        "f1": 0.9285714285714286,
+        "ap50": 0.905940594059406,
+        "ap50_95": 0.409124143183549,
+        "exact_count": 14,
+        "negative_images": 0,
+        "correct_empty": 0
+      },
+      "guard": {
+        "passed": true,
+        "lost_matches": [],
+        "recovered_matches": 0,
+        "baseline_matches": 13,
+        "candidate_matches": 13
+      },
+      "rescues": {}
+    },
+    "reserve": {
+      "baseline": {
+        "images": 21,
+        "objects": 7,
+        "tp": 4,
+        "fp": 2,
+        "fn": 3,
+        "precision": 0.6666666666666666,
+        "recall": 0.5714285714285714,
+        "f1": 0.6153846153846153,
+        "ap50": 0.45940594059405937,
+        "ap50_95": 0.4313861386138614,
+        "exact_count": 16,
+        "negative_images": 14,
+        "correct_empty": 12
+      },
+      "candidate": {
+        "images": 21,
+        "objects": 7,
+        "tp": 4,
+        "fp": 2,
+        "fn": 3,
+        "precision": 0.6666666666666666,
+        "recall": 0.5714285714285714,
+        "f1": 0.6153846153846153,
+        "ap50": 0.45940594059405937,
+        "ap50_95": 0.4313861386138614,
+        "exact_count": 16,
+        "negative_images": 14,
+        "correct_empty": 12
+      },
+      "guard": {
+        "passed": true,
+        "lost_matches": [],
+        "recovered_matches": 0,
+        "baseline_matches": 4,
+        "candidate_matches": 4
+      },
+      "rescues": {}
+    }
+  },
+  "selection_sha256": "9e616ac3a4300b0550471c0e09d4fe88865aaf3486b2e968d3956341f2f0c6ef",
+  "scope": "Previously consulted regression cohorts."
+}

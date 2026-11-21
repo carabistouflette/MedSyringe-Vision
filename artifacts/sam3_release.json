@@ -1,0 +1,17 @@
+{
+  "id": "sam3-local-fallback",
+  "executable": "data/sam3/xpu-env/bin/python",
+  "options": {
+    "edge": 504,
+    "device": "xpu",
+    "cutoff": 0.9
+  },
+  "evidence": "artifacts/sam3_runtime.json",
+  "evidence_sha256": "55c41746d5ac7318a963582be819499f3bf20ad11ea9f3a2212851b46c60d733",
+  "code": {
+    "scripts/sam3_study.py": "672278ed74cd9a58340a818f1bae8bade9067b92ce9961b0f2b29d3532b2ad49",
+    "scripts/local_model_worker.py": "e854c1cbcfa97e94962bfdcb886590084893a6797a6565b2bafec5272ae86955",
+    "medsyringe/local_models.py": "e97a6adb8e6a057b05329e91e72b3df1e39c943d2bfe1a5f102f3067dea4abc1",
+    "medsyringe/additive.py": "b4e60254422030ddbfb10f19826b8c48f79d5a0092851b13f2b71ed44a9a2f84"
+  }
+}

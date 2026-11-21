@@ -1,0 +1,36 @@
+{
+  "status": "completed",
+  "elapsed_seconds": 238.92811602700021,
+  "checkpoint": "data/detection_hillclimb/runs/whole-frame/checkpoint_best_total.pth",
+  "checkpoint_sha256": "951daa95a87c5da3ce304d71fa40d04328c27c313b236a78c1e7fffdfa171b7d",
+  "model": {
+    "device": "cpu",
+    "pretrain_weights": "data/rfdetr/runs/public/checkpoint_best_total.pth",
+    "segmentation_head": true,
+    "freeze_encoder": true,
+    "num_classes": 1
+  },
+  "train": {
+    "dataset_dir": "data/detection_hillclimb/whole-frame",
+    "output_dir": "data/detection_hillclimb/runs/whole-frame",
+    "device": "cpu",
+    "epochs": 1,
+    "batch_size": 4,
+    "lr": 0.00012,
+    "lr_encoder": 0,
+    "multi_scale": false,
+    "num_workers": 0,
+    "checkpoint_interval": 1,
+    "use_ema": false,
+    "tensorboard": false,
+    "progress_bar": null,
+    "save_dataset_grids": false,
+    "run_test": false,
+    "num_sanity_val_steps": 0,
+    "resolution": 240,
+    "seed": 1107,
+    "train_log_on_step": false
+  },
+  "data_sha256": "40e4a6b60a7bf3ef29939aca8824bfbb468c6e4da1a1092e6e03d34ca2e9ea3f",
+  "initial_sha256": "fc047233f3ef5bbc5f42c3bc9c088709d55749acd0c3ae5475dbea53a85cf7f5"
+}

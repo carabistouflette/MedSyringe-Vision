@@ -1,0 +1,9 @@
+{
+  "passed": false,
+  "notes": "Conservative veto only for a verified short visible segment.",
+  "selection_sha256": "68d048b7b019e43cec996d9d1bd4365d281c2eb8422dd091517178075acd8916",
+  "vetoes": {
+    "calibration": [],
+    "test": []
+  }
+}

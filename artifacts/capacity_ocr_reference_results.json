@@ -1,0 +1,4447 @@
+{
+  "heldout": {
+    "n": 20,
+    "capacity": {
+      "answered": 11,
+      "correct": 11,
+      "wrong": 0
+    },
+    "type": {
+      "answered": 11,
+      "correct": 11,
+      "wrong": 0
+    },
+    "findings": {
+      "IMG_3198": {
+        "capacity": {
+          "value": 60.0,
+          "unit": "mL",
+          "score": 0.9706876873970032,
+          "method": "adjacent number and unit",
+          "evidence": [
+            {
+              "text": "ml",
+              "crop_bbox": [
+                0.4401693221829158,
+                0.48104197472933635,
+                0.7065550063046556,
+                0.5345365875251085
+              ],
+              "rotation": 357.0
+            },
+            {
+              "text": "60",
+              "crop_bbox": [
+                0.546853548992964,
+                0.5241029995349982,
+                0.7097586619784527,
+                0.5849487058644651
+              ],
+              "rotation": 357.0
+            }
+          ]
+        },
+        "scale": {
+          "value": "60-scale",
+          "score": 0.9706876873970032,
+          "method": "read number and unit",
+          "evidence": [
+            {
+              "text": "ml",
+              "crop_bbox": [
+                0.4401693221829158,
+                0.48104197472933635,
+                0.7065550063046556,
+                0.5345365875251085
+              ],
+              "rotation": 357.0
+            },
+            {
+              "text": "60",
+              "crop_bbox": [
+                0.546853548992964,
+                0.5241029995349982,
+                0.7097586619784527,
+                0.5849487058644651
+              ],
+              "rotation": 357.0
+            }
+          ]
+        },
+        "status": "capacity read",
+        "expected_capacity": 60,
+        "expected_scale": "60-scale"
+      },
+      "IMG_3206": {
+        "capacity": null,
+        "scale": null,
+        "status": "markings only",
+        "expected_capacity": 60,
+        "expected_scale": "60-scale"
+      },
+      "IMG_3238": {
+        "capacity": {
+          "value": 20.0,
+          "unit": "mL",
+          "score": 0.7443219423294067,
+          "method": "adjacent number and unit",
+          "evidence": [
+            {
+              "text": "ml",
+              "crop_bbox": [
+                0.21428571428571427,
+                0.4879807692307692,
+                0.6830357142857143,
+                0.5200320512820513
+              ],
+              "rotation": 0.0
+            },
+            {
+              "text": "20",
+              "crop_bbox": [
+                0.2767857142857143,
+                0.4863782051282051,
+                0.5892857142857143,
+                0.5592948717948718
+              ],
+              "rotation": 0.0
+            }
+          ]
+        },
+        "scale": {
+          "value": "20-scale",
+          "score": 0.7443219423294067,
+          "method": "read number and unit",
+          "evidence": [
+            {
+              "text": "ml",
+              "crop_bbox": [
+                0.21428571428571427,
+                0.4879807692307692,
+                0.6830357142857143,
+                0.5200320512820513
+              ],
+              "rotation": 0.0
+            },
+            {
+              "text": "20",
+              "crop_bbox": [
+                0.2767857142857143,
+                0.4863782051282051,
+                0.5892857142857143,
+                0.5592948717948718
+              ],
+              "rotation": 0.0
+            }
+          ]
+        },
+        "status": "capacity read",
+        "expected_capacity": 20,
+        "expected_scale": "20-scale"
+      },
+      "IMG_3239": {
+        "capacity": null,
+        "scale": null,
+        "status": "markings only",
+        "expected_capacity": 20,
+        "expected_scale": "20-scale"
+      },
+      "IMG_3240": {
+        "capacity": null,
+        "scale": null,
+        "status": "markings only",
+        "expected_capacity": 20,
+        "expected_scale": "20-scale"
+      },
+      "IMG_3241": {
+        "capacity": {
+          "value": 20.0,
+          "unit": "mL",
+          "score": 0.9885177612304688,
+          "method": "adjacent number and unit",
+          "evidence": [
+            {
+              "text": "ml",
+              "crop_bbox": [
+                0.37820512820512814,
+                0.3485477178423235,
+                0.4358974358974359,
+                0.4284232365145227
+              ],
+              "rotation": 270.0
+            },
+            {
+              "text": "20",
+              "crop_bbox": [
+                0.4006410256410256,
+                0.3599585062240663,
+                0.4671474358974359,
+                0.45020746887966795
+              ],
+              "rotation": 270.0
+            }
+          ]
+        },
+        "scale": {
+          "value": "20-scale",
+          "score": 0.9885177612304688,
+          "method": "read number and unit",
+          "evidence": [
+            {
+              "text": "ml",
+              "crop_bbox": [
+                0.37820512820512814,
+                0.3485477178423235,
+                0.4358974358974359,
+                0.4284232365145227
+              ],
+              "rotation": 270.0
+            },
+            {
+              "text": "20",
+              "crop_bbox": [
+                0.4006410256410256,
+                0.3599585062240663,
+                0.4671474358974359,
+                0.45020746887966795
+              ],
+              "rotation": 270.0
+            }
+          ]
+        },
+        "status": "capacity read",
+        "expected_capacity": 20,
+        "expected_scale": "20-scale"
+      },
+      "IMG_3243": {
+        "capacity": null,
+        "scale": null,
+        "status": "markings only",
+        "expected_capacity": 20,
+        "expected_scale": "20-scale"
+      },
+      "IMG_3244": {
+        "capacity": {
+          "value": 20.0,
+          "unit": "mL",
+          "score": 0.9650879502296448,
+          "method": "adjacent number and unit",
+          "evidence": [
+            {
+              "text": "ml",
+              "crop_bbox": [
+                0.5070921985815603,
+                0.5216346153846154,
+                0.7907801418439716,
+                0.5681089743589743
+              ],
+              "rotation": 0.0
+            },
+            {
+              "text": "20",
+              "crop_bbox": [
+                0.5460992907801419,
+                0.5600961538461539,
+                0.7340425531914894,
+                0.6009615384615384
+              ],
+              "rotation": 0.0
+            }
+          ]
+        },
+        "scale": {
+          "value": "20-scale",
+          "score": 0.9650879502296448,
+          "method": "read number and unit",
+          "evidence": [
+            {
+              "text": "ml",
+              "crop_bbox": [
+                0.5070921985815603,
+                0.5216346153846154,
+                0.7907801418439716,
+                0.5681089743589743
+              ],
+              "rotation": 0.0
+            },
+            {
+              "text": "20",
+              "crop_bbox": [
+                0.5460992907801419,
+                0.5600961538461539,
+                0.7340425531914894,
+                0.6009615384615384
+              ],
+              "rotation": 0.0
+            }
+          ]
+        },
+        "status": "capacity read",
+        "expected_capacity": 20,
+        "expected_scale": "20-scale"
+      },
+      "IMG_3245": {
+        "capacity": {
+          "value": 20.0,
+          "unit": "mL",
+          "score": 0.9073862433433533,
+          "method": "adjacent number and unit",
+          "evidence": [
+            {
+              "text": "ml",
+              "crop_bbox": [
+                0.48024316109422494,
+                0.6434294871794872,
+                0.8085106382978723,
+                0.6778846153846154
+              ],
+              "rotation": 0.0
+            },
+            {
+              "text": "20",
+              "crop_bbox": [
+                0.5249395944952201,
+                0.642191135734072,
+                0.7431242777602689,
+                0.7202382271468145
+              ],
+              "rotation": 0.0
+            }
+          ]
+        },
+        "scale": {
+          "value": "20-scale",
+          "score": 0.9073862433433533,
+          "method": "read number and unit",
+          "evidence": [
+            {
+              "text": "ml",
+              "crop_bbox": [
+                0.48024316109422494,
+                0.6434294871794872,
+                0.8085106382978723,
+                0.6778846153846154
+              ],
+              "rotation": 0.0
+            },
+            {
+              "text": "20",
+              "crop_bbox": [
+                0.5249395944952201,
+                0.642191135734072,
+                0.7431242777602689,
+                0.7202382271468145
+              ],
+              "rotation": 0.0
+            }
+          ]
+        },
+        "status": "capacity read",
+        "expected_capacity": 20,
+        "expected_scale": "20-scale"
+      },
+      "IMG_3246": {
+        "capacity": {
+          "value": 20.0,
+          "unit": "mL",
+          "score": 0.9916369915008545,
+          "method": "adjacent number and unit",
+          "evidence": [
+            {
+              "text": "ml",
+              "crop_bbox": [
+                0.4528032556678828,
+                0.49188104439163427,
+                0.667413911402166,
+                0.5550497189476932
+              ],
+              "rotation": 20.9
+            },
+            {
+              "text": "20",
+              "crop_bbox": [
+                0.44459835720530594,
+                0.49467163817460885,
+                0.6315386447901887,
+                0.5876862547487043
+              ],
+              "rotation": 20.9
+            }
+          ]
+        },
+        "scale": {
+          "value": "20-scale",
+          "score": 0.9916369915008545,
+          "method": "read number and unit",
+          "evidence": [
+            {
+              "text": "ml",
+              "crop_bbox": [
+                0.4528032556678828,
+                0.49188104439163427,
+                0.667413911402166,
+                0.5550497189476932
+              ],
+              "rotation": 20.9
+            },
+            {
+              "text": "20",
+              "crop_bbox": [
+                0.44459835720530594,
+                0.49467163817460885,
+                0.6315386447901887,
+                0.5876862547487043
+              ],
+              "rotation": 20.9
+            }
+          ]
+        },
+        "status": "capacity read",
+        "expected_capacity": 20,
+        "expected_scale": "20-scale"
+      },
+      "IMG_3247": {
+        "capacity": null,
+        "scale": null,
+        "status": "markings only",
+        "expected_capacity": 20,
+        "expected_scale": "20-scale"
+      },
+      "IMG_3296": {
+        "capacity": {
+          "value": 20.0,
+          "unit": "mL",
+          "score": 0.9479399919509888,
+          "method": "adjacent number and unit",
+          "evidence": [
+            {
+              "text": "ml",
+              "crop_bbox": [
+                0.45611656295333736,
+                0.5402768599334015,
+                0.7179972472580585,
+                0.6230572134134855
+              ],
+              "rotation": 348.3
+            },
+            {
+              "text": "20",
+              "crop_bbox": [
+                0.5020574784829644,
+                0.5717734681782043,
+                0.6921482172057231,
+                0.6531148259101663
+              ],
+              "rotation": 348.3
+            }
+          ]
+        },
+        "scale": {
+          "value": "20-scale",
+          "score": 0.9479399919509888,
+          "method": "read number and unit",
+          "evidence": [
+            {
+              "text": "ml",
+              "crop_bbox": [
+                0.45611656295333736,
+                0.5402768599334015,
+                0.7179972472580585,
+                0.6230572134134855
+              ],
+              "rotation": 348.3
+            },
+            {
+              "text": "20",
+              "crop_bbox": [
+                0.5020574784829644,
+                0.5717734681782043,
+                0.6921482172057231,
+                0.6531148259101663
+              ],
+              "rotation": 348.3
+            }
+          ]
+        },
+        "status": "capacity read",
+        "expected_capacity": 20,
+        "expected_scale": "20-scale"
+      },
+      "IMG_3297": {
+        "capacity": null,
+        "scale": null,
+        "status": "markings only",
+        "expected_capacity": 20,
+        "expected_scale": "20-scale"
+      },
+      "IMG_3298": {
+        "capacity": null,
+        "scale": null,
+        "status": "markings only",
+        "expected_capacity": 20,
+        "expected_scale": "20-scale"
+      },
+      "IMG_3299": {
+        "capacity": {
+          "value": 20.0,
+          "unit": "mL",
+          "score": 0.987656831741333,
+          "method": "adjacent number and unit",
+          "evidence": [
+            {
+              "text": "ml",
+              "crop_bbox": [
+                0.6175269560441382,
+                0.365441093567561,
+                0.754264167994844,
+                0.43082033030129097
+              ],
+              "rotation": 24.8
+            },
+            {
+              "text": "20",
+              "crop_bbox": [
+                0.6039922296431148,
+                0.4033805067980059,
+                0.7026248839431504,
+                0.4552103703550328
+              ],
+              "rotation": 24.8
+            }
+          ]
+        },
+        "scale": {
+          "value": "20-scale",
+          "score": 0.987656831741333,
+          "method": "read number and unit",
+          "evidence": [
+            {
+              "text": "ml",
+              "crop_bbox": [
+                0.6175269560441382,
+                0.365441093567561,
+                0.754264167994844,
+                0.43082033030129097
+              ],
+              "rotation": 24.8
+            },
+            {
+              "text": "20",
+              "crop_bbox": [
+                0.6039922296431148,
+                0.4033805067980059,
+                0.7026248839431504,
+                0.4552103703550328
+              ],
+              "rotation": 24.8
+            }
+          ]
+        },
+        "status": "capacity read",
+        "expected_capacity": 20,
+        "expected_scale": "20-scale"
+      },
+      "IMG_3300": {
+        "capacity": null,
+        "scale": null,
+        "status": "markings only",
+        "expected_capacity": 20,
+        "expected_scale": "20-scale"
+      },
+      "IMG_3301": {
+        "capacity": {
+          "value": 20.0,
+          "unit": "mL",
+          "score": 0.9819600582122803,
+          "method": "adjacent number and unit",
+          "evidence": [
+            {
+              "text": "ml",
+              "crop_bbox": [
+                0.27241379310344827,
+                0.46314102564102566,
+                0.6137931034482759,
+                0.5104166666666666
+              ],
+              "rotation": 0.0
+            },
+            {
+              "text": "20",
+              "crop_bbox": [
+                0.31746031746031744,
+                0.5021052631578947,
+                0.5442176870748299,
+                0.5431578947368422
+              ],
+              "rotation": 0.0
+            }
+          ]
+        },
+        "scale": {
+          "value": "20-scale",
+          "score": 0.9819600582122803,
+          "method": "read number and unit",
+          "evidence": [
+            {
+              "text": "ml",
+              "crop_bbox": [
+                0.27241379310344827,
+                0.46314102564102566,
+                0.6137931034482759,
+                0.5104166666666666
+              ],
+              "rotation": 0.0
+            },
+            {
+              "text": "20",
+              "crop_bbox": [
+                0.31746031746031744,
+                0.5021052631578947,
+                0.5442176870748299,
+                0.5431578947368422
+              ],
+              "rotation": 0.0
+            }
+          ]
+        },
+        "status": "capacity read",
+        "expected_capacity": 20,
+        "expected_scale": "20-scale"
+      },
+      "IMG_3302": {
+        "capacity": {
+          "value": 20.0,
+          "unit": "mL",
+          "score": 0.8573032021522522,
+          "method": "adjacent number and unit",
+          "evidence": [
+            {
+              "text": "ml",
+              "crop_bbox": [
+                0.4148936170212766,
+                0.34294871794871795,
+                0.723404255319149,
+                0.40625
+              ],
+              "rotation": 0.0
+            },
+            {
+              "text": "20",
+              "crop_bbox": [
+                0.4574468085106383,
+                0.3701923076923077,
+                0.6631205673758865,
+                0.4375
+              ],
+              "rotation": 0.0
+            }
+          ]
+        },
+        "scale": {
+          "value": "20-scale",
+          "score": 0.8573032021522522,
+          "method": "read number and unit",
+          "evidence": [
+            {
+              "text": "ml",
+              "crop_bbox": [
+                0.4148936170212766,
+                0.34294871794871795,
+                0.723404255319149,
+                0.40625
+              ],
+              "rotation": 0.0
+            },
+            {
+              "text": "20",
+              "crop_bbox": [
+                0.4574468085106383,
+                0.3701923076923077,
+                0.6631205673758865,
+                0.4375
+              ],
+              "rotation": 0.0
+            }
+          ]
+        },
+        "status": "capacity read",
+        "expected_capacity": 20,
+        "expected_scale": "20-scale"
+      },
+      "IMG_3310": {
+        "capacity": null,
+        "scale": null,
+        "status": "markings only",
+        "expected_capacity": 20,
+        "expected_scale": "20-scale"
+      },
+      "IMG_3311": {
+        "capacity": {
+          "value": 20.0,
+          "unit": "mL",
+          "score": 0.9155092835426331,
+          "method": "adjacent number and unit",
+          "evidence": [
+            {
+              "text": "ml",
+              "crop_bbox": [
+                0.32414448669201523,
+                0.34263157894736845,
+                0.42205323193916344,
+                0.39105263157894743
+              ],
+              "rotation": 0.0
+            },
+            {
+              "text": "20",
+              "crop_bbox": [
+                0.3154848046309696,
+                0.33573717948717946,
+                0.4602026049204052,
+                0.42467948717948717
+              ],
+              "rotation": 0.0
+            }
+          ]
+        },
+        "scale": {
+          "value": "20-scale",
+          "score": 0.9155092835426331,
+          "method": "read number and unit",
+          "evidence": [
+            {
+              "text": "ml",
+              "crop_bbox": [
+                0.32414448669201523,
+                0.34263157894736845,
+                0.42205323193916344,
+                0.39105263157894743
+              ],
+              "rotation": 0.0
+            },
+            {
+              "text": "20",
+              "crop_bbox": [
+                0.3154848046309696,
+                0.33573717948717946,
+                0.4602026049204052,
+                0.42467948717948717
+              ],
+              "rotation": 0.0
+            }
+          ]
+        },
+        "status": "capacity read",
+        "expected_capacity": 20,
+        "expected_scale": "20-scale"
+      }
+    }
+  },
+  "all": {
+    "n": 74,
+    "capacity": {
+      "answered": 35,
+      "correct": 35,
+      "wrong": 0
+    },
+    "type": {
+      "answered": 36,
+      "correct": 36,
+      "wrong": 0
+    },
+    "findings": {
+      "IMG_3198": {
+        "capacity": {
+          "value": 60.0,
+          "unit": "mL",
+          "score": 0.9706876873970032,
+          "method": "adjacent number and unit",
+          "evidence": [
+            {
+              "text": "ml",
+              "crop_bbox": [
+                0.4401693221829158,
+                0.48104197472933635,
+                0.7065550063046556,
+                0.5345365875251085
+              ],
+              "rotation": 357.0
+            },
+            {
+              "text": "60",
+              "crop_bbox": [
+                0.546853548992964,
+                0.5241029995349982,
+                0.7097586619784527,
+                0.5849487058644651
+              ],
+              "rotation": 357.0
+            }
+          ]
+        },
+        "scale": {
+          "value": "60-scale",
+          "score": 0.9706876873970032,
+          "method": "read number and unit",
+          "evidence": [
+            {
+              "text": "ml",
+              "crop_bbox": [
+                0.4401693221829158,
+                0.48104197472933635,
+                0.7065550063046556,
+                0.5345365875251085
+              ],
+              "rotation": 357.0
+            },
+            {
+              "text": "60",
+              "crop_bbox": [
+                0.546853548992964,
+                0.5241029995349982,
+                0.7097586619784527,
+                0.5849487058644651
+              ],
+              "rotation": 357.0
+            }
+          ]
+        },
+        "status": "capacity read",
+        "expected_capacity": 60,
+        "expected_scale": "60-scale"
+      },
+      "IMG_3199": {
+        "capacity": {
+          "value": 60.0,
+          "unit": "mL",
+          "score": 0.9889661073684692,
+          "method": "adjacent number and unit",
+          "evidence": [
+            {
+              "text": "ml",
+              "crop_bbox": [
+                0.36310679611650487,
+                0.5957894736842105,
+                0.5165048543689321,
+                0.631578947368421
+              ],
+              "rotation": 0.0
+            },
+            {
+              "text": "60",
+              "crop_bbox": [
+                0.38446601941747577,
+                0.6326315789473684,
+                0.5378640776699029,
+                0.6726315789473685
+              ],
+              "rotation": 0.0
+            }
+          ]
+        },
+        "scale": {
+          "value": "60-scale",
+          "score": 0.9889661073684692,
+          "method": "read number and unit",
+          "evidence": [
+            {
+              "text": "ml",
+              "crop_bbox": [
+                0.36310679611650487,
+                0.5957894736842105,
+                0.5165048543689321,
+                0.631578947368421
+              ],
+              "rotation": 0.0
+            },
+            {
+              "text": "60",
+              "crop_bbox": [
+                0.38446601941747577,
+                0.6326315789473684,
+                0.5378640776699029,
+                0.6726315789473685
+              ],
+              "rotation": 0.0
+            }
+          ]
+        },
+        "status": "capacity read",
+        "expected_capacity": 60,
+        "expected_scale": "60-scale"
+      },
+      "IMG_3200": {
+        "capacity": {
+          "value": 60.0,
+          "unit": "mL",
+          "score": 0.8170967102050781,
+          "method": "adjacent number and unit",
+          "evidence": [
+            {
+              "text": "ml",
+              "crop_bbox": [
+                0.10880857299285204,
+                0.6044668848537336,
+                0.4168773219411327,
+                0.6591550841508488
+              ],
+              "rotation": 7.9
+            },
+            {
+              "text": "60",
+              "crop_bbox": [
+                0.13827692285665988,
+                0.6258000137562999,
+                0.3474440122950677,
+                0.6777163304614116
+              ],
+              "rotation": 7.9
+            }
+          ]
+        },
+        "scale": {
+          "value": "60-scale",
+          "score": 0.8170967102050781,
+          "method": "read number and unit",
+          "evidence": [
+            {
+              "text": "ml",
+              "crop_bbox": [
+                0.10880857299285204,
+                0.6044668848537336,
+                0.4168773219411327,
+                0.6591550841508488
+              ],
+              "rotation": 7.9
+            },
+            {
+              "text": "60",
+              "crop_bbox": [
+                0.13827692285665988,
+                0.6258000137562999,
+                0.3474440122950677,
+                0.6777163304614116
+              ],
+              "rotation": 7.9
+            }
+          ]
+        },
+        "status": "capacity read",
+        "expected_capacity": 60,
+        "expected_scale": "60-scale"
+      },
+      "IMG_3202": {
+        "capacity": {
+          "value": 60.0,
+          "unit": "mL",
+          "score": 0.9757874608039856,
+          "method": "adjacent number and unit",
+          "evidence": [
+            {
+              "text": "ml",
+              "crop_bbox": [
+                0.28578947368421054,
+                0.2942898975109811,
+                0.3589473684210526,
+                0.5461200585651539
+              ],
+              "rotation": 90.0
+            },
+            {
+              "text": "60",
+              "crop_bbox": [
+                0.20052631578947364,
+                0.20058565153733549,
+                0.2973684210526315,
+                0.5841874084919475
+              ],
+              "rotation": 90.0
+            }
+          ]
+        },
+        "scale": {
+          "value": "60-scale",
+          "score": 0.9757874608039856,
+          "method": "read number and unit",
+          "evidence": [
+            {
+              "text": "ml",
+              "crop_bbox": [
+                0.28578947368421054,
+                0.2942898975109811,
+                0.3589473684210526,
+                0.5461200585651539
+              ],
+              "rotation": 90.0
+            },
+            {
+              "text": "60",
+              "crop_bbox": [
+                0.20052631578947364,
+                0.20058565153733549,
+                0.2973684210526315,
+                0.5841874084919475
+              ],
+              "rotation": 90.0
+            }
+          ]
+        },
+        "status": "capacity read",
+        "expected_capacity": 60,
+        "expected_scale": "60-scale"
+      },
+      "IMG_3206": {
+        "capacity": null,
+        "scale": null,
+        "status": "markings only",
+        "expected_capacity": 60,
+        "expected_scale": "60-scale"
+      },
+      "IMG_3215": {
+        "capacity": {
+          "value": 20.0,
+          "unit": "mL",
+          "score": 0.9896044731140137,
+          "method": "adjacent number and unit",
+          "evidence": [
+            {
+              "text": "ml",
+              "crop_bbox": [
+                0.281786941580756,
+                0.5544871794871795,
+                0.6494845360824743,
+                0.6017628205128205
+              ],
+              "rotation": 0.0
+            },
+            {
+              "text": "20",
+              "crop_bbox": [
+                0.32957110609480816,
+                0.5936842105263158,
+                0.5756207674943568,
+                0.6347368421052632
+              ],
+              "rotation": 0.0
+            }
+          ]
+        },
+        "scale": {
+          "value": "20-scale",
+          "score": 0.9896044731140137,
+          "method": "read number and unit",
+          "evidence": [
+            {
+              "text": "ml",
+              "crop_bbox": [
+                0.281786941580756,
+                0.5544871794871795,
+                0.6494845360824743,
+                0.6017628205128205
+              ],
+              "rotation": 0.0
+            },
+            {
+              "text": "20",
+              "crop_bbox": [
+                0.32957110609480816,
+                0.5936842105263158,
+                0.5756207674943568,
+                0.6347368421052632
+              ],
+              "rotation": 0.0
+            }
+          ]
+        },
+        "status": "capacity read",
+        "expected_capacity": 20,
+        "expected_scale": "20-scale"
+      },
+      "IMG_3217": {
+        "capacity": null,
+        "scale": null,
+        "status": "markings only",
+        "expected_capacity": 20,
+        "expected_scale": "20-scale"
+      },
+      "IMG_3218": {
+        "capacity": null,
+        "scale": null,
+        "status": "markings only",
+        "expected_capacity": 20,
+        "expected_scale": "20-scale"
+      },
+      "IMG_3219": {
+        "capacity": null,
+        "scale": null,
+        "status": "markings only",
+        "expected_capacity": 20,
+        "expected_scale": "20-scale"
+      },
+      "IMG_3221": {
+        "capacity": {
+          "value": 20.0,
+          "unit": "mL",
+          "score": 0.9880615472793579,
+          "method": "adjacent number and unit",
+          "evidence": [
+            {
+              "text": "ml",
+              "crop_bbox": [
+                0.29498525073746307,
+                0.1768421052631578,
+                0.49852507374631266,
+                0.24473684210526314
+              ],
+              "rotation": 180.0
+            },
+            {
+              "text": "20",
+              "crop_bbox": [
+                0.27640449438202247,
+                0.14102564102564102,
+                0.4786516853932584,
+                0.21314102564102563
+              ],
+              "rotation": 180.0
+            }
+          ]
+        },
+        "scale": {
+          "value": "20-scale",
+          "score": 0.9880615472793579,
+          "method": "read number and unit",
+          "evidence": [
+            {
+              "text": "ml",
+              "crop_bbox": [
+                0.29498525073746307,
+                0.1768421052631578,
+                0.49852507374631266,
+                0.24473684210526314
+              ],
+              "rotation": 180.0
+            },
+            {
+              "text": "20",
+              "crop_bbox": [
+                0.27640449438202247,
+                0.14102564102564102,
+                0.4786516853932584,
+                0.21314102564102563
+              ],
+              "rotation": 180.0
+            }
+          ]
+        },
+        "status": "capacity read",
+        "expected_capacity": 20,
+        "expected_scale": "20-scale"
+      },
+      "IMG_3222": {
+        "capacity": null,
+        "scale": null,
+        "status": "markings only",
+        "expected_capacity": 20,
+        "expected_scale": "20-scale"
+      },
+      "IMG_3223": {
+        "capacity": {
+          "value": 20.0,
+          "unit": "mL",
+          "score": 0.8212604522705078,
+          "method": "adjacent number and unit",
+          "evidence": [
+            {
+              "text": "ml",
+              "crop_bbox": [
+                0.2692307692307692,
+                0.5104166666666666,
+                0.6923076923076923,
+                0.592948717948718
+              ],
+              "rotation": 0.0
+            },
+            {
+              "text": "20",
+              "crop_bbox": [
+                0.32517482517482516,
+                0.5456730769230769,
+                0.6083916083916084,
+                0.6330128205128205
+              ],
+              "rotation": 0.0
+            }
+          ]
+        },
+        "scale": {
+          "value": "20-scale",
+          "score": 0.8212604522705078,
+          "method": "read number and unit",
+          "evidence": [
+            {
+              "text": "ml",
+              "crop_bbox": [
+                0.2692307692307692,
+                0.5104166666666666,
+                0.6923076923076923,
+                0.592948717948718
+              ],
+              "rotation": 0.0
+            },
+            {
+              "text": "20",
+              "crop_bbox": [
+                0.32517482517482516,
+                0.5456730769230769,
+                0.6083916083916084,
+                0.6330128205128205
+              ],
+              "rotation": 0.0
+            }
+          ]
+        },
+        "status": "capacity read",
+        "expected_capacity": 20,
+        "expected_scale": "20-scale"
+      },
+      "IMG_3225": {
+        "capacity": null,
+        "scale": null,
+        "status": "markings only",
+        "expected_capacity": 20,
+        "expected_scale": "20-scale"
+      },
+      "IMG_3226": {
+        "capacity": null,
+        "scale": null,
+        "status": "markings only",
+        "expected_capacity": 20,
+        "expected_scale": "20-scale"
+      },
+      "IMG_3227": {
+        "capacity": {
+          "value": 20.0,
+          "unit": "mL",
+          "score": 0.9320661425590515,
+          "method": "adjacent number and unit",
+          "evidence": [
+            {
+              "text": "ml",
+              "crop_bbox": [
+                0.22839960344502042,
+                0.5239684451294655,
+                0.6549641260345874,
+                0.6075154547160425
+              ],
+              "rotation": 356.8
+            },
+            {
+              "text": "20",
+              "crop_bbox": [
+                0.2898219959004906,
+                0.5585985787115857,
+                0.5830325468270922,
+                0.6452460910187969
+              ],
+              "rotation": 356.8
+            }
+          ]
+        },
+        "scale": {
+          "value": "20-scale",
+          "score": 0.9320661425590515,
+          "method": "read number and unit",
+          "evidence": [
+            {
+              "text": "ml",
+              "crop_bbox": [
+                0.22839960344502042,
+                0.5239684451294655,
+                0.6549641260345874,
+                0.6075154547160425
+              ],
+              "rotation": 356.8
+            },
+            {
+              "text": "20",
+              "crop_bbox": [
+                0.2898219959004906,
+                0.5585985787115857,
+                0.5830325468270922,
+                0.6452460910187969
+              ],
+              "rotation": 356.8
+            }
+          ]
+        },
+        "status": "capacity read",
+        "expected_capacity": 20,
+        "expected_scale": "20-scale"
+      },
+      "IMG_3228": {
+        "capacity": {
+          "value": 20.0,
+          "unit": "mL",
+          "score": 0.940735936164856,
+          "method": "adjacent number and unit",
+          "evidence": [
+            {
+              "text": "ml",
+              "crop_bbox": [
+                0.26058631921824105,
+                0.657051282051282,
+                0.7003257328990228,
+                0.7219551282051282
+              ],
+              "rotation": 0.0
+            },
+            {
+              "text": "20",
+              "crop_bbox": [
+                0.31885402609086816,
+                0.7108642659279779,
+                0.613000449842555,
+                0.7679016620498615
+              ],
+              "rotation": 0.0
+            }
+          ]
+        },
+        "scale": {
+          "value": "20-scale",
+          "score": 0.940735936164856,
+          "method": "read number and unit",
+          "evidence": [
+            {
+              "text": "ml",
+              "crop_bbox": [
+                0.26058631921824105,
+                0.657051282051282,
+                0.7003257328990228,
+                0.7219551282051282
+              ],
+              "rotation": 0.0
+            },
+            {
+              "text": "20",
+              "crop_bbox": [
+                0.31885402609086816,
+                0.7108642659279779,
+                0.613000449842555,
+                0.7679016620498615
+              ],
+              "rotation": 0.0
+            }
+          ]
+        },
+        "status": "capacity read",
+        "expected_capacity": 20,
+        "expected_scale": "20-scale"
+      },
+      "IMG_3229": {
+        "capacity": {
+          "value": 20.0,
+          "unit": "mL",
+          "score": 0.9164566993713379,
+          "method": "adjacent number and unit",
+          "evidence": [
+            {
+              "text": "ml",
+              "crop_bbox": [
+                0.1992619926199262,
+                0.5296474358974359,
+                0.6420664206642066,
+                0.5689102564102564
+              ],
+              "rotation": 0.0
+            },
+            {
+              "text": "20",
+              "crop_bbox": [
+                0.25830258302583026,
+                0.5280448717948718,
+                0.5535055350553506,
+                0.6169871794871795
+              ],
+              "rotation": 0.0
+            }
+          ]
+        },
+        "scale": {
+          "value": "20-scale",
+          "score": 0.9164566993713379,
+          "method": "read number and unit",
+          "evidence": [
+            {
+              "text": "ml",
+              "crop_bbox": [
+                0.1992619926199262,
+                0.5296474358974359,
+                0.6420664206642066,
+                0.5689102564102564
+              ],
+              "rotation": 0.0
+            },
+            {
+              "text": "20",
+              "crop_bbox": [
+                0.25830258302583026,
+                0.5280448717948718,
+                0.5535055350553506,
+                0.6169871794871795
+              ],
+              "rotation": 0.0
+            }
+          ]
+        },
+        "status": "capacity read",
+        "expected_capacity": 20,
+        "expected_scale": "20-scale"
+      },
+      "IMG_3230": {
+        "capacity": {
+          "value": 20.0,
+          "unit": "mL",
+          "score": 0.9840456247329712,
+          "method": "adjacent number and unit",
+          "evidence": [
+            {
+              "text": "ml",
+              "crop_bbox": [
+                0.38620689655172413,
+                0.46634615384615385,
+                0.6862068965517242,
+                0.49439102564102566
+              ],
+              "rotation": 0.0
+            },
+            {
+              "text": "20",
+              "crop_bbox": [
+                0.42758620689655175,
+                0.46474358974358976,
+                0.6275862068965518,
+                0.5296474358974359
+              ],
+              "rotation": 0.0
+            }
+          ]
+        },
+        "scale": {
+          "value": "20-scale",
+          "score": 0.9840456247329712,
+          "method": "read number and unit",
+          "evidence": [
+            {
+              "text": "ml",
+              "crop_bbox": [
+                0.38620689655172413,
+                0.46634615384615385,
+                0.6862068965517242,
+                0.49439102564102566
+              ],
+              "rotation": 0.0
+            },
+            {
+              "text": "20",
+              "crop_bbox": [
+                0.42758620689655175,
+                0.46474358974358976,
+                0.6275862068965518,
+                0.5296474358974359
+              ],
+              "rotation": 0.0
+            }
+          ]
+        },
+        "status": "capacity read",
+        "expected_capacity": 20,
+        "expected_scale": "20-scale"
+      },
+      "IMG_3231": {
+        "capacity": {
+          "value": 20.0,
+          "unit": "mL",
+          "score": 0.7403822541236877,
+          "method": "adjacent number and unit",
+          "evidence": [
+            {
+              "text": "ml",
+              "crop_bbox": [
+                0.3219178082191781,
+                0.4599358974358974,
+                0.684931506849315,
+                0.5256410256410257
+              ],
+              "rotation": 0.0
+            },
+            {
+              "text": "20",
+              "crop_bbox": [
+                0.3698630136986301,
+                0.4879807692307692,
+                0.613013698630137,
+                0.5576923076923077
+              ],
+              "rotation": 0.0
+            }
+          ]
+        },
+        "scale": {
+          "value": "20-scale",
+          "score": 0.7403822541236877,
+          "method": "read number and unit",
+          "evidence": [
+            {
+              "text": "ml",
+              "crop_bbox": [
+                0.3219178082191781,
+                0.4599358974358974,
+                0.684931506849315,
+                0.5256410256410257
+              ],
+              "rotation": 0.0
+            },
+            {
+              "text": "20",
+              "crop_bbox": [
+                0.3698630136986301,
+                0.4879807692307692,
+                0.613013698630137,
+                0.5576923076923077
+              ],
+              "rotation": 0.0
+            }
+          ]
+        },
+        "status": "capacity read",
+        "expected_capacity": 20,
+        "expected_scale": "20-scale"
+      },
+      "IMG_3232": {
+        "capacity": null,
+        "scale": null,
+        "status": "markings only",
+        "expected_capacity": 20,
+        "expected_scale": "20-scale"
+      },
+      "IMG_3233": {
+        "capacity": null,
+        "scale": null,
+        "status": "markings only",
+        "expected_capacity": 20,
+        "expected_scale": "20-scale"
+      },
+      "IMG_3234": {
+        "capacity": null,
+        "scale": null,
+        "status": "markings only",
+        "expected_capacity": 20,
+        "expected_scale": "20-scale"
+      },
+      "IMG_3235": {
+        "capacity": null,
+        "scale": null,
+        "status": "markings only",
+        "expected_capacity": 20,
+        "expected_scale": "20-scale"
+      },
+      "IMG_3238": {
+        "capacity": {
+          "value": 20.0,
+          "unit": "mL",
+          "score": 0.7443219423294067,
+          "method": "adjacent number and unit",
+          "evidence": [
+            {
+              "text": "ml",
+              "crop_bbox": [
+                0.21428571428571427,
+                0.4879807692307692,
+                0.6830357142857143,
+                0.5200320512820513
+              ],
+              "rotation": 0.0
+            },
+            {
+              "text": "20",
+              "crop_bbox": [
+                0.2767857142857143,
+                0.4863782051282051,
+                0.5892857142857143,
+                0.5592948717948718
+              ],
+              "rotation": 0.0
+            }
+          ]
+        },
+        "scale": {
+          "value": "20-scale",
+          "score": 0.7443219423294067,
+          "method": "read number and unit",
+          "evidence": [
+            {
+              "text": "ml",
+              "crop_bbox": [
+                0.21428571428571427,
+                0.4879807692307692,
+                0.6830357142857143,
+                0.5200320512820513
+              ],
+              "rotation": 0.0
+            },
+            {
+              "text": "20",
+              "crop_bbox": [
+                0.2767857142857143,
+                0.4863782051282051,
+                0.5892857142857143,
+                0.5592948717948718
+              ],
+              "rotation": 0.0
+            }
+          ]
+        },
+        "status": "capacity read",
+        "expected_capacity": 20,
+        "expected_scale": "20-scale"
+      },
+      "IMG_3239": {
+        "capacity": null,
+        "scale": null,
+        "status": "markings only",
+        "expected_capacity": 20,
+        "expected_scale": "20-scale"
+      },
+      "IMG_3240": {
+        "capacity": null,
+        "scale": null,
+        "status": "markings only",
+        "expected_capacity": 20,
+        "expected_scale": "20-scale"
+      },
+      "IMG_3241": {
+        "capacity": {
+          "value": 20.0,
+          "unit": "mL",
+          "score": 0.9885177612304688,
+          "method": "adjacent number and unit",
+          "evidence": [
+            {
+              "text": "ml",
+              "crop_bbox": [
+                0.37820512820512814,
+                0.3485477178423235,
+                0.4358974358974359,
+                0.4284232365145227
+              ],
+              "rotation": 270.0
+            },
+            {
+              "text": "20",
+              "crop_bbox": [
+                0.4006410256410256,
+                0.3599585062240663,
+                0.4671474358974359,
+                0.45020746887966795
+              ],
+              "rotation": 270.0
+            }
+          ]
+        },
+        "scale": {
+          "value": "20-scale",
+          "score": 0.9885177612304688,
+          "method": "read number and unit",
+          "evidence": [
+            {
+              "text": "ml",
+              "crop_bbox": [
+                0.37820512820512814,
+                0.3485477178423235,
+                0.4358974358974359,
+                0.4284232365145227
+              ],
+              "rotation": 270.0
+            },
+            {
+              "text": "20",
+              "crop_bbox": [
+                0.4006410256410256,
+                0.3599585062240663,
+                0.4671474358974359,
+                0.45020746887966795
+              ],
+              "rotation": 270.0
+            }
+          ]
+        },
+        "status": "capacity read",
+        "expected_capacity": 20,
+        "expected_scale": "20-scale"
+      },
+      "IMG_3243": {
+        "capacity": null,
+        "scale": null,
+        "status": "markings only",
+        "expected_capacity": 20,
+        "expected_scale": "20-scale"
+      },
+      "IMG_3244": {
+        "capacity": {
+          "value": 20.0,
+          "unit": "mL",
+          "score": 0.9650879502296448,
+          "method": "adjacent number and unit",
+          "evidence": [
+            {
+              "text": "ml",
+              "crop_bbox": [
+                0.5070921985815603,
+                0.5216346153846154,
+                0.7907801418439716,
+                0.5681089743589743
+              ],
+              "rotation": 0.0
+            },
+            {
+              "text": "20",
+              "crop_bbox": [
+                0.5460992907801419,
+                0.5600961538461539,
+                0.7340425531914894,
+                0.6009615384615384
+              ],
+              "rotation": 0.0
+            }
+          ]
+        },
+        "scale": {
+          "value": "20-scale",
+          "score": 0.9650879502296448,
+          "method": "read number and unit",
+          "evidence": [
+            {
+              "text": "ml",
+              "crop_bbox": [
+                0.5070921985815603,
+                0.5216346153846154,
+                0.7907801418439716,
+                0.5681089743589743
+              ],
+              "rotation": 0.0
+            },
+            {
+              "text": "20",
+              "crop_bbox": [
+                0.5460992907801419,
+                0.5600961538461539,
+                0.7340425531914894,
+                0.6009615384615384
+              ],
+              "rotation": 0.0
+            }
+          ]
+        },
+        "status": "capacity read",
+        "expected_capacity": 20,
+        "expected_scale": "20-scale"
+      },
+      "IMG_3245": {
+        "capacity": {
+          "value": 20.0,
+          "unit": "mL",
+          "score": 0.9073862433433533,
+          "method": "adjacent number and unit",
+          "evidence": [
+            {
+              "text": "ml",
+              "crop_bbox": [
+                0.48024316109422494,
+                0.6434294871794872,
+                0.8085106382978723,
+                0.6778846153846154
+              ],
+              "rotation": 0.0
+            },
+            {
+              "text": "20",
+              "crop_bbox": [
+                0.5249395944952201,
+                0.642191135734072,
+                0.7431242777602689,
+                0.7202382271468145
+              ],
+              "rotation": 0.0
+            }
+          ]
+        },
+        "scale": {
+          "value": "20-scale",
+          "score": 0.9073862433433533,
+          "method": "read number and unit",
+          "evidence": [
+            {
+              "text": "ml",
+              "crop_bbox": [
+                0.48024316109422494,
+                0.6434294871794872,
+                0.8085106382978723,
+                0.6778846153846154
+              ],
+              "rotation": 0.0
+            },
+            {
+              "text": "20",
+              "crop_bbox": [
+                0.5249395944952201,
+                0.642191135734072,
+                0.7431242777602689,
+                0.7202382271468145
+              ],
+              "rotation": 0.0
+            }
+          ]
+        },
+        "status": "capacity read",
+        "expected_capacity": 20,
+        "expected_scale": "20-scale"
+      },
+      "IMG_3246": {
+        "capacity": {
+          "value": 20.0,
+          "unit": "mL",
+          "score": 0.9916369915008545,
+          "method": "adjacent number and unit",
+          "evidence": [
+            {
+              "text": "ml",
+              "crop_bbox": [
+                0.4528032556678828,
+                0.49188104439163427,
+                0.667413911402166,
+                0.5550497189476932
+              ],
+              "rotation": 20.9
+            },
+            {
+              "text": "20",
+              "crop_bbox": [
+                0.44459835720530594,
+                0.49467163817460885,
+                0.6315386447901887,
+                0.5876862547487043
+              ],
+              "rotation": 20.9
+            }
+          ]
+        },
+        "scale": {
+          "value": "20-scale",
+          "score": 0.9916369915008545,
+          "method": "read number and unit",
+          "evidence": [
+            {
+              "text": "ml",
+              "crop_bbox": [
+                0.4528032556678828,
+                0.49188104439163427,
+                0.667413911402166,
+                0.5550497189476932
+              ],
+              "rotation": 20.9
+            },
+            {
+              "text": "20",
+              "crop_bbox": [
+                0.44459835720530594,
+                0.49467163817460885,
+                0.6315386447901887,
+                0.5876862547487043
+              ],
+              "rotation": 20.9
+            }
+          ]
+        },
+        "status": "capacity read",
+        "expected_capacity": 20,
+        "expected_scale": "20-scale"
+      },
+      "IMG_3247": {
+        "capacity": null,
+        "scale": null,
+        "status": "markings only",
+        "expected_capacity": 20,
+        "expected_scale": "20-scale"
+      },
+      "IMG_3251": {
+        "capacity": null,
+        "scale": null,
+        "status": "markings only",
+        "expected_capacity": 60,
+        "expected_scale": "60-scale"
+      },
+      "IMG_3252": {
+        "capacity": {
+          "value": 60.0,
+          "unit": "mL",
+          "score": 0.9305192232131958,
+          "method": "adjacent number and unit",
+          "evidence": [
+            {
+              "text": "ml",
+              "crop_bbox": [
+                0.360054347826087,
+                0.3878947368421053,
+                0.47554347826086957,
+                0.4310526315789474
+              ],
+              "rotation": 0.0
+            },
+            {
+              "text": "60",
+              "crop_bbox": [
+                0.37907608695652173,
+                0.42000000000000004,
+                0.5135869565217391,
+                0.4721052631578947
+              ],
+              "rotation": 0.0
+            }
+          ]
+        },
+        "scale": {
+          "value": "60-scale",
+          "score": 0.9305192232131958,
+          "method": "read number and unit",
+          "evidence": [
+            {
+              "text": "ml",
+              "crop_bbox": [
+                0.360054347826087,
+                0.3878947368421053,
+                0.47554347826086957,
+                0.4310526315789474
+              ],
+              "rotation": 0.0
+            },
+            {
+              "text": "60",
+              "crop_bbox": [
+                0.37907608695652173,
+                0.42000000000000004,
+                0.5135869565217391,
+                0.4721052631578947
+              ],
+              "rotation": 0.0
+            }
+          ]
+        },
+        "status": "capacity read",
+        "expected_capacity": 60,
+        "expected_scale": "60-scale"
+      },
+      "IMG_3257": {
+        "capacity": {
+          "value": 60.0,
+          "unit": "mL",
+          "score": 0.9897825717926025,
+          "method": "adjacent number and unit",
+          "evidence": [
+            {
+              "text": "ml",
+              "crop_bbox": [
+                0.30825951960460385,
+                0.6001034976363108,
+                0.6714699194002643,
+                0.661917149414908
+              ],
+              "rotation": 356.6
+            },
+            {
+              "text": "60",
+              "crop_bbox": [
+                0.4579249488830141,
+                0.6482611811102064,
+                0.6753061881707462,
+                0.7059789330726529
+              ],
+              "rotation": 356.6
+            }
+          ]
+        },
+        "scale": {
+          "value": "60-scale",
+          "score": 0.9897825717926025,
+          "method": "read number and unit",
+          "evidence": [
+            {
+              "text": "ml",
+              "crop_bbox": [
+                0.30825951960460385,
+                0.6001034976363108,
+                0.6714699194002643,
+                0.661917149414908
+              ],
+              "rotation": 356.6
+            },
+            {
+              "text": "60",
+              "crop_bbox": [
+                0.4579249488830141,
+                0.6482611811102064,
+                0.6753061881707462,
+                0.7059789330726529
+              ],
+              "rotation": 356.6
+            }
+          ]
+        },
+        "status": "capacity read",
+        "expected_capacity": 60,
+        "expected_scale": "60-scale"
+      },
+      "IMG_3263": {
+        "capacity": null,
+        "scale": null,
+        "status": "markings only",
+        "expected_capacity": 60,
+        "expected_scale": "60-scale"
+      },
+      "IMG_3264": {
+        "capacity": null,
+        "scale": null,
+        "status": "markings only",
+        "expected_capacity": 60,
+        "expected_scale": "60-scale"
+      },
+      "IMG_3268": {
+        "capacity": null,
+        "scale": null,
+        "status": "markings only",
+        "expected_capacity": 60,
+        "expected_scale": "60-scale"
+      },
+      "IMG_3269": {
+        "capacity": null,
+        "scale": null,
+        "status": "markings only",
+        "expected_capacity": 60,
+        "expected_scale": "60-scale"
+      },
+      "IMG_3272": {
+        "capacity": {
+          "value": 60.0,
+          "unit": "mL",
+          "score": 0.9539250731468201,
+          "method": "adjacent number and unit",
+          "evidence": [
+            {
+              "text": "ml",
+              "crop_bbox": [
+                0.3622291021671827,
+                0.40064102564102566,
+                0.6191950464396285,
+                0.4567307692307692
+              ],
+              "rotation": 0.0
+            },
+            {
+              "text": "60",
+              "crop_bbox": [
+                0.39628482972136225,
+                0.44711538461538464,
+                0.56656346749226,
+                0.49599358974358976
+              ],
+              "rotation": 0.0
+            }
+          ]
+        },
+        "scale": {
+          "value": "60-scale",
+          "score": 0.9539250731468201,
+          "method": "read number and unit",
+          "evidence": [
+            {
+              "text": "ml",
+              "crop_bbox": [
+                0.3622291021671827,
+                0.40064102564102566,
+                0.6191950464396285,
+                0.4567307692307692
+              ],
+              "rotation": 0.0
+            },
+            {
+              "text": "60",
+              "crop_bbox": [
+                0.39628482972136225,
+                0.44711538461538464,
+                0.56656346749226,
+                0.49599358974358976
+              ],
+              "rotation": 0.0
+            }
+          ]
+        },
+        "status": "capacity read",
+        "expected_capacity": 60,
+        "expected_scale": "60-scale"
+      },
+      "IMG_3275": {
+        "capacity": null,
+        "scale": null,
+        "status": "markings only",
+        "expected_capacity": 60,
+        "expected_scale": "60-scale"
+      },
+      "IMG_3279": {
+        "capacity": {
+          "value": 60.0,
+          "unit": "mL",
+          "score": 0.9516582489013672,
+          "method": "adjacent number and unit",
+          "evidence": [
+            {
+              "text": "ml",
+              "crop_bbox": [
+                0.4068891329464842,
+                0.5342391379379637,
+                0.5461364994438532,
+                0.6016261125325257
+              ],
+              "rotation": 24.5
+            },
+            {
+              "text": "60",
+              "crop_bbox": [
+                0.3699387480541219,
+                0.5733869301041699,
+                0.5123144588737254,
+                0.6439149572662444
+              ],
+              "rotation": 24.5
+            }
+          ]
+        },
+        "scale": {
+          "value": "60-scale",
+          "score": 0.9516582489013672,
+          "method": "read number and unit",
+          "evidence": [
+            {
+              "text": "ml",
+              "crop_bbox": [
+                0.4068891329464842,
+                0.5342391379379637,
+                0.5461364994438532,
+                0.6016261125325257
+              ],
+              "rotation": 24.5
+            },
+            {
+              "text": "60",
+              "crop_bbox": [
+                0.3699387480541219,
+                0.5733869301041699,
+                0.5123144588737254,
+                0.6439149572662444
+              ],
+              "rotation": 24.5
+            }
+          ]
+        },
+        "status": "capacity read",
+        "expected_capacity": 60,
+        "expected_scale": "60-scale"
+      },
+      "IMG_3283": {
+        "capacity": {
+          "value": 60.0,
+          "unit": "mL",
+          "score": 0.8021808862686157,
+          "method": "adjacent number and unit",
+          "evidence": [
+            {
+              "text": "ml",
+              "crop_bbox": [
+                0.5296108291032149,
+                0.5665064102564102,
+                0.6328257191201354,
+                0.6177884615384616
+              ],
+              "rotation": 0.0
+            },
+            {
+              "text": "60",
+              "crop_bbox": [
+                0.5549915397631133,
+                0.6105769230769231,
+                0.6632825719120136,
+                0.6650641025641025
+              ],
+              "rotation": 0.0
+            }
+          ]
+        },
+        "scale": {
+          "value": "60-scale",
+          "score": 0.8021808862686157,
+          "method": "read number and unit",
+          "evidence": [
+            {
+              "text": "ml",
+              "crop_bbox": [
+                0.5296108291032149,
+                0.5665064102564102,
+                0.6328257191201354,
+                0.6177884615384616
+              ],
+              "rotation": 0.0
+            },
+            {
+              "text": "60",
+              "crop_bbox": [
+                0.5549915397631133,
+                0.6105769230769231,
+                0.6632825719120136,
+                0.6650641025641025
+              ],
+              "rotation": 0.0
+            }
+          ]
+        },
+        "status": "capacity read",
+        "expected_capacity": 60,
+        "expected_scale": "60-scale"
+      },
+      "IMG_3292": {
+        "capacity": {
+          "value": 20.0,
+          "unit": "mL",
+          "score": 0.7820061445236206,
+          "method": "adjacent number and unit",
+          "evidence": [
+            {
+              "text": "ml",
+              "crop_bbox": [
+                0.25768399031101996,
+                0.47604953642743614,
+                0.6879785009888901,
+                0.5654126011611122
+              ],
+              "rotation": 5.7
+            },
+            {
+              "text": "20",
+              "crop_bbox": [
+                0.3113784319602565,
+                0.5147173313267408,
+                0.5803278079247175,
+                0.6003384999783048
+              ],
+              "rotation": 5.7
+            }
+          ]
+        },
+        "scale": {
+          "value": "20-scale",
+          "score": 0.7820061445236206,
+          "method": "read number and unit",
+          "evidence": [
+            {
+              "text": "ml",
+              "crop_bbox": [
+                0.25768399031101996,
+                0.47604953642743614,
+                0.6879785009888901,
+                0.5654126011611122
+              ],
+              "rotation": 5.7
+            },
+            {
+              "text": "20",
+              "crop_bbox": [
+                0.3113784319602565,
+                0.5147173313267408,
+                0.5803278079247175,
+                0.6003384999783048
+              ],
+              "rotation": 5.7
+            }
+          ]
+        },
+        "status": "capacity read",
+        "expected_capacity": 20,
+        "expected_scale": "20-scale"
+      },
+      "IMG_3294": {
+        "capacity": null,
+        "scale": null,
+        "status": "markings only",
+        "expected_capacity": 20,
+        "expected_scale": "20-scale"
+      },
+      "IMG_3295": {
+        "capacity": null,
+        "scale": null,
+        "status": "markings only",
+        "expected_capacity": 20,
+        "expected_scale": "20-scale"
+      },
+      "IMG_3296": {
+        "capacity": {
+          "value": 20.0,
+          "unit": "mL",
+          "score": 0.9479399919509888,
+          "method": "adjacent number and unit",
+          "evidence": [
+            {
+              "text": "ml",
+              "crop_bbox": [
+                0.45611656295333736,
+                0.5402768599334015,
+                0.7179972472580585,
+                0.6230572134134855
+              ],
+              "rotation": 348.3
+            },
+            {
+              "text": "20",
+              "crop_bbox": [
+                0.5020574784829644,
+                0.5717734681782043,
+                0.6921482172057231,
+                0.6531148259101663
+              ],
+              "rotation": 348.3
+            }
+          ]
+        },
+        "scale": {
+          "value": "20-scale",
+          "score": 0.9479399919509888,
+          "method": "read number and unit",
+          "evidence": [
+            {
+              "text": "ml",
+              "crop_bbox": [
+                0.45611656295333736,
+                0.5402768599334015,
+                0.7179972472580585,
+                0.6230572134134855
+              ],
+              "rotation": 348.3
+            },
+            {
+              "text": "20",
+              "crop_bbox": [
+                0.5020574784829644,
+                0.5717734681782043,
+                0.6921482172057231,
+                0.6531148259101663
+              ],
+              "rotation": 348.3
+            }
+          ]
+        },
+        "status": "capacity read",
+        "expected_capacity": 20,
+        "expected_scale": "20-scale"
+      },
+      "IMG_3297": {
+        "capacity": null,
+        "scale": null,
+        "status": "markings only",
+        "expected_capacity": 20,
+        "expected_scale": "20-scale"
+      },
+      "IMG_3298": {
+        "capacity": null,
+        "scale": null,
+        "status": "markings only",
+        "expected_capacity": 20,
+        "expected_scale": "20-scale"
+      },
+      "IMG_3299": {
+        "capacity": {
+          "value": 20.0,
+          "unit": "mL",
+          "score": 0.987656831741333,
+          "method": "adjacent number and unit",
+          "evidence": [
+            {
+              "text": "ml",
+              "crop_bbox": [
+                0.6175269560441382,
+                0.365441093567561,
+                0.754264167994844,
+                0.43082033030129097
+              ],
+              "rotation": 24.8
+            },
+            {
+              "text": "20",
+              "crop_bbox": [
+                0.6039922296431148,
+                0.4033805067980059,
+                0.7026248839431504,
+                0.4552103703550328
+              ],
+              "rotation": 24.8
+            }
+          ]
+        },
+        "scale": {
+          "value": "20-scale",
+          "score": 0.987656831741333,
+          "method": "read number and unit",
+          "evidence": [
+            {
+              "text": "ml",
+              "crop_bbox": [
+                0.6175269560441382,
+                0.365441093567561,
+                0.754264167994844,
+                0.43082033030129097
+              ],
+              "rotation": 24.8
+            },
+            {
+              "text": "20",
+              "crop_bbox": [
+                0.6039922296431148,
+                0.4033805067980059,
+                0.7026248839431504,
+                0.4552103703550328
+              ],
+              "rotation": 24.8
+            }
+          ]
+        },
+        "status": "capacity read",
+        "expected_capacity": 20,
+        "expected_scale": "20-scale"
+      },
+      "IMG_3300": {
+        "capacity": null,
+        "scale": null,
+        "status": "markings only",
+        "expected_capacity": 20,
+        "expected_scale": "20-scale"
+      },
+      "IMG_3301": {
+        "capacity": {
+          "value": 20.0,
+          "unit": "mL",
+          "score": 0.9819600582122803,
+          "method": "adjacent number and unit",
+          "evidence": [
+            {
+              "text": "ml",
+              "crop_bbox": [
+                0.27241379310344827,
+                0.46314102564102566,
+                0.6137931034482759,
+                0.5104166666666666
+              ],
+              "rotation": 0.0
+            },
+            {
+              "text": "20",
+              "crop_bbox": [
+                0.31746031746031744,
+                0.5021052631578947,
+                0.5442176870748299,
+                0.5431578947368422
+              ],
+              "rotation": 0.0
+            }
+          ]
+        },
+        "scale": {
+          "value": "20-scale",
+          "score": 0.9819600582122803,
+          "method": "read number and unit",
+          "evidence": [
+            {
+              "text": "ml",
+              "crop_bbox": [
+                0.27241379310344827,
+                0.46314102564102566,
+                0.6137931034482759,
+                0.5104166666666666
+              ],
+              "rotation": 0.0
+            },
+            {
+              "text": "20",
+              "crop_bbox": [
+                0.31746031746031744,
+                0.5021052631578947,
+                0.5442176870748299,
+                0.5431578947368422
+              ],
+              "rotation": 0.0
+            }
+          ]
+        },
+        "status": "capacity read",
+        "expected_capacity": 20,
+        "expected_scale": "20-scale"
+      },
+      "IMG_3302": {
+        "capacity": {
+          "value": 20.0,
+          "unit": "mL",
+          "score": 0.8573032021522522,
+          "method": "adjacent number and unit",
+          "evidence": [
+            {
+              "text": "ml",
+              "crop_bbox": [
+                0.4148936170212766,
+                0.34294871794871795,
+                0.723404255319149,
+                0.40625
+              ],
+              "rotation": 0.0
+            },
+            {
+              "text": "20",
+              "crop_bbox": [
+                0.4574468085106383,
+                0.3701923076923077,
+                0.6631205673758865,
+                0.4375
+              ],
+              "rotation": 0.0
+            }
+          ]
+        },
+        "scale": {
+          "value": "20-scale",
+          "score": 0.8573032021522522,
+          "method": "read number and unit",
+          "evidence": [
+            {
+              "text": "ml",
+              "crop_bbox": [
+                0.4148936170212766,
+                0.34294871794871795,
+                0.723404255319149,
+                0.40625
+              ],
+              "rotation": 0.0
+            },
+            {
+              "text": "20",
+              "crop_bbox": [
+                0.4574468085106383,
+                0.3701923076923077,
+                0.6631205673758865,
+                0.4375
+              ],
+              "rotation": 0.0
+            }
+          ]
+        },
+        "status": "capacity read",
+        "expected_capacity": 20,
+        "expected_scale": "20-scale"
+      },
+      "IMG_3304": {
+        "capacity": null,
+        "scale": null,
+        "status": "markings only",
+        "expected_capacity": 20,
+        "expected_scale": "20-scale"
+      },
+      "IMG_3305": {
+        "capacity": {
+          "value": 20.0,
+          "unit": "mL",
+          "score": 0.9822596311569214,
+          "method": "adjacent number and unit",
+          "evidence": [
+            {
+              "text": "ml",
+              "crop_bbox": [
+                0.5213675213675214,
+                0.502421052631579,
+                0.6735042735042734,
+                0.5449473684210526
+              ],
+              "rotation": 0.0
+            },
+            {
+              "text": "20",
+              "crop_bbox": [
+                0.5213675213675214,
+                0.5377894736842105,
+                0.6905982905982906,
+                0.5798947368421052
+              ],
+              "rotation": 0.0
+            }
+          ]
+        },
+        "scale": {
+          "value": "20-scale",
+          "score": 0.9822596311569214,
+          "method": "read number and unit",
+          "evidence": [
+            {
+              "text": "ml",
+              "crop_bbox": [
+                0.5213675213675214,
+                0.502421052631579,
+                0.6735042735042734,
+                0.5449473684210526
+              ],
+              "rotation": 0.0
+            },
+            {
+              "text": "20",
+              "crop_bbox": [
+                0.5213675213675214,
+                0.5377894736842105,
+                0.6905982905982906,
+                0.5798947368421052
+              ],
+              "rotation": 0.0
+            }
+          ]
+        },
+        "status": "capacity read",
+        "expected_capacity": 20,
+        "expected_scale": "20-scale"
+      },
+      "IMG_3306": {
+        "capacity": {
+          "value": 20.0,
+          "unit": "mL",
+          "score": 0.9697394371032715,
+          "method": "adjacent number and unit",
+          "evidence": [
+            {
+              "text": "ml",
+              "crop_bbox": [
+                0.4794520547945205,
+                0.4014423076923077,
+                0.726027397260274,
+                0.4391025641025641
+              ],
+              "rotation": 0.0
+            },
+            {
+              "text": "20",
+              "crop_bbox": [
+                0.513317563571851,
+                0.4324986149584488,
+                0.676581904198699,
+                0.4654626038781164
+              ],
+              "rotation": 0.0
+            }
+          ]
+        },
+        "scale": {
+          "value": "20-scale",
+          "score": 0.9697394371032715,
+          "method": "read number and unit",
+          "evidence": [
+            {
+              "text": "ml",
+              "crop_bbox": [
+                0.4794520547945205,
+                0.4014423076923077,
+                0.726027397260274,
+                0.4391025641025641
+              ],
+              "rotation": 0.0
+            },
+            {
+              "text": "20",
+              "crop_bbox": [
+                0.513317563571851,
+                0.4324986149584488,
+                0.676581904198699,
+                0.4654626038781164
+              ],
+              "rotation": 0.0
+            }
+          ]
+        },
+        "status": "capacity read",
+        "expected_capacity": 20,
+        "expected_scale": "20-scale"
+      },
+      "IMG_3310": {
+        "capacity": null,
+        "scale": null,
+        "status": "markings only",
+        "expected_capacity": 20,
+        "expected_scale": "20-scale"
+      },
+      "IMG_3311": {
+        "capacity": {
+          "value": 20.0,
+          "unit": "mL",
+          "score": 0.9155092835426331,
+          "method": "adjacent number and unit",
+          "evidence": [
+            {
+              "text": "ml",
+              "crop_bbox": [
+                0.32414448669201523,
+                0.34263157894736845,
+                0.42205323193916344,
+                0.39105263157894743
+              ],
+              "rotation": 0.0
+            },
+            {
+              "text": "20",
+              "crop_bbox": [
+                0.3154848046309696,
+                0.33573717948717946,
+                0.4602026049204052,
+                0.42467948717948717
+              ],
+              "rotation": 0.0
+            }
+          ]
+        },
+        "scale": {
+          "value": "20-scale",
+          "score": 0.9155092835426331,
+          "method": "read number and unit",
+          "evidence": [
+            {
+              "text": "ml",
+              "crop_bbox": [
+                0.32414448669201523,
+                0.34263157894736845,
+                0.42205323193916344,
+                0.39105263157894743
+              ],
+              "rotation": 0.0
+            },
+            {
+              "text": "20",
+              "crop_bbox": [
+                0.3154848046309696,
+                0.33573717948717946,
+                0.4602026049204052,
+                0.42467948717948717
+              ],
+              "rotation": 0.0
+            }
+          ]
+        },
+        "status": "capacity read",
+        "expected_capacity": 20,
+        "expected_scale": "20-scale"
+      },
+      "IMG_3315": {
+        "capacity": null,
+        "scale": null,
+        "status": "markings only",
+        "expected_capacity": 20,
+        "expected_scale": "20-scale"
+      },
+      "IMG_3316": {
+        "capacity": {
+          "value": 20.0,
+          "unit": "mL",
+          "score": 0.9325852990150452,
+          "method": "adjacent number and unit",
+          "evidence": [
+            {
+              "text": "ml",
+              "crop_bbox": [
+                0.2903225806451613,
+                0.4951923076923077,
+                0.5878136200716846,
+                0.5360576923076923
+              ],
+              "rotation": 0.0
+            },
+            {
+              "text": "20",
+              "crop_bbox": [
+                0.32974910394265233,
+                0.5128205128205128,
+                0.5268817204301075,
+                0.5560897435897436
+              ],
+              "rotation": 0.0
+            }
+          ]
+        },
+        "scale": {
+          "value": "20-scale",
+          "score": 0.9325852990150452,
+          "method": "read number and unit",
+          "evidence": [
+            {
+              "text": "ml",
+              "crop_bbox": [
+                0.2903225806451613,
+                0.4951923076923077,
+                0.5878136200716846,
+                0.5360576923076923
+              ],
+              "rotation": 0.0
+            },
+            {
+              "text": "20",
+              "crop_bbox": [
+                0.32974910394265233,
+                0.5128205128205128,
+                0.5268817204301075,
+                0.5560897435897436
+              ],
+              "rotation": 0.0
+            }
+          ]
+        },
+        "status": "capacity read",
+        "expected_capacity": 20,
+        "expected_scale": "20-scale"
+      },
+      "IMG_3317": {
+        "capacity": {
+          "value": 20.0,
+          "unit": "mL",
+          "score": 0.9453607797622681,
+          "method": "adjacent number and unit",
+          "evidence": [
+            {
+              "text": "ml",
+              "crop_bbox": [
+                0.2397003745318352,
+                0.46153846153846156,
+                0.5543071161048689,
+                0.49038461538461536
+              ],
+              "rotation": 0.0
+            },
+            {
+              "text": "20",
+              "crop_bbox": [
+                0.28078817733990147,
+                0.46,
+                0.4926108374384237,
+                0.5263157894736842
+              ],
+              "rotation": 0.0
+            }
+          ]
+        },
+        "scale": {
+          "value": "20-scale",
+          "score": 0.9453607797622681,
+          "method": "read number and unit",
+          "evidence": [
+            {
+              "text": "ml",
+              "crop_bbox": [
+                0.2397003745318352,
+                0.46153846153846156,
+                0.5543071161048689,
+                0.49038461538461536
+              ],
+              "rotation": 0.0
+            },
+            {
+              "text": "20",
+              "crop_bbox": [
+                0.28078817733990147,
+                0.46,
+                0.4926108374384237,
+                0.5263157894736842
+              ],
+              "rotation": 0.0
+            }
+          ]
+        },
+        "status": "capacity read",
+        "expected_capacity": 20,
+        "expected_scale": "20-scale"
+      },
+      "IMG_3318": {
+        "capacity": null,
+        "scale": {
+          "value": "20-scale",
+          "score": 0.8470361828804016,
+          "method": "ordered terminal graduations",
+          "evidence": [
+            {
+              "text": "10",
+              "crop_bbox": [
+                0.38864208874590694,
+                0.330341655599758,
+                0.6235196058173886,
+                0.3805698682722876
+              ],
+              "rotation": 6.3
+            },
+            {
+              "text": "15",
+              "crop_bbox": [
+                0.3570382722181503,
+                0.45847597239587745,
+                0.554363468979231,
+                0.5061440894490867
+              ],
+              "rotation": 6.3
+            },
+            {
+              "text": "20",
+              "crop_bbox": [
+                0.25215580631477524,
+                0.5336155854225855,
+                0.5690938409222861,
+                0.6253365863030388
+              ],
+              "rotation": 6.3
+            }
+          ]
+        },
+        "status": "scale read",
+        "expected_capacity": 20,
+        "expected_scale": "20-scale"
+      },
+      "IMG_3321": {
+        "capacity": null,
+        "scale": null,
+        "status": "markings only",
+        "expected_capacity": 20,
+        "expected_scale": "20-scale"
+      },
+      "IMG_3322": {
+        "capacity": {
+          "value": 20.0,
+          "unit": "mL",
+          "score": 0.9593678712844849,
+          "method": "adjacent number and unit",
+          "evidence": [
+            {
+              "text": "ml",
+              "crop_bbox": [
+                0.42585551330798477,
+                0.49759615384615385,
+                0.7642585551330798,
+                0.5264423076923077
+              ],
+              "rotation": 0.0
+            },
+            {
+              "text": "20",
+              "crop_bbox": [
+                0.4714828897338403,
+                0.49599358974358976,
+                0.6958174904942965,
+                0.5625
+              ],
+              "rotation": 0.0
+            }
+          ]
+        },
+        "scale": {
+          "value": "20-scale",
+          "score": 0.9593678712844849,
+          "method": "read number and unit",
+          "evidence": [
+            {
+              "text": "ml",
+              "crop_bbox": [
+                0.42585551330798477,
+                0.49759615384615385,
+                0.7642585551330798,
+                0.5264423076923077
+              ],
+              "rotation": 0.0
+            },
+            {
+              "text": "20",
+              "crop_bbox": [
+                0.4714828897338403,
+                0.49599358974358976,
+                0.6958174904942965,
+                0.5625
+              ],
+              "rotation": 0.0
+            }
+          ]
+        },
+        "status": "capacity read",
+        "expected_capacity": 20,
+        "expected_scale": "20-scale"
+      },
+      "IMG_3323": {
+        "capacity": null,
+        "scale": null,
+        "status": "markings only",
+        "expected_capacity": 20,
+        "expected_scale": "20-scale"
+      },
+      "IMG_3324": {
+        "capacity": null,
+        "scale": null,
+        "status": "markings only",
+        "expected_capacity": 20,
+        "expected_scale": "20-scale"
+      },
+      "IMG_3325": {
+        "capacity": null,
+        "scale": null,
+        "status": "markings only",
+        "expected_capacity": 20,
+        "expected_scale": "20-scale"
+      },
+      "IMG_3326": {
+        "capacity": {
+          "value": 20.0,
+          "unit": "mL",
+          "score": 0.9251302480697632,
+          "method": "adjacent number and unit",
+          "evidence": [
+            {
+              "text": "ml",
+              "crop_bbox": [
+                0.30841303307336865,
+                0.4072646578924727,
+                0.4781075297175849,
+                0.4891981754875117
+              ],
+              "rotation": 333.6
+            },
+            {
+              "text": "20",
+              "crop_bbox": [
+                0.3616768688418814,
+                0.45365597561070614,
+                0.48353097259431477,
+                0.5180922830447943
+              ],
+              "rotation": 333.6
+            }
+          ]
+        },
+        "scale": {
+          "value": "20-scale",
+          "score": 0.9251302480697632,
+          "method": "read number and unit",
+          "evidence": [
+            {
+              "text": "ml",
+              "crop_bbox": [
+                0.30841303307336865,
+                0.4072646578924727,
+                0.4781075297175849,
+                0.4891981754875117
+              ],
+              "rotation": 333.6
+            },
+            {
+              "text": "20",
+              "crop_bbox": [
+                0.3616768688418814,
+                0.45365597561070614,
+                0.48353097259431477,
+                0.5180922830447943
+              ],
+              "rotation": 333.6
+            }
+          ]
+        },
+        "status": "capacity read",
+        "expected_capacity": 20,
+        "expected_scale": "20-scale"
+      },
+      "IMG_3329": {
+        "capacity": null,
+        "scale": null,
+        "status": "markings only",
+        "expected_capacity": 20,
+        "expected_scale": "20-scale"
+      },
+      "IMG_3331": {
+        "capacity": null,
+        "scale": null,
+        "status": "markings only",
+        "expected_capacity": 20,
+        "expected_scale": "20-scale"
+      },
+      "IMG_3332": {
+        "capacity": null,
+        "scale": null,
+        "status": "markings only",
+        "expected_capacity": 20,
+        "expected_scale": "20-scale"
+      },
+      "IMG_3333": {
+        "capacity": null,
+        "scale": null,
+        "status": "markings only",
+        "expected_capacity": 20,
+        "expected_scale": "20-scale"
+      },
+      "IMG_3334": {
+        "capacity": null,
+        "scale": null,
+        "status": "markings only",
+        "expected_capacity": 20,
+        "expected_scale": "20-scale"
+      },
+      "IMG_3335": {
+        "capacity": {
+          "value": 20.0,
+          "unit": "mL",
+          "score": 0.9591677188873291,
+          "method": "adjacent number and unit",
+          "evidence": [
+            {
+              "text": "ml",
+              "crop_bbox": [
+                0.2683982683982684,
+                0.4238782051282051,
+                0.7229437229437229,
+                0.4567307692307692
+              ],
+              "rotation": 0.0
+            },
+            {
+              "text": "20",
+              "crop_bbox": [
+                0.329004329004329,
+                0.422275641025641,
+                0.6320346320346321,
+                0.4967948717948718
+              ],
+              "rotation": 0.0
+            }
+          ]
+        },
+        "scale": {
+          "value": "20-scale",
+          "score": 0.9591677188873291,
+          "method": "read number and unit",
+          "evidence": [
+            {
+              "text": "ml",
+              "crop_bbox": [
+                0.2683982683982684,
+                0.4238782051282051,
+                0.7229437229437229,
+                0.4567307692307692
+              ],
+              "rotation": 0.0
+            },
+            {
+              "text": "20",
+              "crop_bbox": [
+                0.329004329004329,
+                0.422275641025641,
+                0.6320346320346321,
+                0.4967948717948718
+              ],
+              "rotation": 0.0
+            }
+          ]
+        },
+        "status": "capacity read",
+        "expected_capacity": 20,
+        "expected_scale": "20-scale"
+      }
+    }
+  },
+  "orientation_controls": {
+    "tiny": {
+      "n": 9,
+      "capacity": {
+        "answered": 5,
+        "correct": 5,
+        "wrong": 0
+      },
+      "type": {
+        "answered": 6,
+        "correct": 6,
+        "wrong": 0
+      },
+      "findings": {
+        "IMG_3198": {
+          "capacity": {
+            "value": 60.0,
+            "unit": "mL",
+            "score": 0.9706876873970032,
+            "method": "adjacent number and unit",
+            "evidence": [
+              {
+                "text": "ml",
+                "crop_bbox": [
+                  0.4401693221829158,
+                  0.48104197472933635,
+                  0.7065550063046556,
+                  0.5345365875251085
+                ],
+                "rotation": 357.0
+              },
+              {
+                "text": "60",
+                "crop_bbox": [
+                  0.546853548992964,
+                  0.5241029995349982,
+                  0.7097586619784527,
+                  0.5849487058644651
+                ],
+                "rotation": 357.0
+              }
+            ]
+          },
+          "scale": {
+            "value": "60-scale",
+            "score": 0.9706876873970032,
+            "method": "read number and unit",
+            "evidence": [
+              {
+                "text": "ml",
+                "crop_bbox": [
+                  0.4401693221829158,
+                  0.48104197472933635,
+                  0.7065550063046556,
+                  0.5345365875251085
+                ],
+                "rotation": 357.0
+              },
+              {
+                "text": "60",
+                "crop_bbox": [
+                  0.546853548992964,
+                  0.5241029995349982,
+                  0.7097586619784527,
+                  0.5849487058644651
+                ],
+                "rotation": 357.0
+              }
+            ]
+          },
+          "status": "capacity read",
+          "expected_capacity": 60,
+          "expected_scale": "60-scale"
+        },
+        "IMG_3206": {
+          "capacity": null,
+          "scale": null,
+          "status": "markings only",
+          "expected_capacity": 60,
+          "expected_scale": "60-scale"
+        },
+        "IMG_3215": {
+          "capacity": {
+            "value": 20.0,
+            "unit": "mL",
+            "score": 0.9896044731140137,
+            "method": "adjacent number and unit",
+            "evidence": [
+              {
+                "text": "ml",
+                "crop_bbox": [
+                  0.281786941580756,
+                  0.5544871794871795,
+                  0.6494845360824743,
+                  0.6017628205128205
+                ],
+                "rotation": 0.0
+              },
+              {
+                "text": "20",
+                "crop_bbox": [
+                  0.32957110609480816,
+                  0.5936842105263158,
+                  0.5756207674943568,
+                  0.6347368421052632
+                ],
+                "rotation": 0.0
+              }
+            ]
+          },
+          "scale": {
+            "value": "20-scale",
+            "score": 0.9896044731140137,
+            "method": "read number and unit",
+            "evidence": [
+              {
+                "text": "ml",
+                "crop_bbox": [
+                  0.281786941580756,
+                  0.5544871794871795,
+                  0.6494845360824743,
+                  0.6017628205128205
+                ],
+                "rotation": 0.0
+              },
+              {
+                "text": "20",
+                "crop_bbox": [
+                  0.32957110609480816,
+                  0.5936842105263158,
+                  0.5756207674943568,
+                  0.6347368421052632
+                ],
+                "rotation": 0.0
+              }
+            ]
+          },
+          "status": "capacity read",
+          "expected_capacity": 20,
+          "expected_scale": "20-scale"
+        },
+        "IMG_3228": {
+          "capacity": {
+            "value": 20.0,
+            "unit": "mL",
+            "score": 0.940735936164856,
+            "method": "adjacent number and unit",
+            "evidence": [
+              {
+                "text": "ml",
+                "crop_bbox": [
+                  0.26058631921824105,
+                  0.657051282051282,
+                  0.7003257328990228,
+                  0.7219551282051282
+                ],
+                "rotation": 0.0
+              },
+              {
+                "text": "20",
+                "crop_bbox": [
+                  0.31885402609086816,
+                  0.7108642659279779,
+                  0.613000449842555,
+                  0.7679016620498615
+                ],
+                "rotation": 0.0
+              }
+            ]
+          },
+          "scale": {
+            "value": "20-scale",
+            "score": 0.940735936164856,
+            "method": "read number and unit",
+            "evidence": [
+              {
+                "text": "ml",
+                "crop_bbox": [
+                  0.26058631921824105,
+                  0.657051282051282,
+                  0.7003257328990228,
+                  0.7219551282051282
+                ],
+                "rotation": 0.0
+              },
+              {
+                "text": "20",
+                "crop_bbox": [
+                  0.31885402609086816,
+                  0.7108642659279779,
+                  0.613000449842555,
+                  0.7679016620498615
+                ],
+                "rotation": 0.0
+              }
+            ]
+          },
+          "status": "capacity read",
+          "expected_capacity": 20,
+          "expected_scale": "20-scale"
+        },
+        "IMG_3245": {
+          "capacity": {
+            "value": 20.0,
+            "unit": "mL",
+            "score": 0.9073862433433533,
+            "method": "adjacent number and unit",
+            "evidence": [
+              {
+                "text": "ml",
+                "crop_bbox": [
+                  0.48024316109422494,
+                  0.6434294871794872,
+                  0.8085106382978723,
+                  0.6778846153846154
+                ],
+                "rotation": 0.0
+              },
+              {
+                "text": "20",
+                "crop_bbox": [
+                  0.5249395944952201,
+                  0.642191135734072,
+                  0.7431242777602689,
+                  0.7202382271468145
+                ],
+                "rotation": 0.0
+              }
+            ]
+          },
+          "scale": {
+            "value": "20-scale",
+            "score": 0.9073862433433533,
+            "method": "read number and unit",
+            "evidence": [
+              {
+                "text": "ml",
+                "crop_bbox": [
+                  0.48024316109422494,
+                  0.6434294871794872,
+                  0.8085106382978723,
+                  0.6778846153846154
+                ],
+                "rotation": 0.0
+              },
+              {
+                "text": "20",
+                "crop_bbox": [
+                  0.5249395944952201,
+                  0.642191135734072,
+                  0.7431242777602689,
+                  0.7202382271468145
+                ],
+                "rotation": 0.0
+              }
+            ]
+          },
+          "status": "capacity read",
+          "expected_capacity": 20,
+          "expected_scale": "20-scale"
+        },
+        "IMG_3251": {
+          "capacity": null,
+          "scale": null,
+          "status": "markings only",
+          "expected_capacity": 60,
+          "expected_scale": "60-scale"
+        },
+        "IMG_3292": {
+          "capacity": {
+            "value": 20.0,
+            "unit": "mL",
+            "score": 0.7820061445236206,
+            "method": "adjacent number and unit",
+            "evidence": [
+              {
+                "text": "ml",
+                "crop_bbox": [
+                  0.25768399031101996,
+                  0.47604953642743614,
+                  0.6879785009888901,
+                  0.5654126011611122
+                ],
+                "rotation": 5.7
+              },
+              {
+                "text": "20",
+                "crop_bbox": [
+                  0.3113784319602565,
+                  0.5147173313267408,
+                  0.5803278079247175,
+                  0.6003384999783048
+                ],
+                "rotation": 5.7
+              }
+            ]
+          },
+          "scale": {
+            "value": "20-scale",
+            "score": 0.7820061445236206,
+            "method": "read number and unit",
+            "evidence": [
+              {
+                "text": "ml",
+                "crop_bbox": [
+                  0.25768399031101996,
+                  0.47604953642743614,
+                  0.6879785009888901,
+                  0.5654126011611122
+                ],
+                "rotation": 5.7
+              },
+              {
+                "text": "20",
+                "crop_bbox": [
+                  0.3113784319602565,
+                  0.5147173313267408,
+                  0.5803278079247175,
+                  0.6003384999783048
+                ],
+                "rotation": 5.7
+              }
+            ]
+          },
+          "status": "capacity read",
+          "expected_capacity": 20,
+          "expected_scale": "20-scale"
+        },
+        "IMG_3318": {
+          "capacity": null,
+          "scale": {
+            "value": "20-scale",
+            "score": 0.8470361828804016,
+            "method": "ordered terminal graduations",
+            "evidence": [
+              {
+                "text": "10",
+                "crop_bbox": [
+                  0.38864208874590694,
+                  0.330341655599758,
+                  0.6235196058173886,
+                  0.3805698682722876
+                ],
+                "rotation": 6.3
+              },
+              {
+                "text": "15",
+                "crop_bbox": [
+                  0.3570382722181503,
+                  0.45847597239587745,
+                  0.554363468979231,
+                  0.5061440894490867
+                ],
+                "rotation": 6.3
+              },
+              {
+                "text": "20",
+                "crop_bbox": [
+                  0.25215580631477524,
+                  0.5336155854225855,
+                  0.5690938409222861,
+                  0.6253365863030388
+                ],
+                "rotation": 6.3
+              }
+            ]
+          },
+          "status": "scale read",
+          "expected_capacity": 20,
+          "expected_scale": "20-scale"
+        },
+        "IMG_3321": {
+          "capacity": null,
+          "scale": null,
+          "status": "markings only",
+          "expected_capacity": 20,
+          "expected_scale": "20-scale"
+        }
+      },
+      "visible_numeric_hits": 6
+    },
+    "tiny_inverted": {
+      "n": 9,
+      "capacity": {
+        "answered": 7,
+        "correct": 7,
+        "wrong": 0
+      },
+      "type": {
+        "answered": 7,
+        "correct": 7,
+        "wrong": 0
+      },
+      "findings": {
+        "IMG_3198": {
+          "capacity": {
+            "value": 60.0,
+            "unit": "mL",
+            "score": 0.9820365905761719,
+            "method": "adjacent number and unit",
+            "evidence": [
+              {
+                "text": "ml",
+                "crop_bbox": [
+                  0.3032928942807628,
+                  0.4689473684210526,
+                  0.4679376083188909,
+                  0.5147368421052632
+                ],
+                "rotation": 180.0
+              },
+              {
+                "text": "60",
+                "crop_bbox": [
+                  0.2616984402079724,
+                  0.4110526315789473,
+                  0.6221837088388216,
+                  0.47421052631578947
+                ],
+                "rotation": 180.0
+              }
+            ]
+          },
+          "scale": {
+            "value": "60-scale",
+            "score": 0.9820365905761719,
+            "method": "read number and unit",
+            "evidence": [
+              {
+                "text": "ml",
+                "crop_bbox": [
+                  0.3032928942807628,
+                  0.4689473684210526,
+                  0.4679376083188909,
+                  0.5147368421052632
+                ],
+                "rotation": 180.0
+              },
+              {
+                "text": "60",
+                "crop_bbox": [
+                  0.2616984402079724,
+                  0.4110526315789473,
+                  0.6221837088388216,
+                  0.47421052631578947
+                ],
+                "rotation": 180.0
+              }
+            ]
+          },
+          "status": "capacity read",
+          "expected_capacity": 60,
+          "expected_scale": "60-scale"
+        },
+        "IMG_3206": {
+          "capacity": {
+            "value": 60.0,
+            "unit": "mL",
+            "score": 0.9880110025405884,
+            "method": "adjacent number and unit",
+            "evidence": [
+              {
+                "text": "ml",
+                "crop_bbox": [
+                  0.42568571443453634,
+                  0.3339699513431033,
+                  0.5713328270041176,
+                  0.42334374207432457
+                ],
+                "rotation": 207.7
+              },
+              {
+                "text": "60",
+                "crop_bbox": [
+                  0.48773171266123666,
+                  0.3104560221739453,
+                  0.5779061127108339,
+                  0.37012762729848575
+                ],
+                "rotation": 207.7
+              }
+            ]
+          },
+          "scale": {
+            "value": "60-scale",
+            "score": 0.9880110025405884,
+            "method": "read number and unit",
+            "evidence": [
+              {
+                "text": "ml",
+                "crop_bbox": [
+                  0.42568571443453634,
+                  0.3339699513431033,
+                  0.5713328270041176,
+                  0.42334374207432457
+                ],
+                "rotation": 207.7
+              },
+              {
+                "text": "60",
+                "crop_bbox": [
+                  0.48773171266123666,
+                  0.3104560221739453,
+                  0.5779061127108339,
+                  0.37012762729848575
+                ],
+                "rotation": 207.7
+              }
+            ]
+          },
+          "status": "capacity read",
+          "expected_capacity": 60,
+          "expected_scale": "60-scale"
+        },
+        "IMG_3215": {
+          "capacity": {
+            "value": 20.0,
+            "unit": "mL",
+            "score": 0.993213415145874,
+            "method": "adjacent number and unit",
+            "evidence": [
+              {
+                "text": "ml",
+                "crop_bbox": [
+                  0.3470790378006874,
+                  0.3974358974358974,
+                  0.7113402061855671,
+                  0.4463141025641026
+                ],
+                "rotation": 180.0
+              },
+              {
+                "text": "20",
+                "crop_bbox": [
+                  0.418510158013544,
+                  0.36410526315789465,
+                  0.6623024830699774,
+                  0.40621052631578947
+                ],
+                "rotation": 180.0
+              }
+            ]
+          },
+          "scale": {
+            "value": "20-scale",
+            "score": 0.993213415145874,
+            "method": "read number and unit",
+            "evidence": [
+              {
+                "text": "ml",
+                "crop_bbox": [
+                  0.3470790378006874,
+                  0.3974358974358974,
+                  0.7113402061855671,
+                  0.4463141025641026
+                ],
+                "rotation": 180.0
+              },
+              {
+                "text": "20",
+                "crop_bbox": [
+                  0.418510158013544,
+                  0.36410526315789465,
+                  0.6623024830699774,
+                  0.40621052631578947
+                ],
+                "rotation": 180.0
+              }
+            ]
+          },
+          "status": "capacity read",
+          "expected_capacity": 20,
+          "expected_scale": "20-scale"
+        },
+        "IMG_3228": {
+          "capacity": {
+            "value": 20.0,
+            "unit": "mL",
+            "score": 0.9794403314590454,
+            "method": "adjacent number and unit",
+            "evidence": [
+              {
+                "text": "ml",
+                "crop_bbox": [
+                  0.3127035830618892,
+                  0.2764423076923077,
+                  0.7296416938110749,
+                  0.3373397435897436
+                ],
+                "rotation": 180.0
+              },
+              {
+                "text": "20",
+                "crop_bbox": [
+                  0.39529914529914534,
+                  0.23368421052631577,
+                  0.6752136752136753,
+                  0.28684210526315784
+                ],
+                "rotation": 180.0
+              }
+            ]
+          },
+          "scale": {
+            "value": "20-scale",
+            "score": 0.9794403314590454,
+            "method": "read number and unit",
+            "evidence": [
+              {
+                "text": "ml",
+                "crop_bbox": [
+                  0.3127035830618892,
+                  0.2764423076923077,
+                  0.7296416938110749,
+                  0.3373397435897436
+                ],
+                "rotation": 180.0
+              },
+              {
+                "text": "20",
+                "crop_bbox": [
+                  0.39529914529914534,
+                  0.23368421052631577,
+                  0.6752136752136753,
+                  0.28684210526315784
+                ],
+                "rotation": 180.0
+              }
+            ]
+          },
+          "status": "capacity read",
+          "expected_capacity": 20,
+          "expected_scale": "20-scale"
+        },
+        "IMG_3245": {
+          "capacity": {
+            "value": 20.0,
+            "unit": "mL",
+            "score": 0.9078701734542847,
+            "method": "adjacent number and unit",
+            "evidence": [
+              {
+                "text": "ml",
+                "crop_bbox": [
+                  0.19756838905775076,
+                  0.32051282051282054,
+                  0.5106382978723405,
+                  0.3541666666666667
+                ],
+                "rotation": 180.0
+              },
+              {
+                "text": "20",
+                "crop_bbox": [
+                  0.26118289736316835,
+                  0.2783047091412742,
+                  0.46931925622439336,
+                  0.3560180055401662
+                ],
+                "rotation": 180.0
+              }
+            ]
+          },
+          "scale": {
+            "value": "20-scale",
+            "score": 0.9078701734542847,
+            "method": "read number and unit",
+            "evidence": [
+              {
+                "text": "ml",
+                "crop_bbox": [
+                  0.19756838905775076,
+                  0.32051282051282054,
+                  0.5106382978723405,
+                  0.3541666666666667
+                ],
+                "rotation": 180.0
+              },
+              {
+                "text": "20",
+                "crop_bbox": [
+                  0.26118289736316835,
+                  0.2783047091412742,
+                  0.46931925622439336,
+                  0.3560180055401662
+                ],
+                "rotation": 180.0
+              }
+            ]
+          },
+          "status": "capacity read",
+          "expected_capacity": 20,
+          "expected_scale": "20-scale"
+        },
+        "IMG_3251": {
+          "capacity": null,
+          "scale": null,
+          "status": "markings only",
+          "expected_capacity": 60,
+          "expected_scale": "60-scale"
+        },
+        "IMG_3292": {
+          "capacity": null,
+          "scale": null,
+          "status": "markings only",
+          "expected_capacity": 20,
+          "expected_scale": "20-scale"
+        },
+        "IMG_3318": {
+          "capacity": {
+            "value": 20.0,
+            "unit": "mL",
+            "score": 0.9052577614784241,
+            "method": "adjacent number and unit",
+            "evidence": [
+              {
+                "text": "ml",
+                "crop_bbox": [
+                  0.36363636363636376,
+                  0.4230769230769231,
+                  0.8013468013468015,
+                  0.4583333333333333
+                ],
+                "rotation": 180.0
+              },
+              {
+                "text": "20",
+                "crop_bbox": [
+                  0.4511784511784513,
+                  0.37900641025641024,
+                  0.7441077441077442,
+                  0.4599358974358974
+                ],
+                "rotation": 180.0
+              }
+            ]
+          },
+          "scale": {
+            "value": "20-scale",
+            "score": 0.9052577614784241,
+            "method": "read number and unit",
+            "evidence": [
+              {
+                "text": "ml",
+                "crop_bbox": [
+                  0.36363636363636376,
+                  0.4230769230769231,
+                  0.8013468013468015,
+                  0.4583333333333333
+                ],
+                "rotation": 180.0
+              },
+              {
+                "text": "20",
+                "crop_bbox": [
+                  0.4511784511784513,
+                  0.37900641025641024,
+                  0.7441077441077442,
+                  0.4599358974358974
+                ],
+                "rotation": 180.0
+              }
+            ]
+          },
+          "status": "capacity read",
+          "expected_capacity": 20,
+          "expected_scale": "20-scale"
+        },
+        "IMG_3321": {
+          "capacity": {
+            "value": 20.0,
+            "unit": "mL",
+            "score": 0.8467612266540527,
+            "method": "adjacent number and unit",
+            "evidence": [
+              {
+                "text": "ml",
+                "crop_bbox": [
+                  0.17279411764705893,
+                  0.46153846153846156,
+                  0.5698529411764708,
+                  0.49599358974358976
+                ],
+                "rotation": 180.0
+              },
+              {
+                "text": "20",
+                "crop_bbox": [
+                  0.2536764705882354,
+                  0.41907051282051283,
+                  0.5183823529411766,
+                  0.49759615384615385
+                ],
+                "rotation": 180.0
+              }
+            ]
+          },
+          "scale": {
+            "value": "20-scale",
+            "score": 0.8467612266540527,
+            "method": "read number and unit",
+            "evidence": [
+              {
+                "text": "ml",
+                "crop_bbox": [
+                  0.17279411764705893,
+                  0.46153846153846156,
+                  0.5698529411764708,
+                  0.49599358974358976
+                ],
+                "rotation": 180.0
+              },
+              {
+                "text": "20",
+                "crop_bbox": [
+                  0.2536764705882354,
+                  0.41907051282051283,
+                  0.5183823529411766,
+                  0.49759615384615385
+                ],
+                "rotation": 180.0
+              }
+            ]
+          },
+          "status": "capacity read",
+          "expected_capacity": 20,
+          "expected_scale": "20-scale"
+        }
+      },
+      "visible_numeric_hits": 8
+    },
+    "medium": {
+      "n": 9,
+      "capacity": {
+        "answered": 7,
+        "correct": 7,
+        "wrong": 0
+      },
+      "type": {
+        "answered": 7,
+        "correct": 7,
+        "wrong": 0
+      },
+      "findings": {
+        "IMG_3198": {
+          "capacity": {
+            "value": 60.0,
+            "unit": "mL",
+            "score": 0.9999321103096008,
+            "method": "adjacent number and unit",
+            "evidence": [
+              {
+                "text": "ml",
+                "crop_bbox": [
+                  0.525065963060686,
+                  0.4855769230769231,
+                  0.6939313984168866,
+                  0.530448717948718
+                ],
+                "rotation": 0.0
+              },
+              {
+                "text": "60",
+                "crop_bbox": [
+                  0.5356200527704486,
+                  0.5296474358974359,
+                  0.7097625329815304,
+                  0.5873397435897436
+                ],
+                "rotation": 0.0
+              }
+            ]
+          },
+          "scale": {
+            "value": "60-scale",
+            "score": 0.9999321103096008,
+            "method": "read number and unit",
+            "evidence": [
+              {
+                "text": "ml",
+                "crop_bbox": [
+                  0.525065963060686,
+                  0.4855769230769231,
+                  0.6939313984168866,
+                  0.530448717948718
+                ],
+                "rotation": 0.0
+              },
+              {
+                "text": "60",
+                "crop_bbox": [
+                  0.5356200527704486,
+                  0.5296474358974359,
+                  0.7097625329815304,
+                  0.5873397435897436
+                ],
+                "rotation": 0.0
+              }
+            ]
+          },
+          "status": "capacity read",
+          "expected_capacity": 60,
+          "expected_scale": "60-scale"
+        },
+        "IMG_3206": {
+          "capacity": {
+            "value": 60.0,
+            "unit": "mL",
+            "score": 0.9999279975891113,
+            "method": "adjacent number and unit",
+            "evidence": [
+              {
+                "text": "ml",
+                "crop_bbox": [
+                  0.43675417661097854,
+                  0.5841346153846154,
+                  0.5465393794749404,
+                  0.65625
+                ],
+                "rotation": 0.0
+              },
+              {
+                "text": "60",
+                "crop_bbox": [
+                  0.40692124105011934,
+                  0.6201923076923077,
+                  0.5178997613365155,
+                  0.6947115384615384
+                ],
+                "rotation": 0.0
+              }
+            ]
+          },
+          "scale": {
+            "value": "60-scale",
+            "score": 0.9999279975891113,
+            "method": "read number and unit",
+            "evidence": [
+              {
+                "text": "ml",
+                "crop_bbox": [
+                  0.43675417661097854,
+                  0.5841346153846154,
+                  0.5465393794749404,
+                  0.65625
+                ],
+                "rotation": 0.0
+              },
+              {
+                "text": "60",
+                "crop_bbox": [
+                  0.40692124105011934,
+                  0.6201923076923077,
+                  0.5178997613365155,
+                  0.6947115384615384
+                ],
+                "rotation": 0.0
+              }
+            ]
+          },
+          "status": "capacity read",
+          "expected_capacity": 60,
+          "expected_scale": "60-scale"
+        },
+        "IMG_3215": {
+          "capacity": null,
+          "scale": null,
+          "status": "markings only",
+          "expected_capacity": 20,
+          "expected_scale": "20-scale"
+        },
+        "IMG_3228": {
+          "capacity": {
+            "value": 20.0,
+            "unit": "mL",
+            "score": 0.999771237373352,
+            "method": "adjacent number and unit",
+            "evidence": [
+              {
+                "text": "ml",
+                "crop_bbox": [
+                  0.3289902280130293,
+                  0.6666666666666666,
+                  0.5863192182410424,
+                  0.7219551282051282
+                ],
+                "rotation": 0.0
+              },
+              {
+                "text": "20",
+                "crop_bbox": [
+                  0.3127035830618892,
+                  0.7107371794871795,
+                  0.6026058631921825,
+                  0.7684294871794872
+                ],
+                "rotation": 0.0
+              }
+            ]
+          },
+          "scale": {
+            "value": "20-scale",
+            "score": 0.999771237373352,
+            "method": "read number and unit",
+            "evidence": [
+              {
+                "text": "ml",
+                "crop_bbox": [
+                  0.3289902280130293,
+                  0.6666666666666666,
+                  0.5863192182410424,
+                  0.7219551282051282
+                ],
+                "rotation": 0.0
+              },
+              {
+                "text": "20",
+                "crop_bbox": [
+                  0.3127035830618892,
+                  0.7107371794871795,
+                  0.6026058631921825,
+                  0.7684294871794872
+                ],
+                "rotation": 0.0
+              }
+            ]
+          },
+          "status": "capacity read",
+          "expected_capacity": 20,
+          "expected_scale": "20-scale"
+        },
+        "IMG_3245": {
+          "capacity": {
+            "value": 20.0,
+            "unit": "mL",
+            "score": 0.9950058460235596,
+            "method": "adjacent number and unit",
+            "evidence": [
+              {
+                "text": "ml",
+                "crop_bbox": [
+                  0.5501519756838906,
+                  0.6458333333333334,
+                  0.7142857142857143,
+                  0.6802884615384616
+                ],
+                "rotation": 0.0
+              },
+              {
+                "text": "20",
+                "crop_bbox": [
+                  0.547112462006079,
+                  0.6722756410256411,
+                  0.7264437689969605,
+                  0.7163461538461539
+                ],
+                "rotation": 0.0
+              }
+            ]
+          },
+          "scale": {
+            "value": "20-scale",
+            "score": 0.9950058460235596,
+            "method": "read number and unit",
+            "evidence": [
+              {
+                "text": "ml",
+                "crop_bbox": [
+                  0.5501519756838906,
+                  0.6458333333333334,
+                  0.7142857142857143,
+                  0.6802884615384616
+                ],
+                "rotation": 0.0
+              },
+              {
+                "text": "20",
+                "crop_bbox": [
+                  0.547112462006079,
+                  0.6722756410256411,
+                  0.7264437689969605,
+                  0.7163461538461539
+                ],
+                "rotation": 0.0
+              }
+            ]
+          },
+          "status": "capacity read",
+          "expected_capacity": 20,
+          "expected_scale": "20-scale"
+        },
+        "IMG_3251": {
+          "capacity": {
+            "value": 60.0,
+            "unit": "mL",
+            "score": 0.9999440312385559,
+            "method": "adjacent number and unit",
+            "evidence": [
+              {
+                "text": "ml",
+                "crop_bbox": [
+                  0.3608870970039644,
+                  0.579577261574859,
+                  0.5614472555174305,
+                  0.6473917199389472
+                ],
+                "rotation": 348.9
+              },
+              {
+                "text": "60",
+                "crop_bbox": [
+                  0.3812718019566223,
+                  0.6311490476798859,
+                  0.5998272457141866,
+                  0.7148585846319017
+                ],
+                "rotation": 348.9
+              }
+            ]
+          },
+          "scale": {
+            "value": "60-scale",
+            "score": 0.9999440312385559,
+            "method": "read number and unit",
+            "evidence": [
+              {
+                "text": "ml",
+                "crop_bbox": [
+                  0.3608870970039644,
+                  0.579577261574859,
+                  0.5614472555174305,
+                  0.6473917199389472
+                ],
+                "rotation": 348.9
+              },
+              {
+                "text": "60",
+                "crop_bbox": [
+                  0.3812718019566223,
+                  0.6311490476798859,
+                  0.5998272457141866,
+                  0.7148585846319017
+                ],
+                "rotation": 348.9
+              }
+            ]
+          },
+          "status": "capacity read",
+          "expected_capacity": 60,
+          "expected_scale": "60-scale"
+        },
+        "IMG_3292": {
+          "capacity": {
+            "value": 20.0,
+            "unit": "mL",
+            "score": 0.9997336864471436,
+            "method": "adjacent number and unit",
+            "evidence": [
+              {
+                "text": "ml",
+                "crop_bbox": [
+                  0.29180283567044035,
+                  0.5143194156627038,
+                  0.6499843522113244,
+                  0.5681243830372205
+                ],
+                "rotation": 5.7
+              },
+              {
+                "text": "20",
+                "crop_bbox": [
+                  0.3238133085981203,
+                  0.5536253644646317,
+                  0.5654364814364745,
+                  0.5985051102434062
+                ],
+                "rotation": 5.7
+              }
+            ]
+          },
+          "scale": {
+            "value": "20-scale",
+            "score": 0.9997336864471436,
+            "method": "read number and unit",
+            "evidence": [
+              {
+                "text": "ml",
+                "crop_bbox": [
+                  0.29180283567044035,
+                  0.5143194156627038,
+                  0.6499843522113244,
+                  0.5681243830372205
+                ],
+                "rotation": 5.7
+              },
+              {
+                "text": "20",
+                "crop_bbox": [
+                  0.3238133085981203,
+                  0.5536253644646317,
+                  0.5654364814364745,
+                  0.5985051102434062
+                ],
+                "rotation": 5.7
+              }
+            ]
+          },
+          "status": "capacity read",
+          "expected_capacity": 20,
+          "expected_scale": "20-scale"
+        },
+        "IMG_3318": {
+          "capacity": {
+            "value": 20.0,
+            "unit": "mL",
+            "score": 0.997626781463623,
+            "method": "adjacent number and unit",
+            "evidence": [
+              {
+                "text": "ml",
+                "crop_bbox": [
+                  0.23790184881370643,
+                  0.5263647594974638,
+                  0.6021696762348282,
+                  0.5847128996973898
+                ],
+                "rotation": 6.3
+              },
+              {
+                "text": "20",
+                "crop_bbox": [
+                  0.2688677680037993,
+                  0.5682143501092336,
+                  0.5163930130201921,
+                  0.6172013891707486
+                ],
+                "rotation": 6.3
+              }
+            ]
+          },
+          "scale": {
+            "value": "20-scale",
+            "score": 0.997626781463623,
+            "method": "read number and unit",
+            "evidence": [
+              {
+                "text": "ml",
+                "crop_bbox": [
+                  0.23790184881370643,
+                  0.5263647594974638,
+                  0.6021696762348282,
+                  0.5847128996973898
+                ],
+                "rotation": 6.3
+              },
+              {
+                "text": "20",
+                "crop_bbox": [
+                  0.2688677680037993,
+                  0.5682143501092336,
+                  0.5163930130201921,
+                  0.6172013891707486
+                ],
+                "rotation": 6.3
+              }
+            ]
+          },
+          "status": "capacity read",
+          "expected_capacity": 20,
+          "expected_scale": "20-scale"
+        },
+        "IMG_3321": {
+          "capacity": null,
+          "scale": null,
+          "status": "ambiguous",
+          "expected_capacity": 20,
+          "expected_scale": "20-scale"
+        }
+      },
+      "visible_numeric_hits": 9
+    }
+  },
+  "selection_sha256": "1aa3bc3b87eda562c1fedb8b1e4f2e746452e8cb41f3cbd8e7238adf9995a80e"
+}

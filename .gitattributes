@@ -1,0 +1,3 @@
+*.pdf binary
+artifacts/*.csv -text whitespace=cr-at-eol
+artifacts/detection_hillclimb/*.csv -text whitespace=cr-at-eol

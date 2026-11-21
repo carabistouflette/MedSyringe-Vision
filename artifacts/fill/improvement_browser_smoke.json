@@ -1,0 +1,24 @@
+{
+  "image": "IMG_3316.jpeg",
+  "detected": 1,
+  "browser": "Chromium",
+  "no_page_errors": true,
+  "flows": [
+    "image upload",
+    "real detection overlay",
+    "inventory",
+    "persisted review",
+    "ZIP report with evidence",
+    "mobile viewport without horizontal overflow",
+    "three image landmarks",
+    "server-side reviewed fill",
+    "manual evidence and original model estimate in ZIP",
+    "released crop verifier on real inference",
+    "real Intel XPU primary grounder",
+    "fill percentage and visual range",
+    "piston and graduation overlays",
+    "fill retained after an unchanged box and scale review",
+    "original fill retained in export after scale correction",
+    "fill editor at a 390 pixel viewport"
+  ]
+}

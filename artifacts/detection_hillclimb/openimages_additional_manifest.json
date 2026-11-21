@@ -1,0 +1,2285 @@
+{
+  "rows": [
+    {
+      "id": "01580f1a8a17501c",
+      "title": "Super-hydrophobic paint",
+      "author": "UCL Mathematical and Physical Sciences",
+      "group": "openimages-profile:www.flickr.com/people/uclmaps/",
+      "author_profile": "https://www.flickr.com/people/uclmaps/",
+      "source_url": "https://www.flickr.com/photos/uclmaps/16763065915",
+      "original_url": "https://c5.staticflickr.com/8/7605/16763065915_0f2b6b45ac_o.jpg",
+      "image_url": "https://open-images-dataset.s3.amazonaws.com/train/01580f1a8a17501c.jpg",
+      "license": "https://creativecommons.org/licenses/by/2.0/",
+      "image": "detection_hillclimb/openimages/images/01580f1a8a17501c.jpg",
+      "width": 882,
+      "height": 1024,
+      "sha256": "587156a10b3ef94a441cc07f6aa7ecd20618b55d43ace7afbcdd69a45b13d85c",
+      "dhash": "72333e17131b130f",
+      "objects": [
+        {
+          "bbox": [
+            0.469136,
+            0.2575,
+            0.518519,
+            0.62125
+          ],
+          "occluded": true,
+          "truncated": false,
+          "provider": "xclick"
+        }
+      ],
+      "lookalikes": [],
+      "reference_review": "Visual audit without model proposals",
+      "split": "openimages-fit"
+    },
+    {
+      "id": "55e6ba27e74b134d",
+      "title": "First attempt to give myself a shot of B12.  Question is... Can I actually do it?",
+      "author": "Pat (Cletch) Williams",
+      "group": "openimages-profile:www.flickr.com/people/cletch/",
+      "author_profile": "https://www.flickr.com/people/cletch/",
+      "source_url": "https://www.flickr.com/photos/cletch/14215047926",
+      "original_url": "https://c6.staticflickr.com/3/2897/14215047926_58a8504ca1_o.jpg",
+      "image_url": "https://open-images-dataset.s3.amazonaws.com/train/55e6ba27e74b134d.jpg",
+      "license": "https://creativecommons.org/licenses/by/2.0/",
+      "image": "detection_hillclimb/openimages/images/55e6ba27e74b134d.jpg",
+      "width": 1024,
+      "height": 1024,
+      "sha256": "d842388d9479faaf56c737c93d2f9597ad6c4100c46ed8f099a3957291941255",
+      "dhash": "040d1b3768eca626",
+      "objects": [
+        {
+          "bbox": [
+            0.0875,
+            0.048437,
+            0.789062,
+            0.829687
+          ],
+          "occluded": false,
+          "truncated": false,
+          "provider": "xclick"
+        }
+      ],
+      "lookalikes": [],
+      "reference_review": "Visual audit without model proposals",
+      "split": "openimages-fit"
+    },
+    {
+      "id": "360e140029ff7f49",
+      "title": "Flu jab",
+      "author": "NHS Employers",
+      "group": "openimages-profile:www.flickr.com/people/nhse/",
+      "author_profile": "https://www.flickr.com/people/nhse/",
+      "source_url": "https://www.flickr.com/photos/nhse/8135428744",
+      "original_url": "https://c2.staticflickr.com/9/8465/8135428744_33db0fd676_o.jpg",
+      "image_url": "https://open-images-dataset.s3.amazonaws.com/train/360e140029ff7f49.jpg",
+      "license": "https://creativecommons.org/licenses/by/2.0/",
+      "image": "detection_hillclimb/openimages/images/360e140029ff7f49.jpg",
+      "width": 1024,
+      "height": 683,
+      "sha256": "adb299cf97a866ff2af67d8056b1b6abf7b093fbe08f63e67322a541df80b24c",
+      "dhash": "e2c446168bc617d7",
+      "objects": [
+        {
+          "bbox": [
+            0.582,
+            0.548726,
+            0.721,
+            0.908546
+          ],
+          "occluded": true,
+          "truncated": false,
+          "provider": "xclick"
+        }
+      ],
+      "lookalikes": [],
+      "reference_review": "Visual audit without model proposals",
+      "split": "openimages-fit"
+    },
+    {
+      "id": "f5eb5bedde206c8e",
+      "title": "TRX4 or Placebo",
+      "author": "gosheshe",
+      "group": "openimages-profile:www.flickr.com/people/gosheshe/",
+      "author_profile": "https://www.flickr.com/people/gosheshe/",
+      "source_url": "https://www.flickr.com/photos/gosheshe/4013953281",
+      "original_url": "https://c7.staticflickr.com/3/2664/4013953281_e6fe0b73de_o.jpg",
+      "image_url": "https://open-images-dataset.s3.amazonaws.com/train/f5eb5bedde206c8e.jpg",
+      "license": "https://creativecommons.org/licenses/by/2.0/",
+      "image": "detection_hillclimb/openimages/images/f5eb5bedde206c8e.jpg",
+      "width": 1024,
+      "height": 768,
+      "sha256": "bc207b591dbc037361cf40ae2814b679c8faa44e6f631218eaa00207b0cbb914",
+      "dhash": "661f696c6764e6c2",
+      "objects": [
+        {
+          "bbox": [
+            0.476875,
+            0.226667,
+            0.999375,
+            0.555
+          ],
+          "occluded": false,
+          "truncated": true,
+          "provider": "xclick"
+        }
+      ],
+      "lookalikes": [],
+      "reference_review": "Visual audit without model proposals",
+      "split": "openimages-fit"
+    },
+    {
+      "id": "2014be0963d6756a",
+      "title": "Life Size Lego Syringe - Toxic Waste - Trans Neon Green",
+      "author": "Sean Michael Ragan",
+      "group": "openimages-profile:www.flickr.com/people/seanmichaelragan/",
+      "author_profile": "https://www.flickr.com/people/seanmichaelragan/",
+      "source_url": "https://www.flickr.com/photos/seanmichaelragan/5223802845",
+      "original_url": "https://c3.staticflickr.com/6/5005/5223802845_38f7292920_o.jpg",
+      "image_url": "https://open-images-dataset.s3.amazonaws.com/train/2014be0963d6756a.jpg",
+      "license": "https://creativecommons.org/licenses/by/2.0/",
+      "image": "detection_hillclimb/openimages/images/2014be0963d6756a.jpg",
+      "width": 1024,
+      "height": 768,
+      "sha256": "50b307bf02b0573f2f659910ef469d929153eaaa08523e86c694d1c99395ea28",
+      "dhash": "0b160c5172e09000",
+      "objects": [],
+      "lookalikes": [
+        {
+          "kind": "syringe-shaped construction toy",
+          "bbox": [
+            0.060625,
+            0.029167,
+            0.955,
+            0.87
+          ]
+        }
+      ],
+      "reference_review": "Visual audit without model proposals",
+      "split": "openimages-fit"
+    },
+    {
+      "id": "2e00d647dd51af32",
+      "title": "That time of day... #Poke #DiabeticLifestyle #InstaBruDroid #Andrography #Random #Weekend #AidilFitri #Brunei",
+      "author": "Reedz Malik",
+      "group": "openimages-profile:www.flickr.com/people/anakbrunei/",
+      "author_profile": "https://www.flickr.com/people/anakbrunei/",
+      "source_url": "https://www.flickr.com/photos/anakbrunei/9630356000",
+      "original_url": "https://farm3.staticflickr.com/3830/9630356000_c2a349668e_o.jpg",
+      "image_url": "https://open-images-dataset.s3.amazonaws.com/train/2e00d647dd51af32.jpg",
+      "license": "https://creativecommons.org/licenses/by/2.0/",
+      "image": "detection_hillclimb/openimages/images/2e00d647dd51af32.jpg",
+      "width": 768,
+      "height": 768,
+      "sha256": "c2bf132a9ee21aa568eceac373d91565a13c07a098f0c5ae72732b1333d5ff59",
+      "dhash": "0082170743438100",
+      "objects": [
+        {
+          "bbox": [
+            0.027778,
+            0.236928,
+            0.73366,
+            0.751634
+          ],
+          "occluded": false,
+          "truncated": false,
+          "provider": "xclick"
+        }
+      ],
+      "lookalikes": [],
+      "reference_review": "Visual audit without model proposals",
+      "split": "openimages-fit"
+    },
+    {
+      "id": "832904078a0ea965",
+      "title": "Vacina Gripe A",
+      "author": "ASCOM Prefeitura de Votuporanga",
+      "group": "openimages-profile:www.flickr.com/people/prefvotuporanga/",
+      "author_profile": "https://www.flickr.com/people/prefvotuporanga/",
+      "source_url": "https://www.flickr.com/photos/prefvotuporanga/4463021194",
+      "original_url": "https://farm6.staticflickr.com/2749/4463021194_30eb7663aa_o.jpg",
+      "image_url": "https://open-images-dataset.s3.amazonaws.com/train/832904078a0ea965.jpg",
+      "license": "https://creativecommons.org/licenses/by/2.0/",
+      "image": "detection_hillclimb/openimages/images/832904078a0ea965.jpg",
+      "width": 1024,
+      "height": 768,
+      "sha256": "a64b17fef92b8a9dbd0e83cf602a03a412d7c1bd010e3b161e127578880d5d78",
+      "dhash": "783c5551c393d1d8",
+      "objects": [
+        {
+          "bbox": [
+            0.39875,
+            0.428333,
+            0.9275,
+            0.603333
+          ],
+          "occluded": true,
+          "truncated": false,
+          "provider": "xclick"
+        }
+      ],
+      "lookalikes": [],
+      "reference_review": "Visual audit without model proposals",
+      "split": "openimages-fit"
+    },
+    {
+      "id": "28a6f423a4bf5aee",
+      "title": "Life Size Lego Syringe - Water - Trans Blue",
+      "author": "Sean Michael Ragan",
+      "group": "openimages-profile:www.flickr.com/people/seanmichaelragan/",
+      "author_profile": "https://www.flickr.com/people/seanmichaelragan/",
+      "source_url": "https://www.flickr.com/photos/seanmichaelragan/5224386526",
+      "original_url": "https://c7.staticflickr.com/6/5167/5224386526_2d11f85930_o.jpg",
+      "image_url": "https://open-images-dataset.s3.amazonaws.com/train/28a6f423a4bf5aee.jpg",
+      "license": "https://creativecommons.org/licenses/by/2.0/",
+      "image": "detection_hillclimb/openimages/images/28a6f423a4bf5aee.jpg",
+      "width": 1024,
+      "height": 768,
+      "sha256": "3a902cdf556c66634452c9b7e1dcdd040d768df0b2ae4b3228821a4a41304ffa",
+      "dhash": "0a160c71b26490a0",
+      "objects": [],
+      "lookalikes": [
+        {
+          "kind": "syringe-shaped construction toy",
+          "bbox": [
+            0.113125,
+            0.064167,
+            0.915,
+            0.858333
+          ]
+        }
+      ],
+      "reference_review": "Visual audit without model proposals",
+      "split": "openimages-fit"
+    },
+    {
+      "id": "fe78451c2db38dce",
+      "title": "Drugs",
+      "author": "ghaya alghaya",
+      "group": "openimages-profile:www.flickr.com/people/ghayty/",
+      "author_profile": "https://www.flickr.com/people/ghayty/",
+      "source_url": "https://www.flickr.com/photos/ghayty/7716313",
+      "original_url": "https://c7.staticflickr.com/1/8/7716313_d059124edb_o.jpg",
+      "image_url": "https://open-images-dataset.s3.amazonaws.com/train/fe78451c2db38dce.jpg",
+      "license": "https://creativecommons.org/licenses/by/2.0/",
+      "image": "detection_hillclimb/openimages/images/fe78451c2db38dce.jpg",
+      "width": 1024,
+      "height": 704,
+      "sha256": "48a865f34f4ad04202ba2cf076efbaf54ef68a220e4c4e61c2c7e38b51803dd1",
+      "dhash": "3f2b694b66f0fcde",
+      "objects": [
+        {
+          "bbox": [
+            0.41875,
+            0.297727,
+            0.728125,
+            0.465909
+          ],
+          "occluded": true,
+          "truncated": false,
+          "provider": "xclick"
+        }
+      ],
+      "lookalikes": [],
+      "reference_review": "Visual audit without model proposals",
+      "split": "openimages-fit"
+    },
+    {
+      "id": "01c97c250f9c7b75",
+      "title": "048",
+      "author": "MilitaryHealth",
+      "group": "openimages-profile:www.flickr.com/people/militaryhealth/",
+      "author_profile": "https://www.flickr.com/people/militaryhealth/",
+      "source_url": "https://www.flickr.com/photos/militaryhealth/6884474788",
+      "original_url": "https://farm6.staticflickr.com/7079/6884474788_445921be42_o.jpg",
+      "image_url": "https://open-images-dataset.s3.amazonaws.com/train/01c97c250f9c7b75.jpg",
+      "license": "https://creativecommons.org/licenses/by/2.0/",
+      "image": "detection_hillclimb/openimages/images/01c97c250f9c7b75.jpg",
+      "width": 1024,
+      "height": 681,
+      "sha256": "7763f5b2eb6fbb15ff3a5835d91cfdb1c4eb5f1fd725cc4b62149415f15f76e5",
+      "dhash": "9185c346646c2479",
+      "objects": [
+        {
+          "bbox": [
+            0.306875,
+            0.343985,
+            0.614375,
+            0.56297
+          ],
+          "occluded": true,
+          "truncated": false,
+          "provider": "xclick"
+        }
+      ],
+      "lookalikes": [],
+      "reference_review": "Visual audit without model proposals",
+      "split": "openimages-fit"
+    },
+    {
+      "id": "b0797224195efa04",
+      "title": "Get Your Travel Shots",
+      "author": "Andrew Hyde",
+      "group": "openimages-profile:www.flickr.com/people/bouldair/",
+      "author_profile": "https://www.flickr.com/people/bouldair/",
+      "source_url": "https://www.flickr.com/photos/bouldair/5018619867",
+      "original_url": "https://farm5.staticflickr.com/4145/5018619867_d0752b7d77_o.jpg",
+      "image_url": "https://open-images-dataset.s3.amazonaws.com/train/b0797224195efa04.jpg",
+      "license": "https://creativecommons.org/licenses/by/2.0/",
+      "image": "detection_hillclimb/openimages/images/b0797224195efa04.jpg",
+      "width": 1024,
+      "height": 768,
+      "sha256": "015440d25cb43c0af3bb4651ef8481a5e70c5508e611a5b6b9bee2024581e2cc",
+      "dhash": "9b93082633150d1b",
+      "objects": [
+        {
+          "bbox": [
+            0.070625,
+            0.44,
+            0.314375,
+            0.823333
+          ],
+          "occluded": true,
+          "truncated": false,
+          "provider": "xclick"
+        },
+        {
+          "bbox": [
+            0.2575,
+            0.446667,
+            0.506875,
+            0.8475
+          ],
+          "occluded": true,
+          "truncated": false,
+          "provider": "xclick"
+        },
+        {
+          "bbox": [
+            0.52875,
+            0.253333,
+            0.804375,
+            0.485833
+          ],
+          "occluded": true,
+          "truncated": false,
+          "provider": "xclick"
+        }
+      ],
+      "lookalikes": [],
+      "reference_review": "Visual audit without model proposals",
+      "split": "openimages-audit"
+    },
+    {
+      "id": "1861c78ee758842d",
+      "title": "Dia 95: Dosis",
+      "author": "Angel Arcones",
+      "group": "openimages-profile:www.flickr.com/people/freddy-click-boy/",
+      "author_profile": "https://www.flickr.com/people/freddy-click-boy/",
+      "source_url": "https://www.flickr.com/photos/freddy-click-boy/3228728013",
+      "original_url": "https://c6.staticflickr.com/4/3256/3228728013_2a218ca1b5_o.jpg",
+      "image_url": "https://open-images-dataset.s3.amazonaws.com/train/1861c78ee758842d.jpg",
+      "license": "https://creativecommons.org/licenses/by/2.0/",
+      "image": "detection_hillclimb/openimages/images/1861c78ee758842d.jpg",
+      "width": 1024,
+      "height": 683,
+      "sha256": "1694382eb381fd6b1e89ee772f1e0b6999641b4ba5c833bc34f3f7072f3a02e9",
+      "dhash": "0f333313131398f9",
+      "objects": [
+        {
+          "bbox": [
+            0.384375,
+            0.657598,
+            0.999375,
+            0.91651
+          ],
+          "occluded": false,
+          "truncated": true,
+          "provider": "xclick"
+        }
+      ],
+      "lookalikes": [],
+      "reference_review": "Visual audit without model proposals",
+      "split": "openimages-fit"
+    },
+    {
+      "id": "d2544bac7b0778ff",
+      "title": "Syringe with Clear Liquid",
+      "author": "Andres Rueda",
+      "group": "openimages-profile:www.flickr.com/people/andresrueda/",
+      "author_profile": "https://www.flickr.com/people/andresrueda/",
+      "source_url": "https://www.flickr.com/photos/andresrueda/16745923795",
+      "original_url": "https://c8.staticflickr.com/8/7591/16745923795_f9ac54740a_o.jpg",
+      "image_url": "https://open-images-dataset.s3.amazonaws.com/train/d2544bac7b0778ff.jpg",
+      "license": "https://creativecommons.org/licenses/by/2.0/",
+      "image": "detection_hillclimb/openimages/images/d2544bac7b0778ff.jpg",
+      "width": 1024,
+      "height": 768,
+      "sha256": "f4e1520597e7767f51feb639cc31f4769f585bc75ed206149032851e561368f1",
+      "dhash": "80c86460b25a2d14",
+      "objects": [
+        {
+          "bbox": [
+            0.14375,
+            0.0275,
+            0.835625,
+            0.999167
+          ],
+          "occluded": false,
+          "truncated": true,
+          "provider": "xclick"
+        }
+      ],
+      "lookalikes": [],
+      "reference_review": "Visual audit without model proposals",
+      "split": "openimages-audit"
+    },
+    {
+      "id": "80a9efaca7fbc8e8",
+      "title": "Revenge",
+      "author": "SamahR",
+      "group": "openimages-profile:www.flickr.com/people/27807834@n02/",
+      "author_profile": "https://www.flickr.com/people/27807834@N02/",
+      "source_url": "https://www.flickr.com/photos/27807834@N02/2652506379",
+      "original_url": "https://c1.staticflickr.com/4/3003/2652506379_602377b323_o.jpg",
+      "image_url": "https://open-images-dataset.s3.amazonaws.com/train/80a9efaca7fbc8e8.jpg",
+      "license": "https://creativecommons.org/licenses/by/2.0/",
+      "image": "detection_hillclimb/openimages/images/80a9efaca7fbc8e8.jpg",
+      "width": 1024,
+      "height": 773,
+      "sha256": "d65b749df213f143d7c16f699cf860bab9081a1eb9c87bb9cb004933eaa81983",
+      "dhash": "0c43163d1a000000",
+      "objects": [
+        {
+          "bbox": [
+            0.547337,
+            0.0,
+            0.99926,
+            0.394711
+          ],
+          "occluded": false,
+          "truncated": true,
+          "provider": "xclick"
+        }
+      ],
+      "lookalikes": [],
+      "reference_review": "Visual audit without model proposals",
+      "split": "openimages-fit"
+    },
+    {
+      "id": "7e26d26f5f55fd6f",
+      "title": "Diabetes",
+      "author": "Jill Brown",
+      "group": "openimages-profile:www.flickr.com/people/jill a brown/",
+      "author_profile": "https://www.flickr.com/people/jill_a_brown/",
+      "source_url": "https://www.flickr.com/photos/jill_a_brown/2629206800",
+      "original_url": "https://c8.staticflickr.com/4/3001/2629206800_45865369ec_o.jpg",
+      "image_url": "https://open-images-dataset.s3.amazonaws.com/train/7e26d26f5f55fd6f.jpg",
+      "license": "https://creativecommons.org/licenses/by/2.0/",
+      "image": "detection_hillclimb/openimages/images/7e26d26f5f55fd6f.jpg",
+      "width": 1024,
+      "height": 1024,
+      "sha256": "a83be70bb7d2253773e1f7bb00575f6ed14843ea86756854d004dd6a89091545",
+      "dhash": "0303013111490133",
+      "objects": [
+        {
+          "bbox": [
+            0.2025,
+            0.126875,
+            0.4,
+            0.999375
+          ],
+          "occluded": false,
+          "truncated": true,
+          "provider": "xclick"
+        }
+      ],
+      "lookalikes": [],
+      "reference_review": "Visual audit without model proposals",
+      "split": "openimages-audit"
+    },
+    {
+      "id": "63a457d450d123ad",
+      "title": "My BioShock pen",
+      "author": "Major Nelson",
+      "group": "openimages-profile:www.flickr.com/people/majornelson/",
+      "author_profile": "https://www.flickr.com/people/majornelson/",
+      "source_url": "https://www.flickr.com/photos/majornelson/1188544475",
+      "original_url": "https://c6.staticflickr.com/2/1112/1188544475_4a4af26690_o.jpg",
+      "image_url": "https://open-images-dataset.s3.amazonaws.com/train/63a457d450d123ad.jpg",
+      "license": "https://creativecommons.org/licenses/by/2.0/",
+      "image": "detection_hillclimb/openimages/images/63a457d450d123ad.jpg",
+      "width": 1024,
+      "height": 768,
+      "sha256": "803d5dfb99abea9c14b1f7a783582fa224ea01d35715df0a920651ad6afec8e9",
+      "dhash": "1f1f0f31c38f3f0f",
+      "objects": [],
+      "lookalikes": [
+        {
+          "kind": "novelty pen shaped like a syringe",
+          "bbox": [
+            0.01375,
+            0.2675,
+            0.985,
+            0.7275
+          ]
+        }
+      ],
+      "reference_review": "Visual audit without model proposals",
+      "split": "openimages-fit"
+    },
+    {
+      "id": "5d123e575e31fa98",
+      "title": "Seringa",
+      "author": "Bruno Caimi",
+      "group": "openimages-profile:www.flickr.com/people/bruno brujah/",
+      "author_profile": "https://www.flickr.com/people/bruno_brujah/",
+      "source_url": "https://www.flickr.com/photos/bruno_brujah/6818146486",
+      "original_url": "https://c1.staticflickr.com/8/7070/6818146486_3b218a8363_o.jpg",
+      "image_url": "https://open-images-dataset.s3.amazonaws.com/train/5d123e575e31fa98.jpg",
+      "license": "https://creativecommons.org/licenses/by/2.0/",
+      "image": "detection_hillclimb/openimages/images/5d123e575e31fa98.jpg",
+      "width": 1024,
+      "height": 679,
+      "sha256": "af5e5b5debdc7cf96c28e7fc7e268d4cfd537e86f5c78202b18b54e44dd23b1b",
+      "dhash": "001b0373da073100",
+      "objects": [
+        {
+          "bbox": [
+            0.288125,
+            0.416981,
+            0.999375,
+            0.677359
+          ],
+          "occluded": false,
+          "truncated": true,
+          "provider": "xclick"
+        }
+      ],
+      "lookalikes": [],
+      "reference_review": "Visual audit without model proposals",
+      "split": "openimages-audit"
+    },
+    {
+      "id": "dc64fc3bbba44127",
+      "title": "Flu Vaccination Grippe",
+      "author": "Daniel Paquet",
+      "group": "openimages-profile:www.flickr.com/people/danielpaquet/",
+      "author_profile": "https://www.flickr.com/people/danielpaquet/",
+      "source_url": "https://www.flickr.com/photos/danielpaquet/5115649509",
+      "original_url": "https://farm8.staticflickr.com/1414/5115649509_1004142d98_o.jpg",
+      "image_url": "https://open-images-dataset.s3.amazonaws.com/train/dc64fc3bbba44127.jpg",
+      "license": "https://creativecommons.org/licenses/by/2.0/",
+      "image": "detection_hillclimb/openimages/images/dc64fc3bbba44127.jpg",
+      "width": 768,
+      "height": 1024,
+      "sha256": "12686380033990377ad46ba85d3c66b50a3f75e86e5b0bc975035eaac63ce245",
+      "dhash": "7f7e89ccd5c36ce4",
+      "objects": [
+        {
+          "bbox": [
+            0.18,
+            0.22125,
+            0.881667,
+            0.754375
+          ],
+          "occluded": true,
+          "truncated": false,
+          "provider": "xclick"
+        },
+        {
+          "bbox": [
+            0.311667,
+            0.436875,
+            0.77,
+            0.845
+          ],
+          "occluded": true,
+          "truncated": false,
+          "provider": "xclick"
+        },
+        {
+          "bbox": [
+            0.355,
+            0.264375,
+            0.999167,
+            0.721875
+          ],
+          "occluded": true,
+          "truncated": true,
+          "provider": "xclick"
+        }
+      ],
+      "lookalikes": [],
+      "reference_review": "Visual audit without model proposals",
+      "split": "openimages-fit"
+    },
+    {
+      "id": "486f23d95bd8459c",
+      "title": "HIV/Aids Test",
+      "author": "Bordecia34",
+      "group": "openimages-profile:www.flickr.com/people/habesha/",
+      "author_profile": "https://www.flickr.com/people/habesha/",
+      "source_url": "https://www.flickr.com/photos/habesha/874416069",
+      "original_url": "https://c5.staticflickr.com/2/1071/874416069_399aa21097_o.jpg",
+      "image_url": "https://open-images-dataset.s3.amazonaws.com/train/486f23d95bd8459c.jpg",
+      "license": "https://creativecommons.org/licenses/by/2.0/",
+      "image": "detection_hillclimb/openimages/images/486f23d95bd8459c.jpg",
+      "width": 1024,
+      "height": 680,
+      "sha256": "9ee875cdb35213ae3f2bee7035678a88b4fe4220e76b699d5aaf61848861d8c9",
+      "dhash": "3342660906161f96",
+      "objects": [],
+      "lookalikes": [
+        {
+          "kind": "vacuum blood tube and holder",
+          "bbox": [
+            0.05875,
+            0.3371,
+            0.4,
+            0.623352
+          ]
+        }
+      ],
+      "reference_review": "Visual audit without model proposals",
+      "split": "openimages-fit"
+    },
+    {
+      "id": "ad461a3dd3c858d9",
+      "title": "Syringe 5 With Drops",
+      "author": "ZaldyImg",
+      "group": "openimages-profile:www.flickr.com/people/8499561@n02/",
+      "author_profile": "https://www.flickr.com/people/8499561@N02/",
+      "source_url": "https://www.flickr.com/photos/8499561@N02/2755481069",
+      "original_url": "https://c2.staticflickr.com/4/3280/2755481069_1c5a62c98f_o.jpg",
+      "image_url": "https://open-images-dataset.s3.amazonaws.com/train/ad461a3dd3c858d9.jpg",
+      "license": "https://creativecommons.org/licenses/by/2.0/",
+      "image": "detection_hillclimb/openimages/images/ad461a3dd3c858d9.jpg",
+      "width": 1024,
+      "height": 768,
+      "sha256": "8723cb72188f61704a7ef9dce943eeb7efeae46c5863d8b0f5b192c23d518f1f",
+      "dhash": "7103131313d2e6cc",
+      "objects": [
+        {
+          "bbox": [
+            0.0,
+            0.2025,
+            0.8825,
+            0.948333
+          ],
+          "occluded": false,
+          "truncated": true,
+          "provider": "xclick"
+        }
+      ],
+      "lookalikes": [],
+      "reference_review": "Visual audit without model proposals",
+      "split": "openimages-fit"
+    },
+    {
+      "id": "c2b3f0c49e0a8af2",
+      "title": "drewzhrodague - 04Oct - I found a syringe in my backyard once",
+      "author": "Drew from Zhrodague",
+      "group": "openimages-profile:www.flickr.com/people/drewzhrodague/",
+      "author_profile": "https://www.flickr.com/people/drewzhrodague/",
+      "source_url": "https://www.flickr.com/photos/drewzhrodague/1240316",
+      "original_url": "https://farm3.staticflickr.com/1/1240316_d83bd95abf_o.jpg",
+      "image_url": "https://open-images-dataset.s3.amazonaws.com/train/c2b3f0c49e0a8af2.jpg",
+      "license": "https://creativecommons.org/licenses/by/2.0/",
+      "image": "detection_hillclimb/openimages/images/c2b3f0c49e0a8af2.jpg",
+      "width": 1024,
+      "height": 768,
+      "sha256": "daf6b0cb7e04c3e1888ce3d870d4ac43efa3251102e9b80f88896aae04e7ec11",
+      "dhash": "0f3f39c70e326723",
+      "objects": [
+        {
+          "bbox": [
+            0.08125,
+            0.35,
+            0.94375,
+            0.814583
+          ],
+          "occluded": false,
+          "truncated": false,
+          "provider": "xclick"
+        }
+      ],
+      "lookalikes": [],
+      "reference_review": "Visual audit without model proposals",
+      "split": "openimages-audit"
+    },
+    {
+      "id": "3a4cf474c5431e86",
+      "title": "IMG_1505",
+      "author": "Kojach",
+      "group": "openimages-profile:www.flickr.com/people/kojach/",
+      "author_profile": "https://www.flickr.com/people/kojach/",
+      "source_url": "https://www.flickr.com/photos/kojach/5190309112",
+      "original_url": "https://farm7.staticflickr.com/1004/5190309112_d4b5180653_o.jpg",
+      "image_url": "https://open-images-dataset.s3.amazonaws.com/train/3a4cf474c5431e86.jpg",
+      "license": "https://creativecommons.org/licenses/by/2.0/",
+      "image": "detection_hillclimb/openimages/images/3a4cf474c5431e86.jpg",
+      "width": 1024,
+      "height": 683,
+      "sha256": "ed537c1cb40dacc7a4a571629b4120c21c05b242c7cc099553f75e5efcee5af8",
+      "dhash": "1d0e76679c91879e",
+      "objects": [
+        {
+          "bbox": [
+            0.348125,
+            0.578799,
+            0.89,
+            0.861163
+          ],
+          "occluded": false,
+          "truncated": false,
+          "provider": "xclick"
+        }
+      ],
+      "lookalikes": [],
+      "reference_review": "Visual audit without model proposals",
+      "split": "openimages-fit"
+    },
+    {
+      "id": "f2f670ac8ca58235",
+      "title": "Insulin Syringe",
+      "author": "Melissa Johnson",
+      "group": "openimages-profile:www.flickr.com/people/ladytaz/",
+      "author_profile": "https://www.flickr.com/people/ladytaz/",
+      "source_url": "https://www.flickr.com/photos/ladytaz/1261174653",
+      "original_url": "https://farm6.staticflickr.com/1008/1261174653_c0e5ee6497_o.jpg",
+      "image_url": "https://open-images-dataset.s3.amazonaws.com/train/f2f670ac8ca58235.jpg",
+      "license": "https://creativecommons.org/licenses/by/2.0/",
+      "image": "detection_hillclimb/openimages/images/f2f670ac8ca58235.jpg",
+      "width": 1024,
+      "height": 768,
+      "sha256": "a2573503753801c08eaa7be9fd007b4da6e82913254ebe6c16579572d82aa532",
+      "dhash": "fdf3e68ebc98f8d1",
+      "objects": [
+        {
+          "bbox": [
+            0.05625,
+            0.071667,
+            0.87625,
+            0.885
+          ],
+          "occluded": false,
+          "truncated": false,
+          "provider": "xclick"
+        }
+      ],
+      "lookalikes": [],
+      "reference_review": "Visual audit without model proposals",
+      "split": "openimages-fit"
+    },
+    {
+      "id": "cc545bc71a3c8629",
+      "title": "Vacinação Contra Gripe",
+      "author": "Fotos GOVBA",
+      "group": "openimages-profile:www.flickr.com/people/agecombahia/",
+      "author_profile": "https://www.flickr.com/people/agecombahia/",
+      "source_url": "https://www.flickr.com/photos/agecombahia/5654058121",
+      "original_url": "https://c2.staticflickr.com/6/5266/5654058121_c2fbe291db_o.jpg",
+      "image_url": "https://open-images-dataset.s3.amazonaws.com/train/cc545bc71a3c8629.jpg",
+      "license": "https://creativecommons.org/licenses/by/2.0/",
+      "image": "detection_hillclimb/openimages/images/cc545bc71a3c8629.jpg",
+      "width": 1024,
+      "height": 683,
+      "sha256": "38d1a660a33aca807f9db5644127216f79e051d0dce1a8d1021e38551be4b97b",
+      "dhash": "3636273735581919",
+      "objects": [
+        {
+          "bbox": [
+            0.4575,
+            0.429644,
+            0.62,
+            0.717636
+          ],
+          "occluded": true,
+          "truncated": false,
+          "provider": "xclick"
+        }
+      ],
+      "lookalikes": [],
+      "reference_review": "Visual audit without model proposals",
+      "split": "openimages-fit"
+    },
+    {
+      "id": "55bc93f3d3f21ef0",
+      "title": "DNA lab",
+      "author": "University of Michigan School of Natural Resources &amp; Environment",
+      "group": "openimages-profile:www.flickr.com/people/snre/",
+      "author_profile": "https://www.flickr.com/people/snre/",
+      "source_url": "https://www.flickr.com/photos/snre/6946913275",
+      "original_url": "https://farm1.staticflickr.com/7069/6946913275_f16d605316_o.jpg",
+      "image_url": "https://open-images-dataset.s3.amazonaws.com/train/55bc93f3d3f21ef0.jpg",
+      "license": "https://creativecommons.org/licenses/by/2.0/",
+      "image": "detection_hillclimb/openimages/images/55bc93f3d3f21ef0.jpg",
+      "width": 1024,
+      "height": 680,
+      "sha256": "2831938b0f94410294b989256466efe72d3bd51bf93fa9e375b3af2b410ed106",
+      "dhash": "40a02ce5a94983c7",
+      "objects": [],
+      "lookalikes": [
+        {
+          "kind": "laboratory pipette",
+          "bbox": [
+            0.50625,
+            0.0,
+            0.72125,
+            0.489642
+          ]
+        }
+      ],
+      "reference_review": "Visual audit without model proposals",
+      "split": "openimages-audit"
+    },
+    {
+      "id": "a9db50fc8a63a04a",
+      "title": "Hypodermic Needle Injection Hand IMG_7420",
+      "author": "Steven Depolo",
+      "group": "openimages-profile:www.flickr.com/people/stevendepolo/",
+      "author_profile": "https://www.flickr.com/people/stevendepolo/",
+      "source_url": "https://www.flickr.com/photos/stevendepolo/3021193208",
+      "original_url": "https://c3.staticflickr.com/4/3242/3021193208_d6558ffd30_o.jpg",
+      "image_url": "https://open-images-dataset.s3.amazonaws.com/train/a9db50fc8a63a04a.jpg",
+      "license": "https://creativecommons.org/licenses/by/2.0/",
+      "image": "detection_hillclimb/openimages/images/a9db50fc8a63a04a.jpg",
+      "width": 1024,
+      "height": 683,
+      "sha256": "d0ba4763d07da18ba0fdadb6c209da0a63d4aad03b04df92e13a7728c5132585",
+      "dhash": "372743514c495346",
+      "objects": [
+        {
+          "bbox": [
+            0.429688,
+            0.316159,
+            0.571875,
+            0.997658
+          ],
+          "occluded": false,
+          "truncated": true,
+          "provider": "xclick"
+        }
+      ],
+      "lookalikes": [],
+      "reference_review": "Visual audit without model proposals",
+      "split": "openimages-fit"
+    },
+    {
+      "id": "95c67bb630dfbeac",
+      "title": "Baby needs medicine",
+      "author": "BookMama",
+      "group": "openimages-profile:www.flickr.com/people/myloonyland/",
+      "author_profile": "https://www.flickr.com/people/myloonyland/",
+      "source_url": "https://www.flickr.com/photos/myloonyland/430354111",
+      "original_url": "https://c5.staticflickr.com/1/184/430354111_e46befec19_o.jpg",
+      "image_url": "https://open-images-dataset.s3.amazonaws.com/train/95c67bb630dfbeac.jpg",
+      "license": "https://creativecommons.org/licenses/by/2.0/",
+      "image": "detection_hillclimb/openimages/images/95c67bb630dfbeac.jpg",
+      "width": 1024,
+      "height": 682,
+      "sha256": "44277957f0a72167fd736c99c1523ed1967551a365e3ba2a2773fcfffaf9d32d",
+      "dhash": "ffffffafe7270f0f",
+      "objects": [
+        {
+          "bbox": [
+            0.0,
+            0.391559,
+            0.676562,
+            0.62837
+          ],
+          "occluded": false,
+          "truncated": true,
+          "provider": "xclick"
+        }
+      ],
+      "lookalikes": [],
+      "reference_review": "Visual audit without model proposals",
+      "split": "openimages-fit"
+    },
+    {
+      "id": "acf0c516bb829a9d",
+      "title": "Flu Vaccination Grippe",
+      "author": "Daniel Paquet",
+      "group": "openimages-profile:www.flickr.com/people/danielpaquet/",
+      "author_profile": "https://www.flickr.com/people/danielpaquet/",
+      "source_url": "https://www.flickr.com/photos/danielpaquet/5116262408",
+      "original_url": "https://c6.staticflickr.com/2/1143/5116262408_7ace608445_o.jpg",
+      "image_url": "https://open-images-dataset.s3.amazonaws.com/train/acf0c516bb829a9d.jpg",
+      "license": "https://creativecommons.org/licenses/by/2.0/",
+      "image": "detection_hillclimb/openimages/images/acf0c516bb829a9d.jpg",
+      "width": 683,
+      "height": 1024,
+      "sha256": "dcbfe9f81c72fc07ea22d29ec0e4cba9245622e04937ef5ecc29d67e642718e0",
+      "dhash": "1fb0b87dfacdeff3",
+      "objects": [
+        {
+          "bbox": [
+            0.465291,
+            0.284375,
+            0.716698,
+            0.735625
+          ],
+          "occluded": true,
+          "truncated": false,
+          "provider": "xclick"
+        }
+      ],
+      "lookalikes": [],
+      "reference_review": "Visual audit without model proposals",
+      "split": "openimages-fit"
+    },
+    {
+      "id": "e8651a3ebd48ea2e",
+      "title": "Syringe 4 With Drops",
+      "author": "ZaldyImg",
+      "group": "openimages-profile:www.flickr.com/people/8499561@n02/",
+      "author_profile": "https://www.flickr.com/people/8499561@N02/",
+      "source_url": "https://www.flickr.com/photos/8499561@N02/2755486071",
+      "original_url": "https://c7.staticflickr.com/4/3293/2755486071_7c387fa774_o.jpg",
+      "image_url": "https://open-images-dataset.s3.amazonaws.com/train/e8651a3ebd48ea2e.jpg",
+      "license": "https://creativecommons.org/licenses/by/2.0/",
+      "image": "detection_hillclimb/openimages/images/e8651a3ebd48ea2e.jpg",
+      "width": 1024,
+      "height": 768,
+      "sha256": "23b7fd2ac33101b8ecebda3fba7320f2a5587668954eabcc7deae3b3d12bf105",
+      "dhash": "c107233261050155",
+      "objects": [
+        {
+          "bbox": [
+            0.33125,
+            0.353333,
+            0.999375,
+            0.985833
+          ],
+          "occluded": false,
+          "truncated": true,
+          "provider": "xclick"
+        }
+      ],
+      "lookalikes": [],
+      "reference_review": "Visual audit without model proposals",
+      "split": "openimages-fit"
+    },
+    {
+      "id": "ef37bcd070fd645f",
+      "title": "Syringe 1 With Drops",
+      "author": "ZaldyImg",
+      "group": "openimages-profile:www.flickr.com/people/8499561@n02/",
+      "author_profile": "https://www.flickr.com/people/8499561@N02/",
+      "source_url": "https://www.flickr.com/photos/8499561@N02/2755504975",
+      "original_url": "https://c8.staticflickr.com/4/3142/2755504975_1445916fef_o.jpg",
+      "image_url": "https://open-images-dataset.s3.amazonaws.com/train/ef37bcd070fd645f.jpg",
+      "license": "https://creativecommons.org/licenses/by/2.0/",
+      "image": "detection_hillclimb/openimages/images/ef37bcd070fd645f.jpg",
+      "width": 1024,
+      "height": 768,
+      "sha256": "495cb117b8f20f8382c7bb3c54cebf64b384885ce743808cd3958445f99d2812",
+      "dhash": "1f3f80841b123636",
+      "objects": [
+        {
+          "bbox": [
+            0.319375,
+            0.2825,
+            0.995,
+            0.999167
+          ],
+          "occluded": false,
+          "truncated": true,
+          "provider": "xclick"
+        }
+      ],
+      "lookalikes": [],
+      "reference_review": "Visual audit without model proposals",
+      "split": "openimages-fit"
+    },
+    {
+      "id": "5e7343835f0ccff7",
+      "title": "Syringe and vaccine",
+      "author": "PATH global health",
+      "group": "openimages-profile:www.flickr.com/people/pathphotos/",
+      "author_profile": "https://www.flickr.com/people/pathphotos/",
+      "source_url": "https://www.flickr.com/photos/pathphotos/5225166724",
+      "original_url": "https://farm8.staticflickr.com/5281/5225166724_31d00a86d6_o.jpg",
+      "image_url": "https://open-images-dataset.s3.amazonaws.com/train/5e7343835f0ccff7.jpg",
+      "license": "https://creativecommons.org/licenses/by/2.0/",
+      "image": "detection_hillclimb/openimages/images/5e7343835f0ccff7.jpg",
+      "width": 1024,
+      "height": 681,
+      "sha256": "2407499e8b948eefa5e01dd778aee118fc7e62d614362901fc3fbf9d61e8f06d",
+      "dhash": "1d9b99e434746838",
+      "objects": [
+        {
+          "bbox": [
+            0.495625,
+            0.453947,
+            0.63375,
+            0.788534
+          ],
+          "occluded": true,
+          "truncated": false,
+          "provider": "xclick"
+        }
+      ],
+      "lookalikes": [],
+      "reference_review": "Visual audit without model proposals",
+      "split": "openimages-fit"
+    },
+    {
+      "id": "4cb439be6f4087b7",
+      "title": "Flu Vaccination Grippe",
+      "author": "Daniel Paquet",
+      "group": "openimages-profile:www.flickr.com/people/danielpaquet/",
+      "author_profile": "https://www.flickr.com/people/danielpaquet/",
+      "source_url": "https://www.flickr.com/photos/danielpaquet/5115654021",
+      "original_url": "https://farm8.staticflickr.com/1426/5115654021_89dc6b21f4_o.jpg",
+      "image_url": "https://open-images-dataset.s3.amazonaws.com/train/4cb439be6f4087b7.jpg",
+      "license": "https://creativecommons.org/licenses/by/2.0/",
+      "image": "detection_hillclimb/openimages/images/4cb439be6f4087b7.jpg",
+      "width": 1024,
+      "height": 768,
+      "sha256": "6f42ada61a2e957dd715bce4dfb3a7cac8aa7807b26dbe883e077d638092b0c4",
+      "dhash": "87c94f3f368ec7cb",
+      "objects": [
+        {
+          "bbox": [
+            0.034375,
+            0.379167,
+            0.935625,
+            0.615
+          ],
+          "occluded": true,
+          "truncated": false,
+          "provider": "xclick"
+        }
+      ],
+      "lookalikes": [],
+      "reference_review": "Visual audit without model proposals",
+      "split": "openimages-fit"
+    },
+    {
+      "id": "400af6371020af5f",
+      "title": "100121-F-4485H-008",
+      "author": "Offutt Air Force Base",
+      "group": "openimages-profile:www.flickr.com/people/offutt afb/",
+      "author_profile": "https://www.flickr.com/people/offutt_afb/",
+      "source_url": "https://www.flickr.com/photos/offutt_afb/5613285865",
+      "original_url": "https://c8.staticflickr.com/6/5269/5613285865_139d924972_o.jpg",
+      "image_url": "https://open-images-dataset.s3.amazonaws.com/train/400af6371020af5f.jpg",
+      "license": "https://creativecommons.org/licenses/by/2.0/",
+      "image": "detection_hillclimb/openimages/images/400af6371020af5f.jpg",
+      "width": 1024,
+      "height": 683,
+      "sha256": "2b65622fcd1dbceab898bb0d7e9f4c06aa48c7532e8fba4b302422a575137c5b",
+      "dhash": "60e0e86224b2b2e4",
+      "objects": [
+        {
+          "bbox": [
+            0.361111,
+            0.325,
+            0.82,
+            0.688333
+          ],
+          "occluded": true,
+          "truncated": false,
+          "provider": "xclick"
+        }
+      ],
+      "lookalikes": [],
+      "reference_review": "Visual audit without model proposals",
+      "split": "openimages-audit"
+    },
+    {
+      "id": "962072942e0b6577",
+      "title": "Super-hydrophobic paint",
+      "author": "UCL Mathematical and Physical Sciences",
+      "group": "openimages-profile:www.flickr.com/people/uclmaps/",
+      "author_profile": "https://www.flickr.com/people/uclmaps/",
+      "source_url": "https://www.flickr.com/photos/uclmaps/16140757024",
+      "original_url": "https://farm8.staticflickr.com/8616/16140757024_6ec7170b26_o.jpg",
+      "image_url": "https://open-images-dataset.s3.amazonaws.com/train/962072942e0b6577.jpg",
+      "license": "https://creativecommons.org/licenses/by/2.0/",
+      "image": "detection_hillclimb/openimages/images/962072942e0b6577.jpg",
+      "width": 815,
+      "height": 1024,
+      "sha256": "b4baec6e11d763eabbf7d0406ff0915db0c0573e275c4ca4e352ae62a70341d1",
+      "dhash": "eee6e12733462c9b",
+      "objects": [
+        {
+          "bbox": [
+            0.339623,
+            0.288125,
+            0.531447,
+            0.65875
+          ],
+          "occluded": true,
+          "truncated": false,
+          "provider": "xclick"
+        }
+      ],
+      "lookalikes": [],
+      "reference_review": "Visual audit without model proposals",
+      "split": "openimages-fit"
+    },
+    {
+      "id": "6b8f6b04c856313c",
+      "title": "I told you so.",
+      "author": "electrictuesday",
+      "group": "openimages-profile:www.flickr.com/people/discodoll/",
+      "author_profile": "https://www.flickr.com/people/discodoll/",
+      "source_url": "https://www.flickr.com/photos/discodoll/4262116644",
+      "original_url": "https://c5.staticflickr.com/5/4044/4262116644_c7c1afbab3_o.jpg",
+      "image_url": "https://open-images-dataset.s3.amazonaws.com/train/6b8f6b04c856313c.jpg",
+      "license": "https://creativecommons.org/licenses/by/2.0/",
+      "image": "detection_hillclimb/openimages/images/6b8f6b04c856313c.jpg",
+      "width": 1024,
+      "height": 687,
+      "sha256": "7da022400997b8fff794b0d44642e6e07f0df0ba11b089dd9f0fee595a681fa9",
+      "dhash": "9f9f9b0121270f1f",
+      "objects": [
+        {
+          "bbox": [
+            0.17875,
+            0.345438,
+            0.868125,
+            0.614525
+          ],
+          "occluded": false,
+          "truncated": false,
+          "provider": "xclick"
+        }
+      ],
+      "lookalikes": [],
+      "reference_review": "Visual audit without model proposals",
+      "split": "openimages-fit"
+    },
+    {
+      "id": "7a0474694d905f9a",
+      "title": "Neurorabbids 20",
+      "author": "Sébastien  Desbenoit",
+      "group": "openimages-profile:www.flickr.com/people/desbenoit/",
+      "author_profile": "https://www.flickr.com/people/desbenoit/",
+      "source_url": "https://www.flickr.com/photos/desbenoit/5471249695",
+      "original_url": "https://c3.staticflickr.com/6/5059/5471249695_643323c878_o.jpg",
+      "image_url": "https://open-images-dataset.s3.amazonaws.com/train/7a0474694d905f9a.jpg",
+      "license": "https://creativecommons.org/licenses/by/2.0/",
+      "image": "detection_hillclimb/openimages/images/7a0474694d905f9a.jpg",
+      "width": 765,
+      "height": 1024,
+      "sha256": "1833e6c847fdce5015b94ef80f5a875d8f773ee2a20ee9d9589fdf806a79410a",
+      "dhash": "f4b2626262606040",
+      "objects": [
+        {
+          "bbox": [
+            0.211896,
+            0.065278,
+            0.652416,
+            0.998611
+          ],
+          "occluded": false,
+          "truncated": true,
+          "provider": "xclick"
+        }
+      ],
+      "lookalikes": [],
+      "reference_review": "Visual audit without model proposals",
+      "split": "openimages-fit"
+    },
+    {
+      "id": "90a98e099cd1c6f6",
+      "title": "you shouldn't feel this!",
+      "author": "sammydavisdog",
+      "group": "openimages-profile:www.flickr.com/people/25559122@n06/",
+      "author_profile": "https://www.flickr.com/people/25559122@N06/",
+      "source_url": "https://www.flickr.com/photos/25559122@N06/3004031142/",
+      "original_url": "https://farm7.staticflickr.com/3196/3004031142_b26172ded3_o.jpg",
+      "image_url": "https://open-images-dataset.s3.amazonaws.com/train/90a98e099cd1c6f6.jpg",
+      "license": "https://creativecommons.org/licenses/by/2.0/",
+      "image": "detection_hillclimb/openimages/images/90a98e099cd1c6f6.jpg",
+      "width": 680,
+      "height": 1024,
+      "sha256": "a937fd544a33ec8f7da9a6e4aab51b225e5a737690e82787b4348f39bc88a436",
+      "dhash": "efcf9c1d9e963258",
+      "objects": [
+        {
+          "bbox": [
+            0.017204,
+            0.028571,
+            0.51828,
+            0.925714
+          ],
+          "occluded": true,
+          "truncated": false,
+          "provider": "xclick"
+        }
+      ],
+      "lookalikes": [],
+      "reference_review": "Visual audit without model proposals",
+      "split": "openimages-fit"
+    },
+    {
+      "id": "a929372e95964a4f",
+      "title": "Neurorabbids 18",
+      "author": "Sébastien  Desbenoit",
+      "group": "openimages-profile:www.flickr.com/people/desbenoit/",
+      "author_profile": "https://www.flickr.com/people/desbenoit/",
+      "source_url": "https://www.flickr.com/photos/desbenoit/5471249485",
+      "original_url": "https://c8.staticflickr.com/6/5171/5471249485_fc14a63628_o.jpg",
+      "image_url": "https://open-images-dataset.s3.amazonaws.com/train/a929372e95964a4f.jpg",
+      "license": "https://creativecommons.org/licenses/by/2.0/",
+      "image": "detection_hillclimb/openimages/images/a929372e95964a4f.jpg",
+      "width": 1024,
+      "height": 765,
+      "sha256": "1807bda38c55e80fdab918415267550b2692eb9fce9da36dcff9818d66158520",
+      "dhash": "484c9a3c38303498",
+      "objects": [
+        {
+          "bbox": [
+            0.0,
+            0.0,
+            0.530556,
+            0.630112
+          ],
+          "occluded": true,
+          "truncated": true,
+          "provider": "xclick"
+        }
+      ],
+      "lookalikes": [],
+      "reference_review": "Visual audit without model proposals",
+      "split": "openimages-fit"
+    },
+    {
+      "id": "02fce391c03c8c47",
+      "title": "Self-adjustable eyeglasses",
+      "author": "Nadya Peek",
+      "group": "openimages-profile:www.flickr.com/people/nadya/",
+      "author_profile": "https://www.flickr.com/people/nadya/",
+      "source_url": "https://www.flickr.com/photos/nadya/4387139341",
+      "original_url": "https://farm8.staticflickr.com/2791/4387139341_d0e882de69_o.jpg",
+      "image_url": "https://open-images-dataset.s3.amazonaws.com/train/02fce391c03c8c47.jpg",
+      "license": "https://creativecommons.org/licenses/by/2.0/",
+      "image": "detection_hillclimb/openimages/images/02fce391c03c8c47.jpg",
+      "width": 1024,
+      "height": 768,
+      "sha256": "0b3bb656eb501e213ee8420b4a3fbc406d7d3685db2ee015dc6d2ce9d05ecdca",
+      "dhash": "cbc39303c1810389",
+      "objects": [
+        {
+          "bbox": [
+            0.620625,
+            0.209167,
+            0.850625,
+            0.999167
+          ],
+          "occluded": true,
+          "truncated": true,
+          "provider": "xclick"
+        }
+      ],
+      "lookalikes": [],
+      "reference_review": "Visual audit without model proposals",
+      "split": "openimages-fit"
+    },
+    {
+      "id": "a561e1a203e1ab11",
+      "title": "ph_so_6_Retiree",
+      "author": "Fort George G. Meade Public Affairs Office",
+      "group": "openimages-profile:www.flickr.com/people/ftmeade/",
+      "author_profile": "https://www.flickr.com/people/ftmeade/",
+      "source_url": "https://www.flickr.com/photos/ftmeade/15242740638",
+      "original_url": "https://farm2.staticflickr.com/5599/15242740638_48704e9cc9_o.jpg",
+      "image_url": "https://open-images-dataset.s3.amazonaws.com/train/a561e1a203e1ab11.jpg",
+      "license": "https://creativecommons.org/licenses/by/2.0/",
+      "image": "detection_hillclimb/openimages/images/a561e1a203e1ab11.jpg",
+      "width": 1024,
+      "height": 683,
+      "sha256": "504aebe2f34fd9c3af4f6c95ec708964ec87d4e2ed6f9aaa06fbbe40eb5857e8",
+      "dhash": "1b0ec66733233434",
+      "objects": [
+        {
+          "bbox": [
+            0.20625,
+            0.380863,
+            0.604375,
+            0.650094
+          ],
+          "occluded": true,
+          "truncated": false,
+          "provider": "xclick"
+        }
+      ],
+      "lookalikes": [],
+      "reference_review": "Visual audit without model proposals",
+      "split": "openimages-fit"
+    },
+    {
+      "id": "78442109a927a8fd",
+      "title": "Lähiympäristön siivoustalkoot",
+      "author": "Niko Lipsanen",
+      "group": "openimages-profile:www.flickr.com/people/nlipsane/",
+      "author_profile": "https://www.flickr.com/people/nlipsane/",
+      "source_url": "https://www.flickr.com/photos/nlipsane/5734364975",
+      "original_url": "https://c6.staticflickr.com/6/5265/5734364975_32cd80d4c0_o.jpg",
+      "image_url": "https://open-images-dataset.s3.amazonaws.com/train/78442109a927a8fd.jpg",
+      "license": "https://creativecommons.org/licenses/by/2.0/",
+      "image": "detection_hillclimb/openimages/images/78442109a927a8fd.jpg",
+      "width": 1024,
+      "height": 768,
+      "sha256": "fd783c5f5e1c793eeda1cbc93e8e3e2f83d606068819dab58702506f0e9a2d39",
+      "dhash": "9b1d15190c0c963a",
+      "objects": [
+        {
+          "bbox": [
+            0.2175,
+            0.67,
+            0.41375,
+            0.999167
+          ],
+          "occluded": false,
+          "truncated": true,
+          "provider": "xclick"
+        },
+        {
+          "bbox": [
+            0.2975,
+            0.0275,
+            0.964375,
+            0.4575
+          ],
+          "occluded": false,
+          "truncated": false,
+          "provider": "xclick"
+        },
+        {
+          "bbox": [
+            0.350625,
+            0.279167,
+            0.764375,
+            0.971667
+          ],
+          "occluded": false,
+          "truncated": false,
+          "provider": "xclick"
+        }
+      ],
+      "lookalikes": [],
+      "reference_review": "Visual audit without model proposals",
+      "split": "openimages-fit"
+    },
+    {
+      "id": "fb14424e93fbad4e",
+      "title": "Ouch! That Hurt",
+      "author": "West Point - The U.S. Military Academy",
+      "group": "openimages-profile:www.flickr.com/people/west point/",
+      "author_profile": "https://www.flickr.com/people/west_point/",
+      "source_url": "https://www.flickr.com/photos/west_point/3673292970",
+      "original_url": "https://c7.staticflickr.com/4/3552/3673292970_003f8d4faf_o.jpg",
+      "image_url": "https://open-images-dataset.s3.amazonaws.com/train/fb14424e93fbad4e.jpg",
+      "license": "https://creativecommons.org/licenses/by/2.0/",
+      "image": "detection_hillclimb/openimages/images/fb14424e93fbad4e.jpg",
+      "width": 1024,
+      "height": 683,
+      "sha256": "0dfd04cacc602394803f25e172a0f0d86f1759b6748f4e7e1608fc9076d47737",
+      "dhash": "2cadb7b7b9b193d3",
+      "objects": [
+        {
+          "bbox": [
+            0.46625,
+            0.057223,
+            0.999375,
+            0.438086
+          ],
+          "occluded": true,
+          "truncated": true,
+          "provider": "xclick"
+        }
+      ],
+      "lookalikes": [],
+      "reference_review": "Visual audit without model proposals",
+      "split": "openimages-fit"
+    },
+    {
+      "id": "6a69c05fe78341ea",
+      "title": "no drugs",
+      "author": "Anderson Mancini",
+      "group": "openimages-profile:www.flickr.com/people/ektogamat/",
+      "author_profile": "https://www.flickr.com/people/ektogamat/",
+      "source_url": "https://www.flickr.com/photos/ektogamat/2629835474",
+      "original_url": "https://c3.staticflickr.com/4/3255/2629835474_d0f07f25f4_o.jpg",
+      "image_url": "https://open-images-dataset.s3.amazonaws.com/train/6a69c05fe78341ea.jpg",
+      "license": "https://creativecommons.org/licenses/by/2.0/",
+      "image": "detection_hillclimb/openimages/images/6a69c05fe78341ea.jpg",
+      "width": 1024,
+      "height": 837,
+      "sha256": "9b079b3ca3a8bedaa0f7f2c3d005cf4f6d08810da18a1b244f418594380b207a",
+      "dhash": "0f1f0e1626152347",
+      "objects": [
+        {
+          "bbox": [
+            0.067505,
+            0.22753,
+            0.772998,
+            0.931174
+          ],
+          "occluded": false,
+          "truncated": false,
+          "provider": "xclick"
+        }
+      ],
+      "lookalikes": [],
+      "reference_review": "Visual audit without model proposals",
+      "split": "openimages-audit"
+    },
+    {
+      "id": "35aa4fff107f6fe6",
+      "title": "Empty vial",
+      "author": "Wheeler Cowperthwaite",
+      "group": "openimages-profile:www.flickr.com/people/wcowperthwaite/",
+      "author_profile": "https://www.flickr.com/people/wcowperthwaite/",
+      "source_url": "https://www.flickr.com/photos/wcowperthwaite/5774698738",
+      "original_url": "https://farm7.staticflickr.com/3146/5774698738_00ee7a8612_o.jpg",
+      "image_url": "https://open-images-dataset.s3.amazonaws.com/train/35aa4fff107f6fe6.jpg",
+      "license": "https://creativecommons.org/licenses/by/2.0/",
+      "image": "detection_hillclimb/openimages/images/35aa4fff107f6fe6.jpg",
+      "width": 1024,
+      "height": 683,
+      "sha256": "731eea6c6b8d835e347edfaf06c736c346d9219d8bfc556db91c81ba7baf5c2d",
+      "dhash": "879dbd3c0f231d1f",
+      "objects": [],
+      "lookalikes": [
+        {
+          "kind": "vacuum blood tube and holder",
+          "bbox": [
+            0.17125,
+            0.249531,
+            0.439375,
+            0.630394
+          ]
+        }
+      ],
+      "reference_review": "Visual audit without model proposals",
+      "split": "openimages-fit"
+    },
+    {
+      "id": "979ea76acd05bffe",
+      "title": "Hypodermic Needle Stomach Injection 3-1-08 8278",
+      "author": "Steven Depolo",
+      "group": "openimages-profile:www.flickr.com/people/stevendepolo/",
+      "author_profile": "https://www.flickr.com/people/stevendepolo/",
+      "source_url": "https://www.flickr.com/photos/stevendepolo/3014277435",
+      "original_url": "https://c7.staticflickr.com/4/3245/3014277435_ae0def725e_o.jpg",
+      "image_url": "https://open-images-dataset.s3.amazonaws.com/train/979ea76acd05bffe.jpg",
+      "license": "https://creativecommons.org/licenses/by/2.0/",
+      "image": "detection_hillclimb/openimages/images/979ea76acd05bffe.jpg",
+      "width": 1024,
+      "height": 682,
+      "sha256": "b503f8a5f2955a4f315564115daff98c7d1b92ee7cf31e659c73319394da971c",
+      "dhash": "83c365c46249cbcc",
+      "objects": [
+        {
+          "bbox": [
+            0.145,
+            0.052533,
+            0.66625,
+            0.56848
+          ],
+          "occluded": true,
+          "truncated": false,
+          "provider": "xclick"
+        }
+      ],
+      "lookalikes": [],
+      "reference_review": "Visual audit without model proposals",
+      "split": "openimages-fit"
+    },
+    {
+      "id": "152a40d2f486d717",
+      "title": "vacuna",
+      "author": "Tina Franklin",
+      "group": "openimages-profile:www.flickr.com/people/97481684@n08/",
+      "author_profile": "https://www.flickr.com/people/97481684@N08/",
+      "source_url": "https://www.flickr.com/photos/97481684@N08/12291681146",
+      "original_url": "https://farm8.staticflickr.com/7437/12291681146_4f6ea275d1_o.jpg",
+      "image_url": "https://open-images-dataset.s3.amazonaws.com/train/152a40d2f486d717.jpg",
+      "license": "https://creativecommons.org/licenses/by/2.0/",
+      "image": "detection_hillclimb/openimages/images/152a40d2f486d717.jpg",
+      "width": 1024,
+      "height": 701,
+      "sha256": "6e42336e295f0f78acb0b7b078bbe9366e2c0e92edbd12003cfa27d290f1e1b4",
+      "dhash": "bd3a9c9dddbd9d9c",
+      "objects": [
+        {
+          "bbox": [
+            0.091,
+            0.29927,
+            0.436,
+            0.408759
+          ],
+          "occluded": true,
+          "truncated": false,
+          "provider": "xclick"
+        }
+      ],
+      "lookalikes": [],
+      "reference_review": "Visual audit without model proposals",
+      "split": "openimages-fit"
+    },
+    {
+      "id": "71a7abecc54fb02f",
+      "title": "The needle",
+      "author": "Partha S. Sahana",
+      "group": "openimages-profile:www.flickr.com/people/ps sahana/",
+      "author_profile": "https://www.flickr.com/people/ps_sahana/",
+      "source_url": "https://www.flickr.com/photos/124018523@N04/14194682140",
+      "original_url": "https://c8.staticflickr.com/6/5159/14194682140_3df99e10f4_o.jpg",
+      "image_url": "https://open-images-dataset.s3.amazonaws.com/train/71a7abecc54fb02f.jpg",
+      "license": "https://creativecommons.org/licenses/by/2.0/",
+      "image": "detection_hillclimb/openimages/images/71a7abecc54fb02f.jpg",
+      "width": 1024,
+      "height": 768,
+      "sha256": "0a01dcaa26c8bc96d8d3e9d2c9f2e589ad303fbf49f285a2dbbd6d2a2a466229",
+      "dhash": "c3c2c3c66e628008",
+      "objects": [
+        {
+          "bbox": [
+            0.27375,
+            0.319167,
+            0.974375,
+            0.688333
+          ],
+          "occluded": false,
+          "truncated": false,
+          "provider": "xclick"
+        }
+      ],
+      "lookalikes": [],
+      "reference_review": "Visual audit without model proposals",
+      "split": "openimages-fit"
+    },
+    {
+      "id": "28b0af2e39ad119f",
+      "title": "Salimuot ng Katotohanan.",
+      "author": "Suplado Kontrabida",
+      "group": "openimages-profile:www.flickr.com/people/supladotkontrabida/",
+      "author_profile": "https://www.flickr.com/people/supladotkontrabida/",
+      "source_url": "https://www.flickr.com/photos/supladotkontrabida/6030572269",
+      "original_url": "https://c8.staticflickr.com/7/6085/6030572269_08a18e979d_o.jpg",
+      "image_url": "https://open-images-dataset.s3.amazonaws.com/train/28b0af2e39ad119f.jpg",
+      "license": "https://creativecommons.org/licenses/by/2.0/",
+      "image": "detection_hillclimb/openimages/images/28b0af2e39ad119f.jpg",
+      "width": 1024,
+      "height": 685,
+      "sha256": "9b785640aec25e78d79b0dd924549b31926da986f472269ff3360639659572ec",
+      "dhash": "1f93adc9991d3323",
+      "objects": [
+        {
+          "bbox": [
+            0.440625,
+            0.413632,
+            0.565625,
+            0.861811
+          ],
+          "occluded": false,
+          "truncated": false,
+          "provider": "xclick"
+        }
+      ],
+      "lookalikes": [],
+      "reference_review": "Visual audit without model proposals",
+      "split": "openimages-fit"
+    },
+    {
+      "id": "a6b3ab40356b6e27",
+      "title": "IMG_7423",
+      "author": "Steven Depolo",
+      "group": "openimages-profile:www.flickr.com/people/stevendepolo/",
+      "author_profile": "https://www.flickr.com/people/stevendepolo/",
+      "source_url": "https://www.flickr.com/photos/stevendepolo/3020361229",
+      "original_url": "https://farm8.staticflickr.com/3153/3020361229_7f36ae823f_o.jpg",
+      "image_url": "https://open-images-dataset.s3.amazonaws.com/train/a6b3ab40356b6e27.jpg",
+      "license": "https://creativecommons.org/licenses/by/2.0/",
+      "image": "detection_hillclimb/openimages/images/a6b3ab40356b6e27.jpg",
+      "width": 1024,
+      "height": 683,
+      "sha256": "2e07ec78341ffbe9c7984536d93ff81f02e97c1c8637957db84e2c07b03f1190",
+      "dhash": "5f5b5fff3636b2b3",
+      "objects": [
+        {
+          "bbox": [
+            0.33125,
+            0.262295,
+            0.660937,
+            0.669789
+          ],
+          "occluded": true,
+          "truncated": false,
+          "provider": "xclick"
+        }
+      ],
+      "lookalikes": [],
+      "reference_review": "Visual audit without model proposals",
+      "split": "openimages-fit"
+    },
+    {
+      "id": "e0b2675607efe021",
+      "title": "Life Size Lego Syringe - Blood - Trans Red",
+      "author": "Sean Michael Ragan",
+      "group": "openimages-profile:www.flickr.com/people/seanmichaelragan/",
+      "author_profile": "https://www.flickr.com/people/seanmichaelragan/",
+      "source_url": "https://www.flickr.com/photos/seanmichaelragan/5224385684",
+      "original_url": "https://farm2.staticflickr.com/5205/5224385684_abbf8b6050_o.jpg",
+      "image_url": "https://open-images-dataset.s3.amazonaws.com/train/e0b2675607efe021.jpg",
+      "license": "https://creativecommons.org/licenses/by/2.0/",
+      "image": "detection_hillclimb/openimages/images/e0b2675607efe021.jpg",
+      "width": 1024,
+      "height": 768,
+      "sha256": "554b934446d12cf27477eb37ca2b66089b70349286c438afc6d24720054209f3",
+      "dhash": "0a360cb1b2640020",
+      "objects": [],
+      "lookalikes": [
+        {
+          "kind": "syringe-shaped construction toy",
+          "bbox": [
+            0.086875,
+            0.0575,
+            0.92875,
+            0.86
+          ]
+        }
+      ],
+      "reference_review": "Visual audit without model proposals",
+      "split": "openimages-fit"
+    },
+    {
+      "id": "a93917dd57d2b624",
+      "title": "Tetanus...",
+      "author": "peter boer",
+      "group": "openimages-profile:www.flickr.com/people/minuseleven/",
+      "author_profile": "https://www.flickr.com/people/minuseleven/",
+      "source_url": "https://www.flickr.com/photos/minuseleven/15727685626",
+      "original_url": "https://farm5.staticflickr.com/7502/15727685626_981dc36b37_o.jpg",
+      "image_url": "https://open-images-dataset.s3.amazonaws.com/train/a93917dd57d2b624.jpg",
+      "license": "https://creativecommons.org/licenses/by/2.0/",
+      "image": "detection_hillclimb/openimages/images/a93917dd57d2b624.jpg",
+      "width": 768,
+      "height": 1024,
+      "sha256": "74cd98ebe35dd184e3f65e37b2020bcea833037fae6f4c6b25a5b84ef8599aa7",
+      "dhash": "486868c8f86064e2",
+      "objects": [
+        {
+          "bbox": [
+            0.4525,
+            0.295,
+            0.513333,
+            0.375
+          ],
+          "occluded": true,
+          "truncated": false,
+          "provider": "xclick"
+        }
+      ],
+      "lookalikes": [],
+      "reference_review": "Visual audit without model proposals",
+      "split": "openimages-fit"
+    },
+    {
+      "id": "5ab43f1ce4c706c9",
+      "title": "050506-080756.jpg",
+      "author": "Kris Haamer",
+      "group": "openimages-profile:www.flickr.com/people/krishaamer/",
+      "author_profile": "https://www.flickr.com/people/krishaamer/",
+      "source_url": "https://www.flickr.com/photos/krishaamer/5290099399",
+      "original_url": "https://c2.staticflickr.com/6/5242/5290099399_1b3c70015a_o.jpg",
+      "image_url": "https://open-images-dataset.s3.amazonaws.com/train/5ab43f1ce4c706c9.jpg",
+      "license": "https://creativecommons.org/licenses/by/2.0/",
+      "image": "detection_hillclimb/openimages/images/5ab43f1ce4c706c9.jpg",
+      "width": 1024,
+      "height": 683,
+      "sha256": "9f60ab67ebdd38b6bb04591718f788eb45244099046deee8e1823edf41813c70",
+      "dhash": "7eae5b1a8fedf9d0",
+      "objects": [
+        {
+          "bbox": [
+            0.36875,
+            0.28424,
+            0.740625,
+            0.43152
+          ],
+          "occluded": true,
+          "truncated": false,
+          "provider": "xclick"
+        }
+      ],
+      "lookalikes": [],
+      "reference_review": "Visual audit without model proposals",
+      "split": "openimages-fit"
+    },
+    {
+      "id": "b9a3e3e74f40152e",
+      "title": "The Gift of Life",
+      "author": "Melissa Johnson",
+      "group": "openimages-profile:www.flickr.com/people/ladytaz/",
+      "author_profile": "https://www.flickr.com/people/ladytaz/",
+      "source_url": "https://www.flickr.com/photos/ladytaz/1836553797",
+      "original_url": "https://c7.staticflickr.com/3/2285/1836553797_54c2ac2875_o.jpg",
+      "image_url": "https://open-images-dataset.s3.amazonaws.com/train/b9a3e3e74f40152e.jpg",
+      "license": "https://creativecommons.org/licenses/by/2.0/",
+      "image": "detection_hillclimb/openimages/images/b9a3e3e74f40152e.jpg",
+      "width": 1024,
+      "height": 739,
+      "sha256": "6f41801eef0ca313ad998b764bc8a3a2992416b83a694f572e70fbbf160aeddc",
+      "dhash": "6848696968f12284",
+      "objects": [
+        {
+          "bbox": [
+            0.146875,
+            0.529221,
+            0.592188,
+            0.92316
+          ],
+          "occluded": false,
+          "truncated": false,
+          "provider": "xclick"
+        }
+      ],
+      "lookalikes": [],
+      "reference_review": "Visual audit without model proposals",
+      "split": "openimages-fit"
+    },
+    {
+      "id": "896c467dacafb3af",
+      "title": "Syringe Feet",
+      "author": "Bart Everson",
+      "group": "openimages-profile:www.flickr.com/people/editor/",
+      "author_profile": "https://www.flickr.com/people/editor/",
+      "source_url": "https://www.flickr.com/photos/editor/8511510112",
+      "original_url": "https://c8.staticflickr.com/9/8374/8511510112_5172e71161_o.jpg",
+      "image_url": "https://open-images-dataset.s3.amazonaws.com/train/896c467dacafb3af.jpg",
+      "license": "https://creativecommons.org/licenses/by/2.0/",
+      "image": "detection_hillclimb/openimages/images/896c467dacafb3af.jpg",
+      "width": 1024,
+      "height": 706,
+      "sha256": "54d53e0a3752bb7329184a67828910008e5a8a8ba3cecee47bd9b6567d2c9e37",
+      "dhash": "0703031b1310b038",
+      "objects": [
+        {
+          "bbox": [
+            0.415,
+            0.447869,
+            0.48,
+            0.594742
+          ],
+          "occluded": true,
+          "truncated": false,
+          "provider": "xclick"
+        },
+        {
+          "bbox": [
+            0.481875,
+            0.300091,
+            0.54,
+            0.548504
+          ],
+          "occluded": true,
+          "truncated": false,
+          "provider": "xclick"
+        },
+        {
+          "bbox": [
+            0.558125,
+            0.280145,
+            0.6225,
+            0.552131
+          ],
+          "occluded": true,
+          "truncated": false,
+          "provider": "xclick"
+        },
+        {
+          "bbox": [
+            0.63125,
+            0.336355,
+            0.6875,
+            0.561197
+          ],
+          "occluded": true,
+          "truncated": false,
+          "provider": "xclick"
+        }
+      ],
+      "lookalikes": [],
+      "reference_review": "Visual audit without model proposals",
+      "split": "openimages-fit"
+    },
+    {
+      "id": "02df4feb19de8d50",
+      "title": "DSCN0851",
+      "author": "Brian Gratwicke",
+      "group": "openimages-profile:www.flickr.com/people/briangratwicke/",
+      "author_profile": "https://www.flickr.com/people/briangratwicke/",
+      "source_url": "https://www.flickr.com/photos/briangratwicke/16590641451",
+      "original_url": "https://farm1.staticflickr.com/7427/16590641451_c59353679c_o.jpg",
+      "image_url": "https://open-images-dataset.s3.amazonaws.com/train/02df4feb19de8d50.jpg",
+      "license": "https://creativecommons.org/licenses/by/2.0/",
+      "image": "detection_hillclimb/openimages/images/02df4feb19de8d50.jpg",
+      "width": 1024,
+      "height": 768,
+      "sha256": "0e2523e8d71778251ced2c37d454596fc57f07ee36c63890456a22f43d67870f",
+      "dhash": "1882c5472531a72f",
+      "objects": [
+        {
+          "bbox": [
+            0.0,
+            0.656667,
+            0.4,
+            0.955
+          ],
+          "occluded": true,
+          "truncated": true,
+          "provider": "xclick"
+        }
+      ],
+      "lookalikes": [],
+      "reference_review": "Visual audit without model proposals",
+      "split": "openimages-fit"
+    },
+    {
+      "id": "3fedd9e7ed19675b",
+      "title": "Almost pricked",
+      "author": "Wheeler Cowperthwaite",
+      "group": "openimages-profile:www.flickr.com/people/wcowperthwaite/",
+      "author_profile": "https://www.flickr.com/people/wcowperthwaite/",
+      "source_url": "https://www.flickr.com/photos/wcowperthwaite/5774694766",
+      "original_url": "https://c4.staticflickr.com/6/5110/5774694766_b6d3e7cbe4_o.jpg",
+      "image_url": "https://open-images-dataset.s3.amazonaws.com/train/3fedd9e7ed19675b.jpg",
+      "license": "https://creativecommons.org/licenses/by/2.0/",
+      "image": "detection_hillclimb/openimages/images/3fedd9e7ed19675b.jpg",
+      "width": 1024,
+      "height": 683,
+      "sha256": "61f2abd027614008b043c8527c9248885060bea4e9a7db355739beeb14ad7707",
+      "dhash": "191a5873e7250603",
+      "objects": [
+        {
+          "bbox": [
+            0.48875,
+            0.507505,
+            0.999375,
+            0.877111
+          ],
+          "occluded": true,
+          "truncated": true,
+          "provider": "xclick"
+        }
+      ],
+      "lookalikes": [],
+      "reference_review": "Visual audit without model proposals",
+      "split": "openimages-fit"
+    },
+    {
+      "id": "f85bc02c9d89ede3",
+      "title": "Cupcake Helpers",
+      "author": "Vegan Feast Catering",
+      "group": "openimages-profile:www.flickr.com/people/veganfeast/",
+      "author_profile": "https://www.flickr.com/people/veganfeast/",
+      "source_url": "https://www.flickr.com/photos/veganfeast/4003323241",
+      "original_url": "https://farm4.staticflickr.com/2617/4003323241_e1b649e980_o.jpg",
+      "image_url": "https://open-images-dataset.s3.amazonaws.com/train/f85bc02c9d89ede3.jpg",
+      "license": "https://creativecommons.org/licenses/by/2.0/",
+      "image": "detection_hillclimb/openimages/images/f85bc02c9d89ede3.jpg",
+      "width": 1024,
+      "height": 768,
+      "sha256": "0605d4a408917274e1ca186e77e261d08cda2087d85aff2edf1687b4e7c66d70",
+      "dhash": "050390890d1065c7",
+      "objects": [
+        {
+          "bbox": [
+            0.18,
+            0.4,
+            0.999375,
+            0.98
+          ],
+          "occluded": false,
+          "truncated": false,
+          "provider": "xclick"
+        }
+      ],
+      "lookalikes": [],
+      "reference_review": "Visual audit without model proposals",
+      "split": "openimages-fit"
+    },
+    {
+      "id": "18bbeaa787b1ba0c",
+      "title": "(229/365) Daily injection",
+      "author": "Sarah",
+      "group": "openimages-profile:www.flickr.com/people/dm-set/",
+      "author_profile": "https://www.flickr.com/people/dm-set/",
+      "source_url": "https://www.flickr.com/photos/dm-set/3846819118",
+      "original_url": "https://c5.staticflickr.com/4/3440/3846819118_f12a803179_o.jpg",
+      "image_url": "https://open-images-dataset.s3.amazonaws.com/train/18bbeaa787b1ba0c.jpg",
+      "license": "https://creativecommons.org/licenses/by/2.0/",
+      "image": "detection_hillclimb/openimages/images/18bbeaa787b1ba0c.jpg",
+      "width": 768,
+      "height": 1024,
+      "sha256": "c61afec7201ab46eb5dd20c658f0fb89a33466f0c212075c279362b2f0b56197",
+      "dhash": "cfffe7f70f3b78fa",
+      "objects": [
+        {
+          "bbox": [
+            0.51,
+            0.0725,
+            0.655833,
+            0.884375
+          ],
+          "occluded": true,
+          "truncated": false,
+          "provider": "xclick"
+        }
+      ],
+      "lookalikes": [],
+      "reference_review": "Visual audit without model proposals",
+      "split": "openimages-fit"
+    },
+    {
+      "id": "77c12485bbf897ef",
+      "title": "Syringe and Vaccine",
+      "author": "NIAID",
+      "group": "openimages-profile:www.flickr.com/people/niaid/",
+      "author_profile": "https://www.flickr.com/people/niaid/",
+      "source_url": "https://www.flickr.com/photos/niaid/14329622976",
+      "original_url": "https://c8.staticflickr.com/4/3844/14329622976_5f38d9413d_o.jpg",
+      "image_url": "https://open-images-dataset.s3.amazonaws.com/train/77c12485bbf897ef.jpg",
+      "license": "https://creativecommons.org/licenses/by/2.0/",
+      "image": "detection_hillclimb/openimages/images/77c12485bbf897ef.jpg",
+      "width": 1024,
+      "height": 967,
+      "sha256": "047ef2192242943d21a13e4a52892774af24468b3067bf45c117148ef5e1ee44",
+      "dhash": "0da91b1b353163e7",
+      "objects": [
+        {
+          "bbox": [
+            0.475,
+            0.0,
+            0.7575,
+            0.612839
+          ],
+          "occluded": false,
+          "truncated": true,
+          "provider": "xclick"
+        }
+      ],
+      "lookalikes": [],
+      "reference_review": "Visual audit without model proposals",
+      "split": "openimages-fit"
+    },
+    {
+      "id": "d7a6b1e753dd41b2",
+      "title": "yellow fever",
+      "author": "Mario Arias",
+      "group": "openimages-profile:www.flickr.com/people/buzzthrill/",
+      "author_profile": "https://www.flickr.com/people/buzzthrill/",
+      "source_url": "https://www.flickr.com/photos/buzzthrill/2455343254",
+      "original_url": "https://farm3.staticflickr.com/3196/2455343254_97fe5bbd25_o.jpg",
+      "image_url": "https://open-images-dataset.s3.amazonaws.com/train/d7a6b1e753dd41b2.jpg",
+      "license": "https://creativecommons.org/licenses/by/2.0/",
+      "image": "detection_hillclimb/openimages/images/d7a6b1e753dd41b2.jpg",
+      "width": 1024,
+      "height": 686,
+      "sha256": "6e289a70646ec04251c6fdcc5dc7ab82b97cd1bf47845fee8f74524bfa7d70b2",
+      "dhash": "5b1b4b7727273333",
+      "objects": [
+        {
+          "bbox": [
+            0.0,
+            0.673507,
+            0.42875,
+            0.76306
+          ],
+          "occluded": false,
+          "truncated": true,
+          "provider": "xclick"
+        }
+      ],
+      "lookalikes": [],
+      "reference_review": "Visual audit without model proposals",
+      "split": "openimages-audit"
+    },
+    {
+      "id": "2f26460900bbb1a8",
+      "title": "hypodermic needle IMG_7418",
+      "author": "Steven Depolo",
+      "group": "openimages-profile:www.flickr.com/people/stevendepolo/",
+      "author_profile": "https://www.flickr.com/people/stevendepolo/",
+      "source_url": "https://www.flickr.com/photos/stevendepolo/3020361085",
+      "original_url": "https://c1.staticflickr.com/4/3186/3020361085_34da7a9e0e_o.jpg",
+      "image_url": "https://open-images-dataset.s3.amazonaws.com/train/2f26460900bbb1a8.jpg",
+      "license": "https://creativecommons.org/licenses/by/2.0/",
+      "image": "detection_hillclimb/openimages/images/2f26460900bbb1a8.jpg",
+      "width": 1024,
+      "height": 683,
+      "sha256": "503fd6c1ab593db5bca8aa944fee91402eca00b12354ee842941e41998c6ca42",
+      "dhash": "9e9e9e8e8c8c8494",
+      "objects": [
+        {
+          "bbox": [
+            0.446875,
+            0.362998,
+            0.675,
+            0.997658
+          ],
+          "occluded": false,
+          "truncated": true,
+          "provider": "xclick"
+        }
+      ],
+      "lookalikes": [],
+      "reference_review": "Visual audit without model proposals",
+      "split": "openimages-fit"
+    },
+    {
+      "id": "6105fe2c402a1664",
+      "title": "PICC Ready For Insertion",
+      "author": "Bill Adams",
+      "group": "openimages-profile:www.flickr.com/people/ibatphone/",
+      "author_profile": "https://www.flickr.com/people/ibatphone/",
+      "source_url": "https://www.flickr.com/photos/ibatphone/2472454422",
+      "original_url": "https://farm5.staticflickr.com/3254/2472454422_b2ba6729b0_o.jpg",
+      "image_url": "https://open-images-dataset.s3.amazonaws.com/train/6105fe2c402a1664.jpg",
+      "license": "https://creativecommons.org/licenses/by/2.0/",
+      "image": "detection_hillclimb/openimages/images/6105fe2c402a1664.jpg",
+      "width": 768,
+      "height": 1024,
+      "sha256": "b6221b2d20ecd3f17d41330425c4db41478d293312e2827931d68a22da6dd101",
+      "dhash": "2c721e1a99cbedf3",
+      "objects": [
+        {
+          "bbox": [
+            0.020833,
+            0.326562,
+            0.416667,
+            0.751562
+          ],
+          "occluded": false,
+          "truncated": false,
+          "provider": "xclick"
+        },
+        {
+          "bbox": [
+            0.2125,
+            0.357812,
+            0.533333,
+            0.815625
+          ],
+          "occluded": false,
+          "truncated": false,
+          "provider": "xclick"
+        },
+        {
+          "bbox": [
+            0.345833,
+            0.385938,
+            0.55,
+            0.685938
+          ],
+          "occluded": false,
+          "truncated": false,
+          "provider": "xclick"
+        },
+        {
+          "bbox": [
+            0.50625,
+            0.417188,
+            0.6375,
+            0.670313
+          ],
+          "occluded": false,
+          "truncated": false,
+          "provider": "xclick"
+        }
+      ],
+      "lookalikes": [],
+      "reference_review": "Visual audit without model proposals",
+      "split": "openimages-fit"
+    },
+    {
+      "id": "c504b548adbb7d1f",
+      "title": "137/365 Intravenosa",
+      "author": "David Santaolalla",
+      "group": "openimages-profile:www.flickr.com/people/santaolalla/",
+      "author_profile": "https://www.flickr.com/people/santaolalla/",
+      "source_url": "https://www.flickr.com/photos/santaolalla/14204548824",
+      "original_url": "https://c8.staticflickr.com/6/5551/14204548824_2180d7d9d9_o.jpg",
+      "image_url": "https://open-images-dataset.s3.amazonaws.com/train/c504b548adbb7d1f.jpg",
+      "license": "https://creativecommons.org/licenses/by/2.0/",
+      "image": "detection_hillclimb/openimages/images/c504b548adbb7d1f.jpg",
+      "width": 1024,
+      "height": 680,
+      "sha256": "8cef18f313adabeb0a077664c741a65d3784dfd51cafe17acd848ff1983c4a38",
+      "dhash": "3f3b2e9e3ece2779",
+      "objects": [
+        {
+          "bbox": [
+            0.25125,
+            0.05838,
+            0.99875,
+            0.694915
+          ],
+          "occluded": false,
+          "truncated": true,
+          "provider": "xclick"
+        }
+      ],
+      "lookalikes": [],
+      "reference_review": "Visual audit without model proposals",
+      "split": "openimages-audit"
+    },
+    {
+      "id": "9b7497095d2f583a",
+      "title": "IMG_1520",
+      "author": "Kojach",
+      "group": "openimages-profile:www.flickr.com/people/kojach/",
+      "author_profile": "https://www.flickr.com/people/kojach/",
+      "source_url": "https://www.flickr.com/photos/kojach/5190309862",
+      "original_url": "https://c3.staticflickr.com/5/4126/5190309862_dd184b17b1_o.jpg",
+      "image_url": "https://open-images-dataset.s3.amazonaws.com/train/9b7497095d2f583a.jpg",
+      "license": "https://creativecommons.org/licenses/by/2.0/",
+      "image": "detection_hillclimb/openimages/images/9b7497095d2f583a.jpg",
+      "width": 1024,
+      "height": 683,
+      "sha256": "13752daef6d0f8a14f4580e8b93e76c221a213542056de4eb81867ae6a1e7aab",
+      "dhash": "04d2d2d2c6ccc0c0",
+      "objects": [
+        {
+          "bbox": [
+            0.265625,
+            0.388368,
+            0.771875,
+            0.769231
+          ],
+          "occluded": false,
+          "truncated": false,
+          "provider": "xclick"
+        }
+      ],
+      "lookalikes": [],
+      "reference_review": "Visual audit without model proposals",
+      "split": "openimages-fit"
+    },
+    {
+      "id": "a51933733e374f01",
+      "title": "Vacina contra Gripe",
+      "author": "Fotos GOVBA",
+      "group": "openimages-profile:www.flickr.com/people/agecombahia/",
+      "author_profile": "https://www.flickr.com/people/agecombahia/",
+      "source_url": "https://www.flickr.com/photos/agecombahia/5657661799",
+      "original_url": "https://farm2.staticflickr.com/5188/5657661799_e8887e60bd_o.jpg",
+      "image_url": "https://open-images-dataset.s3.amazonaws.com/train/a51933733e374f01.jpg",
+      "license": "https://creativecommons.org/licenses/by/2.0/",
+      "image": "detection_hillclimb/openimages/images/a51933733e374f01.jpg",
+      "width": 683,
+      "height": 1024,
+      "sha256": "da360dc2dddb7d01eb814a69d7c6fccc87fb7dd1c9f42c4eb15aa6075b85d6cd",
+      "dhash": "264b8f2defcbcb9f",
+      "objects": [
+        {
+          "bbox": [
+            0.456848,
+            0.285,
+            0.605066,
+            0.69125
+          ],
+          "occluded": true,
+          "truncated": false,
+          "provider": "xclick"
+        }
+      ],
+      "lookalikes": [],
+      "reference_review": "Visual audit without model proposals",
+      "split": "openimages-fit"
+    },
+    {
+      "id": "27cc284274223d0c",
+      "title": "Jefferson City Medical Group could help with shortage of flu shots",
+      "author": "KOMUnews",
+      "group": "openimages-profile:www.flickr.com/people/komunews/",
+      "author_profile": "https://www.flickr.com/people/komunews/",
+      "source_url": "https://www.flickr.com/photos/komunews/15409762240",
+      "original_url": "https://c5.staticflickr.com/6/5610/15409762240_6ca5d56a65_o.jpg",
+      "image_url": "https://open-images-dataset.s3.amazonaws.com/train/27cc284274223d0c.jpg",
+      "license": "https://creativecommons.org/licenses/by/2.0/",
+      "image": "detection_hillclimb/openimages/images/27cc284274223d0c.jpg",
+      "width": 1024,
+      "height": 685,
+      "sha256": "318f0356b228edec7de010d876d7ad9591fb1918ae56fece25f4feb6c02ab348",
+      "dhash": "5e18595b373d0e8d",
+      "objects": [
+        {
+          "bbox": [
+            0.25,
+            0.415341,
+            0.825625,
+            0.68101
+          ],
+          "occluded": true,
+          "truncated": false,
+          "provider": "xclick"
+        }
+      ],
+      "lookalikes": [],
+      "reference_review": "Visual audit without model proposals",
+      "split": "openimages-fit"
+    },
+    {
+      "id": "df4a083bd7377bd5",
+      "title": "Flu Vaccination Grippe",
+      "author": "Daniel Paquet",
+      "group": "openimages-profile:www.flickr.com/people/danielpaquet/",
+      "author_profile": "https://www.flickr.com/people/danielpaquet/",
+      "source_url": "https://www.flickr.com/photos/danielpaquet/5116253616",
+      "original_url": "https://farm6.staticflickr.com/1178/5116253616_fdbc7ecfb6_o.jpg",
+      "image_url": "https://open-images-dataset.s3.amazonaws.com/train/df4a083bd7377bd5.jpg",
+      "license": "https://creativecommons.org/licenses/by/2.0/",
+      "image": "detection_hillclimb/openimages/images/df4a083bd7377bd5.jpg",
+      "width": 1024,
+      "height": 1024,
+      "sha256": "420a9755b1d907632a99d33d5ccf52755c8bb911608ec47669465ce07d64892c",
+      "dhash": "69e30636bc5e3c3d",
+      "objects": [
+        {
+          "bbox": [
+            0.256875,
+            0.0,
+            0.771875,
+            0.618125
+          ],
+          "occluded": false,
+          "truncated": true,
+          "provider": "xclick"
+        }
+      ],
+      "lookalikes": [],
+      "reference_review": "Visual audit without model proposals",
+      "split": "openimages-fit"
+    }
+  ],
+  "counts": {
+    "openimages-fit": {
+      "images": 57,
+      "objects": 61,
+      "negatives": 6,
+      "groups": 41
+    },
+    "openimages-audit": {
+      "images": 10,
+      "objects": 11,
+      "negatives": 1,
+      "groups": 10
+    }
+  },
+  "source": "https://storage.googleapis.com/openimages/web/download_v7.html",
+  "seed": "open-images-additional-2026-11-21",
+  "reviewed_sha256": "4145fa2372e0dbac6b8d3cfbf0b4f84087fbde8eb13918becd4855ecde186601",
+  "source_sha256": "9bb1179eec1f5dc9206e2d05c6c56a9126b8d80e78cbf4066a4691df695c8ff0",
+  "scope": "New fit and audit partitions remixed from the publisher train boxes only. Syringe-positive enrichment and visually confirmed lookalikes. Foundation-model pretraining exposure is unknown."
+}

@@ -1,0 +1,3123 @@
+{
+  "inputs": {
+    "medsyringe/graduation_ocr.py": "cb606c35ddc9da1b2caf7ed1fe24803803ff56c68d5860c58a8aca4ac254a61d",
+    "artifacts/fill/release.json": "bf0e4db95fe1bb58625e61c07b12d6f9ffebe527f7bfc2b124dc87634b8c9772",
+    "artifacts/expanded/annotations.json": "de8260db8f917cdd57d7700cb21b5f56a1c51a3e601c124f7586b81abc7ccebb",
+    "data/ocr-v6/models/PP-OCRv6_tiny_rec/.gitattributes": "a3a43406012ee8c7b9b38dfab1b11610f33e8245cd864a9a9302d042616a859e",
+    "data/ocr-v6/models/PP-OCRv6_tiny_rec/README.md": "b39a61b887fe5ddc201a15d92b6814bb9e634fb5acb66db3f29ba53cff7d108c",
+    "data/ocr-v6/models/PP-OCRv6_tiny_rec/inference.json": "b5b14770c7dcf092781e92f4278a2ae5f95048f08b4b8a04140e88cb2745f147",
+    "data/ocr-v6/models/PP-OCRv6_tiny_rec/inference.pdiparams": "bb2f8f54d1e25f28c71b6fa4fe23f5940e159cae27fbee96155c99f822156e57",
+    "data/ocr-v6/models/PP-OCRv6_tiny_rec/inference.yml": "66170210bad538e83fff3c4a3867e547d6bf20b50d64b20347c4b913f3034ea1",
+    "data/ocr-v6/models/PP-OCRv6_medium_rec/.gitattributes": "a3a43406012ee8c7b9b38dfab1b11610f33e8245cd864a9a9302d042616a859e",
+    "data/ocr-v6/models/PP-OCRv6_medium_rec/README.md": "75ff9c4853ed171f36224127805062f9bcd1cfbbcacae3d577344866df74f6d3",
+    "data/ocr-v6/models/PP-OCRv6_medium_rec/inference.json": "0b2e25e990bd072f1bf77d59d67d508bce6c4bd44af6624e0fb27d6da2cd00e8",
+    "data/ocr-v6/models/PP-OCRv6_medium_rec/inference.pdiparams": "1b01c79a914587933f615569e75de54f2e638ebb5d3f3b3c1b38c24ede8c7319",
+    "data/ocr-v6/models/PP-OCRv6_medium_rec/inference.yml": "991b700facf5b50a7de193468207d5f4255b538dde0d312ae3b7c7a9b6873129"
+  },
+  "selected": {
+    "policy": {
+      "readers": [
+        "tiny",
+        "medium"
+      ],
+      "confidence": 0.93,
+      "stroke": 4.0
+    },
+    "counts": {
+      "rows": 31,
+      "baseline_capacity": 20,
+      "added_capacity": 1,
+      "wrong_capacity": 0,
+      "baseline_fill": 7,
+      "added_fill": 6,
+      "within_bracket": 6,
+      "false_clear": 0
+    }
+  },
+  "shadow": {
+    "policy": {
+      "readers": [
+        "tiny",
+        "medium"
+      ],
+      "confidence": 0.93,
+      "stroke": 4.0
+    },
+    "counts": {
+      "rows": 31,
+      "baseline_capacity": 20,
+      "added_capacity": 1,
+      "wrong_capacity": 0,
+      "baseline_fill": 7,
+      "added_fill": 6,
+      "within_bracket": 6,
+      "false_clear": 0
+    }
+  },
+  "trials": [
+    {
+      "policy": {
+        "readers": [
+          "tiny"
+        ],
+        "confidence": 0.72,
+        "stroke": 0.0
+      },
+      "counts": {
+        "rows": 31,
+        "baseline_capacity": 20,
+        "added_capacity": 0,
+        "wrong_capacity": 0,
+        "baseline_fill": 7,
+        "added_fill": 5,
+        "within_bracket": 5,
+        "false_clear": 0
+      }
+    },
+    {
+      "policy": {
+        "readers": [
+          "tiny"
+        ],
+        "confidence": 0.72,
+        "stroke": 4.0
+      },
+      "counts": {
+        "rows": 31,
+        "baseline_capacity": 20,
+        "added_capacity": 0,
+        "wrong_capacity": 0,
+        "baseline_fill": 7,
+        "added_fill": 5,
+        "within_bracket": 5,
+        "false_clear": 0
+      }
+    },
+    {
+      "policy": {
+        "readers": [
+          "tiny"
+        ],
+        "confidence": 0.72,
+        "stroke": 8.0
+      },
+      "counts": {
+        "rows": 31,
+        "baseline_capacity": 20,
+        "added_capacity": 0,
+        "wrong_capacity": 0,
+        "baseline_fill": 7,
+        "added_fill": 5,
+        "within_bracket": 5,
+        "false_clear": 0
+      }
+    },
+    {
+      "policy": {
+        "readers": [
+          "tiny"
+        ],
+        "confidence": 0.84,
+        "stroke": 0.0
+      },
+      "counts": {
+        "rows": 31,
+        "baseline_capacity": 20,
+        "added_capacity": 0,
+        "wrong_capacity": 0,
+        "baseline_fill": 7,
+        "added_fill": 5,
+        "within_bracket": 5,
+        "false_clear": 0
+      }
+    },
+    {
+      "policy": {
+        "readers": [
+          "tiny"
+        ],
+        "confidence": 0.84,
+        "stroke": 4.0
+      },
+      "counts": {
+        "rows": 31,
+        "baseline_capacity": 20,
+        "added_capacity": 0,
+        "wrong_capacity": 0,
+        "baseline_fill": 7,
+        "added_fill": 5,
+        "within_bracket": 5,
+        "false_clear": 0
+      }
+    },
+    {
+      "policy": {
+        "readers": [
+          "tiny"
+        ],
+        "confidence": 0.84,
+        "stroke": 8.0
+      },
+      "counts": {
+        "rows": 31,
+        "baseline_capacity": 20,
+        "added_capacity": 0,
+        "wrong_capacity": 0,
+        "baseline_fill": 7,
+        "added_fill": 5,
+        "within_bracket": 5,
+        "false_clear": 0
+      }
+    },
+    {
+      "policy": {
+        "readers": [
+          "tiny"
+        ],
+        "confidence": 0.93,
+        "stroke": 0.0
+      },
+      "counts": {
+        "rows": 31,
+        "baseline_capacity": 20,
+        "added_capacity": 0,
+        "wrong_capacity": 0,
+        "baseline_fill": 7,
+        "added_fill": 5,
+        "within_bracket": 5,
+        "false_clear": 0
+      }
+    },
+    {
+      "policy": {
+        "readers": [
+          "tiny"
+        ],
+        "confidence": 0.93,
+        "stroke": 4.0
+      },
+      "counts": {
+        "rows": 31,
+        "baseline_capacity": 20,
+        "added_capacity": 0,
+        "wrong_capacity": 0,
+        "baseline_fill": 7,
+        "added_fill": 5,
+        "within_bracket": 5,
+        "false_clear": 0
+      }
+    },
+    {
+      "policy": {
+        "readers": [
+          "tiny"
+        ],
+        "confidence": 0.93,
+        "stroke": 8.0
+      },
+      "counts": {
+        "rows": 31,
+        "baseline_capacity": 20,
+        "added_capacity": 0,
+        "wrong_capacity": 0,
+        "baseline_fill": 7,
+        "added_fill": 5,
+        "within_bracket": 5,
+        "false_clear": 0
+      }
+    },
+    {
+      "policy": {
+        "readers": [
+          "medium"
+        ],
+        "confidence": 0.72,
+        "stroke": 0.0
+      },
+      "counts": {
+        "rows": 31,
+        "baseline_capacity": 20,
+        "added_capacity": 1,
+        "wrong_capacity": 0,
+        "baseline_fill": 7,
+        "added_fill": 5,
+        "within_bracket": 5,
+        "false_clear": 0
+      }
+    },
+    {
+      "policy": {
+        "readers": [
+          "medium"
+        ],
+        "confidence": 0.72,
+        "stroke": 4.0
+      },
+      "counts": {
+        "rows": 31,
+        "baseline_capacity": 20,
+        "added_capacity": 1,
+        "wrong_capacity": 0,
+        "baseline_fill": 7,
+        "added_fill": 5,
+        "within_bracket": 5,
+        "false_clear": 0
+      }
+    },
+    {
+      "policy": {
+        "readers": [
+          "medium"
+        ],
+        "confidence": 0.72,
+        "stroke": 8.0
+      },
+      "counts": {
+        "rows": 31,
+        "baseline_capacity": 20,
+        "added_capacity": 0,
+        "wrong_capacity": 0,
+        "baseline_fill": 7,
+        "added_fill": 4,
+        "within_bracket": 4,
+        "false_clear": 0
+      }
+    },
+    {
+      "policy": {
+        "readers": [
+          "medium"
+        ],
+        "confidence": 0.84,
+        "stroke": 0.0
+      },
+      "counts": {
+        "rows": 31,
+        "baseline_capacity": 20,
+        "added_capacity": 1,
+        "wrong_capacity": 0,
+        "baseline_fill": 7,
+        "added_fill": 5,
+        "within_bracket": 5,
+        "false_clear": 0
+      }
+    },
+    {
+      "policy": {
+        "readers": [
+          "medium"
+        ],
+        "confidence": 0.84,
+        "stroke": 4.0
+      },
+      "counts": {
+        "rows": 31,
+        "baseline_capacity": 20,
+        "added_capacity": 1,
+        "wrong_capacity": 0,
+        "baseline_fill": 7,
+        "added_fill": 5,
+        "within_bracket": 5,
+        "false_clear": 0
+      }
+    },
+    {
+      "policy": {
+        "readers": [
+          "medium"
+        ],
+        "confidence": 0.84,
+        "stroke": 8.0
+      },
+      "counts": {
+        "rows": 31,
+        "baseline_capacity": 20,
+        "added_capacity": 0,
+        "wrong_capacity": 0,
+        "baseline_fill": 7,
+        "added_fill": 4,
+        "within_bracket": 4,
+        "false_clear": 0
+      }
+    },
+    {
+      "policy": {
+        "readers": [
+          "medium"
+        ],
+        "confidence": 0.93,
+        "stroke": 0.0
+      },
+      "counts": {
+        "rows": 31,
+        "baseline_capacity": 20,
+        "added_capacity": 1,
+        "wrong_capacity": 0,
+        "baseline_fill": 7,
+        "added_fill": 5,
+        "within_bracket": 5,
+        "false_clear": 0
+      }
+    },
+    {
+      "policy": {
+        "readers": [
+          "medium"
+        ],
+        "confidence": 0.93,
+        "stroke": 4.0
+      },
+      "counts": {
+        "rows": 31,
+        "baseline_capacity": 20,
+        "added_capacity": 1,
+        "wrong_capacity": 0,
+        "baseline_fill": 7,
+        "added_fill": 5,
+        "within_bracket": 5,
+        "false_clear": 0
+      }
+    },
+    {
+      "policy": {
+        "readers": [
+          "medium"
+        ],
+        "confidence": 0.93,
+        "stroke": 8.0
+      },
+      "counts": {
+        "rows": 31,
+        "baseline_capacity": 20,
+        "added_capacity": 0,
+        "wrong_capacity": 0,
+        "baseline_fill": 7,
+        "added_fill": 4,
+        "within_bracket": 4,
+        "false_clear": 0
+      }
+    },
+    {
+      "policy": {
+        "readers": [
+          "tiny",
+          "medium"
+        ],
+        "confidence": 0.72,
+        "stroke": 0.0
+      },
+      "counts": {
+        "rows": 31,
+        "baseline_capacity": 20,
+        "added_capacity": 1,
+        "wrong_capacity": 0,
+        "baseline_fill": 7,
+        "added_fill": 6,
+        "within_bracket": 6,
+        "false_clear": 0
+      }
+    },
+    {
+      "policy": {
+        "readers": [
+          "tiny",
+          "medium"
+        ],
+        "confidence": 0.72,
+        "stroke": 4.0
+      },
+      "counts": {
+        "rows": 31,
+        "baseline_capacity": 20,
+        "added_capacity": 1,
+        "wrong_capacity": 0,
+        "baseline_fill": 7,
+        "added_fill": 6,
+        "within_bracket": 6,
+        "false_clear": 0
+      }
+    },
+    {
+      "policy": {
+        "readers": [
+          "tiny",
+          "medium"
+        ],
+        "confidence": 0.72,
+        "stroke": 8.0
+      },
+      "counts": {
+        "rows": 31,
+        "baseline_capacity": 20,
+        "added_capacity": 0,
+        "wrong_capacity": 0,
+        "baseline_fill": 7,
+        "added_fill": 5,
+        "within_bracket": 5,
+        "false_clear": 0
+      }
+    },
+    {
+      "policy": {
+        "readers": [
+          "tiny",
+          "medium"
+        ],
+        "confidence": 0.84,
+        "stroke": 0.0
+      },
+      "counts": {
+        "rows": 31,
+        "baseline_capacity": 20,
+        "added_capacity": 1,
+        "wrong_capacity": 0,
+        "baseline_fill": 7,
+        "added_fill": 6,
+        "within_bracket": 6,
+        "false_clear": 0
+      }
+    },
+    {
+      "policy": {
+        "readers": [
+          "tiny",
+          "medium"
+        ],
+        "confidence": 0.84,
+        "stroke": 4.0
+      },
+      "counts": {
+        "rows": 31,
+        "baseline_capacity": 20,
+        "added_capacity": 1,
+        "wrong_capacity": 0,
+        "baseline_fill": 7,
+        "added_fill": 6,
+        "within_bracket": 6,
+        "false_clear": 0
+      }
+    },
+    {
+      "policy": {
+        "readers": [
+          "tiny",
+          "medium"
+        ],
+        "confidence": 0.84,
+        "stroke": 8.0
+      },
+      "counts": {
+        "rows": 31,
+        "baseline_capacity": 20,
+        "added_capacity": 0,
+        "wrong_capacity": 0,
+        "baseline_fill": 7,
+        "added_fill": 5,
+        "within_bracket": 5,
+        "false_clear": 0
+      }
+    },
+    {
+      "policy": {
+        "readers": [
+          "tiny",
+          "medium"
+        ],
+        "confidence": 0.93,
+        "stroke": 0.0
+      },
+      "counts": {
+        "rows": 31,
+        "baseline_capacity": 20,
+        "added_capacity": 1,
+        "wrong_capacity": 0,
+        "baseline_fill": 7,
+        "added_fill": 6,
+        "within_bracket": 6,
+        "false_clear": 0
+      }
+    },
+    {
+      "policy": {
+        "readers": [
+          "tiny",
+          "medium"
+        ],
+        "confidence": 0.93,
+        "stroke": 4.0
+      },
+      "counts": {
+        "rows": 31,
+        "baseline_capacity": 20,
+        "added_capacity": 1,
+        "wrong_capacity": 0,
+        "baseline_fill": 7,
+        "added_fill": 6,
+        "within_bracket": 6,
+        "false_clear": 0
+      }
+    },
+    {
+      "policy": {
+        "readers": [
+          "tiny",
+          "medium"
+        ],
+        "confidence": 0.93,
+        "stroke": 8.0
+      },
+      "counts": {
+        "rows": 31,
+        "baseline_capacity": 20,
+        "added_capacity": 0,
+        "wrong_capacity": 0,
+        "baseline_fill": 7,
+        "added_fill": 5,
+        "within_bracket": 5,
+        "false_clear": 0
+      }
+    }
+  ],
+  "development": {
+    "counts": {
+      "rows": 31,
+      "baseline_capacity": 20,
+      "added_capacity": 1,
+      "wrong_capacity": 0,
+      "baseline_fill": 7,
+      "added_fill": 6,
+      "within_bracket": 6,
+      "false_clear": 0
+    },
+    "answers": {
+      "IMG_3203": {
+        "before_fill": {
+          "status": "visual estimate",
+          "method": "Numbered graduations and nearest piston edge",
+          "ml": 38,
+          "interval_ml": [
+            36,
+            42
+          ],
+          "percent": 63,
+          "interval_percent": [
+            60,
+            70
+          ],
+          "capacity_ml": 60,
+          "piston_line": [
+            [
+              0.3177419595049227,
+              0.39356572453105004
+            ],
+            [
+              0.575521814776202,
+              0.3915420360807106
+            ]
+          ],
+          "graduations": [
+            {
+              "ml": 10,
+              "crop_bbox": [
+                0.3511705685618729,
+                0.14342948717948717,
+                0.5418060200668896,
+                0.1971153846153846
+              ],
+              "text": "10"
+            },
+            {
+              "ml": 20,
+              "crop_bbox": [
+                0.36789297658862874,
+                0.23237179487179488,
+                0.5384615384615384,
+                0.2764423076923077
+              ],
+              "text": "20"
+            },
+            {
+              "ml": 30,
+              "crop_bbox": [
+                0.3779264214046823,
+                0.3125,
+                0.5484949832775919,
+                0.35176282051282054
+              ],
+              "text": "30"
+            },
+            {
+              "ml": 50,
+              "crop_bbox": [
+                0.42474916387959866,
+                0.4703525641025641,
+                0.5551839464882943,
+                0.5016025641025641
+              ],
+              "text": "50"
+            },
+            {
+              "ml": 60,
+              "crop_bbox": [
+                0.4161943319838057,
+                0.5387673130193906,
+                0.5750722961249276,
+                0.576814404432133
+              ],
+              "text": "60"
+            }
+          ],
+          "localization": {
+            "contrast": 19.0,
+            "scale_residual_ml": 0.55,
+            "tick_train_verified": false
+          }
+        },
+        "candidate_fill": {
+          "status": "visual estimate",
+          "method": "Numbered graduations and nearest piston edge",
+          "ml": 38,
+          "interval_ml": [
+            36,
+            42
+          ],
+          "percent": 63,
+          "interval_percent": [
+            60,
+            70
+          ],
+          "capacity_ml": 60,
+          "piston_line": [
+            [
+              0.3177419595049227,
+              0.39356572453105004
+            ],
+            [
+              0.575521814776202,
+              0.3915420360807106
+            ]
+          ],
+          "graduations": [
+            {
+              "ml": 10,
+              "crop_bbox": [
+                0.3511705685618729,
+                0.14342948717948717,
+                0.5418060200668896,
+                0.1971153846153846
+              ],
+              "text": "10"
+            },
+            {
+              "ml": 20,
+              "crop_bbox": [
+                0.36789297658862874,
+                0.23237179487179488,
+                0.5384615384615384,
+                0.2764423076923077
+              ],
+              "text": "20"
+            },
+            {
+              "ml": 30,
+              "crop_bbox": [
+                0.3779264214046823,
+                0.3125,
+                0.5484949832775919,
+                0.35176282051282054
+              ],
+              "text": "30"
+            },
+            {
+              "ml": 50,
+              "crop_bbox": [
+                0.42474916387959866,
+                0.4703525641025641,
+                0.5551839464882943,
+                0.5016025641025641
+              ],
+              "text": "50"
+            },
+            {
+              "ml": 60,
+              "crop_bbox": [
+                0.4161943319838057,
+                0.5387673130193906,
+                0.5750722961249276,
+                0.576814404432133
+              ],
+              "text": "60"
+            }
+          ],
+          "localization": {
+            "contrast": 19.0,
+            "scale_residual_ml": 0.55,
+            "tick_train_verified": false
+          }
+        },
+        "reference_bracket": [
+          38.0,
+          42.0
+        ],
+        "capacity": {
+          "value": 60.0,
+          "unit": "mL",
+          "score": 0.9888046383857727,
+          "method": "adjacent number and unit",
+          "evidence": [
+            {
+              "text": "ml",
+              "crop_bbox": [
+                0.38461538461538464,
+                0.5024038461538461,
+                0.6220735785953178,
+                0.5464743589743589
+              ],
+              "rotation": 0.0
+            },
+            {
+              "text": "60",
+              "crop_bbox": [
+                0.4161943319838057,
+                0.5387673130193906,
+                0.5750722961249276,
+                0.576814404432133
+              ],
+              "rotation": 0.0
+            }
+          ]
+        },
+        "added_capacity": false,
+        "expected_capacity": 60,
+        "extra_tokens": [
+          {
+            "text": "ml",
+            "score": 0.9876599907875061,
+            "crop_bbox": [
+              0.367032967032967,
+              0.5,
+              0.6241758241758242,
+              0.5431578947368421
+            ],
+            "view_bbox": [
+              167.0,
+              950.0,
+              284.0,
+              1032.0
+            ],
+            "rotation": 0.0,
+            "family": "stroke-60-0.0",
+            "reader": "tiny",
+            "stroke_strength": 39.02985074626866,
+            "window": "unit"
+          },
+          {
+            "text": "ml",
+            "score": 0.9999289512634277,
+            "crop_bbox": [
+              0.367032967032967,
+              0.5,
+              0.6241758241758242,
+              0.5431578947368421
+            ],
+            "view_bbox": [
+              167.0,
+              950.0,
+              284.0,
+              1032.0
+            ],
+            "rotation": 0.0,
+            "family": "stroke-60-0.0",
+            "reader": "medium",
+            "stroke_strength": 39.02985074626866,
+            "window": "unit"
+          }
+        ]
+      },
+      "IMG_3204": {
+        "before_fill": {
+          "status": "insufficient evidence",
+          "reason": "A visible 20 mL or 60 mL capacity is required."
+        },
+        "candidate_fill": {
+          "status": "visual estimate",
+          "method": "Numbered graduations and nearest piston edge",
+          "ml": 38,
+          "interval_ml": [
+            34,
+            40
+          ],
+          "percent": 63,
+          "interval_percent": [
+            56,
+            67
+          ],
+          "capacity_ml": 60,
+          "piston_line": [
+            [
+              0.530279680948039,
+              0.3764563859308061
+            ],
+            [
+              0.6269741526263793,
+              0.4070189663373793
+            ]
+          ],
+          "graduations": [
+            {
+              "ml": 10,
+              "crop_bbox": [
+                0.742483660130719,
+                0.1762820512820513,
+                0.8,
+                0.2155448717948718
+              ],
+              "text": "10"
+            },
+            {
+              "ml": 20,
+              "crop_bbox": [
+                0.6601307189542484,
+                0.24519230769230768,
+                0.7477124183006536,
+                0.2988782051282051
+              ],
+              "text": "20"
+            },
+            {
+              "ml": 30,
+              "crop_bbox": [
+                0.592156862745098,
+                0.3157051282051282,
+                0.6915032679738562,
+                0.375
+              ],
+              "text": "30"
+            },
+            {
+              "ml": 50,
+              "crop_bbox": [
+                0.48366013071895425,
+                0.4703525641025641,
+                0.5568627450980392,
+                0.5160256410256411
+              ],
+              "text": "50"
+            },
+            {
+              "ml": 60,
+              "crop_bbox": [
+                0.3865979381443299,
+                0.5363157894736842,
+                0.5283505154639175,
+                0.598421052631579
+              ],
+              "text": "60"
+            }
+          ],
+          "localization": {
+            "contrast": 18.2,
+            "scale_residual_ml": 0.24,
+            "tick_train_verified": false
+          }
+        },
+        "reference_bracket": [
+          35.0,
+          39.0
+        ],
+        "capacity": {
+          "value": 60.0,
+          "unit": "mL",
+          "score": 0.9845374822616577,
+          "method": "adjacent number and unit",
+          "evidence": [
+            {
+              "text": "ml",
+              "crop_bbox": [
+                0.3865979381443299,
+                0.4842105263157895,
+                0.5283505154639175,
+                0.5468421052631579
+              ],
+              "rotation": 0.0
+            },
+            {
+              "text": "60",
+              "crop_bbox": [
+                0.3865979381443299,
+                0.5252631578947369,
+                0.5283505154639175,
+                0.5873684210526315
+              ],
+              "rotation": 0.0
+            }
+          ]
+        },
+        "added_capacity": true,
+        "expected_capacity": 60,
+        "extra_tokens": [
+          {
+            "text": "60",
+            "score": 0.9958839416503906,
+            "crop_bbox": [
+              0.3865979381443299,
+              0.5363157894736842,
+              0.5283505154639175,
+              0.598421052631579
+            ],
+            "view_bbox": [
+              450.0,
+              1019.0,
+              615.0,
+              1137.0
+            ],
+            "rotation": 0.0,
+            "family": "stroke-60-0.0",
+            "reader": "tiny",
+            "stroke_strength": 5.494736842105263,
+            "window": "anchor"
+          },
+          {
+            "text": "60",
+            "score": 0.9954308867454529,
+            "crop_bbox": [
+              0.3865979381443299,
+              0.5252631578947369,
+              0.5283505154639175,
+              0.5873684210526315
+            ],
+            "view_bbox": [
+              450.0,
+              998.0,
+              615.0,
+              1116.0
+            ],
+            "rotation": 0.0,
+            "family": "stroke-60-0.0",
+            "reader": "tiny",
+            "stroke_strength": 5.494736842105263,
+            "window": "stroke"
+          },
+          {
+            "text": "60",
+            "score": 0.9999799132347107,
+            "crop_bbox": [
+              0.3865979381443299,
+              0.5363157894736842,
+              0.5283505154639175,
+              0.598421052631579
+            ],
+            "view_bbox": [
+              450.0,
+              1019.0,
+              615.0,
+              1137.0
+            ],
+            "rotation": 0.0,
+            "family": "stroke-60-0.0",
+            "reader": "medium",
+            "stroke_strength": 5.494736842105263,
+            "window": "anchor"
+          },
+          {
+            "text": "60",
+            "score": 0.9999701380729675,
+            "crop_bbox": [
+              0.3865979381443299,
+              0.5252631578947369,
+              0.5283505154639175,
+              0.5873684210526315
+            ],
+            "view_bbox": [
+              450.0,
+              998.0,
+              615.0,
+              1116.0
+            ],
+            "rotation": 0.0,
+            "family": "stroke-60-0.0",
+            "reader": "medium",
+            "stroke_strength": 5.494736842105263,
+            "window": "stroke"
+          },
+          {
+            "text": "ml",
+            "score": 0.9845374822616577,
+            "crop_bbox": [
+              0.3865979381443299,
+              0.4842105263157895,
+              0.5283505154639175,
+              0.5468421052631579
+            ],
+            "view_bbox": [
+              450.0,
+              920.0,
+              615.0,
+              1039.0
+            ],
+            "rotation": 0.0,
+            "family": "stroke-60-0.0",
+            "reader": "medium",
+            "stroke_strength": 5.494736842105263,
+            "window": "unit"
+          }
+        ]
+      },
+      "IMG_3211": {
+        "before_fill": {
+          "status": "visual estimate",
+          "method": "Numbered graduations and nearest piston edge",
+          "ml": 38,
+          "interval_ml": [
+            34,
+            40
+          ],
+          "percent": 63,
+          "interval_percent": [
+            56,
+            67
+          ],
+          "capacity_ml": 60,
+          "piston_line": [
+            [
+              0.44370833870834786,
+              0.42886905989758306
+            ],
+            [
+              0.7364228742976021,
+              0.4357066433155065
+            ]
+          ],
+          "graduations": [
+            {
+              "ml": 10,
+              "crop_bbox": [
+                0.7679180887372014,
+                0.16666666666666666,
+                0.9419795221843004,
+                0.21794871794871795
+              ],
+              "text": "10"
+            },
+            {
+              "ml": 20,
+              "crop_bbox": [
+                0.7064846416382252,
+                0.25961538461538464,
+                0.9010238907849829,
+                0.3092948717948718
+              ],
+              "text": "20"
+            },
+            {
+              "ml": 30,
+              "crop_bbox": [
+                0.6723549488054608,
+                0.35176282051282054,
+                0.856655290102389,
+                0.39342948717948717
+              ],
+              "text": "30"
+            },
+            {
+              "ml": 50,
+              "crop_bbox": [
+                0.6029620014160963,
+                0.5194529085872577,
+                0.7995161670993628,
+                0.5646301939058171
+              ],
+              "text": "50"
+            },
+            {
+              "ml": 60,
+              "crop_bbox": [
+                0.5742978522539532,
+                0.6035595567867036,
+                0.760614821807883,
+                0.6429695290858726
+              ],
+              "text": "60"
+            }
+          ],
+          "localization": {
+            "contrast": 16.7,
+            "scale_residual_ml": 0.55,
+            "tick_train_verified": false
+          }
+        },
+        "candidate_fill": {
+          "status": "visual estimate",
+          "method": "Numbered graduations and nearest piston edge",
+          "ml": 38,
+          "interval_ml": [
+            34,
+            40
+          ],
+          "percent": 63,
+          "interval_percent": [
+            56,
+            67
+          ],
+          "capacity_ml": 60,
+          "piston_line": [
+            [
+              0.44370833870834786,
+              0.42886905989758306
+            ],
+            [
+              0.7364228742976021,
+              0.4357066433155065
+            ]
+          ],
+          "graduations": [
+            {
+              "ml": 10,
+              "crop_bbox": [
+                0.7679180887372014,
+                0.16666666666666666,
+                0.9419795221843004,
+                0.21794871794871795
+              ],
+              "text": "10"
+            },
+            {
+              "ml": 20,
+              "crop_bbox": [
+                0.7064846416382252,
+                0.25961538461538464,
+                0.9010238907849829,
+                0.3092948717948718
+              ],
+              "text": "20"
+            },
+            {
+              "ml": 30,
+              "crop_bbox": [
+                0.6723549488054608,
+                0.35176282051282054,
+                0.856655290102389,
+                0.39342948717948717
+              ],
+              "text": "30"
+            },
+            {
+              "ml": 50,
+              "crop_bbox": [
+                0.6029620014160963,
+                0.5194529085872577,
+                0.7995161670993628,
+                0.5646301939058171
+              ],
+              "text": "50"
+            },
+            {
+              "ml": 60,
+              "crop_bbox": [
+                0.5742978522539532,
+                0.6035595567867036,
+                0.760614821807883,
+                0.6429695290858726
+              ],
+              "text": "60"
+            }
+          ],
+          "localization": {
+            "contrast": 16.7,
+            "scale_residual_ml": 0.55,
+            "tick_train_verified": false
+          }
+        },
+        "reference_bracket": [
+          36.0,
+          40.0
+        ],
+        "capacity": {
+          "value": 60.0,
+          "unit": "mL",
+          "score": 0.9957281351089478,
+          "method": "adjacent number and unit",
+          "evidence": [
+            {
+              "text": "ml",
+              "crop_bbox": [
+                0.5733788395904437,
+                0.561698717948718,
+                0.7747440273037542,
+                0.6065705128205128
+              ],
+              "rotation": 0.0
+            },
+            {
+              "text": "60",
+              "crop_bbox": [
+                0.5767918088737202,
+                0.6001602564102564,
+                0.757679180887372,
+                0.6426282051282052
+              ],
+              "rotation": 0.0
+            }
+          ]
+        },
+        "added_capacity": false,
+        "expected_capacity": 60,
+        "extra_tokens": [
+          {
+            "text": "ml",
+            "score": 0.9912971258163452,
+            "crop_bbox": [
+              0.5269058295964125,
+              0.5621052631578948,
+              0.8071748878923767,
+              0.6078947368421053
+            ],
+            "view_bbox": [
+              235.0,
+              1068.0,
+              360.0,
+              1155.0
+            ],
+            "rotation": 0.0,
+            "family": "stroke-60-0.0",
+            "reader": "tiny",
+            "stroke_strength": 24.619718309859156,
+            "window": "unit"
+          },
+          {
+            "text": "ml",
+            "score": 0.9999139308929443,
+            "crop_bbox": [
+              0.5269058295964125,
+              0.5621052631578948,
+              0.8071748878923767,
+              0.6078947368421053
+            ],
+            "view_bbox": [
+              235.0,
+              1068.0,
+              360.0,
+              1155.0
+            ],
+            "rotation": 0.0,
+            "family": "stroke-60-0.0",
+            "reader": "medium",
+            "stroke_strength": 24.619718309859156,
+            "window": "unit"
+          }
+        ]
+      },
+      "IMG_3213": {
+        "before_fill": {
+          "status": "visual estimate",
+          "method": "Numbered graduations and nearest piston edge",
+          "ml": 38,
+          "interval_ml": [
+            36,
+            42
+          ],
+          "percent": 63,
+          "interval_percent": [
+            60,
+            70
+          ],
+          "capacity_ml": 60,
+          "piston_line": [
+            [
+              0.3385309208299369,
+              0.4728102558287959
+            ],
+            [
+              0.6556013437498186,
+              0.46759408831828364
+            ]
+          ],
+          "graduations": [
+            {
+              "ml": 10,
+              "crop_bbox": [
+                0.3062730627306273,
+                0.1891025641025641,
+                0.5350553505535055,
+                0.24358974358974358
+              ],
+              "text": "10"
+            },
+            {
+              "ml": 20,
+              "crop_bbox": [
+                0.34686346863468637,
+                0.28926282051282054,
+                0.5571955719557196,
+                0.33573717948717946
+              ],
+              "text": "20"
+            },
+            {
+              "ml": 30,
+              "crop_bbox": [
+                0.3800738007380074,
+                0.3814102564102564,
+                0.5867158671586716,
+                0.4254807692307692
+              ],
+              "text": "30"
+            },
+            {
+              "ml": 50,
+              "crop_bbox": [
+                0.43911439114391143,
+                0.5512820512820513,
+                0.6568265682656826,
+                0.5961538461538461
+              ],
+              "text": "50"
+            },
+            {
+              "ml": 60,
+              "crop_bbox": [
+                0.46863468634686345,
+                0.6290064102564102,
+                0.6642066420664207,
+                0.6698717948717948
+              ],
+              "text": "60"
+            }
+          ],
+          "localization": {
+            "contrast": 18.7,
+            "scale_residual_ml": 0.82,
+            "tick_train_verified": false
+          }
+        },
+        "candidate_fill": {
+          "status": "visual estimate",
+          "method": "Numbered graduations and nearest piston edge",
+          "ml": 38,
+          "interval_ml": [
+            36,
+            42
+          ],
+          "percent": 63,
+          "interval_percent": [
+            60,
+            70
+          ],
+          "capacity_ml": 60,
+          "piston_line": [
+            [
+              0.3385309208299369,
+              0.4728102558287959
+            ],
+            [
+              0.6556013437498186,
+              0.46759408831828364
+            ]
+          ],
+          "graduations": [
+            {
+              "ml": 10,
+              "crop_bbox": [
+                0.3062730627306273,
+                0.1891025641025641,
+                0.5350553505535055,
+                0.24358974358974358
+              ],
+              "text": "10"
+            },
+            {
+              "ml": 20,
+              "crop_bbox": [
+                0.34686346863468637,
+                0.28926282051282054,
+                0.5571955719557196,
+                0.33573717948717946
+              ],
+              "text": "20"
+            },
+            {
+              "ml": 30,
+              "crop_bbox": [
+                0.3800738007380074,
+                0.3814102564102564,
+                0.5867158671586716,
+                0.4254807692307692
+              ],
+              "text": "30"
+            },
+            {
+              "ml": 50,
+              "crop_bbox": [
+                0.43911439114391143,
+                0.5512820512820513,
+                0.6568265682656826,
+                0.5961538461538461
+              ],
+              "text": "50"
+            },
+            {
+              "ml": 60,
+              "crop_bbox": [
+                0.46863468634686345,
+                0.6290064102564102,
+                0.6642066420664207,
+                0.6698717948717948
+              ],
+              "text": "60"
+            }
+          ],
+          "localization": {
+            "contrast": 18.7,
+            "scale_residual_ml": 0.82,
+            "tick_train_verified": false
+          }
+        },
+        "reference_bracket": [
+          37.0,
+          41.0
+        ],
+        "capacity": {
+          "value": 60.0,
+          "unit": "mL",
+          "score": 0.9935459494590759,
+          "method": "adjacent number and unit",
+          "evidence": [
+            {
+              "text": "ml",
+              "crop_bbox": [
+                0.4280442804428044,
+                0.5905448717948718,
+                0.7232472324723247,
+                0.6370192307692307
+              ],
+              "rotation": 0.0
+            },
+            {
+              "text": "60",
+              "crop_bbox": [
+                0.46863468634686345,
+                0.6290064102564102,
+                0.6642066420664207,
+                0.6698717948717948
+              ],
+              "rotation": 0.0
+            }
+          ]
+        },
+        "added_capacity": false,
+        "expected_capacity": 60,
+        "extra_tokens": [
+          {
+            "text": "ml",
+            "score": 0.9813295602798462,
+            "crop_bbox": [
+              0.4092009685230024,
+              0.5847368421052631,
+              0.7239709443099274,
+              0.6331578947368421
+            ],
+            "view_bbox": [
+              169.0,
+              1111.0,
+              299.0,
+              1203.0
+            ],
+            "rotation": 0.0,
+            "family": "stroke-60-0.0",
+            "reader": "tiny",
+            "stroke_strength": 21.405405405405407,
+            "window": "unit"
+          },
+          {
+            "text": "40",
+            "score": 0.9887545108795166,
+            "crop_bbox": [
+              0.35108958837772397,
+              0.45210526315789473,
+              0.6658595641646489,
+              0.5005263157894737
+            ],
+            "view_bbox": [
+              145.0,
+              859.0,
+              275.0,
+              951.0
+            ],
+            "rotation": 0.0,
+            "family": "stroke-60-0.0",
+            "reader": "medium",
+            "stroke_strength": 24.594594594594593,
+            "window": "anchor"
+          },
+          {
+            "text": "40",
+            "score": 0.9942066669464111,
+            "crop_bbox": [
+              0.35108958837772397,
+              0.45842105263157895,
+              0.6658595641646489,
+              0.5068421052631579
+            ],
+            "view_bbox": [
+              145.0,
+              871.0,
+              275.0,
+              963.0
+            ],
+            "rotation": 0.0,
+            "family": "stroke-60-0.0",
+            "reader": "medium",
+            "stroke_strength": 24.594594594594593,
+            "window": "stroke"
+          },
+          {
+            "text": "ml",
+            "score": 0.9997775554656982,
+            "crop_bbox": [
+              0.4092009685230024,
+              0.5847368421052631,
+              0.7239709443099274,
+              0.6331578947368421
+            ],
+            "view_bbox": [
+              169.0,
+              1111.0,
+              299.0,
+              1203.0
+            ],
+            "rotation": 0.0,
+            "family": "stroke-60-0.0",
+            "reader": "medium",
+            "stroke_strength": 21.405405405405407,
+            "window": "unit"
+          }
+        ]
+      },
+      "IMG_3231": {
+        "before_fill": {
+          "status": "insufficient evidence",
+          "reason": "The two visible numbers have no corroborating graduation pattern."
+        },
+        "candidate_fill": {
+          "status": "visual estimate",
+          "method": "Numbered graduations and nearest piston edge",
+          "ml": 15,
+          "interval_ml": [
+            13,
+            16
+          ],
+          "percent": 75,
+          "interval_percent": [
+            65,
+            80
+          ],
+          "capacity_ml": 20,
+          "piston_line": [
+            [
+              0.267031479674292,
+              0.41836575396258374
+            ],
+            [
+              0.6170478873054814,
+              0.41224078969336053
+            ]
+          ],
+          "graduations": [
+            {
+              "ml": 5,
+              "crop_bbox": [
+                0.3493150684931507,
+                0.1987179487179487,
+                0.4520547945205479,
+                0.2299679487179487
+              ],
+              "text": "5"
+            },
+            {
+              "ml": 10,
+              "crop_bbox": [
+                0.298876404494382,
+                0.2905263157894737,
+                0.5662921348314607,
+                0.34421052631578947
+              ],
+              "text": "10"
+            },
+            {
+              "ml": 20,
+              "crop_bbox": [
+                0.3938356164383562,
+                0.4895833333333333,
+                0.6027397260273972,
+                0.5560897435897436
+              ],
+              "text": "20"
+            }
+          ],
+          "localization": {
+            "contrast": 10.2,
+            "scale_residual_ml": 0.01,
+            "tick_train_verified": false
+          }
+        },
+        "reference_bracket": [
+          12.0,
+          15.0
+        ],
+        "capacity": {
+          "value": 20.0,
+          "unit": "mL",
+          "score": 0.8198608160018921,
+          "method": "adjacent number and unit",
+          "evidence": [
+            {
+              "text": "ml",
+              "crop_bbox": [
+                0.3527397260273973,
+                0.4911858974358974,
+                0.6643835616438356,
+                0.5200320512820513
+              ],
+              "rotation": 0.0
+            },
+            {
+              "text": "20",
+              "crop_bbox": [
+                0.3938356164383562,
+                0.4895833333333333,
+                0.6027397260273972,
+                0.5560897435897436
+              ],
+              "rotation": 0.0
+            }
+          ]
+        },
+        "added_capacity": false,
+        "expected_capacity": 20,
+        "extra_tokens": [
+          {
+            "text": "10",
+            "score": 0.9838595390319824,
+            "crop_bbox": [
+              0.298876404494382,
+              0.2905263157894737,
+              0.5662921348314607,
+              0.34421052631578947
+            ],
+            "view_bbox": [
+              133.0,
+              552.0,
+              252.0,
+              654.0
+            ],
+            "rotation": 0.0,
+            "family": "stroke-20-0.0",
+            "reader": "tiny",
+            "stroke_strength": 39.25,
+            "window": "anchor"
+          },
+          {
+            "text": "10",
+            "score": 0.9924556016921997,
+            "crop_bbox": [
+              0.298876404494382,
+              0.3005263157894737,
+              0.5662921348314607,
+              0.3542105263157895
+            ],
+            "view_bbox": [
+              133.0,
+              571.0,
+              252.0,
+              673.0
+            ],
+            "rotation": 0.0,
+            "family": "stroke-20-0.0",
+            "reader": "tiny",
+            "stroke_strength": 39.25,
+            "window": "stroke"
+          },
+          {
+            "text": "10",
+            "score": 0.9999694228172302,
+            "crop_bbox": [
+              0.298876404494382,
+              0.2905263157894737,
+              0.5662921348314607,
+              0.34421052631578947
+            ],
+            "view_bbox": [
+              133.0,
+              552.0,
+              252.0,
+              654.0
+            ],
+            "rotation": 0.0,
+            "family": "stroke-20-0.0",
+            "reader": "medium",
+            "stroke_strength": 39.25,
+            "window": "anchor"
+          }
+        ]
+      },
+      "IMG_3237": {
+        "before_fill": {
+          "status": "insufficient evidence",
+          "reason": "The two visible numbers have no corroborating graduation pattern."
+        },
+        "candidate_fill": {
+          "status": "visual estimate",
+          "method": "Numbered graduations and nearest piston edge",
+          "ml": 14,
+          "interval_ml": [
+            13,
+            16
+          ],
+          "percent": 70,
+          "interval_percent": [
+            65,
+            80
+          ],
+          "capacity_ml": 20,
+          "piston_line": [
+            [
+              0.31990637528205146,
+              0.38098396290319625
+            ],
+            [
+              0.663949372659584,
+              0.37909012666573433
+            ]
+          ],
+          "graduations": [
+            {
+              "ml": 5,
+              "crop_bbox": [
+                0.326133909287257,
+                0.16894736842105262,
+                0.5658747300215983,
+                0.20421052631578948
+              ],
+              "text": "5"
+            },
+            {
+              "ml": 10,
+              "crop_bbox": [
+                0.3848684210526316,
+                0.2748397435897436,
+                0.5263157894736842,
+                0.3076923076923077
+              ],
+              "text": "10"
+            },
+            {
+              "ml": 20,
+              "crop_bbox": [
+                0.38876889848812096,
+                0.48526315789473684,
+                0.5615550755939525,
+                0.5157894736842106
+              ],
+              "text": "20"
+            }
+          ],
+          "localization": {
+            "contrast": 14.7,
+            "scale_residual_ml": 0.0,
+            "tick_train_verified": false
+          }
+        },
+        "reference_bracket": [
+          12.0,
+          15.0
+        ],
+        "capacity": {
+          "value": 20.0,
+          "unit": "mL",
+          "score": 0.9344950914382935,
+          "method": "adjacent number and unit",
+          "evidence": [
+            {
+              "text": "ml",
+              "crop_bbox": [
+                0.3736501079913607,
+                0.45368421052631586,
+                0.5485961123110151,
+                0.48894736842105263
+              ],
+              "rotation": 0.0
+            },
+            {
+              "text": "20",
+              "crop_bbox": [
+                0.3717105263157895,
+                0.453525641025641,
+                0.5789473684210527,
+                0.5224358974358975
+              ],
+              "rotation": 0.0
+            }
+          ]
+        },
+        "added_capacity": false,
+        "expected_capacity": 20,
+        "extra_tokens": [
+          {
+            "text": "5",
+            "score": 0.9999799728393555,
+            "crop_bbox": [
+              0.326133909287257,
+              0.16894736842105262,
+              0.5658747300215983,
+              0.20421052631578948
+            ],
+            "view_bbox": [
+              151.0,
+              321.0,
+              262.0,
+              388.0
+            ],
+            "rotation": 0.0,
+            "family": "stroke-20-0.0",
+            "reader": "tiny",
+            "stroke_strength": 23.53968253968254,
+            "window": "anchor"
+          },
+          {
+            "text": "5",
+            "score": 0.9999594688415527,
+            "crop_bbox": [
+              0.326133909287257,
+              0.17157894736842105,
+              0.5658747300215983,
+              0.2063157894736842
+            ],
+            "view_bbox": [
+              151.0,
+              326.0,
+              262.0,
+              392.0
+            ],
+            "rotation": 0.0,
+            "family": "stroke-20-0.0",
+            "reader": "tiny",
+            "stroke_strength": 23.53968253968254,
+            "window": "stroke"
+          },
+          {
+            "text": "ml",
+            "score": 0.9659796953201294,
+            "crop_bbox": [
+              0.3563714902807775,
+              0.4536842105263158,
+              0.593952483801296,
+              0.48894736842105263
+            ],
+            "view_bbox": [
+              165.0,
+              862.0,
+              275.0,
+              929.0
+            ],
+            "rotation": 0.0,
+            "family": "stroke-20-0.0",
+            "reader": "tiny",
+            "stroke_strength": 28.8125,
+            "window": "unit"
+          },
+          {
+            "text": "5",
+            "score": 0.9999872446060181,
+            "crop_bbox": [
+              0.326133909287257,
+              0.16894736842105262,
+              0.5658747300215983,
+              0.20421052631578948
+            ],
+            "view_bbox": [
+              151.0,
+              321.0,
+              262.0,
+              388.0
+            ],
+            "rotation": 0.0,
+            "family": "stroke-20-0.0",
+            "reader": "medium",
+            "stroke_strength": 23.53968253968254,
+            "window": "anchor"
+          },
+          {
+            "text": "5",
+            "score": 0.999984860420227,
+            "crop_bbox": [
+              0.326133909287257,
+              0.17157894736842105,
+              0.5658747300215983,
+              0.2063157894736842
+            ],
+            "view_bbox": [
+              151.0,
+              326.0,
+              262.0,
+              392.0
+            ],
+            "rotation": 0.0,
+            "family": "stroke-20-0.0",
+            "reader": "medium",
+            "stroke_strength": 23.53968253968254,
+            "window": "stroke"
+          },
+          {
+            "text": "ml",
+            "score": 0.9995852708816528,
+            "crop_bbox": [
+              0.3563714902807775,
+              0.4536842105263158,
+              0.593952483801296,
+              0.48894736842105263
+            ],
+            "view_bbox": [
+              165.0,
+              862.0,
+              275.0,
+              929.0
+            ],
+            "rotation": 0.0,
+            "family": "stroke-20-0.0",
+            "reader": "medium",
+            "stroke_strength": 28.8125,
+            "window": "unit"
+          }
+        ]
+      },
+      "IMG_3242": {
+        "before_fill": {
+          "status": "visual estimate",
+          "method": "Numbered graduations and nearest piston edge",
+          "ml": 14,
+          "interval_ml": [
+            11,
+            17
+          ],
+          "percent": 70,
+          "interval_percent": [
+            55,
+            85
+          ],
+          "capacity_ml": 20,
+          "piston_line": [
+            [
+              0.356781171588661,
+              0.6604453699914886
+            ],
+            [
+              0.3708983124447906,
+              0.5243104724485954
+            ]
+          ],
+          "graduations": [
+            {
+              "ml": 10,
+              "crop_bbox": [
+                0.25080128205128205,
+                0.5510455104551045,
+                0.29246794871794873,
+                0.6211562115621155
+              ],
+              "text": "10"
+            },
+            {
+              "ml": 20,
+              "crop_bbox": [
+                0.4689473684210526,
+                0.5949878738884397,
+                0.5178947368421052,
+                0.6855295068714631
+              ],
+              "text": "20"
+            }
+          ],
+          "localization": {
+            "contrast": 13.5,
+            "scale_residual_ml": 0.0,
+            "tick_train_verified": true
+          }
+        },
+        "candidate_fill": {
+          "status": "visual estimate",
+          "method": "Numbered graduations and nearest piston edge",
+          "ml": 14,
+          "interval_ml": [
+            11,
+            17
+          ],
+          "percent": 70,
+          "interval_percent": [
+            55,
+            85
+          ],
+          "capacity_ml": 20,
+          "piston_line": [
+            [
+              0.356781171588661,
+              0.6604453699914886
+            ],
+            [
+              0.3708983124447906,
+              0.5243104724485954
+            ]
+          ],
+          "graduations": [
+            {
+              "ml": 10,
+              "crop_bbox": [
+                0.25080128205128205,
+                0.5510455104551045,
+                0.29246794871794873,
+                0.6211562115621155
+              ],
+              "text": "10"
+            },
+            {
+              "ml": 20,
+              "crop_bbox": [
+                0.4689473684210526,
+                0.5949878738884397,
+                0.5178947368421052,
+                0.6855295068714631
+              ],
+              "text": "20"
+            }
+          ],
+          "localization": {
+            "contrast": 13.5,
+            "scale_residual_ml": 0.0,
+            "tick_train_verified": true
+          }
+        },
+        "reference_bracket": [
+          12.0,
+          15.0
+        ],
+        "capacity": {
+          "value": 20.0,
+          "unit": "mL",
+          "score": 0.9276856184005737,
+          "method": "adjacent number and unit",
+          "evidence": [
+            {
+              "text": "ml",
+              "crop_bbox": [
+                0.4431089743589743,
+                0.5633456334563344,
+                0.4775641025641026,
+                0.7047970479704796
+              ],
+              "rotation": 270.0
+            },
+            {
+              "text": "20",
+              "crop_bbox": [
+                0.4415064102564102,
+                0.5916359163591635,
+                0.5200320512820513,
+                0.6863468634686345
+              ],
+              "rotation": 270.0
+            }
+          ]
+        },
+        "added_capacity": false,
+        "expected_capacity": 20,
+        "extra_tokens": [
+          {
+            "text": "ml",
+            "score": 0.9987784028053284,
+            "crop_bbox": [
+              0.4268421052631579,
+              0.5788197251414714,
+              0.4768421052631579,
+              0.7016976556184317
+            ],
+            "view_bbox": [
+              369.0,
+              811.0,
+              521.0,
+              906.0
+            ],
+            "rotation": 270.0,
+            "family": "stroke-20-270.0",
+            "reader": "medium",
+            "stroke_strength": 30.38372093023256,
+            "window": "unit"
+          }
+        ]
+      },
+      "IMG_3244": {
+        "before_fill": {
+          "status": "insufficient evidence",
+          "reason": "The two visible numbers have no corroborating graduation pattern."
+        },
+        "candidate_fill": {
+          "status": "visual estimate",
+          "method": "Numbered graduations and nearest piston edge",
+          "ml": 14,
+          "interval_ml": [
+            12,
+            15
+          ],
+          "percent": 70,
+          "interval_percent": [
+            60,
+            75
+          ],
+          "capacity_ml": 20,
+          "piston_line": [
+            [
+              0.2719638740804134,
+              0.4250079855980483
+            ],
+            [
+              0.6977100771950374,
+              0.43032495586182706
+            ]
+          ],
+          "graduations": [
+            {
+              "ml": 5,
+              "crop_bbox": [
+                0.5920745920745921,
+                0.20526315789473684,
+                0.8531468531468531,
+                0.24368421052631578
+              ],
+              "text": "5"
+            },
+            {
+              "ml": 10,
+              "crop_bbox": [
+                0.6276595744680851,
+                0.3293269230769231,
+                0.7588652482269505,
+                0.358974358974359
+              ],
+              "text": "10"
+            },
+            {
+              "ml": 20,
+              "crop_bbox": [
+                0.5268065268065268,
+                0.5636842105263158,
+                0.7412587412587412,
+                0.6036842105263158
+              ],
+              "text": "20"
+            }
+          ],
+          "localization": {
+            "contrast": 10.8,
+            "scale_residual_ml": 0.0,
+            "tick_train_verified": false
+          }
+        },
+        "reference_bracket": [
+          12.0,
+          15.0
+        ],
+        "capacity": {
+          "value": 20.0,
+          "unit": "mL",
+          "score": 0.9562135934829712,
+          "method": "adjacent number and unit",
+          "evidence": [
+            {
+              "text": "ml",
+              "crop_bbox": [
+                0.48226950354609927,
+                0.5256410256410257,
+                0.8049645390070922,
+                0.5713141025641025
+              ],
+              "rotation": 0.0
+            },
+            {
+              "text": "20",
+              "crop_bbox": [
+                0.5268065268065268,
+                0.5636842105263158,
+                0.7412587412587412,
+                0.6036842105263158
+              ],
+              "rotation": 0.0
+            }
+          ]
+        },
+        "added_capacity": false,
+        "expected_capacity": 20,
+        "extra_tokens": [
+          {
+            "text": "5",
+            "score": 0.9999963045120239,
+            "crop_bbox": [
+              0.5920745920745921,
+              0.20526315789473684,
+              0.8531468531468531,
+              0.24368421052631578
+            ],
+            "view_bbox": [
+              254.0,
+              390.0,
+              366.0,
+              463.0
+            ],
+            "rotation": 0.0,
+            "family": "stroke-20-0.0",
+            "reader": "tiny",
+            "stroke_strength": 26.90625,
+            "window": "anchor"
+          },
+          {
+            "text": "5",
+            "score": 0.9999756813049316,
+            "crop_bbox": [
+              0.5920745920745921,
+              0.2026315789473684,
+              0.8531468531468531,
+              0.24052631578947367
+            ],
+            "view_bbox": [
+              254.0,
+              385.0,
+              366.0,
+              457.0
+            ],
+            "rotation": 0.0,
+            "family": "stroke-20-0.0",
+            "reader": "tiny",
+            "stroke_strength": 26.90625,
+            "window": "stroke"
+          },
+          {
+            "text": "ml",
+            "score": 0.9534138441085815,
+            "crop_bbox": [
+              0.5034965034965035,
+              0.5326315789473685,
+              0.7645687645687645,
+              0.5710526315789474
+            ],
+            "view_bbox": [
+              216.0,
+              1012.0,
+              328.0,
+              1085.0
+            ],
+            "rotation": 0.0,
+            "family": "stroke-20-0.0",
+            "reader": "tiny",
+            "stroke_strength": 36.984375,
+            "window": "unit"
+          },
+          {
+            "text": "5",
+            "score": 0.9999897480010986,
+            "crop_bbox": [
+              0.5920745920745921,
+              0.20526315789473684,
+              0.8531468531468531,
+              0.24368421052631578
+            ],
+            "view_bbox": [
+              254.0,
+              390.0,
+              366.0,
+              463.0
+            ],
+            "rotation": 0.0,
+            "family": "stroke-20-0.0",
+            "reader": "medium",
+            "stroke_strength": 26.90625,
+            "window": "anchor"
+          },
+          {
+            "text": "5",
+            "score": 0.9999871253967285,
+            "crop_bbox": [
+              0.5920745920745921,
+              0.2026315789473684,
+              0.8531468531468531,
+              0.24052631578947367
+            ],
+            "view_bbox": [
+              254.0,
+              385.0,
+              366.0,
+              457.0
+            ],
+            "rotation": 0.0,
+            "family": "stroke-20-0.0",
+            "reader": "medium",
+            "stroke_strength": 26.90625,
+            "window": "stroke"
+          },
+          {
+            "text": "ml",
+            "score": 0.999748945236206,
+            "crop_bbox": [
+              0.5034965034965035,
+              0.5326315789473685,
+              0.7645687645687645,
+              0.5710526315789474
+            ],
+            "view_bbox": [
+              216.0,
+              1012.0,
+              328.0,
+              1085.0
+            ],
+            "rotation": 0.0,
+            "family": "stroke-20-0.0",
+            "reader": "medium",
+            "stroke_strength": 36.984375,
+            "window": "unit"
+          }
+        ]
+      },
+      "IMG_3245": {
+        "before_fill": {
+          "status": "visual estimate",
+          "method": "Numbered graduations and nearest piston edge",
+          "ml": 14,
+          "interval_ml": [
+            12,
+            15
+          ],
+          "percent": 70,
+          "interval_percent": [
+            60,
+            75
+          ],
+          "capacity_ml": 20,
+          "piston_line": [
+            [
+              0.31381565519769333,
+              0.5158482028214496
+            ],
+            [
+              0.7380435942350579,
+              0.5178523205315924
+            ]
+          ],
+          "graduations": [
+            {
+              "ml": 5,
+              "crop_bbox": [
+                0.5957446808510638,
+                0.2532051282051282,
+                0.7173252279635258,
+                0.2900641025641026
+              ],
+              "text": "5"
+            },
+            {
+              "ml": 10,
+              "crop_bbox": [
+                0.5592705167173252,
+                0.39903846153846156,
+                0.7872340425531915,
+                0.4423076923076923
+              ],
+              "text": "10"
+            },
+            {
+              "ml": 20,
+              "crop_bbox": [
+                0.5425149700598803,
+                0.6650983379501385,
+                0.7239678537661519,
+                0.7197797783933518
+              ],
+              "text": "20"
+            }
+          ],
+          "localization": {
+            "contrast": 10.4,
+            "scale_residual_ml": 0.25,
+            "tick_train_verified": false
+          }
+        },
+        "candidate_fill": {
+          "status": "visual estimate",
+          "method": "Numbered graduations and nearest piston edge",
+          "ml": 14,
+          "interval_ml": [
+            12,
+            15
+          ],
+          "percent": 70,
+          "interval_percent": [
+            60,
+            75
+          ],
+          "capacity_ml": 20,
+          "piston_line": [
+            [
+              0.31381565519769333,
+              0.5158482028214496
+            ],
+            [
+              0.7380435942350579,
+              0.5178523205315924
+            ]
+          ],
+          "graduations": [
+            {
+              "ml": 5,
+              "crop_bbox": [
+                0.5957446808510638,
+                0.2532051282051282,
+                0.7173252279635258,
+                0.2900641025641026
+              ],
+              "text": "5"
+            },
+            {
+              "ml": 10,
+              "crop_bbox": [
+                0.5592705167173252,
+                0.39903846153846156,
+                0.7872340425531915,
+                0.4423076923076923
+              ],
+              "text": "10"
+            },
+            {
+              "ml": 20,
+              "crop_bbox": [
+                0.5425149700598803,
+                0.6650983379501385,
+                0.7239678537661519,
+                0.7197797783933518
+              ],
+              "text": "20"
+            }
+          ],
+          "localization": {
+            "contrast": 10.4,
+            "scale_residual_ml": 0.25,
+            "tick_train_verified": false
+          }
+        },
+        "reference_bracket": [
+          12.0,
+          15.0
+        ],
+        "capacity": {
+          "value": 20.0,
+          "unit": "mL",
+          "score": 0.7827739715576172,
+          "method": "adjacent number and unit",
+          "evidence": [
+            {
+              "text": "ml",
+              "crop_bbox": [
+                0.5580680743775607,
+                0.6477825484764542,
+                0.706686626746507,
+                0.6815027700831026
+              ],
+              "rotation": 0.0
+            },
+            {
+              "text": "20",
+              "crop_bbox": [
+                0.5425149700598803,
+                0.6650983379501385,
+                0.7239678537661519,
+                0.7197797783933518
+              ],
+              "rotation": 0.0
+            }
+          ]
+        },
+        "added_capacity": false,
+        "expected_capacity": 20,
+        "extra_tokens": [
+          {
+            "text": "ml",
+            "score": 0.9437196254730225,
+            "crop_bbox": [
+              0.5089820359281437,
+              0.6289473684210526,
+              0.7584830339321357,
+              0.6763157894736842
+            ],
+            "view_bbox": [
+              255.0,
+              1195.0,
+              380.0,
+              1285.0
+            ],
+            "rotation": 0.0,
+            "family": "stroke-20-0.0",
+            "reader": "tiny",
+            "stroke_strength": 33.5,
+            "window": "unit"
+          },
+          {
+            "text": "ml",
+            "score": 0.9993735551834106,
+            "crop_bbox": [
+              0.5089820359281437,
+              0.6289473684210526,
+              0.7584830339321357,
+              0.6763157894736842
+            ],
+            "view_bbox": [
+              255.0,
+              1195.0,
+              380.0,
+              1285.0
+            ],
+            "rotation": 0.0,
+            "family": "stroke-20-0.0",
+            "reader": "medium",
+            "stroke_strength": 33.5,
+            "window": "unit"
+          }
+        ]
+      },
+      "IMG_3246": {
+        "before_fill": {
+          "status": "insufficient evidence",
+          "reason": "The two visible numbers have no corroborating graduation pattern."
+        },
+        "candidate_fill": {
+          "status": "visual estimate",
+          "method": "Numbered graduations and nearest piston edge",
+          "ml": 15,
+          "interval_ml": [
+            13,
+            16
+          ],
+          "percent": 75,
+          "interval_percent": [
+            65,
+            80
+          ],
+          "capacity_ml": 20,
+          "piston_line": [
+            [
+              0.5050032275820399,
+              0.4005466321851687
+            ],
+            [
+              0.7050367278988755,
+              0.43053556341023363
+            ]
+          ],
+          "graduations": [
+            {
+              "ml": 5,
+              "crop_bbox": [
+                0.717839205056023,
+                0.1733923253713842,
+                0.8689390608124835,
+                0.24075598438635343
+              ],
+              "text": "5"
+            },
+            {
+              "ml": 10,
+              "crop_bbox": [
+                0.5370444457901151,
+                0.25041265322406336,
+                0.8808640345931034,
+                0.3851976694936141
+              ],
+              "text": "10"
+            },
+            {
+              "ml": 20,
+              "crop_bbox": [
+                0.3696199174873832,
+                0.4623959814800419,
+                0.7098749508883051,
+                0.6168153601862634
+              ],
+              "text": "20"
+            }
+          ],
+          "localization": {
+            "contrast": 9.8,
+            "scale_residual_ml": 0.0,
+            "tick_train_verified": false
+          }
+        },
+        "reference_bracket": [
+          12.0,
+          15.0
+        ],
+        "capacity": {
+          "value": 20.0,
+          "unit": "mL",
+          "score": 0.9629560112953186,
+          "method": "adjacent number and unit",
+          "evidence": [
+            {
+              "text": "ml",
+              "crop_bbox": [
+                0.4539953126771168,
+                0.48844644780500646,
+                0.6732790119597949,
+                0.5543098552794474
+              ],
+              "rotation": 21.4
+            },
+            {
+              "text": "20",
+              "crop_bbox": [
+                0.44362007015217375,
+                0.4913399094503104,
+                0.6358747982235147,
+                0.5878714322159949
+              ],
+              "rotation": 21.4
+            }
+          ]
+        },
+        "added_capacity": false,
+        "expected_capacity": 20,
+        "extra_tokens": [
+          {
+            "text": "10",
+            "score": 0.9432010650634766,
+            "crop_bbox": [
+              0.5370444457901151,
+              0.25041265322406336,
+              0.8808640345931034,
+              0.3851976694936141
+            ],
+            "view_bbox": [
+              656.0,
+              561.0,
+              896.0,
+              742.0
+            ],
+            "rotation": 21.4,
+            "family": "stroke-20-21.4",
+            "reader": "tiny",
+            "stroke_strength": 32.36496350364963,
+            "window": "anchor"
+          },
+          {
+            "text": "10",
+            "score": 0.9998100996017456,
+            "crop_bbox": [
+              0.5370444457901151,
+              0.25041265322406336,
+              0.8808640345931034,
+              0.3851976694936141
+            ],
+            "view_bbox": [
+              656.0,
+              561.0,
+              896.0,
+              742.0
+            ],
+            "rotation": 21.4,
+            "family": "stroke-20-21.4",
+            "reader": "medium",
+            "stroke_strength": 32.36496350364963,
+            "window": "anchor"
+          }
+        ]
+      },
+      "IMG_3223": {
+        "before_fill": {
+          "status": "insufficient evidence",
+          "reason": "Three consistent numbered graduations are required."
+        },
+        "candidate_fill": {
+          "status": "insufficient evidence",
+          "reason": "Three consistent numbered graduations are required."
+        },
+        "reference_bracket": [
+          4.0,
+          7.0
+        ],
+        "capacity": {
+          "value": 20.0,
+          "unit": "mL",
+          "score": 0.9773801565170288,
+          "method": "adjacent number and unit",
+          "evidence": [
+            {
+              "text": "ml",
+              "crop_bbox": [
+                0.24561403508771928,
+                0.5440705128205128,
+                0.7149122807017544,
+                0.5969551282051282
+              ],
+              "rotation": 0.0
+            },
+            {
+              "text": "20",
+              "crop_bbox": [
+                0.3063476414378887,
+                0.5880900277008311,
+                0.6192628545426968,
+                0.6343753462603878
+              ],
+              "rotation": 0.0
+            }
+          ]
+        },
+        "added_capacity": false,
+        "expected_capacity": 20,
+        "extra_tokens": [
+          {
+            "text": "ml",
+            "score": 0.9799957275390625,
+            "crop_bbox": [
+              0.2334293948126801,
+              0.5484210526315789,
+              0.69164265129683,
+              0.5952631578947368
+            ],
+            "view_bbox": [
+              81.0,
+              1042.0,
+              240.0,
+              1131.0
+            ],
+            "rotation": 0.0,
+            "family": "stroke-20-0.0",
+            "reader": "tiny",
+            "stroke_strength": 15.582417582417582,
+            "window": "unit"
+          },
+          {
+            "text": "ml",
+            "score": 0.9996615648269653,
+            "crop_bbox": [
+              0.2334293948126801,
+              0.5484210526315789,
+              0.69164265129683,
+              0.5952631578947368
+            ],
+            "view_bbox": [
+              81.0,
+              1042.0,
+              240.0,
+              1131.0
+            ],
+            "rotation": 0.0,
+            "family": "stroke-20-0.0",
+            "reader": "medium",
+            "stroke_strength": 15.582417582417582,
+            "window": "unit"
+          }
+        ]
+      },
+      "IMG_3228": {
+        "before_fill": {
+          "status": "insufficient evidence",
+          "reason": "Three consistent numbered graduations are required."
+        },
+        "candidate_fill": {
+          "status": "visual estimate",
+          "method": "Numbered graduations and nearest piston edge",
+          "ml": 5,
+          "interval_ml": [
+            4,
+            7
+          ],
+          "percent": 25,
+          "interval_percent": [
+            20,
+            35
+          ],
+          "capacity_ml": 20,
+          "piston_line": [
+            [
+              0.17091218277537212,
+              0.28220139079549317
+            ],
+            [
+              0.7441915350020935,
+              0.2834604706986409
+            ]
+          ],
+          "graduations": [
+            {
+              "ml": 10,
+              "crop_bbox": [
+                0.18886198547215496,
+                0.4031578947368421,
+                0.6852300242130751,
+                0.4626315789473684
+              ],
+              "text": "10"
+            },
+            {
+              "ml": 15,
+              "crop_bbox": [
+                0.2693726937269373,
+                0.5625,
+                0.5904059040590406,
+                0.6137820512820513
+              ],
+              "text": "15"
+            },
+            {
+              "ml": 20,
+              "crop_bbox": [
+                0.2566585956416465,
+                0.7147368421052632,
+                0.5883777239709443,
+                0.7721052631578947
+              ],
+              "text": "20"
+            }
+          ],
+          "localization": {
+            "contrast": 18.2,
+            "scale_residual_ml": 0.0,
+            "tick_train_verified": false
+          }
+        },
+        "reference_bracket": [
+          4.0,
+          7.0
+        ],
+        "capacity": {
+          "value": 20.0,
+          "unit": "mL",
+          "score": 0.9797333478927612,
+          "method": "adjacent number and unit",
+          "evidence": [
+            {
+              "text": "ml",
+              "crop_bbox": [
+                0.2066420664206642,
+                0.6658653846153846,
+                0.6789667896678967,
+                0.7259615384615384
+              ],
+              "rotation": 0.0
+            },
+            {
+              "text": "20",
+              "crop_bbox": [
+                0.2693726937269373,
+                0.7155448717948718,
+                0.5830258302583026,
+                0.7676282051282052
+              ],
+              "rotation": 0.0
+            }
+          ]
+        },
+        "added_capacity": false,
+        "expected_capacity": 20,
+        "extra_tokens": [
+          {
+            "text": "10",
+            "score": 0.9961974620819092,
+            "crop_bbox": [
+              0.18886198547215496,
+              0.4031578947368421,
+              0.6852300242130751,
+              0.4626315789473684
+            ],
+            "view_bbox": [
+              78.0,
+              766.0,
+              283.0,
+              879.0
+            ],
+            "rotation": 0.0,
+            "family": "stroke-20-0.0",
+            "reader": "tiny",
+            "stroke_strength": 22.203389830508474,
+            "window": "anchor"
+          },
+          {
+            "text": "ml",
+            "score": 0.9724001884460449,
+            "crop_bbox": [
+              0.17433414043583534,
+              0.6636842105263158,
+              0.6707021791767555,
+              0.7231578947368421
+            ],
+            "view_bbox": [
+              72.0,
+              1261.0,
+              277.0,
+              1374.0
+            ],
+            "rotation": 0.0,
+            "family": "stroke-20-0.0",
+            "reader": "tiny",
+            "stroke_strength": 13.401709401709402,
+            "window": "unit"
+          },
+          {
+            "text": "ml",
+            "score": 0.9997494220733643,
+            "crop_bbox": [
+              0.17433414043583534,
+              0.6636842105263158,
+              0.6707021791767555,
+              0.7231578947368421
+            ],
+            "view_bbox": [
+              72.0,
+              1261.0,
+              277.0,
+              1374.0
+            ],
+            "rotation": 0.0,
+            "family": "stroke-20-0.0",
+            "reader": "medium",
+            "stroke_strength": 13.401709401709402,
+            "window": "unit"
+          }
+        ]
+      },
+      "IMG_3229": {
+        "before_fill": {
+          "status": "insufficient evidence",
+          "reason": "Three consistent numbered graduations are required."
+        },
+        "candidate_fill": {
+          "status": "insufficient evidence",
+          "reason": "The nearest piston edge or the uninterrupted liquid column is ambiguous."
+        },
+        "reference_bracket": [
+          4.0,
+          8.0
+        ],
+        "capacity": {
+          "value": 20.0,
+          "unit": "mL",
+          "score": 0.8185445070266724,
+          "method": "adjacent number and unit",
+          "evidence": [
+            {
+              "text": "ml",
+              "crop_bbox": [
+                0.28440366972477066,
+                0.5088141025641025,
+                0.8302752293577982,
+                0.592948717948718
+              ],
+              "rotation": 0.0
+            },
+            {
+              "text": "20",
+              "crop_bbox": [
+                0.3577981651376147,
+                0.5448717948717948,
+                0.7201834862385321,
+                0.6346153846153846
+              ],
+              "rotation": 0.0
+            }
+          ]
+        },
+        "added_capacity": false,
+        "expected_capacity": 20,
+        "extra_tokens": [
+          {
+            "text": "10",
+            "score": 0.9795873165130615,
+            "crop_bbox": [
+              0.35843373493975905,
+              0.3336842105263158,
+              0.8554216867469879,
+              0.40842105263157896
+            ],
+            "view_bbox": [
+              119.0,
+              634.0,
+              284.0,
+              776.0
+            ],
+            "rotation": 0.0,
+            "family": "stroke-20-0.0",
+            "reader": "tiny",
+            "stroke_strength": 27.840425531914892,
+            "window": "anchor"
+          },
+          {
+            "text": "10",
+            "score": 0.9770537614822388,
+            "crop_bbox": [
+              0.35843373493975905,
+              0.3173684210526316,
+              0.8554216867469879,
+              0.39210526315789473
+            ],
+            "view_bbox": [
+              119.0,
+              603.0,
+              284.0,
+              745.0
+            ],
+            "rotation": 0.0,
+            "family": "stroke-20-0.0",
+            "reader": "tiny",
+            "stroke_strength": 27.840425531914892,
+            "window": "stroke"
+          },
+          {
+            "text": "10",
+            "score": 0.9997996091842651,
+            "crop_bbox": [
+              0.35843373493975905,
+              0.3336842105263158,
+              0.8554216867469879,
+              0.40842105263157896
+            ],
+            "view_bbox": [
+              119.0,
+              634.0,
+              284.0,
+              776.0
+            ],
+            "rotation": 0.0,
+            "family": "stroke-20-0.0",
+            "reader": "medium",
+            "stroke_strength": 27.840425531914892,
+            "window": "anchor"
+          },
+          {
+            "text": "10",
+            "score": 0.9998101592063904,
+            "crop_bbox": [
+              0.35843373493975905,
+              0.3173684210526316,
+              0.8554216867469879,
+              0.39210526315789473
+            ],
+            "view_bbox": [
+              119.0,
+              603.0,
+              284.0,
+              745.0
+            ],
+            "rotation": 0.0,
+            "family": "stroke-20-0.0",
+            "reader": "medium",
+            "stroke_strength": 27.840425531914892,
+            "window": "stroke"
+          }
+        ]
+      }
+    }
+  }
+}
