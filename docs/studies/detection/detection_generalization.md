@@ -15,7 +15,7 @@ The objective is to improve automatic detection in new photographs while preserv
 
 The corpus builders record source URLs and groups, attribution, license, byte hashes, and perceptual hashes. Commons screening compares rotations and reflections. The Zenodo capture includes different angles at a repeating clinical simulator. Its available previously unused groups are negative and visually linked to known scenes. The primary external scope is the new public photograph cohort. Original web or foundation-model pretraining exposure is unknown. This challenge uses deliberate enrichment for difficult scenes, so precision is conditional on the mix of positives and lookalikes. [Corpus investigation](../../datasets/detection_corpus_research.md) · [Commons protocol](detection_public_benchmark.md) · [Zenodo fit and development manifest](../../../artifacts/detection_hillclimb/phlebotomy.json)
 
-A local crop- and rotation-aware lineage screen covered 598 distinct images and checked 8,493 shortlisted cross-partition pairs. It found no exact cross-partition hashes. All 845 geometric flags connected simulator fit and simulator development frames from different filename groups. Visual review of four high-support group pairs showed the same clinical station, equipment and simulator arm, including under camera rotation. Zero flags involved the separately sourced reserves. All 12 rotated and cropped fit-image controls passed both retrieval and geometric checks. This screen measures shared visible content and cannot exclude every repeated specimen. Treat simulator development as a within-setting diagnostic and base release decisions on the separately sourced photographs. [Lineage results](../../../artifacts/detection_hillclimb/visual_lineage_screen.json) · [Screen implementation](../../../scripts/detection_visual_lineage.py)
+A local crop- and rotation-aware lineage screen covered 598 distinct images and checked 8,493 shortlisted cross-partition pairs. It found no exact cross-partition hashes. All 845 geometric flags connected simulator fit and simulator development frames from different filename groups. Visual review of four high-support group pairs showed the same clinical station, equipment and simulator arm, including under camera rotation. Zero flags involved the separately sourced reserves. All 12 rotated and cropped fit-image controls passed both retrieval and geometric checks. This screen measures shared visible content and cannot exclude every repeated specimen. Treat simulator development as a within-setting diagnostic and base release decisions on the separately sourced photographs. [Lineage results](../../../artifacts/detection_hillclimb/visual_lineage_screen.json) · [Screen implementation](../../../scripts/experiments/detector_audits/detection_visual_lineage.py)
 
 ## Development experiments
 
@@ -72,45 +72,45 @@ Run the commands from the repository root after restoring the original capture, 
 
 ```bash
 uv sync --locked --python 3.12
-.venv/bin/python -m scripts.detection_public_benchmark restore
-.venv/bin/python -m scripts.detection_public_benchmark verify
-.venv/bin/python -m scripts.detection_hillclimb_corpus prepare
-data/rfdetr/env/bin/python -m scripts.detection_hillclimb_train --epochs 1
-.venv/bin/python -m scripts.detection_hillclimb_dfine train --epochs 3
-.venv/bin/python -m scripts.detection_hillclimb_dfine train --epochs 6 --resume
-.venv/bin/python -m scripts.detection_hillclimb_mix train --source "$FIL_ROUGE_SOURCE" --epochs 3
-.venv/bin/python -m scripts.detection_real_photo_adaptation --source "$FIL_ROUGE_SOURCE" --epochs 3
+.venv/bin/python -m scripts.experiments.public_data.detection_public_benchmark restore
+.venv/bin/python -m scripts.experiments.public_data.detection_public_benchmark verify
+.venv/bin/python -m scripts.experiments.detector_training.detection_hillclimb_corpus prepare
+data/rfdetr/env/bin/python -m scripts.experiments.detector_training.detection_hillclimb_train --epochs 1
+.venv/bin/python -m scripts.experiments.detector_training.detection_hillclimb_dfine train --epochs 3
+.venv/bin/python -m scripts.experiments.detector_training.detection_hillclimb_dfine train --epochs 6 --resume
+.venv/bin/python -m scripts.experiments.detector_training.detection_hillclimb_mix train --source "$FIL_ROUGE_SOURCE" --epochs 3
+.venv/bin/python -m scripts.experiments.transfer.detection_real_photo_adaptation --source "$FIL_ROUGE_SOURCE" --epochs 3
 ```
 
 The detector experiment records bind model proposals to image and checkpoint hashes. Collect baseline proposals on the Intel environment and RF-DETR proposals in the model’s training environment. Use the two `development` scopes before selecting either study. The SigLIP 2 and DINOv2 encoders are local safetensors published under the revisions and byte hashes in the respective lock records. Collect `public-development`, `phlebotomy-development` and `fit` crop features before running `compare`. The frozen `select` and `freeze` commands expect a new experiment directory without reserved predictions, or a copy of the delivered tree with the new execution’s output slots empty. Use the delivered JSON files to inspect the original results without retraining.
 
 ```bash
 for scope in public-development phlebotomy-development; do
-  data/sam3/xpu-env/bin/python -m scripts.detection_hillclimb_experiment collect \
+  data/sam3/xpu-env/bin/python -m scripts.experiments.detector_training.detection_hillclimb_experiment collect \
     --scope "$scope" --backend baseline --device xpu
   for checkpoint in original-rf adapted-rf; do
-    data/rfdetr/env/bin/python -m scripts.detection_hillclimb_experiment collect \
+    data/rfdetr/env/bin/python -m scripts.experiments.detector_training.detection_hillclimb_experiment collect \
       --scope "$scope" --backend "$checkpoint"
   done
-  .venv/bin/python -m scripts.detection_hillclimb_dfine collect --scope "$scope"
-  .venv/bin/python -m scripts.detection_hillclimb_mix collect --scope "$scope"
+  .venv/bin/python -m scripts.experiments.detector_training.detection_hillclimb_dfine collect --scope "$scope"
+  .venv/bin/python -m scripts.experiments.detector_training.detection_hillclimb_mix collect --scope "$scope"
   for checkpoint in dino-base owlv2; do
-    data/sam3/xpu-env/bin/python -m scripts.detection_open_models \
+    data/sam3/xpu-env/bin/python -m scripts.experiments.detector_audits.detection_open_models \
       --scope "$scope" --backend "$checkpoint" --device xpu
   done
 done
-.venv/bin/python -m scripts.detection_crop_semantics collect --role public-development
-.venv/bin/python -m scripts.detection_crop_semantics collect --role phlebotomy-development
-.venv/bin/python -m scripts.detection_crop_semantics collect --role fit
-.venv/bin/python -m scripts.detection_crop_semantics zero-shot
-.venv/bin/python -m scripts.detection_crop_semantics compare
-.venv/bin/python -m scripts.detection_hillclimb_rank select
-.venv/bin/python -m scripts.detection_semantics_audit freeze
-bash scripts/detection_hillclimb_audit.sh public-audit
-bash scripts/detection_hillclimb_audit.sh previous-reserve
+.venv/bin/python -m scripts.experiments.detector_audits.detection_crop_semantics collect --role public-development
+.venv/bin/python -m scripts.experiments.detector_audits.detection_crop_semantics collect --role phlebotomy-development
+.venv/bin/python -m scripts.experiments.detector_audits.detection_crop_semantics collect --role fit
+.venv/bin/python -m scripts.experiments.detector_audits.detection_crop_semantics zero-shot
+.venv/bin/python -m scripts.experiments.detector_audits.detection_crop_semantics compare
+.venv/bin/python -m scripts.experiments.detector_training.detection_hillclimb_rank select
+.venv/bin/python -m scripts.experiments.detector_audits.detection_semantics_audit freeze
+bash scripts/experiments/detector_training/detection_hillclimb_audit.sh public-audit
+bash scripts/experiments/detector_training/detection_hillclimb_audit.sh previous-reserve
 ```
 
-The clinical challenge uses the author-provided annotation ZIP pinned in its manifest. Restore the staged source using `scripts.detection_dental_challenge`. With the automatic policies frozen, run `scripts.detection_dental_evaluate collect --backend baseline` in the Intel environment and the selected auxiliary arms in the relevant environment. Once all three baseline caches are complete, collect the crop rule using `scripts.detection_semantics_audit collect --scope <scope>` and score it using `measure`. Figures are rebuilt using `scripts.detection_generalization_figures`. [SigLIP 2 lock](../../../artifacts/detection_hillclimb/siglip2_crop_backbone.json) · [DINOv2 lock](../../../artifacts/auxiliary_crop_backbone.json) · [Dental source](https://doi.org/10.17632/mh6zpc7y9g.1)
+The clinical challenge uses the author-provided annotation ZIP pinned in its manifest. Restore the staged source using `scripts.experiments.transfer.detection_dental_challenge`. With the automatic policies frozen, run `scripts.experiments.transfer.detection_dental_evaluate collect --backend baseline` in the Intel environment and the selected auxiliary arms in the relevant environment. Once all three baseline caches are complete, collect the crop rule using `scripts.experiments.detector_audits.detection_semantics_audit collect --scope <scope>` and score it using `measure`. Figures are rebuilt using `scripts.experiments.detector_audits.detection_generalization_figures`. [SigLIP 2 lock](../../../artifacts/detection_hillclimb/siglip2_crop_backbone.json) · [DINOv2 lock](../../../artifacts/auxiliary_crop_backbone.json) · [Dental source](https://doi.org/10.17632/mh6zpc7y9g.1)
 
 ## Reserved auxiliary-detector result
 
@@ -118,7 +118,7 @@ On 25 newly reserved Commons photos, the released hybrid and the frozen additive
 
 The supplementary lookalike audit reserves 13 full photographs by distinct photographers. An image has an empty syringe reference only when the full scene is visually checked. The set contains two views of vacuum blood collection by different photographers, catheters, an empty infusion pump, a high-pressure instrument, clear laboratory tubes with and without colored liquid, and writing supplies. The negative-only set measures scene specificity and false alarms. [Frozen lookalike references](../../../artifacts/detection_hillclimb/external_lookalike_manifest.json)
 
-Export the verified reference snapshots with `.venv/bin/python -m scripts.export_detection_references data/detection_hillclimb/coco`. The successful export preserves the number of images and syringe instances in all eight partitions. Relative `file_name` entries resolve under `data/`. Public attribution and grouped split information remain in the accompanying source manifests.
+Export the verified reference snapshots with `.venv/bin/python -m scripts.datasets.export_detection_references data/detection_hillclimb/coco`. The successful export preserves the number of images and syringe instances in all eight partitions. Relative `file_name` entries resolve under `data/`. Public attribution and grouped split information remain in the accompanying source manifests.
 
 ## Reserved crop-policy results
 
@@ -134,7 +134,7 @@ Clinical limitations remain visible in the audit. A vial near an occluded syring
 
 The crop branch’s added median runtime in this study was 5.71 seconds on the Commons cohort, 16.75 seconds on the historical regression, and 14.51 seconds on the dental images. Multiple local experiments shared the machine during these measurements. They characterize the run and should not be read as isolated interactive latency. [Full reserved crop audit](../../../artifacts/detection_hillclimb/crop_semantics_audit.json) · [Metric figure](../../../artifacts/figures/detection_generalization_audit.png)
 
-Rebuild the visual case galleries with `.venv/bin/python -m scripts.detection_qualitative`. The generated public plates contain the original reference, the released prediction, the frozen candidate, and source attribution for ten scenes with recoveries or remaining errors. Scene selection is descriptive and occurs after calibration is closed.
+Rebuild the visual case galleries with `.venv/bin/python -m scripts.experiments.detector_audits.detection_qualitative`. The generated public plates contain the original reference, the released prediction, the frozen candidate, and source attribution for ten scenes with recoveries or remaining errors. Scene selection is descriptive and occurs after calibration is closed.
 
 ## Qualification decision
 
@@ -208,7 +208,7 @@ The direct application audit uses 23 native photographs from a separate public C
 
 On the 23 photographs, the shipped engine gave 39 true positives, four false boxes and nine misses at IoU 0.50. Precision was 90.7%, recall 81.3%, F1 85.7%, and mean absolute scene-count error 0.22 objects. The same counts and matched instances were observed before the appearance check. On crowded scenes it matched 24 of 30 visible instances with one extra box, for 96% precision and 80% recall. The detector gave the exact count on two of five crowded photographs and all 18 single-device photographs. Three single-device images show why count agreement alone cannot establish correct localization. Four of the six crowded misses can be matched by the first five review proposals. This is potential review reach from saved proposals. The cohort represents one external source and provides a descriptive estimate for those images. [Native multi-device results](../../../artifacts/detection_hillclimb/device_scene_audit_results.json)
 
-The audit used the actual application response with visible marking extraction off and its apparent-liquid step active. The median across 22 warm inputs was 5.9 seconds. The median across the five crowded inputs, including the first analysis, was 85.4 seconds. The longest crowded frame took 207.7 seconds. Two SAM processes were observed on Intel Arc. The separate worker experiment evaluates latency and retained evidence under a shared SAM process. [Audit collection](../../../scripts/detection_device_scene_audit.py) · [Worker comparison](../../../scripts/shared_sam_parity.py)
+The audit used the actual application response with visible marking extraction off and its apparent-liquid step active. The median across 22 warm inputs was 5.9 seconds. The median across the five crowded inputs, including the first analysis, was 85.4 seconds. The longest crowded frame took 207.7 seconds. Two SAM processes were observed on Intel Arc. The separate worker experiment evaluates latency and retained evidence under a shared SAM process. [Audit collection](../../../scripts/experiments/transfer/detection_device_scene_audit.py) · [Worker comparison](../../../scripts/checks/shared_sam_parity.py)
 
 ![Frozen and predicted boxes for an exact count and an undercount on native images](../../../artifacts/figures/native_device_count_examples.png)
 
@@ -230,7 +230,7 @@ The mixed run continued for two CPU epochs with the same annotations and a fresh
 
 ## Exemplar programming check
 
-The first OWLv2 exemplar trial actually used the dental fit group alone. Its fit selector expected the generic split token and consequently omitted rows named `openimages-fit`. The sealed first experiment provides a dental-only control. A separate broader run explicitly selects the two fit roles, retains one exemplar per source within each class and domain, and compares single geometry anchors with pooled query anchors. [Dental-only run](../../../artifacts/detection_hillclimb/detector_exemplar_development.json) · [Broader experiment](../../../scripts/detection_exemplar_multidomain.py)
+The first OWLv2 exemplar trial actually used the dental fit group alone. Its fit selector expected the generic split token and consequently omitted rows named `openimages-fit`. The sealed first experiment provides a dental-only control. A separate broader run explicitly selects the two fit roles, retains one exemplar per source within each class and domain, and compares single geometry anchors with pooled query anchors. [Dental-only run](../../../artifacts/detection_hillclimb/detector_exemplar_development.json) · [Broader experiment](../../../scripts/experiments/detector_audits/detection_exemplar_multidomain.py)
 
 ## Box-prompted SAM localization
 

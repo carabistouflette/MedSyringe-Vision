@@ -1,6 +1,6 @@
-from scripts.syringe_action_diagnostic import classify_actions
-from scripts.syringe_action_verifier import apply, audit, context, expected_action
-from scripts.native_candidate_verifier import simple_metrics
+from scripts.experiments.ranking.syringe_action_diagnostic import classify_actions
+from scripts.experiments.ranking.syringe_action_verifier import apply, audit, context, expected_action
+from scripts.experiments.crowds.native_candidate_verifier import simple_metrics
 from medsyringe.evaluate import match
 
 

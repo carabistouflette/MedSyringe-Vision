@@ -1,4 +1,4 @@
-from scripts.runtime_bundle import environment_fingerprint
+from scripts.setup.runtime_bundle import environment_fingerprint
 
 
 def test_package_fingerprint_detects_changed_weights_and_ignores_bytecode(tmp_path):

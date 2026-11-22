@@ -55,18 +55,18 @@ The optical trial measures contrast attenuation between registered views of the 
 ```bash
 export HF_HUB_OFFLINE=1 OMP_NUM_THREADS=1 OPENBLAS_NUM_THREADS=1
 export PADDLE_PDX_DISABLE_MODEL_SOURCE_CHECK=True
-data/sam3/xpu-env/bin/python -m scripts.crowd_next_reference verify
-data/sam3/xpu-env/bin/python -m scripts.crowd_next_audit freeze
-data/sam3/xpu-env/bin/python -m scripts.crowd_next_audit released
-data/sam3/xpu-env/bin/python -m scripts.crowd_next_audit sam
-data/sam3/xpu-env/bin/python -m scripts.crowd_next_audit measure
-data/ocr-v6/env/bin/python -m scripts.small_field_study run --output /tmp/medsyringe-small-field-replay.json
-data/ocr-v6/env/bin/python -m scripts.small_field_public_transfer run
-data/ocr-v6/env/bin/python -m scripts.small_capacity_axis_diagnostic
-data/ocr-v6/env/bin/python -m scripts.small_barrel_robustness
-.venv/bin/python -m scripts.liquid_exposure_study
-.venv/bin/python -m scripts.instance_geometry_audit score
-.venv/bin/python -m scripts.instance_review_dataset \
+data/sam3/xpu-env/bin/python -m scripts.experiments.public_data.crowd_next_reference verify
+data/sam3/xpu-env/bin/python -m scripts.experiments.crowds.crowd_next_audit freeze
+data/sam3/xpu-env/bin/python -m scripts.experiments.crowds.crowd_next_audit released
+data/sam3/xpu-env/bin/python -m scripts.experiments.crowds.crowd_next_audit sam
+data/sam3/xpu-env/bin/python -m scripts.experiments.crowds.crowd_next_audit measure
+data/ocr-v6/env/bin/python -m scripts.experiments.measurement.small_field_study run --output /tmp/medsyringe-small-field-replay.json
+data/ocr-v6/env/bin/python -m scripts.experiments.measurement.small_field_public_transfer run
+data/ocr-v6/env/bin/python -m scripts.experiments.measurement.small_capacity_axis_diagnostic
+data/ocr-v6/env/bin/python -m scripts.experiments.measurement.small_barrel_robustness
+.venv/bin/python -m scripts.experiments.measurement.liquid_exposure_study
+.venv/bin/python -m scripts.experiments.public_data.instance_geometry_audit score
+.venv/bin/python -m scripts.experiments.public_data.instance_review_dataset \
     artifacts/detection_hillclimb/public_instance_review_batch_extended.json \
     artifacts/detection_hillclimb/public_instance_review_bulk.json
 ```
@@ -76,5 +76,5 @@ The historical first through fourth OCR comparisons were recorded as development
 To inspect a separate source image, use the experimental command with a tight syringe crop or its normalized bounding box. Output retains the recognized markings, coordinates, apparent fill interval and field-level reasons for abstention.
 
 ```bash
-data/ocr-v6/env/bin/python -m scripts.inspect_small_barrel syringe.jpg --output /tmp/syringe-evidence.json
+data/ocr-v6/env/bin/python -m scripts.experiments.measurement.inspect_small_barrel syringe.jpg --output /tmp/syringe-evidence.json
 ```

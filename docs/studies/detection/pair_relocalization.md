@@ -48,14 +48,14 @@ Run from the repository root with the pinned DINOv2, RF-DETR, released detector 
 
 ~~~bash
 export HF_HUB_OFFLINE=1 OMP_NUM_THREADS=2 OPENBLAS_NUM_THREADS=2
-.venv/bin/python -m scripts.pair_relocalization_reserve reference
-.venv/bin/python -m scripts.pair_relocalization freeze
-.venv/bin/python -m scripts.pair_relocalization_probe freeze
-data/rfdetr/env/bin/python -m scripts.pair_relocalization_reserve proposals
-data/sam3/xpu-env/bin/python -m scripts.pair_relocalization_reserve release
-.venv/bin/python -m scripts.pair_relocalization_reserve features
-.venv/bin/python -m scripts.pair_relocalization score
-.venv/bin/python -m scripts.pair_relocalization_probe score
-.venv/bin/python -m scripts.pair_relocalization_figure
+.venv/bin/python -m scripts.experiments.relocalization.pair_relocalization_reserve reference
+.venv/bin/python -m scripts.experiments.relocalization.pair_relocalization freeze
+.venv/bin/python -m scripts.experiments.relocalization.pair_relocalization_probe freeze
+data/rfdetr/env/bin/python -m scripts.experiments.relocalization.pair_relocalization_reserve proposals
+data/sam3/xpu-env/bin/python -m scripts.experiments.relocalization.pair_relocalization_reserve release
+.venv/bin/python -m scripts.experiments.relocalization.pair_relocalization_reserve features
+.venv/bin/python -m scripts.experiments.relocalization.pair_relocalization score
+.venv/bin/python -m scripts.experiments.relocalization.pair_relocalization_probe score
+.venv/bin/python -m scripts.experiments.relocalization.pair_relocalization_figure
 .venv/bin/python -m pytest -q
 ~~~

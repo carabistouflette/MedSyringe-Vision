@@ -1,5 +1,5 @@
-from scripts.pair_relocalization import check, owner, refine_image, targets
-from scripts.relocalization_selector import snapshot
+from scripts.experiments.relocalization.pair_relocalization import check, owner, refine_image, targets
+from scripts.experiments.relocalization.relocalization_selector import snapshot
 
 
 A = [.12, .21, .55, .40]

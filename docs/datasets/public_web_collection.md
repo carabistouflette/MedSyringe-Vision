@@ -7,8 +7,8 @@ The [thumbnail manifest](../../data/public-web-collection/manifest.json) provide
 Run these commands from the repository root with the project's Python environment.
 
 ```bash
-.venv/bin/python -B -m scripts.public_web_collection collect
-.venv/bin/python -B -m scripts.public_web_collection verify
+.venv/bin/python -B -m scripts.experiments.public_data.public_web_collection collect
+.venv/bin/python -B -m scripts.experiments.public_data.public_web_collection verify
 ```
 
 The collector uses anonymous, serial HTTPS GET requests. Commons provides search results and image renditions via `imageinfo` at a requested width of 800 px. Openverse provides the first page of each search and serves its thumbnails. The collector filters Wikimedia entries from Openverse to reduce cross-index duplication. It caches each successful query with a timestamp and SHA-256. The search plan is fixed and samples terms and strata in rotation. Each stratum can retain up to 48 Commons and 20 Openverse thumbnails, with at most five per group, API, and stratum. Search rankings and renditions can change between live runs. [MediaWiki Imageinfo API](https://www.mediawiki.org/wiki/API:Imageinfo) · [MediaWiki API etiquette](https://www.mediawiki.org/wiki/API:Etiquette/en) · [Openverse API](https://api.openverse.org/v1/) · [Openverse terms](https://docs.openverse.org/terms_of_service.html)

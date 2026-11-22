@@ -1,7 +1,7 @@
 import numpy as np
 
-from medsyringe.relative_optics import registered_attenuation
-from scripts.liquid_exposure_study import BARREL, EXTERIOR, srgb
+from medsyringe.measurement.relative_optics import registered_attenuation
+from scripts.experiments.measurement.liquid_exposure_study import BARREL, EXTERIOR, srgb
 
 
 def test_external_patch_removes_exposure_bias_and_rejects_bad_alignment():

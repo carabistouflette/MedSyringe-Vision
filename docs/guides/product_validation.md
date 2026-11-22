@@ -36,10 +36,10 @@ In the four-photo live Intel Arc check, the app counted and localized all four s
 ## Reproduce
 
 ```bash
-.venv/bin/python -m scripts.public_syringe_dataset --verify
-.venv/bin/python -B -m scripts.public_bulk_syringe_collection verify
-.venv/bin/python -m scripts.liquid_fields_audit replay
-MEDSYRINGE_DEVICE=xpu HF_HUB_OFFLINE=1 data/sam3/xpu-env/bin/python -m scripts.liquid_fields_audit live
+.venv/bin/python -m scripts.experiments.public_data.public_syringe_dataset --verify
+.venv/bin/python -B -m scripts.experiments.public_data.public_bulk_syringe_collection verify
+.venv/bin/python -m scripts.experiments.measurement.liquid_fields_audit replay
+MEDSYRINGE_DEVICE=xpu HF_HUB_OFFLINE=1 data/sam3/xpu-env/bin/python -m scripts.experiments.measurement.liquid_fields_audit live
 .venv/bin/python -m pytest -q
 ```
 

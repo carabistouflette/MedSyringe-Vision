@@ -60,16 +60,16 @@ Use the existing prepared detector and liquid caches and the read-only JPEG coll
 ```bash
 export HF_HUB_OFFLINE=1 OMP_NUM_THREADS=2 OPENBLAS_NUM_THREADS=2
 source_dir="/path/to/Images_fil_rougev1"
-.venv/bin/python -m scripts.expanded_crop_verification audit --source "$source_dir"
-.venv/bin/python -m scripts.crop_verification_release regress --source "$source_dir"
-.venv/bin/python -m scripts.fill_geometry_study audit --source "$source_dir"
-data/sam3/xpu-env/bin/python -m scripts.liquid_structure_study audit
-data/sam3/xpu-env/bin/python -m scripts.expanded_runtime_pair cpu --source "$source_dir"
-data/sam3/xpu-env/bin/python -m scripts.expanded_runtime_pair xpu --source "$source_dir"
-data/sam3/xpu-env/bin/python -m scripts.expanded_runtime_pair compare
+.venv/bin/python -m scripts.experiments.expanded.expanded_crop_verification audit --source "$source_dir"
+.venv/bin/python -m scripts.experiments.expanded.crop_verification_release regress --source "$source_dir"
+.venv/bin/python -m scripts.experiments.measurement.fill_geometry_study audit --source "$source_dir"
+data/sam3/xpu-env/bin/python -m scripts.experiments.measurement.liquid_structure_study audit
+data/sam3/xpu-env/bin/python -m scripts.experiments.expanded.expanded_runtime_pair cpu --source "$source_dir"
+data/sam3/xpu-env/bin/python -m scripts.experiments.expanded.expanded_runtime_pair xpu --source "$source_dir"
+data/sam3/xpu-env/bin/python -m scripts.experiments.expanded.expanded_runtime_pair compare
 for group in a b; do
-  .venv/bin/python -m scripts.crop_verification_release cpu --group "$group" --source "$source_dir"
-  data/sam3/xpu-env/bin/python -m scripts.crop_verification_release xpu --group "$group" --source "$source_dir"
+  .venv/bin/python -m scripts.experiments.expanded.crop_verification_release cpu --group "$group" --source "$source_dir"
+  data/sam3/xpu-env/bin/python -m scripts.experiments.expanded.crop_verification_release xpu --group "$group" --source "$source_dir"
 done
 ```
 

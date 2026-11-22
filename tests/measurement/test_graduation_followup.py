@@ -1,7 +1,7 @@
 import numpy as np
 
-from medsyringe.graduation_ocr import supplement_graduations
-from medsyringe.piston_landmarks import lumen_support, refine_rim
+from medsyringe.measurement.graduation_ocr import supplement_graduations
+from medsyringe.measurement.piston_landmarks import lumen_support, refine_rim
 
 
 POLICY = dict(readers=["tiny","medium"], confidence=.93, stroke=4.)

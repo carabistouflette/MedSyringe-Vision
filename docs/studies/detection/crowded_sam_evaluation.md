@@ -23,7 +23,7 @@ Click-assisted segmentation was also tried as an annotation shortcut. One click 
 ## Run the separate review tool
 
 ```bash
-HF_HUB_OFFLINE=1 data/sam3/xpu-env/bin/python -m scripts.crowded_sam_review \
+HF_HUB_OFFLINE=1 data/sam3/xpu-env/bin/python -m scripts.experiments.crowds.crowded_sam_review \
     /path/to/photo.jpg --output /path/to/new-review.json
 ```
 

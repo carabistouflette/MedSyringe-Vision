@@ -1,5 +1,5 @@
-from scripts.overlap_ranking import conflict, select
-from scripts.overlap_ranking_review import pair_label, tags
+from scripts.experiments.ranking.overlap_ranking import conflict, select
+from scripts.experiments.ranking.overlap_ranking_review import pair_label, tags
 
 
 def fixture(box, score):

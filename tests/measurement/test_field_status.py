@@ -1,5 +1,5 @@
-from medsyringe.field_status import describe_fields, report_fields
-from scripts.evaluate_field_abstention import score
+from medsyringe.measurement.field_status import describe_fields, report_fields
+from scripts.experiments.measurement.evaluate_field_abstention import score
 
 
 def test_a_counted_object_can_abstain_per_field_and_a_measured_zero_is_valid():

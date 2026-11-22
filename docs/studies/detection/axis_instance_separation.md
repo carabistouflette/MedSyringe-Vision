@@ -36,12 +36,12 @@ Restore the exact preview bytes from the reference manifest and the archived RF 
 
 ~~~bash
 export HF_HUB_OFFLINE=1 OMP_NUM_THREADS=2 OPENBLAS_NUM_THREADS=2
-.venv/bin/python -m scripts.instance_separation train
-.venv/bin/python -m scripts.instance_separation_reserve freeze
-data/rfdetr/env/bin/python -m scripts.instance_separation_reserve collect
-data/sam3/xpu-env/bin/python -m scripts.instance_separation_reserve baseline
-.venv/bin/python -m scripts.instance_separation score
-.venv/bin/python -m scripts.instance_separation_diagnostic
-data/sam3/xpu-env/bin/python -m scripts.instance_separation_part_probe
+.venv/bin/python -m scripts.experiments.ranking.instance_separation train
+.venv/bin/python -m scripts.experiments.ranking.instance_separation_reserve freeze
+data/rfdetr/env/bin/python -m scripts.experiments.ranking.instance_separation_reserve collect
+data/sam3/xpu-env/bin/python -m scripts.experiments.ranking.instance_separation_reserve baseline
+.venv/bin/python -m scripts.experiments.ranking.instance_separation score
+.venv/bin/python -m scripts.experiments.ranking.instance_separation_diagnostic
+data/sam3/xpu-env/bin/python -m scripts.experiments.ranking.instance_separation_part_probe
 .venv/bin/python -m pytest -q
 ~~~

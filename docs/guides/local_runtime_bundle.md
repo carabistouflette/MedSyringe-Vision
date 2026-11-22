@@ -3,7 +3,7 @@
 The released code and evidence are versioned in Git. The offline bundle carries the selected detector weights, trained RF-DETR recovery checkpoint, verifier, SAM and OCR files, the base CPython distribution, and the three installed Python environments. Each model file is verified by SHA-256 against the corresponding tracked release. The bundle manifest records the Git revision, model hashes, package versions, package tree contents, and the CPython executable hash.
 
 ```bash
-python3 scripts/runtime_bundle.py pack /path/to/medsyringe-runtime
+python3 scripts/setup/runtime_bundle.py pack /path/to/medsyringe-runtime
 ```
 
 Run that command from a clean checkout on the machine whose working release is being captured. Only the files required by the released inference path are selected. The capture corpus, temporary data, and observation database stay outside the bundle. Retain the included model license files and upstream license terms when copying the weights. Access and sharing of the Meta checkpoint are governed by its license. [Model and dataset licenses](engineering.md)
@@ -11,8 +11,8 @@ Run that command from a clean checkout on the machine whose working release is b
 Use a clean checkout at the exact revision recorded as `revision` inside the bundle's `runtime-bundle.json`.
 
 ```bash
-python3 scripts/runtime_bundle.py restore /path/to/medsyringe-runtime
-python3 scripts/runtime_bundle.py verify /path/to/medsyringe-runtime
+python3 scripts/setup/runtime_bundle.py restore /path/to/medsyringe-runtime
+python3 scripts/setup/runtime_bundle.py verify /path/to/medsyringe-runtime
 HF_HUB_OFFLINE=1 .venv/bin/python -m uvicorn medsyringe.app:app --host 127.0.0.1 --port 8765
 ```
 
@@ -29,8 +29,8 @@ git init MedSyringe-Vision
 git -C MedSyringe-Vision fetch /path/to/medsyringe-source.bundle refs/medsyringe/inference-qualified
 git -C MedSyringe-Vision switch --detach FETCH_HEAD
 cd MedSyringe-Vision
-python3 -m scripts.runtime_bundle restore /path/to/medsyringe-runtime
-bash scripts/serve_intel.sh
+python3 -m scripts.setup.runtime_bundle restore /path/to/medsyringe-runtime
+bash scripts/setup/serve_intel.sh
 ```
 
 The earlier bundle at `data/deliverables/medsyringe-runtime-29a222d` restores revision `29a222d7d63b58d74dd8edfb0d41ba65ffcc3c96`. It verified all 43 pinned model files and three Python environments. All 67 tests passed in the clean restore. The offline CPU application used a pending candidate to replace the box of one actual transparent syringe while keeping the same object ID and count. IoU against the frozen development reference went from 0.390 to 0.632. The export retained the original prediction and source bytes, and the replacement carried no measurements from the previous box. [Restore proof](../../artifacts/detection_hillclimb/runtime_bundle_29a222d.json) · [Restored CPU browser check](../../artifacts/detection_hillclimb/restored_browser_29a222d_cpu.json)
@@ -52,8 +52,8 @@ The preceding bundle for `92a7c0466a4404524203db91144a0cbb8fbe2c0f` is stored at
 The separate archive at `data/deliverables/precision-evidence` contains the exact public benchmark raster bytes, image attribution, frozen boxes, ranked inference and expected metrics for five cross-source cohorts. The local full archive also contains capture metadata for three Fil Rouge partitions. The optional capture metadata contains normalized labels, ranked boxes and recorded original hashes. The original photos and observation database stay outside the archive.
 
 ```bash
-.venv/bin/python -m scripts.package_detection_evidence pack /path/to/public-evidence
-.venv/bin/python -m scripts.package_detection_evidence replay /path/to/public-evidence
+.venv/bin/python -m scripts.datasets.package_detection_evidence pack /path/to/public-evidence
+.venv/bin/python -m scripts.datasets.package_detection_evidence replay /path/to/public-evidence
 ```
 
 Add `--include-capture-metadata` to include the capture partitions in a local archive. Add `--original-capture /path/to/Images_fil_rougev1` to check the local originals at replay time. The replay was run from an empty directory outside the project, verified all 177 supplied image hashes and reproduced every archived cohort's operating metrics and ranked estimates. This verifies exact metric replay from saved model outputs. Fresh inference can use the separately restored application runtime. [Portable replay evidence](../../artifacts/detection_hillclimb/portable_precision_replay.json)
@@ -63,7 +63,7 @@ The archive at `data/deliverables/precision-evidence-333da35` also includes the 
 To run fresh inference from the portable scene archive, execute this command in the restored project. The command verifies every archived source image and the frozen reference record first. It uses its own results file for progress and accepted-instance comparison.
 
 ```bash
-HF_HUB_OFFLINE=1 data/sam3/xpu-env/bin/python -m scripts.reinfer_native_evidence \
+HF_HUB_OFFLINE=1 data/sam3/xpu-env/bin/python -m scripts.experiments.expanded.reinfer_native_evidence \
   /path/to/precision-evidence --runtime . --device xpu --output /path/to/native-reinference.json
 ```
 

@@ -59,14 +59,14 @@ source_dir="/path/to/Images_fil_rougev1"
 export HF_HUB_OFFLINE=1 PADDLE_PDX_DISABLE_MODEL_SOURCE_CHECK=True
 export OMP_NUM_THREADS=1 OPENBLAS_NUM_THREADS=2
 for group in development holdout holdout-60 clear; do
-  data/ocr-v6/env/bin/python -m scripts.graduation_ocr_study collect --source "$source_dir" --split "$group"
+  data/ocr-v6/env/bin/python -m scripts.experiments.measurement.graduation_ocr_study collect --source "$source_dir" --split "$group"
 done
-.venv/bin/python -m scripts.graduation_ocr_study audit --source "$source_dir"
-.venv/bin/python -m scripts.piston_study audit --source "$source_dir"
-.venv/bin/python -m scripts.fill_agreement audit --source "$source_dir"
-data/sam3/xpu-env/bin/python -m scripts.piston_study appearance
-.venv/bin/python -m scripts.recovery_study audit
-data/sam3/xpu-env/bin/python -m scripts.recovery_mask_study audit
+.venv/bin/python -m scripts.experiments.measurement.graduation_ocr_study audit --source "$source_dir"
+.venv/bin/python -m scripts.experiments.measurement.piston_study audit --source "$source_dir"
+.venv/bin/python -m scripts.experiments.measurement.fill_agreement audit --source "$source_dir"
+data/sam3/xpu-env/bin/python -m scripts.experiments.measurement.piston_study appearance
+.venv/bin/python -m scripts.experiments.baselines.recovery_study audit
+data/sam3/xpu-env/bin/python -m scripts.experiments.baselines.recovery_mask_study audit
 ```
 
-The application and the production CLI in `medsyringe.pipeline` load the same capacity release. To recheck its live release in an experiment copy, run `scripts.graduation_capacity_release` with the configured JPEG directory after collecting the crop audit.
+The application and the production CLI in `medsyringe.pipeline` load the same capacity release. To recheck its live release in an experiment copy, run `scripts.experiments.measurement.graduation_capacity_release` with the configured JPEG directory after collecting the crop audit.

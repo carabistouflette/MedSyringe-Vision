@@ -69,15 +69,15 @@ The 512 px model retrieved two more targets than the padded 320 px variant, and 
 Use the locked local environment and the prepared image manifests. Fetch the official SSDLite COCO checkpoint to `data/models/ssd/ssdlite320_mobilenet_v3_large_coco-a79551df.pth`. The measured input SHA-256 is recorded in the training artifact. Preserve the original selected files and use a separate copy of the workspace when rerunning selection.
 
 ```bash
-HF_HUB_OFFLINE=1 uv run --locked python -m scripts.supervised_study
-HF_HUB_OFFLINE=1 uv run --locked python -m scripts.localization_study
-HF_HUB_OFFLINE=1 uv run --locked python -m scripts.compare_supervised select
-HF_HUB_OFFLINE=1 uv run --locked python -m scripts.compare_supervised control-select
-HF_HUB_OFFLINE=1 uv run --locked python -m scripts.compare_supervised audit
-HF_HUB_OFFLINE=1 uv run --locked python -m scripts.compare_supervised control-audit
-HF_HUB_OFFLINE=1 uv run --locked python -m scripts.compare_supervised historical
-HF_HUB_OFFLINE=1 uv run --locked python -m scripts.compare_supervised train
-HF_HUB_OFFLINE=1 uv run --locked python -m scripts.scale_study
+HF_HUB_OFFLINE=1 uv run --locked python -m scripts.experiments.transfer.supervised_study
+HF_HUB_OFFLINE=1 uv run --locked python -m scripts.experiments.baselines.localization_study
+HF_HUB_OFFLINE=1 uv run --locked python -m scripts.experiments.transfer.compare_supervised select
+HF_HUB_OFFLINE=1 uv run --locked python -m scripts.experiments.transfer.compare_supervised control-select
+HF_HUB_OFFLINE=1 uv run --locked python -m scripts.experiments.transfer.compare_supervised audit
+HF_HUB_OFFLINE=1 uv run --locked python -m scripts.experiments.transfer.compare_supervised control-audit
+HF_HUB_OFFLINE=1 uv run --locked python -m scripts.experiments.transfer.compare_supervised historical
+HF_HUB_OFFLINE=1 uv run --locked python -m scripts.experiments.transfer.compare_supervised train
+HF_HUB_OFFLINE=1 uv run --locked python -m scripts.experiments.measurement.scale_study
 ```
 
 [Official TorchVision SSDLite model and published weights](https://docs.pytorch.org/vision/stable/models/generated/torchvision.models.detection.ssdlite320_mobilenet_v3_large.html) · [Audit references and attribution](../../../artifacts/supervised_external_manifest.json)

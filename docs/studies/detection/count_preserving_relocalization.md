@@ -36,12 +36,12 @@ Restore the raster bytes from the URLs in the frozen manifest and the fit, devel
 
 ~~~bash
 export HF_HUB_OFFLINE=1 OMP_NUM_THREADS=2 OPENBLAS_NUM_THREADS=2
-.venv/bin/python -m scripts.relocalization_selector train
-.venv/bin/python -m scripts.relocalization_reserve freeze
-data/rfdetr/env/bin/python -m scripts.relocalization_reserve collect
-data/sam3/xpu-env/bin/python -m scripts.relocalization_reserve baseline
-.venv/bin/python -m scripts.relocalization_selector score
-.venv/bin/python -m scripts.relocalization_selector_diagnostic
-data/sam3/xpu-env/bin/python -m scripts.relocalization_part_probe
+.venv/bin/python -m scripts.experiments.relocalization.relocalization_selector train
+.venv/bin/python -m scripts.experiments.relocalization.relocalization_reserve freeze
+data/rfdetr/env/bin/python -m scripts.experiments.relocalization.relocalization_reserve collect
+data/sam3/xpu-env/bin/python -m scripts.experiments.relocalization.relocalization_reserve baseline
+.venv/bin/python -m scripts.experiments.relocalization.relocalization_selector score
+.venv/bin/python -m scripts.experiments.relocalization.relocalization_selector_diagnostic
+data/sam3/xpu-env/bin/python -m scripts.experiments.relocalization.relocalization_part_probe
 .venv/bin/python -m pytest -q
 ~~~

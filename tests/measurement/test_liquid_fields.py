@@ -8,9 +8,9 @@ from fastapi.testclient import TestClient
 from PIL import Image
 
 from medsyringe.app import create_app
-from medsyringe.liquid_color import lab_pixels
-from medsyringe.liquid_fields import color_from_region
-from medsyringe.scene import Store
+from medsyringe.measurement.liquid_color import lab_pixels
+from medsyringe.measurement.liquid_fields import color_from_region
+from medsyringe.review.scene import Store
 
 
 def png(array):

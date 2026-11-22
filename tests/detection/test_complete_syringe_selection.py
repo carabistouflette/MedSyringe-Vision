@@ -1,4 +1,4 @@
-from scripts.complete_syringe_selection import best_compatible, select_boxes, supervise
+from scripts.experiments.ranking.complete_syringe_selection import best_compatible, select_boxes, supervise
 
 
 def test_joint_selection_can_skip_a_high_ranked_fragment_blocking_two_bodies():

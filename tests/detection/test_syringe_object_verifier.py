@@ -1,9 +1,9 @@
 import pytest
 
 from medsyringe.evaluate import match
-from scripts.native_candidate_verifier import simple_metrics
-from scripts.syringe_object_features import ROUTES, TARGET, class_for_proposal
-from scripts.syringe_object_verifier import ARMS, guard, partition_audit, predictions, thresholds
+from scripts.experiments.crowds.native_candidate_verifier import simple_metrics
+from scripts.experiments.identity.syringe_object_features import ROUTES, TARGET, class_for_proposal
+from scripts.experiments.identity.syringe_object_verifier import ARMS, guard, partition_audit, predictions, thresholds
 
 
 SYRINGE = [.08, .20, .50, .48]

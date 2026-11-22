@@ -1,4 +1,4 @@
-from scripts.syringe_box_quality import order_boxes, supervise
+from scripts.experiments.ranking.syringe_box_quality import order_boxes, supervise
 
 
 RULE = dict(conflicts="learned", distinct=.70)

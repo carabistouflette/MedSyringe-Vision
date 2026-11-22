@@ -3,8 +3,8 @@ from types import SimpleNamespace
 
 from PIL import Image
 
-from medsyringe.inference import Engine
-from medsyringe.local_models import WorkerError
+from medsyringe.analysis.inference import Engine
+from medsyringe.runtime.local_models import WorkerError
 
 
 def test_arc_checks_overlap_and_preserve_separate_evidence(monkeypatch):
@@ -25,7 +25,7 @@ def test_arc_checks_overlap_and_preserve_separate_evidence(monkeypatch):
         return {"status": "measured", "lightness": 38.0}
 
     engine.expanded = SimpleNamespace(read_markings=markings, measure_liquid=liquid)
-    monkeypatch.setattr("medsyringe.inference.describe", lambda *_: {
+    monkeypatch.setattr("medsyringe.analysis.inference.describe", lambda *_: {
         "scale": {"value": None}, "color": {"value": None},
     })
     boxes = [{"bbox": [0, 0, 1, 1], "score": .9}]

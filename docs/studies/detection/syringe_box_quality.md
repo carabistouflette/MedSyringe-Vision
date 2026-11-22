@@ -50,12 +50,12 @@ Run from the repository root after restoring the pinned local model weights and 
 
 ~~~bash
 export HF_HUB_OFFLINE=1 OMP_NUM_THREADS=2 OPENBLAS_NUM_THREADS=2
-.venv/bin/python -m scripts.syringe_box_quality_reserve reference
-.venv/bin/python -m scripts.syringe_box_quality freeze
-data/rfdetr/env/bin/python -m scripts.syringe_box_quality_reserve proposals
-data/sam3/xpu-env/bin/python -m scripts.syringe_box_quality_reserve release
-.venv/bin/python -m scripts.syringe_box_quality_reserve features
-.venv/bin/python -m scripts.syringe_box_quality score
-.venv/bin/python -m scripts.syringe_box_quality_figure
+.venv/bin/python -m scripts.experiments.ranking.syringe_box_quality_reserve reference
+.venv/bin/python -m scripts.experiments.ranking.syringe_box_quality freeze
+data/rfdetr/env/bin/python -m scripts.experiments.ranking.syringe_box_quality_reserve proposals
+data/sam3/xpu-env/bin/python -m scripts.experiments.ranking.syringe_box_quality_reserve release
+.venv/bin/python -m scripts.experiments.ranking.syringe_box_quality_reserve features
+.venv/bin/python -m scripts.experiments.ranking.syringe_box_quality score
+.venv/bin/python -m scripts.experiments.ranking.syringe_box_quality_figure
 .venv/bin/python -m pytest -q
 ~~~

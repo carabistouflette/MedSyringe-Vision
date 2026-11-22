@@ -34,11 +34,11 @@ Restore source bytes using the exact image URLs in the reference manifest. Keep 
 
 ~~~bash
 export HF_HUB_OFFLINE=1 OMP_NUM_THREADS=2 OPENBLAS_NUM_THREADS=2
-.venv/bin/python -m scripts.complete_syringe_selection train
-.venv/bin/python -m scripts.complete_syringe_reserve freeze
-data/rfdetr/env/bin/python -m scripts.complete_syringe_reserve collect
-data/sam3/xpu-env/bin/python -m scripts.complete_syringe_reserve baseline
-.venv/bin/python -m scripts.complete_syringe_selection score
-.venv/bin/python -m scripts.complete_syringe_diagnostic
+.venv/bin/python -m scripts.experiments.ranking.complete_syringe_selection train
+.venv/bin/python -m scripts.experiments.ranking.complete_syringe_reserve freeze
+data/rfdetr/env/bin/python -m scripts.experiments.ranking.complete_syringe_reserve collect
+data/sam3/xpu-env/bin/python -m scripts.experiments.ranking.complete_syringe_reserve baseline
+.venv/bin/python -m scripts.experiments.ranking.complete_syringe_selection score
+.venv/bin/python -m scripts.experiments.ranking.complete_syringe_diagnostic
 .venv/bin/python -m pytest -q
 ~~~

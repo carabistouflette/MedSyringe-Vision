@@ -1,5 +1,5 @@
-from scripts.detection_hillclimb_experiment import proposals
-from scripts.detection_hillclimb_rank import agree, augment
+from scripts.experiments.detector_training.detection_hillclimb_experiment import proposals
+from scripts.experiments.detector_training.detection_hillclimb_rank import agree, augment
 
 
 def test_additions_preserve_order_and_respect_the_published_veto():

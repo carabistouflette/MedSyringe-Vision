@@ -1,8 +1,8 @@
 import numpy as np
 import pytest
 
-from medsyringe.capacity_ocr import resolve
-from medsyringe.liquid_appearance import appearance, relative_opacity
+from medsyringe.measurement.capacity_ocr import resolve
+from medsyringe.measurement.liquid_appearance import appearance, relative_opacity
 
 
 def token(text, y, rotation=0, score=.98):

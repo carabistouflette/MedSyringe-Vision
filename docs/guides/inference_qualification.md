@@ -16,11 +16,11 @@ The release manifests record the new source checksums. Historical evaluation rec
 export HF_HUB_OFFLINE=1 OMP_NUM_THREADS=2 OPENBLAS_NUM_THREADS=2
 capture=/path/to/Images_fil_rougev1
 runtime=data/sam3/xpu-env/bin/python
-"$runtime" -m scripts.benchmark_inference --device xpu --capture-root "$capture" \
+"$runtime" -m scripts.checks.benchmark_inference --device xpu --capture-root "$capture" \
   --first baseline --pairs 2 --output /tmp/inference-xpu.json
-"$runtime" -m scripts.benchmark_inference --device xpu --capture-root "$capture" \
+"$runtime" -m scripts.checks.benchmark_inference --device xpu --capture-root "$capture" \
   --first optimized --cold-only --output /tmp/inference-xpu-cold.json
-"$runtime" -m scripts.benchmark_inference --device xpu --capture-root "$capture" \
+"$runtime" -m scripts.checks.benchmark_inference --device xpu --capture-root "$capture" \
   --compare-count-only --pairs 1 --output /tmp/inference-xpu-count-only.json
 ```
 

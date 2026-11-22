@@ -7,11 +7,11 @@
     "tick_check": true
   },
   "code": {
-    "medsyringe/fill.py": "861b94b85772275db9e8780b74f2abd736855cabea62ec7c55364be2078ec5b9",
-    "medsyringe/inference.py": "84c15036368ccc811821853abe51adcdd007e159817f3160e5daaba162bd09eb",
-    "medsyringe/fill_orientation.py": "ee6d5b0d4fed2a75cdd60580af8efac29265622a66e1c648392b001c094914de",
-    "medsyringe/liquid_color.py": "17ff2a0b6d51127b606fed9f3a0a9cf27ce95ba537780b6a06c52e39792261aa",
-    "scripts/fill_release.py": "b862fe671a8f2fb4a2877e1f467a8f89cd3cd5fdeba3862aede90be8b0703527"
+    "medsyringe/measurement/fill.py": "0e7cf5384c4d6223efdf499ca54adf5733666264210c35006fd468fdd5cdbca2",
+    "medsyringe/analysis/inference.py": "13b48930b935365dfdd6bf440a149b48178a7cf6c6b54ecce41db9add55b9775",
+    "medsyringe/measurement/fill_orientation.py": "30a77f54d950b8ffdcf5d90f0fc163ea15f0ca6af21c293be575da2e5303ac71",
+    "medsyringe/measurement/liquid_color.py": "0b1268d23ea30287a9f9a254e2e72cf6cc1d5631c2977f5ff3a5d74695b5530b",
+    "scripts/experiments/measurement/fill_release.py": "f61e42315de3e86580c2d69e27357fc62a45b6480e2f66ec3164cd8dcc35f4fc"
   },
   "evidence": "artifacts/fill/runtime.json",
   "evidence_sha256": "1fd2d8bf27b03054dfe8d5d8624c3ad83151141f4540fd5e6496b10bc4e8ff61"

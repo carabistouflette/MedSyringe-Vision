@@ -57,14 +57,14 @@ Run from the repository root in the local environments. Restore the study's froz
 
 ~~~bash
 export HF_HUB_OFFLINE=1 OMP_NUM_THREADS=2 OPENBLAS_NUM_THREADS=2
-.venv/bin/python -m scripts.part_association_reference
-data/sam3/xpu-env/bin/python -m scripts.part_association_observations fit development
-.venv/bin/python -m scripts.part_association freeze
-.venv/bin/python -m scripts.part_association_reserve freeze
-data/rfdetr/env/bin/python -m scripts.part_association_reserve collect
-data/sam3/xpu-env/bin/python -m scripts.part_association_reserve baseline
-data/sam3/xpu-env/bin/python -m scripts.part_association_observations fresh
-.venv/bin/python -m scripts.part_association score
-data/sam3/xpu-env/bin/python -m scripts.part_association_replay
+.venv/bin/python -m scripts.experiments.parts.part_association_reference
+data/sam3/xpu-env/bin/python -m scripts.experiments.parts.part_association_observations fit development
+.venv/bin/python -m scripts.experiments.parts.part_association freeze
+.venv/bin/python -m scripts.experiments.parts.part_association_reserve freeze
+data/rfdetr/env/bin/python -m scripts.experiments.parts.part_association_reserve collect
+data/sam3/xpu-env/bin/python -m scripts.experiments.parts.part_association_reserve baseline
+data/sam3/xpu-env/bin/python -m scripts.experiments.parts.part_association_observations fresh
+.venv/bin/python -m scripts.experiments.parts.part_association score
+data/sam3/xpu-env/bin/python -m scripts.experiments.parts.part_association_replay
 .venv/bin/python -m pytest -q
 ~~~

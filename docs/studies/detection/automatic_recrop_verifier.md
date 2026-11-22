@@ -54,14 +54,14 @@ Use the existing CPU RF-DETR environment, local project environment and XPU rele
 
 ~~~bash
 export HF_HUB_OFFLINE=1 OMP_NUM_THREADS=2 OPENBLAS_NUM_THREADS=2
-.venv/bin/python -m scripts.recrop_reserve freeze
-data/rfdetr/env/bin/python -m scripts.recrop_proposal_bank fit development archive
-.venv/bin/python -m scripts.recrop_verifier learn
-data/rfdetr/env/bin/python -m scripts.recrop_proposal_bank reserve
-data/sam3/xpu-env/bin/python -m scripts.recrop_reserve baseline
-.venv/bin/python -m scripts.recrop_verifier evaluate
-.venv/bin/python -m scripts.recrop_error_audit
-data/rfdetr/env/bin/python -m scripts.recrop_relocalization_preflight collect
-.venv/bin/python -m scripts.recrop_relocalization_preflight score
+.venv/bin/python -m scripts.experiments.relocalization.recrop_reserve freeze
+data/rfdetr/env/bin/python -m scripts.experiments.relocalization.recrop_proposal_bank fit development archive
+.venv/bin/python -m scripts.experiments.relocalization.recrop_verifier learn
+data/rfdetr/env/bin/python -m scripts.experiments.relocalization.recrop_proposal_bank reserve
+data/sam3/xpu-env/bin/python -m scripts.experiments.relocalization.recrop_reserve baseline
+.venv/bin/python -m scripts.experiments.relocalization.recrop_verifier evaluate
+.venv/bin/python -m scripts.experiments.relocalization.recrop_error_audit
+data/rfdetr/env/bin/python -m scripts.experiments.relocalization.recrop_relocalization_preflight collect
+.venv/bin/python -m scripts.experiments.relocalization.recrop_relocalization_preflight score
 .venv/bin/python -m pytest -q
 ~~~

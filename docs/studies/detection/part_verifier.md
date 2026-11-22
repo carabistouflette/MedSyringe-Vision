@@ -41,12 +41,12 @@ The full project test suite passed 124 tests. It includes checks for the barrel-
 
 ~~~sh
 export HF_HUB_OFFLINE=1 OMP_NUM_THREADS=2 OPENBLAS_NUM_THREADS=1
-.venv/bin/python -m scripts.part_verifier_report
-.venv/bin/python -m scripts.part_reference_crop_study measure
-data/sam3/xpu-env/bin/python -m scripts.part_verifier_new_acquisition released
-data/sam3/xpu-env/bin/python -m scripts.part_verifier_new_acquisition measure
-data/sam3/xpu-env/bin/python -m scripts.part_crop_diagnostic
+.venv/bin/python -m scripts.experiments.parts.part_verifier_report
+.venv/bin/python -m scripts.experiments.parts.part_reference_crop_study measure
+data/sam3/xpu-env/bin/python -m scripts.experiments.parts.part_verifier_new_acquisition released
+data/sam3/xpu-env/bin/python -m scripts.experiments.parts.part_verifier_new_acquisition measure
+data/sam3/xpu-env/bin/python -m scripts.experiments.parts.part_crop_diagnostic
 .venv/bin/python -m pytest -q
 ~~~
 
-The fitting replay uses the published source and feature checksums. The report entry point converts NumPy landmark counts to plain JSON integers and reuses the frozen inference and metric implementations. To reconstruct the feature bank in a new workspace, render the fitting contact sheets with `python -m scripts.part_verifier_data --sheets data/part-verifier`, preserve the manual landmark list, and run collection and fitting on a separate copy before scoring the held roles. A rehearsal reproduced all three contact sheets and their position maps byte for byte.
+The fitting replay uses the published source and feature checksums. The report entry point converts NumPy landmark counts to plain JSON integers and reuses the frozen inference and metric implementations. To reconstruct the feature bank in a new workspace, render the fitting contact sheets with `python -m scripts.experiments.parts.part_verifier_data --sheets data/part-verifier`, preserve the manual landmark list, and run collection and fitting on a separate copy before scoring the held roles. A rehearsal reproduced all three contact sheets and their position maps byte for byte.

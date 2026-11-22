@@ -10,17 +10,18 @@ from sklearn.linear_model import LogisticRegression
 from sklearn.preprocessing import StandardScaler
 
 from .data import digest, leakage, read_json, train_rows, write_json
-from .detectors import (MODEL_SOURCES, NMS_IOU, PROMPT, RAW_MINIMUM, THREADS,
+from medsyringe.detection.detectors import (MODEL_SOURCES, NMS_IOU, PROMPT, RAW_MINIMUM, THREADS,
                         box_iou, cached_proposals, features, model_hashes, rerank, suppress)
 
 SEED = 607
 IOU_THRESHOLDS = [round(0.50 + 0.05 * i, 2) for i in range(10)]
-CODE = ("data.py", "detectors.py", "evaluate.py")
+CODE = {"data.py": "data.py", "detectors.py": "detection/detectors.py", "evaluate.py": "evaluate.py"}
 MODELS = {"dino": "dino", "owl": "owl", "dino-trained": "dino", "dino-augmented": "dino"}
 
 
 def code_hashes():
-    return {name: digest(Path(__file__).with_name(name)) for name in CODE}
+    package = Path(__file__).parent
+    return {name: digest(package / path) for name, path in CODE.items()}
 
 
 def match(rows, predictions, min_iou):

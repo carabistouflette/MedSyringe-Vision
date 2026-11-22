@@ -1,8 +1,8 @@
 from PIL import Image
 
-from medsyringe.chamber_appearance import inspect_chamber
-from scripts import low_count_review
-from scripts.small_field_study import render
+from medsyringe.measurement.chamber_appearance import inspect_chamber
+from scripts.experiments.crowds import low_count_review
+from scripts.experiments.measurement.small_field_study import render
 
 
 def test_recovery_reserves_one_peer_and_preserves_the_original(monkeypatch):

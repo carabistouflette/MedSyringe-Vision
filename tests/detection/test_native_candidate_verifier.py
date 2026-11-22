@@ -1,6 +1,6 @@
 import numpy as np
 
-from scripts.native_candidate_verifier import (
+from scripts.experiments.crowds.native_candidate_verifier import (
     acquisition_weights, compare, examples, fuse, identity_scores, reference_index, simple_metrics,
 )
 

@@ -2,8 +2,8 @@ from types import SimpleNamespace
 
 import pytest
 
-from medsyringe.detection_checks import DetectionChecks
-from medsyringe.local_models import WorkerError
+from medsyringe.detection.detection_checks import DetectionChecks
+from medsyringe.runtime.local_models import WorkerError
 
 
 def test_corroboration_outage_is_recorded_without_changing_the_count():

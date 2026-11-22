@@ -36,13 +36,13 @@ The deployed model remains active. The new candidates do not meet the recall and
 The project's locked environment runs the supervised, additive, ROI and mosaic branches without adding any production dependency.
 
 ```bash
-HF_HUB_OFFLINE=1 uv run --locked python -m scripts.additive_study select
-HF_HUB_OFFLINE=1 uv run --locked python -m scripts.zoom_study
-HF_HUB_OFFLINE=1 uv run --locked python -m scripts.zoom_study --audit
-HF_HUB_OFFLINE=1 uv run --locked python -m scripts.mosaic_study
+HF_HUB_OFFLINE=1 uv run --locked python -m scripts.experiments.baselines.additive_study select
+HF_HUB_OFFLINE=1 uv run --locked python -m scripts.experiments.baselines.zoom_study
+HF_HUB_OFFLINE=1 uv run --locked python -m scripts.experiments.baselines.zoom_study --audit
+HF_HUB_OFFLINE=1 uv run --locked python -m scripts.experiments.baselines.mosaic_study
 ```
 
-For the transfer experiment, download the official Zenodo ZIP to `data/zenodo/phlebotomy.zip`, then run `HF_HUB_OFFLINE=1 uv run --locked python -m scripts.public_transfer_study`. The ZIP itself remains a local input. The YAML class name is resolved from the archive and the checksum is checked before preparation.
+For the transfer experiment, download the official Zenodo ZIP to `data/zenodo/phlebotomy.zip`, then run `HF_HUB_OFFLINE=1 uv run --locked python -m scripts.experiments.public_data.public_transfer_study`. The ZIP itself remains a local input. The YAML class name is resolved from the archive and the checksum is checked before preparation.
 
 YOLOE was run locally in a separate experimental environment using Ultralytics 8.4.40. The official segmentation checkpoint is in `data/models/yoloe/yoloe-26n-seg.pt` on this machine. The artifact records its full SHA-256. The package and weights are excluded from the application install and are not redistributed here. Disable Ultralytics synchronization and use locally prepared assets for this test. [Official YOLOE-26 paper](https://arxiv.org/abs/2602.00168) · [Ultralytics visual prompt usage](https://docs.ultralytics.com/models/yoloe/#predict-usage) · [Ultralytics license terms](https://www.ultralytics.com/license)
 
@@ -56,9 +56,9 @@ uv pip install --python data/yoloe-env/bin/python --no-deps \
 export PYTHONPATH="$(pwd)/data/yoloe-env/lib/python3.12/site-packages:$(pwd)"
 export YOLO_CONFIG_DIR="$(pwd)/data/yoloe-home"
 export HF_HUB_OFFLINE=1
-.venv/bin/python -m scripts.visual_prompt_study select
-.venv/bin/python -m scripts.visual_prompt_study audit
-.venv/bin/python -m scripts.cross_prompt_study
+.venv/bin/python -m scripts.experiments.baselines.visual_prompt_study select
+.venv/bin/python -m scripts.experiments.baselines.visual_prompt_study audit
+.venv/bin/python -m scripts.experiments.baselines.cross_prompt_study
 ```
 
 [Recent small-object and low-data methods, with source and license notes](hybrid_research.md)

@@ -3,7 +3,7 @@ from dataclasses import asdict, replace
 import numpy as np
 import pytest
 
-from scripts import public_liquid_augmentation as aug
+from scripts.experiments.public_data import public_liquid_augmentation as aug
 
 
 @pytest.fixture(scope="module")

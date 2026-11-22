@@ -1,7 +1,7 @@
 import numpy as np
 from PIL import Image, ImageDraw
 
-from scripts.instance_separation import axis_profile, blocked, fuse
+from scripts.experiments.ranking.instance_separation import axis_profile, blocked, fuse
 
 
 def test_paired_edges_distinguish_a_body_line_from_flat_background():

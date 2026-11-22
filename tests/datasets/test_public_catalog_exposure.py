@@ -1,4 +1,4 @@
-from scripts.public_catalog_exposure_audit import project_links, universe_project
+from scripts.experiments.public_data.public_catalog_exposure_audit import project_links, universe_project
 
 
 def test_project_alias_blocks_related_exports_across_public_projects():

@@ -2,7 +2,7 @@ import numpy as np
 from PIL import Image
 
 from medsyringe.data import digest, write_json
-from scripts.instance_review_dataset import coco_export, join
+from scripts.experiments.public_data.instance_review_dataset import coco_export, join
 
 
 def test_duplicate_carries_prior_acquisition_protection_across_sources(tmp_path):

@@ -45,9 +45,9 @@ The Mendeley public file API returned an empty list for SID-RAS v1. The Deol et 
 ## Reproduce and verify
 
 ~~~sh
-.venv/bin/python -m scripts.public_annotated_collection collect
-.venv/bin/python -m scripts.public_annotated_collection verify
-.venv/bin/python -m scripts.public_annotated_collection apply-review
+.venv/bin/python -m scripts.experiments.public_data.public_annotated_collection collect
+.venv/bin/python -m scripts.experiments.public_data.public_annotated_collection verify
+.venv/bin/python -m scripts.experiments.public_data.public_annotated_collection apply-review
 ~~~
 
 `collect` uses the local source snapshots and the historical exports in this checkout, ranks candidates with a fixed SHA-256 seed, and writes the images, manifest and contact sheets by source. If the manifest already exists, the command verifies the local collection. To rebuild, archive the previous output directory, copy its `inputs/` into a new collection directory at the original path, use the same historical references and run `collect`. Public image availability and JPEG encoder versions can affect rebuilt bytes. For byte-for-byte verification, retain the original collection and use `verify`.

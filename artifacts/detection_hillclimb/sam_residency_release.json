@@ -1,17 +1,17 @@
 {
   "id": "shared-sam-intel-v1",
-  "detector_sha256": "77575889751a048fa2242281af92ee81d8ac8819c5a08824b1ce45849d9f0481",
+  "detector_sha256": "c6460d7c0573109a9c87cd7ca4ec4116fde38cae0625962c54403076f10d43e9",
   "evidence": "artifacts/detection_hillclimb/sam_residency_full_live.json",
   "evidence_sha256": "304998b3c789c84303a97236691050c29f286a26c725ec371625e083f5388a31",
   "pairing_sha256": "e8cfd1c3ce977ac8d1dd54f79fdf837caffe2bc020336a8474aa80f6e6c3af2a",
   "scope": "Intel path. Same verified model weights. One worker for detection fallback, whole-image corroboration and liquid appearance.",
   "code": {
-    "medsyringe/hardware.py": "6bb15dac38c2dec6cfe08dfb8a1316f1dd8aef33c8201ecbe53dd0f781f338ad",
-    "medsyringe/sam_residency_release.py": "e4c9cf280715f3aba7f290b1dcd1b5db0b1a331d0dfd20876aa0a4081f654c7c",
-    "medsyringe/shared_sam.py": "dd71b5304c100eb1e0593cc85906689a72bff3f10c0070be84aee565183b80d5",
-    "scripts/shared_sam_worker.py": "b56aa7dfbb6494a636a88fbd2fb8cccb6c895ab8c2bd6b2c539f68a3016c561d",
-    "scripts/shared_sam_worker.sh": "33c554e7e7208cb4880963da339a17b1365873f46292fa8e1df893624d892ac5",
-    "medsyringe/detection_checks.py": "d90a633815eb70ff31755cbf8ef657f33ba71580474677f96d1db690969b378d",
-    "scripts/local_model_worker.py": "e854c1cbcfa97e94962bfdcb886590084893a6797a6565b2bafec5272ae86955"
+    "medsyringe/runtime/hardware.py": "ee931755314c5faa982642218ef72f8f55f00ff3063830fe1e9e9dd1fa720f58",
+    "medsyringe/runtime/sam_residency_release.py": "4a6ab85d5b75636d8c96563ee61dfc7bb16cfa95fcfbbaaf15087af900f5da1b",
+    "medsyringe/runtime/shared_sam.py": "1c555890adb26ee7dfaaa3b6871df494d75ae8308e298d3e79cd1f10e95e07d3",
+    "scripts/workers/shared_sam_worker.py": "f40ec301d55eb1986fa2789269da8868b230ccbfc1c41eda0b1f1f7af42d2fbb",
+    "scripts/workers/shared_sam_worker.sh": "fcc0cde08807035facd21b8baec48e91c7465f5dfdae276ca65a1525f321d1a1",
+    "medsyringe/detection/detection_checks.py": "d90a633815eb70ff31755cbf8ef657f33ba71580474677f96d1db690969b378d",
+    "scripts/workers/local_model_worker.py": "384219cdcd73e040a1a4cf4779a846ff7ddbfde270d68798d1623a940bd73efd"
   }
 }

@@ -57,14 +57,14 @@ Run from the repository root with the existing RF-DETR proposal bank, overlap-ra
 
 ~~~bash
 export HF_HUB_OFFLINE=1 OMP_NUM_THREADS=3 OPENBLAS_NUM_THREADS=2
-.venv/bin/python -m scripts.syringe_object_references
-.venv/bin/python -m scripts.syringe_object_features fit development exposed
-.venv/bin/python -m scripts.syringe_object_verifier freeze
-data/rfdetr/env/bin/python -m scripts.syringe_object_reserve collect
-data/sam3/xpu-env/bin/python -m scripts.syringe_object_reserve baseline
-.venv/bin/python -m scripts.syringe_object_features fresh
-.venv/bin/python -m scripts.syringe_object_verifier score
-.venv/bin/python -m scripts.syringe_object_chart
-.venv/bin/python -m scripts.syringe_ranking_trace
+.venv/bin/python -m scripts.experiments.identity.syringe_object_references
+.venv/bin/python -m scripts.experiments.identity.syringe_object_features fit development exposed
+.venv/bin/python -m scripts.experiments.identity.syringe_object_verifier freeze
+data/rfdetr/env/bin/python -m scripts.experiments.identity.syringe_object_reserve collect
+data/sam3/xpu-env/bin/python -m scripts.experiments.identity.syringe_object_reserve baseline
+.venv/bin/python -m scripts.experiments.identity.syringe_object_features fresh
+.venv/bin/python -m scripts.experiments.identity.syringe_object_verifier score
+.venv/bin/python -m scripts.experiments.identity.syringe_object_chart
+.venv/bin/python -m scripts.experiments.ranking.syringe_ranking_trace
 .venv/bin/python -m pytest -q
 ~~~

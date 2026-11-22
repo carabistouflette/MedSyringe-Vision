@@ -22,9 +22,9 @@
     "data/ocr-v6/models/PP-OCRv6_tiny_rec/inference.yml": "66170210bad538e83fff3c4a3867e547d6bf20b50d64b20347c4b913f3034ea1"
   },
   "code": {
-    "scripts/local_model_worker.py": "e854c1cbcfa97e94962bfdcb886590084893a6797a6565b2bafec5272ae86955",
-    "medsyringe/local_models.py": "e97a6adb8e6a057b05329e91e72b3df1e39c943d2bfe1a5f102f3067dea4abc1",
-    "medsyringe/capacity_ocr.py": "db7b58f94ad4c0203a46d10b151f992c08d0430e0b4c8d58b64b213a5fc85ab4",
-    "medsyringe/ocr_refine.py": "4c58b34cc5884caf29cdf7324a692506ea021ee0a1cb033ed710588c03cb0846"
+    "scripts/workers/local_model_worker.py": "384219cdcd73e040a1a4cf4779a846ff7ddbfde270d68798d1623a940bd73efd",
+    "medsyringe/runtime/local_models.py": "6b3ec7f1144aeb65d8b2791387d4d3884103f4bcda25eea5670fd7683b765f49",
+    "medsyringe/measurement/capacity_ocr.py": "db7b58f94ad4c0203a46d10b151f992c08d0430e0b4c8d58b64b213a5fc85ab4",
+    "medsyringe/measurement/ocr_refine.py": "b11aeed83a2916410bd1bd3e69906b0d99412736726ce61b9d51e4d5210dbcbb"
   }
 }

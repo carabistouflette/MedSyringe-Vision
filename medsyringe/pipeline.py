@@ -3,13 +3,13 @@ import argparse
 from pathlib import Path
 from time import perf_counter
 
-from .appearance_runtime import install_appearance
+from medsyringe.runtime.appearance_runtime import install_appearance
 from .data import digest, read_image, write_json
-from .detection_checks import DetectionChecks
-from .grounding_backend import analyze
-from .hardware import configure_device, device_request
-from .production import ProductionEngine
-from .scale_runtime import scale_reader
+from medsyringe.detection.detection_checks import DetectionChecks
+from medsyringe.runtime.grounding_backend import analyze
+from medsyringe.runtime.hardware import configure_device, device_request
+from medsyringe.analysis.production import ProductionEngine
+from medsyringe.runtime.scale_runtime import scale_reader
 
 
 class MedSyringeEngine(ProductionEngine):

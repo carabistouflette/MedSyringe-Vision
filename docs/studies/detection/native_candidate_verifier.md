@@ -59,14 +59,14 @@ Use the existing RF-DETR and Intel Arc environments and the project Python envir
 
 ~~~bash
 export HF_HUB_OFFLINE=1 OMP_NUM_THREADS=2 OPENBLAS_NUM_THREADS=2
-data/rfdetr/env/bin/python -m scripts.native_candidate_bank fit
-data/rfdetr/env/bin/python -m scripts.native_candidate_bank development
-data/rfdetr/env/bin/python -m scripts.native_candidate_bank evaluation
-.venv/bin/python -m scripts.native_candidate_verifier learn
-.venv/bin/python -m scripts.native_candidate_verifier history
-.venv/bin/python -m scripts.native_candidate_reserve freeze
-data/sam3/xpu-env/bin/python -m scripts.native_candidate_reserve baseline
-data/rfdetr/env/bin/python -m scripts.native_candidate_reserve proposals
-.venv/bin/python -m scripts.native_candidate_reserve measure
+data/rfdetr/env/bin/python -m scripts.experiments.crowds.native_candidate_bank fit
+data/rfdetr/env/bin/python -m scripts.experiments.crowds.native_candidate_bank development
+data/rfdetr/env/bin/python -m scripts.experiments.crowds.native_candidate_bank evaluation
+.venv/bin/python -m scripts.experiments.crowds.native_candidate_verifier learn
+.venv/bin/python -m scripts.experiments.crowds.native_candidate_verifier history
+.venv/bin/python -m scripts.experiments.crowds.native_candidate_reserve freeze
+data/sam3/xpu-env/bin/python -m scripts.experiments.crowds.native_candidate_reserve baseline
+data/rfdetr/env/bin/python -m scripts.experiments.crowds.native_candidate_reserve proposals
+.venv/bin/python -m scripts.experiments.crowds.native_candidate_reserve measure
 .venv/bin/python -m pytest -q
 ~~~

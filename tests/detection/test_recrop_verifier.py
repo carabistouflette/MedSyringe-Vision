@@ -1,8 +1,8 @@
 import pytest
 from PIL import Image, ImageOps
 
-from scripts import recrop_verifier as study
-from scripts.recrop_proposal_bank import candidates, windows
+from scripts.experiments.relocalization import recrop_verifier as study
+from scripts.experiments.relocalization.recrop_proposal_bank import candidates, windows
 
 
 def test_crop_windows_are_bounded_nested_and_skip_exact_repeats():

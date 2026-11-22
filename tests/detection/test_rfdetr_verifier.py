@@ -1,6 +1,6 @@
 import numpy as np
 
-from scripts.rfdetr_verifier import apply, expanded, extras
+from scripts.experiments.transfer.rfdetr_verifier import apply, expanded, extras
 
 
 def test_verification_only_filters_additions():
@@ -22,7 +22,7 @@ def test_context_padding_clips_to_image():
 
 
 def test_two_heads_must_both_accept_an_addition():
-    from scripts.rfdetr_verifier_refine import kept_by
+    from scripts.experiments.transfer.rfdetr_verifier_refine import kept_by
 
     base = dict(bbox=[.0, .1, .2, .3], score=.9)
     first = dict(bbox=[.2, .3, .4, .5], score=.7, source="auxiliary")
@@ -37,7 +37,7 @@ def test_two_heads_must_both_accept_an_addition():
 
 def test_runtime_adds_only_verified_boxes_and_preserves_base():
     from PIL import Image
-    from medsyringe.auxiliary_detector import VerifiedRecovery
+    from medsyringe.detection.auxiliary_detector import VerifiedRecovery
     from types import SimpleNamespace
 
     runner = object.__new__(VerifiedRecovery)

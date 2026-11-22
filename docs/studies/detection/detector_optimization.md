@@ -46,14 +46,14 @@ The paired 95% author-bootstrap interval for the F1 difference is approximately 
 
 ## Reproduction
 
-Make a fresh workspace with the original prepared data, pinned weights, draft training annotations, and public reference manifests. Keep the delivered release files as audit records. In the fresh workspace materialize the original training and augmented proposal caches with `python -m medsyringe.detectors dino train` and the same command with `--variant augmented`. Then use the following commands in the locked Python environment:
+Make a fresh workspace with the original prepared data, pinned weights, draft training annotations, and public reference manifests. Keep the delivered release files as audit records. In the fresh workspace materialize the original training and augmented proposal caches with `python -m medsyringe.detection.detectors dino train` and the same command with `--variant augmented`. Then use the following commands in the locked Python environment:
 
 ```bash
-HF_HUB_OFFLINE=1 uv run --locked python -m scripts.refine_detector select
-OMP_NUM_THREADS=3 OPENBLAS_NUM_THREADS=3 HF_HUB_OFFLINE=1 uv run --locked python -m scripts.optimize_detector select
-HF_HUB_OFFLINE=1 uv run --locked python -m scripts.optimize_detector train
-HF_HUB_OFFLINE=1 uv run --locked python -m scripts.optimize_detector holdout
-HF_HUB_OFFLINE=1 uv run --locked python -m scripts.optimize_detector test
+HF_HUB_OFFLINE=1 uv run --locked python -m scripts.experiments.detector_training.refine_detector select
+OMP_NUM_THREADS=3 OPENBLAS_NUM_THREADS=3 HF_HUB_OFFLINE=1 uv run --locked python -m scripts.experiments.detector_training.optimize_detector select
+HF_HUB_OFFLINE=1 uv run --locked python -m scripts.experiments.detector_training.optimize_detector train
+HF_HUB_OFFLINE=1 uv run --locked python -m scripts.experiments.detector_training.optimize_detector holdout
+HF_HUB_OFFLINE=1 uv run --locked python -m scripts.experiments.detector_training.optimize_detector test
 ```
 
 The fresh holdout materializer reads the fixed download URLs and validates the downloaded file digests before inference. The local trained-head archives are in `data/trained_heads`. The two deployed estimators are bundled in `artifacts/proposal_heads.joblib`, with a verified digest pinned by the release. Restore checkpoints only from the trusted project workspace. All inference runs offline after fetching the pinned assets.

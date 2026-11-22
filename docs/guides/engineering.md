@@ -21,11 +21,11 @@ flowchart LR
 | Area | Start here | Tests |
 | --- | --- | --- |
 | Web and HTTP | [`app.py`](../../medsyringe/app.py) exposes the review endpoints and serves [the browser UI](../../medsyringe/web/) | [Application](../../tests/application/) |
-| Inference | [`pipeline.py`](../../medsyringe/pipeline.py) is the current application and CLI entry point. It extends [the production detector](../../medsyringe/production.py) and [the base engine](../../medsyringe/inference.py). | [Application](../../tests/application/) |
-| Detection | [`grounding_backend.py`](../../medsyringe/grounding_backend.py) dispatches inference. [`detectors.py`](../../medsyringe/detectors.py) proposes boxes and [`detection_checks.py`](../../medsyringe/detection_checks.py) records corroboration. | [Detection](../../tests/detection/) |
-| Measurements | [`fill.py`](../../medsyringe/fill.py) estimates apparent fill. [`liquid_fields.py`](../../medsyringe/liquid_fields.py) assembles liquid measurements. [`field_status.py`](../../medsyringe/field_status.py) describes field evidence and abstention. | [Measurement](../../tests/measurement/) |
-| Review and storage | [`scene.py`](../../medsyringe/scene.py) manages SQLite observations, revisions and comparisons. | [Application](../../tests/application/) |
-| Runtime and devices | [`hardware.py`](../../medsyringe/hardware.py) selects the device. Worker entry points are in the [script index](../../scripts/README.md#worker-entry-points). | [Runtime](../../tests/runtime/) |
+| Inference | [`pipeline.py`](../../medsyringe/pipeline.py) is the current application and CLI entry point. It extends [the production detector](../../medsyringe/analysis/production.py) and [the base engine](../../medsyringe/analysis/inference.py). | [Application](../../tests/application/) |
+| Detection | [`grounding_backend.py`](../../medsyringe/runtime/grounding_backend.py) dispatches inference. [`detectors.py`](../../medsyringe/detection/detectors.py) proposes boxes and [`detection_checks.py`](../../medsyringe/detection/detection_checks.py) records corroboration. | [Detection](../../tests/detection/) |
+| Measurements | [`fill.py`](../../medsyringe/measurement/fill.py) estimates apparent fill. [`liquid_fields.py`](../../medsyringe/measurement/liquid_fields.py) assembles liquid measurements. [`field_status.py`](../../medsyringe/measurement/field_status.py) describes field evidence and abstention. | [Measurement](../../tests/measurement/) |
+| Review and storage | [`corrections.py`](../../medsyringe/review/corrections.py) validates edits and carries forward applicable evidence. [`scene.py`](../../medsyringe/review/scene.py) manages SQLite observations, revisions and comparisons. | [Application](../../tests/application/) |
+| Runtime and devices | [`hardware.py`](../../medsyringe/runtime/hardware.py) selects the device. Worker entry points are in the [script index](../../scripts/README.md#worker-entry-points). | [Runtime](../../tests/runtime/) |
 | Data and evaluation | [`data.py`](../../medsyringe/data.py) prepares images, inventories and COCO references. [`evaluate.py`](../../medsyringe/evaluate.py) runs selection and holdout scoring. | [Datasets](../../tests/datasets/) |
 
 Production Python lives in [`medsyringe/`](../../medsyringe/). Use the [script index](../../scripts/README.md) for operational commands and experiments. Store model and image assets under `data/` and versioned evidence under [`artifacts/`](../../artifacts/). Run reproduction commands from the repository root, where scripts resolve relative paths.
@@ -47,9 +47,9 @@ cp "$repo/uv.lock" "$experiment/"
 cp "$repo/artifacts/annotations.json" "$repo/artifacts/commons_annotations.json" "$experiment/artifacts/"
 
 uv run --locked python -m medsyringe.data audit --root "$experiment" --source "$source_images"
-uv run --locked python -m scripts.source_profiles --root "$experiment" --source "$source_images"
+uv run --locked python -m scripts.datasets.source_profiles --root "$experiment" --source "$source_images"
 uv run --locked python -m medsyringe.data validation --root "$experiment"
-HF_HUB_OFFLINE=1 uv run --locked python -m medsyringe.attributes --root "$experiment"
+HF_HUB_OFFLINE=1 uv run --locked python -m medsyringe.measurement.attributes --root "$experiment"
 HF_HUB_OFFLINE=1 uv run --locked python -m medsyringe.evaluate validation --root "$experiment"
 
 # Only run the following after freeze.json exists.
@@ -63,25 +63,25 @@ Validation materialization downloads image bytes from the saved Commons source U
 
 The selection runner refuses to overwrite a freeze. The test runner verifies code, dependency lock, validation manifest, results, and model bundle hashes. Training uses seed 607, fixed source ordering, scikit-learn logistic regression, hue/edge descriptors, and deterministic preprocessing. The two re-ranker JSON files contain the fitted feature means, scales, coefficients and intercepts. The selected raw model bundle has no experimental classification head in the detection step. The CPU traces include time spent building backbone proposals, which dominates fitting. Latency will vary with machine load.
 
-For the delivered run, re-run tests and reports from the repository root.
+Run checks from the repository root. Historical reports and provenance checks require the source revision bound by their freeze. Use that revision in a separate worktree when replaying a delivered run.
 
 ```bash
 uv run --locked python -m pytest -q
-uv run --locked python -m scripts.audit_summary
-uv run --locked python -m scripts.ocr_diagnostic
-uv run --locked python -m scripts.compute_benchmark
-uv run --locked python -m scripts.robustness
-uv run --locked python -m scripts.report_figures
-uv run --locked python -m scripts.provenance
+uv run --locked python -m scripts.checks.audit_summary
+uv run --locked python -m scripts.experiments.measurement.ocr_diagnostic
+uv run --locked python -m scripts.checks.compute_benchmark
+uv run --locked python -m scripts.experiments.detector_audits.robustness
+uv run --locked python -m scripts.experiments.baselines.report_figures
+uv run --locked python -m scripts.checks.provenance
 ```
 
 For a reproducibility check of the delivered test evaluation, run `python -m medsyringe.evaluate test` in the locked environment using the prepared holdout. It checks the frozen configuration before scoring. The run ledger records proposal cache hashes, elapsed sums, source code and artifact hashes. Rebuild the presentation with `typst compile --root . docs/presentation.typ docs/presentation.pdf`.
 
-The real-asset smoke checks are available as `python -m scripts.smoke_app path/to/IMG_3228.HEIC` and `uv run --locked --with playwright==1.65.2 python -m scripts.browser_smoke path/to/IMG_3228.HEIC`. Install Chromium locally or set `MEDSYRINGE_CHROMIUM` to its executable path. The API smokes use temporary workspaces and do not alter user review histories.
+The real-asset smoke checks are available as `python -m scripts.checks.smoke_app path/to/IMG_3228.HEIC` and `uv run --locked --with playwright==1.65.2 python -m scripts.checks.browser_smoke path/to/IMG_3228.HEIC`. Install Chromium locally or set `MEDSYRINGE_CHROMIUM` to its executable path. The API smokes use temporary workspaces and do not alter user review histories.
 
 ## Unified detection configuration
 
-The release uses one detector configuration for all source images. The application and `python -m medsyringe.pipeline` verify the base backbone, the proposal heads and the release evidence. A guarded crop verifier can route weak uncorroborated detections to review. When the existing OCR abstains on capacity, a separate local worker can verify printed scale evidence. Content hashes identify active components in each observation. The earlier `medsyringe.production` and `medsyringe.inference` entry points reproduce the corresponding frozen pipelines. [Crop verifier and Intel runtime](../studies/fil-rouge/improvement_regression.md) · [Stroke-guided OCR](../studies/measurement/graduation_piston_recovery.md)
+The release uses one detector configuration for all source images. The application and `python -m medsyringe.pipeline` verify the base backbone, the proposal heads and the release evidence. A guarded crop verifier can route weak uncorroborated detections to review. When the existing OCR abstains on capacity, a separate local worker can verify printed scale evidence. Content hashes identify active components in each observation. The earlier `medsyringe.analysis.production` and `medsyringe.analysis.inference` entry points reproduce the corresponding frozen pipelines. [Crop verifier and Intel runtime](../studies/fil-rouge/improvement_regression.md) · [Stroke-guided OCR](../studies/measurement/graduation_piston_recovery.md)
 
 ## Independent human review
 

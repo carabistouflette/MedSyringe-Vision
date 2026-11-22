@@ -2,8 +2,8 @@ import cv2
 import numpy as np
 import pytest
 
-from medsyringe.small_capacity import accept_markings, tick_tracks
-from medsyringe.small_fill import inspect_barrel
+from medsyringe.measurement.small_capacity import accept_markings, tick_tracks
+from medsyringe.measurement.small_fill import inspect_barrel
 
 
 @pytest.mark.parametrize("digits,unit,expected", [

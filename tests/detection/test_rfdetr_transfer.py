@@ -4,8 +4,8 @@ from types import SimpleNamespace
 import pytest
 
 from medsyringe.data import read_json
-from scripts import rfdetr_transfer
-from scripts.rfdetr_compare import oracle, ranked_region
+from scripts.experiments.transfer import rfdetr_transfer
+from scripts.experiments.transfer.rfdetr_compare import oracle, ranked_region
 
 
 def test_zenodo_polygon_area_and_class():

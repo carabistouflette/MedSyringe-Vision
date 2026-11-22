@@ -1,4 +1,4 @@
-from scripts.relocalization_selector import eligible, evidence, guard, refine, snapshot, visible_anchors_preserved
+from scripts.experiments.relocalization.relocalization_selector import eligible, evidence, guard, refine, snapshot, visible_anchors_preserved
 
 
 def test_neighbor_ownership_and_fragment_safeguards():

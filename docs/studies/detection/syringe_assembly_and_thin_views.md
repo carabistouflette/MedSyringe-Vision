@@ -53,18 +53,18 @@ Use the existing project, RF-DETR and Intel Arc Python environments. Restore the
 
 ~~~bash
 export HF_HUB_OFFLINE=1 OMP_NUM_THREADS=2 OPENBLAS_NUM_THREADS=2
-.venv/bin/python -m scripts.syringe_assembly_review
-.venv/bin/python -m scripts.syringe_assembly_model
-data/rfdetr/env/bin/python -m scripts.thin_syringe_tiles development
-.venv/bin/python -m scripts.syringe_assembly_study choose
-.venv/bin/python -m scripts.syringe_assembly_reserve freeze
-data/sam3/xpu-env/bin/python -m scripts.syringe_assembly_reserve baseline
-data/rfdetr/env/bin/python -m scripts.syringe_assembly_reserve proposals
-data/rfdetr/env/bin/python -m scripts.thin_syringe_tiles history
-data/rfdetr/env/bin/python -m scripts.thin_syringe_tiles prospective
-.venv/bin/python -m scripts.syringe_assembly_study score
-data/rfdetr/env/bin/python -m scripts.syringe_assembly_diagnostic
-.venv/bin/python -m scripts.syringe_recrop_trigger_audit
-data/rfdetr/env/bin/python -m scripts.syringe_recrop_trigger_audit --replay-rf
+.venv/bin/python -m scripts.experiments.identity.syringe_assembly_review
+.venv/bin/python -m scripts.experiments.identity.syringe_assembly_model
+data/rfdetr/env/bin/python -m scripts.experiments.identity.thin_syringe_tiles development
+.venv/bin/python -m scripts.experiments.identity.syringe_assembly_study choose
+.venv/bin/python -m scripts.experiments.identity.syringe_assembly_reserve freeze
+data/sam3/xpu-env/bin/python -m scripts.experiments.identity.syringe_assembly_reserve baseline
+data/rfdetr/env/bin/python -m scripts.experiments.identity.syringe_assembly_reserve proposals
+data/rfdetr/env/bin/python -m scripts.experiments.identity.thin_syringe_tiles history
+data/rfdetr/env/bin/python -m scripts.experiments.identity.thin_syringe_tiles prospective
+.venv/bin/python -m scripts.experiments.identity.syringe_assembly_study score
+data/rfdetr/env/bin/python -m scripts.experiments.identity.syringe_assembly_diagnostic
+.venv/bin/python -m scripts.experiments.relocalization.syringe_recrop_trigger_audit
+data/rfdetr/env/bin/python -m scripts.experiments.relocalization.syringe_recrop_trigger_audit --replay-rf
 .venv/bin/python -m pytest -q
 ~~~

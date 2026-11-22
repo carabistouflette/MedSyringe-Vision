@@ -4,7 +4,7 @@ Use Linux x86-64, Python 3.12, uv, and curl. Install ExifTool for source prepara
 
 ```bash
 uv sync --locked --python 3.12
-bash scripts/fetch_models.sh
+bash scripts/setup/fetch_models.sh
 HF_HUB_OFFLINE=1 uv run --locked uvicorn medsyringe.app:app --host 127.0.0.1 --port 8765
 ```
 
@@ -19,7 +19,7 @@ The review panel can open a candidate's native-resolution image crop before adop
 To restore the released weights and three packaged Python environments in a clean checkout at the bundle’s recorded Git revision, run the command below. The bundle also includes the base Python interpreter. Linux x86-64 and compatible host libraries are required. The Intel device is used by the verified SAM worker. [Runtime bundle documentation](local_runtime_bundle.md)
 
 ```bash
-python3 scripts/runtime_bundle.py restore /path/to/medsyringe-runtime
+python3 scripts/setup/runtime_bundle.py restore /path/to/medsyringe-runtime
 HF_HUB_OFFLINE=1 .venv/bin/python -m uvicorn medsyringe.app:app --host 127.0.0.1 --port 8765
 ```
 
@@ -30,18 +30,18 @@ uv run --locked python -m pytest -q
 
 Use `MEDSYRINGE_DEVICE=cpu` with the API launcher, or `--device cpu` with the image CLI, to run detection and all SAM operations on the CPU. The same settings accept `xpu` with the pinned Intel environment. [Local runtime and device selection](local_runtime_bundle.md)
 
-Use `bash scripts/serve_intel.sh` on the delivered Intel Arc machine for the benchmarked XPU runtime. To restore the launcher in a separate checkout, first restore the XPU environment described in the local worker setup, then install the app dependencies there.
+Use `bash scripts/setup/serve_intel.sh` on the delivered Intel Arc machine for the benchmarked XPU runtime. To restore the launcher in a separate checkout, first restore the XPU environment described in the local worker setup, then install the app dependencies there.
 
 ```bash
 uv pip install --python data/sam3/xpu-env/bin/python fastapi==0.135.1 starlette==1.10.0 uvicorn==0.41.0 python-multipart==0.0.22
-bash scripts/serve_intel.sh
+bash scripts/setup/serve_intel.sh
 ```
 
 ## Prepare the supplied source
 
 ```bash
 uv run --locked python -m medsyringe.data audit --source "/path/to/Images"
-uv run --locked python -m scripts.source_profiles --source "/path/to/Images"
+uv run --locked python -m scripts.datasets.source_profiles --source "/path/to/Images"
 uv run --locked python -m medsyringe.data coco
 ```
 

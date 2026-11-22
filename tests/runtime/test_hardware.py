@@ -2,7 +2,7 @@ from types import SimpleNamespace
 
 import pytest
 
-from medsyringe import hardware
+from medsyringe.runtime import hardware
 
 
 def engine_workers():

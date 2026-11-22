@@ -52,12 +52,12 @@ Restore the downloaded public assets and the prior proposal, release and referen
 
 ~~~bash
 export HF_HUB_OFFLINE=1 OMP_NUM_THREADS=2 OPENBLAS_NUM_THREADS=2
-.venv/bin/python -m scripts.syringe_action_verifier freeze
-.venv/bin/python -m scripts.syringe_action_diagnostic freeze
-.venv/bin/python -m scripts.syringe_action_reserve freeze
-data/rfdetr/env/bin/python -m scripts.syringe_action_reserve collect
-data/sam3/xpu-env/bin/python -m scripts.syringe_action_reserve baseline
-.venv/bin/python -m scripts.syringe_action_verifier score
-.venv/bin/python -m scripts.syringe_action_diagnostic score
+.venv/bin/python -m scripts.experiments.ranking.syringe_action_verifier freeze
+.venv/bin/python -m scripts.experiments.ranking.syringe_action_diagnostic freeze
+.venv/bin/python -m scripts.experiments.ranking.syringe_action_reserve freeze
+data/rfdetr/env/bin/python -m scripts.experiments.ranking.syringe_action_reserve collect
+data/sam3/xpu-env/bin/python -m scripts.experiments.ranking.syringe_action_reserve baseline
+.venv/bin/python -m scripts.experiments.ranking.syringe_action_verifier score
+.venv/bin/python -m scripts.experiments.ranking.syringe_action_diagnostic score
 .venv/bin/python -m pytest -q
 ~~~

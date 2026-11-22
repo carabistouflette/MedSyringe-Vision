@@ -36,21 +36,21 @@ A separate transfer uses seven manually oriented crops from one staged photo. It
 
 ~~~sh
 export HF_HUB_OFFLINE=1 OMP_NUM_THREADS=2 OPENBLAS_NUM_THREADS=1
-.venv/bin/python -m scripts.low_count_recovery measure
-.venv/bin/python -m scripts.low_count_review diagnose
-data/sam3/xpu-env/bin/python -m scripts.low_count_prospective released
-data/sam3/xpu-env/bin/python -m scripts.low_count_prospective measure
-data/sam3/xpu-env/bin/python -m scripts.low_count_candidate_diagnostic
-.venv/bin/python -m scripts.low_count_priority_review
-.venv/bin/python -m scripts.chamber_appearance_study
-.venv/bin/python -m scripts.chamber_public_transfer
+.venv/bin/python -m scripts.experiments.crowds.low_count_recovery measure
+.venv/bin/python -m scripts.experiments.crowds.low_count_review diagnose
+data/sam3/xpu-env/bin/python -m scripts.experiments.crowds.low_count_prospective released
+data/sam3/xpu-env/bin/python -m scripts.experiments.crowds.low_count_prospective measure
+data/sam3/xpu-env/bin/python -m scripts.experiments.crowds.low_count_candidate_diagnostic
+.venv/bin/python -m scripts.experiments.crowds.low_count_priority_review
+.venv/bin/python -m scripts.experiments.measurement.chamber_appearance_study
+.venv/bin/python -m scripts.experiments.measurement.chamber_public_transfer
 .venv/bin/python -m pytest -q
 ~~~
 
 For a local reviewed observation use the fixed policy's separate review export. The supplied observation must contain the original image checksum and the accepted object boxes. The result reports a verified count and offers review geometry without changing the source observation.
 
 ~~~sh
-data/sam3/xpu-env/bin/python -m scripts.low_count_review review photograph.jpg \
+data/sam3/xpu-env/bin/python -m scripts.experiments.crowds.low_count_review review photograph.jpg \
     --observation observation.json --output recovery-review.json
 ~~~
 

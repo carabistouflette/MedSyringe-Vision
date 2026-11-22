@@ -8,7 +8,7 @@ from PIL import Image
 
 from medsyringe import app
 from medsyringe.app import create_app
-from medsyringe.scene import Store
+from medsyringe.review.scene import Store
 
 
 def test_original_pixels_and_source_archive_follow_the_reviewed_box(tmp_path):

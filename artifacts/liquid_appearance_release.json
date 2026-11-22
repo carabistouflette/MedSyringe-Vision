@@ -3,9 +3,9 @@
   "evidence": "artifacts/liquid_appearance_validation.json",
   "evidence_sha256": "c086b90376dd5392db3bbef6baa45cb1d91995f4eb69077c8a7cf6b58a8ca0ab",
   "code": {
-    "medsyringe/liquid_appearance.py": "67149108c94c5c55dcfc34824e0f55db48d460fa232de097dc037f1e3d7e6d67",
-    "medsyringe/liquid_region.py": "f12390b49367c0961c4148e03b206db0a90d44ddb4e919306ab195cd75c1ae6e",
-    "scripts/liquid_measure.py": "549b941cd9fd608c5ef805652f1e215679b1e0f1cd1047edaacd2e309165c151"
+    "medsyringe/measurement/liquid_appearance.py": "67149108c94c5c55dcfc34824e0f55db48d460fa232de097dc037f1e3d7e6d67",
+    "medsyringe/measurement/liquid_region.py": "691ab13b8ed83c4dd0209468e84db8f578c431ed4b646634bd694885d75fd640",
+    "scripts/experiments/measurement/liquid_measure.py": "6563044bea4ce759f3bfed3c56a9bab6d084f820aed94db44c8f5a2710609018"
   },
   "models": {
     "artifacts/liquid_region_head.json": "213ef26d4671df406ded8405d26a7562e25837607f02c99a354d7f1361852fc5",

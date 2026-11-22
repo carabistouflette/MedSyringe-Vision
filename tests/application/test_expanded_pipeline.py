@@ -1,10 +1,10 @@
 import numpy as np
 import pytest
 
-from medsyringe.hybrid_detection import candidates, rank, retain_baseline, rule, vectors
-from medsyringe.liquid_color import describe_region
-from medsyringe.marking_views import agreement, supplement
-from medsyringe.markings_guard import confirm_untyped_capacity
+from medsyringe.detection.hybrid_detection import candidates, rank, retain_baseline, rule, vectors
+from medsyringe.measurement.liquid_color import describe_region
+from medsyringe.measurement.marking_views import agreement, supplement
+from medsyringe.measurement.markings_guard import confirm_untyped_capacity
 
 
 def test_hybrid_agreement_fuses_and_keeps_distinct_instances():

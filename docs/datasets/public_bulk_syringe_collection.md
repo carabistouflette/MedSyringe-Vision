@@ -60,10 +60,10 @@ TrashBox reports 507 syringe images but the original repository and paper did no
 ## Reproduce and audit
 
 ```sh
-.venv/bin/python -B -m scripts.public_bulk_syringe_collection stage
-.venv/bin/python -B -m scripts.public_bulk_syringe_collection sheets
-.venv/bin/python -B -m scripts.public_bulk_syringe_collection publish
-.venv/bin/python -B -m scripts.public_bulk_syringe_collection verify
+.venv/bin/python -B -m scripts.experiments.public_data.public_bulk_syringe_collection stage
+.venv/bin/python -B -m scripts.experiments.public_data.public_bulk_syringe_collection sheets
+.venv/bin/python -B -m scripts.experiments.public_data.public_bulk_syringe_collection publish
+.venv/bin/python -B -m scripts.experiments.public_data.public_bulk_syringe_collection verify
 ```
 
 The commands above run offline with the saved catalog, downloaded images and recorded reviews. The `fetch` and `fetch-official` commands retrieve public rasters from the saved discovery inputs when needed. `fetch` deterministically ranks image IDs per source, mixes sources in a round-robin, uses the selected positive and control budgets, and resumes from cached bytes. The observed runs allowed at most four media request starts per second and four concurrent transfers. HTTP 429 and 503 stop the download run. The image files retain the bytes served by the provider. Catalog pagination and source totals are historical snapshots and may change.

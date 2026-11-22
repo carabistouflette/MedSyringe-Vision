@@ -3,12 +3,12 @@ from io import BytesIO
 
 from PIL import Image
 
-from medsyringe.appearance_runtime import RELEASE, AppearanceRuntime
-from medsyringe.attributes import crop
-from medsyringe.local_models import WorkerError, decode_picture
-from scripts.appearance_text_encoder import pack_patches, prepare_patch, unpack_patches
-from scripts.appearance_worker import explain
-from scripts.detection_crop_semantics import PADDINGS, expanded
+from medsyringe.runtime.appearance_runtime import RELEASE, AppearanceRuntime
+from medsyringe.measurement.attributes import crop
+from medsyringe.runtime.local_models import WorkerError, decode_picture
+from scripts.workers.appearance_text_encoder import pack_patches, prepare_patch, unpack_patches
+from scripts.workers.appearance_worker import explain
+from scripts.experiments.detector_audits.detection_crop_semantics import PADDINGS, expanded
 
 
 def test_verified_sources_are_visible_and_demoted_boxes_stay_reviewable():

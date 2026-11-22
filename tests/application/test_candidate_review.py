@@ -1,7 +1,7 @@
 from fastapi.testclient import TestClient
 
 from medsyringe.app import create_app
-from medsyringe.scene import Store
+from medsyringe.review.scene import Store
 
 
 def test_review_links_only_one_object_to_the_original_candidate(tmp_path):

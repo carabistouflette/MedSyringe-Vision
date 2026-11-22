@@ -19,8 +19,8 @@ The reader marked each identifiable assembled syringe on the oriented full image
 ## Reproduce locally
 
 ```sh
-.venv/bin/python -B -m scripts.crowd_next_reference verify
-.venv/bin/python -B -m scripts.crowd_next_reference restore
+.venv/bin/python -B -m scripts.experiments.public_data.crowd_next_reference verify
+.venv/bin/python -B -m scripts.experiments.public_data.crowd_next_reference restore
 ```
 
 The manifest paths are relative to `data/`. `verify` checks the pinned manifest, the source screen, local bytes, oriented dimensions, perceptual hashes, group uniqueness and reference geometry. `restore` fetches missing files from the recorded public URLs and accepts only their pinned bytes. Keep a local copy of the rasters in `data/crowd-next-reference/images/` because providers can replace renditions. Box coordinates are normalized XYXY in the EXIF-oriented full raster.

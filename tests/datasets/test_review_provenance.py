@@ -6,7 +6,7 @@ from zipfile import ZipFile
 from fastapi.testclient import TestClient
 
 from medsyringe.app import create_app
-from medsyringe.scene import Store
+from medsyringe.review.scene import Store
 
 
 def test_redraw_clears_stale_fields_and_reconfirmation_is_explicit(tmp_path):

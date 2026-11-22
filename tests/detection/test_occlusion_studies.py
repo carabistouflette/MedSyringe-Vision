@@ -1,10 +1,10 @@
 import pytest
 import numpy as np
 
-from scripts.occlusion_detector import crop_labels, fuse
-from scripts.occlusion_proposals import oracle
-from scripts.occlusion_sam_tiling import handoff
-from scripts.occlusion_seal import convert_to_volume
+from scripts.experiments.occlusion.occlusion_detector import crop_labels, fuse
+from scripts.experiments.occlusion.occlusion_proposals import oracle
+from scripts.experiments.occlusion.occlusion_sam_tiling import handoff
+from scripts.experiments.occlusion.occlusion_seal import convert_to_volume
 
 
 def proposal(box, score=.7, **fields):

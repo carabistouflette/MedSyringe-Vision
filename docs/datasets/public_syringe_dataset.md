@@ -29,8 +29,8 @@ The local RF-DETR annotation pilot used 12 new photos with 14 manually marked sy
 ## Verify and review locally
 
 ```bash
-.venv/bin/python -m scripts.public_syringe_dataset --verify
-HF_HUB_OFFLINE=1 data/rfdetr/env/bin/python -m scripts.public_annotation_queue \
+.venv/bin/python -m scripts.experiments.public_data.public_syringe_dataset --verify
+HF_HUB_OFFLINE=1 data/rfdetr/env/bin/python -m scripts.experiments.public_data.public_annotation_queue \
     data/public-syringe-dataset/manifest.json data/public-syringe-dataset/review-batch.zip --limit 24
 ```
 

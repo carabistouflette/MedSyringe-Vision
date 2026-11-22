@@ -63,32 +63,32 @@ The three training runs, grouped data checks, frozen comparison and four-cohort 
 
 ## Reproduction
 
-Run from the repository root after preparing the original and public project sources. Restore the public Zenodo ZIP to `data/zenodo/phlebotomy.zip` and generate the earlier sample if needed with `scripts.public_transfer_study`. The experimental environment is separate from the application. The official initial checkpoint is checked against its recorded SHA-256 at the start of training. [Engineering guide](../../guides/engineering.md)
+Run from the repository root after preparing the original and public project sources. Restore the public Zenodo ZIP to `data/zenodo/phlebotomy.zip` and generate the earlier sample if needed with `scripts.experiments.public_data.public_transfer_study`. The experimental environment is separate from the application. The official initial checkpoint is checked against its recorded SHA-256 at the start of training. [Engineering guide](../../guides/engineering.md)
 
 ```bash
 uv sync --locked
 uv venv --python .venv/bin/python data/rfdetr/env
 uv pip sync --python data/rfdetr/env/bin/python \
   --extra-index-url https://download.pytorch.org/whl/cpu --index-strategy unsafe-best-match \
-  scripts/rfdetr-requirements.txt
+  scripts/experiments/transfer/rfdetr-requirements.txt
 curl -fL https://repo.roboflow.com/rfdetr/rf-detr-seg-n-ft.pth \
   -o data/rfdetr/rf-detr-seg-nano.pt
 export OMP_NUM_THREADS=4 MKL_NUM_THREADS=4 HF_HUB_OFFLINE=1 WANDB_MODE=disabled
 study_python=data/rfdetr/env/bin/python
-"$study_python" -m scripts.rfdetr_transfer prepare public
-"$study_python" -m scripts.rfdetr_transfer prepare adapt
-"$study_python" -m scripts.rfdetr_transfer prepare audit
-"$study_python" -m scripts.rfdetr_transfer train public
-"$study_python" -m scripts.rfdetr_transfer train adapt --run direct --epochs 2
-"$study_python" -m scripts.rfdetr_transfer train adapt --run transfer --epochs 2 \
+"$study_python" -m scripts.experiments.transfer.rfdetr_transfer prepare public
+"$study_python" -m scripts.experiments.transfer.rfdetr_transfer prepare adapt
+"$study_python" -m scripts.experiments.transfer.rfdetr_transfer prepare audit
+"$study_python" -m scripts.experiments.transfer.rfdetr_transfer train public
+"$study_python" -m scripts.experiments.transfer.rfdetr_transfer train adapt --run direct --epochs 2
+"$study_python" -m scripts.experiments.transfer.rfdetr_transfer train adapt --run transfer --epochs 2 \
   --weights data/rfdetr/runs/public/checkpoint_best_total.pth
-"$study_python" -m scripts.rfdetr_compare calibrate
-.venv/bin/python -m scripts.rfdetr_compare baseline
+"$study_python" -m scripts.experiments.transfer.rfdetr_compare calibrate
+.venv/bin/python -m scripts.experiments.transfer.rfdetr_compare baseline
 for cohort in fresh fil_rouge historical previous_external; do
-  "$study_python" -m scripts.rfdetr_compare audit --cohort "$cohort"
+  "$study_python" -m scripts.experiments.transfer.rfdetr_compare audit --cohort "$cohort"
 done
-"$study_python" -m scripts.rfdetr_compare summarize
-.venv/bin/python -m scripts.rfdetr_figures
+"$study_python" -m scripts.experiments.transfer.rfdetr_compare summarize
+.venv/bin/python -m scripts.experiments.transfer.rfdetr_figures
 ```
 
 Training saves epoch checkpoints with optimizer state, publisher configs, CSV metrics and an inference checkpoint under `data/rfdetr/runs/`. To continue an interrupted run, repeat the original command with `--resume` pointing to its last `checkpoint_<epoch>.ckpt`. The local data directory is excluded from git. Preserve the checkpoints and experiment outputs there when moving the study to another machine.

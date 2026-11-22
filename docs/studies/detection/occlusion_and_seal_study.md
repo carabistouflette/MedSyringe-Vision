@@ -84,22 +84,22 @@ mkdir -p data/occlusion-study
 curl -fL https://d1ldvf68ux039x.cloudfront.net/thumbs/photos/2310/8071796/1000w_q95.jpg -o data/occlusion-study/8071796.jpg
 curl -fL https://d1ldvf68ux039x.cloudfront.net/thumbs/photos/2603/9584272/1000w_q95.jpg -o data/occlusion-study/9584272.jpg
 curl -fL https://upload.wikimedia.org/wikipedia/commons/1/16/Syringe_details_raw.jpeg -o data/occlusion-study/fifo-2ml.jpg
-.venv/bin/python -m scripts.occlusion_detector prepare
-.venv/bin/python -m scripts.occlusion_reserve freeze
-.venv/bin/python -m scripts.occlusion_leakage_audit
-.venv/bin/python -m scripts.occlusion_hybrid select
-data/sam3/xpu-env/bin/python -m scripts.occlusion_proposals
-data/sam3/xpu-env/bin/python -m scripts.occlusion_reserve released
-data/rfdetr/env/bin/python -m scripts.occlusion_detector train
-data/rfdetr/env/bin/python -m scripts.occlusion_detector select
-data/rfdetr/env/bin/python -m scripts.occlusion_detector score
-.venv/bin/python -m scripts.occlusion_fusion_audit
-data/sam3/xpu-env/bin/python -m scripts.occlusion_sam_tiling
-.venv/bin/python -m scripts.occlusion_hybrid score
-.venv/bin/python -m scripts.occlusion_seal reference
-.venv/bin/python -m scripts.occlusion_seal learn
-.venv/bin/python -m scripts.occlusion_seal measure
-.venv/bin/python -m scripts.occlusion_volume_probe
+.venv/bin/python -m scripts.experiments.occlusion.occlusion_detector prepare
+.venv/bin/python -m scripts.experiments.occlusion.occlusion_reserve freeze
+.venv/bin/python -m scripts.experiments.occlusion.occlusion_leakage_audit
+.venv/bin/python -m scripts.experiments.occlusion.occlusion_hybrid select
+data/sam3/xpu-env/bin/python -m scripts.experiments.occlusion.occlusion_proposals
+data/sam3/xpu-env/bin/python -m scripts.experiments.occlusion.occlusion_reserve released
+data/rfdetr/env/bin/python -m scripts.experiments.occlusion.occlusion_detector train
+data/rfdetr/env/bin/python -m scripts.experiments.occlusion.occlusion_detector select
+data/rfdetr/env/bin/python -m scripts.experiments.occlusion.occlusion_detector score
+.venv/bin/python -m scripts.experiments.occlusion.occlusion_fusion_audit
+data/sam3/xpu-env/bin/python -m scripts.experiments.occlusion.occlusion_sam_tiling
+.venv/bin/python -m scripts.experiments.occlusion.occlusion_hybrid score
+.venv/bin/python -m scripts.experiments.occlusion.occlusion_seal reference
+.venv/bin/python -m scripts.experiments.occlusion.occlusion_seal learn
+.venv/bin/python -m scripts.experiments.occlusion.occlusion_seal measure
+.venv/bin/python -m scripts.experiments.occlusion.occlusion_volume_probe
 .venv/bin/python -m pytest -q
 ~~~
 
@@ -108,13 +108,13 @@ The release replay and SAM use Intel Arc. The one-epoch RF-DETR adaptation and s
 The refinement follow-up uses the same installed environments. The raw source URLs and exact SHA-256 digests are in the prospective annotation manifest. Store those JPEGs in `data/occlusion-relocalization` as listed in the manifest.
 
 ~~~bash
-.venv/bin/python -m scripts.occlusion_relocalization select
-.venv/bin/python -m scripts.occlusion_relocalization measure
-.venv/bin/python -m scripts.occlusion_relocalization_reserve freeze
-data/sam3/xpu-env/bin/python -m scripts.occlusion_relocalization_reserve baseline
-data/rfdetr/env/bin/python -m scripts.occlusion_relocalization_reserve collect
-.venv/bin/python -m scripts.occlusion_relocalization_reserve measure
-.venv/bin/python -m scripts.occlusion_relocalization_diagnostic
+.venv/bin/python -m scripts.experiments.occlusion.occlusion_relocalization select
+.venv/bin/python -m scripts.experiments.occlusion.occlusion_relocalization measure
+.venv/bin/python -m scripts.experiments.occlusion.occlusion_relocalization_reserve freeze
+data/sam3/xpu-env/bin/python -m scripts.experiments.occlusion.occlusion_relocalization_reserve baseline
+data/rfdetr/env/bin/python -m scripts.experiments.occlusion.occlusion_relocalization_reserve collect
+.venv/bin/python -m scripts.experiments.occlusion.occlusion_relocalization_reserve measure
+.venv/bin/python -m scripts.experiments.occlusion.occlusion_relocalization_diagnostic
 .venv/bin/python -m pytest -q
 ~~~
 

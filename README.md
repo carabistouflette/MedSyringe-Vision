@@ -8,7 +8,7 @@ Run these commands from the repository root on Linux x86-64 with Python 3.12, uv
 
 ```bash
 uv sync --locked --python 3.12
-bash scripts/fetch_models.sh
+bash scripts/setup/fetch_models.sh
 HF_HUB_OFFLINE=1 uv run --locked uvicorn medsyringe.app:app --host 127.0.0.1 --port 8765
 ```
 
@@ -19,6 +19,17 @@ HF_HUB_OFFLINE=1 uv run --locked python -m medsyringe.pipeline image.HEIC --coun
 ```
 
 See the [usage guide](docs/guides/local_usage.md) for full analysis, image review, exports and Intel Arc setup. See the [offline runtime bundle](docs/guides/local_runtime_bundle.md) to restore a released environment.
+
+## Repository layout
+
+| Directory | Use it for |
+| --- | --- |
+| [`medsyringe/analysis/`](medsyringe/analysis/) | Inference orchestration and report assembly |
+| [`medsyringe/detection/`](medsyringe/detection/) | Proposal generation, ranking and verification |
+| [`medsyringe/measurement/`](medsyringe/measurement/) | OCR, capacity, fill and appearance |
+| [`medsyringe/review/`](medsyringe/review/) · [`medsyringe/web/`](medsyringe/web/) | Review storage and browser UI |
+| [`medsyringe/runtime/`](medsyringe/runtime/) | Devices, model workers and release checks |
+| [`scripts/`](scripts/README.md) | Setup, checks, dataset preparation and research experiments |
 
 ## Work on the project
 

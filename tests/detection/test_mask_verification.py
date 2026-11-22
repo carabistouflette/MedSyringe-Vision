@@ -1,4 +1,4 @@
-from scripts.detection_mask_verification import candidates, detect
+from scripts.experiments.crowds.detection_mask_verification import candidates, detect
 
 
 def test_crowded_proposals_preserve_existing_detections_and_require_support():

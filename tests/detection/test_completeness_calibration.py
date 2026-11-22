@@ -1,7 +1,7 @@
 import pytest
 
-from scripts.complete_syringe_selection import predict
-from scripts.completeness_calibration import scored
+from scripts.experiments.ranking.complete_syringe_selection import predict
+from scripts.experiments.ranking.completeness_calibration import scored
 
 
 def test_pure_ranking_changes_the_preference_without_changing_the_detector_prefilter():

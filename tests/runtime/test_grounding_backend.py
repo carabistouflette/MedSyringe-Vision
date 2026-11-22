@@ -1,7 +1,7 @@
 from types import SimpleNamespace
 from unittest.mock import Mock
 
-from medsyringe.grounding_backend import AccelerationUnavailable, analyze
+from medsyringe.runtime.grounding_backend import AccelerationUnavailable, analyze
 
 
 def test_device_error_retries_the_entire_image_once_on_cpu():

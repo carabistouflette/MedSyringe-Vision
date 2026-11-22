@@ -1,7 +1,7 @@
 from medsyringe.data import read_json
-from scripts import replacement_appearance as study
-from scripts import replacement_appearance_reserve as reserve
-from scripts.replacement_appearance import apply, gate_choices, screen_examples
+from scripts.experiments.relocalization import replacement_appearance as study
+from scripts.experiments.relocalization import replacement_appearance_reserve as reserve
+from scripts.experiments.relocalization.replacement_appearance import apply, gate_choices, screen_examples
 
 
 ANCHOR = [.18, .20, .40, .41]

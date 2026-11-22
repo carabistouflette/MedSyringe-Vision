@@ -1,6 +1,6 @@
 import numpy as np
 
-from medsyringe.part_geometry import PARTS, geometry
+from medsyringe.measurement.part_geometry import PARTS, geometry
 
 
 def test_geometry_requires_barrel_flange_rod_order():

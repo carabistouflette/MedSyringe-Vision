@@ -3,7 +3,7 @@ from types import SimpleNamespace
 
 import pytest
 
-from medsyringe import shared_sam
+from medsyringe.runtime import shared_sam
 
 
 def fixture_engine():

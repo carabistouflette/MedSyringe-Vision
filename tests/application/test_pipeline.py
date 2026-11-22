@@ -9,10 +9,10 @@ from pillow_heif import from_pillow
 
 from medsyringe.app import create_app
 from medsyringe.data import coco, dhash, digest, leakage, read_image, valid_box, write_json
-from medsyringe.detectors import box_iou, suppress
+from medsyringe.detection.detectors import box_iou, suppress
 from medsyringe.evaluate import best_threshold, evaluate
-from medsyringe.scene import compare, inventory
-from medsyringe.refinement import fuse, restore_box
+from medsyringe.review.scene import compare, inventory
+from medsyringe.detection.refinement import fuse, restore_box
 
 BOX = [0.2, 0.2, 0.4, 0.8]
 
@@ -138,7 +138,7 @@ def test_consensus_strengthens_matching_boxes_and_retains_separate_instances():
 
 
 def test_learned_geometry_head_scores_proposals_without_losing_box_evidence():
-    from medsyringe.proposal_learning import adjust_scores, describe_proposals, fit_variant, labels_for
+    from medsyringe.detection.proposal_learning import adjust_scores, describe_proposals, fit_variant, labels_for
 
     image = Image.new("RGB", (48, 32), "white")
     candidates = [{"bbox": BOX, "score": .8, "support": 2},
@@ -155,7 +155,7 @@ def test_learned_geometry_head_scores_proposals_without_losing_box_evidence():
 
 
 def test_crop_verification_routes_rejected_proposals_to_review():
-    from medsyringe.verification import filter_proposals
+    from medsyringe.detection.verification import filter_proposals
 
     candidates = [{"bbox": BOX, "score": 0.9}, {"bbox": BOX, "score": 0.7}]
     kept, review = filter_proposals(candidates, [-0.4, 0.5], 0.0)
@@ -166,7 +166,7 @@ def test_crop_verification_routes_rejected_proposals_to_review():
 
 def test_ssd_hard_negatives_use_only_empty_scenes():
     import torch
-    from medsyringe.supervised import empty_scene_loss
+    from medsyringe.detection.supervised import empty_scene_loss
 
     logits = torch.tensor([[[0.0, 4.0], [4.0, 0.0]], [[0.0, 5.0], [0.0, 2.0]]],
                           requires_grad=True)
@@ -180,7 +180,7 @@ def test_ssd_hard_negatives_use_only_empty_scenes():
 
 def test_localization_offsets_round_trip():
     import numpy as np
-    from medsyringe.localization import correct_boxes, relative_offsets
+    from medsyringe.detection.localization import correct_boxes, relative_offsets
 
     boxes = np.array([[.20, .20, .50, .80]])
     targets = np.array([[.16, .18, .54, .82]])
@@ -188,7 +188,7 @@ def test_localization_offsets_round_trip():
 
 
 def test_cross_model_fusion_only_supports_overlapping_proposals():
-    from scripts.compare_supervised import combine
+    from scripts.experiments.transfer.compare_supervised import combine
 
     others = [.60, .20, .90, .70]
     current = [{"bbox": BOX, "score": .78}, {"bbox": others, "score": .77}]
@@ -200,7 +200,7 @@ def test_cross_model_fusion_only_supports_overlapping_proposals():
 
 
 def test_letterbox_mapping_ignores_padding_and_preserves_original_box():
-    from scripts.scale_study import inverse
+    from scripts.experiments.measurement.scale_study import inverse
 
     mapping = {"frame": (0, 80, 320, 160)}
     predictions = {"frame": [{"bbox": [.20, .35, .40, .65], "score": .9},
@@ -211,7 +211,7 @@ def test_letterbox_mapping_ignores_padding_and_preserves_original_box():
 
 
 def test_recall_guard_rejects_exchanging_one_detected_instance_for_another():
-    from medsyringe.recall_guard import compare, release_allowed
+    from medsyringe.detection.recall_guard import compare, release_allowed
 
     def result(missed):
         return dict(images=2, objects=2, tp=2-len(missed), fn=len(missed), fp=0,
@@ -227,7 +227,7 @@ def test_recall_guard_rejects_exchanging_one_detected_instance_for_another():
 
 
 def test_additive_detector_does_not_modify_or_reorder_accepted_proposals():
-    from medsyringe.additive import additions, project
+    from medsyringe.detection.additive import additions, project
 
     duplicate = {"bbox": [0.21, 0.21, 0.38, 0.70], "score": .98}
     retained = {"bbox": BOX, "score": .68}
@@ -246,7 +246,7 @@ def test_additive_detector_does_not_modify_or_reorder_accepted_proposals():
 
 def test_mosaic_box_coordinates_follow_the_source_quadrant():
     import torch
-    from scripts.mosaic_study import mosaic
+    from scripts.experiments.baselines.mosaic_study import mosaic
 
     blank = torch.zeros((3, 320, 320))
     output, target = mosaic([blank] * 4, [torch.empty((0, 4))] * 3 + [
@@ -256,14 +256,14 @@ def test_mosaic_box_coordinates_follow_the_source_quadrant():
 
 
 def test_public_polygon_conversion_keeps_only_the_syringe_label():
-    from scripts.public_transfer_study import syringe_boxes
+    from scripts.experiments.public_data.public_transfer_study import syringe_boxes
 
     labels = "0 0.1 0.2 0.4 0.2 0.4 0.8 0.1 0.8\n1 0.0 0.0 1.0 0.0 1.0 1.0"
     assert syringe_boxes(labels, 0) == [{"bbox": [0.1, 0.2, 0.4, 0.8]}]
 
 
 def test_zoom_pads_thin_images_and_restores_coordinates():
-    from scripts.zoom_study import zoom
+    from scripts.experiments.baselines.zoom_study import zoom
 
     class Detector:
         def propose(self, image):

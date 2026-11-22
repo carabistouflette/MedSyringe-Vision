@@ -2,8 +2,8 @@ from PIL import Image
 import pytest
 import torch
 
-from scripts.sam3_evaluate import combine
-from scripts.sam3_study import crop_predictions, mask_geometry
+from scripts.experiments.expanded.sam3_evaluate import combine
+from scripts.experiments.expanded.sam3_study import crop_predictions, mask_geometry
 
 
 def test_mask_bounds_come_from_foreground_pixels():

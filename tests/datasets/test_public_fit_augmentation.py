@@ -2,7 +2,7 @@ import numpy as np
 import pytest
 from PIL import Image, ImageDraw
 
-from scripts.public_fit_augmentation import derivative, geometry
+from scripts.experiments.public_data.public_fit_augmentation import derivative, geometry
 
 
 def test_geometry_transforms_a_polygon_and_graduation_point_into_the_same_raster():

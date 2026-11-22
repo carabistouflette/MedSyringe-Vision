@@ -4,15 +4,15 @@
     "name": "dino",
     "revision": "a2bb814dd30d776dcf7e30523b00659f4f141c71",
     "pipeline": "optimized-detector-v3+rfdetr-verified+sam3-fallback+expanded",
-    "selection_sha256": "6481fabde0f83dc58083049abb0f6a69f94d2b734d94234a28fa0b2e197e7897",
+    "selection_sha256": "069cb08a785982f21fe58e83f4eb433aa572af7eb19e9b78d25f009cc860cd5f",
     "attributes_sha256": "026e40a5d54c323c623775bb040890e8408cc893ef8721e3cae56a0525ee589b",
-    "recovery_sha256": "218082dfc0ecf028f8bfc902ad9c51a41fdb369818b2a566320688682e4e19a7",
-    "sam3_sha256": "dcd7f0c1262cbdafed1915ab6e20adbbab58bf5739e07d2a8fbcc6338769dc30",
-    "marking_sha256": "8cfc9bf9e707d5f1457474c927bc2e42a61e391198849f39fa810e928218cb2c",
-    "liquid_sha256": "3d63ef06a07b4ff095aa227abb8c3d61df09bc3522fdccb1a168aef4e38c4d46",
-    "expanded_sha256": "2a81b253ecf24e402db6c4d32a4a49d4912580e997776cc09b3639bff0740e53",
-    "fill_sha256": "ff15c5d32ad634d180487a94a003a7cd12dadf6759d3b0092be85c46c6b43daa",
-    "crop_verification_sha256": "18d5533b651630b7e387c593d5b7b87b71dac4f74195f02d67423029592e1f68"
+    "recovery_sha256": "05cf2d551bf26d3eabc0d981ddeee12d1e0812f089f9fb88749e885fd739d119",
+    "sam3_sha256": "6725c7e9d832c53a2c5eab229d455d1963d347f5f41e37b0b52b642d9c5431f6",
+    "marking_sha256": "88dd42213d3a84b87cba9060f898bad508e266ea0b0216bd700d861e102662ff",
+    "liquid_sha256": "b2c1052db91acb977a2aaaf9fe309480d06a40814566fa7f9e351ec3852a315c",
+    "expanded_sha256": "084c9c32e9c2f697240a143cc4f0725a8f7a1a79ee312620af406b231cb5208c",
+    "fill_sha256": "1f08e1d1232348d6e8d7e0664e8b81171610b1e09056940d9a26ffc94d0db3db",
+    "crop_verification_sha256": "14b600ea2a39572d1dfcd3e6fd06caa59af75a620afacab20fa3678df8c60b00"
   },
   "policy": {
     "readers": [
@@ -23,12 +23,12 @@
     "stroke": 4.0
   },
   "code": {
-    "medsyringe/graduation_ocr.py": "cb606c35ddc9da1b2caf7ed1fe24803803ff56c68d5860c58a8aca4ac254a61d",
-    "medsyringe/scale_runtime.py": "8d2ef2eaea98eacd7e3df8a1a0124924a00a9afd13f7b671a603fc81797f00bb",
-    "medsyringe/pipeline.py": "1153f90e82d4ddd5a29996de23650804a3cb2dddb564e9cf5a3356f67d524890",
-    "scripts/scale_worker.py": "95d333ce99aa237a89e7e46840bab75507c9e58849a9a7275af5a3ee02d4c745",
-    "scripts/scale_worker.sh": "5381b6358081b25db36f7eaaaf3299f8057ca0b12fb9917c739c468b06583d47",
-    "medsyringe/detection_checks.py": "d90a633815eb70ff31755cbf8ef657f33ba71580474677f96d1db690969b378d"
+    "medsyringe/measurement/graduation_ocr.py": "38aeeeb273b57c8900c52a5c4f9528495697a0a0789cde0cd4bbd79b89c7f95e",
+    "medsyringe/runtime/scale_runtime.py": "95992a6cef300329d2ece9ed3d0e66b499703bef075f91e5c4fba1db647953e2",
+    "medsyringe/pipeline.py": "5c1a575dba0c82d10b2dc4abc38221cb4fca165bea29a3068d746550eb3a4dbc",
+    "scripts/workers/scale_worker.py": "3f71fe5c530199e6c5cdb18157843a3782003ef405ae2f2fc1beaf276e9b3c55",
+    "scripts/workers/scale_worker.sh": "b92e7ebb435f8be7c4a0f6a04fb1e4a666252da60e58ad3c146104c04bde6dae",
+    "medsyringe/detection/detection_checks.py": "d90a633815eb70ff31755cbf8ef657f33ba71580474677f96d1db690969b378d"
   },
   "models": {
     "data/ocr-v6/models/PP-OCRv6_tiny_rec/.gitattributes": "a3a43406012ee8c7b9b38dfab1b11610f33e8245cd864a9a9302d042616a859e",

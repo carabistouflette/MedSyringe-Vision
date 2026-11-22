@@ -30,11 +30,11 @@ Restore the public previews specified in the frozen manifest and the earlier pro
 
 ~~~bash
 export HF_HUB_OFFLINE=1 OMP_NUM_THREADS=2 OPENBLAS_NUM_THREADS=2
-.venv/bin/python -m scripts.completeness_calibration freeze
-.venv/bin/python -m scripts.completeness_calibration_reserve freeze
-data/rfdetr/env/bin/python -m scripts.completeness_calibration_reserve collect
-data/sam3/xpu-env/bin/python -m scripts.completeness_calibration_reserve baseline
-.venv/bin/python -m scripts.completeness_calibration score
-.venv/bin/python -m scripts.completeness_calibration_diagnostic
+.venv/bin/python -m scripts.experiments.ranking.completeness_calibration freeze
+.venv/bin/python -m scripts.experiments.ranking.completeness_calibration_reserve freeze
+data/rfdetr/env/bin/python -m scripts.experiments.ranking.completeness_calibration_reserve collect
+data/sam3/xpu-env/bin/python -m scripts.experiments.ranking.completeness_calibration_reserve baseline
+.venv/bin/python -m scripts.experiments.ranking.completeness_calibration score
+.venv/bin/python -m scripts.experiments.ranking.completeness_calibration_diagnostic
 .venv/bin/python -m pytest -q
 ~~~

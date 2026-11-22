@@ -58,14 +58,14 @@ Run from the repository root. Restore the precise public image bytes, existing R
 
 ~~~bash
 export HF_HUB_OFFLINE=1 OMP_NUM_THREADS=2 OPENBLAS_NUM_THREADS=2
-.venv/bin/python -m scripts.overlap_ranking_review queue
-.venv/bin/python -m scripts.overlap_ranking_review freeze
-.venv/bin/python -m scripts.overlap_candidate_features fit development
-.venv/bin/python -m scripts.overlap_ranking freeze
-.venv/bin/python -m scripts.overlap_ranking_reserve freeze
-data/rfdetr/env/bin/python -m scripts.overlap_ranking_reserve collect
-data/sam3/xpu-env/bin/python -m scripts.overlap_ranking_reserve baseline
-.venv/bin/python -m scripts.overlap_candidate_features replay fresh
-.venv/bin/python -m scripts.overlap_ranking score
+.venv/bin/python -m scripts.experiments.ranking.overlap_ranking_review queue
+.venv/bin/python -m scripts.experiments.ranking.overlap_ranking_review freeze
+.venv/bin/python -m scripts.experiments.ranking.overlap_candidate_features fit development
+.venv/bin/python -m scripts.experiments.ranking.overlap_ranking freeze
+.venv/bin/python -m scripts.experiments.ranking.overlap_ranking_reserve freeze
+data/rfdetr/env/bin/python -m scripts.experiments.ranking.overlap_ranking_reserve collect
+data/sam3/xpu-env/bin/python -m scripts.experiments.ranking.overlap_ranking_reserve baseline
+.venv/bin/python -m scripts.experiments.ranking.overlap_candidate_features replay fresh
+.venv/bin/python -m scripts.experiments.ranking.overlap_ranking score
 .venv/bin/python -m pytest -q
 ~~~

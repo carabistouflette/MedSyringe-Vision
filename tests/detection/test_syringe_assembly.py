@@ -2,10 +2,10 @@ from itertools import pairwise
 
 import numpy as np
 
-from medsyringe.additive import duplicates
-from scripts.syringe_assembly_model import fragment_views, pair_is_near, training_weights
-from scripts.syringe_assembly_study import blocked, fuse
-from scripts.thin_syringe_tiles import WINDOWS, windows
+from medsyringe.detection.additive import duplicates
+from scripts.experiments.identity.syringe_assembly_model import fragment_views, pair_is_near, training_weights
+from scripts.experiments.identity.syringe_assembly_study import blocked, fuse
+from scripts.experiments.identity.thin_syringe_tiles import WINDOWS, windows
 
 
 def test_strips_preserve_the_long_axis_and_cover_the_short_axis():

@@ -1,4 +1,4 @@
-from scripts.part_association import apply, conflict, evidence, part_labels
+from scripts.experiments.parts.part_association import apply, conflict, evidence, part_labels
 
 
 def test_part_owner_uses_visible_unambiguous_landmarks():

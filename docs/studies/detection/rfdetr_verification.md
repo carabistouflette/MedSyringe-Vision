@@ -54,20 +54,20 @@ Prepare the local environments and complete the frozen hybrid comparison first. 
 ```bash
 export HF_HUB_OFFLINE=1 OMP_NUM_THREADS=4 MKL_NUM_THREADS=4 WANDB_MODE=disabled
 study_python=data/rfdetr/env/bin/python
-.venv/bin/python -m scripts.rfdetr_verifier prepare-reserve
-"$study_python" -m scripts.rfdetr_verifier fit
-"$study_python" -m scripts.rfdetr_verifier_refine select
+.venv/bin/python -m scripts.experiments.transfer.rfdetr_verifier prepare-reserve
+"$study_python" -m scripts.experiments.transfer.rfdetr_verifier fit
+"$study_python" -m scripts.experiments.transfer.rfdetr_verifier_refine select
 for cohort in fresh pen_reserve syringe_reserve; do
-  .venv/bin/python -m scripts.rfdetr_verifier base --cohort "$cohort"
+  .venv/bin/python -m scripts.experiments.transfer.rfdetr_verifier base --cohort "$cohort"
 done
 for cohort in previous_zenodo previous_external fil_rouge historical fresh pen_reserve syringe_reserve; do
-  "$study_python" -m scripts.rfdetr_verifier audit --cohort "$cohort"
+  "$study_python" -m scripts.experiments.transfer.rfdetr_verifier audit --cohort "$cohort"
 done
-"$study_python" -m scripts.rfdetr_verifier summarize
+"$study_python" -m scripts.experiments.transfer.rfdetr_verifier summarize
 for cohort in previous_zenodo previous_external fil_rouge historical fresh pen_reserve syringe_reserve; do
-  "$study_python" -m scripts.rfdetr_verifier_refine audit --cohort "$cohort"
+  "$study_python" -m scripts.experiments.transfer.rfdetr_verifier_refine audit --cohort "$cohort"
 done
-"$study_python" -m scripts.rfdetr_verifier_refine summarize
+"$study_python" -m scripts.experiments.transfer.rfdetr_verifier_refine summarize
 ```
 
 ### Export the local runtime
@@ -75,8 +75,8 @@ done
 The box-only TorchScript export uses the frozen segmentation-trained RF-DETR checkpoint. The runtime compares the exported model with the eager model's fixed predictions on the seven audit cohorts. A passing comparison writes the automatic release manifest. If there is no candidate that passes the audit gate, the export command reports the failed gate.
 
 ```bash
-"$study_python" -m scripts.rfdetr_verified_release export
-.venv/bin/python -m scripts.rfdetr_verified_release verify
+"$study_python" -m scripts.experiments.transfer.rfdetr_verified_release export
+.venv/bin/python -m scripts.experiments.transfer.rfdetr_verified_release verify
 ```
 
 For another machine, retain the trained `data/rfdetr/verified-recovery.pt` file and the matching release manifest and runtime evidence, or repeat the training, verification and export. The production loader uses the existing pinned PyTorch and TorchVision environment. It does not need the isolated RF-DETR research environment. [Training, proposals and system setup](rfdetr_transfer.md)

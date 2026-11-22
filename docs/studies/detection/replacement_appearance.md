@@ -45,14 +45,14 @@ Restore the source photos at the reference paths, the pinned local model files a
 
 ~~~bash
 export HF_HUB_OFFLINE=1 OMP_NUM_THREADS=2 OPENBLAS_NUM_THREADS=2
-.venv/bin/python -m scripts.replacement_appearance_reserve reference
-.venv/bin/python -m scripts.replacement_appearance development
-.venv/bin/python -m scripts.replacement_appearance freeze
-data/rfdetr/env/bin/python -m scripts.replacement_appearance_reserve proposals
-data/sam3/xpu-env/bin/python -m scripts.replacement_appearance_reserve release
-.venv/bin/python -m scripts.replacement_appearance_reserve features
-.venv/bin/python -m scripts.replacement_appearance evaluation
-.venv/bin/python -m scripts.replacement_appearance score
-.venv/bin/python -m scripts.replacement_appearance_figure
+.venv/bin/python -m scripts.experiments.relocalization.replacement_appearance_reserve reference
+.venv/bin/python -m scripts.experiments.relocalization.replacement_appearance development
+.venv/bin/python -m scripts.experiments.relocalization.replacement_appearance freeze
+data/rfdetr/env/bin/python -m scripts.experiments.relocalization.replacement_appearance_reserve proposals
+data/sam3/xpu-env/bin/python -m scripts.experiments.relocalization.replacement_appearance_reserve release
+.venv/bin/python -m scripts.experiments.relocalization.replacement_appearance_reserve features
+.venv/bin/python -m scripts.experiments.relocalization.replacement_appearance evaluation
+.venv/bin/python -m scripts.experiments.relocalization.replacement_appearance score
+.venv/bin/python -m scripts.experiments.relocalization.replacement_appearance_figure
 .venv/bin/python -m pytest -q
 ~~~

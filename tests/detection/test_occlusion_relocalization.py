@@ -1,4 +1,4 @@
-from scripts.occlusion_relocalization import additions, replacements
+from scripts.experiments.occlusion.occlusion_relocalization import additions, replacements
 
 POLICY = dict(floor=.40, maximum_area_ratio=.80, containment=.75, peer_floor=None)
 ORIGINAL = dict(id="object-1", bbox=[.1, .1, .8, .8], score=.70)

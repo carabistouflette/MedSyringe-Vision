@@ -68,38 +68,38 @@ root_py=.venv/bin/python
 xpu_py=data/sam3/xpu-env/bin/python
 ocr_py=data/ocr-v6/env/bin/python
 
-$root_py -m scripts.expanded_dataset "$source_dir"
-$root_py -m scripts.expanded_annotations "$source_dir" --review data/expanded/review
-$root_py -m scripts.expanded_proposals "$source_dir" fit cpu
-$xpu_py -m scripts.expanded_proposals "$source_dir" fit sam
-$xpu_py -m scripts.expanded_proposals "$source_dir" fit fallback
+$root_py -m scripts.experiments.expanded.expanded_dataset "$source_dir"
+$root_py -m scripts.experiments.expanded.expanded_annotations "$source_dir" --review data/expanded/review
+$root_py -m scripts.experiments.expanded.expanded_proposals "$source_dir" fit cpu
+$xpu_py -m scripts.experiments.expanded.expanded_proposals "$source_dir" fit sam
+$xpu_py -m scripts.experiments.expanded.expanded_proposals "$source_dir" fit fallback
 for branch in xpu sam fallback-xpu; do
-  $xpu_py -m scripts.expanded_proposals "$source_dir" calibration "$branch"
+  $xpu_py -m scripts.experiments.expanded.expanded_proposals "$source_dir" calibration "$branch"
 done
-$root_py -m scripts.expanded_detection_study select
-$root_py -m scripts.expanded_recall_selection select
+$root_py -m scripts.experiments.expanded.expanded_detection_study select
+$root_py -m scripts.experiments.expanded.expanded_recall_selection select
 for cohort in test reserve; do
-  $root_py -m scripts.expanded_proposals "$source_dir" "$cohort" cpu
-  $xpu_py -m scripts.expanded_proposals "$source_dir" "$cohort" sam
-  $xpu_py -m scripts.expanded_proposals "$source_dir" "$cohort" fallback
-  $root_py -m scripts.expanded_detection_study "$cohort"
-  $root_py -m scripts.expanded_recall_selection "$cohort"
+  $root_py -m scripts.experiments.expanded.expanded_proposals "$source_dir" "$cohort" cpu
+  $xpu_py -m scripts.experiments.expanded.expanded_proposals "$source_dir" "$cohort" sam
+  $xpu_py -m scripts.experiments.expanded.expanded_proposals "$source_dir" "$cohort" fallback
+  $root_py -m scripts.experiments.expanded.expanded_detection_study "$cohort"
+  $root_py -m scripts.experiments.expanded.expanded_recall_selection "$cohort"
 done
 
 for cohort in calibration test; do
-  $ocr_py -m scripts.expanded_markings "$source_dir" "$cohort" batch
-  $ocr_py -m scripts.expanded_markings "$source_dir" "$cohort" evaluate
+  $ocr_py -m scripts.experiments.expanded.expanded_markings "$source_dir" "$cohort" batch
+  $ocr_py -m scripts.experiments.expanded.expanded_markings "$source_dir" "$cohort" evaluate
 done
-$root_py -m scripts.expanded_markings_guard
-$ocr_py -m scripts.expanded_ocr_controls "$source_dir"
-$ocr_py -m scripts.expanded_detected_markings "$source_dir"
+$root_py -m scripts.experiments.expanded.expanded_markings_guard
+$ocr_py -m scripts.experiments.expanded.expanded_ocr_controls "$source_dir"
+$ocr_py -m scripts.experiments.expanded.expanded_detected_markings "$source_dir"
 for stage in fit calibration select test audit; do
-  $xpu_py -m scripts.expanded_liquid "$source_dir" "$stage"
+  $xpu_py -m scripts.experiments.expanded.expanded_liquid "$source_dir" "$stage"
 done
-$xpu_py -m scripts.expanded_color_context select
-$xpu_py -m scripts.expanded_color_context audit
-$root_py -m scripts.expanded_localization_sensitivity
-$root_py -m scripts.expanded_release "$source_dir"
+$xpu_py -m scripts.experiments.expanded.expanded_color_context select
+$xpu_py -m scripts.experiments.expanded.expanded_color_context audit
+$root_py -m scripts.experiments.expanded.expanded_localization_sensitivity
+$root_py -m scripts.experiments.expanded.expanded_release "$source_dir"
 $root_py -m pytest -q
 ```
 

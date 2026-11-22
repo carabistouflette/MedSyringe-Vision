@@ -1,8 +1,8 @@
 import numpy as np
 from PIL import Image, ImageOps
 
-from medsyringe.fill import estimate
-from medsyringe.fill_orientation import upright_liquid_for_fill
+from medsyringe.measurement.fill import estimate
+from medsyringe.measurement.fill_orientation import upright_liquid_for_fill
 
 
 def inputs(turn=False):

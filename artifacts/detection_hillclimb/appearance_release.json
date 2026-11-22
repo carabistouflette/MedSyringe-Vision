@@ -4,16 +4,16 @@
     "name": "dino",
     "revision": "a2bb814dd30d776dcf7e30523b00659f4f141c71",
     "pipeline": "optimized-detector-v3+rfdetr-verified+sam3-fallback+expanded",
-    "selection_sha256": "6481fabde0f83dc58083049abb0f6a69f94d2b734d94234a28fa0b2e197e7897",
+    "selection_sha256": "069cb08a785982f21fe58e83f4eb433aa572af7eb19e9b78d25f009cc860cd5f",
     "attributes_sha256": "026e40a5d54c323c623775bb040890e8408cc893ef8721e3cae56a0525ee589b",
-    "recovery_sha256": "218082dfc0ecf028f8bfc902ad9c51a41fdb369818b2a566320688682e4e19a7",
-    "sam3_sha256": "dcd7f0c1262cbdafed1915ab6e20adbbab58bf5739e07d2a8fbcc6338769dc30",
-    "marking_sha256": "8cfc9bf9e707d5f1457474c927bc2e42a61e391198849f39fa810e928218cb2c",
-    "liquid_sha256": "3d63ef06a07b4ff095aa227abb8c3d61df09bc3522fdccb1a168aef4e38c4d46",
-    "expanded_sha256": "2a81b253ecf24e402db6c4d32a4a49d4912580e997776cc09b3639bff0740e53",
-    "fill_sha256": "ff15c5d32ad634d180487a94a003a7cd12dadf6759d3b0092be85c46c6b43daa",
-    "crop_verification_sha256": "18d5533b651630b7e387c593d5b7b87b71dac4f74195f02d67423029592e1f68",
-    "graduation_capacity_sha256": "a86b16051d4b1ec5b3f7480de914027dd4949393e84e22fffdac3c96110496a5"
+    "recovery_sha256": "05cf2d551bf26d3eabc0d981ddeee12d1e0812f089f9fb88749e885fd739d119",
+    "sam3_sha256": "6725c7e9d832c53a2c5eab229d455d1963d347f5f41e37b0b52b642d9c5431f6",
+    "marking_sha256": "88dd42213d3a84b87cba9060f898bad508e266ea0b0216bd700d861e102662ff",
+    "liquid_sha256": "b2c1052db91acb977a2aaaf9fe309480d06a40814566fa7f9e351ec3852a315c",
+    "expanded_sha256": "084c9c32e9c2f697240a143cc4f0725a8f7a1a79ee312620af406b231cb5208c",
+    "fill_sha256": "1f08e1d1232348d6e8d7e0664e8b81171610b1e09056940d9a26ffc94d0db3db",
+    "crop_verification_sha256": "14b600ea2a39572d1dfcd3e6fd06caa59af75a620afacab20fa3678df8c60b00",
+    "graduation_capacity_sha256": "a61f53cf5c33e468952163329736a770cb0088c9af376a3830f44b2935977ede"
   },
   "components": [
     {
@@ -42,15 +42,15 @@
     "data/models/dinov2-small/config.json": "1809f83e3bdb1609a501a610ad4a742f4fd8ae44d72ca4aa0df52d1f2ac8628d"
   },
   "code": {
-    "medsyringe/appearance_runtime.py": "8001ef98107f2070e54b3c88943881747f8a7adf3defd502292327f9644a7f00",
-    "medsyringe/local_models.py": "e97a6adb8e6a057b05329e91e72b3df1e39c943d2bfe1a5f102f3067dea4abc1",
-    "scripts/appearance_worker.py": "b2bc68c5081dad0d4ad15f83b437f60134f768be28a1154bfb99e27ea2f812d8",
-    "scripts/appearance_text_encoder.py": "cefede8c4a9583ee19ab85f120bff0923499f3e06f9779a632ca847bc887140c",
-    "scripts/appearance_worker.sh": "eb3be0f0847c5cff31b7e4f35c3bb94ab68a4a1ecdb7c0b958d3efed8e3ad4ad",
-    "scripts/detection_crop_semantics.py": "b98e65af57a8381d511a87cda85c9bd0b5b30229f6a9c1360d00bd2060c591c9",
-    "scripts/detection_semantics_audit.py": "557580c246fe5448729429942cc0e11a2c8bd2d153b46f3d921a5d6ed91d1d98",
-    "scripts/rfdetr_verifier.py": "d65cadef929cc2484364fa5f53ce993760fc381398fb9b39053cbf9798375af4",
-    "scripts/sam3_study.py": "672278ed74cd9a58340a818f1bae8bade9067b92ce9961b0f2b29d3532b2ad49"
+    "medsyringe/runtime/appearance_runtime.py": "739d360e3ba8007b569db273234cae5fe58be4699ebcedef50617923e578fa94",
+    "medsyringe/runtime/local_models.py": "6b3ec7f1144aeb65d8b2791387d4d3884103f4bcda25eea5670fd7683b765f49",
+    "scripts/workers/appearance_worker.py": "dfac3459833b32c8ca83b17a257ec9087ad1dcbe268c3c56206bf536f14ece4a",
+    "scripts/workers/appearance_text_encoder.py": "27d4f5b62d6fbcee7a44532d52ceca16657bb0e6150fa3155b156379c5ff5537",
+    "scripts/workers/appearance_worker.sh": "0f654d9873b87f43a773b1af266d1b669fce75e369b8f25aab7d0f8673ad1ded",
+    "scripts/experiments/detector_audits/detection_crop_semantics.py": "15cb7f9e6ad1f3ae9ba9f7c0e4fa10552a8a2b95e495c8cfe852b39397342038",
+    "scripts/experiments/detector_audits/detection_semantics_audit.py": "38b2c0333d4ce02054f553fd0cdf3a0244604bef16e214ed126dfa434ac60251",
+    "scripts/experiments/transfer/rfdetr_verifier.py": "10f014fd9f8b9b8865b8389e01c51fca1514f31e14f34fd05728580147247d27",
+    "scripts/experiments/expanded/sam3_study.py": "5f1819fc23624b82105527c6aa0819f77d44c70f846c6fae3e55ec6b7d9387c6"
   },
   "encoder": "text-only",
   "runtime_parity": {

@@ -5,7 +5,7 @@ The original synthetic renderer tests whether liquid appearance and piston posit
 ## Reproduce
 
 ```bash
-.venv/bin/python -B scripts/public_liquid_augmentation.py
+.venv/bin/python -B scripts/experiments/public_data/public_liquid_augmentation.py
 .venv/bin/python -B -m pytest -q -p no:cacheprovider tests/datasets/test_public_liquid_augmentation.py
 ```
 

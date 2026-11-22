@@ -38,20 +38,20 @@ Use the existing root environment for the application and reproduce the optional
 uv venv --python .venv/bin/python data/sam3/xpu-env
 uv pip sync --python data/sam3/xpu-env/bin/python \
   --extra-index-url https://download.pytorch.org/whl/xpu --index-strategy unsafe-best-match \
-  scripts/sam3-xpu-requirements.txt
+  scripts/experiments/baselines/sam3-xpu-requirements.txt
 uv venv --python .venv/bin/python data/ocr-v6/env
-uv pip sync --python data/ocr-v6/env/bin/python scripts/ocr-v6-requirements.txt
-data/sam3/xpu-env/bin/python -m scripts.sam3_study download
+uv pip sync --python data/ocr-v6/env/bin/python scripts/experiments/baselines/ocr-v6-requirements.txt
+data/sam3/xpu-env/bin/python -m scripts.experiments.expanded.sam3_study download
 ```
 
 The prepared manifests preserve draft annotations, local sources and hashes. The reports record the exact calibration and measured outputs. The commands below replay the executable detection, marking and photometric release checks after restoring the frozen data and checkpoints.
 
 ```bash
-HF_HUB_OFFLINE=1 .venv/bin/python -m scripts.sam3_release
-HF_HUB_OFFLINE=1 .venv/bin/python -m scripts.marking_release
-HF_HUB_OFFLINE=1 data/sam3/xpu-env/bin/python -m scripts.liquid_fit
-HF_HUB_OFFLINE=1 data/sam3/xpu-env/bin/python -m scripts.liquid_measure study detected
-HF_HUB_OFFLINE=1 .venv/bin/python -m scripts.liquid_release
+HF_HUB_OFFLINE=1 .venv/bin/python -m scripts.experiments.expanded.sam3_release
+HF_HUB_OFFLINE=1 .venv/bin/python -m scripts.experiments.measurement.marking_release
+HF_HUB_OFFLINE=1 data/sam3/xpu-env/bin/python -m scripts.experiments.measurement.liquid_fit
+HF_HUB_OFFLINE=1 data/sam3/xpu-env/bin/python -m scripts.experiments.measurement.liquid_measure study detected
+HF_HUB_OFFLINE=1 .venv/bin/python -m scripts.experiments.measurement.liquid_release
 ```
 
 The combined cold API control analyzes the original `IMG_3229.HEIC`, recovers one syringe from SAM 3, reads 20 mL, measures 48.2 L* and leaves opacity unknown. Observation creation took 41.5 seconds including model startup and OCR on the tested machine. [Real API control](../../../artifacts/sam3_ocr_liquid_api_smoke.json) · [Chromium control](../../../artifacts/sam3_ocr_liquid_browser_smoke.json)
@@ -59,5 +59,5 @@ The combined cold API control analyzes the original `IMG_3229.HEIC`, recovers on
 For a controlled opacity pair, crop equivalent pixel locations of the two registered inputs before running the following command.
 
 ```bash
-.venv/bin/python -m scripts.liquid_measure opacity observed.png clear_reference.png --matched-setup
+.venv/bin/python -m scripts.experiments.measurement.liquid_measure opacity observed.png clear_reference.png --matched-setup
 ```

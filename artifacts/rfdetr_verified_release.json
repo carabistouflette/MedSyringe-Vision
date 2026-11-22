@@ -590,8 +590,8 @@
     "cutoff": 1.3098013809991316
   },
   "encoder_sha256": "047dcff4addef86ea5bc2eff13c9614dc11f47ab1160d0a71a25e7db994f4e1f",
-  "runtime_sha256": "8871ffd2d7d037b45c016038d9ce01aa75c8933c29a25e36025e7c58fa0d7770",
-  "base_sha256": "6481fabde0f83dc58083049abb0f6a69f94d2b734d94234a28fa0b2e197e7897",
+  "runtime_sha256": "0c953557b5a094e0de9ab1efdf123053eb1dbff09f5c5725e9a48d120d15ef0c",
+  "base_sha256": "069cb08a785982f21fe58e83f4eb433aa572af7eb19e9b78d25f009cc860cd5f",
   "evidence": "artifacts/rfdetr_verified_runtime.json",
   "evidence_sha256": "50f28dcd277b33c67a98c382ad2da0d68263e0dffb680a9d48b3ff76eeda5d99"
 }

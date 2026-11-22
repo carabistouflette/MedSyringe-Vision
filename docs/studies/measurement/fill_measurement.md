@@ -14,7 +14,7 @@ The visual range covers graduation-fit residuals, ambiguity in where the edge fa
 
 A localized syringe keeps its object ID and contributes to the count even when its type or volume is indeterminate. The review interface gives a concrete reason when the detector or reader supplies one. API observations and ZIP reports expose `field_status` for the current review and `original_field_status` for the original prediction. The supported type field records visible scale categories. Nominal capacity and estimated liquid volume are separate. An indeterminate volume has `ml: null`. A supported zero estimate has `ml: 0` with status `estimated`.
 
-The field evaluator records coverage on observable references, errors among predictions issued, and emissions on indeterminate references. It excludes unreviewed attributes from those denominators. It records point estimates and intervals separately. Exact mL error requires an exact reference. A visual reference bracket instead supports point inclusion and interval overlap. The format can represent an interval-only result. The current estimator issues a point with an optional visual range or abstains. [Field evaluator](../../../scripts/evaluate_field_abstention.py) · [Field and zero-value tests](../../../tests/measurement/test_field_status.py)
+The field evaluator records coverage on observable references, errors among predictions issued, and emissions on indeterminate references. It excludes unreviewed attributes from those denominators. It records point estimates and intervals separately. Exact mL error requires an exact reference. A visual reference bracket instead supports point inclusion and interval overlap. The format can represent an interval-only result. The current estimator issues a point with an optional visual range or abstains. [Field evaluator](../../../scripts/experiments/measurement/evaluate_field_abstention.py) · [Field and zero-value tests](../../../tests/measurement/test_field_status.py)
 
 Fresh full-field inference on three public photographs correctly localized two of eight reference objects. Both localized syringes had indeterminate type relative to the supported scales and no estimable volume. Neither produced an unsupported type or volume estimate. The other six targets were detection misses and are outside the matched-field denominator. Replaying the locked visual references gave point coverage of 18/35 for the Fil Rouge 20 mL group and 2/10 for the 60 mL group. Every emitted point fell inside its reference bracket, and every emitted range overlapped the reference bracket. No values were emitted on the 14 clear controls. The groups are from one capture and the brackets do not establish physical error in mL. [Observed field controls](../../../artifacts/detection_hillclimb/field_abstention_results.json)
 
@@ -46,8 +46,8 @@ Run the commands in a restored experiment copy with the staged JPEG dataset, cac
 ```bash
 source_dir=/path/to/Images_fil_rougev1
 export HF_HUB_OFFLINE=1 OMP_NUM_THREADS=2 OPENBLAS_NUM_THREADS=2
-.venv/bin/python -m scripts.fill_study select "$source_dir"
-.venv/bin/python -m scripts.fill_study audit "$source_dir"
-.venv/bin/python -m scripts.fill_release "$source_dir"
+.venv/bin/python -m scripts.experiments.measurement.fill_study select "$source_dir"
+.venv/bin/python -m scripts.experiments.measurement.fill_study audit "$source_dir"
+.venv/bin/python -m scripts.experiments.measurement.fill_release "$source_dir"
 .venv/bin/python -m pytest -q
 ```
