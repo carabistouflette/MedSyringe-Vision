@@ -1,9 +1,38 @@
 """Encode the appearance veto without unreferenced shape features."""
-from PIL import ImageOps
+from PIL import Image, ImageOps
 import torch
 from transformers import AutoModel, AutoProcessor
 
-from scripts.detection_crop_semantics import LOOKALIKES, MODEL, SYRINGES, VisualSemantics, lock_weights
+from medsyringe.attributes import crop
+from scripts.detection_crop_semantics import (LOOKALIKES, MODEL, PADDINGS, SYRINGES,
+                                             VisualSemantics, expanded, lock_weights)
+
+
+PATCH_EDGE = 224
+
+
+def prepare_patch(patch):
+    return ImageOps.pad(patch, (PATCH_EDGE, PATCH_EDGE), color=(124, 116, 104))
+
+
+def pack_patches(image, candidates):
+    count = len(PADDINGS) * len(candidates)
+    if image.mode != "RGB" or not count or image.width * image.height <= count * PATCH_EDGE ** 2:
+        return None
+    packed = Image.new("RGB", (PATCH_EDGE, count * PATCH_EDGE))
+    boxes = (expanded(p["bbox"], padding) for padding in PADDINGS for p in candidates)
+    for row, box in enumerate(boxes):
+        patch = prepare_patch(crop(image, box))
+        packed.paste(patch, (0, row * PATCH_EDGE))
+    return packed
+
+
+def unpack_patches(packed, candidates):
+    count = len(PADDINGS) * len(candidates)
+    if packed.size != (PATCH_EDGE, count * PATCH_EDGE):
+        raise ValueError("The appearance crop payload does not match its proposals.")
+    return [packed.crop((0, row * PATCH_EDGE, PATCH_EDGE, (row + 1) * PATCH_EDGE))
+            for row in range(count)]
 
 
 class TextMarginEncoder:
@@ -20,7 +49,7 @@ class TextMarginEncoder:
 
     @torch.inference_mode()
     def encode(self, patches):
-        resized = [ImageOps.pad(patch, (224, 224), color=(124, 116, 104)) for patch in patches]
+        resized = [prepare_patch(patch) for patch in patches]
         batch = self.processor(images=resized, return_tensors="pt")
         vectors = torch.nn.functional.normalize(self.model.get_image_features(**batch))
         pairs = vectors @ self.text.T

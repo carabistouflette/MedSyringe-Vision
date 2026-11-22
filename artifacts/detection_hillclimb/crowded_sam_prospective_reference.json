@@ -1,0 +1,158 @@
+{
+  "rows": [
+    {
+      "id": "oi-821b7861e9d287e5",
+      "image": "public-annotated-collection/images/oi-821b7861e9d287e5.jpg",
+      "sha256": "23f199a5c027e5f9fd45686b9c36721dd9f4bd6fb5d39619b76b396dad514346",
+      "group": "open-images-profile:www.flickr.com/people/jenniferboyer",
+      "source_url": "https://www.flickr.com/photos/jenniferboyer/3290264545/",
+      "original_url": "https://farm6.staticflickr.com/3631/3290264545_426cfc2247_o.jpg",
+      "author": "Jennifer Boyer",
+      "license": "https://creativecommons.org/licenses/by/2.0/",
+      "objects": [
+        {
+          "kind": "syringe",
+          "bbox": [
+            0.0,
+            0.0,
+            0.766,
+            0.43466666666666665
+          ]
+        },
+        {
+          "kind": "syringe",
+          "bbox": [
+            0.0,
+            0.39466666666666667,
+            0.774,
+            0.6426666666666667
+          ]
+        },
+        {
+          "kind": "syringe",
+          "bbox": [
+            0.0,
+            0.552,
+            0.76,
+            0.9946666666666667
+          ]
+        }
+      ]
+    },
+    {
+      "id": "top-syringe-KVK20AawDgwVc8j5jJks",
+      "image": "public-bulk-syringe-collection/images/top-syringe/KVK20AawDgwVc8j5jJks.jpg",
+      "sha256": "bae729b5a2f8bba3a0beefbda521ec2bc1c99d43ad9a4bc5cbcf2de575ec8352",
+      "group": "roboflow:tals-demo/top-syringe-detection",
+      "source_url": "https://universe.roboflow.com/tals-demo/top-syringe-detection",
+      "original_url": "https://source.roboflow.com/UGIzlEWYLHTDwOVPD95MD19VmqE2/KVK20AawDgwVc8j5jJks/original.jpg",
+      "author": "Tals Demo",
+      "license": "https://creativecommons.org/licenses/by/4.0/",
+      "objects": [
+        {
+          "kind": "syringe",
+          "bbox": [
+            0.0,
+            0.15018315018315018,
+            0.904639175257732,
+            0.7765567765567766
+          ]
+        },
+        {
+          "kind": "syringe",
+          "bbox": [
+            0.47164948453608246,
+            0.31868131868131866,
+            0.8994845360824743,
+            0.608058608058608
+          ]
+        }
+      ]
+    },
+    {
+      "id": "syringe-lines-XZaRtSuDumdNdfxBtFh7",
+      "image": "public-bulk-syringe-collection/images/syringe-lines/XZaRtSuDumdNdfxBtFh7.jpg",
+      "sha256": "a288ade19ac7ca3487ae7178fc3946acdd78c130f0c72693d201858844b420ce",
+      "group": "roboflow:shared-syringe-object-catalogs",
+      "source_url": "https://universe.roboflow.com/line-segmentation/syringe-lines",
+      "original_url": "https://source.roboflow.com/1b4VofzmhuMoydgVN3FRN75JSre2/XZaRtSuDumdNdfxBtFh7/original.jpg",
+      "author": "Line Segmentation",
+      "license": "https://creativecommons.org/licenses/by/4.0/",
+      "objects": [
+        {
+          "kind": "syringe",
+          "bbox": [
+            0.25210084033613445,
+            0.14511041009463724,
+            1.0,
+            0.7634069400630915
+          ]
+        },
+        {
+          "kind": "syringe",
+          "bbox": [
+            0.08403361344537816,
+            0.4384858044164038,
+            0.9159663865546218,
+            0.7287066246056783
+          ]
+        }
+      ]
+    },
+    {
+      "id": "biomedical-waste-J12fp1TtzghLkHO1sStA",
+      "image": "public-bulk-syringe-collection/images/biomedical-waste/J12fp1TtzghLkHO1sStA.jpg",
+      "sha256": "3a46600aae3ffe24134bac128205b75a2d246d98a830a694342fc1bc000c59c0",
+      "group": "roboflow:shared-biomedical-waste",
+      "source_url": "https://universe.roboflow.com/biowastemanagement/biomedical-waste-detection-nv7fq-bpeeu",
+      "original_url": "https://source.roboflow.com/LAMmRoMuJIRJKQS5QxldF3Ixloo2/J12fp1TtzghLkHO1sStA/original.jpg",
+      "author": "Biowastemanagement",
+      "license": "https://creativecommons.org/licenses/by/4.0/",
+      "objects": [
+        {
+          "kind": "syringe",
+          "bbox": [
+            0.3722397476340694,
+            0.31545741324921134,
+            0.6340694006309149,
+            0.49842271293375395
+          ]
+        },
+        {
+          "kind": "syringe",
+          "bbox": [
+            0.35646687697160884,
+            0.4037854889589905,
+            0.7760252365930599,
+            0.6813880126182965
+          ]
+        }
+      ]
+    },
+    {
+      "id": "pharmaceutical-waste-06a7AFGqFgDfwrGSxIov",
+      "image": "public-bulk-syringe-collection/images/pharmaceutical-waste/06a7AFGqFgDfwrGSxIov.jpg",
+      "sha256": "9496b550d8fc149363943044027b3277191b28e72d2195bdf3fbfec40526d8d3",
+      "group": "roboflow:shared-biomedical-waste",
+      "source_url": "https://universe.roboflow.com/medical-waste-disposal/pharmaceutical-biomedical-waste",
+      "original_url": "https://source.roboflow.com/vRWYw0qKcGPj1nAUP5AabRx8I9t2/06a7AFGqFgDfwrGSxIov/original.jpg",
+      "author": "Medical Waste Disposal",
+      "license": "Public Domain (publisher declaration)",
+      "objects": []
+    },
+    {
+      "id": "pharmaceutical-waste-06ypKzKTHH6SxnxO1pbv",
+      "image": "public-bulk-syringe-collection/images/pharmaceutical-waste/06ypKzKTHH6SxnxO1pbv.jpg",
+      "sha256": "d119f81707b4372c4f849feac23d11d1218fca42bf604af9c6c0cc1e9a57dabe",
+      "group": "roboflow:shared-biomedical-waste",
+      "source_url": "https://universe.roboflow.com/medical-waste-disposal/pharmaceutical-biomedical-waste",
+      "original_url": "https://source.roboflow.com/vRWYw0qKcGPj1nAUP5AabRx8I9t2/06ypKzKTHH6SxnxO1pbv/original.jpg",
+      "author": "Medical Waste Disposal",
+      "license": "Public Domain (publisher declaration)",
+      "objects": []
+    }
+  ],
+  "excluded": [],
+  "policy_sha256": "043b0f0938cdeca7ebfc46f5796dc3944c5472549d9cb17f3e1155f3899d6bcd",
+  "method": "Manually reviewed visible-body boxes and hard negatives, frozen before opening any inference outputs. Protected group checks use original URLs, creator names, project and group aliases, byte hashes and transformed dHashes. Two control images may share the same publisher project. Five previously exposed Commons contributor groups in the initial outline were withheld."
+}

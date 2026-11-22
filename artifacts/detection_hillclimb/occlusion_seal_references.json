@@ -1,0 +1,253 @@
+{
+  "implementation": "3fba819c6e4315e681727140086afee126d4766447733b4061195d04d4b33c2b",
+  "photos_sha256": "1a9d63908f3f1246176eb19a1429c765cfe247e1ef70a7dcbe1c681cd525b29f",
+  "review": "One visual reviewer. Pixel endpoints contain annotation uncertainty.",
+  "rows": [
+    {
+      "id": "commons-111974556",
+      "image": "data/public-annotated-collection/images/commons-111974556.jpg",
+      "group": "commons:prefeitura de olinda",
+      "sha256": "26cfdb3a4ea4356e1807a4a95e23685658df0f1f6f7f3f862402cbd77edbd07a",
+      "role": "fit",
+      "shoulder": [
+        1135.0521327014217,
+        702.2359550561798
+      ],
+      "rear": [
+        717.5829383886256,
+        562.2134831460675
+      ],
+      "rim": [
+        1067.2322274881517,
+        681.1573033707865
+      ],
+      "radius": 27.127962085308056,
+      "marked_scale": null
+    },
+    {
+      "id": "commons-113687662",
+      "image": "data/public-annotated-collection/images/commons-113687662.jpg",
+      "group": "commons:clintmuffs",
+      "sha256": "fd0ab48eee8d9824c349c9ec6f6be13cb311eb0883a595aa145a7e47f4676ae3",
+      "role": "fit",
+      "shoulder": [
+        322.8818181818182,
+        576.0100502512563
+      ],
+      "rear": [
+        1275.5863636363636,
+        573.8643216080402
+      ],
+      "rim": [
+        554.1,
+        580.3015075376884
+      ],
+      "radius": 77.07272727272728,
+      "marked_scale": null
+    },
+    {
+      "id": "commons-157529342",
+      "image": "data/public-web-collection/images/commons-157529342.jpg",
+      "group": "public-author:stephane lesbats (ifremer, pôle images, centre bretagne - zi de la pointe du diable - cs 10070 - 29280 plouzané, france)",
+      "sha256": "d06e8bee2d4666c83c0c5681dfbdd88de37811a828516848de11f3ed2d94ac39",
+      "role": "fit",
+      "shoulder": [
+        763.5340909090909,
+        255.0239043824701
+      ],
+      "rear": [
+        258.2045454545455,
+        297.3585657370518
+      ],
+      "rim": [
+        684.375,
+        261.46613545816734
+      ],
+      "radius": 51.54545454545455,
+      "marked_scale": [
+        {
+          "ml": 10,
+          "point": [
+            690.8181818181819,
+            230.17529880478088
+          ]
+        },
+        {
+          "ml": 20,
+          "point": [
+            616.2613636363636,
+            236.6175298804781
+          ]
+        },
+        {
+          "ml": 30,
+          "point": [
+            543.5454545454545,
+            243.0597609561753
+          ]
+        },
+        {
+          "ml": 40,
+          "point": [
+            471.75,
+            249.5019920318725
+          ]
+        },
+        {
+          "ml": 50,
+          "point": [
+            406.39772727272725,
+            255.9442231075697
+          ]
+        },
+        {
+          "ml": 60,
+          "point": [
+            339.2045454545455,
+            262.38645418326695
+          ]
+        }
+      ],
+      "scale_scope": "Reviewed visual graduations. No independent dispensed volume."
+    },
+    {
+      "id": "commons-8200485",
+      "image": "data/public-web-collection/images/commons-8200485.jpg",
+      "group": "public-author:u.s. navy photo by mass communication specialist seaman apprentice joshua adam nuzzo",
+      "sha256": "fdc37bd819b9721891eb197bf0fb489bd52233c43f0816e478ff9388c50c8863",
+      "role": "fit",
+      "shoulder": [
+        518.8965517241379,
+        490.48314606741576
+      ],
+      "rear": [
+        486.7758620689655,
+        574.7752808988764
+      ],
+      "rim": [
+        495.8534482758621,
+        555.9662921348315
+      ],
+      "radius": 8.379310344827585,
+      "marked_scale": null
+    },
+    {
+      "id": "clinic",
+      "image": "data/part-verifier/clinic.jpg",
+      "group": "commons:shixart1985",
+      "sha256": "258e5dcddc1c9fe09f98bcf248a70a45a36976dfa6a48b12038bdd38d59424ba",
+      "role": "known-author transfer",
+      "shoulder": [
+        189.7375,
+        183.06741573033707
+      ],
+      "rear": [
+        204.8375,
+        515.2921348314607
+      ],
+      "rim": [
+        191.625,
+        192.5056179775281
+      ],
+      "radius": 30.2,
+      "marked_scale": null
+    },
+    {
+      "id": "cdc-phil-11856",
+      "image": "data/public-bulk-syringe-collection/images/cdc-phil/11856.jpg",
+      "group": "cdc-phil:James Gathany:2009",
+      "sha256": "1ec2aba08c0f279a00f068bbfa160eafa7ec61ba1ee721a4d9e545554696c1e5",
+      "role": "fit",
+      "shoulder": [
+        398.0423076923077,
+        245.92134831460675
+      ],
+      "rear": [
+        351.05,
+        300.35955056179773
+      ],
+      "rim": [
+        360.21923076923076,
+        288.8988764044944
+      ],
+      "radius": 4.0115384615384615,
+      "marked_scale": null
+    },
+    {
+      "id": "commons-154870931",
+      "image": "data/public-web-collection/images/commons-154870931.jpg",
+      "group": "public-author:u.s. air force photo by airman jared lovett",
+      "sha256": "3b6ead3ec0b0a612454521a09fd8ae00f5fe00ac9377120699e776cd7f55de85",
+      "role": "fit",
+      "shoulder": [
+        392.0414746543779,
+        516.3483146067416
+      ],
+      "rear": [
+        436.61290322580646,
+        503.76404494382024
+      ],
+      "rim": [
+        402.64516129032256,
+        513.6516853932584
+      ],
+      "radius": 4.6728110599078345,
+      "marked_scale": null
+    },
+    {
+      "id": "goonan-back",
+      "image": "data/occlusion-study/8071796.jpg",
+      "group": "Patrick SFB 2023-10-14 Kelly Goonan",
+      "sha256": "0e77b0b83dee9cd802593e52396c9f13f6e19bfa890980e0d7da614a968ed5d2",
+      "role": "new public",
+      "shoulder": [
+        371.3181818181818,
+        910.7191011235955
+      ],
+      "rear": [
+        99.27272727272727,
+        987.1235955056179
+      ],
+      "rim": [
+        344.59090909090907,
+        920.2696629213483
+      ],
+      "radius": 12.409090909090908,
+      "marked_scale": null
+    },
+    {
+      "id": "goonan-front",
+      "image": "data/occlusion-study/8071796.jpg",
+      "group": "Patrick SFB 2023-10-14 Kelly Goonan",
+      "sha256": "0e77b0b83dee9cd802593e52396c9f13f6e19bfa890980e0d7da614a968ed5d2",
+      "role": "new public",
+      "shoulder": [
+        507.8181818181818,
+        913.5842696629213
+      ],
+      "rear": [
+        184.22727272727272,
+        1015.7752808988764
+      ],
+      "rim": [
+        473.45454545454544,
+        927.9101123595506
+      ],
+      "radius": 15.272727272727273,
+      "marked_scale": null
+    },
+    {
+      "id": "dvids-9584272",
+      "group": "Smyrna 2026-03-21 Bailey Breving",
+      "sha256": "4eb7dcd1eefdaf73cde96ab2dbdcd99fc332551ce302e8ba5cf787822b222eed",
+      "image": "data/occlusion-study/9584272.jpg",
+      "role": "new public",
+      "shoulder": null,
+      "rear": null,
+      "rim": null,
+      "radius": null,
+      "marked_scale": null,
+      "note": "Gloved anatomy and occlusion do not support enough visible barrel geometry."
+    }
+  ]
+}

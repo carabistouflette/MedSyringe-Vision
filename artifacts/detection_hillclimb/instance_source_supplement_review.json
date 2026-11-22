@@ -1,0 +1,654 @@
+{
+  "queue_sha256": "f46119a86def254020b832ad197393c83f370d7c460f7e9c3c992afb9e62a139",
+  "rows": {
+    "cdc-phil-11854": {
+      "status": "positive",
+      "sha256": "10df8a094be24accca1c4449f8ea98a5b4a728dcee2e0198e9c8e8314547da47",
+      "boxes": [
+        [
+          0.31875,
+          0.42523,
+          0.5,
+          0.66822
+        ]
+      ],
+      "note": "One intranasal vaccine applicator with visible syringe barrel, flanges and plunger. Same CDC teaching sequence as the neighboring portraits."
+    },
+    "cdc-phil-11856": {
+      "status": "positive",
+      "sha256": "1ec2aba08c0f279a00f068bbfa160eafa7ec61ba1ee721a4d9e545554696c1e5",
+      "boxes": [
+        [
+          0.40625,
+          0.47664,
+          0.61875,
+          0.80374
+        ]
+      ],
+      "note": "One intranasal vaccine syringe. The hands partly cover the plunger end."
+    },
+    "cdc-phil-11863": {
+      "status": "positive",
+      "sha256": "1167bd2ba8db84e912938464f7659bbd9d16f47f9335be1726c2f038b04e23a7",
+      "boxes": [
+        [
+          0.46563,
+          0.37383,
+          0.57812,
+          0.60748
+        ]
+      ],
+      "note": "One intranasal vaccine syringe adjacent to the face and partly covered by fingers."
+    },
+    "commons-106925058": {
+      "status": "positive",
+      "sha256": "02a0cce91fcdc04d48c2f0a0f76e7c2cfd8aab7bf049cdc307387e147071e756",
+      "boxes": [
+        [
+          0.1375,
+          0.39437,
+          0.79063,
+          0.61502
+        ]
+      ],
+      "note": "One clear 5 mL barrel and plunger. The faint clear piece to the left is the visible tip."
+    },
+    "commons-111974556": {
+      "status": "positive",
+      "sha256": "26cfdb3a4ea4356e1807a4a95e23685658df0f1f6f7f3f862402cbd77edbd07a",
+      "boxes": [
+        [
+          0.30938,
+          0.39437,
+          0.64062,
+          0.70892
+        ]
+      ],
+      "note": "One in-hand syringe near the shoulder. Includes its attached safety mechanism."
+    },
+    "commons-105644688": {
+      "status": "positive",
+      "sha256": "5052a11efe2b9c7c193adba94279d945f7b657c5b792b450603288fff57b906e",
+      "boxes": [
+        [
+          0.67188,
+          0.23125,
+          0.7125,
+          0.4375
+        ]
+      ],
+      "note": "A small upright syringe below the held vial. Limits approximate at this scale. The adjacent table pen has a clip and opaque body."
+    },
+    "commons-106477641": {
+      "status": "excluded",
+      "sha256": "320863224b0cffdc3a01b313f203eecb5bebcb2cda818d590787059c0d123a36",
+      "boxes": [],
+      "note": "Illustration."
+    },
+    "commons-113687662": {
+      "status": "positive",
+      "sha256": "fd0ab48eee8d9824c349c9ec6f6be13cb311eb0883a595aa145a7e47f4676ae3",
+      "boxes": [
+        [
+          0.01875,
+          0.3172,
+          1.0,
+          0.69892
+        ]
+      ],
+      "note": "One reusable glass and metal syringe with visible plunger."
+    },
+    "commons-118456849": {
+      "status": "excluded",
+      "sha256": "a9b2ecf1373363a4b5d50ab8157177e740151b8329c7d1201aa7afc6062c62f1",
+      "boxes": [],
+      "note": "Patent drawing."
+    },
+    "commons-126293664": {
+      "status": "excluded",
+      "sha256": "d7bbc33c6bd9f721e5190271dd870cbf3049a5271b5fe141fa3553255000f093",
+      "boxes": [],
+      "note": "Chart."
+    },
+    "commons-132826635": {
+      "status": "negative",
+      "sha256": "47cdf56a812def955b1e1e2b34aace42909742b816bb1e0d451ae6f5de43b0c4",
+      "boxes": [],
+      "note": "Distribution cabinet closed. No visible syringe."
+    },
+    "commons-144084480": {
+      "status": "negative",
+      "sha256": "cc8b202c70e3147cd475fc1cdd2dade49b4885f013ce6682385540c3a2e41480",
+      "boxes": [],
+      "note": "Speaker portrait. No visible syringe."
+    },
+    "commons-148828252": {
+      "status": "excluded",
+      "sha256": "380806111e6e4d37c506fed3b8feec61522ee6eccb9015a57c2ba26f16b8239d",
+      "boxes": [],
+      "note": "Chart."
+    },
+    "commons-157529342": {
+      "status": "positive",
+      "sha256": "d06e8bee2d4666c83c0c5681dfbdd88de37811a828516848de11f3ed2d94ac39",
+      "boxes": [
+        [
+          0.09062,
+          0.29108,
+          0.93437,
+          0.65258
+        ]
+      ],
+      "note": "One laboratory syringe with attached yellow filter. The separate yellow disk is another filter."
+    },
+    "commons-16110376": {
+      "status": "positive",
+      "sha256": "66ebb0b66aae0dc5d26b85a198f0b093a65c8e4c2dc893d79923bb914c493f3c",
+      "boxes": [
+        [
+          0.68125,
+          0.41315,
+          0.8125,
+          0.77465
+        ]
+      ],
+      "note": "One syringe drawn up near an inverted vial. The vial is excluded and fingers occlude the plunger."
+    },
+    "commons-174146284": {
+      "status": "excluded",
+      "sha256": "ac77921f40eb47e41a6513437dc833072990817b836701eb51358e7953375f8b",
+      "boxes": [],
+      "note": "Map graphic."
+    },
+    "commons-197653421": {
+      "status": "negative",
+      "sha256": "b5f511e7ec67299ead78bbaa3061636e73021df6ac96517989c96d93e9ab926a",
+      "boxes": [],
+      "note": "Vaccination portrait showing adhesive bandage. No visible syringe."
+    },
+    "commons-20306346": {
+      "status": "negative",
+      "sha256": "2ca9ab96c448d809ea087d48b86d1ecfe9ed9817d1c4fa8787a3d5f1a63d38e5",
+      "boxes": [],
+      "note": "One closed syringe-exchange cabinet. No visible syringe."
+    },
+    "commons-20306388": {
+      "status": "duplicate",
+      "sha256": "bdca81ba6784282566f7cf7a25493f82517008211b9042b0ec5b902a7e7b4a24",
+      "boxes": [],
+      "note": "Alternate view of the same exchange cabinet as commons-20306346."
+    },
+    "commons-20306484": {
+      "status": "duplicate",
+      "sha256": "04620cef827292f1f74496105504456f42f5d0f997ea1a5b964234059229d778",
+      "boxes": [],
+      "note": "Alternate view of the same exchange cabinet as commons-20306346."
+    },
+    "commons-20306527": {
+      "status": "duplicate",
+      "sha256": "f7b2b8c5c8dd8edcb8cce766dccce9e97f7602c901bf009d10a5db7ff3d04075",
+      "boxes": [],
+      "note": "Alternate view of the same exchange cabinet as commons-20306346."
+    },
+    "commons-20306624": {
+      "status": "duplicate",
+      "sha256": "6b2275e8a3c014e6f70e38532668337b48bcfc536153f187b82a44e58aacea1f",
+      "boxes": [],
+      "note": "Alternate view of the same exchange cabinet as commons-20306346."
+    },
+    "commons-27771824": {
+      "status": "excluded",
+      "sha256": "e89d113f72740caf037b82b65f9e9c1d86890ec175994c2309491afbb5d9f5b4",
+      "boxes": [],
+      "note": "Diagram."
+    },
+    "commons-29738546": {
+      "status": "excluded",
+      "sha256": "62fadac6033949222872d828536ac8429d044acfa98136629c9bfcc34139c1c1",
+      "boxes": [],
+      "note": "Medical illustration."
+    },
+    "commons-41246982": {
+      "status": "positive",
+      "sha256": "55f881ccc23452176b943289d5e746cf0885ac012de3ed840083b03ee7774bc2",
+      "boxes": [
+        [
+          0.44062,
+          0.47887,
+          0.59062,
+          0.53521
+        ]
+      ],
+      "note": "One small discarded syringe on an indoor blue floor."
+    },
+    "commons-50583052": {
+      "status": "excluded",
+      "sha256": "849d96b7b72f606d91805bb1b14725cce423b96ad73d1e91f9e95340258bf38e",
+      "boxes": [],
+      "note": "Medical illustration."
+    },
+    "commons-53168121": {
+      "status": "negative",
+      "sha256": "1bce2cc1d65adf894fae72a3603c2656f8740e7526d1632a62b1617e444147ea",
+      "boxes": [],
+      "note": "Automotive photograph. No visible syringe."
+    },
+    "commons-61279235": {
+      "status": "positive",
+      "sha256": "fb07579cefec25ab3bbf030b54aa3339504e4766a10a314f840f5ec50f7c4047",
+      "boxes": [
+        [
+          0.14375,
+          0.23853,
+          0.7125,
+          0.75229
+        ]
+      ],
+      "note": "One prefilled hypodermic syringe inside blister packaging. Outer packaging excluded."
+    },
+    "commons-61279243": {
+      "status": "duplicate",
+      "sha256": "8d9e4320c5f163fbc4ae9d19150a01dee5390ba7de0df7f290b616f905707409",
+      "boxes": [],
+      "note": "Alternate pose of the same packaged syringe as commons-61279235."
+    },
+    "commons-651990": {
+      "status": "negative",
+      "sha256": "2e7f541f37b7e26df5d9ac965a8d020a6384dbd51ae7907639cbe2e12875bb0c",
+      "boxes": [],
+      "note": "Isolated needles, needle cap and bevel detail. No syringe body."
+    },
+    "commons-77507048": {
+      "status": "negative",
+      "sha256": "32b61de587142625cfc9e7afcbdae2f15c7b97d581b152550a6811c57d95d11b",
+      "boxes": [],
+      "note": "Closed exchange cabinet with no visible syringe."
+    },
+    "commons-77507049": {
+      "status": "duplicate",
+      "sha256": "33e3d0af05c8de2dd52dc01b4397417ad9edc55579e8e9e72d0f1e676d32be81",
+      "boxes": [],
+      "note": "Alternative photograph of the exchange cabinet in commons-77507048."
+    },
+    "commons-77604438": {
+      "status": "positive",
+      "sha256": "e4a746b60b357807ab997c9ab7b29f4dce4c3c9f231c0ebd07d7045c7984152f",
+      "boxes": [
+        [
+          0.39801,
+          0.0902,
+          0.60199,
+          0.90588
+        ]
+      ],
+      "note": "One upright historic syringe with metal plunger and nozzle."
+    },
+    "commons-8319831": {
+      "status": "duplicate",
+      "sha256": "60c10cafcc70c784028183ec8779ea468c840cfc4edb0172bc1af98edc488b2a",
+      "boxes": [],
+      "note": "Same influenza syringe, shown standalone with cap in commons-8319840."
+    },
+    "commons-8319840": {
+      "status": "positive",
+      "sha256": "04586c2a0e6046d8db3ff0e71e4716846d56cc2e7c079aece7f3c4f7d850d903",
+      "boxes": [
+        [
+          0.07187,
+          0.33803,
+          0.87813,
+          0.60563
+        ]
+      ],
+      "note": "One influenza prefilled syringe with attached needle cap."
+    },
+    "commons-8319854": {
+      "status": "duplicate",
+      "sha256": "b6f087fa849c1fde7673ea633d1c4b1c89e0e1cdc95ca4d5c3953dffd23fcf06",
+      "boxes": [],
+      "note": "Same influenza syringe; the cap on left looks detached or partly detached."
+    },
+    "commons-8319863": {
+      "status": "positive",
+      "sha256": "86a874a60c9d94bcb35abf679b6a10bbbe47e47b2d99382b3a4cd0fbd63a9fc8",
+      "boxes": [
+        [
+          0.05,
+          0.33803,
+          0.94375,
+          0.59624
+        ]
+      ],
+      "note": "One influenza prefilled syringe, with needle visible. Same acquisition family as the capped view."
+    },
+    "commons-8398651": {
+      "status": "negative",
+      "sha256": "bc1878f7ace53a6038fc1e82823c2fb79f8abdc98e477ca15615318d8ae2dfd1",
+      "boxes": [],
+      "note": "Stacked closed lead shielding cases. No visible syringe."
+    },
+    "commons-86316252": {
+      "status": "ambiguous",
+      "sha256": "a94a506f418ea6b4dd71c9aecbe4145bf754d36dc0e561e2768c046d01ae39b4",
+      "boxes": [],
+      "note": "Wide litter scene does not establish which thin objects are syringes."
+    },
+    "commons-86316424": {
+      "status": "ambiguous",
+      "sha256": "e9191257b27a3c8a73984fe9ad1abc40d6642b9c5c25a4a867d836b2bf572d38",
+      "boxes": [],
+      "note": "Discarded scene with a short diagonal orange object. Barrel and flange identity unresolved."
+    },
+    "commons-8685048": {
+      "status": "negative",
+      "sha256": "056bda0c8d4dc8d66834a72a3050fbfcb49cad4b261622466f78ee72dd8ab413",
+      "boxes": [],
+      "note": "Needle bevel alone."
+    },
+    "commons-8685122": {
+      "status": "duplicate",
+      "sha256": "9f880bb9cd1f392cca8be3008ade190eb5ece8773ddb6ca72e7ebae9e972cf10",
+      "boxes": [],
+      "note": "Alternate needle bevel close-up in the same setup as commons-8685048."
+    },
+    "commons-8685134": {
+      "status": "duplicate",
+      "sha256": "840c70385bd9a3aabae71801753d41a0114dd3d41e28245db179a1659b579c7a",
+      "boxes": [],
+      "note": "Alternate needle bevel close-up in the same setup as commons-8685048."
+    },
+    "commons-90681561": {
+      "status": "positive",
+      "sha256": "49e578e07c8916bb4e020600d9e0dc31be1c0ace47630df011c0f069ecc80804",
+      "boxes": [
+        [
+          0.1125,
+          0.25833,
+          1.0,
+          0.60833
+        ]
+      ],
+      "note": "One clear sampling syringe cut by right image boundary. The white tip device is attached."
+    },
+    "commons-91959594": {
+      "status": "ambiguous",
+      "sha256": "ef81a0b20e8c5d0c4ba403f55c1199b24e1ae5b6ef73b6ae03a8b071fb17c55b",
+      "boxes": [],
+      "note": "Translucent wrapped objects and orange cap in a box. Instance membership is uncertain."
+    },
+    "commons-91959596": {
+      "status": "negative",
+      "sha256": "b135415dc02840f3b3e817aa15fbdc9a04423e567073e4d61aeb3706d7a5776d",
+      "boxes": [],
+      "note": "Closed exchange machine. No visible syringe."
+    },
+    "commons-9370782": {
+      "status": "excluded",
+      "sha256": "1df40f81292d9531defbf3402a786794a9db13f9c01ac16cc573cd3b612239c8",
+      "boxes": [],
+      "note": "The file shows a still-life painting with a depicted syringe."
+    },
+    "commons-111258111": {
+      "status": "excluded",
+      "sha256": "4ebe1fd94c4c33b634499c21b14133b0e905b14a8cc3d399d28272c12e70af27",
+      "boxes": [],
+      "note": "Public-health graphic without a photographic syringe instance."
+    },
+    "commons-139040106": {
+      "status": "excluded",
+      "sha256": "f064a139e7bc0b913992a06cd3480a51a6e82cd7441ebeb349a8dd2633721cc1",
+      "boxes": [],
+      "note": "Historic cartoon print."
+    },
+    "commons-154870931": {
+      "status": "positive",
+      "sha256": "3b6ead3ec0b0a612454521a09fd8ae00f5fe00ac9377120699e776cd7f55de85",
+      "boxes": [
+        [
+          0.35496,
+          0.52549,
+          0.4771,
+          0.57647
+        ]
+      ],
+      "note": "One clear assembled syringe with needle, held during a vaccination activity."
+    },
+    "commons-154870948": {
+      "status": "ambiguous",
+      "sha256": "7f2f90efe3ece17f289ca01a273e29bfefd9676fdce94d7cbc736f00df520751",
+      "boxes": [],
+      "note": "Most of the device is hidden by black gloves. A blue hub is visible, with uncertain barrel extent."
+    },
+    "commons-154872797": {
+      "status": "ambiguous",
+      "sha256": "73bce9f9bdf1104a7f7146418bf699d594392a707411f41d0270db27dd0831d6",
+      "boxes": [],
+      "note": "Possible administered device fully hidden between black glove and shoulder."
+    },
+    "commons-154872801": {
+      "status": "positive",
+      "sha256": "d3a91c2f94a4eb08faedde384e757f8243e02abe767fd027bb35c91aaee8636b",
+      "boxes": [
+        [
+          0.5125,
+          0.52137,
+          0.57188,
+          0.57265
+        ]
+      ],
+      "note": "One very small in-hand syringe with clear barrel. Black gloves partly conceal the plunger."
+    },
+    "commons-154897823": {
+      "status": "positive",
+      "sha256": "090a45d5ac0a54fafcc7915b3bf617b52b7cccfc724feb9bc4e7859a5be7c7fa",
+      "boxes": [
+        [
+          0.44118,
+          0.42745,
+          0.54902,
+          0.45882
+        ]
+      ],
+      "note": "One partial syringe barrel and attached safety assembly visible by the shoulder.",
+      "capture_group": "us-army-defender-europe-21-vaccination"
+    },
+    "commons-154897833": {
+      "status": "ambiguous",
+      "sha256": "8eb7e05b4e838981892f3f01630f3e969a9c4c2c776f27f47d2a924ceb655815",
+      "boxes": [],
+      "note": "The hands and head obscure the reported administration. No whole visible barrel can be distinguished."
+    },
+    "commons-154897836": {
+      "status": "ambiguous",
+      "sha256": "36d78156a0bca0fc0c16ab0311db028c4b84930cb4b2704d612769e31431584f",
+      "boxes": [],
+      "note": "Possible small handheld object with slender curved tip. Syringe identity is unresolved."
+    },
+    "commons-154897839": {
+      "status": "positive",
+      "sha256": "007a3915fc13c4614f7a093e417d820905f47ee15806391bfab063fce5a1806c",
+      "boxes": [
+        [
+          0.52812,
+          0.41315,
+          0.6,
+          0.48826
+        ]
+      ],
+      "note": "Small syringe between black glove and left shoulder, with orange safety assembly.",
+      "capture_group": "us-army-defender-europe-21-vaccination"
+    },
+    "commons-154897844": {
+      "status": "negative",
+      "sha256": "d53570e20978296904b8abedf538e2e6d26a6c148dc3b3cc546e9a439cc1c594",
+      "boxes": [],
+      "note": "Document exchange. The visible object in the outstretched hand is paper."
+    },
+    "commons-154897848": {
+      "status": "positive",
+      "sha256": "437dcecd6d18234ede2af6ebadc8a0c67480380250b30410ecf741a4c7f518b0",
+      "boxes": [
+        [
+          0.3125,
+          0.59624,
+          0.36562,
+          0.68075
+        ]
+      ],
+      "note": "One syringe beside the upper arm, with glove overlap and orange safety device.",
+      "capture_group": "us-army-defender-europe-21-vaccination"
+    },
+    "commons-157420774": {
+      "status": "excluded",
+      "sha256": "ccc5fde310b72b726ffd816b3cee58e3c07b8325f05f01844430915dc380e082",
+      "boxes": [],
+      "note": "Dense pile is available to the independent crowd-reference task."
+    },
+    "commons-157420777": {
+      "status": "excluded",
+      "sha256": "fac59cee84f78b11927374d4e72f03cec4580cc99853226b653728c1dd7a0d17",
+      "boxes": [],
+      "note": "One transparent syringe is visible, in the same source event as the dense crowd reference lead."
+    },
+    "commons-157420781": {
+      "status": "excluded",
+      "sha256": "4bb40d9782dbc242f808cd6364fdda8a6b75c5bb20baf2f8c0a4059e15dee3ea",
+      "boxes": [],
+      "note": "Adhesive bandage photo in the same source event as the dense crowd reference lead."
+    },
+    "commons-157431894": {
+      "status": "positive",
+      "sha256": "815cef5f6a43d4b01d1e3a94c34db5d8f8c99e97864db69bf89b391e0df9079b",
+      "boxes": [
+        [
+          0.50938,
+          0.26761,
+          0.70625,
+          0.35681
+        ]
+      ],
+      "note": "One in-hand syringe with clear barrel, attached pink shield and visible needle. The gloved hand hides the plunger."
+    },
+    "commons-157431922": {
+      "status": "positive",
+      "sha256": "40f82244cc3a390d74c3944970130267427651a5e7471d185c3978df3ed546be",
+      "boxes": [
+        [
+          0.55,
+          0.55399,
+          0.6375,
+          0.60094
+        ]
+      ],
+      "note": "A transparent barrel and pink safety component are visible. Fingers hide the plunger."
+    },
+    "commons-157436172": {
+      "status": "negative",
+      "sha256": "4d79fc69be69e824e28413025008a3d222d6d9819a0ed0073184f0530fe0e627",
+      "boxes": [],
+      "note": "Participant filling out paperwork. No distinct syringe in the scene."
+    },
+    "commons-160490875": {
+      "status": "positive",
+      "sha256": "17340bd2f5c201690ce4baea157838be6268c014d08d35f64b2f3b2eea792982",
+      "boxes": [
+        [
+          0.47187,
+          0.53521,
+          0.55,
+          0.60094
+        ]
+      ],
+      "note": "One in-hand syringe, partially occluded near the right shoulder."
+    },
+    "commons-160490902": {
+      "status": "positive",
+      "sha256": "56adce7d1e46bd177c7c53634eaba004b7e5482dc1adaa88a6f690e625cc807e",
+      "boxes": [
+        [
+          0.57812,
+          0.40394,
+          0.6,
+          0.51724
+        ]
+      ],
+      "note": "One syringe below a held vial, with gloved hands partly hiding its ends. Vial excluded."
+    },
+    "commons-179094001": {
+      "status": "positive",
+      "sha256": "79f90f1d9e086a76496df255884b493084d04f9fd04de87e3da6101fef336e27",
+      "boxes": [
+        [
+          0.24084,
+          0.47451,
+          0.45026,
+          0.6549
+        ]
+      ],
+      "note": "One historical Pravaz syringe in a kit. The neighboring thin shafts and attachments lack standalone syringe bodies."
+    },
+    "commons-51266320": {
+      "status": "excluded",
+      "sha256": "ba0e825e3551b4284dc671ec609dece0c4975264f18df9dbe2650aa17959dc6c",
+      "boxes": [],
+      "note": "Recall label graphic, without photographed device."
+    },
+    "commons-51266323": {
+      "status": "excluded",
+      "sha256": "67df2b7dc66b44bb077c587f409f4f522bfdfdbd722513e5ef8b69baaf9a6068",
+      "boxes": [],
+      "note": "Recall label graphic, without photographed device."
+    },
+    "commons-8200485": {
+      "status": "positive",
+      "sha256": "fdc37bd819b9721891eb197bf0fb489bd52233c43f0816e478ff9388c50c8863",
+      "boxes": [
+        [
+          0.49688,
+          0.66667,
+          0.58125,
+          0.95775
+        ]
+      ],
+      "note": "One transparent in-hand syringe and visible attached needle. Adjacent vial excluded."
+    },
+    "commons-8260426": {
+      "status": "positive",
+      "sha256": "5cb6ca990ebdd80d0baeadc673cbc3664ad14c411ea0be79e78ec314f0ea0a9d",
+      "boxes": [
+        [
+          0.59649,
+          0.72157,
+          0.88304,
+          0.99216
+        ]
+      ],
+      "note": "One partly blurred syringe with blue hub and translucent body. The adjacent vial and fingers are excluded."
+    },
+    "commons-82792522": {
+      "status": "negative",
+      "sha256": "cd5886198b996728c1af994d4a31edbe5e7e9d89b1fa7f180bdeee3c79ef5547",
+      "boxes": [],
+      "note": "Room sign only. No visible syringe."
+    },
+    "commons-85614664": {
+      "status": "excluded",
+      "sha256": "9fc2bf1c3fbc09474515f0646655cf44af14b1239ac7fdca05963df6724f2146",
+      "boxes": [],
+      "note": "Botanical print of Syringa. No photographic scene."
+    },
+    "commons-92452503": {
+      "status": "positive",
+      "sha256": "7253b445009807a3a5470557440e922661fe05360fc50e18b01ca7916e87ec14",
+      "boxes": [
+        [
+          0.59375,
+          0.48357,
+          0.64687,
+          0.58216
+        ]
+      ],
+      "note": "One small syringe held up in gloves before vaccination. Needle end is visible."
+    }
+  }
+}

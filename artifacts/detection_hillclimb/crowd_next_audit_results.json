@@ -1,0 +1,2010 @@
+{
+  "freeze": "08cb252d0968c5c3d9504145324ec6d9548a4d678a877b2a362b4a4e5c30d9bc",
+  "reference": {
+    "protocol": "005743f1473930cbf844c5f24e8a2912cc1008c980627985c3aa5ecf7b7d427e",
+    "code": "784b317f093c65a535da218c1da646fa66741715cf328a20dbb6d504e676448f",
+    "checkpoint_lock": "31bb1d7c1246179d7b107f903c3b9af322c22e6c3b1830544c7c946260598112",
+    "development": "043b0f0938cdeca7ebfc46f5796dc3944c5472549d9cb17f3e1155f3899d6bcd",
+    "references": "247fae9fc88ae4dc4598e86f9bd0092c9a4eed71ef904d1100d99a11969251ad",
+    "review": "0b825f5843c24a4568a9ec3f0c4b4f614507e1e53b00060265c9270893acab45",
+    "policy": "add unmatched",
+    "configuration": [
+      756,
+      "syringe",
+      "bbox",
+      "mask",
+      0.5
+    ],
+    "included": [
+      "commons-134700298",
+      "commons-7289636",
+      "commons-32472607",
+      "commons-71161809",
+      "commons-97857285",
+      "commons-18388214",
+      "116864459",
+      "39991978",
+      "commons-50007224",
+      "viglianco",
+      "white",
+      "audit",
+      "griggs",
+      "ellis",
+      "fishmen",
+      "12725261",
+      "23351058",
+      "112704051",
+      "88334694",
+      "commons-167439103",
+      "commons-160396742",
+      "commons-101124486",
+      "commons-4104163",
+      "ferdinando"
+    ],
+    "disputed": [
+      "openverse-a5c2b483-0437-4f9e-be9d-5356e784ec86"
+    ],
+    "acquisitions": [
+      "crowd-author:adoscam",
+      "crowd-author:andreas praefcke",
+      "crowd-author:andshel",
+      "crowd-author:anwar2",
+      "crowd-author:boaventuravinicius",
+      "crowd-author:cade ellis",
+      "crowd-author:centro de memórias do curso de enfermagem",
+      "crowd-author:dillon j. audit",
+      "crowd-author:dreamance",
+      "crowd-author:ehécatl cabrera",
+      "crowd-author:joe loong from reston, usa",
+      "crowd-author:lee haywood from wollaton, nottingham, england",
+      "crowd-author:lisa ferdinando",
+      "crowd-author:mallardtv",
+      "crowd-author:pasztilla aka attila terbócs",
+      "crowd-author:paul griggs",
+      "crowd-author:przykuta",
+      "crowd-author:retama",
+      "crowd-author:silviu filip",
+      "crowd-author:skin - ubx from glasgow",
+      "crowd-author:taylor white",
+      "crowd-author:tristan d. viglianco",
+      "crowd-author:valdemar fishmen",
+      "crowd-author:viktorija rozman"
+    ]
+  },
+  "checks": {
+    "no_lost_matches": true,
+    "no_extra_false_positives": true,
+    "negatives_preserved": true,
+    "more_exact_crowds": true,
+    "more_exact_by_acquisition": true,
+    "no_previous_exact_count_lost": true
+  },
+  "passed": true,
+  "retention": {
+    "passed": true,
+    "lost_matches": [],
+    "recovered_matches": 3,
+    "baseline_matches": 33,
+    "candidate_matches": 36
+  },
+  "arms": {
+    "released": {
+      "images": 24,
+      "objects": 81,
+      "tp": 33,
+      "fp": 1,
+      "fn": 48,
+      "precision": 0.9705882352941176,
+      "recall": 0.4074074074074074,
+      "f1": 0.5739130434782609,
+      "ap50": 0.40011648223645896,
+      "ap50_95": 0.3052695842727922,
+      "exact_count": 10,
+      "negative_images": 5,
+      "correct_empty": 4,
+      "groups": {
+        "crowd-author:centro de memórias do curso de enfermagem": [
+          {
+            "id": "commons-134700298",
+            "expected": 4,
+            "predicted": 4,
+            "absolute_error": 0,
+            "exact": true
+          }
+        ],
+        "crowd-author:andreas praefcke": [
+          {
+            "id": "commons-7289636",
+            "expected": 3,
+            "predicted": 0,
+            "absolute_error": 3,
+            "exact": false
+          }
+        ],
+        "crowd-author:anwar2": [
+          {
+            "id": "commons-32472607",
+            "expected": 3,
+            "predicted": 3,
+            "absolute_error": 0,
+            "exact": true
+          }
+        ],
+        "crowd-author:przykuta": [
+          {
+            "id": "commons-71161809",
+            "expected": 4,
+            "predicted": 0,
+            "absolute_error": 4,
+            "exact": false
+          }
+        ],
+        "crowd-author:lee haywood from wollaton, nottingham, england": [
+          {
+            "id": "commons-97857285",
+            "expected": 2,
+            "predicted": 1,
+            "absolute_error": 1,
+            "exact": false
+          }
+        ],
+        "crowd-author:viktorija rozman": [
+          {
+            "id": "commons-18388214",
+            "expected": 7,
+            "predicted": 0,
+            "absolute_error": 7,
+            "exact": false
+          }
+        ],
+        "crowd-author:ehécatl cabrera": [
+          {
+            "id": "116864459",
+            "expected": 2,
+            "predicted": 1,
+            "absolute_error": 1,
+            "exact": false
+          }
+        ],
+        "crowd-author:andshel": [
+          {
+            "id": "39991978",
+            "expected": 2,
+            "predicted": 2,
+            "absolute_error": 0,
+            "exact": true
+          }
+        ],
+        "crowd-author:joe loong from reston, usa": [
+          {
+            "id": "commons-50007224",
+            "expected": 2,
+            "predicted": 0,
+            "absolute_error": 2,
+            "exact": false
+          }
+        ],
+        "crowd-author:tristan d. viglianco": [
+          {
+            "id": "viglianco",
+            "expected": 11,
+            "predicted": 1,
+            "absolute_error": 10,
+            "exact": false
+          }
+        ],
+        "crowd-author:taylor white": [
+          {
+            "id": "white",
+            "expected": 2,
+            "predicted": 1,
+            "absolute_error": 1,
+            "exact": false
+          }
+        ],
+        "crowd-author:dillon j. audit": [
+          {
+            "id": "audit",
+            "expected": 9,
+            "predicted": 1,
+            "absolute_error": 8,
+            "exact": false
+          }
+        ],
+        "crowd-author:paul griggs": [
+          {
+            "id": "griggs",
+            "expected": 4,
+            "predicted": 0,
+            "absolute_error": 4,
+            "exact": false
+          }
+        ],
+        "crowd-author:cade ellis": [
+          {
+            "id": "ellis",
+            "expected": 7,
+            "predicted": 5,
+            "absolute_error": 2,
+            "exact": false
+          }
+        ],
+        "crowd-author:valdemar fishmen": [
+          {
+            "id": "fishmen",
+            "expected": 2,
+            "predicted": 2,
+            "absolute_error": 0,
+            "exact": true
+          }
+        ],
+        "crowd-author:silviu filip": [
+          {
+            "id": "12725261",
+            "expected": 7,
+            "predicted": 7,
+            "absolute_error": 0,
+            "exact": true
+          }
+        ],
+        "crowd-author:skin - ubx from glasgow": [
+          {
+            "id": "23351058",
+            "expected": 4,
+            "predicted": 3,
+            "absolute_error": 1,
+            "exact": false
+          }
+        ],
+        "crowd-author:pasztilla aka attila terbócs": [
+          {
+            "id": "112704051",
+            "expected": 4,
+            "predicted": 0,
+            "absolute_error": 4,
+            "exact": false
+          }
+        ],
+        "crowd-author:dreamance": [
+          {
+            "id": "88334694",
+            "expected": 2,
+            "predicted": 2,
+            "absolute_error": 0,
+            "exact": true
+          }
+        ],
+        "crowd-author:boaventuravinicius": [
+          {
+            "id": "commons-167439103",
+            "expected": 0,
+            "predicted": 0,
+            "absolute_error": 0,
+            "exact": true
+          }
+        ],
+        "crowd-author:mallardtv": [
+          {
+            "id": "commons-160396742",
+            "expected": 0,
+            "predicted": 0,
+            "absolute_error": 0,
+            "exact": true
+          }
+        ],
+        "crowd-author:adoscam": [
+          {
+            "id": "commons-101124486",
+            "expected": 0,
+            "predicted": 1,
+            "absolute_error": 1,
+            "exact": false
+          }
+        ],
+        "crowd-author:retama": [
+          {
+            "id": "commons-4104163",
+            "expected": 0,
+            "predicted": 0,
+            "absolute_error": 0,
+            "exact": true
+          }
+        ],
+        "crowd-author:lisa ferdinando": [
+          {
+            "id": "ferdinando",
+            "expected": 0,
+            "predicted": 0,
+            "absolute_error": 0,
+            "exact": true
+          }
+        ]
+      },
+      "group_macro_exact": 0.4166666666666667,
+      "count_mae": 2.0416666666666665,
+      "crowded_exact": 6,
+      "false_positives": [
+        {
+          "id": "commons-101124486",
+          "prediction": {
+            "id": "object-1",
+            "bbox": [
+              0.05849343538284302,
+              0.3968275250353728,
+              0.9151201883951823,
+              0.6908764210089773
+            ],
+            "score": 0.7289362220183454,
+            "detection_evidence": {},
+            "scale": null,
+            "color": null,
+            "evidence": {
+              "scale": {
+                "value": null,
+                "reason": "Outside development support or ambiguous",
+                "distance": 5.6215219139038535,
+                "margin": 0.1736393843108246
+              },
+              "color": {
+                "value": null,
+                "reason": "Insufficient visible support"
+              }
+            },
+            "inscriptions": {
+              "status": "not requested",
+              "candidates": [],
+              "capacity": null,
+              "apparent_volume": null
+            },
+            "liquid_appearance": {
+              "status": "insufficient evidence",
+              "reason": "The visible color covers too little of the barrel.",
+              "lightness": null,
+              "opacity": null,
+              "opacity_reason": "A registered clear-barrel reference at the same exposure is required.",
+              "syringe_mask_score": 0.6547399759292603
+            },
+            "fill_level": {
+              "status": "insufficient evidence",
+              "reason": "Enable visible marking extraction to estimate fill."
+            },
+            "origin": "model"
+          },
+          "best_unmatched_iou": 0
+        }
+      ],
+      "false_negatives": [
+        {
+          "id": "commons-7289636",
+          "box": [
+            0.088,
+            0.078,
+            0.964,
+            0.474
+          ]
+        },
+        {
+          "id": "commons-7289636",
+          "box": [
+            0.073,
+            0.109,
+            0.742,
+            0.645
+          ]
+        },
+        {
+          "id": "commons-7289636",
+          "box": [
+            0.037,
+            0.532,
+            0.794,
+            0.802
+          ]
+        },
+        {
+          "id": "commons-71161809",
+          "box": [
+            0.102,
+            0.238,
+            0.53,
+            0.349
+          ]
+        },
+        {
+          "id": "commons-71161809",
+          "box": [
+            0.56,
+            0.183,
+            0.681,
+            0.943
+          ]
+        },
+        {
+          "id": "commons-71161809",
+          "box": [
+            0.729,
+            0.261,
+            0.858,
+            0.978
+          ]
+        },
+        {
+          "id": "commons-71161809",
+          "box": [
+            0.842,
+            0.266,
+            0.932,
+            0.702
+          ]
+        },
+        {
+          "id": "commons-97857285",
+          "box": [
+            0.543,
+            0.032,
+            0.745,
+            0.892
+          ]
+        },
+        {
+          "id": "commons-18388214",
+          "box": [
+            0.154,
+            0.406,
+            0.227,
+            0.707
+          ]
+        },
+        {
+          "id": "commons-18388214",
+          "box": [
+            0.173,
+            0.527,
+            0.418,
+            0.569
+          ]
+        },
+        {
+          "id": "commons-18388214",
+          "box": [
+            0.195,
+            0.498,
+            0.484,
+            0.553
+          ]
+        },
+        {
+          "id": "commons-18388214",
+          "box": [
+            0.396,
+            0.278,
+            0.444,
+            0.63
+          ]
+        },
+        {
+          "id": "commons-18388214",
+          "box": [
+            0.331,
+            0.194,
+            0.404,
+            0.526
+          ]
+        },
+        {
+          "id": "commons-18388214",
+          "box": [
+            0.407,
+            0.335,
+            0.619,
+            0.444
+          ]
+        },
+        {
+          "id": "commons-18388214",
+          "box": [
+            0.651,
+            0.695,
+            0.774,
+            0.805
+          ]
+        },
+        {
+          "id": "116864459",
+          "box": [
+            0.297,
+            0.43,
+            0.506,
+            0.815
+          ]
+        },
+        {
+          "id": "commons-50007224",
+          "box": [
+            0.468,
+            0.548,
+            0.607,
+            0.678
+          ]
+        },
+        {
+          "id": "commons-50007224",
+          "box": [
+            0.488,
+            0.749,
+            0.605,
+            0.813
+          ]
+        },
+        {
+          "id": "viglianco",
+          "box": [
+            0.058,
+            0.177,
+            0.173,
+            0.886
+          ]
+        },
+        {
+          "id": "viglianco",
+          "box": [
+            0.107,
+            0.213,
+            0.215,
+            0.886
+          ]
+        },
+        {
+          "id": "viglianco",
+          "box": [
+            0.207,
+            0.206,
+            0.264,
+            0.888
+          ]
+        },
+        {
+          "id": "viglianco",
+          "box": [
+            0.254,
+            0.178,
+            0.358,
+            0.883
+          ]
+        },
+        {
+          "id": "viglianco",
+          "box": [
+            0.339,
+            0.15,
+            0.412,
+            0.865
+          ]
+        },
+        {
+          "id": "viglianco",
+          "box": [
+            0.395,
+            0.185,
+            0.522,
+            0.908
+          ]
+        },
+        {
+          "id": "viglianco",
+          "box": [
+            0.45,
+            0.177,
+            0.571,
+            0.84
+          ]
+        },
+        {
+          "id": "viglianco",
+          "box": [
+            0.488,
+            0.177,
+            0.623,
+            0.897
+          ]
+        },
+        {
+          "id": "viglianco",
+          "box": [
+            0.572,
+            0.182,
+            0.731,
+            0.888
+          ]
+        },
+        {
+          "id": "viglianco",
+          "box": [
+            0.636,
+            0.158,
+            0.816,
+            0.84
+          ]
+        },
+        {
+          "id": "white",
+          "box": [
+            0.095,
+            0.619,
+            0.54,
+            0.729
+          ]
+        },
+        {
+          "id": "audit",
+          "box": [
+            0.12,
+            0.1,
+            0.248,
+            0.907
+          ]
+        },
+        {
+          "id": "audit",
+          "box": [
+            0.209,
+            0.0,
+            0.356,
+            0.683
+          ]
+        },
+        {
+          "id": "audit",
+          "box": [
+            0.251,
+            0.0,
+            0.426,
+            0.846
+          ]
+        },
+        {
+          "id": "audit",
+          "box": [
+            0.349,
+            0.0,
+            0.508,
+            0.899
+          ]
+        },
+        {
+          "id": "audit",
+          "box": [
+            0.47,
+            0.096,
+            0.568,
+            0.575
+          ]
+        },
+        {
+          "id": "audit",
+          "box": [
+            0.451,
+            0.0,
+            0.642,
+            0.944
+          ]
+        },
+        {
+          "id": "audit",
+          "box": [
+            0.58,
+            0.0,
+            0.748,
+            0.993
+          ]
+        },
+        {
+          "id": "audit",
+          "box": [
+            0.651,
+            0.0,
+            0.805,
+            0.741
+          ]
+        },
+        {
+          "id": "griggs",
+          "box": [
+            0.292,
+            0.219,
+            0.876,
+            0.501
+          ]
+        },
+        {
+          "id": "griggs",
+          "box": [
+            0.156,
+            0.17,
+            0.795,
+            0.524
+          ]
+        },
+        {
+          "id": "griggs",
+          "box": [
+            0.108,
+            0.166,
+            0.809,
+            0.669
+          ]
+        },
+        {
+          "id": "griggs",
+          "box": [
+            0.188,
+            0.26,
+            0.755,
+            0.832
+          ]
+        },
+        {
+          "id": "ellis",
+          "box": [
+            0.0,
+            0.0,
+            0.143,
+            0.307
+          ]
+        },
+        {
+          "id": "ellis",
+          "box": [
+            0.265,
+            0.0,
+            0.492,
+            0.668
+          ]
+        },
+        {
+          "id": "23351058",
+          "box": [
+            0.591,
+            0.446,
+            0.79,
+            0.6
+          ]
+        },
+        {
+          "id": "112704051",
+          "box": [
+            0.022,
+            0.129,
+            0.137,
+            0.877
+          ]
+        },
+        {
+          "id": "112704051",
+          "box": [
+            0.238,
+            0.142,
+            0.367,
+            0.902
+          ]
+        },
+        {
+          "id": "112704051",
+          "box": [
+            0.482,
+            0.145,
+            0.565,
+            0.886
+          ]
+        },
+        {
+          "id": "112704051",
+          "box": [
+            0.675,
+            0.081,
+            0.761,
+            0.777
+          ]
+        }
+      ]
+    },
+    "sam alone": {
+      "images": 24,
+      "objects": 81,
+      "tp": 65,
+      "fp": 9,
+      "fn": 16,
+      "precision": 0.8783783783783784,
+      "recall": 0.8024691358024691,
+      "f1": 0.8387096774193549,
+      "ap50": 0.751305568511519,
+      "ap50_95": 0.47978256199591013,
+      "exact_count": 18,
+      "negative_images": 5,
+      "correct_empty": 3,
+      "groups": {
+        "crowd-author:centro de memórias do curso de enfermagem": [
+          {
+            "id": "commons-134700298",
+            "expected": 4,
+            "predicted": 4,
+            "absolute_error": 0,
+            "exact": true
+          }
+        ],
+        "crowd-author:andreas praefcke": [
+          {
+            "id": "commons-7289636",
+            "expected": 3,
+            "predicted": 0,
+            "absolute_error": 3,
+            "exact": false
+          }
+        ],
+        "crowd-author:anwar2": [
+          {
+            "id": "commons-32472607",
+            "expected": 3,
+            "predicted": 3,
+            "absolute_error": 0,
+            "exact": true
+          }
+        ],
+        "crowd-author:przykuta": [
+          {
+            "id": "commons-71161809",
+            "expected": 4,
+            "predicted": 0,
+            "absolute_error": 4,
+            "exact": false
+          }
+        ],
+        "crowd-author:lee haywood from wollaton, nottingham, england": [
+          {
+            "id": "commons-97857285",
+            "expected": 2,
+            "predicted": 2,
+            "absolute_error": 0,
+            "exact": true
+          }
+        ],
+        "crowd-author:viktorija rozman": [
+          {
+            "id": "commons-18388214",
+            "expected": 7,
+            "predicted": 7,
+            "absolute_error": 0,
+            "exact": true
+          }
+        ],
+        "crowd-author:ehécatl cabrera": [
+          {
+            "id": "116864459",
+            "expected": 2,
+            "predicted": 2,
+            "absolute_error": 0,
+            "exact": true
+          }
+        ],
+        "crowd-author:andshel": [
+          {
+            "id": "39991978",
+            "expected": 2,
+            "predicted": 2,
+            "absolute_error": 0,
+            "exact": true
+          }
+        ],
+        "crowd-author:joe loong from reston, usa": [
+          {
+            "id": "commons-50007224",
+            "expected": 2,
+            "predicted": 0,
+            "absolute_error": 2,
+            "exact": false
+          }
+        ],
+        "crowd-author:tristan d. viglianco": [
+          {
+            "id": "viglianco",
+            "expected": 11,
+            "predicted": 11,
+            "absolute_error": 0,
+            "exact": true
+          }
+        ],
+        "crowd-author:taylor white": [
+          {
+            "id": "white",
+            "expected": 2,
+            "predicted": 2,
+            "absolute_error": 0,
+            "exact": true
+          }
+        ],
+        "crowd-author:dillon j. audit": [
+          {
+            "id": "audit",
+            "expected": 9,
+            "predicted": 9,
+            "absolute_error": 0,
+            "exact": true
+          }
+        ],
+        "crowd-author:paul griggs": [
+          {
+            "id": "griggs",
+            "expected": 4,
+            "predicted": 4,
+            "absolute_error": 0,
+            "exact": true
+          }
+        ],
+        "crowd-author:cade ellis": [
+          {
+            "id": "ellis",
+            "expected": 7,
+            "predicted": 7,
+            "absolute_error": 0,
+            "exact": true
+          }
+        ],
+        "crowd-author:valdemar fishmen": [
+          {
+            "id": "fishmen",
+            "expected": 2,
+            "predicted": 2,
+            "absolute_error": 0,
+            "exact": true
+          }
+        ],
+        "crowd-author:silviu filip": [
+          {
+            "id": "12725261",
+            "expected": 7,
+            "predicted": 7,
+            "absolute_error": 0,
+            "exact": true
+          }
+        ],
+        "crowd-author:skin - ubx from glasgow": [
+          {
+            "id": "23351058",
+            "expected": 4,
+            "predicted": 4,
+            "absolute_error": 0,
+            "exact": true
+          }
+        ],
+        "crowd-author:pasztilla aka attila terbócs": [
+          {
+            "id": "112704051",
+            "expected": 4,
+            "predicted": 0,
+            "absolute_error": 4,
+            "exact": false
+          }
+        ],
+        "crowd-author:dreamance": [
+          {
+            "id": "88334694",
+            "expected": 2,
+            "predicted": 2,
+            "absolute_error": 0,
+            "exact": true
+          }
+        ],
+        "crowd-author:boaventuravinicius": [
+          {
+            "id": "commons-167439103",
+            "expected": 0,
+            "predicted": 0,
+            "absolute_error": 0,
+            "exact": true
+          }
+        ],
+        "crowd-author:mallardtv": [
+          {
+            "id": "commons-160396742",
+            "expected": 0,
+            "predicted": 0,
+            "absolute_error": 0,
+            "exact": true
+          }
+        ],
+        "crowd-author:adoscam": [
+          {
+            "id": "commons-101124486",
+            "expected": 0,
+            "predicted": 2,
+            "absolute_error": 2,
+            "exact": false
+          }
+        ],
+        "crowd-author:retama": [
+          {
+            "id": "commons-4104163",
+            "expected": 0,
+            "predicted": 4,
+            "absolute_error": 4,
+            "exact": false
+          }
+        ],
+        "crowd-author:lisa ferdinando": [
+          {
+            "id": "ferdinando",
+            "expected": 0,
+            "predicted": 0,
+            "absolute_error": 0,
+            "exact": true
+          }
+        ]
+      },
+      "group_macro_exact": 0.75,
+      "count_mae": 0.7916666666666666,
+      "crowded_exact": 15,
+      "false_positives": [
+        {
+          "id": "commons-4104163",
+          "prediction": {
+            "bbox": [
+              0.09001892805099487,
+              0.11266189151340061,
+              0.30019958813985187,
+              0.8450456195407443
+            ],
+            "score": 0.95755934715271
+          },
+          "best_unmatched_iou": 0
+        },
+        {
+          "id": "commons-4104163",
+          "prediction": {
+            "bbox": [
+              0.5258837276034884,
+              0.12041118409898546,
+              0.9847276475694444,
+              0.8094287978278266
+            ],
+            "score": 0.9533326625823975
+          },
+          "best_unmatched_iou": 0
+        },
+        {
+          "id": "commons-101124486",
+          "prediction": {
+            "bbox": [
+              0.07307412889268664,
+              0.17577132913801405,
+              0.8998953501383463,
+              0.40503928396436906
+            ],
+            "score": 0.9513363838195801
+          },
+          "best_unmatched_iou": 0
+        },
+        {
+          "id": "commons-101124486",
+          "prediction": {
+            "bbox": [
+              0.06034350395202637,
+              0.40161042743259007,
+              0.9087378184000651,
+              0.681881480746799
+            ],
+            "score": 0.9495798945426941
+          },
+          "best_unmatched_iou": 0
+        },
+        {
+          "id": "commons-4104163",
+          "prediction": {
+            "bbox": [
+              0.378423187467787,
+              0.1179802417755127,
+              0.7601777182685004,
+              0.9458210203382704
+            ],
+            "score": 0.9421253204345703
+          },
+          "best_unmatched_iou": 0
+        },
+        {
+          "id": "commons-4104163",
+          "prediction": {
+            "bbox": [
+              0.25076209174262154,
+              0.13598689768049452,
+              0.4816468556722005,
+              0.8350580003526475
+            ],
+            "score": 0.9396113753318787
+          },
+          "best_unmatched_iou": 0
+        },
+        {
+          "id": "commons-18388214",
+          "prediction": {
+            "bbox": [
+              0.3598323663075765,
+              0.19414851400587294,
+              0.39241907331678605,
+              0.3082842032114665
+            ],
+            "score": 0.8180010914802551
+          },
+          "best_unmatched_iou": 0.153462050810236
+        },
+        {
+          "id": "12725261",
+          "prediction": {
+            "bbox": [
+              0.44608910878499347,
+              0.5840911865234375,
+              0.6074231465657552,
+              0.6295910941229926
+            ],
+            "score": 0.8111121654510498
+          },
+          "best_unmatched_iou": 0.49663678494855396
+        },
+        {
+          "id": "commons-18388214",
+          "prediction": {
+            "bbox": [
+              0.16182589530944824,
+              0.0,
+              0.1952973869111803,
+              0.09280561076270209
+            ],
+            "score": 0.6690741181373596
+          },
+          "best_unmatched_iou": 0.0
+        }
+      ],
+      "false_negatives": [
+        {
+          "id": "commons-7289636",
+          "box": [
+            0.088,
+            0.078,
+            0.964,
+            0.474
+          ]
+        },
+        {
+          "id": "commons-7289636",
+          "box": [
+            0.073,
+            0.109,
+            0.742,
+            0.645
+          ]
+        },
+        {
+          "id": "commons-7289636",
+          "box": [
+            0.037,
+            0.532,
+            0.794,
+            0.802
+          ]
+        },
+        {
+          "id": "commons-71161809",
+          "box": [
+            0.102,
+            0.238,
+            0.53,
+            0.349
+          ]
+        },
+        {
+          "id": "commons-71161809",
+          "box": [
+            0.56,
+            0.183,
+            0.681,
+            0.943
+          ]
+        },
+        {
+          "id": "commons-71161809",
+          "box": [
+            0.729,
+            0.261,
+            0.858,
+            0.978
+          ]
+        },
+        {
+          "id": "commons-71161809",
+          "box": [
+            0.842,
+            0.266,
+            0.932,
+            0.702
+          ]
+        },
+        {
+          "id": "commons-18388214",
+          "box": [
+            0.331,
+            0.194,
+            0.404,
+            0.526
+          ]
+        },
+        {
+          "id": "commons-18388214",
+          "box": [
+            0.651,
+            0.695,
+            0.774,
+            0.805
+          ]
+        },
+        {
+          "id": "commons-50007224",
+          "box": [
+            0.468,
+            0.548,
+            0.607,
+            0.678
+          ]
+        },
+        {
+          "id": "commons-50007224",
+          "box": [
+            0.488,
+            0.749,
+            0.605,
+            0.813
+          ]
+        },
+        {
+          "id": "12725261",
+          "box": [
+            0.386,
+            0.59,
+            0.615,
+            0.642
+          ]
+        },
+        {
+          "id": "112704051",
+          "box": [
+            0.022,
+            0.129,
+            0.137,
+            0.877
+          ]
+        },
+        {
+          "id": "112704051",
+          "box": [
+            0.238,
+            0.142,
+            0.367,
+            0.902
+          ]
+        },
+        {
+          "id": "112704051",
+          "box": [
+            0.482,
+            0.145,
+            0.565,
+            0.886
+          ]
+        },
+        {
+          "id": "112704051",
+          "box": [
+            0.675,
+            0.081,
+            0.761,
+            0.777
+          ]
+        }
+      ]
+    },
+    "add unmatched": {
+      "images": 24,
+      "objects": 81,
+      "tp": 36,
+      "fp": 1,
+      "fn": 45,
+      "precision": 0.972972972972973,
+      "recall": 0.4444444444444444,
+      "f1": 0.6101694915254238,
+      "ap50": 0.43912229060743907,
+      "ap50_95": 0.32898228690803416,
+      "exact_count": 12,
+      "negative_images": 5,
+      "correct_empty": 4,
+      "groups": {
+        "crowd-author:centro de memórias do curso de enfermagem": [
+          {
+            "id": "commons-134700298",
+            "expected": 4,
+            "predicted": 4,
+            "absolute_error": 0,
+            "exact": true
+          }
+        ],
+        "crowd-author:andreas praefcke": [
+          {
+            "id": "commons-7289636",
+            "expected": 3,
+            "predicted": 0,
+            "absolute_error": 3,
+            "exact": false
+          }
+        ],
+        "crowd-author:anwar2": [
+          {
+            "id": "commons-32472607",
+            "expected": 3,
+            "predicted": 3,
+            "absolute_error": 0,
+            "exact": true
+          }
+        ],
+        "crowd-author:przykuta": [
+          {
+            "id": "commons-71161809",
+            "expected": 4,
+            "predicted": 0,
+            "absolute_error": 4,
+            "exact": false
+          }
+        ],
+        "crowd-author:lee haywood from wollaton, nottingham, england": [
+          {
+            "id": "commons-97857285",
+            "expected": 2,
+            "predicted": 1,
+            "absolute_error": 1,
+            "exact": false
+          }
+        ],
+        "crowd-author:viktorija rozman": [
+          {
+            "id": "commons-18388214",
+            "expected": 7,
+            "predicted": 0,
+            "absolute_error": 7,
+            "exact": false
+          }
+        ],
+        "crowd-author:ehécatl cabrera": [
+          {
+            "id": "116864459",
+            "expected": 2,
+            "predicted": 1,
+            "absolute_error": 1,
+            "exact": false
+          }
+        ],
+        "crowd-author:andshel": [
+          {
+            "id": "39991978",
+            "expected": 2,
+            "predicted": 2,
+            "absolute_error": 0,
+            "exact": true
+          }
+        ],
+        "crowd-author:joe loong from reston, usa": [
+          {
+            "id": "commons-50007224",
+            "expected": 2,
+            "predicted": 0,
+            "absolute_error": 2,
+            "exact": false
+          }
+        ],
+        "crowd-author:tristan d. viglianco": [
+          {
+            "id": "viglianco",
+            "expected": 11,
+            "predicted": 1,
+            "absolute_error": 10,
+            "exact": false
+          }
+        ],
+        "crowd-author:taylor white": [
+          {
+            "id": "white",
+            "expected": 2,
+            "predicted": 1,
+            "absolute_error": 1,
+            "exact": false
+          }
+        ],
+        "crowd-author:dillon j. audit": [
+          {
+            "id": "audit",
+            "expected": 9,
+            "predicted": 1,
+            "absolute_error": 8,
+            "exact": false
+          }
+        ],
+        "crowd-author:paul griggs": [
+          {
+            "id": "griggs",
+            "expected": 4,
+            "predicted": 0,
+            "absolute_error": 4,
+            "exact": false
+          }
+        ],
+        "crowd-author:cade ellis": [
+          {
+            "id": "ellis",
+            "expected": 7,
+            "predicted": 7,
+            "absolute_error": 0,
+            "exact": true
+          }
+        ],
+        "crowd-author:valdemar fishmen": [
+          {
+            "id": "fishmen",
+            "expected": 2,
+            "predicted": 2,
+            "absolute_error": 0,
+            "exact": true
+          }
+        ],
+        "crowd-author:silviu filip": [
+          {
+            "id": "12725261",
+            "expected": 7,
+            "predicted": 7,
+            "absolute_error": 0,
+            "exact": true
+          }
+        ],
+        "crowd-author:skin - ubx from glasgow": [
+          {
+            "id": "23351058",
+            "expected": 4,
+            "predicted": 4,
+            "absolute_error": 0,
+            "exact": true
+          }
+        ],
+        "crowd-author:pasztilla aka attila terbócs": [
+          {
+            "id": "112704051",
+            "expected": 4,
+            "predicted": 0,
+            "absolute_error": 4,
+            "exact": false
+          }
+        ],
+        "crowd-author:dreamance": [
+          {
+            "id": "88334694",
+            "expected": 2,
+            "predicted": 2,
+            "absolute_error": 0,
+            "exact": true
+          }
+        ],
+        "crowd-author:boaventuravinicius": [
+          {
+            "id": "commons-167439103",
+            "expected": 0,
+            "predicted": 0,
+            "absolute_error": 0,
+            "exact": true
+          }
+        ],
+        "crowd-author:mallardtv": [
+          {
+            "id": "commons-160396742",
+            "expected": 0,
+            "predicted": 0,
+            "absolute_error": 0,
+            "exact": true
+          }
+        ],
+        "crowd-author:adoscam": [
+          {
+            "id": "commons-101124486",
+            "expected": 0,
+            "predicted": 1,
+            "absolute_error": 1,
+            "exact": false
+          }
+        ],
+        "crowd-author:retama": [
+          {
+            "id": "commons-4104163",
+            "expected": 0,
+            "predicted": 0,
+            "absolute_error": 0,
+            "exact": true
+          }
+        ],
+        "crowd-author:lisa ferdinando": [
+          {
+            "id": "ferdinando",
+            "expected": 0,
+            "predicted": 0,
+            "absolute_error": 0,
+            "exact": true
+          }
+        ]
+      },
+      "group_macro_exact": 0.5,
+      "count_mae": 1.9166666666666667,
+      "crowded_exact": 8,
+      "false_positives": [
+        {
+          "id": "commons-101124486",
+          "prediction": {
+            "id": "object-1",
+            "bbox": [
+              0.05849343538284302,
+              0.3968275250353728,
+              0.9151201883951823,
+              0.6908764210089773
+            ],
+            "score": 0.7289362220183454,
+            "detection_evidence": {},
+            "scale": null,
+            "color": null,
+            "evidence": {
+              "scale": {
+                "value": null,
+                "reason": "Outside development support or ambiguous",
+                "distance": 5.6215219139038535,
+                "margin": 0.1736393843108246
+              },
+              "color": {
+                "value": null,
+                "reason": "Insufficient visible support"
+              }
+            },
+            "inscriptions": {
+              "status": "not requested",
+              "candidates": [],
+              "capacity": null,
+              "apparent_volume": null
+            },
+            "liquid_appearance": {
+              "status": "insufficient evidence",
+              "reason": "The visible color covers too little of the barrel.",
+              "lightness": null,
+              "opacity": null,
+              "opacity_reason": "A registered clear-barrel reference at the same exposure is required.",
+              "syringe_mask_score": 0.6547399759292603
+            },
+            "fill_level": {
+              "status": "insufficient evidence",
+              "reason": "Enable visible marking extraction to estimate fill."
+            },
+            "origin": "model"
+          },
+          "best_unmatched_iou": 0
+        }
+      ],
+      "false_negatives": [
+        {
+          "id": "commons-7289636",
+          "box": [
+            0.088,
+            0.078,
+            0.964,
+            0.474
+          ]
+        },
+        {
+          "id": "commons-7289636",
+          "box": [
+            0.073,
+            0.109,
+            0.742,
+            0.645
+          ]
+        },
+        {
+          "id": "commons-7289636",
+          "box": [
+            0.037,
+            0.532,
+            0.794,
+            0.802
+          ]
+        },
+        {
+          "id": "commons-71161809",
+          "box": [
+            0.102,
+            0.238,
+            0.53,
+            0.349
+          ]
+        },
+        {
+          "id": "commons-71161809",
+          "box": [
+            0.56,
+            0.183,
+            0.681,
+            0.943
+          ]
+        },
+        {
+          "id": "commons-71161809",
+          "box": [
+            0.729,
+            0.261,
+            0.858,
+            0.978
+          ]
+        },
+        {
+          "id": "commons-71161809",
+          "box": [
+            0.842,
+            0.266,
+            0.932,
+            0.702
+          ]
+        },
+        {
+          "id": "commons-97857285",
+          "box": [
+            0.543,
+            0.032,
+            0.745,
+            0.892
+          ]
+        },
+        {
+          "id": "commons-18388214",
+          "box": [
+            0.154,
+            0.406,
+            0.227,
+            0.707
+          ]
+        },
+        {
+          "id": "commons-18388214",
+          "box": [
+            0.173,
+            0.527,
+            0.418,
+            0.569
+          ]
+        },
+        {
+          "id": "commons-18388214",
+          "box": [
+            0.195,
+            0.498,
+            0.484,
+            0.553
+          ]
+        },
+        {
+          "id": "commons-18388214",
+          "box": [
+            0.396,
+            0.278,
+            0.444,
+            0.63
+          ]
+        },
+        {
+          "id": "commons-18388214",
+          "box": [
+            0.331,
+            0.194,
+            0.404,
+            0.526
+          ]
+        },
+        {
+          "id": "commons-18388214",
+          "box": [
+            0.407,
+            0.335,
+            0.619,
+            0.444
+          ]
+        },
+        {
+          "id": "commons-18388214",
+          "box": [
+            0.651,
+            0.695,
+            0.774,
+            0.805
+          ]
+        },
+        {
+          "id": "116864459",
+          "box": [
+            0.297,
+            0.43,
+            0.506,
+            0.815
+          ]
+        },
+        {
+          "id": "commons-50007224",
+          "box": [
+            0.468,
+            0.548,
+            0.607,
+            0.678
+          ]
+        },
+        {
+          "id": "commons-50007224",
+          "box": [
+            0.488,
+            0.749,
+            0.605,
+            0.813
+          ]
+        },
+        {
+          "id": "viglianco",
+          "box": [
+            0.058,
+            0.177,
+            0.173,
+            0.886
+          ]
+        },
+        {
+          "id": "viglianco",
+          "box": [
+            0.107,
+            0.213,
+            0.215,
+            0.886
+          ]
+        },
+        {
+          "id": "viglianco",
+          "box": [
+            0.207,
+            0.206,
+            0.264,
+            0.888
+          ]
+        },
+        {
+          "id": "viglianco",
+          "box": [
+            0.254,
+            0.178,
+            0.358,
+            0.883
+          ]
+        },
+        {
+          "id": "viglianco",
+          "box": [
+            0.339,
+            0.15,
+            0.412,
+            0.865
+          ]
+        },
+        {
+          "id": "viglianco",
+          "box": [
+            0.395,
+            0.185,
+            0.522,
+            0.908
+          ]
+        },
+        {
+          "id": "viglianco",
+          "box": [
+            0.45,
+            0.177,
+            0.571,
+            0.84
+          ]
+        },
+        {
+          "id": "viglianco",
+          "box": [
+            0.488,
+            0.177,
+            0.623,
+            0.897
+          ]
+        },
+        {
+          "id": "viglianco",
+          "box": [
+            0.572,
+            0.182,
+            0.731,
+            0.888
+          ]
+        },
+        {
+          "id": "viglianco",
+          "box": [
+            0.636,
+            0.158,
+            0.816,
+            0.84
+          ]
+        },
+        {
+          "id": "white",
+          "box": [
+            0.095,
+            0.619,
+            0.54,
+            0.729
+          ]
+        },
+        {
+          "id": "audit",
+          "box": [
+            0.12,
+            0.1,
+            0.248,
+            0.907
+          ]
+        },
+        {
+          "id": "audit",
+          "box": [
+            0.209,
+            0.0,
+            0.356,
+            0.683
+          ]
+        },
+        {
+          "id": "audit",
+          "box": [
+            0.251,
+            0.0,
+            0.426,
+            0.846
+          ]
+        },
+        {
+          "id": "audit",
+          "box": [
+            0.349,
+            0.0,
+            0.508,
+            0.899
+          ]
+        },
+        {
+          "id": "audit",
+          "box": [
+            0.47,
+            0.096,
+            0.568,
+            0.575
+          ]
+        },
+        {
+          "id": "audit",
+          "box": [
+            0.451,
+            0.0,
+            0.642,
+            0.944
+          ]
+        },
+        {
+          "id": "audit",
+          "box": [
+            0.58,
+            0.0,
+            0.748,
+            0.993
+          ]
+        },
+        {
+          "id": "audit",
+          "box": [
+            0.651,
+            0.0,
+            0.805,
+            0.741
+          ]
+        },
+        {
+          "id": "griggs",
+          "box": [
+            0.292,
+            0.219,
+            0.876,
+            0.501
+          ]
+        },
+        {
+          "id": "griggs",
+          "box": [
+            0.156,
+            0.17,
+            0.795,
+            0.524
+          ]
+        },
+        {
+          "id": "griggs",
+          "box": [
+            0.108,
+            0.166,
+            0.809,
+            0.669
+          ]
+        },
+        {
+          "id": "griggs",
+          "box": [
+            0.188,
+            0.26,
+            0.755,
+            0.832
+          ]
+        },
+        {
+          "id": "112704051",
+          "box": [
+            0.022,
+            0.129,
+            0.137,
+            0.877
+          ]
+        },
+        {
+          "id": "112704051",
+          "box": [
+            0.238,
+            0.142,
+            0.367,
+            0.902
+          ]
+        },
+        {
+          "id": "112704051",
+          "box": [
+            0.482,
+            0.145,
+            0.565,
+            0.886
+          ]
+        },
+        {
+          "id": "112704051",
+          "box": [
+            0.675,
+            0.081,
+            0.761,
+            0.777
+          ]
+        }
+      ]
+    }
+  },
+  "seconds_median": {
+    "released": 11.241891405998103,
+    "sam": 2.565606995000053
+  }
+}

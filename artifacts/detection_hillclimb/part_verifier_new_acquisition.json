@@ -1,0 +1,32 @@
+{
+  "row": {
+    "id": "oriez-vaccine-preparation",
+    "image": "data/part-verifier/oriez.jpg",
+    "sha256": "c5b416fb364d767b5a8594a17fe2bb1c6d05900d3d2a635be411a71611ccd34e",
+    "source_url": "https://www.dvidshub.net/image/6479379/wright-patt-phase-1-covid-vaccinations",
+    "author": "R.J. Oriez",
+    "group": "Wright-Patterson 2021-01-08 R.J. Oriez",
+    "license": "Public domain (DVIDS)",
+    "objects": [
+      {
+        "bbox": [
+          0.594,
+          0.6762177650429799,
+          0.627,
+          0.7292263610315186
+        ]
+      },
+      {
+        "bbox": [
+          0.889,
+          0.2822349570200573,
+          0.916,
+          0.3524355300859599
+        ]
+      }
+    ],
+    "review": "Two partly occluded syringe bodies on one original photograph. The right-hand vial is separate."
+  },
+  "implementation": "5af25b071152c124e20e209a865fe883eaa0854615d96a98a0b2679db60da65a",
+  "fitting_reference": "f60bd6134d20b352bd4ba8c88fb592e5dca4d72b72a3275f3dc032a955c04d13"
+}

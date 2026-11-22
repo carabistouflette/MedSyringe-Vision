@@ -1,0 +1,57 @@
+{
+  "target": 500,
+  "protected_universe_projects": {
+    "test-uugy6/syringe-test": [
+      "device_scene_manifest.json"
+    ],
+    "juliejoyy/syringe2-w3svf": [
+      "device_context_manifest.json"
+    ],
+    "michaels-workspace-ldsqh/syringe-detection-fnu4f": [
+      "device_context_manifest.json"
+    ],
+    "medical-waste-e3vov/medbin_dataset-2": [
+      "medbin_held_out_manifest.json"
+    ]
+  },
+  "protected_named_families": {
+    "10.17632/mh6zpc7y9g.1": "Mendeley Dental held out as a source",
+    "10.5281/zenodo.16924786": "Simulated phlebotomy used in prior fit/development",
+    "michaels-workspace-ldsqh/syringe-project": "Capture family of protected syringe-detection-fnu4f desk setup"
+  },
+  "open_images": {
+    "staged": 16,
+    "publisher_boxes": 34,
+    "aabb_candidates": 2,
+    "exclusions": {
+      "Known public source photo or contributor": 77,
+      "Previously referenced public hash or visual fingerprint": 1
+    },
+    "source_license_checks": {
+      "Source page declares CC BY 2.0": 9,
+      "All rights reserved at source": 2,
+      "Source unavailable (404)": 4,
+      "Source unavailable (403)": 1
+    },
+    "reviewed": 16,
+    "visually_one_to_one": 7,
+    "origin_license_verified": 1,
+    "visually_one_to_one_instances": 9,
+    "manifest": "data/instance-source-review/open-images-publisher-boxes.json",
+    "manifest_sha256": "c7e7566a8d837caa2b3b6e596c22aef6d6cb17bbe6112a4f283181f9571b622c"
+  },
+  "labpics": {
+    "scanned_source_scenes": 1215,
+    "labeled_scenes": 59,
+    "publisher_instance_masks": 84,
+    "source_counts": {
+      "Youtube": 21,
+      "Instagram": 38
+    },
+    "multiple_instances": 9,
+    "eligible": 0,
+    "manifest": "data/instance-source-review/labpics-quarantine.json"
+  },
+  "independent_human_approved": 0,
+  "review_status": "Local artifact and geometry checks plus agent visual review. Independent review remains pending."
+}

@@ -10,10 +10,10 @@
     "sam3_sha256": "dcd7f0c1262cbdafed1915ab6e20adbbab58bf5739e07d2a8fbcc6338769dc30",
     "marking_sha256": "8cfc9bf9e707d5f1457474c927bc2e42a61e391198849f39fa810e928218cb2c",
     "liquid_sha256": "3d63ef06a07b4ff095aa227abb8c3d61df09bc3522fdccb1a168aef4e38c4d46",
-    "expanded_sha256": "0b99b829602968349c343ea58a7a4ba7def74ac5aaa35a3bbffad0a5e74cb8be",
-    "fill_sha256": "bf0e4db95fe1bb58625e61c07b12d6f9ffebe527f7bfc2b124dc87634b8c9772",
-    "crop_verification_sha256": "24467cdc561e12a778067561439a33ecddb85ee57d4d92ce716228e517e64c00",
-    "graduation_capacity_sha256": "9a7d698cc0c3bf4e14d8282b48639722caa52dc2b19e8464e023a59e463b7d8d"
+    "expanded_sha256": "2a81b253ecf24e402db6c4d32a4a49d4912580e997776cc09b3639bff0740e53",
+    "fill_sha256": "ff15c5d32ad634d180487a94a003a7cd12dadf6759d3b0092be85c46c6b43daa",
+    "crop_verification_sha256": "18d5533b651630b7e387c593d5b7b87b71dac4f74195f02d67423029592e1f68",
+    "graduation_capacity_sha256": "a86b16051d4b1ec5b3f7480de914027dd4949393e84e22fffdac3c96110496a5"
   },
   "components": [
     {
@@ -42,13 +42,13 @@
     "data/models/dinov2-small/config.json": "1809f83e3bdb1609a501a610ad4a742f4fd8ae44d72ca4aa0df52d1f2ac8628d"
   },
   "code": {
-    "medsyringe/appearance_runtime.py": "99b60d264f921557fb0c9408dc2d9a68cf85fa727fefa53ccc84accdc75e1042",
+    "medsyringe/appearance_runtime.py": "8001ef98107f2070e54b3c88943881747f8a7adf3defd502292327f9644a7f00",
     "medsyringe/local_models.py": "e97a6adb8e6a057b05329e91e72b3df1e39c943d2bfe1a5f102f3067dea4abc1",
-    "scripts/appearance_worker.py": "299ef40e2c09fd0ea47f65a01914c934e30f7f9233060336a03407645fc1c335",
-    "scripts/appearance_text_encoder.py": "7e4db7df6db5bf3ff2ebe5463423fc581599c8d56a152fb23c1d592cde47cc79",
+    "scripts/appearance_worker.py": "b2bc68c5081dad0d4ad15f83b437f60134f768be28a1154bfb99e27ea2f812d8",
+    "scripts/appearance_text_encoder.py": "cefede8c4a9583ee19ab85f120bff0923499f3e06f9779a632ca847bc887140c",
     "scripts/appearance_worker.sh": "eb3be0f0847c5cff31b7e4f35c3bb94ab68a4a1ecdb7c0b958d3efed8e3ad4ad",
     "scripts/detection_crop_semantics.py": "b98e65af57a8381d511a87cda85c9bd0b5b30229f6a9c1360d00bd2060c591c9",
-    "scripts/detection_semantics_audit.py": "7b644f54b0a55e47559e1427e06dd065494f3d87968296ebdae87626bf3518bf",
+    "scripts/detection_semantics_audit.py": "557580c246fe5448729429942cc0e11a2c8bd2d153b46f3d921a5d6ed91d1d98",
     "scripts/rfdetr_verifier.py": "d65cadef929cc2484364fa5f53ce993760fc381398fb9b39053cbf9798375af4",
     "scripts/sam3_study.py": "672278ed74cd9a58340a818f1bae8bade9067b92ce9961b0f2b29d3532b2ad49"
   },

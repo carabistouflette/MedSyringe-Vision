@@ -1,0 +1,19 @@
+{
+  "plan_sha256": "4032d4ea2c54c55556ef5b63f6e403a3e2e4be3b146dd54284b7cbe868877d93",
+  "reserve_sha256": "1a9d63908f3f1246176eb19a1429c765cfe247e1ef70a7dcbe1c681cd525b29f",
+  "rows_checked": {
+    "fit": 143,
+    "development": 60,
+    "public evaluation": 35
+  },
+  "transformed_hashes_checked": {
+    "fit": 1144,
+    "development": 480,
+    "public evaluation": 280
+  },
+  "radius": 4,
+  "private_sha256_entries": 325,
+  "private_dhash_entries": 203,
+  "blocked_collisions": 0,
+  "scope": "Direct and transformed 64-bit visual fingerprints across distinct archived public rows; upstream pretraining exposure remains unknown."
+}

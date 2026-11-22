@@ -127,6 +127,10 @@ def output(scope):
 def crop_frame(encoder,image,ranked):
     candidates = proposals(ranked)
     patches = [crop(image,expanded(p["bbox"],padding)) for padding in PADDINGS for p in candidates]
+    return encode_frame(encoder, candidates, patches)
+
+
+def encode_frame(encoder, candidates, patches):
     vectors = {name:[] for name in ("siglip","dino","prompt")}
     for i in range(0,len(patches),8):
         for name,value in encoder.encode(patches[i:i+8]).items():

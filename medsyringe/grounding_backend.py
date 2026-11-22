@@ -45,13 +45,13 @@ def enable_intel(engine, root):
     engine.identity["primary_backend"] = "xpu"
 
 
-def analyze(engine, image, ocr):
+def analyze(engine, image, ocr, **options):
     try:
-        return engine.analyze(image, ocr)
+        return engine.analyze(image, ocr, **options)
     except AccelerationUnavailable:
         LOGGER.warning("Intel Grounding DINO failed. Repeating the image on CPU.")
         original = engine.detector.original
         original.model.to("cpu")
         engine.detector = original
         engine.identity["primary_backend"] = "cpu fallback"
-        return engine.analyze(image, ocr)
+        return engine.analyze(image, ocr, **options)

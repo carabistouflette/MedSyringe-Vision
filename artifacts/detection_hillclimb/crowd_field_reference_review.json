@@ -1,0 +1,87 @@
+{
+  "screen_sha256": "fbc17076efb5029ee3320beed3b7d6bf834d1c80ef2e412fb43e4bc31cb89f1d",
+  "cases": {
+    "38602067": {
+      "dimensions": [
+        1280,
+        854
+      ],
+      "boxes_px": [
+        [
+          578,
+          112,
+          727,
+          261
+        ],
+        [
+          652,
+          256,
+          883,
+          352
+        ],
+        [
+          781,
+          193,
+          826,
+          361
+        ],
+        [
+          180,
+          690,
+          450,
+          851
+        ]
+      ],
+      "scope": "Four visible bodies on paving. Two intersect; the printed box illustration and long flat utensil are separate lookalikes."
+    },
+    "5170947": {
+      "dimensions": [
+        1280,
+        851
+      ],
+      "boxes_px": [
+        [
+          158,
+          298,
+          402,
+          708
+        ],
+        [
+          331,
+          247,
+          545,
+          654
+        ],
+        [
+          511,
+          222,
+          680,
+          642
+        ]
+      ],
+      "scope": "Three bodies remain individually visible through the wrapping. Bounding boxes enclose the molded device and cap, with the outer packaging excluded."
+    },
+    "21702347": {
+      "dimensions": [
+        1280,
+        853
+      ],
+      "boxes_px": [
+        [
+          510,
+          439,
+          530,
+          513
+        ]
+      ],
+      "scope": "The orange-capped syringe beside the wall is countable. The other thin item lacks a clearly visible syringe body."
+    },
+    "88751456": {
+      "scope": "Excluded from exact-count scoring. Reflected orange caps and overlapping devices cannot all be assigned to physical bodies."
+    },
+    "113570809": {
+      "scope": "Excluded from exact-count scoring. Excessive occlusion in the disposal container prevents a complete visible instance count."
+    }
+  },
+  "method": "Visual reference set from public raster bytes, before detector inference. Coordinates are pixel boundaries in the retained image. Source titles, credits and licenses are in the generated manifest."
+}

@@ -1,0 +1,211 @@
+{
+  "rows": [
+    {
+      "id": "oi-yellow",
+      "visible_liquid": true,
+      "empty_candidate_both_orientations": false,
+      "original": {
+        "status": "indeterminate",
+        "reason": "The nozzle or rubber seal was not consistently visible.",
+        "parts": {
+          "syringe nozzle": [
+            {
+              "bbox": [
+                0.24741270807054308,
+                0.004257559776306152,
+                0.6962301466200087,
+                0.23994498782687718
+              ],
+              "score": 0.5442280769348145,
+              "axis_center": 0.12210127380159166
+            },
+            {
+              "bbox": [
+                0.2524680296579997,
+                0.004964843392372131,
+                0.6933394538031684,
+                0.03718007273144192
+              ],
+              "score": 0.5401331186294556,
+              "axis_center": 0.021072458061907027
+            }
+          ],
+          "syringe plunger seal": [],
+          "rubber stopper inside syringe": []
+        }
+      },
+      "rotated": {
+        "status": "indeterminate",
+        "reason": "The nozzle or rubber seal was not consistently visible.",
+        "parts": {
+          "syringe nozzle": [
+            {
+              "bbox": [
+                0.46364805433485246,
+                0.004644816948307885,
+                0.4882463879055447,
+                0.06375814808739556
+              ],
+              "score": 0.5028780698776245,
+              "axis_center": 0.034201482517851725
+            },
+            {
+              "bbox": [
+                0.3987930350833469,
+                0.08101363314522637,
+                0.577268918355306,
+                0.15494259198506674
+              ],
+              "score": 0.41106435656547546,
+              "axis_center": 0.11797811256514656
+            }
+          ],
+          "syringe plunger seal": [],
+          "rubber stopper inside syringe": []
+        }
+      }
+    },
+    {
+      "id": "commons-seated-stopper",
+      "visible_liquid": false,
+      "empty_candidate_both_orientations": false,
+      "original": {
+        "status": "indeterminate",
+        "reason": "The nozzle or rubber seal was not consistently visible.",
+        "parts": {
+          "syringe nozzle": [
+            {
+              "bbox": [
+                0.0026170313358306885,
+                0.44113604227701825,
+                0.08896243572235107,
+                0.5927208794487847
+              ],
+              "score": 0.7574964165687561,
+              "axis_center": 0.04578973352909088
+            }
+          ],
+          "syringe plunger seal": [
+            {
+              "bbox": [
+                0.0024446025490760803,
+                0.44358234935336643,
+                0.086834364467197,
+                0.5911113421122233
+              ],
+              "score": 0.5579850673675537,
+              "axis_center": 0.04463948350813654
+            }
+          ],
+          "rubber stopper inside syringe": []
+        }
+      },
+      "rotated": {
+        "status": "empty geometry candidate",
+        "gap_in_crop_lengths": 8.169809977209841e-05,
+        "seal_agreement": true,
+        "parts": {
+          "syringe nozzle": [
+            {
+              "bbox": [
+                0.9036734898885092,
+                0.39269396993849015,
+                0.9829612308078342,
+                0.5438738928900825
+              ],
+              "score": 0.6441570520401001,
+              "axis_center": 0.9433173603481717
+            }
+          ],
+          "syringe plunger seal": [
+            {
+              "bbox": [
+                0.9060381783379449,
+                0.3956868648529053,
+                0.9825853771633573,
+                0.5412048763699002
+              ],
+              "score": 0.5585140585899353,
+              "axis_center": 0.9443117777506511
+            }
+          ],
+          "rubber stopper inside syringe": [
+            {
+              "bbox": [
+                0.9015963872273763,
+                0.39196006457010907,
+                0.9833762910630968,
+                0.5432266129387749
+              ],
+              "score": 0.4449884593486786,
+              "axis_center": 0.9424863391452365
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "commons-in-hand",
+      "visible_liquid": false,
+      "empty_candidate_both_orientations": false,
+      "original": {
+        "status": "indeterminate",
+        "reason": "The nozzle or rubber seal was not consistently visible.",
+        "parts": {
+          "syringe nozzle": [],
+          "syringe plunger seal": [],
+          "rubber stopper inside syringe": []
+        }
+      },
+      "rotated": {
+        "status": "indeterminate",
+        "reason": "The nozzle or rubber seal was not consistently visible.",
+        "parts": {
+          "syringe nozzle": [],
+          "syringe plunger seal": [],
+          "rubber stopper inside syringe": []
+        }
+      }
+    },
+    {
+      "id": "fil-rouge-colored",
+      "visible_liquid": true,
+      "empty_candidate_both_orientations": false,
+      "original": {
+        "status": "indeterminate",
+        "reason": "The nozzle or rubber seal was not consistently visible.",
+        "parts": {
+          "syringe nozzle": [],
+          "syringe plunger seal": [],
+          "rubber stopper inside syringe": []
+        }
+      },
+      "rotated": {
+        "status": "indeterminate",
+        "reason": "The nozzle or rubber seal was not consistently visible.",
+        "parts": {
+          "syringe nozzle": [
+            {
+              "bbox": [
+                0.1295351054933336,
+                0.9364004135131836,
+                0.3508636686537001,
+                0.9828750822279189
+              ],
+              "score": 0.5545868873596191,
+              "axis_center": 0.9596377478705512
+            }
+          ],
+          "syringe plunger seal": [],
+          "rubber stopper inside syringe": []
+        }
+      }
+    }
+  ],
+  "min_score": 0.4,
+  "maximum_part_extent": 0.32,
+  "maximum_gap": 0.18,
+  "reference_sha256": "491b2e80b45ea6b2d80958fb3e815a65f41568014fd05edf3b32034b534aafe4",
+  "checkpoint_sha256": "31bb1d7c1246179d7b107f903c3b9af322c22e6c3b1830544c7c946260598112",
+  "scope": "Exploratory part prompts with manually reviewed crop geometry. No changes to production presence, volume or type."
+}

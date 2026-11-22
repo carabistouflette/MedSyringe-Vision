@@ -10,9 +10,9 @@
     "sam3_sha256": "dcd7f0c1262cbdafed1915ab6e20adbbab58bf5739e07d2a8fbcc6338769dc30",
     "marking_sha256": "8cfc9bf9e707d5f1457474c927bc2e42a61e391198849f39fa810e928218cb2c",
     "liquid_sha256": "3d63ef06a07b4ff095aa227abb8c3d61df09bc3522fdccb1a168aef4e38c4d46",
-    "expanded_sha256": "0b99b829602968349c343ea58a7a4ba7def74ac5aaa35a3bbffad0a5e74cb8be",
-    "fill_sha256": "bf0e4db95fe1bb58625e61c07b12d6f9ffebe527f7bfc2b124dc87634b8c9772",
-    "crop_verification_sha256": "24467cdc561e12a778067561439a33ecddb85ee57d4d92ce716228e517e64c00"
+    "expanded_sha256": "2a81b253ecf24e402db6c4d32a4a49d4912580e997776cc09b3639bff0740e53",
+    "fill_sha256": "ff15c5d32ad634d180487a94a003a7cd12dadf6759d3b0092be85c46c6b43daa",
+    "crop_verification_sha256": "18d5533b651630b7e387c593d5b7b87b71dac4f74195f02d67423029592e1f68"
   },
   "policy": {
     "readers": [
@@ -25,7 +25,7 @@
   "code": {
     "medsyringe/graduation_ocr.py": "cb606c35ddc9da1b2caf7ed1fe24803803ff56c68d5860c58a8aca4ac254a61d",
     "medsyringe/scale_runtime.py": "8d2ef2eaea98eacd7e3df8a1a0124924a00a9afd13f7b671a603fc81797f00bb",
-    "medsyringe/pipeline.py": "5792fb759cfe4bb44f8e84bfdcfb9ff1b79727adaa9458a90cef189e3f196081",
+    "medsyringe/pipeline.py": "1153f90e82d4ddd5a29996de23650804a3cb2dddb564e9cf5a3356f67d524890",
     "scripts/scale_worker.py": "95d333ce99aa237a89e7e46840bab75507c9e58849a9a7275af5a3ee02d4c745",
     "scripts/scale_worker.sh": "5381b6358081b25db36f7eaaaf3299f8057ca0b12fb9917c739c468b06583d47",
     "medsyringe/detection_checks.py": "d90a633815eb70ff31755cbf8ef657f33ba71580474677f96d1db690969b378d"

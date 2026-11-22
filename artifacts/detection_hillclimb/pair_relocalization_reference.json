@@ -1,0 +1,151 @@
+{
+  "protocol": "751afdf7d6fb5ee0ce2e120fd84ef18d977f7aa4fc4b2759375552b0cd13cdc0",
+  "rows": [
+    {
+      "id": "pair-reloc-4823468",
+      "source_url": "https://www.dvidshub.net/image/4823468/flu-vaccinations-uss-bonhomme-richard",
+      "original_url": "https://d1ldvf68ux039x.cloudfront.net/thumbs/photos/1810/4823468/1000w_q95.jpg",
+      "author": "Daniel Charest",
+      "license": "https://www.dvidshub.net/about/copyright",
+      "group": "pair-reloc:daniel charest",
+      "image": "data/pair-relocalization/screen/4823468.jpg",
+      "sha256": "a637d510b357337ce12d0e1d9227c92d302c2db417c667a852a3406157d187c9",
+      "review": "One visible barrel partly hidden by fingers in a dim room.",
+      "objects": [
+        {
+          "bbox": [
+            0.5257352941176471,
+            0.31470588235294117,
+            0.5606617647058824,
+            0.38529411764705884
+          ]
+        }
+      ]
+    },
+    {
+      "id": "pair-reloc-8485748",
+      "source_url": "https://www.dvidshub.net/image/8485748/us-chad-continue-medical-partnership-garnison-military-hospital",
+      "original_url": "https://d1ldvf68ux039x.cloudfront.net/thumbs/photos/2406/8485748/1000w_q95.jpg",
+      "author": "Anthony Hopper",
+      "license": "https://www.dvidshub.net/about/copyright",
+      "group": "pair-reloc:anthony hopper",
+      "image": "data/pair-relocalization/screen/8485748.jpg",
+      "sha256": "43c1c1d5c1543ff5654a3a179435c5cd2d5386844628c6197f265c3542c1e097",
+      "review": "A narrow syringe with attached needle. Fingers conceal the plunger.",
+      "objects": [
+        {
+          "bbox": [
+            0.19646799116997793,
+            0.34411764705882353,
+            0.2582781456953642,
+            0.4514705882352941
+          ]
+        }
+      ]
+    },
+    {
+      "id": "pair-reloc-9873364",
+      "source_url": "https://www.dvidshub.net/image/9873364/army-reserve-medical-personnel-build-readiness-through-active-duty-joint-integration",
+      "original_url": "https://d1ldvf68ux039x.cloudfront.net/thumbs/photos/2608/9873364/1000w_q95.jpg",
+      "author": "Jerry Zuetrong",
+      "license": "https://www.dvidshub.net/about/copyright",
+      "group": "pair-reloc:jerry zuetrong",
+      "image": "data/pair-relocalization/screen/9873364.jpg",
+      "sha256": "7ed1cfba020875b21e71a59a417bc1d76b52acb372313fe34a368e3a9836b9c7",
+      "review": "A pneumatic dental handpiece with tubing. No plunger syringe.",
+      "objects": []
+    },
+    {
+      "id": "pair-reloc-6368419",
+      "source_url": "https://www.dvidshub.net/image/6368419/saving-warfighter-bloodline",
+      "original_url": "https://d1ldvf68ux039x.cloudfront.net/thumbs/photos/2009/6368419/1000w_q95.jpg",
+      "author": "Azaria Loyd",
+      "license": "https://www.dvidshub.net/about/copyright",
+      "group": "pair-reloc:azaria loyd",
+      "image": "data/pair-relocalization/screen/6368419.jpg",
+      "sha256": "4ac6b9ad376129a67a00b75879d37e50323e71eaf990f643584ba3b03fc38460",
+      "review": "Blood sample tubes in metal racks. No plunger syringe.",
+      "objects": []
+    },
+    {
+      "id": "pair-reloc-3356232",
+      "source_url": "https://www.dvidshub.net/image/3356232/28th-mdss-lab-asks-marrow-donors",
+      "original_url": "https://d1ldvf68ux039x.cloudfront.net/thumbs/photos/1705/3356232/1000w_q95.jpg",
+      "author": "Nicolas Erwin",
+      "license": "https://www.dvidshub.net/about/copyright",
+      "group": "pair-reloc:nicolas erwin",
+      "image": "data/pair-relocalization/screen/3356232.jpg",
+      "sha256": "8014d40ef200737f4a75bc18ba651cdb16dbe63015e7313aeba62c895c57c112",
+      "review": "Capped sample tubes and laboratory racks. No plunger syringe.",
+      "objects": []
+    },
+    {
+      "id": "pair-reloc-6074934",
+      "source_url": "https://www.pexels.com/photo/set-of-medical-syringes-filled-with-medication-on-pink-desk-6074934/",
+      "original_url": "https://images.pexels.com/photos/6074934/pexels-photo-6074934.jpeg?auto=compress&cs=tinysrgb&w=1000",
+      "author": "Alena Shekhovtcova",
+      "license": "https://www.pexels.com/license/",
+      "group": "pair-reloc:alena shekhovtcova",
+      "image": "data/pair-relocalization/screen/6074934.jpg",
+      "sha256": "f382d45079f48e45ce33ac3b89325a8c2fb1dd3ac709486708f5f74421be25a4",
+      "review": "Five neighboring syringes. Two diagonal assemblies are cropped by the frame.",
+      "objects": [
+        {
+          "bbox": [
+            0.05875,
+            0.05056179775280899,
+            0.26875,
+            0.5243445692883895
+          ]
+        },
+        {
+          "bbox": [
+            0.33375,
+            0.0,
+            0.46875,
+            0.32397003745318353
+          ]
+        },
+        {
+          "bbox": [
+            0.24625,
+            0.2958801498127341,
+            0.575,
+            1.0
+          ]
+        },
+        {
+          "bbox": [
+            0.61375,
+            0.0,
+            0.93125,
+            0.6985018726591761
+          ]
+        },
+        {
+          "bbox": [
+            0.67625,
+            0.5468164794007491,
+            0.875,
+            1.0
+          ]
+        }
+      ]
+    }
+  ],
+  "excluded": {
+    "8577983": "Multiple intersecting devices behind a container have uncertain visible extents.",
+    "5863310": "The identity of the cropped assembly at the upper-right edge is uncertain.",
+    "6847585": "Hand occlusion and distant devices prevent a consistent scene count.",
+    "6627728": "Closed packages and drawer dividers prevent reliable instance attribution.",
+    "9190822": "The same contributor appears in a previous reserve.",
+    "6576166": "The same contributor appears in a previous reserve.",
+    "8920974": "The same contributor appears in a previous reserve.",
+    "32418225": "The same contributor appears in a previous reserve.",
+    "7723202": "The same contributor appears in project history.",
+    "9858478": "No clear syringe or useful syringe lookalike.",
+    "wikimedia": "Candidate raster download returned HTTP 429.",
+    "5973349": "Historical URL, contributor, exact byte hash or visual match."
+  },
+  "note": "One reviewer. Labels and inclusion decisions preceded detector inference."
+}

@@ -1,0 +1,68 @@
+{
+  "reference_sha256": "d13830715902bd51e0a08dd3103266509f561026d61cd46f0e0e3f988c7139e0",
+  "visual_reference": {
+    "status": "visual interval",
+    "low_ml": 1.1385554229099888,
+    "high_ml": 1.2573381040791372,
+    "calibration_residual_pixels": 0.5999785284703094
+  },
+  "trials": {
+    "contrast": {
+      "rim": {
+        "location": 286.1505841519531,
+        "coordinate": [
+          1042.1403440006131,
+          221.5791849069322
+        ],
+        "score": 35.95413589477539,
+        "margin": 15.994937896728516,
+        "error_pixels": 24.143040185053906,
+        "rim_status": "estimated"
+      },
+      "volume": {
+        "status": "visual interval",
+        "low_ml": 1.2645563216630324,
+        "high_ml": 1.3833390028321808,
+        "calibration_residual_pixels": 0.5999785284703094
+      },
+      "interval_covers_visual_midpoint": false
+    },
+    "real": {
+      "rim": {
+        "location": 295.90167784292674,
+        "coordinate": [
+          1051.8910887400882,
+          221.49669129661515
+        ],
+        "score": 0.9964011836184754,
+        "margin": 0.02260270210551285,
+        "error_pixels": 33.894133876027524,
+        "rim_status": "unknown"
+      },
+      "volume": {
+        "status": "unknown",
+        "reason": "Seal front could not be localized with sufficient evidence."
+      },
+      "interval_covers_visual_midpoint": null
+    },
+    "real-plus-rendered": {
+      "rim": {
+        "location": 288.58835757469654,
+        "coordinate": [
+          1044.578030185482,
+          221.55856150435295
+        ],
+        "score": 0.9999969111122213,
+        "margin": 0.0003829972810702742,
+        "error_pixels": 26.580813607797324,
+        "rim_status": "unknown"
+      },
+      "volume": {
+        "status": "unknown",
+        "reason": "Seal front could not be localized with sufficient evidence."
+      },
+      "interval_covers_visual_midpoint": null
+    }
+  },
+  "scope": "One loose visual volume reference for calibration. A single scene cannot validate coverage."
+}

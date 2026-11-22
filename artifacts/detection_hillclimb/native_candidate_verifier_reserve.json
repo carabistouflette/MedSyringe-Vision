@@ -1,0 +1,143 @@
+{
+  "code_sha256": "6312f5c4bd547069e51375083ed07bf04ee5f6774d3db1e8eda4eafa7b1479c2",
+  "rows": [
+    {
+      "id": "crop-reserve-6892731",
+      "image": "data/native-candidate-verifier/prospective/6892731.jpg",
+      "sha256": "a6dda73c6a6e1b063bc9e39dc4a245617859a469b675f9e242326b348af6f14d",
+      "author": "Matthew Damon",
+      "group": "Blue Grass Army Depot 2021-10-16",
+      "source_url": "https://www.dvidshub.net/image/6892731/operation-fortified-guardian",
+      "original_url": "https://d1ldvf68ux039x.cloudfront.net/thumbs/photos/2110/6892731/1000w_q95.jpg",
+      "license": "Public domain (DVIDS)",
+      "objects": [
+        {
+          "bbox": [
+            0.062,
+            0.5262368815592204,
+            0.887,
+            0.7886056971514243
+          ]
+        },
+        {
+          "bbox": [
+            0.087,
+            0.5637181409295352,
+            0.995,
+            0.8380809595202399
+          ]
+        }
+      ],
+      "review": "Two overlapping defocused syringes with separate plungers and protective covers. The vial is separate."
+    },
+    {
+      "id": "crop-reserve-9190822",
+      "image": "data/native-candidate-verifier/prospective/9190822.jpg",
+      "sha256": "c1b4d04fbb8ffe6d0ec1b61611dbc05b2842e2d4efc6747bfdb5f0ef250c391c",
+      "author": "Alexander Casco",
+      "group": "USS Gerald R. Ford 2025-07-14",
+      "source_url": "https://www.dvidshub.net/image/9190822/uss-gerald-r-ford-cvn-78-conducts-deployment-shot-exercise",
+      "original_url": "https://d1ldvf68ux039x.cloudfront.net/thumbs/photos/2507/9190822/1000w_q95.jpg",
+      "license": "Public domain (DVIDS)",
+      "objects": [
+        {
+          "bbox": [
+            0.532,
+            0.37181409295352325,
+            0.615,
+            0.7631184407796102
+          ]
+        }
+      ],
+      "review": "One held syringe with attached visible needle and a separate vial."
+    },
+    {
+      "id": "crop-reserve-10052835",
+      "image": "data/native-candidate-verifier/prospective/10052835.jpg",
+      "sha256": "143b68d54d1b8024b405752ccd234461408fa84c73ee95b1a8014ba08f69e4d0",
+      "author": "Jean Graves",
+      "group": "Fort Polk 2026-10-27",
+      "source_url": "https://www.dvidshub.net/image/10052835/two-paths-one-mission-bjach-graduates-army-laboratory-specialists",
+      "original_url": "https://d1ldvf68ux039x.cloudfront.net/thumbs/photos/2610/10052835/1000w_q95.jpg",
+      "license": "Public domain (DVIDS)",
+      "objects": [],
+      "review": "Laboratory pipette, small vessel, and testing equipment. No syringe visible."
+    },
+    {
+      "id": "crop-reserve-9918854",
+      "image": "data/native-candidate-verifier/prospective/9918854.jpg",
+      "sha256": "407675b8d50a8d891d720d111ad0c13cb4b4fd5d31fc84c9b219baf524f88922",
+      "author": "Martin Nalls",
+      "group": "Camp Humphreys 2026-08-25",
+      "source_url": "https://www.dvidshub.net/image/9918854/95th-medical-detachment-blood-support-conducts-deglycerolization-blood-stress-test",
+      "original_url": "https://d1ldvf68ux039x.cloudfront.net/thumbs/photos/2609/9918854/1000w_q95.jpg",
+      "license": "Public domain (DVIDS)",
+      "objects": [],
+      "review": "A transfer pipette above a test fixture. No syringe visible."
+    },
+    {
+      "id": "crop-reserve-9468367",
+      "image": "data/native-candidate-verifier/prospective/9468367.jpg",
+      "sha256": "254ba4472cf27540e84371d68c5e2c47a2f565c4e83a0cb884d74055c26d8861",
+      "author": "Devyn Waits",
+      "group": "Keesler 2025-10-29",
+      "source_url": "https://www.dvidshub.net/image/9468367/medical-genetics-center-empowering-patients-one-test-time",
+      "original_url": "https://d1ldvf68ux039x.cloudfront.net/thumbs/photos/2601/9468367/1000w_q95.jpg",
+      "license": "Public domain (DVIDS)",
+      "objects": [],
+      "review": "Micropipettes, tubes, and racks. No syringe assembly visible."
+    },
+    {
+      "id": "crop-reserve-chemyx",
+      "image": "data/native-candidate-verifier/prospective/chemyx.jpg",
+      "sha256": "f7b7e3828c5ba754087e6e57186b13e71dbdbd91093793618c6e74bd0bface3b",
+      "author": "SabrielxD",
+      "group": "Chemyx SKE10 2022-03-30",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Chemyx_SKE10.jpg",
+      "original_url": "https://upload.wikimedia.org/wikipedia/commons/e/e7/Chemyx_SKE10.jpg",
+      "license": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "objects": [
+        {
+          "bbox": [
+            0.25979557069846676,
+            0.41363636363636364,
+            0.4752981260647359,
+            0.4420454545454545
+          ]
+        },
+        {
+          "bbox": [
+            0.25979557069846676,
+            0.43863636363636366,
+            0.4752981260647359,
+            0.4681818181818182
+          ]
+        }
+      ],
+      "review": "Two thin glass syringe assemblies in a pump. External ducts and the pump chassis are excluded."
+    },
+    {
+      "id": "crop-reserve-capa",
+      "image": "data/native-candidate-verifier/prospective/capa.png",
+      "sha256": "71237e5083ef2ca2ed84c66a4dcec0fce7e2dd8b1c5cce72f36e8a7ab5eee73d",
+      "author": "Philcapawiki",
+      "group": "Multichamber syringe bench 2023-12-23",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Capa_Valve_Multi-chamber_syringe.png",
+      "original_url": "https://upload.wikimedia.org/wikipedia/commons/c/c2/Capa_Valve_Multi-chamber_syringe.png",
+      "license": "https://creativecommons.org/licenses/by/4.0/",
+      "objects": [
+        {
+          "bbox": [
+            0.16176470588235295,
+            0.11470588235294117,
+            0.8647058823529412,
+            0.9264705882352942
+          ]
+        }
+      ],
+      "review": "One unmarked multichamber syringe. A detached fitting and a glass container are separate."
+    }
+  ],
+  "release_condition": "Require the dev-selected policy, new prospective matches, no per-image false-positive increase or loss of existing matches or count quality in prospective and archived cohorts.",
+  "screening": "Source, contributor, exact hashes, and rotated/mirrored difference hashes. No Fil Rouge raster or comparison crop used."
+}

@@ -1,0 +1,304 @@
+{
+  "development": {
+    "images": 60,
+    "missed": 29,
+    "cases": [
+      {
+        "id": "phl-fde18ea002c07555",
+        "target_index": 0,
+        "first_box_rank": null,
+        "first_crop_rank": 1
+      },
+      {
+        "id": "phl-d700cc24ef55312d",
+        "target_index": 0,
+        "first_box_rank": 1,
+        "first_crop_rank": 1
+      },
+      {
+        "id": "phl-66b1cafb7070d45e",
+        "target_index": 0,
+        "first_box_rank": 1,
+        "first_crop_rank": 1
+      },
+      {
+        "id": "phl-66b1cafb7070d45e",
+        "target_index": 1,
+        "first_box_rank": null,
+        "first_crop_rank": 22
+      },
+      {
+        "id": "phl-7ac906e2b9f8921b",
+        "target_index": 0,
+        "first_box_rank": 5,
+        "first_crop_rank": 5
+      },
+      {
+        "id": "phl-f8563c66c7905530",
+        "target_index": 0,
+        "first_box_rank": 2,
+        "first_crop_rank": 2
+      },
+      {
+        "id": "phl-5414cebd7fc83433",
+        "target_index": 0,
+        "first_box_rank": 1,
+        "first_crop_rank": 1
+      },
+      {
+        "id": "phl-f914ed1015d82f68",
+        "target_index": 0,
+        "first_box_rank": null,
+        "first_crop_rank": 1
+      },
+      {
+        "id": "phl-b7d329f9b09de08c",
+        "target_index": 0,
+        "first_box_rank": 1,
+        "first_crop_rank": 1
+      },
+      {
+        "id": "phl-650a54af1e4c5df2",
+        "target_index": 0,
+        "first_box_rank": 1,
+        "first_crop_rank": 1
+      },
+      {
+        "id": "phl-0b9e4a2fb18941c2",
+        "target_index": 0,
+        "first_box_rank": 3,
+        "first_crop_rank": 1
+      },
+      {
+        "id": "phl-44a688e2a24bd81f",
+        "target_index": 0,
+        "first_box_rank": 12,
+        "first_crop_rank": 7
+      },
+      {
+        "id": "phl-0eb9f729dd4a8876",
+        "target_index": 0,
+        "first_box_rank": 9,
+        "first_crop_rank": 1
+      },
+      {
+        "id": "phl-0eb9f729dd4a8876",
+        "target_index": 1,
+        "first_box_rank": 2,
+        "first_crop_rank": 1
+      },
+      {
+        "id": "phl-71239b0968ef00ea",
+        "target_index": 0,
+        "first_box_rank": 4,
+        "first_crop_rank": 4
+      },
+      {
+        "id": "phl-73f655e238ccbc4d",
+        "target_index": 0,
+        "first_box_rank": 1,
+        "first_crop_rank": 1
+      },
+      {
+        "id": "phl-b4057b79e8ceffbd",
+        "target_index": 0,
+        "first_box_rank": 4,
+        "first_crop_rank": 1
+      },
+      {
+        "id": "phl-44b51eac946f0fef",
+        "target_index": 0,
+        "first_box_rank": 3,
+        "first_crop_rank": 1
+      },
+      {
+        "id": "154888950",
+        "target_index": 0,
+        "first_box_rank": 2,
+        "first_crop_rank": 1
+      },
+      {
+        "id": "157429146",
+        "target_index": 0,
+        "first_box_rank": 26,
+        "first_crop_rank": 1
+      },
+      {
+        "id": "157438208",
+        "target_index": 0,
+        "first_box_rank": null,
+        "first_crop_rank": 1
+      },
+      {
+        "id": "159462910",
+        "target_index": 0,
+        "first_box_rank": 4,
+        "first_crop_rank": 4
+      },
+      {
+        "id": "4627441",
+        "target_index": 0,
+        "first_box_rank": null,
+        "first_crop_rank": null
+      },
+      {
+        "id": "9778179",
+        "target_index": 0,
+        "first_box_rank": 8,
+        "first_crop_rank": 8
+      },
+      {
+        "id": "9778179",
+        "target_index": 3,
+        "first_box_rank": 5,
+        "first_crop_rank": 5
+      },
+      {
+        "id": "2962966",
+        "target_index": 1,
+        "first_box_rank": 8,
+        "first_crop_rank": null
+      },
+      {
+        "id": "2962966",
+        "target_index": 2,
+        "first_box_rank": 5,
+        "first_crop_rank": 13
+      },
+      {
+        "id": "2962966",
+        "target_index": 3,
+        "first_box_rank": 9,
+        "first_crop_rank": 13
+      },
+      {
+        "id": "10322370",
+        "target_index": 0,
+        "first_box_rank": 1,
+        "first_crop_rank": 1
+      }
+    ],
+    "budgets": {
+      "3": {
+        "box_hits": 12,
+        "crop_hits": 18,
+        "examined_proposals": 180
+      },
+      "6": {
+        "box_hits": 18,
+        "crop_hits": 22,
+        "examined_proposals": 357
+      },
+      "12": {
+        "box_hits": 23,
+        "crop_hits": 24,
+        "examined_proposals": 701
+      },
+      "28": {
+        "box_hits": 24,
+        "crop_hits": 27,
+        "examined_proposals": 1571
+      }
+    }
+  },
+  "reserve_replay": {
+    "images": 6,
+    "missed": 3,
+    "cases": [
+      {
+        "id": "assembly-infusion",
+        "target_index": 0,
+        "first_box_rank": 7,
+        "first_crop_rank": null
+      },
+      {
+        "id": "assembly-6900270",
+        "target_index": 0,
+        "first_box_rank": 20,
+        "first_crop_rank": 1
+      },
+      {
+        "id": "assembly-7538446",
+        "target_index": 0,
+        "first_box_rank": 1,
+        "first_crop_rank": 1
+      }
+    ],
+    "budgets": {
+      "3": {
+        "box_hits": 1,
+        "crop_hits": 2,
+        "examined_proposals": 18
+      },
+      "6": {
+        "box_hits": 1,
+        "crop_hits": 2,
+        "examined_proposals": 36
+      },
+      "12": {
+        "box_hits": 2,
+        "crop_hits": 2,
+        "examined_proposals": 72
+      },
+      "28": {
+        "box_hits": 3,
+        "crop_hits": 2,
+        "examined_proposals": 152
+      }
+    }
+  },
+  "pump_replay": {
+    "images": 1,
+    "missed": 2,
+    "cases": [
+      {
+        "id": "crop-reserve-chemyx",
+        "target_index": 0,
+        "first_box_rank": null,
+        "first_crop_rank": 12
+      },
+      {
+        "id": "crop-reserve-chemyx",
+        "target_index": 1,
+        "first_box_rank": null,
+        "first_crop_rank": 12
+      }
+    ],
+    "budgets": {
+      "3": {
+        "box_hits": 0,
+        "crop_hits": 0,
+        "examined_proposals": 3
+      },
+      "6": {
+        "box_hits": 0,
+        "crop_hits": 0,
+        "examined_proposals": 6
+      },
+      "12": {
+        "box_hits": 0,
+        "crop_hits": 2,
+        "examined_proposals": 12
+      },
+      "28": {
+        "box_hits": 0,
+        "crop_hits": 2,
+        "examined_proposals": 28
+      }
+    }
+  },
+  "inputs": {
+    "data/detection_hillclimb/proposals/phlebotomy-development-baseline.json": "2c4a741db06b940a0e98c1c8d949c68cd8b9463f86f40ed467ce2f1d912aa47b",
+    "data/detection_hillclimb/proposals/public-development-baseline.json": "d0e09665c64867c5fc8fd24b7bc2b379801c54b19d1f944eb1b16a07c26d8eb3",
+    "data/detection_hillclimb/proposals/dental-transfer-development-baseline.json": "13345908f6a0781d7e9f251bf92c9ad4289a44136c6deceb537676b85da0a27e",
+    "data/native-candidate-verifier/rf-development.json": "c87e253963dbf070fcf1716ae9ac021611e172570a15791931fb5815bb867fce",
+    "data/native-candidate-verifier/rf-assembly-reserve.json": "adf88e0a64fbde13ff8370ef2742b30351b108c2666df43022601b82a9aa7962",
+    "data/native-candidate-verifier/rf-prospective.json": "288ba4a5ccd15c8710a2918d4f7d915803567b759ccb3194451b240f8cf4b07a",
+    "artifacts/detection_hillclimb/syringe_assembly_reserve.json": "7d09bd5830370c17011899d7756ce7344bd8bbbe871ae8de60753459be590946",
+    "data/syringe-assembly-study/prospective/released.json": "b6e96e4cbbf65f2425fd8e66d538dc5e06da139a6c9a76467f66d8c321b531c1",
+    "artifacts/detection_hillclimb/native_candidate_verifier_reserve.json": "cc67f103553d804b5e5de48f43d32b5ef7f33f7326449a253c7eca239e490749",
+    "data/native-candidate-verifier/prospective/released.json": "cabfedc11fb35c15521d22e41bfbbebdcb7b0fced5cd7a7c41db2e52c806d0d8"
+  },
+  "code_sha256": "6eb54ed9544a9cb1e828f8100b13c805a51afd833c92955f68f42360e0b848a2",
+  "scope": "Geometric crop feasibility on development and exposed replays. No second-pass inference or acceptance decisions."
+}

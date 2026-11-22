@@ -1,0 +1,2397 @@
+{
+  "device": "cpu",
+  "modes": [
+    "baseline",
+    "optimized"
+  ],
+  "fixed_primary": false,
+  "cases": {
+    "Fil Rouge capacity": {
+      "filename": "IMG_3294.jpeg",
+      "sha256": "a256501c4e02ac9283f690f18c59205bd1d3138265ac54526b74c1ff4373e56e",
+      "ocr": true,
+      "dimensions": [
+        3024,
+        4032
+      ]
+    },
+    "Native crowded": {
+      "filename": "fr4KaYX2NdrKAcwFd4Sh.jpg",
+      "sha256": "946cd7b519e6e16f6fb5e6c94683a672d3e479872c7ed5ef9f8787c209c461ac",
+      "ocr": false,
+      "dimensions": [
+        3020,
+        1699
+      ]
+    }
+  },
+  "runs": [
+    {
+      "case": "Fil Rouge capacity",
+      "mode": "baseline",
+      "round": -1,
+      "process_cold": true,
+      "seconds": 66.17249107299722,
+      "prediction_sha256": "1adaa64135e5dca048ead00886841889cf4baaccb78605714312986bfb73d2b0",
+      "accepted_count": 1,
+      "appearance_payloads": [
+        {
+          "mode": "full scene",
+          "dimensions": [
+            3024,
+            4032
+          ]
+        }
+      ],
+      "prediction": {
+        "model": {
+          "name": "dino",
+          "revision": "a2bb814dd30d776dcf7e30523b00659f4f141c71",
+          "pipeline": "optimized-detector-v3+rfdetr-verified+sam3-fallback+expanded",
+          "selection_sha256": "6481fabde0f83dc58083049abb0f6a69f94d2b734d94234a28fa0b2e197e7897",
+          "attributes_sha256": "026e40a5d54c323c623775bb040890e8408cc893ef8721e3cae56a0525ee589b",
+          "recovery_sha256": "218082dfc0ecf028f8bfc902ad9c51a41fdb369818b2a566320688682e4e19a7",
+          "sam3_sha256": "dcd7f0c1262cbdafed1915ab6e20adbbab58bf5739e07d2a8fbcc6338769dc30",
+          "marking_sha256": "8cfc9bf9e707d5f1457474c927bc2e42a61e391198849f39fa810e928218cb2c",
+          "liquid_sha256": "3d63ef06a07b4ff095aa227abb8c3d61df09bc3522fdccb1a168aef4e38c4d46",
+          "expanded_sha256": "2a81b253ecf24e402db6c4d32a4a49d4912580e997776cc09b3639bff0740e53",
+          "fill_sha256": "ff15c5d32ad634d180487a94a003a7cd12dadf6759d3b0092be85c46c6b43daa",
+          "crop_verification_sha256": "18d5533b651630b7e387c593d5b7b87b71dac4f74195f02d67423029592e1f68",
+          "graduation_capacity_sha256": "a86b16051d4b1ec5b3f7480de914027dd4949393e84e22fffdac3c96110496a5",
+          "appearance_detection_sha256": "77575889751a048fa2242281af92ee81d8ac8819c5a08824b1ce45849d9f0481"
+        },
+        "threshold": 0.6772280764893512,
+        "objects": [
+          {
+            "id": "object-1",
+            "bbox": [
+              0.34795924595424105,
+              0.13916148836650544,
+              0.5572520664760044,
+              0.9969068765640259
+            ],
+            "score": 0.7529904895992472,
+            "detection_evidence": {},
+            "scale": "20-scale",
+            "color": "orange",
+            "evidence": {
+              "scale": {
+                "value": "20-scale",
+                "score": 0.9738087058067322,
+                "method": "read number and unit",
+                "evidence": [
+                  {
+                    "text": "ml",
+                    "crop_bbox": [
+                      0.40229885057471265,
+                      0.4494736842105263,
+                      0.6896551724137931,
+                      0.48368421052631577
+                    ],
+                    "rotation": 0.0
+                  },
+                  {
+                    "text": "20",
+                    "crop_bbox": [
+                      0.40229885057471265,
+                      0.47842105263157897,
+                      0.6896551724137931,
+                      0.5126315789473684
+                    ],
+                    "rotation": 0.0
+                  }
+                ],
+                "reason": "Supported by stroke-guided printed markings"
+              },
+              "color": {
+                "value": "orange",
+                "distance": 1.1103283720682435,
+                "margin": 2.569026065427323,
+                "reason": "Experimental suggestion from the object crop"
+              }
+            },
+            "inscriptions": {
+              "status": "capacity read",
+              "candidates": [
+                {
+                  "text": "15",
+                  "score": 0.9998792409896851,
+                  "crop_bbox": [
+                    0.4366812227074236,
+                    0.37900641025641024,
+                    0.6462882096069869,
+                    0.41025641025641024
+                  ],
+                  "view_bbox": [
+                    100.0,
+                    473.0,
+                    148.0,
+                    512.0
+                  ],
+                  "rotation": 0.0,
+                  "family": "raw"
+                },
+                {
+                  "text": "10",
+                  "score": 0.9996998310089111,
+                  "crop_bbox": [
+                    0.4585152838427948,
+                    0.2780448717948718,
+                    0.6593886462882096,
+                    0.3092948717948718
+                  ],
+                  "view_bbox": [
+                    105.0,
+                    347.0,
+                    151.0,
+                    386.0
+                  ],
+                  "rotation": 0.0,
+                  "family": "raw"
+                },
+                {
+                  "text": "m",
+                  "score": 0.9979442954063416,
+                  "crop_bbox": [
+                    0.43231441048034935,
+                    0.453525641025641,
+                    0.5895196506550219,
+                    0.4791666666666667
+                  ],
+                  "view_bbox": [
+                    99.0,
+                    566.0,
+                    135.0,
+                    598.0
+                  ],
+                  "rotation": 0.0,
+                  "family": "raw"
+                },
+                {
+                  "text": "5",
+                  "score": 0.9800608158111572,
+                  "crop_bbox": [
+                    0.4890829694323144,
+                    0.18108974358974358,
+                    0.5764192139737991,
+                    0.20512820512820512
+                  ],
+                  "view_bbox": [
+                    112.0,
+                    226.0,
+                    132.0,
+                    256.0
+                  ],
+                  "rotation": 0.0,
+                  "family": "raw"
+                },
+                {
+                  "text": "E2",
+                  "score": 0.8125079870223999,
+                  "crop_bbox": [
+                    0.3935117967332123,
+                    0.43398891966759007,
+                    0.6454779189352692,
+                    0.5193656509695291
+                  ],
+                  "view_bbox": [
+                    90.11420145190561,
+                    541.6181717451524,
+                    147.81444343617665,
+                    648.1683324099723
+                  ],
+                  "rotation": 0.0,
+                  "family": "raw",
+                  "source": "graduation-guided crop"
+                },
+                {
+                  "text": "ju",
+                  "score": 0.77555251121521,
+                  "crop_bbox": [
+                    0.4192139737991265,
+                    0.45032051282051283,
+                    0.6157205240174671,
+                    0.48157051282051283
+                  ],
+                  "view_bbox": [
+                    88.0,
+                    647.0,
+                    133.0,
+                    686.0
+                  ],
+                  "rotation": 180.0,
+                  "family": "raw"
+                },
+                {
+                  "text": "01",
+                  "score": 0.730932354927063,
+                  "crop_bbox": [
+                    0.47598253275109154,
+                    0.2780448717948718,
+                    0.6812227074235805,
+                    0.31330128205128205
+                  ],
+                  "view_bbox": [
+                    73.0,
+                    857.0,
+                    120.0,
+                    901.0
+                  ],
+                  "rotation": 180.0,
+                  "family": "raw"
+                },
+                {
+                  "text": "Sl",
+                  "score": 0.6468108892440796,
+                  "crop_bbox": [
+                    0.41484716157205226,
+                    0.3798076923076923,
+                    0.6419213973799125,
+                    0.41346153846153844
+                  ],
+                  "view_bbox": [
+                    82.0,
+                    732.0,
+                    134.0,
+                    774.0
+                  ],
+                  "rotation": 180.0,
+                  "family": "raw"
+                },
+                {
+                  "text": "152",
+                  "score": 0.59707111120224,
+                  "crop_bbox": [
+                    0.3799126637554581,
+                    0.36538461538461536,
+                    0.6768558951965061,
+                    0.5144230769230769
+                  ],
+                  "view_bbox": [
+                    456.0,
+                    74.0,
+                    642.0,
+                    142.0
+                  ],
+                  "rotation": 90.0,
+                  "family": "raw"
+                },
+                {
+                  "text": "02",
+                  "score": 0.5628541707992554,
+                  "crop_bbox": [
+                    0.38427947598253265,
+                    0.47596153846153844,
+                    0.6244541484716157,
+                    0.5144230769230769
+                  ],
+                  "view_bbox": [
+                    86.0,
+                    606.0,
+                    141.0,
+                    654.0
+                  ],
+                  "rotation": 180.0,
+                  "family": "raw"
+                },
+                {
+                  "text": "15",
+                  "score": 0.9998792409896851,
+                  "crop_bbox": [
+                    0.4366812227074236,
+                    0.37900641025641024,
+                    0.6462882096069869,
+                    0.41025641025641024
+                  ],
+                  "view_bbox": [
+                    151.96506550218342,
+                    720.1121794871794,
+                    224.90829694323142,
+                    779.4871794871794
+                  ],
+                  "rotation": 0.0,
+                  "family": "stroke-20-0.0"
+                },
+                {
+                  "text": "10",
+                  "score": 0.9996998310089111,
+                  "crop_bbox": [
+                    0.4585152838427948,
+                    0.2780448717948718,
+                    0.6593886462882096,
+                    0.3092948717948718
+                  ],
+                  "view_bbox": [
+                    159.56331877729258,
+                    528.2852564102565,
+                    229.46724890829694,
+                    587.6602564102565
+                  ],
+                  "rotation": 0.0,
+                  "family": "stroke-20-0.0"
+                },
+                {
+                  "text": "5",
+                  "score": 0.9800608158111572,
+                  "crop_bbox": [
+                    0.4890829694323144,
+                    0.18108974358974358,
+                    0.5764192139737991,
+                    0.20512820512820512
+                  ],
+                  "view_bbox": [
+                    170.2008733624454,
+                    344.0705128205128,
+                    200.5938864628821,
+                    389.7435897435897
+                  ],
+                  "rotation": 0.0,
+                  "family": "stroke-20-0.0"
+                },
+                {
+                  "text": "20",
+                  "score": 0.9738087058067322,
+                  "crop_bbox": [
+                    0.40229885057471265,
+                    0.47842105263157897,
+                    0.6896551724137931,
+                    0.5126315789473684
+                  ],
+                  "view_bbox": [
+                    140.0,
+                    909.0,
+                    240.0,
+                    974.0
+                  ],
+                  "rotation": 0.0,
+                  "family": "stroke-20-0.0",
+                  "reader": "tiny",
+                  "stroke_strength": 23.982456140350877,
+                  "window": "anchor"
+                },
+                {
+                  "text": "20",
+                  "score": 0.9999645352363586,
+                  "crop_bbox": [
+                    0.40229885057471265,
+                    0.47842105263157897,
+                    0.6896551724137931,
+                    0.5126315789473684
+                  ],
+                  "view_bbox": [
+                    140.0,
+                    909.0,
+                    240.0,
+                    974.0
+                  ],
+                  "rotation": 0.0,
+                  "family": "stroke-20-0.0",
+                  "reader": "medium",
+                  "stroke_strength": 23.982456140350877,
+                  "window": "anchor"
+                },
+                {
+                  "text": "ml",
+                  "score": 0.9990060329437256,
+                  "crop_bbox": [
+                    0.40229885057471265,
+                    0.4494736842105263,
+                    0.6896551724137931,
+                    0.48368421052631577
+                  ],
+                  "view_bbox": [
+                    140.0,
+                    854.0,
+                    240.0,
+                    919.0
+                  ],
+                  "rotation": 0.0,
+                  "family": "stroke-20-0.0",
+                  "reader": "medium",
+                  "stroke_strength": 23.982456140350877,
+                  "window": "unit"
+                }
+              ],
+              "scale": {
+                "value": "20-scale",
+                "score": 0.9738087058067322,
+                "method": "read number and unit",
+                "evidence": [
+                  {
+                    "text": "ml",
+                    "crop_bbox": [
+                      0.40229885057471265,
+                      0.4494736842105263,
+                      0.6896551724137931,
+                      0.48368421052631577
+                    ],
+                    "rotation": 0.0
+                  },
+                  {
+                    "text": "20",
+                    "crop_bbox": [
+                      0.40229885057471265,
+                      0.47842105263157897,
+                      0.6896551724137931,
+                      0.5126315789473684
+                    ],
+                    "rotation": 0.0
+                  }
+                ]
+              },
+              "capacity": {
+                "value": 20.0,
+                "unit": "mL",
+                "score": 0.9738087058067322,
+                "method": "adjacent number and unit",
+                "evidence": [
+                  {
+                    "text": "ml",
+                    "crop_bbox": [
+                      0.40229885057471265,
+                      0.4494736842105263,
+                      0.6896551724137931,
+                      0.48368421052631577
+                    ],
+                    "rotation": 0.0
+                  },
+                  {
+                    "text": "20",
+                    "crop_bbox": [
+                      0.40229885057471265,
+                      0.47842105263157897,
+                      0.6896551724137931,
+                      0.5126315789473684
+                    ],
+                    "rotation": 0.0
+                  }
+                ]
+              },
+              "apparent_volume": null,
+              "graduation_crop_evidence": [
+                {
+                  "text": "20",
+                  "score": 0.9738087058067322,
+                  "crop_bbox": [
+                    0.40229885057471265,
+                    0.47842105263157897,
+                    0.6896551724137931,
+                    0.5126315789473684
+                  ],
+                  "view_bbox": [
+                    140.0,
+                    909.0,
+                    240.0,
+                    974.0
+                  ],
+                  "rotation": 0.0,
+                  "family": "stroke-20-0.0",
+                  "reader": "tiny",
+                  "stroke_strength": 23.982456140350877,
+                  "window": "anchor"
+                },
+                {
+                  "text": "20",
+                  "score": 0.9999645352363586,
+                  "crop_bbox": [
+                    0.40229885057471265,
+                    0.47842105263157897,
+                    0.6896551724137931,
+                    0.5126315789473684
+                  ],
+                  "view_bbox": [
+                    140.0,
+                    909.0,
+                    240.0,
+                    974.0
+                  ],
+                  "rotation": 0.0,
+                  "family": "stroke-20-0.0",
+                  "reader": "medium",
+                  "stroke_strength": 23.982456140350877,
+                  "window": "anchor"
+                },
+                {
+                  "text": "ml",
+                  "score": 0.9990060329437256,
+                  "crop_bbox": [
+                    0.40229885057471265,
+                    0.4494736842105263,
+                    0.6896551724137931,
+                    0.48368421052631577
+                  ],
+                  "view_bbox": [
+                    140.0,
+                    854.0,
+                    240.0,
+                    919.0
+                  ],
+                  "rotation": 0.0,
+                  "family": "stroke-20-0.0",
+                  "reader": "medium",
+                  "stroke_strength": 23.982456140350877,
+                  "window": "unit"
+                }
+              ]
+            },
+            "liquid_appearance": {
+              "status": "appearance measured",
+              "reason": "Colored interior of the segmented syringe",
+              "lightness": {
+                "lstar": 63.6,
+                "iqr": [
+                  60.3,
+                  66.8
+                ],
+                "category": "medium"
+              },
+              "region": [
+                0.2077922077922078,
+                0.06428571428571428,
+                0.7402597402597403,
+                0.5380952380952381
+              ],
+              "support_fraction": 0.592,
+              "opacity": null,
+              "opacity_reason": "A registered clear-barrel reference at the same exposure is required.",
+              "syringe_mask_score": 0.8530613780021667,
+              "apparent_color": {
+                "lab": [
+                  64.6,
+                  29.2,
+                  43.5
+                ],
+                "chroma": 52.4,
+                "srgb": [
+                  224,
+                  134,
+                  81
+                ],
+                "profile": "Embedded profile converted to sRGB",
+                "family": "orange"
+              },
+              "color_basis": "Warm interior pixels within the localized region, checked against its lightness"
+            },
+            "fill_level": {
+              "status": "insufficient evidence",
+              "reason": "Nominal capacity was read. The visible marks and piston did not establish the fill."
+            },
+            "origin": "model"
+          }
+        ],
+        "dimensions": [
+          3024,
+          4032
+        ],
+        "accepted_count": 1,
+        "below_threshold_candidates": [
+          {
+            "bbox": [
+              0.3665823154348545,
+              0.1381660643078032,
+              0.5366647306573454,
+              0.6879650297619048
+            ],
+            "score": 0.4714449866632442
+          },
+          {
+            "bbox": [
+              0.2476220307526765,
+              0.10408341695391943,
+              0.6551738920665923,
+              0.9919041224888393
+            ],
+            "score": 0.3711966181199712
+          },
+          {
+            "bbox": [
+              0.2926760880404679,
+              0.12506052804371667,
+              0.6095993607132523,
+              0.766576676141648
+            ],
+            "score": 0.3317720725629692
+          },
+          {
+            "bbox": [
+              0.12801132000312604,
+              0.05080353267609128,
+              0.9181058368985615,
+              0.9836448431015015
+            ],
+            "score": 0.288366536998281
+          },
+          {
+            "bbox": [
+              0.013292968588531334,
+              0.13510083395337302,
+              0.5846074422200521,
+              0.9934360384941101
+            ],
+            "score": 0.28743296824540765
+          }
+        ],
+        "sam3_status": null,
+        "detection_checks": {
+          "status": "available",
+          "primary_backend": "cpu",
+          "unavailable": [],
+          "review_needed": false
+        }
+      }
+    },
+    {
+      "case": "Fil Rouge capacity",
+      "mode": "baseline",
+      "round": 0,
+      "process_cold": false,
+      "seconds": 27.507937989998027,
+      "prediction_sha256": "1adaa64135e5dca048ead00886841889cf4baaccb78605714312986bfb73d2b0",
+      "accepted_count": 1,
+      "appearance_payloads": [
+        {
+          "mode": "full scene",
+          "dimensions": [
+            3024,
+            4032
+          ]
+        }
+      ],
+      "prediction": {
+        "model": {
+          "name": "dino",
+          "revision": "a2bb814dd30d776dcf7e30523b00659f4f141c71",
+          "pipeline": "optimized-detector-v3+rfdetr-verified+sam3-fallback+expanded",
+          "selection_sha256": "6481fabde0f83dc58083049abb0f6a69f94d2b734d94234a28fa0b2e197e7897",
+          "attributes_sha256": "026e40a5d54c323c623775bb040890e8408cc893ef8721e3cae56a0525ee589b",
+          "recovery_sha256": "218082dfc0ecf028f8bfc902ad9c51a41fdb369818b2a566320688682e4e19a7",
+          "sam3_sha256": "dcd7f0c1262cbdafed1915ab6e20adbbab58bf5739e07d2a8fbcc6338769dc30",
+          "marking_sha256": "8cfc9bf9e707d5f1457474c927bc2e42a61e391198849f39fa810e928218cb2c",
+          "liquid_sha256": "3d63ef06a07b4ff095aa227abb8c3d61df09bc3522fdccb1a168aef4e38c4d46",
+          "expanded_sha256": "2a81b253ecf24e402db6c4d32a4a49d4912580e997776cc09b3639bff0740e53",
+          "fill_sha256": "ff15c5d32ad634d180487a94a003a7cd12dadf6759d3b0092be85c46c6b43daa",
+          "crop_verification_sha256": "18d5533b651630b7e387c593d5b7b87b71dac4f74195f02d67423029592e1f68",
+          "graduation_capacity_sha256": "a86b16051d4b1ec5b3f7480de914027dd4949393e84e22fffdac3c96110496a5",
+          "appearance_detection_sha256": "77575889751a048fa2242281af92ee81d8ac8819c5a08824b1ce45849d9f0481"
+        },
+        "threshold": 0.6772280764893512,
+        "objects": [
+          {
+            "id": "object-1",
+            "bbox": [
+              0.34795924595424105,
+              0.13916148836650544,
+              0.5572520664760044,
+              0.9969068765640259
+            ],
+            "score": 0.7529904895992472,
+            "detection_evidence": {},
+            "scale": "20-scale",
+            "color": "orange",
+            "evidence": {
+              "scale": {
+                "value": "20-scale",
+                "score": 0.9738087058067322,
+                "method": "read number and unit",
+                "evidence": [
+                  {
+                    "text": "ml",
+                    "crop_bbox": [
+                      0.40229885057471265,
+                      0.4494736842105263,
+                      0.6896551724137931,
+                      0.48368421052631577
+                    ],
+                    "rotation": 0.0
+                  },
+                  {
+                    "text": "20",
+                    "crop_bbox": [
+                      0.40229885057471265,
+                      0.47842105263157897,
+                      0.6896551724137931,
+                      0.5126315789473684
+                    ],
+                    "rotation": 0.0
+                  }
+                ],
+                "reason": "Supported by stroke-guided printed markings"
+              },
+              "color": {
+                "value": "orange",
+                "distance": 1.1103283720682435,
+                "margin": 2.569026065427323,
+                "reason": "Experimental suggestion from the object crop"
+              }
+            },
+            "inscriptions": {
+              "status": "capacity read",
+              "candidates": [
+                {
+                  "text": "15",
+                  "score": 0.9998792409896851,
+                  "crop_bbox": [
+                    0.4366812227074236,
+                    0.37900641025641024,
+                    0.6462882096069869,
+                    0.41025641025641024
+                  ],
+                  "view_bbox": [
+                    100.0,
+                    473.0,
+                    148.0,
+                    512.0
+                  ],
+                  "rotation": 0.0,
+                  "family": "raw"
+                },
+                {
+                  "text": "10",
+                  "score": 0.9996998310089111,
+                  "crop_bbox": [
+                    0.4585152838427948,
+                    0.2780448717948718,
+                    0.6593886462882096,
+                    0.3092948717948718
+                  ],
+                  "view_bbox": [
+                    105.0,
+                    347.0,
+                    151.0,
+                    386.0
+                  ],
+                  "rotation": 0.0,
+                  "family": "raw"
+                },
+                {
+                  "text": "m",
+                  "score": 0.9979442954063416,
+                  "crop_bbox": [
+                    0.43231441048034935,
+                    0.453525641025641,
+                    0.5895196506550219,
+                    0.4791666666666667
+                  ],
+                  "view_bbox": [
+                    99.0,
+                    566.0,
+                    135.0,
+                    598.0
+                  ],
+                  "rotation": 0.0,
+                  "family": "raw"
+                },
+                {
+                  "text": "5",
+                  "score": 0.9800608158111572,
+                  "crop_bbox": [
+                    0.4890829694323144,
+                    0.18108974358974358,
+                    0.5764192139737991,
+                    0.20512820512820512
+                  ],
+                  "view_bbox": [
+                    112.0,
+                    226.0,
+                    132.0,
+                    256.0
+                  ],
+                  "rotation": 0.0,
+                  "family": "raw"
+                },
+                {
+                  "text": "E2",
+                  "score": 0.8125079870223999,
+                  "crop_bbox": [
+                    0.3935117967332123,
+                    0.43398891966759007,
+                    0.6454779189352692,
+                    0.5193656509695291
+                  ],
+                  "view_bbox": [
+                    90.11420145190561,
+                    541.6181717451524,
+                    147.81444343617665,
+                    648.1683324099723
+                  ],
+                  "rotation": 0.0,
+                  "family": "raw",
+                  "source": "graduation-guided crop"
+                },
+                {
+                  "text": "ju",
+                  "score": 0.77555251121521,
+                  "crop_bbox": [
+                    0.4192139737991265,
+                    0.45032051282051283,
+                    0.6157205240174671,
+                    0.48157051282051283
+                  ],
+                  "view_bbox": [
+                    88.0,
+                    647.0,
+                    133.0,
+                    686.0
+                  ],
+                  "rotation": 180.0,
+                  "family": "raw"
+                },
+                {
+                  "text": "01",
+                  "score": 0.730932354927063,
+                  "crop_bbox": [
+                    0.47598253275109154,
+                    0.2780448717948718,
+                    0.6812227074235805,
+                    0.31330128205128205
+                  ],
+                  "view_bbox": [
+                    73.0,
+                    857.0,
+                    120.0,
+                    901.0
+                  ],
+                  "rotation": 180.0,
+                  "family": "raw"
+                },
+                {
+                  "text": "Sl",
+                  "score": 0.6468108892440796,
+                  "crop_bbox": [
+                    0.41484716157205226,
+                    0.3798076923076923,
+                    0.6419213973799125,
+                    0.41346153846153844
+                  ],
+                  "view_bbox": [
+                    82.0,
+                    732.0,
+                    134.0,
+                    774.0
+                  ],
+                  "rotation": 180.0,
+                  "family": "raw"
+                },
+                {
+                  "text": "152",
+                  "score": 0.59707111120224,
+                  "crop_bbox": [
+                    0.3799126637554581,
+                    0.36538461538461536,
+                    0.6768558951965061,
+                    0.5144230769230769
+                  ],
+                  "view_bbox": [
+                    456.0,
+                    74.0,
+                    642.0,
+                    142.0
+                  ],
+                  "rotation": 90.0,
+                  "family": "raw"
+                },
+                {
+                  "text": "02",
+                  "score": 0.5628541707992554,
+                  "crop_bbox": [
+                    0.38427947598253265,
+                    0.47596153846153844,
+                    0.6244541484716157,
+                    0.5144230769230769
+                  ],
+                  "view_bbox": [
+                    86.0,
+                    606.0,
+                    141.0,
+                    654.0
+                  ],
+                  "rotation": 180.0,
+                  "family": "raw"
+                },
+                {
+                  "text": "15",
+                  "score": 0.9998792409896851,
+                  "crop_bbox": [
+                    0.4366812227074236,
+                    0.37900641025641024,
+                    0.6462882096069869,
+                    0.41025641025641024
+                  ],
+                  "view_bbox": [
+                    151.96506550218342,
+                    720.1121794871794,
+                    224.90829694323142,
+                    779.4871794871794
+                  ],
+                  "rotation": 0.0,
+                  "family": "stroke-20-0.0"
+                },
+                {
+                  "text": "10",
+                  "score": 0.9996998310089111,
+                  "crop_bbox": [
+                    0.4585152838427948,
+                    0.2780448717948718,
+                    0.6593886462882096,
+                    0.3092948717948718
+                  ],
+                  "view_bbox": [
+                    159.56331877729258,
+                    528.2852564102565,
+                    229.46724890829694,
+                    587.6602564102565
+                  ],
+                  "rotation": 0.0,
+                  "family": "stroke-20-0.0"
+                },
+                {
+                  "text": "5",
+                  "score": 0.9800608158111572,
+                  "crop_bbox": [
+                    0.4890829694323144,
+                    0.18108974358974358,
+                    0.5764192139737991,
+                    0.20512820512820512
+                  ],
+                  "view_bbox": [
+                    170.2008733624454,
+                    344.0705128205128,
+                    200.5938864628821,
+                    389.7435897435897
+                  ],
+                  "rotation": 0.0,
+                  "family": "stroke-20-0.0"
+                },
+                {
+                  "text": "20",
+                  "score": 0.9738087058067322,
+                  "crop_bbox": [
+                    0.40229885057471265,
+                    0.47842105263157897,
+                    0.6896551724137931,
+                    0.5126315789473684
+                  ],
+                  "view_bbox": [
+                    140.0,
+                    909.0,
+                    240.0,
+                    974.0
+                  ],
+                  "rotation": 0.0,
+                  "family": "stroke-20-0.0",
+                  "reader": "tiny",
+                  "stroke_strength": 23.982456140350877,
+                  "window": "anchor"
+                },
+                {
+                  "text": "20",
+                  "score": 0.9999645352363586,
+                  "crop_bbox": [
+                    0.40229885057471265,
+                    0.47842105263157897,
+                    0.6896551724137931,
+                    0.5126315789473684
+                  ],
+                  "view_bbox": [
+                    140.0,
+                    909.0,
+                    240.0,
+                    974.0
+                  ],
+                  "rotation": 0.0,
+                  "family": "stroke-20-0.0",
+                  "reader": "medium",
+                  "stroke_strength": 23.982456140350877,
+                  "window": "anchor"
+                },
+                {
+                  "text": "ml",
+                  "score": 0.9990060329437256,
+                  "crop_bbox": [
+                    0.40229885057471265,
+                    0.4494736842105263,
+                    0.6896551724137931,
+                    0.48368421052631577
+                  ],
+                  "view_bbox": [
+                    140.0,
+                    854.0,
+                    240.0,
+                    919.0
+                  ],
+                  "rotation": 0.0,
+                  "family": "stroke-20-0.0",
+                  "reader": "medium",
+                  "stroke_strength": 23.982456140350877,
+                  "window": "unit"
+                }
+              ],
+              "scale": {
+                "value": "20-scale",
+                "score": 0.9738087058067322,
+                "method": "read number and unit",
+                "evidence": [
+                  {
+                    "text": "ml",
+                    "crop_bbox": [
+                      0.40229885057471265,
+                      0.4494736842105263,
+                      0.6896551724137931,
+                      0.48368421052631577
+                    ],
+                    "rotation": 0.0
+                  },
+                  {
+                    "text": "20",
+                    "crop_bbox": [
+                      0.40229885057471265,
+                      0.47842105263157897,
+                      0.6896551724137931,
+                      0.5126315789473684
+                    ],
+                    "rotation": 0.0
+                  }
+                ]
+              },
+              "capacity": {
+                "value": 20.0,
+                "unit": "mL",
+                "score": 0.9738087058067322,
+                "method": "adjacent number and unit",
+                "evidence": [
+                  {
+                    "text": "ml",
+                    "crop_bbox": [
+                      0.40229885057471265,
+                      0.4494736842105263,
+                      0.6896551724137931,
+                      0.48368421052631577
+                    ],
+                    "rotation": 0.0
+                  },
+                  {
+                    "text": "20",
+                    "crop_bbox": [
+                      0.40229885057471265,
+                      0.47842105263157897,
+                      0.6896551724137931,
+                      0.5126315789473684
+                    ],
+                    "rotation": 0.0
+                  }
+                ]
+              },
+              "apparent_volume": null,
+              "graduation_crop_evidence": [
+                {
+                  "text": "20",
+                  "score": 0.9738087058067322,
+                  "crop_bbox": [
+                    0.40229885057471265,
+                    0.47842105263157897,
+                    0.6896551724137931,
+                    0.5126315789473684
+                  ],
+                  "view_bbox": [
+                    140.0,
+                    909.0,
+                    240.0,
+                    974.0
+                  ],
+                  "rotation": 0.0,
+                  "family": "stroke-20-0.0",
+                  "reader": "tiny",
+                  "stroke_strength": 23.982456140350877,
+                  "window": "anchor"
+                },
+                {
+                  "text": "20",
+                  "score": 0.9999645352363586,
+                  "crop_bbox": [
+                    0.40229885057471265,
+                    0.47842105263157897,
+                    0.6896551724137931,
+                    0.5126315789473684
+                  ],
+                  "view_bbox": [
+                    140.0,
+                    909.0,
+                    240.0,
+                    974.0
+                  ],
+                  "rotation": 0.0,
+                  "family": "stroke-20-0.0",
+                  "reader": "medium",
+                  "stroke_strength": 23.982456140350877,
+                  "window": "anchor"
+                },
+                {
+                  "text": "ml",
+                  "score": 0.9990060329437256,
+                  "crop_bbox": [
+                    0.40229885057471265,
+                    0.4494736842105263,
+                    0.6896551724137931,
+                    0.48368421052631577
+                  ],
+                  "view_bbox": [
+                    140.0,
+                    854.0,
+                    240.0,
+                    919.0
+                  ],
+                  "rotation": 0.0,
+                  "family": "stroke-20-0.0",
+                  "reader": "medium",
+                  "stroke_strength": 23.982456140350877,
+                  "window": "unit"
+                }
+              ]
+            },
+            "liquid_appearance": {
+              "status": "appearance measured",
+              "reason": "Colored interior of the segmented syringe",
+              "lightness": {
+                "lstar": 63.6,
+                "iqr": [
+                  60.3,
+                  66.8
+                ],
+                "category": "medium"
+              },
+              "region": [
+                0.2077922077922078,
+                0.06428571428571428,
+                0.7402597402597403,
+                0.5380952380952381
+              ],
+              "support_fraction": 0.592,
+              "opacity": null,
+              "opacity_reason": "A registered clear-barrel reference at the same exposure is required.",
+              "syringe_mask_score": 0.8530613780021667,
+              "apparent_color": {
+                "lab": [
+                  64.6,
+                  29.2,
+                  43.5
+                ],
+                "chroma": 52.4,
+                "srgb": [
+                  224,
+                  134,
+                  81
+                ],
+                "profile": "Embedded profile converted to sRGB",
+                "family": "orange"
+              },
+              "color_basis": "Warm interior pixels within the localized region, checked against its lightness"
+            },
+            "fill_level": {
+              "status": "insufficient evidence",
+              "reason": "Nominal capacity was read. The visible marks and piston did not establish the fill."
+            },
+            "origin": "model"
+          }
+        ],
+        "dimensions": [
+          3024,
+          4032
+        ],
+        "accepted_count": 1,
+        "below_threshold_candidates": [
+          {
+            "bbox": [
+              0.3665823154348545,
+              0.1381660643078032,
+              0.5366647306573454,
+              0.6879650297619048
+            ],
+            "score": 0.4714449866632442
+          },
+          {
+            "bbox": [
+              0.2476220307526765,
+              0.10408341695391943,
+              0.6551738920665923,
+              0.9919041224888393
+            ],
+            "score": 0.3711966181199712
+          },
+          {
+            "bbox": [
+              0.2926760880404679,
+              0.12506052804371667,
+              0.6095993607132523,
+              0.766576676141648
+            ],
+            "score": 0.3317720725629692
+          },
+          {
+            "bbox": [
+              0.12801132000312604,
+              0.05080353267609128,
+              0.9181058368985615,
+              0.9836448431015015
+            ],
+            "score": 0.288366536998281
+          },
+          {
+            "bbox": [
+              0.013292968588531334,
+              0.13510083395337302,
+              0.5846074422200521,
+              0.9934360384941101
+            ],
+            "score": 0.28743296824540765
+          }
+        ],
+        "sam3_status": null,
+        "detection_checks": {
+          "status": "available",
+          "primary_backend": "cpu",
+          "unavailable": [],
+          "review_needed": false
+        }
+      }
+    },
+    {
+      "case": "Fil Rouge capacity",
+      "mode": "optimized",
+      "round": 0,
+      "process_cold": false,
+      "seconds": 25.177176260011038,
+      "prediction_sha256": "1adaa64135e5dca048ead00886841889cf4baaccb78605714312986bfb73d2b0",
+      "accepted_count": 1,
+      "appearance_payloads": [
+        {
+          "mode": "appearance crops",
+          "dimensions": [
+            224,
+            448
+          ]
+        }
+      ],
+      "prediction": {
+        "model": {
+          "name": "dino",
+          "revision": "a2bb814dd30d776dcf7e30523b00659f4f141c71",
+          "pipeline": "optimized-detector-v3+rfdetr-verified+sam3-fallback+expanded",
+          "selection_sha256": "6481fabde0f83dc58083049abb0f6a69f94d2b734d94234a28fa0b2e197e7897",
+          "attributes_sha256": "026e40a5d54c323c623775bb040890e8408cc893ef8721e3cae56a0525ee589b",
+          "recovery_sha256": "218082dfc0ecf028f8bfc902ad9c51a41fdb369818b2a566320688682e4e19a7",
+          "sam3_sha256": "dcd7f0c1262cbdafed1915ab6e20adbbab58bf5739e07d2a8fbcc6338769dc30",
+          "marking_sha256": "8cfc9bf9e707d5f1457474c927bc2e42a61e391198849f39fa810e928218cb2c",
+          "liquid_sha256": "3d63ef06a07b4ff095aa227abb8c3d61df09bc3522fdccb1a168aef4e38c4d46",
+          "expanded_sha256": "2a81b253ecf24e402db6c4d32a4a49d4912580e997776cc09b3639bff0740e53",
+          "fill_sha256": "ff15c5d32ad634d180487a94a003a7cd12dadf6759d3b0092be85c46c6b43daa",
+          "crop_verification_sha256": "18d5533b651630b7e387c593d5b7b87b71dac4f74195f02d67423029592e1f68",
+          "graduation_capacity_sha256": "a86b16051d4b1ec5b3f7480de914027dd4949393e84e22fffdac3c96110496a5",
+          "appearance_detection_sha256": "77575889751a048fa2242281af92ee81d8ac8819c5a08824b1ce45849d9f0481"
+        },
+        "threshold": 0.6772280764893512,
+        "objects": [
+          {
+            "id": "object-1",
+            "bbox": [
+              0.34795924595424105,
+              0.13916148836650544,
+              0.5572520664760044,
+              0.9969068765640259
+            ],
+            "score": 0.7529904895992472,
+            "detection_evidence": {},
+            "scale": "20-scale",
+            "color": "orange",
+            "evidence": {
+              "scale": {
+                "value": "20-scale",
+                "score": 0.9738087058067322,
+                "method": "read number and unit",
+                "evidence": [
+                  {
+                    "text": "ml",
+                    "crop_bbox": [
+                      0.40229885057471265,
+                      0.4494736842105263,
+                      0.6896551724137931,
+                      0.48368421052631577
+                    ],
+                    "rotation": 0.0
+                  },
+                  {
+                    "text": "20",
+                    "crop_bbox": [
+                      0.40229885057471265,
+                      0.47842105263157897,
+                      0.6896551724137931,
+                      0.5126315789473684
+                    ],
+                    "rotation": 0.0
+                  }
+                ],
+                "reason": "Supported by stroke-guided printed markings"
+              },
+              "color": {
+                "value": "orange",
+                "distance": 1.1103283720682435,
+                "margin": 2.569026065427323,
+                "reason": "Experimental suggestion from the object crop"
+              }
+            },
+            "inscriptions": {
+              "status": "capacity read",
+              "candidates": [
+                {
+                  "text": "15",
+                  "score": 0.9998792409896851,
+                  "crop_bbox": [
+                    0.4366812227074236,
+                    0.37900641025641024,
+                    0.6462882096069869,
+                    0.41025641025641024
+                  ],
+                  "view_bbox": [
+                    100.0,
+                    473.0,
+                    148.0,
+                    512.0
+                  ],
+                  "rotation": 0.0,
+                  "family": "raw"
+                },
+                {
+                  "text": "10",
+                  "score": 0.9996998310089111,
+                  "crop_bbox": [
+                    0.4585152838427948,
+                    0.2780448717948718,
+                    0.6593886462882096,
+                    0.3092948717948718
+                  ],
+                  "view_bbox": [
+                    105.0,
+                    347.0,
+                    151.0,
+                    386.0
+                  ],
+                  "rotation": 0.0,
+                  "family": "raw"
+                },
+                {
+                  "text": "m",
+                  "score": 0.9979442954063416,
+                  "crop_bbox": [
+                    0.43231441048034935,
+                    0.453525641025641,
+                    0.5895196506550219,
+                    0.4791666666666667
+                  ],
+                  "view_bbox": [
+                    99.0,
+                    566.0,
+                    135.0,
+                    598.0
+                  ],
+                  "rotation": 0.0,
+                  "family": "raw"
+                },
+                {
+                  "text": "5",
+                  "score": 0.9800608158111572,
+                  "crop_bbox": [
+                    0.4890829694323144,
+                    0.18108974358974358,
+                    0.5764192139737991,
+                    0.20512820512820512
+                  ],
+                  "view_bbox": [
+                    112.0,
+                    226.0,
+                    132.0,
+                    256.0
+                  ],
+                  "rotation": 0.0,
+                  "family": "raw"
+                },
+                {
+                  "text": "E2",
+                  "score": 0.8125079870223999,
+                  "crop_bbox": [
+                    0.3935117967332123,
+                    0.43398891966759007,
+                    0.6454779189352692,
+                    0.5193656509695291
+                  ],
+                  "view_bbox": [
+                    90.11420145190561,
+                    541.6181717451524,
+                    147.81444343617665,
+                    648.1683324099723
+                  ],
+                  "rotation": 0.0,
+                  "family": "raw",
+                  "source": "graduation-guided crop"
+                },
+                {
+                  "text": "ju",
+                  "score": 0.77555251121521,
+                  "crop_bbox": [
+                    0.4192139737991265,
+                    0.45032051282051283,
+                    0.6157205240174671,
+                    0.48157051282051283
+                  ],
+                  "view_bbox": [
+                    88.0,
+                    647.0,
+                    133.0,
+                    686.0
+                  ],
+                  "rotation": 180.0,
+                  "family": "raw"
+                },
+                {
+                  "text": "01",
+                  "score": 0.730932354927063,
+                  "crop_bbox": [
+                    0.47598253275109154,
+                    0.2780448717948718,
+                    0.6812227074235805,
+                    0.31330128205128205
+                  ],
+                  "view_bbox": [
+                    73.0,
+                    857.0,
+                    120.0,
+                    901.0
+                  ],
+                  "rotation": 180.0,
+                  "family": "raw"
+                },
+                {
+                  "text": "Sl",
+                  "score": 0.6468108892440796,
+                  "crop_bbox": [
+                    0.41484716157205226,
+                    0.3798076923076923,
+                    0.6419213973799125,
+                    0.41346153846153844
+                  ],
+                  "view_bbox": [
+                    82.0,
+                    732.0,
+                    134.0,
+                    774.0
+                  ],
+                  "rotation": 180.0,
+                  "family": "raw"
+                },
+                {
+                  "text": "152",
+                  "score": 0.59707111120224,
+                  "crop_bbox": [
+                    0.3799126637554581,
+                    0.36538461538461536,
+                    0.6768558951965061,
+                    0.5144230769230769
+                  ],
+                  "view_bbox": [
+                    456.0,
+                    74.0,
+                    642.0,
+                    142.0
+                  ],
+                  "rotation": 90.0,
+                  "family": "raw"
+                },
+                {
+                  "text": "02",
+                  "score": 0.5628541707992554,
+                  "crop_bbox": [
+                    0.38427947598253265,
+                    0.47596153846153844,
+                    0.6244541484716157,
+                    0.5144230769230769
+                  ],
+                  "view_bbox": [
+                    86.0,
+                    606.0,
+                    141.0,
+                    654.0
+                  ],
+                  "rotation": 180.0,
+                  "family": "raw"
+                },
+                {
+                  "text": "15",
+                  "score": 0.9998792409896851,
+                  "crop_bbox": [
+                    0.4366812227074236,
+                    0.37900641025641024,
+                    0.6462882096069869,
+                    0.41025641025641024
+                  ],
+                  "view_bbox": [
+                    151.96506550218342,
+                    720.1121794871794,
+                    224.90829694323142,
+                    779.4871794871794
+                  ],
+                  "rotation": 0.0,
+                  "family": "stroke-20-0.0"
+                },
+                {
+                  "text": "10",
+                  "score": 0.9996998310089111,
+                  "crop_bbox": [
+                    0.4585152838427948,
+                    0.2780448717948718,
+                    0.6593886462882096,
+                    0.3092948717948718
+                  ],
+                  "view_bbox": [
+                    159.56331877729258,
+                    528.2852564102565,
+                    229.46724890829694,
+                    587.6602564102565
+                  ],
+                  "rotation": 0.0,
+                  "family": "stroke-20-0.0"
+                },
+                {
+                  "text": "5",
+                  "score": 0.9800608158111572,
+                  "crop_bbox": [
+                    0.4890829694323144,
+                    0.18108974358974358,
+                    0.5764192139737991,
+                    0.20512820512820512
+                  ],
+                  "view_bbox": [
+                    170.2008733624454,
+                    344.0705128205128,
+                    200.5938864628821,
+                    389.7435897435897
+                  ],
+                  "rotation": 0.0,
+                  "family": "stroke-20-0.0"
+                },
+                {
+                  "text": "20",
+                  "score": 0.9738087058067322,
+                  "crop_bbox": [
+                    0.40229885057471265,
+                    0.47842105263157897,
+                    0.6896551724137931,
+                    0.5126315789473684
+                  ],
+                  "view_bbox": [
+                    140.0,
+                    909.0,
+                    240.0,
+                    974.0
+                  ],
+                  "rotation": 0.0,
+                  "family": "stroke-20-0.0",
+                  "reader": "tiny",
+                  "stroke_strength": 23.982456140350877,
+                  "window": "anchor"
+                },
+                {
+                  "text": "20",
+                  "score": 0.9999645352363586,
+                  "crop_bbox": [
+                    0.40229885057471265,
+                    0.47842105263157897,
+                    0.6896551724137931,
+                    0.5126315789473684
+                  ],
+                  "view_bbox": [
+                    140.0,
+                    909.0,
+                    240.0,
+                    974.0
+                  ],
+                  "rotation": 0.0,
+                  "family": "stroke-20-0.0",
+                  "reader": "medium",
+                  "stroke_strength": 23.982456140350877,
+                  "window": "anchor"
+                },
+                {
+                  "text": "ml",
+                  "score": 0.9990060329437256,
+                  "crop_bbox": [
+                    0.40229885057471265,
+                    0.4494736842105263,
+                    0.6896551724137931,
+                    0.48368421052631577
+                  ],
+                  "view_bbox": [
+                    140.0,
+                    854.0,
+                    240.0,
+                    919.0
+                  ],
+                  "rotation": 0.0,
+                  "family": "stroke-20-0.0",
+                  "reader": "medium",
+                  "stroke_strength": 23.982456140350877,
+                  "window": "unit"
+                }
+              ],
+              "scale": {
+                "value": "20-scale",
+                "score": 0.9738087058067322,
+                "method": "read number and unit",
+                "evidence": [
+                  {
+                    "text": "ml",
+                    "crop_bbox": [
+                      0.40229885057471265,
+                      0.4494736842105263,
+                      0.6896551724137931,
+                      0.48368421052631577
+                    ],
+                    "rotation": 0.0
+                  },
+                  {
+                    "text": "20",
+                    "crop_bbox": [
+                      0.40229885057471265,
+                      0.47842105263157897,
+                      0.6896551724137931,
+                      0.5126315789473684
+                    ],
+                    "rotation": 0.0
+                  }
+                ]
+              },
+              "capacity": {
+                "value": 20.0,
+                "unit": "mL",
+                "score": 0.9738087058067322,
+                "method": "adjacent number and unit",
+                "evidence": [
+                  {
+                    "text": "ml",
+                    "crop_bbox": [
+                      0.40229885057471265,
+                      0.4494736842105263,
+                      0.6896551724137931,
+                      0.48368421052631577
+                    ],
+                    "rotation": 0.0
+                  },
+                  {
+                    "text": "20",
+                    "crop_bbox": [
+                      0.40229885057471265,
+                      0.47842105263157897,
+                      0.6896551724137931,
+                      0.5126315789473684
+                    ],
+                    "rotation": 0.0
+                  }
+                ]
+              },
+              "apparent_volume": null,
+              "graduation_crop_evidence": [
+                {
+                  "text": "20",
+                  "score": 0.9738087058067322,
+                  "crop_bbox": [
+                    0.40229885057471265,
+                    0.47842105263157897,
+                    0.6896551724137931,
+                    0.5126315789473684
+                  ],
+                  "view_bbox": [
+                    140.0,
+                    909.0,
+                    240.0,
+                    974.0
+                  ],
+                  "rotation": 0.0,
+                  "family": "stroke-20-0.0",
+                  "reader": "tiny",
+                  "stroke_strength": 23.982456140350877,
+                  "window": "anchor"
+                },
+                {
+                  "text": "20",
+                  "score": 0.9999645352363586,
+                  "crop_bbox": [
+                    0.40229885057471265,
+                    0.47842105263157897,
+                    0.6896551724137931,
+                    0.5126315789473684
+                  ],
+                  "view_bbox": [
+                    140.0,
+                    909.0,
+                    240.0,
+                    974.0
+                  ],
+                  "rotation": 0.0,
+                  "family": "stroke-20-0.0",
+                  "reader": "medium",
+                  "stroke_strength": 23.982456140350877,
+                  "window": "anchor"
+                },
+                {
+                  "text": "ml",
+                  "score": 0.9990060329437256,
+                  "crop_bbox": [
+                    0.40229885057471265,
+                    0.4494736842105263,
+                    0.6896551724137931,
+                    0.48368421052631577
+                  ],
+                  "view_bbox": [
+                    140.0,
+                    854.0,
+                    240.0,
+                    919.0
+                  ],
+                  "rotation": 0.0,
+                  "family": "stroke-20-0.0",
+                  "reader": "medium",
+                  "stroke_strength": 23.982456140350877,
+                  "window": "unit"
+                }
+              ]
+            },
+            "liquid_appearance": {
+              "status": "appearance measured",
+              "reason": "Colored interior of the segmented syringe",
+              "lightness": {
+                "lstar": 63.6,
+                "iqr": [
+                  60.3,
+                  66.8
+                ],
+                "category": "medium"
+              },
+              "region": [
+                0.2077922077922078,
+                0.06428571428571428,
+                0.7402597402597403,
+                0.5380952380952381
+              ],
+              "support_fraction": 0.592,
+              "opacity": null,
+              "opacity_reason": "A registered clear-barrel reference at the same exposure is required.",
+              "syringe_mask_score": 0.8530613780021667,
+              "apparent_color": {
+                "lab": [
+                  64.6,
+                  29.2,
+                  43.5
+                ],
+                "chroma": 52.4,
+                "srgb": [
+                  224,
+                  134,
+                  81
+                ],
+                "profile": "Embedded profile converted to sRGB",
+                "family": "orange"
+              },
+              "color_basis": "Warm interior pixels within the localized region, checked against its lightness"
+            },
+            "fill_level": {
+              "status": "insufficient evidence",
+              "reason": "Nominal capacity was read. The visible marks and piston did not establish the fill."
+            },
+            "origin": "model"
+          }
+        ],
+        "dimensions": [
+          3024,
+          4032
+        ],
+        "accepted_count": 1,
+        "below_threshold_candidates": [
+          {
+            "bbox": [
+              0.3665823154348545,
+              0.1381660643078032,
+              0.5366647306573454,
+              0.6879650297619048
+            ],
+            "score": 0.4714449866632442
+          },
+          {
+            "bbox": [
+              0.2476220307526765,
+              0.10408341695391943,
+              0.6551738920665923,
+              0.9919041224888393
+            ],
+            "score": 0.3711966181199712
+          },
+          {
+            "bbox": [
+              0.2926760880404679,
+              0.12506052804371667,
+              0.6095993607132523,
+              0.766576676141648
+            ],
+            "score": 0.3317720725629692
+          },
+          {
+            "bbox": [
+              0.12801132000312604,
+              0.05080353267609128,
+              0.9181058368985615,
+              0.9836448431015015
+            ],
+            "score": 0.288366536998281
+          },
+          {
+            "bbox": [
+              0.013292968588531334,
+              0.13510083395337302,
+              0.5846074422200521,
+              0.9934360384941101
+            ],
+            "score": 0.28743296824540765
+          }
+        ],
+        "sam3_status": null,
+        "detection_checks": {
+          "status": "available",
+          "primary_backend": "cpu",
+          "unavailable": [],
+          "review_needed": false
+        }
+      }
+    },
+    {
+      "case": "Native crowded",
+      "mode": "optimized",
+      "round": 0,
+      "process_cold": false,
+      "seconds": 72.97408940800233,
+      "prediction_sha256": "789db72f48ba3bf2a0be0e01d74e9934415a7a21eecdfd6700d313bc1c6923d5",
+      "accepted_count": 3,
+      "appearance_payloads": [
+        {
+          "mode": "appearance crops",
+          "dimensions": [
+            224,
+            1344
+          ]
+        }
+      ],
+      "prediction": {
+        "model": {
+          "name": "dino",
+          "revision": "a2bb814dd30d776dcf7e30523b00659f4f141c71",
+          "pipeline": "optimized-detector-v3+rfdetr-verified+sam3-fallback+expanded",
+          "selection_sha256": "6481fabde0f83dc58083049abb0f6a69f94d2b734d94234a28fa0b2e197e7897",
+          "attributes_sha256": "026e40a5d54c323c623775bb040890e8408cc893ef8721e3cae56a0525ee589b",
+          "recovery_sha256": "218082dfc0ecf028f8bfc902ad9c51a41fdb369818b2a566320688682e4e19a7",
+          "sam3_sha256": "dcd7f0c1262cbdafed1915ab6e20adbbab58bf5739e07d2a8fbcc6338769dc30",
+          "marking_sha256": "8cfc9bf9e707d5f1457474c927bc2e42a61e391198849f39fa810e928218cb2c",
+          "liquid_sha256": "3d63ef06a07b4ff095aa227abb8c3d61df09bc3522fdccb1a168aef4e38c4d46",
+          "expanded_sha256": "2a81b253ecf24e402db6c4d32a4a49d4912580e997776cc09b3639bff0740e53",
+          "fill_sha256": "ff15c5d32ad634d180487a94a003a7cd12dadf6759d3b0092be85c46c6b43daa",
+          "crop_verification_sha256": "18d5533b651630b7e387c593d5b7b87b71dac4f74195f02d67423029592e1f68",
+          "graduation_capacity_sha256": "a86b16051d4b1ec5b3f7480de914027dd4949393e84e22fffdac3c96110496a5",
+          "appearance_detection_sha256": "77575889751a048fa2242281af92ee81d8ac8819c5a08824b1ce45849d9f0481"
+        },
+        "threshold": 0.6772280764893512,
+        "objects": [
+          {
+            "id": "object-1",
+            "bbox": [
+              0.40836428206487996,
+              0.41551275853903036,
+              0.5147956090257657,
+              0.6449276731602229
+            ],
+            "score": 0.7885107477491631,
+            "detection_evidence": {},
+            "scale": null,
+            "color": null,
+            "evidence": {
+              "scale": {
+                "value": null,
+                "reason": "Outside development support or ambiguous",
+                "distance": 3.1016331504542545,
+                "margin": 1.4408594850258623
+              },
+              "color": {
+                "value": null,
+                "reason": "Insufficient visible support"
+              }
+            },
+            "inscriptions": {
+              "status": "not requested",
+              "candidates": [],
+              "capacity": null,
+              "apparent_volume": null
+            },
+            "liquid_appearance": {
+              "status": "insufficient evidence",
+              "reason": "A colored liquid region could not be isolated.",
+              "lightness": null,
+              "opacity": null,
+              "opacity_reason": "A registered clear-barrel reference at the same exposure is required.",
+              "syringe_mask_score": 0.9892755150794983
+            },
+            "fill_level": {
+              "status": "insufficient evidence",
+              "reason": "Enable visible marking extraction to estimate fill."
+            },
+            "origin": "model"
+          },
+          {
+            "id": "object-2",
+            "bbox": [
+              0.35808343950486343,
+              0.030106390132982663,
+              0.4566194850087955,
+              0.20897345405385526
+            ],
+            "score": 0.7515645891446188,
+            "detection_evidence": {},
+            "scale": null,
+            "color": null,
+            "evidence": {
+              "scale": {
+                "value": null,
+                "reason": "Outside development support or ambiguous",
+                "distance": 4.439780010094838,
+                "margin": 1.3605496217420612
+              },
+              "color": {
+                "value": null,
+                "reason": "Insufficient visible support"
+              }
+            },
+            "inscriptions": {
+              "status": "not requested",
+              "candidates": [],
+              "capacity": null,
+              "apparent_volume": null
+            },
+            "liquid_appearance": {
+              "status": "insufficient evidence",
+              "reason": "A colored liquid region could not be isolated.",
+              "lightness": null,
+              "opacity": null,
+              "opacity_reason": "A registered clear-barrel reference at the same exposure is required.",
+              "syringe_mask_score": 0.9878420233726501
+            },
+            "fill_level": {
+              "status": "insufficient evidence",
+              "reason": "Enable visible marking extraction to estimate fill."
+            },
+            "origin": "model"
+          },
+          {
+            "id": "object-3",
+            "bbox": [
+              0.268005658498663,
+              0.46531482439942046,
+              0.39189302941031806,
+              0.5882826036498994
+            ],
+            "score": 0.6772280764893512,
+            "detection_evidence": {
+              "verification_score": 1.8925601316931282,
+              "source": "auxiliary",
+              "auxiliary_score": 0.3498035967350006
+            },
+            "scale": null,
+            "color": null,
+            "evidence": {
+              "scale": {
+                "value": null,
+                "reason": "Outside development support or ambiguous",
+                "distance": 4.29784696068221,
+                "margin": 1.2599787705655592
+              },
+              "color": {
+                "value": null,
+                "reason": "Insufficient visible support"
+              }
+            },
+            "inscriptions": {
+              "status": "not requested",
+              "candidates": [],
+              "capacity": null,
+              "apparent_volume": null
+            },
+            "liquid_appearance": {
+              "status": "insufficient evidence",
+              "reason": "The syringe mask could not be validated.",
+              "lightness": null,
+              "opacity": null,
+              "opacity_reason": "A registered clear-barrel reference at the same exposure is required."
+            },
+            "fill_level": {
+              "status": "insufficient evidence",
+              "reason": "Enable visible marking extraction to estimate fill."
+            },
+            "origin": "model"
+          }
+        ],
+        "dimensions": [
+          3020,
+          1699
+        ],
+        "accepted_count": 3,
+        "below_threshold_candidates": [
+          {
+            "bbox": [
+              0.269285371287769,
+              0.45783214333339467,
+              0.3995075958454056,
+              0.602548402782887
+            ],
+            "score": 0.6667465780630992
+          },
+          {
+            "bbox": [
+              0.27986094493739655,
+              0.3605958468216598,
+              0.3963984003130174,
+              0.4483988168591819
+            ],
+            "score": 0.6621331123085257
+          },
+          {
+            "bbox": [
+              0.27919701582548634,
+              0.29950012242955415,
+              0.39617438916338993,
+              0.3741907722603369
+            ],
+            "score": 0.6464975121518861
+          },
+          {
+            "bbox": [
+              0.18343291630018627,
+              0.3417591905509675,
+              0.24485035068941433,
+              0.48196470407684666
+            ],
+            "score": 0.6357063717978506
+          },
+          {
+            "bbox": [
+              0.0014054029982611045,
+              0.34726841271520015,
+              0.3884430537950124,
+              0.9972150324371859
+            ],
+            "score": 0.33476659124068286
+          }
+        ],
+        "sam3_status": null,
+        "detection_checks": {
+          "status": "available",
+          "primary_backend": "cpu",
+          "unavailable": [],
+          "review_needed": false
+        }
+      }
+    },
+    {
+      "case": "Native crowded",
+      "mode": "baseline",
+      "round": 0,
+      "process_cold": false,
+      "seconds": 58.41128991599544,
+      "prediction_sha256": "789db72f48ba3bf2a0be0e01d74e9934415a7a21eecdfd6700d313bc1c6923d5",
+      "accepted_count": 3,
+      "appearance_payloads": [
+        {
+          "mode": "full scene",
+          "dimensions": [
+            3020,
+            1699
+          ]
+        }
+      ],
+      "prediction": {
+        "model": {
+          "name": "dino",
+          "revision": "a2bb814dd30d776dcf7e30523b00659f4f141c71",
+          "pipeline": "optimized-detector-v3+rfdetr-verified+sam3-fallback+expanded",
+          "selection_sha256": "6481fabde0f83dc58083049abb0f6a69f94d2b734d94234a28fa0b2e197e7897",
+          "attributes_sha256": "026e40a5d54c323c623775bb040890e8408cc893ef8721e3cae56a0525ee589b",
+          "recovery_sha256": "218082dfc0ecf028f8bfc902ad9c51a41fdb369818b2a566320688682e4e19a7",
+          "sam3_sha256": "dcd7f0c1262cbdafed1915ab6e20adbbab58bf5739e07d2a8fbcc6338769dc30",
+          "marking_sha256": "8cfc9bf9e707d5f1457474c927bc2e42a61e391198849f39fa810e928218cb2c",
+          "liquid_sha256": "3d63ef06a07b4ff095aa227abb8c3d61df09bc3522fdccb1a168aef4e38c4d46",
+          "expanded_sha256": "2a81b253ecf24e402db6c4d32a4a49d4912580e997776cc09b3639bff0740e53",
+          "fill_sha256": "ff15c5d32ad634d180487a94a003a7cd12dadf6759d3b0092be85c46c6b43daa",
+          "crop_verification_sha256": "18d5533b651630b7e387c593d5b7b87b71dac4f74195f02d67423029592e1f68",
+          "graduation_capacity_sha256": "a86b16051d4b1ec5b3f7480de914027dd4949393e84e22fffdac3c96110496a5",
+          "appearance_detection_sha256": "77575889751a048fa2242281af92ee81d8ac8819c5a08824b1ce45849d9f0481"
+        },
+        "threshold": 0.6772280764893512,
+        "objects": [
+          {
+            "id": "object-1",
+            "bbox": [
+              0.40836428206487996,
+              0.41551275853903036,
+              0.5147956090257657,
+              0.6449276731602229
+            ],
+            "score": 0.7885107477491631,
+            "detection_evidence": {},
+            "scale": null,
+            "color": null,
+            "evidence": {
+              "scale": {
+                "value": null,
+                "reason": "Outside development support or ambiguous",
+                "distance": 3.1016331504542545,
+                "margin": 1.4408594850258623
+              },
+              "color": {
+                "value": null,
+                "reason": "Insufficient visible support"
+              }
+            },
+            "inscriptions": {
+              "status": "not requested",
+              "candidates": [],
+              "capacity": null,
+              "apparent_volume": null
+            },
+            "liquid_appearance": {
+              "status": "insufficient evidence",
+              "reason": "A colored liquid region could not be isolated.",
+              "lightness": null,
+              "opacity": null,
+              "opacity_reason": "A registered clear-barrel reference at the same exposure is required.",
+              "syringe_mask_score": 0.9892755150794983
+            },
+            "fill_level": {
+              "status": "insufficient evidence",
+              "reason": "Enable visible marking extraction to estimate fill."
+            },
+            "origin": "model"
+          },
+          {
+            "id": "object-2",
+            "bbox": [
+              0.35808343950486343,
+              0.030106390132982663,
+              0.4566194850087955,
+              0.20897345405385526
+            ],
+            "score": 0.7515645891446188,
+            "detection_evidence": {},
+            "scale": null,
+            "color": null,
+            "evidence": {
+              "scale": {
+                "value": null,
+                "reason": "Outside development support or ambiguous",
+                "distance": 4.439780010094838,
+                "margin": 1.3605496217420612
+              },
+              "color": {
+                "value": null,
+                "reason": "Insufficient visible support"
+              }
+            },
+            "inscriptions": {
+              "status": "not requested",
+              "candidates": [],
+              "capacity": null,
+              "apparent_volume": null
+            },
+            "liquid_appearance": {
+              "status": "insufficient evidence",
+              "reason": "A colored liquid region could not be isolated.",
+              "lightness": null,
+              "opacity": null,
+              "opacity_reason": "A registered clear-barrel reference at the same exposure is required.",
+              "syringe_mask_score": 0.9878420233726501
+            },
+            "fill_level": {
+              "status": "insufficient evidence",
+              "reason": "Enable visible marking extraction to estimate fill."
+            },
+            "origin": "model"
+          },
+          {
+            "id": "object-3",
+            "bbox": [
+              0.268005658498663,
+              0.46531482439942046,
+              0.39189302941031806,
+              0.5882826036498994
+            ],
+            "score": 0.6772280764893512,
+            "detection_evidence": {
+              "verification_score": 1.8925601316931282,
+              "source": "auxiliary",
+              "auxiliary_score": 0.3498035967350006
+            },
+            "scale": null,
+            "color": null,
+            "evidence": {
+              "scale": {
+                "value": null,
+                "reason": "Outside development support or ambiguous",
+                "distance": 4.29784696068221,
+                "margin": 1.2599787705655592
+              },
+              "color": {
+                "value": null,
+                "reason": "Insufficient visible support"
+              }
+            },
+            "inscriptions": {
+              "status": "not requested",
+              "candidates": [],
+              "capacity": null,
+              "apparent_volume": null
+            },
+            "liquid_appearance": {
+              "status": "insufficient evidence",
+              "reason": "The syringe mask could not be validated.",
+              "lightness": null,
+              "opacity": null,
+              "opacity_reason": "A registered clear-barrel reference at the same exposure is required."
+            },
+            "fill_level": {
+              "status": "insufficient evidence",
+              "reason": "Enable visible marking extraction to estimate fill."
+            },
+            "origin": "model"
+          }
+        ],
+        "dimensions": [
+          3020,
+          1699
+        ],
+        "accepted_count": 3,
+        "below_threshold_candidates": [
+          {
+            "bbox": [
+              0.269285371287769,
+              0.45783214333339467,
+              0.3995075958454056,
+              0.602548402782887
+            ],
+            "score": 0.6667465780630992
+          },
+          {
+            "bbox": [
+              0.27986094493739655,
+              0.3605958468216598,
+              0.3963984003130174,
+              0.4483988168591819
+            ],
+            "score": 0.6621331123085257
+          },
+          {
+            "bbox": [
+              0.27919701582548634,
+              0.29950012242955415,
+              0.39617438916338993,
+              0.3741907722603369
+            ],
+            "score": 0.6464975121518861
+          },
+          {
+            "bbox": [
+              0.18343291630018627,
+              0.3417591905509675,
+              0.24485035068941433,
+              0.48196470407684666
+            ],
+            "score": 0.6357063717978506
+          },
+          {
+            "bbox": [
+              0.0014054029982611045,
+              0.34726841271520015,
+              0.3884430537950124,
+              0.9972150324371859
+            ],
+            "score": 0.33476659124068286
+          }
+        ],
+        "sam3_status": null,
+        "detection_checks": {
+          "status": "available",
+          "primary_backend": "cpu",
+          "unavailable": [],
+          "review_needed": false
+        }
+      }
+    }
+  ],
+  "setup_seconds": 4.214632662988151,
+  "model": {
+    "name": "dino",
+    "revision": "a2bb814dd30d776dcf7e30523b00659f4f141c71",
+    "pipeline": "optimized-detector-v3+rfdetr-verified+sam3-fallback+expanded",
+    "selection_sha256": "6481fabde0f83dc58083049abb0f6a69f94d2b734d94234a28fa0b2e197e7897",
+    "attributes_sha256": "026e40a5d54c323c623775bb040890e8408cc893ef8721e3cae56a0525ee589b",
+    "recovery_sha256": "218082dfc0ecf028f8bfc902ad9c51a41fdb369818b2a566320688682e4e19a7",
+    "sam3_sha256": "dcd7f0c1262cbdafed1915ab6e20adbbab58bf5739e07d2a8fbcc6338769dc30",
+    "marking_sha256": "8cfc9bf9e707d5f1457474c927bc2e42a61e391198849f39fa810e928218cb2c",
+    "liquid_sha256": "3d63ef06a07b4ff095aa227abb8c3d61df09bc3522fdccb1a168aef4e38c4d46",
+    "expanded_sha256": "2a81b253ecf24e402db6c4d32a4a49d4912580e997776cc09b3639bff0740e53",
+    "fill_sha256": "ff15c5d32ad634d180487a94a003a7cd12dadf6759d3b0092be85c46c6b43daa",
+    "crop_verification_sha256": "18d5533b651630b7e387c593d5b7b87b71dac4f74195f02d67423029592e1f68",
+    "graduation_capacity_sha256": "a86b16051d4b1ec5b3f7480de914027dd4949393e84e22fffdac3c96110496a5",
+    "appearance_detection_sha256": "77575889751a048fa2242281af92ee81d8ac8819c5a08824b1ce45849d9f0481"
+  },
+  "completed": true,
+  "passed": true,
+  "paired_warm_results": {
+    "Fil Rouge capacity": {
+      "baseline": 27.507937989998027,
+      "optimized": 25.177176260011038,
+      "operational_parity": true,
+      "same_prediction": true,
+      "paired_checks": [
+        {
+          "passed": true,
+          "mismatch_paths": [],
+          "max_absolute_drift": {
+            "bbox": 0.0,
+            "score": 0.0
+          }
+        }
+      ],
+      "speedup": 1.0925743898329434
+    },
+    "Native crowded": {
+      "baseline": 58.41128991599544,
+      "optimized": 72.97408940800233,
+      "operational_parity": true,
+      "same_prediction": true,
+      "paired_checks": [
+        {
+          "passed": true,
+          "mismatch_paths": [],
+          "max_absolute_drift": {
+            "bbox": 0.0,
+            "score": 0.0
+          }
+        }
+      ],
+      "speedup": 0.8004387638112832
+    }
+  },
+  "tolerances": {
+    "detector_bbox": 0.0002,
+    "detector_score": 0.001
+  }
+}

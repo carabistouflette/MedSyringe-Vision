@@ -1,0 +1,102 @@
+{
+  "rows": [
+    {
+      "id": "development-5",
+      "image": "data/public-web-collection/images/commons-106925058.jpg",
+      "sha256": "a16f0f2dfff9e107239079e8bda3a3373f59c30fcdc4820c64122a1edfd19e44",
+      "bbox": [
+        0.125,
+        0.373,
+        0.693,
+        0.626
+      ],
+      "capacity_ml": 5,
+      "presence": "empty",
+      "apparent_color": null,
+      "volume_ml": 0.0,
+      "cohort": "development"
+    },
+    {
+      "id": "public-yellow",
+      "image": "data/public-annotated-collection/images/oi-9b1a594e0cea3393.jpg",
+      "sha256": "488b0fe455825e532f4feeb9ef01c927ac57328c4f55235030e64724428e3b9a",
+      "bbox": [
+        0.376,
+        0.067,
+        0.607,
+        0.89
+      ],
+      "capacity_ml": null,
+      "presence": "present",
+      "apparent_color": "yellow",
+      "volume_ml": null,
+      "cohort": "public challenge"
+    },
+    {
+      "id": "public-blue-plunger",
+      "image": "data/public-web-collection/images/commons-102070543.jpg",
+      "sha256": "ec6d6f7d36f138ade92039486588f454466347bbf90f2d5306f6e2a110ad0c75",
+      "bbox": [
+        0.401,
+        0.153,
+        0.552,
+        0.804
+      ],
+      "capacity_ml": null,
+      "presence": "empty",
+      "apparent_color": null,
+      "volume_ml": 0.0,
+      "cohort": "public challenge"
+    },
+    {
+      "id": "public-clear-barrel",
+      "image": "data/public-annotated-collection/images/commons-971336.jpg",
+      "sha256": "311035541c0b51c0bcf9f248d524489343ade557fd39619dccb614db4de00e6e",
+      "bbox": [
+        0.27,
+        0.13,
+        0.99,
+        0.86
+      ],
+      "capacity_ml": null,
+      "presence": "present",
+      "apparent_color": "neutral",
+      "volume_ml": null,
+      "cohort": "public challenge"
+    },
+    {
+      "id": "public-1-marked",
+      "image": "data/public-web-collection/images/openverse-edfa0cf9-21ec-4c8f-8908-2dc5bade3d72.jpg",
+      "sha256": "342f11286f117c729dec613ead1d3c3e3943739e6946f5d94498f2985e70316d",
+      "bbox": [
+        0.35,
+        0.18,
+        0.91,
+        0.93
+      ],
+      "capacity_ml": 1,
+      "presence": null,
+      "apparent_color": null,
+      "volume_ml": null,
+      "cohort": "public challenge"
+    },
+    {
+      "id": "public-overlapping-small",
+      "image": "data/public-web-collection/images/commons-34870812.jpg",
+      "sha256": "c46f781ff1432742f61583c2c6ab231bd74281a9ed1282e2bf69b51ab54153a1",
+      "bbox": [
+        0.32,
+        0.29,
+        0.81,
+        0.7
+      ],
+      "capacity_ml": null,
+      "presence": null,
+      "apparent_color": null,
+      "volume_ml": null,
+      "cohort": "public challenge"
+    }
+  ],
+  "scope": "Public evidence and rendered challenge controls",
+  "unresolved": "No physical measurement or registered public real opacity pair."
+}

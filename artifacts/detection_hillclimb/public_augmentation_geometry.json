@@ -1,0 +1,28 @@
+{
+  "status": "completed",
+  "checkpoint": "data/detection_hillclimb/runs/public-augmentation-geometry/checkpoint_best_total.pth",
+  "checkpoint_sha256": "0d61d50f1526ac7a992f4b82ad46da60826c850daa7261ad41ca27b9d9aa29ab",
+  "training_seconds": 239.25709126999936,
+  "pretrained_sha256": "d8d6b9ee57d4d0ed2b1f305163624712a0532cb7bce0c747317984fc5457440d",
+  "design_sha256": "40c98aab39575db5276d18df5edf1fc5566552e2a4c1bab032c069d9ff3f8d78",
+  "config": {
+    "dataset_dir": "data/detection_hillclimb/public-augmentation/geometry",
+    "output_dir": "data/detection_hillclimb/runs/public-augmentation-geometry",
+    "device": "cpu",
+    "epochs": 1,
+    "batch_size": 4,
+    "resolution": 320,
+    "seed": 20261124,
+    "lr": 0.00015,
+    "lr_encoder": 0,
+    "num_workers": 0,
+    "num_sanity_val_steps": 0,
+    "compute_val_loss": true,
+    "use_ema": false,
+    "multi_scale": false,
+    "save_dataset_grids": false,
+    "run_test": false,
+    "progress_bar": null,
+    "train_log_on_step": false
+  }
+}

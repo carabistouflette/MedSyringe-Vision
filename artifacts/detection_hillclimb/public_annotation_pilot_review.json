@@ -1,0 +1,346 @@
+{
+  "rows": [
+    {
+      "id": "pMPYdDahuoP6Qs9YvlRG",
+      "image": "data/public-syringe-dataset/images/pMPYdDahuoP6Qs9YvlRG.jpg",
+      "sha256": "506657592696f93b0230e3bc2064f8c437040657b717a756afada11653a54096",
+      "group": "https://universe.roboflow.com/det-u6nt3/omnifix-tube",
+      "split": "annotation-development",
+      "objects": [
+        {
+          "bbox": [
+            0.3507853403141361,
+            0.2676470588235294,
+            0.5549738219895288,
+            0.7294117647058823
+          ],
+          "kind": "syringe",
+          "syringe_type": "graduated plastic syringe",
+          "capacity_ml": null,
+          "volume_ml": null,
+          "liquid_colour": null,
+          "apparent_opacity": null,
+          "maximum_visible_graduation_ml": 20.0,
+          "visible_barrel_colour": "blue"
+        }
+      ]
+    },
+    {
+      "id": "IpQBnUhDyQ4kybx0VUUB",
+      "image": "data/public-syringe-dataset/images/IpQBnUhDyQ4kybx0VUUB.jpg",
+      "sha256": "ca7edc64e49dc9a6a9dbc3b6db91a369cafc9e908ab1c2852c42b35ae2f03ed2",
+      "group": "https://universe.roboflow.com/smhirsi/syringe_pjt",
+      "split": "annotation-development",
+      "objects": [
+        {
+          "bbox": [
+            0.22674418604651161,
+            0.40310077519379844,
+            0.8459302325581395,
+            0.7403100775193798
+          ],
+          "kind": "syringe",
+          "syringe_type": null,
+          "capacity_ml": null,
+          "volume_ml": null,
+          "liquid_colour": null,
+          "apparent_opacity": null
+        }
+      ]
+    },
+    {
+      "id": "4AAZU5MgBHaXziqX7P4l",
+      "image": "data/public-syringe-dataset/images/4AAZU5MgBHaXziqX7P4l.jpg",
+      "sha256": "b5aa7e49b8ec2376e747e837944647acca60e48e7e4825e105d80bcf5014e39a",
+      "group": "https://universe.roboflow.com/tai-qompv/stage-1-klug2",
+      "split": "annotation-development",
+      "objects": [
+        {
+          "bbox": [
+            0.014705882352941176,
+            0.29411764705882354,
+            0.5558823529411765,
+            0.5911764705882353
+          ],
+          "kind": "syringe",
+          "syringe_type": null,
+          "capacity_ml": null,
+          "volume_ml": null,
+          "liquid_colour": null,
+          "apparent_opacity": null
+        }
+      ]
+    },
+    {
+      "id": "g9TFAGEJ6DyXlPT1JGKB",
+      "image": "data/public-syringe-dataset/images/g9TFAGEJ6DyXlPT1JGKB.jpg",
+      "sha256": "07722f92f8734e7620619e24af13bccde52f3b4dfbfbf1c32c70fcfff6eb1faf",
+      "group": "https://universe.roboflow.com/det-u6nt3/omnifix-tube",
+      "split": "annotation-development",
+      "objects": [
+        {
+          "bbox": [
+            0.3036649214659686,
+            0.16470588235294117,
+            0.4397905759162304,
+            0.4176470588235294
+          ],
+          "kind": "syringe",
+          "syringe_type": null,
+          "capacity_ml": null,
+          "volume_ml": null,
+          "liquid_colour": null,
+          "apparent_opacity": null,
+          "visible_barrel_colour": "blue"
+        }
+      ]
+    },
+    {
+      "id": "plM1vp5oN0SfVNER7Mlj",
+      "image": "data/public-syringe-dataset/images/plM1vp5oN0SfVNER7Mlj.jpg",
+      "sha256": "571dbf4f82e2a4d4d11a9d85dce1a47c5b474904be07d8f39395d671a2133486",
+      "group": "https://universe.roboflow.com/smhirsi/syringe_pjt",
+      "split": "annotation-development",
+      "objects": [
+        {
+          "bbox": [
+            0.2980392156862745,
+            0.24705882352941178,
+            0.49411764705882355,
+            0.7941176470588235
+          ],
+          "kind": "syringe",
+          "syringe_type": null,
+          "capacity_ml": null,
+          "volume_ml": null,
+          "liquid_colour": null,
+          "apparent_opacity": null
+        }
+      ]
+    },
+    {
+      "id": "IisU1YWGuDXFR8NAJEFl",
+      "image": "data/public-syringe-dataset/images/IisU1YWGuDXFR8NAJEFl.jpg",
+      "sha256": "f0f3c1d6e9df89e9e5b3ccc934b311ebf62e1baf66358295de1c7a686e9baa91",
+      "group": "https://universe.roboflow.com/tai-qompv/stage-1-klug2",
+      "split": "annotation-development",
+      "objects": [
+        {
+          "bbox": [
+            0.5529411764705883,
+            0.1588235294117647,
+            0.7823529411764706,
+            0.8764705882352941
+          ],
+          "kind": "syringe",
+          "syringe_type": null,
+          "capacity_ml": null,
+          "volume_ml": null,
+          "liquid_colour": null,
+          "apparent_opacity": null
+        }
+      ]
+    },
+    {
+      "id": "STtPp9cms4eDlCNqYiSJ",
+      "image": "data/public-syringe-dataset/images/STtPp9cms4eDlCNqYiSJ.jpg",
+      "sha256": "8c7bc94d4318e5cd6d486892eeeab30a5572d91a6c6c725dd7d9f5367c4a2811",
+      "group": "https://universe.roboflow.com/det-u6nt3/omnifix-tube",
+      "split": "annotation-development",
+      "objects": [
+        {
+          "bbox": [
+            0.35602094240837695,
+            0.20294117647058824,
+            0.6073298429319371,
+            0.7470588235294118
+          ],
+          "kind": "syringe",
+          "syringe_type": "graduated plastic syringe",
+          "capacity_ml": null,
+          "volume_ml": null,
+          "liquid_colour": null,
+          "apparent_opacity": null,
+          "maximum_visible_graduation_ml": 20.0,
+          "visible_barrel_colour": "blue"
+        }
+      ]
+    },
+    {
+      "id": "mOHJeTTLBtsE00ocwYMA",
+      "image": "data/public-syringe-dataset/images/mOHJeTTLBtsE00ocwYMA.jpg",
+      "sha256": "afa0cd54078168ff38da484d4124b8414c50528b45a93c8c698a7b98a3fb2179",
+      "group": "https://universe.roboflow.com/smhirsi/syringe_pjt",
+      "split": "annotation-development",
+      "objects": [
+        {
+          "bbox": [
+            0.39215686274509803,
+            0.10588235294117647,
+            0.6431372549019608,
+            0.9
+          ],
+          "kind": "syringe",
+          "syringe_type": null,
+          "capacity_ml": null,
+          "volume_ml": null,
+          "liquid_colour": null,
+          "apparent_opacity": null
+        }
+      ]
+    },
+    {
+      "id": "kUD7Rpoc6n2T7UpHqbfs",
+      "image": "data/public-syringe-dataset/images/kUD7Rpoc6n2T7UpHqbfs.jpg",
+      "sha256": "34854ccbb7454b3d66f4e6c85615c383df62cd9c76854c1f1f8fddeb93660396",
+      "group": "https://universe.roboflow.com/tai-qompv/stage-1-klug2",
+      "split": "annotation-development",
+      "objects": [
+        {
+          "bbox": [
+            0.3411764705882353,
+            0.047058823529411764,
+            0.6764705882352942,
+            0.5411764705882353
+          ],
+          "kind": "syringe",
+          "syringe_type": null,
+          "capacity_ml": null,
+          "volume_ml": null,
+          "liquid_colour": null,
+          "apparent_opacity": null
+        },
+        {
+          "bbox": [
+            0.014705882352941176,
+            0.47941176470588237,
+            0.9411764705882353,
+            0.6794117647058824
+          ],
+          "kind": "syringe",
+          "syringe_type": null,
+          "capacity_ml": null,
+          "volume_ml": null,
+          "liquid_colour": null,
+          "apparent_opacity": null
+        },
+        {
+          "bbox": [
+            0.6941176470588235,
+            0.13529411764705881,
+            0.8294117647058824,
+            0.8029411764705883
+          ],
+          "kind": "syringe",
+          "syringe_type": null,
+          "capacity_ml": null,
+          "volume_ml": null,
+          "liquid_colour": null,
+          "apparent_opacity": null
+        }
+      ]
+    },
+    {
+      "id": "tpjpSsXwajBKKEf7vYZO",
+      "image": "data/public-syringe-dataset/images/tpjpSsXwajBKKEf7vYZO.jpg",
+      "sha256": "066050585c1ce19aff33fea00dd935dd824738c84ee10df7641c5af464fe2748",
+      "group": "https://universe.roboflow.com/det-u6nt3/omnifix-tube",
+      "split": "annotation-development",
+      "objects": [
+        {
+          "bbox": [
+            0.39790575916230364,
+            0.19117647058823528,
+            0.6178010471204188,
+            1.0
+          ],
+          "kind": "syringe",
+          "syringe_type": null,
+          "capacity_ml": null,
+          "volume_ml": null,
+          "liquid_colour": null,
+          "apparent_opacity": null,
+          "visible_barrel_colour": "blue"
+        }
+      ]
+    },
+    {
+      "id": "oDvIcVsWVRWpGSxmAswQ",
+      "image": "data/public-syringe-dataset/images/oDvIcVsWVRWpGSxmAswQ.jpg",
+      "sha256": "4eecd857988789f52793df2deb6af8c5f1b911736c8682f914bcff0ff12241d8",
+      "group": "https://universe.roboflow.com/smhirsi/syringe_pjt",
+      "split": "annotation-development",
+      "objects": [
+        {
+          "bbox": [
+            0.34901960784313724,
+            0.17352941176470588,
+            0.5725490196078431,
+            0.85
+          ],
+          "kind": "syringe",
+          "syringe_type": null,
+          "capacity_ml": null,
+          "volume_ml": null,
+          "liquid_colour": null,
+          "apparent_opacity": null
+        }
+      ]
+    },
+    {
+      "id": "ra3JIst5vZWEez46WLFc",
+      "image": "data/public-syringe-dataset/images/ra3JIst5vZWEez46WLFc.jpg",
+      "sha256": "381db25ac3a1e0b46acd0bdc4808649fd11b7c0bdb85b1e7ab78b250140adf25",
+      "group": "https://universe.roboflow.com/tai-qompv/stage-1-klug2",
+      "split": "annotation-development",
+      "objects": [
+        {
+          "bbox": [
+            0.21470588235294116,
+            0.3735294117647059,
+            0.7705882352941177,
+            0.6352941176470588
+          ],
+          "kind": "syringe",
+          "syringe_type": null,
+          "capacity_ml": null,
+          "volume_ml": null,
+          "liquid_colour": null,
+          "apparent_opacity": null
+        }
+      ]
+    }
+  ],
+  "method": "Manual box references from unmarked image sheet. The model's earlier preview had already been seen. This diagnostic cohort is reserved for annotation development.",
+  "proposed_top_1": {
+    "images": 12,
+    "objects": 14,
+    "tp": 8,
+    "fp": 4,
+    "fn": 6,
+    "precision": 0.6666666666666666,
+    "recall": 0.5714285714285714,
+    "f1": 0.6153846153846153,
+    "ap50": 0.4273177317731774,
+    "ap50_95": 0.2065095795293815,
+    "exact_count": 11,
+    "negative_images": 0,
+    "correct_empty": 0
+  },
+  "proposed_top_5": {
+    "images": 12,
+    "objects": 14,
+    "tp": 14,
+    "fp": 46,
+    "fn": 0,
+    "precision": 0.23333333333333334,
+    "recall": 1.0,
+    "f1": 0.37837837837837834,
+    "ap50": 0.6619035206688093,
+    "ap50_95": 0.36070856019021424,
+    "exact_count": 0,
+    "negative_images": 0,
+    "correct_empty": 0
+  },
+  "input_sha256": "7e26d97ce197c189fe9537a4ad9a281f65a08c6ae3c7ab547ac91d573a949598"
+}

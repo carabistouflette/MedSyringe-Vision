@@ -1,0 +1,90 @@
+{
+  "code": "9d79b083648334f3922387f425b90e9546f57331b3140811e37935a4dcaddda2",
+  "rows": [
+    {
+      "id": "overlap-6484814",
+      "image": "data/overlap-ranking/6484814.jpg",
+      "source_url": "https://www.dvidshub.net/image/6484814/camp-arifjan-administers-covid-19-vaccinations",
+      "original_url": "https://d1ldvf68ux039x.cloudfront.net/thumbs/photos/2101/6484814/1000w_q95.jpg",
+      "author": "Noel Gerig",
+      "group": "overlap-ranking:noel gerig:6484814",
+      "license": "Public domain per DVIDS item record",
+      "objects": [
+        {
+          "bbox": [
+            0.592,
+            0.4032983508245877,
+            0.646,
+            0.6401799100449775
+          ]
+        },
+        {
+          "bbox": [
+            0.739,
+            0.27136431784107945,
+            0.794,
+            0.43928035982008995
+          ]
+        }
+      ],
+      "review": "Two syringes held by separate technicians. The right syringe is softly focused. Vials excluded.",
+      "sha256": "394a76805aab877434d7c57fa55d3a40bf73fedcb7c170a642ae8e52e405e80b"
+    },
+    {
+      "id": "overlap-2940421",
+      "image": "data/overlap-ranking/2940421.jpg",
+      "source_url": "https://www.dvidshub.net/image/2940421/vaccination-exercise-trains-medics",
+      "original_url": "https://d1ldvf68ux039x.cloudfront.net/thumbs/photos/1610/2940421/1000w_q95.jpg",
+      "author": "Jessica Montano (Jessica Weissman in original caption)",
+      "group": "overlap-ranking:jessica montano (jessica weissman in original caption):2940421",
+      "license": "Public domain per DVIDS item record",
+      "objects": [
+        {
+          "bbox": [
+            0.473,
+            0.1062874251497006,
+            0.679,
+            0.3218562874251497
+          ]
+        }
+      ],
+      "review": "One syringe partly hidden by fingers. The cap and needle are visible.",
+      "sha256": "35946d04df4679fb53879d4d4014b270af51ec89c71d055c187d9f3fa38c9402"
+    },
+    {
+      "id": "overlap-nci",
+      "image": "data/overlap-ranking/nci.jpg",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Pipetting.jpg",
+      "original_url": "https://upload.wikimedia.org/wikipedia/commons/5/55/Pipetting.jpg",
+      "author": "Diane A. Reid",
+      "group": "overlap-ranking:diane a. reid:nci",
+      "license": "Public domain per National Cancer Institute and Wikimedia Commons",
+      "objects": [],
+      "review": "Hand-held mechanical pipette and flask. No syringe.",
+      "sha256": "ead00554a82aade13207855af3aa8c3edc5993d6466d32c844b073d0f0169692"
+    },
+    {
+      "id": "overlap-pipettes",
+      "image": "data/overlap-ranking/pipettes.jpg",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Pipettes.jpg",
+      "original_url": "https://upload.wikimedia.org/wikipedia/commons/5/58/Pipettes.jpg",
+      "author": "Steinsky and James Frost",
+      "group": "overlap-ranking:steinsky and james frost:pipettes",
+      "license": "Public domain original and GFDL subsequent edit per Wikimedia Commons",
+      "objects": [],
+      "review": "Numbered illustration photograph of multiple types of pipettes. No syringe.",
+      "sha256": "6228a181fb671b4ad9d6cf5b24bc201328662365659b43ad6cb58be148ece634"
+    }
+  ],
+  "excluded": {
+    "annapolis": "Closely spaced, partly occluded barrels. Some distinct seals and visible box endpoints could not be assigned reliably.",
+    "6484816": "Rear rows of injectors have blurred and hidden endpoints. Same Camp Arifjan acquisition as 6484814.",
+    "6484815": "Same Camp Arifjan acquisition as 6484814.",
+    "6484818": "Same Camp Arifjan acquisition as 6484814.",
+    "farnsworth": "Contributor and related acquisition in earlier public experiments.",
+    "baypines": "Earlier review rejected the same published image for unresolved shallow depth of field.",
+    "labpipette": "Existing source, contributor, acquisition or image fingerprint.",
+    "bench": "Existing source, contributor, acquisition or image fingerprint."
+  },
+  "notes": "Single visual reviewer, no predictions consulted before annotation."
+}

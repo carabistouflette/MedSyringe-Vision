@@ -6,9 +6,9 @@ import traceback
 from medsyringe.appearance_runtime import RELEASE
 from medsyringe.data import digest, read_json
 from medsyringe.local_models import decode_picture
-from scripts.appearance_text_encoder import detector_encoder
-from scripts.detection_crop_semantics import VisualSemantics
-from scripts.detection_semantics_audit import apply_rules, crop_frame
+from scripts.appearance_text_encoder import TextMarginEncoder, detector_encoder, unpack_patches
+from scripts.detection_crop_semantics import VisualSemantics, proposals
+from scripts.detection_semantics_audit import apply_rules, crop_frame, encode_frame
 from scripts.sam3_study import configure_cpu
 
 
@@ -47,7 +47,13 @@ def main():
             fitting = record
             if release.get("mode")=="veto-only":
                 fitting = {**record,"ranked":[p for p in record["ranked"] if p["score"]>=record["floor"]]}
-            regions = crop_frame(encoder,image,fitting)
+            if request.get("operation") == "appearance crops":
+                if not isinstance(encoder, TextMarginEncoder) or release.get("mode") != "veto-only":
+                    raise ValueError("Prepared crops require the text-only appearance verifier.")
+                candidates = proposals(fitting)
+                regions = encode_frame(encoder, candidates, unpack_patches(image, candidates))
+            else:
+                regions = crop_frame(encoder, image, fitting)
             candidates,_ = apply_rules(record,regions,release["components"])
             response = {"result":explain(record,candidates)}
         except Exception:

@@ -1,0 +1,157 @@
+{
+  "source_url": "https://www.flickr.com/photos/nathanf/2196763120",
+  "license_url": "https://creativecommons.org/licenses/by/2.0/",
+  "author": "Nathan Forget",
+  "manual_reference": {
+    "source": "Open Images 0089b699b364a570",
+    "image": "data/public-annotated-collection/images/oi-0089b699b364a570.jpg",
+    "sha256": "937370b774cfaef048c39c273395a91272e4fd80692bc98adefd104fec2e5e2b",
+    "reference_count": 10,
+    "anchors": [
+      {
+        "id": 1,
+        "coordinate": [
+          0.135,
+          0.355
+        ]
+      },
+      {
+        "id": 2,
+        "coordinate": [
+          0.245,
+          0.411
+        ]
+      },
+      {
+        "id": 3,
+        "coordinate": [
+          0.545,
+          0.25
+        ]
+      },
+      {
+        "id": 4,
+        "coordinate": [
+          0.676,
+          0.076
+        ]
+      },
+      {
+        "id": 5,
+        "coordinate": [
+          0.797,
+          0.299
+        ]
+      },
+      {
+        "id": 6,
+        "coordinate": [
+          0.225,
+          0.563
+        ]
+      },
+      {
+        "id": 7,
+        "coordinate": [
+          0.396,
+          0.574
+        ]
+      },
+      {
+        "id": 8,
+        "coordinate": [
+          0.485,
+          0.62
+        ]
+      },
+      {
+        "id": 9,
+        "coordinate": [
+          0.548,
+          0.701
+        ]
+      },
+      {
+        "id": 10,
+        "coordinate": [
+          0.793,
+          0.715
+        ]
+      }
+    ],
+    "method": "Single manual review of distinguishable syringe bodies. Each marker identifies one separate body. Several bodies are partially occluded or clipped by the image. The reference does not infer hidden devices."
+  },
+  "results": {
+    "uploaded": {
+      "size": [
+        530,
+        413
+      ],
+      "accepted_count": 2,
+      "review_candidates": 5,
+      "engine": {
+        "status": "available",
+        "primary_backend": "xpu",
+        "unavailable": [],
+        "review_needed": false
+      },
+      "score_floor": 0.6772280764893512,
+      "boxes": [
+        [
+          0.5661748922096108,
+          0.3313883857634685,
+          0.9551772783387382,
+          0.9130362910162162
+        ],
+        [
+          0.00013050436973571777,
+          0.5596870625567494,
+          0.7510334518720518,
+          0.9411462963926301
+        ]
+      ]
+    },
+    "public": {
+      "size": [
+        1920,
+        1440
+      ],
+      "accepted_count": 4,
+      "review_candidates": 5,
+      "engine": {
+        "status": "available",
+        "primary_backend": "xpu",
+        "unavailable": [],
+        "review_needed": false
+      },
+      "score_floor": 0.6772280764893512,
+      "boxes": [
+        [
+          0.0010437965393066406,
+          0.18240834772586823,
+          0.3325720429420471,
+          0.5221231579780579
+        ],
+        [
+          0.5181371569633484,
+          0.0,
+          0.8988396525382996,
+          0.25926804542541504
+        ],
+        [
+          0.5109930983278901,
+          0.13470584009256628,
+          0.9597425064692895,
+          0.39506852626800537
+        ],
+        [
+          0.0,
+          0.6373500227928162,
+          0.6343598365783691,
+          0.9490635991096497
+        ]
+      ]
+    }
+  },
+  "status": "Live development diagnostic. The user crop and public original represent the same acquisition."
+}

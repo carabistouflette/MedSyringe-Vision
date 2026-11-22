@@ -1,0 +1,17 @@
+{
+  "target_positive_photos": 500,
+  "positive_photos": 29,
+  "verified_empty_photos": 13,
+  "syringe_instances": 29,
+  "positive_acquisition_groups": 22,
+  "positive_annotation_origins": {
+    "local visual review": 28,
+    "Open Images publisher box": 1
+  },
+  "multi_syringe_positive_photos": 0,
+  "independent_human_approved": 0,
+  "artifacts": {
+    "data/instance-source-review/reviewed-annotations.json": "fa5b79e0d4eead1058c109dbd2f406f91aa464e537a89b5243b22f049c39ee2b",
+    "data/instance-source-review/reviewed-coco.json": "d155512c079b63734ed04f702d67d6e333b2495363648705e4796a3e13283726"
+  }
+}

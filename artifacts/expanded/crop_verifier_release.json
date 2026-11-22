@@ -400,13 +400,13 @@
     "sam3_sha256": "dcd7f0c1262cbdafed1915ab6e20adbbab58bf5739e07d2a8fbcc6338769dc30",
     "marking_sha256": "8cfc9bf9e707d5f1457474c927bc2e42a61e391198849f39fa810e928218cb2c",
     "liquid_sha256": "3d63ef06a07b4ff095aa227abb8c3d61df09bc3522fdccb1a168aef4e38c4d46",
-    "expanded_sha256": "0b99b829602968349c343ea58a7a4ba7def74ac5aaa35a3bbffad0a5e74cb8be",
-    "fill_sha256": "bf0e4db95fe1bb58625e61c07b12d6f9ffebe527f7bfc2b124dc87634b8c9772"
+    "expanded_sha256": "2a81b253ecf24e402db6c4d32a4a49d4912580e997776cc09b3639bff0740e53",
+    "fill_sha256": "ff15c5d32ad634d180487a94a003a7cd12dadf6759d3b0092be85c46c6b43daa"
   },
   "code": {
     "medsyringe/crop_verifier_runtime.py": "cef14044fc2bffe6e2ebee92331271e1f5e8dd937595bfb6df7affd397ebe146",
     "medsyringe/production.py": "4acfeeb1dca1bcc4c57320720c765f04ce200e4a7e8cca08285e42cb4956bcd1",
-    "medsyringe/inference.py": "4a52c2d5ed16d473a99d12b013c64dfed4bf73c7a7b5c83b5a3db58545c0b568",
+    "medsyringe/inference.py": "84c15036368ccc811821853abe51adcdd007e159817f3160e5daaba162bd09eb",
     "scripts/rfdetr_verifier.py": "d65cadef929cc2484364fa5f53ce993760fc381398fb9b39053cbf9798375af4",
     "scripts/expanded_worker.py": "ec4b03498bfc0032d870f679b931b1c0b48735f781bf958abce3eb841510d170",
     "scripts/expanded_worker_xpu.sh": "4ce78190172ed8961f4cfac765ced836e2f7feaa44d1571d0cbaa966401d06f5",

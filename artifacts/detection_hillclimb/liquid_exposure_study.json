@@ -1,0 +1,262 @@
+{
+  "cases": [
+    {
+      "expected": 0.0,
+      "gain": 1.0,
+      "offset": 0.0,
+      "baseline": {
+        "value": 0.0,
+        "method": "Relative luminance contrast attenuation",
+        "fit_r2": 1.0,
+        "pixels": 13440
+      },
+      "normalized": {
+        "value": 0.0,
+        "method": "Relative luminance contrast attenuation",
+        "fit_r2": 1.0,
+        "pixels": 13440,
+        "exterior_gain": 1.0,
+        "exterior_offset": 0.0,
+        "exterior_fit_r2": 1.0
+      }
+    },
+    {
+      "expected": 0.3,
+      "gain": 1.0,
+      "offset": 0.0,
+      "baseline": {
+        "value": 0.3,
+        "method": "Relative luminance contrast attenuation",
+        "fit_r2": 1.0,
+        "pixels": 13440
+      },
+      "normalized": {
+        "value": 0.3,
+        "method": "Relative luminance contrast attenuation",
+        "fit_r2": 1.0,
+        "pixels": 13440,
+        "exterior_gain": 1.0,
+        "exterior_offset": 0.0,
+        "exterior_fit_r2": 1.0
+      }
+    },
+    {
+      "expected": 0.6,
+      "gain": 1.0,
+      "offset": 0.0,
+      "baseline": {
+        "value": 0.6,
+        "method": "Relative luminance contrast attenuation",
+        "fit_r2": 0.999,
+        "pixels": 13440
+      },
+      "normalized": {
+        "value": 0.6,
+        "method": "Relative luminance contrast attenuation",
+        "fit_r2": 0.999,
+        "pixels": 13440,
+        "exterior_gain": 1.0,
+        "exterior_offset": 0.0,
+        "exterior_fit_r2": 1.0
+      }
+    },
+    {
+      "expected": 0.82,
+      "gain": 1.0,
+      "offset": 0.0,
+      "baseline": {
+        "value": 0.82,
+        "method": "Relative luminance contrast attenuation",
+        "fit_r2": 0.997,
+        "pixels": 13440
+      },
+      "normalized": {
+        "value": 0.82,
+        "method": "Relative luminance contrast attenuation",
+        "fit_r2": 0.997,
+        "pixels": 13440,
+        "exterior_gain": 1.0,
+        "exterior_offset": 0.0,
+        "exterior_fit_r2": 1.0
+      }
+    },
+    {
+      "expected": 0.0,
+      "gain": 0.75,
+      "offset": 0.04,
+      "baseline": {
+        "value": 0.25,
+        "method": "Relative luminance contrast attenuation",
+        "fit_r2": 1.0,
+        "pixels": 13440
+      },
+      "normalized": {
+        "value": 0.0,
+        "method": "Relative luminance contrast attenuation",
+        "fit_r2": 1.0,
+        "pixels": 13440,
+        "exterior_gain": 0.7499,
+        "exterior_offset": 0.04,
+        "exterior_fit_r2": 0.9998
+      }
+    },
+    {
+      "expected": 0.3,
+      "gain": 0.75,
+      "offset": 0.04,
+      "baseline": {
+        "value": 0.475,
+        "method": "Relative luminance contrast attenuation",
+        "fit_r2": 1.0,
+        "pixels": 13440
+      },
+      "normalized": {
+        "value": 0.3,
+        "method": "Relative luminance contrast attenuation",
+        "fit_r2": 0.999,
+        "pixels": 13440,
+        "exterior_gain": 0.7499,
+        "exterior_offset": 0.04,
+        "exterior_fit_r2": 0.9998
+      }
+    },
+    {
+      "expected": 0.6,
+      "gain": 0.75,
+      "offset": 0.04,
+      "baseline": {
+        "value": 0.7,
+        "method": "Relative luminance contrast attenuation",
+        "fit_r2": 0.999,
+        "pixels": 13440
+      },
+      "normalized": {
+        "value": 0.599,
+        "method": "Relative luminance contrast attenuation",
+        "fit_r2": 0.998,
+        "pixels": 13440,
+        "exterior_gain": 0.7499,
+        "exterior_offset": 0.04,
+        "exterior_fit_r2": 0.9998
+      }
+    },
+    {
+      "expected": 0.82,
+      "gain": 0.75,
+      "offset": 0.04,
+      "baseline": {
+        "value": 0.865,
+        "method": "Relative luminance contrast attenuation",
+        "fit_r2": 0.995,
+        "pixels": 13440
+      },
+      "normalized": {
+        "value": 0.821,
+        "method": "Relative luminance contrast attenuation",
+        "fit_r2": 0.992,
+        "pixels": 13440,
+        "exterior_gain": 0.7499,
+        "exterior_offset": 0.04,
+        "exterior_fit_r2": 0.9998
+      }
+    },
+    {
+      "expected": 0.0,
+      "gain": 1.2,
+      "offset": -0.04,
+      "baseline": {
+        "value": null,
+        "reason": "The matched texture does not support a reliable attenuation estimate."
+      },
+      "normalized": {
+        "value": 0.0,
+        "method": "Relative luminance contrast attenuation",
+        "fit_r2": 1.0,
+        "pixels": 13440,
+        "exterior_gain": 1.1998,
+        "exterior_offset": -0.0399,
+        "exterior_fit_r2": 0.9998
+      }
+    },
+    {
+      "expected": 0.3,
+      "gain": 1.2,
+      "offset": -0.04,
+      "baseline": {
+        "value": 0.16,
+        "method": "Relative luminance contrast attenuation",
+        "fit_r2": 1.0,
+        "pixels": 13440
+      },
+      "normalized": {
+        "value": 0.3,
+        "method": "Relative luminance contrast attenuation",
+        "fit_r2": 1.0,
+        "pixels": 13440,
+        "exterior_gain": 1.1998,
+        "exterior_offset": -0.0399,
+        "exterior_fit_r2": 0.9998
+      }
+    },
+    {
+      "expected": 0.6,
+      "gain": 1.2,
+      "offset": -0.04,
+      "baseline": {
+        "value": 0.52,
+        "method": "Relative luminance contrast attenuation",
+        "fit_r2": 0.999,
+        "pixels": 13440
+      },
+      "normalized": {
+        "value": 0.599,
+        "method": "Relative luminance contrast attenuation",
+        "fit_r2": 0.999,
+        "pixels": 13440,
+        "exterior_gain": 1.1998,
+        "exterior_offset": -0.0399,
+        "exterior_fit_r2": 0.9998
+      }
+    },
+    {
+      "expected": 0.82,
+      "gain": 1.2,
+      "offset": -0.04,
+      "baseline": {
+        "value": 0.784,
+        "method": "Relative luminance contrast attenuation",
+        "fit_r2": 0.997,
+        "pixels": 13440
+      },
+      "normalized": {
+        "value": 0.819,
+        "method": "Relative luminance contrast attenuation",
+        "fit_r2": 0.995,
+        "pixels": 13440,
+        "exterior_gain": 1.1998,
+        "exterior_offset": -0.0399,
+        "exterior_fit_r2": 0.9998
+      }
+    }
+  ],
+  "varying_exposure": {
+    "baseline": {
+      "emitted": 7,
+      "eligible": 8,
+      "mae": 0.11799999999999998,
+      "maximum_error": 0.25
+    },
+    "normalized": {
+      "emitted": 8,
+      "eligible": 8,
+      "mae": 0.0005000000000000004,
+      "maximum_error": 0.0010000000000000009
+    }
+  },
+  "mismatched_exterior": {
+    "value": null,
+    "reason": "The exterior patch does not support a shared exposure transform."
+  },
+  "code": "98f14d5a5d0abc0c969c240beed4f5e1d3e08f9713081ddba413f8829c101aa7",
+  "scope": "Rendered matched texture only"
+}

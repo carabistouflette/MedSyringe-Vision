@@ -1,0 +1,255 @@
+{
+  "reference": "d8a9062000e88491eb2af247e2793fd047debd835eb59afefcab7acec8efab70",
+  "baseline": {
+    "images": 3,
+    "objects": 10,
+    "tp": 1,
+    "fp": 0,
+    "fn": 9,
+    "precision": 1.0,
+    "recall": 0.1,
+    "f1": 0.18181818181818182,
+    "ap50": 0.10891089108910891,
+    "ap50_95": 0.09801980198019802,
+    "exact_count": 2,
+    "negative_images": 2,
+    "correct_empty": 2,
+    "false_positives": [],
+    "false_negatives": [
+      {
+        "id": "epolk-influenza-tray",
+        "box": [
+          0.1203125,
+          0.07094918504314478,
+          0.59921875,
+          0.2109300095877277
+        ]
+      },
+      {
+        "id": "epolk-influenza-tray",
+        "box": [
+          0.10546875,
+          0.236816874400767,
+          0.603125,
+          0.3710450623202301
+        ]
+      },
+      {
+        "id": "epolk-influenza-tray",
+        "box": [
+          0.08984375,
+          0.4276126558005753,
+          0.61328125,
+          0.5474592521572388
+        ]
+      },
+      {
+        "id": "epolk-influenza-tray",
+        "box": [
+          0.08046875,
+          0.610738255033557,
+          0.61953125,
+          0.7430488974113135
+        ]
+      },
+      {
+        "id": "epolk-influenza-tray",
+        "box": [
+          0.50078125,
+          0.06327900287631831,
+          0.92890625,
+          0.17737296260786195
+        ]
+      },
+      {
+        "id": "epolk-influenza-tray",
+        "box": [
+          0.48671875,
+          0.19367209971236818,
+          0.921875,
+          0.3231064237775647
+        ]
+      },
+      {
+        "id": "epolk-influenza-tray",
+        "box": [
+          0.5046875,
+          0.3576222435282838,
+          0.9640625,
+          0.46404602109300097
+        ]
+      },
+      {
+        "id": "epolk-influenza-tray",
+        "box": [
+          0.49296875,
+          0.5234899328859061,
+          0.96796875,
+          0.6462128475551294
+        ]
+      },
+      {
+        "id": "epolk-influenza-tray",
+        "box": [
+          0.48671875,
+          0.7085330776605945,
+          0.96484375,
+          0.8235858101629914
+        ]
+      }
+    ]
+  },
+  "additive": {
+    "images": 3,
+    "objects": 10,
+    "tp": 1,
+    "fp": 2,
+    "fn": 9,
+    "precision": 0.3333333333333333,
+    "recall": 0.1,
+    "f1": 0.15384615384615383,
+    "ap50": 0.0363036303630363,
+    "ap50_95": 0.03267326732673267,
+    "exact_count": 0,
+    "negative_images": 2,
+    "correct_empty": 0,
+    "false_positives": [
+      {
+        "id": "openverse-74f4ecd6-6d3a-4f4f-8df4-fd9abd0a2fbc",
+        "prediction": {
+          "bbox": [
+            0.0943846967485216,
+            0.4341335826449924,
+            0.9108755323621962,
+            0.52124998304579
+          ],
+          "score": 0.8998227715492249,
+          "source": "sam recovery"
+        },
+        "best_unmatched_iou": 0
+      },
+      {
+        "id": "openverse-ed1b263b-9b98-4ddf-8c5e-6d697a688b48",
+        "prediction": {
+          "bbox": [
+            0.3043134742312961,
+            0.35511578453911674,
+            0.7085223727756076,
+            0.6097555690341525
+          ],
+          "score": 0.8799847364425659,
+          "source": "sam recovery"
+        },
+        "best_unmatched_iou": 0
+      }
+    ],
+    "false_negatives": [
+      {
+        "id": "epolk-influenza-tray",
+        "box": [
+          0.1203125,
+          0.07094918504314478,
+          0.59921875,
+          0.2109300095877277
+        ]
+      },
+      {
+        "id": "epolk-influenza-tray",
+        "box": [
+          0.10546875,
+          0.236816874400767,
+          0.603125,
+          0.3710450623202301
+        ]
+      },
+      {
+        "id": "epolk-influenza-tray",
+        "box": [
+          0.08984375,
+          0.4276126558005753,
+          0.61328125,
+          0.5474592521572388
+        ]
+      },
+      {
+        "id": "epolk-influenza-tray",
+        "box": [
+          0.08046875,
+          0.610738255033557,
+          0.61953125,
+          0.7430488974113135
+        ]
+      },
+      {
+        "id": "epolk-influenza-tray",
+        "box": [
+          0.50078125,
+          0.06327900287631831,
+          0.92890625,
+          0.17737296260786195
+        ]
+      },
+      {
+        "id": "epolk-influenza-tray",
+        "box": [
+          0.48671875,
+          0.19367209971236818,
+          0.921875,
+          0.3231064237775647
+        ]
+      },
+      {
+        "id": "epolk-influenza-tray",
+        "box": [
+          0.5046875,
+          0.3576222435282838,
+          0.9640625,
+          0.46404602109300097
+        ]
+      },
+      {
+        "id": "epolk-influenza-tray",
+        "box": [
+          0.49296875,
+          0.5234899328859061,
+          0.96796875,
+          0.6462128475551294
+        ]
+      },
+      {
+        "id": "epolk-influenza-tray",
+        "box": [
+          0.48671875,
+          0.7085330776605945,
+          0.96484375,
+          0.8235858101629914
+        ]
+      }
+    ]
+  },
+  "retention": {
+    "passed": true,
+    "lost_matches": [],
+    "recovered_matches": 0,
+    "baseline_matches": 1,
+    "candidate_matches": 1
+  },
+  "photos": {
+    "epolk-influenza-tray": {
+      "expected": 10,
+      "baseline": 1,
+      "additive": 1
+    },
+    "openverse-ed1b263b-9b98-4ddf-8c5e-6d697a688b48": {
+      "expected": 0,
+      "baseline": 0,
+      "additive": 1
+    },
+    "openverse-74f4ecd6-6d3a-4f4f-8df4-fd9abd0a2fbc": {
+      "expected": 0,
+      "baseline": 0,
+      "additive": 1
+    }
+  },
+  "release_evidence": "One positive source and two hard negatives constitute a limited pilot."
+}

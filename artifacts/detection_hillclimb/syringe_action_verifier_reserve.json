@@ -1,0 +1,151 @@
+{
+  "code": "10e6615095403933fcba46435ae29945cb813227095f9245644328991dce1bd2",
+  "rows": [
+    {
+      "id": "action-5234480",
+      "source_url": "https://www.pexels.com/photo/a-syringe-with-liquid-inside-5234480/",
+      "original_url": "https://images.pexels.com/photos/5234480/pexels-photo-5234480.jpeg?auto=compress&cs=tinysrgb&w=1000",
+      "author": "Polina Tankilevitch",
+      "group": "Pexels polina tankilevitch 5234480",
+      "image": "data/syringe-action-verifier/5234480.jpg",
+      "sha256": "fbeb4832e6c7d1393ee9dd3626e5ec5905698cfe5217b541ac1aff923bb736e5",
+      "objects": [
+        {
+          "bbox": [
+            0.4241935483870968,
+            0.34541062801932365,
+            0.7516129032258064,
+            0.572463768115942
+          ]
+        }
+      ],
+      "review": "One syringe with the distal needle visible and the grip partly hidden.",
+      "license": "https://www.pexels.com/license/"
+    },
+    {
+      "id": "action-5998508",
+      "source_url": "https://www.pexels.com/photo/close-up-photo-of-a-person-holding-a-syringe-5998508/",
+      "original_url": "https://images.pexels.com/photos/5998508/pexels-photo-5998508.jpeg?auto=compress&cs=tinysrgb&w=1000",
+      "author": "Pavel Danilyuk",
+      "group": "Pexels pavel danilyuk 5998508",
+      "image": "data/syringe-action-verifier/5998508.jpg",
+      "sha256": "ada8cbe23f736a562b4411f55d5a95936962e3bf00e81b2ec50a2fe3e89a65a2",
+      "objects": [
+        {
+          "bbox": [
+            0.23271889400921658,
+            0.45692307692307693,
+            0.8548387096774194,
+            0.5584615384615385
+          ]
+        }
+      ],
+      "review": "One syringe with a visible plunger rod and needle. Previously screened without inference.",
+      "license": "https://www.pexels.com/license/"
+    },
+    {
+      "id": "action-7581089",
+      "source_url": "https://www.pexels.com/photo/silver-tray-with-syringes-7581089/",
+      "original_url": "https://images.pexels.com/photos/7581089/pexels-photo-7581089.jpeg?auto=compress&cs=tinysrgb&w=1000",
+      "author": "cottonbro studio",
+      "group": "Pexels cottonbro studio 7581089",
+      "image": "data/syringe-action-verifier/7581089.jpg",
+      "sha256": "2924e705400cbd29fba4c4cab6325b39201cabc63f1af43f5907f07d5396fb28",
+      "objects": [
+        {
+          "bbox": [
+            0.22170900692840648,
+            0.5215384615384615,
+            0.42032332563510394,
+            0.6984615384615385
+          ]
+        },
+        {
+          "bbox": [
+            0.3833718244803695,
+            0.5169230769230769,
+            0.5127020785219399,
+            0.6938461538461539
+          ]
+        }
+      ],
+      "review": "Two complete assemblies. A loose cap, ampoules, and reflections are excluded.",
+      "license": "https://www.pexels.com/license/"
+    },
+    {
+      "id": "action-17112252",
+      "source_url": "https://www.pexels.com/photo/table-with-prepared-syringes-and-other-medical-instruments-17112252/",
+      "original_url": "https://images.pexels.com/photos/17112252/pexels-photo-17112252.jpeg?auto=compress&cs=tinysrgb&w=1000",
+      "author": "Jimmy Liao",
+      "group": "Pexels jimmy liao 17112252",
+      "image": "data/syringe-action-verifier/17112252.jpg",
+      "sha256": "45185ae92915df746813474a11f850c093bcdff16d9f4d39a64cfcf3ee4b902c",
+      "objects": [
+        {
+          "bbox": [
+            0.3596774193548387,
+            0.21497584541062803,
+            0.6806451612903226,
+            0.3333333333333333
+          ]
+        },
+        {
+          "bbox": [
+            0.07258064516129033,
+            0.3333333333333333,
+            0.2709677419354839,
+            0.751207729468599
+          ]
+        }
+      ],
+      "review": "One plastic syringe and one dental cartridge syringe with visible barrel, needle and grip.",
+      "license": "https://www.pexels.com/license/"
+    },
+    {
+      "id": "action-15831834",
+      "source_url": "https://www.pexels.com/photo/scientist-with-a-test-tube-and-glass-container-in-her-hands-15831834/",
+      "original_url": "https://images.pexels.com/photos/15831834/pexels-photo-15831834.jpeg?auto=compress&cs=tinysrgb&w=1000",
+      "author": "Jonathan Borba",
+      "group": "Pexels jonathan borba 15831834",
+      "image": "data/syringe-action-verifier/15831834.jpg",
+      "sha256": "13f811a53c986b8eecbd6757cdd34639dfc86d1e77bbb16bf7fa63d376018bd6",
+      "objects": [],
+      "review": "Glass transfer tool and graduated vessel. No syringe.",
+      "license": "https://www.pexels.com/license/"
+    },
+    {
+      "id": "action-3825578",
+      "source_url": "https://www.pexels.com/photo/unrecognizable-chemist-taking-liquid-with-pipette-from-test-tube-in-modern-laboratory-3825578/",
+      "original_url": "https://images.pexels.com/photos/3825578/pexels-photo-3825578.jpeg?auto=compress&cs=tinysrgb&w=1000",
+      "author": "RF._.studio _",
+      "group": "Pexels rf. .studio 3825578",
+      "image": "data/syringe-action-verifier/3825578.jpg",
+      "sha256": "35c4ae2d91e516116f38a45f0abf09882ecc320cf9a0c37d418ee5ff362e9e41",
+      "objects": [],
+      "review": "Handheld glassware and colored sample tubes. No syringe.",
+      "license": "https://www.pexels.com/license/"
+    },
+    {
+      "id": "action-33658644",
+      "source_url": "https://www.pexels.com/photo/laboratory-technician-organizing-test-tubes-33658644/",
+      "original_url": "https://images.pexels.com/photos/33658644/pexels-photo-33658644.jpeg?auto=compress&cs=tinysrgb&w=1000",
+      "author": "Andy Coffie",
+      "group": "Pexels andy coffie 33658644",
+      "image": "data/syringe-action-verifier/33658644.jpg",
+      "sha256": "f249c6d76b1df30f83a51af48627bbe6c71ba9cce4805ddda9add13174283ae8",
+      "objects": [],
+      "review": "Rack of capped laboratory tubes and a capped blue pen. No syringe.",
+      "license": "https://www.pexels.com/license/"
+    }
+  ],
+  "exclusions": {
+    "8577983": "Previously screened and too densely overlapped to assign a reliable count.",
+    "8071796": "Previously scored public reference.",
+    "8413326": "SHVETS production and Anna Shvets have a documented contributor relationship.",
+    "8413433": "SHVETS production and Anna Shvets have a documented contributor relationship.",
+    "5721385": "Same photographer as the more informative two-syringe tray.",
+    "33394283": "Previously screened. Wrapped objects lack sufficiently clear extents.",
+    "7230835": "Additional negative screened. Three diverse negatives were selected before inference."
+  },
+  "scope": "One visual reviewer. Distinct public captures, no output inspected before freeze."
+}

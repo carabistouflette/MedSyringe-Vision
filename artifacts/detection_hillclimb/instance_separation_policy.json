@@ -1,0 +1,5158 @@
+{
+  "code": "12f2ad75c7b3438450564412b3b1729e6567d954777c8a0baa8656271a68d7b3",
+  "inputs": {
+    "artifacts/detection_hillclimb/syringe_assembly_pair_model.json": "a57510e2d4199fb8d73f72572bd1a53e05ca1ff2266fda06d592fde1228da64d",
+    "artifacts/detection_hillclimb/syringe_assembly_fit_review.json": "7e5c3032598b0a803ced0c483b24c3ce1e8c3f0dcebd90ab5121342f41348e5f",
+    "data/native-candidate-verifier/rf-fit.json": "d10a58c48d09124c0fa1f118f57beb43c0772efc2523158b5b814a5618178938",
+    "data/native-candidate-verifier/rf-development.json": "c87e253963dbf070fcf1716ae9ac021611e172570a15791931fb5815bb867fce",
+    "scripts/syringe_assembly_model.py": "547d34c185f50ae672a1d49cdc9123b8c9d399b8ccf093be34762d6dd451084d",
+    "scripts/native_candidate_bank.py": "b28e0d379653cc37f5da63c78474cbbfb1ce192132cb6adacf5d9c68a61eaf72"
+  },
+  "archives": {
+    "data/detection_hillclimb/proposals/phlebotomy-development-baseline.json": "2c4a741db06b940a0e98c1c8d949c68cd8b9463f86f40ed467ce2f1d912aa47b",
+    "data/detection_hillclimb/proposals/public-development-baseline.json": "d0e09665c64867c5fc8fd24b7bc2b379801c54b19d1f944eb1b16a07c26d8eb3",
+    "data/detection_hillclimb/proposals/dental-transfer-development-baseline.json": "13345908f6a0781d7e9f251bf92c9ad4289a44136c6deceb537676b85da0a27e"
+  },
+  "model": {
+    "center": [
+      0.25831768391523147,
+      0.629879246360199,
+      -0.9764786113157218,
+      0.3803534825723008,
+      0.36738874288474554,
+      0.21950772472627916,
+      0.0760717318174939,
+      0.22257957073315093,
+      0.18914761066167796,
+      0.8442666725655159,
+      0.39085366350245737,
+      0.4032736040543714,
+      0.12065094433285795,
+      0.1820749152629822,
+      0.17723543698325725,
+      0.41918940694972173,
+      1.1532486169998901,
+      1.371703215222172,
+      0.04264842696841034,
+      0.03494556553429102,
+      0.4094077037319223,
+      0.3618632504299809,
+      0.1657351414213442,
+      0.18054292234014604,
+      0.09496833580736436,
+      0.07590705342559367
+    ],
+    "scale": [
+      0.286093295559301,
+      0.4230856441694354,
+      1.4512358482350494,
+      0.5742861081437932,
+      0.5146086458470251,
+      0.9900680975018453,
+      0.8467257500510043,
+      0.23915062359043462,
+      0.25020788780621483,
+      0.2855598240861937,
+      0.1927936292043599,
+      0.2093286861216113,
+      0.12967147660308462,
+      0.05582573269542397,
+      0.06551753537879007,
+      0.4524029126151939,
+      3.625617000980616,
+      3.980314423891044,
+      0.02591371453034849,
+      0.028755300813838744,
+      0.16345673277051231,
+      0.200638471726209,
+      0.0925577739504285,
+      0.09681277641012401,
+      0.06615662294065315,
+      0.06389493737979159
+    ],
+    "weight": [
+      [
+        0.44097534544377676,
+        -0.8056195441849232,
+        1.1140926091029113,
+        0.6264316170558148,
+        0.5532382063335198,
+        -0.14500729713086138,
+        -0.4832435605098907,
+        -1.1224236195651276,
+        0.8293307220242602,
+        -0.09741498811210353,
+        -0.026674843104924184,
+        0.22233554460399027,
+        -1.3816546024809526,
+        -0.06282585526766406,
+        -0.5768855689126549,
+        -0.3906290426804411,
+        -0.28631594179012926,
+        0.641338991885697,
+        0.14498621283129798,
+        -0.16875912847071153,
+        0.4409961649043281,
+        0.8083033334400846,
+        -0.009541740013899033,
+        0.059131195722013336,
+        -0.27643730202045036,
+        -0.022470099443357695
+      ],
+      [
+        -2.7975835331769945,
+        -0.7094538281552549,
+        -1.7179870620876634,
+        1.3504983194222384,
+        0.6001921260595249,
+        0.27147837110331346,
+        -0.05621183457655234,
+        0.30137335003286303,
+        0.20414397278194452,
+        -0.20056324642226317,
+        0.23511473551295275,
+        -0.21143225563493273,
+        1.232013334254012,
+        -0.27578978081199845,
+        0.5305130776977499,
+        0.3620364932973267,
+        0.6930840869998665,
+        -0.09813758842493066,
+        -0.19457331199654596,
+        -0.14698962538815502,
+        -0.034548976543412345,
+        -0.025602165046307416,
+        -0.20530772739192574,
+        -0.045924524606599966,
+        0.2416688648740614,
+        0.17408800670586405
+      ],
+      [
+        -1.0582845183653116,
+        0.6693644474224469,
+        -0.24905954425747848,
+        -1.1955930225339064,
+        -1.754805775997753,
+        -0.05604804264016253,
+        0.37485306882437786,
+        0.7769930115318631,
+        -0.15973817498676984,
+        0.11372136351309917,
+        -0.1468943151078849,
+        -0.046987138597451496,
+        0.525903970385084,
+        0.08516655850690914,
+        0.22421325418624746,
+        0.2996413547287339,
+        -0.32058808404538086,
+        -0.3482462584730771,
+        0.0009904637715440492,
+        0.12014214753725616,
+        -0.2847320563933543,
+        -0.23258533382962315,
+        0.03894943848226016,
+        0.001070151594397768,
+        0.11708456990434457,
+        -0.06947210427241154
+      ],
+      [
+        3.414892706098528,
+        0.8457089249177315,
+        0.8529539972422308,
+        -0.7813369139441435,
+        0.6013754436047076,
+        -0.07042303133229057,
+        0.1646023262620639,
+        0.04405725800039851,
+        -0.8737365198194341,
+        0.18425687102126936,
+        -0.06154557730014632,
+        0.036083849628394005,
+        -0.3762627021581423,
+        0.2534490775727507,
+        -0.1778407629713419,
+        -0.27104880534561904,
+        -0.08618006116435564,
+        -0.19495514498768882,
+        0.048596635393704034,
+        0.19560660632160903,
+        -0.12171513196756188,
+        -0.5501158345641557,
+        0.17590002892356432,
+        -0.014276822709809523,
+        -0.08231613275795514,
+        -0.08214580299009727
+      ]
+    ],
+    "bias": [
+      0.9613403101191097,
+      -0.7599895570479194,
+      0.7133234112910043,
+      -0.9146741643622014
+    ],
+    "labels": [
+      "distinct",
+      "distractor",
+      "fragment",
+      "same"
+    ]
+  },
+  "training": {
+    "totals": {
+      "fragment": 318,
+      "same": 698,
+      "distractor": 303,
+      "distinct": 63
+    },
+    "origins": {
+      "visual": 31,
+      "detector-reference": 262,
+      "jitter": 192,
+      "oriented-split": 292,
+      "mined-background": 301,
+      "detector-pair": 262,
+      "reference-pair": 42
+    },
+    "distinct_groups": 7
+  },
+  "decision": {
+    "finalists": {
+      "overlap": {
+        "rule": {
+          "method": "overlap",
+          "minimum": 1,
+          "floor": 1.01,
+          "distinct": 1.0
+        },
+        "tp": 15,
+        "fp": 7,
+        "exact_count": 37,
+        "gain": 0,
+        "extra_fp": 0,
+        "safe": true,
+        "lost_reference": false,
+        "per_image_false_positive_regression": false,
+        "count_regression": false
+      },
+      "prior-identity": {
+        "rule": {
+          "method": "prior-identity",
+          "minimum": 1,
+          "floor": 1.01,
+          "distinct": 0.65
+        },
+        "tp": 15,
+        "fp": 7,
+        "exact_count": 37,
+        "gain": 0,
+        "extra_fp": 0,
+        "safe": true,
+        "lost_reference": false,
+        "per_image_false_positive_regression": false,
+        "count_regression": false
+      },
+      "axis-identity": {
+        "rule": {
+          "method": "axis-identity",
+          "minimum": 1,
+          "floor": 1.01,
+          "distinct": 0.65
+        },
+        "tp": 15,
+        "fp": 7,
+        "exact_count": 37,
+        "gain": 0,
+        "extra_fp": 0,
+        "safe": true,
+        "lost_reference": false,
+        "per_image_false_positive_regression": false,
+        "count_regression": false
+      }
+    },
+    "selected": null,
+    "trials": [
+      {
+        "rule": {
+          "method": "overlap",
+          "minimum": 1,
+          "floor": 0.12,
+          "distinct": 1.0
+        },
+        "tp": 19,
+        "fp": 92,
+        "exact_count": 22,
+        "gain": 4,
+        "extra_fp": 85,
+        "safe": false,
+        "lost_reference": false,
+        "per_image_false_positive_regression": true,
+        "count_regression": true
+      },
+      {
+        "rule": {
+          "method": "overlap",
+          "minimum": 1,
+          "floor": 0.18,
+          "distinct": 1.0
+        },
+        "tp": 18,
+        "fp": 49,
+        "exact_count": 23,
+        "gain": 3,
+        "extra_fp": 42,
+        "safe": false,
+        "lost_reference": false,
+        "per_image_false_positive_regression": true,
+        "count_regression": true
+      },
+      {
+        "rule": {
+          "method": "overlap",
+          "minimum": 1,
+          "floor": 0.25,
+          "distinct": 1.0
+        },
+        "tp": 16,
+        "fp": 28,
+        "exact_count": 27,
+        "gain": 1,
+        "extra_fp": 21,
+        "safe": false,
+        "lost_reference": false,
+        "per_image_false_positive_regression": true,
+        "count_regression": true
+      },
+      {
+        "rule": {
+          "method": "overlap",
+          "minimum": 1,
+          "floor": 0.3,
+          "distinct": 1.0
+        },
+        "tp": 15,
+        "fp": 18,
+        "exact_count": 33,
+        "gain": 0,
+        "extra_fp": 11,
+        "safe": false,
+        "lost_reference": false,
+        "per_image_false_positive_regression": true,
+        "count_regression": true
+      },
+      {
+        "rule": {
+          "method": "overlap",
+          "minimum": 1,
+          "floor": 0.35,
+          "distinct": 1.0
+        },
+        "tp": 15,
+        "fp": 14,
+        "exact_count": 36,
+        "gain": 0,
+        "extra_fp": 7,
+        "safe": false,
+        "lost_reference": false,
+        "per_image_false_positive_regression": true,
+        "count_regression": true
+      },
+      {
+        "rule": {
+          "method": "overlap",
+          "minimum": 1,
+          "floor": 0.4,
+          "distinct": 1.0
+        },
+        "tp": 15,
+        "fp": 8,
+        "exact_count": 37,
+        "gain": 0,
+        "extra_fp": 1,
+        "safe": false,
+        "lost_reference": false,
+        "per_image_false_positive_regression": true,
+        "count_regression": false
+      },
+      {
+        "rule": {
+          "method": "overlap",
+          "minimum": 1,
+          "floor": 0.45,
+          "distinct": 1.0
+        },
+        "tp": 15,
+        "fp": 7,
+        "exact_count": 37,
+        "gain": 0,
+        "extra_fp": 0,
+        "safe": true,
+        "lost_reference": false,
+        "per_image_false_positive_regression": false,
+        "count_regression": false
+      },
+      {
+        "rule": {
+          "method": "overlap",
+          "minimum": 1,
+          "floor": 0.55,
+          "distinct": 1.0
+        },
+        "tp": 15,
+        "fp": 7,
+        "exact_count": 37,
+        "gain": 0,
+        "extra_fp": 0,
+        "safe": true,
+        "lost_reference": false,
+        "per_image_false_positive_regression": false,
+        "count_regression": false
+      },
+      {
+        "rule": {
+          "method": "overlap",
+          "minimum": 1,
+          "floor": 0.65,
+          "distinct": 1.0
+        },
+        "tp": 15,
+        "fp": 7,
+        "exact_count": 37,
+        "gain": 0,
+        "extra_fp": 0,
+        "safe": true,
+        "lost_reference": false,
+        "per_image_false_positive_regression": false,
+        "count_regression": false
+      },
+      {
+        "rule": {
+          "method": "overlap",
+          "minimum": 1,
+          "floor": 0.75,
+          "distinct": 1.0
+        },
+        "tp": 15,
+        "fp": 7,
+        "exact_count": 37,
+        "gain": 0,
+        "extra_fp": 0,
+        "safe": true,
+        "lost_reference": false,
+        "per_image_false_positive_regression": false,
+        "count_regression": false
+      },
+      {
+        "rule": {
+          "method": "overlap",
+          "minimum": 1,
+          "floor": 0.85,
+          "distinct": 1.0
+        },
+        "tp": 15,
+        "fp": 7,
+        "exact_count": 37,
+        "gain": 0,
+        "extra_fp": 0,
+        "safe": true,
+        "lost_reference": false,
+        "per_image_false_positive_regression": false,
+        "count_regression": false
+      },
+      {
+        "rule": {
+          "method": "overlap",
+          "minimum": 1,
+          "floor": 0.95,
+          "distinct": 1.0
+        },
+        "tp": 15,
+        "fp": 7,
+        "exact_count": 37,
+        "gain": 0,
+        "extra_fp": 0,
+        "safe": true,
+        "lost_reference": false,
+        "per_image_false_positive_regression": false,
+        "count_regression": false
+      },
+      {
+        "rule": {
+          "method": "overlap",
+          "minimum": 1,
+          "floor": 1.01,
+          "distinct": 1.0
+        },
+        "tp": 15,
+        "fp": 7,
+        "exact_count": 37,
+        "gain": 0,
+        "extra_fp": 0,
+        "safe": true,
+        "lost_reference": false,
+        "per_image_false_positive_regression": false,
+        "count_regression": false
+      },
+      {
+        "rule": {
+          "method": "overlap",
+          "minimum": 2,
+          "floor": 0.12,
+          "distinct": 1.0
+        },
+        "tp": 17,
+        "fp": 10,
+        "exact_count": 37,
+        "gain": 2,
+        "extra_fp": 3,
+        "safe": false,
+        "lost_reference": false,
+        "per_image_false_positive_regression": true,
+        "count_regression": true
+      },
+      {
+        "rule": {
+          "method": "overlap",
+          "minimum": 2,
+          "floor": 0.18,
+          "distinct": 1.0
+        },
+        "tp": 16,
+        "fp": 10,
+        "exact_count": 37,
+        "gain": 1,
+        "extra_fp": 3,
+        "safe": false,
+        "lost_reference": false,
+        "per_image_false_positive_regression": true,
+        "count_regression": false
+      },
+      {
+        "rule": {
+          "method": "overlap",
+          "minimum": 2,
+          "floor": 0.25,
+          "distinct": 1.0
+        },
+        "tp": 15,
+        "fp": 10,
+        "exact_count": 37,
+        "gain": 0,
+        "extra_fp": 3,
+        "safe": false,
+        "lost_reference": false,
+        "per_image_false_positive_regression": true,
+        "count_regression": false
+      },
+      {
+        "rule": {
+          "method": "overlap",
+          "minimum": 2,
+          "floor": 0.3,
+          "distinct": 1.0
+        },
+        "tp": 15,
+        "fp": 10,
+        "exact_count": 37,
+        "gain": 0,
+        "extra_fp": 3,
+        "safe": false,
+        "lost_reference": false,
+        "per_image_false_positive_regression": true,
+        "count_regression": false
+      },
+      {
+        "rule": {
+          "method": "overlap",
+          "minimum": 2,
+          "floor": 0.35,
+          "distinct": 1.0
+        },
+        "tp": 15,
+        "fp": 10,
+        "exact_count": 37,
+        "gain": 0,
+        "extra_fp": 3,
+        "safe": false,
+        "lost_reference": false,
+        "per_image_false_positive_regression": true,
+        "count_regression": false
+      },
+      {
+        "rule": {
+          "method": "overlap",
+          "minimum": 2,
+          "floor": 0.4,
+          "distinct": 1.0
+        },
+        "tp": 15,
+        "fp": 8,
+        "exact_count": 37,
+        "gain": 0,
+        "extra_fp": 1,
+        "safe": false,
+        "lost_reference": false,
+        "per_image_false_positive_regression": true,
+        "count_regression": false
+      },
+      {
+        "rule": {
+          "method": "overlap",
+          "minimum": 2,
+          "floor": 0.45,
+          "distinct": 1.0
+        },
+        "tp": 15,
+        "fp": 7,
+        "exact_count": 37,
+        "gain": 0,
+        "extra_fp": 0,
+        "safe": true,
+        "lost_reference": false,
+        "per_image_false_positive_regression": false,
+        "count_regression": false
+      },
+      {
+        "rule": {
+          "method": "overlap",
+          "minimum": 2,
+          "floor": 0.55,
+          "distinct": 1.0
+        },
+        "tp": 15,
+        "fp": 7,
+        "exact_count": 37,
+        "gain": 0,
+        "extra_fp": 0,
+        "safe": true,
+        "lost_reference": false,
+        "per_image_false_positive_regression": false,
+        "count_regression": false
+      },
+      {
+        "rule": {
+          "method": "overlap",
+          "minimum": 2,
+          "floor": 0.65,
+          "distinct": 1.0
+        },
+        "tp": 15,
+        "fp": 7,
+        "exact_count": 37,
+        "gain": 0,
+        "extra_fp": 0,
+        "safe": true,
+        "lost_reference": false,
+        "per_image_false_positive_regression": false,
+        "count_regression": false
+      },
+      {
+        "rule": {
+          "method": "overlap",
+          "minimum": 2,
+          "floor": 0.75,
+          "distinct": 1.0
+        },
+        "tp": 15,
+        "fp": 7,
+        "exact_count": 37,
+        "gain": 0,
+        "extra_fp": 0,
+        "safe": true,
+        "lost_reference": false,
+        "per_image_false_positive_regression": false,
+        "count_regression": false
+      },
+      {
+        "rule": {
+          "method": "overlap",
+          "minimum": 2,
+          "floor": 0.85,
+          "distinct": 1.0
+        },
+        "tp": 15,
+        "fp": 7,
+        "exact_count": 37,
+        "gain": 0,
+        "extra_fp": 0,
+        "safe": true,
+        "lost_reference": false,
+        "per_image_false_positive_regression": false,
+        "count_regression": false
+      },
+      {
+        "rule": {
+          "method": "overlap",
+          "minimum": 2,
+          "floor": 0.95,
+          "distinct": 1.0
+        },
+        "tp": 15,
+        "fp": 7,
+        "exact_count": 37,
+        "gain": 0,
+        "extra_fp": 0,
+        "safe": true,
+        "lost_reference": false,
+        "per_image_false_positive_regression": false,
+        "count_regression": false
+      },
+      {
+        "rule": {
+          "method": "overlap",
+          "minimum": 2,
+          "floor": 1.01,
+          "distinct": 1.0
+        },
+        "tp": 15,
+        "fp": 7,
+        "exact_count": 37,
+        "gain": 0,
+        "extra_fp": 0,
+        "safe": true,
+        "lost_reference": false,
+        "per_image_false_positive_regression": false,
+        "count_regression": false
+      },
+      {
+        "rule": {
+          "method": "prior-identity",
+          "minimum": 1,
+          "floor": 0.12,
+          "distinct": 0.65
+        },
+        "tp": 15,
+        "fp": 8,
+        "exact_count": 36,
+        "gain": 0,
+        "extra_fp": 1,
+        "safe": false,
+        "lost_reference": false,
+        "per_image_false_positive_regression": true,
+        "count_regression": true
+      },
+      {
+        "rule": {
+          "method": "prior-identity",
+          "minimum": 1,
+          "floor": 0.12,
+          "distinct": 0.75
+        },
+        "tp": 15,
+        "fp": 8,
+        "exact_count": 36,
+        "gain": 0,
+        "extra_fp": 1,
+        "safe": false,
+        "lost_reference": false,
+        "per_image_false_positive_regression": true,
+        "count_regression": true
+      },
+      {
+        "rule": {
+          "method": "prior-identity",
+          "minimum": 1,
+          "floor": 0.12,
+          "distinct": 0.85
+        },
+        "tp": 15,
+        "fp": 7,
+        "exact_count": 37,
+        "gain": 0,
+        "extra_fp": 0,
+        "safe": true,
+        "lost_reference": false,
+        "per_image_false_positive_regression": false,
+        "count_regression": false
+      },
+      {
+        "rule": {
+          "method": "prior-identity",
+          "minimum": 1,
+          "floor": 0.12,
+          "distinct": 0.93
+        },
+        "tp": 15,
+        "fp": 7,
+        "exact_count": 37,
+        "gain": 0,
+        "extra_fp": 0,
+        "safe": true,
+        "lost_reference": false,
+        "per_image_false_positive_regression": false,
+        "count_regression": false
+      },
+      {
+        "rule": {
+          "method": "prior-identity",
+          "minimum": 1,
+          "floor": 0.12,
+          "distinct": 0.98
+        },
+        "tp": 15,
+        "fp": 7,
+        "exact_count": 37,
+        "gain": 0,
+        "extra_fp": 0,
+        "safe": true,
+        "lost_reference": false,
+        "per_image_false_positive_regression": false,
+        "count_regression": false
+      },
+      {
+        "rule": {
+          "method": "prior-identity",
+          "minimum": 1,
+          "floor": 0.18,
+          "distinct": 0.65
+        },
+        "tp": 15,
+        "fp": 7,
+        "exact_count": 37,
+        "gain": 0,
+        "extra_fp": 0,
+        "safe": true,
+        "lost_reference": false,
+        "per_image_false_positive_regression": false,
+        "count_regression": false
+      },
+      {
+        "rule": {
+          "method": "prior-identity",
+          "minimum": 1,
+          "floor": 0.18,
+          "distinct": 0.75
+        },
+        "tp": 15,
+        "fp": 7,
+        "exact_count": 37,
+        "gain": 0,
+        "extra_fp": 0,
+        "safe": true,
+        "lost_reference": false,
+        "per_image_false_positive_regression": false,
+        "count_regression": false
+      },
+      {
+        "rule": {
+          "method": "prior-identity",
+          "minimum": 1,
+          "floor": 0.18,
+          "distinct": 0.85
+        },
+        "tp": 15,
+        "fp": 7,
+        "exact_count": 37,
+        "gain": 0,
+        "extra_fp": 0,
+        "safe": true,
+        "lost_reference": false,
+        "per_image_false_positive_regression": false,
+        "count_regression": false
+      },
+      {
+        "rule": {
+          "method": "prior-identity",
+          "minimum": 1,
+          "floor": 0.18,
+          "distinct": 0.93
+        },
+        "tp": 15,
+        "fp": 7,
+        "exact_count": 37,
+        "gain": 0,
+        "extra_fp": 0,
+        "safe": true,
+        "lost_reference": false,
+        "per_image_false_positive_regression": false,
+        "count_regression": false
+      },
+      {
+        "rule": {
+          "method": "prior-identity",
+          "minimum": 1,
+          "floor": 0.18,
+          "distinct": 0.98
+        },
+        "tp": 15,
+        "fp": 7,
+        "exact_count": 37,
+        "gain": 0,
+        "extra_fp": 0,
+        "safe": true,
+        "lost_reference": false,
+        "per_image_false_positive_regression": false,
+        "count_regression": false
+      },
+      {
+        "rule": {
+          "method": "prior-identity",
+          "minimum": 1,
+          "floor": 0.25,
+          "distinct": 0.65
+        },
+        "tp": 15,
+        "fp": 7,
+        "exact_count": 37,
+        "gain": 0,
+        "extra_fp": 0,
+        "safe": true,
+        "lost_reference": false,
+        "per_image_false_positive_regression": false,
+        "count_regression": false
+      },
+      {
+        "rule": {
+          "method": "prior-identity",
+          "minimum": 1,
+          "floor": 0.25,
+          "distinct": 0.75
+        },
+        "tp": 15,
+        "fp": 7,
+        "exact_count": 37,
+        "gain": 0,
+        "extra_fp": 0,
+        "safe": true,
+        "lost_reference": false,
+        "per_image_false_positive_regression": false,
+        "count_regression": false
+      },
+      {
+        "rule": {
+          "method": "prior-identity",
+          "minimum": 1,
+          "floor": 0.25,
+          "distinct": 0.85
+        },
+        "tp": 15,
+        "fp": 7,
+        "exact_count": 37,
+        "gain": 0,
+        "extra_fp": 0,
+        "safe": true,
+        "lost_reference": false,
+        "per_image_false_positive_regression": false,
+        "count_regression": false
+      },
+      {
+        "rule": {
+          "method": "prior-identity",
+          "minimum": 1,
+          "floor": 0.25,
+          "distinct": 0.93
+        },
+        "tp": 15,
+        "fp": 7,
+        "exact_count": 37,
+        "gain": 0,
+        "extra_fp": 0,
+        "safe": true,
+        "lost_reference": false,
+        "per_image_false_positive_regression": false,
+        "count_regression": false
+      },
+      {
+        "rule": {
+          "method": "prior-identity",
+          "minimum": 1,
+          "floor": 0.25,
+          "distinct": 0.98
+        },
+        "tp": 15,
+        "fp": 7,
+        "exact_count": 37,
+        "gain": 0,
+        "extra_fp": 0,
+        "safe": true,
+        "lost_reference": false,
+        "per_image_false_positive_regression": false,
+        "count_regression": false
+      },
+      {
+        "rule": {
+          "method": "prior-identity",
+          "minimum": 1,
+          "floor": 0.3,
+          "distinct": 0.65
+        },
+        "tp": 15,
+        "fp": 7,
+        "exact_count": 37,
+        "gain": 0,
+        "extra_fp": 0,
+        "safe": true,
+        "lost_reference": false,
+        "per_image_false_positive_regression": false,
+        "count_regression": false
+      },
+      {
+        "rule": {
+          "method": "prior-identity",
+          "minimum": 1,
+          "floor": 0.3,
+          "distinct": 0.75
+        },
+        "tp": 15,
+        "fp": 7,
+        "exact_count": 37,
+        "gain": 0,
+        "extra_fp": 0,
+        "safe": true,
+        "lost_reference": false,
+        "per_image_false_positive_regression": false,
+        "count_regression": false
+      },
+      {
+        "rule": {
+          "method": "prior-identity",
+          "minimum": 1,
+          "floor": 0.3,
+          "distinct": 0.85
+        },
+        "tp": 15,
+        "fp": 7,
+        "exact_count": 37,
+        "gain": 0,
+        "extra_fp": 0,
+        "safe": true,
+        "lost_reference": false,
+        "per_image_false_positive_regression": false,
+        "count_regression": false
+      },
+      {
+        "rule": {
+          "method": "prior-identity",
+          "minimum": 1,
+          "floor": 0.3,
+          "distinct": 0.93
+        },
+        "tp": 15,
+        "fp": 7,
+        "exact_count": 37,
+        "gain": 0,
+        "extra_fp": 0,
+        "safe": true,
+        "lost_reference": false,
+        "per_image_false_positive_regression": false,
+        "count_regression": false
+      },
+      {
+        "rule": {
+          "method": "prior-identity",
+          "minimum": 1,
+          "floor": 0.3,
+          "distinct": 0.98
+        },
+        "tp": 15,
+        "fp": 7,
+        "exact_count": 37,
+        "gain": 0,
+        "extra_fp": 0,
+        "safe": true,
+        "lost_reference": false,
+        "per_image_false_positive_regression": false,
+        "count_regression": false
+      },
+      {
+        "rule": {
+          "method": "prior-identity",
+          "minimum": 1,
+          "floor": 0.35,
+          "distinct": 0.65
+        },
+        "tp": 15,
+        "fp": 7,
+        "exact_count": 37,
+        "gain": 0,
+        "extra_fp": 0,
+        "safe": true,
+        "lost_reference": false,
+        "per_image_false_positive_regression": false,
+        "count_regression": false
+      },
+      {
+        "rule": {
+          "method": "prior-identity",
+          "minimum": 1,
+          "floor": 0.35,
+          "distinct": 0.75
+        },
+        "tp": 15,
+        "fp": 7,
+        "exact_count": 37,
+        "gain": 0,
+        "extra_fp": 0,
+        "safe": true,
+        "lost_reference": false,
+        "per_image_false_positive_regression": false,
+        "count_regression": false
+      },
+      {
+        "rule": {
+          "method": "prior-identity",
+          "minimum": 1,
+          "floor": 0.35,
+          "distinct": 0.85
+        },
+        "tp": 15,
+        "fp": 7,
+        "exact_count": 37,
+        "gain": 0,
+        "extra_fp": 0,
+        "safe": true,
+        "lost_reference": false,
+        "per_image_false_positive_regression": false,
+        "count_regression": false
+      },
+      {
+        "rule": {
+          "method": "prior-identity",
+          "minimum": 1,
+          "floor": 0.35,
+          "distinct": 0.93
+        },
+        "tp": 15,
+        "fp": 7,
+        "exact_count": 37,
+        "gain": 0,
+        "extra_fp": 0,
+        "safe": true,
+        "lost_reference": false,
+        "per_image_false_positive_regression": false,
+        "count_regression": false
+      },
+      {
+        "rule": {
+          "method": "prior-identity",
+          "minimum": 1,
+          "floor": 0.35,
+          "distinct": 0.98
+        },
+        "tp": 15,
+        "fp": 7,
+        "exact_count": 37,
+        "gain": 0,
+        "extra_fp": 0,
+        "safe": true,
+        "lost_reference": false,
+        "per_image_false_positive_regression": false,
+        "count_regression": false
+      },
+      {
+        "rule": {
+          "method": "prior-identity",
+          "minimum": 1,
+          "floor": 0.4,
+          "distinct": 0.65
+        },
+        "tp": 15,
+        "fp": 7,
+        "exact_count": 37,
+        "gain": 0,
+        "extra_fp": 0,
+        "safe": true,
+        "lost_reference": false,
+        "per_image_false_positive_regression": false,
+        "count_regression": false
+      },
+      {
+        "rule": {
+          "method": "prior-identity",
+          "minimum": 1,
+          "floor": 0.4,
+          "distinct": 0.75
+        },
+        "tp": 15,
+        "fp": 7,
+        "exact_count": 37,
+        "gain": 0,
+        "extra_fp": 0,
+        "safe": true,
+        "lost_reference": false,
+        "per_image_false_positive_regression": false,
+        "count_regression": false
+      },
+      {
+        "rule": {
+          "method": "prior-identity",
+          "minimum": 1,
+          "floor": 0.4,
+          "distinct": 0.85
+        },
+        "tp": 15,
+        "fp": 7,
+        "exact_count": 37,
+        "gain": 0,
+        "extra_fp": 0,
+        "safe": true,
+        "lost_reference": false,
+        "per_image_false_positive_regression": false,
+        "count_regression": false
+      },
+      {
+        "rule": {
+          "method": "prior-identity",
+          "minimum": 1,
+          "floor": 0.4,
+          "distinct": 0.93
+        },
+        "tp": 15,
+        "fp": 7,
+        "exact_count": 37,
+        "gain": 0,
+        "extra_fp": 0,
+        "safe": true,
+        "lost_reference": false,
+        "per_image_false_positive_regression": false,
+        "count_regression": false
+      },
+      {
+        "rule": {
+          "method": "prior-identity",
+          "minimum": 1,
+          "floor": 0.4,
+          "distinct": 0.98
+        },
+        "tp": 15,
+        "fp": 7,
+        "exact_count": 37,
+        "gain": 0,
+        "extra_fp": 0,
+        "safe": true,
+        "lost_reference": false,
+        "per_image_false_positive_regression": false,
+        "count_regression": false
+      },
+      {
+        "rule": {
+          "method": "prior-identity",
+          "minimum": 1,
+          "floor": 0.45,
+          "distinct": 0.65
+        },
+        "tp": 15,
+        "fp": 7,
+        "exact_count": 37,
+        "gain": 0,
+        "extra_fp": 0,
+        "safe": true,
+        "lost_reference": false,
+        "per_image_false_positive_regression": false,
+        "count_regression": false
+      },
+      {
+        "rule": {
+          "method": "prior-identity",
+          "minimum": 1,
+          "floor": 0.45,
+          "distinct": 0.75
+        },
+        "tp": 15,
+        "fp": 7,
+        "exact_count": 37,
+        "gain": 0,
+        "extra_fp": 0,
+        "safe": true,
+        "lost_reference": false,
+        "per_image_false_positive_regression": false,
+        "count_regression": false
+      },
+      {
+        "rule": {
+          "method": "prior-identity",
+          "minimum": 1,
+          "floor": 0.45,
+          "distinct": 0.85
+        },
+        "tp": 15,
+        "fp": 7,
+        "exact_count": 37,
+        "gain": 0,
+        "extra_fp": 0,
+        "safe": true,
+        "lost_reference": false,
+        "per_image_false_positive_regression": false,
+        "count_regression": false
+      },
+      {
+        "rule": {
+          "method": "prior-identity",
+          "minimum": 1,
+          "floor": 0.45,
+          "distinct": 0.93
+        },
+        "tp": 15,
+        "fp": 7,
+        "exact_count": 37,
+        "gain": 0,
+        "extra_fp": 0,
+        "safe": true,
+        "lost_reference": false,
+        "per_image_false_positive_regression": false,
+        "count_regression": false
+      },
+      {
+        "rule": {
+          "method": "prior-identity",
+          "minimum": 1,
+          "floor": 0.45,
+          "distinct": 0.98
+        },
+        "tp": 15,
+        "fp": 7,
+        "exact_count": 37,
+        "gain": 0,
+        "extra_fp": 0,
+        "safe": true,
+        "lost_reference": false,
+        "per_image_false_positive_regression": false,
+        "count_regression": false
+      },
+      {
+        "rule": {
+          "method": "prior-identity",
+          "minimum": 1,
+          "floor": 0.55,
+          "distinct": 0.65
+        },
+        "tp": 15,
+        "fp": 7,
+        "exact_count": 37,
+        "gain": 0,
+        "extra_fp": 0,
+        "safe": true,
+        "lost_reference": false,
+        "per_image_false_positive_regression": false,
+        "count_regression": false
+      },
+      {
+        "rule": {
+          "method": "prior-identity",
+          "minimum": 1,
+          "floor": 0.55,
+          "distinct": 0.75
+        },
+        "tp": 15,
+        "fp": 7,
+        "exact_count": 37,
+        "gain": 0,
+        "extra_fp": 0,
+        "safe": true,
+        "lost_reference": false,
+        "per_image_false_positive_regression": false,
+        "count_regression": false
+      },
+      {
+        "rule": {
+          "method": "prior-identity",
+          "minimum": 1,
+          "floor": 0.55,
+          "distinct": 0.85
+        },
+        "tp": 15,
+        "fp": 7,
+        "exact_count": 37,
+        "gain": 0,
+        "extra_fp": 0,
+        "safe": true,
+        "lost_reference": false,
+        "per_image_false_positive_regression": false,
+        "count_regression": false
+      },
+      {
+        "rule": {
+          "method": "prior-identity",
+          "minimum": 1,
+          "floor": 0.55,
+          "distinct": 0.93
+        },
+        "tp": 15,
+        "fp": 7,
+        "exact_count": 37,
+        "gain": 0,
+        "extra_fp": 0,
+        "safe": true,
+        "lost_reference": false,
+        "per_image_false_positive_regression": false,
+        "count_regression": false
+      },
+      {
+        "rule": {
+          "method": "prior-identity",
+          "minimum": 1,
+          "floor": 0.55,
+          "distinct": 0.98
+        },
+        "tp": 15,
+        "fp": 7,
+        "exact_count": 37,
+        "gain": 0,
+        "extra_fp": 0,
+        "safe": true,
+        "lost_reference": false,
+        "per_image_false_positive_regression": false,
+        "count_regression": false
+      },
+      {
+        "rule": {
+          "method": "prior-identity",
+          "minimum": 1,
+          "floor": 0.65,
+          "distinct": 0.65
+        },
+        "tp": 15,
+        "fp": 7,
+        "exact_count": 37,
+        "gain": 0,
+        "extra_fp": 0,
+        "safe": true,
+        "lost_reference": false,
+        "per_image_false_positive_regression": false,
+        "count_regression": false
+      },
+      {
+        "rule": {
+          "method": "prior-identity",
+          "minimum": 1,
+          "floor": 0.65,
+          "distinct": 0.75
+        },
+        "tp": 15,
+        "fp": 7,
+        "exact_count": 37,
+        "gain": 0,
+        "extra_fp": 0,
+        "safe": true,
+        "lost_reference": false,
+        "per_image_false_positive_regression": false,
+        "count_regression": false
+      },
+      {
+        "rule": {
+          "method": "prior-identity",
+          "minimum": 1,
+          "floor": 0.65,
+          "distinct": 0.85
+        },
+        "tp": 15,
+        "fp": 7,
+        "exact_count": 37,
+        "gain": 0,
+        "extra_fp": 0,
+        "safe": true,
+        "lost_reference": false,
+        "per_image_false_positive_regression": false,
+        "count_regression": false
+      },
+      {
+        "rule": {
+          "method": "prior-identity",
+          "minimum": 1,
+          "floor": 0.65,
+          "distinct": 0.93
+        },
+        "tp": 15,
+        "fp": 7,
+        "exact_count": 37,
+        "gain": 0,
+        "extra_fp": 0,
+        "safe": true,
+        "lost_reference": false,
+        "per_image_false_positive_regression": false,
+        "count_regression": false
+      },
+      {
+        "rule": {
+          "method": "prior-identity",
+          "minimum": 1,
+          "floor": 0.65,
+          "distinct": 0.98
+        },
+        "tp": 15,
+        "fp": 7,
+        "exact_count": 37,
+        "gain": 0,
+        "extra_fp": 0,
+        "safe": true,
+        "lost_reference": false,
+        "per_image_false_positive_regression": false,
+        "count_regression": false
+      },
+      {
+        "rule": {
+          "method": "prior-identity",
+          "minimum": 1,
+          "floor": 0.75,
+          "distinct": 0.65
+        },
+        "tp": 15,
+        "fp": 7,
+        "exact_count": 37,
+        "gain": 0,
+        "extra_fp": 0,
+        "safe": true,
+        "lost_reference": false,
+        "per_image_false_positive_regression": false,
+        "count_regression": false
+      },
+      {
+        "rule": {
+          "method": "prior-identity",
+          "minimum": 1,
+          "floor": 0.75,
+          "distinct": 0.75
+        },
+        "tp": 15,
+        "fp": 7,
+        "exact_count": 37,
+        "gain": 0,
+        "extra_fp": 0,
+        "safe": true,
+        "lost_reference": false,
+        "per_image_false_positive_regression": false,
+        "count_regression": false
+      },
+      {
+        "rule": {
+          "method": "prior-identity",
+          "minimum": 1,
+          "floor": 0.75,
+          "distinct": 0.85
+        },
+        "tp": 15,
+        "fp": 7,
+        "exact_count": 37,
+        "gain": 0,
+        "extra_fp": 0,
+        "safe": true,
+        "lost_reference": false,
+        "per_image_false_positive_regression": false,
+        "count_regression": false
+      },
+      {
+        "rule": {
+          "method": "prior-identity",
+          "minimum": 1,
+          "floor": 0.75,
+          "distinct": 0.93
+        },
+        "tp": 15,
+        "fp": 7,
+        "exact_count": 37,
+        "gain": 0,
+        "extra_fp": 0,
+        "safe": true,
+        "lost_reference": false,
+        "per_image_false_positive_regression": false,
+        "count_regression": false
+      },
+      {
+        "rule": {
+          "method": "prior-identity",
+          "minimum": 1,
+          "floor": 0.75,
+          "distinct": 0.98
+        },
+        "tp": 15,
+        "fp": 7,
+        "exact_count": 37,
+        "gain": 0,
+        "extra_fp": 0,
+        "safe": true,
+        "lost_reference": false,
+        "per_image_false_positive_regression": false,
+        "count_regression": false
+      },
+      {
+        "rule": {
+          "method": "prior-identity",
+          "minimum": 1,
+          "floor": 0.85,
+          "distinct": 0.65
+        },
+        "tp": 15,
+        "fp": 7,
+        "exact_count": 37,
+        "gain": 0,
+        "extra_fp": 0,
+        "safe": true,
+        "lost_reference": false,
+        "per_image_false_positive_regression": false,
+        "count_regression": false
+      },
+      {
+        "rule": {
+          "method": "prior-identity",
+          "minimum": 1,
+          "floor": 0.85,
+          "distinct": 0.75
+        },
+        "tp": 15,
+        "fp": 7,
+        "exact_count": 37,
+        "gain": 0,
+        "extra_fp": 0,
+        "safe": true,
+        "lost_reference": false,
+        "per_image_false_positive_regression": false,
+        "count_regression": false
+      },
+      {
+        "rule": {
+          "method": "prior-identity",
+          "minimum": 1,
+          "floor": 0.85,
+          "distinct": 0.85
+        },
+        "tp": 15,
+        "fp": 7,
+        "exact_count": 37,
+        "gain": 0,
+        "extra_fp": 0,
+        "safe": true,
+        "lost_reference": false,
+        "per_image_false_positive_regression": false,
+        "count_regression": false
+      },
+      {
+        "rule": {
+          "method": "prior-identity",
+          "minimum": 1,
+          "floor": 0.85,
+          "distinct": 0.93
+        },
+        "tp": 15,
+        "fp": 7,
+        "exact_count": 37,
+        "gain": 0,
+        "extra_fp": 0,
+        "safe": true,
+        "lost_reference": false,
+        "per_image_false_positive_regression": false,
+        "count_regression": false
+      },
+      {
+        "rule": {
+          "method": "prior-identity",
+          "minimum": 1,
+          "floor": 0.85,
+          "distinct": 0.98
+        },
+        "tp": 15,
+        "fp": 7,
+        "exact_count": 37,
+        "gain": 0,
+        "extra_fp": 0,
+        "safe": true,
+        "lost_reference": false,
+        "per_image_false_positive_regression": false,
+        "count_regression": false
+      },
+      {
+        "rule": {
+          "method": "prior-identity",
+          "minimum": 1,
+          "floor": 0.95,
+          "distinct": 0.65
+        },
+        "tp": 15,
+        "fp": 7,
+        "exact_count": 37,
+        "gain": 0,
+        "extra_fp": 0,
+        "safe": true,
+        "lost_reference": false,
+        "per_image_false_positive_regression": false,
+        "count_regression": false
+      },
+      {
+        "rule": {
+          "method": "prior-identity",
+          "minimum": 1,
+          "floor": 0.95,
+          "distinct": 0.75
+        },
+        "tp": 15,
+        "fp": 7,
+        "exact_count": 37,
+        "gain": 0,
+        "extra_fp": 0,
+        "safe": true,
+        "lost_reference": false,
+        "per_image_false_positive_regression": false,
+        "count_regression": false
+      },
+      {
+        "rule": {
+          "method": "prior-identity",
+          "minimum": 1,
+          "floor": 0.95,
+          "distinct": 0.85
+        },
+        "tp": 15,
+        "fp": 7,
+        "exact_count": 37,
+        "gain": 0,
+        "extra_fp": 0,
+        "safe": true,
+        "lost_reference": false,
+        "per_image_false_positive_regression": false,
+        "count_regression": false
+      },
+      {
+        "rule": {
+          "method": "prior-identity",
+          "minimum": 1,
+          "floor": 0.95,
+          "distinct": 0.93
+        },
+        "tp": 15,
+        "fp": 7,
+        "exact_count": 37,
+        "gain": 0,
+        "extra_fp": 0,
+        "safe": true,
+        "lost_reference": false,
+        "per_image_false_positive_regression": false,
+        "count_regression": false
+      },
+      {
+        "rule": {
+          "method": "prior-identity",
+          "minimum": 1,
+          "floor": 0.95,
+          "distinct": 0.98
+        },
+        "tp": 15,
+        "fp": 7,
+        "exact_count": 37,
+        "gain": 0,
+        "extra_fp": 0,
+        "safe": true,
+        "lost_reference": false,
+        "per_image_false_positive_regression": false,
+        "count_regression": false
+      },
+      {
+        "rule": {
+          "method": "prior-identity",
+          "minimum": 1,
+          "floor": 1.01,
+          "distinct": 0.65
+        },
+        "tp": 15,
+        "fp": 7,
+        "exact_count": 37,
+        "gain": 0,
+        "extra_fp": 0,
+        "safe": true,
+        "lost_reference": false,
+        "per_image_false_positive_regression": false,
+        "count_regression": false
+      },
+      {
+        "rule": {
+          "method": "prior-identity",
+          "minimum": 1,
+          "floor": 1.01,
+          "distinct": 0.75
+        },
+        "tp": 15,
+        "fp": 7,
+        "exact_count": 37,
+        "gain": 0,
+        "extra_fp": 0,
+        "safe": true,
+        "lost_reference": false,
+        "per_image_false_positive_regression": false,
+        "count_regression": false
+      },
+      {
+        "rule": {
+          "method": "prior-identity",
+          "minimum": 1,
+          "floor": 1.01,
+          "distinct": 0.85
+        },
+        "tp": 15,
+        "fp": 7,
+        "exact_count": 37,
+        "gain": 0,
+        "extra_fp": 0,
+        "safe": true,
+        "lost_reference": false,
+        "per_image_false_positive_regression": false,
+        "count_regression": false
+      },
+      {
+        "rule": {
+          "method": "prior-identity",
+          "minimum": 1,
+          "floor": 1.01,
+          "distinct": 0.93
+        },
+        "tp": 15,
+        "fp": 7,
+        "exact_count": 37,
+        "gain": 0,
+        "extra_fp": 0,
+        "safe": true,
+        "lost_reference": false,
+        "per_image_false_positive_regression": false,
+        "count_regression": false
+      },
+      {
+        "rule": {
+          "method": "prior-identity",
+          "minimum": 1,
+          "floor": 1.01,
+          "distinct": 0.98
+        },
+        "tp": 15,
+        "fp": 7,
+        "exact_count": 37,
+        "gain": 0,
+        "extra_fp": 0,
+        "safe": true,
+        "lost_reference": false,
+        "per_image_false_positive_regression": false,
+        "count_regression": false
+      },
+      {
+        "rule": {
+          "method": "prior-identity",
+          "minimum": 2,
+          "floor": 0.12,
+          "distinct": 0.65
+        },
+        "tp": 15,
+        "fp": 7,
+        "exact_count": 37,
+        "gain": 0,
+        "extra_fp": 0,
+        "safe": true,
+        "lost_reference": false,
+        "per_image_false_positive_regression": false,
+        "count_regression": false
+      },
+      {
+        "rule": {
+          "method": "prior-identity",
+          "minimum": 2,
+          "floor": 0.12,
+          "distinct": 0.75
+        },
+        "tp": 15,
+        "fp": 7,
+        "exact_count": 37,
+        "gain": 0,
+        "extra_fp": 0,
+        "safe": true,
+        "lost_reference": false,
+        "per_image_false_positive_regression": false,
+        "count_regression": false
+      },
+      {
+        "rule": {
+          "method": "prior-identity",
+          "minimum": 2,
+          "floor": 0.12,
+          "distinct": 0.85
+        },
+        "tp": 15,
+        "fp": 7,
+        "exact_count": 37,
+        "gain": 0,
+        "extra_fp": 0,
+        "safe": true,
+        "lost_reference": false,
+        "per_image_false_positive_regression": false,
+        "count_regression": false
+      },
+      {
+        "rule": {
+          "method": "prior-identity",
+          "minimum": 2,
+          "floor": 0.12,
+          "distinct": 0.93
+        },
+        "tp": 15,
+        "fp": 7,
+        "exact_count": 37,
+        "gain": 0,
+        "extra_fp": 0,
+        "safe": true,
+        "lost_reference": false,
+        "per_image_false_positive_regression": false,
+        "count_regression": false
+      },
+      {
+        "rule": {
+          "method": "prior-identity",
+          "minimum": 2,
+          "floor": 0.12,
+          "distinct": 0.98
+        },
+        "tp": 15,
+        "fp": 7,
+        "exact_count": 37,
+        "gain": 0,
+        "extra_fp": 0,
+        "safe": true,
+        "lost_reference": false,
+        "per_image_false_positive_regression": false,
+        "count_regression": false
+      },
+      {
+        "rule": {
+          "method": "prior-identity",
+          "minimum": 2,
+          "floor": 0.18,
+          "distinct": 0.65
+        },
+        "tp": 15,
+        "fp": 7,
+        "exact_count": 37,
+        "gain": 0,
+        "extra_fp": 0,
+        "safe": true,
+        "lost_reference": false,
+        "per_image_false_positive_regression": false,
+        "count_regression": false
+      },
+      {
+        "rule": {
+          "method": "prior-identity",
+          "minimum": 2,
+          "floor": 0.18,
+          "distinct": 0.75
+        },
+        "tp": 15,
+        "fp": 7,
+        "exact_count": 37,
+        "gain": 0,
+        "extra_fp": 0,
+        "safe": true,
+        "lost_reference": false,
+        "per_image_false_positive_regression": false,
+        "count_regression": false
+      },
+      {
+        "rule": {
+          "method": "prior-identity",
+          "minimum": 2,
+          "floor": 0.18,
+          "distinct": 0.85
+        },
+        "tp": 15,
+        "fp": 7,
+        "exact_count": 37,
+        "gain": 0,
+        "extra_fp": 0,
+        "safe": true,
+        "lost_reference": false,
+        "per_image_false_positive_regression": false,
+        "count_regression": false
+      },
+      {
+        "rule": {
+          "method": "prior-identity",
+          "minimum": 2,
+          "floor": 0.18,
+          "distinct": 0.93
+        },
+        "tp": 15,
+        "fp": 7,
+        "exact_count": 37,
+        "gain": 0,
+        "extra_fp": 0,
+        "safe": true,
+        "lost_reference": false,
+        "per_image_false_positive_regression": false,
+        "count_regression": false
+      },
+      {
+        "rule": {
+          "method": "prior-identity",
+          "minimum": 2,
+          "floor": 0.18,
+          "distinct": 0.98
+        },
+        "tp": 15,
+        "fp": 7,
+        "exact_count": 37,
+        "gain": 0,
+        "extra_fp": 0,
+        "safe": true,
+        "lost_reference": false,
+        "per_image_false_positive_regression": false,
+        "count_regression": false
+      },
+      {
+        "rule": {
+          "method": "prior-identity",
+          "minimum": 2,
+          "floor": 0.25,
+          "distinct": 0.65
+        },
+        "tp": 15,
+        "fp": 7,
+        "exact_count": 37,
+        "gain": 0,
+        "extra_fp": 0,
+        "safe": true,
+        "lost_reference": false,
+        "per_image_false_positive_regression": false,
+        "count_regression": false
+      },
+      {
+        "rule": {
+          "method": "prior-identity",
+          "minimum": 2,
+          "floor": 0.25,
+          "distinct": 0.75
+        },
+        "tp": 15,
+        "fp": 7,
+        "exact_count": 37,
+        "gain": 0,
+        "extra_fp": 0,
+        "safe": true,
+        "lost_reference": false,
+        "per_image_false_positive_regression": false,
+        "count_regression": false
+      },
+      {
+        "rule": {
+          "method": "prior-identity",
+          "minimum": 2,
+          "floor": 0.25,
+          "distinct": 0.85
+        },
+        "tp": 15,
+        "fp": 7,
+        "exact_count": 37,
+        "gain": 0,
+        "extra_fp": 0,
+        "safe": true,
+        "lost_reference": false,
+        "per_image_false_positive_regression": false,
+        "count_regression": false
+      },
+      {
+        "rule": {
+          "method": "prior-identity",
+          "minimum": 2,
+          "floor": 0.25,
+          "distinct": 0.93
+        },
+        "tp": 15,
+        "fp": 7,
+        "exact_count": 37,
+        "gain": 0,
+        "extra_fp": 0,
+        "safe": true,
+        "lost_reference": false,
+        "per_image_false_positive_regression": false,
+        "count_regression": false
+      },
+      {
+        "rule": {
+          "method": "prior-identity",
+          "minimum": 2,
+          "floor": 0.25,
+          "distinct": 0.98
+        },
+        "tp": 15,
+        "fp": 7,
+        "exact_count": 37,
+        "gain": 0,
+        "extra_fp": 0,
+        "safe": true,
+        "lost_reference": false,
+        "per_image_false_positive_regression": false,
+        "count_regression": false
+      },
+      {
+        "rule": {
+          "method": "prior-identity",
+          "minimum": 2,
+          "floor": 0.3,
+          "distinct": 0.65
+        },
+        "tp": 15,
+        "fp": 7,
+        "exact_count": 37,
+        "gain": 0,
+        "extra_fp": 0,
+        "safe": true,
+        "lost_reference": false,
+        "per_image_false_positive_regression": false,
+        "count_regression": false
+      },
+      {
+        "rule": {
+          "method": "prior-identity",
+          "minimum": 2,
+          "floor": 0.3,
+          "distinct": 0.75
+        },
+        "tp": 15,
+        "fp": 7,
+        "exact_count": 37,
+        "gain": 0,
+        "extra_fp": 0,
+        "safe": true,
+        "lost_reference": false,
+        "per_image_false_positive_regression": false,
+        "count_regression": false
+      },
+      {
+        "rule": {
+          "method": "prior-identity",
+          "minimum": 2,
+          "floor": 0.3,
+          "distinct": 0.85
+        },
+        "tp": 15,
+        "fp": 7,
+        "exact_count": 37,
+        "gain": 0,
+        "extra_fp": 0,
+        "safe": true,
+        "lost_reference": false,
+        "per_image_false_positive_regression": false,
+        "count_regression": false
+      },
+      {
+        "rule": {
+          "method": "prior-identity",
+          "minimum": 2,
+          "floor": 0.3,
+          "distinct": 0.93
+        },
+        "tp": 15,
+        "fp": 7,
+        "exact_count": 37,
+        "gain": 0,
+        "extra_fp": 0,
+        "safe": true,
+        "lost_reference": false,
+        "per_image_false_positive_regression": false,
+        "count_regression": false
+      },
+      {
+        "rule": {
+          "method": "prior-identity",
+          "minimum": 2,
+          "floor": 0.3,
+          "distinct": 0.98
+        },
+        "tp": 15,
+        "fp": 7,
+        "exact_count": 37,
+        "gain": 0,
+        "extra_fp": 0,
+        "safe": true,
+        "lost_reference": false,
+        "per_image_false_positive_regression": false,
+        "count_regression": false
+      },
+      {
+        "rule": {
+          "method": "prior-identity",
+          "minimum": 2,
+          "floor": 0.35,
+          "distinct": 0.65
+        },
+        "tp": 15,
+        "fp": 7,
+        "exact_count": 37,
+        "gain": 0,
+        "extra_fp": 0,
+        "safe": true,
+        "lost_reference": false,
+        "per_image_false_positive_regression": false,
+        "count_regression": false
+      },
+      {
+        "rule": {
+          "method": "prior-identity",
+          "minimum": 2,
+          "floor": 0.35,
+          "distinct": 0.75
+        },
+        "tp": 15,
+        "fp": 7,
+        "exact_count": 37,
+        "gain": 0,
+        "extra_fp": 0,
+        "safe": true,
+        "lost_reference": false,
+        "per_image_false_positive_regression": false,
+        "count_regression": false
+      },
+      {
+        "rule": {
+          "method": "prior-identity",
+          "minimum": 2,
+          "floor": 0.35,
+          "distinct": 0.85
+        },
+        "tp": 15,
+        "fp": 7,
+        "exact_count": 37,
+        "gain": 0,
+        "extra_fp": 0,
+        "safe": true,
+        "lost_reference": false,
+        "per_image_false_positive_regression": false,
+        "count_regression": false
+      },
+      {
+        "rule": {
+          "method": "prior-identity",
+          "minimum": 2,
+          "floor": 0.35,
+          "distinct": 0.93
+        },
+        "tp": 15,
+        "fp": 7,
+        "exact_count": 37,
+        "gain": 0,
+        "extra_fp": 0,
+        "safe": true,
+        "lost_reference": false,
+        "per_image_false_positive_regression": false,
+        "count_regression": false
+      },
+      {
+        "rule": {
+          "method": "prior-identity",
+          "minimum": 2,
+          "floor": 0.35,
+          "distinct": 0.98
+        },
+        "tp": 15,
+        "fp": 7,
+        "exact_count": 37,
+        "gain": 0,
+        "extra_fp": 0,
+        "safe": true,
+        "lost_reference": false,
+        "per_image_false_positive_regression": false,
+        "count_regression": false
+      },
+      {
+        "rule": {
+          "method": "prior-identity",
+          "minimum": 2,
+          "floor": 0.4,
+          "distinct": 0.65
+        },
+        "tp": 15,
+        "fp": 7,
+        "exact_count": 37,
+        "gain": 0,
+        "extra_fp": 0,
+        "safe": true,
+        "lost_reference": false,
+        "per_image_false_positive_regression": false,
+        "count_regression": false
+      },
+      {
+        "rule": {
+          "method": "prior-identity",
+          "minimum": 2,
+          "floor": 0.4,
+          "distinct": 0.75
+        },
+        "tp": 15,
+        "fp": 7,
+        "exact_count": 37,
+        "gain": 0,
+        "extra_fp": 0,
+        "safe": true,
+        "lost_reference": false,
+        "per_image_false_positive_regression": false,
+        "count_regression": false
+      },
+      {
+        "rule": {
+          "method": "prior-identity",
+          "minimum": 2,
+          "floor": 0.4,
+          "distinct": 0.85
+        },
+        "tp": 15,
+        "fp": 7,
+        "exact_count": 37,
+        "gain": 0,
+        "extra_fp": 0,
+        "safe": true,
+        "lost_reference": false,
+        "per_image_false_positive_regression": false,
+        "count_regression": false
+      },
+      {
+        "rule": {
+          "method": "prior-identity",
+          "minimum": 2,
+          "floor": 0.4,
+          "distinct": 0.93
+        },
+        "tp": 15,
+        "fp": 7,
+        "exact_count": 37,
+        "gain": 0,
+        "extra_fp": 0,
+        "safe": true,
+        "lost_reference": false,
+        "per_image_false_positive_regression": false,
+        "count_regression": false
+      },
+      {
+        "rule": {
+          "method": "prior-identity",
+          "minimum": 2,
+          "floor": 0.4,
+          "distinct": 0.98
+        },
+        "tp": 15,
+        "fp": 7,
+        "exact_count": 37,
+        "gain": 0,
+        "extra_fp": 0,
+        "safe": true,
+        "lost_reference": false,
+        "per_image_false_positive_regression": false,
+        "count_regression": false
+      },
+      {
+        "rule": {
+          "method": "prior-identity",
+          "minimum": 2,
+          "floor": 0.45,
+          "distinct": 0.65
+        },
+        "tp": 15,
+        "fp": 7,
+        "exact_count": 37,
+        "gain": 0,
+        "extra_fp": 0,
+        "safe": true,
+        "lost_reference": false,
+        "per_image_false_positive_regression": false,
+        "count_regression": false
+      },
+      {
+        "rule": {
+          "method": "prior-identity",
+          "minimum": 2,
+          "floor": 0.45,
+          "distinct": 0.75
+        },
+        "tp": 15,
+        "fp": 7,
+        "exact_count": 37,
+        "gain": 0,
+        "extra_fp": 0,
+        "safe": true,
+        "lost_reference": false,
+        "per_image_false_positive_regression": false,
+        "count_regression": false
+      },
+      {
+        "rule": {
+          "method": "prior-identity",
+          "minimum": 2,
+          "floor": 0.45,
+          "distinct": 0.85
+        },
+        "tp": 15,
+        "fp": 7,
+        "exact_count": 37,
+        "gain": 0,
+        "extra_fp": 0,
+        "safe": true,
+        "lost_reference": false,
+        "per_image_false_positive_regression": false,
+        "count_regression": false
+      },
+      {
+        "rule": {
+          "method": "prior-identity",
+          "minimum": 2,
+          "floor": 0.45,
+          "distinct": 0.93
+        },
+        "tp": 15,
+        "fp": 7,
+        "exact_count": 37,
+        "gain": 0,
+        "extra_fp": 0,
+        "safe": true,
+        "lost_reference": false,
+        "per_image_false_positive_regression": false,
+        "count_regression": false
+      },
+      {
+        "rule": {
+          "method": "prior-identity",
+          "minimum": 2,
+          "floor": 0.45,
+          "distinct": 0.98
+        },
+        "tp": 15,
+        "fp": 7,
+        "exact_count": 37,
+        "gain": 0,
+        "extra_fp": 0,
+        "safe": true,
+        "lost_reference": false,
+        "per_image_false_positive_regression": false,
+        "count_regression": false
+      },
+      {
+        "rule": {
+          "method": "prior-identity",
+          "minimum": 2,
+          "floor": 0.55,
+          "distinct": 0.65
+        },
+        "tp": 15,
+        "fp": 7,
+        "exact_count": 37,
+        "gain": 0,
+        "extra_fp": 0,
+        "safe": true,
+        "lost_reference": false,
+        "per_image_false_positive_regression": false,
+        "count_regression": false
+      },
+      {
+        "rule": {
+          "method": "prior-identity",
+          "minimum": 2,
+          "floor": 0.55,
+          "distinct": 0.75
+        },
+        "tp": 15,
+        "fp": 7,
+        "exact_count": 37,
+        "gain": 0,
+        "extra_fp": 0,
+        "safe": true,
+        "lost_reference": false,
+        "per_image_false_positive_regression": false,
+        "count_regression": false
+      },
+      {
+        "rule": {
+          "method": "prior-identity",
+          "minimum": 2,
+          "floor": 0.55,
+          "distinct": 0.85
+        },
+        "tp": 15,
+        "fp": 7,
+        "exact_count": 37,
+        "gain": 0,
+        "extra_fp": 0,
+        "safe": true,
+        "lost_reference": false,
+        "per_image_false_positive_regression": false,
+        "count_regression": false
+      },
+      {
+        "rule": {
+          "method": "prior-identity",
+          "minimum": 2,
+          "floor": 0.55,
+          "distinct": 0.93
+        },
+        "tp": 15,
+        "fp": 7,
+        "exact_count": 37,
+        "gain": 0,
+        "extra_fp": 0,
+        "safe": true,
+        "lost_reference": false,
+        "per_image_false_positive_regression": false,
+        "count_regression": false
+      },
+      {
+        "rule": {
+          "method": "prior-identity",
+          "minimum": 2,
+          "floor": 0.55,
+          "distinct": 0.98
+        },
+        "tp": 15,
+        "fp": 7,
+        "exact_count": 37,
+        "gain": 0,
+        "extra_fp": 0,
+        "safe": true,
+        "lost_reference": false,
+        "per_image_false_positive_regression": false,
+        "count_regression": false
+      },
+      {
+        "rule": {
+          "method": "prior-identity",
+          "minimum": 2,
+          "floor": 0.65,
+          "distinct": 0.65
+        },
+        "tp": 15,
+        "fp": 7,
+        "exact_count": 37,
+        "gain": 0,
+        "extra_fp": 0,
+        "safe": true,
+        "lost_reference": false,
+        "per_image_false_positive_regression": false,
+        "count_regression": false
+      },
+      {
+        "rule": {
+          "method": "prior-identity",
+          "minimum": 2,
+          "floor": 0.65,
+          "distinct": 0.75
+        },
+        "tp": 15,
+        "fp": 7,
+        "exact_count": 37,
+        "gain": 0,
+        "extra_fp": 0,
+        "safe": true,
+        "lost_reference": false,
+        "per_image_false_positive_regression": false,
+        "count_regression": false
+      },
+      {
+        "rule": {
+          "method": "prior-identity",
+          "minimum": 2,
+          "floor": 0.65,
+          "distinct": 0.85
+        },
+        "tp": 15,
+        "fp": 7,
+        "exact_count": 37,
+        "gain": 0,
+        "extra_fp": 0,
+        "safe": true,
+        "lost_reference": false,
+        "per_image_false_positive_regression": false,
+        "count_regression": false
+      },
+      {
+        "rule": {
+          "method": "prior-identity",
+          "minimum": 2,
+          "floor": 0.65,
+          "distinct": 0.93
+        },
+        "tp": 15,
+        "fp": 7,
+        "exact_count": 37,
+        "gain": 0,
+        "extra_fp": 0,
+        "safe": true,
+        "lost_reference": false,
+        "per_image_false_positive_regression": false,
+        "count_regression": false
+      },
+      {
+        "rule": {
+          "method": "prior-identity",
+          "minimum": 2,
+          "floor": 0.65,
+          "distinct": 0.98
+        },
+        "tp": 15,
+        "fp": 7,
+        "exact_count": 37,
+        "gain": 0,
+        "extra_fp": 0,
+        "safe": true,
+        "lost_reference": false,
+        "per_image_false_positive_regression": false,
+        "count_regression": false
+      },
+      {
+        "rule": {
+          "method": "prior-identity",
+          "minimum": 2,
+          "floor": 0.75,
+          "distinct": 0.65
+        },
+        "tp": 15,
+        "fp": 7,
+        "exact_count": 37,
+        "gain": 0,
+        "extra_fp": 0,
+        "safe": true,
+        "lost_reference": false,
+        "per_image_false_positive_regression": false,
+        "count_regression": false
+      },
+      {
+        "rule": {
+          "method": "prior-identity",
+          "minimum": 2,
+          "floor": 0.75,
+          "distinct": 0.75
+        },
+        "tp": 15,
+        "fp": 7,
+        "exact_count": 37,
+        "gain": 0,
+        "extra_fp": 0,
+        "safe": true,
+        "lost_reference": false,
+        "per_image_false_positive_regression": false,
+        "count_regression": false
+      },
+      {
+        "rule": {
+          "method": "prior-identity",
+          "minimum": 2,
+          "floor": 0.75,
+          "distinct": 0.85
+        },
+        "tp": 15,
+        "fp": 7,
+        "exact_count": 37,
+        "gain": 0,
+        "extra_fp": 0,
+        "safe": true,
+        "lost_reference": false,
+        "per_image_false_positive_regression": false,
+        "count_regression": false
+      },
+      {
+        "rule": {
+          "method": "prior-identity",
+          "minimum": 2,
+          "floor": 0.75,
+          "distinct": 0.93
+        },
+        "tp": 15,
+        "fp": 7,
+        "exact_count": 37,
+        "gain": 0,
+        "extra_fp": 0,
+        "safe": true,
+        "lost_reference": false,
+        "per_image_false_positive_regression": false,
+        "count_regression": false
+      },
+      {
+        "rule": {
+          "method": "prior-identity",
+          "minimum": 2,
+          "floor": 0.75,
+          "distinct": 0.98
+        },
+        "tp": 15,
+        "fp": 7,
+        "exact_count": 37,
+        "gain": 0,
+        "extra_fp": 0,
+        "safe": true,
+        "lost_reference": false,
+        "per_image_false_positive_regression": false,
+        "count_regression": false
+      },
+      {
+        "rule": {
+          "method": "prior-identity",
+          "minimum": 2,
+          "floor": 0.85,
+          "distinct": 0.65
+        },
+        "tp": 15,
+        "fp": 7,
+        "exact_count": 37,
+        "gain": 0,
+        "extra_fp": 0,
+        "safe": true,
+        "lost_reference": false,
+        "per_image_false_positive_regression": false,
+        "count_regression": false
+      },
+      {
+        "rule": {
+          "method": "prior-identity",
+          "minimum": 2,
+          "floor": 0.85,
+          "distinct": 0.75
+        },
+        "tp": 15,
+        "fp": 7,
+        "exact_count": 37,
+        "gain": 0,
+        "extra_fp": 0,
+        "safe": true,
+        "lost_reference": false,
+        "per_image_false_positive_regression": false,
+        "count_regression": false
+      },
+      {
+        "rule": {
+          "method": "prior-identity",
+          "minimum": 2,
+          "floor": 0.85,
+          "distinct": 0.85
+        },
+        "tp": 15,
+        "fp": 7,
+        "exact_count": 37,
+        "gain": 0,
+        "extra_fp": 0,
+        "safe": true,
+        "lost_reference": false,
+        "per_image_false_positive_regression": false,
+        "count_regression": false
+      },
+      {
+        "rule": {
+          "method": "prior-identity",
+          "minimum": 2,
+          "floor": 0.85,
+          "distinct": 0.93
+        },
+        "tp": 15,
+        "fp": 7,
+        "exact_count": 37,
+        "gain": 0,
+        "extra_fp": 0,
+        "safe": true,
+        "lost_reference": false,
+        "per_image_false_positive_regression": false,
+        "count_regression": false
+      },
+      {
+        "rule": {
+          "method": "prior-identity",
+          "minimum": 2,
+          "floor": 0.85,
+          "distinct": 0.98
+        },
+        "tp": 15,
+        "fp": 7,
+        "exact_count": 37,
+        "gain": 0,
+        "extra_fp": 0,
+        "safe": true,
+        "lost_reference": false,
+        "per_image_false_positive_regression": false,
+        "count_regression": false
+      },
+      {
+        "rule": {
+          "method": "prior-identity",
+          "minimum": 2,
+          "floor": 0.95,
+          "distinct": 0.65
+        },
+        "tp": 15,
+        "fp": 7,
+        "exact_count": 37,
+        "gain": 0,
+        "extra_fp": 0,
+        "safe": true,
+        "lost_reference": false,
+        "per_image_false_positive_regression": false,
+        "count_regression": false
+      },
+      {
+        "rule": {
+          "method": "prior-identity",
+          "minimum": 2,
+          "floor": 0.95,
+          "distinct": 0.75
+        },
+        "tp": 15,
+        "fp": 7,
+        "exact_count": 37,
+        "gain": 0,
+        "extra_fp": 0,
+        "safe": true,
+        "lost_reference": false,
+        "per_image_false_positive_regression": false,
+        "count_regression": false
+      },
+      {
+        "rule": {
+          "method": "prior-identity",
+          "minimum": 2,
+          "floor": 0.95,
+          "distinct": 0.85
+        },
+        "tp": 15,
+        "fp": 7,
+        "exact_count": 37,
+        "gain": 0,
+        "extra_fp": 0,
+        "safe": true,
+        "lost_reference": false,
+        "per_image_false_positive_regression": false,
+        "count_regression": false
+      },
+      {
+        "rule": {
+          "method": "prior-identity",
+          "minimum": 2,
+          "floor": 0.95,
+          "distinct": 0.93
+        },
+        "tp": 15,
+        "fp": 7,
+        "exact_count": 37,
+        "gain": 0,
+        "extra_fp": 0,
+        "safe": true,
+        "lost_reference": false,
+        "per_image_false_positive_regression": false,
+        "count_regression": false
+      },
+      {
+        "rule": {
+          "method": "prior-identity",
+          "minimum": 2,
+          "floor": 0.95,
+          "distinct": 0.98
+        },
+        "tp": 15,
+        "fp": 7,
+        "exact_count": 37,
+        "gain": 0,
+        "extra_fp": 0,
+        "safe": true,
+        "lost_reference": false,
+        "per_image_false_positive_regression": false,
+        "count_regression": false
+      },
+      {
+        "rule": {
+          "method": "prior-identity",
+          "minimum": 2,
+          "floor": 1.01,
+          "distinct": 0.65
+        },
+        "tp": 15,
+        "fp": 7,
+        "exact_count": 37,
+        "gain": 0,
+        "extra_fp": 0,
+        "safe": true,
+        "lost_reference": false,
+        "per_image_false_positive_regression": false,
+        "count_regression": false
+      },
+      {
+        "rule": {
+          "method": "prior-identity",
+          "minimum": 2,
+          "floor": 1.01,
+          "distinct": 0.75
+        },
+        "tp": 15,
+        "fp": 7,
+        "exact_count": 37,
+        "gain": 0,
+        "extra_fp": 0,
+        "safe": true,
+        "lost_reference": false,
+        "per_image_false_positive_regression": false,
+        "count_regression": false
+      },
+      {
+        "rule": {
+          "method": "prior-identity",
+          "minimum": 2,
+          "floor": 1.01,
+          "distinct": 0.85
+        },
+        "tp": 15,
+        "fp": 7,
+        "exact_count": 37,
+        "gain": 0,
+        "extra_fp": 0,
+        "safe": true,
+        "lost_reference": false,
+        "per_image_false_positive_regression": false,
+        "count_regression": false
+      },
+      {
+        "rule": {
+          "method": "prior-identity",
+          "minimum": 2,
+          "floor": 1.01,
+          "distinct": 0.93
+        },
+        "tp": 15,
+        "fp": 7,
+        "exact_count": 37,
+        "gain": 0,
+        "extra_fp": 0,
+        "safe": true,
+        "lost_reference": false,
+        "per_image_false_positive_regression": false,
+        "count_regression": false
+      },
+      {
+        "rule": {
+          "method": "prior-identity",
+          "minimum": 2,
+          "floor": 1.01,
+          "distinct": 0.98
+        },
+        "tp": 15,
+        "fp": 7,
+        "exact_count": 37,
+        "gain": 0,
+        "extra_fp": 0,
+        "safe": true,
+        "lost_reference": false,
+        "per_image_false_positive_regression": false,
+        "count_regression": false
+      },
+      {
+        "rule": {
+          "method": "axis-identity",
+          "minimum": 1,
+          "floor": 0.12,
+          "distinct": 0.65
+        },
+        "tp": 15,
+        "fp": 9,
+        "exact_count": 36,
+        "gain": 0,
+        "extra_fp": 2,
+        "safe": false,
+        "lost_reference": false,
+        "per_image_false_positive_regression": true,
+        "count_regression": true
+      },
+      {
+        "rule": {
+          "method": "axis-identity",
+          "minimum": 1,
+          "floor": 0.12,
+          "distinct": 0.75
+        },
+        "tp": 15,
+        "fp": 9,
+        "exact_count": 36,
+        "gain": 0,
+        "extra_fp": 2,
+        "safe": false,
+        "lost_reference": false,
+        "per_image_false_positive_regression": true,
+        "count_regression": true
+      },
+      {
+        "rule": {
+          "method": "axis-identity",
+          "minimum": 1,
+          "floor": 0.12,
+          "distinct": 0.85
+        },
+        "tp": 15,
+        "fp": 8,
+        "exact_count": 36,
+        "gain": 0,
+        "extra_fp": 1,
+        "safe": false,
+        "lost_reference": false,
+        "per_image_false_positive_regression": true,
+        "count_regression": true
+      },
+      {
+        "rule": {
+          "method": "axis-identity",
+          "minimum": 1,
+          "floor": 0.12,
+          "distinct": 0.93
+        },
+        "tp": 15,
+        "fp": 7,
+        "exact_count": 37,
+        "gain": 0,
+        "extra_fp": 0,
+        "safe": true,
+        "lost_reference": false,
+        "per_image_false_positive_regression": false,
+        "count_regression": false
+      },
+      {
+        "rule": {
+          "method": "axis-identity",
+          "minimum": 1,
+          "floor": 0.12,
+          "distinct": 0.98
+        },
+        "tp": 15,
+        "fp": 7,
+        "exact_count": 37,
+        "gain": 0,
+        "extra_fp": 0,
+        "safe": true,
+        "lost_reference": false,
+        "per_image_false_positive_regression": false,
+        "count_regression": false
+      },
+      {
+        "rule": {
+          "method": "axis-identity",
+          "minimum": 1,
+          "floor": 0.18,
+          "distinct": 0.65
+        },
+        "tp": 15,
+        "fp": 8,
+        "exact_count": 37,
+        "gain": 0,
+        "extra_fp": 1,
+        "safe": false,
+        "lost_reference": false,
+        "per_image_false_positive_regression": true,
+        "count_regression": true
+      },
+      {
+        "rule": {
+          "method": "axis-identity",
+          "minimum": 1,
+          "floor": 0.18,
+          "distinct": 0.75
+        },
+        "tp": 15,
+        "fp": 8,
+        "exact_count": 37,
+        "gain": 0,
+        "extra_fp": 1,
+        "safe": false,
+        "lost_reference": false,
+        "per_image_false_positive_regression": true,
+        "count_regression": true
+      },
+      {
+        "rule": {
+          "method": "axis-identity",
+          "minimum": 1,
+          "floor": 0.18,
+          "distinct": 0.85
+        },
+        "tp": 15,
+        "fp": 7,
+        "exact_count": 37,
+        "gain": 0,
+        "extra_fp": 0,
+        "safe": true,
+        "lost_reference": false,
+        "per_image_false_positive_regression": false,
+        "count_regression": false
+      },
+      {
+        "rule": {
+          "method": "axis-identity",
+          "minimum": 1,
+          "floor": 0.18,
+          "distinct": 0.93
+        },
+        "tp": 15,
+        "fp": 7,
+        "exact_count": 37,
+        "gain": 0,
+        "extra_fp": 0,
+        "safe": true,
+        "lost_reference": false,
+        "per_image_false_positive_regression": false,
+        "count_regression": false
+      },
+      {
+        "rule": {
+          "method": "axis-identity",
+          "minimum": 1,
+          "floor": 0.18,
+          "distinct": 0.98
+        },
+        "tp": 15,
+        "fp": 7,
+        "exact_count": 37,
+        "gain": 0,
+        "extra_fp": 0,
+        "safe": true,
+        "lost_reference": false,
+        "per_image_false_positive_regression": false,
+        "count_regression": false
+      },
+      {
+        "rule": {
+          "method": "axis-identity",
+          "minimum": 1,
+          "floor": 0.25,
+          "distinct": 0.65
+        },
+        "tp": 15,
+        "fp": 8,
+        "exact_count": 37,
+        "gain": 0,
+        "extra_fp": 1,
+        "safe": false,
+        "lost_reference": false,
+        "per_image_false_positive_regression": true,
+        "count_regression": true
+      },
+      {
+        "rule": {
+          "method": "axis-identity",
+          "minimum": 1,
+          "floor": 0.25,
+          "distinct": 0.75
+        },
+        "tp": 15,
+        "fp": 8,
+        "exact_count": 37,
+        "gain": 0,
+        "extra_fp": 1,
+        "safe": false,
+        "lost_reference": false,
+        "per_image_false_positive_regression": true,
+        "count_regression": true
+      },
+      {
+        "rule": {
+          "method": "axis-identity",
+          "minimum": 1,
+          "floor": 0.25,
+          "distinct": 0.85
+        },
+        "tp": 15,
+        "fp": 7,
+        "exact_count": 37,
+        "gain": 0,
+        "extra_fp": 0,
+        "safe": true,
+        "lost_reference": false,
+        "per_image_false_positive_regression": false,
+        "count_regression": false
+      },
+      {
+        "rule": {
+          "method": "axis-identity",
+          "minimum": 1,
+          "floor": 0.25,
+          "distinct": 0.93
+        },
+        "tp": 15,
+        "fp": 7,
+        "exact_count": 37,
+        "gain": 0,
+        "extra_fp": 0,
+        "safe": true,
+        "lost_reference": false,
+        "per_image_false_positive_regression": false,
+        "count_regression": false
+      },
+      {
+        "rule": {
+          "method": "axis-identity",
+          "minimum": 1,
+          "floor": 0.25,
+          "distinct": 0.98
+        },
+        "tp": 15,
+        "fp": 7,
+        "exact_count": 37,
+        "gain": 0,
+        "extra_fp": 0,
+        "safe": true,
+        "lost_reference": false,
+        "per_image_false_positive_regression": false,
+        "count_regression": false
+      },
+      {
+        "rule": {
+          "method": "axis-identity",
+          "minimum": 1,
+          "floor": 0.3,
+          "distinct": 0.65
+        },
+        "tp": 15,
+        "fp": 7,
+        "exact_count": 37,
+        "gain": 0,
+        "extra_fp": 0,
+        "safe": true,
+        "lost_reference": false,
+        "per_image_false_positive_regression": false,
+        "count_regression": false
+      },
+      {
+        "rule": {
+          "method": "axis-identity",
+          "minimum": 1,
+          "floor": 0.3,
+          "distinct": 0.75
+        },
+        "tp": 15,
+        "fp": 7,
+        "exact_count": 37,
+        "gain": 0,
+        "extra_fp": 0,
+        "safe": true,
+        "lost_reference": false,
+        "per_image_false_positive_regression": false,
+        "count_regression": false
+      },
+      {
+        "rule": {
+          "method": "axis-identity",
+          "minimum": 1,
+          "floor": 0.3,
+          "distinct": 0.85
+        },
+        "tp": 15,
+        "fp": 7,
+        "exact_count": 37,
+        "gain": 0,
+        "extra_fp": 0,
+        "safe": true,
+        "lost_reference": false,
+        "per_image_false_positive_regression": false,
+        "count_regression": false
+      },
+      {
+        "rule": {
+          "method": "axis-identity",
+          "minimum": 1,
+          "floor": 0.3,
+          "distinct": 0.93
+        },
+        "tp": 15,
+        "fp": 7,
+        "exact_count": 37,
+        "gain": 0,
+        "extra_fp": 0,
+        "safe": true,
+        "lost_reference": false,
+        "per_image_false_positive_regression": false,
+        "count_regression": false
+      },
+      {
+        "rule": {
+          "method": "axis-identity",
+          "minimum": 1,
+          "floor": 0.3,
+          "distinct": 0.98
+        },
+        "tp": 15,
+        "fp": 7,
+        "exact_count": 37,
+        "gain": 0,
+        "extra_fp": 0,
+        "safe": true,
+        "lost_reference": false,
+        "per_image_false_positive_regression": false,
+        "count_regression": false
+      },
+      {
+        "rule": {
+          "method": "axis-identity",
+          "minimum": 1,
+          "floor": 0.35,
+          "distinct": 0.65
+        },
+        "tp": 15,
+        "fp": 7,
+        "exact_count": 37,
+        "gain": 0,
+        "extra_fp": 0,
+        "safe": true,
+        "lost_reference": false,
+        "per_image_false_positive_regression": false,
+        "count_regression": false
+      },
+      {
+        "rule": {
+          "method": "axis-identity",
+          "minimum": 1,
+          "floor": 0.35,
+          "distinct": 0.75
+        },
+        "tp": 15,
+        "fp": 7,
+        "exact_count": 37,
+        "gain": 0,
+        "extra_fp": 0,
+        "safe": true,
+        "lost_reference": false,
+        "per_image_false_positive_regression": false,
+        "count_regression": false
+      },
+      {
+        "rule": {
+          "method": "axis-identity",
+          "minimum": 1,
+          "floor": 0.35,
+          "distinct": 0.85
+        },
+        "tp": 15,
+        "fp": 7,
+        "exact_count": 37,
+        "gain": 0,
+        "extra_fp": 0,
+        "safe": true,
+        "lost_reference": false,
+        "per_image_false_positive_regression": false,
+        "count_regression": false
+      },
+      {
+        "rule": {
+          "method": "axis-identity",
+          "minimum": 1,
+          "floor": 0.35,
+          "distinct": 0.93
+        },
+        "tp": 15,
+        "fp": 7,
+        "exact_count": 37,
+        "gain": 0,
+        "extra_fp": 0,
+        "safe": true,
+        "lost_reference": false,
+        "per_image_false_positive_regression": false,
+        "count_regression": false
+      },
+      {
+        "rule": {
+          "method": "axis-identity",
+          "minimum": 1,
+          "floor": 0.35,
+          "distinct": 0.98
+        },
+        "tp": 15,
+        "fp": 7,
+        "exact_count": 37,
+        "gain": 0,
+        "extra_fp": 0,
+        "safe": true,
+        "lost_reference": false,
+        "per_image_false_positive_regression": false,
+        "count_regression": false
+      },
+      {
+        "rule": {
+          "method": "axis-identity",
+          "minimum": 1,
+          "floor": 0.4,
+          "distinct": 0.65
+        },
+        "tp": 15,
+        "fp": 7,
+        "exact_count": 37,
+        "gain": 0,
+        "extra_fp": 0,
+        "safe": true,
+        "lost_reference": false,
+        "per_image_false_positive_regression": false,
+        "count_regression": false
+      },
+      {
+        "rule": {
+          "method": "axis-identity",
+          "minimum": 1,
+          "floor": 0.4,
+          "distinct": 0.75
+        },
+        "tp": 15,
+        "fp": 7,
+        "exact_count": 37,
+        "gain": 0,
+        "extra_fp": 0,
+        "safe": true,
+        "lost_reference": false,
+        "per_image_false_positive_regression": false,
+        "count_regression": false
+      },
+      {
+        "rule": {
+          "method": "axis-identity",
+          "minimum": 1,
+          "floor": 0.4,
+          "distinct": 0.85
+        },
+        "tp": 15,
+        "fp": 7,
+        "exact_count": 37,
+        "gain": 0,
+        "extra_fp": 0,
+        "safe": true,
+        "lost_reference": false,
+        "per_image_false_positive_regression": false,
+        "count_regression": false
+      },
+      {
+        "rule": {
+          "method": "axis-identity",
+          "minimum": 1,
+          "floor": 0.4,
+          "distinct": 0.93
+        },
+        "tp": 15,
+        "fp": 7,
+        "exact_count": 37,
+        "gain": 0,
+        "extra_fp": 0,
+        "safe": true,
+        "lost_reference": false,
+        "per_image_false_positive_regression": false,
+        "count_regression": false
+      },
+      {
+        "rule": {
+          "method": "axis-identity",
+          "minimum": 1,
+          "floor": 0.4,
+          "distinct": 0.98
+        },
+        "tp": 15,
+        "fp": 7,
+        "exact_count": 37,
+        "gain": 0,
+        "extra_fp": 0,
+        "safe": true,
+        "lost_reference": false,
+        "per_image_false_positive_regression": false,
+        "count_regression": false
+      },
+      {
+        "rule": {
+          "method": "axis-identity",
+          "minimum": 1,
+          "floor": 0.45,
+          "distinct": 0.65
+        },
+        "tp": 15,
+        "fp": 7,
+        "exact_count": 37,
+        "gain": 0,
+        "extra_fp": 0,
+        "safe": true,
+        "lost_reference": false,
+        "per_image_false_positive_regression": false,
+        "count_regression": false
+      },
+      {
+        "rule": {
+          "method": "axis-identity",
+          "minimum": 1,
+          "floor": 0.45,
+          "distinct": 0.75
+        },
+        "tp": 15,
+        "fp": 7,
+        "exact_count": 37,
+        "gain": 0,
+        "extra_fp": 0,
+        "safe": true,
+        "lost_reference": false,
+        "per_image_false_positive_regression": false,
+        "count_regression": false
+      },
+      {
+        "rule": {
+          "method": "axis-identity",
+          "minimum": 1,
+          "floor": 0.45,
+          "distinct": 0.85
+        },
+        "tp": 15,
+        "fp": 7,
+        "exact_count": 37,
+        "gain": 0,
+        "extra_fp": 0,
+        "safe": true,
+        "lost_reference": false,
+        "per_image_false_positive_regression": false,
+        "count_regression": false
+      },
+      {
+        "rule": {
+          "method": "axis-identity",
+          "minimum": 1,
+          "floor": 0.45,
+          "distinct": 0.93
+        },
+        "tp": 15,
+        "fp": 7,
+        "exact_count": 37,
+        "gain": 0,
+        "extra_fp": 0,
+        "safe": true,
+        "lost_reference": false,
+        "per_image_false_positive_regression": false,
+        "count_regression": false
+      },
+      {
+        "rule": {
+          "method": "axis-identity",
+          "minimum": 1,
+          "floor": 0.45,
+          "distinct": 0.98
+        },
+        "tp": 15,
+        "fp": 7,
+        "exact_count": 37,
+        "gain": 0,
+        "extra_fp": 0,
+        "safe": true,
+        "lost_reference": false,
+        "per_image_false_positive_regression": false,
+        "count_regression": false
+      },
+      {
+        "rule": {
+          "method": "axis-identity",
+          "minimum": 1,
+          "floor": 0.55,
+          "distinct": 0.65
+        },
+        "tp": 15,
+        "fp": 7,
+        "exact_count": 37,
+        "gain": 0,
+        "extra_fp": 0,
+        "safe": true,
+        "lost_reference": false,
+        "per_image_false_positive_regression": false,
+        "count_regression": false
+      },
+      {
+        "rule": {
+          "method": "axis-identity",
+          "minimum": 1,
+          "floor": 0.55,
+          "distinct": 0.75
+        },
+        "tp": 15,
+        "fp": 7,
+        "exact_count": 37,
+        "gain": 0,
+        "extra_fp": 0,
+        "safe": true,
+        "lost_reference": false,
+        "per_image_false_positive_regression": false,
+        "count_regression": false
+      },
+      {
+        "rule": {
+          "method": "axis-identity",
+          "minimum": 1,
+          "floor": 0.55,
+          "distinct": 0.85
+        },
+        "tp": 15,
+        "fp": 7,
+        "exact_count": 37,
+        "gain": 0,
+        "extra_fp": 0,
+        "safe": true,
+        "lost_reference": false,
+        "per_image_false_positive_regression": false,
+        "count_regression": false
+      },
+      {
+        "rule": {
+          "method": "axis-identity",
+          "minimum": 1,
+          "floor": 0.55,
+          "distinct": 0.93
+        },
+        "tp": 15,
+        "fp": 7,
+        "exact_count": 37,
+        "gain": 0,
+        "extra_fp": 0,
+        "safe": true,
+        "lost_reference": false,
+        "per_image_false_positive_regression": false,
+        "count_regression": false
+      },
+      {
+        "rule": {
+          "method": "axis-identity",
+          "minimum": 1,
+          "floor": 0.55,
+          "distinct": 0.98
+        },
+        "tp": 15,
+        "fp": 7,
+        "exact_count": 37,
+        "gain": 0,
+        "extra_fp": 0,
+        "safe": true,
+        "lost_reference": false,
+        "per_image_false_positive_regression": false,
+        "count_regression": false
+      },
+      {
+        "rule": {
+          "method": "axis-identity",
+          "minimum": 1,
+          "floor": 0.65,
+          "distinct": 0.65
+        },
+        "tp": 15,
+        "fp": 7,
+        "exact_count": 37,
+        "gain": 0,
+        "extra_fp": 0,
+        "safe": true,
+        "lost_reference": false,
+        "per_image_false_positive_regression": false,
+        "count_regression": false
+      },
+      {
+        "rule": {
+          "method": "axis-identity",
+          "minimum": 1,
+          "floor": 0.65,
+          "distinct": 0.75
+        },
+        "tp": 15,
+        "fp": 7,
+        "exact_count": 37,
+        "gain": 0,
+        "extra_fp": 0,
+        "safe": true,
+        "lost_reference": false,
+        "per_image_false_positive_regression": false,
+        "count_regression": false
+      },
+      {
+        "rule": {
+          "method": "axis-identity",
+          "minimum": 1,
+          "floor": 0.65,
+          "distinct": 0.85
+        },
+        "tp": 15,
+        "fp": 7,
+        "exact_count": 37,
+        "gain": 0,
+        "extra_fp": 0,
+        "safe": true,
+        "lost_reference": false,
+        "per_image_false_positive_regression": false,
+        "count_regression": false
+      },
+      {
+        "rule": {
+          "method": "axis-identity",
+          "minimum": 1,
+          "floor": 0.65,
+          "distinct": 0.93
+        },
+        "tp": 15,
+        "fp": 7,
+        "exact_count": 37,
+        "gain": 0,
+        "extra_fp": 0,
+        "safe": true,
+        "lost_reference": false,
+        "per_image_false_positive_regression": false,
+        "count_regression": false
+      },
+      {
+        "rule": {
+          "method": "axis-identity",
+          "minimum": 1,
+          "floor": 0.65,
+          "distinct": 0.98
+        },
+        "tp": 15,
+        "fp": 7,
+        "exact_count": 37,
+        "gain": 0,
+        "extra_fp": 0,
+        "safe": true,
+        "lost_reference": false,
+        "per_image_false_positive_regression": false,
+        "count_regression": false
+      },
+      {
+        "rule": {
+          "method": "axis-identity",
+          "minimum": 1,
+          "floor": 0.75,
+          "distinct": 0.65
+        },
+        "tp": 15,
+        "fp": 7,
+        "exact_count": 37,
+        "gain": 0,
+        "extra_fp": 0,
+        "safe": true,
+        "lost_reference": false,
+        "per_image_false_positive_regression": false,
+        "count_regression": false
+      },
+      {
+        "rule": {
+          "method": "axis-identity",
+          "minimum": 1,
+          "floor": 0.75,
+          "distinct": 0.75
+        },
+        "tp": 15,
+        "fp": 7,
+        "exact_count": 37,
+        "gain": 0,
+        "extra_fp": 0,
+        "safe": true,
+        "lost_reference": false,
+        "per_image_false_positive_regression": false,
+        "count_regression": false
+      },
+      {
+        "rule": {
+          "method": "axis-identity",
+          "minimum": 1,
+          "floor": 0.75,
+          "distinct": 0.85
+        },
+        "tp": 15,
+        "fp": 7,
+        "exact_count": 37,
+        "gain": 0,
+        "extra_fp": 0,
+        "safe": true,
+        "lost_reference": false,
+        "per_image_false_positive_regression": false,
+        "count_regression": false
+      },
+      {
+        "rule": {
+          "method": "axis-identity",
+          "minimum": 1,
+          "floor": 0.75,
+          "distinct": 0.93
+        },
+        "tp": 15,
+        "fp": 7,
+        "exact_count": 37,
+        "gain": 0,
+        "extra_fp": 0,
+        "safe": true,
+        "lost_reference": false,
+        "per_image_false_positive_regression": false,
+        "count_regression": false
+      },
+      {
+        "rule": {
+          "method": "axis-identity",
+          "minimum": 1,
+          "floor": 0.75,
+          "distinct": 0.98
+        },
+        "tp": 15,
+        "fp": 7,
+        "exact_count": 37,
+        "gain": 0,
+        "extra_fp": 0,
+        "safe": true,
+        "lost_reference": false,
+        "per_image_false_positive_regression": false,
+        "count_regression": false
+      },
+      {
+        "rule": {
+          "method": "axis-identity",
+          "minimum": 1,
+          "floor": 0.85,
+          "distinct": 0.65
+        },
+        "tp": 15,
+        "fp": 7,
+        "exact_count": 37,
+        "gain": 0,
+        "extra_fp": 0,
+        "safe": true,
+        "lost_reference": false,
+        "per_image_false_positive_regression": false,
+        "count_regression": false
+      },
+      {
+        "rule": {
+          "method": "axis-identity",
+          "minimum": 1,
+          "floor": 0.85,
+          "distinct": 0.75
+        },
+        "tp": 15,
+        "fp": 7,
+        "exact_count": 37,
+        "gain": 0,
+        "extra_fp": 0,
+        "safe": true,
+        "lost_reference": false,
+        "per_image_false_positive_regression": false,
+        "count_regression": false
+      },
+      {
+        "rule": {
+          "method": "axis-identity",
+          "minimum": 1,
+          "floor": 0.85,
+          "distinct": 0.85
+        },
+        "tp": 15,
+        "fp": 7,
+        "exact_count": 37,
+        "gain": 0,
+        "extra_fp": 0,
+        "safe": true,
+        "lost_reference": false,
+        "per_image_false_positive_regression": false,
+        "count_regression": false
+      },
+      {
+        "rule": {
+          "method": "axis-identity",
+          "minimum": 1,
+          "floor": 0.85,
+          "distinct": 0.93
+        },
+        "tp": 15,
+        "fp": 7,
+        "exact_count": 37,
+        "gain": 0,
+        "extra_fp": 0,
+        "safe": true,
+        "lost_reference": false,
+        "per_image_false_positive_regression": false,
+        "count_regression": false
+      },
+      {
+        "rule": {
+          "method": "axis-identity",
+          "minimum": 1,
+          "floor": 0.85,
+          "distinct": 0.98
+        },
+        "tp": 15,
+        "fp": 7,
+        "exact_count": 37,
+        "gain": 0,
+        "extra_fp": 0,
+        "safe": true,
+        "lost_reference": false,
+        "per_image_false_positive_regression": false,
+        "count_regression": false
+      },
+      {
+        "rule": {
+          "method": "axis-identity",
+          "minimum": 1,
+          "floor": 0.95,
+          "distinct": 0.65
+        },
+        "tp": 15,
+        "fp": 7,
+        "exact_count": 37,
+        "gain": 0,
+        "extra_fp": 0,
+        "safe": true,
+        "lost_reference": false,
+        "per_image_false_positive_regression": false,
+        "count_regression": false
+      },
+      {
+        "rule": {
+          "method": "axis-identity",
+          "minimum": 1,
+          "floor": 0.95,
+          "distinct": 0.75
+        },
+        "tp": 15,
+        "fp": 7,
+        "exact_count": 37,
+        "gain": 0,
+        "extra_fp": 0,
+        "safe": true,
+        "lost_reference": false,
+        "per_image_false_positive_regression": false,
+        "count_regression": false
+      },
+      {
+        "rule": {
+          "method": "axis-identity",
+          "minimum": 1,
+          "floor": 0.95,
+          "distinct": 0.85
+        },
+        "tp": 15,
+        "fp": 7,
+        "exact_count": 37,
+        "gain": 0,
+        "extra_fp": 0,
+        "safe": true,
+        "lost_reference": false,
+        "per_image_false_positive_regression": false,
+        "count_regression": false
+      },
+      {
+        "rule": {
+          "method": "axis-identity",
+          "minimum": 1,
+          "floor": 0.95,
+          "distinct": 0.93
+        },
+        "tp": 15,
+        "fp": 7,
+        "exact_count": 37,
+        "gain": 0,
+        "extra_fp": 0,
+        "safe": true,
+        "lost_reference": false,
+        "per_image_false_positive_regression": false,
+        "count_regression": false
+      },
+      {
+        "rule": {
+          "method": "axis-identity",
+          "minimum": 1,
+          "floor": 0.95,
+          "distinct": 0.98
+        },
+        "tp": 15,
+        "fp": 7,
+        "exact_count": 37,
+        "gain": 0,
+        "extra_fp": 0,
+        "safe": true,
+        "lost_reference": false,
+        "per_image_false_positive_regression": false,
+        "count_regression": false
+      },
+      {
+        "rule": {
+          "method": "axis-identity",
+          "minimum": 1,
+          "floor": 1.01,
+          "distinct": 0.65
+        },
+        "tp": 15,
+        "fp": 7,
+        "exact_count": 37,
+        "gain": 0,
+        "extra_fp": 0,
+        "safe": true,
+        "lost_reference": false,
+        "per_image_false_positive_regression": false,
+        "count_regression": false
+      },
+      {
+        "rule": {
+          "method": "axis-identity",
+          "minimum": 1,
+          "floor": 1.01,
+          "distinct": 0.75
+        },
+        "tp": 15,
+        "fp": 7,
+        "exact_count": 37,
+        "gain": 0,
+        "extra_fp": 0,
+        "safe": true,
+        "lost_reference": false,
+        "per_image_false_positive_regression": false,
+        "count_regression": false
+      },
+      {
+        "rule": {
+          "method": "axis-identity",
+          "minimum": 1,
+          "floor": 1.01,
+          "distinct": 0.85
+        },
+        "tp": 15,
+        "fp": 7,
+        "exact_count": 37,
+        "gain": 0,
+        "extra_fp": 0,
+        "safe": true,
+        "lost_reference": false,
+        "per_image_false_positive_regression": false,
+        "count_regression": false
+      },
+      {
+        "rule": {
+          "method": "axis-identity",
+          "minimum": 1,
+          "floor": 1.01,
+          "distinct": 0.93
+        },
+        "tp": 15,
+        "fp": 7,
+        "exact_count": 37,
+        "gain": 0,
+        "extra_fp": 0,
+        "safe": true,
+        "lost_reference": false,
+        "per_image_false_positive_regression": false,
+        "count_regression": false
+      },
+      {
+        "rule": {
+          "method": "axis-identity",
+          "minimum": 1,
+          "floor": 1.01,
+          "distinct": 0.98
+        },
+        "tp": 15,
+        "fp": 7,
+        "exact_count": 37,
+        "gain": 0,
+        "extra_fp": 0,
+        "safe": true,
+        "lost_reference": false,
+        "per_image_false_positive_regression": false,
+        "count_regression": false
+      },
+      {
+        "rule": {
+          "method": "axis-identity",
+          "minimum": 2,
+          "floor": 0.12,
+          "distinct": 0.65
+        },
+        "tp": 15,
+        "fp": 7,
+        "exact_count": 37,
+        "gain": 0,
+        "extra_fp": 0,
+        "safe": true,
+        "lost_reference": false,
+        "per_image_false_positive_regression": false,
+        "count_regression": false
+      },
+      {
+        "rule": {
+          "method": "axis-identity",
+          "minimum": 2,
+          "floor": 0.12,
+          "distinct": 0.75
+        },
+        "tp": 15,
+        "fp": 7,
+        "exact_count": 37,
+        "gain": 0,
+        "extra_fp": 0,
+        "safe": true,
+        "lost_reference": false,
+        "per_image_false_positive_regression": false,
+        "count_regression": false
+      },
+      {
+        "rule": {
+          "method": "axis-identity",
+          "minimum": 2,
+          "floor": 0.12,
+          "distinct": 0.85
+        },
+        "tp": 15,
+        "fp": 7,
+        "exact_count": 37,
+        "gain": 0,
+        "extra_fp": 0,
+        "safe": true,
+        "lost_reference": false,
+        "per_image_false_positive_regression": false,
+        "count_regression": false
+      },
+      {
+        "rule": {
+          "method": "axis-identity",
+          "minimum": 2,
+          "floor": 0.12,
+          "distinct": 0.93
+        },
+        "tp": 15,
+        "fp": 7,
+        "exact_count": 37,
+        "gain": 0,
+        "extra_fp": 0,
+        "safe": true,
+        "lost_reference": false,
+        "per_image_false_positive_regression": false,
+        "count_regression": false
+      },
+      {
+        "rule": {
+          "method": "axis-identity",
+          "minimum": 2,
+          "floor": 0.12,
+          "distinct": 0.98
+        },
+        "tp": 15,
+        "fp": 7,
+        "exact_count": 37,
+        "gain": 0,
+        "extra_fp": 0,
+        "safe": true,
+        "lost_reference": false,
+        "per_image_false_positive_regression": false,
+        "count_regression": false
+      },
+      {
+        "rule": {
+          "method": "axis-identity",
+          "minimum": 2,
+          "floor": 0.18,
+          "distinct": 0.65
+        },
+        "tp": 15,
+        "fp": 7,
+        "exact_count": 37,
+        "gain": 0,
+        "extra_fp": 0,
+        "safe": true,
+        "lost_reference": false,
+        "per_image_false_positive_regression": false,
+        "count_regression": false
+      },
+      {
+        "rule": {
+          "method": "axis-identity",
+          "minimum": 2,
+          "floor": 0.18,
+          "distinct": 0.75
+        },
+        "tp": 15,
+        "fp": 7,
+        "exact_count": 37,
+        "gain": 0,
+        "extra_fp": 0,
+        "safe": true,
+        "lost_reference": false,
+        "per_image_false_positive_regression": false,
+        "count_regression": false
+      },
+      {
+        "rule": {
+          "method": "axis-identity",
+          "minimum": 2,
+          "floor": 0.18,
+          "distinct": 0.85
+        },
+        "tp": 15,
+        "fp": 7,
+        "exact_count": 37,
+        "gain": 0,
+        "extra_fp": 0,
+        "safe": true,
+        "lost_reference": false,
+        "per_image_false_positive_regression": false,
+        "count_regression": false
+      },
+      {
+        "rule": {
+          "method": "axis-identity",
+          "minimum": 2,
+          "floor": 0.18,
+          "distinct": 0.93
+        },
+        "tp": 15,
+        "fp": 7,
+        "exact_count": 37,
+        "gain": 0,
+        "extra_fp": 0,
+        "safe": true,
+        "lost_reference": false,
+        "per_image_false_positive_regression": false,
+        "count_regression": false
+      },
+      {
+        "rule": {
+          "method": "axis-identity",
+          "minimum": 2,
+          "floor": 0.18,
+          "distinct": 0.98
+        },
+        "tp": 15,
+        "fp": 7,
+        "exact_count": 37,
+        "gain": 0,
+        "extra_fp": 0,
+        "safe": true,
+        "lost_reference": false,
+        "per_image_false_positive_regression": false,
+        "count_regression": false
+      },
+      {
+        "rule": {
+          "method": "axis-identity",
+          "minimum": 2,
+          "floor": 0.25,
+          "distinct": 0.65
+        },
+        "tp": 15,
+        "fp": 7,
+        "exact_count": 37,
+        "gain": 0,
+        "extra_fp": 0,
+        "safe": true,
+        "lost_reference": false,
+        "per_image_false_positive_regression": false,
+        "count_regression": false
+      },
+      {
+        "rule": {
+          "method": "axis-identity",
+          "minimum": 2,
+          "floor": 0.25,
+          "distinct": 0.75
+        },
+        "tp": 15,
+        "fp": 7,
+        "exact_count": 37,
+        "gain": 0,
+        "extra_fp": 0,
+        "safe": true,
+        "lost_reference": false,
+        "per_image_false_positive_regression": false,
+        "count_regression": false
+      },
+      {
+        "rule": {
+          "method": "axis-identity",
+          "minimum": 2,
+          "floor": 0.25,
+          "distinct": 0.85
+        },
+        "tp": 15,
+        "fp": 7,
+        "exact_count": 37,
+        "gain": 0,
+        "extra_fp": 0,
+        "safe": true,
+        "lost_reference": false,
+        "per_image_false_positive_regression": false,
+        "count_regression": false
+      },
+      {
+        "rule": {
+          "method": "axis-identity",
+          "minimum": 2,
+          "floor": 0.25,
+          "distinct": 0.93
+        },
+        "tp": 15,
+        "fp": 7,
+        "exact_count": 37,
+        "gain": 0,
+        "extra_fp": 0,
+        "safe": true,
+        "lost_reference": false,
+        "per_image_false_positive_regression": false,
+        "count_regression": false
+      },
+      {
+        "rule": {
+          "method": "axis-identity",
+          "minimum": 2,
+          "floor": 0.25,
+          "distinct": 0.98
+        },
+        "tp": 15,
+        "fp": 7,
+        "exact_count": 37,
+        "gain": 0,
+        "extra_fp": 0,
+        "safe": true,
+        "lost_reference": false,
+        "per_image_false_positive_regression": false,
+        "count_regression": false
+      },
+      {
+        "rule": {
+          "method": "axis-identity",
+          "minimum": 2,
+          "floor": 0.3,
+          "distinct": 0.65
+        },
+        "tp": 15,
+        "fp": 7,
+        "exact_count": 37,
+        "gain": 0,
+        "extra_fp": 0,
+        "safe": true,
+        "lost_reference": false,
+        "per_image_false_positive_regression": false,
+        "count_regression": false
+      },
+      {
+        "rule": {
+          "method": "axis-identity",
+          "minimum": 2,
+          "floor": 0.3,
+          "distinct": 0.75
+        },
+        "tp": 15,
+        "fp": 7,
+        "exact_count": 37,
+        "gain": 0,
+        "extra_fp": 0,
+        "safe": true,
+        "lost_reference": false,
+        "per_image_false_positive_regression": false,
+        "count_regression": false
+      },
+      {
+        "rule": {
+          "method": "axis-identity",
+          "minimum": 2,
+          "floor": 0.3,
+          "distinct": 0.85
+        },
+        "tp": 15,
+        "fp": 7,
+        "exact_count": 37,
+        "gain": 0,
+        "extra_fp": 0,
+        "safe": true,
+        "lost_reference": false,
+        "per_image_false_positive_regression": false,
+        "count_regression": false
+      },
+      {
+        "rule": {
+          "method": "axis-identity",
+          "minimum": 2,
+          "floor": 0.3,
+          "distinct": 0.93
+        },
+        "tp": 15,
+        "fp": 7,
+        "exact_count": 37,
+        "gain": 0,
+        "extra_fp": 0,
+        "safe": true,
+        "lost_reference": false,
+        "per_image_false_positive_regression": false,
+        "count_regression": false
+      },
+      {
+        "rule": {
+          "method": "axis-identity",
+          "minimum": 2,
+          "floor": 0.3,
+          "distinct": 0.98
+        },
+        "tp": 15,
+        "fp": 7,
+        "exact_count": 37,
+        "gain": 0,
+        "extra_fp": 0,
+        "safe": true,
+        "lost_reference": false,
+        "per_image_false_positive_regression": false,
+        "count_regression": false
+      },
+      {
+        "rule": {
+          "method": "axis-identity",
+          "minimum": 2,
+          "floor": 0.35,
+          "distinct": 0.65
+        },
+        "tp": 15,
+        "fp": 7,
+        "exact_count": 37,
+        "gain": 0,
+        "extra_fp": 0,
+        "safe": true,
+        "lost_reference": false,
+        "per_image_false_positive_regression": false,
+        "count_regression": false
+      },
+      {
+        "rule": {
+          "method": "axis-identity",
+          "minimum": 2,
+          "floor": 0.35,
+          "distinct": 0.75
+        },
+        "tp": 15,
+        "fp": 7,
+        "exact_count": 37,
+        "gain": 0,
+        "extra_fp": 0,
+        "safe": true,
+        "lost_reference": false,
+        "per_image_false_positive_regression": false,
+        "count_regression": false
+      },
+      {
+        "rule": {
+          "method": "axis-identity",
+          "minimum": 2,
+          "floor": 0.35,
+          "distinct": 0.85
+        },
+        "tp": 15,
+        "fp": 7,
+        "exact_count": 37,
+        "gain": 0,
+        "extra_fp": 0,
+        "safe": true,
+        "lost_reference": false,
+        "per_image_false_positive_regression": false,
+        "count_regression": false
+      },
+      {
+        "rule": {
+          "method": "axis-identity",
+          "minimum": 2,
+          "floor": 0.35,
+          "distinct": 0.93
+        },
+        "tp": 15,
+        "fp": 7,
+        "exact_count": 37,
+        "gain": 0,
+        "extra_fp": 0,
+        "safe": true,
+        "lost_reference": false,
+        "per_image_false_positive_regression": false,
+        "count_regression": false
+      },
+      {
+        "rule": {
+          "method": "axis-identity",
+          "minimum": 2,
+          "floor": 0.35,
+          "distinct": 0.98
+        },
+        "tp": 15,
+        "fp": 7,
+        "exact_count": 37,
+        "gain": 0,
+        "extra_fp": 0,
+        "safe": true,
+        "lost_reference": false,
+        "per_image_false_positive_regression": false,
+        "count_regression": false
+      },
+      {
+        "rule": {
+          "method": "axis-identity",
+          "minimum": 2,
+          "floor": 0.4,
+          "distinct": 0.65
+        },
+        "tp": 15,
+        "fp": 7,
+        "exact_count": 37,
+        "gain": 0,
+        "extra_fp": 0,
+        "safe": true,
+        "lost_reference": false,
+        "per_image_false_positive_regression": false,
+        "count_regression": false
+      },
+      {
+        "rule": {
+          "method": "axis-identity",
+          "minimum": 2,
+          "floor": 0.4,
+          "distinct": 0.75
+        },
+        "tp": 15,
+        "fp": 7,
+        "exact_count": 37,
+        "gain": 0,
+        "extra_fp": 0,
+        "safe": true,
+        "lost_reference": false,
+        "per_image_false_positive_regression": false,
+        "count_regression": false
+      },
+      {
+        "rule": {
+          "method": "axis-identity",
+          "minimum": 2,
+          "floor": 0.4,
+          "distinct": 0.85
+        },
+        "tp": 15,
+        "fp": 7,
+        "exact_count": 37,
+        "gain": 0,
+        "extra_fp": 0,
+        "safe": true,
+        "lost_reference": false,
+        "per_image_false_positive_regression": false,
+        "count_regression": false
+      },
+      {
+        "rule": {
+          "method": "axis-identity",
+          "minimum": 2,
+          "floor": 0.4,
+          "distinct": 0.93
+        },
+        "tp": 15,
+        "fp": 7,
+        "exact_count": 37,
+        "gain": 0,
+        "extra_fp": 0,
+        "safe": true,
+        "lost_reference": false,
+        "per_image_false_positive_regression": false,
+        "count_regression": false
+      },
+      {
+        "rule": {
+          "method": "axis-identity",
+          "minimum": 2,
+          "floor": 0.4,
+          "distinct": 0.98
+        },
+        "tp": 15,
+        "fp": 7,
+        "exact_count": 37,
+        "gain": 0,
+        "extra_fp": 0,
+        "safe": true,
+        "lost_reference": false,
+        "per_image_false_positive_regression": false,
+        "count_regression": false
+      },
+      {
+        "rule": {
+          "method": "axis-identity",
+          "minimum": 2,
+          "floor": 0.45,
+          "distinct": 0.65
+        },
+        "tp": 15,
+        "fp": 7,
+        "exact_count": 37,
+        "gain": 0,
+        "extra_fp": 0,
+        "safe": true,
+        "lost_reference": false,
+        "per_image_false_positive_regression": false,
+        "count_regression": false
+      },
+      {
+        "rule": {
+          "method": "axis-identity",
+          "minimum": 2,
+          "floor": 0.45,
+          "distinct": 0.75
+        },
+        "tp": 15,
+        "fp": 7,
+        "exact_count": 37,
+        "gain": 0,
+        "extra_fp": 0,
+        "safe": true,
+        "lost_reference": false,
+        "per_image_false_positive_regression": false,
+        "count_regression": false
+      },
+      {
+        "rule": {
+          "method": "axis-identity",
+          "minimum": 2,
+          "floor": 0.45,
+          "distinct": 0.85
+        },
+        "tp": 15,
+        "fp": 7,
+        "exact_count": 37,
+        "gain": 0,
+        "extra_fp": 0,
+        "safe": true,
+        "lost_reference": false,
+        "per_image_false_positive_regression": false,
+        "count_regression": false
+      },
+      {
+        "rule": {
+          "method": "axis-identity",
+          "minimum": 2,
+          "floor": 0.45,
+          "distinct": 0.93
+        },
+        "tp": 15,
+        "fp": 7,
+        "exact_count": 37,
+        "gain": 0,
+        "extra_fp": 0,
+        "safe": true,
+        "lost_reference": false,
+        "per_image_false_positive_regression": false,
+        "count_regression": false
+      },
+      {
+        "rule": {
+          "method": "axis-identity",
+          "minimum": 2,
+          "floor": 0.45,
+          "distinct": 0.98
+        },
+        "tp": 15,
+        "fp": 7,
+        "exact_count": 37,
+        "gain": 0,
+        "extra_fp": 0,
+        "safe": true,
+        "lost_reference": false,
+        "per_image_false_positive_regression": false,
+        "count_regression": false
+      },
+      {
+        "rule": {
+          "method": "axis-identity",
+          "minimum": 2,
+          "floor": 0.55,
+          "distinct": 0.65
+        },
+        "tp": 15,
+        "fp": 7,
+        "exact_count": 37,
+        "gain": 0,
+        "extra_fp": 0,
+        "safe": true,
+        "lost_reference": false,
+        "per_image_false_positive_regression": false,
+        "count_regression": false
+      },
+      {
+        "rule": {
+          "method": "axis-identity",
+          "minimum": 2,
+          "floor": 0.55,
+          "distinct": 0.75
+        },
+        "tp": 15,
+        "fp": 7,
+        "exact_count": 37,
+        "gain": 0,
+        "extra_fp": 0,
+        "safe": true,
+        "lost_reference": false,
+        "per_image_false_positive_regression": false,
+        "count_regression": false
+      },
+      {
+        "rule": {
+          "method": "axis-identity",
+          "minimum": 2,
+          "floor": 0.55,
+          "distinct": 0.85
+        },
+        "tp": 15,
+        "fp": 7,
+        "exact_count": 37,
+        "gain": 0,
+        "extra_fp": 0,
+        "safe": true,
+        "lost_reference": false,
+        "per_image_false_positive_regression": false,
+        "count_regression": false
+      },
+      {
+        "rule": {
+          "method": "axis-identity",
+          "minimum": 2,
+          "floor": 0.55,
+          "distinct": 0.93
+        },
+        "tp": 15,
+        "fp": 7,
+        "exact_count": 37,
+        "gain": 0,
+        "extra_fp": 0,
+        "safe": true,
+        "lost_reference": false,
+        "per_image_false_positive_regression": false,
+        "count_regression": false
+      },
+      {
+        "rule": {
+          "method": "axis-identity",
+          "minimum": 2,
+          "floor": 0.55,
+          "distinct": 0.98
+        },
+        "tp": 15,
+        "fp": 7,
+        "exact_count": 37,
+        "gain": 0,
+        "extra_fp": 0,
+        "safe": true,
+        "lost_reference": false,
+        "per_image_false_positive_regression": false,
+        "count_regression": false
+      },
+      {
+        "rule": {
+          "method": "axis-identity",
+          "minimum": 2,
+          "floor": 0.65,
+          "distinct": 0.65
+        },
+        "tp": 15,
+        "fp": 7,
+        "exact_count": 37,
+        "gain": 0,
+        "extra_fp": 0,
+        "safe": true,
+        "lost_reference": false,
+        "per_image_false_positive_regression": false,
+        "count_regression": false
+      },
+      {
+        "rule": {
+          "method": "axis-identity",
+          "minimum": 2,
+          "floor": 0.65,
+          "distinct": 0.75
+        },
+        "tp": 15,
+        "fp": 7,
+        "exact_count": 37,
+        "gain": 0,
+        "extra_fp": 0,
+        "safe": true,
+        "lost_reference": false,
+        "per_image_false_positive_regression": false,
+        "count_regression": false
+      },
+      {
+        "rule": {
+          "method": "axis-identity",
+          "minimum": 2,
+          "floor": 0.65,
+          "distinct": 0.85
+        },
+        "tp": 15,
+        "fp": 7,
+        "exact_count": 37,
+        "gain": 0,
+        "extra_fp": 0,
+        "safe": true,
+        "lost_reference": false,
+        "per_image_false_positive_regression": false,
+        "count_regression": false
+      },
+      {
+        "rule": {
+          "method": "axis-identity",
+          "minimum": 2,
+          "floor": 0.65,
+          "distinct": 0.93
+        },
+        "tp": 15,
+        "fp": 7,
+        "exact_count": 37,
+        "gain": 0,
+        "extra_fp": 0,
+        "safe": true,
+        "lost_reference": false,
+        "per_image_false_positive_regression": false,
+        "count_regression": false
+      },
+      {
+        "rule": {
+          "method": "axis-identity",
+          "minimum": 2,
+          "floor": 0.65,
+          "distinct": 0.98
+        },
+        "tp": 15,
+        "fp": 7,
+        "exact_count": 37,
+        "gain": 0,
+        "extra_fp": 0,
+        "safe": true,
+        "lost_reference": false,
+        "per_image_false_positive_regression": false,
+        "count_regression": false
+      },
+      {
+        "rule": {
+          "method": "axis-identity",
+          "minimum": 2,
+          "floor": 0.75,
+          "distinct": 0.65
+        },
+        "tp": 15,
+        "fp": 7,
+        "exact_count": 37,
+        "gain": 0,
+        "extra_fp": 0,
+        "safe": true,
+        "lost_reference": false,
+        "per_image_false_positive_regression": false,
+        "count_regression": false
+      },
+      {
+        "rule": {
+          "method": "axis-identity",
+          "minimum": 2,
+          "floor": 0.75,
+          "distinct": 0.75
+        },
+        "tp": 15,
+        "fp": 7,
+        "exact_count": 37,
+        "gain": 0,
+        "extra_fp": 0,
+        "safe": true,
+        "lost_reference": false,
+        "per_image_false_positive_regression": false,
+        "count_regression": false
+      },
+      {
+        "rule": {
+          "method": "axis-identity",
+          "minimum": 2,
+          "floor": 0.75,
+          "distinct": 0.85
+        },
+        "tp": 15,
+        "fp": 7,
+        "exact_count": 37,
+        "gain": 0,
+        "extra_fp": 0,
+        "safe": true,
+        "lost_reference": false,
+        "per_image_false_positive_regression": false,
+        "count_regression": false
+      },
+      {
+        "rule": {
+          "method": "axis-identity",
+          "minimum": 2,
+          "floor": 0.75,
+          "distinct": 0.93
+        },
+        "tp": 15,
+        "fp": 7,
+        "exact_count": 37,
+        "gain": 0,
+        "extra_fp": 0,
+        "safe": true,
+        "lost_reference": false,
+        "per_image_false_positive_regression": false,
+        "count_regression": false
+      },
+      {
+        "rule": {
+          "method": "axis-identity",
+          "minimum": 2,
+          "floor": 0.75,
+          "distinct": 0.98
+        },
+        "tp": 15,
+        "fp": 7,
+        "exact_count": 37,
+        "gain": 0,
+        "extra_fp": 0,
+        "safe": true,
+        "lost_reference": false,
+        "per_image_false_positive_regression": false,
+        "count_regression": false
+      },
+      {
+        "rule": {
+          "method": "axis-identity",
+          "minimum": 2,
+          "floor": 0.85,
+          "distinct": 0.65
+        },
+        "tp": 15,
+        "fp": 7,
+        "exact_count": 37,
+        "gain": 0,
+        "extra_fp": 0,
+        "safe": true,
+        "lost_reference": false,
+        "per_image_false_positive_regression": false,
+        "count_regression": false
+      },
+      {
+        "rule": {
+          "method": "axis-identity",
+          "minimum": 2,
+          "floor": 0.85,
+          "distinct": 0.75
+        },
+        "tp": 15,
+        "fp": 7,
+        "exact_count": 37,
+        "gain": 0,
+        "extra_fp": 0,
+        "safe": true,
+        "lost_reference": false,
+        "per_image_false_positive_regression": false,
+        "count_regression": false
+      },
+      {
+        "rule": {
+          "method": "axis-identity",
+          "minimum": 2,
+          "floor": 0.85,
+          "distinct": 0.85
+        },
+        "tp": 15,
+        "fp": 7,
+        "exact_count": 37,
+        "gain": 0,
+        "extra_fp": 0,
+        "safe": true,
+        "lost_reference": false,
+        "per_image_false_positive_regression": false,
+        "count_regression": false
+      },
+      {
+        "rule": {
+          "method": "axis-identity",
+          "minimum": 2,
+          "floor": 0.85,
+          "distinct": 0.93
+        },
+        "tp": 15,
+        "fp": 7,
+        "exact_count": 37,
+        "gain": 0,
+        "extra_fp": 0,
+        "safe": true,
+        "lost_reference": false,
+        "per_image_false_positive_regression": false,
+        "count_regression": false
+      },
+      {
+        "rule": {
+          "method": "axis-identity",
+          "minimum": 2,
+          "floor": 0.85,
+          "distinct": 0.98
+        },
+        "tp": 15,
+        "fp": 7,
+        "exact_count": 37,
+        "gain": 0,
+        "extra_fp": 0,
+        "safe": true,
+        "lost_reference": false,
+        "per_image_false_positive_regression": false,
+        "count_regression": false
+      },
+      {
+        "rule": {
+          "method": "axis-identity",
+          "minimum": 2,
+          "floor": 0.95,
+          "distinct": 0.65
+        },
+        "tp": 15,
+        "fp": 7,
+        "exact_count": 37,
+        "gain": 0,
+        "extra_fp": 0,
+        "safe": true,
+        "lost_reference": false,
+        "per_image_false_positive_regression": false,
+        "count_regression": false
+      },
+      {
+        "rule": {
+          "method": "axis-identity",
+          "minimum": 2,
+          "floor": 0.95,
+          "distinct": 0.75
+        },
+        "tp": 15,
+        "fp": 7,
+        "exact_count": 37,
+        "gain": 0,
+        "extra_fp": 0,
+        "safe": true,
+        "lost_reference": false,
+        "per_image_false_positive_regression": false,
+        "count_regression": false
+      },
+      {
+        "rule": {
+          "method": "axis-identity",
+          "minimum": 2,
+          "floor": 0.95,
+          "distinct": 0.85
+        },
+        "tp": 15,
+        "fp": 7,
+        "exact_count": 37,
+        "gain": 0,
+        "extra_fp": 0,
+        "safe": true,
+        "lost_reference": false,
+        "per_image_false_positive_regression": false,
+        "count_regression": false
+      },
+      {
+        "rule": {
+          "method": "axis-identity",
+          "minimum": 2,
+          "floor": 0.95,
+          "distinct": 0.93
+        },
+        "tp": 15,
+        "fp": 7,
+        "exact_count": 37,
+        "gain": 0,
+        "extra_fp": 0,
+        "safe": true,
+        "lost_reference": false,
+        "per_image_false_positive_regression": false,
+        "count_regression": false
+      },
+      {
+        "rule": {
+          "method": "axis-identity",
+          "minimum": 2,
+          "floor": 0.95,
+          "distinct": 0.98
+        },
+        "tp": 15,
+        "fp": 7,
+        "exact_count": 37,
+        "gain": 0,
+        "extra_fp": 0,
+        "safe": true,
+        "lost_reference": false,
+        "per_image_false_positive_regression": false,
+        "count_regression": false
+      },
+      {
+        "rule": {
+          "method": "axis-identity",
+          "minimum": 2,
+          "floor": 1.01,
+          "distinct": 0.65
+        },
+        "tp": 15,
+        "fp": 7,
+        "exact_count": 37,
+        "gain": 0,
+        "extra_fp": 0,
+        "safe": true,
+        "lost_reference": false,
+        "per_image_false_positive_regression": false,
+        "count_regression": false
+      },
+      {
+        "rule": {
+          "method": "axis-identity",
+          "minimum": 2,
+          "floor": 1.01,
+          "distinct": 0.75
+        },
+        "tp": 15,
+        "fp": 7,
+        "exact_count": 37,
+        "gain": 0,
+        "extra_fp": 0,
+        "safe": true,
+        "lost_reference": false,
+        "per_image_false_positive_regression": false,
+        "count_regression": false
+      },
+      {
+        "rule": {
+          "method": "axis-identity",
+          "minimum": 2,
+          "floor": 1.01,
+          "distinct": 0.85
+        },
+        "tp": 15,
+        "fp": 7,
+        "exact_count": 37,
+        "gain": 0,
+        "extra_fp": 0,
+        "safe": true,
+        "lost_reference": false,
+        "per_image_false_positive_regression": false,
+        "count_regression": false
+      },
+      {
+        "rule": {
+          "method": "axis-identity",
+          "minimum": 2,
+          "floor": 1.01,
+          "distinct": 0.93
+        },
+        "tp": 15,
+        "fp": 7,
+        "exact_count": 37,
+        "gain": 0,
+        "extra_fp": 0,
+        "safe": true,
+        "lost_reference": false,
+        "per_image_false_positive_regression": false,
+        "count_regression": false
+      },
+      {
+        "rule": {
+          "method": "axis-identity",
+          "minimum": 2,
+          "floor": 1.01,
+          "distinct": 0.98
+        },
+        "tp": 15,
+        "fp": 7,
+        "exact_count": 37,
+        "gain": 0,
+        "extra_fp": 0,
+        "safe": true,
+        "lost_reference": false,
+        "per_image_false_positive_regression": false,
+        "count_regression": false
+      }
+    ],
+    "probes": {
+      "overlap": {
+        "method": "overlap",
+        "minimum": 2,
+        "floor": 0.25,
+        "distinct": 0.65
+      },
+      "prior-identity": {
+        "method": "prior-identity",
+        "minimum": 2,
+        "floor": 0.25,
+        "distinct": 0.65
+      },
+      "axis-identity": {
+        "method": "axis-identity",
+        "minimum": 2,
+        "floor": 0.25,
+        "distinct": 0.65
+      }
+    }
+  }
+}

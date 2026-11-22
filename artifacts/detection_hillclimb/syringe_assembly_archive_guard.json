@@ -1,0 +1,275 @@
+{
+  "policy": "f2710ca2690aeab99563e793331fdc1bfc345578160741d4ef644d19fb321b00",
+  "cohorts": {
+    "regression": {
+      "baseline": {
+        "tp": 34,
+        "fp": 1,
+        "fn": 57,
+        "exact_count": 12
+      },
+      "arms": {
+        "standard/overlap": {
+          "tp": 34,
+          "fp": 1,
+          "exact_count": 12,
+          "gain": 0,
+          "extra_fp": 0,
+          "safe": true,
+          "lost_reference": false,
+          "per_image_false_positive_regression": false,
+          "count_regression": false
+        },
+        "standard/box-veto": {
+          "tp": 34,
+          "fp": 1,
+          "exact_count": 12,
+          "gain": 0,
+          "extra_fp": 0,
+          "safe": true,
+          "lost_reference": false,
+          "per_image_false_positive_regression": false,
+          "count_regression": false
+        },
+        "standard/pixel-veto": {
+          "tp": 34,
+          "fp": 1,
+          "exact_count": 12,
+          "gain": 0,
+          "extra_fp": 0,
+          "safe": true,
+          "lost_reference": false,
+          "per_image_false_positive_regression": false,
+          "count_regression": false
+        },
+        "standard/pixel-identity": {
+          "tp": 34,
+          "fp": 1,
+          "exact_count": 12,
+          "gain": 0,
+          "extra_fp": 0,
+          "safe": true,
+          "lost_reference": false,
+          "per_image_false_positive_regression": false,
+          "count_regression": false
+        }
+      }
+    },
+    "transfer": {
+      "baseline": {
+        "tp": 6,
+        "fp": 0,
+        "fn": 2,
+        "exact_count": 2
+      },
+      "arms": {
+        "standard/overlap": {
+          "tp": 6,
+          "fp": 0,
+          "exact_count": 2,
+          "gain": 0,
+          "extra_fp": 0,
+          "safe": true,
+          "lost_reference": false,
+          "per_image_false_positive_regression": false,
+          "count_regression": false
+        },
+        "standard/box-veto": {
+          "tp": 6,
+          "fp": 0,
+          "exact_count": 2,
+          "gain": 0,
+          "extra_fp": 0,
+          "safe": true,
+          "lost_reference": false,
+          "per_image_false_positive_regression": false,
+          "count_regression": false
+        },
+        "standard/pixel-veto": {
+          "tp": 6,
+          "fp": 0,
+          "exact_count": 2,
+          "gain": 0,
+          "extra_fp": 0,
+          "safe": true,
+          "lost_reference": false,
+          "per_image_false_positive_regression": false,
+          "count_regression": false
+        },
+        "standard/pixel-identity": {
+          "tp": 6,
+          "fp": 0,
+          "exact_count": 2,
+          "gain": 0,
+          "extra_fp": 0,
+          "safe": true,
+          "lost_reference": false,
+          "per_image_false_positive_regression": false,
+          "count_regression": false
+        }
+      }
+    },
+    "previous-lookalikes": {
+      "baseline": {
+        "tp": 0,
+        "fp": 1,
+        "fn": 0,
+        "exact_count": 1
+      },
+      "arms": {
+        "standard/overlap": {
+          "tp": 0,
+          "fp": 1,
+          "exact_count": 1,
+          "gain": 0,
+          "extra_fp": 0,
+          "safe": true,
+          "lost_reference": false,
+          "per_image_false_positive_regression": false,
+          "count_regression": false
+        },
+        "standard/box-veto": {
+          "tp": 0,
+          "fp": 1,
+          "exact_count": 1,
+          "gain": 0,
+          "extra_fp": 0,
+          "safe": true,
+          "lost_reference": false,
+          "per_image_false_positive_regression": false,
+          "count_regression": false
+        },
+        "standard/pixel-veto": {
+          "tp": 0,
+          "fp": 1,
+          "exact_count": 1,
+          "gain": 0,
+          "extra_fp": 0,
+          "safe": true,
+          "lost_reference": false,
+          "per_image_false_positive_regression": false,
+          "count_regression": false
+        },
+        "standard/pixel-identity": {
+          "tp": 0,
+          "fp": 1,
+          "exact_count": 1,
+          "gain": 0,
+          "extra_fp": 0,
+          "safe": true,
+          "lost_reference": false,
+          "per_image_false_positive_regression": false,
+          "count_regression": false
+        }
+      }
+    },
+    "prior-small-occlusion": {
+      "baseline": {
+        "tp": 0,
+        "fp": 1,
+        "fn": 2,
+        "exact_count": 0
+      },
+      "arms": {
+        "standard/overlap": {
+          "tp": 0,
+          "fp": 1,
+          "exact_count": 0,
+          "gain": 0,
+          "extra_fp": 0,
+          "safe": true,
+          "lost_reference": false,
+          "per_image_false_positive_regression": false,
+          "count_regression": false
+        },
+        "standard/box-veto": {
+          "tp": 0,
+          "fp": 1,
+          "exact_count": 0,
+          "gain": 0,
+          "extra_fp": 0,
+          "safe": true,
+          "lost_reference": false,
+          "per_image_false_positive_regression": false,
+          "count_regression": false
+        },
+        "standard/pixel-veto": {
+          "tp": 0,
+          "fp": 1,
+          "exact_count": 0,
+          "gain": 0,
+          "extra_fp": 0,
+          "safe": true,
+          "lost_reference": false,
+          "per_image_false_positive_regression": false,
+          "count_regression": false
+        },
+        "standard/pixel-identity": {
+          "tp": 0,
+          "fp": 1,
+          "exact_count": 0,
+          "gain": 0,
+          "extra_fp": 0,
+          "safe": true,
+          "lost_reference": false,
+          "per_image_false_positive_regression": false,
+          "count_regression": false
+        }
+      }
+    },
+    "new-public-reserve": {
+      "baseline": {
+        "tp": 1,
+        "fp": 1,
+        "fn": 2,
+        "exact_count": 1
+      },
+      "arms": {
+        "standard/overlap": {
+          "tp": 1,
+          "fp": 1,
+          "exact_count": 1,
+          "gain": 0,
+          "extra_fp": 0,
+          "safe": true,
+          "lost_reference": false,
+          "per_image_false_positive_regression": false,
+          "count_regression": false
+        },
+        "standard/box-veto": {
+          "tp": 1,
+          "fp": 1,
+          "exact_count": 1,
+          "gain": 0,
+          "extra_fp": 0,
+          "safe": true,
+          "lost_reference": false,
+          "per_image_false_positive_regression": false,
+          "count_regression": false
+        },
+        "standard/pixel-veto": {
+          "tp": 1,
+          "fp": 1,
+          "exact_count": 1,
+          "gain": 0,
+          "extra_fp": 0,
+          "safe": true,
+          "lost_reference": false,
+          "per_image_false_positive_regression": false,
+          "count_regression": false
+        },
+        "standard/pixel-identity": {
+          "tp": 1,
+          "fp": 1,
+          "exact_count": 1,
+          "gain": 0,
+          "extra_fp": 0,
+          "safe": true,
+          "lost_reference": false,
+          "per_image_false_positive_regression": false,
+          "count_regression": false
+        }
+      }
+    }
+  }
+}

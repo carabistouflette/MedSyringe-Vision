@@ -1,0 +1,31 @@
+{
+  "revision": "29a222d7d63b58d74dd8edfb0d41ba65ffcc3c96",
+  "manifest_sha256": "d82502f2cdbd9e34ce742be856ccc473506f0d870ef673ad5bb5e469ebe12da3",
+  "restored_packages": {
+    ".venv": {
+      "files": 23819,
+      "sha256": "57b58b912e3fb84c599a5952121340d2a67dc38557ef9395ea5e664785eda715"
+    },
+    "data/ocr-v6/env": {
+      "files": 14984,
+      "sha256": "b5530e2f9051bda505826a61210b00113cded7f6cf9faa5da8984d9b4c2935e6"
+    },
+    "data/sam3/xpu-env": {
+      "files": 23909,
+      "sha256": "30c7d96e1fb21fde9fe36a8ed02f66c23a4273f939e9fd605c99d0daf8116f2d"
+    }
+  },
+  "python_binary_sha256": "f7c6210eb40fadcd3c2889dddd24a15fc2c9f926aec5a03bf9da66e12d581526",
+  "checked_asset_count": 43,
+  "asset_bytes": 5986486215,
+  "passed_tests_in_restored_checkout": 67,
+  "proof": {
+    "restored_browser_29a222d_cpu.json": "22421d7120729b5a6dd2b307283b2879aca6cfb8d7de9f666fb81f70529b11ac"
+  },
+  "replacement": {
+    "original_iou": 0.3899033537412023,
+    "reviewed_iou": 0.6321303290527017,
+    "reference_manifest_sha256": "e1f1eaf123eb236aa453d014549bb4600e2a1ad8d8035af50b797ed1c3140cbb",
+    "field_scope": "One manually reviewed development observation, IOU against its previously frozen reference."
+  }
+}

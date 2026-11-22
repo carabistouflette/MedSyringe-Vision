@@ -1,0 +1,2325 @@
+{
+  "catalogs": {
+    "data/public-syringe-dataset/manifest.json": {
+      "manifest_sha256": "36405c35ed60d5e13061a013e7e20f186bf1d757758c3f4e770fa5f5b85e1522",
+      "rows": 547,
+      "known_overlap": {},
+      "retained_for_separate_review_only": [],
+      "blocked_by_project": {},
+      "blocked_by_group": []
+    },
+    "data/public-bulk-syringe-collection/manifest.json": {
+      "manifest_sha256": "b82fa069df6f42783afbd387259a8ded9f88aa99b01985d76df92c75cbbc902b",
+      "rows": 742,
+      "known_overlap": {
+        "syringe-test-0TemqN6Q1RN2n7eYFCV2": {
+          "project": "test-uugy6/syringe-test",
+          "matched_projects": [
+            "test-uugy6/syringe-test"
+          ],
+          "group": "roboflow:test-uugy6/syringe-test",
+          "previous_manifests": [
+            "device_scene_manifest.json"
+          ]
+        },
+        "syringe-test-0YsTkgaXS50WIXi8LJ95": {
+          "project": "test-uugy6/syringe-test",
+          "matched_projects": [
+            "test-uugy6/syringe-test"
+          ],
+          "group": "roboflow:test-uugy6/syringe-test",
+          "previous_manifests": [
+            "device_scene_manifest.json"
+          ]
+        },
+        "syringe-test-0bYJJlXXBfHmuqQSy7HN": {
+          "project": "test-uugy6/syringe-test",
+          "matched_projects": [
+            "test-uugy6/syringe-test"
+          ],
+          "group": "roboflow:test-uugy6/syringe-test",
+          "previous_manifests": [
+            "device_scene_manifest.json"
+          ]
+        },
+        "syringe-test-0lkDfm9F4305Y3dKhnSN": {
+          "project": "test-uugy6/syringe-test",
+          "matched_projects": [
+            "test-uugy6/syringe-test"
+          ],
+          "group": "roboflow:test-uugy6/syringe-test",
+          "previous_manifests": [
+            "device_scene_manifest.json"
+          ]
+        },
+        "syringe-test-0lu30ixdLCNqOcMZSBcW": {
+          "project": "test-uugy6/syringe-test",
+          "matched_projects": [
+            "test-uugy6/syringe-test"
+          ],
+          "group": "roboflow:test-uugy6/syringe-test",
+          "previous_manifests": [
+            "device_scene_manifest.json"
+          ]
+        },
+        "syringe-test-0vg5gp1h6VIfpPH7u6Pq": {
+          "project": "test-uugy6/syringe-test",
+          "matched_projects": [
+            "test-uugy6/syringe-test"
+          ],
+          "group": "roboflow:test-uugy6/syringe-test",
+          "previous_manifests": [
+            "device_scene_manifest.json"
+          ]
+        },
+        "syringe-test-1FOQTgGDgtFwuXgYwiKi": {
+          "project": "test-uugy6/syringe-test",
+          "matched_projects": [
+            "test-uugy6/syringe-test"
+          ],
+          "group": "roboflow:test-uugy6/syringe-test",
+          "previous_manifests": [
+            "device_scene_manifest.json"
+          ]
+        },
+        "syringe-test-1JhxVvgtopXRC24VqDB1": {
+          "project": "test-uugy6/syringe-test",
+          "matched_projects": [
+            "test-uugy6/syringe-test"
+          ],
+          "group": "roboflow:test-uugy6/syringe-test",
+          "previous_manifests": [
+            "device_scene_manifest.json"
+          ]
+        },
+        "syringe-test-1NeIF4CbGCctBocGo8S3": {
+          "project": "test-uugy6/syringe-test",
+          "matched_projects": [
+            "test-uugy6/syringe-test"
+          ],
+          "group": "roboflow:test-uugy6/syringe-test",
+          "previous_manifests": [
+            "device_scene_manifest.json"
+          ]
+        },
+        "syringe-test-25YcEeG8UydgNmQYkHqi": {
+          "project": "test-uugy6/syringe-test",
+          "matched_projects": [
+            "test-uugy6/syringe-test"
+          ],
+          "group": "roboflow:test-uugy6/syringe-test",
+          "previous_manifests": [
+            "device_scene_manifest.json"
+          ]
+        },
+        "syringe-test-2eDrCJyoVwG9yW4FYFbv": {
+          "project": "test-uugy6/syringe-test",
+          "matched_projects": [
+            "test-uugy6/syringe-test"
+          ],
+          "group": "roboflow:test-uugy6/syringe-test",
+          "previous_manifests": [
+            "device_scene_manifest.json"
+          ]
+        },
+        "syringe-test-2lQVCmO21Jwzj8DHc7eO": {
+          "project": "test-uugy6/syringe-test",
+          "matched_projects": [
+            "test-uugy6/syringe-test"
+          ],
+          "group": "roboflow:test-uugy6/syringe-test",
+          "previous_manifests": [
+            "device_scene_manifest.json"
+          ]
+        },
+        "syringe-test-30Q4xUEVKojTGHC6aK7E": {
+          "project": "test-uugy6/syringe-test",
+          "matched_projects": [
+            "test-uugy6/syringe-test"
+          ],
+          "group": "roboflow:test-uugy6/syringe-test",
+          "previous_manifests": [
+            "device_scene_manifest.json"
+          ]
+        },
+        "syringe-test-3fQYWjh1KipmxJiGYs5B": {
+          "project": "test-uugy6/syringe-test",
+          "matched_projects": [
+            "test-uugy6/syringe-test"
+          ],
+          "group": "roboflow:test-uugy6/syringe-test",
+          "previous_manifests": [
+            "device_scene_manifest.json"
+          ]
+        },
+        "syringe-test-3mvK96EL6HaIaxYxwFrs": {
+          "project": "test-uugy6/syringe-test",
+          "matched_projects": [
+            "test-uugy6/syringe-test"
+          ],
+          "group": "roboflow:test-uugy6/syringe-test",
+          "previous_manifests": [
+            "device_scene_manifest.json"
+          ]
+        },
+        "syringe-test-42dZxBBTn3445k1LhGtL": {
+          "project": "test-uugy6/syringe-test",
+          "matched_projects": [
+            "test-uugy6/syringe-test"
+          ],
+          "group": "roboflow:test-uugy6/syringe-test",
+          "previous_manifests": [
+            "device_scene_manifest.json"
+          ]
+        },
+        "syringe-test-46TXfXTfwfhgeJMCAanC": {
+          "project": "test-uugy6/syringe-test",
+          "matched_projects": [
+            "test-uugy6/syringe-test"
+          ],
+          "group": "roboflow:test-uugy6/syringe-test",
+          "previous_manifests": [
+            "device_scene_manifest.json"
+          ]
+        },
+        "syringe-test-4BRNM4Yjee4aj8SWAAOk": {
+          "project": "test-uugy6/syringe-test",
+          "matched_projects": [
+            "test-uugy6/syringe-test"
+          ],
+          "group": "roboflow:test-uugy6/syringe-test",
+          "previous_manifests": [
+            "device_scene_manifest.json"
+          ]
+        },
+        "syringe-test-5Ld6mdcrmxkUPIoYz2fm": {
+          "project": "test-uugy6/syringe-test",
+          "matched_projects": [
+            "test-uugy6/syringe-test"
+          ],
+          "group": "roboflow:test-uugy6/syringe-test",
+          "previous_manifests": [
+            "device_scene_manifest.json"
+          ]
+        },
+        "syringe-test-6Btd1UGRSmdQR4hnSS6M": {
+          "project": "test-uugy6/syringe-test",
+          "matched_projects": [
+            "test-uugy6/syringe-test"
+          ],
+          "group": "roboflow:test-uugy6/syringe-test",
+          "previous_manifests": [
+            "device_scene_manifest.json"
+          ]
+        },
+        "syringe-test-6HvBt1f3vZmV6wmXJUHP": {
+          "project": "test-uugy6/syringe-test",
+          "matched_projects": [
+            "test-uugy6/syringe-test"
+          ],
+          "group": "roboflow:test-uugy6/syringe-test",
+          "previous_manifests": [
+            "device_scene_manifest.json"
+          ]
+        },
+        "syringe-test-6OP3Cnanv4mxDDeWYv1x": {
+          "project": "test-uugy6/syringe-test",
+          "matched_projects": [
+            "test-uugy6/syringe-test"
+          ],
+          "group": "roboflow:test-uugy6/syringe-test",
+          "previous_manifests": [
+            "device_scene_manifest.json"
+          ]
+        },
+        "syringe-test-6zfc6KYtlXNDo4U9eGKZ": {
+          "project": "test-uugy6/syringe-test",
+          "matched_projects": [
+            "test-uugy6/syringe-test"
+          ],
+          "group": "roboflow:test-uugy6/syringe-test",
+          "previous_manifests": [
+            "device_scene_manifest.json"
+          ]
+        },
+        "syringe-test-72SDIf3hZRW01Yn7a55d": {
+          "project": "test-uugy6/syringe-test",
+          "matched_projects": [
+            "test-uugy6/syringe-test"
+          ],
+          "group": "roboflow:test-uugy6/syringe-test",
+          "previous_manifests": [
+            "device_scene_manifest.json"
+          ]
+        },
+        "syringe-test-7IZoPTQY51Icx4aC0S7k": {
+          "project": "test-uugy6/syringe-test",
+          "matched_projects": [
+            "test-uugy6/syringe-test"
+          ],
+          "group": "roboflow:test-uugy6/syringe-test",
+          "previous_manifests": [
+            "device_scene_manifest.json"
+          ]
+        },
+        "syringe-test-7ZZi9wKCHuE1RBG6KByZ": {
+          "project": "test-uugy6/syringe-test",
+          "matched_projects": [
+            "test-uugy6/syringe-test"
+          ],
+          "group": "roboflow:test-uugy6/syringe-test",
+          "previous_manifests": [
+            "device_scene_manifest.json"
+          ]
+        },
+        "syringe-test-7wwfbk9ccJBLOv8TTEKn": {
+          "project": "test-uugy6/syringe-test",
+          "matched_projects": [
+            "test-uugy6/syringe-test"
+          ],
+          "group": "roboflow:test-uugy6/syringe-test",
+          "previous_manifests": [
+            "device_scene_manifest.json"
+          ]
+        },
+        "syringe-test-7yeQ6Y3JvoIdPE1FTPFG": {
+          "project": "test-uugy6/syringe-test",
+          "matched_projects": [
+            "test-uugy6/syringe-test"
+          ],
+          "group": "roboflow:test-uugy6/syringe-test",
+          "previous_manifests": [
+            "device_scene_manifest.json"
+          ]
+        },
+        "syringe-test-8Ndc4D0gfmXyzEvE5D9w": {
+          "project": "test-uugy6/syringe-test",
+          "matched_projects": [
+            "test-uugy6/syringe-test"
+          ],
+          "group": "roboflow:test-uugy6/syringe-test",
+          "previous_manifests": [
+            "device_scene_manifest.json"
+          ]
+        },
+        "syringe-test-8eQfepYlbbKjvLYed6sh": {
+          "project": "test-uugy6/syringe-test",
+          "matched_projects": [
+            "test-uugy6/syringe-test"
+          ],
+          "group": "roboflow:test-uugy6/syringe-test",
+          "previous_manifests": [
+            "device_scene_manifest.json"
+          ]
+        },
+        "syringe-test-8f8HDyVKSY73cjxkMWTN": {
+          "project": "test-uugy6/syringe-test",
+          "matched_projects": [
+            "test-uugy6/syringe-test"
+          ],
+          "group": "roboflow:test-uugy6/syringe-test",
+          "previous_manifests": [
+            "device_scene_manifest.json"
+          ]
+        },
+        "syringe-test-8m4PUY48jEpUo7YiA0ED": {
+          "project": "test-uugy6/syringe-test",
+          "matched_projects": [
+            "test-uugy6/syringe-test"
+          ],
+          "group": "roboflow:test-uugy6/syringe-test",
+          "previous_manifests": [
+            "device_scene_manifest.json"
+          ]
+        },
+        "syringe-test-9MvgsO38U0Om6NtphLAT": {
+          "project": "test-uugy6/syringe-test",
+          "matched_projects": [
+            "test-uugy6/syringe-test"
+          ],
+          "group": "roboflow:test-uugy6/syringe-test",
+          "previous_manifests": [
+            "device_scene_manifest.json"
+          ]
+        },
+        "syringe-test-9m8t1CzlG7bT5smSBgdF": {
+          "project": "test-uugy6/syringe-test",
+          "matched_projects": [
+            "test-uugy6/syringe-test"
+          ],
+          "group": "roboflow:test-uugy6/syringe-test",
+          "previous_manifests": [
+            "device_scene_manifest.json"
+          ]
+        },
+        "syringe-test-9qarngr9rneiNJPnBWAB": {
+          "project": "test-uugy6/syringe-test",
+          "matched_projects": [
+            "test-uugy6/syringe-test"
+          ],
+          "group": "roboflow:test-uugy6/syringe-test",
+          "previous_manifests": [
+            "device_scene_manifest.json"
+          ]
+        },
+        "syringe-test-A47QwAFZeaXlbhNQv1OI": {
+          "project": "test-uugy6/syringe-test",
+          "matched_projects": [
+            "test-uugy6/syringe-test"
+          ],
+          "group": "roboflow:test-uugy6/syringe-test",
+          "previous_manifests": [
+            "device_scene_manifest.json"
+          ]
+        },
+        "syringe-test-AtUkOwRqInCFRZHwrCsM": {
+          "project": "test-uugy6/syringe-test",
+          "matched_projects": [
+            "test-uugy6/syringe-test"
+          ],
+          "group": "roboflow:test-uugy6/syringe-test",
+          "previous_manifests": [
+            "device_scene_manifest.json"
+          ]
+        },
+        "syringe-test-BSQd1RCHuCbDa1p8oy7Y": {
+          "project": "test-uugy6/syringe-test",
+          "matched_projects": [
+            "test-uugy6/syringe-test"
+          ],
+          "group": "roboflow:test-uugy6/syringe-test",
+          "previous_manifests": [
+            "device_scene_manifest.json"
+          ]
+        },
+        "syringe-test-BiFgsoTyoZWL98pBKKCZ": {
+          "project": "test-uugy6/syringe-test",
+          "matched_projects": [
+            "test-uugy6/syringe-test"
+          ],
+          "group": "roboflow:test-uugy6/syringe-test",
+          "previous_manifests": [
+            "device_scene_manifest.json"
+          ]
+        },
+        "syringe-test-BmvRbR9HKb5MDBL5MokW": {
+          "project": "test-uugy6/syringe-test",
+          "matched_projects": [
+            "test-uugy6/syringe-test"
+          ],
+          "group": "roboflow:test-uugy6/syringe-test",
+          "previous_manifests": [
+            "device_scene_manifest.json"
+          ]
+        },
+        "syringe-test-C1fr1eq4FmiWwqpYGbyB": {
+          "project": "test-uugy6/syringe-test",
+          "matched_projects": [
+            "test-uugy6/syringe-test"
+          ],
+          "group": "roboflow:test-uugy6/syringe-test",
+          "previous_manifests": [
+            "device_scene_manifest.json"
+          ]
+        },
+        "syringe-test-CA9Y3KQzTfYqktXPKdAT": {
+          "project": "test-uugy6/syringe-test",
+          "matched_projects": [
+            "test-uugy6/syringe-test"
+          ],
+          "group": "roboflow:test-uugy6/syringe-test",
+          "previous_manifests": [
+            "device_scene_manifest.json"
+          ]
+        },
+        "syringe-test-CobMCaY0BXLOZut8JEQC": {
+          "project": "test-uugy6/syringe-test",
+          "matched_projects": [
+            "test-uugy6/syringe-test"
+          ],
+          "group": "roboflow:test-uugy6/syringe-test",
+          "previous_manifests": [
+            "device_scene_manifest.json"
+          ]
+        },
+        "syringe-test-DuF5kb1HXWXLGusGkoUZ": {
+          "project": "test-uugy6/syringe-test",
+          "matched_projects": [
+            "test-uugy6/syringe-test"
+          ],
+          "group": "roboflow:test-uugy6/syringe-test",
+          "previous_manifests": [
+            "device_scene_manifest.json"
+          ]
+        },
+        "syringe-test-ELMtoPg8JOutBUZNojZN": {
+          "project": "test-uugy6/syringe-test",
+          "matched_projects": [
+            "test-uugy6/syringe-test"
+          ],
+          "group": "roboflow:test-uugy6/syringe-test",
+          "previous_manifests": [
+            "device_scene_manifest.json"
+          ]
+        },
+        "syringe-test-EaqRORkgOj7V8UCuIwSY": {
+          "project": "test-uugy6/syringe-test",
+          "matched_projects": [
+            "test-uugy6/syringe-test"
+          ],
+          "group": "roboflow:test-uugy6/syringe-test",
+          "previous_manifests": [
+            "device_scene_manifest.json"
+          ]
+        },
+        "syringe-test-Eqze5LHvK04wu4l8v0SK": {
+          "project": "test-uugy6/syringe-test",
+          "matched_projects": [
+            "test-uugy6/syringe-test"
+          ],
+          "group": "roboflow:test-uugy6/syringe-test",
+          "previous_manifests": [
+            "device_scene_manifest.json"
+          ]
+        },
+        "syringe-test-Et5tVPqLWoUyIVl8yzLL": {
+          "project": "test-uugy6/syringe-test",
+          "matched_projects": [
+            "test-uugy6/syringe-test"
+          ],
+          "group": "roboflow:test-uugy6/syringe-test",
+          "previous_manifests": [
+            "device_scene_manifest.json"
+          ]
+        },
+        "syringe-test-EzBIfHJmdjOPGsKtcl87": {
+          "project": "test-uugy6/syringe-test",
+          "matched_projects": [
+            "test-uugy6/syringe-test"
+          ],
+          "group": "roboflow:test-uugy6/syringe-test",
+          "previous_manifests": [
+            "device_scene_manifest.json"
+          ]
+        },
+        "syringe-test-FxiuwS2RHWAOM0Y74Xv0": {
+          "project": "test-uugy6/syringe-test",
+          "matched_projects": [
+            "test-uugy6/syringe-test"
+          ],
+          "group": "roboflow:test-uugy6/syringe-test",
+          "previous_manifests": [
+            "device_scene_manifest.json"
+          ]
+        },
+        "syringe-test-GhyjywXKNLGvydnMK5VY": {
+          "project": "test-uugy6/syringe-test",
+          "matched_projects": [
+            "test-uugy6/syringe-test"
+          ],
+          "group": "roboflow:test-uugy6/syringe-test",
+          "previous_manifests": [
+            "device_scene_manifest.json"
+          ]
+        },
+        "syringe-test-H2BMUjTTmFp5EbsuczV7": {
+          "project": "test-uugy6/syringe-test",
+          "matched_projects": [
+            "test-uugy6/syringe-test"
+          ],
+          "group": "roboflow:test-uugy6/syringe-test",
+          "previous_manifests": [
+            "device_scene_manifest.json"
+          ]
+        },
+        "syringe-test-HZbrrwzrWE5EEaFfHDXS": {
+          "project": "test-uugy6/syringe-test",
+          "matched_projects": [
+            "test-uugy6/syringe-test"
+          ],
+          "group": "roboflow:test-uugy6/syringe-test",
+          "previous_manifests": [
+            "device_scene_manifest.json"
+          ]
+        },
+        "syringe-test-HrbVXQBThc7Dhh24cVMm": {
+          "project": "test-uugy6/syringe-test",
+          "matched_projects": [
+            "test-uugy6/syringe-test"
+          ],
+          "group": "roboflow:test-uugy6/syringe-test",
+          "previous_manifests": [
+            "device_scene_manifest.json"
+          ]
+        },
+        "syringe-test-IH3WGl0kFgj6Srl95j2x": {
+          "project": "test-uugy6/syringe-test",
+          "matched_projects": [
+            "test-uugy6/syringe-test"
+          ],
+          "group": "roboflow:test-uugy6/syringe-test",
+          "previous_manifests": [
+            "device_scene_manifest.json"
+          ]
+        },
+        "syringe-test-IYAKS6RHuwkW3hIaKXkB": {
+          "project": "test-uugy6/syringe-test",
+          "matched_projects": [
+            "test-uugy6/syringe-test"
+          ],
+          "group": "roboflow:test-uugy6/syringe-test",
+          "previous_manifests": [
+            "device_scene_manifest.json"
+          ]
+        },
+        "syringe-test-Ijh13ozfn4ceClfeEIX7": {
+          "project": "test-uugy6/syringe-test",
+          "matched_projects": [
+            "test-uugy6/syringe-test"
+          ],
+          "group": "roboflow:test-uugy6/syringe-test",
+          "previous_manifests": [
+            "device_scene_manifest.json"
+          ]
+        },
+        "syringe-test-J5N0Zbv24H4cWOGQVh2Y": {
+          "project": "test-uugy6/syringe-test",
+          "matched_projects": [
+            "test-uugy6/syringe-test"
+          ],
+          "group": "roboflow:test-uugy6/syringe-test",
+          "previous_manifests": [
+            "device_scene_manifest.json"
+          ]
+        },
+        "syringe-test-LqF3fSjykhHzvH28WTqa": {
+          "project": "test-uugy6/syringe-test",
+          "matched_projects": [
+            "test-uugy6/syringe-test"
+          ],
+          "group": "roboflow:test-uugy6/syringe-test",
+          "previous_manifests": [
+            "device_scene_manifest.json"
+          ]
+        },
+        "syringe-test-LzHJ7e1wd3a1VgeocY8q": {
+          "project": "test-uugy6/syringe-test",
+          "matched_projects": [
+            "test-uugy6/syringe-test"
+          ],
+          "group": "roboflow:test-uugy6/syringe-test",
+          "previous_manifests": [
+            "device_scene_manifest.json"
+          ]
+        },
+        "syringe-test-M3taCI0EehdxHhKoVAT8": {
+          "project": "test-uugy6/syringe-test",
+          "matched_projects": [
+            "test-uugy6/syringe-test"
+          ],
+          "group": "roboflow:test-uugy6/syringe-test",
+          "previous_manifests": [
+            "device_scene_manifest.json"
+          ]
+        },
+        "syringe-test-MJdpfDoiV5IERAFCt7RF": {
+          "project": "test-uugy6/syringe-test",
+          "matched_projects": [
+            "test-uugy6/syringe-test"
+          ],
+          "group": "roboflow:test-uugy6/syringe-test",
+          "previous_manifests": [
+            "device_scene_manifest.json"
+          ]
+        },
+        "syringe-test-MOxbTf7qawwgyVuNdwdh": {
+          "project": "test-uugy6/syringe-test",
+          "matched_projects": [
+            "test-uugy6/syringe-test"
+          ],
+          "group": "roboflow:test-uugy6/syringe-test",
+          "previous_manifests": [
+            "device_scene_manifest.json"
+          ]
+        },
+        "syringe-test-NAcsgyMJW3tmiX1k9Fle": {
+          "project": "test-uugy6/syringe-test",
+          "matched_projects": [
+            "test-uugy6/syringe-test"
+          ],
+          "group": "roboflow:test-uugy6/syringe-test",
+          "previous_manifests": [
+            "device_scene_manifest.json"
+          ]
+        },
+        "syringe-test-NMTaCYClXILcFWiBp4NL": {
+          "project": "test-uugy6/syringe-test",
+          "matched_projects": [
+            "test-uugy6/syringe-test"
+          ],
+          "group": "roboflow:test-uugy6/syringe-test",
+          "previous_manifests": [
+            "device_scene_manifest.json"
+          ]
+        },
+        "syringe-test-NNaUfJNqX4GmjiHVxhJf": {
+          "project": "test-uugy6/syringe-test",
+          "matched_projects": [
+            "test-uugy6/syringe-test"
+          ],
+          "group": "roboflow:test-uugy6/syringe-test",
+          "previous_manifests": [
+            "device_scene_manifest.json"
+          ]
+        },
+        "syringe-test-O6dogb5cghzWrO98nkog": {
+          "project": "test-uugy6/syringe-test",
+          "matched_projects": [
+            "test-uugy6/syringe-test"
+          ],
+          "group": "roboflow:test-uugy6/syringe-test",
+          "previous_manifests": [
+            "device_scene_manifest.json"
+          ]
+        },
+        "syringe-test-ODEBvJYKQ1oKi8X9woPH": {
+          "project": "test-uugy6/syringe-test",
+          "matched_projects": [
+            "test-uugy6/syringe-test"
+          ],
+          "group": "roboflow:test-uugy6/syringe-test",
+          "previous_manifests": [
+            "device_scene_manifest.json"
+          ]
+        },
+        "syringe-test-OFLqZaZC153OKmLaiGWC": {
+          "project": "test-uugy6/syringe-test",
+          "matched_projects": [
+            "test-uugy6/syringe-test"
+          ],
+          "group": "roboflow:test-uugy6/syringe-test",
+          "previous_manifests": [
+            "device_scene_manifest.json"
+          ]
+        },
+        "syringe-test-PYe6ltSFsV0t8ujV6frS": {
+          "project": "test-uugy6/syringe-test",
+          "matched_projects": [
+            "test-uugy6/syringe-test"
+          ],
+          "group": "roboflow:test-uugy6/syringe-test",
+          "previous_manifests": [
+            "device_scene_manifest.json"
+          ]
+        },
+        "syringe-test-PskjBiPS2AaePhfk2OGP": {
+          "project": "test-uugy6/syringe-test",
+          "matched_projects": [
+            "test-uugy6/syringe-test"
+          ],
+          "group": "roboflow:test-uugy6/syringe-test",
+          "previous_manifests": [
+            "device_scene_manifest.json"
+          ]
+        },
+        "syringe-test-PuIk269aWwT9DHquHkea": {
+          "project": "test-uugy6/syringe-test",
+          "matched_projects": [
+            "test-uugy6/syringe-test"
+          ],
+          "group": "roboflow:test-uugy6/syringe-test",
+          "previous_manifests": [
+            "device_scene_manifest.json"
+          ]
+        },
+        "syringe-test-Q6lsdxVZKLsNNjIhWJU2": {
+          "project": "test-uugy6/syringe-test",
+          "matched_projects": [
+            "test-uugy6/syringe-test"
+          ],
+          "group": "roboflow:test-uugy6/syringe-test",
+          "previous_manifests": [
+            "device_scene_manifest.json"
+          ]
+        },
+        "syringe-test-QYTPgGy4YvOpY5ZA49tN": {
+          "project": "test-uugy6/syringe-test",
+          "matched_projects": [
+            "test-uugy6/syringe-test"
+          ],
+          "group": "roboflow:test-uugy6/syringe-test",
+          "previous_manifests": [
+            "device_scene_manifest.json"
+          ]
+        },
+        "syringe-test-QZTrIbli8SK4mcXlQBdQ": {
+          "project": "test-uugy6/syringe-test",
+          "matched_projects": [
+            "test-uugy6/syringe-test"
+          ],
+          "group": "roboflow:test-uugy6/syringe-test",
+          "previous_manifests": [
+            "device_scene_manifest.json"
+          ]
+        },
+        "syringe-test-QpeY5iJzVoMFZWuVpgZ5": {
+          "project": "test-uugy6/syringe-test",
+          "matched_projects": [
+            "test-uugy6/syringe-test"
+          ],
+          "group": "roboflow:test-uugy6/syringe-test",
+          "previous_manifests": [
+            "device_scene_manifest.json"
+          ]
+        },
+        "syringe-test-R8DmEgXoLQx7ljL70Qqm": {
+          "project": "test-uugy6/syringe-test",
+          "matched_projects": [
+            "test-uugy6/syringe-test"
+          ],
+          "group": "roboflow:test-uugy6/syringe-test",
+          "previous_manifests": [
+            "device_scene_manifest.json"
+          ]
+        },
+        "syringe-test-RU924cgPuZCKCQXecbYG": {
+          "project": "test-uugy6/syringe-test",
+          "matched_projects": [
+            "test-uugy6/syringe-test"
+          ],
+          "group": "roboflow:test-uugy6/syringe-test",
+          "previous_manifests": [
+            "device_scene_manifest.json"
+          ]
+        },
+        "syringe-test-SUYCGsXqm7KOO4TjN8co": {
+          "project": "test-uugy6/syringe-test",
+          "matched_projects": [
+            "test-uugy6/syringe-test"
+          ],
+          "group": "roboflow:test-uugy6/syringe-test",
+          "previous_manifests": [
+            "device_scene_manifest.json"
+          ]
+        },
+        "syringe-test-Sqrxtc0Jm8cVbJoXEkDr": {
+          "project": "test-uugy6/syringe-test",
+          "matched_projects": [
+            "test-uugy6/syringe-test"
+          ],
+          "group": "roboflow:test-uugy6/syringe-test",
+          "previous_manifests": [
+            "device_scene_manifest.json"
+          ]
+        },
+        "syringe-test-SzsX6ely0JqOES169LwF": {
+          "project": "test-uugy6/syringe-test",
+          "matched_projects": [
+            "test-uugy6/syringe-test"
+          ],
+          "group": "roboflow:test-uugy6/syringe-test",
+          "previous_manifests": [
+            "device_scene_manifest.json"
+          ]
+        },
+        "syringe-test-TpGKgLDKCAcyDvdoI1IQ": {
+          "project": "test-uugy6/syringe-test",
+          "matched_projects": [
+            "test-uugy6/syringe-test"
+          ],
+          "group": "roboflow:test-uugy6/syringe-test",
+          "previous_manifests": [
+            "device_scene_manifest.json"
+          ]
+        },
+        "syringe-test-TyeSoRROm4aS10U5cQei": {
+          "project": "test-uugy6/syringe-test",
+          "matched_projects": [
+            "test-uugy6/syringe-test"
+          ],
+          "group": "roboflow:test-uugy6/syringe-test",
+          "previous_manifests": [
+            "device_scene_manifest.json"
+          ]
+        },
+        "syringe-test-UqDmlaRHOIW5F4I0QVd6": {
+          "project": "test-uugy6/syringe-test",
+          "matched_projects": [
+            "test-uugy6/syringe-test"
+          ],
+          "group": "roboflow:test-uugy6/syringe-test",
+          "previous_manifests": [
+            "device_scene_manifest.json"
+          ]
+        },
+        "syringe-test-VP2HUkgkRo8OuV2ws7tm": {
+          "project": "test-uugy6/syringe-test",
+          "matched_projects": [
+            "test-uugy6/syringe-test"
+          ],
+          "group": "roboflow:test-uugy6/syringe-test",
+          "previous_manifests": [
+            "device_scene_manifest.json"
+          ]
+        },
+        "syringe-test-VWTmWQVUO1oZmlo6Z41k": {
+          "project": "test-uugy6/syringe-test",
+          "matched_projects": [
+            "test-uugy6/syringe-test"
+          ],
+          "group": "roboflow:test-uugy6/syringe-test",
+          "previous_manifests": [
+            "device_scene_manifest.json"
+          ]
+        },
+        "syringe-test-VuYHzWiZCWWuX7LAMKqG": {
+          "project": "test-uugy6/syringe-test",
+          "matched_projects": [
+            "test-uugy6/syringe-test"
+          ],
+          "group": "roboflow:test-uugy6/syringe-test",
+          "previous_manifests": [
+            "device_scene_manifest.json"
+          ]
+        },
+        "syringe-test-VzwOor9de7i4Ew56veoW": {
+          "project": "test-uugy6/syringe-test",
+          "matched_projects": [
+            "test-uugy6/syringe-test"
+          ],
+          "group": "roboflow:test-uugy6/syringe-test",
+          "previous_manifests": [
+            "device_scene_manifest.json"
+          ]
+        },
+        "syringe-test-WFBG1Y52KSrDBCxSTXoa": {
+          "project": "test-uugy6/syringe-test",
+          "matched_projects": [
+            "test-uugy6/syringe-test"
+          ],
+          "group": "roboflow:test-uugy6/syringe-test",
+          "previous_manifests": [
+            "device_scene_manifest.json"
+          ]
+        },
+        "syringe-test-XqABu3SeMYJ8VdQS5KuI": {
+          "project": "test-uugy6/syringe-test",
+          "matched_projects": [
+            "test-uugy6/syringe-test"
+          ],
+          "group": "roboflow:test-uugy6/syringe-test",
+          "previous_manifests": [
+            "device_scene_manifest.json"
+          ]
+        },
+        "syringe-test-XzKMUvvn5ttMi5asCgzr": {
+          "project": "test-uugy6/syringe-test",
+          "matched_projects": [
+            "test-uugy6/syringe-test"
+          ],
+          "group": "roboflow:test-uugy6/syringe-test",
+          "previous_manifests": [
+            "device_scene_manifest.json"
+          ]
+        },
+        "syringe-test-YH63SIQKXdGZ2riLOBsl": {
+          "project": "test-uugy6/syringe-test",
+          "matched_projects": [
+            "test-uugy6/syringe-test"
+          ],
+          "group": "roboflow:test-uugy6/syringe-test",
+          "previous_manifests": [
+            "device_scene_manifest.json"
+          ]
+        },
+        "syringe-test-YMoPb4fikII9iyEjebCj": {
+          "project": "test-uugy6/syringe-test",
+          "matched_projects": [
+            "test-uugy6/syringe-test"
+          ],
+          "group": "roboflow:test-uugy6/syringe-test",
+          "previous_manifests": [
+            "device_scene_manifest.json"
+          ]
+        },
+        "syringe-test-YTDkYhNdWyCIpP45gmXm": {
+          "project": "test-uugy6/syringe-test",
+          "matched_projects": [
+            "test-uugy6/syringe-test"
+          ],
+          "group": "roboflow:test-uugy6/syringe-test",
+          "previous_manifests": [
+            "device_scene_manifest.json"
+          ]
+        },
+        "syringe-test-ZqQoBC137K8PmeHRMNuV": {
+          "project": "test-uugy6/syringe-test",
+          "matched_projects": [
+            "test-uugy6/syringe-test"
+          ],
+          "group": "roboflow:test-uugy6/syringe-test",
+          "previous_manifests": [
+            "device_scene_manifest.json"
+          ]
+        },
+        "syringe-test-aCI4p4gcHzPtmWOydSq8": {
+          "project": "test-uugy6/syringe-test",
+          "matched_projects": [
+            "test-uugy6/syringe-test"
+          ],
+          "group": "roboflow:test-uugy6/syringe-test",
+          "previous_manifests": [
+            "device_scene_manifest.json"
+          ]
+        },
+        "syringe-test-bBXbRSMoEaxzLoZcGfPS": {
+          "project": "test-uugy6/syringe-test",
+          "matched_projects": [
+            "test-uugy6/syringe-test"
+          ],
+          "group": "roboflow:test-uugy6/syringe-test",
+          "previous_manifests": [
+            "device_scene_manifest.json"
+          ]
+        },
+        "syringe-test-bWRJ5B16rSvGfy3yyUAz": {
+          "project": "test-uugy6/syringe-test",
+          "matched_projects": [
+            "test-uugy6/syringe-test"
+          ],
+          "group": "roboflow:test-uugy6/syringe-test",
+          "previous_manifests": [
+            "device_scene_manifest.json"
+          ]
+        },
+        "syringe-test-bYkoUZF5Yd6LUJi0frYf": {
+          "project": "test-uugy6/syringe-test",
+          "matched_projects": [
+            "test-uugy6/syringe-test"
+          ],
+          "group": "roboflow:test-uugy6/syringe-test",
+          "previous_manifests": [
+            "device_scene_manifest.json"
+          ]
+        },
+        "syringe-test-bdtcdyMRDbaIS9JEoSTx": {
+          "project": "test-uugy6/syringe-test",
+          "matched_projects": [
+            "test-uugy6/syringe-test"
+          ],
+          "group": "roboflow:test-uugy6/syringe-test",
+          "previous_manifests": [
+            "device_scene_manifest.json"
+          ]
+        },
+        "syringe-test-bn2HGPPyrC9jiBDUKVhr": {
+          "project": "test-uugy6/syringe-test",
+          "matched_projects": [
+            "test-uugy6/syringe-test"
+          ],
+          "group": "roboflow:test-uugy6/syringe-test",
+          "previous_manifests": [
+            "device_scene_manifest.json"
+          ]
+        },
+        "syringe-test-c7TxSOeLSDnjxwjukZ15": {
+          "project": "test-uugy6/syringe-test",
+          "matched_projects": [
+            "test-uugy6/syringe-test"
+          ],
+          "group": "roboflow:test-uugy6/syringe-test",
+          "previous_manifests": [
+            "device_scene_manifest.json"
+          ]
+        },
+        "syringe-test-cEGudfqtOKiOwak7KUru": {
+          "project": "test-uugy6/syringe-test",
+          "matched_projects": [
+            "test-uugy6/syringe-test"
+          ],
+          "group": "roboflow:test-uugy6/syringe-test",
+          "previous_manifests": [
+            "device_scene_manifest.json"
+          ]
+        },
+        "syringe-test-cXB7vzpcYT9HoyxTgYDm": {
+          "project": "test-uugy6/syringe-test",
+          "matched_projects": [
+            "test-uugy6/syringe-test"
+          ],
+          "group": "roboflow:test-uugy6/syringe-test",
+          "previous_manifests": [
+            "device_scene_manifest.json"
+          ]
+        },
+        "syringe-test-cfC6mVk5BoZwitRqFTfq": {
+          "project": "test-uugy6/syringe-test",
+          "matched_projects": [
+            "test-uugy6/syringe-test"
+          ],
+          "group": "roboflow:test-uugy6/syringe-test",
+          "previous_manifests": [
+            "device_scene_manifest.json"
+          ]
+        },
+        "syringe-test-d5tl9hxXGBNS9nbUudfa": {
+          "project": "test-uugy6/syringe-test",
+          "matched_projects": [
+            "test-uugy6/syringe-test"
+          ],
+          "group": "roboflow:test-uugy6/syringe-test",
+          "previous_manifests": [
+            "device_scene_manifest.json"
+          ]
+        },
+        "syringe-test-dC0Zd8leESBfFjsjHQwT": {
+          "project": "test-uugy6/syringe-test",
+          "matched_projects": [
+            "test-uugy6/syringe-test"
+          ],
+          "group": "roboflow:test-uugy6/syringe-test",
+          "previous_manifests": [
+            "device_scene_manifest.json"
+          ]
+        },
+        "syringe-test-dKyj2aTAUw3JBIiDIFuL": {
+          "project": "test-uugy6/syringe-test",
+          "matched_projects": [
+            "test-uugy6/syringe-test"
+          ],
+          "group": "roboflow:test-uugy6/syringe-test",
+          "previous_manifests": [
+            "device_scene_manifest.json"
+          ]
+        },
+        "syringe-test-dpJLXq5F72gYEttnIdgR": {
+          "project": "test-uugy6/syringe-test",
+          "matched_projects": [
+            "test-uugy6/syringe-test"
+          ],
+          "group": "roboflow:test-uugy6/syringe-test",
+          "previous_manifests": [
+            "device_scene_manifest.json"
+          ]
+        },
+        "syringe-test-dvfdHmgdQTdARtLRGH2G": {
+          "project": "test-uugy6/syringe-test",
+          "matched_projects": [
+            "test-uugy6/syringe-test"
+          ],
+          "group": "roboflow:test-uugy6/syringe-test",
+          "previous_manifests": [
+            "device_scene_manifest.json"
+          ]
+        },
+        "syringe-test-eQBJroVkGHeGKhCPqyhj": {
+          "project": "test-uugy6/syringe-test",
+          "matched_projects": [
+            "test-uugy6/syringe-test"
+          ],
+          "group": "roboflow:test-uugy6/syringe-test",
+          "previous_manifests": [
+            "device_scene_manifest.json"
+          ]
+        },
+        "syringe-test-ebEqabu9WQwwGLD4Cdex": {
+          "project": "test-uugy6/syringe-test",
+          "matched_projects": [
+            "test-uugy6/syringe-test"
+          ],
+          "group": "roboflow:test-uugy6/syringe-test",
+          "previous_manifests": [
+            "device_scene_manifest.json"
+          ]
+        },
+        "syringe-test-fksHDbYvmxhDyZORWgm5": {
+          "project": "test-uugy6/syringe-test",
+          "matched_projects": [
+            "test-uugy6/syringe-test"
+          ],
+          "group": "roboflow:test-uugy6/syringe-test",
+          "previous_manifests": [
+            "device_scene_manifest.json"
+          ]
+        },
+        "syringe-test-fxNE0QjznjUOByR6ZTYV": {
+          "project": "test-uugy6/syringe-test",
+          "matched_projects": [
+            "test-uugy6/syringe-test"
+          ],
+          "group": "roboflow:test-uugy6/syringe-test",
+          "previous_manifests": [
+            "device_scene_manifest.json"
+          ]
+        },
+        "syringe-test-gDZ5knZNbTAVI1kJ76nN": {
+          "project": "test-uugy6/syringe-test",
+          "matched_projects": [
+            "test-uugy6/syringe-test"
+          ],
+          "group": "roboflow:test-uugy6/syringe-test",
+          "previous_manifests": [
+            "device_scene_manifest.json"
+          ]
+        },
+        "syringe-test-gX3DQkO4s7JxU3Ncp108": {
+          "project": "test-uugy6/syringe-test",
+          "matched_projects": [
+            "test-uugy6/syringe-test"
+          ],
+          "group": "roboflow:test-uugy6/syringe-test",
+          "previous_manifests": [
+            "device_scene_manifest.json"
+          ]
+        },
+        "syringe-test-gmRBsCD8t7Ga8uALR5hj": {
+          "project": "test-uugy6/syringe-test",
+          "matched_projects": [
+            "test-uugy6/syringe-test"
+          ],
+          "group": "roboflow:test-uugy6/syringe-test",
+          "previous_manifests": [
+            "device_scene_manifest.json"
+          ]
+        },
+        "syringe-test-gnZu9QvWNZRRpx3iyjGm": {
+          "project": "test-uugy6/syringe-test",
+          "matched_projects": [
+            "test-uugy6/syringe-test"
+          ],
+          "group": "roboflow:test-uugy6/syringe-test",
+          "previous_manifests": [
+            "device_scene_manifest.json"
+          ]
+        },
+        "syringe-test-haxFJzRuTC3gW5Z0PZxV": {
+          "project": "test-uugy6/syringe-test",
+          "matched_projects": [
+            "test-uugy6/syringe-test"
+          ],
+          "group": "roboflow:test-uugy6/syringe-test",
+          "previous_manifests": [
+            "device_scene_manifest.json"
+          ]
+        },
+        "syringe-test-hrufYgjVLG7wvlZMqXS9": {
+          "project": "test-uugy6/syringe-test",
+          "matched_projects": [
+            "test-uugy6/syringe-test"
+          ],
+          "group": "roboflow:test-uugy6/syringe-test",
+          "previous_manifests": [
+            "device_scene_manifest.json"
+          ]
+        },
+        "syringe-test-i5CwrcxjlAZovUjvEiGH": {
+          "project": "test-uugy6/syringe-test",
+          "matched_projects": [
+            "test-uugy6/syringe-test"
+          ],
+          "group": "roboflow:test-uugy6/syringe-test",
+          "previous_manifests": [
+            "device_scene_manifest.json"
+          ]
+        },
+        "syringe-test-iBQsTWFArYQhtjYxm325": {
+          "project": "test-uugy6/syringe-test",
+          "matched_projects": [
+            "test-uugy6/syringe-test"
+          ],
+          "group": "roboflow:test-uugy6/syringe-test",
+          "previous_manifests": [
+            "device_scene_manifest.json"
+          ]
+        },
+        "syringe-test-j2nC5IbkpGANZFwCGtTB": {
+          "project": "test-uugy6/syringe-test",
+          "matched_projects": [
+            "test-uugy6/syringe-test"
+          ],
+          "group": "roboflow:test-uugy6/syringe-test",
+          "previous_manifests": [
+            "device_scene_manifest.json"
+          ]
+        },
+        "syringe-test-jPEGvLG4fV65vKdaHwzs": {
+          "project": "test-uugy6/syringe-test",
+          "matched_projects": [
+            "test-uugy6/syringe-test"
+          ],
+          "group": "roboflow:test-uugy6/syringe-test",
+          "previous_manifests": [
+            "device_scene_manifest.json"
+          ]
+        },
+        "syringe-test-ls2NQYgdOPJTgEW7HF6s": {
+          "project": "test-uugy6/syringe-test",
+          "matched_projects": [
+            "test-uugy6/syringe-test"
+          ],
+          "group": "roboflow:test-uugy6/syringe-test",
+          "previous_manifests": [
+            "device_scene_manifest.json"
+          ]
+        },
+        "syringe-test-mXwSuvfS6WOakjHLrcQG": {
+          "project": "test-uugy6/syringe-test",
+          "matched_projects": [
+            "test-uugy6/syringe-test"
+          ],
+          "group": "roboflow:test-uugy6/syringe-test",
+          "previous_manifests": [
+            "device_scene_manifest.json"
+          ]
+        },
+        "syringe-test-mhbhoKzWVYjZ9uVXzuJO": {
+          "project": "test-uugy6/syringe-test",
+          "matched_projects": [
+            "test-uugy6/syringe-test"
+          ],
+          "group": "roboflow:test-uugy6/syringe-test",
+          "previous_manifests": [
+            "device_scene_manifest.json"
+          ]
+        },
+        "syringe-test-mjvFXX2CDVrX4BT5jLed": {
+          "project": "test-uugy6/syringe-test",
+          "matched_projects": [
+            "test-uugy6/syringe-test"
+          ],
+          "group": "roboflow:test-uugy6/syringe-test",
+          "previous_manifests": [
+            "device_scene_manifest.json"
+          ]
+        },
+        "syringe-test-mldaefuB4kLGeojBrQPx": {
+          "project": "test-uugy6/syringe-test",
+          "matched_projects": [
+            "test-uugy6/syringe-test"
+          ],
+          "group": "roboflow:test-uugy6/syringe-test",
+          "previous_manifests": [
+            "device_scene_manifest.json"
+          ]
+        },
+        "syringe-test-n7SMdYh63UuCJzmcgEg5": {
+          "project": "test-uugy6/syringe-test",
+          "matched_projects": [
+            "test-uugy6/syringe-test"
+          ],
+          "group": "roboflow:test-uugy6/syringe-test",
+          "previous_manifests": [
+            "device_scene_manifest.json"
+          ]
+        },
+        "syringe-test-nl3mF1zy8dNvuQWtMsG0": {
+          "project": "test-uugy6/syringe-test",
+          "matched_projects": [
+            "test-uugy6/syringe-test"
+          ],
+          "group": "roboflow:test-uugy6/syringe-test",
+          "previous_manifests": [
+            "device_scene_manifest.json"
+          ]
+        },
+        "syringe-test-o0VtlQ3Bld6DRsj95ukW": {
+          "project": "test-uugy6/syringe-test",
+          "matched_projects": [
+            "test-uugy6/syringe-test"
+          ],
+          "group": "roboflow:test-uugy6/syringe-test",
+          "previous_manifests": [
+            "device_scene_manifest.json"
+          ]
+        },
+        "syringe-test-oIr0teecId58JDBtpo33": {
+          "project": "test-uugy6/syringe-test",
+          "matched_projects": [
+            "test-uugy6/syringe-test"
+          ],
+          "group": "roboflow:test-uugy6/syringe-test",
+          "previous_manifests": [
+            "device_scene_manifest.json"
+          ]
+        },
+        "syringe-test-orIQjtfBPqKCqUfJW2R8": {
+          "project": "test-uugy6/syringe-test",
+          "matched_projects": [
+            "test-uugy6/syringe-test"
+          ],
+          "group": "roboflow:test-uugy6/syringe-test",
+          "previous_manifests": [
+            "device_scene_manifest.json"
+          ]
+        },
+        "syringe-test-ot95UcqqMOINc2Vd3SgK": {
+          "project": "test-uugy6/syringe-test",
+          "matched_projects": [
+            "test-uugy6/syringe-test"
+          ],
+          "group": "roboflow:test-uugy6/syringe-test",
+          "previous_manifests": [
+            "device_scene_manifest.json"
+          ]
+        },
+        "syringe-test-pQkcJ7ugkGyj8cqPTWaN": {
+          "project": "test-uugy6/syringe-test",
+          "matched_projects": [
+            "test-uugy6/syringe-test"
+          ],
+          "group": "roboflow:test-uugy6/syringe-test",
+          "previous_manifests": [
+            "device_scene_manifest.json"
+          ]
+        },
+        "syringe-test-qPJaBDuMAtUrUN71z0LH": {
+          "project": "test-uugy6/syringe-test",
+          "matched_projects": [
+            "test-uugy6/syringe-test"
+          ],
+          "group": "roboflow:test-uugy6/syringe-test",
+          "previous_manifests": [
+            "device_scene_manifest.json"
+          ]
+        },
+        "syringe-test-qvguabAyBuSA5B988ma4": {
+          "project": "test-uugy6/syringe-test",
+          "matched_projects": [
+            "test-uugy6/syringe-test"
+          ],
+          "group": "roboflow:test-uugy6/syringe-test",
+          "previous_manifests": [
+            "device_scene_manifest.json"
+          ]
+        },
+        "syringe-test-qxg8ynnqIVtoH1sQyCk6": {
+          "project": "test-uugy6/syringe-test",
+          "matched_projects": [
+            "test-uugy6/syringe-test"
+          ],
+          "group": "roboflow:test-uugy6/syringe-test",
+          "previous_manifests": [
+            "device_scene_manifest.json"
+          ]
+        },
+        "syringe-test-rBbPpamC2s7IJvb2Xj2R": {
+          "project": "test-uugy6/syringe-test",
+          "matched_projects": [
+            "test-uugy6/syringe-test"
+          ],
+          "group": "roboflow:test-uugy6/syringe-test",
+          "previous_manifests": [
+            "device_scene_manifest.json"
+          ]
+        },
+        "syringe-test-rjTRopz2w8mjaHs00Xai": {
+          "project": "test-uugy6/syringe-test",
+          "matched_projects": [
+            "test-uugy6/syringe-test"
+          ],
+          "group": "roboflow:test-uugy6/syringe-test",
+          "previous_manifests": [
+            "device_scene_manifest.json"
+          ]
+        },
+        "syringe-test-sbhBNPY4PpUdfk0mpktV": {
+          "project": "test-uugy6/syringe-test",
+          "matched_projects": [
+            "test-uugy6/syringe-test"
+          ],
+          "group": "roboflow:test-uugy6/syringe-test",
+          "previous_manifests": [
+            "device_scene_manifest.json"
+          ]
+        },
+        "syringe-test-sgBnRCGfSFLR6KAgfVEn": {
+          "project": "test-uugy6/syringe-test",
+          "matched_projects": [
+            "test-uugy6/syringe-test"
+          ],
+          "group": "roboflow:test-uugy6/syringe-test",
+          "previous_manifests": [
+            "device_scene_manifest.json"
+          ]
+        },
+        "syringe-test-tS4XmfWdzm9avn7DOGER": {
+          "project": "test-uugy6/syringe-test",
+          "matched_projects": [
+            "test-uugy6/syringe-test"
+          ],
+          "group": "roboflow:test-uugy6/syringe-test",
+          "previous_manifests": [
+            "device_scene_manifest.json"
+          ]
+        },
+        "syringe-test-tzopD3d7qKmEg0ws9n0M": {
+          "project": "test-uugy6/syringe-test",
+          "matched_projects": [
+            "test-uugy6/syringe-test"
+          ],
+          "group": "roboflow:test-uugy6/syringe-test",
+          "previous_manifests": [
+            "device_scene_manifest.json"
+          ]
+        },
+        "syringe-test-u7j4WIiZd6eOsCXVjH0z": {
+          "project": "test-uugy6/syringe-test",
+          "matched_projects": [
+            "test-uugy6/syringe-test"
+          ],
+          "group": "roboflow:test-uugy6/syringe-test",
+          "previous_manifests": [
+            "device_scene_manifest.json"
+          ]
+        },
+        "syringe-test-uEsf7YZLS8HKU7ntYkk9": {
+          "project": "test-uugy6/syringe-test",
+          "matched_projects": [
+            "test-uugy6/syringe-test"
+          ],
+          "group": "roboflow:test-uugy6/syringe-test",
+          "previous_manifests": [
+            "device_scene_manifest.json"
+          ]
+        },
+        "syringe-test-ujDvbFwRbjpPskfD6wuv": {
+          "project": "test-uugy6/syringe-test",
+          "matched_projects": [
+            "test-uugy6/syringe-test"
+          ],
+          "group": "roboflow:test-uugy6/syringe-test",
+          "previous_manifests": [
+            "device_scene_manifest.json"
+          ]
+        },
+        "syringe-test-v7xh7rredJyR7qbivofb": {
+          "project": "test-uugy6/syringe-test",
+          "matched_projects": [
+            "test-uugy6/syringe-test"
+          ],
+          "group": "roboflow:test-uugy6/syringe-test",
+          "previous_manifests": [
+            "device_scene_manifest.json"
+          ]
+        },
+        "syringe-test-vBskLizHVY9qR7Ko53sb": {
+          "project": "test-uugy6/syringe-test",
+          "matched_projects": [
+            "test-uugy6/syringe-test"
+          ],
+          "group": "roboflow:test-uugy6/syringe-test",
+          "previous_manifests": [
+            "device_scene_manifest.json"
+          ]
+        },
+        "syringe-test-vjXByrpIURgA0MMTJOY7": {
+          "project": "test-uugy6/syringe-test",
+          "matched_projects": [
+            "test-uugy6/syringe-test"
+          ],
+          "group": "roboflow:test-uugy6/syringe-test",
+          "previous_manifests": [
+            "device_scene_manifest.json"
+          ]
+        },
+        "syringe-test-w2CsZq0vgNItCjQlOk4k": {
+          "project": "test-uugy6/syringe-test",
+          "matched_projects": [
+            "test-uugy6/syringe-test"
+          ],
+          "group": "roboflow:test-uugy6/syringe-test",
+          "previous_manifests": [
+            "device_scene_manifest.json"
+          ]
+        },
+        "syringe-test-wBw0DK6LBeITfZGIh7ne": {
+          "project": "test-uugy6/syringe-test",
+          "matched_projects": [
+            "test-uugy6/syringe-test"
+          ],
+          "group": "roboflow:test-uugy6/syringe-test",
+          "previous_manifests": [
+            "device_scene_manifest.json"
+          ]
+        },
+        "syringe-test-yLUjkJM1CTyLbtfspHiE": {
+          "project": "test-uugy6/syringe-test",
+          "matched_projects": [
+            "test-uugy6/syringe-test"
+          ],
+          "group": "roboflow:test-uugy6/syringe-test",
+          "previous_manifests": [
+            "device_scene_manifest.json"
+          ]
+        },
+        "syringe-test-ynap0wkRrTFRH5XGDDyw": {
+          "project": "test-uugy6/syringe-test",
+          "matched_projects": [
+            "test-uugy6/syringe-test"
+          ],
+          "group": "roboflow:test-uugy6/syringe-test",
+          "previous_manifests": [
+            "device_scene_manifest.json"
+          ]
+        },
+        "syringe-test-ysr794I6BID7QXvedtIn": {
+          "project": "test-uugy6/syringe-test",
+          "matched_projects": [
+            "test-uugy6/syringe-test"
+          ],
+          "group": "roboflow:test-uugy6/syringe-test",
+          "previous_manifests": [
+            "device_scene_manifest.json"
+          ]
+        },
+        "syringe-project-0Noq8ZiUPdea0D4NYMod": {
+          "project": "michaels-workspace-ldsqh/syringe-project",
+          "matched_projects": [
+            "michaels-workspace-ldsqh/syringe-detection-fnu4f"
+          ],
+          "group": "roboflow:michaels-workspace-ldsqh/syringe-detection-fnu4f",
+          "previous_manifests": [
+            "device_context_manifest.json"
+          ]
+        },
+        "syringe-project-0YKtU6QyPV55XDfg8OCg": {
+          "project": "michaels-workspace-ldsqh/syringe-project",
+          "matched_projects": [
+            "michaels-workspace-ldsqh/syringe-detection-fnu4f"
+          ],
+          "group": "roboflow:michaels-workspace-ldsqh/syringe-detection-fnu4f",
+          "previous_manifests": [
+            "device_context_manifest.json"
+          ]
+        },
+        "syringe-project-298as9rGOntoECpSibip": {
+          "project": "michaels-workspace-ldsqh/syringe-project",
+          "matched_projects": [
+            "michaels-workspace-ldsqh/syringe-detection-fnu4f"
+          ],
+          "group": "roboflow:michaels-workspace-ldsqh/syringe-detection-fnu4f",
+          "previous_manifests": [
+            "device_context_manifest.json"
+          ]
+        },
+        "syringe-project-2OO2N56B10j9tVNGVnVm": {
+          "project": "michaels-workspace-ldsqh/syringe-project",
+          "matched_projects": [
+            "michaels-workspace-ldsqh/syringe-detection-fnu4f"
+          ],
+          "group": "roboflow:michaels-workspace-ldsqh/syringe-detection-fnu4f",
+          "previous_manifests": [
+            "device_context_manifest.json"
+          ]
+        },
+        "syringe-project-3OgQ2D51CsiP5RndIHZC": {
+          "project": "michaels-workspace-ldsqh/syringe-project",
+          "matched_projects": [
+            "michaels-workspace-ldsqh/syringe-detection-fnu4f"
+          ],
+          "group": "roboflow:michaels-workspace-ldsqh/syringe-detection-fnu4f",
+          "previous_manifests": [
+            "device_context_manifest.json"
+          ]
+        },
+        "syringe-project-3PcaQPejebmWdjRnUUix": {
+          "project": "michaels-workspace-ldsqh/syringe-project",
+          "matched_projects": [
+            "michaels-workspace-ldsqh/syringe-detection-fnu4f"
+          ],
+          "group": "roboflow:michaels-workspace-ldsqh/syringe-detection-fnu4f",
+          "previous_manifests": [
+            "device_context_manifest.json"
+          ]
+        },
+        "syringe-project-3iSQJdvVjH9jCM8DjUgi": {
+          "project": "michaels-workspace-ldsqh/syringe-project",
+          "matched_projects": [
+            "michaels-workspace-ldsqh/syringe-detection-fnu4f"
+          ],
+          "group": "roboflow:michaels-workspace-ldsqh/syringe-detection-fnu4f",
+          "previous_manifests": [
+            "device_context_manifest.json"
+          ]
+        },
+        "syringe-project-3qSxMVD4DpPV4rg5Huq5": {
+          "project": "michaels-workspace-ldsqh/syringe-project",
+          "matched_projects": [
+            "michaels-workspace-ldsqh/syringe-detection-fnu4f"
+          ],
+          "group": "roboflow:michaels-workspace-ldsqh/syringe-detection-fnu4f",
+          "previous_manifests": [
+            "device_context_manifest.json"
+          ]
+        },
+        "syringe-project-4ZxAkWMloJmDuWhw3qaM": {
+          "project": "michaels-workspace-ldsqh/syringe-project",
+          "matched_projects": [
+            "michaels-workspace-ldsqh/syringe-detection-fnu4f"
+          ],
+          "group": "roboflow:michaels-workspace-ldsqh/syringe-detection-fnu4f",
+          "previous_manifests": [
+            "device_context_manifest.json"
+          ]
+        },
+        "syringe-project-56JYZ4nTNzji452F5UDN": {
+          "project": "michaels-workspace-ldsqh/syringe-project",
+          "matched_projects": [
+            "michaels-workspace-ldsqh/syringe-detection-fnu4f"
+          ],
+          "group": "roboflow:michaels-workspace-ldsqh/syringe-detection-fnu4f",
+          "previous_manifests": [
+            "device_context_manifest.json"
+          ]
+        },
+        "syringe-project-6FApG6toK8F9f488jwYF": {
+          "project": "michaels-workspace-ldsqh/syringe-project",
+          "matched_projects": [
+            "michaels-workspace-ldsqh/syringe-detection-fnu4f"
+          ],
+          "group": "roboflow:michaels-workspace-ldsqh/syringe-detection-fnu4f",
+          "previous_manifests": [
+            "device_context_manifest.json"
+          ]
+        },
+        "syringe-project-6FiAPxPTvTMlNHP9XHvL": {
+          "project": "michaels-workspace-ldsqh/syringe-project",
+          "matched_projects": [
+            "michaels-workspace-ldsqh/syringe-detection-fnu4f"
+          ],
+          "group": "roboflow:michaels-workspace-ldsqh/syringe-detection-fnu4f",
+          "previous_manifests": [
+            "device_context_manifest.json"
+          ]
+        },
+        "syringe-project-6M4zbwuEbQjvWzlZgW69": {
+          "project": "michaels-workspace-ldsqh/syringe-project",
+          "matched_projects": [
+            "michaels-workspace-ldsqh/syringe-detection-fnu4f"
+          ],
+          "group": "roboflow:michaels-workspace-ldsqh/syringe-detection-fnu4f",
+          "previous_manifests": [
+            "device_context_manifest.json"
+          ]
+        },
+        "syringe-project-7PBNzyJw1vnx2oT4pY7Y": {
+          "project": "michaels-workspace-ldsqh/syringe-project",
+          "matched_projects": [
+            "michaels-workspace-ldsqh/syringe-detection-fnu4f"
+          ],
+          "group": "roboflow:michaels-workspace-ldsqh/syringe-detection-fnu4f",
+          "previous_manifests": [
+            "device_context_manifest.json"
+          ]
+        },
+        "syringe-project-7dd7uvlE08SzuUy9FXVV": {
+          "project": "michaels-workspace-ldsqh/syringe-project",
+          "matched_projects": [
+            "michaels-workspace-ldsqh/syringe-detection-fnu4f"
+          ],
+          "group": "roboflow:michaels-workspace-ldsqh/syringe-detection-fnu4f",
+          "previous_manifests": [
+            "device_context_manifest.json"
+          ]
+        },
+        "syringe-project-8ZtustOKA5xSwDQCVPkw": {
+          "project": "michaels-workspace-ldsqh/syringe-project",
+          "matched_projects": [
+            "michaels-workspace-ldsqh/syringe-detection-fnu4f"
+          ],
+          "group": "roboflow:michaels-workspace-ldsqh/syringe-detection-fnu4f",
+          "previous_manifests": [
+            "device_context_manifest.json"
+          ]
+        },
+        "syringe-project-8qYlOFhndWsSehh2O5bD": {
+          "project": "michaels-workspace-ldsqh/syringe-project",
+          "matched_projects": [
+            "michaels-workspace-ldsqh/syringe-detection-fnu4f"
+          ],
+          "group": "roboflow:michaels-workspace-ldsqh/syringe-detection-fnu4f",
+          "previous_manifests": [
+            "device_context_manifest.json"
+          ]
+        },
+        "syringe-project-9GCqww2ilN921Cx0lpWn": {
+          "project": "michaels-workspace-ldsqh/syringe-project",
+          "matched_projects": [
+            "michaels-workspace-ldsqh/syringe-detection-fnu4f"
+          ],
+          "group": "roboflow:michaels-workspace-ldsqh/syringe-detection-fnu4f",
+          "previous_manifests": [
+            "device_context_manifest.json"
+          ]
+        },
+        "syringe-project-9OdbJlb3DxvUAE9JwoBH": {
+          "project": "michaels-workspace-ldsqh/syringe-project",
+          "matched_projects": [
+            "michaels-workspace-ldsqh/syringe-detection-fnu4f"
+          ],
+          "group": "roboflow:michaels-workspace-ldsqh/syringe-detection-fnu4f",
+          "previous_manifests": [
+            "device_context_manifest.json"
+          ]
+        },
+        "syringe-project-AaHBxJEp6IjTVDrZFAdQ": {
+          "project": "michaels-workspace-ldsqh/syringe-project",
+          "matched_projects": [
+            "michaels-workspace-ldsqh/syringe-detection-fnu4f"
+          ],
+          "group": "roboflow:michaels-workspace-ldsqh/syringe-detection-fnu4f",
+          "previous_manifests": [
+            "device_context_manifest.json"
+          ]
+        },
+        "syringe-project-AfPeBWEi8q7El2yrfCHt": {
+          "project": "michaels-workspace-ldsqh/syringe-project",
+          "matched_projects": [
+            "michaels-workspace-ldsqh/syringe-detection-fnu4f"
+          ],
+          "group": "roboflow:michaels-workspace-ldsqh/syringe-detection-fnu4f",
+          "previous_manifests": [
+            "device_context_manifest.json"
+          ]
+        },
+        "syringe-project-B11Owe7y7WNQZnCQXuVG": {
+          "project": "michaels-workspace-ldsqh/syringe-project",
+          "matched_projects": [
+            "michaels-workspace-ldsqh/syringe-detection-fnu4f"
+          ],
+          "group": "roboflow:michaels-workspace-ldsqh/syringe-detection-fnu4f",
+          "previous_manifests": [
+            "device_context_manifest.json"
+          ]
+        },
+        "syringe-project-BBrdi3UsWy5M1vXGkh70": {
+          "project": "michaels-workspace-ldsqh/syringe-project",
+          "matched_projects": [
+            "michaels-workspace-ldsqh/syringe-detection-fnu4f"
+          ],
+          "group": "roboflow:michaels-workspace-ldsqh/syringe-detection-fnu4f",
+          "previous_manifests": [
+            "device_context_manifest.json"
+          ]
+        },
+        "syringe-project-BTNhdYmZcLLSzy6EeA9l": {
+          "project": "michaels-workspace-ldsqh/syringe-project",
+          "matched_projects": [
+            "michaels-workspace-ldsqh/syringe-detection-fnu4f"
+          ],
+          "group": "roboflow:michaels-workspace-ldsqh/syringe-detection-fnu4f",
+          "previous_manifests": [
+            "device_context_manifest.json"
+          ]
+        },
+        "syringe-project-BtkcLPyLn7KOpnfyZIjx": {
+          "project": "michaels-workspace-ldsqh/syringe-project",
+          "matched_projects": [
+            "michaels-workspace-ldsqh/syringe-detection-fnu4f"
+          ],
+          "group": "roboflow:michaels-workspace-ldsqh/syringe-detection-fnu4f",
+          "previous_manifests": [
+            "device_context_manifest.json"
+          ]
+        },
+        "syringe-project-C4SE7xBwkDALRZPKyZtd": {
+          "project": "michaels-workspace-ldsqh/syringe-project",
+          "matched_projects": [
+            "michaels-workspace-ldsqh/syringe-detection-fnu4f"
+          ],
+          "group": "roboflow:michaels-workspace-ldsqh/syringe-detection-fnu4f",
+          "previous_manifests": [
+            "device_context_manifest.json"
+          ]
+        },
+        "syringe-project-Db3GIAN9gog52R0NrEyE": {
+          "project": "michaels-workspace-ldsqh/syringe-project",
+          "matched_projects": [
+            "michaels-workspace-ldsqh/syringe-detection-fnu4f"
+          ],
+          "group": "roboflow:michaels-workspace-ldsqh/syringe-detection-fnu4f",
+          "previous_manifests": [
+            "device_context_manifest.json"
+          ]
+        },
+        "syringe-project-DfmYBFePaUoQ6BnvQUyi": {
+          "project": "michaels-workspace-ldsqh/syringe-project",
+          "matched_projects": [
+            "michaels-workspace-ldsqh/syringe-detection-fnu4f"
+          ],
+          "group": "roboflow:michaels-workspace-ldsqh/syringe-detection-fnu4f",
+          "previous_manifests": [
+            "device_context_manifest.json"
+          ]
+        },
+        "syringe-project-E2VtP0vOjJDkM0IAFYGe": {
+          "project": "michaels-workspace-ldsqh/syringe-project",
+          "matched_projects": [
+            "michaels-workspace-ldsqh/syringe-detection-fnu4f"
+          ],
+          "group": "roboflow:michaels-workspace-ldsqh/syringe-detection-fnu4f",
+          "previous_manifests": [
+            "device_context_manifest.json"
+          ]
+        },
+        "syringe-project-HdVnEJstkxFAED25wVhO": {
+          "project": "michaels-workspace-ldsqh/syringe-project",
+          "matched_projects": [
+            "michaels-workspace-ldsqh/syringe-detection-fnu4f"
+          ],
+          "group": "roboflow:michaels-workspace-ldsqh/syringe-detection-fnu4f",
+          "previous_manifests": [
+            "device_context_manifest.json"
+          ]
+        },
+        "syringe-project-HoHhXIkHGmLEcGyC2Q1R": {
+          "project": "michaels-workspace-ldsqh/syringe-project",
+          "matched_projects": [
+            "michaels-workspace-ldsqh/syringe-detection-fnu4f"
+          ],
+          "group": "roboflow:michaels-workspace-ldsqh/syringe-detection-fnu4f",
+          "previous_manifests": [
+            "device_context_manifest.json"
+          ]
+        },
+        "syringe-project-HpFqUIgTzGnaSSTMQCpo": {
+          "project": "michaels-workspace-ldsqh/syringe-project",
+          "matched_projects": [
+            "michaels-workspace-ldsqh/syringe-detection-fnu4f"
+          ],
+          "group": "roboflow:michaels-workspace-ldsqh/syringe-detection-fnu4f",
+          "previous_manifests": [
+            "device_context_manifest.json"
+          ]
+        },
+        "syringe-project-HzkHVr9Tn5UW7z7H2Acw": {
+          "project": "michaels-workspace-ldsqh/syringe-project",
+          "matched_projects": [
+            "michaels-workspace-ldsqh/syringe-detection-fnu4f"
+          ],
+          "group": "roboflow:michaels-workspace-ldsqh/syringe-detection-fnu4f",
+          "previous_manifests": [
+            "device_context_manifest.json"
+          ]
+        },
+        "syringe-project-LA4jaVORCKcSGYcrwnfH": {
+          "project": "michaels-workspace-ldsqh/syringe-project",
+          "matched_projects": [
+            "michaels-workspace-ldsqh/syringe-detection-fnu4f"
+          ],
+          "group": "roboflow:michaels-workspace-ldsqh/syringe-detection-fnu4f",
+          "previous_manifests": [
+            "device_context_manifest.json"
+          ]
+        },
+        "syringe-project-PTnOpxGVfCwFLgO9WgcU": {
+          "project": "michaels-workspace-ldsqh/syringe-project",
+          "matched_projects": [
+            "michaels-workspace-ldsqh/syringe-detection-fnu4f"
+          ],
+          "group": "roboflow:michaels-workspace-ldsqh/syringe-detection-fnu4f",
+          "previous_manifests": [
+            "device_context_manifest.json"
+          ]
+        },
+        "syringe-project-Po9YziBqk8DbMWe5Awed": {
+          "project": "michaels-workspace-ldsqh/syringe-project",
+          "matched_projects": [
+            "michaels-workspace-ldsqh/syringe-detection-fnu4f"
+          ],
+          "group": "roboflow:michaels-workspace-ldsqh/syringe-detection-fnu4f",
+          "previous_manifests": [
+            "device_context_manifest.json"
+          ]
+        },
+        "syringe-project-Q5GifyNtDTYOHQq2qUb5": {
+          "project": "michaels-workspace-ldsqh/syringe-project",
+          "matched_projects": [
+            "michaels-workspace-ldsqh/syringe-detection-fnu4f"
+          ],
+          "group": "roboflow:michaels-workspace-ldsqh/syringe-detection-fnu4f",
+          "previous_manifests": [
+            "device_context_manifest.json"
+          ]
+        },
+        "syringe-project-QAi3krLZ2XKeAKCr4O8W": {
+          "project": "michaels-workspace-ldsqh/syringe-project",
+          "matched_projects": [
+            "michaels-workspace-ldsqh/syringe-detection-fnu4f"
+          ],
+          "group": "roboflow:michaels-workspace-ldsqh/syringe-detection-fnu4f",
+          "previous_manifests": [
+            "device_context_manifest.json"
+          ]
+        },
+        "syringe-project-S34Jm1fukRG18aMiavJY": {
+          "project": "michaels-workspace-ldsqh/syringe-project",
+          "matched_projects": [
+            "michaels-workspace-ldsqh/syringe-detection-fnu4f"
+          ],
+          "group": "roboflow:michaels-workspace-ldsqh/syringe-detection-fnu4f",
+          "previous_manifests": [
+            "device_context_manifest.json"
+          ]
+        },
+        "syringe-project-SW0t9lOQMNO2rNIiDK1Q": {
+          "project": "michaels-workspace-ldsqh/syringe-project",
+          "matched_projects": [
+            "michaels-workspace-ldsqh/syringe-detection-fnu4f"
+          ],
+          "group": "roboflow:michaels-workspace-ldsqh/syringe-detection-fnu4f",
+          "previous_manifests": [
+            "device_context_manifest.json"
+          ]
+        },
+        "syringe-project-SzPAigYLWA3zUPKtVsRE": {
+          "project": "michaels-workspace-ldsqh/syringe-project",
+          "matched_projects": [
+            "michaels-workspace-ldsqh/syringe-detection-fnu4f"
+          ],
+          "group": "roboflow:michaels-workspace-ldsqh/syringe-detection-fnu4f",
+          "previous_manifests": [
+            "device_context_manifest.json"
+          ]
+        },
+        "syringe-project-T0uvWmLHlwTO2txzl8LI": {
+          "project": "michaels-workspace-ldsqh/syringe-project",
+          "matched_projects": [
+            "michaels-workspace-ldsqh/syringe-detection-fnu4f"
+          ],
+          "group": "roboflow:michaels-workspace-ldsqh/syringe-detection-fnu4f",
+          "previous_manifests": [
+            "device_context_manifest.json"
+          ]
+        },
+        "syringe-project-UCeUVQ2ZYk5QL9utfudt": {
+          "project": "michaels-workspace-ldsqh/syringe-project",
+          "matched_projects": [
+            "michaels-workspace-ldsqh/syringe-detection-fnu4f"
+          ],
+          "group": "roboflow:michaels-workspace-ldsqh/syringe-detection-fnu4f",
+          "previous_manifests": [
+            "device_context_manifest.json"
+          ]
+        },
+        "syringe-project-WsXpcDJypkpHAWt4nf6B": {
+          "project": "michaels-workspace-ldsqh/syringe-project",
+          "matched_projects": [
+            "michaels-workspace-ldsqh/syringe-detection-fnu4f"
+          ],
+          "group": "roboflow:michaels-workspace-ldsqh/syringe-detection-fnu4f",
+          "previous_manifests": [
+            "device_context_manifest.json"
+          ]
+        },
+        "syringe-project-XQVOOGeyhoiFkpy2T078": {
+          "project": "michaels-workspace-ldsqh/syringe-project",
+          "matched_projects": [
+            "michaels-workspace-ldsqh/syringe-detection-fnu4f"
+          ],
+          "group": "roboflow:michaels-workspace-ldsqh/syringe-detection-fnu4f",
+          "previous_manifests": [
+            "device_context_manifest.json"
+          ]
+        },
+        "syringe-project-XX3V387fMkN5ikHuKfTW": {
+          "project": "michaels-workspace-ldsqh/syringe-project",
+          "matched_projects": [
+            "michaels-workspace-ldsqh/syringe-detection-fnu4f"
+          ],
+          "group": "roboflow:michaels-workspace-ldsqh/syringe-detection-fnu4f",
+          "previous_manifests": [
+            "device_context_manifest.json"
+          ]
+        },
+        "syringe-project-YZfl9JchUCSnmOu4ZE44": {
+          "project": "michaels-workspace-ldsqh/syringe-project",
+          "matched_projects": [
+            "michaels-workspace-ldsqh/syringe-detection-fnu4f"
+          ],
+          "group": "roboflow:michaels-workspace-ldsqh/syringe-detection-fnu4f",
+          "previous_manifests": [
+            "device_context_manifest.json"
+          ]
+        },
+        "syringe-project-Yp0kDn84mZq6eOKmEaNB": {
+          "project": "michaels-workspace-ldsqh/syringe-project",
+          "matched_projects": [
+            "michaels-workspace-ldsqh/syringe-detection-fnu4f"
+          ],
+          "group": "roboflow:michaels-workspace-ldsqh/syringe-detection-fnu4f",
+          "previous_manifests": [
+            "device_context_manifest.json"
+          ]
+        },
+        "syringe-project-YqycxBsPeYKKAxbZHrIB": {
+          "project": "michaels-workspace-ldsqh/syringe-project",
+          "matched_projects": [
+            "michaels-workspace-ldsqh/syringe-detection-fnu4f"
+          ],
+          "group": "roboflow:michaels-workspace-ldsqh/syringe-detection-fnu4f",
+          "previous_manifests": [
+            "device_context_manifest.json"
+          ]
+        },
+        "syringe-project-ZwxGmjuwnQIKQ0B0bmG3": {
+          "project": "michaels-workspace-ldsqh/syringe-project",
+          "matched_projects": [
+            "michaels-workspace-ldsqh/syringe-detection-fnu4f"
+          ],
+          "group": "roboflow:michaels-workspace-ldsqh/syringe-detection-fnu4f",
+          "previous_manifests": [
+            "device_context_manifest.json"
+          ]
+        },
+        "syringe-project-aksCSUytNMd3NJ1KeSGD": {
+          "project": "michaels-workspace-ldsqh/syringe-project",
+          "matched_projects": [
+            "michaels-workspace-ldsqh/syringe-detection-fnu4f"
+          ],
+          "group": "roboflow:michaels-workspace-ldsqh/syringe-detection-fnu4f",
+          "previous_manifests": [
+            "device_context_manifest.json"
+          ]
+        },
+        "syringe-project-bTNzx5QnLDAO57Zqh4MS": {
+          "project": "michaels-workspace-ldsqh/syringe-project",
+          "matched_projects": [
+            "michaels-workspace-ldsqh/syringe-detection-fnu4f"
+          ],
+          "group": "roboflow:michaels-workspace-ldsqh/syringe-detection-fnu4f",
+          "previous_manifests": [
+            "device_context_manifest.json"
+          ]
+        },
+        "syringe-project-e9qf1TV8OYpRr2XiW5tm": {
+          "project": "michaels-workspace-ldsqh/syringe-project",
+          "matched_projects": [
+            "michaels-workspace-ldsqh/syringe-detection-fnu4f"
+          ],
+          "group": "roboflow:michaels-workspace-ldsqh/syringe-detection-fnu4f",
+          "previous_manifests": [
+            "device_context_manifest.json"
+          ]
+        },
+        "syringe-project-fx8cgawFlww6mYXCrleL": {
+          "project": "michaels-workspace-ldsqh/syringe-project",
+          "matched_projects": [
+            "michaels-workspace-ldsqh/syringe-detection-fnu4f"
+          ],
+          "group": "roboflow:michaels-workspace-ldsqh/syringe-detection-fnu4f",
+          "previous_manifests": [
+            "device_context_manifest.json"
+          ]
+        },
+        "syringe-project-iEK0aI0xkSmDlM2ydoWq": {
+          "project": "michaels-workspace-ldsqh/syringe-project",
+          "matched_projects": [
+            "michaels-workspace-ldsqh/syringe-detection-fnu4f"
+          ],
+          "group": "roboflow:michaels-workspace-ldsqh/syringe-detection-fnu4f",
+          "previous_manifests": [
+            "device_context_manifest.json"
+          ]
+        },
+        "syringe-project-ile6VREz0bDS9W2yutlm": {
+          "project": "michaels-workspace-ldsqh/syringe-project",
+          "matched_projects": [
+            "michaels-workspace-ldsqh/syringe-detection-fnu4f"
+          ],
+          "group": "roboflow:michaels-workspace-ldsqh/syringe-detection-fnu4f",
+          "previous_manifests": [
+            "device_context_manifest.json"
+          ]
+        },
+        "syringe-project-jss0eFErcAuvSCYraYZs": {
+          "project": "michaels-workspace-ldsqh/syringe-project",
+          "matched_projects": [
+            "michaels-workspace-ldsqh/syringe-detection-fnu4f"
+          ],
+          "group": "roboflow:michaels-workspace-ldsqh/syringe-detection-fnu4f",
+          "previous_manifests": [
+            "device_context_manifest.json"
+          ]
+        },
+        "syringe-project-kzXgECRqlY85qFjSg2On": {
+          "project": "michaels-workspace-ldsqh/syringe-project",
+          "matched_projects": [
+            "michaels-workspace-ldsqh/syringe-detection-fnu4f"
+          ],
+          "group": "roboflow:michaels-workspace-ldsqh/syringe-detection-fnu4f",
+          "previous_manifests": [
+            "device_context_manifest.json"
+          ]
+        },
+        "syringe-project-lIZ2u6nmGo4nCU43gyLC": {
+          "project": "michaels-workspace-ldsqh/syringe-project",
+          "matched_projects": [
+            "michaels-workspace-ldsqh/syringe-detection-fnu4f"
+          ],
+          "group": "roboflow:michaels-workspace-ldsqh/syringe-detection-fnu4f",
+          "previous_manifests": [
+            "device_context_manifest.json"
+          ]
+        },
+        "syringe-project-pQAf2hbijXRNF8OZofM4": {
+          "project": "michaels-workspace-ldsqh/syringe-project",
+          "matched_projects": [
+            "michaels-workspace-ldsqh/syringe-detection-fnu4f"
+          ],
+          "group": "roboflow:michaels-workspace-ldsqh/syringe-detection-fnu4f",
+          "previous_manifests": [
+            "device_context_manifest.json"
+          ]
+        },
+        "syringe-project-pfDSLVQjSea1cBaohkZu": {
+          "project": "michaels-workspace-ldsqh/syringe-project",
+          "matched_projects": [
+            "michaels-workspace-ldsqh/syringe-detection-fnu4f"
+          ],
+          "group": "roboflow:michaels-workspace-ldsqh/syringe-detection-fnu4f",
+          "previous_manifests": [
+            "device_context_manifest.json"
+          ]
+        },
+        "syringe-project-rj9AzON1TuyU7jjUjJWD": {
+          "project": "michaels-workspace-ldsqh/syringe-project",
+          "matched_projects": [
+            "michaels-workspace-ldsqh/syringe-detection-fnu4f"
+          ],
+          "group": "roboflow:michaels-workspace-ldsqh/syringe-detection-fnu4f",
+          "previous_manifests": [
+            "device_context_manifest.json"
+          ]
+        },
+        "syringe-project-tto0awGMa2Hvt1uU4S2W": {
+          "project": "michaels-workspace-ldsqh/syringe-project",
+          "matched_projects": [
+            "michaels-workspace-ldsqh/syringe-detection-fnu4f"
+          ],
+          "group": "roboflow:michaels-workspace-ldsqh/syringe-detection-fnu4f",
+          "previous_manifests": [
+            "device_context_manifest.json"
+          ]
+        },
+        "syringe-project-uREyd8utLvkPUZV3fFgE": {
+          "project": "michaels-workspace-ldsqh/syringe-project",
+          "matched_projects": [
+            "michaels-workspace-ldsqh/syringe-detection-fnu4f"
+          ],
+          "group": "roboflow:michaels-workspace-ldsqh/syringe-detection-fnu4f",
+          "previous_manifests": [
+            "device_context_manifest.json"
+          ]
+        },
+        "syringe-project-wDfbsqCfH8bUwILLHBau": {
+          "project": "michaels-workspace-ldsqh/syringe-project",
+          "matched_projects": [
+            "michaels-workspace-ldsqh/syringe-detection-fnu4f"
+          ],
+          "group": "roboflow:michaels-workspace-ldsqh/syringe-detection-fnu4f",
+          "previous_manifests": [
+            "device_context_manifest.json"
+          ]
+        },
+        "syringe-project-wmtm7vZFAiBCNzJD65W8": {
+          "project": "michaels-workspace-ldsqh/syringe-project",
+          "matched_projects": [
+            "michaels-workspace-ldsqh/syringe-detection-fnu4f"
+          ],
+          "group": "roboflow:michaels-workspace-ldsqh/syringe-detection-fnu4f",
+          "previous_manifests": [
+            "device_context_manifest.json"
+          ]
+        },
+        "syringe-project-xZH0Tovp4xmszZ1Vj98H": {
+          "project": "michaels-workspace-ldsqh/syringe-project",
+          "matched_projects": [
+            "michaels-workspace-ldsqh/syringe-detection-fnu4f"
+          ],
+          "group": "roboflow:michaels-workspace-ldsqh/syringe-detection-fnu4f",
+          "previous_manifests": [
+            "device_context_manifest.json"
+          ]
+        },
+        "syringe-project-z3ILyQCzOeyPJIHOpzb5": {
+          "project": "michaels-workspace-ldsqh/syringe-project",
+          "matched_projects": [
+            "michaels-workspace-ldsqh/syringe-detection-fnu4f"
+          ],
+          "group": "roboflow:michaels-workspace-ldsqh/syringe-detection-fnu4f",
+          "previous_manifests": [
+            "device_context_manifest.json"
+          ]
+        },
+        "syringe-project-zHxSHHccXfCAVk4dk8om": {
+          "project": "michaels-workspace-ldsqh/syringe-project",
+          "matched_projects": [
+            "michaels-workspace-ldsqh/syringe-detection-fnu4f"
+          ],
+          "group": "roboflow:michaels-workspace-ldsqh/syringe-detection-fnu4f",
+          "previous_manifests": [
+            "device_context_manifest.json"
+          ]
+        },
+        "syringe-project-5wja2Pzoe1KiqxJISvsR": {
+          "project": "michaels-workspace-ldsqh/syringe-project",
+          "matched_projects": [
+            "michaels-workspace-ldsqh/syringe-detection-fnu4f"
+          ],
+          "group": "roboflow:michaels-workspace-ldsqh/syringe-detection-fnu4f",
+          "previous_manifests": [
+            "device_context_manifest.json"
+          ]
+        },
+        "syringe-project-KTtliiMDZBSO4YsEtGGo": {
+          "project": "michaels-workspace-ldsqh/syringe-project",
+          "matched_projects": [
+            "michaels-workspace-ldsqh/syringe-detection-fnu4f"
+          ],
+          "group": "roboflow:michaels-workspace-ldsqh/syringe-detection-fnu4f",
+          "previous_manifests": [
+            "device_context_manifest.json"
+          ]
+        },
+        "syringe-project-S2Qo250585f8CeKWvqnT": {
+          "project": "michaels-workspace-ldsqh/syringe-project",
+          "matched_projects": [
+            "michaels-workspace-ldsqh/syringe-detection-fnu4f"
+          ],
+          "group": "roboflow:michaels-workspace-ldsqh/syringe-detection-fnu4f",
+          "previous_manifests": [
+            "device_context_manifest.json"
+          ]
+        },
+        "syringe-project-vZ90n3zfqjmkoxSranVh": {
+          "project": "michaels-workspace-ldsqh/syringe-project",
+          "matched_projects": [
+            "michaels-workspace-ldsqh/syringe-detection-fnu4f"
+          ],
+          "group": "roboflow:michaels-workspace-ldsqh/syringe-detection-fnu4f",
+          "previous_manifests": [
+            "device_context_manifest.json"
+          ]
+        }
+      },
+      "retained_for_separate_review_only": [],
+      "blocked_by_project": {
+        "test-uugy6/syringe-test": 156,
+        "michaels-workspace-ldsqh/syringe-project": 73
+      },
+      "blocked_by_group": [
+        "roboflow:michaels-workspace-ldsqh/syringe-detection-fnu4f",
+        "roboflow:test-uugy6/syringe-test"
+      ]
+    }
+  },
+  "protected": {
+    "artifacts/detection_hillclimb/device_scene_manifest.json": "f8f927641d910c6f8c03dedf57a8fc70069e3a119fcb3bc91b19a4b8ec68074b",
+    "artifacts/detection_hillclimb/device_context_manifest.json": "e1f1eaf123eb236aa453d014549bb4600e2a1ad8d8035af50b797ed1c3140cbb",
+    "artifacts/detection_hillclimb/medbin_held_out_manifest.json": "d49dff2f45256ad40b9338d2b0864625dc53cb94083137161ff9a33a4235d061",
+    "artifacts/detection_hillclimb/commons_crowds_reserve.json": "16f226c4e9296a808477129fca8e2306c7e230e49bf223d18ea0549269ea3718",
+    "artifacts/detection_hillclimb/crowd_field_manifest.json": "0ec32f02afbe02d4872845cf16a024c0a47b153934280250370645b97da5ba88"
+  },
+  "rule": "A public project eligible for a prior development or reserve experiment remains excluded as a whole from new fitting. Unblocked records still need annotation, cross-catalog pixel screening and individual lineage review."
+}

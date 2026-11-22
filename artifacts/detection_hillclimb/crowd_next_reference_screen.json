@@ -1,0 +1,367 @@
+{
+  "method": "Matches checked against the repository historical public benchmark index with protected local comparison fingerprints, reusing the public web collection comparison code. Scene authors, source pages, and event or collection captions were reviewed for acquisition grouping.",
+  "scope": {
+    "raster_files": {
+      "data/commons": 20,
+      "data/commons-v2": 30,
+      "data/commons-v3": 41,
+      "data/commons-v4": 26,
+      "data/commons-v5": 30,
+      "data/commons-v6": 26,
+      "data/commons-rfdetr-pens": 26,
+      "data/commons-rfdetr-positive": 10,
+      "data/original": 74,
+      "data/sam3/public": 44,
+      "data/openimages/test": 10,
+      "data/detection_hillclimb/public/images": 320,
+      "data/detection_hillclimb/device-native": 34,
+      "data/detection_hillclimb/device-context": 48,
+      "data/detection_hillclimb/dental/images": 20,
+      "data/detection_hillclimb/openimages/images": 78,
+      "data/detection_hillclimb/medbin-original": 37
+    },
+    "unreadable": [],
+    "index_sizes": {
+      "url": 871,
+      "id": 651,
+      "author": 593,
+      "sha256": 1960,
+      "dhash": 1409,
+      "fil_rouge_dhash": 203
+    },
+    "historical_metadata_files": 386,
+    "historical_metadata_rows": 3675
+  },
+  "retained": {
+    "commons-134700298": {
+      "id": [],
+      "urls": [],
+      "author": [],
+      "group": [],
+      "sha256": [],
+      "visual": []
+    },
+    "commons-7289636": {
+      "id": [],
+      "urls": [],
+      "author": [],
+      "group": [],
+      "sha256": [],
+      "visual": []
+    },
+    "commons-32472607": {
+      "id": [],
+      "urls": [],
+      "author": [],
+      "group": [],
+      "sha256": [],
+      "visual": []
+    },
+    "commons-71161809": {
+      "id": [],
+      "urls": [],
+      "author": [],
+      "group": [],
+      "sha256": [],
+      "visual": []
+    },
+    "commons-97857285": {
+      "id": [],
+      "urls": [],
+      "author": [],
+      "group": [],
+      "sha256": [],
+      "visual": []
+    },
+    "openverse-a5c2b483-0437-4f9e-be9d-5356e784ec86": {
+      "id": [],
+      "urls": [],
+      "author": [],
+      "group": [],
+      "sha256": [],
+      "visual": []
+    },
+    "commons-18388214": {
+      "id": [],
+      "urls": [],
+      "author": [],
+      "group": [],
+      "sha256": [],
+      "visual": []
+    },
+    "116864459": {
+      "id": [],
+      "urls": [],
+      "author": [],
+      "group": [],
+      "sha256": [],
+      "visual": []
+    },
+    "39991978": {
+      "id": [],
+      "urls": [],
+      "author": [],
+      "group": [],
+      "sha256": [],
+      "visual": []
+    },
+    "commons-50007224": {
+      "id": [],
+      "urls": [],
+      "author": [],
+      "group": [],
+      "sha256": [],
+      "visual": []
+    },
+    "viglianco": {
+      "id": [],
+      "urls": [],
+      "author": [],
+      "group": [],
+      "sha256": [],
+      "visual": []
+    },
+    "white": {
+      "id": [],
+      "urls": [],
+      "author": [],
+      "group": [],
+      "sha256": [],
+      "visual": []
+    },
+    "audit": {
+      "id": [],
+      "urls": [],
+      "author": [],
+      "group": [],
+      "sha256": [],
+      "visual": []
+    },
+    "griggs": {
+      "id": [],
+      "urls": [],
+      "author": [],
+      "group": [],
+      "sha256": [],
+      "visual": []
+    },
+    "ellis": {
+      "id": [],
+      "urls": [],
+      "author": [],
+      "group": [],
+      "sha256": [],
+      "visual": []
+    },
+    "fishmen": {
+      "id": [],
+      "urls": [],
+      "author": [],
+      "group": [],
+      "sha256": [],
+      "visual": []
+    },
+    "12725261": {
+      "id": [],
+      "urls": [],
+      "author": [],
+      "group": [],
+      "sha256": [],
+      "visual": []
+    },
+    "23351058": {
+      "id": [],
+      "urls": [],
+      "author": [],
+      "group": [],
+      "sha256": [],
+      "visual": []
+    },
+    "112704051": {
+      "id": [],
+      "urls": [],
+      "author": [],
+      "group": [],
+      "sha256": [],
+      "visual": []
+    },
+    "88334694": {
+      "id": [],
+      "urls": [],
+      "author": [],
+      "group": [],
+      "sha256": [],
+      "visual": []
+    },
+    "commons-167439103": {
+      "id": [],
+      "urls": [],
+      "author": [],
+      "group": [],
+      "sha256": [],
+      "visual": []
+    },
+    "commons-160396742": {
+      "id": [],
+      "urls": [],
+      "author": [],
+      "group": [],
+      "sha256": [],
+      "visual": []
+    },
+    "commons-101124486": {
+      "id": [],
+      "urls": [],
+      "author": [],
+      "group": [],
+      "sha256": [],
+      "visual": []
+    },
+    "commons-4104163": {
+      "id": [],
+      "urls": [],
+      "author": [],
+      "group": [],
+      "sha256": [],
+      "visual": []
+    },
+    "ferdinando": {
+      "id": [],
+      "urls": [],
+      "author": [],
+      "group": [],
+      "sha256": [],
+      "visual": []
+    }
+  },
+  "excluded": {
+    "18172621": {
+      "reason": "Transformed dHash exactly matches data/commons-v3/18172621.jpg.",
+      "matches": {
+        "id": [],
+        "urls": [],
+        "author": [],
+        "group": [],
+        "sha256": [],
+        "visual": [
+          {
+            "distance": 0,
+            "references": [
+              "data/commons-v3/18172621.jpg"
+            ]
+          }
+        ]
+      }
+    },
+    "78695234": {
+      "reason": "Dense spill contains separate caps, needles, clipped bodies and uncertain overlapping instances.",
+      "matches": {
+        "id": [],
+        "urls": [],
+        "author": [],
+        "group": [],
+        "sha256": [],
+        "visual": []
+      }
+    },
+    "commons-156598035": {
+      "reason": "Translucent container softens overlapping outlines and prevents resolving the count.",
+      "matches": {
+        "id": [],
+        "urls": [],
+        "author": [],
+        "group": [],
+        "sha256": [],
+        "visual": []
+      }
+    },
+    "49333151": {
+      "reason": "Out-of-focus and occluded commercial nasal delivery devices are difficult to enumerate.",
+      "matches": {
+        "id": [],
+        "urls": [],
+        "author": [],
+        "group": [],
+        "sha256": [],
+        "visual": []
+      }
+    },
+    "96296062": {
+      "reason": "Stacked transparent wrappers and overlapping barrels make the full instance count uncertain.",
+      "matches": {
+        "id": [],
+        "urls": [],
+        "author": [],
+        "group": [],
+        "sha256": [],
+        "visual": []
+      }
+    },
+    "16661757": {
+      "reason": "Foreground tray is out of focus and the number of assemblies cannot be resolved.",
+      "matches": {
+        "id": [],
+        "urls": [],
+        "author": [],
+        "group": [],
+        "sha256": [],
+        "visual": []
+      }
+    },
+    "farnsworth": {
+      "reason": "Depth blur and severe border truncation conceal the lowest barrel and extent.",
+      "matches": {
+        "id": [],
+        "urls": [],
+        "author": [],
+        "group": [],
+        "sha256": [],
+        "visual": []
+      }
+    },
+    "walter": {
+      "reason": "Depth blur and occlusion make assignment of the clustered translucent plungers ambiguous.",
+      "matches": {
+        "id": [],
+        "urls": [],
+        "author": [],
+        "group": [],
+        "sha256": [],
+        "visual": []
+      }
+    },
+    "22448197": {
+      "reason": "The earlier assembly from the same credited photographer and manufacturer display is retained.",
+      "matches": {
+        "id": [],
+        "urls": [],
+        "author": [],
+        "group": [],
+        "sha256": [],
+        "visual": []
+      }
+    },
+    "11356628": {
+      "reason": "The source displays mostly disassembled laboratory syringes and separate components.",
+      "matches": {
+        "id": [],
+        "urls": [],
+        "author": [],
+        "group": [],
+        "sha256": [],
+        "visual": []
+      }
+    },
+    "43801643": {
+      "reason": "Packaging and thin transparent fragments on the cardboard have uncertain identities.",
+      "matches": {
+        "id": [],
+        "urls": [],
+        "author": [],
+        "group": [],
+        "sha256": [],
+        "visual": []
+      }
+    }
+  }
+}

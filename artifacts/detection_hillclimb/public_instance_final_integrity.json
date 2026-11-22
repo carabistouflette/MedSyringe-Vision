@@ -1,0 +1,41 @@
+{
+  "summary": {
+    "target": 500,
+    "positive_images": 742,
+    "target_met": true,
+    "negative_images": 13,
+    "instance_boxes": 769,
+    "photos_with_multiple_syringes": 10,
+    "rights_status": {
+      "individual source verified": 29,
+      "publisher declared": 713
+    },
+    "positive_split": {
+      "public-fit": 382,
+      "public-development": 2,
+      "public-reserve": 33,
+      "historical-reference-only": 325
+    },
+    "train_or_new_evaluation_positive_images": 417,
+    "split_groups": {
+      "public-reserve": 5,
+      "public-development": 4,
+      "public-fit": 30,
+      "historical-reference-only": 2
+    },
+    "excluded": 3,
+    "eligible_positive_fitting_images": 25,
+    "source_verified_positive_split": {
+      "public-fit": 25,
+      "public-development": 2,
+      "public-reserve": 2
+    }
+  },
+  "raster_checksums": 755,
+  "dimensions": 755,
+  "annotations": 769,
+  "leakage_pairs": 0,
+  "new_crowd_and_fil_rouge_collisions": 0,
+  "manifest_sha256": "ff898c2761f33f32f88a0db76a9467525966c547c61d5a1732dd6ce13d72325d",
+  "coco_sha256": "cc1ac03e3a603a7829b7d200fc9510dbda005be50ce7776327c03424507d6eea"
+}

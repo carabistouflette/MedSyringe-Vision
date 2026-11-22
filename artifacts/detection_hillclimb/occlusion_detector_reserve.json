@@ -1,0 +1,60 @@
+{
+  "rows": [
+    {
+      "id": "dvids-8071796",
+      "image": "data/occlusion-study/8071796.jpg",
+      "sha256": "0e77b0b83dee9cd802593e52396c9f13f6e19bfa890980e0d7da614a968ed5d2",
+      "source_url": "https://www.dvidshub.net/image/8071796/920th-aeromedical-staging-squadron-provides-vaccine-during-drill-weekends",
+      "original_url": "https://d1ldvf68ux039x.cloudfront.net/thumbs/photos/2310/8071796/1000w_q95.jpg",
+      "author": "Kelly Goonan",
+      "group": "Patrick SFB 2023-10-14 Kelly Goonan",
+      "license": "Public domain (DVIDS)",
+      "review": "Two distinct capped syringes overlap at the rear. The vial is a distractor.",
+      "objects": [
+        {
+          "bbox": [
+            0.056,
+            0.7732610659439928,
+            0.502,
+            0.9439927732610659
+          ]
+        },
+        {
+          "bbox": [
+            0.115,
+            0.7777777777777778,
+            0.615,
+            0.974706413730804
+          ]
+        }
+      ]
+    },
+    {
+      "id": "dvids-9584272",
+      "image": "data/occlusion-study/9584272.jpg",
+      "sha256": "4eb7dcd1eefdaf73cde96ab2dbdcd99fc332551ce302e8ba5cf787822b222eed",
+      "source_url": "https://www.dvidshub.net/image/9584272/tennessee-national-guard-medics-conduct-trauma-validation-during-68w-recertification",
+      "original_url": "https://d1ldvf68ux039x.cloudfront.net/thumbs/photos/2603/9584272/1000w_q95.jpg",
+      "author": "Bailey Breving",
+      "group": "Smyrna 2026-03-21 Bailey Breving",
+      "license": "Public domain (DVIDS)",
+      "review": "One syringe assembly obscured by both hands. The container and hand are excluded.",
+      "objects": [
+        {
+          "bbox": [
+            0.609,
+            0.5172413793103449,
+            0.664,
+            0.623688155922039
+          ]
+        }
+      ]
+    }
+  ],
+  "implementation": "e55c4b8d80685db4d0338b3491d533b3e252225197a47dadd3ba57c699256073",
+  "fitting_design": "4032d4ea2c54c55556ef5b63f6e403a3e2e4be3b146dd54284b7cbe868877d93",
+  "exclusion": "Previously indexed source, author, exact hash and transformed dHash screened.",
+  "unscored": {
+    "6486790": "The tray was conservatively excluded from exact-count scoring because several overlapping instances cannot be fully traced."
+  }
+}

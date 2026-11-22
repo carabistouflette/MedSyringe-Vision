@@ -1,0 +1,298 @@
+{
+  "summary": {
+    "photos": 14,
+    "same_count": 14,
+    "pairs": 34,
+    "minimum_iou": 0.7931323850065692,
+    "median_iou": 0.9071066259540642,
+    "pairs_at_iou50": 34,
+    "pairs_at_iou75": 34
+  },
+  "review_sha256": "a0f21555c4208ee03d4e65ea6f7ed9663294be77690d68ab25e398da6b10479c",
+  "sample_index_sha256": "336da61f2f78be408a435d3540eab66986841a97528ae58c86e7aeea730a7d6b",
+  "frames": [
+    {
+      "id": "pqUJqXxnksIOyILdxKZn",
+      "count_before": 1,
+      "count_blind": 1,
+      "paired_boxes": [
+        {
+          "approved": 0,
+          "blind": 0,
+          "iou": 0.9210443199151215
+        }
+      ],
+      "notes": "High confidence. Includes the attached orange cap. The source MPO embeds a second view. The first frame is used, with its EXIF orientation applied."
+    },
+    {
+      "id": "n8qT6sGqbhIOLFXnVIv9",
+      "count_before": 1,
+      "count_blind": 1,
+      "paired_boxes": [
+        {
+          "approved": 0,
+          "blind": 0,
+          "iou": 0.8255867751302131
+        }
+      ],
+      "notes": "High confidence. A hand obscures the right side of the flange and part of the plunger."
+    },
+    {
+      "id": "x3aPQQYUSyrVrQT879Nh",
+      "count_before": 1,
+      "count_blind": 1,
+      "paired_boxes": [
+        {
+          "approved": 0,
+          "blind": 0,
+          "iou": 0.8667634456934074
+        }
+      ],
+      "notes": "High confidence. Uncapped nozzle, barrel, flange, and thumb pad are visible."
+    },
+    {
+      "id": "1mOzSUoWtyjrxJYQa1tq",
+      "count_before": 1,
+      "count_blind": 1,
+      "paired_boxes": [
+        {
+          "approved": 0,
+          "blind": 0,
+          "iou": 0.7931323850065692
+        }
+      ],
+      "notes": "Moderate confidence in the edge placement. The image is soft, and the long attached tip fades against the blue background."
+    },
+    {
+      "id": "BjcOtxAS1qoIpdyPW3bQ",
+      "count_before": 1,
+      "count_blind": 1,
+      "paired_boxes": [
+        {
+          "approved": 0,
+          "blind": 0,
+          "iou": 0.8383996343696773
+        }
+      ],
+      "notes": "High confidence. The outline includes the uncapped nozzle and green plunger."
+    },
+    {
+      "id": "aUdPtljlsEEGR8wyP8Xq",
+      "count_before": 1,
+      "count_blind": 1,
+      "paired_boxes": [
+        {
+          "approved": 0,
+          "blind": 0,
+          "iou": 0.8790000785759748
+        }
+      ],
+      "notes": "High confidence in the instance and moderate confidence in its edges. The white plunger and nozzle blend into the background."
+    },
+    {
+      "id": "6Opf8kKlqZKLU8F4GvVJ",
+      "count_before": 6,
+      "count_blind": 6,
+      "paired_boxes": [
+        {
+          "approved": 0,
+          "blind": 3,
+          "iou": 0.8641481336742277
+        },
+        {
+          "approved": 1,
+          "blind": 2,
+          "iou": 0.8914444319140203
+        },
+        {
+          "approved": 2,
+          "blind": 4,
+          "iou": 0.8386730346695791
+        },
+        {
+          "approved": 3,
+          "blind": 0,
+          "iou": 0.9196379178196178
+        },
+        {
+          "approved": 4,
+          "blind": 5,
+          "iou": 0.8528389040490464
+        },
+        {
+          "approved": 5,
+          "blind": 1,
+          "iou": 0.8785077275742984
+        }
+      ],
+      "notes": "Six separate syringes ordered by cap from left to right. Includes the attached red caps. The pale upper profiles and adjoining flanges of the fourth and fifth syringes are the least distinct edges."
+    },
+    {
+      "id": "8w80mU5RGDO65O9xVnss",
+      "count_before": 1,
+      "count_blind": 1,
+      "paired_boxes": [
+        {
+          "approved": 0,
+          "blind": 0,
+          "iou": 0.9484160317425331
+        }
+      ],
+      "notes": "High confidence in the instance. The plunger thumb pad is clipped at the left edge. The visible needle reaches a dark fold in the bag."
+    },
+    {
+      "id": "aeL4yHDdKecfjTkBuqUB",
+      "count_before": 1,
+      "count_blind": 1,
+      "paired_boxes": [
+        {
+          "approved": 0,
+          "blind": 0,
+          "iou": 0.8641453975020307
+        }
+      ],
+      "notes": "Moderate confidence. The graduated barrel and long tapered nozzle are recognizable. The translucent base merges with the tiled surface and the plunger is indistinct."
+    },
+    {
+      "id": "3goHYbmmDXIhTLhWPXJR",
+      "count_before": 12,
+      "count_blind": 12,
+      "paired_boxes": [
+        {
+          "approved": 0,
+          "blind": 0,
+          "iou": 0.9643979670229027
+        },
+        {
+          "approved": 1,
+          "blind": 1,
+          "iou": 0.9191497646956787
+        },
+        {
+          "approved": 2,
+          "blind": 2,
+          "iou": 0.9504338646802402
+        },
+        {
+          "approved": 3,
+          "blind": 3,
+          "iou": 0.9761412105933001
+        },
+        {
+          "approved": 4,
+          "blind": 4,
+          "iou": 0.9383865456112119
+        },
+        {
+          "approved": 5,
+          "blind": 5,
+          "iou": 0.9566486529493388
+        },
+        {
+          "approved": 6,
+          "blind": 6,
+          "iou": 0.9697324192965846
+        },
+        {
+          "approved": 7,
+          "blind": 7,
+          "iou": 0.9023832216638419
+        },
+        {
+          "approved": 8,
+          "blind": 8,
+          "iou": 0.9020746382278381
+        },
+        {
+          "approved": 9,
+          "blind": 9,
+          "iou": 0.8823454631596968
+        },
+        {
+          "approved": 10,
+          "blind": 10,
+          "iou": 0.8758785248274629
+        },
+        {
+          "approved": 11,
+          "blind": 11,
+          "iou": 0.9538274073793356
+        }
+      ],
+      "notes": "Twelve separate syringes ordered left to right. All have distinct barrels and plunger assemblies. Some neighboring finger flanges overlap. Includes the attached orange and red caps."
+    },
+    {
+      "id": "3SyRXjcIsD87JRJlDYUL",
+      "count_before": 3,
+      "count_blind": 3,
+      "paired_boxes": [
+        {
+          "approved": 0,
+          "blind": 0,
+          "iou": 0.8545457251319387
+        },
+        {
+          "approved": 1,
+          "blind": 1,
+          "iou": 0.9190803922555869
+        },
+        {
+          "approved": 2,
+          "blind": 2,
+          "iou": 0.9118300302442865
+        }
+      ],
+      "notes": "Three syringes ordered top to bottom, including the visible attached needles. The needle endpoints are low contrast against the yellow surface."
+    },
+    {
+      "id": "512SZZUSSBPBgmt2SxP6",
+      "count_before": 2,
+      "count_blind": 2,
+      "paired_boxes": [
+        {
+          "approved": 0,
+          "blind": 0,
+          "iou": 0.973377548078733
+        },
+        {
+          "approved": 1,
+          "blind": 1,
+          "iou": 0.9824170997605544
+        }
+      ],
+      "notes": "High confidence. Two separate uncapped syringes with extended plungers, ordered upper then lower."
+    },
+    {
+      "id": "IyznO5icSugEZsWUSVny",
+      "count_before": 1,
+      "count_blind": 1,
+      "paired_boxes": [
+        {
+          "approved": 0,
+          "blind": 0,
+          "iou": 0.876797825325182
+        }
+      ],
+      "notes": "One dark-filled syringe. The offset silhouette at left is its cast shadow. The clear nozzle is visible."
+    },
+    {
+      "id": "FzfokEPe0yAJxUzuTycw",
+      "count_before": 2,
+      "count_blind": 2,
+      "paired_boxes": [
+        {
+          "approved": 0,
+          "blind": 0,
+          "iou": 0.9294259188194246
+        },
+        {
+          "approved": 1,
+          "blind": 1,
+          "iou": 0.9514097567009501
+        }
+      ],
+      "notes": "High confidence. Two syringes, green plunger first. The clear barrel on the right rests on a translucent organizer, so its outline is faint in places."
+    }
+  ],
+  "scope": "Group-stratified subset of the first approved catalog."
+}

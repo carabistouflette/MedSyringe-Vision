@@ -1,0 +1,120 @@
+{
+  "code": "9fa7d20915b237287475bb32370f600e91d1102be5e89f532ed96e8c1faca0ed",
+  "dataset": "ff898c2761f33f32f88a0db76a9467525966c547c61d5a1732dd6ce13d72325d",
+  "masks": "ef0231d336ae6900098a60867d6a27bbe2d923815c62817ac1c1d1e0c8039a94",
+  "checkpoint": "31bb1d7c1246179d7b107f903c3b9af322c22e6c3b1830544c7c946260598112",
+  "reference": "247fae9fc88ae4dc4598e86f9bd0092c9a4eed71ef904d1100d99a11969251ad",
+  "features": [
+    "score",
+    "other_prompt_mask_iou",
+    "other_prompt_score",
+    "barrel_prompt_mask_iou",
+    "axial_ratio",
+    "principal_component_fraction",
+    "bbox_mask_fill",
+    "connected_fraction",
+    "area"
+  ],
+  "seed": 607,
+  "fit_photos": 32,
+  "positive_proposals": 15,
+  "negative_proposals": 21,
+  "groups": 17,
+  "selected": {
+    "columns": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "c": 1.0,
+    "floor": 0.7597187206064652,
+    "tp": 8,
+    "fp": 0,
+    "samples": 36,
+    "mean": [
+      0.6472403071820736,
+      0.8213347561195455,
+      0.604584945158826,
+      0.8321362688066741
+    ],
+    "scale": [
+      0.3103070166423538,
+      0.36802666629717296,
+      0.3353999460559356,
+      0.3061570461950041
+    ],
+    "weight": [
+      1.4663382007919372,
+      0.2975840421416484,
+      0.7895524942915634,
+      -0.046448709468313136
+    ],
+    "bias": -0.8739263401828605
+  },
+  "grouped_controls": [
+    {
+      "columns": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "c": 0.1,
+      "floor": 0.6094257615767535,
+      "tp": 6,
+      "fp": 0,
+      "samples": 36
+    },
+    {
+      "columns": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "c": 1.0,
+      "floor": 0.7597187206064652,
+      "tp": 8,
+      "fp": 0,
+      "samples": 36
+    },
+    {
+      "columns": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8
+      ],
+      "c": 0.1,
+      "floor": 0.6998661081888096,
+      "tp": 3,
+      "fp": 0,
+      "samples": 36
+    },
+    {
+      "columns": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8
+      ],
+      "c": 1.0,
+      "floor": 0.896128818713312,
+      "tp": 3,
+      "fp": 0,
+      "samples": 36
+    }
+  ],
+  "evaluation_gate": "On fresh crowded acquisitions, increase exact count and recall, lose zero baseline matches and add zero false positives. Preserve existing regression controls."
+}

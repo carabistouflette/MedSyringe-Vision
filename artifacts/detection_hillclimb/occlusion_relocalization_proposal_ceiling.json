@@ -1,0 +1,1891 @@
+{
+  "reference": "d834b2f8c7257cb8947d7e8dd35c372abcb5429b8eac673e99e5f99f327d221e",
+  "cache": "d2a154bf71a9a826c13853ca60e1aad30655bbd1a0af0efb983492b06ca41da1",
+  "cases": {
+    "dvids-8711851": {
+      "expected": 9,
+      "released": {
+        "candidates": 1,
+        "matched": 0,
+        "targets": [
+          {
+            "best_iou": 0.4834084137008621,
+            "matched_iou": null,
+            "best_candidate": {
+              "id": "object-1",
+              "bbox": [
+                0.4517770080566406,
+                0.12058362458881577,
+                0.5455697631835937,
+                0.7806560315583881
+              ],
+              "score": 0.7060874309863525,
+              "detection_evidence": {},
+              "scale": null,
+              "color": null,
+              "evidence": {
+                "scale": {
+                  "value": null,
+                  "reason": "Outside development support or ambiguous",
+                  "distance": 3.2727406353387183,
+                  "margin": 0.052456857043268634
+                },
+                "color": {
+                  "value": null,
+                  "reason": "Outside development support or ambiguous",
+                  "distance": 6.2059502888518585,
+                  "margin": 0.44066861802907553
+                }
+              },
+              "inscriptions": {
+                "status": "not requested",
+                "candidates": [],
+                "capacity": null,
+                "apparent_volume": null
+              },
+              "liquid_appearance": {
+                "status": "insufficient evidence",
+                "reason": "The syringe mask could not be validated.",
+                "lightness": null,
+                "opacity": null,
+                "opacity_reason": "A registered clear-barrel reference at the same exposure is required."
+              },
+              "fill_level": {
+                "status": "insufficient evidence",
+                "reason": "Enable visible marking extraction to estimate fill."
+              },
+              "origin": "model"
+            }
+          },
+          {
+            "best_iou": 0.0,
+            "matched_iou": null,
+            "best_candidate": {
+              "id": "object-1",
+              "bbox": [
+                0.4517770080566406,
+                0.12058362458881577,
+                0.5455697631835937,
+                0.7806560315583881
+              ],
+              "score": 0.7060874309863525,
+              "detection_evidence": {},
+              "scale": null,
+              "color": null,
+              "evidence": {
+                "scale": {
+                  "value": null,
+                  "reason": "Outside development support or ambiguous",
+                  "distance": 3.2727406353387183,
+                  "margin": 0.052456857043268634
+                },
+                "color": {
+                  "value": null,
+                  "reason": "Outside development support or ambiguous",
+                  "distance": 6.2059502888518585,
+                  "margin": 0.44066861802907553
+                }
+              },
+              "inscriptions": {
+                "status": "not requested",
+                "candidates": [],
+                "capacity": null,
+                "apparent_volume": null
+              },
+              "liquid_appearance": {
+                "status": "insufficient evidence",
+                "reason": "The syringe mask could not be validated.",
+                "lightness": null,
+                "opacity": null,
+                "opacity_reason": "A registered clear-barrel reference at the same exposure is required."
+              },
+              "fill_level": {
+                "status": "insufficient evidence",
+                "reason": "Enable visible marking extraction to estimate fill."
+              },
+              "origin": "model"
+            }
+          },
+          {
+            "best_iou": 0.0,
+            "matched_iou": null,
+            "best_candidate": {
+              "id": "object-1",
+              "bbox": [
+                0.4517770080566406,
+                0.12058362458881577,
+                0.5455697631835937,
+                0.7806560315583881
+              ],
+              "score": 0.7060874309863525,
+              "detection_evidence": {},
+              "scale": null,
+              "color": null,
+              "evidence": {
+                "scale": {
+                  "value": null,
+                  "reason": "Outside development support or ambiguous",
+                  "distance": 3.2727406353387183,
+                  "margin": 0.052456857043268634
+                },
+                "color": {
+                  "value": null,
+                  "reason": "Outside development support or ambiguous",
+                  "distance": 6.2059502888518585,
+                  "margin": 0.44066861802907553
+                }
+              },
+              "inscriptions": {
+                "status": "not requested",
+                "candidates": [],
+                "capacity": null,
+                "apparent_volume": null
+              },
+              "liquid_appearance": {
+                "status": "insufficient evidence",
+                "reason": "The syringe mask could not be validated.",
+                "lightness": null,
+                "opacity": null,
+                "opacity_reason": "A registered clear-barrel reference at the same exposure is required."
+              },
+              "fill_level": {
+                "status": "insufficient evidence",
+                "reason": "Enable visible marking extraction to estimate fill."
+              },
+              "origin": "model"
+            }
+          },
+          {
+            "best_iou": 0.0,
+            "matched_iou": null,
+            "best_candidate": {
+              "id": "object-1",
+              "bbox": [
+                0.4517770080566406,
+                0.12058362458881577,
+                0.5455697631835937,
+                0.7806560315583881
+              ],
+              "score": 0.7060874309863525,
+              "detection_evidence": {},
+              "scale": null,
+              "color": null,
+              "evidence": {
+                "scale": {
+                  "value": null,
+                  "reason": "Outside development support or ambiguous",
+                  "distance": 3.2727406353387183,
+                  "margin": 0.052456857043268634
+                },
+                "color": {
+                  "value": null,
+                  "reason": "Outside development support or ambiguous",
+                  "distance": 6.2059502888518585,
+                  "margin": 0.44066861802907553
+                }
+              },
+              "inscriptions": {
+                "status": "not requested",
+                "candidates": [],
+                "capacity": null,
+                "apparent_volume": null
+              },
+              "liquid_appearance": {
+                "status": "insufficient evidence",
+                "reason": "The syringe mask could not be validated.",
+                "lightness": null,
+                "opacity": null,
+                "opacity_reason": "A registered clear-barrel reference at the same exposure is required."
+              },
+              "fill_level": {
+                "status": "insufficient evidence",
+                "reason": "Enable visible marking extraction to estimate fill."
+              },
+              "origin": "model"
+            }
+          },
+          {
+            "best_iou": 0.0,
+            "matched_iou": null,
+            "best_candidate": {
+              "id": "object-1",
+              "bbox": [
+                0.4517770080566406,
+                0.12058362458881577,
+                0.5455697631835937,
+                0.7806560315583881
+              ],
+              "score": 0.7060874309863525,
+              "detection_evidence": {},
+              "scale": null,
+              "color": null,
+              "evidence": {
+                "scale": {
+                  "value": null,
+                  "reason": "Outside development support or ambiguous",
+                  "distance": 3.2727406353387183,
+                  "margin": 0.052456857043268634
+                },
+                "color": {
+                  "value": null,
+                  "reason": "Outside development support or ambiguous",
+                  "distance": 6.2059502888518585,
+                  "margin": 0.44066861802907553
+                }
+              },
+              "inscriptions": {
+                "status": "not requested",
+                "candidates": [],
+                "capacity": null,
+                "apparent_volume": null
+              },
+              "liquid_appearance": {
+                "status": "insufficient evidence",
+                "reason": "The syringe mask could not be validated.",
+                "lightness": null,
+                "opacity": null,
+                "opacity_reason": "A registered clear-barrel reference at the same exposure is required."
+              },
+              "fill_level": {
+                "status": "insufficient evidence",
+                "reason": "Enable visible marking extraction to estimate fill."
+              },
+              "origin": "model"
+            }
+          },
+          {
+            "best_iou": 0.0,
+            "matched_iou": null,
+            "best_candidate": {
+              "id": "object-1",
+              "bbox": [
+                0.4517770080566406,
+                0.12058362458881577,
+                0.5455697631835937,
+                0.7806560315583881
+              ],
+              "score": 0.7060874309863525,
+              "detection_evidence": {},
+              "scale": null,
+              "color": null,
+              "evidence": {
+                "scale": {
+                  "value": null,
+                  "reason": "Outside development support or ambiguous",
+                  "distance": 3.2727406353387183,
+                  "margin": 0.052456857043268634
+                },
+                "color": {
+                  "value": null,
+                  "reason": "Outside development support or ambiguous",
+                  "distance": 6.2059502888518585,
+                  "margin": 0.44066861802907553
+                }
+              },
+              "inscriptions": {
+                "status": "not requested",
+                "candidates": [],
+                "capacity": null,
+                "apparent_volume": null
+              },
+              "liquid_appearance": {
+                "status": "insufficient evidence",
+                "reason": "The syringe mask could not be validated.",
+                "lightness": null,
+                "opacity": null,
+                "opacity_reason": "A registered clear-barrel reference at the same exposure is required."
+              },
+              "fill_level": {
+                "status": "insufficient evidence",
+                "reason": "Enable visible marking extraction to estimate fill."
+              },
+              "origin": "model"
+            }
+          },
+          {
+            "best_iou": 0.0,
+            "matched_iou": null,
+            "best_candidate": {
+              "id": "object-1",
+              "bbox": [
+                0.4517770080566406,
+                0.12058362458881577,
+                0.5455697631835937,
+                0.7806560315583881
+              ],
+              "score": 0.7060874309863525,
+              "detection_evidence": {},
+              "scale": null,
+              "color": null,
+              "evidence": {
+                "scale": {
+                  "value": null,
+                  "reason": "Outside development support or ambiguous",
+                  "distance": 3.2727406353387183,
+                  "margin": 0.052456857043268634
+                },
+                "color": {
+                  "value": null,
+                  "reason": "Outside development support or ambiguous",
+                  "distance": 6.2059502888518585,
+                  "margin": 0.44066861802907553
+                }
+              },
+              "inscriptions": {
+                "status": "not requested",
+                "candidates": [],
+                "capacity": null,
+                "apparent_volume": null
+              },
+              "liquid_appearance": {
+                "status": "insufficient evidence",
+                "reason": "The syringe mask could not be validated.",
+                "lightness": null,
+                "opacity": null,
+                "opacity_reason": "A registered clear-barrel reference at the same exposure is required."
+              },
+              "fill_level": {
+                "status": "insufficient evidence",
+                "reason": "Enable visible marking extraction to estimate fill."
+              },
+              "origin": "model"
+            }
+          },
+          {
+            "best_iou": 0.0,
+            "matched_iou": null,
+            "best_candidate": {
+              "id": "object-1",
+              "bbox": [
+                0.4517770080566406,
+                0.12058362458881577,
+                0.5455697631835937,
+                0.7806560315583881
+              ],
+              "score": 0.7060874309863525,
+              "detection_evidence": {},
+              "scale": null,
+              "color": null,
+              "evidence": {
+                "scale": {
+                  "value": null,
+                  "reason": "Outside development support or ambiguous",
+                  "distance": 3.2727406353387183,
+                  "margin": 0.052456857043268634
+                },
+                "color": {
+                  "value": null,
+                  "reason": "Outside development support or ambiguous",
+                  "distance": 6.2059502888518585,
+                  "margin": 0.44066861802907553
+                }
+              },
+              "inscriptions": {
+                "status": "not requested",
+                "candidates": [],
+                "capacity": null,
+                "apparent_volume": null
+              },
+              "liquid_appearance": {
+                "status": "insufficient evidence",
+                "reason": "The syringe mask could not be validated.",
+                "lightness": null,
+                "opacity": null,
+                "opacity_reason": "A registered clear-barrel reference at the same exposure is required."
+              },
+              "fill_level": {
+                "status": "insufficient evidence",
+                "reason": "Enable visible marking extraction to estimate fill."
+              },
+              "origin": "model"
+            }
+          },
+          {
+            "best_iou": 0.0,
+            "matched_iou": null,
+            "best_candidate": {
+              "id": "object-1",
+              "bbox": [
+                0.4517770080566406,
+                0.12058362458881577,
+                0.5455697631835937,
+                0.7806560315583881
+              ],
+              "score": 0.7060874309863525,
+              "detection_evidence": {},
+              "scale": null,
+              "color": null,
+              "evidence": {
+                "scale": {
+                  "value": null,
+                  "reason": "Outside development support or ambiguous",
+                  "distance": 3.2727406353387183,
+                  "margin": 0.052456857043268634
+                },
+                "color": {
+                  "value": null,
+                  "reason": "Outside development support or ambiguous",
+                  "distance": 6.2059502888518585,
+                  "margin": 0.44066861802907553
+                }
+              },
+              "inscriptions": {
+                "status": "not requested",
+                "candidates": [],
+                "capacity": null,
+                "apparent_volume": null
+              },
+              "liquid_appearance": {
+                "status": "insufficient evidence",
+                "reason": "The syringe mask could not be validated.",
+                "lightness": null,
+                "opacity": null,
+                "opacity_reason": "A registered clear-barrel reference at the same exposure is required."
+              },
+              "fill_level": {
+                "status": "insufficient evidence",
+                "reason": "Enable visible marking extraction to estimate fill."
+              },
+              "origin": "model"
+            }
+          }
+        ]
+      },
+      "arms": {
+        "initial-full": {
+          "ranked": {
+            "candidates": 88,
+            "matched": 7,
+            "targets": [
+              {
+                "best_iou": 0.7754700592427395,
+                "matched_iou": 0.7754700592427395,
+                "best_candidate": {
+                  "bbox": [
+                    0.4486084461212158,
+                    0.12543452978134156,
+                    0.5152968406677246,
+                    0.531768798828125
+                  ],
+                  "score": 0.514633297920227
+                }
+              },
+              {
+                "best_iou": 0.5634824782870516,
+                "matched_iou": 0.5634824782870516,
+                "best_candidate": {
+                  "bbox": [
+                    0.06627503037452698,
+                    0.31548542976379396,
+                    0.11475967168807984,
+                    0.6050361633300781
+                  ],
+                  "score": 0.02483268454670906
+                }
+              },
+              {
+                "best_iou": 0.5628274697189318,
+                "matched_iou": null,
+                "best_candidate": {
+                  "bbox": [
+                    0.06627503037452698,
+                    0.31548542976379396,
+                    0.11475967168807984,
+                    0.6050361633300781
+                  ],
+                  "score": 0.02483268454670906
+                }
+              },
+              {
+                "best_iou": 0.8158826598611868,
+                "matched_iou": 0.8158826598611868,
+                "best_candidate": {
+                  "bbox": [
+                    0.091249018907547,
+                    0.2889385223388672,
+                    0.1376797080039978,
+                    0.6277647495269776
+                  ],
+                  "score": 0.2622053623199463
+                }
+              },
+              {
+                "best_iou": 0.837596032493818,
+                "matched_iou": 0.837596032493818,
+                "best_candidate": {
+                  "bbox": [
+                    0.1311647891998291,
+                    0.2920867443084717,
+                    0.16599812507629394,
+                    0.6138449668884277
+                  ],
+                  "score": 0.28332483768463135
+                }
+              },
+              {
+                "best_iou": 0.7863603457611748,
+                "matched_iou": 0.7863603457611748,
+                "best_candidate": {
+                  "bbox": [
+                    0.6787771224975586,
+                    0.8316080093383789,
+                    0.8002260208129883,
+                    0.9970832824707031
+                  ],
+                  "score": 0.37093833088874817
+                }
+              },
+              {
+                "best_iou": 0.4638202664934584,
+                "matched_iou": null,
+                "best_candidate": {
+                  "bbox": [
+                    0.6787771224975586,
+                    0.8316080093383789,
+                    0.8002260208129883,
+                    0.9970832824707031
+                  ],
+                  "score": 0.37093833088874817
+                }
+              },
+              {
+                "best_iou": 0.8755526759471256,
+                "matched_iou": 0.8755526759471256,
+                "best_candidate": {
+                  "bbox": [
+                    0.7762880325317383,
+                    0.8602039337158203,
+                    0.8969601631164551,
+                    0.9950703620910645
+                  ],
+                  "score": 0.27410390973091125
+                }
+              },
+              {
+                "best_iou": 0.6729703151852509,
+                "matched_iou": 0.6729703151852509,
+                "best_candidate": {
+                  "bbox": [
+                    0.8619399070739746,
+                    0.8978034973144531,
+                    0.9390266418457032,
+                    0.9985280990600586
+                  ],
+                  "score": 0.0682685598731041
+                }
+              }
+            ]
+          },
+          "accepted": {
+            "candidates": 5,
+            "matched": 4,
+            "targets": [
+              {
+                "best_iou": 0.7754700592427395,
+                "matched_iou": 0.7754700592427395,
+                "best_candidate": {
+                  "bbox": [
+                    0.4486084461212158,
+                    0.12543452978134156,
+                    0.5152968406677246,
+                    0.531768798828125
+                  ],
+                  "score": 0.514633297920227
+                }
+              },
+              {
+                "best_iou": 0.0,
+                "matched_iou": null,
+                "best_candidate": {
+                  "bbox": [
+                    0.4486084461212158,
+                    0.12543452978134156,
+                    0.5152968406677246,
+                    0.531768798828125
+                  ],
+                  "score": 0.514633297920227
+                }
+              },
+              {
+                "best_iou": 0.017279143927168655,
+                "matched_iou": null,
+                "best_candidate": {
+                  "bbox": [
+                    0.1311647891998291,
+                    0.2920867443084717,
+                    0.16599812507629394,
+                    0.6138449668884277
+                  ],
+                  "score": 0.28332483768463135
+                }
+              },
+              {
+                "best_iou": 0.1474117755205939,
+                "matched_iou": null,
+                "best_candidate": {
+                  "bbox": [
+                    0.1311647891998291,
+                    0.2920867443084717,
+                    0.16599812507629394,
+                    0.6138449668884277
+                  ],
+                  "score": 0.28332483768463135
+                }
+              },
+              {
+                "best_iou": 0.837596032493818,
+                "matched_iou": 0.837596032493818,
+                "best_candidate": {
+                  "bbox": [
+                    0.1311647891998291,
+                    0.2920867443084717,
+                    0.16599812507629394,
+                    0.6138449668884277
+                  ],
+                  "score": 0.28332483768463135
+                }
+              },
+              {
+                "best_iou": 0.7863603457611748,
+                "matched_iou": 0.7863603457611748,
+                "best_candidate": {
+                  "bbox": [
+                    0.6787771224975586,
+                    0.8316080093383789,
+                    0.8002260208129883,
+                    0.9970832824707031
+                  ],
+                  "score": 0.37093833088874817
+                }
+              },
+              {
+                "best_iou": 0.4638202664934584,
+                "matched_iou": null,
+                "best_candidate": {
+                  "bbox": [
+                    0.6787771224975586,
+                    0.8316080093383789,
+                    0.8002260208129883,
+                    0.9970832824707031
+                  ],
+                  "score": 0.37093833088874817
+                }
+              },
+              {
+                "best_iou": 0.8755526759471256,
+                "matched_iou": 0.8755526759471256,
+                "best_candidate": {
+                  "bbox": [
+                    0.7762880325317383,
+                    0.8602039337158203,
+                    0.8969601631164551,
+                    0.9950703620910645
+                  ],
+                  "score": 0.27410390973091125
+                }
+              },
+              {
+                "best_iou": 0.27336201669888566,
+                "matched_iou": null,
+                "best_candidate": {
+                  "bbox": [
+                    0.7762880325317383,
+                    0.8602039337158203,
+                    0.8969601631164551,
+                    0.9950703620910645
+                  ],
+                  "score": 0.27410390973091125
+                }
+              }
+            ]
+          }
+        },
+        "initial-tiled": {
+          "ranked": {
+            "candidates": 100,
+            "matched": 8,
+            "targets": [
+              {
+                "best_iou": 0.7754700592427395,
+                "matched_iou": 0.7754700592427395,
+                "best_candidate": {
+                  "bbox": [
+                    0.4486084461212158,
+                    0.12543452978134156,
+                    0.5152968406677246,
+                    0.531768798828125
+                  ],
+                  "score": 0.514633297920227
+                }
+              },
+              {
+                "best_iou": 0.5634824782870516,
+                "matched_iou": 0.5634824782870516,
+                "best_candidate": {
+                  "bbox": [
+                    0.06627503037452698,
+                    0.31548542976379396,
+                    0.11475967168807984,
+                    0.6050361633300781
+                  ],
+                  "score": 0.02483268454670906
+                }
+              },
+              {
+                "best_iou": 0.6592888973250575,
+                "matched_iou": null,
+                "best_candidate": {
+                  "bbox": [
+                    0.08043872737884522,
+                    0.2836682488864526,
+                    0.14048460245132446,
+                    0.6245167382319171
+                  ],
+                  "score": 0.2738802433013916
+                }
+              },
+              {
+                "best_iou": 0.8003296086583226,
+                "matched_iou": 0.8003296086583226,
+                "best_candidate": {
+                  "bbox": [
+                    0.08043872737884522,
+                    0.2836682488864526,
+                    0.14048460245132446,
+                    0.6245167382319171
+                  ],
+                  "score": 0.2738802433013916
+                }
+              },
+              {
+                "best_iou": 0.837596032493818,
+                "matched_iou": 0.837596032493818,
+                "best_candidate": {
+                  "bbox": [
+                    0.1311647891998291,
+                    0.2920867443084717,
+                    0.16599812507629394,
+                    0.6138449668884277
+                  ],
+                  "score": 0.28332483768463135
+                }
+              },
+              {
+                "best_iou": 0.8522307608209146,
+                "matched_iou": 0.8522307608209146,
+                "best_candidate": {
+                  "bbox": [
+                    0.6781846656799316,
+                    0.8153175092281255,
+                    0.7908935117721557,
+                    0.9983103641710782
+                  ],
+                  "score": 0.4236496686935425
+                }
+              },
+              {
+                "best_iou": 0.9026150591857294,
+                "matched_iou": 0.9026150591857294,
+                "best_candidate": {
+                  "bbox": [
+                    0.7219288883209228,
+                    0.8382784689996475,
+                    0.8462402095794678,
+                    0.995221008788374
+                  ],
+                  "score": 0.505561113357544
+                }
+              },
+              {
+                "best_iou": 0.8483899433556966,
+                "matched_iou": 0.8483899433556966,
+                "best_candidate": {
+                  "bbox": [
+                    0.7757497339248657,
+                    0.8486055322518026,
+                    0.897928846359253,
+                    0.997529573368847
+                  ],
+                  "score": 0.3589130640029907
+                }
+              },
+              {
+                "best_iou": 0.7571913865135016,
+                "matched_iou": 0.7571913865135016,
+                "best_candidate": {
+                  "bbox": [
+                    0.833041386604309,
+                    0.9064975628099943,
+                    0.9356659622192383,
+                    0.9974286535449494
+                  ],
+                  "score": 0.2094031274318695
+                }
+              }
+            ]
+          },
+          "accepted": {
+            "candidates": 4,
+            "matched": 3,
+            "targets": [
+              {
+                "best_iou": 0.7754700592427395,
+                "matched_iou": 0.7754700592427395,
+                "best_candidate": {
+                  "bbox": [
+                    0.4486084461212158,
+                    0.12543452978134156,
+                    0.5152968406677246,
+                    0.531768798828125
+                  ],
+                  "score": 0.514633297920227
+                }
+              },
+              {
+                "best_iou": 0.0,
+                "matched_iou": null,
+                "best_candidate": {
+                  "bbox": [
+                    0.4486084461212158,
+                    0.12543452978134156,
+                    0.5152968406677246,
+                    0.531768798828125
+                  ],
+                  "score": 0.514633297920227
+                }
+              },
+              {
+                "best_iou": 0.0,
+                "matched_iou": null,
+                "best_candidate": {
+                  "bbox": [
+                    0.4486084461212158,
+                    0.12543452978134156,
+                    0.5152968406677246,
+                    0.531768798828125
+                  ],
+                  "score": 0.514633297920227
+                }
+              },
+              {
+                "best_iou": 0.0,
+                "matched_iou": null,
+                "best_candidate": {
+                  "bbox": [
+                    0.4486084461212158,
+                    0.12543452978134156,
+                    0.5152968406677246,
+                    0.531768798828125
+                  ],
+                  "score": 0.514633297920227
+                }
+              },
+              {
+                "best_iou": 0.0,
+                "matched_iou": null,
+                "best_candidate": {
+                  "bbox": [
+                    0.4486084461212158,
+                    0.12543452978134156,
+                    0.5152968406677246,
+                    0.531768798828125
+                  ],
+                  "score": 0.514633297920227
+                }
+              },
+              {
+                "best_iou": 0.8522307608209146,
+                "matched_iou": 0.8522307608209146,
+                "best_candidate": {
+                  "bbox": [
+                    0.6781846656799316,
+                    0.8153175092281255,
+                    0.7908935117721557,
+                    0.9983103641710782
+                  ],
+                  "score": 0.4236496686935425
+                }
+              },
+              {
+                "best_iou": 0.9026150591857294,
+                "matched_iou": 0.9026150591857294,
+                "best_candidate": {
+                  "bbox": [
+                    0.7219288883209228,
+                    0.8382784689996475,
+                    0.8462402095794678,
+                    0.995221008788374
+                  ],
+                  "score": 0.505561113357544
+                }
+              },
+              {
+                "best_iou": 0.32952060962922525,
+                "matched_iou": null,
+                "best_candidate": {
+                  "bbox": [
+                    0.7219288883209228,
+                    0.8382784689996475,
+                    0.8462402095794678,
+                    0.995221008788374
+                  ],
+                  "score": 0.505561113357544
+                }
+              },
+              {
+                "best_iou": 0.01492677424995673,
+                "matched_iou": null,
+                "best_candidate": {
+                  "bbox": [
+                    0.7219288883209228,
+                    0.8382784689996475,
+                    0.8462402095794678,
+                    0.995221008788374
+                  ],
+                  "score": 0.505561113357544
+                }
+              }
+            ]
+          }
+        },
+        "specialist-full": {
+          "ranked": {
+            "candidates": 85,
+            "matched": 5,
+            "targets": [
+              {
+                "best_iou": 0.691924807655061,
+                "matched_iou": 0.691924807655061,
+                "best_candidate": {
+                  "bbox": [
+                    0.4456136703491211,
+                    0.13147788047790526,
+                    0.5219433784484864,
+                    0.5290555477142334
+                  ],
+                  "score": 0.16881553828716278
+                }
+              },
+              {
+                "best_iou": 0.46045678148207686,
+                "matched_iou": null,
+                "best_candidate": {
+                  "bbox": [
+                    0.04741140604019165,
+                    0.33779110908508303,
+                    0.08822641372680665,
+                    0.6188630104064942
+                  ],
+                  "score": 0.0121914679184556
+                }
+              },
+              {
+                "best_iou": 0.5583670920478934,
+                "matched_iou": null,
+                "best_candidate": {
+                  "bbox": [
+                    0.08141496777534485,
+                    0.2860243797302246,
+                    0.15519869327545166,
+                    0.6333507537841797
+                  ],
+                  "score": 0.18016381561756134
+                }
+              },
+              {
+                "best_iou": 0.6913806159971457,
+                "matched_iou": 0.6913806159971457,
+                "best_candidate": {
+                  "bbox": [
+                    0.08141496777534485,
+                    0.2860243797302246,
+                    0.15519869327545166,
+                    0.6333507537841797
+                  ],
+                  "score": 0.18016381561756134
+                }
+              },
+              {
+                "best_iou": 0.501905206749119,
+                "matched_iou": 0.501905206749119,
+                "best_candidate": {
+                  "bbox": [
+                    0.1114412784576416,
+                    0.2876909255981445,
+                    0.17579636573791504,
+                    0.6152055263519287
+                  ],
+                  "score": 0.3103215992450714
+                }
+              },
+              {
+                "best_iou": 0.7761749411169504,
+                "matched_iou": 0.7761749411169504,
+                "best_candidate": {
+                  "bbox": [
+                    0.6722222328186035,
+                    0.8247082710266114,
+                    0.8164920806884766,
+                    0.998591136932373
+                  ],
+                  "score": 0.31107649207115173
+                }
+              },
+              {
+                "best_iou": 0.518272648162211,
+                "matched_iou": null,
+                "best_candidate": {
+                  "bbox": [
+                    0.6722222328186035,
+                    0.8247082710266114,
+                    0.8164920806884766,
+                    0.998591136932373
+                  ],
+                  "score": 0.31107649207115173
+                }
+              },
+              {
+                "best_iou": 0.8358694134917128,
+                "matched_iou": 0.8358694134917128,
+                "best_candidate": {
+                  "bbox": [
+                    0.758576488494873,
+                    0.860880184173584,
+                    0.9074851036071777,
+                    0.9977165222167969
+                  ],
+                  "score": 0.2191338986158371
+                }
+              },
+              {
+                "best_iou": 0.34354877281910634,
+                "matched_iou": null,
+                "best_candidate": {
+                  "bbox": [
+                    0.8756824493408203,
+                    0.8939029693603515,
+                    0.9945191383361817,
+                    1.0
+                  ],
+                  "score": 0.0766008272767067
+                }
+              }
+            ]
+          },
+          "accepted": {
+            "candidates": 3,
+            "matched": 2,
+            "targets": [
+              {
+                "best_iou": 0.4020160234505035,
+                "matched_iou": null,
+                "best_candidate": {
+                  "bbox": [
+                    0.4301013469696045,
+                    0.12465405464172363,
+                    0.5487518310546875,
+                    0.7496271133422852
+                  ],
+                  "score": 0.39596301317214966
+                }
+              },
+              {
+                "best_iou": 0.031061296317862253,
+                "matched_iou": null,
+                "best_candidate": {
+                  "bbox": [
+                    0.1114412784576416,
+                    0.2876909255981445,
+                    0.17579636573791504,
+                    0.6152055263519287
+                  ],
+                  "score": 0.3103215992450714
+                }
+              },
+              {
+                "best_iou": 0.1851766879936588,
+                "matched_iou": null,
+                "best_candidate": {
+                  "bbox": [
+                    0.1114412784576416,
+                    0.2876909255981445,
+                    0.17579636573791504,
+                    0.6152055263519287
+                  ],
+                  "score": 0.3103215992450714
+                }
+              },
+              {
+                "best_iou": 0.3542815701713528,
+                "matched_iou": null,
+                "best_candidate": {
+                  "bbox": [
+                    0.1114412784576416,
+                    0.2876909255981445,
+                    0.17579636573791504,
+                    0.6152055263519287
+                  ],
+                  "score": 0.3103215992450714
+                }
+              },
+              {
+                "best_iou": 0.501905206749119,
+                "matched_iou": 0.501905206749119,
+                "best_candidate": {
+                  "bbox": [
+                    0.1114412784576416,
+                    0.2876909255981445,
+                    0.17579636573791504,
+                    0.6152055263519287
+                  ],
+                  "score": 0.3103215992450714
+                }
+              },
+              {
+                "best_iou": 0.7761749411169504,
+                "matched_iou": 0.7761749411169504,
+                "best_candidate": {
+                  "bbox": [
+                    0.6722222328186035,
+                    0.8247082710266114,
+                    0.8164920806884766,
+                    0.998591136932373
+                  ],
+                  "score": 0.31107649207115173
+                }
+              },
+              {
+                "best_iou": 0.518272648162211,
+                "matched_iou": null,
+                "best_candidate": {
+                  "bbox": [
+                    0.6722222328186035,
+                    0.8247082710266114,
+                    0.8164920806884766,
+                    0.998591136932373
+                  ],
+                  "score": 0.31107649207115173
+                }
+              },
+              {
+                "best_iou": 0.14253492678745816,
+                "matched_iou": null,
+                "best_candidate": {
+                  "bbox": [
+                    0.6722222328186035,
+                    0.8247082710266114,
+                    0.8164920806884766,
+                    0.998591136932373
+                  ],
+                  "score": 0.31107649207115173
+                }
+              },
+              {
+                "best_iou": 0.0,
+                "matched_iou": null,
+                "best_candidate": {
+                  "bbox": [
+                    0.4301013469696045,
+                    0.12465405464172363,
+                    0.5487518310546875,
+                    0.7496271133422852
+                  ],
+                  "score": 0.39596301317214966
+                }
+              }
+            ]
+          }
+        },
+        "specialist-tiled": {
+          "ranked": {
+            "candidates": 100,
+            "matched": 8,
+            "targets": [
+              {
+                "best_iou": 0.7227653037639942,
+                "matched_iou": 0.7227653037639942,
+                "best_candidate": {
+                  "bbox": [
+                    0.4512634816169739,
+                    0.12512145849098835,
+                    0.5316669769287109,
+                    0.6367836278184016
+                  ],
+                  "score": 0.46902281045913696
+                }
+              },
+              {
+                "best_iou": 0.7394346655415674,
+                "matched_iou": 0.7394346655415674,
+                "best_candidate": {
+                  "bbox": [
+                    0.04300381028652191,
+                    0.3178876240092113,
+                    0.1296635663509369,
+                    0.6108061222564009
+                  ],
+                  "score": 0.03240952268242836
+                }
+              },
+              {
+                "best_iou": 0.5849556455868836,
+                "matched_iou": null,
+                "best_candidate": {
+                  "bbox": [
+                    0.04300381028652191,
+                    0.3178876240092113,
+                    0.1296635663509369,
+                    0.6108061222564009
+                  ],
+                  "score": 0.03240952268242836
+                }
+              },
+              {
+                "best_iou": 0.6913806159971457,
+                "matched_iou": 0.6913806159971457,
+                "best_candidate": {
+                  "bbox": [
+                    0.08141496777534485,
+                    0.2860243797302246,
+                    0.15519869327545166,
+                    0.6333507537841797
+                  ],
+                  "score": 0.18016381561756134
+                }
+              },
+              {
+                "best_iou": 0.501905206749119,
+                "matched_iou": 0.501905206749119,
+                "best_candidate": {
+                  "bbox": [
+                    0.1114412784576416,
+                    0.2876909255981445,
+                    0.17579636573791504,
+                    0.6152055263519287
+                  ],
+                  "score": 0.3103215992450714
+                }
+              },
+              {
+                "best_iou": 0.8296684635763645,
+                "matched_iou": 0.8296684635763645,
+                "best_candidate": {
+                  "bbox": [
+                    0.6751273279190063,
+                    0.8131660534564714,
+                    0.7955450887680053,
+                    0.9974382229855187
+                  ],
+                  "score": 0.37662917375564575
+                }
+              },
+              {
+                "best_iou": 0.9372109792646691,
+                "matched_iou": 0.9372109792646691,
+                "best_candidate": {
+                  "bbox": [
+                    0.7197681665420532,
+                    0.8397823821333118,
+                    0.8477953300476074,
+                    0.9964390978418796
+                  ],
+                  "score": 0.4427326023578644
+                }
+              },
+              {
+                "best_iou": 0.7950599891777262,
+                "matched_iou": 0.7950599891777262,
+                "best_candidate": {
+                  "bbox": [
+                    0.7648807592391967,
+                    0.8486740922569332,
+                    0.8998322277069092,
+                    0.9973806804284118
+                  ],
+                  "score": 0.3288191854953766
+                }
+              },
+              {
+                "best_iou": 0.7441313913012871,
+                "matched_iou": 0.7441313913012871,
+                "best_candidate": {
+                  "bbox": [
+                    0.8461710357666016,
+                    0.9055411224078415,
+                    0.9426630916595459,
+                    0.9979875214655597
+                  ],
+                  "score": 0.2091388702392578
+                }
+              }
+            ]
+          },
+          "accepted": {
+            "candidates": 3,
+            "matched": 2,
+            "targets": [
+              {
+                "best_iou": 0.7227653037639942,
+                "matched_iou": 0.7227653037639942,
+                "best_candidate": {
+                  "bbox": [
+                    0.4512634816169739,
+                    0.12512145849098835,
+                    0.5316669769287109,
+                    0.6367836278184016
+                  ],
+                  "score": 0.46902281045913696
+                }
+              },
+              {
+                "best_iou": 0.0,
+                "matched_iou": null,
+                "best_candidate": {
+                  "bbox": [
+                    0.47323271942138667,
+                    0.4050511962489078,
+                    0.5489616165161133,
+                    0.7771895527660397
+                  ],
+                  "score": 0.5058531165122986
+                }
+              },
+              {
+                "best_iou": 0.0,
+                "matched_iou": null,
+                "best_candidate": {
+                  "bbox": [
+                    0.47323271942138667,
+                    0.4050511962489078,
+                    0.5489616165161133,
+                    0.7771895527660397
+                  ],
+                  "score": 0.5058531165122986
+                }
+              },
+              {
+                "best_iou": 0.0,
+                "matched_iou": null,
+                "best_candidate": {
+                  "bbox": [
+                    0.47323271942138667,
+                    0.4050511962489078,
+                    0.5489616165161133,
+                    0.7771895527660397
+                  ],
+                  "score": 0.5058531165122986
+                }
+              },
+              {
+                "best_iou": 0.0,
+                "matched_iou": null,
+                "best_candidate": {
+                  "bbox": [
+                    0.47323271942138667,
+                    0.4050511962489078,
+                    0.5489616165161133,
+                    0.7771895527660397
+                  ],
+                  "score": 0.5058531165122986
+                }
+              },
+              {
+                "best_iou": 0.349806785781689,
+                "matched_iou": null,
+                "best_candidate": {
+                  "bbox": [
+                    0.7197681665420532,
+                    0.8397823821333118,
+                    0.8477953300476074,
+                    0.9964390978418796
+                  ],
+                  "score": 0.4427326023578644
+                }
+              },
+              {
+                "best_iou": 0.9372109792646691,
+                "matched_iou": 0.9372109792646691,
+                "best_candidate": {
+                  "bbox": [
+                    0.7197681665420532,
+                    0.8397823821333118,
+                    0.8477953300476074,
+                    0.9964390978418796
+                  ],
+                  "score": 0.4427326023578644
+                }
+              },
+              {
+                "best_iou": 0.33706640156275536,
+                "matched_iou": null,
+                "best_candidate": {
+                  "bbox": [
+                    0.7197681665420532,
+                    0.8397823821333118,
+                    0.8477953300476074,
+                    0.9964390978418796
+                  ],
+                  "score": 0.4427326023578644
+                }
+              },
+              {
+                "best_iou": 0.02037292507195375,
+                "matched_iou": null,
+                "best_candidate": {
+                  "bbox": [
+                    0.7197681665420532,
+                    0.8397823821333118,
+                    0.8477953300476074,
+                    0.9964390978418796
+                  ],
+                  "score": 0.4427326023578644
+                }
+              }
+            ]
+          }
+        }
+      }
+    },
+    "dvids-8917760": {
+      "expected": 1,
+      "released": {
+        "candidates": 1,
+        "matched": 1,
+        "targets": [
+          {
+            "best_iou": 0.7989550389505549,
+            "matched_iou": 0.7989550389505549,
+            "best_candidate": {
+              "id": "object-1",
+              "bbox": [
+                0.36259984349583957,
+                0.025885491622121712,
+                0.5339148963416541,
+                0.5502475365660244
+              ],
+              "score": 0.8442048089303926,
+              "detection_evidence": {},
+              "scale": null,
+              "color": null,
+              "evidence": {
+                "scale": {
+                  "value": null,
+                  "reason": "Outside development support or ambiguous",
+                  "distance": 2.1755908647226043,
+                  "margin": 0.4760423557618756
+                },
+                "color": {
+                  "value": null,
+                  "reason": "Outside development support or ambiguous",
+                  "distance": 4.2058756766854835,
+                  "margin": 2.2523457164577936
+                }
+              },
+              "inscriptions": {
+                "status": "not requested",
+                "candidates": [],
+                "capacity": null,
+                "apparent_volume": null
+              },
+              "liquid_appearance": {
+                "status": "insufficient evidence",
+                "reason": "The syringe mask could not be validated.",
+                "lightness": null,
+                "opacity": null,
+                "opacity_reason": "A registered clear-barrel reference at the same exposure is required."
+              },
+              "fill_level": {
+                "status": "insufficient evidence",
+                "reason": "Enable visible marking extraction to estimate fill."
+              },
+              "origin": "model"
+            }
+          }
+        ]
+      },
+      "arms": {
+        "initial-full": {
+          "ranked": {
+            "candidates": 100,
+            "matched": 0,
+            "targets": [
+              {
+                "best_iou": 0.47093098921378074,
+                "matched_iou": null,
+                "best_candidate": {
+                  "bbox": [
+                    0.4064042091369629,
+                    0.1447076678276062,
+                    0.5376714706420899,
+                    0.5457613945007325
+                  ],
+                  "score": 0.6185883283615112
+                }
+              }
+            ]
+          },
+          "accepted": {
+            "candidates": 2,
+            "matched": 0,
+            "targets": [
+              {
+                "best_iou": 0.47093098921378074,
+                "matched_iou": null,
+                "best_candidate": {
+                  "bbox": [
+                    0.4064042091369629,
+                    0.1447076678276062,
+                    0.5376714706420899,
+                    0.5457613945007325
+                  ],
+                  "score": 0.6185883283615112
+                }
+              }
+            ]
+          }
+        },
+        "initial-tiled": {
+          "ranked": {
+            "candidates": 100,
+            "matched": 1,
+            "targets": [
+              {
+                "best_iou": 0.5103680123009191,
+                "matched_iou": 0.5103680123009191,
+                "best_candidate": {
+                  "bbox": [
+                    0.38441582735594326,
+                    0.06477716435167126,
+                    0.5058524603361602,
+                    0.3664129350418435
+                  ],
+                  "score": 0.01608903333544731
+                }
+              }
+            ]
+          },
+          "accepted": {
+            "candidates": 2,
+            "matched": 0,
+            "targets": [
+              {
+                "best_iou": 0.47093098921378074,
+                "matched_iou": null,
+                "best_candidate": {
+                  "bbox": [
+                    0.4064042091369629,
+                    0.1447076678276062,
+                    0.5376714706420899,
+                    0.5457613945007325
+                  ],
+                  "score": 0.6185883283615112
+                }
+              }
+            ]
+          }
+        },
+        "specialist-full": {
+          "ranked": {
+            "candidates": 80,
+            "matched": 0,
+            "targets": [
+              {
+                "best_iou": 0.4936931600340812,
+                "matched_iou": null,
+                "best_candidate": {
+                  "bbox": [
+                    0.39825608730316164,
+                    0.1400293231010437,
+                    0.5428510665893554,
+                    0.5508666515350342
+                  ],
+                  "score": 0.6237314343452454
+                }
+              }
+            ]
+          },
+          "accepted": {
+            "candidates": 2,
+            "matched": 0,
+            "targets": [
+              {
+                "best_iou": 0.4936931600340812,
+                "matched_iou": null,
+                "best_candidate": {
+                  "bbox": [
+                    0.39825608730316164,
+                    0.1400293231010437,
+                    0.5428510665893554,
+                    0.5508666515350342
+                  ],
+                  "score": 0.6237314343452454
+                }
+              }
+            ]
+          }
+        },
+        "specialist-tiled": {
+          "ranked": {
+            "candidates": 100,
+            "matched": 1,
+            "targets": [
+              {
+                "best_iou": 0.7030255574659338,
+                "matched_iou": 0.7030255574659338,
+                "best_candidate": {
+                  "bbox": [
+                    0.35898807065503613,
+                    0.03733435394172382,
+                    0.5040893402901498,
+                    0.4180378634230535
+                  ],
+                  "score": 0.04720053821802139
+                }
+              }
+            ]
+          },
+          "accepted": {
+            "candidates": 2,
+            "matched": 0,
+            "targets": [
+              {
+                "best_iou": 0.4936931600340812,
+                "matched_iou": null,
+                "best_candidate": {
+                  "bbox": [
+                    0.39825608730316164,
+                    0.1400293231010437,
+                    0.5428510665893554,
+                    0.5508666515350342
+                  ],
+                  "score": 0.6237314343452454
+                }
+              }
+            ]
+          }
+        }
+      }
+    },
+    "dvids-8948275": {
+      "expected": 1,
+      "released": {
+        "candidates": 1,
+        "matched": 0,
+        "targets": [
+          {
+            "best_iou": 0.42020787757458067,
+            "matched_iou": null,
+            "best_candidate": {
+              "id": "object-1",
+              "bbox": [
+                0.25511654663085936,
+                0.11724686686197916,
+                0.7153447875976563,
+                0.670108154296875
+              ],
+              "score": 0.7284521591347685,
+              "detection_evidence": {},
+              "scale": null,
+              "color": null,
+              "evidence": {
+                "scale": {
+                  "value": null,
+                  "reason": "Outside development support or ambiguous",
+                  "distance": 6.466910478083923,
+                  "margin": 0.08646863812121897
+                },
+                "color": {
+                  "value": null,
+                  "reason": "Outside development support or ambiguous",
+                  "distance": 8.511701591435617,
+                  "margin": 0.01887565045501738
+                }
+              },
+              "inscriptions": {
+                "status": "not requested",
+                "candidates": [],
+                "capacity": null,
+                "apparent_volume": null
+              },
+              "liquid_appearance": {
+                "status": "insufficient evidence",
+                "reason": "The syringe mask could not be validated.",
+                "lightness": null,
+                "opacity": null,
+                "opacity_reason": "A registered clear-barrel reference at the same exposure is required."
+              },
+              "fill_level": {
+                "status": "insufficient evidence",
+                "reason": "Enable visible marking extraction to estimate fill."
+              },
+              "origin": "model"
+            }
+          }
+        ]
+      },
+      "arms": {
+        "initial-full": {
+          "ranked": {
+            "candidates": 73,
+            "matched": 1,
+            "targets": [
+              {
+                "best_iou": 0.8565627598149658,
+                "matched_iou": 0.8565627598149658,
+                "best_candidate": {
+                  "bbox": [
+                    0.26436591148376465,
+                    0.3317657709121704,
+                    0.5443534851074219,
+                    0.666219425201416
+                  ],
+                  "score": 0.4053467810153961
+                }
+              }
+            ]
+          },
+          "accepted": {
+            "candidates": 1,
+            "matched": 1,
+            "targets": [
+              {
+                "best_iou": 0.8565627598149658,
+                "matched_iou": 0.8565627598149658,
+                "best_candidate": {
+                  "bbox": [
+                    0.26436591148376465,
+                    0.3317657709121704,
+                    0.5443534851074219,
+                    0.666219425201416
+                  ],
+                  "score": 0.4053467810153961
+                }
+              }
+            ]
+          }
+        },
+        "initial-tiled": {
+          "ranked": {
+            "candidates": 100,
+            "matched": 1,
+            "targets": [
+              {
+                "best_iou": 0.8565627598149658,
+                "matched_iou": 0.8565627598149658,
+                "best_candidate": {
+                  "bbox": [
+                    0.26436591148376465,
+                    0.3317657709121704,
+                    0.5443534851074219,
+                    0.666219425201416
+                  ],
+                  "score": 0.4053467810153961
+                }
+              }
+            ]
+          },
+          "accepted": {
+            "candidates": 1,
+            "matched": 1,
+            "targets": [
+              {
+                "best_iou": 0.8565627598149658,
+                "matched_iou": 0.8565627598149658,
+                "best_candidate": {
+                  "bbox": [
+                    0.26436591148376465,
+                    0.3317657709121704,
+                    0.5443534851074219,
+                    0.666219425201416
+                  ],
+                  "score": 0.4053467810153961
+                }
+              }
+            ]
+          }
+        },
+        "specialist-full": {
+          "ranked": {
+            "candidates": 69,
+            "matched": 1,
+            "targets": [
+              {
+                "best_iou": 0.8897209547361385,
+                "matched_iou": 0.8897209547361385,
+                "best_candidate": {
+                  "bbox": [
+                    0.2571268081665039,
+                    0.3250302791595459,
+                    0.5457144260406495,
+                    0.6620781898498536
+                  ],
+                  "score": 0.4828068017959595
+                }
+              }
+            ]
+          },
+          "accepted": {
+            "candidates": 1,
+            "matched": 1,
+            "targets": [
+              {
+                "best_iou": 0.8897209547361385,
+                "matched_iou": 0.8897209547361385,
+                "best_candidate": {
+                  "bbox": [
+                    0.2571268081665039,
+                    0.3250302791595459,
+                    0.5457144260406495,
+                    0.6620781898498536
+                  ],
+                  "score": 0.4828068017959595
+                }
+              }
+            ]
+          }
+        },
+        "specialist-tiled": {
+          "ranked": {
+            "candidates": 100,
+            "matched": 1,
+            "targets": [
+              {
+                "best_iou": 0.8897209547361385,
+                "matched_iou": 0.8897209547361385,
+                "best_candidate": {
+                  "bbox": [
+                    0.2571268081665039,
+                    0.3250302791595459,
+                    0.5457144260406495,
+                    0.6620781898498536
+                  ],
+                  "score": 0.4828068017959595
+                }
+              }
+            ]
+          },
+          "accepted": {
+            "candidates": 1,
+            "matched": 1,
+            "targets": [
+              {
+                "best_iou": 0.8897209547361385,
+                "matched_iou": 0.8897209547361385,
+                "best_candidate": {
+                  "bbox": [
+                    0.2571268081665039,
+                    0.3250302791595459,
+                    0.5457144260406495,
+                    0.6620781898498536
+                  ],
+                  "score": 0.4828068017959595
+                }
+              }
+            ]
+          }
+        }
+      }
+    }
+  },
+  "scope": "Retrospective diagnostic, RF-DETR proposals already suppressed at NMS IoU 0.45."
+}

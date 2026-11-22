@@ -1,0 +1,5687 @@
+{
+  "inputs": {
+    "revision": "79f69504f812b766d5c7e9b53da79e65db989705",
+    "appearance_release_sha256": "77575889751a048fa2242281af92ee81d8ac8819c5a08824b1ce45849d9f0481",
+    "evidence_sha256": "f2ddd1d1677b02e6cdea7525ac23f6e7b6d83d2c04918f8d7d4b36362fc54821",
+    "code_sha256": "cbcf6c42e27d2243995095ffe59bab029500f97d9971801bcad3a003235f1608",
+    "device": "xpu",
+    "analysis_mode": "count only"
+  },
+  "frames": {
+    "fr4KaYX2NdrKAcwFd4Sh": {
+      "actual": [
+        {
+          "id": "object-1",
+          "bbox": [
+            0.40835801686672185,
+            0.4155090583500405,
+            0.5147947197718337,
+            0.6449389533480172
+          ],
+          "score": 0.7892715465391443,
+          "detection_evidence": {},
+          "scale": null,
+          "color": null,
+          "evidence": {
+            "scale": {
+              "value": null,
+              "reason": "Only detection and counting were requested."
+            },
+            "color": {
+              "value": null,
+              "reason": "Only detection and counting were requested."
+            }
+          },
+          "inscriptions": {
+            "status": "not requested",
+            "candidates": [],
+            "capacity": null,
+            "apparent_volume": null
+          },
+          "liquid_appearance": null,
+          "fill_level": {
+            "status": "insufficient evidence",
+            "reason": "Only detection and counting were requested."
+          },
+          "origin": "model"
+        },
+        {
+          "id": "object-2",
+          "bbox": [
+            0.3580842074968957,
+            0.03010797079624039,
+            0.4566199700563949,
+            0.20897683092536046
+          ],
+          "score": 0.75325678887186,
+          "detection_evidence": {},
+          "scale": null,
+          "color": null,
+          "evidence": {
+            "scale": {
+              "value": null,
+              "reason": "Only detection and counting were requested."
+            },
+            "color": {
+              "value": null,
+              "reason": "Only detection and counting were requested."
+            }
+          },
+          "inscriptions": {
+            "status": "not requested",
+            "candidates": [],
+            "capacity": null,
+            "apparent_volume": null
+          },
+          "liquid_appearance": null,
+          "fill_level": {
+            "status": "insufficient evidence",
+            "reason": "Only detection and counting were requested."
+          },
+          "origin": "model"
+        },
+        {
+          "id": "object-3",
+          "bbox": [
+            0.268005658498663,
+            0.46531482439942046,
+            0.39189302941031806,
+            0.5882826036498994
+          ],
+          "score": 0.6772280764893512,
+          "detection_evidence": {
+            "verification_score": 1.8925601316931282,
+            "source": "auxiliary",
+            "auxiliary_score": 0.3498035967350006
+          },
+          "scale": null,
+          "color": null,
+          "evidence": {
+            "scale": {
+              "value": null,
+              "reason": "Only detection and counting were requested."
+            },
+            "color": {
+              "value": null,
+              "reason": "Only detection and counting were requested."
+            }
+          },
+          "inscriptions": {
+            "status": "not requested",
+            "candidates": [],
+            "capacity": null,
+            "apparent_volume": null
+          },
+          "liquid_appearance": null,
+          "fill_level": {
+            "status": "insufficient evidence",
+            "reason": "Only detection and counting were requested."
+          },
+          "origin": "model"
+        }
+      ],
+      "proposals": [
+        {
+          "bbox": [
+            0.2694580482331333,
+            0.457834765797436,
+            0.3995076362660389,
+            0.6024914270572763
+          ],
+          "score": 0.6667709212329715
+        },
+        {
+          "bbox": [
+            0.27985108230287664,
+            0.3605849977238449,
+            0.3963991278844164,
+            0.4484038462422749
+          ],
+          "score": 0.6609742234472558
+        },
+        {
+          "bbox": [
+            0.27919155903999376,
+            0.29949861361462626,
+            0.3961754400998551,
+            0.37420147766149203
+          ],
+          "score": 0.6462597909243174
+        },
+        {
+          "bbox": [
+            0.1834349575421668,
+            0.3417601605034211,
+            0.24484665220146937,
+            0.48197199668233154
+          ],
+          "score": 0.6370121509650708
+        },
+        {
+          "bbox": [
+            0.00140015778952087,
+            0.3469618358915171,
+            0.3885059887210265,
+            0.9972781540015784
+          ],
+          "score": 0.33600875247502426
+        }
+      ],
+      "baseline": [
+        {
+          "id": "object-1",
+          "bbox": [
+            0.40835801686672185,
+            0.4155090583500405,
+            0.5147947197718337,
+            0.6449389533480172
+          ],
+          "score": 0.7892716702481433,
+          "detection_evidence": {},
+          "scale": null,
+          "color": null,
+          "evidence": {
+            "scale": {
+              "value": null,
+              "reason": "Outside development support or ambiguous",
+              "distance": 3.1016331504542545,
+              "margin": 1.4408594850258623
+            },
+            "color": {
+              "value": null,
+              "reason": "Insufficient visible support"
+            }
+          },
+          "inscriptions": {
+            "status": "not requested",
+            "candidates": [],
+            "capacity": null,
+            "apparent_volume": null
+          },
+          "liquid_appearance": {
+            "status": "insufficient evidence",
+            "reason": "A colored liquid region could not be isolated.",
+            "lightness": null,
+            "opacity": null,
+            "opacity_reason": "A registered clear-barrel reference at the same exposure is required.",
+            "syringe_mask_score": 0.9892755150794983
+          },
+          "fill_level": {
+            "status": "insufficient evidence",
+            "reason": "Enable visible marking extraction to estimate fill."
+          },
+          "origin": "model"
+        },
+        {
+          "id": "object-2",
+          "bbox": [
+            0.3580842074968957,
+            0.03010797079624039,
+            0.4566199700563949,
+            0.20897683092536046
+          ],
+          "score": 0.7532571108901241,
+          "detection_evidence": {},
+          "scale": null,
+          "color": null,
+          "evidence": {
+            "scale": {
+              "value": null,
+              "reason": "Outside development support or ambiguous",
+              "distance": 4.439780010094838,
+              "margin": 1.3605496217420612
+            },
+            "color": {
+              "value": null,
+              "reason": "Insufficient visible support"
+            }
+          },
+          "inscriptions": {
+            "status": "not requested",
+            "candidates": [],
+            "capacity": null,
+            "apparent_volume": null
+          },
+          "liquid_appearance": {
+            "status": "insufficient evidence",
+            "reason": "A colored liquid region could not be isolated.",
+            "lightness": null,
+            "opacity": null,
+            "opacity_reason": "A registered clear-barrel reference at the same exposure is required.",
+            "syringe_mask_score": 0.9878420233726501
+          },
+          "fill_level": {
+            "status": "insufficient evidence",
+            "reason": "Enable visible marking extraction to estimate fill."
+          },
+          "origin": "model"
+        },
+        {
+          "id": "object-3",
+          "bbox": [
+            0.268005658498663,
+            0.46531482439942046,
+            0.39189302941031806,
+            0.5882826036498994
+          ],
+          "score": 0.6772280764893512,
+          "detection_evidence": {
+            "verification_score": 1.8925601316931282,
+            "source": "auxiliary",
+            "auxiliary_score": 0.3498035967350006
+          },
+          "scale": null,
+          "color": null,
+          "evidence": {
+            "scale": {
+              "value": null,
+              "reason": "Outside development support or ambiguous",
+              "distance": 4.29784696068221,
+              "margin": 1.2599787705655592
+            },
+            "color": {
+              "value": null,
+              "reason": "Insufficient visible support"
+            }
+          },
+          "inscriptions": {
+            "status": "not requested",
+            "candidates": [],
+            "capacity": null,
+            "apparent_volume": null
+          },
+          "liquid_appearance": {
+            "status": "insufficient evidence",
+            "reason": "The syringe mask could not be validated.",
+            "lightness": null,
+            "opacity": null,
+            "opacity_reason": "A registered clear-barrel reference at the same exposure is required."
+          },
+          "fill_level": {
+            "status": "insufficient evidence",
+            "reason": "Enable visible marking extraction to estimate fill."
+          },
+          "origin": "model"
+        }
+      ],
+      "health": {
+        "status": "available",
+        "primary_backend": "xpu",
+        "unavailable": [],
+        "review_needed": false
+      },
+      "time": 66.84715972200502
+    },
+    "Gu84gAdw3JXDHshiDkll": {
+      "actual": [
+        {
+          "id": "object-1",
+          "bbox": [
+            0.3576593866411424,
+            0.029597488412301365,
+            0.4567331478295737,
+            0.20923289837312387
+          ],
+          "score": 0.7148578254217572,
+          "detection_evidence": {},
+          "scale": null,
+          "color": null,
+          "evidence": {
+            "scale": {
+              "value": null,
+              "reason": "Only detection and counting were requested."
+            },
+            "color": {
+              "value": null,
+              "reason": "Only detection and counting were requested."
+            }
+          },
+          "inscriptions": {
+            "status": "not requested",
+            "candidates": [],
+            "capacity": null,
+            "apparent_volume": null
+          },
+          "liquid_appearance": null,
+          "fill_level": {
+            "status": "insufficient evidence",
+            "reason": "Only detection and counting were requested."
+          },
+          "origin": "model"
+        },
+        {
+          "id": "object-2",
+          "bbox": [
+            0.5385962884157699,
+            0.5087058980581408,
+            0.6247681472475165,
+            0.6828863313438052
+          ],
+          "score": 0.714342753124543,
+          "detection_evidence": {},
+          "scale": null,
+          "color": null,
+          "evidence": {
+            "scale": {
+              "value": null,
+              "reason": "Only detection and counting were requested."
+            },
+            "color": {
+              "value": null,
+              "reason": "Only detection and counting were requested."
+            }
+          },
+          "inscriptions": {
+            "status": "not requested",
+            "candidates": [],
+            "capacity": null,
+            "apparent_volume": null
+          },
+          "liquid_appearance": null,
+          "fill_level": {
+            "status": "insufficient evidence",
+            "reason": "Only detection and counting were requested."
+          },
+          "origin": "model"
+        },
+        {
+          "id": "object-3",
+          "bbox": [
+            0.4109889150455298,
+            0.41371011986600575,
+            0.5128190400584645,
+            0.6301725049661565
+          ],
+          "score": 0.7036221734587838,
+          "detection_evidence": {},
+          "scale": null,
+          "color": null,
+          "evidence": {
+            "scale": {
+              "value": null,
+              "reason": "Only detection and counting were requested."
+            },
+            "color": {
+              "value": null,
+              "reason": "Only detection and counting were requested."
+            }
+          },
+          "inscriptions": {
+            "status": "not requested",
+            "candidates": [],
+            "capacity": null,
+            "apparent_volume": null
+          },
+          "liquid_appearance": null,
+          "fill_level": {
+            "status": "insufficient evidence",
+            "reason": "Only detection and counting were requested."
+          },
+          "origin": "model"
+        },
+        {
+          "id": "object-4",
+          "bbox": [
+            0.279115507618481,
+            0.29955968469504124,
+            0.39639379236082367,
+            0.3757854459424662
+          ],
+          "score": 0.695509845500574,
+          "detection_evidence": {},
+          "scale": null,
+          "color": null,
+          "evidence": {
+            "scale": {
+              "value": null,
+              "reason": "Only detection and counting were requested."
+            },
+            "color": {
+              "value": null,
+              "reason": "Only detection and counting were requested."
+            }
+          },
+          "inscriptions": {
+            "status": "not requested",
+            "candidates": [],
+            "capacity": null,
+            "apparent_volume": null
+          },
+          "liquid_appearance": null,
+          "fill_level": {
+            "status": "insufficient evidence",
+            "reason": "Only detection and counting were requested."
+          },
+          "origin": "model"
+        },
+        {
+          "id": "object-5",
+          "bbox": [
+            0.1685191577633485,
+            0.3421165282197248,
+            0.24425069038441638,
+            0.5424537052471122
+          ],
+          "score": 0.6828173413379988,
+          "detection_evidence": {},
+          "scale": null,
+          "color": null,
+          "evidence": {
+            "scale": {
+              "value": null,
+              "reason": "Only detection and counting were requested."
+            },
+            "color": {
+              "value": null,
+              "reason": "Only detection and counting were requested."
+            }
+          },
+          "inscriptions": {
+            "status": "not requested",
+            "candidates": [],
+            "capacity": null,
+            "apparent_volume": null
+          },
+          "liquid_appearance": null,
+          "fill_level": {
+            "status": "insufficient evidence",
+            "reason": "Only detection and counting were requested."
+          },
+          "origin": "model"
+        }
+      ],
+      "proposals": [
+        {
+          "bbox": [
+            0.5054900112531043,
+            0.4303390565796976,
+            0.561750722720923,
+            0.5545301880816841
+          ],
+          "score": 0.45300449082159744
+        },
+        {
+          "bbox": [
+            0.49570934977752484,
+            0.430667654916495,
+            0.5619484200382864,
+            0.6219687189615215
+          ],
+          "score": 0.4448251026828539
+        },
+        {
+          "bbox": [
+            0.40842701488772765,
+            0.41544126945077986,
+            0.624619843944019,
+            0.6833482442567319
+          ],
+          "score": 0.37186994227496356
+        },
+        {
+          "bbox": [
+            0.16418212486418668,
+            0.03146805968124633,
+            0.6262834763684809,
+            0.6918842569388244
+          ],
+          "score": 0.33678480775645336
+        },
+        {
+          "bbox": [
+            0.16684576375594992,
+            0.028918952784726337,
+            0.4580052255794702,
+            0.5475852925893908
+          ],
+          "score": 0.3047353883152617
+        }
+      ],
+      "baseline": [
+        {
+          "id": "object-1",
+          "bbox": [
+            0.3576593866411424,
+            0.029597488412301365,
+            0.4567331478295737,
+            0.20923289837312387
+          ],
+          "score": 0.7148579379768104,
+          "detection_evidence": {},
+          "scale": null,
+          "color": null,
+          "evidence": {
+            "scale": {
+              "value": null,
+              "reason": "Outside development support or ambiguous",
+              "distance": 4.5142934441699145,
+              "margin": 1.3570557297825543
+            },
+            "color": {
+              "value": null,
+              "reason": "Insufficient visible support"
+            }
+          },
+          "inscriptions": {
+            "status": "not requested",
+            "candidates": [],
+            "capacity": null,
+            "apparent_volume": null
+          },
+          "liquid_appearance": {
+            "status": "insufficient evidence",
+            "reason": "A colored liquid region could not be isolated.",
+            "lightness": null,
+            "opacity": null,
+            "opacity_reason": "A registered clear-barrel reference at the same exposure is required.",
+            "syringe_mask_score": 0.9874779582023621
+          },
+          "fill_level": {
+            "status": "insufficient evidence",
+            "reason": "Enable visible marking extraction to estimate fill."
+          },
+          "origin": "model"
+        },
+        {
+          "id": "object-2",
+          "bbox": [
+            0.5385962884157699,
+            0.5087058980581408,
+            0.6247681472475165,
+            0.6828863313438052
+          ],
+          "score": 0.714342879575876,
+          "detection_evidence": {},
+          "scale": null,
+          "color": null,
+          "evidence": {
+            "scale": {
+              "value": null,
+              "reason": "Outside development support or ambiguous",
+              "distance": 3.081608598249128,
+              "margin": 1.455953995519414
+            },
+            "color": {
+              "value": null,
+              "reason": "Insufficient visible support"
+            }
+          },
+          "inscriptions": {
+            "status": "not requested",
+            "candidates": [],
+            "capacity": null,
+            "apparent_volume": null
+          },
+          "liquid_appearance": {
+            "status": "insufficient evidence",
+            "reason": "A colored liquid region could not be isolated.",
+            "lightness": null,
+            "opacity": null,
+            "opacity_reason": "A registered clear-barrel reference at the same exposure is required.",
+            "syringe_mask_score": 0.9762889742851257
+          },
+          "fill_level": {
+            "status": "insufficient evidence",
+            "reason": "Enable visible marking extraction to estimate fill."
+          },
+          "origin": "model"
+        },
+        {
+          "id": "object-3",
+          "bbox": [
+            0.4109888746248965,
+            0.41371011986600575,
+            0.5128190400584645,
+            0.6301725049661565
+          ],
+          "score": 0.7036220018558281,
+          "detection_evidence": {},
+          "scale": null,
+          "color": null,
+          "evidence": {
+            "scale": {
+              "value": null,
+              "reason": "Outside development support or ambiguous",
+              "distance": 2.8975236304755034,
+              "margin": 1.469603565699935
+            },
+            "color": {
+              "value": null,
+              "reason": "Insufficient visible support"
+            }
+          },
+          "inscriptions": {
+            "status": "not requested",
+            "candidates": [],
+            "capacity": null,
+            "apparent_volume": null
+          },
+          "liquid_appearance": {
+            "status": "insufficient evidence",
+            "reason": "A colored liquid region could not be isolated.",
+            "lightness": null,
+            "opacity": null,
+            "opacity_reason": "A registered clear-barrel reference at the same exposure is required.",
+            "syringe_mask_score": 0.9761894345283508
+          },
+          "fill_level": {
+            "status": "insufficient evidence",
+            "reason": "Enable visible marking extraction to estimate fill."
+          },
+          "origin": "model"
+        },
+        {
+          "id": "object-4",
+          "bbox": [
+            0.279115507618481,
+            0.29955968469504124,
+            0.39639379236082367,
+            0.3757854459424662
+          ],
+          "score": 0.6955099524870719,
+          "detection_evidence": {},
+          "scale": "60-scale",
+          "color": null,
+          "evidence": {
+            "scale": {
+              "value": "60-scale",
+              "distance": 2.462575465800963,
+              "margin": 0.9371816847379821,
+              "reason": "Experimental suggestion from the object crop"
+            },
+            "color": {
+              "value": null,
+              "reason": "Insufficient visible support"
+            }
+          },
+          "inscriptions": {
+            "status": "not requested",
+            "candidates": [],
+            "capacity": null,
+            "apparent_volume": null
+          },
+          "liquid_appearance": {
+            "status": "insufficient evidence",
+            "reason": "A colored liquid region could not be isolated.",
+            "lightness": null,
+            "opacity": null,
+            "opacity_reason": "A registered clear-barrel reference at the same exposure is required.",
+            "syringe_mask_score": 0.9627611637115479
+          },
+          "fill_level": {
+            "status": "insufficient evidence",
+            "reason": "Enable visible marking extraction to estimate fill."
+          },
+          "origin": "model"
+        },
+        {
+          "id": "object-5",
+          "bbox": [
+            0.1685191577633485,
+            0.3421164922955599,
+            0.24425069038441638,
+            0.5424537770954422
+          ],
+          "score": 0.6828170672690916,
+          "detection_evidence": {},
+          "scale": null,
+          "color": null,
+          "evidence": {
+            "scale": {
+              "value": null,
+              "reason": "Outside development support or ambiguous",
+              "distance": 3.2013663655105167,
+              "margin": 1.130736869976729
+            },
+            "color": {
+              "value": null,
+              "reason": "Insufficient visible support"
+            }
+          },
+          "inscriptions": {
+            "status": "not requested",
+            "candidates": [],
+            "capacity": null,
+            "apparent_volume": null
+          },
+          "liquid_appearance": {
+            "status": "insufficient evidence",
+            "reason": "The syringe mask could not be validated.",
+            "lightness": null,
+            "opacity": null,
+            "opacity_reason": "A registered clear-barrel reference at the same exposure is required."
+          },
+          "fill_level": {
+            "status": "insufficient evidence",
+            "reason": "Enable visible marking extraction to estimate fill."
+          },
+          "origin": "model"
+        }
+      ],
+      "health": {
+        "status": "available",
+        "primary_backend": "xpu",
+        "unavailable": [],
+        "review_needed": false
+      },
+      "time": 11.714921895996667
+    },
+    "cAH0yS3Ek6AXSKQFTBij": {
+      "actual": [
+        {
+          "id": "object-1",
+          "bbox": [
+            0.509329809731995,
+            0.5674049777097742,
+            0.6451063143496482,
+            0.7565405690157814
+          ],
+          "score": 0.808366482205323,
+          "detection_evidence": {},
+          "scale": null,
+          "color": null,
+          "evidence": {
+            "scale": {
+              "value": null,
+              "reason": "Only detection and counting were requested."
+            },
+            "color": {
+              "value": null,
+              "reason": "Only detection and counting were requested."
+            }
+          },
+          "inscriptions": {
+            "status": "not requested",
+            "candidates": [],
+            "capacity": null,
+            "apparent_volume": null
+          },
+          "liquid_appearance": null,
+          "fill_level": {
+            "status": "insufficient evidence",
+            "reason": "Only detection and counting were requested."
+          },
+          "origin": "model"
+        },
+        {
+          "id": "object-2",
+          "bbox": [
+            0.508291767448779,
+            0.2594213996514494,
+            0.6472235471207575,
+            0.41313605171010526
+          ],
+          "score": 0.7866304236905052,
+          "detection_evidence": {},
+          "scale": null,
+          "color": null,
+          "evidence": {
+            "scale": {
+              "value": null,
+              "reason": "Only detection and counting were requested."
+            },
+            "color": {
+              "value": null,
+              "reason": "Only detection and counting were requested."
+            }
+          },
+          "inscriptions": {
+            "status": "not requested",
+            "candidates": [],
+            "capacity": null,
+            "apparent_volume": null
+          },
+          "liquid_appearance": null,
+          "fill_level": {
+            "status": "insufficient evidence",
+            "reason": "Only detection and counting were requested."
+          },
+          "origin": "model"
+        },
+        {
+          "id": "object-3",
+          "bbox": [
+            0.47424102176893623,
+            0.3791883265431871,
+            0.5877122891659768,
+            0.5064716305432424
+          ],
+          "score": 0.7591830245307751,
+          "detection_evidence": {},
+          "scale": null,
+          "color": null,
+          "evidence": {
+            "scale": {
+              "value": null,
+              "reason": "Only detection and counting were requested."
+            },
+            "color": {
+              "value": null,
+              "reason": "Only detection and counting were requested."
+            }
+          },
+          "inscriptions": {
+            "status": "not requested",
+            "candidates": [],
+            "capacity": null,
+            "apparent_volume": null
+          },
+          "liquid_appearance": null,
+          "fill_level": {
+            "status": "insufficient evidence",
+            "reason": "Only detection and counting were requested."
+          },
+          "origin": "model"
+        },
+        {
+          "id": "object-4",
+          "bbox": [
+            0.37738639376810845,
+            0.5431997783047933,
+            0.4594981616695985,
+            0.7503544098493139
+          ],
+          "score": 0.7399665183819227,
+          "detection_evidence": {},
+          "scale": null,
+          "color": null,
+          "evidence": {
+            "scale": {
+              "value": null,
+              "reason": "Only detection and counting were requested."
+            },
+            "color": {
+              "value": null,
+              "reason": "Only detection and counting were requested."
+            }
+          },
+          "inscriptions": {
+            "status": "not requested",
+            "candidates": [],
+            "capacity": null,
+            "apparent_volume": null
+          },
+          "liquid_appearance": null,
+          "fill_level": {
+            "status": "insufficient evidence",
+            "reason": "Only detection and counting were requested."
+          },
+          "origin": "model"
+        },
+        {
+          "id": "object-5",
+          "bbox": [
+            0.3434871850424255,
+            0.4483535164871799,
+            0.4296214526852235,
+            0.6426698393931173
+          ],
+          "score": 0.7395283086851608,
+          "detection_evidence": {},
+          "scale": null,
+          "color": null,
+          "evidence": {
+            "scale": {
+              "value": null,
+              "reason": "Only detection and counting were requested."
+            },
+            "color": {
+              "value": null,
+              "reason": "Only detection and counting were requested."
+            }
+          },
+          "inscriptions": {
+            "status": "not requested",
+            "candidates": [],
+            "capacity": null,
+            "apparent_volume": null
+          },
+          "liquid_appearance": null,
+          "fill_level": {
+            "status": "insufficient evidence",
+            "reason": "Only detection and counting were requested."
+          },
+          "origin": "model"
+        },
+        {
+          "id": "object-6",
+          "bbox": [
+            0.2972887253919185,
+            0.2553178900617091,
+            0.41997603864859273,
+            0.3287485716552016
+          ],
+          "score": 0.7380452164722355,
+          "detection_evidence": {},
+          "scale": null,
+          "color": null,
+          "evidence": {
+            "scale": {
+              "value": null,
+              "reason": "Only detection and counting were requested."
+            },
+            "color": {
+              "value": null,
+              "reason": "Only detection and counting were requested."
+            }
+          },
+          "inscriptions": {
+            "status": "not requested",
+            "candidates": [],
+            "capacity": null,
+            "apparent_volume": null
+          },
+          "liquid_appearance": null,
+          "fill_level": {
+            "status": "insufficient evidence",
+            "reason": "Only detection and counting were requested."
+          },
+          "origin": "model"
+        }
+      ],
+      "proposals": [
+        {
+          "bbox": [
+            0.340254140689673,
+            0.25436591765261735,
+            0.6508624146316225,
+            0.7580517549385668
+          ],
+          "score": 0.3102133480984389
+        },
+        {
+          "bbox": [
+            0.00302755848461429,
+            0.00418230896490051,
+            0.9960537335730546,
+            0.9949877168095203
+          ],
+          "score": 0.2995954985217296
+        },
+        {
+          "bbox": [
+            0.05708852098477597,
+            0.0017480698664655847,
+            0.08655965438741722,
+            0.9976861476898193
+          ],
+          "score": 0.28517392513404033
+        },
+        {
+          "bbox": [
+            0.0010705329724494984,
+            0.002614129635079454,
+            0.08741264090632761,
+            0.998037636315142
+          ],
+          "score": 0.26090172705190673
+        },
+        {
+          "bbox": [
+            0.035499032127936155,
+            0.0004524290737086987,
+            0.08717015752729201,
+            0.999560575614332
+          ],
+          "score": 0.23530898498264494
+        }
+      ],
+      "baseline": [
+        {
+          "id": "object-1",
+          "bbox": [
+            0.5093298501526283,
+            0.5674049777097742,
+            0.6451062739290149,
+            0.7565405690157814
+          ],
+          "score": 0.8083664039801013,
+          "detection_evidence": {},
+          "scale": null,
+          "color": null,
+          "evidence": {
+            "scale": {
+              "value": null,
+              "reason": "Outside development support or ambiguous",
+              "distance": 2.957787162593846,
+              "margin": 1.4635419354009014
+            },
+            "color": {
+              "value": null,
+              "reason": "Insufficient visible support"
+            }
+          },
+          "inscriptions": {
+            "status": "not requested",
+            "candidates": [],
+            "capacity": null,
+            "apparent_volume": null
+          },
+          "liquid_appearance": {
+            "status": "insufficient evidence",
+            "reason": "A colored liquid region could not be isolated.",
+            "lightness": null,
+            "opacity": null,
+            "opacity_reason": "A registered clear-barrel reference at the same exposure is required.",
+            "syringe_mask_score": 0.9873567819595337
+          },
+          "fill_level": {
+            "status": "insufficient evidence",
+            "reason": "Enable visible marking extraction to estimate fill."
+          },
+          "origin": "model"
+        },
+        {
+          "id": "object-2",
+          "bbox": [
+            0.5082918482900455,
+            0.25942132780311944,
+            0.6472234662794909,
+            0.4131360157859403
+          ],
+          "score": 0.7866217209651271,
+          "detection_evidence": {},
+          "scale": null,
+          "color": null,
+          "evidence": {
+            "scale": {
+              "value": null,
+              "reason": "Outside development support or ambiguous",
+              "distance": 2.6145931956507678,
+              "margin": 1.4344623019308385
+            },
+            "color": {
+              "value": null,
+              "reason": "Insufficient visible support"
+            }
+          },
+          "inscriptions": {
+            "status": "not requested",
+            "candidates": [],
+            "capacity": null,
+            "apparent_volume": null
+          },
+          "liquid_appearance": {
+            "status": "insufficient evidence",
+            "reason": "A colored liquid region could not be isolated.",
+            "lightness": null,
+            "opacity": null,
+            "opacity_reason": "A registered clear-barrel reference at the same exposure is required.",
+            "syringe_mask_score": 0.9877421855926514
+          },
+          "fill_level": {
+            "status": "insufficient evidence",
+            "reason": "Enable visible marking extraction to estimate fill."
+          },
+          "origin": "model"
+        },
+        {
+          "id": "object-3",
+          "bbox": [
+            0.4742410621895695,
+            0.3791883265431871,
+            0.5877121274834437,
+            0.5064716305432424
+          ],
+          "score": 0.7591301520729422,
+          "detection_evidence": {},
+          "scale": "60-scale",
+          "color": null,
+          "evidence": {
+            "scale": {
+              "value": "60-scale",
+              "distance": 2.419531724448779,
+              "margin": 1.3908335771587947,
+              "reason": "Experimental suggestion from the object crop"
+            },
+            "color": {
+              "value": null,
+              "reason": "Insufficient visible support"
+            }
+          },
+          "inscriptions": {
+            "status": "not requested",
+            "candidates": [],
+            "capacity": null,
+            "apparent_volume": null
+          },
+          "liquid_appearance": {
+            "status": "insufficient evidence",
+            "reason": "A colored liquid region could not be isolated.",
+            "lightness": null,
+            "opacity": null,
+            "opacity_reason": "A registered clear-barrel reference at the same exposure is required.",
+            "syringe_mask_score": 0.9886242151260376
+          },
+          "fill_level": {
+            "status": "insufficient evidence",
+            "reason": "Enable visible marking extraction to estimate fill."
+          },
+          "origin": "model"
+        },
+        {
+          "id": "object-4",
+          "bbox": [
+            0.377386474609375,
+            0.5432005686364222,
+            0.45949795956643213,
+            0.7503538709868397
+          ],
+          "score": 0.7398364468944869,
+          "detection_evidence": {},
+          "scale": null,
+          "color": null,
+          "evidence": {
+            "scale": {
+              "value": null,
+              "reason": "Outside development support or ambiguous",
+              "distance": 2.867171384528982,
+              "margin": 1.4545826904013053
+            },
+            "color": {
+              "value": null,
+              "reason": "Insufficient visible support"
+            }
+          },
+          "inscriptions": {
+            "status": "not requested",
+            "candidates": [],
+            "capacity": null,
+            "apparent_volume": null
+          },
+          "liquid_appearance": {
+            "status": "insufficient evidence",
+            "reason": "A colored liquid region could not be isolated.",
+            "lightness": null,
+            "opacity": null,
+            "opacity_reason": "A registered clear-barrel reference at the same exposure is required.",
+            "syringe_mask_score": 0.9561368823051453
+          },
+          "fill_level": {
+            "status": "insufficient evidence",
+            "reason": "Enable visible marking extraction to estimate fill."
+          },
+          "origin": "model"
+        },
+        {
+          "id": "object-5",
+          "bbox": [
+            0.34348726588369205,
+            0.4483538398046645,
+            0.4296212910026904,
+            0.6426701627106018
+          ],
+          "score": 0.7395334044312174,
+          "detection_evidence": {},
+          "scale": null,
+          "color": null,
+          "evidence": {
+            "scale": {
+              "value": null,
+              "reason": "Outside development support or ambiguous",
+              "distance": 3.3670856264230276,
+              "margin": 1.4058378030015586
+            },
+            "color": {
+              "value": null,
+              "reason": "Insufficient visible support"
+            }
+          },
+          "inscriptions": {
+            "status": "not requested",
+            "candidates": [],
+            "capacity": null,
+            "apparent_volume": null
+          },
+          "liquid_appearance": {
+            "status": "insufficient evidence",
+            "reason": "A colored liquid region could not be isolated.",
+            "lightness": null,
+            "opacity": null,
+            "opacity_reason": "A registered clear-barrel reference at the same exposure is required.",
+            "syringe_mask_score": 0.982360303401947
+          },
+          "fill_level": {
+            "status": "insufficient evidence",
+            "reason": "Enable visible marking extraction to estimate fill."
+          },
+          "origin": "model"
+        },
+        {
+          "id": "object-6",
+          "bbox": [
+            0.2972886849712852,
+            0.2553178900617091,
+            0.419976079069226,
+            0.3287485716552016
+          ],
+          "score": 0.7380449270633764,
+          "detection_evidence": {},
+          "scale": null,
+          "color": null,
+          "evidence": {
+            "scale": {
+              "value": null,
+              "reason": "Outside development support or ambiguous",
+              "distance": 2.607525352978331,
+              "margin": 0.907649466900442
+            },
+            "color": {
+              "value": null,
+              "reason": "Insufficient visible support"
+            }
+          },
+          "inscriptions": {
+            "status": "not requested",
+            "candidates": [],
+            "capacity": null,
+            "apparent_volume": null
+          },
+          "liquid_appearance": {
+            "status": "insufficient evidence",
+            "reason": "A colored liquid region could not be isolated.",
+            "lightness": null,
+            "opacity": null,
+            "opacity_reason": "A registered clear-barrel reference at the same exposure is required.",
+            "syringe_mask_score": 0.9593509435653687
+          },
+          "fill_level": {
+            "status": "insufficient evidence",
+            "reason": "Enable visible marking extraction to estimate fill."
+          },
+          "origin": "model"
+        }
+      ],
+      "health": {
+        "status": "available",
+        "primary_backend": "xpu",
+        "unavailable": [],
+        "review_needed": false
+      },
+      "time": 6.659350720001385
+    },
+    "jr20FHtsKJzKzcGrzaW6": {
+      "actual": [
+        {
+          "id": "object-1",
+          "bbox": [
+            0.21145365127664528,
+            0.6452613727284432,
+            0.2862810551725476,
+            0.7995473986306283
+          ],
+          "score": 0.7344018128283767,
+          "detection_evidence": {},
+          "scale": null,
+          "color": null,
+          "evidence": {
+            "scale": {
+              "value": null,
+              "reason": "Only detection and counting were requested."
+            },
+            "color": {
+              "value": null,
+              "reason": "Only detection and counting were requested."
+            }
+          },
+          "inscriptions": {
+            "status": "not requested",
+            "candidates": [],
+            "capacity": null,
+            "apparent_volume": null
+          },
+          "liquid_appearance": null,
+          "fill_level": {
+            "status": "insufficient evidence",
+            "reason": "Only detection and counting were requested."
+          },
+          "origin": "model"
+        },
+        {
+          "id": "object-2",
+          "bbox": [
+            0.4687120854459851,
+            0.43231057475215195,
+            0.5635464093543047,
+            0.6829688132265304
+          ],
+          "score": 0.7287920155272787,
+          "detection_evidence": {},
+          "scale": null,
+          "color": null,
+          "evidence": {
+            "scale": {
+              "value": null,
+              "reason": "Only detection and counting were requested."
+            },
+            "color": {
+              "value": null,
+              "reason": "Only detection and counting were requested."
+            }
+          },
+          "inscriptions": {
+            "status": "not requested",
+            "candidates": [],
+            "capacity": null,
+            "apparent_volume": null
+          },
+          "liquid_appearance": null,
+          "fill_level": {
+            "status": "insufficient evidence",
+            "reason": "Only detection and counting were requested."
+          },
+          "origin": "model"
+        },
+        {
+          "id": "object-3",
+          "bbox": [
+            0.35577105591628727,
+            0.4321046574386588,
+            0.39740891614497104,
+            0.656228481425195
+          ],
+          "score": 0.7239643779166826,
+          "detection_evidence": {},
+          "scale": null,
+          "color": null,
+          "evidence": {
+            "scale": {
+              "value": null,
+              "reason": "Only detection and counting were requested."
+            },
+            "color": {
+              "value": null,
+              "reason": "Only detection and counting were requested."
+            }
+          },
+          "inscriptions": {
+            "status": "not requested",
+            "candidates": [],
+            "capacity": null,
+            "apparent_volume": null
+          },
+          "liquid_appearance": null,
+          "fill_level": {
+            "status": "insufficient evidence",
+            "reason": "Only detection and counting were requested."
+          },
+          "origin": "model"
+        },
+        {
+          "id": "object-4",
+          "bbox": [
+            0.17945069571994,
+            0.45266854756014563,
+            0.2623449868713783,
+            0.707971924259215
+          ],
+          "score": 0.7151486182650624,
+          "detection_evidence": {},
+          "scale": null,
+          "color": null,
+          "evidence": {
+            "scale": {
+              "value": null,
+              "reason": "Only detection and counting were requested."
+            },
+            "color": {
+              "value": null,
+              "reason": "Only detection and counting were requested."
+            }
+          },
+          "inscriptions": {
+            "status": "not requested",
+            "candidates": [],
+            "capacity": null,
+            "apparent_volume": null
+          },
+          "liquid_appearance": null,
+          "fill_level": {
+            "status": "insufficient evidence",
+            "reason": "Only detection and counting were requested."
+          },
+          "origin": "model"
+        },
+        {
+          "id": "object-5",
+          "bbox": [
+            0.43426663228218126,
+            0.34611603735193497,
+            0.5179217408034975,
+            0.547719433421314
+          ],
+          "score": 0.7149594797034072,
+          "detection_evidence": {},
+          "scale": null,
+          "color": null,
+          "evidence": {
+            "scale": {
+              "value": null,
+              "reason": "Only detection and counting were requested."
+            },
+            "color": {
+              "value": null,
+              "reason": "Only detection and counting were requested."
+            }
+          },
+          "inscriptions": {
+            "status": "not requested",
+            "candidates": [],
+            "capacity": null,
+            "apparent_volume": null
+          },
+          "liquid_appearance": null,
+          "fill_level": {
+            "status": "insufficient evidence",
+            "reason": "Only detection and counting were requested."
+          },
+          "origin": "model"
+        },
+        {
+          "id": "object-6",
+          "bbox": [
+            0.2598311064259106,
+            0.4221245651739074,
+            0.3497950269686465,
+            0.605893804719688
+          ],
+          "score": 0.7006212960255422,
+          "detection_evidence": {},
+          "scale": null,
+          "color": null,
+          "evidence": {
+            "scale": {
+              "value": null,
+              "reason": "Only detection and counting were requested."
+            },
+            "color": {
+              "value": null,
+              "reason": "Only detection and counting were requested."
+            }
+          },
+          "inscriptions": {
+            "status": "not requested",
+            "candidates": [],
+            "capacity": null,
+            "apparent_volume": null
+          },
+          "liquid_appearance": null,
+          "fill_level": {
+            "status": "insufficient evidence",
+            "reason": "Only detection and counting were requested."
+          },
+          "origin": "model"
+        }
+      ],
+      "proposals": [
+        {
+          "bbox": [
+            0.1786251851265004,
+            0.3399120777617348,
+            0.5643647250750207,
+            0.7936870896023396
+          ],
+          "score": 0.30906850504820904
+        },
+        {
+          "bbox": [
+            0.0034046469934728763,
+            0.004310637659855349,
+            0.996134736522144,
+            0.995679400681467
+          ],
+          "score": 0.29387685967147664
+        },
+        {
+          "bbox": [
+            0.0572375518596725,
+            0.0019024000790905937,
+            0.08583414444070778,
+            0.9976394772880424
+          ],
+          "score": 0.2841384716015649
+        },
+        {
+          "bbox": [
+            0.07389764343665925,
+            0.3381349811699897,
+            0.5668208040149006,
+            0.9896291246689229
+          ],
+          "score": 0.2824547537111503
+        },
+        {
+          "bbox": [
+            0.07397040057655992,
+            0.6470791713990767,
+            0.28690824192880793,
+            0.9984259754156211
+          ],
+          "score": 0.2315559876528524
+        }
+      ],
+      "baseline": [
+        {
+          "id": "object-1",
+          "bbox": [
+            0.21145292370524627,
+            0.6452627378467113,
+            0.2862813179066639,
+            0.7995469675406489
+          ],
+          "score": 0.7344745429997581,
+          "detection_evidence": {},
+          "scale": null,
+          "color": null,
+          "evidence": {
+            "scale": {
+              "value": null,
+              "reason": "Outside development support or ambiguous",
+              "distance": 3.3387825074113433,
+              "margin": 1.3703460362810036
+            },
+            "color": {
+              "value": null,
+              "reason": "Insufficient visible support"
+            }
+          },
+          "inscriptions": {
+            "status": "not requested",
+            "candidates": [],
+            "capacity": null,
+            "apparent_volume": null
+          },
+          "liquid_appearance": {
+            "status": "insufficient evidence",
+            "reason": "A colored liquid region could not be isolated.",
+            "lightness": null,
+            "opacity": null,
+            "opacity_reason": "A registered clear-barrel reference at the same exposure is required.",
+            "syringe_mask_score": 0.9428735375404358
+          },
+          "fill_level": {
+            "status": "insufficient evidence",
+            "reason": "Enable visible marking extraction to estimate fill."
+          },
+          "origin": "model"
+        },
+        {
+          "id": "object-2",
+          "bbox": [
+            0.4687120854459851,
+            0.43231057475215195,
+            0.5635464093543047,
+            0.6829688132265304
+          ],
+          "score": 0.7287920155272787,
+          "detection_evidence": {},
+          "scale": "60-scale",
+          "color": null,
+          "evidence": {
+            "scale": {
+              "value": "60-scale",
+              "distance": 2.3502372794829447,
+              "margin": 1.3608860548777488,
+              "reason": "Experimental suggestion from the object crop"
+            },
+            "color": {
+              "value": null,
+              "reason": "Insufficient visible support"
+            }
+          },
+          "inscriptions": {
+            "status": "not requested",
+            "candidates": [],
+            "capacity": null,
+            "apparent_volume": null
+          },
+          "liquid_appearance": {
+            "status": "insufficient evidence",
+            "reason": "A colored liquid region could not be isolated.",
+            "lightness": null,
+            "opacity": null,
+            "opacity_reason": "A registered clear-barrel reference at the same exposure is required.",
+            "syringe_mask_score": 0.987214982509613
+          },
+          "fill_level": {
+            "status": "insufficient evidence",
+            "reason": "Enable visible marking extraction to estimate fill."
+          },
+          "origin": "model"
+        },
+        {
+          "id": "object-3",
+          "bbox": [
+            0.3557711367575538,
+            0.4321046574386588,
+            0.3974089565656043,
+            0.656228481425195
+          ],
+          "score": 0.7239638493921351,
+          "detection_evidence": {},
+          "scale": null,
+          "color": null,
+          "evidence": {
+            "scale": {
+              "value": null,
+              "reason": "Outside development support or ambiguous",
+              "distance": 3.4653656366296066,
+              "margin": 0.3921076021721488
+            },
+            "color": {
+              "value": null,
+              "reason": "Insufficient visible support"
+            }
+          },
+          "inscriptions": {
+            "status": "not requested",
+            "candidates": [],
+            "capacity": null,
+            "apparent_volume": null
+          },
+          "liquid_appearance": {
+            "status": "insufficient evidence",
+            "reason": "A colored liquid region could not be isolated.",
+            "lightness": null,
+            "opacity": null,
+            "opacity_reason": "A registered clear-barrel reference at the same exposure is required.",
+            "syringe_mask_score": 0.9789630770683289
+          },
+          "fill_level": {
+            "status": "insufficient evidence",
+            "reason": "Enable visible marking extraction to estimate fill."
+          },
+          "origin": "model"
+        },
+        {
+          "id": "object-4",
+          "bbox": [
+            0.17945069571994,
+            0.45266854756014563,
+            0.2623449868713783,
+            0.707971924259215
+          ],
+          "score": 0.7151483454655342,
+          "detection_evidence": {},
+          "scale": null,
+          "color": null,
+          "evidence": {
+            "scale": {
+              "value": null,
+              "reason": "Outside development support or ambiguous",
+              "distance": 2.8646335537136394,
+              "margin": 0.9062735752717579
+            },
+            "color": {
+              "value": null,
+              "reason": "Insufficient visible support"
+            }
+          },
+          "inscriptions": {
+            "status": "not requested",
+            "candidates": [],
+            "capacity": null,
+            "apparent_volume": null
+          },
+          "liquid_appearance": {
+            "status": "insufficient evidence",
+            "reason": "A colored liquid region could not be isolated.",
+            "lightness": null,
+            "opacity": null,
+            "opacity_reason": "A registered clear-barrel reference at the same exposure is required.",
+            "syringe_mask_score": 0.927975058555603
+          },
+          "fill_level": {
+            "status": "insufficient evidence",
+            "reason": "Enable visible marking extraction to estimate fill."
+          },
+          "origin": "model"
+        },
+        {
+          "id": "object-5",
+          "bbox": [
+            0.43426663228218126,
+            0.34611603735193497,
+            0.5179217408034975,
+            0.547719433421314
+          ],
+          "score": 0.714959235096558,
+          "detection_evidence": {},
+          "scale": null,
+          "color": null,
+          "evidence": {
+            "scale": {
+              "value": null,
+              "reason": "Outside development support or ambiguous",
+              "distance": 2.8475269365161413,
+              "margin": 1.4013035846996331
+            },
+            "color": {
+              "value": null,
+              "reason": "Insufficient visible support"
+            }
+          },
+          "inscriptions": {
+            "status": "not requested",
+            "candidates": [],
+            "capacity": null,
+            "apparent_volume": null
+          },
+          "liquid_appearance": {
+            "status": "insufficient evidence",
+            "reason": "A colored liquid region could not be isolated.",
+            "lightness": null,
+            "opacity": null,
+            "opacity_reason": "A registered clear-barrel reference at the same exposure is required.",
+            "syringe_mask_score": 0.9748139381408691
+          },
+          "fill_level": {
+            "status": "insufficient evidence",
+            "reason": "Enable visible marking extraction to estimate fill."
+          },
+          "origin": "model"
+        },
+        {
+          "id": "object-6",
+          "bbox": [
+            0.25983112663622726,
+            0.4221245651739074,
+            0.3497950269686465,
+            0.605893804719688
+          ],
+          "score": 0.7006211525862829,
+          "detection_evidence": {},
+          "scale": null,
+          "color": null,
+          "evidence": {
+            "scale": {
+              "value": null,
+              "reason": "Outside development support or ambiguous",
+              "distance": 3.5526394815687174,
+              "margin": 1.3199235368398297
+            },
+            "color": {
+              "value": null,
+              "reason": "Insufficient visible support"
+            }
+          },
+          "inscriptions": {
+            "status": "not requested",
+            "candidates": [],
+            "capacity": null,
+            "apparent_volume": null
+          },
+          "liquid_appearance": {
+            "status": "insufficient evidence",
+            "reason": "A colored liquid region could not be isolated.",
+            "lightness": null,
+            "opacity": null,
+            "opacity_reason": "A registered clear-barrel reference at the same exposure is required.",
+            "syringe_mask_score": 0.9806545972824097
+          },
+          "fill_level": {
+            "status": "insufficient evidence",
+            "reason": "Enable visible marking extraction to estimate fill."
+          },
+          "origin": "model"
+        }
+      ],
+      "health": {
+        "status": "available",
+        "primary_backend": "xpu",
+        "unavailable": [],
+        "review_needed": false
+      },
+      "time": 7.018061296999804
+    },
+    "CrJcZCeB4ZWH4gQXgTe0": {
+      "actual": [
+        {
+          "id": "object-1",
+          "bbox": [
+            0.4455667053626863,
+            0.5249279217554443,
+            0.5492073109607822,
+            0.6934422161243746
+          ],
+          "score": 0.8095343403067755,
+          "detection_evidence": {},
+          "scale": null,
+          "color": null,
+          "evidence": {
+            "scale": {
+              "value": null,
+              "reason": "Only detection and counting were requested."
+            },
+            "color": {
+              "value": null,
+              "reason": "Only detection and counting were requested."
+            }
+          },
+          "inscriptions": {
+            "status": "not requested",
+            "candidates": [],
+            "capacity": null,
+            "apparent_volume": null
+          },
+          "liquid_appearance": null,
+          "fill_level": {
+            "status": "insufficient evidence",
+            "reason": "Only detection and counting were requested."
+          },
+          "origin": "model"
+        },
+        {
+          "id": "object-2",
+          "bbox": [
+            0.35809023017125413,
+            0.030235070491833382,
+            0.45661645346129964,
+            0.20889176250275898
+          ],
+          "score": 0.7803375744525737,
+          "detection_evidence": {},
+          "scale": null,
+          "color": null,
+          "evidence": {
+            "scale": {
+              "value": null,
+              "reason": "Only detection and counting were requested."
+            },
+            "color": {
+              "value": null,
+              "reason": "Only detection and counting were requested."
+            }
+          },
+          "inscriptions": {
+            "status": "not requested",
+            "candidates": [],
+            "capacity": null,
+            "apparent_volume": null
+          },
+          "liquid_appearance": null,
+          "fill_level": {
+            "status": "insufficient evidence",
+            "reason": "Only detection and counting were requested."
+          },
+          "origin": "model"
+        },
+        {
+          "id": "object-3",
+          "bbox": [
+            0.23745638613669287,
+            0.5765060775065296,
+            0.3715711176790149,
+            0.6828848225288773
+          ],
+          "score": 0.7463473594697108,
+          "detection_evidence": {},
+          "scale": null,
+          "color": null,
+          "evidence": {
+            "scale": {
+              "value": null,
+              "reason": "Only detection and counting were requested."
+            },
+            "color": {
+              "value": null,
+              "reason": "Only detection and counting were requested."
+            }
+          },
+          "inscriptions": {
+            "status": "not requested",
+            "candidates": [],
+            "capacity": null,
+            "apparent_volume": null
+          },
+          "liquid_appearance": null,
+          "fill_level": {
+            "status": "insufficient evidence",
+            "reason": "Only detection and counting were requested."
+          },
+          "origin": "model"
+        },
+        {
+          "id": "object-4",
+          "bbox": [
+            0.24576114881907077,
+            0.4028971617610543,
+            0.3851227817156457,
+            0.5180779019827839
+          ],
+          "score": 0.7373132155215548,
+          "detection_evidence": {},
+          "scale": null,
+          "color": null,
+          "evidence": {
+            "scale": {
+              "value": null,
+              "reason": "Only detection and counting were requested."
+            },
+            "color": {
+              "value": null,
+              "reason": "Only detection and counting were requested."
+            }
+          },
+          "inscriptions": {
+            "status": "not requested",
+            "candidates": [],
+            "capacity": null,
+            "apparent_volume": null
+          },
+          "liquid_appearance": null,
+          "fill_level": {
+            "status": "insufficient evidence",
+            "reason": "Only detection and counting were requested."
+          },
+          "origin": "model"
+        },
+        {
+          "id": "object-5",
+          "bbox": [
+            0.2789952764447951,
+            0.2993131730751545,
+            0.396135747037976,
+            0.3752919197643835
+          ],
+          "score": 0.7212722596302038,
+          "detection_evidence": {},
+          "scale": null,
+          "color": null,
+          "evidence": {
+            "scale": {
+              "value": null,
+              "reason": "Only detection and counting were requested."
+            },
+            "color": {
+              "value": null,
+              "reason": "Only detection and counting were requested."
+            }
+          },
+          "inscriptions": {
+            "status": "not requested",
+            "candidates": [],
+            "capacity": null,
+            "apparent_volume": null
+          },
+          "liquid_appearance": null,
+          "fill_level": {
+            "status": "insufficient evidence",
+            "reason": "Only detection and counting were requested."
+          },
+          "origin": "model"
+        }
+      ],
+      "proposals": [
+        {
+          "bbox": [
+            0.1840853457419288,
+            0.3245430733611684,
+            0.23498868626474545,
+            0.44741923672932604
+          ],
+          "score": 0.5042892160235944
+        },
+        {
+          "bbox": [
+            0.17772821085342508,
+            0.32358813720846824,
+            0.23261177113514073,
+            0.524384604684741
+          ],
+          "score": 0.38156012213395263
+        },
+        {
+          "bbox": [
+            0.05753731127606322,
+            0.32312891860791276,
+            0.23333162219319123,
+            0.9951513873050324
+          ],
+          "score": 0.3368335240970166
+        },
+        {
+          "bbox": [
+            0.0011749044159390278,
+            0.003869176261771634,
+            0.22408334087851822,
+            0.9923315940708747
+          ],
+          "score": 0.32718426494971425
+        },
+        {
+          "bbox": [
+            0.13541519468193813,
+            0.3236027224194379,
+            0.23754343197045738,
+            0.5254801480190553
+          ],
+          "score": 0.3158881785685393
+        }
+      ],
+      "baseline": [
+        {
+          "id": "object-1",
+          "bbox": [
+            0.4455667053626863,
+            0.5249279217554443,
+            0.5492073109607822,
+            0.6934422161243746
+          ],
+          "score": 0.8095346873867013,
+          "detection_evidence": {},
+          "scale": null,
+          "color": null,
+          "evidence": {
+            "scale": {
+              "value": null,
+              "reason": "Outside development support or ambiguous",
+              "distance": 3.784908821458581,
+              "margin": 1.3927373422223654
+            },
+            "color": {
+              "value": null,
+              "reason": "Insufficient visible support"
+            }
+          },
+          "inscriptions": {
+            "status": "not requested",
+            "candidates": [],
+            "capacity": null,
+            "apparent_volume": null
+          },
+          "liquid_appearance": {
+            "status": "insufficient evidence",
+            "reason": "A colored liquid region could not be isolated.",
+            "lightness": null,
+            "opacity": null,
+            "opacity_reason": "A registered clear-barrel reference at the same exposure is required.",
+            "syringe_mask_score": 0.9527754187583923
+          },
+          "fill_level": {
+            "status": "insufficient evidence",
+            "reason": "Enable visible marking extraction to estimate fill."
+          },
+          "origin": "model"
+        },
+        {
+          "id": "object-2",
+          "bbox": [
+            0.35809023017125413,
+            0.03023499864350354,
+            0.45661645346129964,
+            0.20889183435108882
+          ],
+          "score": 0.7803374866420127,
+          "detection_evidence": {},
+          "scale": null,
+          "color": null,
+          "evidence": {
+            "scale": {
+              "value": null,
+              "reason": "Outside development support or ambiguous",
+              "distance": 4.441819958059266,
+              "margin": 1.360664190006898
+            },
+            "color": {
+              "value": null,
+              "reason": "Insufficient visible support"
+            }
+          },
+          "inscriptions": {
+            "status": "not requested",
+            "candidates": [],
+            "capacity": null,
+            "apparent_volume": null
+          },
+          "liquid_appearance": {
+            "status": "insufficient evidence",
+            "reason": "A colored liquid region could not be isolated.",
+            "lightness": null,
+            "opacity": null,
+            "opacity_reason": "A registered clear-barrel reference at the same exposure is required.",
+            "syringe_mask_score": 0.9883416891098022
+          },
+          "fill_level": {
+            "status": "insufficient evidence",
+            "reason": "Enable visible marking extraction to estimate fill."
+          },
+          "origin": "model"
+        },
+        {
+          "id": "object-3",
+          "bbox": [
+            0.23745638613669287,
+            0.5765060775065296,
+            0.3715711176790149,
+            0.6828848225288773
+          ],
+          "score": 0.7463470985248951,
+          "detection_evidence": {},
+          "scale": "60-scale",
+          "color": null,
+          "evidence": {
+            "scale": {
+              "value": "60-scale",
+              "distance": 2.3578416831605695,
+              "margin": 0.9822658992269275,
+              "reason": "Experimental suggestion from the object crop"
+            },
+            "color": {
+              "value": null,
+              "reason": "Insufficient visible support"
+            }
+          },
+          "inscriptions": {
+            "status": "not requested",
+            "candidates": [],
+            "capacity": null,
+            "apparent_volume": null
+          },
+          "liquid_appearance": {
+            "status": "insufficient evidence",
+            "reason": "A colored liquid region could not be isolated.",
+            "lightness": null,
+            "opacity": null,
+            "opacity_reason": "A registered clear-barrel reference at the same exposure is required.",
+            "syringe_mask_score": 0.9843752384185791
+          },
+          "fill_level": {
+            "status": "insufficient evidence",
+            "reason": "Enable visible marking extraction to estimate fill."
+          },
+          "origin": "model"
+        },
+        {
+          "id": "object-4",
+          "bbox": [
+            0.2457611690293874,
+            0.4028971617610543,
+            0.3851227817156457,
+            0.5180779019827839
+          ],
+          "score": 0.7373126586544062,
+          "detection_evidence": {},
+          "scale": "60-scale",
+          "color": null,
+          "evidence": {
+            "scale": {
+              "value": "60-scale",
+              "distance": 2.220750482005831,
+              "margin": 1.3460209824611482,
+              "reason": "Experimental suggestion from the object crop"
+            },
+            "color": {
+              "value": null,
+              "reason": "Insufficient visible support"
+            }
+          },
+          "inscriptions": {
+            "status": "not requested",
+            "candidates": [],
+            "capacity": null,
+            "apparent_volume": null
+          },
+          "liquid_appearance": {
+            "status": "insufficient evidence",
+            "reason": "A colored liquid region could not be isolated.",
+            "lightness": null,
+            "opacity": null,
+            "opacity_reason": "A registered clear-barrel reference at the same exposure is required.",
+            "syringe_mask_score": 0.9861398339271545
+          },
+          "fill_level": {
+            "status": "insufficient evidence",
+            "reason": "Enable visible marking extraction to estimate fill."
+          },
+          "origin": "model"
+        },
+        {
+          "id": "object-5",
+          "bbox": [
+            0.2789952764447951,
+            0.2993131730751545,
+            0.396135747037976,
+            0.3752919197643835
+          ],
+          "score": 0.7212725203155907,
+          "detection_evidence": {},
+          "scale": "60-scale",
+          "color": null,
+          "evidence": {
+            "scale": {
+              "value": "60-scale",
+              "distance": 2.3243524601065375,
+              "margin": 1.060944364487857,
+              "reason": "Experimental suggestion from the object crop"
+            },
+            "color": {
+              "value": null,
+              "reason": "Insufficient visible support"
+            }
+          },
+          "inscriptions": {
+            "status": "not requested",
+            "candidates": [],
+            "capacity": null,
+            "apparent_volume": null
+          },
+          "liquid_appearance": {
+            "status": "insufficient evidence",
+            "reason": "A colored liquid region could not be isolated.",
+            "lightness": null,
+            "opacity": null,
+            "opacity_reason": "A registered clear-barrel reference at the same exposure is required.",
+            "syringe_mask_score": 0.9705578088760376
+          },
+          "fill_level": {
+            "status": "insufficient evidence",
+            "reason": "Enable visible marking extraction to estimate fill."
+          },
+          "origin": "model"
+        }
+      ],
+      "health": {
+        "status": "available",
+        "primary_backend": "xpu",
+        "unavailable": [],
+        "review_needed": false
+      },
+      "time": 7.5571037479967345
+    },
+    "o9AYkyLGkkJAojPxdift": {
+      "actual": [
+        {
+          "id": "object-1",
+          "bbox": [
+            0.4766380027488426,
+            0.46375354131062824,
+            0.5596748069480614,
+            0.6005681991577149
+          ],
+          "score": 0.8574771609565364,
+          "detection_evidence": {},
+          "scale": null,
+          "color": null,
+          "evidence": {
+            "scale": {
+              "value": null,
+              "reason": "Only detection and counting were requested."
+            },
+            "color": {
+              "value": null,
+              "reason": "Only detection and counting were requested."
+            }
+          },
+          "inscriptions": {
+            "status": "not requested",
+            "candidates": [],
+            "capacity": null,
+            "apparent_volume": null
+          },
+          "liquid_appearance": null,
+          "fill_level": {
+            "status": "insufficient evidence",
+            "reason": "Only detection and counting were requested."
+          },
+          "origin": "model"
+        }
+      ],
+      "proposals": [
+        {
+          "bbox": [
+            0.004185140132904053,
+            0.07495390574137373,
+            0.9853630913628473,
+            0.8333979606628418
+          ],
+          "score": 0.3723660210372981
+        },
+        {
+          "bbox": [
+            0.0025100111961364746,
+            0.0014474838972091675,
+            0.9983305754484953,
+            0.35098117192586265
+          ],
+          "score": 0.27486399083179514
+        },
+        {
+          "bbox": [
+            0.0017040222883224487,
+            0.19446671803792315,
+            0.303546142578125,
+            0.7228134473164876
+          ],
+          "score": 0.24825792729298937
+        },
+        {
+          "bbox": [
+            0.9459247730396412,
+            0.0004446655511856079,
+            1.0,
+            0.3711392402648926
+          ],
+          "score": 0.14010065850649459
+        },
+        {
+          "bbox": [
+            0.9037021213107639,
+            0.0003810077905654907,
+            0.9997542769820602,
+            0.3708875020345052
+          ],
+          "score": 0.1346977628047014
+        }
+      ],
+      "baseline": [
+        {
+          "id": "object-1",
+          "bbox": [
+            0.4766380027488426,
+            0.46375350952148436,
+            0.5596748069480614,
+            0.6005682627360026
+          ],
+          "score": 0.8574771698753301,
+          "detection_evidence": {},
+          "scale": "60-scale",
+          "color": null,
+          "evidence": {
+            "scale": {
+              "value": "60-scale",
+              "distance": 2.1100682667699595,
+              "margin": 1.2055480022510756,
+              "reason": "Experimental suggestion from the object crop"
+            },
+            "color": {
+              "value": null,
+              "reason": "Insufficient visible support"
+            }
+          },
+          "inscriptions": {
+            "status": "not requested",
+            "candidates": [],
+            "capacity": null,
+            "apparent_volume": null
+          },
+          "liquid_appearance": {
+            "status": "insufficient evidence",
+            "reason": "A colored liquid region could not be isolated.",
+            "lightness": null,
+            "opacity": null,
+            "opacity_reason": "A registered clear-barrel reference at the same exposure is required.",
+            "syringe_mask_score": 0.878594160079956
+          },
+          "fill_level": {
+            "status": "insufficient evidence",
+            "reason": "Enable visible marking extraction to estimate fill."
+          },
+          "origin": "model"
+        }
+      ],
+      "health": {
+        "status": "available",
+        "primary_backend": "xpu",
+        "unavailable": [],
+        "review_needed": false
+      },
+      "time": 3.6311255890032044
+    },
+    "FZF2KIrTmT8m7knJ9kE6": {
+      "actual": [
+        {
+          "id": "object-1",
+          "bbox": [
+            0.3460389879014757,
+            0.27216854095458987,
+            0.75741616708261,
+            0.7699881553649902
+          ],
+          "score": 0.9406114684693857,
+          "detection_evidence": {},
+          "scale": null,
+          "color": null,
+          "evidence": {
+            "scale": {
+              "value": null,
+              "reason": "Only detection and counting were requested."
+            },
+            "color": {
+              "value": null,
+              "reason": "Only detection and counting were requested."
+            }
+          },
+          "inscriptions": {
+            "status": "not requested",
+            "candidates": [],
+            "capacity": null,
+            "apparent_volume": null
+          },
+          "liquid_appearance": null,
+          "fill_level": {
+            "status": "insufficient evidence",
+            "reason": "Only detection and counting were requested."
+          },
+          "origin": "model"
+        }
+      ],
+      "proposals": [
+        {
+          "bbox": [
+            0.23930915549949364,
+            0.21406493186950684,
+            0.8579315185546875,
+            0.8616228103637695
+          ],
+          "score": 0.18064515564741443
+        },
+        {
+          "bbox": [
+            0.3717875162760417,
+            0.33776079813639326,
+            0.6838910703305845,
+            0.7214580535888672
+          ],
+          "score": 0.10145252959153968
+        },
+        {
+          "bbox": [
+            0.49969872368706597,
+            0.27090047200520834,
+            0.7550933837890625,
+            0.3999325752258301
+          ],
+          "score": 0.1001600688146417
+        },
+        {
+          "bbox": [
+            0.5006701434100116,
+            0.33271659215291344,
+            0.7558681346752025,
+            0.39871441523234047
+          ],
+          "score": 0.08432165224039863
+        },
+        {
+          "bbox": [
+            0.48994050202546297,
+            0.26952104568481444,
+            0.7590293601707175,
+            0.4854803721110026
+          ],
+          "score": 0.07822555907444968
+        }
+      ],
+      "baseline": [
+        {
+          "id": "object-1",
+          "bbox": [
+            0.34603828147605614,
+            0.27216854095458987,
+            0.7574173538773148,
+            0.7699885686238607
+          ],
+          "score": 0.9406171707826666,
+          "detection_evidence": {},
+          "scale": null,
+          "color": null,
+          "evidence": {
+            "scale": {
+              "value": null,
+              "reason": "Outside development support or ambiguous",
+              "distance": 3.3033191834358853,
+              "margin": 0.5503110906875937
+            },
+            "color": {
+              "value": null,
+              "reason": "Insufficient visible support"
+            }
+          },
+          "inscriptions": {
+            "status": "not requested",
+            "candidates": [],
+            "capacity": null,
+            "apparent_volume": null
+          },
+          "liquid_appearance": {
+            "status": "insufficient evidence",
+            "reason": "A colored liquid region could not be isolated.",
+            "lightness": null,
+            "opacity": null,
+            "opacity_reason": "A registered clear-barrel reference at the same exposure is required.",
+            "syringe_mask_score": 0.9837502241134644
+          },
+          "fill_level": {
+            "status": "insufficient evidence",
+            "reason": "Enable visible marking extraction to estimate fill."
+          },
+          "origin": "model"
+        }
+      ],
+      "health": {
+        "status": "available",
+        "primary_backend": "xpu",
+        "unavailable": [],
+        "review_needed": false
+      },
+      "time": 1.9702621979959076
+    },
+    "g3F5OKZHw8L86xNEcMxy": {
+      "actual": [
+        {
+          "id": "object-1",
+          "bbox": [
+            0.2425684893572772,
+            0.4160635630289714,
+            0.3402460168909143,
+            0.6052755037943522
+          ],
+          "score": 0.855938592477217,
+          "detection_evidence": {},
+          "scale": null,
+          "color": null,
+          "evidence": {
+            "scale": {
+              "value": null,
+              "reason": "Only detection and counting were requested."
+            },
+            "color": {
+              "value": null,
+              "reason": "Only detection and counting were requested."
+            }
+          },
+          "inscriptions": {
+            "status": "not requested",
+            "candidates": [],
+            "capacity": null,
+            "apparent_volume": null
+          },
+          "liquid_appearance": null,
+          "fill_level": {
+            "status": "insufficient evidence",
+            "reason": "Only detection and counting were requested."
+          },
+          "origin": "model"
+        }
+      ],
+      "proposals": [
+        {
+          "bbox": [
+            0.0025738775730133057,
+            0.29544423421223953,
+            0.6083180745442708,
+            0.7632587114969889
+          ],
+          "score": 0.308932771173235
+        },
+        {
+          "bbox": [
+            0.0026037096977233887,
+            0.28082593282063806,
+            0.9929470486111112,
+            0.8742252588272095
+          ],
+          "score": 0.21970113514462233
+        },
+        {
+          "bbox": [
+            0.24809067337601273,
+            0.5284607887268067,
+            0.30071151168258103,
+            0.6024519602457682
+          ],
+          "score": 0.17719421524102769
+        },
+        {
+          "bbox": [
+            0.27508737069589123,
+            0.41496817270914715,
+            0.3350663644296152,
+            0.5227445920308431
+          ],
+          "score": 0.1754178824209487
+        },
+        {
+          "bbox": [
+            0.1860121974238643,
+            0.38632659912109374,
+            0.4102399472837095,
+            0.6540664037068685
+          ],
+          "score": 0.12086299718559923
+        }
+      ],
+      "baseline": [
+        {
+          "id": "object-1",
+          "bbox": [
+            0.2425684893572772,
+            0.4160635630289714,
+            0.3402460168909143,
+            0.6052755037943522
+          ],
+          "score": 0.8559386715109818,
+          "detection_evidence": {},
+          "scale": null,
+          "color": null,
+          "evidence": {
+            "scale": {
+              "value": null,
+              "reason": "Outside development support or ambiguous",
+              "distance": 4.99417950753678,
+              "margin": 1.1619032274216767
+            },
+            "color": {
+              "value": null,
+              "reason": "Insufficient visible support"
+            }
+          },
+          "inscriptions": {
+            "status": "not requested",
+            "candidates": [],
+            "capacity": null,
+            "apparent_volume": null
+          },
+          "liquid_appearance": {
+            "status": "insufficient evidence",
+            "reason": "A colored liquid region could not be isolated.",
+            "lightness": null,
+            "opacity": null,
+            "opacity_reason": "A registered clear-barrel reference at the same exposure is required.",
+            "syringe_mask_score": 0.8285115957260132
+          },
+          "fill_level": {
+            "status": "insufficient evidence",
+            "reason": "Enable visible marking extraction to estimate fill."
+          },
+          "origin": "model"
+        }
+      ],
+      "health": {
+        "status": "available",
+        "primary_backend": "xpu",
+        "unavailable": [],
+        "review_needed": false
+      },
+      "time": 2.067372453006101
+    },
+    "gpkWGmq3Z9SFaeptYTPh": {
+      "actual": [
+        {
+          "id": "object-1",
+          "bbox": [
+            0.3831910592538339,
+            0.3465386072794596,
+            0.4730468467429832,
+            0.5670819918314616
+          ],
+          "score": 0.8533923821614712,
+          "detection_evidence": {},
+          "scale": null,
+          "color": null,
+          "evidence": {
+            "scale": {
+              "value": null,
+              "reason": "Only detection and counting were requested."
+            },
+            "color": {
+              "value": null,
+              "reason": "Only detection and counting were requested."
+            }
+          },
+          "inscriptions": {
+            "status": "not requested",
+            "candidates": [],
+            "capacity": null,
+            "apparent_volume": null
+          },
+          "liquid_appearance": null,
+          "fill_level": {
+            "status": "insufficient evidence",
+            "reason": "Only detection and counting were requested."
+          },
+          "origin": "model"
+        }
+      ],
+      "proposals": [
+        {
+          "bbox": [
+            0.0020241737365722656,
+            0.20069325764973955,
+            0.771688786259404,
+            0.7465138117472331
+          ],
+          "score": 0.3883917958639869
+        },
+        {
+          "bbox": [
+            0.38829862806532117,
+            0.4764052708943685,
+            0.44520902280454283,
+            0.5638002395629883
+          ],
+          "score": 0.25409790539966026
+        },
+        {
+          "bbox": [
+            0.4109879105179398,
+            0.34353911081949867,
+            0.4716154310438368,
+            0.4721055030822754
+          ],
+          "score": 0.2011151621259455
+        },
+        {
+          "bbox": [
+            0.32133986861617475,
+            0.3253613471984863,
+            0.5372866595232928,
+            0.5905641555786133
+          ],
+          "score": 0.17006789486020732
+        },
+        {
+          "bbox": [
+            0.3176001372160735,
+            0.32005392710367836,
+            0.5363258644386574,
+            0.7629435221354167
+          ],
+          "score": 0.14182267447469465
+        }
+      ],
+      "baseline": [
+        {
+          "id": "object-1",
+          "bbox": [
+            0.383190268057364,
+            0.3465385437011719,
+            0.47304647940176503,
+            0.5670819600423177
+          ],
+          "score": 0.853394037109448,
+          "detection_evidence": {},
+          "scale": null,
+          "color": null,
+          "evidence": {
+            "scale": {
+              "value": null,
+              "reason": "Outside development support or ambiguous",
+              "distance": 4.631579995487132,
+              "margin": 1.1395704178766533
+            },
+            "color": {
+              "value": null,
+              "reason": "Insufficient visible support"
+            }
+          },
+          "inscriptions": {
+            "status": "not requested",
+            "candidates": [],
+            "capacity": null,
+            "apparent_volume": null
+          },
+          "liquid_appearance": {
+            "status": "insufficient evidence",
+            "reason": "A colored liquid region could not be isolated.",
+            "lightness": null,
+            "opacity": null,
+            "opacity_reason": "A registered clear-barrel reference at the same exposure is required.",
+            "syringe_mask_score": 0.8648994565010071
+          },
+          "fill_level": {
+            "status": "insufficient evidence",
+            "reason": "Enable visible marking extraction to estimate fill."
+          },
+          "origin": "model"
+        }
+      ],
+      "health": {
+        "status": "available",
+        "primary_backend": "xpu",
+        "unavailable": [],
+        "review_needed": false
+      },
+      "time": 2.042288317999919
+    },
+    "1yxvIQVR5Vw1SC72PT3s": {
+      "actual": [
+        {
+          "id": "object-1",
+          "bbox": [
+            0.39416724310980905,
+            0.16782630284627278,
+            0.6503223560474537,
+            0.7898860295613607
+          ],
+          "score": 0.9407679812364196,
+          "detection_evidence": {},
+          "scale": null,
+          "color": null,
+          "evidence": {
+            "scale": {
+              "value": null,
+              "reason": "Only detection and counting were requested."
+            },
+            "color": {
+              "value": null,
+              "reason": "Only detection and counting were requested."
+            }
+          },
+          "inscriptions": {
+            "status": "not requested",
+            "candidates": [],
+            "capacity": null,
+            "apparent_volume": null
+          },
+          "liquid_appearance": null,
+          "fill_level": {
+            "status": "insufficient evidence",
+            "reason": "Only detection and counting were requested."
+          },
+          "origin": "model"
+        }
+      ],
+      "proposals": [
+        {
+          "bbox": [
+            0.4449284023708767,
+            0.3976340611775716,
+            0.6499608922887732,
+            0.7900371710459391
+          ],
+          "score": 0.22765914686738362
+        },
+        {
+          "bbox": [
+            0.39809047557689525,
+            0.16922143300374348,
+            0.62767413104022,
+            0.4560171763102213
+          ],
+          "score": 0.15876671316249652
+        },
+        {
+          "bbox": [
+            0.3718866136338976,
+            0.34043947855631507,
+            0.7058395385742188,
+            0.7144137064615885
+          ],
+          "score": 0.12932453869216257
+        },
+        {
+          "bbox": [
+            0.3947705586751302,
+            0.39583212534586587,
+            0.6278626053421585,
+            0.4509344736735026
+          ],
+          "score": 0.11822056279504077
+        },
+        {
+          "bbox": [
+            0.4038172121401186,
+            0.1693052927652995,
+            0.558503497088397,
+            0.4013097763061524
+          ],
+          "score": 0.09584229674027252
+        }
+      ],
+      "baseline": [
+        {
+          "id": "object-1",
+          "bbox": [
+            0.39416724310980905,
+            0.16782630284627278,
+            0.6503223560474537,
+            0.7898860295613607
+          ],
+          "score": 0.9407680557441971,
+          "detection_evidence": {},
+          "scale": null,
+          "color": null,
+          "evidence": {
+            "scale": {
+              "value": null,
+              "reason": "Outside development support or ambiguous",
+              "distance": 1.8149680638749663,
+              "margin": 0.28667136255790626
+            },
+            "color": {
+              "value": null,
+              "reason": "Outside development support or ambiguous",
+              "distance": 5.2658769036019315,
+              "margin": 2.8017065604905333
+            }
+          },
+          "inscriptions": {
+            "status": "not requested",
+            "candidates": [],
+            "capacity": null,
+            "apparent_volume": null
+          },
+          "liquid_appearance": {
+            "status": "insufficient evidence",
+            "reason": "A colored liquid region could not be isolated.",
+            "lightness": null,
+            "opacity": null,
+            "opacity_reason": "A registered clear-barrel reference at the same exposure is required.",
+            "syringe_mask_score": 0.9756250977516174
+          },
+          "fill_level": {
+            "status": "insufficient evidence",
+            "reason": "Enable visible marking extraction to estimate fill."
+          },
+          "origin": "model"
+        }
+      ],
+      "health": {
+        "status": "available",
+        "primary_backend": "xpu",
+        "unavailable": [],
+        "review_needed": false
+      },
+      "time": 1.9132512119977036
+    },
+    "XmkgUaQylXde9DBya7wc": {
+      "actual": [
+        {
+          "id": "object-1",
+          "bbox": [
+            0.3946049725567853,
+            0.3893323262532552,
+            0.5364845558449074,
+            0.6451810518900554
+          ],
+          "score": 0.9272383639537101,
+          "detection_evidence": {},
+          "scale": null,
+          "color": null,
+          "evidence": {
+            "scale": {
+              "value": null,
+              "reason": "Only detection and counting were requested."
+            },
+            "color": {
+              "value": null,
+              "reason": "Only detection and counting were requested."
+            }
+          },
+          "inscriptions": {
+            "status": "not requested",
+            "candidates": [],
+            "capacity": null,
+            "apparent_volume": null
+          },
+          "liquid_appearance": null,
+          "fill_level": {
+            "status": "insufficient evidence",
+            "reason": "Only detection and counting were requested."
+          },
+          "origin": "model"
+        }
+      ],
+      "proposals": [
+        {
+          "bbox": [
+            0.004085063934326172,
+            0.005292638142903594,
+            0.9965025725188079,
+            0.9930945336818695
+          ],
+          "score": 0.29196763907959983
+        },
+        {
+          "bbox": [
+            0.7479573002567997,
+            0.8239355723063151,
+            0.9972304732711227,
+            0.9980492909749349
+          ],
+          "score": 0.13298434781788954
+        },
+        {
+          "bbox": [
+            0.3025770116735388,
+            0.34043025970458984,
+            0.6361914740668403,
+            0.7169745127360027
+          ],
+          "score": 0.1127584500975587
+        },
+        {
+          "bbox": [
+            0.3439443235044126,
+            0.3667848587036133,
+            0.5711029617874711,
+            0.6703856150309244
+          ],
+          "score": 0.10985443255342413
+        },
+        {
+          "bbox": [
+            0.4059019583242911,
+            0.40891908009847006,
+            0.4959865993923611,
+            0.6190130869547527
+          ],
+          "score": 0.08746585632551954
+        }
+      ],
+      "baseline": [
+        {
+          "id": "object-1",
+          "bbox": [
+            0.39460488778573494,
+            0.3893323262532552,
+            0.536484612358941,
+            0.6451807657877604
+          ],
+          "score": 0.9272339255923651,
+          "detection_evidence": {},
+          "scale": "60-scale",
+          "color": null,
+          "evidence": {
+            "scale": {
+              "value": "60-scale",
+              "distance": 2.1652871212425917,
+              "margin": 1.0188952429355682,
+              "reason": "Experimental suggestion from the object crop"
+            },
+            "color": {
+              "value": null,
+              "reason": "Outside development support or ambiguous",
+              "distance": 30.23637560380772,
+              "margin": 0.3089266815014895
+            }
+          },
+          "inscriptions": {
+            "status": "not requested",
+            "candidates": [],
+            "capacity": null,
+            "apparent_volume": null
+          },
+          "liquid_appearance": {
+            "status": "insufficient evidence",
+            "reason": "A colored liquid region could not be isolated.",
+            "lightness": null,
+            "opacity": null,
+            "opacity_reason": "A registered clear-barrel reference at the same exposure is required.",
+            "syringe_mask_score": 0.9784192442893982
+          },
+          "fill_level": {
+            "status": "insufficient evidence",
+            "reason": "Enable visible marking extraction to estimate fill."
+          },
+          "origin": "model"
+        }
+      ],
+      "health": {
+        "status": "available",
+        "primary_backend": "xpu",
+        "unavailable": [],
+        "review_needed": false
+      },
+      "time": 3.7458275529934326
+    },
+    "UxP8kr90cgqTrqpti0qw": {
+      "actual": [
+        {
+          "id": "object-1",
+          "bbox": [
+            0.3631825764973958,
+            0.12496289412180582,
+            0.5607162475585937,
+            0.7071680068969727
+          ],
+          "score": 0.9295496835589169,
+          "detection_evidence": {},
+          "scale": null,
+          "color": null,
+          "evidence": {
+            "scale": {
+              "value": null,
+              "reason": "Only detection and counting were requested."
+            },
+            "color": {
+              "value": null,
+              "reason": "Only detection and counting were requested."
+            }
+          },
+          "inscriptions": {
+            "status": "not requested",
+            "candidates": [],
+            "capacity": null,
+            "apparent_volume": null
+          },
+          "liquid_appearance": null,
+          "fill_level": {
+            "status": "insufficient evidence",
+            "reason": "Only detection and counting were requested."
+          },
+          "origin": "model"
+        }
+      ],
+      "proposals": [
+        {
+          "bbox": [
+            0.3025144223813657,
+            0.11923745473225911,
+            0.6518416793258102,
+            0.7464106718699137
+          ],
+          "score": 0.2767340475945289
+        },
+        {
+          "bbox": [
+            0.3741392064977575,
+            0.34094244639078775,
+            0.5243466977719907,
+            0.7075951576232911
+          ],
+          "score": 0.12172354144948214
+        },
+        {
+          "bbox": [
+            0.3630173294632523,
+            0.12564252217610672,
+            0.5189818770797164,
+            0.4055477142333984
+          ],
+          "score": 0.11756214007138588
+        },
+        {
+          "bbox": [
+            0.16528746993453414,
+            0.43089275360107426,
+            0.6271034523292824,
+            0.6329925537109375
+          ],
+          "score": 0.1124912087007783
+        },
+        {
+          "bbox": [
+            0.40571786385995373,
+            0.12551015218098957,
+            0.5144731874819155,
+            0.33157361348470055
+          ],
+          "score": 0.09607780879260909
+        }
+      ],
+      "baseline": [
+        {
+          "id": "object-1",
+          "bbox": [
+            0.3631823221842448,
+            0.12495827674865723,
+            0.5607148347077546,
+            0.7071701685587565
+          ],
+          "score": 0.9297443137861965,
+          "detection_evidence": {},
+          "scale": null,
+          "color": null,
+          "evidence": {
+            "scale": {
+              "value": null,
+              "reason": "Outside development support or ambiguous",
+              "distance": 2.2897333145159826,
+              "margin": 0.08781673531982204
+            },
+            "color": {
+              "value": null,
+              "reason": "Outside development support or ambiguous",
+              "distance": 6.117503328872198,
+              "margin": 2.653028543602254
+            }
+          },
+          "inscriptions": {
+            "status": "not requested",
+            "candidates": [],
+            "capacity": null,
+            "apparent_volume": null
+          },
+          "liquid_appearance": {
+            "status": "insufficient evidence",
+            "reason": "A colored liquid region could not be isolated.",
+            "lightness": null,
+            "opacity": null,
+            "opacity_reason": "A registered clear-barrel reference at the same exposure is required.",
+            "syringe_mask_score": 0.9100080728530884
+          },
+          "fill_level": {
+            "status": "insufficient evidence",
+            "reason": "Enable visible marking extraction to estimate fill."
+          },
+          "origin": "model"
+        }
+      ],
+      "health": {
+        "status": "available",
+        "primary_backend": "xpu",
+        "unavailable": [],
+        "review_needed": false
+      },
+      "time": 3.6742529809998814
+    },
+    "OTbTwloPcV4T8QdOV5VU": {
+      "actual": [
+        {
+          "id": "object-1",
+          "bbox": [
+            0.31087386519820603,
+            0.4586163838704427,
+            0.39394534075701676,
+            0.604768975575765
+          ],
+          "score": 0.9026399974481293,
+          "detection_evidence": {},
+          "scale": null,
+          "color": null,
+          "evidence": {
+            "scale": {
+              "value": null,
+              "reason": "Only detection and counting were requested."
+            },
+            "color": {
+              "value": null,
+              "reason": "Only detection and counting were requested."
+            }
+          },
+          "inscriptions": {
+            "status": "not requested",
+            "candidates": [],
+            "capacity": null,
+            "apparent_volume": null
+          },
+          "liquid_appearance": null,
+          "fill_level": {
+            "status": "insufficient evidence",
+            "reason": "Only detection and counting were requested."
+          },
+          "origin": "model"
+        }
+      ],
+      "proposals": [
+        {
+          "bbox": [
+            0.0036885440349578857,
+            0.20527979532877605,
+            0.9884832311559606,
+            0.8660012245178222
+          ],
+          "score": 0.3465123702171759
+        },
+        {
+          "bbox": [
+            0.0005870983004570007,
+            0.2910254160563151,
+            0.09813815222846137,
+            0.632197380065918
+          ],
+          "score": 0.13618226523387122
+        },
+        {
+          "bbox": [
+            0.2421876695421007,
+            0.4245271682739258,
+            0.4894402963143808,
+            0.6333401679992676
+          ],
+          "score": 0.08781620677978827
+        },
+        {
+          "bbox": [
+            0.2778451707628038,
+            0.4438302357991536,
+            0.43898371943721065,
+            0.625966771443685
+          ],
+          "score": 0.08435863872063756
+        },
+        {
+          "bbox": [
+            0.8395876283998842,
+            0.8423966725667318,
+            0.9973099320023148,
+            0.9979443232218425
+          ],
+          "score": 0.08429183478868366
+        }
+      ],
+      "baseline": [
+        {
+          "id": "object-1",
+          "bbox": [
+            0.3108745433666088,
+            0.45861606597900395,
+            0.3939448321307147,
+            0.6047684351603191
+          ],
+          "score": 0.9026505525198318,
+          "detection_evidence": {},
+          "scale": "60-scale",
+          "color": null,
+          "evidence": {
+            "scale": {
+              "value": "60-scale",
+              "distance": 2.413866428367566,
+              "margin": 1.0297481591232152,
+              "reason": "Experimental suggestion from the object crop"
+            },
+            "color": {
+              "value": null,
+              "reason": "Insufficient visible support"
+            }
+          },
+          "inscriptions": {
+            "status": "not requested",
+            "candidates": [],
+            "capacity": null,
+            "apparent_volume": null
+          },
+          "liquid_appearance": {
+            "status": "insufficient evidence",
+            "reason": "A colored liquid region could not be isolated.",
+            "lightness": null,
+            "opacity": null,
+            "opacity_reason": "A registered clear-barrel reference at the same exposure is required.",
+            "syringe_mask_score": 0.91774982213974
+          },
+          "fill_level": {
+            "status": "insufficient evidence",
+            "reason": "Enable visible marking extraction to estimate fill."
+          },
+          "origin": "model"
+        }
+      ],
+      "health": {
+        "status": "available",
+        "primary_backend": "xpu",
+        "unavailable": [],
+        "review_needed": false
+      },
+      "time": 3.6144433050067164
+    },
+    "iHVnBznVS26Sw7QmoHnw": {
+      "actual": [
+        {
+          "id": "object-1",
+          "bbox": [
+            0.4183927747938368,
+            0.5450964609781901,
+            0.48678871437355326,
+            0.6722316741943359
+          ],
+          "score": 0.8848073767131474,
+          "detection_evidence": {},
+          "scale": null,
+          "color": null,
+          "evidence": {
+            "scale": {
+              "value": null,
+              "reason": "Only detection and counting were requested."
+            },
+            "color": {
+              "value": null,
+              "reason": "Only detection and counting were requested."
+            }
+          },
+          "inscriptions": {
+            "status": "not requested",
+            "candidates": [],
+            "capacity": null,
+            "apparent_volume": null
+          },
+          "liquid_appearance": null,
+          "fill_level": {
+            "status": "insufficient evidence",
+            "reason": "Only detection and counting were requested."
+          },
+          "origin": "model"
+        }
+      ],
+      "proposals": [
+        {
+          "bbox": [
+            0.002954810857772827,
+            0.2835454305013021,
+            0.968363783094618,
+            0.8823753595352173
+          ],
+          "score": 0.3281957427875186
+        },
+        {
+          "bbox": [
+            0.0011655167297080712,
+            0.3672613779703776,
+            0.24547288682725693,
+            0.8063488483428956
+          ],
+          "score": 0.24557146770405788
+        },
+        {
+          "bbox": [
+            0.7475455390082465,
+            0.8547922770182291,
+            0.9967573377821181,
+            0.9986424763997396
+          ],
+          "score": 0.19766732667074094
+        },
+        {
+          "bbox": [
+            0.8345470852322049,
+            0.8806350708007813,
+            0.9956783718532987,
+            0.9983523686726888
+          ],
+          "score": 0.10331807045339511
+        },
+        {
+          "bbox": [
+            0.9117384733977141,
+            0.8806007385253907,
+            0.9979748761212385,
+            0.9707187533378601
+          ],
+          "score": 0.09741852069867926
+        }
+      ],
+      "baseline": [
+        {
+          "id": "object-1",
+          "bbox": [
+            0.41839348121925635,
+            0.54509703318278,
+            0.48678933602792246,
+            0.6722309748331705
+          ],
+          "score": 0.884620670618984,
+          "detection_evidence": {},
+          "scale": "60-scale",
+          "color": null,
+          "evidence": {
+            "scale": {
+              "value": "60-scale",
+              "distance": 2.5696374434084017,
+              "margin": 0.9661785738632971,
+              "reason": "Experimental suggestion from the object crop"
+            },
+            "color": {
+              "value": null,
+              "reason": "Insufficient visible support"
+            }
+          },
+          "inscriptions": {
+            "status": "not requested",
+            "candidates": [],
+            "capacity": null,
+            "apparent_volume": null
+          },
+          "liquid_appearance": {
+            "status": "insufficient evidence",
+            "reason": "A colored liquid region could not be isolated.",
+            "lightness": null,
+            "opacity": null,
+            "opacity_reason": "A registered clear-barrel reference at the same exposure is required.",
+            "syringe_mask_score": 0.9536466002464294
+          },
+          "fill_level": {
+            "status": "insufficient evidence",
+            "reason": "Enable visible marking extraction to estimate fill."
+          },
+          "origin": "model"
+        }
+      ],
+      "health": {
+        "status": "available",
+        "primary_backend": "xpu",
+        "unavailable": [],
+        "review_needed": false
+      },
+      "time": 3.613260024008923
+    },
+    "QRR4A3cC2VjJf5K914hZ": {
+      "actual": [
+        {
+          "id": "object-1",
+          "bbox": [
+            0.2805567423502604,
+            0.2393208821614583,
+            0.6621565642180266,
+            0.715018876393636
+          ],
+          "score": 0.9301194235748023,
+          "detection_evidence": {},
+          "scale": null,
+          "color": null,
+          "evidence": {
+            "scale": {
+              "value": null,
+              "reason": "Only detection and counting were requested."
+            },
+            "color": {
+              "value": null,
+              "reason": "Only detection and counting were requested."
+            }
+          },
+          "inscriptions": {
+            "status": "not requested",
+            "candidates": [],
+            "capacity": null,
+            "apparent_volume": null
+          },
+          "liquid_appearance": null,
+          "fill_level": {
+            "status": "insufficient evidence",
+            "reason": "Only detection and counting were requested."
+          },
+          "origin": "model"
+        }
+      ],
+      "proposals": [
+        {
+          "bbox": [
+            0.004672438127023203,
+            0.004778416951497388,
+            0.9947301793981481,
+            0.9965067207813263
+          ],
+          "score": 0.3430240221592048
+        },
+        {
+          "bbox": [
+            0.016191899334942854,
+            0.12278318405151367,
+            0.6292287755895544,
+            0.5653052012125651
+          ],
+          "score": 0.3379354376745939
+        },
+        {
+          "bbox": [
+            0.16546464142975983,
+            0.18082958857218426,
+            0.7891311645507812,
+            0.7768128077189128
+          ],
+          "score": 0.22893100044662695
+        },
+        {
+          "bbox": [
+            0.017373874452379014,
+            0.34604498545328777,
+            0.353882740162037,
+            0.561395263671875
+          ],
+          "score": 0.12618902250409064
+        },
+        {
+          "bbox": [
+            0.3702212863498264,
+            0.23987326622009278,
+            0.6586342140480325,
+            0.5657998402913411
+          ],
+          "score": 0.11731327485722706
+        }
+      ],
+      "baseline": [
+        {
+          "id": "object-1",
+          "bbox": [
+            0.2805566010651765,
+            0.2393212636311849,
+            0.6621563381618923,
+            0.7150187174479167
+          ],
+          "score": 0.9301222199330121,
+          "detection_evidence": {},
+          "scale": null,
+          "color": null,
+          "evidence": {
+            "scale": {
+              "value": null,
+              "reason": "Outside development support or ambiguous",
+              "distance": 3.9905866175426357,
+              "margin": 1.3507334787469856
+            },
+            "color": {
+              "value": null,
+              "reason": "Insufficient visible support"
+            }
+          },
+          "inscriptions": {
+            "status": "not requested",
+            "candidates": [],
+            "capacity": null,
+            "apparent_volume": null
+          },
+          "liquid_appearance": {
+            "status": "insufficient evidence",
+            "reason": "A colored liquid region could not be isolated.",
+            "lightness": null,
+            "opacity": null,
+            "opacity_reason": "A registered clear-barrel reference at the same exposure is required.",
+            "syringe_mask_score": 0.979943037033081
+          },
+          "fill_level": {
+            "status": "insufficient evidence",
+            "reason": "Enable visible marking extraction to estimate fill."
+          },
+          "origin": "model"
+        }
+      ],
+      "health": {
+        "status": "available",
+        "primary_backend": "xpu",
+        "unavailable": [],
+        "review_needed": false
+      },
+      "time": 1.8436884529946838
+    },
+    "abU6WlJF9aWAHoICBdFE": {
+      "actual": [
+        {
+          "id": "object-1",
+          "bbox": [
+            0.39694609465422453,
+            0.31432714462280276,
+            0.672373792860243,
+            0.7232885360717773
+          ],
+          "score": 0.9354760352604253,
+          "detection_evidence": {},
+          "scale": null,
+          "color": null,
+          "evidence": {
+            "scale": {
+              "value": null,
+              "reason": "Only detection and counting were requested."
+            },
+            "color": {
+              "value": null,
+              "reason": "Only detection and counting were requested."
+            }
+          },
+          "inscriptions": {
+            "status": "not requested",
+            "candidates": [],
+            "capacity": null,
+            "apparent_volume": null
+          },
+          "liquid_appearance": null,
+          "fill_level": {
+            "status": "insufficient evidence",
+            "reason": "Only detection and counting were requested."
+          },
+          "origin": "model"
+        }
+      ],
+      "proposals": [
+        {
+          "bbox": [
+            0.3017484029134115,
+            0.27348572413126626,
+            0.7788231178566262,
+            0.8018489201863607
+          ],
+          "score": 0.2502663598630428
+        },
+        {
+          "bbox": [
+            0.4432317663122107,
+            0.3715643564860026,
+            0.6583397759331597,
+            0.6834417343139648
+          ],
+          "score": 0.1463566685888325
+        },
+        {
+          "bbox": [
+            0.39305665757921004,
+            0.4472239812215169,
+            0.4740253307201244,
+            0.4667653719584147
+          ],
+          "score": 0.07116510555675741
+        },
+        {
+          "bbox": [
+            0.39634082935474535,
+            0.43710419336954753,
+            0.5540965892650463,
+            0.4685948053995768
+          ],
+          "score": 0.06864446807657079
+        },
+        {
+          "bbox": [
+            0.5902630841290509,
+            0.6795384089152019,
+            0.6543407864040799,
+            0.7242627461751302
+          ],
+          "score": 0.06739424415009262
+        }
+      ],
+      "baseline": [
+        {
+          "id": "object-1",
+          "bbox": [
+            0.3969461794252749,
+            0.3143268585205078,
+            0.672373792860243,
+            0.7232889811197917
+          ],
+          "score": 0.9354742841718875,
+          "detection_evidence": {},
+          "scale": null,
+          "color": null,
+          "evidence": {
+            "scale": {
+              "value": null,
+              "reason": "Outside development support or ambiguous",
+              "distance": 2.381726662229841,
+              "margin": 0.8144270834664615
+            },
+            "color": {
+              "value": null,
+              "reason": "Outside development support or ambiguous",
+              "distance": 5.7252440405875085,
+              "margin": 2.5804932230438755
+            }
+          },
+          "inscriptions": {
+            "status": "not requested",
+            "candidates": [],
+            "capacity": null,
+            "apparent_volume": null
+          },
+          "liquid_appearance": {
+            "status": "insufficient evidence",
+            "reason": "A colored liquid region could not be isolated.",
+            "lightness": null,
+            "opacity": null,
+            "opacity_reason": "A registered clear-barrel reference at the same exposure is required.",
+            "syringe_mask_score": 0.9843494296073914
+          },
+          "fill_level": {
+            "status": "insufficient evidence",
+            "reason": "Enable visible marking extraction to estimate fill."
+          },
+          "origin": "model"
+        }
+      ],
+      "health": {
+        "status": "available",
+        "primary_backend": "xpu",
+        "unavailable": [],
+        "review_needed": false
+      },
+      "time": 1.7998855069890851
+    },
+    "J1IEnqIuv3wf5ASu2Eoe": {
+      "actual": [
+        {
+          "id": "object-1",
+          "bbox": [
+            0.4445723639594184,
+            0.5920700709025065,
+            0.5455271402994791,
+            0.69154052734375
+          ],
+          "score": 0.7340582505945753,
+          "detection_evidence": {},
+          "scale": null,
+          "color": null,
+          "evidence": {
+            "scale": {
+              "value": null,
+              "reason": "Only detection and counting were requested."
+            },
+            "color": {
+              "value": null,
+              "reason": "Only detection and counting were requested."
+            }
+          },
+          "inscriptions": {
+            "status": "not requested",
+            "candidates": [],
+            "capacity": null,
+            "apparent_volume": null
+          },
+          "liquid_appearance": null,
+          "fill_level": {
+            "status": "insufficient evidence",
+            "reason": "Only detection and counting were requested."
+          },
+          "origin": "model"
+        }
+      ],
+      "proposals": [
+        {
+          "bbox": [
+            0.001091301441192627,
+            0.3524038950602214,
+            0.9756939923321759,
+            0.8682713826497396
+          ],
+          "score": 0.36782786082126645
+        },
+        {
+          "bbox": [
+            0.6893863254123264,
+            0.830853017171224,
+            0.9976652922453704,
+            0.998245112101237
+          ],
+          "score": 0.19167360878869927
+        },
+        {
+          "bbox": [
+            0.7402319448965567,
+            0.0007719675699869866,
+            0.9974662498191551,
+            0.07587502797444656
+          ],
+          "score": 0.16206994715691328
+        },
+        {
+          "bbox": [
+            0.45514108163339123,
+            0.0011913935343424997,
+            0.6989232381184896,
+            0.0501676559448242
+          ],
+          "score": 0.152746989242117
+        },
+        {
+          "bbox": [
+            0.9556280065465856,
+            0.09181410471598306,
+            0.9992474591290509,
+            0.12018731435139973
+          ],
+          "score": 0.12171572034609693
+        }
+      ],
+      "baseline": [
+        {
+          "id": "object-1",
+          "bbox": [
+            0.44457179881908276,
+            0.5920700073242188,
+            0.545527931495949,
+            0.6915407180786133
+          ],
+          "score": 0.7341068740578096,
+          "detection_evidence": {},
+          "scale": null,
+          "color": null,
+          "evidence": {
+            "scale": {
+              "value": null,
+              "reason": "Outside development support or ambiguous",
+              "distance": 2.9676329663481056,
+              "margin": 1.4429934314539894
+            },
+            "color": {
+              "value": null,
+              "reason": "Insufficient visible support"
+            }
+          },
+          "inscriptions": {
+            "status": "not requested",
+            "candidates": [],
+            "capacity": null,
+            "apparent_volume": null
+          },
+          "liquid_appearance": {
+            "status": "insufficient evidence",
+            "reason": "A colored liquid region could not be isolated.",
+            "lightness": null,
+            "opacity": null,
+            "opacity_reason": "A registered clear-barrel reference at the same exposure is required.",
+            "syringe_mask_score": 0.9874256253242493
+          },
+          "fill_level": {
+            "status": "insufficient evidence",
+            "reason": "Enable visible marking extraction to estimate fill."
+          },
+          "origin": "model"
+        }
+      ],
+      "health": {
+        "status": "available",
+        "primary_backend": "xpu",
+        "unavailable": [],
+        "review_needed": false
+      },
+      "time": 1.7658179240097525
+    },
+    "51d8xdDRo1ax8DP16RUk": {
+      "actual": [
+        {
+          "id": "object-1",
+          "bbox": [
+            0.22531215846538544,
+            0.17705407738685608,
+            0.6799890398979187,
+            0.6903414726257324
+          ],
+          "score": 0.6772280764893512,
+          "detection_evidence": {
+            "source": "sam3",
+            "auxiliary_score": 0.9704142808914185
+          },
+          "scale": null,
+          "color": null,
+          "evidence": {
+            "scale": {
+              "value": null,
+              "reason": "Only detection and counting were requested."
+            },
+            "color": {
+              "value": null,
+              "reason": "Only detection and counting were requested."
+            }
+          },
+          "inscriptions": {
+            "status": "not requested",
+            "candidates": [],
+            "capacity": null,
+            "apparent_volume": null
+          },
+          "liquid_appearance": null,
+          "fill_level": {
+            "status": "insufficient evidence",
+            "reason": "Only detection and counting were requested."
+          },
+          "origin": "model"
+        }
+      ],
+      "proposals": [
+        {
+          "bbox": [
+            0.10997447261103878,
+            0.173455810546875,
+            0.6958075629340278,
+            0.7616878509521484
+          ],
+          "score": 0.5618901318124716
+        },
+        {
+          "bbox": [
+            0.08222004925763166,
+            0.029835446675618438,
+            0.8681810167100694,
+            0.7827706336975098
+          ],
+          "score": 0.34765601407102525
+        },
+        {
+          "bbox": [
+            0.01488703445152,
+            0.08978856404622393,
+            0.7382662172670718,
+            0.954778254032135
+          ],
+          "score": 0.2876143503165697
+        },
+        {
+          "bbox": [
+            0.20773855138708044,
+            0.21024489402770996,
+            0.8757269400137442,
+            0.8901692708333333
+          ],
+          "score": 0.2553356540550007
+        },
+        {
+          "bbox": [
+            0.17210087246365016,
+            0.11728034814198812,
+            0.7533409401222512,
+            0.5789453506469726
+          ],
+          "score": 0.22501245999463232
+        }
+      ],
+      "baseline": [
+        {
+          "id": "object-1",
+          "bbox": [
+            0.22531215846538544,
+            0.17705407738685608,
+            0.6799890398979187,
+            0.6903414726257324
+          ],
+          "score": 0.6772280764893512,
+          "detection_evidence": {
+            "source": "sam3",
+            "auxiliary_score": 0.9704142808914185
+          },
+          "scale": null,
+          "color": null,
+          "evidence": {
+            "scale": {
+              "value": null,
+              "reason": "Outside development support or ambiguous",
+              "distance": 4.979383243732107,
+              "margin": 1.249859146922769
+            },
+            "color": {
+              "value": null,
+              "reason": "Insufficient visible support"
+            }
+          },
+          "inscriptions": {
+            "status": "not requested",
+            "candidates": [],
+            "capacity": null,
+            "apparent_volume": null
+          },
+          "liquid_appearance": {
+            "status": "insufficient evidence",
+            "reason": "A colored liquid region could not be isolated.",
+            "lightness": null,
+            "opacity": null,
+            "opacity_reason": "A registered clear-barrel reference at the same exposure is required.",
+            "syringe_mask_score": 0.9482057690620422
+          },
+          "fill_level": {
+            "status": "insufficient evidence",
+            "reason": "Enable visible marking extraction to estimate fill."
+          },
+          "origin": "model"
+        }
+      ],
+      "health": {
+        "status": "available",
+        "primary_backend": "xpu",
+        "unavailable": [],
+        "review_needed": false
+      },
+      "time": 10.760828768005013
+    },
+    "AM0xCgiooqXHYmoktJC3": {
+      "actual": [
+        {
+          "id": "object-1",
+          "bbox": [
+            0.3726993136935764,
+            0.38854891459147134,
+            0.6892033329716435,
+            0.7448884963989257
+          ],
+          "score": 0.9026170221149643,
+          "detection_evidence": {},
+          "scale": null,
+          "color": null,
+          "evidence": {
+            "scale": {
+              "value": null,
+              "reason": "Only detection and counting were requested."
+            },
+            "color": {
+              "value": null,
+              "reason": "Only detection and counting were requested."
+            }
+          },
+          "inscriptions": {
+            "status": "not requested",
+            "candidates": [],
+            "capacity": null,
+            "apparent_volume": null
+          },
+          "liquid_appearance": null,
+          "fill_level": {
+            "status": "insufficient evidence",
+            "reason": "Only detection and counting were requested."
+          },
+          "origin": "model"
+        }
+      ],
+      "proposals": [
+        {
+          "bbox": [
+            0.002231389284133911,
+            0.0030747095743814956,
+            0.9966478135850695,
+            0.9973392486572266
+          ],
+          "score": 0.39194654987988264
+        },
+        {
+          "bbox": [
+            0.35283262464735243,
+            0.38576698303222656,
+            0.6918758816189237,
+            0.9966908772786458
+          ],
+          "score": 0.2715526742594226
+        },
+        {
+          "bbox": [
+            0.26403783162434896,
+            0.32287314732869465,
+            0.7844526502821181,
+            0.8224969863891601
+          ],
+          "score": 0.16987826435896242
+        },
+        {
+          "bbox": [
+            0.3895018683539497,
+            0.6989220937093099,
+            0.45310855441623266,
+            0.7451014200846354
+          ],
+          "score": 0.09770196777955001
+        },
+        {
+          "bbox": [
+            0.37865462126555266,
+            0.6549381256103516,
+            0.514045489275897,
+            0.7450568517049153
+          ],
+          "score": 0.07963730775842588
+        }
+      ],
+      "baseline": [
+        {
+          "id": "object-1",
+          "bbox": [
+            0.37269956800672743,
+            0.3885481834411621,
+            0.6892044067382812,
+            0.7448888142903646
+          ],
+          "score": 0.9026685550529887,
+          "detection_evidence": {},
+          "scale": null,
+          "color": null,
+          "evidence": {
+            "scale": {
+              "value": null,
+              "reason": "Outside development support or ambiguous",
+              "distance": 3.513169936643223,
+              "margin": 1.4169698822793144
+            },
+            "color": {
+              "value": null,
+              "reason": "Insufficient visible support"
+            }
+          },
+          "inscriptions": {
+            "status": "not requested",
+            "candidates": [],
+            "capacity": null,
+            "apparent_volume": null
+          },
+          "liquid_appearance": {
+            "status": "insufficient evidence",
+            "reason": "A colored liquid region could not be isolated.",
+            "lightness": null,
+            "opacity": null,
+            "opacity_reason": "A registered clear-barrel reference at the same exposure is required.",
+            "syringe_mask_score": 0.9699835777282715
+          },
+          "fill_level": {
+            "status": "insufficient evidence",
+            "reason": "Enable visible marking extraction to estimate fill."
+          },
+          "origin": "model"
+        }
+      ],
+      "health": {
+        "status": "available",
+        "primary_backend": "xpu",
+        "unavailable": [],
+        "review_needed": false
+      },
+      "time": 2.6056963830051245
+    },
+    "RfvUNxOIFEQ3zkChtCOr": {
+      "actual": [
+        {
+          "id": "object-1",
+          "bbox": [
+            0.07191804250081381,
+            0.41802409489949544,
+            0.6850671838831018,
+            0.6410888036092123
+          ],
+          "score": 0.9423857784759386,
+          "detection_evidence": {},
+          "scale": null,
+          "color": null,
+          "evidence": {
+            "scale": {
+              "value": null,
+              "reason": "Only detection and counting were requested."
+            },
+            "color": {
+              "value": null,
+              "reason": "Only detection and counting were requested."
+            }
+          },
+          "inscriptions": {
+            "status": "not requested",
+            "candidates": [],
+            "capacity": null,
+            "apparent_volume": null
+          },
+          "liquid_appearance": null,
+          "fill_level": {
+            "status": "insufficient evidence",
+            "reason": "Only detection and counting were requested."
+          },
+          "origin": "model"
+        }
+      ],
+      "proposals": [
+        {
+          "bbox": [
+            0.0035010874271392822,
+            0.41361265182495116,
+            0.688143977412471,
+            0.9732901255289713
+          ],
+          "score": 0.277985643501328
+        },
+        {
+          "bbox": [
+            0.001106172800064087,
+            0.42053095499674475,
+            0.679225441261574,
+            0.7465318997701009
+          ],
+          "score": 0.24536351282087046
+        },
+        {
+          "bbox": [
+            0.07482292034007886,
+            0.47571646372477217,
+            0.48946827076099536,
+            0.6397614161173503
+          ],
+          "score": 0.13367278296106638
+        },
+        {
+          "bbox": [
+            0.07489024268256293,
+            0.5936548233032226,
+            0.1715953403049045,
+            0.6390831629435221
+          ],
+          "score": 0.07334761144540912
+        },
+        {
+          "bbox": [
+            0.49499517370153356,
+            0.4199097315470378,
+            0.683240141691985,
+            0.5361547152201335
+          ],
+          "score": 0.07327849611640264
+        }
+      ],
+      "baseline": [
+        {
+          "id": "object-1",
+          "bbox": [
+            0.07191789415147569,
+            0.41802390416463214,
+            0.6850670708550347,
+            0.6410888036092123
+          ],
+          "score": 0.9423541050985975,
+          "detection_evidence": {},
+          "scale": "60-scale",
+          "color": null,
+          "evidence": {
+            "scale": {
+              "value": "60-scale",
+              "distance": 2.525844170018048,
+              "margin": 0.8729604089865499,
+              "reason": "Experimental suggestion from the object crop"
+            },
+            "color": {
+              "value": null,
+              "reason": "Outside development support or ambiguous",
+              "distance": 4.054994109252408,
+              "margin": 2.9813317617539568
+            }
+          },
+          "inscriptions": {
+            "status": "not requested",
+            "candidates": [],
+            "capacity": null,
+            "apparent_volume": null
+          },
+          "liquid_appearance": {
+            "status": "insufficient evidence",
+            "reason": "A colored liquid region could not be isolated.",
+            "lightness": null,
+            "opacity": null,
+            "opacity_reason": "A registered clear-barrel reference at the same exposure is required.",
+            "syringe_mask_score": 0.9790836572647095
+          },
+          "fill_level": {
+            "status": "insufficient evidence",
+            "reason": "Enable visible marking extraction to estimate fill."
+          },
+          "origin": "model"
+        }
+      ],
+      "health": {
+        "status": "available",
+        "primary_backend": "xpu",
+        "unavailable": [],
+        "review_needed": false
+      },
+      "time": 2.1009535780031
+    },
+    "fwWFOHCBJuheupAYRxwJ": {
+      "actual": [
+        {
+          "id": "object-1",
+          "bbox": [
+            0.26381395128038193,
+            0.3540089289347331,
+            0.4408153675220631,
+            0.6048772176106771
+          ],
+          "score": 0.9181261958421578,
+          "detection_evidence": {},
+          "scale": null,
+          "color": null,
+          "evidence": {
+            "scale": {
+              "value": null,
+              "reason": "Only detection and counting were requested."
+            },
+            "color": {
+              "value": null,
+              "reason": "Only detection and counting were requested."
+            }
+          },
+          "inscriptions": {
+            "status": "not requested",
+            "candidates": [],
+            "capacity": null,
+            "apparent_volume": null
+          },
+          "liquid_appearance": null,
+          "fill_level": {
+            "status": "insufficient evidence",
+            "reason": "Only detection and counting were requested."
+          },
+          "origin": "model"
+        }
+      ],
+      "proposals": [
+        {
+          "bbox": [
+            0.004048198240774649,
+            0.0056917826334635935,
+            0.9949991861979167,
+            0.9965122640132904
+          ],
+          "score": 0.3024129529712934
+        },
+        {
+          "bbox": [
+            0.18890115243417246,
+            0.3140118916829427,
+            0.5292319968894675,
+            0.7073626200358073
+          ],
+          "score": 0.13320570526545097
+        },
+        {
+          "bbox": [
+            0.30101988050672746,
+            0.386232852935791,
+            0.4167387785734954,
+            0.538005002339681
+          ],
+          "score": 0.0612954313489375
+        },
+        {
+          "bbox": [
+            0.2636781763147425,
+            0.5172411282857259,
+            0.41830238059714986,
+            0.6052547454833984
+          ],
+          "score": 0.058923715247638835
+        },
+        {
+          "bbox": [
+            0.295972583912037,
+            0.35351502100626625,
+            0.43796968813295717,
+            0.4263313293457031
+          ],
+          "score": 0.05852707821261506
+        }
+      ],
+      "baseline": [
+        {
+          "id": "object-1",
+          "bbox": [
+            0.2638110690646701,
+            0.35400625864664714,
+            0.44081649780273435,
+            0.6048783620198568
+          ],
+          "score": 0.9184608799243978,
+          "detection_evidence": {},
+          "scale": "60-scale",
+          "color": null,
+          "evidence": {
+            "scale": {
+              "value": "60-scale",
+              "distance": 1.2511317387651304,
+              "margin": 1.2755207750429385,
+              "reason": "Experimental suggestion from the object crop"
+            },
+            "color": {
+              "value": null,
+              "reason": "Outside development support or ambiguous",
+              "distance": 4.877442659013661,
+              "margin": 2.713328807335807
+            }
+          },
+          "inscriptions": {
+            "status": "not requested",
+            "candidates": [],
+            "capacity": null,
+            "apparent_volume": null
+          },
+          "liquid_appearance": {
+            "status": "insufficient evidence",
+            "reason": "A colored liquid region could not be isolated.",
+            "lightness": null,
+            "opacity": null,
+            "opacity_reason": "A registered clear-barrel reference at the same exposure is required.",
+            "syringe_mask_score": 0.7641950845718384
+          },
+          "fill_level": {
+            "status": "insufficient evidence",
+            "reason": "Enable visible marking extraction to estimate fill."
+          },
+          "origin": "model"
+        }
+      ],
+      "health": {
+        "status": "available",
+        "primary_backend": "xpu",
+        "unavailable": [],
+        "review_needed": false
+      },
+      "time": 2.0072559180116514
+    },
+    "coTNVlK0faqmtQuZLK4F": {
+      "actual": [
+        {
+          "id": "object-1",
+          "bbox": [
+            0.08919171933774594,
+            0.28984915415445967,
+            0.3807321901674624,
+            0.6870409329732259
+          ],
+          "score": 0.9145706667795725,
+          "detection_evidence": {},
+          "scale": null,
+          "color": null,
+          "evidence": {
+            "scale": {
+              "value": null,
+              "reason": "Only detection and counting were requested."
+            },
+            "color": {
+              "value": null,
+              "reason": "Only detection and counting were requested."
+            }
+          },
+          "inscriptions": {
+            "status": "not requested",
+            "candidates": [],
+            "capacity": null,
+            "apparent_volume": null
+          },
+          "liquid_appearance": null,
+          "fill_level": {
+            "status": "insufficient evidence",
+            "reason": "Only detection and counting were requested."
+          },
+          "origin": "model"
+        }
+      ],
+      "proposals": [
+        {
+          "bbox": [
+            0.0036444365978240967,
+            0.0,
+            0.778928855613426,
+            0.9994722366333008
+          ],
+          "score": 0.3961425267973732
+        },
+        {
+          "bbox": [
+            0.281142990677445,
+            9.745359420776367e-05,
+            0.6984399301034433,
+            0.24178992907206218
+          ],
+          "score": 0.25566718123082033
+        },
+        {
+          "bbox": [
+            0.04201197447600188,
+            0.14883028666178388,
+            0.5524649726019966,
+            0.8187955856323242
+          ],
+          "score": 0.17318156770035156
+        },
+        {
+          "bbox": [
+            0.17765459131311487,
+            0.2924615542093913,
+            0.39539210001627606,
+            0.8404147466023763
+          ],
+          "score": 0.15466867221042
+        },
+        {
+          "bbox": [
+            0.06321881612141927,
+            0.24410152435302734,
+            0.46681298149956596,
+            0.7236658414204915
+          ],
+          "score": 0.13062182589064705
+        }
+      ],
+      "baseline": [
+        {
+          "id": "object-1",
+          "bbox": [
+            0.08919169108072916,
+            0.28984915415445967,
+            0.38073224668149597,
+            0.6870409329732259
+          ],
+          "score": 0.9145707415001478,
+          "detection_evidence": {},
+          "scale": null,
+          "color": null,
+          "evidence": {
+            "scale": {
+              "value": null,
+              "reason": "Outside development support or ambiguous",
+              "distance": 3.4936390473526777,
+              "margin": 1.3820215962800524
+            },
+            "color": {
+              "value": null,
+              "reason": "Insufficient visible support"
+            }
+          },
+          "inscriptions": {
+            "status": "not requested",
+            "candidates": [],
+            "capacity": null,
+            "apparent_volume": null
+          },
+          "liquid_appearance": {
+            "status": "insufficient evidence",
+            "reason": "A colored liquid region could not be isolated.",
+            "lightness": null,
+            "opacity": null,
+            "opacity_reason": "A registered clear-barrel reference at the same exposure is required.",
+            "syringe_mask_score": 0.9547621607780457
+          },
+          "fill_level": {
+            "status": "insufficient evidence",
+            "reason": "Enable visible marking extraction to estimate fill."
+          },
+          "origin": "model"
+        }
+      ],
+      "health": {
+        "status": "available",
+        "primary_backend": "xpu",
+        "unavailable": [],
+        "review_needed": false
+      },
+      "time": 1.8704122659983113
+    },
+    "YeamwalY1KG8aKOY8miG": {
+      "actual": [
+        {
+          "id": "object-1",
+          "bbox": [
+            0.5403397736725983,
+            0.36107578277587893,
+            0.6282284771954572,
+            0.5783618609110515
+          ],
+          "score": 0.787524525407294,
+          "detection_evidence": {},
+          "scale": null,
+          "color": null,
+          "evidence": {
+            "scale": {
+              "value": null,
+              "reason": "Only detection and counting were requested."
+            },
+            "color": {
+              "value": null,
+              "reason": "Only detection and counting were requested."
+            }
+          },
+          "inscriptions": {
+            "status": "not requested",
+            "candidates": [],
+            "capacity": null,
+            "apparent_volume": null
+          },
+          "liquid_appearance": null,
+          "fill_level": {
+            "status": "insufficient evidence",
+            "reason": "Only detection and counting were requested."
+          },
+          "origin": "model"
+        }
+      ],
+      "proposals": [
+        {
+          "bbox": [
+            0.05868586787471065,
+            0.19562098185221355,
+            0.906345847800926,
+            0.7632325331370036
+          ],
+          "score": 0.41322151507284755
+        },
+        {
+          "bbox": [
+            0.017246454733389396,
+            0.044243685404459665,
+            0.9730579517505787,
+            0.9298965056737264
+          ],
+          "score": 0.3000675905326403
+        },
+        {
+          "bbox": [
+            0.4651609632703993,
+            0.30044418970743814,
+            0.7330140855577257,
+            0.9353137334187825
+          ],
+          "score": 0.22845678395636035
+        },
+        {
+          "bbox": [
+            0.19454797815393518,
+            0.23986617724100748,
+            0.8349509345160591,
+            0.6818079630533854
+          ],
+          "score": 0.19741421811795584
+        },
+        {
+          "bbox": [
+            0.47894603587962964,
+            0.33035236994425454,
+            0.6902955231843171,
+            0.6053714752197266
+          ],
+          "score": 0.15654823053695208
+        }
+      ],
+      "baseline": [
+        {
+          "id": "object-1",
+          "bbox": [
+            0.5403423733181424,
+            0.36107648213704424,
+            0.6282287032515914,
+            0.5783619562784831
+          ],
+          "score": 0.7877101290665857,
+          "detection_evidence": {},
+          "scale": null,
+          "color": null,
+          "evidence": {
+            "scale": {
+              "value": null,
+              "reason": "Outside development support or ambiguous",
+              "distance": 4.894630870791656,
+              "margin": 1.1095603816909172
+            },
+            "color": {
+              "value": null,
+              "reason": "Insufficient visible support"
+            }
+          },
+          "inscriptions": {
+            "status": "not requested",
+            "candidates": [],
+            "capacity": null,
+            "apparent_volume": null
+          },
+          "liquid_appearance": {
+            "status": "insufficient evidence",
+            "reason": "A colored liquid region could not be isolated.",
+            "lightness": null,
+            "opacity": null,
+            "opacity_reason": "A registered clear-barrel reference at the same exposure is required.",
+            "syringe_mask_score": 0.6299868822097778
+          },
+          "fill_level": {
+            "status": "insufficient evidence",
+            "reason": "Enable visible marking extraction to estimate fill."
+          },
+          "origin": "model"
+        }
+      ],
+      "health": {
+        "status": "available",
+        "primary_backend": "xpu",
+        "unavailable": [],
+        "review_needed": false
+      },
+      "time": 3.365989087993512
+    }
+  },
+  "completed": true,
+  "passed": true,
+  "scopes": {
+    "all": {
+      "passed": true,
+      "exact_counts_reproduced": true,
+      "baseline": {
+        "images": 23,
+        "objects": 48,
+        "tp": 39,
+        "fp": 4,
+        "fn": 9,
+        "precision": 0.9069767441860465,
+        "recall": 0.8125,
+        "f1": 0.8571428571428572,
+        "ap50": 0.7428045130094404,
+        "ap50_95": 0.45777105482255964,
+        "exact_count": 20,
+        "negative_images": 0,
+        "correct_empty": 0
+      },
+      "released": {
+        "images": 23,
+        "objects": 48,
+        "tp": 39,
+        "fp": 4,
+        "fn": 9,
+        "precision": 0.9069767441860465,
+        "recall": 0.8125,
+        "f1": 0.8571428571428572,
+        "ap50": 0.7428045130094404,
+        "ap50_95": 0.45777105482255964,
+        "exact_count": 20,
+        "negative_images": 0,
+        "correct_empty": 0
+      },
+      "recall_guard": {
+        "passed": true,
+        "lost_matches": [],
+        "recovered_matches": 0,
+        "baseline_matches": 39,
+        "candidate_matches": 39
+      },
+      "accepted_box_rank_only": true,
+      "missed_instances_in_review_proposals": {
+        "2": 2,
+        "5": 5
+      },
+      "mean_absolute_count_error": 0.21739130434782608,
+      "errors": {
+        "false_positives": [
+          {
+            "id": "abU6WlJF9aWAHoICBdFE",
+            "prediction": {
+              "id": "object-1",
+              "bbox": [
+                0.39694609465422453,
+                0.31432714462280276,
+                0.672373792860243,
+                0.7232885360717773
+              ],
+              "score": 0.9354760352604253,
+              "detection_evidence": {},
+              "scale": null,
+              "color": null,
+              "evidence": {
+                "scale": {
+                  "value": null,
+                  "reason": "Only detection and counting were requested."
+                },
+                "color": {
+                  "value": null,
+                  "reason": "Only detection and counting were requested."
+                }
+              },
+              "inscriptions": {
+                "status": "not requested",
+                "candidates": [],
+                "capacity": null,
+                "apparent_volume": null
+              },
+              "liquid_appearance": null,
+              "fill_level": {
+                "status": "insufficient evidence",
+                "reason": "Only detection and counting were requested."
+              },
+              "origin": "model"
+            },
+            "best_unmatched_iou": 0.03903608654709907
+          },
+          {
+            "id": "UxP8kr90cgqTrqpti0qw",
+            "prediction": {
+              "id": "object-1",
+              "bbox": [
+                0.3631825764973958,
+                0.12496289412180582,
+                0.5607162475585937,
+                0.7071680068969727
+              ],
+              "score": 0.9295496835589169,
+              "detection_evidence": {},
+              "scale": null,
+              "color": null,
+              "evidence": {
+                "scale": {
+                  "value": null,
+                  "reason": "Only detection and counting were requested."
+                },
+                "color": {
+                  "value": null,
+                  "reason": "Only detection and counting were requested."
+                }
+              },
+              "inscriptions": {
+                "status": "not requested",
+                "candidates": [],
+                "capacity": null,
+                "apparent_volume": null
+              },
+              "liquid_appearance": null,
+              "fill_level": {
+                "status": "insufficient evidence",
+                "reason": "Only detection and counting were requested."
+              },
+              "origin": "model"
+            },
+            "best_unmatched_iou": 0.0
+          },
+          {
+            "id": "gpkWGmq3Z9SFaeptYTPh",
+            "prediction": {
+              "id": "object-1",
+              "bbox": [
+                0.3831910592538339,
+                0.3465386072794596,
+                0.4730468467429832,
+                0.5670819918314616
+              ],
+              "score": 0.8533923821614712,
+              "detection_evidence": {},
+              "scale": null,
+              "color": null,
+              "evidence": {
+                "scale": {
+                  "value": null,
+                  "reason": "Only detection and counting were requested."
+                },
+                "color": {
+                  "value": null,
+                  "reason": "Only detection and counting were requested."
+                }
+              },
+              "inscriptions": {
+                "status": "not requested",
+                "candidates": [],
+                "capacity": null,
+                "apparent_volume": null
+              },
+              "liquid_appearance": null,
+              "fill_level": {
+                "status": "insufficient evidence",
+                "reason": "Only detection and counting were requested."
+              },
+              "origin": "model"
+            },
+            "best_unmatched_iou": 0.48577501634257914
+          },
+          {
+            "id": "jr20FHtsKJzKzcGrzaW6",
+            "prediction": {
+              "id": "object-1",
+              "bbox": [
+                0.21145365127664528,
+                0.6452613727284432,
+                0.2862810551725476,
+                0.7995473986306283
+              ],
+              "score": 0.7344018128283767,
+              "detection_evidence": {},
+              "scale": null,
+              "color": null,
+              "evidence": {
+                "scale": {
+                  "value": null,
+                  "reason": "Only detection and counting were requested."
+                },
+                "color": {
+                  "value": null,
+                  "reason": "Only detection and counting were requested."
+                }
+              },
+              "inscriptions": {
+                "status": "not requested",
+                "candidates": [],
+                "capacity": null,
+                "apparent_volume": null
+              },
+              "liquid_appearance": null,
+              "fill_level": {
+                "status": "insufficient evidence",
+                "reason": "Only detection and counting were requested."
+              },
+              "origin": "model"
+            },
+            "best_unmatched_iou": 0.42229379290538194
+          }
+        ],
+        "false_negatives": [
+          {
+            "id": "fr4KaYX2NdrKAcwFd4Sh",
+            "box": [
+              0.17773,
+              0.34375,
+              0.24414,
+              0.48611
+            ]
+          },
+          {
+            "id": "fr4KaYX2NdrKAcwFd4Sh",
+            "box": [
+              0.27734,
+              0.29861,
+              0.40234,
+              0.375
+            ]
+          },
+          {
+            "id": "fr4KaYX2NdrKAcwFd4Sh",
+            "box": [
+              0.2793,
+              0.35764,
+              0.39844,
+              0.44444
+            ]
+          },
+          {
+            "id": "Gu84gAdw3JXDHshiDkll",
+            "box": [
+              0.5,
+              0.43056,
+              0.56445,
+              0.59028
+            ]
+          },
+          {
+            "id": "jr20FHtsKJzKzcGrzaW6",
+            "box": [
+              0.16797,
+              0.64583,
+              0.2793,
+              0.85764
+            ]
+          },
+          {
+            "id": "CrJcZCeB4ZWH4gQXgTe0",
+            "box": [
+              0.17969,
+              0.20833,
+              0.24219,
+              0.35417
+            ]
+          },
+          {
+            "id": "gpkWGmq3Z9SFaeptYTPh",
+            "box": [
+              0.36066,
+              0.31797,
+              0.5082,
+              0.59447
+            ]
+          },
+          {
+            "id": "UxP8kr90cgqTrqpti0qw",
+            "box": [
+              0.09016,
+              0.11982,
+              0.31967,
+              0.7235
+            ]
+          },
+          {
+            "id": "abU6WlJF9aWAHoICBdFE",
+            "box": [
+              0.13934,
+              0.30876,
+              0.41803,
+              0.72811
+            ]
+          }
+        ]
+      },
+      "counts": {
+        "fr4KaYX2NdrKAcwFd4Sh": {
+          "reference": 6,
+          "before": 3,
+          "actual": 3
+        },
+        "Gu84gAdw3JXDHshiDkll": {
+          "reference": 6,
+          "before": 5,
+          "actual": 5
+        },
+        "cAH0yS3Ek6AXSKQFTBij": {
+          "reference": 6,
+          "before": 6,
+          "actual": 6
+        },
+        "jr20FHtsKJzKzcGrzaW6": {
+          "reference": 6,
+          "before": 6,
+          "actual": 6
+        },
+        "CrJcZCeB4ZWH4gQXgTe0": {
+          "reference": 6,
+          "before": 5,
+          "actual": 5
+        },
+        "o9AYkyLGkkJAojPxdift": {
+          "reference": 1,
+          "before": 1,
+          "actual": 1
+        },
+        "FZF2KIrTmT8m7knJ9kE6": {
+          "reference": 1,
+          "before": 1,
+          "actual": 1
+        },
+        "g3F5OKZHw8L86xNEcMxy": {
+          "reference": 1,
+          "before": 1,
+          "actual": 1
+        },
+        "gpkWGmq3Z9SFaeptYTPh": {
+          "reference": 1,
+          "before": 1,
+          "actual": 1
+        },
+        "1yxvIQVR5Vw1SC72PT3s": {
+          "reference": 1,
+          "before": 1,
+          "actual": 1
+        },
+        "XmkgUaQylXde9DBya7wc": {
+          "reference": 1,
+          "before": 1,
+          "actual": 1
+        },
+        "UxP8kr90cgqTrqpti0qw": {
+          "reference": 1,
+          "before": 1,
+          "actual": 1
+        },
+        "OTbTwloPcV4T8QdOV5VU": {
+          "reference": 1,
+          "before": 1,
+          "actual": 1
+        },
+        "iHVnBznVS26Sw7QmoHnw": {
+          "reference": 1,
+          "before": 1,
+          "actual": 1
+        },
+        "QRR4A3cC2VjJf5K914hZ": {
+          "reference": 1,
+          "before": 1,
+          "actual": 1
+        },
+        "abU6WlJF9aWAHoICBdFE": {
+          "reference": 1,
+          "before": 1,
+          "actual": 1
+        },
+        "J1IEnqIuv3wf5ASu2Eoe": {
+          "reference": 1,
+          "before": 1,
+          "actual": 1
+        },
+        "51d8xdDRo1ax8DP16RUk": {
+          "reference": 1,
+          "before": 1,
+          "actual": 1
+        },
+        "AM0xCgiooqXHYmoktJC3": {
+          "reference": 1,
+          "before": 1,
+          "actual": 1
+        },
+        "RfvUNxOIFEQ3zkChtCOr": {
+          "reference": 1,
+          "before": 1,
+          "actual": 1
+        },
+        "fwWFOHCBJuheupAYRxwJ": {
+          "reference": 1,
+          "before": 1,
+          "actual": 1
+        },
+        "coTNVlK0faqmtQuZLK4F": {
+          "reference": 1,
+          "before": 1,
+          "actual": 1
+        },
+        "YeamwalY1KG8aKOY8miG": {
+          "reference": 1,
+          "before": 1,
+          "actual": 1
+        }
+      }
+    },
+    "multi": {
+      "passed": true,
+      "exact_counts_reproduced": true,
+      "baseline": {
+        "images": 5,
+        "objects": 30,
+        "tp": 24,
+        "fp": 1,
+        "fn": 6,
+        "precision": 0.96,
+        "recall": 0.8,
+        "f1": 0.8727272727272728,
+        "ap50": 0.7861386138613862,
+        "ap50_95": 0.661874004317725,
+        "exact_count": 2,
+        "negative_images": 0,
+        "correct_empty": 0
+      },
+      "released": {
+        "images": 5,
+        "objects": 30,
+        "tp": 24,
+        "fp": 1,
+        "fn": 6,
+        "precision": 0.96,
+        "recall": 0.8,
+        "f1": 0.8727272727272728,
+        "ap50": 0.7861386138613862,
+        "ap50_95": 0.661874004317725,
+        "exact_count": 2,
+        "negative_images": 0,
+        "correct_empty": 0
+      },
+      "recall_guard": {
+        "passed": true,
+        "lost_matches": [],
+        "recovered_matches": 0,
+        "baseline_matches": 24,
+        "candidate_matches": 24
+      },
+      "accepted_box_rank_only": true,
+      "missed_instances_in_review_proposals": {
+        "2": 2,
+        "5": 4
+      },
+      "mean_absolute_count_error": 1,
+      "errors": {
+        "false_positives": [
+          {
+            "id": "jr20FHtsKJzKzcGrzaW6",
+            "prediction": {
+              "id": "object-1",
+              "bbox": [
+                0.21145365127664528,
+                0.6452613727284432,
+                0.2862810551725476,
+                0.7995473986306283
+              ],
+              "score": 0.7344018128283767,
+              "detection_evidence": {},
+              "scale": null,
+              "color": null,
+              "evidence": {
+                "scale": {
+                  "value": null,
+                  "reason": "Only detection and counting were requested."
+                },
+                "color": {
+                  "value": null,
+                  "reason": "Only detection and counting were requested."
+                }
+              },
+              "inscriptions": {
+                "status": "not requested",
+                "candidates": [],
+                "capacity": null,
+                "apparent_volume": null
+              },
+              "liquid_appearance": null,
+              "fill_level": {
+                "status": "insufficient evidence",
+                "reason": "Only detection and counting were requested."
+              },
+              "origin": "model"
+            },
+            "best_unmatched_iou": 0.42229379290538194
+          }
+        ],
+        "false_negatives": [
+          {
+            "id": "fr4KaYX2NdrKAcwFd4Sh",
+            "box": [
+              0.17773,
+              0.34375,
+              0.24414,
+              0.48611
+            ]
+          },
+          {
+            "id": "fr4KaYX2NdrKAcwFd4Sh",
+            "box": [
+              0.27734,
+              0.29861,
+              0.40234,
+              0.375
+            ]
+          },
+          {
+            "id": "fr4KaYX2NdrKAcwFd4Sh",
+            "box": [
+              0.2793,
+              0.35764,
+              0.39844,
+              0.44444
+            ]
+          },
+          {
+            "id": "Gu84gAdw3JXDHshiDkll",
+            "box": [
+              0.5,
+              0.43056,
+              0.56445,
+              0.59028
+            ]
+          },
+          {
+            "id": "jr20FHtsKJzKzcGrzaW6",
+            "box": [
+              0.16797,
+              0.64583,
+              0.2793,
+              0.85764
+            ]
+          },
+          {
+            "id": "CrJcZCeB4ZWH4gQXgTe0",
+            "box": [
+              0.17969,
+              0.20833,
+              0.24219,
+              0.35417
+            ]
+          }
+        ]
+      },
+      "counts": {
+        "fr4KaYX2NdrKAcwFd4Sh": {
+          "reference": 6,
+          "before": 3,
+          "actual": 3
+        },
+        "Gu84gAdw3JXDHshiDkll": {
+          "reference": 6,
+          "before": 5,
+          "actual": 5
+        },
+        "cAH0yS3Ek6AXSKQFTBij": {
+          "reference": 6,
+          "before": 6,
+          "actual": 6
+        },
+        "jr20FHtsKJzKzcGrzaW6": {
+          "reference": 6,
+          "before": 6,
+          "actual": 6
+        },
+        "CrJcZCeB4ZWH4gQXgTe0": {
+          "reference": 6,
+          "before": 5,
+          "actual": 5
+        }
+      }
+    },
+    "single": {
+      "passed": true,
+      "exact_counts_reproduced": true,
+      "baseline": {
+        "images": 18,
+        "objects": 18,
+        "tp": 15,
+        "fp": 3,
+        "fn": 3,
+        "precision": 0.8333333333333334,
+        "recall": 0.8333333333333334,
+        "f1": 0.8333333333333334,
+        "ap50": 0.7329090051862328,
+        "ap50_95": 0.3444242556123744,
+        "exact_count": 18,
+        "negative_images": 0,
+        "correct_empty": 0
+      },
+      "released": {
+        "images": 18,
+        "objects": 18,
+        "tp": 15,
+        "fp": 3,
+        "fn": 3,
+        "precision": 0.8333333333333334,
+        "recall": 0.8333333333333334,
+        "f1": 0.8333333333333334,
+        "ap50": 0.7329090051862328,
+        "ap50_95": 0.34248506169298243,
+        "exact_count": 18,
+        "negative_images": 0,
+        "correct_empty": 0
+      },
+      "recall_guard": {
+        "passed": true,
+        "lost_matches": [],
+        "recovered_matches": 0,
+        "baseline_matches": 15,
+        "candidate_matches": 15
+      },
+      "accepted_box_rank_only": true,
+      "missed_instances_in_review_proposals": {
+        "2": 0,
+        "5": 1
+      },
+      "mean_absolute_count_error": 0,
+      "errors": {
+        "false_positives": [
+          {
+            "id": "abU6WlJF9aWAHoICBdFE",
+            "prediction": {
+              "id": "object-1",
+              "bbox": [
+                0.39694609465422453,
+                0.31432714462280276,
+                0.672373792860243,
+                0.7232885360717773
+              ],
+              "score": 0.9354760352604253,
+              "detection_evidence": {},
+              "scale": null,
+              "color": null,
+              "evidence": {
+                "scale": {
+                  "value": null,
+                  "reason": "Only detection and counting were requested."
+                },
+                "color": {
+                  "value": null,
+                  "reason": "Only detection and counting were requested."
+                }
+              },
+              "inscriptions": {
+                "status": "not requested",
+                "candidates": [],
+                "capacity": null,
+                "apparent_volume": null
+              },
+              "liquid_appearance": null,
+              "fill_level": {
+                "status": "insufficient evidence",
+                "reason": "Only detection and counting were requested."
+              },
+              "origin": "model"
+            },
+            "best_unmatched_iou": 0.03903608654709907
+          },
+          {
+            "id": "UxP8kr90cgqTrqpti0qw",
+            "prediction": {
+              "id": "object-1",
+              "bbox": [
+                0.3631825764973958,
+                0.12496289412180582,
+                0.5607162475585937,
+                0.7071680068969727
+              ],
+              "score": 0.9295496835589169,
+              "detection_evidence": {},
+              "scale": null,
+              "color": null,
+              "evidence": {
+                "scale": {
+                  "value": null,
+                  "reason": "Only detection and counting were requested."
+                },
+                "color": {
+                  "value": null,
+                  "reason": "Only detection and counting were requested."
+                }
+              },
+              "inscriptions": {
+                "status": "not requested",
+                "candidates": [],
+                "capacity": null,
+                "apparent_volume": null
+              },
+              "liquid_appearance": null,
+              "fill_level": {
+                "status": "insufficient evidence",
+                "reason": "Only detection and counting were requested."
+              },
+              "origin": "model"
+            },
+            "best_unmatched_iou": 0.0
+          },
+          {
+            "id": "gpkWGmq3Z9SFaeptYTPh",
+            "prediction": {
+              "id": "object-1",
+              "bbox": [
+                0.3831910592538339,
+                0.3465386072794596,
+                0.4730468467429832,
+                0.5670819918314616
+              ],
+              "score": 0.8533923821614712,
+              "detection_evidence": {},
+              "scale": null,
+              "color": null,
+              "evidence": {
+                "scale": {
+                  "value": null,
+                  "reason": "Only detection and counting were requested."
+                },
+                "color": {
+                  "value": null,
+                  "reason": "Only detection and counting were requested."
+                }
+              },
+              "inscriptions": {
+                "status": "not requested",
+                "candidates": [],
+                "capacity": null,
+                "apparent_volume": null
+              },
+              "liquid_appearance": null,
+              "fill_level": {
+                "status": "insufficient evidence",
+                "reason": "Only detection and counting were requested."
+              },
+              "origin": "model"
+            },
+            "best_unmatched_iou": 0.48577501634257914
+          }
+        ],
+        "false_negatives": [
+          {
+            "id": "gpkWGmq3Z9SFaeptYTPh",
+            "box": [
+              0.36066,
+              0.31797,
+              0.5082,
+              0.59447
+            ]
+          },
+          {
+            "id": "UxP8kr90cgqTrqpti0qw",
+            "box": [
+              0.09016,
+              0.11982,
+              0.31967,
+              0.7235
+            ]
+          },
+          {
+            "id": "abU6WlJF9aWAHoICBdFE",
+            "box": [
+              0.13934,
+              0.30876,
+              0.41803,
+              0.72811
+            ]
+          }
+        ]
+      },
+      "counts": {
+        "o9AYkyLGkkJAojPxdift": {
+          "reference": 1,
+          "before": 1,
+          "actual": 1
+        },
+        "FZF2KIrTmT8m7knJ9kE6": {
+          "reference": 1,
+          "before": 1,
+          "actual": 1
+        },
+        "g3F5OKZHw8L86xNEcMxy": {
+          "reference": 1,
+          "before": 1,
+          "actual": 1
+        },
+        "gpkWGmq3Z9SFaeptYTPh": {
+          "reference": 1,
+          "before": 1,
+          "actual": 1
+        },
+        "1yxvIQVR5Vw1SC72PT3s": {
+          "reference": 1,
+          "before": 1,
+          "actual": 1
+        },
+        "XmkgUaQylXde9DBya7wc": {
+          "reference": 1,
+          "before": 1,
+          "actual": 1
+        },
+        "UxP8kr90cgqTrqpti0qw": {
+          "reference": 1,
+          "before": 1,
+          "actual": 1
+        },
+        "OTbTwloPcV4T8QdOV5VU": {
+          "reference": 1,
+          "before": 1,
+          "actual": 1
+        },
+        "iHVnBznVS26Sw7QmoHnw": {
+          "reference": 1,
+          "before": 1,
+          "actual": 1
+        },
+        "QRR4A3cC2VjJf5K914hZ": {
+          "reference": 1,
+          "before": 1,
+          "actual": 1
+        },
+        "abU6WlJF9aWAHoICBdFE": {
+          "reference": 1,
+          "before": 1,
+          "actual": 1
+        },
+        "J1IEnqIuv3wf5ASu2Eoe": {
+          "reference": 1,
+          "before": 1,
+          "actual": 1
+        },
+        "51d8xdDRo1ax8DP16RUk": {
+          "reference": 1,
+          "before": 1,
+          "actual": 1
+        },
+        "AM0xCgiooqXHYmoktJC3": {
+          "reference": 1,
+          "before": 1,
+          "actual": 1
+        },
+        "RfvUNxOIFEQ3zkChtCOr": {
+          "reference": 1,
+          "before": 1,
+          "actual": 1
+        },
+        "fwWFOHCBJuheupAYRxwJ": {
+          "reference": 1,
+          "before": 1,
+          "actual": 1
+        },
+        "coTNVlK0faqmtQuZLK4F": {
+          "reference": 1,
+          "before": 1,
+          "actual": 1
+        },
+        "YeamwalY1KG8aKOY8miG": {
+          "reference": 1,
+          "before": 1,
+          "actual": 1
+        }
+      }
+    }
+  },
+  "warm_median_seconds": 2.9858427354993182
+}

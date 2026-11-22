@@ -1,0 +1,173 @@
+{
+  "source": "ff898c2761f33f32f88a0db76a9467525966c547c61d5a1732dd6ce13d72325d",
+  "rows": [
+    {
+      "id": "commons-154897844",
+      "image": "data/public-web-collection/images/commons-154897844.jpg",
+      "sha256": "d53570e20978296904b8abedf538e2e6d26a6c148dc3b3cc546e9a439cc1c594",
+      "group": "public-author:u.s. army photo by maj. robert fellingham",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Second_COVID_vaccine_dose_prepares_Cougar_Battalion_for_Defender_Europe_21_(6541941).jpg",
+      "individual_rights": "individual source verified",
+      "count": 0,
+      "note": "No countable syringe is visible in this clinical registration scene.",
+      "decision": "fit group negative retained"
+    },
+    {
+      "id": "commons-197653421",
+      "image": "data/public-annotated-collection/images/commons-197653421.jpg",
+      "sha256": "b5f511e7ec67299ead78bbaa3061636e73021df6ac96517989c96d93e9ab926a",
+      "group": "commons:madel candido",
+      "source_url": "https://commons.wikimedia.org/wiki/File:COVID_19_Vaccination_in_Zamboanga_City.jpg",
+      "individual_rights": "individual source verified",
+      "count": 0,
+      "note": "No syringe is visible in the vaccination portrait.",
+      "decision": "fit group negative retained"
+    },
+    {
+      "id": "commons-53168121",
+      "image": "data/public-web-collection/images/commons-53168121.jpg",
+      "sha256": "1bce2cc1d65adf894fae72a3603c2656f8740e7526d1632a62b1617e444147ea",
+      "group": "public-author:david adam kess",
+      "source_url": "https://commons.wikimedia.org/wiki/File:A_black_and_white_photograph_Porsche,_Cayman_S,_rear_lettering,_The_Cayman_S_draws_its_agility_from_a_3.4-litre_flat-six_engine_with_direct_fuel_injection_Photography_by_David_Adam_Kess.jpg",
+      "individual_rights": "individual source verified",
+      "count": 0,
+      "note": "Car lettering with no device. Easy background negative.",
+      "decision": "fit group negative retained"
+    },
+    {
+      "id": "commons-651990",
+      "image": "data/public-annotated-collection/images/commons-651990.jpg",
+      "sha256": "2e7f541f37b7e26df5d9ac965a8d020a6384dbd51ae7907639cbe2e12875bb0c",
+      "group": "commons:fifo",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Hypodermic_needle_with_needle_cap_2.jpeg",
+      "individual_rights": "individual source verified",
+      "count": 0,
+      "note": "Detached needles and their cap. Hard part-only negative.",
+      "decision": "fit group negative retained"
+    },
+    {
+      "id": "commons-82792522",
+      "image": "data/public-web-collection/images/commons-82792522.jpg",
+      "sha256": "cd5886198b996728c1af994d4a31edbe5e7e9d89b1fa7f180bdeee3c79ef5547",
+      "group": "public-author:romainbehar",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Bron_-_CERMEP_-_%C3%89tiquette,_mise_en_seringue.jpg",
+      "individual_rights": "individual source verified",
+      "count": 0,
+      "note": "A door sign refers to syringes. No device is visible.",
+      "decision": "fit group negative retained"
+    },
+    {
+      "id": "commons-8398651",
+      "image": "data/public-web-collection/images/commons-8398651.jpg",
+      "sha256": "bc1878f7ace53a6038fc1e82823c2fb79f8abdc98e477ca15615318d8ae2dfd1",
+      "group": "public-author:jejecam",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Transporte-seringues_plomb%C3%A9.jpg",
+      "individual_rights": "individual source verified",
+      "count": 0,
+      "note": "Multiple closed syringe transport cases. No device is visible.",
+      "decision": "fit group negative retained"
+    },
+    {
+      "id": "commons-8685048",
+      "image": "data/public-annotated-collection/images/commons-8685048.jpg",
+      "sha256": "056bda0c8d4dc8d66834a72a3050fbfcb49cad4b261622466f78ee72dd8ab413",
+      "group": "commons:politikaner",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Beveled_tip_of_a_hypodermic_needle_20090714_002.JPG",
+      "individual_rights": "individual source verified",
+      "count": 0,
+      "note": "Detached needle tip without barrel or plunger. Hard part-only negative.",
+      "decision": "fit group negative retained"
+    },
+    {
+      "id": "QxPD1f0UcIGZAjThZz1k",
+      "image": "data/public-syringe-dataset/images/QxPD1f0UcIGZAjThZz1k.jpg",
+      "sha256": "6976f6dfd88ff9c61ce486988537d97c139315e5e109a98b91d6e04cdb3a5eab",
+      "group": "https://universe.roboflow.com/giancarlo-millan/gloves-pill-wrapper-and-syringe",
+      "source_url": "https://universe.roboflow.com/giancarlo-millan/gloves-pill-wrapper-and-syringe",
+      "individual_rights": "publisher declared",
+      "count": 2,
+      "note": "Two distinct clear barrels in contact next to a screwdriver.",
+      "decision": "geometry retained, item creator or original source unresolved"
+    },
+    {
+      "id": "gOTjoBD38tL678nEntTa",
+      "image": "data/public-syringe-dataset/images/gOTjoBD38tL678nEntTa.jpg",
+      "sha256": "d028f8135688b1c313d652c9c21f0ca5db10e97048d68422b6b9c32a1ee9ad0d",
+      "group": "https://universe.roboflow.com/tai-qompv/stage-1-klug2",
+      "source_url": "https://universe.roboflow.com/tai-qompv/stage-1-klug2",
+      "individual_rights": "publisher declared",
+      "count": 3,
+      "note": "Three clear, closely spaced bodies with distinct plungers on cyan. Stock-style origin unresolved.",
+      "decision": "geometry retained, item creator or original source unresolved"
+    },
+    {
+      "id": "1hGL1WkNQ7NT3PR2E2hh",
+      "image": "data/public-syringe-dataset/images/1hGL1WkNQ7NT3PR2E2hh.jpg",
+      "sha256": "4048f463dbc5e4e6e6e833ed116b451b85a6a0f15822af255bc2203e7fea7f5e",
+      "group": "https://universe.roboflow.com/tai-qompv/stage-1-klug2",
+      "source_url": "https://universe.roboflow.com/tai-qompv/stage-1-klug2",
+      "individual_rights": "publisher declared",
+      "count": 3,
+      "note": "Three horizontally aligned orange-capped devices. Stock-style origin unresolved.",
+      "decision": "geometry retained, item creator or original source unresolved"
+    },
+    {
+      "id": "3goHYbmmDXIhTLhWPXJR",
+      "image": "data/public-syringe-dataset/images/3goHYbmmDXIhTLhWPXJR.jpg",
+      "sha256": "4f068aff4881a2187fd1631479a52e23c5573b6d706805b7ef6558620d38b3e3",
+      "group": "https://universe.roboflow.com/tai-qompv/stage-1-klug2",
+      "source_url": "https://universe.roboflow.com/tai-qompv/stage-1-klug2",
+      "individual_rights": "publisher declared",
+      "count": 12,
+      "note": "Twelve visually distinct vertical devices, already sampled in the blind geometry audit.",
+      "decision": "geometry retained, item creator or original source unresolved"
+    },
+    {
+      "id": "3SyRXjcIsD87JRJlDYUL",
+      "image": "data/public-syringe-dataset/images/3SyRXjcIsD87JRJlDYUL.jpg",
+      "sha256": "471c854f8651cb7f013105c850aefa6462726a6666fbcc3daab0a040c770861d",
+      "group": "https://universe.roboflow.com/tai-qompv/stage-1-klug2",
+      "source_url": "https://universe.roboflow.com/tai-qompv/stage-1-klug2",
+      "individual_rights": "publisher declared",
+      "count": 3,
+      "note": "Three slender capped devices aligned on a yellow background.",
+      "decision": "geometry retained, item creator or original source unresolved"
+    },
+    {
+      "id": "512SZZUSSBPBgmt2SxP6",
+      "image": "data/public-syringe-dataset/images/512SZZUSSBPBgmt2SxP6.jpg",
+      "sha256": "8c8e6150845b617c158b1cceec9774aefe333c311f3fb8dc47a61bb58d6bc145",
+      "group": "https://universe.roboflow.com/giancarlo-millan/gloves-pill-wrapper-and-syringe",
+      "source_url": "https://universe.roboflow.com/giancarlo-millan/gloves-pill-wrapper-and-syringe",
+      "individual_rights": "publisher declared",
+      "count": 2,
+      "note": "Two overlapping clear bodies with visible separate flanges.",
+      "decision": "geometry retained, item creator or original source unresolved"
+    },
+    {
+      "id": "6Opf8kKlqZKLU8F4GvVJ",
+      "image": "data/public-syringe-dataset/images/6Opf8kKlqZKLU8F4GvVJ.jpg",
+      "sha256": "78ef3aa6be297868f20677841b55fc243d011d2485a766ef90f26c6d374a0417",
+      "group": "https://universe.roboflow.com/tai-qompv/stage-1-klug2",
+      "source_url": "https://universe.roboflow.com/tai-qompv/stage-1-klug2",
+      "individual_rights": "publisher declared",
+      "count": 6,
+      "note": "Six narrow bodies with red plungers, already sampled in the blind geometry audit.",
+      "decision": "geometry retained, item creator or original source unresolved"
+    }
+  ],
+  "publisher_project_receipts": {
+    "tai-qompv/stage-1-klug2": {
+      "public": true,
+      "catalog_images": 961,
+      "original_image_credit": false
+    },
+    "giancarlo-millan/gloves-pill-wrapper-and-syringe": {
+      "public": true,
+      "catalog_images": 1571,
+      "original_image_credit": false
+    }
+  },
+  "method": "Visual overlay on the 14 local files and read-only public project metadata. Project metadata verifies publication, with no original-photo link for these cases.",
+  "new_fit_admissions": 0
+}

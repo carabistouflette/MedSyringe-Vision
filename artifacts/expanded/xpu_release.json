@@ -2,9 +2,9 @@
   "id": "intel-grounding-dino",
   "code": {
     "scripts/expanded_runtime_pair.py": "c865de6532341b4d60a7d10df45f33228c08f71ad26405b13fee3fef83d97ab6",
-    "medsyringe/inference.py": "4a52c2d5ed16d473a99d12b013c64dfed4bf73c7a7b5c83b5a3db58545c0b568",
+    "medsyringe/inference.py": "84c15036368ccc811821853abe51adcdd007e159817f3160e5daaba162bd09eb",
     "medsyringe/xpu_grounding.py": "66c4871759baa178c9b7886d1328b3eecfbd3331d6435d6749acd42d830e4f8c",
-    "medsyringe/grounding_backend.py": "cfa248d3ff230f36d54b1c67247a03110da466e19a50b22acf9ed8bd6a286ede"
+    "medsyringe/grounding_backend.py": "9cb7f69e5827778945841e51093229ca573811b5462671920131142b3c222281"
   },
   "evidence": "artifacts/expanded/runtime_pair.json",
   "evidence_sha256": "43d2f83a0068da812d2a110a869bbc07a60002b99446c6f4eb84ef93c533c03c",
@@ -18,8 +18,8 @@
     "sam3_sha256": "dcd7f0c1262cbdafed1915ab6e20adbbab58bf5739e07d2a8fbcc6338769dc30",
     "marking_sha256": "8cfc9bf9e707d5f1457474c927bc2e42a61e391198849f39fa810e928218cb2c",
     "liquid_sha256": "3d63ef06a07b4ff095aa227abb8c3d61df09bc3522fdccb1a168aef4e38c4d46",
-    "expanded_sha256": "0b99b829602968349c343ea58a7a4ba7def74ac5aaa35a3bbffad0a5e74cb8be",
-    "fill_sha256": "bf0e4db95fe1bb58625e61c07b12d6f9ffebe527f7bfc2b124dc87634b8c9772"
+    "expanded_sha256": "2a81b253ecf24e402db6c4d32a4a49d4912580e997776cc09b3639bff0740e53",
+    "fill_sha256": "ff15c5d32ad634d180487a94a003a7cd12dadf6759d3b0092be85c46c6b43daa"
   },
   "packages": {
     "torch": "2.9.1+xpu",

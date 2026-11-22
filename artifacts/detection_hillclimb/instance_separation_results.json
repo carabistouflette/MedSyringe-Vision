@@ -1,0 +1,4401 @@
+{
+  "policy": "c9baf2fe7b732992800b74e3078b7a4bb6232c5f1abc70b84f9fff4b3680578d",
+  "inputs": {
+    "artifacts/detection_hillclimb/instance_separation_reserve.json": "396d8e97e9f2322b345ac5f10cf091df46d334f3e3a1931a12c8b286d47e124d",
+    "data/instance-separation/released.json": "da5d6370b8ffed3706dd7a602fa1e292c127a00f02b24299f83b3f17d46cd248",
+    "data/instance-separation/proposals.json": "8b20e9cf388914b17b90e5563fd60d0272c99fd0b212a2643fe2dbe2e460ea91"
+  },
+  "previous_inputs": {
+    "artifacts/detection_hillclimb/relocalization_selector_reserve.json": "2171e145967b51d76960d4277e63e1f0dea12bd824a3b678f95396d9095b219d",
+    "data/relocalization-selector/released.json": "ccd3dfe34ac731b68a50a786ed94f821104b02dbc3d9e57fb37ec1d163bc0b8e",
+    "data/relocalization-selector/proposals.json": "0b5350e949218857cc4b590295e6e32ec84beb7ec7ab999e0e6f4d60fdd7355f"
+  },
+  "archive": {
+    "baseline": {
+      "images": 18,
+      "objects": 20,
+      "threshold": 0.0,
+      "tp": 4,
+      "fp": 4,
+      "fn": 16,
+      "precision": 0.5,
+      "recall": 0.2,
+      "f1": 0.28571428571428575,
+      "ap50": 0.19801980198019803,
+      "ap50_95": 0.13386138613861387,
+      "ap_by_iou": {
+        "0.50": 0.19801980198019803,
+        "0.55": 0.19801980198019803,
+        "0.60": 0.19801980198019803,
+        "0.65": 0.19801980198019803,
+        "0.70": 0.19801980198019803,
+        "0.75": 0.19801980198019803,
+        "0.80": 0.04356435643564357,
+        "0.85": 0.04356435643564357,
+        "0.90": 0.04356435643564357,
+        "0.95": 0.019801980198019802
+      },
+      "exact_count": 12,
+      "negative_images": 8,
+      "correct_empty": 7,
+      "images_with_only_below_threshold_proposals": 0,
+      "false_positives": [
+        {
+          "id": "assembly-6900270",
+          "prediction": {
+            "id": "object-1",
+            "bbox": [
+              0.7646506958007813,
+              0.343044160902947,
+              0.8469259643554687,
+              0.6039781470348811
+            ],
+            "score": 0.7731277069167021,
+            "detection_evidence": {},
+            "scale": "60-scale",
+            "color": null,
+            "evidence": {
+              "scale": {
+                "value": "60-scale",
+                "distance": 1.975507072586146,
+                "margin": 1.412609085952967,
+                "reason": "Experimental suggestion from the object crop"
+              },
+              "color": {
+                "value": null,
+                "reason": "Outside development support or ambiguous",
+                "distance": 9.437797838991944,
+                "margin": 1.2055994707632252
+              }
+            },
+            "inscriptions": {
+              "status": "not requested",
+              "candidates": [],
+              "capacity": null,
+              "apparent_volume": null
+            },
+            "liquid_appearance": {
+              "status": "insufficient evidence",
+              "reason": "The syringe mask could not be validated.",
+              "lightness": null,
+              "opacity": null,
+              "opacity_reason": "A registered clear-barrel reference at the same exposure is required."
+            },
+            "fill_level": {
+              "status": "insufficient evidence",
+              "reason": "Enable visible marking extraction to estimate fill."
+            },
+            "origin": "model"
+          },
+          "best_unmatched_iou": 0.4190110335752325
+        },
+        {
+          "id": "dvids-8948275",
+          "prediction": {
+            "id": "object-1",
+            "bbox": [
+              0.25511654663085936,
+              0.11724686686197916,
+              0.7153447875976563,
+              0.670108154296875
+            ],
+            "score": 0.7284521591347685,
+            "detection_evidence": {},
+            "scale": null,
+            "color": null,
+            "evidence": {
+              "scale": {
+                "value": null,
+                "reason": "Outside development support or ambiguous",
+                "distance": 6.466910478083923,
+                "margin": 0.08646863812121897
+              },
+              "color": {
+                "value": null,
+                "reason": "Outside development support or ambiguous",
+                "distance": 8.511701591435617,
+                "margin": 0.01887565045501738
+              }
+            },
+            "inscriptions": {
+              "status": "not requested",
+              "candidates": [],
+              "capacity": null,
+              "apparent_volume": null
+            },
+            "liquid_appearance": {
+              "status": "insufficient evidence",
+              "reason": "The syringe mask could not be validated.",
+              "lightness": null,
+              "opacity": null,
+              "opacity_reason": "A registered clear-barrel reference at the same exposure is required."
+            },
+            "fill_level": {
+              "status": "insufficient evidence",
+              "reason": "Enable visible marking extraction to estimate fill."
+            },
+            "origin": "model"
+          },
+          "best_unmatched_iou": 0.42020787757458067
+        },
+        {
+          "id": "crop-reserve-10052835",
+          "prediction": {
+            "id": "object-1",
+            "bbox": [
+              0.657825439453125,
+              0.1175828319872937,
+              0.7377420043945313,
+              0.30111820252426386
+            ],
+            "score": 0.7279009490958182,
+            "detection_evidence": {},
+            "scale": "60-scale",
+            "color": null,
+            "evidence": {
+              "scale": {
+                "value": "60-scale",
+                "distance": 2.247624145543795,
+                "margin": 0.9365006876172877,
+                "reason": "Experimental suggestion from the object crop"
+              },
+              "color": {
+                "value": null,
+                "reason": "Insufficient visible support"
+              }
+            },
+            "inscriptions": {
+              "status": "not requested",
+              "candidates": [],
+              "capacity": null,
+              "apparent_volume": null
+            },
+            "liquid_appearance": {
+              "status": "insufficient evidence",
+              "reason": "The syringe mask could not be validated.",
+              "lightness": null,
+              "opacity": null,
+              "opacity_reason": "A registered clear-barrel reference at the same exposure is required."
+            },
+            "fill_level": {
+              "status": "insufficient evidence",
+              "reason": "Enable visible marking extraction to estimate fill."
+            },
+            "origin": "model"
+          },
+          "best_unmatched_iou": 0
+        },
+        {
+          "id": "dvids-8711851",
+          "prediction": {
+            "id": "object-1",
+            "bbox": [
+              0.4517770080566406,
+              0.12058362458881577,
+              0.5455697631835937,
+              0.7806560315583881
+            ],
+            "score": 0.7060874309863525,
+            "detection_evidence": {},
+            "scale": null,
+            "color": null,
+            "evidence": {
+              "scale": {
+                "value": null,
+                "reason": "Outside development support or ambiguous",
+                "distance": 3.2727406353387183,
+                "margin": 0.052456857043268634
+              },
+              "color": {
+                "value": null,
+                "reason": "Outside development support or ambiguous",
+                "distance": 6.2059502888518585,
+                "margin": 0.44066861802907553
+              }
+            },
+            "inscriptions": {
+              "status": "not requested",
+              "candidates": [],
+              "capacity": null,
+              "apparent_volume": null
+            },
+            "liquid_appearance": {
+              "status": "insufficient evidence",
+              "reason": "The syringe mask could not be validated.",
+              "lightness": null,
+              "opacity": null,
+              "opacity_reason": "A registered clear-barrel reference at the same exposure is required."
+            },
+            "fill_level": {
+              "status": "insufficient evidence",
+              "reason": "Enable visible marking extraction to estimate fill."
+            },
+            "origin": "model"
+          },
+          "best_unmatched_iou": 0.4834084137008621
+        }
+      ],
+      "false_negatives": [
+        {
+          "id": "dvids-8711851",
+          "box": [
+            0.454,
+            0.12330827067669173,
+            0.516,
+            0.606015037593985
+          ]
+        },
+        {
+          "id": "dvids-8711851",
+          "box": [
+            0.04,
+            0.3112781954887218,
+            0.116,
+            0.6390977443609023
+          ]
+        },
+        {
+          "id": "dvids-8711851",
+          "box": [
+            0.068,
+            0.29172932330827067,
+            0.133,
+            0.6541353383458647
+          ]
+        },
+        {
+          "id": "dvids-8711851",
+          "box": [
+            0.089,
+            0.2781954887218045,
+            0.143,
+            0.6195488721804512
+          ]
+        },
+        {
+          "id": "dvids-8711851",
+          "box": [
+            0.13,
+            0.2857142857142857,
+            0.163,
+            0.6270676691729323
+          ]
+        },
+        {
+          "id": "dvids-8711851",
+          "box": [
+            0.67,
+            0.8240601503759398,
+            0.787,
+            1.0
+          ]
+        },
+        {
+          "id": "dvids-8711851",
+          "box": [
+            0.717,
+            0.8390977443609022,
+            0.85,
+            1.0
+          ]
+        },
+        {
+          "id": "dvids-8711851",
+          "box": [
+            0.778,
+            0.8586466165413534,
+            0.906,
+            1.0
+          ]
+        },
+        {
+          "id": "dvids-8711851",
+          "box": [
+            0.842,
+            0.8962406015037594,
+            0.929,
+            1.0
+          ]
+        },
+        {
+          "id": "dvids-8948275",
+          "box": [
+            0.252,
+            0.31,
+            0.554,
+            0.672
+          ]
+        },
+        {
+          "id": "crop-reserve-6892731",
+          "box": [
+            0.062,
+            0.5262368815592204,
+            0.887,
+            0.7886056971514243
+          ]
+        },
+        {
+          "id": "crop-reserve-chemyx",
+          "box": [
+            0.25979557069846676,
+            0.41363636363636364,
+            0.4752981260647359,
+            0.4420454545454545
+          ]
+        },
+        {
+          "id": "crop-reserve-chemyx",
+          "box": [
+            0.25979557069846676,
+            0.43863636363636366,
+            0.4752981260647359,
+            0.4681818181818182
+          ]
+        },
+        {
+          "id": "assembly-infusion",
+          "box": [
+            0.21,
+            0.5398773006134969,
+            0.881,
+            0.7893660531697342
+          ]
+        },
+        {
+          "id": "assembly-6900270",
+          "box": [
+            0.77,
+            0.41529235382308843,
+            0.818,
+            0.6026986506746627
+          ]
+        },
+        {
+          "id": "assembly-7538446",
+          "box": [
+            0.483,
+            0.4287856071964018,
+            0.709,
+            0.5712143928035982
+          ]
+        }
+      ]
+    },
+    "arms": {
+      "overlap": {
+        "delta": {
+          "tp": 4,
+          "fp": 4,
+          "exact_count": 12,
+          "gain": 0,
+          "extra_fp": 0,
+          "safe": true,
+          "lost_reference": false,
+          "per_image_false_positive_regression": false,
+          "count_regression": false
+        },
+        "metrics": {
+          "images": 18,
+          "objects": 20,
+          "threshold": 0.0,
+          "tp": 4,
+          "fp": 4,
+          "fn": 16,
+          "precision": 0.5,
+          "recall": 0.2,
+          "f1": 0.28571428571428575,
+          "ap50": 0.19801980198019803,
+          "ap50_95": 0.13386138613861387,
+          "ap_by_iou": {
+            "0.50": 0.19801980198019803,
+            "0.55": 0.19801980198019803,
+            "0.60": 0.19801980198019803,
+            "0.65": 0.19801980198019803,
+            "0.70": 0.19801980198019803,
+            "0.75": 0.19801980198019803,
+            "0.80": 0.04356435643564357,
+            "0.85": 0.04356435643564357,
+            "0.90": 0.04356435643564357,
+            "0.95": 0.019801980198019802
+          },
+          "exact_count": 12,
+          "negative_images": 8,
+          "correct_empty": 7,
+          "images_with_only_below_threshold_proposals": 0,
+          "false_positives": [
+            {
+              "id": "assembly-6900270",
+              "prediction": {
+                "id": "object-1",
+                "bbox": [
+                  0.7646506958007813,
+                  0.343044160902947,
+                  0.8469259643554687,
+                  0.6039781470348811
+                ],
+                "score": 0.7731277069167021,
+                "detection_evidence": {},
+                "scale": "60-scale",
+                "color": null,
+                "evidence": {
+                  "scale": {
+                    "value": "60-scale",
+                    "distance": 1.975507072586146,
+                    "margin": 1.412609085952967,
+                    "reason": "Experimental suggestion from the object crop"
+                  },
+                  "color": {
+                    "value": null,
+                    "reason": "Outside development support or ambiguous",
+                    "distance": 9.437797838991944,
+                    "margin": 1.2055994707632252
+                  }
+                },
+                "inscriptions": {
+                  "status": "not requested",
+                  "candidates": [],
+                  "capacity": null,
+                  "apparent_volume": null
+                },
+                "liquid_appearance": {
+                  "status": "insufficient evidence",
+                  "reason": "The syringe mask could not be validated.",
+                  "lightness": null,
+                  "opacity": null,
+                  "opacity_reason": "A registered clear-barrel reference at the same exposure is required."
+                },
+                "fill_level": {
+                  "status": "insufficient evidence",
+                  "reason": "Enable visible marking extraction to estimate fill."
+                },
+                "origin": "model"
+              },
+              "best_unmatched_iou": 0.4190110335752325
+            },
+            {
+              "id": "dvids-8948275",
+              "prediction": {
+                "id": "object-1",
+                "bbox": [
+                  0.25511654663085936,
+                  0.11724686686197916,
+                  0.7153447875976563,
+                  0.670108154296875
+                ],
+                "score": 0.7284521591347685,
+                "detection_evidence": {},
+                "scale": null,
+                "color": null,
+                "evidence": {
+                  "scale": {
+                    "value": null,
+                    "reason": "Outside development support or ambiguous",
+                    "distance": 6.466910478083923,
+                    "margin": 0.08646863812121897
+                  },
+                  "color": {
+                    "value": null,
+                    "reason": "Outside development support or ambiguous",
+                    "distance": 8.511701591435617,
+                    "margin": 0.01887565045501738
+                  }
+                },
+                "inscriptions": {
+                  "status": "not requested",
+                  "candidates": [],
+                  "capacity": null,
+                  "apparent_volume": null
+                },
+                "liquid_appearance": {
+                  "status": "insufficient evidence",
+                  "reason": "The syringe mask could not be validated.",
+                  "lightness": null,
+                  "opacity": null,
+                  "opacity_reason": "A registered clear-barrel reference at the same exposure is required."
+                },
+                "fill_level": {
+                  "status": "insufficient evidence",
+                  "reason": "Enable visible marking extraction to estimate fill."
+                },
+                "origin": "model"
+              },
+              "best_unmatched_iou": 0.42020787757458067
+            },
+            {
+              "id": "crop-reserve-10052835",
+              "prediction": {
+                "id": "object-1",
+                "bbox": [
+                  0.657825439453125,
+                  0.1175828319872937,
+                  0.7377420043945313,
+                  0.30111820252426386
+                ],
+                "score": 0.7279009490958182,
+                "detection_evidence": {},
+                "scale": "60-scale",
+                "color": null,
+                "evidence": {
+                  "scale": {
+                    "value": "60-scale",
+                    "distance": 2.247624145543795,
+                    "margin": 0.9365006876172877,
+                    "reason": "Experimental suggestion from the object crop"
+                  },
+                  "color": {
+                    "value": null,
+                    "reason": "Insufficient visible support"
+                  }
+                },
+                "inscriptions": {
+                  "status": "not requested",
+                  "candidates": [],
+                  "capacity": null,
+                  "apparent_volume": null
+                },
+                "liquid_appearance": {
+                  "status": "insufficient evidence",
+                  "reason": "The syringe mask could not be validated.",
+                  "lightness": null,
+                  "opacity": null,
+                  "opacity_reason": "A registered clear-barrel reference at the same exposure is required."
+                },
+                "fill_level": {
+                  "status": "insufficient evidence",
+                  "reason": "Enable visible marking extraction to estimate fill."
+                },
+                "origin": "model"
+              },
+              "best_unmatched_iou": 0
+            },
+            {
+              "id": "dvids-8711851",
+              "prediction": {
+                "id": "object-1",
+                "bbox": [
+                  0.4517770080566406,
+                  0.12058362458881577,
+                  0.5455697631835937,
+                  0.7806560315583881
+                ],
+                "score": 0.7060874309863525,
+                "detection_evidence": {},
+                "scale": null,
+                "color": null,
+                "evidence": {
+                  "scale": {
+                    "value": null,
+                    "reason": "Outside development support or ambiguous",
+                    "distance": 3.2727406353387183,
+                    "margin": 0.052456857043268634
+                  },
+                  "color": {
+                    "value": null,
+                    "reason": "Outside development support or ambiguous",
+                    "distance": 6.2059502888518585,
+                    "margin": 0.44066861802907553
+                  }
+                },
+                "inscriptions": {
+                  "status": "not requested",
+                  "candidates": [],
+                  "capacity": null,
+                  "apparent_volume": null
+                },
+                "liquid_appearance": {
+                  "status": "insufficient evidence",
+                  "reason": "The syringe mask could not be validated.",
+                  "lightness": null,
+                  "opacity": null,
+                  "opacity_reason": "A registered clear-barrel reference at the same exposure is required."
+                },
+                "fill_level": {
+                  "status": "insufficient evidence",
+                  "reason": "Enable visible marking extraction to estimate fill."
+                },
+                "origin": "model"
+              },
+              "best_unmatched_iou": 0.4834084137008621
+            }
+          ],
+          "false_negatives": [
+            {
+              "id": "dvids-8711851",
+              "box": [
+                0.454,
+                0.12330827067669173,
+                0.516,
+                0.606015037593985
+              ]
+            },
+            {
+              "id": "dvids-8711851",
+              "box": [
+                0.04,
+                0.3112781954887218,
+                0.116,
+                0.6390977443609023
+              ]
+            },
+            {
+              "id": "dvids-8711851",
+              "box": [
+                0.068,
+                0.29172932330827067,
+                0.133,
+                0.6541353383458647
+              ]
+            },
+            {
+              "id": "dvids-8711851",
+              "box": [
+                0.089,
+                0.2781954887218045,
+                0.143,
+                0.6195488721804512
+              ]
+            },
+            {
+              "id": "dvids-8711851",
+              "box": [
+                0.13,
+                0.2857142857142857,
+                0.163,
+                0.6270676691729323
+              ]
+            },
+            {
+              "id": "dvids-8711851",
+              "box": [
+                0.67,
+                0.8240601503759398,
+                0.787,
+                1.0
+              ]
+            },
+            {
+              "id": "dvids-8711851",
+              "box": [
+                0.717,
+                0.8390977443609022,
+                0.85,
+                1.0
+              ]
+            },
+            {
+              "id": "dvids-8711851",
+              "box": [
+                0.778,
+                0.8586466165413534,
+                0.906,
+                1.0
+              ]
+            },
+            {
+              "id": "dvids-8711851",
+              "box": [
+                0.842,
+                0.8962406015037594,
+                0.929,
+                1.0
+              ]
+            },
+            {
+              "id": "dvids-8948275",
+              "box": [
+                0.252,
+                0.31,
+                0.554,
+                0.672
+              ]
+            },
+            {
+              "id": "crop-reserve-6892731",
+              "box": [
+                0.062,
+                0.5262368815592204,
+                0.887,
+                0.7886056971514243
+              ]
+            },
+            {
+              "id": "crop-reserve-chemyx",
+              "box": [
+                0.25979557069846676,
+                0.41363636363636364,
+                0.4752981260647359,
+                0.4420454545454545
+              ]
+            },
+            {
+              "id": "crop-reserve-chemyx",
+              "box": [
+                0.25979557069846676,
+                0.43863636363636366,
+                0.4752981260647359,
+                0.4681818181818182
+              ]
+            },
+            {
+              "id": "assembly-infusion",
+              "box": [
+                0.21,
+                0.5398773006134969,
+                0.881,
+                0.7893660531697342
+              ]
+            },
+            {
+              "id": "assembly-6900270",
+              "box": [
+                0.77,
+                0.41529235382308843,
+                0.818,
+                0.6026986506746627
+              ]
+            },
+            {
+              "id": "assembly-7538446",
+              "box": [
+                0.483,
+                0.4287856071964018,
+                0.709,
+                0.5712143928035982
+              ]
+            }
+          ]
+        },
+        "additions": {}
+      },
+      "prior-identity": {
+        "delta": {
+          "tp": 4,
+          "fp": 4,
+          "exact_count": 12,
+          "gain": 0,
+          "extra_fp": 0,
+          "safe": true,
+          "lost_reference": false,
+          "per_image_false_positive_regression": false,
+          "count_regression": false
+        },
+        "metrics": {
+          "images": 18,
+          "objects": 20,
+          "threshold": 0.0,
+          "tp": 4,
+          "fp": 4,
+          "fn": 16,
+          "precision": 0.5,
+          "recall": 0.2,
+          "f1": 0.28571428571428575,
+          "ap50": 0.19801980198019803,
+          "ap50_95": 0.13386138613861387,
+          "ap_by_iou": {
+            "0.50": 0.19801980198019803,
+            "0.55": 0.19801980198019803,
+            "0.60": 0.19801980198019803,
+            "0.65": 0.19801980198019803,
+            "0.70": 0.19801980198019803,
+            "0.75": 0.19801980198019803,
+            "0.80": 0.04356435643564357,
+            "0.85": 0.04356435643564357,
+            "0.90": 0.04356435643564357,
+            "0.95": 0.019801980198019802
+          },
+          "exact_count": 12,
+          "negative_images": 8,
+          "correct_empty": 7,
+          "images_with_only_below_threshold_proposals": 0,
+          "false_positives": [
+            {
+              "id": "assembly-6900270",
+              "prediction": {
+                "id": "object-1",
+                "bbox": [
+                  0.7646506958007813,
+                  0.343044160902947,
+                  0.8469259643554687,
+                  0.6039781470348811
+                ],
+                "score": 0.7731277069167021,
+                "detection_evidence": {},
+                "scale": "60-scale",
+                "color": null,
+                "evidence": {
+                  "scale": {
+                    "value": "60-scale",
+                    "distance": 1.975507072586146,
+                    "margin": 1.412609085952967,
+                    "reason": "Experimental suggestion from the object crop"
+                  },
+                  "color": {
+                    "value": null,
+                    "reason": "Outside development support or ambiguous",
+                    "distance": 9.437797838991944,
+                    "margin": 1.2055994707632252
+                  }
+                },
+                "inscriptions": {
+                  "status": "not requested",
+                  "candidates": [],
+                  "capacity": null,
+                  "apparent_volume": null
+                },
+                "liquid_appearance": {
+                  "status": "insufficient evidence",
+                  "reason": "The syringe mask could not be validated.",
+                  "lightness": null,
+                  "opacity": null,
+                  "opacity_reason": "A registered clear-barrel reference at the same exposure is required."
+                },
+                "fill_level": {
+                  "status": "insufficient evidence",
+                  "reason": "Enable visible marking extraction to estimate fill."
+                },
+                "origin": "model"
+              },
+              "best_unmatched_iou": 0.4190110335752325
+            },
+            {
+              "id": "dvids-8948275",
+              "prediction": {
+                "id": "object-1",
+                "bbox": [
+                  0.25511654663085936,
+                  0.11724686686197916,
+                  0.7153447875976563,
+                  0.670108154296875
+                ],
+                "score": 0.7284521591347685,
+                "detection_evidence": {},
+                "scale": null,
+                "color": null,
+                "evidence": {
+                  "scale": {
+                    "value": null,
+                    "reason": "Outside development support or ambiguous",
+                    "distance": 6.466910478083923,
+                    "margin": 0.08646863812121897
+                  },
+                  "color": {
+                    "value": null,
+                    "reason": "Outside development support or ambiguous",
+                    "distance": 8.511701591435617,
+                    "margin": 0.01887565045501738
+                  }
+                },
+                "inscriptions": {
+                  "status": "not requested",
+                  "candidates": [],
+                  "capacity": null,
+                  "apparent_volume": null
+                },
+                "liquid_appearance": {
+                  "status": "insufficient evidence",
+                  "reason": "The syringe mask could not be validated.",
+                  "lightness": null,
+                  "opacity": null,
+                  "opacity_reason": "A registered clear-barrel reference at the same exposure is required."
+                },
+                "fill_level": {
+                  "status": "insufficient evidence",
+                  "reason": "Enable visible marking extraction to estimate fill."
+                },
+                "origin": "model"
+              },
+              "best_unmatched_iou": 0.42020787757458067
+            },
+            {
+              "id": "crop-reserve-10052835",
+              "prediction": {
+                "id": "object-1",
+                "bbox": [
+                  0.657825439453125,
+                  0.1175828319872937,
+                  0.7377420043945313,
+                  0.30111820252426386
+                ],
+                "score": 0.7279009490958182,
+                "detection_evidence": {},
+                "scale": "60-scale",
+                "color": null,
+                "evidence": {
+                  "scale": {
+                    "value": "60-scale",
+                    "distance": 2.247624145543795,
+                    "margin": 0.9365006876172877,
+                    "reason": "Experimental suggestion from the object crop"
+                  },
+                  "color": {
+                    "value": null,
+                    "reason": "Insufficient visible support"
+                  }
+                },
+                "inscriptions": {
+                  "status": "not requested",
+                  "candidates": [],
+                  "capacity": null,
+                  "apparent_volume": null
+                },
+                "liquid_appearance": {
+                  "status": "insufficient evidence",
+                  "reason": "The syringe mask could not be validated.",
+                  "lightness": null,
+                  "opacity": null,
+                  "opacity_reason": "A registered clear-barrel reference at the same exposure is required."
+                },
+                "fill_level": {
+                  "status": "insufficient evidence",
+                  "reason": "Enable visible marking extraction to estimate fill."
+                },
+                "origin": "model"
+              },
+              "best_unmatched_iou": 0
+            },
+            {
+              "id": "dvids-8711851",
+              "prediction": {
+                "id": "object-1",
+                "bbox": [
+                  0.4517770080566406,
+                  0.12058362458881577,
+                  0.5455697631835937,
+                  0.7806560315583881
+                ],
+                "score": 0.7060874309863525,
+                "detection_evidence": {},
+                "scale": null,
+                "color": null,
+                "evidence": {
+                  "scale": {
+                    "value": null,
+                    "reason": "Outside development support or ambiguous",
+                    "distance": 3.2727406353387183,
+                    "margin": 0.052456857043268634
+                  },
+                  "color": {
+                    "value": null,
+                    "reason": "Outside development support or ambiguous",
+                    "distance": 6.2059502888518585,
+                    "margin": 0.44066861802907553
+                  }
+                },
+                "inscriptions": {
+                  "status": "not requested",
+                  "candidates": [],
+                  "capacity": null,
+                  "apparent_volume": null
+                },
+                "liquid_appearance": {
+                  "status": "insufficient evidence",
+                  "reason": "The syringe mask could not be validated.",
+                  "lightness": null,
+                  "opacity": null,
+                  "opacity_reason": "A registered clear-barrel reference at the same exposure is required."
+                },
+                "fill_level": {
+                  "status": "insufficient evidence",
+                  "reason": "Enable visible marking extraction to estimate fill."
+                },
+                "origin": "model"
+              },
+              "best_unmatched_iou": 0.4834084137008621
+            }
+          ],
+          "false_negatives": [
+            {
+              "id": "dvids-8711851",
+              "box": [
+                0.454,
+                0.12330827067669173,
+                0.516,
+                0.606015037593985
+              ]
+            },
+            {
+              "id": "dvids-8711851",
+              "box": [
+                0.04,
+                0.3112781954887218,
+                0.116,
+                0.6390977443609023
+              ]
+            },
+            {
+              "id": "dvids-8711851",
+              "box": [
+                0.068,
+                0.29172932330827067,
+                0.133,
+                0.6541353383458647
+              ]
+            },
+            {
+              "id": "dvids-8711851",
+              "box": [
+                0.089,
+                0.2781954887218045,
+                0.143,
+                0.6195488721804512
+              ]
+            },
+            {
+              "id": "dvids-8711851",
+              "box": [
+                0.13,
+                0.2857142857142857,
+                0.163,
+                0.6270676691729323
+              ]
+            },
+            {
+              "id": "dvids-8711851",
+              "box": [
+                0.67,
+                0.8240601503759398,
+                0.787,
+                1.0
+              ]
+            },
+            {
+              "id": "dvids-8711851",
+              "box": [
+                0.717,
+                0.8390977443609022,
+                0.85,
+                1.0
+              ]
+            },
+            {
+              "id": "dvids-8711851",
+              "box": [
+                0.778,
+                0.8586466165413534,
+                0.906,
+                1.0
+              ]
+            },
+            {
+              "id": "dvids-8711851",
+              "box": [
+                0.842,
+                0.8962406015037594,
+                0.929,
+                1.0
+              ]
+            },
+            {
+              "id": "dvids-8948275",
+              "box": [
+                0.252,
+                0.31,
+                0.554,
+                0.672
+              ]
+            },
+            {
+              "id": "crop-reserve-6892731",
+              "box": [
+                0.062,
+                0.5262368815592204,
+                0.887,
+                0.7886056971514243
+              ]
+            },
+            {
+              "id": "crop-reserve-chemyx",
+              "box": [
+                0.25979557069846676,
+                0.41363636363636364,
+                0.4752981260647359,
+                0.4420454545454545
+              ]
+            },
+            {
+              "id": "crop-reserve-chemyx",
+              "box": [
+                0.25979557069846676,
+                0.43863636363636366,
+                0.4752981260647359,
+                0.4681818181818182
+              ]
+            },
+            {
+              "id": "assembly-infusion",
+              "box": [
+                0.21,
+                0.5398773006134969,
+                0.881,
+                0.7893660531697342
+              ]
+            },
+            {
+              "id": "assembly-6900270",
+              "box": [
+                0.77,
+                0.41529235382308843,
+                0.818,
+                0.6026986506746627
+              ]
+            },
+            {
+              "id": "assembly-7538446",
+              "box": [
+                0.483,
+                0.4287856071964018,
+                0.709,
+                0.5712143928035982
+              ]
+            }
+          ]
+        },
+        "additions": {}
+      },
+      "axis-identity": {
+        "delta": {
+          "tp": 4,
+          "fp": 4,
+          "exact_count": 12,
+          "gain": 0,
+          "extra_fp": 0,
+          "safe": true,
+          "lost_reference": false,
+          "per_image_false_positive_regression": false,
+          "count_regression": false
+        },
+        "metrics": {
+          "images": 18,
+          "objects": 20,
+          "threshold": 0.0,
+          "tp": 4,
+          "fp": 4,
+          "fn": 16,
+          "precision": 0.5,
+          "recall": 0.2,
+          "f1": 0.28571428571428575,
+          "ap50": 0.19801980198019803,
+          "ap50_95": 0.13386138613861387,
+          "ap_by_iou": {
+            "0.50": 0.19801980198019803,
+            "0.55": 0.19801980198019803,
+            "0.60": 0.19801980198019803,
+            "0.65": 0.19801980198019803,
+            "0.70": 0.19801980198019803,
+            "0.75": 0.19801980198019803,
+            "0.80": 0.04356435643564357,
+            "0.85": 0.04356435643564357,
+            "0.90": 0.04356435643564357,
+            "0.95": 0.019801980198019802
+          },
+          "exact_count": 12,
+          "negative_images": 8,
+          "correct_empty": 7,
+          "images_with_only_below_threshold_proposals": 0,
+          "false_positives": [
+            {
+              "id": "assembly-6900270",
+              "prediction": {
+                "id": "object-1",
+                "bbox": [
+                  0.7646506958007813,
+                  0.343044160902947,
+                  0.8469259643554687,
+                  0.6039781470348811
+                ],
+                "score": 0.7731277069167021,
+                "detection_evidence": {},
+                "scale": "60-scale",
+                "color": null,
+                "evidence": {
+                  "scale": {
+                    "value": "60-scale",
+                    "distance": 1.975507072586146,
+                    "margin": 1.412609085952967,
+                    "reason": "Experimental suggestion from the object crop"
+                  },
+                  "color": {
+                    "value": null,
+                    "reason": "Outside development support or ambiguous",
+                    "distance": 9.437797838991944,
+                    "margin": 1.2055994707632252
+                  }
+                },
+                "inscriptions": {
+                  "status": "not requested",
+                  "candidates": [],
+                  "capacity": null,
+                  "apparent_volume": null
+                },
+                "liquid_appearance": {
+                  "status": "insufficient evidence",
+                  "reason": "The syringe mask could not be validated.",
+                  "lightness": null,
+                  "opacity": null,
+                  "opacity_reason": "A registered clear-barrel reference at the same exposure is required."
+                },
+                "fill_level": {
+                  "status": "insufficient evidence",
+                  "reason": "Enable visible marking extraction to estimate fill."
+                },
+                "origin": "model"
+              },
+              "best_unmatched_iou": 0.4190110335752325
+            },
+            {
+              "id": "dvids-8948275",
+              "prediction": {
+                "id": "object-1",
+                "bbox": [
+                  0.25511654663085936,
+                  0.11724686686197916,
+                  0.7153447875976563,
+                  0.670108154296875
+                ],
+                "score": 0.7284521591347685,
+                "detection_evidence": {},
+                "scale": null,
+                "color": null,
+                "evidence": {
+                  "scale": {
+                    "value": null,
+                    "reason": "Outside development support or ambiguous",
+                    "distance": 6.466910478083923,
+                    "margin": 0.08646863812121897
+                  },
+                  "color": {
+                    "value": null,
+                    "reason": "Outside development support or ambiguous",
+                    "distance": 8.511701591435617,
+                    "margin": 0.01887565045501738
+                  }
+                },
+                "inscriptions": {
+                  "status": "not requested",
+                  "candidates": [],
+                  "capacity": null,
+                  "apparent_volume": null
+                },
+                "liquid_appearance": {
+                  "status": "insufficient evidence",
+                  "reason": "The syringe mask could not be validated.",
+                  "lightness": null,
+                  "opacity": null,
+                  "opacity_reason": "A registered clear-barrel reference at the same exposure is required."
+                },
+                "fill_level": {
+                  "status": "insufficient evidence",
+                  "reason": "Enable visible marking extraction to estimate fill."
+                },
+                "origin": "model"
+              },
+              "best_unmatched_iou": 0.42020787757458067
+            },
+            {
+              "id": "crop-reserve-10052835",
+              "prediction": {
+                "id": "object-1",
+                "bbox": [
+                  0.657825439453125,
+                  0.1175828319872937,
+                  0.7377420043945313,
+                  0.30111820252426386
+                ],
+                "score": 0.7279009490958182,
+                "detection_evidence": {},
+                "scale": "60-scale",
+                "color": null,
+                "evidence": {
+                  "scale": {
+                    "value": "60-scale",
+                    "distance": 2.247624145543795,
+                    "margin": 0.9365006876172877,
+                    "reason": "Experimental suggestion from the object crop"
+                  },
+                  "color": {
+                    "value": null,
+                    "reason": "Insufficient visible support"
+                  }
+                },
+                "inscriptions": {
+                  "status": "not requested",
+                  "candidates": [],
+                  "capacity": null,
+                  "apparent_volume": null
+                },
+                "liquid_appearance": {
+                  "status": "insufficient evidence",
+                  "reason": "The syringe mask could not be validated.",
+                  "lightness": null,
+                  "opacity": null,
+                  "opacity_reason": "A registered clear-barrel reference at the same exposure is required."
+                },
+                "fill_level": {
+                  "status": "insufficient evidence",
+                  "reason": "Enable visible marking extraction to estimate fill."
+                },
+                "origin": "model"
+              },
+              "best_unmatched_iou": 0
+            },
+            {
+              "id": "dvids-8711851",
+              "prediction": {
+                "id": "object-1",
+                "bbox": [
+                  0.4517770080566406,
+                  0.12058362458881577,
+                  0.5455697631835937,
+                  0.7806560315583881
+                ],
+                "score": 0.7060874309863525,
+                "detection_evidence": {},
+                "scale": null,
+                "color": null,
+                "evidence": {
+                  "scale": {
+                    "value": null,
+                    "reason": "Outside development support or ambiguous",
+                    "distance": 3.2727406353387183,
+                    "margin": 0.052456857043268634
+                  },
+                  "color": {
+                    "value": null,
+                    "reason": "Outside development support or ambiguous",
+                    "distance": 6.2059502888518585,
+                    "margin": 0.44066861802907553
+                  }
+                },
+                "inscriptions": {
+                  "status": "not requested",
+                  "candidates": [],
+                  "capacity": null,
+                  "apparent_volume": null
+                },
+                "liquid_appearance": {
+                  "status": "insufficient evidence",
+                  "reason": "The syringe mask could not be validated.",
+                  "lightness": null,
+                  "opacity": null,
+                  "opacity_reason": "A registered clear-barrel reference at the same exposure is required."
+                },
+                "fill_level": {
+                  "status": "insufficient evidence",
+                  "reason": "Enable visible marking extraction to estimate fill."
+                },
+                "origin": "model"
+              },
+              "best_unmatched_iou": 0.4834084137008621
+            }
+          ],
+          "false_negatives": [
+            {
+              "id": "dvids-8711851",
+              "box": [
+                0.454,
+                0.12330827067669173,
+                0.516,
+                0.606015037593985
+              ]
+            },
+            {
+              "id": "dvids-8711851",
+              "box": [
+                0.04,
+                0.3112781954887218,
+                0.116,
+                0.6390977443609023
+              ]
+            },
+            {
+              "id": "dvids-8711851",
+              "box": [
+                0.068,
+                0.29172932330827067,
+                0.133,
+                0.6541353383458647
+              ]
+            },
+            {
+              "id": "dvids-8711851",
+              "box": [
+                0.089,
+                0.2781954887218045,
+                0.143,
+                0.6195488721804512
+              ]
+            },
+            {
+              "id": "dvids-8711851",
+              "box": [
+                0.13,
+                0.2857142857142857,
+                0.163,
+                0.6270676691729323
+              ]
+            },
+            {
+              "id": "dvids-8711851",
+              "box": [
+                0.67,
+                0.8240601503759398,
+                0.787,
+                1.0
+              ]
+            },
+            {
+              "id": "dvids-8711851",
+              "box": [
+                0.717,
+                0.8390977443609022,
+                0.85,
+                1.0
+              ]
+            },
+            {
+              "id": "dvids-8711851",
+              "box": [
+                0.778,
+                0.8586466165413534,
+                0.906,
+                1.0
+              ]
+            },
+            {
+              "id": "dvids-8711851",
+              "box": [
+                0.842,
+                0.8962406015037594,
+                0.929,
+                1.0
+              ]
+            },
+            {
+              "id": "dvids-8948275",
+              "box": [
+                0.252,
+                0.31,
+                0.554,
+                0.672
+              ]
+            },
+            {
+              "id": "crop-reserve-6892731",
+              "box": [
+                0.062,
+                0.5262368815592204,
+                0.887,
+                0.7886056971514243
+              ]
+            },
+            {
+              "id": "crop-reserve-chemyx",
+              "box": [
+                0.25979557069846676,
+                0.41363636363636364,
+                0.4752981260647359,
+                0.4420454545454545
+              ]
+            },
+            {
+              "id": "crop-reserve-chemyx",
+              "box": [
+                0.25979557069846676,
+                0.43863636363636366,
+                0.4752981260647359,
+                0.4681818181818182
+              ]
+            },
+            {
+              "id": "assembly-infusion",
+              "box": [
+                0.21,
+                0.5398773006134969,
+                0.881,
+                0.7893660531697342
+              ]
+            },
+            {
+              "id": "assembly-6900270",
+              "box": [
+                0.77,
+                0.41529235382308843,
+                0.818,
+                0.6026986506746627
+              ]
+            },
+            {
+              "id": "assembly-7538446",
+              "box": [
+                0.483,
+                0.4287856071964018,
+                0.709,
+                0.5712143928035982
+              ]
+            }
+          ]
+        },
+        "additions": {}
+      },
+      "probe-overlap": {
+        "delta": {
+          "tp": 4,
+          "fp": 4,
+          "exact_count": 12,
+          "gain": 0,
+          "extra_fp": 0,
+          "safe": true,
+          "lost_reference": false,
+          "per_image_false_positive_regression": false,
+          "count_regression": false
+        },
+        "metrics": {
+          "images": 18,
+          "objects": 20,
+          "threshold": 0.0,
+          "tp": 4,
+          "fp": 4,
+          "fn": 16,
+          "precision": 0.5,
+          "recall": 0.2,
+          "f1": 0.28571428571428575,
+          "ap50": 0.19801980198019803,
+          "ap50_95": 0.13386138613861387,
+          "ap_by_iou": {
+            "0.50": 0.19801980198019803,
+            "0.55": 0.19801980198019803,
+            "0.60": 0.19801980198019803,
+            "0.65": 0.19801980198019803,
+            "0.70": 0.19801980198019803,
+            "0.75": 0.19801980198019803,
+            "0.80": 0.04356435643564357,
+            "0.85": 0.04356435643564357,
+            "0.90": 0.04356435643564357,
+            "0.95": 0.019801980198019802
+          },
+          "exact_count": 12,
+          "negative_images": 8,
+          "correct_empty": 7,
+          "images_with_only_below_threshold_proposals": 0,
+          "false_positives": [
+            {
+              "id": "assembly-6900270",
+              "prediction": {
+                "id": "object-1",
+                "bbox": [
+                  0.7646506958007813,
+                  0.343044160902947,
+                  0.8469259643554687,
+                  0.6039781470348811
+                ],
+                "score": 0.7731277069167021,
+                "detection_evidence": {},
+                "scale": "60-scale",
+                "color": null,
+                "evidence": {
+                  "scale": {
+                    "value": "60-scale",
+                    "distance": 1.975507072586146,
+                    "margin": 1.412609085952967,
+                    "reason": "Experimental suggestion from the object crop"
+                  },
+                  "color": {
+                    "value": null,
+                    "reason": "Outside development support or ambiguous",
+                    "distance": 9.437797838991944,
+                    "margin": 1.2055994707632252
+                  }
+                },
+                "inscriptions": {
+                  "status": "not requested",
+                  "candidates": [],
+                  "capacity": null,
+                  "apparent_volume": null
+                },
+                "liquid_appearance": {
+                  "status": "insufficient evidence",
+                  "reason": "The syringe mask could not be validated.",
+                  "lightness": null,
+                  "opacity": null,
+                  "opacity_reason": "A registered clear-barrel reference at the same exposure is required."
+                },
+                "fill_level": {
+                  "status": "insufficient evidence",
+                  "reason": "Enable visible marking extraction to estimate fill."
+                },
+                "origin": "model"
+              },
+              "best_unmatched_iou": 0.4190110335752325
+            },
+            {
+              "id": "dvids-8948275",
+              "prediction": {
+                "id": "object-1",
+                "bbox": [
+                  0.25511654663085936,
+                  0.11724686686197916,
+                  0.7153447875976563,
+                  0.670108154296875
+                ],
+                "score": 0.7284521591347685,
+                "detection_evidence": {},
+                "scale": null,
+                "color": null,
+                "evidence": {
+                  "scale": {
+                    "value": null,
+                    "reason": "Outside development support or ambiguous",
+                    "distance": 6.466910478083923,
+                    "margin": 0.08646863812121897
+                  },
+                  "color": {
+                    "value": null,
+                    "reason": "Outside development support or ambiguous",
+                    "distance": 8.511701591435617,
+                    "margin": 0.01887565045501738
+                  }
+                },
+                "inscriptions": {
+                  "status": "not requested",
+                  "candidates": [],
+                  "capacity": null,
+                  "apparent_volume": null
+                },
+                "liquid_appearance": {
+                  "status": "insufficient evidence",
+                  "reason": "The syringe mask could not be validated.",
+                  "lightness": null,
+                  "opacity": null,
+                  "opacity_reason": "A registered clear-barrel reference at the same exposure is required."
+                },
+                "fill_level": {
+                  "status": "insufficient evidence",
+                  "reason": "Enable visible marking extraction to estimate fill."
+                },
+                "origin": "model"
+              },
+              "best_unmatched_iou": 0.42020787757458067
+            },
+            {
+              "id": "crop-reserve-10052835",
+              "prediction": {
+                "id": "object-1",
+                "bbox": [
+                  0.657825439453125,
+                  0.1175828319872937,
+                  0.7377420043945313,
+                  0.30111820252426386
+                ],
+                "score": 0.7279009490958182,
+                "detection_evidence": {},
+                "scale": "60-scale",
+                "color": null,
+                "evidence": {
+                  "scale": {
+                    "value": "60-scale",
+                    "distance": 2.247624145543795,
+                    "margin": 0.9365006876172877,
+                    "reason": "Experimental suggestion from the object crop"
+                  },
+                  "color": {
+                    "value": null,
+                    "reason": "Insufficient visible support"
+                  }
+                },
+                "inscriptions": {
+                  "status": "not requested",
+                  "candidates": [],
+                  "capacity": null,
+                  "apparent_volume": null
+                },
+                "liquid_appearance": {
+                  "status": "insufficient evidence",
+                  "reason": "The syringe mask could not be validated.",
+                  "lightness": null,
+                  "opacity": null,
+                  "opacity_reason": "A registered clear-barrel reference at the same exposure is required."
+                },
+                "fill_level": {
+                  "status": "insufficient evidence",
+                  "reason": "Enable visible marking extraction to estimate fill."
+                },
+                "origin": "model"
+              },
+              "best_unmatched_iou": 0
+            },
+            {
+              "id": "dvids-8711851",
+              "prediction": {
+                "id": "object-1",
+                "bbox": [
+                  0.4517770080566406,
+                  0.12058362458881577,
+                  0.5455697631835937,
+                  0.7806560315583881
+                ],
+                "score": 0.7060874309863525,
+                "detection_evidence": {},
+                "scale": null,
+                "color": null,
+                "evidence": {
+                  "scale": {
+                    "value": null,
+                    "reason": "Outside development support or ambiguous",
+                    "distance": 3.2727406353387183,
+                    "margin": 0.052456857043268634
+                  },
+                  "color": {
+                    "value": null,
+                    "reason": "Outside development support or ambiguous",
+                    "distance": 6.2059502888518585,
+                    "margin": 0.44066861802907553
+                  }
+                },
+                "inscriptions": {
+                  "status": "not requested",
+                  "candidates": [],
+                  "capacity": null,
+                  "apparent_volume": null
+                },
+                "liquid_appearance": {
+                  "status": "insufficient evidence",
+                  "reason": "The syringe mask could not be validated.",
+                  "lightness": null,
+                  "opacity": null,
+                  "opacity_reason": "A registered clear-barrel reference at the same exposure is required."
+                },
+                "fill_level": {
+                  "status": "insufficient evidence",
+                  "reason": "Enable visible marking extraction to estimate fill."
+                },
+                "origin": "model"
+              },
+              "best_unmatched_iou": 0.4834084137008621
+            }
+          ],
+          "false_negatives": [
+            {
+              "id": "dvids-8711851",
+              "box": [
+                0.454,
+                0.12330827067669173,
+                0.516,
+                0.606015037593985
+              ]
+            },
+            {
+              "id": "dvids-8711851",
+              "box": [
+                0.04,
+                0.3112781954887218,
+                0.116,
+                0.6390977443609023
+              ]
+            },
+            {
+              "id": "dvids-8711851",
+              "box": [
+                0.068,
+                0.29172932330827067,
+                0.133,
+                0.6541353383458647
+              ]
+            },
+            {
+              "id": "dvids-8711851",
+              "box": [
+                0.089,
+                0.2781954887218045,
+                0.143,
+                0.6195488721804512
+              ]
+            },
+            {
+              "id": "dvids-8711851",
+              "box": [
+                0.13,
+                0.2857142857142857,
+                0.163,
+                0.6270676691729323
+              ]
+            },
+            {
+              "id": "dvids-8711851",
+              "box": [
+                0.67,
+                0.8240601503759398,
+                0.787,
+                1.0
+              ]
+            },
+            {
+              "id": "dvids-8711851",
+              "box": [
+                0.717,
+                0.8390977443609022,
+                0.85,
+                1.0
+              ]
+            },
+            {
+              "id": "dvids-8711851",
+              "box": [
+                0.778,
+                0.8586466165413534,
+                0.906,
+                1.0
+              ]
+            },
+            {
+              "id": "dvids-8711851",
+              "box": [
+                0.842,
+                0.8962406015037594,
+                0.929,
+                1.0
+              ]
+            },
+            {
+              "id": "dvids-8948275",
+              "box": [
+                0.252,
+                0.31,
+                0.554,
+                0.672
+              ]
+            },
+            {
+              "id": "crop-reserve-6892731",
+              "box": [
+                0.062,
+                0.5262368815592204,
+                0.887,
+                0.7886056971514243
+              ]
+            },
+            {
+              "id": "crop-reserve-chemyx",
+              "box": [
+                0.25979557069846676,
+                0.41363636363636364,
+                0.4752981260647359,
+                0.4420454545454545
+              ]
+            },
+            {
+              "id": "crop-reserve-chemyx",
+              "box": [
+                0.25979557069846676,
+                0.43863636363636366,
+                0.4752981260647359,
+                0.4681818181818182
+              ]
+            },
+            {
+              "id": "assembly-infusion",
+              "box": [
+                0.21,
+                0.5398773006134969,
+                0.881,
+                0.7893660531697342
+              ]
+            },
+            {
+              "id": "assembly-6900270",
+              "box": [
+                0.77,
+                0.41529235382308843,
+                0.818,
+                0.6026986506746627
+              ]
+            },
+            {
+              "id": "assembly-7538446",
+              "box": [
+                0.483,
+                0.4287856071964018,
+                0.709,
+                0.5712143928035982
+              ]
+            }
+          ]
+        },
+        "additions": {}
+      },
+      "probe-prior-identity": {
+        "delta": {
+          "tp": 4,
+          "fp": 4,
+          "exact_count": 12,
+          "gain": 0,
+          "extra_fp": 0,
+          "safe": true,
+          "lost_reference": false,
+          "per_image_false_positive_regression": false,
+          "count_regression": false
+        },
+        "metrics": {
+          "images": 18,
+          "objects": 20,
+          "threshold": 0.0,
+          "tp": 4,
+          "fp": 4,
+          "fn": 16,
+          "precision": 0.5,
+          "recall": 0.2,
+          "f1": 0.28571428571428575,
+          "ap50": 0.19801980198019803,
+          "ap50_95": 0.13386138613861387,
+          "ap_by_iou": {
+            "0.50": 0.19801980198019803,
+            "0.55": 0.19801980198019803,
+            "0.60": 0.19801980198019803,
+            "0.65": 0.19801980198019803,
+            "0.70": 0.19801980198019803,
+            "0.75": 0.19801980198019803,
+            "0.80": 0.04356435643564357,
+            "0.85": 0.04356435643564357,
+            "0.90": 0.04356435643564357,
+            "0.95": 0.019801980198019802
+          },
+          "exact_count": 12,
+          "negative_images": 8,
+          "correct_empty": 7,
+          "images_with_only_below_threshold_proposals": 0,
+          "false_positives": [
+            {
+              "id": "assembly-6900270",
+              "prediction": {
+                "id": "object-1",
+                "bbox": [
+                  0.7646506958007813,
+                  0.343044160902947,
+                  0.8469259643554687,
+                  0.6039781470348811
+                ],
+                "score": 0.7731277069167021,
+                "detection_evidence": {},
+                "scale": "60-scale",
+                "color": null,
+                "evidence": {
+                  "scale": {
+                    "value": "60-scale",
+                    "distance": 1.975507072586146,
+                    "margin": 1.412609085952967,
+                    "reason": "Experimental suggestion from the object crop"
+                  },
+                  "color": {
+                    "value": null,
+                    "reason": "Outside development support or ambiguous",
+                    "distance": 9.437797838991944,
+                    "margin": 1.2055994707632252
+                  }
+                },
+                "inscriptions": {
+                  "status": "not requested",
+                  "candidates": [],
+                  "capacity": null,
+                  "apparent_volume": null
+                },
+                "liquid_appearance": {
+                  "status": "insufficient evidence",
+                  "reason": "The syringe mask could not be validated.",
+                  "lightness": null,
+                  "opacity": null,
+                  "opacity_reason": "A registered clear-barrel reference at the same exposure is required."
+                },
+                "fill_level": {
+                  "status": "insufficient evidence",
+                  "reason": "Enable visible marking extraction to estimate fill."
+                },
+                "origin": "model"
+              },
+              "best_unmatched_iou": 0.4190110335752325
+            },
+            {
+              "id": "dvids-8948275",
+              "prediction": {
+                "id": "object-1",
+                "bbox": [
+                  0.25511654663085936,
+                  0.11724686686197916,
+                  0.7153447875976563,
+                  0.670108154296875
+                ],
+                "score": 0.7284521591347685,
+                "detection_evidence": {},
+                "scale": null,
+                "color": null,
+                "evidence": {
+                  "scale": {
+                    "value": null,
+                    "reason": "Outside development support or ambiguous",
+                    "distance": 6.466910478083923,
+                    "margin": 0.08646863812121897
+                  },
+                  "color": {
+                    "value": null,
+                    "reason": "Outside development support or ambiguous",
+                    "distance": 8.511701591435617,
+                    "margin": 0.01887565045501738
+                  }
+                },
+                "inscriptions": {
+                  "status": "not requested",
+                  "candidates": [],
+                  "capacity": null,
+                  "apparent_volume": null
+                },
+                "liquid_appearance": {
+                  "status": "insufficient evidence",
+                  "reason": "The syringe mask could not be validated.",
+                  "lightness": null,
+                  "opacity": null,
+                  "opacity_reason": "A registered clear-barrel reference at the same exposure is required."
+                },
+                "fill_level": {
+                  "status": "insufficient evidence",
+                  "reason": "Enable visible marking extraction to estimate fill."
+                },
+                "origin": "model"
+              },
+              "best_unmatched_iou": 0.42020787757458067
+            },
+            {
+              "id": "crop-reserve-10052835",
+              "prediction": {
+                "id": "object-1",
+                "bbox": [
+                  0.657825439453125,
+                  0.1175828319872937,
+                  0.7377420043945313,
+                  0.30111820252426386
+                ],
+                "score": 0.7279009490958182,
+                "detection_evidence": {},
+                "scale": "60-scale",
+                "color": null,
+                "evidence": {
+                  "scale": {
+                    "value": "60-scale",
+                    "distance": 2.247624145543795,
+                    "margin": 0.9365006876172877,
+                    "reason": "Experimental suggestion from the object crop"
+                  },
+                  "color": {
+                    "value": null,
+                    "reason": "Insufficient visible support"
+                  }
+                },
+                "inscriptions": {
+                  "status": "not requested",
+                  "candidates": [],
+                  "capacity": null,
+                  "apparent_volume": null
+                },
+                "liquid_appearance": {
+                  "status": "insufficient evidence",
+                  "reason": "The syringe mask could not be validated.",
+                  "lightness": null,
+                  "opacity": null,
+                  "opacity_reason": "A registered clear-barrel reference at the same exposure is required."
+                },
+                "fill_level": {
+                  "status": "insufficient evidence",
+                  "reason": "Enable visible marking extraction to estimate fill."
+                },
+                "origin": "model"
+              },
+              "best_unmatched_iou": 0
+            },
+            {
+              "id": "dvids-8711851",
+              "prediction": {
+                "id": "object-1",
+                "bbox": [
+                  0.4517770080566406,
+                  0.12058362458881577,
+                  0.5455697631835937,
+                  0.7806560315583881
+                ],
+                "score": 0.7060874309863525,
+                "detection_evidence": {},
+                "scale": null,
+                "color": null,
+                "evidence": {
+                  "scale": {
+                    "value": null,
+                    "reason": "Outside development support or ambiguous",
+                    "distance": 3.2727406353387183,
+                    "margin": 0.052456857043268634
+                  },
+                  "color": {
+                    "value": null,
+                    "reason": "Outside development support or ambiguous",
+                    "distance": 6.2059502888518585,
+                    "margin": 0.44066861802907553
+                  }
+                },
+                "inscriptions": {
+                  "status": "not requested",
+                  "candidates": [],
+                  "capacity": null,
+                  "apparent_volume": null
+                },
+                "liquid_appearance": {
+                  "status": "insufficient evidence",
+                  "reason": "The syringe mask could not be validated.",
+                  "lightness": null,
+                  "opacity": null,
+                  "opacity_reason": "A registered clear-barrel reference at the same exposure is required."
+                },
+                "fill_level": {
+                  "status": "insufficient evidence",
+                  "reason": "Enable visible marking extraction to estimate fill."
+                },
+                "origin": "model"
+              },
+              "best_unmatched_iou": 0.4834084137008621
+            }
+          ],
+          "false_negatives": [
+            {
+              "id": "dvids-8711851",
+              "box": [
+                0.454,
+                0.12330827067669173,
+                0.516,
+                0.606015037593985
+              ]
+            },
+            {
+              "id": "dvids-8711851",
+              "box": [
+                0.04,
+                0.3112781954887218,
+                0.116,
+                0.6390977443609023
+              ]
+            },
+            {
+              "id": "dvids-8711851",
+              "box": [
+                0.068,
+                0.29172932330827067,
+                0.133,
+                0.6541353383458647
+              ]
+            },
+            {
+              "id": "dvids-8711851",
+              "box": [
+                0.089,
+                0.2781954887218045,
+                0.143,
+                0.6195488721804512
+              ]
+            },
+            {
+              "id": "dvids-8711851",
+              "box": [
+                0.13,
+                0.2857142857142857,
+                0.163,
+                0.6270676691729323
+              ]
+            },
+            {
+              "id": "dvids-8711851",
+              "box": [
+                0.67,
+                0.8240601503759398,
+                0.787,
+                1.0
+              ]
+            },
+            {
+              "id": "dvids-8711851",
+              "box": [
+                0.717,
+                0.8390977443609022,
+                0.85,
+                1.0
+              ]
+            },
+            {
+              "id": "dvids-8711851",
+              "box": [
+                0.778,
+                0.8586466165413534,
+                0.906,
+                1.0
+              ]
+            },
+            {
+              "id": "dvids-8711851",
+              "box": [
+                0.842,
+                0.8962406015037594,
+                0.929,
+                1.0
+              ]
+            },
+            {
+              "id": "dvids-8948275",
+              "box": [
+                0.252,
+                0.31,
+                0.554,
+                0.672
+              ]
+            },
+            {
+              "id": "crop-reserve-6892731",
+              "box": [
+                0.062,
+                0.5262368815592204,
+                0.887,
+                0.7886056971514243
+              ]
+            },
+            {
+              "id": "crop-reserve-chemyx",
+              "box": [
+                0.25979557069846676,
+                0.41363636363636364,
+                0.4752981260647359,
+                0.4420454545454545
+              ]
+            },
+            {
+              "id": "crop-reserve-chemyx",
+              "box": [
+                0.25979557069846676,
+                0.43863636363636366,
+                0.4752981260647359,
+                0.4681818181818182
+              ]
+            },
+            {
+              "id": "assembly-infusion",
+              "box": [
+                0.21,
+                0.5398773006134969,
+                0.881,
+                0.7893660531697342
+              ]
+            },
+            {
+              "id": "assembly-6900270",
+              "box": [
+                0.77,
+                0.41529235382308843,
+                0.818,
+                0.6026986506746627
+              ]
+            },
+            {
+              "id": "assembly-7538446",
+              "box": [
+                0.483,
+                0.4287856071964018,
+                0.709,
+                0.5712143928035982
+              ]
+            }
+          ]
+        },
+        "additions": {}
+      },
+      "probe-axis-identity": {
+        "delta": {
+          "tp": 4,
+          "fp": 4,
+          "exact_count": 12,
+          "gain": 0,
+          "extra_fp": 0,
+          "safe": true,
+          "lost_reference": false,
+          "per_image_false_positive_regression": false,
+          "count_regression": false
+        },
+        "metrics": {
+          "images": 18,
+          "objects": 20,
+          "threshold": 0.0,
+          "tp": 4,
+          "fp": 4,
+          "fn": 16,
+          "precision": 0.5,
+          "recall": 0.2,
+          "f1": 0.28571428571428575,
+          "ap50": 0.19801980198019803,
+          "ap50_95": 0.13386138613861387,
+          "ap_by_iou": {
+            "0.50": 0.19801980198019803,
+            "0.55": 0.19801980198019803,
+            "0.60": 0.19801980198019803,
+            "0.65": 0.19801980198019803,
+            "0.70": 0.19801980198019803,
+            "0.75": 0.19801980198019803,
+            "0.80": 0.04356435643564357,
+            "0.85": 0.04356435643564357,
+            "0.90": 0.04356435643564357,
+            "0.95": 0.019801980198019802
+          },
+          "exact_count": 12,
+          "negative_images": 8,
+          "correct_empty": 7,
+          "images_with_only_below_threshold_proposals": 0,
+          "false_positives": [
+            {
+              "id": "assembly-6900270",
+              "prediction": {
+                "id": "object-1",
+                "bbox": [
+                  0.7646506958007813,
+                  0.343044160902947,
+                  0.8469259643554687,
+                  0.6039781470348811
+                ],
+                "score": 0.7731277069167021,
+                "detection_evidence": {},
+                "scale": "60-scale",
+                "color": null,
+                "evidence": {
+                  "scale": {
+                    "value": "60-scale",
+                    "distance": 1.975507072586146,
+                    "margin": 1.412609085952967,
+                    "reason": "Experimental suggestion from the object crop"
+                  },
+                  "color": {
+                    "value": null,
+                    "reason": "Outside development support or ambiguous",
+                    "distance": 9.437797838991944,
+                    "margin": 1.2055994707632252
+                  }
+                },
+                "inscriptions": {
+                  "status": "not requested",
+                  "candidates": [],
+                  "capacity": null,
+                  "apparent_volume": null
+                },
+                "liquid_appearance": {
+                  "status": "insufficient evidence",
+                  "reason": "The syringe mask could not be validated.",
+                  "lightness": null,
+                  "opacity": null,
+                  "opacity_reason": "A registered clear-barrel reference at the same exposure is required."
+                },
+                "fill_level": {
+                  "status": "insufficient evidence",
+                  "reason": "Enable visible marking extraction to estimate fill."
+                },
+                "origin": "model"
+              },
+              "best_unmatched_iou": 0.4190110335752325
+            },
+            {
+              "id": "dvids-8948275",
+              "prediction": {
+                "id": "object-1",
+                "bbox": [
+                  0.25511654663085936,
+                  0.11724686686197916,
+                  0.7153447875976563,
+                  0.670108154296875
+                ],
+                "score": 0.7284521591347685,
+                "detection_evidence": {},
+                "scale": null,
+                "color": null,
+                "evidence": {
+                  "scale": {
+                    "value": null,
+                    "reason": "Outside development support or ambiguous",
+                    "distance": 6.466910478083923,
+                    "margin": 0.08646863812121897
+                  },
+                  "color": {
+                    "value": null,
+                    "reason": "Outside development support or ambiguous",
+                    "distance": 8.511701591435617,
+                    "margin": 0.01887565045501738
+                  }
+                },
+                "inscriptions": {
+                  "status": "not requested",
+                  "candidates": [],
+                  "capacity": null,
+                  "apparent_volume": null
+                },
+                "liquid_appearance": {
+                  "status": "insufficient evidence",
+                  "reason": "The syringe mask could not be validated.",
+                  "lightness": null,
+                  "opacity": null,
+                  "opacity_reason": "A registered clear-barrel reference at the same exposure is required."
+                },
+                "fill_level": {
+                  "status": "insufficient evidence",
+                  "reason": "Enable visible marking extraction to estimate fill."
+                },
+                "origin": "model"
+              },
+              "best_unmatched_iou": 0.42020787757458067
+            },
+            {
+              "id": "crop-reserve-10052835",
+              "prediction": {
+                "id": "object-1",
+                "bbox": [
+                  0.657825439453125,
+                  0.1175828319872937,
+                  0.7377420043945313,
+                  0.30111820252426386
+                ],
+                "score": 0.7279009490958182,
+                "detection_evidence": {},
+                "scale": "60-scale",
+                "color": null,
+                "evidence": {
+                  "scale": {
+                    "value": "60-scale",
+                    "distance": 2.247624145543795,
+                    "margin": 0.9365006876172877,
+                    "reason": "Experimental suggestion from the object crop"
+                  },
+                  "color": {
+                    "value": null,
+                    "reason": "Insufficient visible support"
+                  }
+                },
+                "inscriptions": {
+                  "status": "not requested",
+                  "candidates": [],
+                  "capacity": null,
+                  "apparent_volume": null
+                },
+                "liquid_appearance": {
+                  "status": "insufficient evidence",
+                  "reason": "The syringe mask could not be validated.",
+                  "lightness": null,
+                  "opacity": null,
+                  "opacity_reason": "A registered clear-barrel reference at the same exposure is required."
+                },
+                "fill_level": {
+                  "status": "insufficient evidence",
+                  "reason": "Enable visible marking extraction to estimate fill."
+                },
+                "origin": "model"
+              },
+              "best_unmatched_iou": 0
+            },
+            {
+              "id": "dvids-8711851",
+              "prediction": {
+                "id": "object-1",
+                "bbox": [
+                  0.4517770080566406,
+                  0.12058362458881577,
+                  0.5455697631835937,
+                  0.7806560315583881
+                ],
+                "score": 0.7060874309863525,
+                "detection_evidence": {},
+                "scale": null,
+                "color": null,
+                "evidence": {
+                  "scale": {
+                    "value": null,
+                    "reason": "Outside development support or ambiguous",
+                    "distance": 3.2727406353387183,
+                    "margin": 0.052456857043268634
+                  },
+                  "color": {
+                    "value": null,
+                    "reason": "Outside development support or ambiguous",
+                    "distance": 6.2059502888518585,
+                    "margin": 0.44066861802907553
+                  }
+                },
+                "inscriptions": {
+                  "status": "not requested",
+                  "candidates": [],
+                  "capacity": null,
+                  "apparent_volume": null
+                },
+                "liquid_appearance": {
+                  "status": "insufficient evidence",
+                  "reason": "The syringe mask could not be validated.",
+                  "lightness": null,
+                  "opacity": null,
+                  "opacity_reason": "A registered clear-barrel reference at the same exposure is required."
+                },
+                "fill_level": {
+                  "status": "insufficient evidence",
+                  "reason": "Enable visible marking extraction to estimate fill."
+                },
+                "origin": "model"
+              },
+              "best_unmatched_iou": 0.4834084137008621
+            }
+          ],
+          "false_negatives": [
+            {
+              "id": "dvids-8711851",
+              "box": [
+                0.454,
+                0.12330827067669173,
+                0.516,
+                0.606015037593985
+              ]
+            },
+            {
+              "id": "dvids-8711851",
+              "box": [
+                0.04,
+                0.3112781954887218,
+                0.116,
+                0.6390977443609023
+              ]
+            },
+            {
+              "id": "dvids-8711851",
+              "box": [
+                0.068,
+                0.29172932330827067,
+                0.133,
+                0.6541353383458647
+              ]
+            },
+            {
+              "id": "dvids-8711851",
+              "box": [
+                0.089,
+                0.2781954887218045,
+                0.143,
+                0.6195488721804512
+              ]
+            },
+            {
+              "id": "dvids-8711851",
+              "box": [
+                0.13,
+                0.2857142857142857,
+                0.163,
+                0.6270676691729323
+              ]
+            },
+            {
+              "id": "dvids-8711851",
+              "box": [
+                0.67,
+                0.8240601503759398,
+                0.787,
+                1.0
+              ]
+            },
+            {
+              "id": "dvids-8711851",
+              "box": [
+                0.717,
+                0.8390977443609022,
+                0.85,
+                1.0
+              ]
+            },
+            {
+              "id": "dvids-8711851",
+              "box": [
+                0.778,
+                0.8586466165413534,
+                0.906,
+                1.0
+              ]
+            },
+            {
+              "id": "dvids-8711851",
+              "box": [
+                0.842,
+                0.8962406015037594,
+                0.929,
+                1.0
+              ]
+            },
+            {
+              "id": "dvids-8948275",
+              "box": [
+                0.252,
+                0.31,
+                0.554,
+                0.672
+              ]
+            },
+            {
+              "id": "crop-reserve-6892731",
+              "box": [
+                0.062,
+                0.5262368815592204,
+                0.887,
+                0.7886056971514243
+              ]
+            },
+            {
+              "id": "crop-reserve-chemyx",
+              "box": [
+                0.25979557069846676,
+                0.41363636363636364,
+                0.4752981260647359,
+                0.4420454545454545
+              ]
+            },
+            {
+              "id": "crop-reserve-chemyx",
+              "box": [
+                0.25979557069846676,
+                0.43863636363636366,
+                0.4752981260647359,
+                0.4681818181818182
+              ]
+            },
+            {
+              "id": "assembly-infusion",
+              "box": [
+                0.21,
+                0.5398773006134969,
+                0.881,
+                0.7893660531697342
+              ]
+            },
+            {
+              "id": "assembly-6900270",
+              "box": [
+                0.77,
+                0.41529235382308843,
+                0.818,
+                0.6026986506746627
+              ]
+            },
+            {
+              "id": "assembly-7538446",
+              "box": [
+                0.483,
+                0.4287856071964018,
+                0.709,
+                0.5712143928035982
+              ]
+            }
+          ]
+        },
+        "additions": {}
+      }
+    }
+  },
+  "exposed": {
+    "baseline": {
+      "images": 7,
+      "objects": 16,
+      "threshold": 0.0,
+      "tp": 14,
+      "fp": 1,
+      "fn": 2,
+      "precision": 0.9333333333333333,
+      "recall": 0.875,
+      "f1": 0.9032258064516129,
+      "ap50": 0.8547854785478549,
+      "ap50_95": 0.6365243172668916,
+      "ap_by_iou": {
+        "0.50": 0.8547854785478549,
+        "0.55": 0.8547854785478549,
+        "0.60": 0.8547854785478549,
+        "0.65": 0.7293729372937295,
+        "0.70": 0.7293729372937295,
+        "0.75": 0.676096181046676,
+        "0.80": 0.6153846153846153,
+        "0.85": 0.5643564356435643,
+        "0.90": 0.3872937293729374,
+        "0.95": 0.09900990099009901
+      },
+      "exact_count": 5,
+      "negative_images": 2,
+      "correct_empty": 1,
+      "images_with_only_below_threshold_proposals": 0,
+      "false_positives": [
+        {
+          "id": "refine-37499105",
+          "prediction": {
+            "id": "object-1",
+            "bbox": [
+              0.40288687133789064,
+              0.07333089192708331,
+              0.4956260375976563,
+              0.5384880777994792
+            ],
+            "score": 0.6792144519625185,
+            "detection_evidence": {},
+            "scale": null,
+            "color": null,
+            "evidence": {
+              "scale": {
+                "value": null,
+                "reason": "Outside development support or ambiguous",
+                "distance": 2.9754710005387532,
+                "margin": 0.5698820549420867
+              },
+              "color": {
+                "value": null,
+                "reason": "Outside development support or ambiguous",
+                "distance": 7.7001547277143505,
+                "margin": 0.7644433191150384
+              }
+            },
+            "inscriptions": {
+              "status": "not requested",
+              "candidates": [],
+              "capacity": null,
+              "apparent_volume": null
+            },
+            "liquid_appearance": {
+              "status": "insufficient evidence",
+              "reason": "The syringe mask could not be validated.",
+              "lightness": null,
+              "opacity": null,
+              "opacity_reason": "A registered clear-barrel reference at the same exposure is required."
+            },
+            "fill_level": {
+              "status": "insufficient evidence",
+              "reason": "Enable visible marking extraction to estimate fill."
+            },
+            "origin": "model"
+          },
+          "best_unmatched_iou": 0
+        }
+      ],
+      "false_negatives": [
+        {
+          "id": "refine-8670507",
+          "box": [
+            0.34872979214780603,
+            0.26615384615384613,
+            0.47575057736720555,
+            0.4707692307692308
+          ]
+        },
+        {
+          "id": "refine-8670507",
+          "box": [
+            0.5773672055427251,
+            0.26153846153846155,
+            0.7090069284064665,
+            0.46923076923076923
+          ]
+        }
+      ]
+    },
+    "arms": {
+      "overlap": {
+        "delta": {
+          "tp": 14,
+          "fp": 1,
+          "exact_count": 5,
+          "gain": 0,
+          "extra_fp": 0,
+          "safe": true,
+          "lost_reference": false,
+          "per_image_false_positive_regression": false,
+          "count_regression": false
+        },
+        "metrics": {
+          "images": 7,
+          "objects": 16,
+          "threshold": 0.0,
+          "tp": 14,
+          "fp": 1,
+          "fn": 2,
+          "precision": 0.9333333333333333,
+          "recall": 0.875,
+          "f1": 0.9032258064516129,
+          "ap50": 0.8547854785478549,
+          "ap50_95": 0.6365243172668916,
+          "ap_by_iou": {
+            "0.50": 0.8547854785478549,
+            "0.55": 0.8547854785478549,
+            "0.60": 0.8547854785478549,
+            "0.65": 0.7293729372937295,
+            "0.70": 0.7293729372937295,
+            "0.75": 0.676096181046676,
+            "0.80": 0.6153846153846153,
+            "0.85": 0.5643564356435643,
+            "0.90": 0.3872937293729374,
+            "0.95": 0.09900990099009901
+          },
+          "exact_count": 5,
+          "negative_images": 2,
+          "correct_empty": 1,
+          "images_with_only_below_threshold_proposals": 0,
+          "false_positives": [
+            {
+              "id": "refine-37499105",
+              "prediction": {
+                "id": "object-1",
+                "bbox": [
+                  0.40288687133789064,
+                  0.07333089192708331,
+                  0.4956260375976563,
+                  0.5384880777994792
+                ],
+                "score": 0.6792144519625185,
+                "detection_evidence": {},
+                "scale": null,
+                "color": null,
+                "evidence": {
+                  "scale": {
+                    "value": null,
+                    "reason": "Outside development support or ambiguous",
+                    "distance": 2.9754710005387532,
+                    "margin": 0.5698820549420867
+                  },
+                  "color": {
+                    "value": null,
+                    "reason": "Outside development support or ambiguous",
+                    "distance": 7.7001547277143505,
+                    "margin": 0.7644433191150384
+                  }
+                },
+                "inscriptions": {
+                  "status": "not requested",
+                  "candidates": [],
+                  "capacity": null,
+                  "apparent_volume": null
+                },
+                "liquid_appearance": {
+                  "status": "insufficient evidence",
+                  "reason": "The syringe mask could not be validated.",
+                  "lightness": null,
+                  "opacity": null,
+                  "opacity_reason": "A registered clear-barrel reference at the same exposure is required."
+                },
+                "fill_level": {
+                  "status": "insufficient evidence",
+                  "reason": "Enable visible marking extraction to estimate fill."
+                },
+                "origin": "model"
+              },
+              "best_unmatched_iou": 0
+            }
+          ],
+          "false_negatives": [
+            {
+              "id": "refine-8670507",
+              "box": [
+                0.34872979214780603,
+                0.26615384615384613,
+                0.47575057736720555,
+                0.4707692307692308
+              ]
+            },
+            {
+              "id": "refine-8670507",
+              "box": [
+                0.5773672055427251,
+                0.26153846153846155,
+                0.7090069284064665,
+                0.46923076923076923
+              ]
+            }
+          ]
+        },
+        "additions": {}
+      },
+      "prior-identity": {
+        "delta": {
+          "tp": 14,
+          "fp": 1,
+          "exact_count": 5,
+          "gain": 0,
+          "extra_fp": 0,
+          "safe": true,
+          "lost_reference": false,
+          "per_image_false_positive_regression": false,
+          "count_regression": false
+        },
+        "metrics": {
+          "images": 7,
+          "objects": 16,
+          "threshold": 0.0,
+          "tp": 14,
+          "fp": 1,
+          "fn": 2,
+          "precision": 0.9333333333333333,
+          "recall": 0.875,
+          "f1": 0.9032258064516129,
+          "ap50": 0.8547854785478549,
+          "ap50_95": 0.6365243172668916,
+          "ap_by_iou": {
+            "0.50": 0.8547854785478549,
+            "0.55": 0.8547854785478549,
+            "0.60": 0.8547854785478549,
+            "0.65": 0.7293729372937295,
+            "0.70": 0.7293729372937295,
+            "0.75": 0.676096181046676,
+            "0.80": 0.6153846153846153,
+            "0.85": 0.5643564356435643,
+            "0.90": 0.3872937293729374,
+            "0.95": 0.09900990099009901
+          },
+          "exact_count": 5,
+          "negative_images": 2,
+          "correct_empty": 1,
+          "images_with_only_below_threshold_proposals": 0,
+          "false_positives": [
+            {
+              "id": "refine-37499105",
+              "prediction": {
+                "id": "object-1",
+                "bbox": [
+                  0.40288687133789064,
+                  0.07333089192708331,
+                  0.4956260375976563,
+                  0.5384880777994792
+                ],
+                "score": 0.6792144519625185,
+                "detection_evidence": {},
+                "scale": null,
+                "color": null,
+                "evidence": {
+                  "scale": {
+                    "value": null,
+                    "reason": "Outside development support or ambiguous",
+                    "distance": 2.9754710005387532,
+                    "margin": 0.5698820549420867
+                  },
+                  "color": {
+                    "value": null,
+                    "reason": "Outside development support or ambiguous",
+                    "distance": 7.7001547277143505,
+                    "margin": 0.7644433191150384
+                  }
+                },
+                "inscriptions": {
+                  "status": "not requested",
+                  "candidates": [],
+                  "capacity": null,
+                  "apparent_volume": null
+                },
+                "liquid_appearance": {
+                  "status": "insufficient evidence",
+                  "reason": "The syringe mask could not be validated.",
+                  "lightness": null,
+                  "opacity": null,
+                  "opacity_reason": "A registered clear-barrel reference at the same exposure is required."
+                },
+                "fill_level": {
+                  "status": "insufficient evidence",
+                  "reason": "Enable visible marking extraction to estimate fill."
+                },
+                "origin": "model"
+              },
+              "best_unmatched_iou": 0
+            }
+          ],
+          "false_negatives": [
+            {
+              "id": "refine-8670507",
+              "box": [
+                0.34872979214780603,
+                0.26615384615384613,
+                0.47575057736720555,
+                0.4707692307692308
+              ]
+            },
+            {
+              "id": "refine-8670507",
+              "box": [
+                0.5773672055427251,
+                0.26153846153846155,
+                0.7090069284064665,
+                0.46923076923076923
+              ]
+            }
+          ]
+        },
+        "additions": {}
+      },
+      "axis-identity": {
+        "delta": {
+          "tp": 14,
+          "fp": 1,
+          "exact_count": 5,
+          "gain": 0,
+          "extra_fp": 0,
+          "safe": true,
+          "lost_reference": false,
+          "per_image_false_positive_regression": false,
+          "count_regression": false
+        },
+        "metrics": {
+          "images": 7,
+          "objects": 16,
+          "threshold": 0.0,
+          "tp": 14,
+          "fp": 1,
+          "fn": 2,
+          "precision": 0.9333333333333333,
+          "recall": 0.875,
+          "f1": 0.9032258064516129,
+          "ap50": 0.8547854785478549,
+          "ap50_95": 0.6365243172668916,
+          "ap_by_iou": {
+            "0.50": 0.8547854785478549,
+            "0.55": 0.8547854785478549,
+            "0.60": 0.8547854785478549,
+            "0.65": 0.7293729372937295,
+            "0.70": 0.7293729372937295,
+            "0.75": 0.676096181046676,
+            "0.80": 0.6153846153846153,
+            "0.85": 0.5643564356435643,
+            "0.90": 0.3872937293729374,
+            "0.95": 0.09900990099009901
+          },
+          "exact_count": 5,
+          "negative_images": 2,
+          "correct_empty": 1,
+          "images_with_only_below_threshold_proposals": 0,
+          "false_positives": [
+            {
+              "id": "refine-37499105",
+              "prediction": {
+                "id": "object-1",
+                "bbox": [
+                  0.40288687133789064,
+                  0.07333089192708331,
+                  0.4956260375976563,
+                  0.5384880777994792
+                ],
+                "score": 0.6792144519625185,
+                "detection_evidence": {},
+                "scale": null,
+                "color": null,
+                "evidence": {
+                  "scale": {
+                    "value": null,
+                    "reason": "Outside development support or ambiguous",
+                    "distance": 2.9754710005387532,
+                    "margin": 0.5698820549420867
+                  },
+                  "color": {
+                    "value": null,
+                    "reason": "Outside development support or ambiguous",
+                    "distance": 7.7001547277143505,
+                    "margin": 0.7644433191150384
+                  }
+                },
+                "inscriptions": {
+                  "status": "not requested",
+                  "candidates": [],
+                  "capacity": null,
+                  "apparent_volume": null
+                },
+                "liquid_appearance": {
+                  "status": "insufficient evidence",
+                  "reason": "The syringe mask could not be validated.",
+                  "lightness": null,
+                  "opacity": null,
+                  "opacity_reason": "A registered clear-barrel reference at the same exposure is required."
+                },
+                "fill_level": {
+                  "status": "insufficient evidence",
+                  "reason": "Enable visible marking extraction to estimate fill."
+                },
+                "origin": "model"
+              },
+              "best_unmatched_iou": 0
+            }
+          ],
+          "false_negatives": [
+            {
+              "id": "refine-8670507",
+              "box": [
+                0.34872979214780603,
+                0.26615384615384613,
+                0.47575057736720555,
+                0.4707692307692308
+              ]
+            },
+            {
+              "id": "refine-8670507",
+              "box": [
+                0.5773672055427251,
+                0.26153846153846155,
+                0.7090069284064665,
+                0.46923076923076923
+              ]
+            }
+          ]
+        },
+        "additions": {}
+      },
+      "probe-overlap": {
+        "delta": {
+          "tp": 14,
+          "fp": 2,
+          "exact_count": 4,
+          "gain": 0,
+          "extra_fp": 1,
+          "safe": false,
+          "lost_reference": false,
+          "per_image_false_positive_regression": true,
+          "count_regression": true
+        },
+        "metrics": {
+          "images": 7,
+          "objects": 16,
+          "threshold": 0.0,
+          "tp": 14,
+          "fp": 2,
+          "fn": 2,
+          "precision": 0.875,
+          "recall": 0.875,
+          "f1": 0.875,
+          "ap50": 0.8547854785478549,
+          "ap50_95": 0.6365243172668916,
+          "ap_by_iou": {
+            "0.50": 0.8547854785478549,
+            "0.55": 0.8547854785478549,
+            "0.60": 0.8547854785478549,
+            "0.65": 0.7293729372937295,
+            "0.70": 0.7293729372937295,
+            "0.75": 0.676096181046676,
+            "0.80": 0.6153846153846153,
+            "0.85": 0.5643564356435643,
+            "0.90": 0.3872937293729374,
+            "0.95": 0.09900990099009901
+          },
+          "exact_count": 4,
+          "negative_images": 2,
+          "correct_empty": 1,
+          "images_with_only_below_threshold_proposals": 0,
+          "false_positives": [
+            {
+              "id": "refine-37499105",
+              "prediction": {
+                "id": "object-1",
+                "bbox": [
+                  0.40288687133789064,
+                  0.07333089192708331,
+                  0.4956260375976563,
+                  0.5384880777994792
+                ],
+                "score": 0.6792144519625185,
+                "detection_evidence": {},
+                "scale": null,
+                "color": null,
+                "evidence": {
+                  "scale": {
+                    "value": null,
+                    "reason": "Outside development support or ambiguous",
+                    "distance": 2.9754710005387532,
+                    "margin": 0.5698820549420867
+                  },
+                  "color": {
+                    "value": null,
+                    "reason": "Outside development support or ambiguous",
+                    "distance": 7.7001547277143505,
+                    "margin": 0.7644433191150384
+                  }
+                },
+                "inscriptions": {
+                  "status": "not requested",
+                  "candidates": [],
+                  "capacity": null,
+                  "apparent_volume": null
+                },
+                "liquid_appearance": {
+                  "status": "insufficient evidence",
+                  "reason": "The syringe mask could not be validated.",
+                  "lightness": null,
+                  "opacity": null,
+                  "opacity_reason": "A registered clear-barrel reference at the same exposure is required."
+                },
+                "fill_level": {
+                  "status": "insufficient evidence",
+                  "reason": "Enable visible marking extraction to estimate fill."
+                },
+                "origin": "model"
+              },
+              "best_unmatched_iou": 0
+            },
+            {
+              "id": "refine-3786122",
+              "prediction": {
+                "bbox": [
+                  0.07956296110153198,
+                  0.23979552268981932,
+                  0.44645055770874026,
+                  0.47961250877380374
+                ],
+                "score": 0.0022885248959064485,
+                "detector_score": 0.28852489590644836,
+                "source": "instance separation",
+                "overlapping": 0
+              },
+              "best_unmatched_iou": 0
+            }
+          ],
+          "false_negatives": [
+            {
+              "id": "refine-8670507",
+              "box": [
+                0.34872979214780603,
+                0.26615384615384613,
+                0.47575057736720555,
+                0.4707692307692308
+              ]
+            },
+            {
+              "id": "refine-8670507",
+              "box": [
+                0.5773672055427251,
+                0.26153846153846155,
+                0.7090069284064665,
+                0.46923076923076923
+              ]
+            }
+          ]
+        },
+        "additions": {
+          "refine-3786122": [
+            {
+              "bbox": [
+                0.07956296110153198,
+                0.23979552268981932,
+                0.44645055770874026,
+                0.47961250877380374
+              ],
+              "score": 0.0022885248959064485,
+              "detector_score": 0.28852489590644836,
+              "source": "instance separation",
+              "overlapping": 0
+            }
+          ]
+        }
+      },
+      "probe-prior-identity": {
+        "delta": {
+          "tp": 14,
+          "fp": 2,
+          "exact_count": 5,
+          "gain": 0,
+          "extra_fp": 1,
+          "safe": false,
+          "lost_reference": false,
+          "per_image_false_positive_regression": true,
+          "count_regression": false
+        },
+        "metrics": {
+          "images": 7,
+          "objects": 16,
+          "threshold": 0.0,
+          "tp": 14,
+          "fp": 2,
+          "fn": 2,
+          "precision": 0.875,
+          "recall": 0.875,
+          "f1": 0.875,
+          "ap50": 0.8547854785478549,
+          "ap50_95": 0.6365243172668916,
+          "ap_by_iou": {
+            "0.50": 0.8547854785478549,
+            "0.55": 0.8547854785478549,
+            "0.60": 0.8547854785478549,
+            "0.65": 0.7293729372937295,
+            "0.70": 0.7293729372937295,
+            "0.75": 0.676096181046676,
+            "0.80": 0.6153846153846153,
+            "0.85": 0.5643564356435643,
+            "0.90": 0.3872937293729374,
+            "0.95": 0.09900990099009901
+          },
+          "exact_count": 5,
+          "negative_images": 2,
+          "correct_empty": 1,
+          "images_with_only_below_threshold_proposals": 0,
+          "false_positives": [
+            {
+              "id": "refine-37499105",
+              "prediction": {
+                "id": "object-1",
+                "bbox": [
+                  0.40288687133789064,
+                  0.07333089192708331,
+                  0.4956260375976563,
+                  0.5384880777994792
+                ],
+                "score": 0.6792144519625185,
+                "detection_evidence": {},
+                "scale": null,
+                "color": null,
+                "evidence": {
+                  "scale": {
+                    "value": null,
+                    "reason": "Outside development support or ambiguous",
+                    "distance": 2.9754710005387532,
+                    "margin": 0.5698820549420867
+                  },
+                  "color": {
+                    "value": null,
+                    "reason": "Outside development support or ambiguous",
+                    "distance": 7.7001547277143505,
+                    "margin": 0.7644433191150384
+                  }
+                },
+                "inscriptions": {
+                  "status": "not requested",
+                  "candidates": [],
+                  "capacity": null,
+                  "apparent_volume": null
+                },
+                "liquid_appearance": {
+                  "status": "insufficient evidence",
+                  "reason": "The syringe mask could not be validated.",
+                  "lightness": null,
+                  "opacity": null,
+                  "opacity_reason": "A registered clear-barrel reference at the same exposure is required."
+                },
+                "fill_level": {
+                  "status": "insufficient evidence",
+                  "reason": "Enable visible marking extraction to estimate fill."
+                },
+                "origin": "model"
+              },
+              "best_unmatched_iou": 0
+            },
+            {
+              "id": "refine-8670507",
+              "prediction": {
+                "bbox": [
+                  0.5498736629486084,
+                  0.32861923027038575,
+                  0.6781623840332032,
+                  0.47697518634796143
+                ],
+                "score": 0.002402029812335968,
+                "detector_score": 0.402029812335968,
+                "source": "instance separation",
+                "overlapping": 1
+              },
+              "best_unmatched_iou": 0.44015435454908497
+            }
+          ],
+          "false_negatives": [
+            {
+              "id": "refine-8670507",
+              "box": [
+                0.34872979214780603,
+                0.26615384615384613,
+                0.47575057736720555,
+                0.4707692307692308
+              ]
+            },
+            {
+              "id": "refine-8670507",
+              "box": [
+                0.5773672055427251,
+                0.26153846153846155,
+                0.7090069284064665,
+                0.46923076923076923
+              ]
+            }
+          ]
+        },
+        "additions": {
+          "refine-8670507": [
+            {
+              "bbox": [
+                0.5498736629486084,
+                0.32861923027038575,
+                0.6781623840332032,
+                0.47697518634796143
+              ],
+              "score": 0.002402029812335968,
+              "detector_score": 0.402029812335968,
+              "source": "instance separation",
+              "overlapping": 1
+            }
+          ]
+        }
+      },
+      "probe-axis-identity": {
+        "delta": {
+          "tp": 15,
+          "fp": 2,
+          "exact_count": 6,
+          "gain": 1,
+          "extra_fp": 1,
+          "safe": false,
+          "lost_reference": false,
+          "per_image_false_positive_regression": true,
+          "count_regression": false
+        },
+        "metrics": {
+          "images": 7,
+          "objects": 16,
+          "threshold": 0.0,
+          "tp": 15,
+          "fp": 2,
+          "fn": 1,
+          "precision": 0.8823529411764706,
+          "recall": 0.9375,
+          "f1": 0.9090909090909091,
+          "ap50": 0.911509900990099,
+          "ap50_95": 0.6643502248576506,
+          "ap_by_iou": {
+            "0.50": 0.911509900990099,
+            "0.55": 0.911509900990099,
+            "0.60": 0.911509900990099,
+            "0.65": 0.7834158415841584,
+            "0.70": 0.7834158415841584,
+            "0.75": 0.676096181046676,
+            "0.80": 0.6153846153846153,
+            "0.85": 0.5643564356435643,
+            "0.90": 0.3872937293729374,
+            "0.95": 0.09900990099009901
+          },
+          "exact_count": 6,
+          "negative_images": 2,
+          "correct_empty": 1,
+          "images_with_only_below_threshold_proposals": 0,
+          "false_positives": [
+            {
+              "id": "refine-37499105",
+              "prediction": {
+                "id": "object-1",
+                "bbox": [
+                  0.40288687133789064,
+                  0.07333089192708331,
+                  0.4956260375976563,
+                  0.5384880777994792
+                ],
+                "score": 0.6792144519625185,
+                "detection_evidence": {},
+                "scale": null,
+                "color": null,
+                "evidence": {
+                  "scale": {
+                    "value": null,
+                    "reason": "Outside development support or ambiguous",
+                    "distance": 2.9754710005387532,
+                    "margin": 0.5698820549420867
+                  },
+                  "color": {
+                    "value": null,
+                    "reason": "Outside development support or ambiguous",
+                    "distance": 7.7001547277143505,
+                    "margin": 0.7644433191150384
+                  }
+                },
+                "inscriptions": {
+                  "status": "not requested",
+                  "candidates": [],
+                  "capacity": null,
+                  "apparent_volume": null
+                },
+                "liquid_appearance": {
+                  "status": "insufficient evidence",
+                  "reason": "The syringe mask could not be validated.",
+                  "lightness": null,
+                  "opacity": null,
+                  "opacity_reason": "A registered clear-barrel reference at the same exposure is required."
+                },
+                "fill_level": {
+                  "status": "insufficient evidence",
+                  "reason": "Enable visible marking extraction to estimate fill."
+                },
+                "origin": "model"
+              },
+              "best_unmatched_iou": 0
+            },
+            {
+              "id": "refine-8670507",
+              "prediction": {
+                "bbox": [
+                  0.5498736629486084,
+                  0.32861923027038575,
+                  0.6781623840332032,
+                  0.47697518634796143
+                ],
+                "score": 0.002402029812335968,
+                "detector_score": 0.402029812335968,
+                "source": "instance separation",
+                "overlapping": 1
+              },
+              "best_unmatched_iou": 0.44015435454908497
+            }
+          ],
+          "false_negatives": [
+            {
+              "id": "refine-8670507",
+              "box": [
+                0.5773672055427251,
+                0.26153846153846155,
+                0.7090069284064665,
+                0.46923076923076923
+              ]
+            }
+          ]
+        },
+        "additions": {
+          "refine-8670507": [
+            {
+              "bbox": [
+                0.3476754426956177,
+                0.249151349067688,
+                0.5023496627807618,
+                0.4774605751037598
+              ],
+              "score": 0.0024286702275276182,
+              "detector_score": 0.4286702275276184,
+              "source": "instance separation",
+              "overlapping": 1
+            },
+            {
+              "bbox": [
+                0.5498736629486084,
+                0.32861923027038575,
+                0.6781623840332032,
+                0.47697518634796143
+              ],
+              "score": 0.002402029812335968,
+              "detector_score": 0.402029812335968,
+              "source": "instance separation",
+              "overlapping": 1
+            }
+          ]
+        }
+      }
+    }
+  },
+  "independent": {
+    "baseline": {
+      "images": 5,
+      "objects": 9,
+      "threshold": 0.0,
+      "tp": 2,
+      "fp": 0,
+      "fn": 7,
+      "precision": 1.0,
+      "recall": 0.2222222222222222,
+      "f1": 0.3636363636363636,
+      "ap50": 0.22772277227722773,
+      "ap50_95": 0.22772277227722776,
+      "ap_by_iou": {
+        "0.50": 0.22772277227722773,
+        "0.55": 0.22772277227722773,
+        "0.60": 0.22772277227722773,
+        "0.65": 0.22772277227722773,
+        "0.70": 0.22772277227722773,
+        "0.75": 0.22772277227722773,
+        "0.80": 0.22772277227722773,
+        "0.85": 0.22772277227722773,
+        "0.90": 0.22772277227722773,
+        "0.95": 0.22772277227722773
+      },
+      "exact_count": 3,
+      "negative_images": 2,
+      "correct_empty": 2,
+      "images_with_only_below_threshold_proposals": 0,
+      "false_positives": [],
+      "false_negatives": [
+        {
+          "id": "separation-33893209",
+          "box": [
+            0.128,
+            0.10044977511244378,
+            0.865,
+            0.7331334332833583
+          ]
+        },
+        {
+          "id": "separation-33893209",
+          "box": [
+            0.052,
+            0.21889055472263869,
+            0.85,
+            0.815592203898051
+          ]
+        },
+        {
+          "id": "separation-33893209",
+          "box": [
+            0.046,
+            0.3103448275862069,
+            0.84,
+            0.8875562218890555
+          ]
+        },
+        {
+          "id": "separation-33893209",
+          "box": [
+            0.106,
+            0.3868065967016492,
+            0.862,
+            0.8785607196401799
+          ]
+        },
+        {
+          "id": "separation-33893209",
+          "box": [
+            0.165,
+            0.029985007496251874,
+            0.865,
+            0.8830584707646177
+          ]
+        },
+        {
+          "id": "separation-5973354",
+          "box": [
+            0.20092378752886836,
+            0.19230769230769232,
+            0.5796766743648961,
+            0.4815384615384615
+          ]
+        },
+        {
+          "id": "separation-5973354",
+          "box": [
+            0.30484988452655887,
+            0.3046153846153846,
+            0.7043879907621247,
+            0.64
+          ]
+        }
+      ]
+    },
+    "arms": {
+      "overlap": {
+        "delta": {
+          "tp": 2,
+          "fp": 0,
+          "exact_count": 3,
+          "gain": 0,
+          "extra_fp": 0,
+          "safe": true,
+          "lost_reference": false,
+          "per_image_false_positive_regression": false,
+          "count_regression": false
+        },
+        "metrics": {
+          "images": 5,
+          "objects": 9,
+          "threshold": 0.0,
+          "tp": 2,
+          "fp": 0,
+          "fn": 7,
+          "precision": 1.0,
+          "recall": 0.2222222222222222,
+          "f1": 0.3636363636363636,
+          "ap50": 0.22772277227722773,
+          "ap50_95": 0.22772277227722776,
+          "ap_by_iou": {
+            "0.50": 0.22772277227722773,
+            "0.55": 0.22772277227722773,
+            "0.60": 0.22772277227722773,
+            "0.65": 0.22772277227722773,
+            "0.70": 0.22772277227722773,
+            "0.75": 0.22772277227722773,
+            "0.80": 0.22772277227722773,
+            "0.85": 0.22772277227722773,
+            "0.90": 0.22772277227722773,
+            "0.95": 0.22772277227722773
+          },
+          "exact_count": 3,
+          "negative_images": 2,
+          "correct_empty": 2,
+          "images_with_only_below_threshold_proposals": 0,
+          "false_positives": [],
+          "false_negatives": [
+            {
+              "id": "separation-33893209",
+              "box": [
+                0.128,
+                0.10044977511244378,
+                0.865,
+                0.7331334332833583
+              ]
+            },
+            {
+              "id": "separation-33893209",
+              "box": [
+                0.052,
+                0.21889055472263869,
+                0.85,
+                0.815592203898051
+              ]
+            },
+            {
+              "id": "separation-33893209",
+              "box": [
+                0.046,
+                0.3103448275862069,
+                0.84,
+                0.8875562218890555
+              ]
+            },
+            {
+              "id": "separation-33893209",
+              "box": [
+                0.106,
+                0.3868065967016492,
+                0.862,
+                0.8785607196401799
+              ]
+            },
+            {
+              "id": "separation-33893209",
+              "box": [
+                0.165,
+                0.029985007496251874,
+                0.865,
+                0.8830584707646177
+              ]
+            },
+            {
+              "id": "separation-5973354",
+              "box": [
+                0.20092378752886836,
+                0.19230769230769232,
+                0.5796766743648961,
+                0.4815384615384615
+              ]
+            },
+            {
+              "id": "separation-5973354",
+              "box": [
+                0.30484988452655887,
+                0.3046153846153846,
+                0.7043879907621247,
+                0.64
+              ]
+            }
+          ]
+        },
+        "additions": {}
+      },
+      "prior-identity": {
+        "delta": {
+          "tp": 2,
+          "fp": 0,
+          "exact_count": 3,
+          "gain": 0,
+          "extra_fp": 0,
+          "safe": true,
+          "lost_reference": false,
+          "per_image_false_positive_regression": false,
+          "count_regression": false
+        },
+        "metrics": {
+          "images": 5,
+          "objects": 9,
+          "threshold": 0.0,
+          "tp": 2,
+          "fp": 0,
+          "fn": 7,
+          "precision": 1.0,
+          "recall": 0.2222222222222222,
+          "f1": 0.3636363636363636,
+          "ap50": 0.22772277227722773,
+          "ap50_95": 0.22772277227722776,
+          "ap_by_iou": {
+            "0.50": 0.22772277227722773,
+            "0.55": 0.22772277227722773,
+            "0.60": 0.22772277227722773,
+            "0.65": 0.22772277227722773,
+            "0.70": 0.22772277227722773,
+            "0.75": 0.22772277227722773,
+            "0.80": 0.22772277227722773,
+            "0.85": 0.22772277227722773,
+            "0.90": 0.22772277227722773,
+            "0.95": 0.22772277227722773
+          },
+          "exact_count": 3,
+          "negative_images": 2,
+          "correct_empty": 2,
+          "images_with_only_below_threshold_proposals": 0,
+          "false_positives": [],
+          "false_negatives": [
+            {
+              "id": "separation-33893209",
+              "box": [
+                0.128,
+                0.10044977511244378,
+                0.865,
+                0.7331334332833583
+              ]
+            },
+            {
+              "id": "separation-33893209",
+              "box": [
+                0.052,
+                0.21889055472263869,
+                0.85,
+                0.815592203898051
+              ]
+            },
+            {
+              "id": "separation-33893209",
+              "box": [
+                0.046,
+                0.3103448275862069,
+                0.84,
+                0.8875562218890555
+              ]
+            },
+            {
+              "id": "separation-33893209",
+              "box": [
+                0.106,
+                0.3868065967016492,
+                0.862,
+                0.8785607196401799
+              ]
+            },
+            {
+              "id": "separation-33893209",
+              "box": [
+                0.165,
+                0.029985007496251874,
+                0.865,
+                0.8830584707646177
+              ]
+            },
+            {
+              "id": "separation-5973354",
+              "box": [
+                0.20092378752886836,
+                0.19230769230769232,
+                0.5796766743648961,
+                0.4815384615384615
+              ]
+            },
+            {
+              "id": "separation-5973354",
+              "box": [
+                0.30484988452655887,
+                0.3046153846153846,
+                0.7043879907621247,
+                0.64
+              ]
+            }
+          ]
+        },
+        "additions": {}
+      },
+      "axis-identity": {
+        "delta": {
+          "tp": 2,
+          "fp": 0,
+          "exact_count": 3,
+          "gain": 0,
+          "extra_fp": 0,
+          "safe": true,
+          "lost_reference": false,
+          "per_image_false_positive_regression": false,
+          "count_regression": false
+        },
+        "metrics": {
+          "images": 5,
+          "objects": 9,
+          "threshold": 0.0,
+          "tp": 2,
+          "fp": 0,
+          "fn": 7,
+          "precision": 1.0,
+          "recall": 0.2222222222222222,
+          "f1": 0.3636363636363636,
+          "ap50": 0.22772277227722773,
+          "ap50_95": 0.22772277227722776,
+          "ap_by_iou": {
+            "0.50": 0.22772277227722773,
+            "0.55": 0.22772277227722773,
+            "0.60": 0.22772277227722773,
+            "0.65": 0.22772277227722773,
+            "0.70": 0.22772277227722773,
+            "0.75": 0.22772277227722773,
+            "0.80": 0.22772277227722773,
+            "0.85": 0.22772277227722773,
+            "0.90": 0.22772277227722773,
+            "0.95": 0.22772277227722773
+          },
+          "exact_count": 3,
+          "negative_images": 2,
+          "correct_empty": 2,
+          "images_with_only_below_threshold_proposals": 0,
+          "false_positives": [],
+          "false_negatives": [
+            {
+              "id": "separation-33893209",
+              "box": [
+                0.128,
+                0.10044977511244378,
+                0.865,
+                0.7331334332833583
+              ]
+            },
+            {
+              "id": "separation-33893209",
+              "box": [
+                0.052,
+                0.21889055472263869,
+                0.85,
+                0.815592203898051
+              ]
+            },
+            {
+              "id": "separation-33893209",
+              "box": [
+                0.046,
+                0.3103448275862069,
+                0.84,
+                0.8875562218890555
+              ]
+            },
+            {
+              "id": "separation-33893209",
+              "box": [
+                0.106,
+                0.3868065967016492,
+                0.862,
+                0.8785607196401799
+              ]
+            },
+            {
+              "id": "separation-33893209",
+              "box": [
+                0.165,
+                0.029985007496251874,
+                0.865,
+                0.8830584707646177
+              ]
+            },
+            {
+              "id": "separation-5973354",
+              "box": [
+                0.20092378752886836,
+                0.19230769230769232,
+                0.5796766743648961,
+                0.4815384615384615
+              ]
+            },
+            {
+              "id": "separation-5973354",
+              "box": [
+                0.30484988452655887,
+                0.3046153846153846,
+                0.7043879907621247,
+                0.64
+              ]
+            }
+          ]
+        },
+        "additions": {}
+      },
+      "probe-overlap": {
+        "delta": {
+          "tp": 2,
+          "fp": 0,
+          "exact_count": 3,
+          "gain": 0,
+          "extra_fp": 0,
+          "safe": true,
+          "lost_reference": false,
+          "per_image_false_positive_regression": false,
+          "count_regression": false
+        },
+        "metrics": {
+          "images": 5,
+          "objects": 9,
+          "threshold": 0.0,
+          "tp": 2,
+          "fp": 0,
+          "fn": 7,
+          "precision": 1.0,
+          "recall": 0.2222222222222222,
+          "f1": 0.3636363636363636,
+          "ap50": 0.22772277227722773,
+          "ap50_95": 0.22772277227722776,
+          "ap_by_iou": {
+            "0.50": 0.22772277227722773,
+            "0.55": 0.22772277227722773,
+            "0.60": 0.22772277227722773,
+            "0.65": 0.22772277227722773,
+            "0.70": 0.22772277227722773,
+            "0.75": 0.22772277227722773,
+            "0.80": 0.22772277227722773,
+            "0.85": 0.22772277227722773,
+            "0.90": 0.22772277227722773,
+            "0.95": 0.22772277227722773
+          },
+          "exact_count": 3,
+          "negative_images": 2,
+          "correct_empty": 2,
+          "images_with_only_below_threshold_proposals": 0,
+          "false_positives": [],
+          "false_negatives": [
+            {
+              "id": "separation-33893209",
+              "box": [
+                0.128,
+                0.10044977511244378,
+                0.865,
+                0.7331334332833583
+              ]
+            },
+            {
+              "id": "separation-33893209",
+              "box": [
+                0.052,
+                0.21889055472263869,
+                0.85,
+                0.815592203898051
+              ]
+            },
+            {
+              "id": "separation-33893209",
+              "box": [
+                0.046,
+                0.3103448275862069,
+                0.84,
+                0.8875562218890555
+              ]
+            },
+            {
+              "id": "separation-33893209",
+              "box": [
+                0.106,
+                0.3868065967016492,
+                0.862,
+                0.8785607196401799
+              ]
+            },
+            {
+              "id": "separation-33893209",
+              "box": [
+                0.165,
+                0.029985007496251874,
+                0.865,
+                0.8830584707646177
+              ]
+            },
+            {
+              "id": "separation-5973354",
+              "box": [
+                0.20092378752886836,
+                0.19230769230769232,
+                0.5796766743648961,
+                0.4815384615384615
+              ]
+            },
+            {
+              "id": "separation-5973354",
+              "box": [
+                0.30484988452655887,
+                0.3046153846153846,
+                0.7043879907621247,
+                0.64
+              ]
+            }
+          ]
+        },
+        "additions": {}
+      },
+      "probe-prior-identity": {
+        "delta": {
+          "tp": 2,
+          "fp": 0,
+          "exact_count": 3,
+          "gain": 0,
+          "extra_fp": 0,
+          "safe": true,
+          "lost_reference": false,
+          "per_image_false_positive_regression": false,
+          "count_regression": false
+        },
+        "metrics": {
+          "images": 5,
+          "objects": 9,
+          "threshold": 0.0,
+          "tp": 2,
+          "fp": 0,
+          "fn": 7,
+          "precision": 1.0,
+          "recall": 0.2222222222222222,
+          "f1": 0.3636363636363636,
+          "ap50": 0.22772277227722773,
+          "ap50_95": 0.22772277227722776,
+          "ap_by_iou": {
+            "0.50": 0.22772277227722773,
+            "0.55": 0.22772277227722773,
+            "0.60": 0.22772277227722773,
+            "0.65": 0.22772277227722773,
+            "0.70": 0.22772277227722773,
+            "0.75": 0.22772277227722773,
+            "0.80": 0.22772277227722773,
+            "0.85": 0.22772277227722773,
+            "0.90": 0.22772277227722773,
+            "0.95": 0.22772277227722773
+          },
+          "exact_count": 3,
+          "negative_images": 2,
+          "correct_empty": 2,
+          "images_with_only_below_threshold_proposals": 0,
+          "false_positives": [],
+          "false_negatives": [
+            {
+              "id": "separation-33893209",
+              "box": [
+                0.128,
+                0.10044977511244378,
+                0.865,
+                0.7331334332833583
+              ]
+            },
+            {
+              "id": "separation-33893209",
+              "box": [
+                0.052,
+                0.21889055472263869,
+                0.85,
+                0.815592203898051
+              ]
+            },
+            {
+              "id": "separation-33893209",
+              "box": [
+                0.046,
+                0.3103448275862069,
+                0.84,
+                0.8875562218890555
+              ]
+            },
+            {
+              "id": "separation-33893209",
+              "box": [
+                0.106,
+                0.3868065967016492,
+                0.862,
+                0.8785607196401799
+              ]
+            },
+            {
+              "id": "separation-33893209",
+              "box": [
+                0.165,
+                0.029985007496251874,
+                0.865,
+                0.8830584707646177
+              ]
+            },
+            {
+              "id": "separation-5973354",
+              "box": [
+                0.20092378752886836,
+                0.19230769230769232,
+                0.5796766743648961,
+                0.4815384615384615
+              ]
+            },
+            {
+              "id": "separation-5973354",
+              "box": [
+                0.30484988452655887,
+                0.3046153846153846,
+                0.7043879907621247,
+                0.64
+              ]
+            }
+          ]
+        },
+        "additions": {}
+      },
+      "probe-axis-identity": {
+        "delta": {
+          "tp": 2,
+          "fp": 0,
+          "exact_count": 3,
+          "gain": 0,
+          "extra_fp": 0,
+          "safe": true,
+          "lost_reference": false,
+          "per_image_false_positive_regression": false,
+          "count_regression": false
+        },
+        "metrics": {
+          "images": 5,
+          "objects": 9,
+          "threshold": 0.0,
+          "tp": 2,
+          "fp": 0,
+          "fn": 7,
+          "precision": 1.0,
+          "recall": 0.2222222222222222,
+          "f1": 0.3636363636363636,
+          "ap50": 0.22772277227722773,
+          "ap50_95": 0.22772277227722776,
+          "ap_by_iou": {
+            "0.50": 0.22772277227722773,
+            "0.55": 0.22772277227722773,
+            "0.60": 0.22772277227722773,
+            "0.65": 0.22772277227722773,
+            "0.70": 0.22772277227722773,
+            "0.75": 0.22772277227722773,
+            "0.80": 0.22772277227722773,
+            "0.85": 0.22772277227722773,
+            "0.90": 0.22772277227722773,
+            "0.95": 0.22772277227722773
+          },
+          "exact_count": 3,
+          "negative_images": 2,
+          "correct_empty": 2,
+          "images_with_only_below_threshold_proposals": 0,
+          "false_positives": [],
+          "false_negatives": [
+            {
+              "id": "separation-33893209",
+              "box": [
+                0.128,
+                0.10044977511244378,
+                0.865,
+                0.7331334332833583
+              ]
+            },
+            {
+              "id": "separation-33893209",
+              "box": [
+                0.052,
+                0.21889055472263869,
+                0.85,
+                0.815592203898051
+              ]
+            },
+            {
+              "id": "separation-33893209",
+              "box": [
+                0.046,
+                0.3103448275862069,
+                0.84,
+                0.8875562218890555
+              ]
+            },
+            {
+              "id": "separation-33893209",
+              "box": [
+                0.106,
+                0.3868065967016492,
+                0.862,
+                0.8785607196401799
+              ]
+            },
+            {
+              "id": "separation-33893209",
+              "box": [
+                0.165,
+                0.029985007496251874,
+                0.865,
+                0.8830584707646177
+              ]
+            },
+            {
+              "id": "separation-5973354",
+              "box": [
+                0.20092378752886836,
+                0.19230769230769232,
+                0.5796766743648961,
+                0.4815384615384615
+              ]
+            },
+            {
+              "id": "separation-5973354",
+              "box": [
+                0.30484988452655887,
+                0.3046153846153846,
+                0.7043879907621247,
+                0.64
+              ]
+            }
+          ]
+        },
+        "additions": {}
+      }
+    }
+  },
+  "six_syringes": [
+    {
+      "target": 1,
+      "candidate": {
+        "bbox": [
+          0.3476754426956177,
+          0.249151349067688,
+          0.5023496627807618,
+          0.4774605751037598
+        ],
+        "score": 0.4286702275276184
+      },
+      "evidence": [
+        {
+          "iou": 0.5391729695559399,
+          "result": {
+            "prior": {
+              "distinct": 0.2692252946665193,
+              "distractor": 4.6785158951697335e-06,
+              "fragment": 0.008350662633372344,
+              "same": 0.7224193641842132
+            },
+            "axis": {
+              "distinct": 0.8009721135713234,
+              "distractor": 6.859888046689755e-07,
+              "fragment": 0.0025421745041680883,
+              "same": 0.19648502593570408
+            }
+          }
+        }
+      ]
+    },
+    {
+      "target": 5,
+      "candidate": {
+        "bbox": [
+          0.5361756324768067,
+          0.2463916063308716,
+          0.7104950904846191,
+          0.47455034255981443
+        ],
+        "score": 0.3522336483001709
+      },
+      "evidence": [
+        {
+          "iou": 0.500924646122843,
+          "result": {
+            "prior": {
+              "distinct": 0.3307662814165194,
+              "distractor": 5.805540729553237e-06,
+              "fragment": 0.010221377723719675,
+              "same": 0.6590065353190314
+            },
+            "axis": {
+              "distinct": 0.8995277366104003,
+              "distractor": 3.404697158063386e-07,
+              "fragment": 0.00121973714234117,
+              "same": 0.09925218577754265
+            }
+          }
+        }
+      ]
+    }
+  ],
+  "winner": null,
+  "qualifies": false
+}

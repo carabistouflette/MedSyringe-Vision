@@ -1,0 +1,1051 @@
+{
+  "rows": [
+    {
+      "index": 1,
+      "id": "oi-1421dea9fb39e5bc",
+      "image": "data/public-annotated-collection/images/oi-1421dea9fb39e5bc.jpg",
+      "sha256": "e694407c2e61d005cc4920f65106d8439e4d8b85d5cce9cacd870241ecbb1919",
+      "use": "open-images",
+      "boxes": [
+        {
+          "label": "Syringe",
+          "bbox": [
+            0.07375,
+            0.016781,
+            0.5225,
+            0.438596
+          ],
+          "provider": "xclick",
+          "occluded": false,
+          "truncated": false,
+          "group_of": false,
+          "depiction": true,
+          "inside": false
+        }
+      ],
+      "decision": "depiction",
+      "note": null
+    },
+    {
+      "index": 2,
+      "id": "oi-3821bbf01a62925c",
+      "image": "data/public-annotated-collection/images/oi-3821bbf01a62925c.jpg",
+      "sha256": "5b59822aed5f613f2d76cfe484c87ac2d2d7709c0e183d4084d1bd9e6b97fab1",
+      "use": "open-images",
+      "boxes": [
+        {
+          "label": "Syringe",
+          "bbox": [
+            0.460625,
+            0.541667,
+            0.544375,
+            0.760185
+          ],
+          "provider": "xclick",
+          "occluded": true,
+          "truncated": false,
+          "group_of": false,
+          "depiction": false,
+          "inside": false
+        }
+      ],
+      "decision": "usable-provisional-positive",
+      "note": "Visible syringe portion is covered. The barrel is heavily occluded by the hand."
+    },
+    {
+      "index": 3,
+      "id": "oi-7d190e6f2c9ee0d2",
+      "image": "data/public-annotated-collection/images/oi-7d190e6f2c9ee0d2.jpg",
+      "sha256": "a05fc54f0ee1f975762d745c2b677b62d6ac0895c8ae1e5f1b715dc85e7abfa4",
+      "use": "open-images",
+      "boxes": [
+        {
+          "label": "Syringe",
+          "bbox": [
+            0.0425,
+            0.0,
+            0.364375,
+            0.503333
+          ],
+          "provider": "xclick",
+          "occluded": false,
+          "truncated": true,
+          "group_of": false,
+          "depiction": false,
+          "inside": false
+        },
+        {
+          "label": "Syringe",
+          "bbox": [
+            0.11375,
+            0.6325,
+            0.320625,
+            0.999167
+          ],
+          "provider": "xclick",
+          "occluded": false,
+          "truncated": true,
+          "group_of": false,
+          "depiction": false,
+          "inside": false
+        },
+        {
+          "label": "Syringe",
+          "bbox": [
+            0.65625,
+            0.0625,
+            0.999375,
+            0.438333
+          ],
+          "provider": "xclick",
+          "occluded": false,
+          "truncated": true,
+          "group_of": false,
+          "depiction": false,
+          "inside": false
+        },
+        {
+          "label": "Syringe",
+          "bbox": [
+            0.6925,
+            0.593333,
+            0.999375,
+            0.999167
+          ],
+          "provider": "xclick",
+          "occluded": false,
+          "truncated": true,
+          "group_of": false,
+          "depiction": false,
+          "inside": false
+        }
+      ],
+      "decision": "composite-or-variant",
+      "note": "Several crops or repeated units around a foot. Similar source scene as the other montage."
+    },
+    {
+      "index": 4,
+      "id": "oi-0eea5628b36db798",
+      "image": "data/public-annotated-collection/images/oi-0eea5628b36db798.jpg",
+      "sha256": "25edd9b80c825ee2d7ed8ee2adaaf41862b2a2f3921f70cf0aabf81c9a8c75a0",
+      "use": "open-images",
+      "boxes": [
+        {
+          "label": "Syringe",
+          "bbox": [
+            0.14375,
+            0.479688,
+            0.396875,
+            0.628125
+          ],
+          "provider": "xclick",
+          "occluded": false,
+          "truncated": false,
+          "group_of": false,
+          "depiction": true,
+          "inside": false
+        },
+        {
+          "label": "Syringe",
+          "bbox": [
+            0.178125,
+            0.535937,
+            0.440625,
+            0.695312
+          ],
+          "provider": "xclick",
+          "occluded": false,
+          "truncated": false,
+          "group_of": false,
+          "depiction": true,
+          "inside": false
+        },
+        {
+          "label": "Syringe",
+          "bbox": [
+            0.4125,
+            0.65625,
+            0.642187,
+            0.978125
+          ],
+          "provider": "xclick",
+          "occluded": false,
+          "truncated": false,
+          "group_of": false,
+          "depiction": true,
+          "inside": false
+        },
+        {
+          "label": "Syringe",
+          "bbox": [
+            0.41875,
+            0.578125,
+            0.548437,
+            0.834375
+          ],
+          "provider": "xclick",
+          "occluded": false,
+          "truncated": false,
+          "group_of": false,
+          "depiction": true,
+          "inside": false
+        },
+        {
+          "label": "Syringe",
+          "bbox": [
+            0.735937,
+            0.7375,
+            0.873438,
+            0.998438
+          ],
+          "provider": "xclick",
+          "occluded": false,
+          "truncated": true,
+          "group_of": false,
+          "depiction": true,
+          "inside": false
+        }
+      ],
+      "decision": "depiction",
+      "note": null
+    },
+    {
+      "index": 5,
+      "id": "oi-0bdd01af13c161cb",
+      "image": "data/public-annotated-collection/images/oi-0bdd01af13c161cb.jpg",
+      "sha256": "e3f40cb7abd1d7141e2e38c93d4d3b01a35c12ea84bf9727107bed6b7144bb6d",
+      "use": "open-images",
+      "boxes": [
+        {
+          "label": "Syringe",
+          "bbox": [
+            0.565,
+            0.17908,
+            0.99375,
+            0.70795
+          ],
+          "provider": "activemil",
+          "occluded": false,
+          "truncated": false,
+          "group_of": false,
+          "depiction": false,
+          "inside": false
+        },
+        {
+          "label": "Syringe",
+          "bbox": [
+            0.0,
+            0.162343,
+            0.999375,
+            0.999163
+          ],
+          "provider": "xclick",
+          "occluded": true,
+          "truncated": true,
+          "group_of": true,
+          "depiction": false,
+          "inside": false
+        }
+      ],
+      "decision": "instance-boxes-required",
+      "note": "Box spans the full bin and another encloses one barrel. Multiple identifiable physical instances have no one-to-one boxes."
+    },
+    {
+      "index": 6,
+      "id": "oi-a82441c51a0a1256",
+      "image": "data/public-annotated-collection/images/oi-a82441c51a0a1256.jpg",
+      "sha256": "e1bf2beaf5aa77d8f417fc539f2d916fcb855ed6105f020c299f3a428aac6ab2",
+      "use": "open-images",
+      "boxes": [
+        {
+          "label": "Syringe",
+          "bbox": [
+            0.054286,
+            0.173333,
+            0.12,
+            0.251429
+          ],
+          "provider": "xclick",
+          "occluded": false,
+          "truncated": false,
+          "group_of": false,
+          "depiction": true,
+          "inside": false
+        },
+        {
+          "label": "Syringe",
+          "bbox": [
+            0.717143,
+            0.394286,
+            0.925714,
+            0.539048
+          ],
+          "provider": "xclick",
+          "occluded": false,
+          "truncated": false,
+          "group_of": false,
+          "depiction": true,
+          "inside": false
+        }
+      ],
+      "decision": "depiction",
+      "note": null
+    },
+    {
+      "index": 7,
+      "id": "oi-c02d9d9238dbe976",
+      "image": "data/public-annotated-collection/images/oi-c02d9d9238dbe976.jpg",
+      "sha256": "b430653666f680a4bdd9bcfd4d31829115f3396d143ff0bdcf754f2f7f15457c",
+      "use": "open-images",
+      "boxes": [
+        {
+          "label": "Syringe",
+          "bbox": [
+            0.29875,
+            0.085,
+            0.653125,
+            0.488333
+          ],
+          "provider": "xclick",
+          "occluded": true,
+          "truncated": false,
+          "group_of": false,
+          "depiction": false,
+          "inside": false
+        }
+      ],
+      "decision": "object-too-occluded",
+      "note": "The needle and hub are prominent. There is insufficient evidence for the rest of the exterior box."
+    },
+    {
+      "index": 8,
+      "id": "oi-c990661366b84b01",
+      "image": "data/public-annotated-collection/images/oi-c990661366b84b01.jpg",
+      "sha256": "9d957454e8503a41fe4e449b8d3011ccf87b1ee20ba843f04963337ca1e49222",
+      "use": "open-images",
+      "boxes": [
+        {
+          "label": "Syringe",
+          "bbox": [
+            0.036875,
+            0.6,
+            0.964375,
+            0.7925
+          ],
+          "provider": "xclick",
+          "occluded": false,
+          "truncated": false,
+          "group_of": false,
+          "depiction": false,
+          "inside": false
+        }
+      ],
+      "decision": "usable-provisional-positive",
+      "note": null
+    },
+    {
+      "index": 9,
+      "id": "oi-0089b699b364a570",
+      "image": "data/public-annotated-collection/images/oi-0089b699b364a570.jpg",
+      "sha256": "937370b774cfaef048c39c273395a91272e4fd80692bc98adefd104fec2e5e2b",
+      "use": "open-images",
+      "boxes": [
+        {
+          "label": "Syringe",
+          "bbox": [
+            0.0,
+            0.0,
+            0.999375,
+            0.999167
+          ],
+          "provider": "xclick",
+          "occluded": true,
+          "truncated": true,
+          "group_of": true,
+          "depiction": false,
+          "inside": false
+        }
+      ],
+      "decision": "instance-boxes-required",
+      "note": "One large box covers multiple syringes on fabric."
+    },
+    {
+      "index": 10,
+      "id": "oi-783711a478be4447",
+      "image": "data/public-annotated-collection/images/oi-783711a478be4447.jpg",
+      "sha256": "3c9abdfb2990bbeabb6e794e029fd4b29a5d8b1035294676e81afa8e329e5ba3",
+      "use": "open-images",
+      "boxes": [
+        {
+          "label": "Syringe",
+          "bbox": [
+            0.203661,
+            0.315126,
+            0.661327,
+            0.764706
+          ],
+          "provider": "xclick",
+          "occluded": false,
+          "truncated": false,
+          "group_of": false,
+          "depiction": false,
+          "inside": false
+        }
+      ],
+      "decision": "usable-provisional-positive",
+      "note": null
+    },
+    {
+      "index": 11,
+      "id": "oi-54ea0f3ebbe897f9",
+      "image": "data/public-annotated-collection/images/oi-54ea0f3ebbe897f9.jpg",
+      "sha256": "b44f84b5386d67b7b0b5d69484bbbc019522dd1ef2b96a9f60ea9c3b07fba9d7",
+      "use": "open-images",
+      "boxes": [
+        {
+          "label": "Syringe",
+          "bbox": [
+            0.0,
+            0.643333,
+            0.39875,
+            0.795833
+          ],
+          "provider": "xclick",
+          "occluded": false,
+          "truncated": true,
+          "group_of": false,
+          "depiction": false,
+          "inside": false
+        },
+        {
+          "label": "Syringe",
+          "bbox": [
+            0.080625,
+            0.0,
+            0.375,
+            0.530833
+          ],
+          "provider": "xclick",
+          "occluded": false,
+          "truncated": true,
+          "group_of": false,
+          "depiction": false,
+          "inside": false
+        },
+        {
+          "label": "Syringe",
+          "bbox": [
+            0.6725,
+            0.055833,
+            0.999375,
+            0.448333
+          ],
+          "provider": "xclick",
+          "occluded": false,
+          "truncated": true,
+          "group_of": false,
+          "depiction": false,
+          "inside": false
+        },
+        {
+          "label": "Syringe",
+          "bbox": [
+            0.733125,
+            0.613333,
+            0.999375,
+            0.985833
+          ],
+          "provider": "xclick",
+          "occluded": false,
+          "truncated": true,
+          "group_of": false,
+          "depiction": false,
+          "inside": false
+        }
+      ],
+      "decision": "composite-or-variant",
+      "note": "Near counterpart to the other foot montage with a changed lower-left region."
+    },
+    {
+      "index": 12,
+      "id": "oi-0edf174f6e98accb",
+      "image": "data/public-annotated-collection/images/oi-0edf174f6e98accb.jpg",
+      "sha256": "1c6e9374b274a491e694bf2c20a4f5eff3a81f4d7a2e7dbcfd8855789778a7d8",
+      "use": "open-images",
+      "boxes": [
+        {
+          "label": "Syringe",
+          "bbox": [
+            0.15625,
+            0.095238,
+            0.837054,
+            0.973214
+          ],
+          "provider": "xclick",
+          "occluded": false,
+          "truncated": false,
+          "group_of": false,
+          "depiction": false,
+          "inside": false
+        }
+      ],
+      "decision": "usable-provisional-positive",
+      "note": null
+    },
+    {
+      "index": 13,
+      "id": "oi-101021fd4e5c7292",
+      "image": "data/public-annotated-collection/images/oi-101021fd4e5c7292.jpg",
+      "sha256": "28b5403da44fbcf8b00007a3c9d4f810992ae54102de43015e3da7df69aadd34",
+      "use": "open-images",
+      "boxes": [
+        {
+          "label": "Syringe",
+          "bbox": [
+            0.08,
+            0.14,
+            0.53375,
+            0.930833
+          ],
+          "provider": "xclick",
+          "occluded": false,
+          "truncated": false,
+          "group_of": false,
+          "depiction": false,
+          "inside": false
+        }
+      ],
+      "decision": "taxonomy-review",
+      "note": "The package names a transponder implanter. Project taxonomy decision required for this device."
+    },
+    {
+      "index": 14,
+      "id": "oi-6de98358da59fbac",
+      "image": "data/public-annotated-collection/images/oi-6de98358da59fbac.jpg",
+      "sha256": "7a4007d6a5802d8f55697f40bbdd4073fd245354250afba88156edce9bfdcb72",
+      "use": "open-images",
+      "boxes": [
+        {
+          "label": "Syringe",
+          "bbox": [
+            0.101875,
+            0.334897,
+            0.905625,
+            0.520638
+          ],
+          "provider": "xclick",
+          "occluded": true,
+          "truncated": false,
+          "group_of": false,
+          "depiction": false,
+          "inside": false
+        }
+      ],
+      "decision": "taxonomy-review",
+      "note": "Device resembles a prefilled dosing applicator. Verify the type and class boundary before admission."
+    },
+    {
+      "index": 15,
+      "id": "oi-0cb43aab1d45a2a4",
+      "image": "data/public-annotated-collection/images/oi-0cb43aab1d45a2a4.jpg",
+      "sha256": "3298890b718ee9ce4c41ec1f842f2bad5d2928506f76441f8aba9b4e04951cfb",
+      "use": "open-images",
+      "boxes": [
+        {
+          "label": "Syringe",
+          "bbox": [
+            0.231875,
+            0.041667,
+            0.7875,
+            0.8875
+          ],
+          "provider": "xclick",
+          "occluded": false,
+          "truncated": false,
+          "group_of": false,
+          "depiction": false,
+          "inside": false
+        }
+      ],
+      "decision": "usable-provisional-positive",
+      "note": null
+    },
+    {
+      "index": 16,
+      "id": "oi-7f607d61a9932315",
+      "image": "data/public-annotated-collection/images/oi-7f607d61a9932315.jpg",
+      "sha256": "6e65ae738b6926ec975ff2fe286fbb989239a16fa8e74ae1f2288a79a0a96f94",
+      "use": "open-images",
+      "boxes": [
+        {
+          "label": "Syringe",
+          "bbox": [
+            0.005556,
+            0.46223,
+            0.144444,
+            0.908273
+          ],
+          "provider": "xclick",
+          "occluded": false,
+          "truncated": false,
+          "group_of": false,
+          "depiction": true,
+          "inside": false
+        },
+        {
+          "label": "Syringe",
+          "bbox": [
+            0.358333,
+            0.329137,
+            0.408333,
+            0.480216
+          ],
+          "provider": "xclick",
+          "occluded": false,
+          "truncated": false,
+          "group_of": false,
+          "depiction": true,
+          "inside": false
+        },
+        {
+          "label": "Syringe",
+          "bbox": [
+            0.573148,
+            0.595324,
+            0.611111,
+            0.874101
+          ],
+          "provider": "xclick",
+          "occluded": false,
+          "truncated": false,
+          "group_of": false,
+          "depiction": true,
+          "inside": false
+        },
+        {
+          "label": "Syringe",
+          "bbox": [
+            0.612963,
+            0.544964,
+            0.790741,
+            0.859712
+          ],
+          "provider": "xclick",
+          "occluded": false,
+          "truncated": false,
+          "group_of": false,
+          "depiction": true,
+          "inside": false
+        },
+        {
+          "label": "Syringe",
+          "bbox": [
+            0.714815,
+            0.005396,
+            0.837963,
+            0.381295
+          ],
+          "provider": "xclick",
+          "occluded": false,
+          "truncated": false,
+          "group_of": false,
+          "depiction": true,
+          "inside": false
+        },
+        {
+          "label": "Syringe",
+          "bbox": [
+            0.842593,
+            0.041367,
+            0.933333,
+            0.31295
+          ],
+          "provider": "xclick",
+          "occluded": false,
+          "truncated": false,
+          "group_of": false,
+          "depiction": true,
+          "inside": false
+        }
+      ],
+      "decision": "depiction",
+      "note": null
+    },
+    {
+      "index": 17,
+      "id": "oi-23e87e620f03ad91",
+      "image": "data/public-annotated-collection/images/oi-23e87e620f03ad91.jpg",
+      "sha256": "30c44355897ff16592a43e70d3eded6808af883fbc8f29fd07091f37646d751a",
+      "use": "open-images",
+      "boxes": [
+        {
+          "label": "Syringe",
+          "bbox": [
+            0.0,
+            0.352,
+            0.7997558,
+            0.74666667
+          ],
+          "provider": "xclick",
+          "occluded": false,
+          "truncated": true,
+          "group_of": false,
+          "depiction": true,
+          "inside": false
+        },
+        {
+          "label": "Syringe",
+          "bbox": [
+            0.072039075,
+            0.053333335,
+            0.995116,
+            0.45066667
+          ],
+          "provider": "xclick",
+          "occluded": false,
+          "truncated": false,
+          "group_of": false,
+          "depiction": false,
+          "inside": false
+        },
+        {
+          "label": "Syringe",
+          "bbox": [
+            0.08058608,
+            0.592,
+            0.996337,
+            0.98933333
+          ],
+          "provider": "xclick",
+          "occluded": false,
+          "truncated": true,
+          "group_of": false,
+          "depiction": false,
+          "inside": false
+        }
+      ],
+      "decision": "depiction",
+      "note": null
+    },
+    {
+      "index": 18,
+      "id": "oi-e62837044819abc1",
+      "image": "data/public-annotated-collection/images/oi-e62837044819abc1.jpg",
+      "sha256": "cb9e48f4ea798391bd4052810d654582f7d93158ffd4d20647c9c52ef8add723",
+      "use": "open-images",
+      "boxes": [
+        {
+          "label": "Syringe",
+          "bbox": [
+            0.24,
+            0.38125,
+            0.72,
+            0.56875
+          ],
+          "provider": "xclick",
+          "occluded": true,
+          "truncated": false,
+          "group_of": false,
+          "depiction": false,
+          "inside": false
+        }
+      ],
+      "decision": "usable-provisional-positive",
+      "note": null
+    },
+    {
+      "index": 19,
+      "id": "oi-821b7861e9d287e5",
+      "image": "data/public-annotated-collection/images/oi-821b7861e9d287e5.jpg",
+      "sha256": "23f199a5c027e5f9fd45686b9c36721dd9f4bd6fb5d39619b76b396dad514346",
+      "use": "open-images",
+      "boxes": [
+        {
+          "label": "Syringe",
+          "bbox": [
+            0.0,
+            0.551667,
+            0.7625,
+            0.985833
+          ],
+          "provider": "xclick",
+          "occluded": false,
+          "truncated": true,
+          "group_of": false,
+          "depiction": false,
+          "inside": false
+        },
+        {
+          "label": "Syringe",
+          "bbox": [
+            0.000625,
+            0.405,
+            0.776875,
+            0.618333
+          ],
+          "provider": "xclick",
+          "occluded": true,
+          "truncated": true,
+          "group_of": false,
+          "depiction": false,
+          "inside": false
+        },
+        {
+          "label": "Syringe",
+          "bbox": [
+            0.024375,
+            0.0,
+            0.76625,
+            0.436667
+          ],
+          "provider": "xclick",
+          "occluded": false,
+          "truncated": true,
+          "group_of": false,
+          "depiction": false,
+          "inside": false
+        }
+      ],
+      "decision": "usable-provisional-positive",
+      "note": "Three separate visible barrels are each boxed despite truncation by the image edges."
+    },
+    {
+      "index": 20,
+      "id": "oi-41f35d17dd7348e0",
+      "image": "data/public-annotated-collection/images/oi-41f35d17dd7348e0.jpg",
+      "sha256": "5e013abe87ecdbf14cfd54f9883c235e0e4798d1b3ba42f231777b083ec3031a",
+      "use": "open-images",
+      "boxes": [
+        {
+          "label": "Syringe",
+          "bbox": [
+            0.02375,
+            0.49205,
+            0.701875,
+            0.697071
+          ],
+          "provider": "xclick",
+          "occluded": true,
+          "truncated": false,
+          "group_of": false,
+          "depiction": false,
+          "inside": false
+        }
+      ],
+      "decision": "usable-provisional-positive",
+      "note": null
+    },
+    {
+      "index": 21,
+      "id": "oi-9b1a594e0cea3393",
+      "image": "data/public-annotated-collection/images/oi-9b1a594e0cea3393.jpg",
+      "sha256": "488b0fe455825e532f4feeb9ef01c927ac57328c4f55235030e64724428e3b9a",
+      "use": "open-images",
+      "boxes": [
+        {
+          "label": "Syringe",
+          "bbox": [
+            0.37242,
+            0.065625,
+            0.591932,
+            0.885
+          ],
+          "provider": "xclick",
+          "occluded": false,
+          "truncated": false,
+          "group_of": false,
+          "depiction": false,
+          "inside": false
+        }
+      ],
+      "decision": "usable-provisional-positive",
+      "note": null
+    },
+    {
+      "index": 22,
+      "id": "oi-9a670eb9341023a3",
+      "image": "data/public-annotated-collection/images/oi-9a670eb9341023a3.jpg",
+      "sha256": "efb9bb23d46919f71baa3168dc14f9ed674009967aef6b0927c9cc9b12a33815",
+      "use": "open-images",
+      "boxes": [
+        {
+          "label": "Syringe",
+          "bbox": [
+            0.126389,
+            0.020408,
+            0.826389,
+            0.998145
+          ],
+          "provider": "xclick",
+          "occluded": false,
+          "truncated": false,
+          "group_of": false,
+          "depiction": true,
+          "inside": false
+        }
+      ],
+      "decision": "depiction",
+      "note": null
+    },
+    {
+      "index": 23,
+      "id": "dental-a908c350f9119ccb",
+      "image": "data/public-annotated-collection/images/dental-a908c350f9119ccb.jpg",
+      "sha256": "9e6596bfed7759520cb688b37bc1beffe4fe69f2fb357c727b6019c973071b0e",
+      "use": "mendeley-dental-v1",
+      "boxes": [],
+      "decision": "usable-provisional-negative",
+      "note": null
+    },
+    {
+      "index": 24,
+      "id": "dental-3d084ea669d695a1",
+      "image": "data/public-annotated-collection/images/dental-3d084ea669d695a1.jpg",
+      "sha256": "eec15e287f126c7c51d70f6c0e76dc47bd48e090f1675146f63349017d30e474",
+      "use": "mendeley-dental-v1",
+      "boxes": [],
+      "decision": "usable-provisional-negative",
+      "note": null
+    },
+    {
+      "index": 25,
+      "id": "dental-680f1db9340c9c2c",
+      "image": "data/public-annotated-collection/images/dental-680f1db9340c9c2c.jpg",
+      "sha256": "d01e08aa24a56b27aa655c14d26e52e6ffca00de2c152f73f21dcd5eaefc0f7f",
+      "use": "mendeley-dental-v1",
+      "boxes": [],
+      "decision": "usable-provisional-negative",
+      "note": null
+    },
+    {
+      "index": 26,
+      "id": "dental-4d5eb2e2a6071de0",
+      "image": "data/public-annotated-collection/images/dental-4d5eb2e2a6071de0.jpg",
+      "sha256": "b2a6ec5ae687a09395be113414faf58b1f64e5d111f0af6f0730d593c00d7747",
+      "use": "mendeley-dental-v1",
+      "boxes": [],
+      "decision": "usable-provisional-negative",
+      "note": null
+    },
+    {
+      "index": 27,
+      "id": "dental-3567a4919507436d",
+      "image": "data/public-annotated-collection/images/dental-3567a4919507436d.jpg",
+      "sha256": "9003d942a57736550781c7decf5549d395e94c06f87702abfa401b764366e52e",
+      "use": "mendeley-dental-v1",
+      "boxes": [],
+      "decision": "usable-provisional-negative",
+      "note": null
+    },
+    {
+      "index": 28,
+      "id": "dental-7625722bcc359053",
+      "image": "data/public-annotated-collection/images/dental-7625722bcc359053.jpg",
+      "sha256": "94e6875f197a4be26e6e7853058affbf6c9e838b3daa75f2fa59940d25cbb9c2",
+      "use": "mendeley-dental-v1",
+      "boxes": [],
+      "decision": "usable-provisional-negative",
+      "note": null
+    },
+    {
+      "index": 29,
+      "id": "dental-a6137292cf64238f",
+      "image": "data/public-annotated-collection/images/dental-a6137292cf64238f.jpg",
+      "sha256": "568794800978864204ec21a6af914fc80bb3cbd679456ac657d5496c9a0684bf",
+      "use": "mendeley-dental-v1",
+      "boxes": [],
+      "decision": "usable-provisional-negative",
+      "note": null
+    },
+    {
+      "index": 30,
+      "id": "dental-47c99d41618cdc55",
+      "image": "data/public-annotated-collection/images/dental-47c99d41618cdc55.jpg",
+      "sha256": "7ab9687cc7e1a4318cde84458454feb1ba05819ee0b7d81e8778e1ef6d8ebe16",
+      "use": "mendeley-dental-v1",
+      "boxes": [],
+      "decision": "usable-provisional-negative",
+      "note": null
+    },
+    {
+      "index": 31,
+      "id": "dental-e2f83025d5f4fb0e",
+      "image": "data/public-annotated-collection/images/dental-e2f83025d5f4fb0e.jpg",
+      "sha256": "8129207bb32771eaa88751744b67f0b66591eb0860e08e65ed335f31c3110aa9",
+      "use": "mendeley-dental-v1",
+      "boxes": [],
+      "decision": "usable-provisional-negative",
+      "note": null
+    },
+    {
+      "index": 32,
+      "id": "dental-5715ddc8f772ab08",
+      "image": "data/public-annotated-collection/images/dental-5715ddc8f772ab08.jpg",
+      "sha256": "33bc9ca54906dc8cc42fecfcb55a3f10bdd5852ce9babbcffedda2b47dfe2ca1",
+      "use": "mendeley-dental-v1",
+      "boxes": [
+        {
+          "label": "Dental Aspirating Syringe",
+          "bbox": [
+            0.09555531640625,
+            0.20026963671875,
+            0.16150880078125,
+            0.4479856328125
+          ]
+        }
+      ],
+      "decision": "usable-provisional-positive",
+      "note": "Aspirating syringe is separated from the neighboring dental instruments; coarse geometry appears sound."
+    },
+    {
+      "index": 33,
+      "id": "dental-313f355535a1f7f9",
+      "image": "data/public-annotated-collection/images/dental-313f355535a1f7f9.jpg",
+      "sha256": "07b840cc81ee9bf156de9585896d9f26f794901b922f6fe1563864a52017a578",
+      "use": "mendeley-dental-v1",
+      "boxes": [
+        {
+          "label": "Dental Aspirating Syringe",
+          "bbox": [
+            0.417934267578125,
+            0.756516044921875,
+            0.569473060546875,
+            0.924058189453125
+          ]
+        }
+      ],
+      "decision": "usable-provisional-positive",
+      "note": "Aspirating syringe is separated from the neighboring dental instruments; coarse geometry appears sound."
+    },
+    {
+      "index": 34,
+      "id": "dental-58f671e5104e980a",
+      "image": "data/public-annotated-collection/images/dental-58f671e5104e980a.jpg",
+      "sha256": "1a2a0a9dc85fa561ba3026547eea8977d35ae0f0866fa13014f8dfd42a407e71",
+      "use": "mendeley-dental-v1",
+      "boxes": [],
+      "decision": "usable-provisional-negative",
+      "note": null
+    }
+  ],
+  "summary": {
+    "mendeley-dental-v1": {
+      "usable-provisional-negative": 10,
+      "usable-provisional-positive": 2
+    },
+    "open-images": {
+      "depiction": 6,
+      "usable-provisional-positive": 9,
+      "composite-or-variant": 2,
+      "instance-boxes-required": 2,
+      "object-too-occluded": 1,
+      "taxonomy-review": 2
+    }
+  },
+  "source_manifest_sha256": "8185067f81b7b84ecbe56fdaab07c7403dd5a94d4c656ff25a7d00f9dd047565",
+  "selection_sha256": "e5167ad63e6fc0148601b4a57c387961e0f362330cf98d950e3abc9435e3ab3a",
+  "records_reviewed": 34,
+  "publishers_boxes_reviewed": 45,
+  "method": "Single visual geometry and taxonomy audit of every Open Images photo in the downloaded collection and 12 deterministically sampled dental photos. Publisher box overlays were visible during review. Geometry judged as a coarse preview, with no independent IoU measurement.",
+  "admission": "For review only. No new training or reserve ground truth was approved by this audit."
+}

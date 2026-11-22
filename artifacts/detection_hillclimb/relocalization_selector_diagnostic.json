@@ -1,0 +1,106 @@
+{
+  "result": "4059fd03b00f7daf2922475e5ec9671da447524384d671b76ac8f7b6b4a21644",
+  "code": "d50b5aae6081018d30f9620555420c84cf8884dbd9bdec913676cfa6fc5018f0",
+  "fresh_single_object": [
+    {
+      "id": "refine-9905634",
+      "incumbent_iou": 0.6476984526304502,
+      "best_available": {
+        "iou": 0.6277973262847503,
+        "score": 0.9197178221488943
+      },
+      "highest_scored": {
+        "iou": 0.6277973262847503,
+        "score": 0.9197178221488943
+      }
+    }
+  ],
+  "exposed_single_object": [
+    {
+      "id": "recrop-6576166",
+      "incumbent_iou": 0.7351861189104221,
+      "best_available": {
+        "iou": 0.31629713484511174,
+        "score": 0.17245009711226583
+      },
+      "highest_scored": {
+        "iou": 0.31629713484511174,
+        "score": 0.17245009711226583
+      }
+    },
+    {
+      "id": "recrop-6630055",
+      "incumbent_iou": 0.30791305301452365,
+      "best_available": {
+        "iou": 0.804020111649843,
+        "score": 0.9321315350897257
+      },
+      "highest_scored": {
+        "iou": 0.804020111649843,
+        "score": 0.9321315350897257
+      }
+    },
+    {
+      "id": "recrop-6481146",
+      "incumbent_iou": 0.5659534026424011,
+      "best_available": {
+        "iou": 0.6942332499546096,
+        "score": 0.6678307973961408
+      },
+      "highest_scored": {
+        "iou": 0.6942332499546096,
+        "score": 0.6678307973961408
+      }
+    },
+    {
+      "id": "recrop-9957502",
+      "incumbent_iou": 0.4546960701174821,
+      "best_available": {
+        "iou": 0.8040900352488121,
+        "score": 0.8613950689010698
+      },
+      "highest_scored": {
+        "iou": 0.4952425675381428,
+        "score": 0.8711326458758789
+      }
+    }
+  ],
+  "fresh_multi_object": {
+    "refine-19260361": {
+      "targets": 2,
+      "released_count": 2,
+      "oracle": {
+        "released": 2,
+        "first_pass": 2,
+        "first_pass_and_recrops": 2
+      }
+    },
+    "refine-3786122": {
+      "targets": 2,
+      "released_count": 2,
+      "oracle": {
+        "released": 2,
+        "first_pass": 2,
+        "first_pass_and_recrops": 2
+      }
+    },
+    "refine-8670507": {
+      "targets": 6,
+      "released_count": 4,
+      "oracle": {
+        "released": 4,
+        "first_pass": 6,
+        "first_pass_and_recrops": 6
+      }
+    },
+    "refine-7722598": {
+      "targets": 5,
+      "released_count": 5,
+      "oracle": {
+        "released": 5,
+        "first_pass": 5,
+        "first_pass_and_recrops": 5
+      }
+    }
+  }
+}

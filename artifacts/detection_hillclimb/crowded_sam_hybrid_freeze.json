@@ -1,0 +1,140 @@
+{
+  "code": "e036853897e88fa99343841ecfe876c6a896a799dc3887cc6ee2d4ec37da7362",
+  "development": "043b0f0938cdeca7ebfc46f5796dc3944c5472549d9cb17f3e1155f3899d6bcd",
+  "configuration": [
+    756,
+    "syringe",
+    "bbox",
+    "mask",
+    0.5
+  ],
+  "plans": {
+    "public development": {
+      "oi-0089b699b364a570": [
+        "937370b774cfaef048c39c273395a91272e4fd80692bc98adefd104fec2e5e2b",
+        4
+      ],
+      "38602067": [
+        "3779b4567b72d8161d8f0186171be0b2f7435a5c07da8bafc222b2dc3451cfcf",
+        1
+      ],
+      "21702347": [
+        "6c0735695bf6d4b7692c909a4a4346949c66c84f31c9cd02069d3695220e3448",
+        0
+      ],
+      "5170947": [
+        "922ccfb0ae7efaceee52adbd656fe1b4c18f4f6773e0b2bc4a853332ca9235c1",
+        1
+      ]
+    },
+    "public transfer": {
+      "104489710": [
+        "62c4beed256058ec50cecfd8991eabf37395d53765f8aa0a43d43fad69fae4a8",
+        8
+      ],
+      "8168800": [
+        "6260516e4d3b8dd50428aa78e45495cd085e54a10abee196f866a1fbd4c80f06",
+        1
+      ],
+      "98554020": [
+        "d9b32c7aa985efaf5b815d9c06d92f0bd1ac759046ed17573feb1b74f127ed38",
+        0
+      ]
+    },
+    "native regression": {
+      "fr4KaYX2NdrKAcwFd4Sh": [
+        "946cd7b519e6e16f6fb5e6c94683a672d3e479872c7ed5ef9f8787c209c461ac",
+        3
+      ],
+      "Gu84gAdw3JXDHshiDkll": [
+        "a0296c3492a5ff64592b26be6bc781d69261445df450c4811f39236a08c5c833",
+        5
+      ],
+      "cAH0yS3Ek6AXSKQFTBij": [
+        "4296147c02710e1b1367e4d7f70457cd745c2ece14f210b3c5da54dc792b07b2",
+        6
+      ],
+      "jr20FHtsKJzKzcGrzaW6": [
+        "3f86dfc1974e8aa1b7f3aba9a1c1ae701a04badde834981fc70da90c85e5a220",
+        6
+      ],
+      "CrJcZCeB4ZWH4gQXgTe0": [
+        "414060c58d2e0c8e3ec2b7cfebe2e1ff87f3d374be8cbf6072683a5eee0306cb",
+        5
+      ],
+      "o9AYkyLGkkJAojPxdift": [
+        "5b85b9881ef87e2ed2c58330414c5a0b14a44814bbeca98a2075928471ab3e99",
+        1
+      ],
+      "FZF2KIrTmT8m7knJ9kE6": [
+        "f1cebe706dc3aa16b29f4e84f4d28c0429e1d9b347c3159b8dc6b9bdd781229a",
+        1
+      ],
+      "g3F5OKZHw8L86xNEcMxy": [
+        "b07070b6c447f46c9574f8475d0357ccd0a2ae7428a28609be8bee7b75e3d64a",
+        1
+      ],
+      "gpkWGmq3Z9SFaeptYTPh": [
+        "636e0d6c31e797bf02ccd03c54f7f96f5989d1d2099459175c1b043418eb67b4",
+        1
+      ],
+      "1yxvIQVR5Vw1SC72PT3s": [
+        "b885881811e13349726db7ba71632aefdeae3eb63fad4022f154d409aeaab70f",
+        1
+      ],
+      "XmkgUaQylXde9DBya7wc": [
+        "8877a91fd5d9dc1df16f71c57047e04dbabae691ea728cc31b39bb73378820fa",
+        1
+      ],
+      "UxP8kr90cgqTrqpti0qw": [
+        "ae88266d6040e3168a4914cb4cddc27c68ad6597c480772a3b2d032410e70a11",
+        1
+      ],
+      "OTbTwloPcV4T8QdOV5VU": [
+        "f0cddb6ba1e76876c344dde476244ea530c867158a85c2e6d6d559c80b103a7e",
+        1
+      ],
+      "iHVnBznVS26Sw7QmoHnw": [
+        "b71d3e53cf85ddb3a7f9e57a9a01f8b7a5acd90de7c47878850008e8625cc2ee",
+        1
+      ],
+      "QRR4A3cC2VjJf5K914hZ": [
+        "51d61a047a4becde2639bb20d0d53166eddc11ccb3cdc9dea4cb385f3bd817b4",
+        1
+      ],
+      "abU6WlJF9aWAHoICBdFE": [
+        "0294a1c80fc350b757cd531002de0a7fb9a688ae46d2102f0925d96887a9252d",
+        1
+      ],
+      "J1IEnqIuv3wf5ASu2Eoe": [
+        "049808cacd43a3848cd36f3daf3c3e7a097f223654d01717af4e87cee9e03e2c",
+        1
+      ],
+      "51d8xdDRo1ax8DP16RUk": [
+        "0078a84df9840efda57fae55b8e27e7372c98b7b00f4151c0fc9960a9afb293e",
+        1
+      ],
+      "AM0xCgiooqXHYmoktJC3": [
+        "e8a40cb102d8610577444c35d0b7ad4a3659ac239b93f632d968156a99601593",
+        1
+      ],
+      "RfvUNxOIFEQ3zkChtCOr": [
+        "050dc6703f7ab039bd1951ef7bad0d9c11daac08cfa94fca6f8e1ff89de8d72b",
+        1
+      ],
+      "fwWFOHCBJuheupAYRxwJ": [
+        "ed3f932c86ec966989efb7cc887b107b093091309287c765c5c220f4788d1d8a",
+        1
+      ],
+      "coTNVlK0faqmtQuZLK4F": [
+        "50a06e3054d5b815b5e7311c672c77ec05f6d9667777753ba759afd3cf6c88c7",
+        1
+      ],
+      "YeamwalY1KG8aKOY8miG": [
+        "bfc9fbdbac0f4d69304e61f2fe36af8f9f82b35778443ef3caabd96e722f5eeb",
+        1
+      ]
+    }
+  },
+  "acceptance": "The same boxes must remain matched at IoU .50. The count must remain correct on every already correct scene, and no cohort may gain extra false positives. Only trigger where the shipped engine accepts at least two objects."
+}

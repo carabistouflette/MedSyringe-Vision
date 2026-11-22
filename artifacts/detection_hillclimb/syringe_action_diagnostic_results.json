@@ -1,0 +1,4503 @@
+{
+  "protocol": "be2953454eb9edb7908639008b5e49e8335ac53bd9b2ebf7de8ec697b89d963f",
+  "inputs": {
+    "artifacts/detection_hillclimb/syringe_action_verifier_reserve.json": "dd92d7de05146cdc4f91a3220b91fb35fd2057f94fe5d8f63ddcf556e9559691",
+    "data/syringe-action-verifier/released.json": "b2ae3253a191cd403139d8310ab4b635c0bfb3ac0cc5c15cb2c0f324f830bf99",
+    "data/syringe-action-verifier/proposals.json": "3815b628fd07dc70e794239ae6eb1778cff6c2dcaf2d7b7ef53ae3163f09a73a",
+    "artifacts/detection_hillclimb/completeness_calibration_reserve.json": "353a0adc92184875e9902d4d287f3db245711d46bc7f08652f35522239045d30",
+    "data/completeness-calibration/released.json": "5ce460f7e8499a0c7fda8233c75291fc366cda8451fb4b6960e8484c6d04857f",
+    "data/completeness-calibration/proposals.json": "d2526bd9afd590275a31e19a6354c54315a2c696680bb1cf979ae6527c3e6d90",
+    "artifacts/detection_hillclimb/relocalization_selector_reserve.json": "2171e145967b51d76960d4277e63e1f0dea12bd824a3b678f95396d9095b219d",
+    "data/relocalization-selector/released.json": "ccd3dfe34ac731b68a50a786ed94f821104b02dbc3d9e57fb37ec1d163bc0b8e",
+    "data/relocalization-selector/proposals.json": "0b5350e949218857cc4b590295e6e32ec84beb7ec7ab999e0e6f4d60fdd7355f"
+  },
+  "cohorts": {
+    "reserve": {
+      "baseline": {
+        "images": 7,
+        "objects": 6,
+        "threshold": 0.0,
+        "tp": 4,
+        "fp": 0,
+        "fn": 2,
+        "precision": 1.0,
+        "recall": 0.6666666666666666,
+        "f1": 0.8,
+        "ap50": 0.6633663366336634,
+        "ap50_95": 0.5611386138613862,
+        "ap_by_iou": {
+          "0.50": 0.6633663366336634,
+          "0.55": 0.6633663366336634,
+          "0.60": 0.6633663366336634,
+          "0.65": 0.6633663366336634,
+          "0.70": 0.6633663366336634,
+          "0.75": 0.6633663366336634,
+          "0.80": 0.6633663366336634,
+          "0.85": 0.4628712871287129,
+          "0.90": 0.33663366336633666,
+          "0.95": 0.16831683168316833
+        },
+        "exact_count": 6,
+        "negative_images": 3,
+        "correct_empty": 3,
+        "images_with_only_below_threshold_proposals": 0,
+        "false_positives": [],
+        "false_negatives": [
+          {
+            "id": "action-17112252",
+            "box": [
+              0.3596774193548387,
+              0.21497584541062803,
+              0.6806451612903226,
+              0.3333333333333333
+            ]
+          },
+          {
+            "id": "action-17112252",
+            "box": [
+              0.07258064516129033,
+              0.3333333333333333,
+              0.2709677419354839,
+              0.751207729468599
+            ]
+          }
+        ]
+      },
+      "arms": {
+        "geometry/add-only": {
+          "delta": {
+            "tp": 5,
+            "fp": 3,
+            "exact_count": 6,
+            "gain": 1,
+            "extra_fp": 3,
+            "safe": false,
+            "lost_reference": false,
+            "per_image_false_positive_regression": true,
+            "count_regression": true,
+            "gains_at_75": [
+              [
+                "action-17112252",
+                1
+              ]
+            ],
+            "losses_at_75": [],
+            "actions": {
+              "add": 4
+            },
+            "safe_at_75": false
+          },
+          "metrics": {
+            "images": 7,
+            "objects": 6,
+            "threshold": 0.0,
+            "tp": 5,
+            "fp": 3,
+            "fn": 1,
+            "precision": 0.625,
+            "recall": 0.8333333333333334,
+            "f1": 0.7142857142857143,
+            "ap50": 0.7835926449787836,
+            "ap50_95": 0.6332743988684583,
+            "ap_by_iou": {
+              "0.50": 0.7835926449787836,
+              "0.55": 0.7835926449787836,
+              "0.60": 0.7835926449787836,
+              "0.65": 0.7835926449787836,
+              "0.70": 0.7835926449787836,
+              "0.75": 0.7835926449787836,
+              "0.80": 0.6633663366336634,
+              "0.85": 0.4628712871287129,
+              "0.90": 0.33663366336633666,
+              "0.95": 0.16831683168316833
+            },
+            "exact_count": 6,
+            "negative_images": 3,
+            "correct_empty": 2,
+            "images_with_only_below_threshold_proposals": 0,
+            "false_positives": [
+              {
+                "id": "action-33658644",
+                "prediction": {
+                  "bbox": [
+                    0.31136067867279055,
+                    0.7385126768738434,
+                    0.6343136672973633,
+                    0.8379434960177992
+                  ],
+                  "score": 0.5154494047164917
+                },
+                "best_unmatched_iou": 0
+              },
+              {
+                "id": "action-17112252",
+                "prediction": {
+                  "bbox": [
+                    0.17192166767120362,
+                    0.37209895647269137,
+                    0.3264235345840454,
+                    0.7220662495900487
+                  ],
+                  "score": 0.42568567395210266
+                },
+                "best_unmatched_iou": 0.3388071565660725
+              },
+              {
+                "id": "action-33658644",
+                "prediction": {
+                  "bbox": [
+                    0.43795145654678347,
+                    0.6531470383125088,
+                    0.6594712295532227,
+                    0.7235055606047074
+                  ],
+                  "score": 0.3958781957626343
+                },
+                "best_unmatched_iou": 0
+              }
+            ],
+            "false_negatives": [
+              {
+                "id": "action-17112252",
+                "box": [
+                  0.3596774193548387,
+                  0.21497584541062803,
+                  0.6806451612903226,
+                  0.3333333333333333
+                ]
+              }
+            ]
+          },
+          "actions": {
+            "action-17112252": [
+              {
+                "action": "add",
+                "score": 0.9892526993486994,
+                "slot": null,
+                "view": "crop",
+                "bbox": [
+                  0.17192166767120362,
+                  0.37209895647269137,
+                  0.3264235345840454,
+                  0.7220662495900487
+                ],
+                "matched_target": null,
+                "already_covered": false,
+                "best_iou": 0.3388071565660725,
+                "new_target": false
+              },
+              {
+                "action": "add",
+                "score": 0.9839239748176969,
+                "slot": null,
+                "view": "first",
+                "bbox": [
+                  0.07354384660720825,
+                  0.3884121894836426,
+                  0.26017639636993406,
+                  0.7360982418060302
+                ],
+                "matched_target": 1,
+                "already_covered": false,
+                "best_iou": 0.782736298964762,
+                "new_target": true
+              }
+            ],
+            "action-33658644": [
+              {
+                "action": "add",
+                "score": 0.9950562653958229,
+                "slot": null,
+                "view": "first",
+                "bbox": [
+                  0.31136067867279055,
+                  0.7385126768738434,
+                  0.6343136672973633,
+                  0.8379434960177992
+                ],
+                "matched_target": null,
+                "already_covered": false,
+                "best_iou": 0.0,
+                "new_target": false
+              },
+              {
+                "action": "add",
+                "score": 0.9713511155982903,
+                "slot": null,
+                "view": "first",
+                "bbox": [
+                  0.43795145654678347,
+                  0.6531470383125088,
+                  0.6594712295532227,
+                  0.7235055606047074
+                ],
+                "matched_target": null,
+                "already_covered": false,
+                "best_iou": 0.0,
+                "new_target": false
+              }
+            ]
+          }
+        },
+        "geometry/replace-only": {
+          "delta": {
+            "tp": 4,
+            "fp": 0,
+            "exact_count": 6,
+            "gain": 0,
+            "extra_fp": 0,
+            "safe": true,
+            "lost_reference": false,
+            "per_image_false_positive_regression": false,
+            "count_regression": false,
+            "gains_at_75": [],
+            "losses_at_75": [
+              [
+                "action-5998508",
+                0
+              ]
+            ],
+            "actions": {
+              "replace": 2
+            },
+            "safe_at_75": false
+          },
+          "metrics": {
+            "images": 7,
+            "objects": 6,
+            "threshold": 0.0,
+            "tp": 4,
+            "fp": 0,
+            "fn": 2,
+            "precision": 1.0,
+            "recall": 0.6666666666666666,
+            "f1": 0.8,
+            "ap50": 0.6633663366336634,
+            "ap50_95": 0.41262376237623755,
+            "ap_by_iou": {
+              "0.50": 0.6633663366336634,
+              "0.55": 0.6633663366336634,
+              "0.60": 0.6633663366336634,
+              "0.65": 0.6633663366336634,
+              "0.70": 0.3787128712871287,
+              "0.75": 0.3787128712871287,
+              "0.80": 0.3787128712871287,
+              "0.85": 0.16831683168316833,
+              "0.90": 0.08415841584158416,
+              "0.95": 0.08415841584158416
+            },
+            "exact_count": 6,
+            "negative_images": 3,
+            "correct_empty": 3,
+            "images_with_only_below_threshold_proposals": 0,
+            "false_positives": [],
+            "false_negatives": [
+              {
+                "id": "action-17112252",
+                "box": [
+                  0.3596774193548387,
+                  0.21497584541062803,
+                  0.6806451612903226,
+                  0.3333333333333333
+                ]
+              },
+              {
+                "id": "action-17112252",
+                "box": [
+                  0.07258064516129033,
+                  0.3333333333333333,
+                  0.2709677419354839,
+                  0.751207729468599
+                ]
+              }
+            ]
+          },
+          "actions": {
+            "action-5234480": [
+              {
+                "action": "replace",
+                "score": 0.9941347899467365,
+                "slot": 0,
+                "view": "crop",
+                "bbox": [
+                  0.43514486839771266,
+                  0.3446055622472577,
+                  0.7517013391017914,
+                  0.5701748491942078
+                ],
+                "prior_bbox": [
+                  0.4330841064453125,
+                  0.3449094392012978,
+                  0.7458023071289063,
+                  0.5757855325267054
+                ],
+                "prior_best_iou": 0.9399837922424831,
+                "best_iou": 0.9532859924847422,
+                "before_target": 0,
+                "after_iou_with_same_target": 0.9532859924847422
+              }
+            ],
+            "action-5998508": [
+              {
+                "action": "replace",
+                "score": 0.9941312029524997,
+                "slot": 0,
+                "view": "crop",
+                "bbox": [
+                  0.23019204139709473,
+                  0.4613441125413923,
+                  0.7518912315368652,
+                  0.5448868134629742
+                ],
+                "prior_bbox": [
+                  0.23741683959960938,
+                  0.4586217903167765,
+                  0.8508638305664062,
+                  0.5584084443320261
+                ],
+                "prior_best_iou": 0.9690471025789525,
+                "best_iou": 0.6843314915734682,
+                "before_target": 0,
+                "after_iou_with_same_target": 0.6843314915734682
+              }
+            ]
+          }
+        },
+        "geometry/combined": {
+          "delta": {
+            "tp": 5,
+            "fp": 3,
+            "exact_count": 6,
+            "gain": 1,
+            "extra_fp": 3,
+            "safe": false,
+            "lost_reference": false,
+            "per_image_false_positive_regression": true,
+            "count_regression": true,
+            "gains_at_75": [
+              [
+                "action-17112252",
+                1
+              ]
+            ],
+            "losses_at_75": [
+              [
+                "action-5998508",
+                0
+              ]
+            ],
+            "actions": {
+              "replace": 2,
+              "add": 4
+            },
+            "safe_at_75": false
+          },
+          "metrics": {
+            "images": 7,
+            "objects": 6,
+            "threshold": 0.0,
+            "tp": 5,
+            "fp": 3,
+            "fn": 1,
+            "precision": 0.625,
+            "recall": 0.8333333333333334,
+            "f1": 0.7142857142857143,
+            "ap50": 0.7835926449787836,
+            "ap50_95": 0.4788189533239038,
+            "ap_by_iou": {
+              "0.50": 0.7835926449787836,
+              "0.55": 0.7835926449787836,
+              "0.60": 0.7835926449787836,
+              "0.65": 0.7835926449787836,
+              "0.70": 0.4692362093352192,
+              "0.75": 0.4692362093352192,
+              "0.80": 0.3787128712871287,
+              "0.85": 0.16831683168316833,
+              "0.90": 0.08415841584158416,
+              "0.95": 0.08415841584158416
+            },
+            "exact_count": 6,
+            "negative_images": 3,
+            "correct_empty": 2,
+            "images_with_only_below_threshold_proposals": 0,
+            "false_positives": [
+              {
+                "id": "action-33658644",
+                "prediction": {
+                  "bbox": [
+                    0.31136067867279055,
+                    0.7385126768738434,
+                    0.6343136672973633,
+                    0.8379434960177992
+                  ],
+                  "score": 0.5154494047164917
+                },
+                "best_unmatched_iou": 0
+              },
+              {
+                "id": "action-17112252",
+                "prediction": {
+                  "bbox": [
+                    0.17192166767120362,
+                    0.37209895647269137,
+                    0.3264235345840454,
+                    0.7220662495900487
+                  ],
+                  "score": 0.42568567395210266
+                },
+                "best_unmatched_iou": 0.3388071565660725
+              },
+              {
+                "id": "action-33658644",
+                "prediction": {
+                  "bbox": [
+                    0.43795145654678347,
+                    0.6531470383125088,
+                    0.6594712295532227,
+                    0.7235055606047074
+                  ],
+                  "score": 0.3958781957626343
+                },
+                "best_unmatched_iou": 0
+              }
+            ],
+            "false_negatives": [
+              {
+                "id": "action-17112252",
+                "box": [
+                  0.3596774193548387,
+                  0.21497584541062803,
+                  0.6806451612903226,
+                  0.3333333333333333
+                ]
+              }
+            ]
+          },
+          "actions": {
+            "action-5234480": [
+              {
+                "action": "replace",
+                "score": 0.9941347899467365,
+                "slot": 0,
+                "view": "crop",
+                "bbox": [
+                  0.43514486839771266,
+                  0.3446055622472577,
+                  0.7517013391017914,
+                  0.5701748491942078
+                ],
+                "prior_bbox": [
+                  0.4330841064453125,
+                  0.3449094392012978,
+                  0.7458023071289063,
+                  0.5757855325267054
+                ],
+                "prior_best_iou": 0.9399837922424831,
+                "best_iou": 0.9532859924847422,
+                "before_target": 0,
+                "after_iou_with_same_target": 0.9532859924847422
+              }
+            ],
+            "action-5998508": [
+              {
+                "action": "replace",
+                "score": 0.9941312029524997,
+                "slot": 0,
+                "view": "crop",
+                "bbox": [
+                  0.23019204139709473,
+                  0.4613441125413923,
+                  0.7518912315368652,
+                  0.5448868134629742
+                ],
+                "prior_bbox": [
+                  0.23741683959960938,
+                  0.4586217903167765,
+                  0.8508638305664062,
+                  0.5584084443320261
+                ],
+                "prior_best_iou": 0.9690471025789525,
+                "best_iou": 0.6843314915734682,
+                "before_target": 0,
+                "after_iou_with_same_target": 0.6843314915734682
+              }
+            ],
+            "action-17112252": [
+              {
+                "action": "add",
+                "score": 0.9892526993486994,
+                "slot": null,
+                "view": "crop",
+                "bbox": [
+                  0.17192166767120362,
+                  0.37209895647269137,
+                  0.3264235345840454,
+                  0.7220662495900487
+                ],
+                "matched_target": null,
+                "already_covered": false,
+                "best_iou": 0.3388071565660725,
+                "new_target": false
+              },
+              {
+                "action": "add",
+                "score": 0.9839239748176969,
+                "slot": null,
+                "view": "first",
+                "bbox": [
+                  0.07354384660720825,
+                  0.3884121894836426,
+                  0.26017639636993406,
+                  0.7360982418060302
+                ],
+                "matched_target": 1,
+                "already_covered": false,
+                "best_iou": 0.782736298964762,
+                "new_target": true
+              }
+            ],
+            "action-33658644": [
+              {
+                "action": "add",
+                "score": 0.9950562653958229,
+                "slot": null,
+                "view": "first",
+                "bbox": [
+                  0.31136067867279055,
+                  0.7385126768738434,
+                  0.6343136672973633,
+                  0.8379434960177992
+                ],
+                "matched_target": null,
+                "already_covered": false,
+                "best_iou": 0.0,
+                "new_target": false
+              },
+              {
+                "action": "add",
+                "score": 0.9713511155982903,
+                "slot": null,
+                "view": "first",
+                "bbox": [
+                  0.43795145654678347,
+                  0.6531470383125088,
+                  0.6594712295532227,
+                  0.7235055606047074
+                ],
+                "matched_target": null,
+                "already_covered": false,
+                "best_iou": 0.0,
+                "new_target": false
+              }
+            ]
+          }
+        },
+        "visual/add-only": {
+          "delta": {
+            "tp": 5,
+            "fp": 2,
+            "exact_count": 6,
+            "gain": 1,
+            "extra_fp": 2,
+            "safe": false,
+            "lost_reference": false,
+            "per_image_false_positive_regression": true,
+            "count_regression": true,
+            "gains_at_75": [
+              [
+                "action-17112252",
+                1
+              ]
+            ],
+            "losses_at_75": [],
+            "actions": {
+              "add": 3
+            },
+            "safe_at_75": false
+          },
+          "metrics": {
+            "images": 7,
+            "objects": 6,
+            "threshold": 0.0,
+            "tp": 5,
+            "fp": 2,
+            "fn": 1,
+            "precision": 0.7142857142857143,
+            "recall": 0.8333333333333334,
+            "f1": 0.7692307692307692,
+            "ap50": 0.7835926449787836,
+            "ap50_95": 0.6332743988684583,
+            "ap_by_iou": {
+              "0.50": 0.7835926449787836,
+              "0.55": 0.7835926449787836,
+              "0.60": 0.7835926449787836,
+              "0.65": 0.7835926449787836,
+              "0.70": 0.7835926449787836,
+              "0.75": 0.7835926449787836,
+              "0.80": 0.6633663366336634,
+              "0.85": 0.4628712871287129,
+              "0.90": 0.33663366336633666,
+              "0.95": 0.16831683168316833
+            },
+            "exact_count": 6,
+            "negative_images": 3,
+            "correct_empty": 2,
+            "images_with_only_below_threshold_proposals": 0,
+            "false_positives": [
+              {
+                "id": "action-33658644",
+                "prediction": {
+                  "bbox": [
+                    0.31136067867279055,
+                    0.7385126768738434,
+                    0.6343136672973633,
+                    0.8379434960177992
+                  ],
+                  "score": 0.5154494047164917
+                },
+                "best_unmatched_iou": 0
+              },
+              {
+                "id": "action-17112252",
+                "prediction": {
+                  "bbox": [
+                    0.17192166767120362,
+                    0.37209895647269137,
+                    0.3264235345840454,
+                    0.7220662495900487
+                  ],
+                  "score": 0.42568567395210266
+                },
+                "best_unmatched_iou": 0.3388071565660725
+              }
+            ],
+            "false_negatives": [
+              {
+                "id": "action-17112252",
+                "box": [
+                  0.3596774193548387,
+                  0.21497584541062803,
+                  0.6806451612903226,
+                  0.3333333333333333
+                ]
+              }
+            ]
+          },
+          "actions": {
+            "action-17112252": [
+              {
+                "action": "add",
+                "score": 0.9927898004792538,
+                "slot": null,
+                "view": "crop",
+                "bbox": [
+                  0.17192166767120362,
+                  0.37209895647269137,
+                  0.3264235345840454,
+                  0.7220662495900487
+                ],
+                "matched_target": null,
+                "already_covered": false,
+                "best_iou": 0.3388071565660725,
+                "new_target": false
+              },
+              {
+                "action": "add",
+                "score": 0.9867944009027407,
+                "slot": null,
+                "view": "first",
+                "bbox": [
+                  0.07354384660720825,
+                  0.3884121894836426,
+                  0.26017639636993406,
+                  0.7360982418060302
+                ],
+                "matched_target": 1,
+                "already_covered": false,
+                "best_iou": 0.782736298964762,
+                "new_target": true
+              }
+            ],
+            "action-33658644": [
+              {
+                "action": "add",
+                "score": 0.9896300310678946,
+                "slot": null,
+                "view": "first",
+                "bbox": [
+                  0.31136067867279055,
+                  0.7385126768738434,
+                  0.6343136672973633,
+                  0.8379434960177992
+                ],
+                "matched_target": null,
+                "already_covered": false,
+                "best_iou": 0.0,
+                "new_target": false
+              }
+            ]
+          }
+        },
+        "visual/replace-only": {
+          "delta": {
+            "tp": 4,
+            "fp": 0,
+            "exact_count": 6,
+            "gain": 0,
+            "extra_fp": 0,
+            "safe": true,
+            "lost_reference": false,
+            "per_image_false_positive_regression": false,
+            "count_regression": false,
+            "gains_at_75": [],
+            "losses_at_75": [
+              [
+                "action-5998508",
+                0
+              ]
+            ],
+            "actions": {
+              "replace": 3
+            },
+            "safe_at_75": false
+          },
+          "metrics": {
+            "images": 7,
+            "objects": 6,
+            "threshold": 0.0,
+            "tp": 4,
+            "fp": 0,
+            "fn": 2,
+            "precision": 1.0,
+            "recall": 0.6666666666666666,
+            "f1": 0.8,
+            "ap50": 0.6633663366336634,
+            "ap50_95": 0.421039603960396,
+            "ap_by_iou": {
+              "0.50": 0.6633663366336634,
+              "0.55": 0.6633663366336634,
+              "0.60": 0.6633663366336634,
+              "0.65": 0.6633663366336634,
+              "0.70": 0.3787128712871287,
+              "0.75": 0.3787128712871287,
+              "0.80": 0.3787128712871287,
+              "0.85": 0.16831683168316833,
+              "0.90": 0.16831683168316833,
+              "0.95": 0.08415841584158416
+            },
+            "exact_count": 6,
+            "negative_images": 3,
+            "correct_empty": 3,
+            "images_with_only_below_threshold_proposals": 0,
+            "false_positives": [],
+            "false_negatives": [
+              {
+                "id": "action-17112252",
+                "box": [
+                  0.3596774193548387,
+                  0.21497584541062803,
+                  0.6806451612903226,
+                  0.3333333333333333
+                ]
+              },
+              {
+                "id": "action-17112252",
+                "box": [
+                  0.07258064516129033,
+                  0.3333333333333333,
+                  0.2709677419354839,
+                  0.751207729468599
+                ]
+              }
+            ]
+          },
+          "actions": {
+            "action-5234480": [
+              {
+                "action": "replace",
+                "score": 0.9939528667793864,
+                "slot": 0,
+                "view": "crop",
+                "bbox": [
+                  0.43514486839771266,
+                  0.3446055622472577,
+                  0.7517013391017914,
+                  0.5701748491942078
+                ],
+                "prior_bbox": [
+                  0.4330841064453125,
+                  0.3449094392012978,
+                  0.7458023071289063,
+                  0.5757855325267054
+                ],
+                "prior_best_iou": 0.9399837922424831,
+                "best_iou": 0.9532859924847422,
+                "before_target": 0,
+                "after_iou_with_same_target": 0.9532859924847422
+              }
+            ],
+            "action-5998508": [
+              {
+                "action": "replace",
+                "score": 0.9946621782888528,
+                "slot": 0,
+                "view": "crop",
+                "bbox": [
+                  0.23019204139709473,
+                  0.4613441125413923,
+                  0.7518912315368652,
+                  0.5448868134629742
+                ],
+                "prior_bbox": [
+                  0.23741683959960938,
+                  0.4586217903167765,
+                  0.8508638305664062,
+                  0.5584084443320261
+                ],
+                "prior_best_iou": 0.9690471025789525,
+                "best_iou": 0.6843314915734682,
+                "before_target": 0,
+                "after_iou_with_same_target": 0.6843314915734682
+              }
+            ],
+            "action-7581089": [
+              {
+                "action": "replace",
+                "score": 0.9867389507152147,
+                "slot": 1,
+                "view": "crop",
+                "bbox": [
+                  0.21784221897125247,
+                  0.518627289835612,
+                  0.41761160230636596,
+                  0.7015375406901042
+                ],
+                "prior_bbox": [
+                  0.2134739990234375,
+                  0.5223422037760417,
+                  0.4147820129394531,
+                  0.706686767578125
+                ],
+                "prior_best_iou": 0.8890927292470387,
+                "best_iou": 0.9362515449630587,
+                "before_target": 0,
+                "after_iou_with_same_target": 0.9362515449630587
+              }
+            ]
+          }
+        },
+        "visual/combined": {
+          "delta": {
+            "tp": 5,
+            "fp": 2,
+            "exact_count": 6,
+            "gain": 1,
+            "extra_fp": 2,
+            "safe": false,
+            "lost_reference": false,
+            "per_image_false_positive_regression": true,
+            "count_regression": true,
+            "gains_at_75": [
+              [
+                "action-17112252",
+                1
+              ]
+            ],
+            "losses_at_75": [
+              [
+                "action-5998508",
+                0
+              ]
+            ],
+            "actions": {
+              "replace": 3,
+              "add": 3
+            },
+            "safe_at_75": false
+          },
+          "metrics": {
+            "images": 7,
+            "objects": 6,
+            "threshold": 0.0,
+            "tp": 5,
+            "fp": 2,
+            "fn": 1,
+            "precision": 0.7142857142857143,
+            "recall": 0.8333333333333334,
+            "f1": 0.7692307692307692,
+            "ap50": 0.7835926449787836,
+            "ap50_95": 0.48723479490806226,
+            "ap_by_iou": {
+              "0.50": 0.7835926449787836,
+              "0.55": 0.7835926449787836,
+              "0.60": 0.7835926449787836,
+              "0.65": 0.7835926449787836,
+              "0.70": 0.4692362093352192,
+              "0.75": 0.4692362093352192,
+              "0.80": 0.3787128712871287,
+              "0.85": 0.16831683168316833,
+              "0.90": 0.16831683168316833,
+              "0.95": 0.08415841584158416
+            },
+            "exact_count": 6,
+            "negative_images": 3,
+            "correct_empty": 2,
+            "images_with_only_below_threshold_proposals": 0,
+            "false_positives": [
+              {
+                "id": "action-33658644",
+                "prediction": {
+                  "bbox": [
+                    0.31136067867279055,
+                    0.7385126768738434,
+                    0.6343136672973633,
+                    0.8379434960177992
+                  ],
+                  "score": 0.5154494047164917
+                },
+                "best_unmatched_iou": 0
+              },
+              {
+                "id": "action-17112252",
+                "prediction": {
+                  "bbox": [
+                    0.17192166767120362,
+                    0.37209895647269137,
+                    0.3264235345840454,
+                    0.7220662495900487
+                  ],
+                  "score": 0.42568567395210266
+                },
+                "best_unmatched_iou": 0.3388071565660725
+              }
+            ],
+            "false_negatives": [
+              {
+                "id": "action-17112252",
+                "box": [
+                  0.3596774193548387,
+                  0.21497584541062803,
+                  0.6806451612903226,
+                  0.3333333333333333
+                ]
+              }
+            ]
+          },
+          "actions": {
+            "action-5234480": [
+              {
+                "action": "replace",
+                "score": 0.9939528667793864,
+                "slot": 0,
+                "view": "crop",
+                "bbox": [
+                  0.43514486839771266,
+                  0.3446055622472577,
+                  0.7517013391017914,
+                  0.5701748491942078
+                ],
+                "prior_bbox": [
+                  0.4330841064453125,
+                  0.3449094392012978,
+                  0.7458023071289063,
+                  0.5757855325267054
+                ],
+                "prior_best_iou": 0.9399837922424831,
+                "best_iou": 0.9532859924847422,
+                "before_target": 0,
+                "after_iou_with_same_target": 0.9532859924847422
+              }
+            ],
+            "action-5998508": [
+              {
+                "action": "replace",
+                "score": 0.9946621782888528,
+                "slot": 0,
+                "view": "crop",
+                "bbox": [
+                  0.23019204139709473,
+                  0.4613441125413923,
+                  0.7518912315368652,
+                  0.5448868134629742
+                ],
+                "prior_bbox": [
+                  0.23741683959960938,
+                  0.4586217903167765,
+                  0.8508638305664062,
+                  0.5584084443320261
+                ],
+                "prior_best_iou": 0.9690471025789525,
+                "best_iou": 0.6843314915734682,
+                "before_target": 0,
+                "after_iou_with_same_target": 0.6843314915734682
+              }
+            ],
+            "action-7581089": [
+              {
+                "action": "replace",
+                "score": 0.9867389507152147,
+                "slot": 1,
+                "view": "crop",
+                "bbox": [
+                  0.21784221897125247,
+                  0.518627289835612,
+                  0.41761160230636596,
+                  0.7015375406901042
+                ],
+                "prior_bbox": [
+                  0.2134739990234375,
+                  0.5223422037760417,
+                  0.4147820129394531,
+                  0.706686767578125
+                ],
+                "prior_best_iou": 0.8890927292470387,
+                "best_iou": 0.9362515449630587,
+                "before_target": 0,
+                "after_iou_with_same_target": 0.9362515449630587
+              }
+            ],
+            "action-17112252": [
+              {
+                "action": "add",
+                "score": 0.9927898004792538,
+                "slot": null,
+                "view": "crop",
+                "bbox": [
+                  0.17192166767120362,
+                  0.37209895647269137,
+                  0.3264235345840454,
+                  0.7220662495900487
+                ],
+                "matched_target": null,
+                "already_covered": false,
+                "best_iou": 0.3388071565660725,
+                "new_target": false
+              },
+              {
+                "action": "add",
+                "score": 0.9867944009027407,
+                "slot": null,
+                "view": "first",
+                "bbox": [
+                  0.07354384660720825,
+                  0.3884121894836426,
+                  0.26017639636993406,
+                  0.7360982418060302
+                ],
+                "matched_target": 1,
+                "already_covered": false,
+                "best_iou": 0.782736298964762,
+                "new_target": true
+              }
+            ],
+            "action-33658644": [
+              {
+                "action": "add",
+                "score": 0.9896300310678946,
+                "slot": null,
+                "view": "first",
+                "bbox": [
+                  0.31136067867279055,
+                  0.7385126768738434,
+                  0.6343136672973633,
+                  0.8379434960177992
+                ],
+                "matched_target": null,
+                "already_covered": false,
+                "best_iou": 0.0,
+                "new_target": false
+              }
+            ]
+          }
+        }
+      },
+      "baseline_misses": {
+        "action-17112252": [
+          {
+            "index": 0,
+            "maximum_iou": 0.6657179489686474,
+            "viable_boxes": 2,
+            "strongest": {
+              "geometry/add": {
+                "iou": 0.6657179489686474,
+                "bbox": [
+                  0.286719938993454,
+                  0.23465335086725284,
+                  0.6724666598320007,
+                  0.3303686762499488
+                ],
+                "score": 0.26944464445114136,
+                "slot": null,
+                "view": "crop",
+                "decisions": {
+                  "geometry": {
+                    "add": 0.804637287096246,
+                    "reject": 0.19485061410210017,
+                    "replace": 0.0005120988016537711
+                  },
+                  "visual": {
+                    "add": 0.8229692912627773,
+                    "reject": 0.17669352324216248,
+                    "replace": 0.0003371854950602645
+                  }
+                }
+              },
+              "geometry/replace": {
+                "iou": 0.5787548965892932,
+                "bbox": [
+                  0.39944180216789243,
+                  0.23356532846791095,
+                  0.6308043249607085,
+                  0.3285949047895028
+                ],
+                "score": 0.2345806509256363,
+                "slot": null,
+                "view": "crop",
+                "decisions": {
+                  "geometry": {
+                    "add": 0.7776701155231556,
+                    "reject": 0.2216796439298251,
+                    "replace": 0.0006502405470192597
+                  },
+                  "visual": {
+                    "add": 0.7014391840919414,
+                    "reject": 0.2982209072503459,
+                    "replace": 0.00033990865771275566
+                  }
+                }
+              },
+              "visual/add": {
+                "iou": 0.6657179489686474,
+                "bbox": [
+                  0.286719938993454,
+                  0.23465335086725284,
+                  0.6724666598320007,
+                  0.3303686762499488
+                ],
+                "score": 0.26944464445114136,
+                "slot": null,
+                "view": "crop",
+                "decisions": {
+                  "geometry": {
+                    "add": 0.804637287096246,
+                    "reject": 0.19485061410210017,
+                    "replace": 0.0005120988016537711
+                  },
+                  "visual": {
+                    "add": 0.8229692912627773,
+                    "reject": 0.17669352324216248,
+                    "replace": 0.0003371854950602645
+                  }
+                }
+              },
+              "visual/replace": {
+                "iou": 0.5787548965892932,
+                "bbox": [
+                  0.39944180216789243,
+                  0.23356532846791095,
+                  0.6308043249607085,
+                  0.3285949047895028
+                ],
+                "score": 0.2345806509256363,
+                "slot": null,
+                "view": "crop",
+                "decisions": {
+                  "geometry": {
+                    "add": 0.7776701155231556,
+                    "reject": 0.2216796439298251,
+                    "replace": 0.0006502405470192597
+                  },
+                  "visual": {
+                    "add": 0.7014391840919414,
+                    "reject": 0.2982209072503459,
+                    "replace": 0.00033990865771275566
+                  }
+                }
+              }
+            }
+          },
+          {
+            "index": 1,
+            "maximum_iou": 0.8227513655460096,
+            "viable_boxes": 3,
+            "strongest": {
+              "geometry/add": {
+                "iou": 0.782736298964762,
+                "bbox": [
+                  0.07354384660720825,
+                  0.3884121894836426,
+                  0.26017639636993406,
+                  0.7360982418060302
+                ],
+                "score": 0.41345009207725525,
+                "slot": null,
+                "view": "first",
+                "decisions": {
+                  "geometry": {
+                    "add": 0.9839239748176969,
+                    "reject": 0.015911282742099277,
+                    "replace": 0.0001647424402037923
+                  },
+                  "visual": {
+                    "add": 0.9867944009027407,
+                    "reject": 0.013123366243280395,
+                    "replace": 8.223285397896074e-05
+                  }
+                }
+              },
+              "geometry/replace": {
+                "iou": 0.7062452958078181,
+                "bbox": [
+                  0.06959154856204987,
+                  0.371443243184011,
+                  0.3294323174476623,
+                  0.7528954387247294
+                ],
+                "score": 0.1496385931968689,
+                "slot": null,
+                "view": "crop",
+                "decisions": {
+                  "geometry": {
+                    "add": 0.9663283735532994,
+                    "reject": 0.03345909779699716,
+                    "replace": 0.00021252864970333713
+                  },
+                  "visual": {
+                    "add": 0.9610597758125713,
+                    "reject": 0.03883185407658861,
+                    "replace": 0.00010837011084006068
+                  }
+                }
+              },
+              "visual/add": {
+                "iou": 0.782736298964762,
+                "bbox": [
+                  0.07354384660720825,
+                  0.3884121894836426,
+                  0.26017639636993406,
+                  0.7360982418060302
+                ],
+                "score": 0.41345009207725525,
+                "slot": null,
+                "view": "first",
+                "decisions": {
+                  "geometry": {
+                    "add": 0.9839239748176969,
+                    "reject": 0.015911282742099277,
+                    "replace": 0.0001647424402037923
+                  },
+                  "visual": {
+                    "add": 0.9867944009027407,
+                    "reject": 0.013123366243280395,
+                    "replace": 8.223285397896074e-05
+                  }
+                }
+              },
+              "visual/replace": {
+                "iou": 0.8227513655460096,
+                "bbox": [
+                  0.07113280284404755,
+                  0.38165566874765744,
+                  0.2597557739257813,
+                  0.7483907124806737
+                ],
+                "score": 0.2585800886154175,
+                "slot": null,
+                "view": "crop",
+                "decisions": {
+                  "geometry": {
+                    "add": 0.9547091588601438,
+                    "reject": 0.04509026398230831,
+                    "replace": 0.0002005771575477963
+                  },
+                  "visual": {
+                    "add": 0.962527318181754,
+                    "reject": 0.03736115696421411,
+                    "replace": 0.00011152485403200272
+                  }
+                }
+              }
+            }
+          }
+        ]
+      }
+    },
+    "exposed_calibration": {
+      "baseline": {
+        "images": 7,
+        "objects": 5,
+        "threshold": 0.0,
+        "tp": 2,
+        "fp": 2,
+        "fn": 3,
+        "precision": 0.5,
+        "recall": 0.4,
+        "f1": 0.4444444444444445,
+        "ap50": 0.3069306930693069,
+        "ap50_95": 0.23762376237623767,
+        "ap_by_iou": {
+          "0.50": 0.3069306930693069,
+          "0.55": 0.3069306930693069,
+          "0.60": 0.3069306930693069,
+          "0.65": 0.2079207920792079,
+          "0.70": 0.2079207920792079,
+          "0.75": 0.2079207920792079,
+          "0.80": 0.2079207920792079,
+          "0.85": 0.2079207920792079,
+          "0.90": 0.2079207920792079,
+          "0.95": 0.2079207920792079
+        },
+        "exact_count": 6,
+        "negative_images": 3,
+        "correct_empty": 3,
+        "images_with_only_below_threshold_proposals": 0,
+        "false_positives": [
+          {
+            "id": "calibration-6823562",
+            "prediction": {
+              "id": "object-1",
+              "bbox": [
+                0.5495164184570313,
+                0.06264116336137826,
+                0.6267767944335938,
+                0.6908148349859775
+              ],
+              "score": 0.8663810290385155,
+              "detection_evidence": {},
+              "scale": null,
+              "color": null,
+              "evidence": {
+                "scale": {
+                  "value": null,
+                  "reason": "Outside development support or ambiguous",
+                  "distance": 2.6101791503353655,
+                  "margin": 0.2310952818439298
+                },
+                "color": {
+                  "value": null,
+                  "reason": "Outside development support or ambiguous",
+                  "distance": 4.56347141793058,
+                  "margin": 1.9048061385420318
+                }
+              },
+              "inscriptions": {
+                "status": "not requested",
+                "candidates": [],
+                "capacity": null,
+                "apparent_volume": null
+              },
+              "liquid_appearance": {
+                "status": "insufficient evidence",
+                "reason": "The syringe mask could not be validated.",
+                "lightness": null,
+                "opacity": null,
+                "opacity_reason": "A registered clear-barrel reference at the same exposure is required."
+              },
+              "fill_level": {
+                "status": "insufficient evidence",
+                "reason": "Enable visible marking extraction to estimate fill."
+              },
+              "origin": "model"
+            },
+            "best_unmatched_iou": 0.38822706905525195
+          },
+          {
+            "id": "calibration-5921984",
+            "prediction": {
+              "id": "object-1",
+              "bbox": [
+                0.37728973388671877,
+                0.25332934570312504,
+                0.7404442138671875,
+                0.7351527709960938
+              ],
+              "score": 0.8489156119640514,
+              "detection_evidence": {},
+              "scale": null,
+              "color": null,
+              "evidence": {
+                "scale": {
+                  "value": null,
+                  "reason": "Outside development support or ambiguous",
+                  "distance": 3.919614984924058,
+                  "margin": 0.10338380110420431
+                },
+                "color": {
+                  "value": null,
+                  "reason": "Outside development support or ambiguous",
+                  "distance": 15.711481201963702,
+                  "margin": 0.3246598484579497
+                }
+              },
+              "inscriptions": {
+                "status": "not requested",
+                "candidates": [],
+                "capacity": null,
+                "apparent_volume": null
+              },
+              "liquid_appearance": {
+                "status": "insufficient evidence",
+                "reason": "The syringe mask could not be validated.",
+                "lightness": null,
+                "opacity": null,
+                "opacity_reason": "A registered clear-barrel reference at the same exposure is required."
+              },
+              "fill_level": {
+                "status": "insufficient evidence",
+                "reason": "Enable visible marking extraction to estimate fill."
+              },
+              "origin": "model"
+            },
+            "best_unmatched_iou": 0.3019873888315452
+          }
+        ],
+        "false_negatives": [
+          {
+            "id": "calibration-36675186",
+            "box": [
+              0.14549653579676675,
+              0.41846153846153844,
+              0.3556581986143187,
+              0.6169230769230769
+            ]
+          },
+          {
+            "id": "calibration-5921984",
+            "box": [
+              0.5127020785219399,
+              0.29846153846153844,
+              0.7159353348729792,
+              0.5584615384615385
+            ]
+          },
+          {
+            "id": "calibration-6823562",
+            "box": [
+              0.5767857142857142,
+              0.25,
+              0.6321428571428571,
+              0.6432926829268293
+            ]
+          }
+        ]
+      },
+      "arms": {
+        "geometry/add-only": {
+          "delta": {
+            "tp": 2,
+            "fp": 3,
+            "exact_count": 5,
+            "gain": 0,
+            "extra_fp": 1,
+            "safe": false,
+            "lost_reference": false,
+            "per_image_false_positive_regression": true,
+            "count_regression": true,
+            "gains_at_75": [],
+            "losses_at_75": [],
+            "actions": {
+              "add": 1
+            },
+            "safe_at_75": false
+          },
+          "metrics": {
+            "images": 7,
+            "objects": 5,
+            "threshold": 0.0,
+            "tp": 2,
+            "fp": 3,
+            "fn": 3,
+            "precision": 0.4,
+            "recall": 0.4,
+            "f1": 0.4000000000000001,
+            "ap50": 0.3069306930693069,
+            "ap50_95": 0.23762376237623767,
+            "ap_by_iou": {
+              "0.50": 0.3069306930693069,
+              "0.55": 0.3069306930693069,
+              "0.60": 0.3069306930693069,
+              "0.65": 0.2079207920792079,
+              "0.70": 0.2079207920792079,
+              "0.75": 0.2079207920792079,
+              "0.80": 0.2079207920792079,
+              "0.85": 0.2079207920792079,
+              "0.90": 0.2079207920792079,
+              "0.95": 0.2079207920792079
+            },
+            "exact_count": 5,
+            "negative_images": 3,
+            "correct_empty": 2,
+            "images_with_only_below_threshold_proposals": 0,
+            "false_positives": [
+              {
+                "id": "calibration-6823562",
+                "prediction": {
+                  "id": "object-1",
+                  "bbox": [
+                    0.5495164184570313,
+                    0.06264116336137826,
+                    0.6267767944335938,
+                    0.6908148349859775
+                  ],
+                  "score": 0.8663810290385155,
+                  "detection_evidence": {},
+                  "scale": null,
+                  "color": null,
+                  "evidence": {
+                    "scale": {
+                      "value": null,
+                      "reason": "Outside development support or ambiguous",
+                      "distance": 2.6101791503353655,
+                      "margin": 0.2310952818439298
+                    },
+                    "color": {
+                      "value": null,
+                      "reason": "Outside development support or ambiguous",
+                      "distance": 4.56347141793058,
+                      "margin": 1.9048061385420318
+                    }
+                  },
+                  "inscriptions": {
+                    "status": "not requested",
+                    "candidates": [],
+                    "capacity": null,
+                    "apparent_volume": null
+                  },
+                  "liquid_appearance": {
+                    "status": "insufficient evidence",
+                    "reason": "The syringe mask could not be validated.",
+                    "lightness": null,
+                    "opacity": null,
+                    "opacity_reason": "A registered clear-barrel reference at the same exposure is required."
+                  },
+                  "fill_level": {
+                    "status": "insufficient evidence",
+                    "reason": "Enable visible marking extraction to estimate fill."
+                  },
+                  "origin": "model"
+                },
+                "best_unmatched_iou": 0.38822706905525195
+              },
+              {
+                "id": "calibration-5921984",
+                "prediction": {
+                  "id": "object-1",
+                  "bbox": [
+                    0.37728973388671877,
+                    0.25332934570312504,
+                    0.7404442138671875,
+                    0.7351527709960938
+                  ],
+                  "score": 0.8489156119640514,
+                  "detection_evidence": {},
+                  "scale": null,
+                  "color": null,
+                  "evidence": {
+                    "scale": {
+                      "value": null,
+                      "reason": "Outside development support or ambiguous",
+                      "distance": 3.919614984924058,
+                      "margin": 0.10338380110420431
+                    },
+                    "color": {
+                      "value": null,
+                      "reason": "Outside development support or ambiguous",
+                      "distance": 15.711481201963702,
+                      "margin": 0.3246598484579497
+                    }
+                  },
+                  "inscriptions": {
+                    "status": "not requested",
+                    "candidates": [],
+                    "capacity": null,
+                    "apparent_volume": null
+                  },
+                  "liquid_appearance": {
+                    "status": "insufficient evidence",
+                    "reason": "The syringe mask could not be validated.",
+                    "lightness": null,
+                    "opacity": null,
+                    "opacity_reason": "A registered clear-barrel reference at the same exposure is required."
+                  },
+                  "fill_level": {
+                    "status": "insufficient evidence",
+                    "reason": "Enable visible marking extraction to estimate fill."
+                  },
+                  "origin": "model"
+                },
+                "best_unmatched_iou": 0.3019873888315452
+              },
+              {
+                "id": "calibration-4299424",
+                "prediction": {
+                  "bbox": [
+                    0.0,
+                    0.4021799564361572,
+                    0.6158162117004394,
+                    0.9770660400390625
+                  ],
+                  "score": 0.4723260998725891
+                },
+                "best_unmatched_iou": 0
+              }
+            ],
+            "false_negatives": [
+              {
+                "id": "calibration-36675186",
+                "box": [
+                  0.14549653579676675,
+                  0.41846153846153844,
+                  0.3556581986143187,
+                  0.6169230769230769
+                ]
+              },
+              {
+                "id": "calibration-5921984",
+                "box": [
+                  0.5127020785219399,
+                  0.29846153846153844,
+                  0.7159353348729792,
+                  0.5584615384615385
+                ]
+              },
+              {
+                "id": "calibration-6823562",
+                "box": [
+                  0.5767857142857142,
+                  0.25,
+                  0.6321428571428571,
+                  0.6432926829268293
+                ]
+              }
+            ]
+          },
+          "actions": {
+            "calibration-4299424": [
+              {
+                "action": "add",
+                "score": 0.9807722713372989,
+                "slot": null,
+                "view": "first",
+                "bbox": [
+                  0.0,
+                  0.4021799564361572,
+                  0.6158162117004394,
+                  0.9770660400390625
+                ],
+                "matched_target": null,
+                "already_covered": false,
+                "best_iou": 0.0,
+                "new_target": false
+              }
+            ]
+          }
+        },
+        "geometry/replace-only": {
+          "delta": {
+            "tp": 2,
+            "fp": 2,
+            "exact_count": 6,
+            "gain": 0,
+            "extra_fp": 0,
+            "safe": true,
+            "lost_reference": false,
+            "per_image_false_positive_regression": false,
+            "count_regression": false,
+            "gains_at_75": [],
+            "losses_at_75": [],
+            "actions": {
+              "replace": 1
+            },
+            "safe_at_75": true
+          },
+          "metrics": {
+            "images": 7,
+            "objects": 5,
+            "threshold": 0.0,
+            "tp": 2,
+            "fp": 2,
+            "fn": 3,
+            "precision": 0.5,
+            "recall": 0.4,
+            "f1": 0.4444444444444445,
+            "ap50": 0.3069306930693069,
+            "ap50_95": 0.23762376237623767,
+            "ap_by_iou": {
+              "0.50": 0.3069306930693069,
+              "0.55": 0.3069306930693069,
+              "0.60": 0.3069306930693069,
+              "0.65": 0.2079207920792079,
+              "0.70": 0.2079207920792079,
+              "0.75": 0.2079207920792079,
+              "0.80": 0.2079207920792079,
+              "0.85": 0.2079207920792079,
+              "0.90": 0.2079207920792079,
+              "0.95": 0.2079207920792079
+            },
+            "exact_count": 6,
+            "negative_images": 3,
+            "correct_empty": 3,
+            "images_with_only_below_threshold_proposals": 0,
+            "false_positives": [
+              {
+                "id": "calibration-6823562",
+                "prediction": {
+                  "id": "object-1",
+                  "bbox": [
+                    0.5495164184570313,
+                    0.06264116336137826,
+                    0.6267767944335938,
+                    0.6908148349859775
+                  ],
+                  "score": 0.8663810290385155,
+                  "detection_evidence": {},
+                  "scale": null,
+                  "color": null,
+                  "evidence": {
+                    "scale": {
+                      "value": null,
+                      "reason": "Outside development support or ambiguous",
+                      "distance": 2.6101791503353655,
+                      "margin": 0.2310952818439298
+                    },
+                    "color": {
+                      "value": null,
+                      "reason": "Outside development support or ambiguous",
+                      "distance": 4.56347141793058,
+                      "margin": 1.9048061385420318
+                    }
+                  },
+                  "inscriptions": {
+                    "status": "not requested",
+                    "candidates": [],
+                    "capacity": null,
+                    "apparent_volume": null
+                  },
+                  "liquid_appearance": {
+                    "status": "insufficient evidence",
+                    "reason": "The syringe mask could not be validated.",
+                    "lightness": null,
+                    "opacity": null,
+                    "opacity_reason": "A registered clear-barrel reference at the same exposure is required."
+                  },
+                  "fill_level": {
+                    "status": "insufficient evidence",
+                    "reason": "Enable visible marking extraction to estimate fill."
+                  },
+                  "origin": "model"
+                },
+                "best_unmatched_iou": 0.38822706905525195
+              },
+              {
+                "id": "calibration-5921984",
+                "prediction": {
+                  "id": "object-1",
+                  "bbox": [
+                    0.4078710079193115,
+                    0.2979658842086792,
+                    0.7144179344177246,
+                    0.700371789932251
+                  ],
+                  "score": 0.8489156119640514,
+                  "detection_evidence": {},
+                  "scale": null,
+                  "color": null,
+                  "evidence": {
+                    "scale": {
+                      "value": null,
+                      "reason": "Outside development support or ambiguous",
+                      "distance": 3.919614984924058,
+                      "margin": 0.10338380110420431
+                    },
+                    "color": {
+                      "value": null,
+                      "reason": "Outside development support or ambiguous",
+                      "distance": 15.711481201963702,
+                      "margin": 0.3246598484579497
+                    }
+                  },
+                  "inscriptions": {
+                    "status": "not requested",
+                    "candidates": [],
+                    "capacity": null,
+                    "apparent_volume": null
+                  },
+                  "liquid_appearance": {
+                    "status": "insufficient evidence",
+                    "reason": "The syringe mask could not be validated.",
+                    "lightness": null,
+                    "opacity": null,
+                    "opacity_reason": "A registered clear-barrel reference at the same exposure is required."
+                  },
+                  "fill_level": {
+                    "status": "insufficient evidence",
+                    "reason": "Enable visible marking extraction to estimate fill."
+                  },
+                  "origin": "model"
+                },
+                "best_unmatched_iou": 0.4238042503315745
+              }
+            ],
+            "false_negatives": [
+              {
+                "id": "calibration-36675186",
+                "box": [
+                  0.14549653579676675,
+                  0.41846153846153844,
+                  0.3556581986143187,
+                  0.6169230769230769
+                ]
+              },
+              {
+                "id": "calibration-5921984",
+                "box": [
+                  0.5127020785219399,
+                  0.29846153846153844,
+                  0.7159353348729792,
+                  0.5584615384615385
+                ]
+              },
+              {
+                "id": "calibration-6823562",
+                "box": [
+                  0.5767857142857142,
+                  0.25,
+                  0.6321428571428571,
+                  0.6432926829268293
+                ]
+              }
+            ]
+          },
+          "actions": {
+            "calibration-5921984": [
+              {
+                "action": "replace",
+                "score": 0.9915858240185721,
+                "slot": 0,
+                "view": "first",
+                "bbox": [
+                  0.4078710079193115,
+                  0.2979658842086792,
+                  0.7144179344177246,
+                  0.700371789932251
+                ],
+                "prior_bbox": [
+                  0.37728973388671877,
+                  0.25332934570312504,
+                  0.7404442138671875,
+                  0.7351527709960938
+                ],
+                "prior_best_iou": 0.3019873888315452,
+                "best_iou": 0.4238042503315745,
+                "before_target": 0,
+                "after_iou_with_same_target": 0.4238042503315745
+              }
+            ]
+          }
+        },
+        "geometry/combined": {
+          "delta": {
+            "tp": 2,
+            "fp": 3,
+            "exact_count": 5,
+            "gain": 0,
+            "extra_fp": 1,
+            "safe": false,
+            "lost_reference": false,
+            "per_image_false_positive_regression": true,
+            "count_regression": true,
+            "gains_at_75": [],
+            "losses_at_75": [],
+            "actions": {
+              "replace": 1,
+              "add": 1
+            },
+            "safe_at_75": false
+          },
+          "metrics": {
+            "images": 7,
+            "objects": 5,
+            "threshold": 0.0,
+            "tp": 2,
+            "fp": 3,
+            "fn": 3,
+            "precision": 0.4,
+            "recall": 0.4,
+            "f1": 0.4000000000000001,
+            "ap50": 0.3069306930693069,
+            "ap50_95": 0.23762376237623767,
+            "ap_by_iou": {
+              "0.50": 0.3069306930693069,
+              "0.55": 0.3069306930693069,
+              "0.60": 0.3069306930693069,
+              "0.65": 0.2079207920792079,
+              "0.70": 0.2079207920792079,
+              "0.75": 0.2079207920792079,
+              "0.80": 0.2079207920792079,
+              "0.85": 0.2079207920792079,
+              "0.90": 0.2079207920792079,
+              "0.95": 0.2079207920792079
+            },
+            "exact_count": 5,
+            "negative_images": 3,
+            "correct_empty": 2,
+            "images_with_only_below_threshold_proposals": 0,
+            "false_positives": [
+              {
+                "id": "calibration-6823562",
+                "prediction": {
+                  "id": "object-1",
+                  "bbox": [
+                    0.5495164184570313,
+                    0.06264116336137826,
+                    0.6267767944335938,
+                    0.6908148349859775
+                  ],
+                  "score": 0.8663810290385155,
+                  "detection_evidence": {},
+                  "scale": null,
+                  "color": null,
+                  "evidence": {
+                    "scale": {
+                      "value": null,
+                      "reason": "Outside development support or ambiguous",
+                      "distance": 2.6101791503353655,
+                      "margin": 0.2310952818439298
+                    },
+                    "color": {
+                      "value": null,
+                      "reason": "Outside development support or ambiguous",
+                      "distance": 4.56347141793058,
+                      "margin": 1.9048061385420318
+                    }
+                  },
+                  "inscriptions": {
+                    "status": "not requested",
+                    "candidates": [],
+                    "capacity": null,
+                    "apparent_volume": null
+                  },
+                  "liquid_appearance": {
+                    "status": "insufficient evidence",
+                    "reason": "The syringe mask could not be validated.",
+                    "lightness": null,
+                    "opacity": null,
+                    "opacity_reason": "A registered clear-barrel reference at the same exposure is required."
+                  },
+                  "fill_level": {
+                    "status": "insufficient evidence",
+                    "reason": "Enable visible marking extraction to estimate fill."
+                  },
+                  "origin": "model"
+                },
+                "best_unmatched_iou": 0.38822706905525195
+              },
+              {
+                "id": "calibration-5921984",
+                "prediction": {
+                  "id": "object-1",
+                  "bbox": [
+                    0.4078710079193115,
+                    0.2979658842086792,
+                    0.7144179344177246,
+                    0.700371789932251
+                  ],
+                  "score": 0.8489156119640514,
+                  "detection_evidence": {},
+                  "scale": null,
+                  "color": null,
+                  "evidence": {
+                    "scale": {
+                      "value": null,
+                      "reason": "Outside development support or ambiguous",
+                      "distance": 3.919614984924058,
+                      "margin": 0.10338380110420431
+                    },
+                    "color": {
+                      "value": null,
+                      "reason": "Outside development support or ambiguous",
+                      "distance": 15.711481201963702,
+                      "margin": 0.3246598484579497
+                    }
+                  },
+                  "inscriptions": {
+                    "status": "not requested",
+                    "candidates": [],
+                    "capacity": null,
+                    "apparent_volume": null
+                  },
+                  "liquid_appearance": {
+                    "status": "insufficient evidence",
+                    "reason": "The syringe mask could not be validated.",
+                    "lightness": null,
+                    "opacity": null,
+                    "opacity_reason": "A registered clear-barrel reference at the same exposure is required."
+                  },
+                  "fill_level": {
+                    "status": "insufficient evidence",
+                    "reason": "Enable visible marking extraction to estimate fill."
+                  },
+                  "origin": "model"
+                },
+                "best_unmatched_iou": 0.4238042503315745
+              },
+              {
+                "id": "calibration-4299424",
+                "prediction": {
+                  "bbox": [
+                    0.0,
+                    0.4021799564361572,
+                    0.6158162117004394,
+                    0.9770660400390625
+                  ],
+                  "score": 0.4723260998725891
+                },
+                "best_unmatched_iou": 0
+              }
+            ],
+            "false_negatives": [
+              {
+                "id": "calibration-36675186",
+                "box": [
+                  0.14549653579676675,
+                  0.41846153846153844,
+                  0.3556581986143187,
+                  0.6169230769230769
+                ]
+              },
+              {
+                "id": "calibration-5921984",
+                "box": [
+                  0.5127020785219399,
+                  0.29846153846153844,
+                  0.7159353348729792,
+                  0.5584615384615385
+                ]
+              },
+              {
+                "id": "calibration-6823562",
+                "box": [
+                  0.5767857142857142,
+                  0.25,
+                  0.6321428571428571,
+                  0.6432926829268293
+                ]
+              }
+            ]
+          },
+          "actions": {
+            "calibration-5921984": [
+              {
+                "action": "replace",
+                "score": 0.9915858240185721,
+                "slot": 0,
+                "view": "first",
+                "bbox": [
+                  0.4078710079193115,
+                  0.2979658842086792,
+                  0.7144179344177246,
+                  0.700371789932251
+                ],
+                "prior_bbox": [
+                  0.37728973388671877,
+                  0.25332934570312504,
+                  0.7404442138671875,
+                  0.7351527709960938
+                ],
+                "prior_best_iou": 0.3019873888315452,
+                "best_iou": 0.4238042503315745,
+                "before_target": 0,
+                "after_iou_with_same_target": 0.4238042503315745
+              }
+            ],
+            "calibration-4299424": [
+              {
+                "action": "add",
+                "score": 0.9807722713372989,
+                "slot": null,
+                "view": "first",
+                "bbox": [
+                  0.0,
+                  0.4021799564361572,
+                  0.6158162117004394,
+                  0.9770660400390625
+                ],
+                "matched_target": null,
+                "already_covered": false,
+                "best_iou": 0.0,
+                "new_target": false
+              }
+            ]
+          }
+        },
+        "visual/add-only": {
+          "delta": {
+            "tp": 2,
+            "fp": 3,
+            "exact_count": 5,
+            "gain": 0,
+            "extra_fp": 1,
+            "safe": false,
+            "lost_reference": false,
+            "per_image_false_positive_regression": true,
+            "count_regression": true,
+            "gains_at_75": [],
+            "losses_at_75": [],
+            "actions": {
+              "add": 1
+            },
+            "safe_at_75": false
+          },
+          "metrics": {
+            "images": 7,
+            "objects": 5,
+            "threshold": 0.0,
+            "tp": 2,
+            "fp": 3,
+            "fn": 3,
+            "precision": 0.4,
+            "recall": 0.4,
+            "f1": 0.4000000000000001,
+            "ap50": 0.3069306930693069,
+            "ap50_95": 0.23762376237623767,
+            "ap_by_iou": {
+              "0.50": 0.3069306930693069,
+              "0.55": 0.3069306930693069,
+              "0.60": 0.3069306930693069,
+              "0.65": 0.2079207920792079,
+              "0.70": 0.2079207920792079,
+              "0.75": 0.2079207920792079,
+              "0.80": 0.2079207920792079,
+              "0.85": 0.2079207920792079,
+              "0.90": 0.2079207920792079,
+              "0.95": 0.2079207920792079
+            },
+            "exact_count": 5,
+            "negative_images": 3,
+            "correct_empty": 2,
+            "images_with_only_below_threshold_proposals": 0,
+            "false_positives": [
+              {
+                "id": "calibration-6823562",
+                "prediction": {
+                  "id": "object-1",
+                  "bbox": [
+                    0.5495164184570313,
+                    0.06264116336137826,
+                    0.6267767944335938,
+                    0.6908148349859775
+                  ],
+                  "score": 0.8663810290385155,
+                  "detection_evidence": {},
+                  "scale": null,
+                  "color": null,
+                  "evidence": {
+                    "scale": {
+                      "value": null,
+                      "reason": "Outside development support or ambiguous",
+                      "distance": 2.6101791503353655,
+                      "margin": 0.2310952818439298
+                    },
+                    "color": {
+                      "value": null,
+                      "reason": "Outside development support or ambiguous",
+                      "distance": 4.56347141793058,
+                      "margin": 1.9048061385420318
+                    }
+                  },
+                  "inscriptions": {
+                    "status": "not requested",
+                    "candidates": [],
+                    "capacity": null,
+                    "apparent_volume": null
+                  },
+                  "liquid_appearance": {
+                    "status": "insufficient evidence",
+                    "reason": "The syringe mask could not be validated.",
+                    "lightness": null,
+                    "opacity": null,
+                    "opacity_reason": "A registered clear-barrel reference at the same exposure is required."
+                  },
+                  "fill_level": {
+                    "status": "insufficient evidence",
+                    "reason": "Enable visible marking extraction to estimate fill."
+                  },
+                  "origin": "model"
+                },
+                "best_unmatched_iou": 0.38822706905525195
+              },
+              {
+                "id": "calibration-5921984",
+                "prediction": {
+                  "id": "object-1",
+                  "bbox": [
+                    0.37728973388671877,
+                    0.25332934570312504,
+                    0.7404442138671875,
+                    0.7351527709960938
+                  ],
+                  "score": 0.8489156119640514,
+                  "detection_evidence": {},
+                  "scale": null,
+                  "color": null,
+                  "evidence": {
+                    "scale": {
+                      "value": null,
+                      "reason": "Outside development support or ambiguous",
+                      "distance": 3.919614984924058,
+                      "margin": 0.10338380110420431
+                    },
+                    "color": {
+                      "value": null,
+                      "reason": "Outside development support or ambiguous",
+                      "distance": 15.711481201963702,
+                      "margin": 0.3246598484579497
+                    }
+                  },
+                  "inscriptions": {
+                    "status": "not requested",
+                    "candidates": [],
+                    "capacity": null,
+                    "apparent_volume": null
+                  },
+                  "liquid_appearance": {
+                    "status": "insufficient evidence",
+                    "reason": "The syringe mask could not be validated.",
+                    "lightness": null,
+                    "opacity": null,
+                    "opacity_reason": "A registered clear-barrel reference at the same exposure is required."
+                  },
+                  "fill_level": {
+                    "status": "insufficient evidence",
+                    "reason": "Enable visible marking extraction to estimate fill."
+                  },
+                  "origin": "model"
+                },
+                "best_unmatched_iou": 0.3019873888315452
+              },
+              {
+                "id": "calibration-4299424",
+                "prediction": {
+                  "bbox": [
+                    0.0,
+                    0.4021799564361572,
+                    0.6158162117004394,
+                    0.9770660400390625
+                  ],
+                  "score": 0.4723260998725891
+                },
+                "best_unmatched_iou": 0
+              }
+            ],
+            "false_negatives": [
+              {
+                "id": "calibration-36675186",
+                "box": [
+                  0.14549653579676675,
+                  0.41846153846153844,
+                  0.3556581986143187,
+                  0.6169230769230769
+                ]
+              },
+              {
+                "id": "calibration-5921984",
+                "box": [
+                  0.5127020785219399,
+                  0.29846153846153844,
+                  0.7159353348729792,
+                  0.5584615384615385
+                ]
+              },
+              {
+                "id": "calibration-6823562",
+                "box": [
+                  0.5767857142857142,
+                  0.25,
+                  0.6321428571428571,
+                  0.6432926829268293
+                ]
+              }
+            ]
+          },
+          "actions": {
+            "calibration-4299424": [
+              {
+                "action": "add",
+                "score": 0.9921057188118155,
+                "slot": null,
+                "view": "first",
+                "bbox": [
+                  0.0,
+                  0.4021799564361572,
+                  0.6158162117004394,
+                  0.9770660400390625
+                ],
+                "matched_target": null,
+                "already_covered": false,
+                "best_iou": 0.0,
+                "new_target": false
+              }
+            ]
+          }
+        },
+        "visual/replace-only": {
+          "delta": {
+            "tp": 2,
+            "fp": 2,
+            "exact_count": 6,
+            "gain": 0,
+            "extra_fp": 0,
+            "safe": true,
+            "lost_reference": false,
+            "per_image_false_positive_regression": false,
+            "count_regression": false,
+            "gains_at_75": [],
+            "losses_at_75": [],
+            "actions": {
+              "replace": 2
+            },
+            "safe_at_75": true
+          },
+          "metrics": {
+            "images": 7,
+            "objects": 5,
+            "threshold": 0.0,
+            "tp": 2,
+            "fp": 2,
+            "fn": 3,
+            "precision": 0.5,
+            "recall": 0.4,
+            "f1": 0.4444444444444445,
+            "ap50": 0.3069306930693069,
+            "ap50_95": 0.22772277227722776,
+            "ap_by_iou": {
+              "0.50": 0.3069306930693069,
+              "0.55": 0.3069306930693069,
+              "0.60": 0.2079207920792079,
+              "0.65": 0.2079207920792079,
+              "0.70": 0.2079207920792079,
+              "0.75": 0.2079207920792079,
+              "0.80": 0.2079207920792079,
+              "0.85": 0.2079207920792079,
+              "0.90": 0.2079207920792079,
+              "0.95": 0.2079207920792079
+            },
+            "exact_count": 6,
+            "negative_images": 3,
+            "correct_empty": 3,
+            "images_with_only_below_threshold_proposals": 0,
+            "false_positives": [
+              {
+                "id": "calibration-6823562",
+                "prediction": {
+                  "id": "object-1",
+                  "bbox": [
+                    0.5495164184570313,
+                    0.06264116336137826,
+                    0.6267767944335938,
+                    0.6908148349859775
+                  ],
+                  "score": 0.8663810290385155,
+                  "detection_evidence": {},
+                  "scale": null,
+                  "color": null,
+                  "evidence": {
+                    "scale": {
+                      "value": null,
+                      "reason": "Outside development support or ambiguous",
+                      "distance": 2.6101791503353655,
+                      "margin": 0.2310952818439298
+                    },
+                    "color": {
+                      "value": null,
+                      "reason": "Outside development support or ambiguous",
+                      "distance": 4.56347141793058,
+                      "margin": 1.9048061385420318
+                    }
+                  },
+                  "inscriptions": {
+                    "status": "not requested",
+                    "candidates": [],
+                    "capacity": null,
+                    "apparent_volume": null
+                  },
+                  "liquid_appearance": {
+                    "status": "insufficient evidence",
+                    "reason": "The syringe mask could not be validated.",
+                    "lightness": null,
+                    "opacity": null,
+                    "opacity_reason": "A registered clear-barrel reference at the same exposure is required."
+                  },
+                  "fill_level": {
+                    "status": "insufficient evidence",
+                    "reason": "Enable visible marking extraction to estimate fill."
+                  },
+                  "origin": "model"
+                },
+                "best_unmatched_iou": 0.38822706905525195
+              },
+              {
+                "id": "calibration-5921984",
+                "prediction": {
+                  "id": "object-1",
+                  "bbox": [
+                    0.4078710079193115,
+                    0.2979658842086792,
+                    0.7144179344177246,
+                    0.700371789932251
+                  ],
+                  "score": 0.8489156119640514,
+                  "detection_evidence": {},
+                  "scale": null,
+                  "color": null,
+                  "evidence": {
+                    "scale": {
+                      "value": null,
+                      "reason": "Outside development support or ambiguous",
+                      "distance": 3.919614984924058,
+                      "margin": 0.10338380110420431
+                    },
+                    "color": {
+                      "value": null,
+                      "reason": "Outside development support or ambiguous",
+                      "distance": 15.711481201963702,
+                      "margin": 0.3246598484579497
+                    }
+                  },
+                  "inscriptions": {
+                    "status": "not requested",
+                    "candidates": [],
+                    "capacity": null,
+                    "apparent_volume": null
+                  },
+                  "liquid_appearance": {
+                    "status": "insufficient evidence",
+                    "reason": "The syringe mask could not be validated.",
+                    "lightness": null,
+                    "opacity": null,
+                    "opacity_reason": "A registered clear-barrel reference at the same exposure is required."
+                  },
+                  "fill_level": {
+                    "status": "insufficient evidence",
+                    "reason": "Enable visible marking extraction to estimate fill."
+                  },
+                  "origin": "model"
+                },
+                "best_unmatched_iou": 0.4238042503315745
+              }
+            ],
+            "false_negatives": [
+              {
+                "id": "calibration-36675186",
+                "box": [
+                  0.14549653579676675,
+                  0.41846153846153844,
+                  0.3556581986143187,
+                  0.6169230769230769
+                ]
+              },
+              {
+                "id": "calibration-5921984",
+                "box": [
+                  0.5127020785219399,
+                  0.29846153846153844,
+                  0.7159353348729792,
+                  0.5584615384615385
+                ]
+              },
+              {
+                "id": "calibration-6823562",
+                "box": [
+                  0.5767857142857142,
+                  0.25,
+                  0.6321428571428571,
+                  0.6432926829268293
+                ]
+              }
+            ]
+          },
+          "actions": {
+            "calibration-36675186": [
+              {
+                "action": "replace",
+                "score": 0.9809561876059524,
+                "slot": 0,
+                "view": "first",
+                "bbox": [
+                  0.21292078495025635,
+                  0.31241521835327146,
+                  0.6740367412567139,
+                  0.6347929000854492
+                ],
+                "prior_bbox": [
+                  0.24816067504882813,
+                  0.31806162516276043,
+                  0.6733670654296875,
+                  0.6219064127604167
+                ],
+                "prior_best_iou": 0.642220419845732,
+                "best_iou": 0.5686885240264791,
+                "before_target": 1,
+                "after_iou_with_same_target": 0.5686885240264791
+              }
+            ],
+            "calibration-5921984": [
+              {
+                "action": "replace",
+                "score": 0.9895116123496691,
+                "slot": 0,
+                "view": "first",
+                "bbox": [
+                  0.4078710079193115,
+                  0.2979658842086792,
+                  0.7144179344177246,
+                  0.700371789932251
+                ],
+                "prior_bbox": [
+                  0.37728973388671877,
+                  0.25332934570312504,
+                  0.7404442138671875,
+                  0.7351527709960938
+                ],
+                "prior_best_iou": 0.3019873888315452,
+                "best_iou": 0.4238042503315745,
+                "before_target": 0,
+                "after_iou_with_same_target": 0.4238042503315745
+              }
+            ]
+          }
+        },
+        "visual/combined": {
+          "delta": {
+            "tp": 2,
+            "fp": 3,
+            "exact_count": 5,
+            "gain": 0,
+            "extra_fp": 1,
+            "safe": false,
+            "lost_reference": false,
+            "per_image_false_positive_regression": true,
+            "count_regression": true,
+            "gains_at_75": [],
+            "losses_at_75": [],
+            "actions": {
+              "replace": 2,
+              "add": 1
+            },
+            "safe_at_75": false
+          },
+          "metrics": {
+            "images": 7,
+            "objects": 5,
+            "threshold": 0.0,
+            "tp": 2,
+            "fp": 3,
+            "fn": 3,
+            "precision": 0.4,
+            "recall": 0.4,
+            "f1": 0.4000000000000001,
+            "ap50": 0.3069306930693069,
+            "ap50_95": 0.22772277227722776,
+            "ap_by_iou": {
+              "0.50": 0.3069306930693069,
+              "0.55": 0.3069306930693069,
+              "0.60": 0.2079207920792079,
+              "0.65": 0.2079207920792079,
+              "0.70": 0.2079207920792079,
+              "0.75": 0.2079207920792079,
+              "0.80": 0.2079207920792079,
+              "0.85": 0.2079207920792079,
+              "0.90": 0.2079207920792079,
+              "0.95": 0.2079207920792079
+            },
+            "exact_count": 5,
+            "negative_images": 3,
+            "correct_empty": 2,
+            "images_with_only_below_threshold_proposals": 0,
+            "false_positives": [
+              {
+                "id": "calibration-6823562",
+                "prediction": {
+                  "id": "object-1",
+                  "bbox": [
+                    0.5495164184570313,
+                    0.06264116336137826,
+                    0.6267767944335938,
+                    0.6908148349859775
+                  ],
+                  "score": 0.8663810290385155,
+                  "detection_evidence": {},
+                  "scale": null,
+                  "color": null,
+                  "evidence": {
+                    "scale": {
+                      "value": null,
+                      "reason": "Outside development support or ambiguous",
+                      "distance": 2.6101791503353655,
+                      "margin": 0.2310952818439298
+                    },
+                    "color": {
+                      "value": null,
+                      "reason": "Outside development support or ambiguous",
+                      "distance": 4.56347141793058,
+                      "margin": 1.9048061385420318
+                    }
+                  },
+                  "inscriptions": {
+                    "status": "not requested",
+                    "candidates": [],
+                    "capacity": null,
+                    "apparent_volume": null
+                  },
+                  "liquid_appearance": {
+                    "status": "insufficient evidence",
+                    "reason": "The syringe mask could not be validated.",
+                    "lightness": null,
+                    "opacity": null,
+                    "opacity_reason": "A registered clear-barrel reference at the same exposure is required."
+                  },
+                  "fill_level": {
+                    "status": "insufficient evidence",
+                    "reason": "Enable visible marking extraction to estimate fill."
+                  },
+                  "origin": "model"
+                },
+                "best_unmatched_iou": 0.38822706905525195
+              },
+              {
+                "id": "calibration-5921984",
+                "prediction": {
+                  "id": "object-1",
+                  "bbox": [
+                    0.4078710079193115,
+                    0.2979658842086792,
+                    0.7144179344177246,
+                    0.700371789932251
+                  ],
+                  "score": 0.8489156119640514,
+                  "detection_evidence": {},
+                  "scale": null,
+                  "color": null,
+                  "evidence": {
+                    "scale": {
+                      "value": null,
+                      "reason": "Outside development support or ambiguous",
+                      "distance": 3.919614984924058,
+                      "margin": 0.10338380110420431
+                    },
+                    "color": {
+                      "value": null,
+                      "reason": "Outside development support or ambiguous",
+                      "distance": 15.711481201963702,
+                      "margin": 0.3246598484579497
+                    }
+                  },
+                  "inscriptions": {
+                    "status": "not requested",
+                    "candidates": [],
+                    "capacity": null,
+                    "apparent_volume": null
+                  },
+                  "liquid_appearance": {
+                    "status": "insufficient evidence",
+                    "reason": "The syringe mask could not be validated.",
+                    "lightness": null,
+                    "opacity": null,
+                    "opacity_reason": "A registered clear-barrel reference at the same exposure is required."
+                  },
+                  "fill_level": {
+                    "status": "insufficient evidence",
+                    "reason": "Enable visible marking extraction to estimate fill."
+                  },
+                  "origin": "model"
+                },
+                "best_unmatched_iou": 0.4238042503315745
+              },
+              {
+                "id": "calibration-4299424",
+                "prediction": {
+                  "bbox": [
+                    0.0,
+                    0.4021799564361572,
+                    0.6158162117004394,
+                    0.9770660400390625
+                  ],
+                  "score": 0.4723260998725891
+                },
+                "best_unmatched_iou": 0
+              }
+            ],
+            "false_negatives": [
+              {
+                "id": "calibration-36675186",
+                "box": [
+                  0.14549653579676675,
+                  0.41846153846153844,
+                  0.3556581986143187,
+                  0.6169230769230769
+                ]
+              },
+              {
+                "id": "calibration-5921984",
+                "box": [
+                  0.5127020785219399,
+                  0.29846153846153844,
+                  0.7159353348729792,
+                  0.5584615384615385
+                ]
+              },
+              {
+                "id": "calibration-6823562",
+                "box": [
+                  0.5767857142857142,
+                  0.25,
+                  0.6321428571428571,
+                  0.6432926829268293
+                ]
+              }
+            ]
+          },
+          "actions": {
+            "calibration-36675186": [
+              {
+                "action": "replace",
+                "score": 0.9809561876059524,
+                "slot": 0,
+                "view": "first",
+                "bbox": [
+                  0.21292078495025635,
+                  0.31241521835327146,
+                  0.6740367412567139,
+                  0.6347929000854492
+                ],
+                "prior_bbox": [
+                  0.24816067504882813,
+                  0.31806162516276043,
+                  0.6733670654296875,
+                  0.6219064127604167
+                ],
+                "prior_best_iou": 0.642220419845732,
+                "best_iou": 0.5686885240264791,
+                "before_target": 1,
+                "after_iou_with_same_target": 0.5686885240264791
+              }
+            ],
+            "calibration-5921984": [
+              {
+                "action": "replace",
+                "score": 0.9895116123496691,
+                "slot": 0,
+                "view": "first",
+                "bbox": [
+                  0.4078710079193115,
+                  0.2979658842086792,
+                  0.7144179344177246,
+                  0.700371789932251
+                ],
+                "prior_bbox": [
+                  0.37728973388671877,
+                  0.25332934570312504,
+                  0.7404442138671875,
+                  0.7351527709960938
+                ],
+                "prior_best_iou": 0.3019873888315452,
+                "best_iou": 0.4238042503315745,
+                "before_target": 0,
+                "after_iou_with_same_target": 0.4238042503315745
+              }
+            ],
+            "calibration-4299424": [
+              {
+                "action": "add",
+                "score": 0.9921057188118155,
+                "slot": null,
+                "view": "first",
+                "bbox": [
+                  0.0,
+                  0.4021799564361572,
+                  0.6158162117004394,
+                  0.9770660400390625
+                ],
+                "matched_target": null,
+                "already_covered": false,
+                "best_iou": 0.0,
+                "new_target": false
+              }
+            ]
+          }
+        }
+      },
+      "baseline_misses": {
+        "calibration-36675186": [
+          {
+            "index": 0,
+            "maximum_iou": 0.7160770789526292,
+            "viable_boxes": 2,
+            "strongest": {
+              "geometry/add": {
+                "iou": 0.673648744246879,
+                "bbox": [
+                  0.1473786005973816,
+                  0.42068353271484377,
+                  0.3553227767944336,
+                  0.5558025856018066
+                ],
+                "score": 0.3639450669288635,
+                "slot": 0,
+                "view": "first",
+                "decisions": {
+                  "geometry": {
+                    "add": 0.32634425334668254,
+                    "reject": 0.4806855892252267,
+                    "replace": 0.1929701574280907
+                  },
+                  "visual": {
+                    "add": 0.001629679574017218,
+                    "reject": 0.24881461056756476,
+                    "replace": 0.749555709858418
+                  }
+                }
+              },
+              "geometry/replace": {
+                "iou": 0.7160770789526292,
+                "bbox": [
+                  0.14045684480667114,
+                  0.4196137635707855,
+                  0.43098419952392586,
+                  0.6181018276214599
+                ],
+                "score": 0.5707103610038757,
+                "slot": 0,
+                "view": "first",
+                "decisions": {
+                  "geometry": {
+                    "add": 0.14684346819297955,
+                    "reject": 0.0682665409213036,
+                    "replace": 0.7848899908857169
+                  },
+                  "visual": {
+                    "add": 0.0002493338651771399,
+                    "reject": 0.027168849744775923,
+                    "replace": 0.9725818163900469
+                  }
+                }
+              },
+              "visual/add": {
+                "iou": 0.673648744246879,
+                "bbox": [
+                  0.1473786005973816,
+                  0.42068353271484377,
+                  0.3553227767944336,
+                  0.5558025856018066
+                ],
+                "score": 0.3639450669288635,
+                "slot": 0,
+                "view": "first",
+                "decisions": {
+                  "geometry": {
+                    "add": 0.32634425334668254,
+                    "reject": 0.4806855892252267,
+                    "replace": 0.1929701574280907
+                  },
+                  "visual": {
+                    "add": 0.001629679574017218,
+                    "reject": 0.24881461056756476,
+                    "replace": 0.749555709858418
+                  }
+                }
+              },
+              "visual/replace": {
+                "iou": 0.7160770789526292,
+                "bbox": [
+                  0.14045684480667114,
+                  0.4196137635707855,
+                  0.43098419952392586,
+                  0.6181018276214599
+                ],
+                "score": 0.5707103610038757,
+                "slot": 0,
+                "view": "first",
+                "decisions": {
+                  "geometry": {
+                    "add": 0.14684346819297955,
+                    "reject": 0.0682665409213036,
+                    "replace": 0.7848899908857169
+                  },
+                  "visual": {
+                    "add": 0.0002493338651771399,
+                    "reject": 0.027168849744775923,
+                    "replace": 0.9725818163900469
+                  }
+                }
+              }
+            }
+          }
+        ],
+        "calibration-5921984": [
+          {
+            "index": 0,
+            "maximum_iou": 0.7961598326673103,
+            "viable_boxes": 1,
+            "strongest": {
+              "geometry/add": {
+                "iou": 0.7961598326673103,
+                "bbox": [
+                  0.540134222984314,
+                  0.3009507751464844,
+                  0.7186015586853027,
+                  0.5431778297424317
+                ],
+                "score": 0.14308512210845947,
+                "slot": 0,
+                "view": "first",
+                "decisions": {
+                  "geometry": {
+                    "add": 0.014762710483309115,
+                    "reject": 0.22655648790773583,
+                    "replace": 0.7586808016089551
+                  },
+                  "visual": {
+                    "add": 0.0001899365144993549,
+                    "reject": 0.3030988000926386,
+                    "replace": 0.6967112633928619
+                  }
+                }
+              },
+              "geometry/replace": {
+                "iou": 0.7961598326673103,
+                "bbox": [
+                  0.540134222984314,
+                  0.3009507751464844,
+                  0.7186015586853027,
+                  0.5431778297424317
+                ],
+                "score": 0.14308512210845947,
+                "slot": 0,
+                "view": "first",
+                "decisions": {
+                  "geometry": {
+                    "add": 0.014762710483309115,
+                    "reject": 0.22655648790773583,
+                    "replace": 0.7586808016089551
+                  },
+                  "visual": {
+                    "add": 0.0001899365144993549,
+                    "reject": 0.3030988000926386,
+                    "replace": 0.6967112633928619
+                  }
+                }
+              },
+              "visual/add": {
+                "iou": 0.7961598326673103,
+                "bbox": [
+                  0.540134222984314,
+                  0.3009507751464844,
+                  0.7186015586853027,
+                  0.5431778297424317
+                ],
+                "score": 0.14308512210845947,
+                "slot": 0,
+                "view": "first",
+                "decisions": {
+                  "geometry": {
+                    "add": 0.014762710483309115,
+                    "reject": 0.22655648790773583,
+                    "replace": 0.7586808016089551
+                  },
+                  "visual": {
+                    "add": 0.0001899365144993549,
+                    "reject": 0.3030988000926386,
+                    "replace": 0.6967112633928619
+                  }
+                }
+              },
+              "visual/replace": {
+                "iou": 0.7961598326673103,
+                "bbox": [
+                  0.540134222984314,
+                  0.3009507751464844,
+                  0.7186015586853027,
+                  0.5431778297424317
+                ],
+                "score": 0.14308512210845947,
+                "slot": 0,
+                "view": "first",
+                "decisions": {
+                  "geometry": {
+                    "add": 0.014762710483309115,
+                    "reject": 0.22655648790773583,
+                    "replace": 0.7586808016089551
+                  },
+                  "visual": {
+                    "add": 0.0001899365144993549,
+                    "reject": 0.3030988000926386,
+                    "replace": 0.6967112633928619
+                  }
+                }
+              }
+            }
+          }
+        ],
+        "calibration-6823562": [
+          {
+            "index": 0,
+            "maximum_iou": 0.6668683710709775,
+            "viable_boxes": 2,
+            "strongest": {
+              "geometry/add": {
+                "iou": 0.6668683710709775,
+                "bbox": [
+                  0.5800467491149902,
+                  0.20527477264404298,
+                  0.6203033924102783,
+                  0.6475090026855469
+                ],
+                "score": 0.189717099070549,
+                "slot": 0,
+                "view": "first",
+                "decisions": {
+                  "geometry": {
+                    "add": 0.002966764608850304,
+                    "reject": 0.15287864277395935,
+                    "replace": 0.8441545926171904
+                  },
+                  "visual": {
+                    "add": 0.0048925580065260505,
+                    "reject": 0.11041134317139323,
+                    "replace": 0.8846960988220808
+                  }
+                }
+              },
+              "geometry/replace": {
+                "iou": 0.5378616803166959,
+                "bbox": [
+                  0.5615682859420776,
+                  0.16530872353121767,
+                  0.6222058048248291,
+                  0.6386712568234175
+                ],
+                "score": 0.09672790765762329,
+                "slot": 0,
+                "view": "first",
+                "decisions": {
+                  "geometry": {
+                    "add": 0.0010274035211140248,
+                    "reject": 0.13947668804721994,
+                    "replace": 0.859495908431666
+                  },
+                  "visual": {
+                    "add": 0.00082122209390062,
+                    "reject": 0.12166847075207031,
+                    "replace": 0.8775103071540291
+                  }
+                }
+              },
+              "visual/add": {
+                "iou": 0.6668683710709775,
+                "bbox": [
+                  0.5800467491149902,
+                  0.20527477264404298,
+                  0.6203033924102783,
+                  0.6475090026855469
+                ],
+                "score": 0.189717099070549,
+                "slot": 0,
+                "view": "first",
+                "decisions": {
+                  "geometry": {
+                    "add": 0.002966764608850304,
+                    "reject": 0.15287864277395935,
+                    "replace": 0.8441545926171904
+                  },
+                  "visual": {
+                    "add": 0.0048925580065260505,
+                    "reject": 0.11041134317139323,
+                    "replace": 0.8846960988220808
+                  }
+                }
+              },
+              "visual/replace": {
+                "iou": 0.6668683710709775,
+                "bbox": [
+                  0.5800467491149902,
+                  0.20527477264404298,
+                  0.6203033924102783,
+                  0.6475090026855469
+                ],
+                "score": 0.189717099070549,
+                "slot": 0,
+                "view": "first",
+                "decisions": {
+                  "geometry": {
+                    "add": 0.002966764608850304,
+                    "reject": 0.15287864277395935,
+                    "replace": 0.8441545926171904
+                  },
+                  "visual": {
+                    "add": 0.0048925580065260505,
+                    "reject": 0.11041134317139323,
+                    "replace": 0.8846960988220808
+                  }
+                }
+              }
+            }
+          }
+        ]
+      }
+    },
+    "exposed_crowd": {
+      "baseline": {
+        "images": 7,
+        "objects": 16,
+        "threshold": 0.0,
+        "tp": 14,
+        "fp": 1,
+        "fn": 2,
+        "precision": 0.9333333333333333,
+        "recall": 0.875,
+        "f1": 0.9032258064516129,
+        "ap50": 0.8547854785478549,
+        "ap50_95": 0.6365243172668916,
+        "ap_by_iou": {
+          "0.50": 0.8547854785478549,
+          "0.55": 0.8547854785478549,
+          "0.60": 0.8547854785478549,
+          "0.65": 0.7293729372937295,
+          "0.70": 0.7293729372937295,
+          "0.75": 0.676096181046676,
+          "0.80": 0.6153846153846153,
+          "0.85": 0.5643564356435643,
+          "0.90": 0.3872937293729374,
+          "0.95": 0.09900990099009901
+        },
+        "exact_count": 5,
+        "negative_images": 2,
+        "correct_empty": 1,
+        "images_with_only_below_threshold_proposals": 0,
+        "false_positives": [
+          {
+            "id": "refine-37499105",
+            "prediction": {
+              "id": "object-1",
+              "bbox": [
+                0.40288687133789064,
+                0.07333089192708331,
+                0.4956260375976563,
+                0.5384880777994792
+              ],
+              "score": 0.6792144519625185,
+              "detection_evidence": {},
+              "scale": null,
+              "color": null,
+              "evidence": {
+                "scale": {
+                  "value": null,
+                  "reason": "Outside development support or ambiguous",
+                  "distance": 2.9754710005387532,
+                  "margin": 0.5698820549420867
+                },
+                "color": {
+                  "value": null,
+                  "reason": "Outside development support or ambiguous",
+                  "distance": 7.7001547277143505,
+                  "margin": 0.7644433191150384
+                }
+              },
+              "inscriptions": {
+                "status": "not requested",
+                "candidates": [],
+                "capacity": null,
+                "apparent_volume": null
+              },
+              "liquid_appearance": {
+                "status": "insufficient evidence",
+                "reason": "The syringe mask could not be validated.",
+                "lightness": null,
+                "opacity": null,
+                "opacity_reason": "A registered clear-barrel reference at the same exposure is required."
+              },
+              "fill_level": {
+                "status": "insufficient evidence",
+                "reason": "Enable visible marking extraction to estimate fill."
+              },
+              "origin": "model"
+            },
+            "best_unmatched_iou": 0
+          }
+        ],
+        "false_negatives": [
+          {
+            "id": "refine-8670507",
+            "box": [
+              0.34872979214780603,
+              0.26615384615384613,
+              0.47575057736720555,
+              0.4707692307692308
+            ]
+          },
+          {
+            "id": "refine-8670507",
+            "box": [
+              0.5773672055427251,
+              0.26153846153846155,
+              0.7090069284064665,
+              0.46923076923076923
+            ]
+          }
+        ]
+      },
+      "arms": {
+        "geometry/add-only": {
+          "delta": {
+            "tp": 14,
+            "fp": 2,
+            "exact_count": 4,
+            "gain": 0,
+            "extra_fp": 1,
+            "safe": false,
+            "lost_reference": false,
+            "per_image_false_positive_regression": true,
+            "count_regression": true,
+            "gains_at_75": [],
+            "losses_at_75": [],
+            "actions": {
+              "add": 1
+            },
+            "safe_at_75": false
+          },
+          "metrics": {
+            "images": 7,
+            "objects": 16,
+            "threshold": 0.0,
+            "tp": 14,
+            "fp": 2,
+            "fn": 2,
+            "precision": 0.875,
+            "recall": 0.875,
+            "f1": 0.875,
+            "ap50": 0.8547854785478549,
+            "ap50_95": 0.6365243172668916,
+            "ap_by_iou": {
+              "0.50": 0.8547854785478549,
+              "0.55": 0.8547854785478549,
+              "0.60": 0.8547854785478549,
+              "0.65": 0.7293729372937295,
+              "0.70": 0.7293729372937295,
+              "0.75": 0.676096181046676,
+              "0.80": 0.6153846153846153,
+              "0.85": 0.5643564356435643,
+              "0.90": 0.3872937293729374,
+              "0.95": 0.09900990099009901
+            },
+            "exact_count": 4,
+            "negative_images": 2,
+            "correct_empty": 1,
+            "images_with_only_below_threshold_proposals": 0,
+            "false_positives": [
+              {
+                "id": "refine-37499105",
+                "prediction": {
+                  "id": "object-1",
+                  "bbox": [
+                    0.40288687133789064,
+                    0.07333089192708331,
+                    0.4956260375976563,
+                    0.5384880777994792
+                  ],
+                  "score": 0.6792144519625185,
+                  "detection_evidence": {},
+                  "scale": null,
+                  "color": null,
+                  "evidence": {
+                    "scale": {
+                      "value": null,
+                      "reason": "Outside development support or ambiguous",
+                      "distance": 2.9754710005387532,
+                      "margin": 0.5698820549420867
+                    },
+                    "color": {
+                      "value": null,
+                      "reason": "Outside development support or ambiguous",
+                      "distance": 7.7001547277143505,
+                      "margin": 0.7644433191150384
+                    }
+                  },
+                  "inscriptions": {
+                    "status": "not requested",
+                    "candidates": [],
+                    "capacity": null,
+                    "apparent_volume": null
+                  },
+                  "liquid_appearance": {
+                    "status": "insufficient evidence",
+                    "reason": "The syringe mask could not be validated.",
+                    "lightness": null,
+                    "opacity": null,
+                    "opacity_reason": "A registered clear-barrel reference at the same exposure is required."
+                  },
+                  "fill_level": {
+                    "status": "insufficient evidence",
+                    "reason": "Enable visible marking extraction to estimate fill."
+                  },
+                  "origin": "model"
+                },
+                "best_unmatched_iou": 0
+              },
+              {
+                "id": "refine-9905634",
+                "prediction": {
+                  "bbox": [
+                    0.09560148173027687,
+                    0.08637254291907288,
+                    0.19959285185263081,
+                    0.3115605869149803
+                  ],
+                  "score": 0.6338366866111755
+                },
+                "best_unmatched_iou": 0
+              }
+            ],
+            "false_negatives": [
+              {
+                "id": "refine-8670507",
+                "box": [
+                  0.34872979214780603,
+                  0.26615384615384613,
+                  0.47575057736720555,
+                  0.4707692307692308
+                ]
+              },
+              {
+                "id": "refine-8670507",
+                "box": [
+                  0.5773672055427251,
+                  0.26153846153846155,
+                  0.7090069284064665,
+                  0.46923076923076923
+                ]
+              }
+            ]
+          },
+          "actions": {
+            "refine-9905634": [
+              {
+                "action": "add",
+                "score": 0.9927929296904905,
+                "slot": null,
+                "view": "first",
+                "bbox": [
+                  0.09560148173027687,
+                  0.08637254291907288,
+                  0.19959285185263081,
+                  0.3115605869149803
+                ],
+                "matched_target": null,
+                "already_covered": false,
+                "best_iou": 0.0,
+                "new_target": false
+              }
+            ]
+          }
+        },
+        "geometry/replace-only": {
+          "delta": {
+            "tp": 14,
+            "fp": 1,
+            "exact_count": 5,
+            "gain": 0,
+            "extra_fp": 0,
+            "safe": true,
+            "lost_reference": false,
+            "per_image_false_positive_regression": false,
+            "count_regression": false,
+            "gains_at_75": [],
+            "losses_at_75": [],
+            "actions": {
+              "replace": 2
+            },
+            "safe_at_75": true
+          },
+          "metrics": {
+            "images": 7,
+            "objects": 16,
+            "threshold": 0.0,
+            "tp": 14,
+            "fp": 1,
+            "fn": 2,
+            "precision": 0.9333333333333333,
+            "recall": 0.875,
+            "f1": 0.9032258064516129,
+            "ap50": 0.8547854785478549,
+            "ap50_95": 0.6365243172668916,
+            "ap_by_iou": {
+              "0.50": 0.8547854785478549,
+              "0.55": 0.8547854785478549,
+              "0.60": 0.8547854785478549,
+              "0.65": 0.7293729372937295,
+              "0.70": 0.7293729372937295,
+              "0.75": 0.676096181046676,
+              "0.80": 0.6153846153846153,
+              "0.85": 0.5643564356435643,
+              "0.90": 0.3872937293729374,
+              "0.95": 0.09900990099009901
+            },
+            "exact_count": 5,
+            "negative_images": 2,
+            "correct_empty": 1,
+            "images_with_only_below_threshold_proposals": 0,
+            "false_positives": [
+              {
+                "id": "refine-37499105",
+                "prediction": {
+                  "id": "object-1",
+                  "bbox": [
+                    0.4084223498344421,
+                    0.06748740855852763,
+                    0.48976608266830446,
+                    0.5316645895640055
+                  ],
+                  "score": 0.6792144519625185,
+                  "detection_evidence": {},
+                  "scale": null,
+                  "color": null,
+                  "evidence": {
+                    "scale": {
+                      "value": null,
+                      "reason": "Outside development support or ambiguous",
+                      "distance": 2.9754710005387532,
+                      "margin": 0.5698820549420867
+                    },
+                    "color": {
+                      "value": null,
+                      "reason": "Outside development support or ambiguous",
+                      "distance": 7.7001547277143505,
+                      "margin": 0.7644433191150384
+                    }
+                  },
+                  "inscriptions": {
+                    "status": "not requested",
+                    "candidates": [],
+                    "capacity": null,
+                    "apparent_volume": null
+                  },
+                  "liquid_appearance": {
+                    "status": "insufficient evidence",
+                    "reason": "The syringe mask could not be validated.",
+                    "lightness": null,
+                    "opacity": null,
+                    "opacity_reason": "A registered clear-barrel reference at the same exposure is required."
+                  },
+                  "fill_level": {
+                    "status": "insufficient evidence",
+                    "reason": "Enable visible marking extraction to estimate fill."
+                  },
+                  "origin": "model"
+                },
+                "best_unmatched_iou": 0
+              }
+            ],
+            "false_negatives": [
+              {
+                "id": "refine-8670507",
+                "box": [
+                  0.34872979214780603,
+                  0.26615384615384613,
+                  0.47575057736720555,
+                  0.4707692307692308
+                ]
+              },
+              {
+                "id": "refine-8670507",
+                "box": [
+                  0.5773672055427251,
+                  0.26153846153846155,
+                  0.7090069284064665,
+                  0.46923076923076923
+                ]
+              }
+            ]
+          },
+          "actions": {
+            "refine-37499105": [
+              {
+                "action": "replace",
+                "score": 0.9894376758754506,
+                "slot": 0,
+                "view": "crop",
+                "bbox": [
+                  0.4084223498344421,
+                  0.06748740855852763,
+                  0.48976608266830446,
+                  0.5316645895640055
+                ],
+                "prior_bbox": [
+                  0.40288687133789064,
+                  0.07333089192708331,
+                  0.4956260375976563,
+                  0.5384880777994792
+                ],
+                "prior_best_iou": 0.0,
+                "best_iou": 0.0,
+                "before_target": null,
+                "after_iou_with_same_target": null
+              }
+            ],
+            "refine-9905634": [
+              {
+                "action": "replace",
+                "score": 0.993905105602411,
+                "slot": 0,
+                "view": "crop",
+                "bbox": [
+                  0.4443367282430212,
+                  0.20661637593032725,
+                  0.560326098441123,
+                  0.6057548067623512
+                ],
+                "prior_bbox": [
+                  0.4402098020872435,
+                  0.2026573467971687,
+                  0.5622644739466028,
+                  0.6041673244390272
+                ],
+                "prior_best_iou": 0.6476984526304502,
+                "best_iou": 0.6255695514669511,
+                "before_target": 0,
+                "after_iou_with_same_target": 0.6255695514669511
+              }
+            ]
+          }
+        },
+        "geometry/combined": {
+          "delta": {
+            "tp": 14,
+            "fp": 2,
+            "exact_count": 4,
+            "gain": 0,
+            "extra_fp": 1,
+            "safe": false,
+            "lost_reference": false,
+            "per_image_false_positive_regression": true,
+            "count_regression": true,
+            "gains_at_75": [],
+            "losses_at_75": [],
+            "actions": {
+              "replace": 2,
+              "add": 1
+            },
+            "safe_at_75": false
+          },
+          "metrics": {
+            "images": 7,
+            "objects": 16,
+            "threshold": 0.0,
+            "tp": 14,
+            "fp": 2,
+            "fn": 2,
+            "precision": 0.875,
+            "recall": 0.875,
+            "f1": 0.875,
+            "ap50": 0.8547854785478549,
+            "ap50_95": 0.6365243172668916,
+            "ap_by_iou": {
+              "0.50": 0.8547854785478549,
+              "0.55": 0.8547854785478549,
+              "0.60": 0.8547854785478549,
+              "0.65": 0.7293729372937295,
+              "0.70": 0.7293729372937295,
+              "0.75": 0.676096181046676,
+              "0.80": 0.6153846153846153,
+              "0.85": 0.5643564356435643,
+              "0.90": 0.3872937293729374,
+              "0.95": 0.09900990099009901
+            },
+            "exact_count": 4,
+            "negative_images": 2,
+            "correct_empty": 1,
+            "images_with_only_below_threshold_proposals": 0,
+            "false_positives": [
+              {
+                "id": "refine-37499105",
+                "prediction": {
+                  "id": "object-1",
+                  "bbox": [
+                    0.4084223498344421,
+                    0.06748740855852763,
+                    0.48976608266830446,
+                    0.5316645895640055
+                  ],
+                  "score": 0.6792144519625185,
+                  "detection_evidence": {},
+                  "scale": null,
+                  "color": null,
+                  "evidence": {
+                    "scale": {
+                      "value": null,
+                      "reason": "Outside development support or ambiguous",
+                      "distance": 2.9754710005387532,
+                      "margin": 0.5698820549420867
+                    },
+                    "color": {
+                      "value": null,
+                      "reason": "Outside development support or ambiguous",
+                      "distance": 7.7001547277143505,
+                      "margin": 0.7644433191150384
+                    }
+                  },
+                  "inscriptions": {
+                    "status": "not requested",
+                    "candidates": [],
+                    "capacity": null,
+                    "apparent_volume": null
+                  },
+                  "liquid_appearance": {
+                    "status": "insufficient evidence",
+                    "reason": "The syringe mask could not be validated.",
+                    "lightness": null,
+                    "opacity": null,
+                    "opacity_reason": "A registered clear-barrel reference at the same exposure is required."
+                  },
+                  "fill_level": {
+                    "status": "insufficient evidence",
+                    "reason": "Enable visible marking extraction to estimate fill."
+                  },
+                  "origin": "model"
+                },
+                "best_unmatched_iou": 0
+              },
+              {
+                "id": "refine-9905634",
+                "prediction": {
+                  "bbox": [
+                    0.09560148173027687,
+                    0.08637254291907288,
+                    0.19959285185263081,
+                    0.3115605869149803
+                  ],
+                  "score": 0.6338366866111755
+                },
+                "best_unmatched_iou": 0
+              }
+            ],
+            "false_negatives": [
+              {
+                "id": "refine-8670507",
+                "box": [
+                  0.34872979214780603,
+                  0.26615384615384613,
+                  0.47575057736720555,
+                  0.4707692307692308
+                ]
+              },
+              {
+                "id": "refine-8670507",
+                "box": [
+                  0.5773672055427251,
+                  0.26153846153846155,
+                  0.7090069284064665,
+                  0.46923076923076923
+                ]
+              }
+            ]
+          },
+          "actions": {
+            "refine-37499105": [
+              {
+                "action": "replace",
+                "score": 0.9894376758754506,
+                "slot": 0,
+                "view": "crop",
+                "bbox": [
+                  0.4084223498344421,
+                  0.06748740855852763,
+                  0.48976608266830446,
+                  0.5316645895640055
+                ],
+                "prior_bbox": [
+                  0.40288687133789064,
+                  0.07333089192708331,
+                  0.4956260375976563,
+                  0.5384880777994792
+                ],
+                "prior_best_iou": 0.0,
+                "best_iou": 0.0,
+                "before_target": null,
+                "after_iou_with_same_target": null
+              }
+            ],
+            "refine-9905634": [
+              {
+                "action": "replace",
+                "score": 0.993905105602411,
+                "slot": 0,
+                "view": "crop",
+                "bbox": [
+                  0.4443367282430212,
+                  0.20661637593032725,
+                  0.560326098441123,
+                  0.6057548067623512
+                ],
+                "prior_bbox": [
+                  0.4402098020872435,
+                  0.2026573467971687,
+                  0.5622644739466028,
+                  0.6041673244390272
+                ],
+                "prior_best_iou": 0.6476984526304502,
+                "best_iou": 0.6255695514669511,
+                "before_target": 0,
+                "after_iou_with_same_target": 0.6255695514669511
+              },
+              {
+                "action": "add",
+                "score": 0.9927929296904905,
+                "slot": null,
+                "view": "first",
+                "bbox": [
+                  0.09560148173027687,
+                  0.08637254291907288,
+                  0.19959285185263081,
+                  0.3115605869149803
+                ],
+                "matched_target": null,
+                "already_covered": false,
+                "best_iou": 0.0,
+                "new_target": false
+              }
+            ]
+          }
+        },
+        "visual/add-only": {
+          "delta": {
+            "tp": 14,
+            "fp": 2,
+            "exact_count": 4,
+            "gain": 0,
+            "extra_fp": 1,
+            "safe": false,
+            "lost_reference": false,
+            "per_image_false_positive_regression": true,
+            "count_regression": true,
+            "gains_at_75": [],
+            "losses_at_75": [],
+            "actions": {
+              "add": 1
+            },
+            "safe_at_75": false
+          },
+          "metrics": {
+            "images": 7,
+            "objects": 16,
+            "threshold": 0.0,
+            "tp": 14,
+            "fp": 2,
+            "fn": 2,
+            "precision": 0.875,
+            "recall": 0.875,
+            "f1": 0.875,
+            "ap50": 0.8547854785478549,
+            "ap50_95": 0.6365243172668916,
+            "ap_by_iou": {
+              "0.50": 0.8547854785478549,
+              "0.55": 0.8547854785478549,
+              "0.60": 0.8547854785478549,
+              "0.65": 0.7293729372937295,
+              "0.70": 0.7293729372937295,
+              "0.75": 0.676096181046676,
+              "0.80": 0.6153846153846153,
+              "0.85": 0.5643564356435643,
+              "0.90": 0.3872937293729374,
+              "0.95": 0.09900990099009901
+            },
+            "exact_count": 4,
+            "negative_images": 2,
+            "correct_empty": 1,
+            "images_with_only_below_threshold_proposals": 0,
+            "false_positives": [
+              {
+                "id": "refine-37499105",
+                "prediction": {
+                  "id": "object-1",
+                  "bbox": [
+                    0.40288687133789064,
+                    0.07333089192708331,
+                    0.4956260375976563,
+                    0.5384880777994792
+                  ],
+                  "score": 0.6792144519625185,
+                  "detection_evidence": {},
+                  "scale": null,
+                  "color": null,
+                  "evidence": {
+                    "scale": {
+                      "value": null,
+                      "reason": "Outside development support or ambiguous",
+                      "distance": 2.9754710005387532,
+                      "margin": 0.5698820549420867
+                    },
+                    "color": {
+                      "value": null,
+                      "reason": "Outside development support or ambiguous",
+                      "distance": 7.7001547277143505,
+                      "margin": 0.7644433191150384
+                    }
+                  },
+                  "inscriptions": {
+                    "status": "not requested",
+                    "candidates": [],
+                    "capacity": null,
+                    "apparent_volume": null
+                  },
+                  "liquid_appearance": {
+                    "status": "insufficient evidence",
+                    "reason": "The syringe mask could not be validated.",
+                    "lightness": null,
+                    "opacity": null,
+                    "opacity_reason": "A registered clear-barrel reference at the same exposure is required."
+                  },
+                  "fill_level": {
+                    "status": "insufficient evidence",
+                    "reason": "Enable visible marking extraction to estimate fill."
+                  },
+                  "origin": "model"
+                },
+                "best_unmatched_iou": 0
+              },
+              {
+                "id": "refine-9905634",
+                "prediction": {
+                  "bbox": [
+                    0.09560148173027687,
+                    0.08637254291907288,
+                    0.19959285185263081,
+                    0.3115605869149803
+                  ],
+                  "score": 0.6338366866111755
+                },
+                "best_unmatched_iou": 0
+              }
+            ],
+            "false_negatives": [
+              {
+                "id": "refine-8670507",
+                "box": [
+                  0.34872979214780603,
+                  0.26615384615384613,
+                  0.47575057736720555,
+                  0.4707692307692308
+                ]
+              },
+              {
+                "id": "refine-8670507",
+                "box": [
+                  0.5773672055427251,
+                  0.26153846153846155,
+                  0.7090069284064665,
+                  0.46923076923076923
+                ]
+              }
+            ]
+          },
+          "actions": {
+            "refine-9905634": [
+              {
+                "action": "add",
+                "score": 0.9944006776041187,
+                "slot": null,
+                "view": "first",
+                "bbox": [
+                  0.09560148173027687,
+                  0.08637254291907288,
+                  0.19959285185263081,
+                  0.3115605869149803
+                ],
+                "matched_target": null,
+                "already_covered": false,
+                "best_iou": 0.0,
+                "new_target": false
+              }
+            ]
+          }
+        },
+        "visual/replace-only": {
+          "delta": {
+            "tp": 14,
+            "fp": 1,
+            "exact_count": 5,
+            "gain": 0,
+            "extra_fp": 0,
+            "safe": true,
+            "lost_reference": false,
+            "per_image_false_positive_regression": false,
+            "count_regression": false,
+            "gains_at_75": [],
+            "losses_at_75": [],
+            "actions": {
+              "replace": 2
+            },
+            "safe_at_75": true
+          },
+          "metrics": {
+            "images": 7,
+            "objects": 16,
+            "threshold": 0.0,
+            "tp": 14,
+            "fp": 1,
+            "fn": 2,
+            "precision": 0.9333333333333333,
+            "recall": 0.875,
+            "f1": 0.9032258064516129,
+            "ap50": 0.8547854785478549,
+            "ap50_95": 0.6335540202371887,
+            "ap_by_iou": {
+              "0.50": 0.8547854785478549,
+              "0.55": 0.8547854785478549,
+              "0.60": 0.8547854785478549,
+              "0.65": 0.7293729372937295,
+              "0.70": 0.7293729372937295,
+              "0.75": 0.676096181046676,
+              "0.80": 0.6153846153846153,
+              "0.85": 0.5643564356435643,
+              "0.90": 0.3872937293729374,
+              "0.95": 0.06930693069306931
+            },
+            "exact_count": 5,
+            "negative_images": 2,
+            "correct_empty": 1,
+            "images_with_only_below_threshold_proposals": 0,
+            "false_positives": [
+              {
+                "id": "refine-37499105",
+                "prediction": {
+                  "id": "object-1",
+                  "bbox": [
+                    0.40288687133789064,
+                    0.07333089192708331,
+                    0.4956260375976563,
+                    0.5384880777994792
+                  ],
+                  "score": 0.6792144519625185,
+                  "detection_evidence": {},
+                  "scale": null,
+                  "color": null,
+                  "evidence": {
+                    "scale": {
+                      "value": null,
+                      "reason": "Outside development support or ambiguous",
+                      "distance": 2.9754710005387532,
+                      "margin": 0.5698820549420867
+                    },
+                    "color": {
+                      "value": null,
+                      "reason": "Outside development support or ambiguous",
+                      "distance": 7.7001547277143505,
+                      "margin": 0.7644433191150384
+                    }
+                  },
+                  "inscriptions": {
+                    "status": "not requested",
+                    "candidates": [],
+                    "capacity": null,
+                    "apparent_volume": null
+                  },
+                  "liquid_appearance": {
+                    "status": "insufficient evidence",
+                    "reason": "The syringe mask could not be validated.",
+                    "lightness": null,
+                    "opacity": null,
+                    "opacity_reason": "A registered clear-barrel reference at the same exposure is required."
+                  },
+                  "fill_level": {
+                    "status": "insufficient evidence",
+                    "reason": "Enable visible marking extraction to estimate fill."
+                  },
+                  "origin": "model"
+                },
+                "best_unmatched_iou": 0
+              }
+            ],
+            "false_negatives": [
+              {
+                "id": "refine-8670507",
+                "box": [
+                  0.34872979214780603,
+                  0.26615384615384613,
+                  0.47575057736720555,
+                  0.4707692307692308
+                ]
+              },
+              {
+                "id": "refine-8670507",
+                "box": [
+                  0.5773672055427251,
+                  0.26153846153846155,
+                  0.7090069284064665,
+                  0.46923076923076923
+                ]
+              }
+            ]
+          },
+          "actions": {
+            "refine-19260361": [
+              {
+                "action": "replace",
+                "score": 0.9828529685154852,
+                "slot": 0,
+                "view": "first",
+                "bbox": [
+                  0.3991882801055908,
+                  0.09072506427764893,
+                  0.7474955558776856,
+                  0.7234594821929932
+                ],
+                "prior_bbox": [
+                  0.4121349182128906,
+                  0.09768828328450521,
+                  0.742325927734375,
+                  0.7037076009114583
+                ],
+                "prior_best_iou": 0.9706125990294476,
+                "best_iou": 0.9116903354133253,
+                "before_target": 1,
+                "after_iou_with_same_target": 0.9116903354133253
+              }
+            ],
+            "refine-9905634": [
+              {
+                "action": "replace",
+                "score": 0.9963546839282199,
+                "slot": 0,
+                "view": "crop",
+                "bbox": [
+                  0.4443367282430212,
+                  0.20661637593032725,
+                  0.560326098441123,
+                  0.6057548067623512
+                ],
+                "prior_bbox": [
+                  0.4402098020872435,
+                  0.2026573467971687,
+                  0.5622644739466028,
+                  0.6041673244390272
+                ],
+                "prior_best_iou": 0.6476984526304502,
+                "best_iou": 0.6255695514669511,
+                "before_target": 0,
+                "after_iou_with_same_target": 0.6255695514669511
+              }
+            ]
+          }
+        },
+        "visual/combined": {
+          "delta": {
+            "tp": 14,
+            "fp": 2,
+            "exact_count": 4,
+            "gain": 0,
+            "extra_fp": 1,
+            "safe": false,
+            "lost_reference": false,
+            "per_image_false_positive_regression": true,
+            "count_regression": true,
+            "gains_at_75": [],
+            "losses_at_75": [],
+            "actions": {
+              "replace": 2,
+              "add": 1
+            },
+            "safe_at_75": false
+          },
+          "metrics": {
+            "images": 7,
+            "objects": 16,
+            "threshold": 0.0,
+            "tp": 14,
+            "fp": 2,
+            "fn": 2,
+            "precision": 0.875,
+            "recall": 0.875,
+            "f1": 0.875,
+            "ap50": 0.8547854785478549,
+            "ap50_95": 0.6335540202371887,
+            "ap_by_iou": {
+              "0.50": 0.8547854785478549,
+              "0.55": 0.8547854785478549,
+              "0.60": 0.8547854785478549,
+              "0.65": 0.7293729372937295,
+              "0.70": 0.7293729372937295,
+              "0.75": 0.676096181046676,
+              "0.80": 0.6153846153846153,
+              "0.85": 0.5643564356435643,
+              "0.90": 0.3872937293729374,
+              "0.95": 0.06930693069306931
+            },
+            "exact_count": 4,
+            "negative_images": 2,
+            "correct_empty": 1,
+            "images_with_only_below_threshold_proposals": 0,
+            "false_positives": [
+              {
+                "id": "refine-37499105",
+                "prediction": {
+                  "id": "object-1",
+                  "bbox": [
+                    0.40288687133789064,
+                    0.07333089192708331,
+                    0.4956260375976563,
+                    0.5384880777994792
+                  ],
+                  "score": 0.6792144519625185,
+                  "detection_evidence": {},
+                  "scale": null,
+                  "color": null,
+                  "evidence": {
+                    "scale": {
+                      "value": null,
+                      "reason": "Outside development support or ambiguous",
+                      "distance": 2.9754710005387532,
+                      "margin": 0.5698820549420867
+                    },
+                    "color": {
+                      "value": null,
+                      "reason": "Outside development support or ambiguous",
+                      "distance": 7.7001547277143505,
+                      "margin": 0.7644433191150384
+                    }
+                  },
+                  "inscriptions": {
+                    "status": "not requested",
+                    "candidates": [],
+                    "capacity": null,
+                    "apparent_volume": null
+                  },
+                  "liquid_appearance": {
+                    "status": "insufficient evidence",
+                    "reason": "The syringe mask could not be validated.",
+                    "lightness": null,
+                    "opacity": null,
+                    "opacity_reason": "A registered clear-barrel reference at the same exposure is required."
+                  },
+                  "fill_level": {
+                    "status": "insufficient evidence",
+                    "reason": "Enable visible marking extraction to estimate fill."
+                  },
+                  "origin": "model"
+                },
+                "best_unmatched_iou": 0
+              },
+              {
+                "id": "refine-9905634",
+                "prediction": {
+                  "bbox": [
+                    0.09560148173027687,
+                    0.08637254291907288,
+                    0.19959285185263081,
+                    0.3115605869149803
+                  ],
+                  "score": 0.6338366866111755
+                },
+                "best_unmatched_iou": 0
+              }
+            ],
+            "false_negatives": [
+              {
+                "id": "refine-8670507",
+                "box": [
+                  0.34872979214780603,
+                  0.26615384615384613,
+                  0.47575057736720555,
+                  0.4707692307692308
+                ]
+              },
+              {
+                "id": "refine-8670507",
+                "box": [
+                  0.5773672055427251,
+                  0.26153846153846155,
+                  0.7090069284064665,
+                  0.46923076923076923
+                ]
+              }
+            ]
+          },
+          "actions": {
+            "refine-19260361": [
+              {
+                "action": "replace",
+                "score": 0.9828529685154852,
+                "slot": 0,
+                "view": "first",
+                "bbox": [
+                  0.3991882801055908,
+                  0.09072506427764893,
+                  0.7474955558776856,
+                  0.7234594821929932
+                ],
+                "prior_bbox": [
+                  0.4121349182128906,
+                  0.09768828328450521,
+                  0.742325927734375,
+                  0.7037076009114583
+                ],
+                "prior_best_iou": 0.9706125990294476,
+                "best_iou": 0.9116903354133253,
+                "before_target": 1,
+                "after_iou_with_same_target": 0.9116903354133253
+              }
+            ],
+            "refine-9905634": [
+              {
+                "action": "replace",
+                "score": 0.9963546839282199,
+                "slot": 0,
+                "view": "crop",
+                "bbox": [
+                  0.4443367282430212,
+                  0.20661637593032725,
+                  0.560326098441123,
+                  0.6057548067623512
+                ],
+                "prior_bbox": [
+                  0.4402098020872435,
+                  0.2026573467971687,
+                  0.5622644739466028,
+                  0.6041673244390272
+                ],
+                "prior_best_iou": 0.6476984526304502,
+                "best_iou": 0.6255695514669511,
+                "before_target": 0,
+                "after_iou_with_same_target": 0.6255695514669511
+              },
+              {
+                "action": "add",
+                "score": 0.9944006776041187,
+                "slot": null,
+                "view": "first",
+                "bbox": [
+                  0.09560148173027687,
+                  0.08637254291907288,
+                  0.19959285185263081,
+                  0.3115605869149803
+                ],
+                "matched_target": null,
+                "already_covered": false,
+                "best_iou": 0.0,
+                "new_target": false
+              }
+            ]
+          }
+        }
+      },
+      "baseline_misses": {
+        "refine-8670507": [
+          {
+            "index": 1,
+            "maximum_iou": 0.8878260431305487,
+            "viable_boxes": 9,
+            "strongest": {
+              "geometry/add": {
+                "iou": 0.6773379800176857,
+                "bbox": [
+                  0.3530211116790772,
+                  0.26893357869784035,
+                  0.4572005951881409,
+                  0.43791396776835123
+                ],
+                "score": 0.06432497501373291,
+                "slot": 3,
+                "view": "crop",
+                "decisions": {
+                  "geometry": {
+                    "add": 0.4621684054078165,
+                    "reject": 0.25747645044935863,
+                    "replace": 0.28035514414282486
+                  },
+                  "visual": {
+                    "add": 0.5545666447669366,
+                    "reject": 0.09715869946925733,
+                    "replace": 0.34827465576380606
+                  }
+                }
+              },
+              "geometry/replace": {
+                "iou": 0.5560090507820246,
+                "bbox": [
+                  0.38902352285385133,
+                  0.24885824457804362,
+                  0.4948432593345642,
+                  0.47255442810058595
+                ],
+                "score": 0.2648482620716095,
+                "slot": 2,
+                "view": "crop",
+                "decisions": {
+                  "geometry": {
+                    "add": 0.01696644245067308,
+                    "reject": 0.1905794866170253,
+                    "replace": 0.7924540709323016
+                  },
+                  "visual": {
+                    "add": 0.06948507039302061,
+                    "reject": 0.14721246845710853,
+                    "replace": 0.7833024611498709
+                  }
+                }
+              },
+              "visual/add": {
+                "iou": 0.8878260431305487,
+                "bbox": [
+                  0.35168585991859436,
+                  0.2685900768438975,
+                  0.4715801948547363,
+                  0.4817154633204142
+                ],
+                "score": 0.1911236196756363,
+                "slot": 2,
+                "view": "crop",
+                "decisions": {
+                  "geometry": {
+                    "add": 0.4321675625331714,
+                    "reject": 0.12430656228256107,
+                    "replace": 0.44352587518426756
+                  },
+                  "visual": {
+                    "add": 0.7628893304635401,
+                    "reject": 0.047870217233225876,
+                    "replace": 0.189240452303234
+                  }
+                }
+              },
+              "visual/replace": {
+                "iou": 0.5560090507820246,
+                "bbox": [
+                  0.38902352285385133,
+                  0.24885824457804362,
+                  0.4948432593345642,
+                  0.47255442810058595
+                ],
+                "score": 0.2648482620716095,
+                "slot": 2,
+                "view": "crop",
+                "decisions": {
+                  "geometry": {
+                    "add": 0.01696644245067308,
+                    "reject": 0.1905794866170253,
+                    "replace": 0.7924540709323016
+                  },
+                  "visual": {
+                    "add": 0.06948507039302061,
+                    "reject": 0.14721246845710853,
+                    "replace": 0.7833024611498709
+                  }
+                }
+              }
+            }
+          },
+          {
+            "index": 5,
+            "maximum_iou": 0.7678019124505838,
+            "viable_boxes": 5,
+            "strongest": {
+              "geometry/add": {
+                "iou": 0.6874235426278396,
+                "bbox": [
+                  0.5361756324768067,
+                  0.2463916063308716,
+                  0.7104950904846191,
+                  0.47455034255981443
+                ],
+                "score": 0.3522336483001709,
+                "slot": 1,
+                "view": "first",
+                "decisions": {
+                  "geometry": {
+                    "add": 0.05490576495209051,
+                    "reject": 0.13572364960677952,
+                    "replace": 0.80937058544113
+                  },
+                  "visual": {
+                    "add": 0.06315356481587842,
+                    "reject": 0.13443014933357134,
+                    "replace": 0.8024162858505502
+                  }
+                }
+              },
+              "geometry/replace": {
+                "iou": 0.7678019124505838,
+                "bbox": [
+                  0.5506192040443421,
+                  0.2569516024589539,
+                  0.7141557068824768,
+                  0.47469423802693683
+                ],
+                "score": 0.4199605882167816,
+                "slot": 1,
+                "view": "crop",
+                "decisions": {
+                  "geometry": {
+                    "add": 0.03779804041971399,
+                    "reject": 0.12670645866306526,
+                    "replace": 0.8354955009172207
+                  },
+                  "visual": {
+                    "add": 0.04878618417640512,
+                    "reject": 0.10277271887950247,
+                    "replace": 0.8484410969440924
+                  }
+                }
+              },
+              "visual/add": {
+                "iou": 0.6874235426278396,
+                "bbox": [
+                  0.5361756324768067,
+                  0.2463916063308716,
+                  0.7104950904846191,
+                  0.47455034255981443
+                ],
+                "score": 0.3522336483001709,
+                "slot": 1,
+                "view": "first",
+                "decisions": {
+                  "geometry": {
+                    "add": 0.05490576495209051,
+                    "reject": 0.13572364960677952,
+                    "replace": 0.80937058544113
+                  },
+                  "visual": {
+                    "add": 0.06315356481587842,
+                    "reject": 0.13443014933357134,
+                    "replace": 0.8024162858505502
+                  }
+                }
+              },
+              "visual/replace": {
+                "iou": 0.7678019124505838,
+                "bbox": [
+                  0.5506192040443421,
+                  0.2569516024589539,
+                  0.7141557068824768,
+                  0.47469423802693683
+                ],
+                "score": 0.4199605882167816,
+                "slot": 1,
+                "view": "crop",
+                "decisions": {
+                  "geometry": {
+                    "add": 0.03779804041971399,
+                    "reject": 0.12670645866306526,
+                    "replace": 0.8354955009172207
+                  },
+                  "visual": {
+                    "add": 0.04878618417640512,
+                    "reject": 0.10277271887950247,
+                    "replace": 0.8484410969440924
+                  }
+                }
+              }
+            }
+          }
+        ]
+      }
+    }
+  }
+}

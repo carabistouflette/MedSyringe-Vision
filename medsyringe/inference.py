@@ -1,5 +1,7 @@
 """Image-to-observation inference independent of the API and browser."""
 import argparse
+from concurrent.futures import ThreadPoolExecutor
+from contextlib import nullcontext
 from pathlib import Path
 from time import perf_counter
 
@@ -25,6 +27,7 @@ FILL_RELEASE = Path("artifacts/fill/release.json")
 
 class Engine:
     def __init__(self, root):
+        self.overlap_crop_checks = True
         frozen_path = root / "artifacts/freeze.json"
         config_path = root / "artifacts/detector_release.json"
         frozen = read_json(frozen_path)
@@ -131,7 +134,67 @@ class Engine:
                 return result
         return estimate_fill(region, texts, liquid, settings)
 
-    def analyze(self, image, ocr=False):
+    def crop_markings(self, region):
+        try:
+            return self.expanded.read_markings(ImageOps.contain(region, (1900, 1900)))
+        except WorkerError:
+            return dict(status="unavailable", candidates=[], capacity=None, apparent_volume=None)
+
+    def crop_liquid(self, region):
+        try:
+            return self.expanded.measure_liquid(ImageOps.contain(region, (420, 420)))
+        except WorkerError:
+            return dict(status="unavailable", reason="The liquid measurement could not run.",
+                        lightness=None, opacity=None)
+
+    def describe_objects(self, image, accepted, ocr, count_only=False):
+        ocr = ocr and not count_only
+        reason = "Only detection and counting were requested."
+        measure_liquid = bool(not count_only and self.liquid and self.sam3)
+        overlap = (accepted and ocr and self.markings and measure_liquid
+                   and self.overlap_crop_checks and self.identity.get("primary_backend") == "xpu")
+        scheduler = ThreadPoolExecutor(max_workers=1) if overlap else nullcontext()
+        objects = []
+        with scheduler as executor:
+            for index, pred in enumerate(accepted, 1):
+                region = None if count_only else crop(image, pred["bbox"])
+                attributes = ({field: dict(value=None, reason=reason) for field in ("scale", "color")}
+                              if count_only else describe(region, self.attributes))
+                texts = {
+                    "status": "not requested" if not ocr else "per-image OCR limit",
+                    "candidates": [], "capacity": None, "apparent_volume": None,
+                }
+                marking_task = None
+                if ocr and index <= 10:
+                    if executor is not None:
+                        marking_task = executor.submit(self.crop_markings, region)
+                    elif self.markings:
+                        texts = self.crop_markings(region)
+                    else:
+                        texts = read_inscriptions(region)
+                liquid = self.crop_liquid(region) if measure_liquid and index <= 10 else None
+                if marking_task is not None:
+                    texts = marking_task.result()
+                if ocr and index <= 10 and self.markings:
+                    scale = texts.get("scale")
+                    attributes["scale"] = (dict(**scale, reason="Supported by visible markings") if scale else
+                                           dict(value=None, reason="Scale markings are unreadable or ambiguous"))
+                fill = None
+                if self.fill_settings:
+                    if ocr:
+                        fill = self.measure_fill(region, texts, liquid)
+                    else:
+                        fill = fill_unavailable(
+                            reason if count_only else "Enable visible marking extraction to estimate fill."
+                        )
+                objects.append(dict(id=f"object-{index}", bbox=pred["bbox"], score=pred["score"],
+                                    detection_evidence={k: pred[k] for k in ("support", "view_count", "verification_score", "source", "auxiliary_score", "support_channels", "branch_score") if k in pred},
+                                    scale=attributes["scale"]["value"], color=attributes["color"]["value"],
+                                    evidence=attributes, inscriptions=texts, liquid_appearance=liquid,
+                                    fill_level=fill, origin="model"))
+        return objects
+
+    def analyze(self, image, ocr=False, *, count_only=False):
         started = perf_counter()
         ranked, operating_score, supplemental = self.expanded.detect(image)
         accepted = verification.eligible(ranked, operating_score)
@@ -140,45 +203,14 @@ class Engine:
             accepted, rejected = self.verifier(image, accepted)
         review = [{**p, "review_reason": "Crop verification"} for p in rejected]
         review.extend(p for p in ranked if p["score"] < operating_score)
-        objects = []
-        for index, pred in enumerate(accepted, 1):
-            region = crop(image, pred["bbox"])
-            attributes = describe(region, self.attributes)
-            texts = {
-                "status": "not requested" if not ocr else "per-image OCR limit",
-                "candidates": [], "capacity": None, "apparent_volume": None,
-            }
-            if ocr and index<=10:
-                if self.markings:
-                    try:
-                        texts=self.expanded.read_markings(ImageOps.contain(region,(1900,1900)))
-                    except WorkerError:
-                        texts["status"]="unavailable"
-                    scale=texts.get("scale")
-                    attributes["scale"]=(dict(**scale,reason="Supported by visible markings") if scale else
-                                         dict(value=None,reason="Scale markings are unreadable or ambiguous"))
-                else:
-                    texts=read_inscriptions(region)
-            liquid=None
-            if self.liquid and self.sam3 and index<=10:
-                try:
-                    liquid=self.expanded.measure_liquid(ImageOps.contain(region,(420,420)))
-                except WorkerError:
-                    liquid=dict(status="unavailable",reason="The liquid measurement could not run.",
-                                lightness=None,opacity=None)
-            fill = None
-            if self.fill_settings:
-                fill = (self.measure_fill(region, texts, liquid) if ocr else
-                        fill_unavailable("Enable visible marking extraction to estimate fill."))
-            objects.append(dict(id=f"object-{index}", bbox=pred["bbox"], score=pred["score"],
-                                detection_evidence={k: pred[k] for k in ("support", "view_count", "verification_score", "source", "auxiliary_score", "support_channels", "branch_score") if k in pred},
-                                scale=attributes["scale"]["value"], color=attributes["color"]["value"],
-                                evidence=attributes, inscriptions=texts, liquid_appearance=liquid,
-                                fill_level=fill, origin="model"))
-        return dict(model=self.identity, threshold=operating_score, objects=objects,
+        objects = self.describe_objects(image, accepted, ocr, count_only)
+        report = dict(model=self.identity, threshold=operating_score, objects=objects,
                     dimensions=[image.width, image.height], accepted_count=len(objects),
                     below_threshold_candidates=review[:5],sam3_status=supplemental,
                     elapsed_ms=1000*(perf_counter()-started))
+        if count_only:
+            report["analysis_mode"] = "count only"
+        return report
 
 
 def main():

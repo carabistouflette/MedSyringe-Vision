@@ -1,6 +1,6 @@
 {
   "id": "shared-sam-intel-v1",
-  "detector_sha256": "6a446005968d3ea7d3f040ebe37fe6702033f5f2ba157194290a2561699cae90",
+  "detector_sha256": "77575889751a048fa2242281af92ee81d8ac8819c5a08824b1ce45849d9f0481",
   "evidence": "artifacts/detection_hillclimb/sam_residency_full_live.json",
   "evidence_sha256": "304998b3c789c84303a97236691050c29f286a26c725ec371625e083f5388a31",
   "pairing_sha256": "e8cfd1c3ce977ac8d1dd54f79fdf837caffe2bc020336a8474aa80f6e6c3af2a",

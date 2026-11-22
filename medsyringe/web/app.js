@@ -4,13 +4,15 @@ const names = {
   scale: ["20-scale", "60-scale"],
   color: ["amber-brown", "orange"],
 };
+names.scale_and_color = names.scale.flatMap(scale => names.color.map(color => `${scale} / ${color}`));
 const modelName = {
   dino: "Grounding DINO Tiny",
   owl: "OWLv2 Base",
   "dino-trained": "Grounding DINO with local re-ranking",
   "dino-augmented": "Grounding DINO with augmented re-ranking",
 };
-const title = {syringe: "Syringes", scale: "Visual scale", color: "Barrel color"};
+const title = {syringe: "Syringes", scale: "Visual scale", color: "Barrel color",
+  scale_and_color: "Visual scale and barrel color"};
 let report = null;
 let objects = [];
 let selected = null;
@@ -193,6 +195,8 @@ function renderCandidates() {
 function renderBoxes() {
   $("boxes").replaceChildren(...objects.map((obj) => boxOverlay(obj.bbox, obj.id,
     obj.id === selected ? "selected" : "", () => choose(obj.id))));
+  const sampled = objects.find(obj => obj.id === selected)?.liquid_sample;
+  if (sampled) $("boxes").append(boxOverlay(sampled, "Liquid sample", "candidate"));
   if (selectedMarking) {
     const object = objects.find((item) => item.id === selectedMarking.id);
     if (selectedMarking.points) {
@@ -309,17 +313,54 @@ function fillTools(obj) {
   return section;
 }
 
+function setReviewedField(obj, field, value) {
+  obj[field] = value;
+  obj.confirmed_on_box = [...new Set([...(obj.confirmed_on_box || []), field])];
+  editsPending();
+}
+
 function labelField(obj, field) {
   const label = node("label", title[field]);
   const select = node("select");
-  options(select, names[field].map((x) => [x, x]), "Unknown");
+  options(select, names[field].map((x) => [x, x]), field === "scale" ? "Type indeterminate" : "Unknown");
   select.value = obj[field] || "";
   select.addEventListener("change", () => {
-    obj[field] = select.value || null;
-    editsPending();
+    setReviewedField(obj, field, select.value || null);
   });
   label.append(select);
   return label;
+}
+
+function liquidReviewFields(obj) {
+  const fields = node("div", undefined, "field-row");
+  const saved = report.objects.find(candidate => candidate.id === obj.id);
+  const sameBox = saved?.bbox.every((value, index) => value === obj.bbox[index]);
+  const status = sameBox ? report.field_status?.[obj.id] : undefined;
+  const nominal = node("label", "Nominal capacity (mL)");
+  const capacity = node("input");
+  Object.assign(capacity, {type: "number", min: "0.01", max: "250", step: "any",
+    value: obj.nominal_capacity_override_ml ?? "",
+    placeholder: status?.nominal_capacity?.ml ?? "Indeterminate"});
+  capacity.addEventListener("input", () => {
+    setReviewedField(obj, "nominal_capacity_override_ml", capacity.value === "" ? null : capacity.valueAsNumber);
+  });
+  nominal.append(capacity);
+  const labels = {present: "Liquid visible", empty: "Empty", indeterminate: "Indeterminate"};
+  const presence = node("label", "Liquid presence");
+  const selection = node("select");
+  options(selection, Object.entries(labels),
+    status?.liquid_presence ? `${labels[status.liquid_presence.status]} · original evidence` : "Indeterminate");
+  selection.value = obj.liquid_presence_override ?? "";
+  selection.addEventListener("change", () => {
+    setReviewedField(obj, "liquid_presence_override", selection.value || null);
+    renderObjects();
+  });
+  presence.append(selection);
+  fields.append(nominal, presence);
+  if (status?.liquid_presence?.reason) {
+    presence.append(node("small", status.liquid_presence.reason, "ocr"));
+  }
+  return fields;
 }
 
 function objectCard(obj) {
@@ -332,7 +373,7 @@ function objectCard(obj) {
   header.append(select, node("small", label));
   const row = node("div", undefined, "field-row");
   row.append(labelField(obj, "scale"), labelField(obj, "color"));
-  card.append(header, row);
+  card.append(header, row, liquidReviewFields(obj));
   if (obj.candidate_index !== undefined) {
     card.append(node("small", `Reviewed from candidate ${obj.candidate_index+1}`, "ocr"));
   }
@@ -340,8 +381,14 @@ function objectCard(obj) {
     card.append(nativeCropLink(obj.bbox, "Inspect native-resolution crop"));
   }
   if (obj.evidence) {
-    const text = Object.values(obj.evidence).map((entry) => entry.reason);
-    card.append(node("p", [...new Set(text)].join(". ") + ".", "ocr"));
+    const text = Object.entries(obj.evidence).filter(([key]) => key !== "scale" || obj.scale)
+      .map(([, entry]) => entry.reason).filter(Boolean);
+    if (text.length) {
+      card.append(node("p", [...new Set(text)].join(". ") + ".", "ocr"));
+    }
+  }
+  if (!obj.scale) {
+    card.append(node("p", obj.evidence?.scale?.reason || "No supported type or scale evidence for this box.", "ocr"));
   }
   if (obj.inscriptions && obj.inscriptions.status !== "not requested") {
     const section = node("details", undefined, "ocr");
@@ -360,12 +407,12 @@ function objectCard(obj) {
     }
     card.append(section);
   }
-  if (obj.liquid_appearance) {
+  if (obj.liquid_appearance && obj.liquid_presence_override !== "empty") {
     const measured = obj.liquid_appearance;
     const details = node("details", undefined, "ocr");
-    const lightness = measured.lightness;
+    const lightness = measured.apparent_color ? measured.lightness : null;
     details.append(node("summary", lightness ? `Liquid lightness · ${lightness.lstar} L* · ${lightness.category}` :
-      `Liquid appearance · ${measured.status}`));
+      `Liquid appearance · ${measured.status === "unavailable" ? "unavailable" : "indeterminate"}`));
     if (lightness) {
       details.append(node("p", `Middle 50% of measured pixels · ${lightness.iqr.join("–")} L*`));
       const color = measured.apparent_color;
@@ -374,7 +421,8 @@ function objectCard(obj) {
         const swatch = node("span", undefined, "liquid-swatch");
         swatch.style.backgroundColor = `rgb(${color.srgb.join(",")})`;
         swatch.setAttribute("aria-hidden", "true");
-        row.append(swatch, document.createTextNode(`Apparent color · a* ${color.lab[1]} · b* ${color.lab[2]} · C* ${color.chroma}`));
+        row.append(swatch, document.createTextNode(
+          `Apparent color · ${color.family ?? "measured"} · L* ${color.lab[0]} · a* ${color.lab[1]} · b* ${color.lab[2]}`));
         details.append(row);
       }
       const evidence = node("button", "Show measured region", "secondary candidate-row");
@@ -386,7 +434,7 @@ function objectCard(obj) {
       });
       details.append(evidence);
     } else {
-      details.append(node("p", measured.reason));
+      details.append(node("p", measured.color_reason || measured.reason));
     }
     if (measured.opacity_reason) details.append(node("p", measured.opacity_reason));
     card.append(details);
@@ -400,8 +448,10 @@ function objectCard(obj) {
     const details = node("details", undefined, "ocr");
     const measured = fill.status === "visual estimate";
     const manual = fill.status === "manual estimate";
+    const intervalOnly = fill.status === "visual interval";
     details.append(node("summary", measured || manual ?
-      `${manual ? "Reviewed" : "Estimated"} fill · ≈ ${fill.percent}% · ${fill.ml} mL` : "Estimated fill · unknown"));
+      `${manual ? "Reviewed" : "Estimated"} fill · ≈ ${fill.percent}% · ${fill.ml} mL` :
+      intervalOnly ? `Volume range · ${fill.interval_ml.join("–")} mL` : "Volume · not estimable"));
     if (manual) {
       const {low, high, piston} = fill.landmarks;
       const evidence = node("button", "Show reviewed landmarks", "secondary candidate-row");
@@ -431,18 +481,48 @@ function objectCard(obj) {
       });
       details.append(evidence);
     } else {
-      details.append(node("p", fill.reason));
+      details.append(node("p", fill.reason || "The scale and piston position do not support a volume estimate."));
+      details.open = !intervalOnly;
     }
+    card.append(details);
+  } else {
+    const details = node("details", undefined, "ocr");
+    details.open = true;
+    details.append(node("summary", "Volume · not estimable"),
+      node("p", "The current box has no supported graduation and piston measurement."));
     card.append(details);
   }
   card.append(fillTools(obj));
+  if (report.original.source_extension && obj.liquid_presence_override !== "empty") {
+    const sample = node("button", "Sample liquid color", "secondary");
+    sample.type = "button";
+    sample.addEventListener("click", () => {
+      closeFillEditor();
+      selected = obj.id;
+      drawing = {id: obj.id, liquidSample: true};
+      $("boxes").classList.add("drawing");
+      status("Draw a small sample inside visible liquid, away from markings and the piston.");
+      renderBoxes();
+    });
+    card.append(sample);
+    if (obj.liquid_sample) {
+      const clear = node("button", "Clear color sample", "secondary");
+      clear.type = "button";
+      clear.addEventListener("click", () => {
+        obj.liquid_sample = null;
+        delete obj.liquid_appearance;
+        renderObjects();
+        editsPending();
+      });
+      card.append(clear);
+    }
+  }
   const transcription = node("label", "Verified inscription");
   const input = node("input");
   input.maxLength = 320;
   input.value = obj.transcription || "";
   input.addEventListener("input", () => {
-    obj.transcription = input.value;
-    editsPending();
+    setReviewedField(obj, "transcription", input.value);
   });
   transcription.append(input);
   card.append(transcription);
@@ -502,7 +582,8 @@ function show(data) {
       : "No detections were accepted. Review the source and any remaining candidates.");
   const checks = metadata.detection_checks;
   if (checks?.status === "degraded") {
-    const warning = checks.review_needed ? "Verify this count before using the report." : "The image ran on the CPU.";
+    const warning = checks.review_needed ? "Verify this count before using the report." :
+      "The main detector switched to CPU.";
     $("summary").append(node("span", ` ${checks.unavailable.join(" and ")} unavailable. ${warning}`, "warning"));
   }
   $("review").hidden = false;
@@ -510,7 +591,7 @@ function show(data) {
   $("note").value = "";
   document.querySelectorAll("#inventory button, #comparison button").forEach((b) => b.disabled = false);
   renderObjects();
-  status(report.name);
+  status(report.original.analysis_mode === "count only" ? `${report.name} · Count only` : report.name);
   refresh().catch((e) => status(e.message, true));
 }
 
@@ -520,15 +601,17 @@ $("upload").addEventListener("submit", async (event) => {
     status("Choose an image first.");
     return;
   }
-  $("analyze").disabled = true;
-  status("Analyzing locally. The first image also loads the model.");
+  const body = new FormData(event.target, event.submitter);
+  const countOnly = body.get("count_only") === "true";
+  $("analyze").disabled = $("count-only").disabled = true;
+  status(countOnly ? "Counting syringes locally." : "Analyzing locally. The first image also loads the model.");
   try {
-    const data = await request("/api/observations", {method: "POST", body: new FormData(event.target)});
+    const data = await request("/api/observations", {method: "POST", body});
     show(data);
   } catch (error) {
     status(error.message, true);
   } finally {
-    $("analyze").disabled = false;
+    $("analyze").disabled = $("count-only").disabled = false;
   }
 });
 
@@ -601,18 +684,39 @@ $("boxes").addEventListener("pointerdown", (event) => {
 $("boxes").addEventListener("pointermove", (event) => {
   if (!start) return;
   renderBoxes();
-  const preview = boxOverlay(drawBox(start, normalizedPoint(event)), "New box", "selected");
+  const preview = boxOverlay(drawBox(start, normalizedPoint(event)), drawing?.liquidSample ? "Liquid sample" : "New box", "selected");
   $("boxes").append(preview);
 });
 $("boxes").addEventListener("pointerup", (event) => {
   if (!start || !drawing) return;
   const bbox = drawBox(start, normalizedPoint(event));
   if (bbox[2]-bbox[0] >= 0.005 && bbox[3]-bbox[1] >= 0.005) {
-    if (drawing.id) {
+    if (drawing.liquidSample) {
+      const object = objects.find(obj => obj.id === drawing.id);
+      const [l, t, r, b] = object.bbox;
+      if (bbox[0] < l || bbox[1] < t || bbox[2] > r || bbox[3] > b) {
+        status("Draw the liquid sample inside the selected syringe box.", true);
+      } else {
+        object.liquid_sample = bbox;
+        editsPending();
+      }
+    } else if (drawing.id) {
       const changed = objects.find(obj => obj.id === drawing.id);
       changed.bbox = bbox;
+      changed.scale = null;
+      changed.color = null;
+      changed.transcription = "";
+      changed.score = null;
+      changed.confirmed_on_box = [];
+      delete changed.evidence;
+      delete changed.detection_evidence;
       delete changed.manual_fill;
       delete changed.fill_level;
+      delete changed.liquid_presence_override;
+      delete changed.nominal_capacity_override_ml;
+      delete changed.inscriptions;
+      delete changed.liquid_appearance;
+      delete changed.liquid_sample;
       delete changed.candidate_index;
       delete changed.reviewed_candidate;
     }
@@ -620,7 +724,7 @@ $("boxes").addEventListener("pointerup", (event) => {
       selected = nextManualId();
       objects.push({id: selected, bbox, origin: "human", scale: null, color: null});
     }
-    editsPending();
+    if (!drawing.liquidSample) editsPending();
   } else status("The box is too small. Choose Draw box or Redraw selected to retry.");
   drawing = null;
   start = null;
@@ -682,7 +786,8 @@ function renderChecks() {
     }
     if (inventoryCheck.unresolved.length) {
       rows.push(node("p", `Unresolved evidence: ${inventoryCheck.unresolved.join(", ")}. ` +
-        `At least ${inventoryCheck.minimum_missing} expected items are missing.`));
+        `At least ${inventoryCheck.minimum_missing} expected items are missing and ` +
+        `${inventoryCheck.minimum_extra} detected items are extra.`));
     }
   }
   if (comparison) {
@@ -718,6 +823,26 @@ $("comparison").addEventListener("submit", async (event) => {
     renderChecks();
   } catch (error) {
     status(error.message, true);
+  }
+});
+$("opacity-pair").addEventListener("submit", async (event) => {
+  event.preventDefault();
+  const form = event.currentTarget;
+  const result = $("opacity-result");
+  const button = form.querySelector("button[type=submit]");
+  button.disabled = true;
+  result.textContent = "Measuring…";
+  try {
+    const response = await fetch("/api/liquid-opacity", {method: "POST", body: new FormData(form)});
+    const analysis = await response.json();
+    if (!response.ok) throw new Error(analysis.detail || "Opacity measurement failed.");
+    result.textContent = analysis.status === "estimated" ?
+      `${(analysis.value * 100).toFixed(1)}% relative contrast attenuation · fit R² ${analysis.fit_r2}` :
+      `Opacity · indeterminate. ${analysis.reason}`;
+  } catch (error) {
+    result.textContent = error.message;
+  } finally {
+    button.disabled = false;
   }
 });
 $("export").addEventListener("click", async () => {

@@ -1,0 +1,200 @@
+{
+  "policy": "c9fd47fb690237a23b320c30eff5e9193a3f75e7087f4d1b717598582719268e",
+  "code": "68495a426eb5ce608b7dc955207a632ad99f0f3ba769bdcbb766a7bc81cb5c2c",
+  "active": {
+    "geometry/add-only": {
+      "rule": {
+        "features": "geometry",
+        "arm": "add-only",
+        "overlap": "strict",
+        "add": 0.95,
+        "replace": 1.01
+      },
+      "tp": 20,
+      "fp": 20,
+      "exact_count": 36,
+      "gain": 5,
+      "extra_fp": 13,
+      "safe": false,
+      "lost_reference": false,
+      "per_image_false_positive_regression": true,
+      "count_regression": true,
+      "gains_at_75": [],
+      "losses_at_75": [],
+      "actions": {
+        "add": 18
+      },
+      "safe_at_75": false
+    },
+    "geometry/replace-only": {
+      "rule": {
+        "features": "geometry",
+        "arm": "replace-only",
+        "overlap": "strict",
+        "add": 1.01,
+        "replace": 0.98
+      },
+      "tp": 15,
+      "fp": 7,
+      "exact_count": 37,
+      "gain": 0,
+      "extra_fp": 0,
+      "safe": true,
+      "lost_reference": false,
+      "per_image_false_positive_regression": false,
+      "count_regression": false,
+      "gains_at_75": [
+        [
+          "phl-8c5541a5750791f4",
+          0
+        ]
+      ],
+      "losses_at_75": [
+        [
+          "phl-29c6eb6cb359853c",
+          0
+        ],
+        [
+          "phl-8ec9d3ad229eb7c3",
+          0
+        ]
+      ],
+      "actions": {
+        "replace": 9
+      },
+      "safe_at_75": false
+    },
+    "geometry/combined": {
+      "rule": {
+        "features": "geometry",
+        "arm": "combined",
+        "overlap": "strict",
+        "add": 0.95,
+        "replace": 0.98
+      },
+      "tp": 20,
+      "fp": 20,
+      "exact_count": 36,
+      "gain": 5,
+      "extra_fp": 13,
+      "safe": false,
+      "lost_reference": false,
+      "per_image_false_positive_regression": true,
+      "count_regression": true,
+      "gains_at_75": [
+        [
+          "phl-8c5541a5750791f4",
+          0
+        ]
+      ],
+      "losses_at_75": [
+        [
+          "phl-29c6eb6cb359853c",
+          0
+        ],
+        [
+          "phl-8ec9d3ad229eb7c3",
+          0
+        ]
+      ],
+      "actions": {
+        "replace": 9,
+        "add": 18
+      },
+      "safe_at_75": false
+    },
+    "visual/add-only": {
+      "rule": {
+        "features": "visual",
+        "arm": "add-only",
+        "overlap": "strict",
+        "add": 0.98,
+        "replace": 1.01
+      },
+      "tp": 19,
+      "fp": 12,
+      "exact_count": 42,
+      "gain": 4,
+      "extra_fp": 5,
+      "safe": false,
+      "lost_reference": false,
+      "per_image_false_positive_regression": true,
+      "count_regression": true,
+      "gains_at_75": [],
+      "losses_at_75": [],
+      "actions": {
+        "add": 9
+      },
+      "safe_at_75": false
+    },
+    "visual/replace-only": {
+      "rule": {
+        "features": "visual",
+        "arm": "replace-only",
+        "overlap": "strict",
+        "add": 1.01,
+        "replace": 0.98
+      },
+      "tp": 15,
+      "fp": 7,
+      "exact_count": 37,
+      "gain": 0,
+      "extra_fp": 0,
+      "safe": true,
+      "lost_reference": false,
+      "per_image_false_positive_regression": false,
+      "count_regression": false,
+      "gains_at_75": [
+        [
+          "phl-8c5541a5750791f4",
+          0
+        ]
+      ],
+      "losses_at_75": [
+        [
+          "phl-8ec9d3ad229eb7c3",
+          0
+        ]
+      ],
+      "actions": {
+        "replace": 8
+      },
+      "safe_at_75": false
+    },
+    "visual/combined": {
+      "rule": {
+        "features": "visual",
+        "arm": "combined",
+        "overlap": "strict",
+        "add": 0.98,
+        "replace": 0.98
+      },
+      "tp": 19,
+      "fp": 12,
+      "exact_count": 42,
+      "gain": 4,
+      "extra_fp": 5,
+      "safe": false,
+      "lost_reference": false,
+      "per_image_false_positive_regression": true,
+      "count_regression": true,
+      "gains_at_75": [
+        [
+          "phl-8c5541a5750791f4",
+          0
+        ]
+      ],
+      "losses_at_75": [
+        [
+          "phl-8ec9d3ad229eb7c3",
+          0
+        ]
+      ],
+      "actions": {
+        "replace": 8,
+        "add": 9
+      },
+      "safe_at_75": false
+    }
+  }
+}

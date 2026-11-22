@@ -1,0 +1,1582 @@
+{
+  "reference": "c5b416fb364d767b5a8594a17fe2bb1c6d05900d3d2a635be411a71611ccd34e",
+  "implementation": "d911c2f392a1ae4f792367391396666eb57d82d8368c4c109b3915effb0fdc4b",
+  "stages": {
+    "released": {
+      "0.3": {
+        "candidates": 1,
+        "matched": 1,
+        "targets": [
+          {
+            "best_iou": 0.0,
+            "matched_iou": null,
+            "best_candidate": {
+              "id": "object-1",
+              "bbox": [
+                0.8931775605678558,
+                0.2495810322911828,
+                0.9230574691295623,
+                0.3430257836692996
+              ],
+              "score": 0.6772280764893512,
+              "detection_evidence": {
+                "verification_score": 2.5730909700072364,
+                "source": "auxiliary",
+                "auxiliary_score": 0.5179588794708252
+              },
+              "scale": null,
+              "color": null,
+              "evidence": {
+                "scale": {
+                  "value": null,
+                  "reason": "Outside development support or ambiguous",
+                  "distance": 3.9607198754120354,
+                  "margin": 1.253367877118568
+                },
+                "color": {
+                  "value": null,
+                  "reason": "Outside development support or ambiguous",
+                  "distance": 28.50327306715104,
+                  "margin": 1.1081521342166738
+                }
+              },
+              "inscriptions": {
+                "status": "not requested",
+                "candidates": [],
+                "capacity": null,
+                "apparent_volume": null
+              },
+              "liquid_appearance": {
+                "status": "insufficient evidence",
+                "reason": "The syringe mask could not be validated.",
+                "lightness": null,
+                "opacity": null,
+                "opacity_reason": "A registered clear-barrel reference at the same exposure is required."
+              },
+              "fill_level": {
+                "status": "insufficient evidence",
+                "reason": "Enable visible marking extraction to estimate fill."
+              },
+              "origin": "model"
+            }
+          },
+          {
+            "best_iou": 0.4204047342980077,
+            "matched_iou": 0.4204047342980077,
+            "best_candidate": {
+              "id": "object-1",
+              "bbox": [
+                0.8931775605678558,
+                0.2495810322911828,
+                0.9230574691295623,
+                0.3430257836692996
+              ],
+              "score": 0.6772280764893512,
+              "detection_evidence": {
+                "verification_score": 2.5730909700072364,
+                "source": "auxiliary",
+                "auxiliary_score": 0.5179588794708252
+              },
+              "scale": null,
+              "color": null,
+              "evidence": {
+                "scale": {
+                  "value": null,
+                  "reason": "Outside development support or ambiguous",
+                  "distance": 3.9607198754120354,
+                  "margin": 1.253367877118568
+                },
+                "color": {
+                  "value": null,
+                  "reason": "Outside development support or ambiguous",
+                  "distance": 28.50327306715104,
+                  "margin": 1.1081521342166738
+                }
+              },
+              "inscriptions": {
+                "status": "not requested",
+                "candidates": [],
+                "capacity": null,
+                "apparent_volume": null
+              },
+              "liquid_appearance": {
+                "status": "insufficient evidence",
+                "reason": "The syringe mask could not be validated.",
+                "lightness": null,
+                "opacity": null,
+                "opacity_reason": "A registered clear-barrel reference at the same exposure is required."
+              },
+              "fill_level": {
+                "status": "insufficient evidence",
+                "reason": "Enable visible marking extraction to estimate fill."
+              },
+              "origin": "model"
+            }
+          }
+        ]
+      },
+      "0.5": {
+        "candidates": 1,
+        "matched": 0,
+        "targets": [
+          {
+            "best_iou": 0.0,
+            "matched_iou": null,
+            "best_candidate": {
+              "id": "object-1",
+              "bbox": [
+                0.8931775605678558,
+                0.2495810322911828,
+                0.9230574691295623,
+                0.3430257836692996
+              ],
+              "score": 0.6772280764893512,
+              "detection_evidence": {
+                "verification_score": 2.5730909700072364,
+                "source": "auxiliary",
+                "auxiliary_score": 0.5179588794708252
+              },
+              "scale": null,
+              "color": null,
+              "evidence": {
+                "scale": {
+                  "value": null,
+                  "reason": "Outside development support or ambiguous",
+                  "distance": 3.9607198754120354,
+                  "margin": 1.253367877118568
+                },
+                "color": {
+                  "value": null,
+                  "reason": "Outside development support or ambiguous",
+                  "distance": 28.50327306715104,
+                  "margin": 1.1081521342166738
+                }
+              },
+              "inscriptions": {
+                "status": "not requested",
+                "candidates": [],
+                "capacity": null,
+                "apparent_volume": null
+              },
+              "liquid_appearance": {
+                "status": "insufficient evidence",
+                "reason": "The syringe mask could not be validated.",
+                "lightness": null,
+                "opacity": null,
+                "opacity_reason": "A registered clear-barrel reference at the same exposure is required."
+              },
+              "fill_level": {
+                "status": "insufficient evidence",
+                "reason": "Enable visible marking extraction to estimate fill."
+              },
+              "origin": "model"
+            }
+          },
+          {
+            "best_iou": 0.4204047342980077,
+            "matched_iou": null,
+            "best_candidate": {
+              "id": "object-1",
+              "bbox": [
+                0.8931775605678558,
+                0.2495810322911828,
+                0.9230574691295623,
+                0.3430257836692996
+              ],
+              "score": 0.6772280764893512,
+              "detection_evidence": {
+                "verification_score": 2.5730909700072364,
+                "source": "auxiliary",
+                "auxiliary_score": 0.5179588794708252
+              },
+              "scale": null,
+              "color": null,
+              "evidence": {
+                "scale": {
+                  "value": null,
+                  "reason": "Outside development support or ambiguous",
+                  "distance": 3.9607198754120354,
+                  "margin": 1.253367877118568
+                },
+                "color": {
+                  "value": null,
+                  "reason": "Outside development support or ambiguous",
+                  "distance": 28.50327306715104,
+                  "margin": 1.1081521342166738
+                }
+              },
+              "inscriptions": {
+                "status": "not requested",
+                "candidates": [],
+                "capacity": null,
+                "apparent_volume": null
+              },
+              "liquid_appearance": {
+                "status": "insufficient evidence",
+                "reason": "The syringe mask could not be validated.",
+                "lightness": null,
+                "opacity": null,
+                "opacity_reason": "A registered clear-barrel reference at the same exposure is required."
+              },
+              "fill_level": {
+                "status": "insufficient evidence",
+                "reason": "Enable visible marking extraction to estimate fill."
+              },
+              "origin": "model"
+            }
+          }
+        ]
+      },
+      "0.65": {
+        "candidates": 1,
+        "matched": 0,
+        "targets": [
+          {
+            "best_iou": 0.0,
+            "matched_iou": null,
+            "best_candidate": {
+              "id": "object-1",
+              "bbox": [
+                0.8931775605678558,
+                0.2495810322911828,
+                0.9230574691295623,
+                0.3430257836692996
+              ],
+              "score": 0.6772280764893512,
+              "detection_evidence": {
+                "verification_score": 2.5730909700072364,
+                "source": "auxiliary",
+                "auxiliary_score": 0.5179588794708252
+              },
+              "scale": null,
+              "color": null,
+              "evidence": {
+                "scale": {
+                  "value": null,
+                  "reason": "Outside development support or ambiguous",
+                  "distance": 3.9607198754120354,
+                  "margin": 1.253367877118568
+                },
+                "color": {
+                  "value": null,
+                  "reason": "Outside development support or ambiguous",
+                  "distance": 28.50327306715104,
+                  "margin": 1.1081521342166738
+                }
+              },
+              "inscriptions": {
+                "status": "not requested",
+                "candidates": [],
+                "capacity": null,
+                "apparent_volume": null
+              },
+              "liquid_appearance": {
+                "status": "insufficient evidence",
+                "reason": "The syringe mask could not be validated.",
+                "lightness": null,
+                "opacity": null,
+                "opacity_reason": "A registered clear-barrel reference at the same exposure is required."
+              },
+              "fill_level": {
+                "status": "insufficient evidence",
+                "reason": "Enable visible marking extraction to estimate fill."
+              },
+              "origin": "model"
+            }
+          },
+          {
+            "best_iou": 0.4204047342980077,
+            "matched_iou": null,
+            "best_candidate": {
+              "id": "object-1",
+              "bbox": [
+                0.8931775605678558,
+                0.2495810322911828,
+                0.9230574691295623,
+                0.3430257836692996
+              ],
+              "score": 0.6772280764893512,
+              "detection_evidence": {
+                "verification_score": 2.5730909700072364,
+                "source": "auxiliary",
+                "auxiliary_score": 0.5179588794708252
+              },
+              "scale": null,
+              "color": null,
+              "evidence": {
+                "scale": {
+                  "value": null,
+                  "reason": "Outside development support or ambiguous",
+                  "distance": 3.9607198754120354,
+                  "margin": 1.253367877118568
+                },
+                "color": {
+                  "value": null,
+                  "reason": "Outside development support or ambiguous",
+                  "distance": 28.50327306715104,
+                  "margin": 1.1081521342166738
+                }
+              },
+              "inscriptions": {
+                "status": "not requested",
+                "candidates": [],
+                "capacity": null,
+                "apparent_volume": null
+              },
+              "liquid_appearance": {
+                "status": "insufficient evidence",
+                "reason": "The syringe mask could not be validated.",
+                "lightness": null,
+                "opacity": null,
+                "opacity_reason": "A registered clear-barrel reference at the same exposure is required."
+              },
+              "fill_level": {
+                "status": "insufficient evidence",
+                "reason": "Enable visible marking extraction to estimate fill."
+              },
+              "origin": "model"
+            }
+          }
+        ]
+      }
+    },
+    "full_raw": {
+      "0.3": {
+        "candidates": 6,
+        "matched": 2,
+        "targets": [
+          {
+            "best_iou": 0.6633482337612175,
+            "matched_iou": 0.6633482337612175,
+            "best_candidate": {
+              "bbox": [
+                0.5953453381856283,
+                0.6799914042154948,
+                0.6229831377665201,
+                0.721976810031467
+              ],
+              "score": 0.41933172941207886,
+              "region": "full",
+              "prompt": "syringe"
+            }
+          },
+          {
+            "best_iou": 0.467120057616176,
+            "matched_iou": 0.467120057616176,
+            "best_candidate": {
+              "bbox": [
+                0.890862676832411,
+                0.25494201978047687,
+                0.9230333964029948,
+                0.3415220048692491
+              ],
+              "score": 0.6891346573829651,
+              "region": "full",
+              "prompt": "syringe"
+            }
+          }
+        ]
+      },
+      "0.5": {
+        "candidates": 6,
+        "matched": 1,
+        "targets": [
+          {
+            "best_iou": 0.6633482337612175,
+            "matched_iou": 0.6633482337612175,
+            "best_candidate": {
+              "bbox": [
+                0.5953453381856283,
+                0.6799914042154948,
+                0.6229831377665201,
+                0.721976810031467
+              ],
+              "score": 0.41933172941207886,
+              "region": "full",
+              "prompt": "syringe"
+            }
+          },
+          {
+            "best_iou": 0.467120057616176,
+            "matched_iou": null,
+            "best_candidate": {
+              "bbox": [
+                0.890862676832411,
+                0.25494201978047687,
+                0.9230333964029948,
+                0.3415220048692491
+              ],
+              "score": 0.6891346573829651,
+              "region": "full",
+              "prompt": "syringe"
+            }
+          }
+        ]
+      },
+      "0.65": {
+        "candidates": 6,
+        "matched": 1,
+        "targets": [
+          {
+            "best_iou": 0.6633482337612175,
+            "matched_iou": 0.6633482337612175,
+            "best_candidate": {
+              "bbox": [
+                0.5953453381856283,
+                0.6799914042154948,
+                0.6229831377665201,
+                0.721976810031467
+              ],
+              "score": 0.41933172941207886,
+              "region": "full",
+              "prompt": "syringe"
+            }
+          },
+          {
+            "best_iou": 0.467120057616176,
+            "matched_iou": null,
+            "best_candidate": {
+              "bbox": [
+                0.890862676832411,
+                0.25494201978047687,
+                0.9230333964029948,
+                0.3415220048692491
+              ],
+              "score": 0.6891346573829651,
+              "region": "full",
+              "prompt": "syringe"
+            }
+          }
+        ]
+      }
+    },
+    "full_at_point_40": {
+      "0.3": {
+        "candidates": 3,
+        "matched": 2,
+        "targets": [
+          {
+            "best_iou": 0.6633482337612175,
+            "matched_iou": 0.6633482337612175,
+            "best_candidate": {
+              "bbox": [
+                0.5953453381856283,
+                0.6799914042154948,
+                0.6229831377665201,
+                0.721976810031467
+              ],
+              "score": 0.41933172941207886,
+              "region": "full",
+              "prompt": "syringe"
+            }
+          },
+          {
+            "best_iou": 0.467120057616176,
+            "matched_iou": 0.467120057616176,
+            "best_candidate": {
+              "bbox": [
+                0.890862676832411,
+                0.25494201978047687,
+                0.9230333964029948,
+                0.3415220048692491
+              ],
+              "score": 0.6891346573829651,
+              "region": "full",
+              "prompt": "syringe"
+            }
+          }
+        ]
+      },
+      "0.5": {
+        "candidates": 3,
+        "matched": 1,
+        "targets": [
+          {
+            "best_iou": 0.6633482337612175,
+            "matched_iou": 0.6633482337612175,
+            "best_candidate": {
+              "bbox": [
+                0.5953453381856283,
+                0.6799914042154948,
+                0.6229831377665201,
+                0.721976810031467
+              ],
+              "score": 0.41933172941207886,
+              "region": "full",
+              "prompt": "syringe"
+            }
+          },
+          {
+            "best_iou": 0.467120057616176,
+            "matched_iou": null,
+            "best_candidate": {
+              "bbox": [
+                0.890862676832411,
+                0.25494201978047687,
+                0.9230333964029948,
+                0.3415220048692491
+              ],
+              "score": 0.6891346573829651,
+              "region": "full",
+              "prompt": "syringe"
+            }
+          }
+        ]
+      },
+      "0.65": {
+        "candidates": 3,
+        "matched": 1,
+        "targets": [
+          {
+            "best_iou": 0.6633482337612175,
+            "matched_iou": 0.6633482337612175,
+            "best_candidate": {
+              "bbox": [
+                0.5953453381856283,
+                0.6799914042154948,
+                0.6229831377665201,
+                0.721976810031467
+              ],
+              "score": 0.41933172941207886,
+              "region": "full",
+              "prompt": "syringe"
+            }
+          },
+          {
+            "best_iou": 0.467120057616176,
+            "matched_iou": null,
+            "best_candidate": {
+              "bbox": [
+                0.890862676832411,
+                0.25494201978047687,
+                0.9230333964029948,
+                0.3415220048692491
+              ],
+              "score": 0.6891346573829651,
+              "region": "full",
+              "prompt": "syringe"
+            }
+          }
+        ]
+      }
+    },
+    "full_after_mask_suppression": {
+      "0.3": {
+        "candidates": 2,
+        "matched": 2,
+        "targets": [
+          {
+            "best_iou": 0.6633482337612175,
+            "matched_iou": 0.6633482337612175,
+            "best_candidate": {
+              "bbox": [
+                0.5953453381856283,
+                0.6799914042154948,
+                0.6229831377665201,
+                0.721976810031467
+              ],
+              "score": 0.41933172941207886
+            }
+          },
+          {
+            "best_iou": 0.467120057616176,
+            "matched_iou": 0.467120057616176,
+            "best_candidate": {
+              "bbox": [
+                0.890862676832411,
+                0.25494201978047687,
+                0.9230333964029948,
+                0.3415220048692491
+              ],
+              "score": 0.6891346573829651
+            }
+          }
+        ]
+      },
+      "0.5": {
+        "candidates": 2,
+        "matched": 1,
+        "targets": [
+          {
+            "best_iou": 0.6633482337612175,
+            "matched_iou": 0.6633482337612175,
+            "best_candidate": {
+              "bbox": [
+                0.5953453381856283,
+                0.6799914042154948,
+                0.6229831377665201,
+                0.721976810031467
+              ],
+              "score": 0.41933172941207886
+            }
+          },
+          {
+            "best_iou": 0.467120057616176,
+            "matched_iou": null,
+            "best_candidate": {
+              "bbox": [
+                0.890862676832411,
+                0.25494201978047687,
+                0.9230333964029948,
+                0.3415220048692491
+              ],
+              "score": 0.6891346573829651
+            }
+          }
+        ]
+      },
+      "0.65": {
+        "candidates": 2,
+        "matched": 1,
+        "targets": [
+          {
+            "best_iou": 0.6633482337612175,
+            "matched_iou": 0.6633482337612175,
+            "best_candidate": {
+              "bbox": [
+                0.5953453381856283,
+                0.6799914042154948,
+                0.6229831377665201,
+                0.721976810031467
+              ],
+              "score": 0.41933172941207886
+            }
+          },
+          {
+            "best_iou": 0.467120057616176,
+            "matched_iou": null,
+            "best_candidate": {
+              "bbox": [
+                0.890862676832411,
+                0.25494201978047687,
+                0.9230333964029948,
+                0.3415220048692491
+              ],
+              "score": 0.6891346573829651
+            }
+          }
+        ]
+      }
+    },
+    "full_parts_fusion": {
+      "0.3": {
+        "candidates": 1,
+        "matched": 1,
+        "targets": [
+          {
+            "best_iou": 0.0,
+            "matched_iou": null,
+            "best_candidate": {
+              "bbox": [
+                0.8931775605678558,
+                0.2495810322911828,
+                0.9230574691295623,
+                0.3430257836692996
+              ],
+              "score": 0.6772280764893512
+            }
+          },
+          {
+            "best_iou": 0.4204047342980077,
+            "matched_iou": 0.4204047342980077,
+            "best_candidate": {
+              "bbox": [
+                0.8931775605678558,
+                0.2495810322911828,
+                0.9230574691295623,
+                0.3430257836692996
+              ],
+              "score": 0.6772280764893512
+            }
+          }
+        ]
+      },
+      "0.5": {
+        "candidates": 1,
+        "matched": 0,
+        "targets": [
+          {
+            "best_iou": 0.0,
+            "matched_iou": null,
+            "best_candidate": {
+              "bbox": [
+                0.8931775605678558,
+                0.2495810322911828,
+                0.9230574691295623,
+                0.3430257836692996
+              ],
+              "score": 0.6772280764893512
+            }
+          },
+          {
+            "best_iou": 0.4204047342980077,
+            "matched_iou": null,
+            "best_candidate": {
+              "bbox": [
+                0.8931775605678558,
+                0.2495810322911828,
+                0.9230574691295623,
+                0.3430257836692996
+              ],
+              "score": 0.6772280764893512
+            }
+          }
+        ]
+      },
+      "0.65": {
+        "candidates": 1,
+        "matched": 0,
+        "targets": [
+          {
+            "best_iou": 0.0,
+            "matched_iou": null,
+            "best_candidate": {
+              "bbox": [
+                0.8931775605678558,
+                0.2495810322911828,
+                0.9230574691295623,
+                0.3430257836692996
+              ],
+              "score": 0.6772280764893512
+            }
+          },
+          {
+            "best_iou": 0.4204047342980077,
+            "matched_iou": null,
+            "best_candidate": {
+              "bbox": [
+                0.8931775605678558,
+                0.2495810322911828,
+                0.9230574691295623,
+                0.3430257836692996
+              ],
+              "score": 0.6772280764893512
+            }
+          }
+        ]
+      }
+    },
+    "full_appearance_fusion": {
+      "0.3": {
+        "candidates": 1,
+        "matched": 1,
+        "targets": [
+          {
+            "best_iou": 0.0,
+            "matched_iou": null,
+            "best_candidate": {
+              "bbox": [
+                0.8931775605678558,
+                0.2495810322911828,
+                0.9230574691295623,
+                0.3430257836692996
+              ],
+              "score": 0.6772280764893512
+            }
+          },
+          {
+            "best_iou": 0.4204047342980077,
+            "matched_iou": 0.4204047342980077,
+            "best_candidate": {
+              "bbox": [
+                0.8931775605678558,
+                0.2495810322911828,
+                0.9230574691295623,
+                0.3430257836692996
+              ],
+              "score": 0.6772280764893512
+            }
+          }
+        ]
+      },
+      "0.5": {
+        "candidates": 1,
+        "matched": 0,
+        "targets": [
+          {
+            "best_iou": 0.0,
+            "matched_iou": null,
+            "best_candidate": {
+              "bbox": [
+                0.8931775605678558,
+                0.2495810322911828,
+                0.9230574691295623,
+                0.3430257836692996
+              ],
+              "score": 0.6772280764893512
+            }
+          },
+          {
+            "best_iou": 0.4204047342980077,
+            "matched_iou": null,
+            "best_candidate": {
+              "bbox": [
+                0.8931775605678558,
+                0.2495810322911828,
+                0.9230574691295623,
+                0.3430257836692996
+              ],
+              "score": 0.6772280764893512
+            }
+          }
+        ]
+      },
+      "0.65": {
+        "candidates": 1,
+        "matched": 0,
+        "targets": [
+          {
+            "best_iou": 0.0,
+            "matched_iou": null,
+            "best_candidate": {
+              "bbox": [
+                0.8931775605678558,
+                0.2495810322911828,
+                0.9230574691295623,
+                0.3430257836692996
+              ],
+              "score": 0.6772280764893512
+            }
+          },
+          {
+            "best_iou": 0.4204047342980077,
+            "matched_iou": null,
+            "best_candidate": {
+              "bbox": [
+                0.8931775605678558,
+                0.2495810322911828,
+                0.9230574691295623,
+                0.3430257836692996
+              ],
+              "score": 0.6772280764893512
+            }
+          }
+        ]
+      }
+    },
+    "full_combined_fusion": {
+      "0.3": {
+        "candidates": 1,
+        "matched": 1,
+        "targets": [
+          {
+            "best_iou": 0.0,
+            "matched_iou": null,
+            "best_candidate": {
+              "bbox": [
+                0.8931775605678558,
+                0.2495810322911828,
+                0.9230574691295623,
+                0.3430257836692996
+              ],
+              "score": 0.6772280764893512
+            }
+          },
+          {
+            "best_iou": 0.4204047342980077,
+            "matched_iou": 0.4204047342980077,
+            "best_candidate": {
+              "bbox": [
+                0.8931775605678558,
+                0.2495810322911828,
+                0.9230574691295623,
+                0.3430257836692996
+              ],
+              "score": 0.6772280764893512
+            }
+          }
+        ]
+      },
+      "0.5": {
+        "candidates": 1,
+        "matched": 0,
+        "targets": [
+          {
+            "best_iou": 0.0,
+            "matched_iou": null,
+            "best_candidate": {
+              "bbox": [
+                0.8931775605678558,
+                0.2495810322911828,
+                0.9230574691295623,
+                0.3430257836692996
+              ],
+              "score": 0.6772280764893512
+            }
+          },
+          {
+            "best_iou": 0.4204047342980077,
+            "matched_iou": null,
+            "best_candidate": {
+              "bbox": [
+                0.8931775605678558,
+                0.2495810322911828,
+                0.9230574691295623,
+                0.3430257836692996
+              ],
+              "score": 0.6772280764893512
+            }
+          }
+        ]
+      },
+      "0.65": {
+        "candidates": 1,
+        "matched": 0,
+        "targets": [
+          {
+            "best_iou": 0.0,
+            "matched_iou": null,
+            "best_candidate": {
+              "bbox": [
+                0.8931775605678558,
+                0.2495810322911828,
+                0.9230574691295623,
+                0.3430257836692996
+              ],
+              "score": 0.6772280764893512
+            }
+          },
+          {
+            "best_iou": 0.4204047342980077,
+            "matched_iou": null,
+            "best_candidate": {
+              "bbox": [
+                0.8931775605678558,
+                0.2495810322911828,
+                0.9230574691295623,
+                0.3430257836692996
+              ],
+              "score": 0.6772280764893512
+            }
+          }
+        ]
+      }
+    },
+    "tile_0.66_projected": {
+      "0.3": {
+        "candidates": 14,
+        "matched": 2,
+        "targets": [
+          {
+            "best_iou": 0.5690468925417296,
+            "matched_iou": 0.5690468925417296,
+            "best_candidate": {
+              "bbox": [
+                0.5956873861948649,
+                0.6874123758208558,
+                0.6227093029022217,
+                0.7242500452583893
+              ],
+              "score": 0.263631671667099,
+              "region": [
+                340,
+                237,
+                1000,
+                698
+              ],
+              "prompt": "syringe",
+              "passes_internal_edge_rule": true
+            }
+          },
+          {
+            "best_iou": 0.5003672405347852,
+            "matched_iou": 0.5003672405347852,
+            "best_candidate": {
+              "bbox": [
+                0.8889071083068848,
+                0.25478924087413896,
+                0.9243283176422119,
+                0.34520441162779775
+              ],
+              "score": 0.8770294189453125,
+              "region": [
+                340,
+                0,
+                1000,
+                461
+              ],
+              "prompt": "syringe",
+              "passes_internal_edge_rule": true
+            }
+          }
+        ]
+      },
+      "0.5": {
+        "candidates": 14,
+        "matched": 2,
+        "targets": [
+          {
+            "best_iou": 0.5690468925417296,
+            "matched_iou": 0.5690468925417296,
+            "best_candidate": {
+              "bbox": [
+                0.5956873861948649,
+                0.6874123758208558,
+                0.6227093029022217,
+                0.7242500452583893
+              ],
+              "score": 0.263631671667099,
+              "region": [
+                340,
+                237,
+                1000,
+                698
+              ],
+              "prompt": "syringe",
+              "passes_internal_edge_rule": true
+            }
+          },
+          {
+            "best_iou": 0.5003672405347852,
+            "matched_iou": 0.5003672405347852,
+            "best_candidate": {
+              "bbox": [
+                0.8889071083068848,
+                0.25478924087413896,
+                0.9243283176422119,
+                0.34520441162779775
+              ],
+              "score": 0.8770294189453125,
+              "region": [
+                340,
+                0,
+                1000,
+                461
+              ],
+              "prompt": "syringe",
+              "passes_internal_edge_rule": true
+            }
+          }
+        ]
+      },
+      "0.65": {
+        "candidates": 14,
+        "matched": 0,
+        "targets": [
+          {
+            "best_iou": 0.5690468925417296,
+            "matched_iou": null,
+            "best_candidate": {
+              "bbox": [
+                0.5956873861948649,
+                0.6874123758208558,
+                0.6227093029022217,
+                0.7242500452583893
+              ],
+              "score": 0.263631671667099,
+              "region": [
+                340,
+                237,
+                1000,
+                698
+              ],
+              "prompt": "syringe",
+              "passes_internal_edge_rule": true
+            }
+          },
+          {
+            "best_iou": 0.5003672405347852,
+            "matched_iou": null,
+            "best_candidate": {
+              "bbox": [
+                0.8889071083068848,
+                0.25478924087413896,
+                0.9243283176422119,
+                0.34520441162779775
+              ],
+              "score": 0.8770294189453125,
+              "region": [
+                340,
+                0,
+                1000,
+                461
+              ],
+              "prompt": "syringe",
+              "passes_internal_edge_rule": true
+            }
+          }
+        ]
+      }
+    },
+    "tile_0.66_interior": {
+      "0.3": {
+        "candidates": 6,
+        "matched": 2,
+        "targets": [
+          {
+            "best_iou": 0.5690468925417296,
+            "matched_iou": 0.5690468925417296,
+            "best_candidate": {
+              "bbox": [
+                0.5956873861948649,
+                0.6874123758208558,
+                0.6227093029022217,
+                0.7242500452583893
+              ],
+              "score": 0.263631671667099,
+              "region": [
+                340,
+                237,
+                1000,
+                698
+              ],
+              "prompt": "syringe"
+            }
+          },
+          {
+            "best_iou": 0.5003672405347852,
+            "matched_iou": 0.5003672405347852,
+            "best_candidate": {
+              "bbox": [
+                0.8889071083068848,
+                0.25478924087413896,
+                0.9243283176422119,
+                0.34520441162779775
+              ],
+              "score": 0.8770294189453125,
+              "region": [
+                340,
+                0,
+                1000,
+                461
+              ],
+              "prompt": "syringe"
+            }
+          }
+        ]
+      },
+      "0.5": {
+        "candidates": 6,
+        "matched": 2,
+        "targets": [
+          {
+            "best_iou": 0.5690468925417296,
+            "matched_iou": 0.5690468925417296,
+            "best_candidate": {
+              "bbox": [
+                0.5956873861948649,
+                0.6874123758208558,
+                0.6227093029022217,
+                0.7242500452583893
+              ],
+              "score": 0.263631671667099,
+              "region": [
+                340,
+                237,
+                1000,
+                698
+              ],
+              "prompt": "syringe"
+            }
+          },
+          {
+            "best_iou": 0.5003672405347852,
+            "matched_iou": 0.5003672405347852,
+            "best_candidate": {
+              "bbox": [
+                0.8889071083068848,
+                0.25478924087413896,
+                0.9243283176422119,
+                0.34520441162779775
+              ],
+              "score": 0.8770294189453125,
+              "region": [
+                340,
+                0,
+                1000,
+                461
+              ],
+              "prompt": "syringe"
+            }
+          }
+        ]
+      },
+      "0.65": {
+        "candidates": 6,
+        "matched": 0,
+        "targets": [
+          {
+            "best_iou": 0.5690468925417296,
+            "matched_iou": null,
+            "best_candidate": {
+              "bbox": [
+                0.5956873861948649,
+                0.6874123758208558,
+                0.6227093029022217,
+                0.7242500452583893
+              ],
+              "score": 0.263631671667099,
+              "region": [
+                340,
+                237,
+                1000,
+                698
+              ],
+              "prompt": "syringe"
+            }
+          },
+          {
+            "best_iou": 0.5003672405347852,
+            "matched_iou": null,
+            "best_candidate": {
+              "bbox": [
+                0.8889071083068848,
+                0.25478924087413896,
+                0.9243283176422119,
+                0.34520441162779775
+              ],
+              "score": 0.8770294189453125,
+              "region": [
+                340,
+                0,
+                1000,
+                461
+              ],
+              "prompt": "syringe"
+            }
+          }
+        ]
+      }
+    },
+    "tile_0.5_projected": {
+      "0.3": {
+        "candidates": 8,
+        "matched": 2,
+        "targets": [
+          {
+            "best_iou": 0.5098495287097363,
+            "matched_iou": 0.5098495287097363,
+            "best_candidate": {
+              "bbox": [
+                0.5936550166871812,
+                0.6655633714463975,
+                0.6451940139134725,
+                0.7259817918141683
+              ],
+              "score": 0.7658417224884033,
+              "region": [
+                500,
+                349,
+                1000,
+                698
+              ],
+              "prompt": "prefilled syringe",
+              "passes_internal_edge_rule": true
+            }
+          },
+          {
+            "best_iou": 0.49815479676710456,
+            "matched_iou": 0.49815479676710456,
+            "best_candidate": {
+              "bbox": [
+                0.8894178602430557,
+                0.25519585609436035,
+                0.9249718454149033,
+                0.34659189648098415
+              ],
+              "score": 0.8374857306480408,
+              "region": [
+                500,
+                0,
+                1000,
+                349
+              ],
+              "prompt": "syringe",
+              "passes_internal_edge_rule": true
+            }
+          }
+        ]
+      },
+      "0.5": {
+        "candidates": 8,
+        "matched": 1,
+        "targets": [
+          {
+            "best_iou": 0.5098495287097363,
+            "matched_iou": 0.5098495287097363,
+            "best_candidate": {
+              "bbox": [
+                0.5936550166871812,
+                0.6655633714463975,
+                0.6451940139134725,
+                0.7259817918141683
+              ],
+              "score": 0.7658417224884033,
+              "region": [
+                500,
+                349,
+                1000,
+                698
+              ],
+              "prompt": "prefilled syringe",
+              "passes_internal_edge_rule": true
+            }
+          },
+          {
+            "best_iou": 0.49815479676710456,
+            "matched_iou": null,
+            "best_candidate": {
+              "bbox": [
+                0.8894178602430557,
+                0.25519585609436035,
+                0.9249718454149033,
+                0.34659189648098415
+              ],
+              "score": 0.8374857306480408,
+              "region": [
+                500,
+                0,
+                1000,
+                349
+              ],
+              "prompt": "syringe",
+              "passes_internal_edge_rule": true
+            }
+          }
+        ]
+      },
+      "0.65": {
+        "candidates": 8,
+        "matched": 0,
+        "targets": [
+          {
+            "best_iou": 0.5098495287097363,
+            "matched_iou": null,
+            "best_candidate": {
+              "bbox": [
+                0.5936550166871812,
+                0.6655633714463975,
+                0.6451940139134725,
+                0.7259817918141683
+              ],
+              "score": 0.7658417224884033,
+              "region": [
+                500,
+                349,
+                1000,
+                698
+              ],
+              "prompt": "prefilled syringe",
+              "passes_internal_edge_rule": true
+            }
+          },
+          {
+            "best_iou": 0.49815479676710456,
+            "matched_iou": null,
+            "best_candidate": {
+              "bbox": [
+                0.8894178602430557,
+                0.25519585609436035,
+                0.9249718454149033,
+                0.34659189648098415
+              ],
+              "score": 0.8374857306480408,
+              "region": [
+                500,
+                0,
+                1000,
+                349
+              ],
+              "prompt": "syringe",
+              "passes_internal_edge_rule": true
+            }
+          }
+        ]
+      }
+    },
+    "tile_0.5_interior": {
+      "0.3": {
+        "candidates": 8,
+        "matched": 2,
+        "targets": [
+          {
+            "best_iou": 0.5098495287097363,
+            "matched_iou": 0.5098495287097363,
+            "best_candidate": {
+              "bbox": [
+                0.5936550166871812,
+                0.6655633714463975,
+                0.6451940139134725,
+                0.7259817918141683
+              ],
+              "score": 0.7658417224884033,
+              "region": [
+                500,
+                349,
+                1000,
+                698
+              ],
+              "prompt": "prefilled syringe"
+            }
+          },
+          {
+            "best_iou": 0.49815479676710456,
+            "matched_iou": 0.49815479676710456,
+            "best_candidate": {
+              "bbox": [
+                0.8894178602430557,
+                0.25519585609436035,
+                0.9249718454149033,
+                0.34659189648098415
+              ],
+              "score": 0.8374857306480408,
+              "region": [
+                500,
+                0,
+                1000,
+                349
+              ],
+              "prompt": "syringe"
+            }
+          }
+        ]
+      },
+      "0.5": {
+        "candidates": 8,
+        "matched": 1,
+        "targets": [
+          {
+            "best_iou": 0.5098495287097363,
+            "matched_iou": 0.5098495287097363,
+            "best_candidate": {
+              "bbox": [
+                0.5936550166871812,
+                0.6655633714463975,
+                0.6451940139134725,
+                0.7259817918141683
+              ],
+              "score": 0.7658417224884033,
+              "region": [
+                500,
+                349,
+                1000,
+                698
+              ],
+              "prompt": "prefilled syringe"
+            }
+          },
+          {
+            "best_iou": 0.49815479676710456,
+            "matched_iou": null,
+            "best_candidate": {
+              "bbox": [
+                0.8894178602430557,
+                0.25519585609436035,
+                0.9249718454149033,
+                0.34659189648098415
+              ],
+              "score": 0.8374857306480408,
+              "region": [
+                500,
+                0,
+                1000,
+                349
+              ],
+              "prompt": "syringe"
+            }
+          }
+        ]
+      },
+      "0.65": {
+        "candidates": 8,
+        "matched": 0,
+        "targets": [
+          {
+            "best_iou": 0.5098495287097363,
+            "matched_iou": null,
+            "best_candidate": {
+              "bbox": [
+                0.5936550166871812,
+                0.6655633714463975,
+                0.6451940139134725,
+                0.7259817918141683
+              ],
+              "score": 0.7658417224884033,
+              "region": [
+                500,
+                349,
+                1000,
+                698
+              ],
+              "prompt": "prefilled syringe"
+            }
+          },
+          {
+            "best_iou": 0.49815479676710456,
+            "matched_iou": null,
+            "best_candidate": {
+              "bbox": [
+                0.8894178602430557,
+                0.25519585609436035,
+                0.9249718454149033,
+                0.34659189648098415
+              ],
+              "score": 0.8374857306480408,
+              "region": [
+                500,
+                0,
+                1000,
+                349
+              ],
+              "prompt": "syringe"
+            }
+          }
+        ]
+      }
+    }
+  },
+  "privileged_crop_only": {
+    "0": {
+      "candidates": 9,
+      "matched": 1,
+      "targets": [
+        {
+          "best_iou": 0.6918155744215242,
+          "matched_iou": 0.6918155744215242,
+          "best_candidate": {
+            "bbox": [
+              0.5947067721684774,
+              0.6872966853496718,
+              0.6263900464375814,
+              0.7254929170605484
+            ],
+            "score": 0.5755758881568909,
+            "region": [
+              544,
+              416,
+              676,
+              564
+            ],
+            "prompt": "syringe"
+          }
+        }
+      ]
+    },
+    "1": {
+      "candidates": 3,
+      "matched": 0,
+      "targets": [
+        {
+          "best_iou": 0.4786522796231205,
+          "matched_iou": null,
+          "best_candidate": {
+            "bbox": [
+              0.8899833641052246,
+              0.25495773415321077,
+              0.9260977478027344,
+              0.3473222501639992
+            ],
+            "score": 0.8086565732955933,
+            "region": [
+              849,
+              123,
+              957,
+              320
+            ],
+            "prompt": "syringe"
+          }
+        }
+      ]
+    }
+  }
+}

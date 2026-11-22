@@ -1,0 +1,5575 @@
+{
+  "cohorts": {
+    "visible colored regions": {
+      "liquid_presence": {
+        "observable": 74,
+        "indeterminate": 0,
+        "unreviewed": 0,
+        "coverage": 0.8243243243243243,
+        "emission_on_indeterminate": null,
+        "by_reference": {
+          "present": {
+            "references": 74,
+            "correct": 61,
+            "wrong": 0,
+            "unresolved": 13
+          },
+          "empty": {
+            "references": 0,
+            "correct": 0,
+            "wrong": 0,
+            "unresolved": 0
+          }
+        },
+        "error_on_emitted": 0.0
+      },
+      "liquid_colour": {
+        "observable": 74,
+        "indeterminate": 0,
+        "unreviewed": 0,
+        "coverage": 0.8243243243243243,
+        "emission_on_indeterminate": null,
+        "scored_colours": 61,
+        "mean_delta_e76": 7.323349564211386,
+        "lightness_mae_lstar": 3.476781826331967
+      }
+    },
+    "held-out capture blocks": {
+      "liquid_presence": {
+        "observable": 13,
+        "indeterminate": 0,
+        "unreviewed": 0,
+        "coverage": 0.6923076923076923,
+        "emission_on_indeterminate": null,
+        "by_reference": {
+          "present": {
+            "references": 13,
+            "correct": 9,
+            "wrong": 0,
+            "unresolved": 4
+          },
+          "empty": {
+            "references": 0,
+            "correct": 0,
+            "wrong": 0,
+            "unresolved": 0
+          }
+        },
+        "error_on_emitted": 0.0
+      },
+      "liquid_colour": {
+        "observable": 13,
+        "indeterminate": 0,
+        "unreviewed": 0,
+        "coverage": 0.6923076923076923,
+        "emission_on_indeterminate": null,
+        "scored_colours": 9,
+        "mean_delta_e76": 5.695444752081382,
+        "lightness_mae_lstar": 2.202259657118055
+      }
+    },
+    "uncolored capture blocks": {
+      "liquid_presence": {
+        "observable": 0,
+        "indeterminate": 14,
+        "unreviewed": 0,
+        "coverage": null,
+        "emission_on_indeterminate": 0.0,
+        "by_reference": {
+          "present": {
+            "references": 0,
+            "correct": 0,
+            "wrong": 0,
+            "unresolved": 0
+          },
+          "empty": {
+            "references": 0,
+            "correct": 0,
+            "wrong": 0,
+            "unresolved": 0
+          }
+        },
+        "error_on_emitted": null
+      },
+      "liquid_colour": {
+        "observable": 0,
+        "indeterminate": 0,
+        "unreviewed": 14,
+        "coverage": null,
+        "emission_on_indeterminate": null,
+        "scored_colours": 0,
+        "mean_delta_e76": null,
+        "lightness_mae_lstar": null
+      }
+    }
+  },
+  "rows": [
+    {
+      "id": "IMG_3198",
+      "heldout_block": false,
+      "reference": {
+        "liquid_presence": {
+          "status": "observable",
+          "value": true
+        },
+        "liquid_colour": {
+          "status": "observable",
+          "lab": [
+            26.4892578125,
+            6.28125,
+            13.015625
+          ]
+        }
+      },
+      "prediction": {
+        "syringe_type": {
+          "status": "indeterminate",
+          "value": null,
+          "reason": "No supported type or scale evidence for this box."
+        },
+        "nominal_capacity": {
+          "status": "indeterminate",
+          "ml": null,
+          "source": null,
+          "reason": "Nominal-capacity markings are unavailable or ambiguous"
+        },
+        "liquid_presence": {
+          "status": "present",
+          "value": true,
+          "source": "appearance",
+          "reason": "The localized barrel interior supports visible liquid"
+        },
+        "liquid_volume": {
+          "status": "indeterminate",
+          "ml": null,
+          "interval_ml": null,
+          "reason": "No supported graduation and piston measurement for this box."
+        },
+        "liquid_colour": {
+          "status": "estimated",
+          "lab": [
+            21.3,
+            7.9,
+            15.2
+          ],
+          "srgb": [
+            69,
+            47,
+            30
+          ],
+          "family": "amber-brown",
+          "lightness_lstar": 21.3,
+          "basis": null,
+          "reason": "Apparent color measured in the supported region."
+        },
+        "liquid_opacity": {
+          "status": "indeterminate",
+          "value": null,
+          "basis": "relative luminance contrast attenuation",
+          "reason": "A registered clear-barrel reference at the same exposure is required."
+        }
+      }
+    },
+    {
+      "id": "IMG_3199",
+      "heldout_block": false,
+      "reference": {
+        "liquid_presence": {
+          "status": "observable",
+          "value": true
+        },
+        "liquid_colour": {
+          "status": "observable",
+          "lab": [
+            33.72802734375,
+            11.421875,
+            21.015625
+          ]
+        }
+      },
+      "prediction": {
+        "syringe_type": {
+          "status": "indeterminate",
+          "value": null,
+          "reason": "No supported type or scale evidence for this box."
+        },
+        "nominal_capacity": {
+          "status": "indeterminate",
+          "ml": null,
+          "source": null,
+          "reason": "Nominal-capacity markings are unavailable or ambiguous"
+        },
+        "liquid_presence": {
+          "status": "present",
+          "value": true,
+          "source": "appearance",
+          "reason": "The localized barrel interior supports visible liquid"
+        },
+        "liquid_volume": {
+          "status": "indeterminate",
+          "ml": null,
+          "interval_ml": null,
+          "reason": "No supported graduation and piston measurement for this box."
+        },
+        "liquid_colour": {
+          "status": "estimated",
+          "lab": [
+            31.4,
+            13.3,
+            23.3
+          ],
+          "srgb": [
+            106,
+            65,
+            40
+          ],
+          "family": "amber-brown",
+          "lightness_lstar": 31.4,
+          "basis": null,
+          "reason": "Apparent color measured in the supported region."
+        },
+        "liquid_opacity": {
+          "status": "indeterminate",
+          "value": null,
+          "basis": "relative luminance contrast attenuation",
+          "reason": "A registered clear-barrel reference at the same exposure is required."
+        }
+      }
+    },
+    {
+      "id": "IMG_3200",
+      "heldout_block": false,
+      "reference": {
+        "liquid_presence": {
+          "status": "observable",
+          "value": true
+        },
+        "liquid_colour": {
+          "status": "observable",
+          "lab": [
+            31.085205078125,
+            12.25,
+            21.96875
+          ]
+        }
+      },
+      "prediction": {
+        "syringe_type": {
+          "status": "indeterminate",
+          "value": null,
+          "reason": "No supported type or scale evidence for this box."
+        },
+        "nominal_capacity": {
+          "status": "indeterminate",
+          "ml": null,
+          "source": null,
+          "reason": "Nominal-capacity markings are unavailable or ambiguous"
+        },
+        "liquid_presence": {
+          "status": "present",
+          "value": true,
+          "source": "appearance",
+          "reason": "The localized barrel interior supports visible liquid"
+        },
+        "liquid_volume": {
+          "status": "indeterminate",
+          "ml": null,
+          "interval_ml": null,
+          "reason": "No supported graduation and piston measurement for this box."
+        },
+        "liquid_colour": {
+          "status": "estimated",
+          "lab": [
+            29.1,
+            14.7,
+            25.1
+          ],
+          "srgb": [
+            99,
+            59,
+            31
+          ],
+          "family": "amber-brown",
+          "lightness_lstar": 29.1,
+          "basis": null,
+          "reason": "Apparent color measured in the supported region."
+        },
+        "liquid_opacity": {
+          "status": "indeterminate",
+          "value": null,
+          "basis": "relative luminance contrast attenuation",
+          "reason": "A registered clear-barrel reference at the same exposure is required."
+        }
+      }
+    },
+    {
+      "id": "IMG_3202",
+      "heldout_block": false,
+      "reference": {
+        "liquid_presence": {
+          "status": "observable",
+          "value": true
+        },
+        "liquid_colour": {
+          "status": "observable",
+          "lab": [
+            15.90576171875,
+            15.84375,
+            20.734375
+          ]
+        }
+      },
+      "prediction": {
+        "syringe_type": {
+          "status": "indeterminate",
+          "value": null,
+          "reason": "No supported type or scale evidence for this box."
+        },
+        "nominal_capacity": {
+          "status": "indeterminate",
+          "ml": null,
+          "source": null,
+          "reason": "Nominal-capacity markings are unavailable or ambiguous"
+        },
+        "liquid_presence": {
+          "status": "present",
+          "value": true,
+          "source": "appearance",
+          "reason": "The localized barrel interior supports visible liquid"
+        },
+        "liquid_volume": {
+          "status": "indeterminate",
+          "ml": null,
+          "interval_ml": null,
+          "reason": "No supported graduation and piston measurement for this box."
+        },
+        "liquid_colour": {
+          "status": "estimated",
+          "lab": [
+            19.3,
+            15.7,
+            22.8
+          ],
+          "srgb": [
+            75,
+            37,
+            12
+          ],
+          "family": "amber-brown",
+          "lightness_lstar": 19.3,
+          "basis": null,
+          "reason": "Apparent color measured in the supported region."
+        },
+        "liquid_opacity": {
+          "status": "indeterminate",
+          "value": null,
+          "basis": "relative luminance contrast attenuation",
+          "reason": "A registered clear-barrel reference at the same exposure is required."
+        }
+      }
+    },
+    {
+      "id": "IMG_3206",
+      "heldout_block": true,
+      "reference": {
+        "liquid_presence": {
+          "status": "observable",
+          "value": true
+        },
+        "liquid_colour": {
+          "status": "observable",
+          "lab": [
+            25.689697265625,
+            17.640625,
+            26.203125
+          ]
+        }
+      },
+      "prediction": {
+        "syringe_type": {
+          "status": "indeterminate",
+          "value": null,
+          "reason": "No supported type or scale evidence for this box."
+        },
+        "nominal_capacity": {
+          "status": "indeterminate",
+          "ml": null,
+          "source": null,
+          "reason": "Nominal-capacity markings are unavailable or ambiguous"
+        },
+        "liquid_presence": {
+          "status": "indeterminate",
+          "value": null,
+          "source": null,
+          "reason": "Visible evidence does not resolve liquid presence or an empty barrel"
+        },
+        "liquid_volume": {
+          "status": "indeterminate",
+          "ml": null,
+          "interval_ml": null,
+          "reason": "No supported graduation and piston measurement for this box."
+        },
+        "liquid_colour": {
+          "status": "indeterminate",
+          "lab": null,
+          "srgb": null,
+          "family": null,
+          "lightness_lstar": null,
+          "basis": null,
+          "reason": "The visible liquid region does not support a color measurement."
+        },
+        "liquid_opacity": {
+          "status": "indeterminate",
+          "value": null,
+          "basis": "relative luminance contrast attenuation",
+          "reason": "A registered clear-barrel reference at the same exposure is required."
+        }
+      }
+    },
+    {
+      "id": "IMG_3215",
+      "heldout_block": false,
+      "reference": {
+        "liquid_presence": {
+          "status": "observable",
+          "value": true
+        },
+        "liquid_colour": {
+          "status": "observable",
+          "lab": [
+            33.782958984375,
+            13.453125,
+            32.109375
+          ]
+        }
+      },
+      "prediction": {
+        "syringe_type": {
+          "status": "indeterminate",
+          "value": null,
+          "reason": "No supported type or scale evidence for this box."
+        },
+        "nominal_capacity": {
+          "status": "indeterminate",
+          "ml": null,
+          "source": null,
+          "reason": "Nominal-capacity markings are unavailable or ambiguous"
+        },
+        "liquid_presence": {
+          "status": "present",
+          "value": true,
+          "source": "appearance",
+          "reason": "The localized barrel interior supports visible liquid"
+        },
+        "liquid_volume": {
+          "status": "indeterminate",
+          "ml": null,
+          "interval_ml": null,
+          "reason": "No supported graduation and piston measurement for this box."
+        },
+        "liquid_colour": {
+          "status": "estimated",
+          "lab": [
+            34.6,
+            13.0,
+            31.6
+          ],
+          "srgb": [
+            113,
+            73,
+            31
+          ],
+          "family": "amber-brown",
+          "lightness_lstar": 34.6,
+          "basis": null,
+          "reason": "Apparent color measured in the supported region."
+        },
+        "liquid_opacity": {
+          "status": "indeterminate",
+          "value": null,
+          "basis": "relative luminance contrast attenuation",
+          "reason": "A registered clear-barrel reference at the same exposure is required."
+        }
+      }
+    },
+    {
+      "id": "IMG_3217",
+      "heldout_block": false,
+      "reference": {
+        "liquid_presence": {
+          "status": "observable",
+          "value": true
+        },
+        "liquid_colour": {
+          "status": "observable",
+          "lab": [
+            35.3759765625,
+            12.4375,
+            32.9375
+          ]
+        }
+      },
+      "prediction": {
+        "syringe_type": {
+          "status": "indeterminate",
+          "value": null,
+          "reason": "No supported type or scale evidence for this box."
+        },
+        "nominal_capacity": {
+          "status": "indeterminate",
+          "ml": null,
+          "source": null,
+          "reason": "Nominal-capacity markings are unavailable or ambiguous"
+        },
+        "liquid_presence": {
+          "status": "present",
+          "value": true,
+          "source": "appearance",
+          "reason": "The localized barrel interior supports visible liquid"
+        },
+        "liquid_volume": {
+          "status": "indeterminate",
+          "ml": null,
+          "interval_ml": null,
+          "reason": "No supported graduation and piston measurement for this box."
+        },
+        "liquid_colour": {
+          "status": "estimated",
+          "lab": [
+            36.0,
+            12.7,
+            34.0
+          ],
+          "srgb": [
+            118,
+            76,
+            29
+          ],
+          "family": "amber-brown",
+          "lightness_lstar": 36.0,
+          "basis": null,
+          "reason": "Apparent color measured in the supported region."
+        },
+        "liquid_opacity": {
+          "status": "indeterminate",
+          "value": null,
+          "basis": "relative luminance contrast attenuation",
+          "reason": "A registered clear-barrel reference at the same exposure is required."
+        }
+      }
+    },
+    {
+      "id": "IMG_3218",
+      "heldout_block": false,
+      "reference": {
+        "liquid_presence": {
+          "status": "observable",
+          "value": true
+        },
+        "liquid_colour": {
+          "status": "observable",
+          "lab": [
+            32.672119140625,
+            13.8125,
+            34.40625
+          ]
+        }
+      },
+      "prediction": {
+        "syringe_type": {
+          "status": "indeterminate",
+          "value": null,
+          "reason": "No supported type or scale evidence for this box."
+        },
+        "nominal_capacity": {
+          "status": "indeterminate",
+          "ml": null,
+          "source": null,
+          "reason": "Nominal-capacity markings are unavailable or ambiguous"
+        },
+        "liquid_presence": {
+          "status": "present",
+          "value": true,
+          "source": "appearance",
+          "reason": "The localized barrel interior supports visible liquid"
+        },
+        "liquid_volume": {
+          "status": "indeterminate",
+          "ml": null,
+          "interval_ml": null,
+          "reason": "No supported graduation and piston measurement for this box."
+        },
+        "liquid_colour": {
+          "status": "estimated",
+          "lab": [
+            34.5,
+            11.6,
+            30.5
+          ],
+          "srgb": [
+            113,
+            73,
+            31
+          ],
+          "family": "amber-brown",
+          "lightness_lstar": 34.5,
+          "basis": null,
+          "reason": "Apparent color measured in the supported region."
+        },
+        "liquid_opacity": {
+          "status": "indeterminate",
+          "value": null,
+          "basis": "relative luminance contrast attenuation",
+          "reason": "A registered clear-barrel reference at the same exposure is required."
+        }
+      }
+    },
+    {
+      "id": "IMG_3219",
+      "heldout_block": false,
+      "reference": {
+        "liquid_presence": {
+          "status": "observable",
+          "value": true
+        },
+        "liquid_colour": {
+          "status": "observable",
+          "lab": [
+            33.88671875,
+            12.65625,
+            31.0859375
+          ]
+        }
+      },
+      "prediction": {
+        "syringe_type": {
+          "status": "indeterminate",
+          "value": null,
+          "reason": "No supported type or scale evidence for this box."
+        },
+        "nominal_capacity": {
+          "status": "indeterminate",
+          "ml": null,
+          "source": null,
+          "reason": "Nominal-capacity markings are unavailable or ambiguous"
+        },
+        "liquid_presence": {
+          "status": "present",
+          "value": true,
+          "source": "appearance",
+          "reason": "The localized barrel interior supports visible liquid"
+        },
+        "liquid_volume": {
+          "status": "indeterminate",
+          "ml": null,
+          "interval_ml": null,
+          "reason": "No supported graduation and piston measurement for this box."
+        },
+        "liquid_colour": {
+          "status": "estimated",
+          "lab": [
+            34.6,
+            11.8,
+            30.8
+          ],
+          "srgb": [
+            113,
+            73,
+            30
+          ],
+          "family": "amber-brown",
+          "lightness_lstar": 34.6,
+          "basis": null,
+          "reason": "Apparent color measured in the supported region."
+        },
+        "liquid_opacity": {
+          "status": "indeterminate",
+          "value": null,
+          "basis": "relative luminance contrast attenuation",
+          "reason": "A registered clear-barrel reference at the same exposure is required."
+        }
+      }
+    },
+    {
+      "id": "IMG_3221",
+      "heldout_block": false,
+      "reference": {
+        "liquid_presence": {
+          "status": "observable",
+          "value": true
+        },
+        "liquid_colour": {
+          "status": "observable",
+          "lab": [
+            31.640625,
+            5.34375,
+            19.53125
+          ]
+        }
+      },
+      "prediction": {
+        "syringe_type": {
+          "status": "indeterminate",
+          "value": null,
+          "reason": "No supported type or scale evidence for this box."
+        },
+        "nominal_capacity": {
+          "status": "indeterminate",
+          "ml": null,
+          "source": null,
+          "reason": "Nominal-capacity markings are unavailable or ambiguous"
+        },
+        "liquid_presence": {
+          "status": "present",
+          "value": true,
+          "source": "appearance",
+          "reason": "The localized barrel interior supports visible liquid"
+        },
+        "liquid_volume": {
+          "status": "indeterminate",
+          "ml": null,
+          "interval_ml": null,
+          "reason": "No supported graduation and piston measurement for this box."
+        },
+        "liquid_colour": {
+          "status": "estimated",
+          "lab": [
+            27.6,
+            9.7,
+            25.5
+          ],
+          "srgb": [
+            89,
+            59,
+            20
+          ],
+          "family": "amber-brown",
+          "lightness_lstar": 27.6,
+          "basis": null,
+          "reason": "Apparent color measured in the supported region."
+        },
+        "liquid_opacity": {
+          "status": "indeterminate",
+          "value": null,
+          "basis": "relative luminance contrast attenuation",
+          "reason": "A registered clear-barrel reference at the same exposure is required."
+        }
+      }
+    },
+    {
+      "id": "IMG_3222",
+      "heldout_block": false,
+      "reference": {
+        "liquid_presence": {
+          "status": "observable",
+          "value": true
+        },
+        "liquid_colour": {
+          "status": "observable",
+          "lab": [
+            27.4169921875,
+            10.34375,
+            26.828125
+          ]
+        }
+      },
+      "prediction": {
+        "syringe_type": {
+          "status": "indeterminate",
+          "value": null,
+          "reason": "No supported type or scale evidence for this box."
+        },
+        "nominal_capacity": {
+          "status": "indeterminate",
+          "ml": null,
+          "source": null,
+          "reason": "Nominal-capacity markings are unavailable or ambiguous"
+        },
+        "liquid_presence": {
+          "status": "present",
+          "value": true,
+          "source": "appearance",
+          "reason": "The localized barrel interior supports visible liquid"
+        },
+        "liquid_volume": {
+          "status": "indeterminate",
+          "ml": null,
+          "interval_ml": null,
+          "reason": "No supported graduation and piston measurement for this box."
+        },
+        "liquid_colour": {
+          "status": "estimated",
+          "lab": [
+            27.7,
+            9.1,
+            25.1
+          ],
+          "srgb": [
+            90,
+            59,
+            26
+          ],
+          "family": "amber-brown",
+          "lightness_lstar": 27.7,
+          "basis": null,
+          "reason": "Apparent color measured in the supported region."
+        },
+        "liquid_opacity": {
+          "status": "indeterminate",
+          "value": null,
+          "basis": "relative luminance contrast attenuation",
+          "reason": "A registered clear-barrel reference at the same exposure is required."
+        }
+      }
+    },
+    {
+      "id": "IMG_3223",
+      "heldout_block": false,
+      "reference": {
+        "liquid_presence": {
+          "status": "observable",
+          "value": true
+        },
+        "liquid_colour": {
+          "status": "observable",
+          "lab": [
+            42.27294921875,
+            10.03125,
+            26.734375
+          ]
+        }
+      },
+      "prediction": {
+        "syringe_type": {
+          "status": "indeterminate",
+          "value": null,
+          "reason": "No supported type or scale evidence for this box."
+        },
+        "nominal_capacity": {
+          "status": "indeterminate",
+          "ml": null,
+          "source": null,
+          "reason": "Nominal-capacity markings are unavailable or ambiguous"
+        },
+        "liquid_presence": {
+          "status": "present",
+          "value": true,
+          "source": "appearance",
+          "reason": "The localized barrel interior supports visible liquid"
+        },
+        "liquid_volume": {
+          "status": "indeterminate",
+          "ml": null,
+          "interval_ml": null,
+          "reason": "No supported graduation and piston measurement for this box."
+        },
+        "liquid_colour": {
+          "status": "estimated",
+          "lab": [
+            48.6,
+            11.4,
+            29.8
+          ],
+          "srgb": [
+            143,
+            107,
+            66
+          ],
+          "family": "amber-brown",
+          "lightness_lstar": 48.6,
+          "basis": null,
+          "reason": "Apparent color measured in the supported region."
+        },
+        "liquid_opacity": {
+          "status": "indeterminate",
+          "value": null,
+          "basis": "relative luminance contrast attenuation",
+          "reason": "A registered clear-barrel reference at the same exposure is required."
+        }
+      }
+    },
+    {
+      "id": "IMG_3225",
+      "heldout_block": false,
+      "reference": {
+        "liquid_presence": {
+          "status": "observable",
+          "value": true
+        },
+        "liquid_colour": {
+          "status": "observable",
+          "lab": [
+            43.756103515625,
+            8.03125,
+            20.734375
+          ]
+        }
+      },
+      "prediction": {
+        "syringe_type": {
+          "status": "indeterminate",
+          "value": null,
+          "reason": "No supported type or scale evidence for this box."
+        },
+        "nominal_capacity": {
+          "status": "indeterminate",
+          "ml": null,
+          "source": null,
+          "reason": "Nominal-capacity markings are unavailable or ambiguous"
+        },
+        "liquid_presence": {
+          "status": "present",
+          "value": true,
+          "source": "appearance",
+          "reason": "The localized barrel interior supports visible liquid"
+        },
+        "liquid_volume": {
+          "status": "indeterminate",
+          "ml": null,
+          "interval_ml": null,
+          "reason": "No supported graduation and piston measurement for this box."
+        },
+        "liquid_colour": {
+          "status": "estimated",
+          "lab": [
+            45.0,
+            4.7,
+            15.8
+          ],
+          "srgb": [
+            124,
+            100,
+            68
+          ],
+          "family": "amber-brown",
+          "lightness_lstar": 45.0,
+          "basis": null,
+          "reason": "Apparent color measured in the supported region."
+        },
+        "liquid_opacity": {
+          "status": "indeterminate",
+          "value": null,
+          "basis": "relative luminance contrast attenuation",
+          "reason": "A registered clear-barrel reference at the same exposure is required."
+        }
+      }
+    },
+    {
+      "id": "IMG_3226",
+      "heldout_block": false,
+      "reference": {
+        "liquid_presence": {
+          "status": "observable",
+          "value": true
+        },
+        "liquid_colour": {
+          "status": "observable",
+          "lab": [
+            24.322509765625,
+            11.078125,
+            22.7265625
+          ]
+        }
+      },
+      "prediction": {
+        "syringe_type": {
+          "status": "indeterminate",
+          "value": null,
+          "reason": "No supported type or scale evidence for this box."
+        },
+        "nominal_capacity": {
+          "status": "indeterminate",
+          "ml": null,
+          "source": null,
+          "reason": "Nominal-capacity markings are unavailable or ambiguous"
+        },
+        "liquid_presence": {
+          "status": "indeterminate",
+          "value": null,
+          "source": null,
+          "reason": "Visible evidence does not resolve liquid presence or an empty barrel"
+        },
+        "liquid_volume": {
+          "status": "indeterminate",
+          "ml": null,
+          "interval_ml": null,
+          "reason": "No supported graduation and piston measurement for this box."
+        },
+        "liquid_colour": {
+          "status": "indeterminate",
+          "lab": null,
+          "srgb": null,
+          "family": null,
+          "lightness_lstar": null,
+          "basis": null,
+          "reason": "The visible liquid region does not support a color measurement."
+        },
+        "liquid_opacity": {
+          "status": "indeterminate",
+          "value": null,
+          "basis": "relative luminance contrast attenuation",
+          "reason": "A registered clear-barrel reference at the same exposure is required."
+        }
+      }
+    },
+    {
+      "id": "IMG_3227",
+      "heldout_block": false,
+      "reference": {
+        "liquid_presence": {
+          "status": "observable",
+          "value": true
+        },
+        "liquid_colour": {
+          "status": "observable",
+          "lab": [
+            49.6337890625,
+            8.578125,
+            26.578125
+          ]
+        }
+      },
+      "prediction": {
+        "syringe_type": {
+          "status": "indeterminate",
+          "value": null,
+          "reason": "No supported type or scale evidence for this box."
+        },
+        "nominal_capacity": {
+          "status": "indeterminate",
+          "ml": null,
+          "source": null,
+          "reason": "Nominal-capacity markings are unavailable or ambiguous"
+        },
+        "liquid_presence": {
+          "status": "present",
+          "value": true,
+          "source": "appearance",
+          "reason": "The localized barrel interior supports visible liquid"
+        },
+        "liquid_volume": {
+          "status": "indeterminate",
+          "ml": null,
+          "interval_ml": null,
+          "reason": "No supported graduation and piston measurement for this box."
+        },
+        "liquid_colour": {
+          "status": "estimated",
+          "lab": [
+            49.7,
+            12.1,
+            32.5
+          ],
+          "srgb": [
+            143,
+            110,
+            63
+          ],
+          "family": "amber-brown",
+          "lightness_lstar": 49.7,
+          "basis": null,
+          "reason": "Apparent color measured in the supported region."
+        },
+        "liquid_opacity": {
+          "status": "indeterminate",
+          "value": null,
+          "basis": "relative luminance contrast attenuation",
+          "reason": "A registered clear-barrel reference at the same exposure is required."
+        }
+      }
+    },
+    {
+      "id": "IMG_3228",
+      "heldout_block": false,
+      "reference": {
+        "liquid_presence": {
+          "status": "observable",
+          "value": true
+        },
+        "liquid_colour": {
+          "status": "observable",
+          "lab": [
+            42.22412109375,
+            12.59375,
+            33.8515625
+          ]
+        }
+      },
+      "prediction": {
+        "syringe_type": {
+          "status": "indeterminate",
+          "value": null,
+          "reason": "No supported type or scale evidence for this box."
+        },
+        "nominal_capacity": {
+          "status": "indeterminate",
+          "ml": null,
+          "source": null,
+          "reason": "Nominal-capacity markings are unavailable or ambiguous"
+        },
+        "liquid_presence": {
+          "status": "present",
+          "value": true,
+          "source": "appearance",
+          "reason": "The localized barrel interior supports visible liquid"
+        },
+        "liquid_volume": {
+          "status": "indeterminate",
+          "ml": null,
+          "interval_ml": null,
+          "reason": "No supported graduation and piston measurement for this box."
+        },
+        "liquid_colour": {
+          "status": "estimated",
+          "lab": [
+            50.0,
+            12.6,
+            34.6
+          ],
+          "srgb": [
+            146,
+            111,
+            59
+          ],
+          "family": "amber-brown",
+          "lightness_lstar": 50.0,
+          "basis": null,
+          "reason": "Apparent color measured in the supported region."
+        },
+        "liquid_opacity": {
+          "status": "indeterminate",
+          "value": null,
+          "basis": "relative luminance contrast attenuation",
+          "reason": "A registered clear-barrel reference at the same exposure is required."
+        }
+      }
+    },
+    {
+      "id": "IMG_3229",
+      "heldout_block": false,
+      "reference": {
+        "liquid_presence": {
+          "status": "observable",
+          "value": true
+        },
+        "liquid_colour": {
+          "status": "observable",
+          "lab": [
+            53.2318115234375,
+            7.5234375,
+            23.1875
+          ]
+        }
+      },
+      "prediction": {
+        "syringe_type": {
+          "status": "indeterminate",
+          "value": null,
+          "reason": "No supported type or scale evidence for this box."
+        },
+        "nominal_capacity": {
+          "status": "indeterminate",
+          "ml": null,
+          "source": null,
+          "reason": "Nominal-capacity markings are unavailable or ambiguous"
+        },
+        "liquid_presence": {
+          "status": "present",
+          "value": true,
+          "source": "appearance",
+          "reason": "The localized barrel interior supports visible liquid"
+        },
+        "liquid_volume": {
+          "status": "indeterminate",
+          "ml": null,
+          "interval_ml": null,
+          "reason": "No supported graduation and piston measurement for this box."
+        },
+        "liquid_colour": {
+          "status": "estimated",
+          "lab": [
+            48.9,
+            11.6,
+            29.5
+          ],
+          "srgb": [
+            145,
+            108,
+            69
+          ],
+          "family": "amber-brown",
+          "lightness_lstar": 48.9,
+          "basis": null,
+          "reason": "Apparent color measured in the supported region."
+        },
+        "liquid_opacity": {
+          "status": "indeterminate",
+          "value": null,
+          "basis": "relative luminance contrast attenuation",
+          "reason": "A registered clear-barrel reference at the same exposure is required."
+        }
+      }
+    },
+    {
+      "id": "IMG_3230",
+      "heldout_block": true,
+      "reference": {
+        "liquid_presence": {
+          "status": "observable",
+          "value": true
+        },
+        "liquid_colour": {
+          "status": "observable",
+          "lab": [
+            46.417236328125,
+            8.421875,
+            18.890625
+          ]
+        }
+      },
+      "prediction": {
+        "syringe_type": {
+          "status": "indeterminate",
+          "value": null,
+          "reason": "No supported type or scale evidence for this box."
+        },
+        "nominal_capacity": {
+          "status": "indeterminate",
+          "ml": null,
+          "source": null,
+          "reason": "Nominal-capacity markings are unavailable or ambiguous"
+        },
+        "liquid_presence": {
+          "status": "present",
+          "value": true,
+          "source": "appearance",
+          "reason": "The localized barrel interior supports visible liquid"
+        },
+        "liquid_volume": {
+          "status": "indeterminate",
+          "ml": null,
+          "interval_ml": null,
+          "reason": "No supported graduation and piston measurement for this box."
+        },
+        "liquid_colour": {
+          "status": "estimated",
+          "lab": [
+            44.6,
+            12.9,
+            27.8
+          ],
+          "srgb": [
+            136,
+            97,
+            62
+          ],
+          "family": "amber-brown",
+          "lightness_lstar": 44.6,
+          "basis": null,
+          "reason": "Apparent color measured in the supported region."
+        },
+        "liquid_opacity": {
+          "status": "indeterminate",
+          "value": null,
+          "basis": "relative luminance contrast attenuation",
+          "reason": "A registered clear-barrel reference at the same exposure is required."
+        }
+      }
+    },
+    {
+      "id": "IMG_3231",
+      "heldout_block": true,
+      "reference": {
+        "liquid_presence": {
+          "status": "observable",
+          "value": true
+        },
+        "liquid_colour": {
+          "status": "observable",
+          "lab": [
+            39.9810791015625,
+            8.765625,
+            22.1171875
+          ]
+        }
+      },
+      "prediction": {
+        "syringe_type": {
+          "status": "indeterminate",
+          "value": null,
+          "reason": "No supported type or scale evidence for this box."
+        },
+        "nominal_capacity": {
+          "status": "indeterminate",
+          "ml": null,
+          "source": null,
+          "reason": "Nominal-capacity markings are unavailable or ambiguous"
+        },
+        "liquid_presence": {
+          "status": "present",
+          "value": true,
+          "source": "appearance",
+          "reason": "The localized barrel interior supports visible liquid"
+        },
+        "liquid_volume": {
+          "status": "indeterminate",
+          "ml": null,
+          "interval_ml": null,
+          "reason": "No supported graduation and piston measurement for this box."
+        },
+        "liquid_colour": {
+          "status": "estimated",
+          "lab": [
+            41.0,
+            12.5,
+            27.9
+          ],
+          "srgb": [
+            125,
+            89,
+            54
+          ],
+          "family": "amber-brown",
+          "lightness_lstar": 41.0,
+          "basis": null,
+          "reason": "Apparent color measured in the supported region."
+        },
+        "liquid_opacity": {
+          "status": "indeterminate",
+          "value": null,
+          "basis": "relative luminance contrast attenuation",
+          "reason": "A registered clear-barrel reference at the same exposure is required."
+        }
+      }
+    },
+    {
+      "id": "IMG_3232",
+      "heldout_block": true,
+      "reference": {
+        "liquid_presence": {
+          "status": "observable",
+          "value": true
+        },
+        "liquid_colour": {
+          "status": "observable",
+          "lab": [
+            36.3800048828125,
+            13.046875,
+            28.046875
+          ]
+        }
+      },
+      "prediction": {
+        "syringe_type": {
+          "status": "indeterminate",
+          "value": null,
+          "reason": "No supported type or scale evidence for this box."
+        },
+        "nominal_capacity": {
+          "status": "indeterminate",
+          "ml": null,
+          "source": null,
+          "reason": "Nominal-capacity markings are unavailable or ambiguous"
+        },
+        "liquid_presence": {
+          "status": "indeterminate",
+          "value": null,
+          "source": null,
+          "reason": "Visible evidence does not resolve liquid presence or an empty barrel"
+        },
+        "liquid_volume": {
+          "status": "indeterminate",
+          "ml": null,
+          "interval_ml": null,
+          "reason": "No supported graduation and piston measurement for this box."
+        },
+        "liquid_colour": {
+          "status": "indeterminate",
+          "lab": null,
+          "srgb": null,
+          "family": null,
+          "lightness_lstar": null,
+          "basis": null,
+          "reason": "The visible liquid region does not support a color measurement."
+        },
+        "liquid_opacity": {
+          "status": "indeterminate",
+          "value": null,
+          "basis": "relative luminance contrast attenuation",
+          "reason": "A registered clear-barrel reference at the same exposure is required."
+        }
+      }
+    },
+    {
+      "id": "IMG_3233",
+      "heldout_block": true,
+      "reference": {
+        "liquid_presence": {
+          "status": "observable",
+          "value": true
+        },
+        "liquid_colour": {
+          "status": "observable",
+          "lab": [
+            29.638671875,
+            12.65625,
+            26.515625
+          ]
+        }
+      },
+      "prediction": {
+        "syringe_type": {
+          "status": "indeterminate",
+          "value": null,
+          "reason": "No supported type or scale evidence for this box."
+        },
+        "nominal_capacity": {
+          "status": "indeterminate",
+          "ml": null,
+          "source": null,
+          "reason": "Nominal-capacity markings are unavailable or ambiguous"
+        },
+        "liquid_presence": {
+          "status": "indeterminate",
+          "value": null,
+          "source": null,
+          "reason": "Visible evidence does not resolve liquid presence or an empty barrel"
+        },
+        "liquid_volume": {
+          "status": "indeterminate",
+          "ml": null,
+          "interval_ml": null,
+          "reason": "No supported graduation and piston measurement for this box."
+        },
+        "liquid_colour": {
+          "status": "indeterminate",
+          "lab": null,
+          "srgb": null,
+          "family": null,
+          "lightness_lstar": null,
+          "basis": null,
+          "reason": "The visible liquid region does not support a color measurement."
+        },
+        "liquid_opacity": {
+          "status": "indeterminate",
+          "value": null,
+          "basis": "relative luminance contrast attenuation",
+          "reason": "A registered clear-barrel reference at the same exposure is required."
+        }
+      }
+    },
+    {
+      "id": "IMG_3234",
+      "heldout_block": true,
+      "reference": {
+        "liquid_presence": {
+          "status": "observable",
+          "value": true
+        },
+        "liquid_colour": {
+          "status": "observable",
+          "lab": [
+            26.031494140625,
+            12.578125,
+            24.46875
+          ]
+        }
+      },
+      "prediction": {
+        "syringe_type": {
+          "status": "indeterminate",
+          "value": null,
+          "reason": "No supported type or scale evidence for this box."
+        },
+        "nominal_capacity": {
+          "status": "indeterminate",
+          "ml": null,
+          "source": null,
+          "reason": "Nominal-capacity markings are unavailable or ambiguous"
+        },
+        "liquid_presence": {
+          "status": "present",
+          "value": true,
+          "source": "appearance",
+          "reason": "The localized barrel interior supports visible liquid"
+        },
+        "liquid_volume": {
+          "status": "indeterminate",
+          "ml": null,
+          "interval_ml": null,
+          "reason": "No supported graduation and piston measurement for this box."
+        },
+        "liquid_colour": {
+          "status": "estimated",
+          "lab": [
+            30.0,
+            8.5,
+            17.6
+          ],
+          "srgb": [
+            89,
+            68,
+            49
+          ],
+          "family": "amber-brown",
+          "lightness_lstar": 30.0,
+          "basis": null,
+          "reason": "Apparent color measured in the supported region."
+        },
+        "liquid_opacity": {
+          "status": "indeterminate",
+          "value": null,
+          "basis": "relative luminance contrast attenuation",
+          "reason": "A registered clear-barrel reference at the same exposure is required."
+        }
+      }
+    },
+    {
+      "id": "IMG_3235",
+      "heldout_block": true,
+      "reference": {
+        "liquid_presence": {
+          "status": "observable",
+          "value": true
+        },
+        "liquid_colour": {
+          "status": "observable",
+          "lab": [
+            21.86279296875,
+            12.984375,
+            24.0
+          ]
+        }
+      },
+      "prediction": {
+        "syringe_type": {
+          "status": "indeterminate",
+          "value": null,
+          "reason": "No supported type or scale evidence for this box."
+        },
+        "nominal_capacity": {
+          "status": "indeterminate",
+          "ml": null,
+          "source": null,
+          "reason": "Nominal-capacity markings are unavailable or ambiguous"
+        },
+        "liquid_presence": {
+          "status": "present",
+          "value": true,
+          "source": "appearance",
+          "reason": "The localized barrel interior supports visible liquid"
+        },
+        "liquid_volume": {
+          "status": "indeterminate",
+          "ml": null,
+          "interval_ml": null,
+          "reason": "No supported graduation and piston measurement for this box."
+        },
+        "liquid_colour": {
+          "status": "estimated",
+          "lab": [
+            27.1,
+            9.4,
+            19.0
+          ],
+          "srgb": [
+            85,
+            60,
+            35
+          ],
+          "family": "amber-brown",
+          "lightness_lstar": 27.1,
+          "basis": null,
+          "reason": "Apparent color measured in the supported region."
+        },
+        "liquid_opacity": {
+          "status": "indeterminate",
+          "value": null,
+          "basis": "relative luminance contrast attenuation",
+          "reason": "A registered clear-barrel reference at the same exposure is required."
+        }
+      }
+    },
+    {
+      "id": "IMG_3238",
+      "heldout_block": false,
+      "reference": {
+        "liquid_presence": {
+          "status": "observable",
+          "value": true
+        },
+        "liquid_colour": {
+          "status": "observable",
+          "lab": [
+            34.783935546875,
+            14.25,
+            31.875
+          ]
+        }
+      },
+      "prediction": {
+        "syringe_type": {
+          "status": "indeterminate",
+          "value": null,
+          "reason": "No supported type or scale evidence for this box."
+        },
+        "nominal_capacity": {
+          "status": "indeterminate",
+          "ml": null,
+          "source": null,
+          "reason": "Nominal-capacity markings are unavailable or ambiguous"
+        },
+        "liquid_presence": {
+          "status": "present",
+          "value": true,
+          "source": "appearance",
+          "reason": "The localized barrel interior supports visible liquid"
+        },
+        "liquid_volume": {
+          "status": "indeterminate",
+          "ml": null,
+          "interval_ml": null,
+          "reason": "No supported graduation and piston measurement for this box."
+        },
+        "liquid_colour": {
+          "status": "estimated",
+          "lab": [
+            39.3,
+            13.6,
+            31.0
+          ],
+          "srgb": [
+            123,
+            85,
+            45
+          ],
+          "family": "amber-brown",
+          "lightness_lstar": 39.3,
+          "basis": null,
+          "reason": "Apparent color measured in the supported region."
+        },
+        "liquid_opacity": {
+          "status": "indeterminate",
+          "value": null,
+          "basis": "relative luminance contrast attenuation",
+          "reason": "A registered clear-barrel reference at the same exposure is required."
+        }
+      }
+    },
+    {
+      "id": "IMG_3239",
+      "heldout_block": false,
+      "reference": {
+        "liquid_presence": {
+          "status": "observable",
+          "value": true
+        },
+        "liquid_colour": {
+          "status": "observable",
+          "lab": [
+            33.721923828125,
+            11.03125,
+            25.4453125
+          ]
+        }
+      },
+      "prediction": {
+        "syringe_type": {
+          "status": "indeterminate",
+          "value": null,
+          "reason": "No supported type or scale evidence for this box."
+        },
+        "nominal_capacity": {
+          "status": "indeterminate",
+          "ml": null,
+          "source": null,
+          "reason": "Nominal-capacity markings are unavailable or ambiguous"
+        },
+        "liquid_presence": {
+          "status": "indeterminate",
+          "value": null,
+          "source": null,
+          "reason": "Visible evidence does not resolve liquid presence or an empty barrel"
+        },
+        "liquid_volume": {
+          "status": "indeterminate",
+          "ml": null,
+          "interval_ml": null,
+          "reason": "No supported graduation and piston measurement for this box."
+        },
+        "liquid_colour": {
+          "status": "indeterminate",
+          "lab": null,
+          "srgb": null,
+          "family": null,
+          "lightness_lstar": null,
+          "basis": null,
+          "reason": "The visible liquid region does not support a color measurement."
+        },
+        "liquid_opacity": {
+          "status": "indeterminate",
+          "value": null,
+          "basis": "relative luminance contrast attenuation",
+          "reason": "A registered clear-barrel reference at the same exposure is required."
+        }
+      }
+    },
+    {
+      "id": "IMG_3240",
+      "heldout_block": false,
+      "reference": {
+        "liquid_presence": {
+          "status": "observable",
+          "value": true
+        },
+        "liquid_colour": {
+          "status": "observable",
+          "lab": [
+            39.7705078125,
+            8.390625,
+            17.4375
+          ]
+        }
+      },
+      "prediction": {
+        "syringe_type": {
+          "status": "indeterminate",
+          "value": null,
+          "reason": "No supported type or scale evidence for this box."
+        },
+        "nominal_capacity": {
+          "status": "indeterminate",
+          "ml": null,
+          "source": null,
+          "reason": "Nominal-capacity markings are unavailable or ambiguous"
+        },
+        "liquid_presence": {
+          "status": "indeterminate",
+          "value": null,
+          "source": null,
+          "reason": "Visible evidence does not resolve liquid presence or an empty barrel"
+        },
+        "liquid_volume": {
+          "status": "indeterminate",
+          "ml": null,
+          "interval_ml": null,
+          "reason": "No supported graduation and piston measurement for this box."
+        },
+        "liquid_colour": {
+          "status": "indeterminate",
+          "lab": null,
+          "srgb": null,
+          "family": null,
+          "lightness_lstar": null,
+          "basis": null,
+          "reason": "The visible liquid region does not support a color measurement."
+        },
+        "liquid_opacity": {
+          "status": "indeterminate",
+          "value": null,
+          "basis": "relative luminance contrast attenuation",
+          "reason": "A registered clear-barrel reference at the same exposure is required."
+        }
+      }
+    },
+    {
+      "id": "IMG_3241",
+      "heldout_block": false,
+      "reference": {
+        "liquid_presence": {
+          "status": "observable",
+          "value": true
+        },
+        "liquid_colour": {
+          "status": "observable",
+          "lab": [
+            42.230224609375,
+            12.4921875,
+            23.234375
+          ]
+        }
+      },
+      "prediction": {
+        "syringe_type": {
+          "status": "indeterminate",
+          "value": null,
+          "reason": "No supported type or scale evidence for this box."
+        },
+        "nominal_capacity": {
+          "status": "indeterminate",
+          "ml": null,
+          "source": null,
+          "reason": "Nominal-capacity markings are unavailable or ambiguous"
+        },
+        "liquid_presence": {
+          "status": "indeterminate",
+          "value": null,
+          "source": null,
+          "reason": "Visible evidence does not resolve liquid presence or an empty barrel"
+        },
+        "liquid_volume": {
+          "status": "indeterminate",
+          "ml": null,
+          "interval_ml": null,
+          "reason": "No supported graduation and piston measurement for this box."
+        },
+        "liquid_colour": {
+          "status": "indeterminate",
+          "lab": null,
+          "srgb": null,
+          "family": null,
+          "lightness_lstar": null,
+          "basis": null,
+          "reason": "The visible liquid region does not support a color measurement."
+        },
+        "liquid_opacity": {
+          "status": "indeterminate",
+          "value": null,
+          "basis": "relative luminance contrast attenuation",
+          "reason": "A registered clear-barrel reference at the same exposure is required."
+        }
+      }
+    },
+    {
+      "id": "IMG_3243",
+      "heldout_block": false,
+      "reference": {
+        "liquid_presence": {
+          "status": "observable",
+          "value": true
+        },
+        "liquid_colour": {
+          "status": "observable",
+          "lab": [
+            44.07958984375,
+            8.671875,
+            19.84375
+          ]
+        }
+      },
+      "prediction": {
+        "syringe_type": {
+          "status": "indeterminate",
+          "value": null,
+          "reason": "No supported type or scale evidence for this box."
+        },
+        "nominal_capacity": {
+          "status": "indeterminate",
+          "ml": null,
+          "source": null,
+          "reason": "Nominal-capacity markings are unavailable or ambiguous"
+        },
+        "liquid_presence": {
+          "status": "present",
+          "value": true,
+          "source": "appearance",
+          "reason": "The localized barrel interior supports visible liquid"
+        },
+        "liquid_volume": {
+          "status": "indeterminate",
+          "ml": null,
+          "interval_ml": null,
+          "reason": "No supported graduation and piston measurement for this box."
+        },
+        "liquid_colour": {
+          "status": "estimated",
+          "lab": [
+            40.8,
+            13.2,
+            28.8
+          ],
+          "srgb": [
+            126,
+            88,
+            51
+          ],
+          "family": "amber-brown",
+          "lightness_lstar": 40.8,
+          "basis": null,
+          "reason": "Apparent color measured in the supported region."
+        },
+        "liquid_opacity": {
+          "status": "indeterminate",
+          "value": null,
+          "basis": "relative luminance contrast attenuation",
+          "reason": "A registered clear-barrel reference at the same exposure is required."
+        }
+      }
+    },
+    {
+      "id": "IMG_3244",
+      "heldout_block": false,
+      "reference": {
+        "liquid_presence": {
+          "status": "observable",
+          "value": true
+        },
+        "liquid_colour": {
+          "status": "observable",
+          "lab": [
+            45.379638671875,
+            9.90625,
+            24.25
+          ]
+        }
+      },
+      "prediction": {
+        "syringe_type": {
+          "status": "indeterminate",
+          "value": null,
+          "reason": "No supported type or scale evidence for this box."
+        },
+        "nominal_capacity": {
+          "status": "indeterminate",
+          "ml": null,
+          "source": null,
+          "reason": "Nominal-capacity markings are unavailable or ambiguous"
+        },
+        "liquid_presence": {
+          "status": "present",
+          "value": true,
+          "source": "appearance",
+          "reason": "The localized barrel interior supports visible liquid"
+        },
+        "liquid_volume": {
+          "status": "indeterminate",
+          "ml": null,
+          "interval_ml": null,
+          "reason": "No supported graduation and piston measurement for this box."
+        },
+        "liquid_colour": {
+          "status": "estimated",
+          "lab": [
+            42.0,
+            13.6,
+            31.7
+          ],
+          "srgb": [
+            132,
+            91,
+            49
+          ],
+          "family": "amber-brown",
+          "lightness_lstar": 42.0,
+          "basis": null,
+          "reason": "Apparent color measured in the supported region."
+        },
+        "liquid_opacity": {
+          "status": "indeterminate",
+          "value": null,
+          "basis": "relative luminance contrast attenuation",
+          "reason": "A registered clear-barrel reference at the same exposure is required."
+        }
+      }
+    },
+    {
+      "id": "IMG_3245",
+      "heldout_block": false,
+      "reference": {
+        "liquid_presence": {
+          "status": "observable",
+          "value": true
+        },
+        "liquid_colour": {
+          "status": "observable",
+          "lab": [
+            48.9990234375,
+            9.671875,
+            23.34375
+          ]
+        }
+      },
+      "prediction": {
+        "syringe_type": {
+          "status": "indeterminate",
+          "value": null,
+          "reason": "No supported type or scale evidence for this box."
+        },
+        "nominal_capacity": {
+          "status": "indeterminate",
+          "ml": null,
+          "source": null,
+          "reason": "Nominal-capacity markings are unavailable or ambiguous"
+        },
+        "liquid_presence": {
+          "status": "present",
+          "value": true,
+          "source": "appearance",
+          "reason": "The localized barrel interior supports visible liquid"
+        },
+        "liquid_volume": {
+          "status": "indeterminate",
+          "ml": null,
+          "interval_ml": null,
+          "reason": "No supported graduation and piston measurement for this box."
+        },
+        "liquid_colour": {
+          "status": "estimated",
+          "lab": [
+            40.8,
+            14.0,
+            31.7
+          ],
+          "srgb": [
+            129,
+            87,
+            45
+          ],
+          "family": "amber-brown",
+          "lightness_lstar": 40.8,
+          "basis": null,
+          "reason": "Apparent color measured in the supported region."
+        },
+        "liquid_opacity": {
+          "status": "indeterminate",
+          "value": null,
+          "basis": "relative luminance contrast attenuation",
+          "reason": "A registered clear-barrel reference at the same exposure is required."
+        }
+      }
+    },
+    {
+      "id": "IMG_3246",
+      "heldout_block": false,
+      "reference": {
+        "liquid_presence": {
+          "status": "observable",
+          "value": true
+        },
+        "liquid_colour": {
+          "status": "observable",
+          "lab": [
+            42.645263671875,
+            1.609375,
+            9.75
+          ]
+        }
+      },
+      "prediction": {
+        "syringe_type": {
+          "status": "indeterminate",
+          "value": null,
+          "reason": "No supported type or scale evidence for this box."
+        },
+        "nominal_capacity": {
+          "status": "indeterminate",
+          "ml": null,
+          "source": null,
+          "reason": "Nominal-capacity markings are unavailable or ambiguous"
+        },
+        "liquid_presence": {
+          "status": "present",
+          "value": true,
+          "source": "appearance",
+          "reason": "The localized barrel interior supports visible liquid"
+        },
+        "liquid_volume": {
+          "status": "indeterminate",
+          "ml": null,
+          "interval_ml": null,
+          "reason": "No supported graduation and piston measurement for this box."
+        },
+        "liquid_colour": {
+          "status": "estimated",
+          "lab": [
+            35.9,
+            5.3,
+            13.8
+          ],
+          "srgb": [
+            105,
+            79,
+            59
+          ],
+          "family": "amber-brown",
+          "lightness_lstar": 35.9,
+          "basis": null,
+          "reason": "Apparent color measured in the supported region."
+        },
+        "liquid_opacity": {
+          "status": "indeterminate",
+          "value": null,
+          "basis": "relative luminance contrast attenuation",
+          "reason": "A registered clear-barrel reference at the same exposure is required."
+        }
+      }
+    },
+    {
+      "id": "IMG_3247",
+      "heldout_block": false,
+      "reference": {
+        "liquid_presence": {
+          "status": "observable",
+          "value": true
+        },
+        "liquid_colour": {
+          "status": "observable",
+          "lab": [
+            51.03759765625,
+            0.96875,
+            9.640625
+          ]
+        }
+      },
+      "prediction": {
+        "syringe_type": {
+          "status": "indeterminate",
+          "value": null,
+          "reason": "No supported type or scale evidence for this box."
+        },
+        "nominal_capacity": {
+          "status": "indeterminate",
+          "ml": null,
+          "source": null,
+          "reason": "Nominal-capacity markings are unavailable or ambiguous"
+        },
+        "liquid_presence": {
+          "status": "present",
+          "value": true,
+          "source": "appearance",
+          "reason": "The localized barrel interior supports visible liquid"
+        },
+        "liquid_volume": {
+          "status": "indeterminate",
+          "ml": null,
+          "interval_ml": null,
+          "reason": "No supported graduation and piston measurement for this box."
+        },
+        "liquid_colour": {
+          "status": "estimated",
+          "lab": [
+            43.7,
+            8.5,
+            20.2
+          ],
+          "srgb": [
+            127,
+            98,
+            67
+          ],
+          "family": "amber-brown",
+          "lightness_lstar": 43.7,
+          "basis": null,
+          "reason": "Apparent color measured in the supported region."
+        },
+        "liquid_opacity": {
+          "status": "indeterminate",
+          "value": null,
+          "basis": "relative luminance contrast attenuation",
+          "reason": "A registered clear-barrel reference at the same exposure is required."
+        }
+      }
+    },
+    {
+      "id": "IMG_3251",
+      "heldout_block": true,
+      "reference": {
+        "liquid_presence": {
+          "status": "observable",
+          "value": true
+        },
+        "liquid_colour": {
+          "status": "observable",
+          "lab": [
+            66.680908203125,
+            23.359375,
+            34.828125
+          ]
+        }
+      },
+      "prediction": {
+        "syringe_type": {
+          "status": "indeterminate",
+          "value": null,
+          "reason": "No supported type or scale evidence for this box."
+        },
+        "nominal_capacity": {
+          "status": "indeterminate",
+          "ml": null,
+          "source": null,
+          "reason": "Nominal-capacity markings are unavailable or ambiguous"
+        },
+        "liquid_presence": {
+          "status": "present",
+          "value": true,
+          "source": "appearance",
+          "reason": "The localized barrel interior supports visible liquid"
+        },
+        "liquid_volume": {
+          "status": "indeterminate",
+          "ml": null,
+          "interval_ml": null,
+          "reason": "No supported graduation and piston measurement for this box."
+        },
+        "liquid_colour": {
+          "status": "estimated",
+          "lab": [
+            65.7,
+            25.1,
+            37.6
+          ],
+          "srgb": [
+            222,
+            139,
+            93
+          ],
+          "family": "orange",
+          "lightness_lstar": 65.7,
+          "basis": null,
+          "reason": "Apparent color measured in the supported region."
+        },
+        "liquid_opacity": {
+          "status": "indeterminate",
+          "value": null,
+          "basis": "relative luminance contrast attenuation",
+          "reason": "A registered clear-barrel reference at the same exposure is required."
+        }
+      }
+    },
+    {
+      "id": "IMG_3252",
+      "heldout_block": true,
+      "reference": {
+        "liquid_presence": {
+          "status": "observable",
+          "value": true
+        },
+        "liquid_colour": {
+          "status": "observable",
+          "lab": [
+            61.75537109375,
+            27.71875,
+            38.109375
+          ]
+        }
+      },
+      "prediction": {
+        "syringe_type": {
+          "status": "indeterminate",
+          "value": null,
+          "reason": "No supported type or scale evidence for this box."
+        },
+        "nominal_capacity": {
+          "status": "indeterminate",
+          "ml": null,
+          "source": null,
+          "reason": "Nominal-capacity markings are unavailable or ambiguous"
+        },
+        "liquid_presence": {
+          "status": "present",
+          "value": true,
+          "source": "appearance",
+          "reason": "The localized barrel interior supports visible liquid"
+        },
+        "liquid_volume": {
+          "status": "indeterminate",
+          "ml": null,
+          "interval_ml": null,
+          "reason": "No supported graduation and piston measurement for this box."
+        },
+        "liquid_colour": {
+          "status": "estimated",
+          "lab": [
+            63.3,
+            25.7,
+            35.9
+          ],
+          "srgb": [
+            215,
+            133,
+            90
+          ],
+          "family": "orange",
+          "lightness_lstar": 63.3,
+          "basis": null,
+          "reason": "Apparent color measured in the supported region."
+        },
+        "liquid_opacity": {
+          "status": "indeterminate",
+          "value": null,
+          "basis": "relative luminance contrast attenuation",
+          "reason": "A registered clear-barrel reference at the same exposure is required."
+        }
+      }
+    },
+    {
+      "id": "IMG_3257",
+      "heldout_block": true,
+      "reference": {
+        "liquid_presence": {
+          "status": "observable",
+          "value": true
+        },
+        "liquid_colour": {
+          "status": "observable",
+          "lab": [
+            68.292236328125,
+            23.609375,
+            39.6875
+          ]
+        }
+      },
+      "prediction": {
+        "syringe_type": {
+          "status": "indeterminate",
+          "value": null,
+          "reason": "No supported type or scale evidence for this box."
+        },
+        "nominal_capacity": {
+          "status": "indeterminate",
+          "ml": null,
+          "source": null,
+          "reason": "Nominal-capacity markings are unavailable or ambiguous"
+        },
+        "liquid_presence": {
+          "status": "present",
+          "value": true,
+          "source": "appearance",
+          "reason": "The localized barrel interior supports visible liquid"
+        },
+        "liquid_volume": {
+          "status": "indeterminate",
+          "ml": null,
+          "interval_ml": null,
+          "reason": "No supported graduation and piston measurement for this box."
+        },
+        "liquid_colour": {
+          "status": "estimated",
+          "lab": [
+            65.5,
+            25.3,
+            42.2
+          ],
+          "srgb": [
+            223,
+            139,
+            83
+          ],
+          "family": "orange",
+          "lightness_lstar": 65.5,
+          "basis": null,
+          "reason": "Apparent color measured in the supported region."
+        },
+        "liquid_opacity": {
+          "status": "indeterminate",
+          "value": null,
+          "basis": "relative luminance contrast attenuation",
+          "reason": "A registered clear-barrel reference at the same exposure is required."
+        }
+      }
+    },
+    {
+      "id": "IMG_3263",
+      "heldout_block": false,
+      "reference": {
+        "liquid_presence": {
+          "status": "observable",
+          "value": true
+        },
+        "liquid_colour": {
+          "status": "observable",
+          "lab": [
+            57.720947265625,
+            19.8125,
+            27.21875
+          ]
+        }
+      },
+      "prediction": {
+        "syringe_type": {
+          "status": "indeterminate",
+          "value": null,
+          "reason": "No supported type or scale evidence for this box."
+        },
+        "nominal_capacity": {
+          "status": "indeterminate",
+          "ml": null,
+          "source": null,
+          "reason": "Nominal-capacity markings are unavailable or ambiguous"
+        },
+        "liquid_presence": {
+          "status": "present",
+          "value": true,
+          "source": "appearance",
+          "reason": "The localized barrel interior supports visible liquid"
+        },
+        "liquid_volume": {
+          "status": "indeterminate",
+          "ml": null,
+          "interval_ml": null,
+          "reason": "No supported graduation and piston measurement for this box."
+        },
+        "liquid_colour": {
+          "status": "estimated",
+          "lab": [
+            56.4,
+            24.4,
+            35.5
+          ],
+          "srgb": [
+            190,
+            118,
+            74
+          ],
+          "family": "orange",
+          "lightness_lstar": 56.4,
+          "basis": null,
+          "reason": "Apparent color measured in the supported region."
+        },
+        "liquid_opacity": {
+          "status": "indeterminate",
+          "value": null,
+          "basis": "relative luminance contrast attenuation",
+          "reason": "A registered clear-barrel reference at the same exposure is required."
+        }
+      }
+    },
+    {
+      "id": "IMG_3264",
+      "heldout_block": false,
+      "reference": {
+        "liquid_presence": {
+          "status": "observable",
+          "value": true
+        },
+        "liquid_colour": {
+          "status": "observable",
+          "lab": [
+            59.619140625,
+            23.09375,
+            29.484375
+          ]
+        }
+      },
+      "prediction": {
+        "syringe_type": {
+          "status": "indeterminate",
+          "value": null,
+          "reason": "No supported type or scale evidence for this box."
+        },
+        "nominal_capacity": {
+          "status": "indeterminate",
+          "ml": null,
+          "source": null,
+          "reason": "Nominal-capacity markings are unavailable or ambiguous"
+        },
+        "liquid_presence": {
+          "status": "indeterminate",
+          "value": null,
+          "source": null,
+          "reason": "Visible evidence does not resolve liquid presence or an empty barrel"
+        },
+        "liquid_volume": {
+          "status": "indeterminate",
+          "ml": null,
+          "interval_ml": null,
+          "reason": "No supported graduation and piston measurement for this box."
+        },
+        "liquid_colour": {
+          "status": "indeterminate",
+          "lab": null,
+          "srgb": null,
+          "family": null,
+          "lightness_lstar": null,
+          "basis": null,
+          "reason": "The visible liquid region does not support a color measurement."
+        },
+        "liquid_opacity": {
+          "status": "indeterminate",
+          "value": null,
+          "basis": "relative luminance contrast attenuation",
+          "reason": "A registered clear-barrel reference at the same exposure is required."
+        }
+      }
+    },
+    {
+      "id": "IMG_3268",
+      "heldout_block": false,
+      "reference": {
+        "liquid_presence": {
+          "status": "observable",
+          "value": true
+        },
+        "liquid_colour": {
+          "status": "observable",
+          "lab": [
+            56.866455078125,
+            21.828125,
+            32.9453125
+          ]
+        }
+      },
+      "prediction": {
+        "syringe_type": {
+          "status": "indeterminate",
+          "value": null,
+          "reason": "No supported type or scale evidence for this box."
+        },
+        "nominal_capacity": {
+          "status": "indeterminate",
+          "ml": null,
+          "source": null,
+          "reason": "Nominal-capacity markings are unavailable or ambiguous"
+        },
+        "liquid_presence": {
+          "status": "present",
+          "value": true,
+          "source": "appearance",
+          "reason": "The localized barrel interior supports visible liquid"
+        },
+        "liquid_volume": {
+          "status": "indeterminate",
+          "ml": null,
+          "interval_ml": null,
+          "reason": "No supported graduation and piston measurement for this box."
+        },
+        "liquid_colour": {
+          "status": "estimated",
+          "lab": [
+            57.4,
+            24.1,
+            37.1
+          ],
+          "srgb": [
+            192,
+            121,
+            69
+          ],
+          "family": "orange",
+          "lightness_lstar": 57.4,
+          "basis": null,
+          "reason": "Apparent color measured in the supported region."
+        },
+        "liquid_opacity": {
+          "status": "indeterminate",
+          "value": null,
+          "basis": "relative luminance contrast attenuation",
+          "reason": "A registered clear-barrel reference at the same exposure is required."
+        }
+      }
+    },
+    {
+      "id": "IMG_3269",
+      "heldout_block": false,
+      "reference": {
+        "liquid_presence": {
+          "status": "observable",
+          "value": true
+        },
+        "liquid_colour": {
+          "status": "observable",
+          "lab": [
+            64.2333984375,
+            18.640625,
+            26.59375
+          ]
+        }
+      },
+      "prediction": {
+        "syringe_type": {
+          "status": "indeterminate",
+          "value": null,
+          "reason": "No supported type or scale evidence for this box."
+        },
+        "nominal_capacity": {
+          "status": "indeterminate",
+          "ml": null,
+          "source": null,
+          "reason": "Nominal-capacity markings are unavailable or ambiguous"
+        },
+        "liquid_presence": {
+          "status": "present",
+          "value": true,
+          "source": "appearance",
+          "reason": "The localized barrel interior supports visible liquid"
+        },
+        "liquid_volume": {
+          "status": "indeterminate",
+          "ml": null,
+          "interval_ml": null,
+          "reason": "No supported graduation and piston measurement for this box."
+        },
+        "liquid_colour": {
+          "status": "estimated",
+          "lab": [
+            61.7,
+            23.3,
+            35.1
+          ],
+          "srgb": [
+            204,
+            130,
+            85
+          ],
+          "family": "orange",
+          "lightness_lstar": 61.7,
+          "basis": null,
+          "reason": "Apparent color measured in the supported region."
+        },
+        "liquid_opacity": {
+          "status": "indeterminate",
+          "value": null,
+          "basis": "relative luminance contrast attenuation",
+          "reason": "A registered clear-barrel reference at the same exposure is required."
+        }
+      }
+    },
+    {
+      "id": "IMG_3272",
+      "heldout_block": false,
+      "reference": {
+        "liquid_presence": {
+          "status": "observable",
+          "value": true
+        },
+        "liquid_colour": {
+          "status": "observable",
+          "lab": [
+            59.600830078125,
+            23.671875,
+            34.734375
+          ]
+        }
+      },
+      "prediction": {
+        "syringe_type": {
+          "status": "indeterminate",
+          "value": null,
+          "reason": "No supported type or scale evidence for this box."
+        },
+        "nominal_capacity": {
+          "status": "indeterminate",
+          "ml": null,
+          "source": null,
+          "reason": "Nominal-capacity markings are unavailable or ambiguous"
+        },
+        "liquid_presence": {
+          "status": "present",
+          "value": true,
+          "source": "appearance",
+          "reason": "The localized barrel interior supports visible liquid"
+        },
+        "liquid_volume": {
+          "status": "indeterminate",
+          "ml": null,
+          "interval_ml": null,
+          "reason": "No supported graduation and piston measurement for this box."
+        },
+        "liquid_colour": {
+          "status": "estimated",
+          "lab": [
+            60.2,
+            23.8,
+            36.7
+          ],
+          "srgb": [
+            203,
+            126,
+            80
+          ],
+          "family": "orange",
+          "lightness_lstar": 60.2,
+          "basis": null,
+          "reason": "Apparent color measured in the supported region."
+        },
+        "liquid_opacity": {
+          "status": "indeterminate",
+          "value": null,
+          "basis": "relative luminance contrast attenuation",
+          "reason": "A registered clear-barrel reference at the same exposure is required."
+        }
+      }
+    },
+    {
+      "id": "IMG_3275",
+      "heldout_block": false,
+      "reference": {
+        "liquid_presence": {
+          "status": "observable",
+          "value": true
+        },
+        "liquid_colour": {
+          "status": "observable",
+          "lab": [
+            67.08984375,
+            18.21875,
+            31.3671875
+          ]
+        }
+      },
+      "prediction": {
+        "syringe_type": {
+          "status": "indeterminate",
+          "value": null,
+          "reason": "No supported type or scale evidence for this box."
+        },
+        "nominal_capacity": {
+          "status": "indeterminate",
+          "ml": null,
+          "source": null,
+          "reason": "Nominal-capacity markings are unavailable or ambiguous"
+        },
+        "liquid_presence": {
+          "status": "present",
+          "value": true,
+          "source": "appearance",
+          "reason": "The localized barrel interior supports visible liquid"
+        },
+        "liquid_volume": {
+          "status": "indeterminate",
+          "ml": null,
+          "interval_ml": null,
+          "reason": "No supported graduation and piston measurement for this box."
+        },
+        "liquid_colour": {
+          "status": "estimated",
+          "lab": [
+            63.6,
+            23.0,
+            38.1
+          ],
+          "srgb": [
+            210,
+            137,
+            86
+          ],
+          "family": "orange",
+          "lightness_lstar": 63.6,
+          "basis": null,
+          "reason": "Apparent color measured in the supported region."
+        },
+        "liquid_opacity": {
+          "status": "indeterminate",
+          "value": null,
+          "basis": "relative luminance contrast attenuation",
+          "reason": "A registered clear-barrel reference at the same exposure is required."
+        }
+      }
+    },
+    {
+      "id": "IMG_3279",
+      "heldout_block": false,
+      "reference": {
+        "liquid_presence": {
+          "status": "observable",
+          "value": true
+        },
+        "liquid_colour": {
+          "status": "observable",
+          "lab": [
+            58.892822265625,
+            23.78125,
+            36.75
+          ]
+        }
+      },
+      "prediction": {
+        "syringe_type": {
+          "status": "indeterminate",
+          "value": null,
+          "reason": "No supported type or scale evidence for this box."
+        },
+        "nominal_capacity": {
+          "status": "indeterminate",
+          "ml": null,
+          "source": null,
+          "reason": "Nominal-capacity markings are unavailable or ambiguous"
+        },
+        "liquid_presence": {
+          "status": "present",
+          "value": true,
+          "source": "appearance",
+          "reason": "The localized barrel interior supports visible liquid"
+        },
+        "liquid_volume": {
+          "status": "indeterminate",
+          "ml": null,
+          "interval_ml": null,
+          "reason": "No supported graduation and piston measurement for this box."
+        },
+        "liquid_colour": {
+          "status": "estimated",
+          "lab": [
+            62.3,
+            21.5,
+            34.8
+          ],
+          "srgb": [
+            205,
+            134,
+            88
+          ],
+          "family": "orange",
+          "lightness_lstar": 62.3,
+          "basis": null,
+          "reason": "Apparent color measured in the supported region."
+        },
+        "liquid_opacity": {
+          "status": "indeterminate",
+          "value": null,
+          "basis": "relative luminance contrast attenuation",
+          "reason": "A registered clear-barrel reference at the same exposure is required."
+        }
+      }
+    },
+    {
+      "id": "IMG_3283",
+      "heldout_block": false,
+      "reference": {
+        "liquid_presence": {
+          "status": "observable",
+          "value": true
+        },
+        "liquid_colour": {
+          "status": "observable",
+          "lab": [
+            66.876220703125,
+            19.34375,
+            35.109375
+          ]
+        }
+      },
+      "prediction": {
+        "syringe_type": {
+          "status": "indeterminate",
+          "value": null,
+          "reason": "No supported type or scale evidence for this box."
+        },
+        "nominal_capacity": {
+          "status": "indeterminate",
+          "ml": null,
+          "source": null,
+          "reason": "Nominal-capacity markings are unavailable or ambiguous"
+        },
+        "liquid_presence": {
+          "status": "present",
+          "value": true,
+          "source": "appearance",
+          "reason": "The localized barrel interior supports visible liquid"
+        },
+        "liquid_volume": {
+          "status": "indeterminate",
+          "ml": null,
+          "interval_ml": null,
+          "reason": "No supported graduation and piston measurement for this box."
+        },
+        "liquid_colour": {
+          "status": "estimated",
+          "lab": [
+            65.4,
+            19.5,
+            35.6
+          ],
+          "srgb": [
+            212,
+            143,
+            98
+          ],
+          "family": "orange",
+          "lightness_lstar": 65.4,
+          "basis": null,
+          "reason": "Apparent color measured in the supported region."
+        },
+        "liquid_opacity": {
+          "status": "indeterminate",
+          "value": null,
+          "basis": "relative luminance contrast attenuation",
+          "reason": "A registered clear-barrel reference at the same exposure is required."
+        }
+      }
+    },
+    {
+      "id": "IMG_3292",
+      "heldout_block": false,
+      "reference": {
+        "liquid_presence": {
+          "status": "observable",
+          "value": true
+        },
+        "liquid_colour": {
+          "status": "observable",
+          "lab": [
+            68.890380859375,
+            18.21875,
+            33.5
+          ]
+        }
+      },
+      "prediction": {
+        "syringe_type": {
+          "status": "indeterminate",
+          "value": null,
+          "reason": "No supported type or scale evidence for this box."
+        },
+        "nominal_capacity": {
+          "status": "indeterminate",
+          "ml": null,
+          "source": null,
+          "reason": "Nominal-capacity markings are unavailable or ambiguous"
+        },
+        "liquid_presence": {
+          "status": "present",
+          "value": true,
+          "source": "appearance",
+          "reason": "The localized barrel interior supports visible liquid"
+        },
+        "liquid_volume": {
+          "status": "indeterminate",
+          "ml": null,
+          "interval_ml": null,
+          "reason": "No supported graduation and piston measurement for this box."
+        },
+        "liquid_colour": {
+          "status": "estimated",
+          "lab": [
+            67.3,
+            22.4,
+            43.2
+          ],
+          "srgb": [
+            220,
+            148,
+            88
+          ],
+          "family": "orange",
+          "lightness_lstar": 67.3,
+          "basis": null,
+          "reason": "Apparent color measured in the supported region."
+        },
+        "liquid_opacity": {
+          "status": "indeterminate",
+          "value": null,
+          "basis": "relative luminance contrast attenuation",
+          "reason": "A registered clear-barrel reference at the same exposure is required."
+        }
+      }
+    },
+    {
+      "id": "IMG_3294",
+      "heldout_block": false,
+      "reference": {
+        "liquid_presence": {
+          "status": "observable",
+          "value": true
+        },
+        "liquid_colour": {
+          "status": "observable",
+          "lab": [
+            62.97607421875,
+            22.515625,
+            36.3359375
+          ]
+        }
+      },
+      "prediction": {
+        "syringe_type": {
+          "status": "indeterminate",
+          "value": null,
+          "reason": "No supported type or scale evidence for this box."
+        },
+        "nominal_capacity": {
+          "status": "indeterminate",
+          "ml": null,
+          "source": null,
+          "reason": "Nominal-capacity markings are unavailable or ambiguous"
+        },
+        "liquid_presence": {
+          "status": "present",
+          "value": true,
+          "source": "appearance",
+          "reason": "The localized barrel interior supports visible liquid"
+        },
+        "liquid_volume": {
+          "status": "indeterminate",
+          "ml": null,
+          "interval_ml": null,
+          "reason": "No supported graduation and piston measurement for this box."
+        },
+        "liquid_colour": {
+          "status": "estimated",
+          "lab": [
+            64.1,
+            22.8,
+            37.2
+          ],
+          "srgb": [
+            212,
+            138,
+            91
+          ],
+          "family": "orange",
+          "lightness_lstar": 64.1,
+          "basis": null,
+          "reason": "Apparent color measured in the supported region."
+        },
+        "liquid_opacity": {
+          "status": "indeterminate",
+          "value": null,
+          "basis": "relative luminance contrast attenuation",
+          "reason": "A registered clear-barrel reference at the same exposure is required."
+        }
+      }
+    },
+    {
+      "id": "IMG_3295",
+      "heldout_block": false,
+      "reference": {
+        "liquid_presence": {
+          "status": "observable",
+          "value": true
+        },
+        "liquid_colour": {
+          "status": "observable",
+          "lab": [
+            64.202880859375,
+            22.90625,
+            37.25
+          ]
+        }
+      },
+      "prediction": {
+        "syringe_type": {
+          "status": "indeterminate",
+          "value": null,
+          "reason": "No supported type or scale evidence for this box."
+        },
+        "nominal_capacity": {
+          "status": "indeterminate",
+          "ml": null,
+          "source": null,
+          "reason": "Nominal-capacity markings are unavailable or ambiguous"
+        },
+        "liquid_presence": {
+          "status": "present",
+          "value": true,
+          "source": "appearance",
+          "reason": "The localized barrel interior supports visible liquid"
+        },
+        "liquid_volume": {
+          "status": "indeterminate",
+          "ml": null,
+          "interval_ml": null,
+          "reason": "No supported graduation and piston measurement for this box."
+        },
+        "liquid_colour": {
+          "status": "estimated",
+          "lab": [
+            64.3,
+            23.2,
+            37.6
+          ],
+          "srgb": [
+            213,
+            139,
+            88
+          ],
+          "family": "orange",
+          "lightness_lstar": 64.3,
+          "basis": null,
+          "reason": "Apparent color measured in the supported region."
+        },
+        "liquid_opacity": {
+          "status": "indeterminate",
+          "value": null,
+          "basis": "relative luminance contrast attenuation",
+          "reason": "A registered clear-barrel reference at the same exposure is required."
+        }
+      }
+    },
+    {
+      "id": "IMG_3296",
+      "heldout_block": false,
+      "reference": {
+        "liquid_presence": {
+          "status": "observable",
+          "value": true
+        },
+        "liquid_colour": {
+          "status": "observable",
+          "lab": [
+            62.872314453125,
+            25.65625,
+            38.65625
+          ]
+        }
+      },
+      "prediction": {
+        "syringe_type": {
+          "status": "indeterminate",
+          "value": null,
+          "reason": "No supported type or scale evidence for this box."
+        },
+        "nominal_capacity": {
+          "status": "indeterminate",
+          "ml": null,
+          "source": null,
+          "reason": "Nominal-capacity markings are unavailable or ambiguous"
+        },
+        "liquid_presence": {
+          "status": "present",
+          "value": true,
+          "source": "appearance",
+          "reason": "The localized barrel interior supports visible liquid"
+        },
+        "liquid_volume": {
+          "status": "indeterminate",
+          "ml": null,
+          "interval_ml": null,
+          "reason": "No supported graduation and piston measurement for this box."
+        },
+        "liquid_colour": {
+          "status": "estimated",
+          "lab": [
+            64.4,
+            23.9,
+            37.2
+          ],
+          "srgb": [
+            213,
+            139,
+            90
+          ],
+          "family": "orange",
+          "lightness_lstar": 64.4,
+          "basis": null,
+          "reason": "Apparent color measured in the supported region."
+        },
+        "liquid_opacity": {
+          "status": "indeterminate",
+          "value": null,
+          "basis": "relative luminance contrast attenuation",
+          "reason": "A registered clear-barrel reference at the same exposure is required."
+        }
+      }
+    },
+    {
+      "id": "IMG_3297",
+      "heldout_block": false,
+      "reference": {
+        "liquid_presence": {
+          "status": "observable",
+          "value": true
+        },
+        "liquid_colour": {
+          "status": "observable",
+          "lab": [
+            58.9111328125,
+            18.859375,
+            31.8125
+          ]
+        }
+      },
+      "prediction": {
+        "syringe_type": {
+          "status": "indeterminate",
+          "value": null,
+          "reason": "No supported type or scale evidence for this box."
+        },
+        "nominal_capacity": {
+          "status": "indeterminate",
+          "ml": null,
+          "source": null,
+          "reason": "Nominal-capacity markings are unavailable or ambiguous"
+        },
+        "liquid_presence": {
+          "status": "present",
+          "value": true,
+          "source": "appearance",
+          "reason": "The localized barrel interior supports visible liquid"
+        },
+        "liquid_volume": {
+          "status": "indeterminate",
+          "ml": null,
+          "interval_ml": null,
+          "reason": "No supported graduation and piston measurement for this box."
+        },
+        "liquid_colour": {
+          "status": "estimated",
+          "lab": [
+            62.3,
+            24.1,
+            36.6
+          ],
+          "srgb": [
+            210,
+            132,
+            86
+          ],
+          "family": "orange",
+          "lightness_lstar": 62.3,
+          "basis": null,
+          "reason": "Apparent color measured in the supported region."
+        },
+        "liquid_opacity": {
+          "status": "indeterminate",
+          "value": null,
+          "basis": "relative luminance contrast attenuation",
+          "reason": "A registered clear-barrel reference at the same exposure is required."
+        }
+      }
+    },
+    {
+      "id": "IMG_3298",
+      "heldout_block": false,
+      "reference": {
+        "liquid_presence": {
+          "status": "observable",
+          "value": true
+        },
+        "liquid_colour": {
+          "status": "observable",
+          "lab": [
+            47.381591796875,
+            2.140625,
+            10.8125
+          ]
+        }
+      },
+      "prediction": {
+        "syringe_type": {
+          "status": "indeterminate",
+          "value": null,
+          "reason": "No supported type or scale evidence for this box."
+        },
+        "nominal_capacity": {
+          "status": "indeterminate",
+          "ml": null,
+          "source": null,
+          "reason": "Nominal-capacity markings are unavailable or ambiguous"
+        },
+        "liquid_presence": {
+          "status": "present",
+          "value": true,
+          "source": "appearance",
+          "reason": "The localized barrel interior supports visible liquid"
+        },
+        "liquid_volume": {
+          "status": "indeterminate",
+          "ml": null,
+          "interval_ml": null,
+          "reason": "No supported graduation and piston measurement for this box."
+        },
+        "liquid_colour": {
+          "status": "estimated",
+          "lab": [
+            68.2,
+            21.4,
+            35.0
+          ],
+          "srgb": [
+            223,
+            150,
+            101
+          ],
+          "family": "orange",
+          "lightness_lstar": 68.2,
+          "basis": null,
+          "reason": "Apparent color measured in the supported region."
+        },
+        "liquid_opacity": {
+          "status": "indeterminate",
+          "value": null,
+          "basis": "relative luminance contrast attenuation",
+          "reason": "A registered clear-barrel reference at the same exposure is required."
+        }
+      }
+    },
+    {
+      "id": "IMG_3299",
+      "heldout_block": false,
+      "reference": {
+        "liquid_presence": {
+          "status": "observable",
+          "value": true
+        },
+        "liquid_colour": {
+          "status": "observable",
+          "lab": [
+            66.925048828125,
+            20.09375,
+            33.5625
+          ]
+        }
+      },
+      "prediction": {
+        "syringe_type": {
+          "status": "indeterminate",
+          "value": null,
+          "reason": "No supported type or scale evidence for this box."
+        },
+        "nominal_capacity": {
+          "status": "indeterminate",
+          "ml": null,
+          "source": null,
+          "reason": "Nominal-capacity markings are unavailable or ambiguous"
+        },
+        "liquid_presence": {
+          "status": "indeterminate",
+          "value": null,
+          "source": null,
+          "reason": "Visible evidence does not resolve liquid presence or an empty barrel"
+        },
+        "liquid_volume": {
+          "status": "indeterminate",
+          "ml": null,
+          "interval_ml": null,
+          "reason": "No supported graduation and piston measurement for this box."
+        },
+        "liquid_colour": {
+          "status": "indeterminate",
+          "lab": null,
+          "srgb": null,
+          "family": null,
+          "lightness_lstar": null,
+          "basis": null,
+          "reason": "The visible liquid region does not support a color measurement."
+        },
+        "liquid_opacity": {
+          "status": "indeterminate",
+          "value": null,
+          "basis": "relative luminance contrast attenuation",
+          "reason": "A registered clear-barrel reference at the same exposure is required."
+        }
+      }
+    },
+    {
+      "id": "IMG_3300",
+      "heldout_block": false,
+      "reference": {
+        "liquid_presence": {
+          "status": "observable",
+          "value": true
+        },
+        "liquid_colour": {
+          "status": "observable",
+          "lab": [
+            59.02099609375,
+            21.953125,
+            37.3046875
+          ]
+        }
+      },
+      "prediction": {
+        "syringe_type": {
+          "status": "indeterminate",
+          "value": null,
+          "reason": "No supported type or scale evidence for this box."
+        },
+        "nominal_capacity": {
+          "status": "indeterminate",
+          "ml": null,
+          "source": null,
+          "reason": "Nominal-capacity markings are unavailable or ambiguous"
+        },
+        "liquid_presence": {
+          "status": "indeterminate",
+          "value": null,
+          "source": null,
+          "reason": "Visible evidence does not resolve liquid presence or an empty barrel"
+        },
+        "liquid_volume": {
+          "status": "indeterminate",
+          "ml": null,
+          "interval_ml": null,
+          "reason": "No supported graduation and piston measurement for this box."
+        },
+        "liquid_colour": {
+          "status": "indeterminate",
+          "lab": null,
+          "srgb": null,
+          "family": null,
+          "lightness_lstar": null,
+          "basis": null,
+          "reason": "The visible liquid region does not support a color measurement."
+        },
+        "liquid_opacity": {
+          "status": "indeterminate",
+          "value": null,
+          "basis": "relative luminance contrast attenuation",
+          "reason": "A registered clear-barrel reference at the same exposure is required."
+        }
+      }
+    },
+    {
+      "id": "IMG_3301",
+      "heldout_block": false,
+      "reference": {
+        "liquid_presence": {
+          "status": "observable",
+          "value": true
+        },
+        "liquid_colour": {
+          "status": "observable",
+          "lab": [
+            48.858642578125,
+            1.5,
+            10.125
+          ]
+        }
+      },
+      "prediction": {
+        "syringe_type": {
+          "status": "indeterminate",
+          "value": null,
+          "reason": "No supported type or scale evidence for this box."
+        },
+        "nominal_capacity": {
+          "status": "indeterminate",
+          "ml": null,
+          "source": null,
+          "reason": "Nominal-capacity markings are unavailable or ambiguous"
+        },
+        "liquid_presence": {
+          "status": "present",
+          "value": true,
+          "source": "appearance",
+          "reason": "The localized barrel interior supports visible liquid"
+        },
+        "liquid_volume": {
+          "status": "indeterminate",
+          "ml": null,
+          "interval_ml": null,
+          "reason": "No supported graduation and piston measurement for this box."
+        },
+        "liquid_colour": {
+          "status": "estimated",
+          "lab": [
+            66.3,
+            23.0,
+            40.9
+          ],
+          "srgb": [
+            219,
+            144,
+            90
+          ],
+          "family": "orange",
+          "lightness_lstar": 66.3,
+          "basis": null,
+          "reason": "Apparent color measured in the supported region."
+        },
+        "liquid_opacity": {
+          "status": "indeterminate",
+          "value": null,
+          "basis": "relative luminance contrast attenuation",
+          "reason": "A registered clear-barrel reference at the same exposure is required."
+        }
+      }
+    },
+    {
+      "id": "IMG_3302",
+      "heldout_block": false,
+      "reference": {
+        "liquid_presence": {
+          "status": "observable",
+          "value": true
+        },
+        "liquid_colour": {
+          "status": "observable",
+          "lab": [
+            48.675537109375,
+            6.3203125,
+            13.21875
+          ]
+        }
+      },
+      "prediction": {
+        "syringe_type": {
+          "status": "indeterminate",
+          "value": null,
+          "reason": "No supported type or scale evidence for this box."
+        },
+        "nominal_capacity": {
+          "status": "indeterminate",
+          "ml": null,
+          "source": null,
+          "reason": "Nominal-capacity markings are unavailable or ambiguous"
+        },
+        "liquid_presence": {
+          "status": "present",
+          "value": true,
+          "source": "appearance",
+          "reason": "The localized barrel interior supports visible liquid"
+        },
+        "liquid_volume": {
+          "status": "indeterminate",
+          "ml": null,
+          "interval_ml": null,
+          "reason": "No supported graduation and piston measurement for this box."
+        },
+        "liquid_colour": {
+          "status": "estimated",
+          "lab": [
+            65.7,
+            22.4,
+            37.4
+          ],
+          "srgb": [
+            217,
+            142,
+            94
+          ],
+          "family": "orange",
+          "lightness_lstar": 65.7,
+          "basis": null,
+          "reason": "Apparent color measured in the supported region."
+        },
+        "liquid_opacity": {
+          "status": "indeterminate",
+          "value": null,
+          "basis": "relative luminance contrast attenuation",
+          "reason": "A registered clear-barrel reference at the same exposure is required."
+        }
+      }
+    },
+    {
+      "id": "IMG_3304",
+      "heldout_block": true,
+      "reference": {
+        "liquid_presence": {
+          "status": "observable",
+          "value": true
+        },
+        "liquid_colour": {
+          "status": "observable",
+          "lab": [
+            57.904052734375,
+            24.015625,
+            36.484375
+          ]
+        }
+      },
+      "prediction": {
+        "syringe_type": {
+          "status": "indeterminate",
+          "value": null,
+          "reason": "No supported type or scale evidence for this box."
+        },
+        "nominal_capacity": {
+          "status": "indeterminate",
+          "ml": null,
+          "source": null,
+          "reason": "Nominal-capacity markings are unavailable or ambiguous"
+        },
+        "liquid_presence": {
+          "status": "indeterminate",
+          "value": null,
+          "source": null,
+          "reason": "Visible evidence does not resolve liquid presence or an empty barrel"
+        },
+        "liquid_volume": {
+          "status": "indeterminate",
+          "ml": null,
+          "interval_ml": null,
+          "reason": "No supported graduation and piston measurement for this box."
+        },
+        "liquid_colour": {
+          "status": "indeterminate",
+          "lab": null,
+          "srgb": null,
+          "family": null,
+          "lightness_lstar": null,
+          "basis": null,
+          "reason": "The visible liquid region does not support a color measurement."
+        },
+        "liquid_opacity": {
+          "status": "indeterminate",
+          "value": null,
+          "basis": "relative luminance contrast attenuation",
+          "reason": "A registered clear-barrel reference at the same exposure is required."
+        }
+      }
+    },
+    {
+      "id": "IMG_3305",
+      "heldout_block": true,
+      "reference": {
+        "liquid_presence": {
+          "status": "observable",
+          "value": true
+        },
+        "liquid_colour": {
+          "status": "observable",
+          "lab": [
+            66.925048828125,
+            22.03125,
+            35.90625
+          ]
+        }
+      },
+      "prediction": {
+        "syringe_type": {
+          "status": "indeterminate",
+          "value": null,
+          "reason": "No supported type or scale evidence for this box."
+        },
+        "nominal_capacity": {
+          "status": "indeterminate",
+          "ml": null,
+          "source": null,
+          "reason": "Nominal-capacity markings are unavailable or ambiguous"
+        },
+        "liquid_presence": {
+          "status": "present",
+          "value": true,
+          "source": "appearance",
+          "reason": "The localized barrel interior supports visible liquid"
+        },
+        "liquid_volume": {
+          "status": "indeterminate",
+          "ml": null,
+          "interval_ml": null,
+          "reason": "No supported graduation and piston measurement for this box."
+        },
+        "liquid_colour": {
+          "status": "estimated",
+          "lab": [
+            65.9,
+            22.7,
+            37.9
+          ],
+          "srgb": [
+            217,
+            143,
+            93
+          ],
+          "family": "orange",
+          "lightness_lstar": 65.9,
+          "basis": null,
+          "reason": "Apparent color measured in the supported region."
+        },
+        "liquid_opacity": {
+          "status": "indeterminate",
+          "value": null,
+          "basis": "relative luminance contrast attenuation",
+          "reason": "A registered clear-barrel reference at the same exposure is required."
+        }
+      }
+    },
+    {
+      "id": "IMG_3306",
+      "heldout_block": true,
+      "reference": {
+        "liquid_presence": {
+          "status": "observable",
+          "value": true
+        },
+        "liquid_colour": {
+          "status": "observable",
+          "lab": [
+            63.46435546875,
+            25.21875,
+            40.71875
+          ]
+        }
+      },
+      "prediction": {
+        "syringe_type": {
+          "status": "indeterminate",
+          "value": null,
+          "reason": "No supported type or scale evidence for this box."
+        },
+        "nominal_capacity": {
+          "status": "indeterminate",
+          "ml": null,
+          "source": null,
+          "reason": "Nominal-capacity markings are unavailable or ambiguous"
+        },
+        "liquid_presence": {
+          "status": "present",
+          "value": true,
+          "source": "appearance",
+          "reason": "The localized barrel interior supports visible liquid"
+        },
+        "liquid_volume": {
+          "status": "indeterminate",
+          "ml": null,
+          "interval_ml": null,
+          "reason": "No supported graduation and piston measurement for this box."
+        },
+        "liquid_colour": {
+          "status": "estimated",
+          "lab": [
+            64.9,
+            22.4,
+            38.4
+          ],
+          "srgb": [
+            215,
+            140,
+            91
+          ],
+          "family": "orange",
+          "lightness_lstar": 64.9,
+          "basis": null,
+          "reason": "Apparent color measured in the supported region."
+        },
+        "liquid_opacity": {
+          "status": "indeterminate",
+          "value": null,
+          "basis": "relative luminance contrast attenuation",
+          "reason": "A registered clear-barrel reference at the same exposure is required."
+        }
+      }
+    },
+    {
+      "id": "IMG_3310",
+      "heldout_block": false,
+      "reference": {
+        "liquid_presence": {
+          "status": "observable",
+          "value": true
+        },
+        "liquid_colour": {
+          "status": "observable",
+          "lab": [
+            47.93701171875,
+            12.484375,
+            25.046875
+          ]
+        }
+      },
+      "prediction": {
+        "syringe_type": {
+          "status": "indeterminate",
+          "value": null,
+          "reason": "No supported type or scale evidence for this box."
+        },
+        "nominal_capacity": {
+          "status": "indeterminate",
+          "ml": null,
+          "source": null,
+          "reason": "Nominal-capacity markings are unavailable or ambiguous"
+        },
+        "liquid_presence": {
+          "status": "present",
+          "value": true,
+          "source": "appearance",
+          "reason": "The localized barrel interior supports visible liquid"
+        },
+        "liquid_volume": {
+          "status": "indeterminate",
+          "ml": null,
+          "interval_ml": null,
+          "reason": "No supported graduation and piston measurement for this box."
+        },
+        "liquid_colour": {
+          "status": "estimated",
+          "lab": [
+            63.2,
+            21.2,
+            36.3
+          ],
+          "srgb": [
+            206,
+            137,
+            90
+          ],
+          "family": "orange",
+          "lightness_lstar": 63.2,
+          "basis": null,
+          "reason": "Apparent color measured in the supported region."
+        },
+        "liquid_opacity": {
+          "status": "indeterminate",
+          "value": null,
+          "basis": "relative luminance contrast attenuation",
+          "reason": "A registered clear-barrel reference at the same exposure is required."
+        }
+      }
+    },
+    {
+      "id": "IMG_3311",
+      "heldout_block": false,
+      "reference": {
+        "liquid_presence": {
+          "status": "observable",
+          "value": true
+        },
+        "liquid_colour": {
+          "status": "observable",
+          "lab": [
+            56.585693359375,
+            23.59375,
+            35.25
+          ]
+        }
+      },
+      "prediction": {
+        "syringe_type": {
+          "status": "indeterminate",
+          "value": null,
+          "reason": "No supported type or scale evidence for this box."
+        },
+        "nominal_capacity": {
+          "status": "indeterminate",
+          "ml": null,
+          "source": null,
+          "reason": "Nominal-capacity markings are unavailable or ambiguous"
+        },
+        "liquid_presence": {
+          "status": "indeterminate",
+          "value": null,
+          "source": null,
+          "reason": "Visible evidence does not resolve liquid presence or an empty barrel"
+        },
+        "liquid_volume": {
+          "status": "indeterminate",
+          "ml": null,
+          "interval_ml": null,
+          "reason": "No supported graduation and piston measurement for this box."
+        },
+        "liquid_colour": {
+          "status": "indeterminate",
+          "lab": null,
+          "srgb": null,
+          "family": null,
+          "lightness_lstar": null,
+          "basis": null,
+          "reason": "The visible liquid region does not support a color measurement."
+        },
+        "liquid_opacity": {
+          "status": "indeterminate",
+          "value": null,
+          "basis": "relative luminance contrast attenuation",
+          "reason": "A registered clear-barrel reference at the same exposure is required."
+        }
+      }
+    },
+    {
+      "id": "IMG_3315",
+      "heldout_block": false,
+      "reference": {
+        "liquid_presence": {
+          "status": "observable",
+          "value": true
+        },
+        "liquid_colour": {
+          "status": "observable",
+          "lab": [
+            53.7933349609375,
+            22.140625,
+            36.859375
+          ]
+        }
+      },
+      "prediction": {
+        "syringe_type": {
+          "status": "indeterminate",
+          "value": null,
+          "reason": "No supported type or scale evidence for this box."
+        },
+        "nominal_capacity": {
+          "status": "indeterminate",
+          "ml": null,
+          "source": null,
+          "reason": "Nominal-capacity markings are unavailable or ambiguous"
+        },
+        "liquid_presence": {
+          "status": "present",
+          "value": true,
+          "source": "appearance",
+          "reason": "The localized barrel interior supports visible liquid"
+        },
+        "liquid_volume": {
+          "status": "indeterminate",
+          "ml": null,
+          "interval_ml": null,
+          "reason": "No supported graduation and piston measurement for this box."
+        },
+        "liquid_colour": {
+          "status": "estimated",
+          "lab": [
+            53.2,
+            20.5,
+            33.8
+          ],
+          "srgb": [
+            177,
+            112,
+            68
+          ],
+          "family": "amber-brown",
+          "lightness_lstar": 53.2,
+          "basis": null,
+          "reason": "Apparent color measured in the supported region."
+        },
+        "liquid_opacity": {
+          "status": "indeterminate",
+          "value": null,
+          "basis": "relative luminance contrast attenuation",
+          "reason": "A registered clear-barrel reference at the same exposure is required."
+        }
+      }
+    },
+    {
+      "id": "IMG_3316",
+      "heldout_block": false,
+      "reference": {
+        "liquid_presence": {
+          "status": "observable",
+          "value": true
+        },
+        "liquid_colour": {
+          "status": "observable",
+          "lab": [
+            61.62109375,
+            22.6875,
+            40.4375
+          ]
+        }
+      },
+      "prediction": {
+        "syringe_type": {
+          "status": "indeterminate",
+          "value": null,
+          "reason": "No supported type or scale evidence for this box."
+        },
+        "nominal_capacity": {
+          "status": "indeterminate",
+          "ml": null,
+          "source": null,
+          "reason": "Nominal-capacity markings are unavailable or ambiguous"
+        },
+        "liquid_presence": {
+          "status": "present",
+          "value": true,
+          "source": "appearance",
+          "reason": "The localized barrel interior supports visible liquid"
+        },
+        "liquid_volume": {
+          "status": "indeterminate",
+          "ml": null,
+          "interval_ml": null,
+          "reason": "No supported graduation and piston measurement for this box."
+        },
+        "liquid_colour": {
+          "status": "estimated",
+          "lab": [
+            67.3,
+            20.8,
+            39.3
+          ],
+          "srgb": [
+            217,
+            148,
+            95
+          ],
+          "family": "orange",
+          "lightness_lstar": 67.3,
+          "basis": null,
+          "reason": "Apparent color measured in the supported region."
+        },
+        "liquid_opacity": {
+          "status": "indeterminate",
+          "value": null,
+          "basis": "relative luminance contrast attenuation",
+          "reason": "A registered clear-barrel reference at the same exposure is required."
+        }
+      }
+    },
+    {
+      "id": "IMG_3317",
+      "heldout_block": false,
+      "reference": {
+        "liquid_presence": {
+          "status": "observable",
+          "value": true
+        },
+        "liquid_colour": {
+          "status": "observable",
+          "lab": [
+            65.93017578125,
+            16.1875,
+            30.9375
+          ]
+        }
+      },
+      "prediction": {
+        "syringe_type": {
+          "status": "indeterminate",
+          "value": null,
+          "reason": "No supported type or scale evidence for this box."
+        },
+        "nominal_capacity": {
+          "status": "indeterminate",
+          "ml": null,
+          "source": null,
+          "reason": "Nominal-capacity markings are unavailable or ambiguous"
+        },
+        "liquid_presence": {
+          "status": "present",
+          "value": true,
+          "source": "appearance",
+          "reason": "The localized barrel interior supports visible liquid"
+        },
+        "liquid_volume": {
+          "status": "indeterminate",
+          "ml": null,
+          "interval_ml": null,
+          "reason": "No supported graduation and piston measurement for this box."
+        },
+        "liquid_colour": {
+          "status": "estimated",
+          "lab": [
+            66.1,
+            20.7,
+            40.2
+          ],
+          "srgb": [
+            212,
+            145,
+            88
+          ],
+          "family": "orange",
+          "lightness_lstar": 66.1,
+          "basis": null,
+          "reason": "Apparent color measured in the supported region."
+        },
+        "liquid_opacity": {
+          "status": "indeterminate",
+          "value": null,
+          "basis": "relative luminance contrast attenuation",
+          "reason": "A registered clear-barrel reference at the same exposure is required."
+        }
+      }
+    },
+    {
+      "id": "IMG_3318",
+      "heldout_block": false,
+      "reference": {
+        "liquid_presence": {
+          "status": "observable",
+          "value": true
+        },
+        "liquid_colour": {
+          "status": "observable",
+          "lab": [
+            66.461181640625,
+            20.703125,
+            40.796875
+          ]
+        }
+      },
+      "prediction": {
+        "syringe_type": {
+          "status": "indeterminate",
+          "value": null,
+          "reason": "No supported type or scale evidence for this box."
+        },
+        "nominal_capacity": {
+          "status": "indeterminate",
+          "ml": null,
+          "source": null,
+          "reason": "Nominal-capacity markings are unavailable or ambiguous"
+        },
+        "liquid_presence": {
+          "status": "present",
+          "value": true,
+          "source": "appearance",
+          "reason": "The localized barrel interior supports visible liquid"
+        },
+        "liquid_volume": {
+          "status": "indeterminate",
+          "ml": null,
+          "interval_ml": null,
+          "reason": "No supported graduation and piston measurement for this box."
+        },
+        "liquid_colour": {
+          "status": "estimated",
+          "lab": [
+            67.8,
+            21.1,
+            41.8
+          ],
+          "srgb": [
+            219,
+            150,
+            91
+          ],
+          "family": "orange",
+          "lightness_lstar": 67.8,
+          "basis": null,
+          "reason": "Apparent color measured in the supported region."
+        },
+        "liquid_opacity": {
+          "status": "indeterminate",
+          "value": null,
+          "basis": "relative luminance contrast attenuation",
+          "reason": "A registered clear-barrel reference at the same exposure is required."
+        }
+      }
+    },
+    {
+      "id": "IMG_3321",
+      "heldout_block": false,
+      "reference": {
+        "liquid_presence": {
+          "status": "observable",
+          "value": true
+        },
+        "liquid_colour": {
+          "status": "observable",
+          "lab": [
+            63.0035400390625,
+            15.953125,
+            26.09375
+          ]
+        }
+      },
+      "prediction": {
+        "syringe_type": {
+          "status": "indeterminate",
+          "value": null,
+          "reason": "No supported type or scale evidence for this box."
+        },
+        "nominal_capacity": {
+          "status": "indeterminate",
+          "ml": null,
+          "source": null,
+          "reason": "Nominal-capacity markings are unavailable or ambiguous"
+        },
+        "liquid_presence": {
+          "status": "present",
+          "value": true,
+          "source": "appearance",
+          "reason": "The localized barrel interior supports visible liquid"
+        },
+        "liquid_volume": {
+          "status": "indeterminate",
+          "ml": null,
+          "interval_ml": null,
+          "reason": "No supported graduation and piston measurement for this box."
+        },
+        "liquid_colour": {
+          "status": "estimated",
+          "lab": [
+            60.8,
+            17.6,
+            30.0
+          ],
+          "srgb": [
+            191,
+            134,
+            94
+          ],
+          "family": "orange",
+          "lightness_lstar": 60.8,
+          "basis": null,
+          "reason": "Apparent color measured in the supported region."
+        },
+        "liquid_opacity": {
+          "status": "indeterminate",
+          "value": null,
+          "basis": "relative luminance contrast attenuation",
+          "reason": "A registered clear-barrel reference at the same exposure is required."
+        }
+      }
+    },
+    {
+      "id": "IMG_3322",
+      "heldout_block": false,
+      "reference": {
+        "liquid_presence": {
+          "status": "observable",
+          "value": true
+        },
+        "liquid_colour": {
+          "status": "observable",
+          "lab": [
+            65.960693359375,
+            19.046875,
+            41.4296875
+          ]
+        }
+      },
+      "prediction": {
+        "syringe_type": {
+          "status": "indeterminate",
+          "value": null,
+          "reason": "No supported type or scale evidence for this box."
+        },
+        "nominal_capacity": {
+          "status": "indeterminate",
+          "ml": null,
+          "source": null,
+          "reason": "Nominal-capacity markings are unavailable or ambiguous"
+        },
+        "liquid_presence": {
+          "status": "present",
+          "value": true,
+          "source": "appearance",
+          "reason": "The localized barrel interior supports visible liquid"
+        },
+        "liquid_volume": {
+          "status": "indeterminate",
+          "ml": null,
+          "interval_ml": null,
+          "reason": "No supported graduation and piston measurement for this box."
+        },
+        "liquid_colour": {
+          "status": "estimated",
+          "lab": [
+            69.1,
+            18.4,
+            41.6
+          ],
+          "srgb": [
+            221,
+            155,
+            94
+          ],
+          "family": "orange",
+          "lightness_lstar": 69.1,
+          "basis": null,
+          "reason": "Apparent color measured in the supported region."
+        },
+        "liquid_opacity": {
+          "status": "indeterminate",
+          "value": null,
+          "basis": "relative luminance contrast attenuation",
+          "reason": "A registered clear-barrel reference at the same exposure is required."
+        }
+      }
+    },
+    {
+      "id": "IMG_3323",
+      "heldout_block": false,
+      "reference": {
+        "liquid_presence": {
+          "status": "observable",
+          "value": true
+        },
+        "liquid_colour": {
+          "status": "observable",
+          "lab": [
+            66.607666015625,
+            21.078125,
+            44.765625
+          ]
+        }
+      },
+      "prediction": {
+        "syringe_type": {
+          "status": "indeterminate",
+          "value": null,
+          "reason": "No supported type or scale evidence for this box."
+        },
+        "nominal_capacity": {
+          "status": "indeterminate",
+          "ml": null,
+          "source": null,
+          "reason": "Nominal-capacity markings are unavailable or ambiguous"
+        },
+        "liquid_presence": {
+          "status": "present",
+          "value": true,
+          "source": "appearance",
+          "reason": "The localized barrel interior supports visible liquid"
+        },
+        "liquid_volume": {
+          "status": "indeterminate",
+          "ml": null,
+          "interval_ml": null,
+          "reason": "No supported graduation and piston measurement for this box."
+        },
+        "liquid_colour": {
+          "status": "estimated",
+          "lab": [
+            69.2,
+            19.3,
+            42.4
+          ],
+          "srgb": [
+            222,
+            155,
+            92
+          ],
+          "family": "orange",
+          "lightness_lstar": 69.2,
+          "basis": null,
+          "reason": "Apparent color measured in the supported region."
+        },
+        "liquid_opacity": {
+          "status": "indeterminate",
+          "value": null,
+          "basis": "relative luminance contrast attenuation",
+          "reason": "A registered clear-barrel reference at the same exposure is required."
+        }
+      }
+    },
+    {
+      "id": "IMG_3324",
+      "heldout_block": false,
+      "reference": {
+        "liquid_presence": {
+          "status": "observable",
+          "value": true
+        },
+        "liquid_colour": {
+          "status": "observable",
+          "lab": [
+            65.142822265625,
+            14.421875,
+            30.84375
+          ]
+        }
+      },
+      "prediction": {
+        "syringe_type": {
+          "status": "indeterminate",
+          "value": null,
+          "reason": "No supported type or scale evidence for this box."
+        },
+        "nominal_capacity": {
+          "status": "indeterminate",
+          "ml": null,
+          "source": null,
+          "reason": "Nominal-capacity markings are unavailable or ambiguous"
+        },
+        "liquid_presence": {
+          "status": "present",
+          "value": true,
+          "source": "appearance",
+          "reason": "The localized barrel interior supports visible liquid"
+        },
+        "liquid_volume": {
+          "status": "indeterminate",
+          "ml": null,
+          "interval_ml": null,
+          "reason": "No supported graduation and piston measurement for this box."
+        },
+        "liquid_colour": {
+          "status": "estimated",
+          "lab": [
+            66.9,
+            20.3,
+            42.8
+          ],
+          "srgb": [
+            217,
+            148,
+            88
+          ],
+          "family": "orange",
+          "lightness_lstar": 66.9,
+          "basis": null,
+          "reason": "Apparent color measured in the supported region."
+        },
+        "liquid_opacity": {
+          "status": "indeterminate",
+          "value": null,
+          "basis": "relative luminance contrast attenuation",
+          "reason": "A registered clear-barrel reference at the same exposure is required."
+        }
+      }
+    },
+    {
+      "id": "IMG_3325",
+      "heldout_block": false,
+      "reference": {
+        "liquid_presence": {
+          "status": "observable",
+          "value": true
+        },
+        "liquid_colour": {
+          "status": "observable",
+          "lab": [
+            65.411376953125,
+            16.71875,
+            36.34375
+          ]
+        }
+      },
+      "prediction": {
+        "syringe_type": {
+          "status": "indeterminate",
+          "value": null,
+          "reason": "No supported type or scale evidence for this box."
+        },
+        "nominal_capacity": {
+          "status": "indeterminate",
+          "ml": null,
+          "source": null,
+          "reason": "Nominal-capacity markings are unavailable or ambiguous"
+        },
+        "liquid_presence": {
+          "status": "present",
+          "value": true,
+          "source": "appearance",
+          "reason": "The localized barrel interior supports visible liquid"
+        },
+        "liquid_volume": {
+          "status": "indeterminate",
+          "ml": null,
+          "interval_ml": null,
+          "reason": "No supported graduation and piston measurement for this box."
+        },
+        "liquid_colour": {
+          "status": "estimated",
+          "lab": [
+            66.2,
+            19.3,
+            41.3
+          ],
+          "srgb": [
+            213,
+            147,
+            90
+          ],
+          "family": "orange",
+          "lightness_lstar": 66.2,
+          "basis": null,
+          "reason": "Apparent color measured in the supported region."
+        },
+        "liquid_opacity": {
+          "status": "indeterminate",
+          "value": null,
+          "basis": "relative luminance contrast attenuation",
+          "reason": "A registered clear-barrel reference at the same exposure is required."
+        }
+      }
+    },
+    {
+      "id": "IMG_3326",
+      "heldout_block": false,
+      "reference": {
+        "liquid_presence": {
+          "status": "observable",
+          "value": true
+        },
+        "liquid_colour": {
+          "status": "observable",
+          "lab": [
+            66.046142578125,
+            19.828125,
+            41.109375
+          ]
+        }
+      },
+      "prediction": {
+        "syringe_type": {
+          "status": "indeterminate",
+          "value": null,
+          "reason": "No supported type or scale evidence for this box."
+        },
+        "nominal_capacity": {
+          "status": "indeterminate",
+          "ml": null,
+          "source": null,
+          "reason": "Nominal-capacity markings are unavailable or ambiguous"
+        },
+        "liquid_presence": {
+          "status": "indeterminate",
+          "value": null,
+          "source": null,
+          "reason": "Visible evidence does not resolve liquid presence or an empty barrel"
+        },
+        "liquid_volume": {
+          "status": "indeterminate",
+          "ml": null,
+          "interval_ml": null,
+          "reason": "No supported graduation and piston measurement for this box."
+        },
+        "liquid_colour": {
+          "status": "indeterminate",
+          "lab": null,
+          "srgb": null,
+          "family": null,
+          "lightness_lstar": null,
+          "basis": null,
+          "reason": "The visible liquid region does not support a color measurement."
+        },
+        "liquid_opacity": {
+          "status": "indeterminate",
+          "value": null,
+          "basis": "relative luminance contrast attenuation",
+          "reason": "A registered clear-barrel reference at the same exposure is required."
+        }
+      }
+    },
+    {
+      "id": "IMG_3329",
+      "heldout_block": false,
+      "reference": {
+        "liquid_presence": {
+          "status": "observable",
+          "value": true
+        },
+        "liquid_colour": {
+          "status": "observable",
+          "lab": [
+            50.543212890625,
+            18.2734375,
+            32.4375
+          ]
+        }
+      },
+      "prediction": {
+        "syringe_type": {
+          "status": "indeterminate",
+          "value": null,
+          "reason": "No supported type or scale evidence for this box."
+        },
+        "nominal_capacity": {
+          "status": "indeterminate",
+          "ml": null,
+          "source": null,
+          "reason": "Nominal-capacity markings are unavailable or ambiguous"
+        },
+        "liquid_presence": {
+          "status": "present",
+          "value": true,
+          "source": "appearance",
+          "reason": "The localized barrel interior supports visible liquid"
+        },
+        "liquid_volume": {
+          "status": "indeterminate",
+          "ml": null,
+          "interval_ml": null,
+          "reason": "No supported graduation and piston measurement for this box."
+        },
+        "liquid_colour": {
+          "status": "estimated",
+          "lab": [
+            52.1,
+            17.1,
+            33.1
+          ],
+          "srgb": [
+            167,
+            112,
+            66
+          ],
+          "family": "amber-brown",
+          "lightness_lstar": 52.1,
+          "basis": null,
+          "reason": "Apparent color measured in the supported region."
+        },
+        "liquid_opacity": {
+          "status": "indeterminate",
+          "value": null,
+          "basis": "relative luminance contrast attenuation",
+          "reason": "A registered clear-barrel reference at the same exposure is required."
+        }
+      }
+    },
+    {
+      "id": "IMG_3331",
+      "heldout_block": false,
+      "reference": {
+        "liquid_presence": {
+          "status": "observable",
+          "value": true
+        },
+        "liquid_colour": {
+          "status": "observable",
+          "lab": [
+            46.69189453125,
+            15.046875,
+            33.46875
+          ]
+        }
+      },
+      "prediction": {
+        "syringe_type": {
+          "status": "indeterminate",
+          "value": null,
+          "reason": "No supported type or scale evidence for this box."
+        },
+        "nominal_capacity": {
+          "status": "indeterminate",
+          "ml": null,
+          "source": null,
+          "reason": "Nominal-capacity markings are unavailable or ambiguous"
+        },
+        "liquid_presence": {
+          "status": "present",
+          "value": true,
+          "source": "appearance",
+          "reason": "The localized barrel interior supports visible liquid"
+        },
+        "liquid_volume": {
+          "status": "indeterminate",
+          "ml": null,
+          "interval_ml": null,
+          "reason": "No supported graduation and piston measurement for this box."
+        },
+        "liquid_colour": {
+          "status": "estimated",
+          "lab": [
+            47.0,
+            15.2,
+            34.5
+          ],
+          "srgb": [
+            150,
+            101,
+            53
+          ],
+          "family": "amber-brown",
+          "lightness_lstar": 47.0,
+          "basis": null,
+          "reason": "Apparent color measured in the supported region."
+        },
+        "liquid_opacity": {
+          "status": "indeterminate",
+          "value": null,
+          "basis": "relative luminance contrast attenuation",
+          "reason": "A registered clear-barrel reference at the same exposure is required."
+        }
+      }
+    },
+    {
+      "id": "IMG_3332",
+      "heldout_block": false,
+      "reference": {
+        "liquid_presence": {
+          "status": "observable",
+          "value": true
+        },
+        "liquid_colour": {
+          "status": "observable",
+          "lab": [
+            43.695068359375,
+            17.734375,
+            35.0
+          ]
+        }
+      },
+      "prediction": {
+        "syringe_type": {
+          "status": "indeterminate",
+          "value": null,
+          "reason": "No supported type or scale evidence for this box."
+        },
+        "nominal_capacity": {
+          "status": "indeterminate",
+          "ml": null,
+          "source": null,
+          "reason": "Nominal-capacity markings are unavailable or ambiguous"
+        },
+        "liquid_presence": {
+          "status": "present",
+          "value": true,
+          "source": "appearance",
+          "reason": "The localized barrel interior supports visible liquid"
+        },
+        "liquid_volume": {
+          "status": "indeterminate",
+          "ml": null,
+          "interval_ml": null,
+          "reason": "No supported graduation and piston measurement for this box."
+        },
+        "liquid_colour": {
+          "status": "estimated",
+          "lab": [
+            46.5,
+            16.4,
+            34.7
+          ],
+          "srgb": [
+            150,
+            99,
+            51
+          ],
+          "family": "amber-brown",
+          "lightness_lstar": 46.5,
+          "basis": null,
+          "reason": "Apparent color measured in the supported region."
+        },
+        "liquid_opacity": {
+          "status": "indeterminate",
+          "value": null,
+          "basis": "relative luminance contrast attenuation",
+          "reason": "A registered clear-barrel reference at the same exposure is required."
+        }
+      }
+    },
+    {
+      "id": "IMG_3333",
+      "heldout_block": false,
+      "reference": {
+        "liquid_presence": {
+          "status": "observable",
+          "value": true
+        },
+        "liquid_colour": {
+          "status": "observable",
+          "lab": [
+            48.358154296875,
+            15.6875,
+            31.046875
+          ]
+        }
+      },
+      "prediction": {
+        "syringe_type": {
+          "status": "indeterminate",
+          "value": null,
+          "reason": "No supported type or scale evidence for this box."
+        },
+        "nominal_capacity": {
+          "status": "indeterminate",
+          "ml": null,
+          "source": null,
+          "reason": "Nominal-capacity markings are unavailable or ambiguous"
+        },
+        "liquid_presence": {
+          "status": "present",
+          "value": true,
+          "source": "appearance",
+          "reason": "The localized barrel interior supports visible liquid"
+        },
+        "liquid_volume": {
+          "status": "indeterminate",
+          "ml": null,
+          "interval_ml": null,
+          "reason": "No supported graduation and piston measurement for this box."
+        },
+        "liquid_colour": {
+          "status": "estimated",
+          "lab": [
+            48.4,
+            14.6,
+            30.6
+          ],
+          "srgb": [
+            151,
+            105,
+            64
+          ],
+          "family": "amber-brown",
+          "lightness_lstar": 48.4,
+          "basis": null,
+          "reason": "Apparent color measured in the supported region."
+        },
+        "liquid_opacity": {
+          "status": "indeterminate",
+          "value": null,
+          "basis": "relative luminance contrast attenuation",
+          "reason": "A registered clear-barrel reference at the same exposure is required."
+        }
+      }
+    },
+    {
+      "id": "IMG_3334",
+      "heldout_block": false,
+      "reference": {
+        "liquid_presence": {
+          "status": "observable",
+          "value": true
+        },
+        "liquid_colour": {
+          "status": "observable",
+          "lab": [
+            44.970703125,
+            16.4375,
+            33.953125
+          ]
+        }
+      },
+      "prediction": {
+        "syringe_type": {
+          "status": "indeterminate",
+          "value": null,
+          "reason": "No supported type or scale evidence for this box."
+        },
+        "nominal_capacity": {
+          "status": "indeterminate",
+          "ml": null,
+          "source": null,
+          "reason": "Nominal-capacity markings are unavailable or ambiguous"
+        },
+        "liquid_presence": {
+          "status": "present",
+          "value": true,
+          "source": "appearance",
+          "reason": "The localized barrel interior supports visible liquid"
+        },
+        "liquid_volume": {
+          "status": "indeterminate",
+          "ml": null,
+          "interval_ml": null,
+          "reason": "No supported graduation and piston measurement for this box."
+        },
+        "liquid_colour": {
+          "status": "estimated",
+          "lab": [
+            45.6,
+            15.9,
+            33.9
+          ],
+          "srgb": [
+            146,
+            97,
+            51
+          ],
+          "family": "amber-brown",
+          "lightness_lstar": 45.6,
+          "basis": null,
+          "reason": "Apparent color measured in the supported region."
+        },
+        "liquid_opacity": {
+          "status": "indeterminate",
+          "value": null,
+          "basis": "relative luminance contrast attenuation",
+          "reason": "A registered clear-barrel reference at the same exposure is required."
+        }
+      }
+    },
+    {
+      "id": "IMG_3335",
+      "heldout_block": false,
+      "reference": {
+        "liquid_presence": {
+          "status": "observable",
+          "value": true
+        },
+        "liquid_colour": {
+          "status": "observable",
+          "lab": [
+            44.07958984375,
+            15.75,
+            33.8515625
+          ]
+        }
+      },
+      "prediction": {
+        "syringe_type": {
+          "status": "indeterminate",
+          "value": null,
+          "reason": "No supported type or scale evidence for this box."
+        },
+        "nominal_capacity": {
+          "status": "indeterminate",
+          "ml": null,
+          "source": null,
+          "reason": "Nominal-capacity markings are unavailable or ambiguous"
+        },
+        "liquid_presence": {
+          "status": "present",
+          "value": true,
+          "source": "appearance",
+          "reason": "The localized barrel interior supports visible liquid"
+        },
+        "liquid_volume": {
+          "status": "indeterminate",
+          "ml": null,
+          "interval_ml": null,
+          "reason": "No supported graduation and piston measurement for this box."
+        },
+        "liquid_colour": {
+          "status": "estimated",
+          "lab": [
+            46.7,
+            15.8,
+            35.0
+          ],
+          "srgb": [
+            149,
+            100,
+            54
+          ],
+          "family": "amber-brown",
+          "lightness_lstar": 46.7,
+          "basis": null,
+          "reason": "Apparent color measured in the supported region."
+        },
+        "liquid_opacity": {
+          "status": "indeterminate",
+          "value": null,
+          "basis": "relative luminance contrast attenuation",
+          "reason": "A registered clear-barrel reference at the same exposure is required."
+        }
+      }
+    },
+    {
+      "id": "IMG_3178",
+      "clear_control": true,
+      "reference": {
+        "liquid_presence": {
+          "status": "indeterminate"
+        }
+      },
+      "prediction": {
+        "syringe_type": {
+          "status": "indeterminate",
+          "value": null,
+          "reason": "No supported type or scale evidence for this box."
+        },
+        "nominal_capacity": {
+          "status": "indeterminate",
+          "ml": null,
+          "source": null,
+          "reason": "Nominal-capacity markings are unavailable or ambiguous"
+        },
+        "liquid_presence": {
+          "status": "indeterminate",
+          "value": null,
+          "source": null,
+          "reason": "Visible evidence does not resolve liquid presence or an empty barrel"
+        },
+        "liquid_volume": {
+          "status": "indeterminate",
+          "ml": null,
+          "interval_ml": null,
+          "reason": "No supported graduation and piston measurement for this box."
+        },
+        "liquid_colour": {
+          "status": "indeterminate",
+          "lab": null,
+          "srgb": null,
+          "family": null,
+          "lightness_lstar": null,
+          "basis": null,
+          "reason": "The visible liquid region does not support a color measurement."
+        },
+        "liquid_opacity": {
+          "status": "indeterminate",
+          "value": null,
+          "basis": "relative luminance contrast attenuation",
+          "reason": "A registered clear-barrel reference at the same exposure is required."
+        }
+      }
+    },
+    {
+      "id": "IMG_3179",
+      "clear_control": true,
+      "reference": {
+        "liquid_presence": {
+          "status": "indeterminate"
+        }
+      },
+      "prediction": {
+        "syringe_type": {
+          "status": "indeterminate",
+          "value": null,
+          "reason": "No supported type or scale evidence for this box."
+        },
+        "nominal_capacity": {
+          "status": "indeterminate",
+          "ml": null,
+          "source": null,
+          "reason": "Nominal-capacity markings are unavailable or ambiguous"
+        },
+        "liquid_presence": {
+          "status": "indeterminate",
+          "value": null,
+          "source": null,
+          "reason": "Visible evidence does not resolve liquid presence or an empty barrel"
+        },
+        "liquid_volume": {
+          "status": "indeterminate",
+          "ml": null,
+          "interval_ml": null,
+          "reason": "No supported graduation and piston measurement for this box."
+        },
+        "liquid_colour": {
+          "status": "indeterminate",
+          "lab": null,
+          "srgb": null,
+          "family": null,
+          "lightness_lstar": null,
+          "basis": null,
+          "reason": "The visible liquid region does not support a color measurement."
+        },
+        "liquid_opacity": {
+          "status": "indeterminate",
+          "value": null,
+          "basis": "relative luminance contrast attenuation",
+          "reason": "A registered clear-barrel reference at the same exposure is required."
+        }
+      }
+    },
+    {
+      "id": "IMG_3180",
+      "clear_control": true,
+      "reference": {
+        "liquid_presence": {
+          "status": "indeterminate"
+        }
+      },
+      "prediction": {
+        "syringe_type": {
+          "status": "indeterminate",
+          "value": null,
+          "reason": "No supported type or scale evidence for this box."
+        },
+        "nominal_capacity": {
+          "status": "indeterminate",
+          "ml": null,
+          "source": null,
+          "reason": "Nominal-capacity markings are unavailable or ambiguous"
+        },
+        "liquid_presence": {
+          "status": "indeterminate",
+          "value": null,
+          "source": null,
+          "reason": "Visible evidence does not resolve liquid presence or an empty barrel"
+        },
+        "liquid_volume": {
+          "status": "indeterminate",
+          "ml": null,
+          "interval_ml": null,
+          "reason": "No supported graduation and piston measurement for this box."
+        },
+        "liquid_colour": {
+          "status": "indeterminate",
+          "lab": null,
+          "srgb": null,
+          "family": null,
+          "lightness_lstar": null,
+          "basis": null,
+          "reason": "The visible liquid region does not support a color measurement."
+        },
+        "liquid_opacity": {
+          "status": "indeterminate",
+          "value": null,
+          "basis": "relative luminance contrast attenuation",
+          "reason": "A registered clear-barrel reference at the same exposure is required."
+        }
+      }
+    },
+    {
+      "id": "IMG_3181",
+      "clear_control": true,
+      "reference": {
+        "liquid_presence": {
+          "status": "indeterminate"
+        }
+      },
+      "prediction": {
+        "syringe_type": {
+          "status": "indeterminate",
+          "value": null,
+          "reason": "No supported type or scale evidence for this box."
+        },
+        "nominal_capacity": {
+          "status": "indeterminate",
+          "ml": null,
+          "source": null,
+          "reason": "Nominal-capacity markings are unavailable or ambiguous"
+        },
+        "liquid_presence": {
+          "status": "indeterminate",
+          "value": null,
+          "source": null,
+          "reason": "Visible evidence does not resolve liquid presence or an empty barrel"
+        },
+        "liquid_volume": {
+          "status": "indeterminate",
+          "ml": null,
+          "interval_ml": null,
+          "reason": "No supported graduation and piston measurement for this box."
+        },
+        "liquid_colour": {
+          "status": "indeterminate",
+          "lab": null,
+          "srgb": null,
+          "family": null,
+          "lightness_lstar": null,
+          "basis": null,
+          "reason": "The visible liquid region does not support a color measurement."
+        },
+        "liquid_opacity": {
+          "status": "indeterminate",
+          "value": null,
+          "basis": "relative luminance contrast attenuation",
+          "reason": "A registered clear-barrel reference at the same exposure is required."
+        }
+      }
+    },
+    {
+      "id": "IMG_3182",
+      "clear_control": true,
+      "reference": {
+        "liquid_presence": {
+          "status": "indeterminate"
+        }
+      },
+      "prediction": {
+        "syringe_type": {
+          "status": "indeterminate",
+          "value": null,
+          "reason": "No supported type or scale evidence for this box."
+        },
+        "nominal_capacity": {
+          "status": "indeterminate",
+          "ml": null,
+          "source": null,
+          "reason": "Nominal-capacity markings are unavailable or ambiguous"
+        },
+        "liquid_presence": {
+          "status": "indeterminate",
+          "value": null,
+          "source": null,
+          "reason": "Visible evidence does not resolve liquid presence or an empty barrel"
+        },
+        "liquid_volume": {
+          "status": "indeterminate",
+          "ml": null,
+          "interval_ml": null,
+          "reason": "No supported graduation and piston measurement for this box."
+        },
+        "liquid_colour": {
+          "status": "indeterminate",
+          "lab": null,
+          "srgb": null,
+          "family": null,
+          "lightness_lstar": null,
+          "basis": null,
+          "reason": "The visible liquid region does not support a color measurement."
+        },
+        "liquid_opacity": {
+          "status": "indeterminate",
+          "value": null,
+          "basis": "relative luminance contrast attenuation",
+          "reason": "A registered clear-barrel reference at the same exposure is required."
+        }
+      }
+    },
+    {
+      "id": "IMG_3183",
+      "clear_control": true,
+      "reference": {
+        "liquid_presence": {
+          "status": "indeterminate"
+        }
+      },
+      "prediction": {
+        "syringe_type": {
+          "status": "indeterminate",
+          "value": null,
+          "reason": "No supported type or scale evidence for this box."
+        },
+        "nominal_capacity": {
+          "status": "indeterminate",
+          "ml": null,
+          "source": null,
+          "reason": "Nominal-capacity markings are unavailable or ambiguous"
+        },
+        "liquid_presence": {
+          "status": "indeterminate",
+          "value": null,
+          "source": null,
+          "reason": "Visible evidence does not resolve liquid presence or an empty barrel"
+        },
+        "liquid_volume": {
+          "status": "indeterminate",
+          "ml": null,
+          "interval_ml": null,
+          "reason": "No supported graduation and piston measurement for this box."
+        },
+        "liquid_colour": {
+          "status": "indeterminate",
+          "lab": null,
+          "srgb": null,
+          "family": null,
+          "lightness_lstar": null,
+          "basis": null,
+          "reason": "The visible liquid region does not support a color measurement."
+        },
+        "liquid_opacity": {
+          "status": "indeterminate",
+          "value": null,
+          "basis": "relative luminance contrast attenuation",
+          "reason": "A registered clear-barrel reference at the same exposure is required."
+        }
+      }
+    },
+    {
+      "id": "IMG_3184",
+      "clear_control": true,
+      "reference": {
+        "liquid_presence": {
+          "status": "indeterminate"
+        }
+      },
+      "prediction": {
+        "syringe_type": {
+          "status": "indeterminate",
+          "value": null,
+          "reason": "No supported type or scale evidence for this box."
+        },
+        "nominal_capacity": {
+          "status": "indeterminate",
+          "ml": null,
+          "source": null,
+          "reason": "Nominal-capacity markings are unavailable or ambiguous"
+        },
+        "liquid_presence": {
+          "status": "indeterminate",
+          "value": null,
+          "source": null,
+          "reason": "Visible evidence does not resolve liquid presence or an empty barrel"
+        },
+        "liquid_volume": {
+          "status": "indeterminate",
+          "ml": null,
+          "interval_ml": null,
+          "reason": "No supported graduation and piston measurement for this box."
+        },
+        "liquid_colour": {
+          "status": "indeterminate",
+          "lab": null,
+          "srgb": null,
+          "family": null,
+          "lightness_lstar": null,
+          "basis": null,
+          "reason": "The visible liquid region does not support a color measurement."
+        },
+        "liquid_opacity": {
+          "status": "indeterminate",
+          "value": null,
+          "basis": "relative luminance contrast attenuation",
+          "reason": "A registered clear-barrel reference at the same exposure is required."
+        }
+      }
+    },
+    {
+      "id": "IMG_3185",
+      "clear_control": true,
+      "reference": {
+        "liquid_presence": {
+          "status": "indeterminate"
+        }
+      },
+      "prediction": {
+        "syringe_type": {
+          "status": "indeterminate",
+          "value": null,
+          "reason": "No supported type or scale evidence for this box."
+        },
+        "nominal_capacity": {
+          "status": "indeterminate",
+          "ml": null,
+          "source": null,
+          "reason": "Nominal-capacity markings are unavailable or ambiguous"
+        },
+        "liquid_presence": {
+          "status": "indeterminate",
+          "value": null,
+          "source": null,
+          "reason": "Visible evidence does not resolve liquid presence or an empty barrel"
+        },
+        "liquid_volume": {
+          "status": "indeterminate",
+          "ml": null,
+          "interval_ml": null,
+          "reason": "No supported graduation and piston measurement for this box."
+        },
+        "liquid_colour": {
+          "status": "indeterminate",
+          "lab": null,
+          "srgb": null,
+          "family": null,
+          "lightness_lstar": null,
+          "basis": null,
+          "reason": "The visible liquid region does not support a color measurement."
+        },
+        "liquid_opacity": {
+          "status": "indeterminate",
+          "value": null,
+          "basis": "relative luminance contrast attenuation",
+          "reason": "A registered clear-barrel reference at the same exposure is required."
+        }
+      }
+    },
+    {
+      "id": "IMG_3186",
+      "clear_control": true,
+      "reference": {
+        "liquid_presence": {
+          "status": "indeterminate"
+        }
+      },
+      "prediction": {
+        "syringe_type": {
+          "status": "indeterminate",
+          "value": null,
+          "reason": "No supported type or scale evidence for this box."
+        },
+        "nominal_capacity": {
+          "status": "indeterminate",
+          "ml": null,
+          "source": null,
+          "reason": "Nominal-capacity markings are unavailable or ambiguous"
+        },
+        "liquid_presence": {
+          "status": "indeterminate",
+          "value": null,
+          "source": null,
+          "reason": "Visible evidence does not resolve liquid presence or an empty barrel"
+        },
+        "liquid_volume": {
+          "status": "indeterminate",
+          "ml": null,
+          "interval_ml": null,
+          "reason": "No supported graduation and piston measurement for this box."
+        },
+        "liquid_colour": {
+          "status": "indeterminate",
+          "lab": null,
+          "srgb": null,
+          "family": null,
+          "lightness_lstar": null,
+          "basis": null,
+          "reason": "The visible liquid region does not support a color measurement."
+        },
+        "liquid_opacity": {
+          "status": "indeterminate",
+          "value": null,
+          "basis": "relative luminance contrast attenuation",
+          "reason": "A registered clear-barrel reference at the same exposure is required."
+        }
+      }
+    },
+    {
+      "id": "IMG_3187",
+      "clear_control": true,
+      "reference": {
+        "liquid_presence": {
+          "status": "indeterminate"
+        }
+      },
+      "prediction": {
+        "syringe_type": {
+          "status": "indeterminate",
+          "value": null,
+          "reason": "No supported type or scale evidence for this box."
+        },
+        "nominal_capacity": {
+          "status": "indeterminate",
+          "ml": null,
+          "source": null,
+          "reason": "Nominal-capacity markings are unavailable or ambiguous"
+        },
+        "liquid_presence": {
+          "status": "indeterminate",
+          "value": null,
+          "source": null,
+          "reason": "Visible evidence does not resolve liquid presence or an empty barrel"
+        },
+        "liquid_volume": {
+          "status": "indeterminate",
+          "ml": null,
+          "interval_ml": null,
+          "reason": "No supported graduation and piston measurement for this box."
+        },
+        "liquid_colour": {
+          "status": "indeterminate",
+          "lab": null,
+          "srgb": null,
+          "family": null,
+          "lightness_lstar": null,
+          "basis": null,
+          "reason": "The visible liquid region does not support a color measurement."
+        },
+        "liquid_opacity": {
+          "status": "indeterminate",
+          "value": null,
+          "basis": "relative luminance contrast attenuation",
+          "reason": "A registered clear-barrel reference at the same exposure is required."
+        }
+      }
+    },
+    {
+      "id": "IMG_3188",
+      "clear_control": true,
+      "reference": {
+        "liquid_presence": {
+          "status": "indeterminate"
+        }
+      },
+      "prediction": {
+        "syringe_type": {
+          "status": "indeterminate",
+          "value": null,
+          "reason": "No supported type or scale evidence for this box."
+        },
+        "nominal_capacity": {
+          "status": "indeterminate",
+          "ml": null,
+          "source": null,
+          "reason": "Nominal-capacity markings are unavailable or ambiguous"
+        },
+        "liquid_presence": {
+          "status": "indeterminate",
+          "value": null,
+          "source": null,
+          "reason": "Visible evidence does not resolve liquid presence or an empty barrel"
+        },
+        "liquid_volume": {
+          "status": "indeterminate",
+          "ml": null,
+          "interval_ml": null,
+          "reason": "No supported graduation and piston measurement for this box."
+        },
+        "liquid_colour": {
+          "status": "indeterminate",
+          "lab": null,
+          "srgb": null,
+          "family": null,
+          "lightness_lstar": null,
+          "basis": null,
+          "reason": "The visible liquid region does not support a color measurement."
+        },
+        "liquid_opacity": {
+          "status": "indeterminate",
+          "value": null,
+          "basis": "relative luminance contrast attenuation",
+          "reason": "A registered clear-barrel reference at the same exposure is required."
+        }
+      }
+    },
+    {
+      "id": "IMG_3189",
+      "clear_control": true,
+      "reference": {
+        "liquid_presence": {
+          "status": "indeterminate"
+        }
+      },
+      "prediction": {
+        "syringe_type": {
+          "status": "indeterminate",
+          "value": null,
+          "reason": "No supported type or scale evidence for this box."
+        },
+        "nominal_capacity": {
+          "status": "indeterminate",
+          "ml": null,
+          "source": null,
+          "reason": "Nominal-capacity markings are unavailable or ambiguous"
+        },
+        "liquid_presence": {
+          "status": "indeterminate",
+          "value": null,
+          "source": null,
+          "reason": "Visible evidence does not resolve liquid presence or an empty barrel"
+        },
+        "liquid_volume": {
+          "status": "indeterminate",
+          "ml": null,
+          "interval_ml": null,
+          "reason": "No supported graduation and piston measurement for this box."
+        },
+        "liquid_colour": {
+          "status": "indeterminate",
+          "lab": null,
+          "srgb": null,
+          "family": null,
+          "lightness_lstar": null,
+          "basis": null,
+          "reason": "The visible liquid region does not support a color measurement."
+        },
+        "liquid_opacity": {
+          "status": "indeterminate",
+          "value": null,
+          "basis": "relative luminance contrast attenuation",
+          "reason": "A registered clear-barrel reference at the same exposure is required."
+        }
+      }
+    },
+    {
+      "id": "IMG_3190",
+      "clear_control": true,
+      "reference": {
+        "liquid_presence": {
+          "status": "indeterminate"
+        }
+      },
+      "prediction": {
+        "syringe_type": {
+          "status": "indeterminate",
+          "value": null,
+          "reason": "No supported type or scale evidence for this box."
+        },
+        "nominal_capacity": {
+          "status": "indeterminate",
+          "ml": null,
+          "source": null,
+          "reason": "Nominal-capacity markings are unavailable or ambiguous"
+        },
+        "liquid_presence": {
+          "status": "indeterminate",
+          "value": null,
+          "source": null,
+          "reason": "Visible evidence does not resolve liquid presence or an empty barrel"
+        },
+        "liquid_volume": {
+          "status": "indeterminate",
+          "ml": null,
+          "interval_ml": null,
+          "reason": "No supported graduation and piston measurement for this box."
+        },
+        "liquid_colour": {
+          "status": "indeterminate",
+          "lab": null,
+          "srgb": null,
+          "family": null,
+          "lightness_lstar": null,
+          "basis": null,
+          "reason": "The visible liquid region does not support a color measurement."
+        },
+        "liquid_opacity": {
+          "status": "indeterminate",
+          "value": null,
+          "basis": "relative luminance contrast attenuation",
+          "reason": "A registered clear-barrel reference at the same exposure is required."
+        }
+      }
+    },
+    {
+      "id": "IMG_3191",
+      "clear_control": true,
+      "reference": {
+        "liquid_presence": {
+          "status": "indeterminate"
+        }
+      },
+      "prediction": {
+        "syringe_type": {
+          "status": "indeterminate",
+          "value": null,
+          "reason": "No supported type or scale evidence for this box."
+        },
+        "nominal_capacity": {
+          "status": "indeterminate",
+          "ml": null,
+          "source": null,
+          "reason": "Nominal-capacity markings are unavailable or ambiguous"
+        },
+        "liquid_presence": {
+          "status": "indeterminate",
+          "value": null,
+          "source": null,
+          "reason": "Visible evidence does not resolve liquid presence or an empty barrel"
+        },
+        "liquid_volume": {
+          "status": "indeterminate",
+          "ml": null,
+          "interval_ml": null,
+          "reason": "No supported graduation and piston measurement for this box."
+        },
+        "liquid_colour": {
+          "status": "indeterminate",
+          "lab": null,
+          "srgb": null,
+          "family": null,
+          "lightness_lstar": null,
+          "basis": null,
+          "reason": "The visible liquid region does not support a color measurement."
+        },
+        "liquid_opacity": {
+          "status": "indeterminate",
+          "value": null,
+          "basis": "relative luminance contrast attenuation",
+          "reason": "A registered clear-barrel reference at the same exposure is required."
+        }
+      }
+    }
+  ],
+  "scope": "One historical capture. The clear photos are unresolved references. Color reference is the displayed Lab of pixels near a manually marked centerline."
+}

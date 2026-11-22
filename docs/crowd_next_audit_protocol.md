@@ -1,0 +1,7 @@
+# Prospective crowd transfer
+
+Compare the released Intel path, the previous fixed SAM mask policy alone, and the fixed additive hybrid on the same new public photographs. SAM uses the `syringe` prompt, input edge 756, box coordinates, mask suppression and a score floor of 0.50. The additive reconciliation is the existing unaltered policy.
+
+Before either inference pass, finalize the acquired rasters, provenance, source groups, normalized instance boxes, and a second count review for every crowd. Both reviewers work on the original photos before seeing predictions. Exclude unresolved ambiguous scenes and count disagreements from the primary metrics and record their identifiers. Retain the reference, review and code digests. Include hard negatives with syringe-like forms. Keep the whole source acquisitions outside fitting and augmentation.
+
+Report exact count by image and acquisition, absolute counting error, IoU 0.50 matches, missed reference boxes, false positives, precision, recall, F1 and fixed-output AP. A promotion requires more exact crowd counts and a higher acquisition-macro exact rate, no additional false positives, no lost baseline matches and no previously exact scene becoming inexact. Check the same policy against earlier protected scenes before any promotion. Preserve disagreements and measure branch latency. This sample supports a transfer comparison within its stated coverage.

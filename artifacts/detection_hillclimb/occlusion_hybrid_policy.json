@@ -1,0 +1,12 @@
+{
+  "implementation": "3d869417351b5b2cd42d277d398e1381fba260e3336c96de890dbaf2f5df1c81",
+  "reserve": "1a9d63908f3f1246176eb19a1429c765cfe247e1ef70a7dcbe1c681cd525b29f",
+  "arms": [
+    "initial-tiled",
+    "specialist-tiled"
+  ],
+  "sam_floor": 0.5,
+  "rfdetr_floor_multiplier": 0.5,
+  "agreement_iou": 0.5,
+  "route_maximum": 1
+}

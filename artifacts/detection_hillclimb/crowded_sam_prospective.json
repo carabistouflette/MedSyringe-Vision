@@ -1,0 +1,206 @@
+{
+  "outcomes": {
+    "released": {
+      "metrics": {
+        "images": 6,
+        "objects": 9,
+        "tp": 7,
+        "fp": 0,
+        "fn": 2,
+        "precision": 1.0,
+        "recall": 0.7777777777777778,
+        "f1": 0.8750000000000001,
+        "ap50": 0.7722772277227723,
+        "ap50_95": 0.6694059405940594,
+        "exact_count": 4,
+        "negative_images": 2,
+        "correct_empty": 2
+      },
+      "retention": {
+        "passed": true,
+        "lost_matches": [],
+        "recovered_matches": 0,
+        "baseline_matches": 7,
+        "candidate_matches": 7
+      },
+      "counts": {
+        "oi-821b7861e9d287e5": [
+          3,
+          2
+        ],
+        "top-syringe-KVK20AawDgwVc8j5jJks": [
+          2,
+          1
+        ],
+        "syringe-lines-XZaRtSuDumdNdfxBtFh7": [
+          2,
+          2
+        ],
+        "biomedical-waste-J12fp1TtzghLkHO1sStA": [
+          2,
+          2
+        ],
+        "pharmaceutical-waste-06a7AFGqFgDfwrGSxIov": [
+          0,
+          0
+        ],
+        "pharmaceutical-waste-06ypKzKTHH6SxnxO1pbv": [
+          0,
+          0
+        ]
+      }
+    },
+    "sam standalone": {
+      "metrics": {
+        "images": 6,
+        "objects": 9,
+        "tp": 9,
+        "fp": 2,
+        "fn": 0,
+        "precision": 0.8181818181818182,
+        "recall": 1.0,
+        "f1": 0.9,
+        "ap50": 1.0,
+        "ap50_95": 0.7279172560113154,
+        "exact_count": 4,
+        "negative_images": 2,
+        "correct_empty": 1
+      },
+      "retention": {
+        "passed": true,
+        "lost_matches": [],
+        "recovered_matches": 2,
+        "baseline_matches": 7,
+        "candidate_matches": 9
+      },
+      "counts": {
+        "oi-821b7861e9d287e5": [
+          3,
+          3
+        ],
+        "top-syringe-KVK20AawDgwVc8j5jJks": [
+          2,
+          3
+        ],
+        "syringe-lines-XZaRtSuDumdNdfxBtFh7": [
+          2,
+          2
+        ],
+        "biomedical-waste-J12fp1TtzghLkHO1sStA": [
+          2,
+          2
+        ],
+        "pharmaceutical-waste-06a7AFGqFgDfwrGSxIov": [
+          0,
+          0
+        ],
+        "pharmaceutical-waste-06ypKzKTHH6SxnxO1pbv": [
+          0,
+          1
+        ]
+      }
+    },
+    "add unmatched": {
+      "metrics": {
+        "images": 6,
+        "objects": 9,
+        "tp": 8,
+        "fp": 0,
+        "fn": 1,
+        "precision": 1.0,
+        "recall": 0.8888888888888888,
+        "f1": 0.9411764705882353,
+        "ap50": 0.8811881188118812,
+        "ap50_95": 0.770148514851485,
+        "exact_count": 5,
+        "negative_images": 2,
+        "correct_empty": 2
+      },
+      "retention": {
+        "passed": true,
+        "lost_matches": [],
+        "recovered_matches": 1,
+        "baseline_matches": 7,
+        "candidate_matches": 8
+      },
+      "counts": {
+        "oi-821b7861e9d287e5": [
+          3,
+          3
+        ],
+        "top-syringe-KVK20AawDgwVc8j5jJks": [
+          2,
+          1
+        ],
+        "syringe-lines-XZaRtSuDumdNdfxBtFh7": [
+          2,
+          2
+        ],
+        "biomedical-waste-J12fp1TtzghLkHO1sStA": [
+          2,
+          2
+        ],
+        "pharmaceutical-waste-06a7AFGqFgDfwrGSxIov": [
+          0,
+          0
+        ],
+        "pharmaceutical-waste-06ypKzKTHH6SxnxO1pbv": [
+          0,
+          0
+        ]
+      }
+    },
+    "replace aligned": {
+      "metrics": {
+        "images": 6,
+        "objects": 9,
+        "tp": 8,
+        "fp": 0,
+        "fn": 1,
+        "precision": 1.0,
+        "recall": 0.8888888888888888,
+        "f1": 0.9411764705882353,
+        "ap50": 0.8811881188118812,
+        "ap50_95": 0.7679490806223479,
+        "exact_count": 5,
+        "negative_images": 2,
+        "correct_empty": 2
+      },
+      "retention": {
+        "passed": true,
+        "lost_matches": [],
+        "recovered_matches": 1,
+        "baseline_matches": 7,
+        "candidate_matches": 8
+      },
+      "counts": {
+        "oi-821b7861e9d287e5": [
+          3,
+          3
+        ],
+        "top-syringe-KVK20AawDgwVc8j5jJks": [
+          2,
+          1
+        ],
+        "syringe-lines-XZaRtSuDumdNdfxBtFh7": [
+          2,
+          2
+        ],
+        "biomedical-waste-J12fp1TtzghLkHO1sStA": [
+          2,
+          2
+        ],
+        "pharmaceutical-waste-06a7AFGqFgDfwrGSxIov": [
+          0,
+          0
+        ],
+        "pharmaceutical-waste-06ypKzKTHH6SxnxO1pbv": [
+          0,
+          0
+        ]
+      }
+    }
+  },
+  "references_sha256": "cc80a6d3644cc27ac636028f662c5e32ad04963c757ad0491ce1e38d30db9ce9",
+  "scope": "Three crowded and three hard-negative photos from distinct groups. The experiment is descriptive and no thresholds were tuned."
+}

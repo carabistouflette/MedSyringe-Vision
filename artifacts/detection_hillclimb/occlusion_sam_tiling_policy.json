@@ -1,0 +1,15 @@
+{
+  "part_model": "3fd6254b0089a2836be062d4a56125df5e486b0f524e1f3a4680a4e9404932a6",
+  "code": "1a061d1db33d02ef8deda16b955f5d6d9d000bf86b012aeb3ead9d1750796926",
+  "reserve": "1a9d63908f3f1246176eb19a1429c765cfe247e1ef70a7dcbe1c681cd525b29f",
+  "minimum_score": 0.5,
+  "tile_fraction": 0.66,
+  "max_existing_to_route": 1,
+  "rules": [
+    "full",
+    "tile",
+    "agreement",
+    "anatomy"
+  ],
+  "replay_gate": "Improve independent reserve matches while preserving all released matches and introducing zero false positives in every evaluated cohort."
+}

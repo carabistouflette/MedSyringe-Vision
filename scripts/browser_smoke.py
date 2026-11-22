@@ -59,9 +59,12 @@ def main():
     parser.add_argument("--analysis-timeout", type=float, default=120,
                         help="Seconds to wait for real inference in this test.")
     parser.add_argument("--without-ocr", action="store_true",
-                        help="Turn off visible marking analysis for a detection-only browser check.")
+                        help="Inspect liquid appearance with visible marking extraction disabled.")
+    parser.add_argument("--count-only", action="store_true", help="Submit the count-only mode.")
+    parser.add_argument("--field-abstention", action="store_true",
+                        help="Verify independent per-object field status in the exported report.")
     args = parser.parse_args()
-    if args.without_ocr and any((args.followup_control, args.expanded_markings_control,
+    if (args.without_ocr or args.count_only) and any((args.followup_control, args.expanded_markings_control,
                                  args.graduation_control, args.fill_control, args.manual_fill_control)):
         parser.error("Marking and fill controls require OCR.")
     if args.replace_candidate and args.review_candidate:
@@ -121,11 +124,15 @@ def main():
                 expect(page.get_by_role("heading", name="Scene inspection")).to_be_visible()
                 if args.without_ocr:
                     page.get_by_role("checkbox", name="Read visible markings").uncheck()
-                    flows.append("detection-only analysis selected in the upload form")
+                    flows.append("visible marking extraction disabled in the upload form")
                 page.locator("#file").set_input_files(args.image)
-                page.get_by_role("button", name="Analyze", exact=True).click()
+                action = "Count only" if args.count_only else "Analyze"
+                page.get_by_role("button", name=action, exact=True).click()
                 expect(page.locator("#boxes button").first).to_be_visible(timeout=args.analysis_timeout*1000)
                 count = page.locator("#boxes button").count()
+                if args.count_only:
+                    expect(page.get_by_text(f"{args.image.name} · Count only", exact=True)).to_be_visible()
+                    flows.append("count-only analysis selected in the upload form")
                 pixels = None
                 if args.native_evidence:
                     link = page.get_by_role("link", name="Inspect native-resolution crop", exact=True).first
@@ -225,6 +232,15 @@ def main():
                 assert download.value.suggested_filename.endswith(".zip")
                 with ZipFile(download.value.path()) as report_zip:
                     report = json.loads(report_zip.read("report.json"))
+                    if args.count_only:
+                        assert report["original"]["analysis_mode"] == "count only"
+                        for obj in report["original"]["objects"]:
+                            assert obj["inscriptions"]["status"] == "not requested"
+                            assert obj["scale"] is None and obj["liquid_appearance"] is None
+                            fields = report["original_field_status"][obj["id"]]
+                            assert fields["nominal_capacity"]["ml"] is None
+                            assert fields["liquid_volume"]["ml"] is None
+                        flows.append("count-only provenance and unmeasured attributes in the exported original")
                     if args.native_evidence:
                         original = report_zip.read(report["original_image"])
                         source = report["original"]
@@ -239,6 +255,20 @@ def main():
                     assert report["original"]["objects"][0]["origin"] == "model"
                     assert report["objects"][0]["scale"] == corrected
                     assert report["objects"][0]["origin"] == "human"
+                    if args.field_abstention:
+                        revisions = (("field_status", report["objects"]),
+                                     ("original_field_status", report["original"]["objects"]))
+                        for status_key, objects in revisions:
+                            assert set(report[status_key]) == {obj["id"] for obj in objects}
+                            for obj in objects:
+                                fields = report[status_key][obj["id"]]
+                                assert (fields["syringe_type"]["status"] == "indeterminate") == (obj["scale"] is None)
+                                if args.without_ocr:
+                                    assert fields["liquid_volume"]["status"] == "indeterminate"
+                                    assert fields["liquid_volume"]["ml"] is None and fields["liquid_volume"]["reason"]
+                        if args.without_ocr:
+                            expect(page.get_by_text("Volume · not estimable", exact=True).first).to_be_visible()
+                        flows.append("per-object field abstention and concrete reasons in the visible review and ZIP")
                     assert report["inventory_check"]["extra"]["syringe"] == count
                     assert report_zip.read("observation.jpg").startswith(b"\xff\xd8")
                     if args.expanded_markings_control:

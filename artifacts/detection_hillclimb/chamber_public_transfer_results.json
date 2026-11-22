@@ -1,0 +1,201 @@
+{
+  "reference": "43c9981f97fb4bb0b405d8c222e36c3935370904e4ececbf63002c022154bc75",
+  "rows": [
+    {
+      "id": "left-green",
+      "endpoints": [
+        [
+          88,
+          178
+        ],
+        [
+          198,
+          251
+        ]
+      ],
+      "width": 30,
+      "apparent_hue": "green",
+      "result": {
+        "presence": "unknown",
+        "appearance": null,
+        "fill_ml": null,
+        "opacity": null,
+        "reason": "A single colored column bounded by a transverse dark seal was not established.",
+        "opacity_reason": "A registered clear-barrel reference at the same exposure is required."
+      }
+    },
+    {
+      "id": "left-orange",
+      "endpoints": [
+        [
+          142,
+          138
+        ],
+        [
+          222,
+          229
+        ]
+      ],
+      "width": 27,
+      "apparent_hue": "orange",
+      "result": {
+        "presence": "unknown",
+        "appearance": null,
+        "fill_ml": null,
+        "opacity": null,
+        "reason": "A single colored column bounded by a transverse dark seal was not established.",
+        "opacity_reason": "A registered clear-barrel reference at the same exposure is required."
+      }
+    },
+    {
+      "id": "left-red",
+      "endpoints": [
+        [
+          175,
+          86
+        ],
+        [
+          245,
+          212
+        ]
+      ],
+      "width": 28,
+      "apparent_hue": "red",
+      "result": {
+        "presence": "unknown",
+        "appearance": null,
+        "fill_ml": null,
+        "opacity": null,
+        "reason": "A single colored column bounded by a transverse dark seal was not established.",
+        "opacity_reason": "A registered clear-barrel reference at the same exposure is required."
+      }
+    },
+    {
+      "id": "center-yellow",
+      "endpoints": [
+        [
+          244,
+          61
+        ],
+        [
+          274,
+          217
+        ]
+      ],
+      "width": 25,
+      "apparent_hue": "yellow",
+      "result": {
+        "presence": "unknown",
+        "appearance": null,
+        "fill_ml": null,
+        "opacity": null,
+        "reason": "A single colored column bounded by a transverse dark seal was not established.",
+        "opacity_reason": "A registered clear-barrel reference at the same exposure is required."
+      }
+    },
+    {
+      "id": "center-blue",
+      "endpoints": [
+        [
+          336,
+          81
+        ],
+        [
+          308,
+          220
+        ]
+      ],
+      "width": 25,
+      "apparent_hue": "blue",
+      "result": {
+        "presence": "unknown",
+        "appearance": null,
+        "fill_ml": null,
+        "opacity": null,
+        "reason": "A single colored column bounded by a transverse dark seal was not established.",
+        "opacity_reason": "A registered clear-barrel reference at the same exposure is required."
+      }
+    },
+    {
+      "id": "right-orange",
+      "endpoints": [
+        [
+          405,
+          135
+        ],
+        [
+          333,
+          227
+        ]
+      ],
+      "width": 28,
+      "apparent_hue": "orange",
+      "result": {
+        "presence": "unknown",
+        "appearance": null,
+        "fill_ml": null,
+        "opacity": null,
+        "reason": "A single colored column bounded by a transverse dark seal was not established.",
+        "opacity_reason": "A registered clear-barrel reference at the same exposure is required."
+      }
+    },
+    {
+      "id": "right-red",
+      "endpoints": [
+        [
+          456,
+          172
+        ],
+        [
+          352,
+          248
+        ]
+      ],
+      "width": 28,
+      "apparent_hue": "red",
+      "result": {
+        "presence": "present",
+        "appearance": {
+          "status": "appearance measured",
+          "reason": "Measured within the supported barrel interior",
+          "lightness": {
+            "lstar": 54.4,
+            "iqr": [
+              47.6,
+              58.8
+            ],
+            "category": "medium"
+          },
+          "apparent_color": {
+            "lab": [
+              54.4,
+              39.7,
+              12.8
+            ],
+            "chroma": 41.7,
+            "srgb": [
+              195,
+              101,
+              108
+            ],
+            "profile": "sRGB assumed",
+            "family": "red"
+          },
+          "region": [
+            0.32142857142857145,
+            0.5503875968992248,
+            0.6785714285714286,
+            0.7829457364341085
+          ],
+          "opacity": null,
+          "opacity_reason": "A registered clear-barrel reference at the same exposure is required."
+        },
+        "fill_ml": null,
+        "opacity": null,
+        "reason": "A coherent colored interior column adjoins a transverse dark band.",
+        "opacity_reason": "A registered clear-barrel reference at the same exposure is required."
+      }
+    }
+  ],
+  "scope": "Seven manually aligned objects from a single staged acquisition. The target is visible color. Fill in mL and opacity are unknown."
+}

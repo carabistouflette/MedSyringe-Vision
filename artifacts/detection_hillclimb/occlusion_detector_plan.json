@@ -1,0 +1,1820 @@
+{
+  "seed": 631,
+  "code_sha256": "6a479690720382f0293d8645353542aedee462e5b557d9721336a90cc0ca4951",
+  "initial_sha256": "42a654e180ecbdeaf735f41fd16a95af3769c70bf8f1f4cf6da175c7af8837bb",
+  "counts": {
+    "train": {
+      "images": 181,
+      "targets": 158,
+      "sha256": "eee9dd8de395aafdef465c9f2acaf499873c9f8f5de1552b8331c314b281c34e",
+      "negatives": 40
+    },
+    "valid": {
+      "images": 60,
+      "targets": 44,
+      "sha256": "5f416d575197dc1cee34e6d82de0aca4971690e38524c9302eee50c68aac60d1",
+      "negatives": 24
+    }
+  },
+  "roles": {
+    "fit": [
+      {
+        "id": "cdc-phil-11854",
+        "sha256": "10df8a094be24accca1c4449f8ea98a5b4a728dcee2e0198e9c8e8314547da47",
+        "group": "cdc-phil:James Gathany:2009"
+      },
+      {
+        "id": "cdc-phil-11856",
+        "sha256": "1ec2aba08c0f279a00f068bbfa160eafa7ec61ba1ee721a4d9e545554696c1e5",
+        "group": "cdc-phil:James Gathany:2009"
+      },
+      {
+        "id": "cdc-phil-11863",
+        "sha256": "1167bd2ba8db84e912938464f7659bbd9d16f47f9335be1726c2f038b04e23a7",
+        "group": "cdc-phil:James Gathany:2009"
+      },
+      {
+        "id": "commons-105644688",
+        "sha256": "5052a11efe2b9c7c193adba94279d945f7b657c5b792b450603288fff57b906e",
+        "group": "public-author:sggp online"
+      },
+      {
+        "id": "commons-111974556",
+        "sha256": "26cfdb3a4ea4356e1807a4a95e23685658df0f1f6f7f3f862402cbd77edbd07a",
+        "group": "commons:prefeitura de olinda"
+      },
+      {
+        "id": "commons-113687662",
+        "sha256": "fd0ab48eee8d9824c349c9ec6f6be13cb311eb0883a595aa145a7e47f4676ae3",
+        "group": "commons:clintmuffs"
+      },
+      {
+        "id": "commons-154870931",
+        "sha256": "3b6ead3ec0b0a612454521a09fd8ae00f5fe00ac9377120699e776cd7f55de85",
+        "group": "public-author:u.s. air force photo by airman jared lovett"
+      },
+      {
+        "id": "commons-154872801",
+        "sha256": "d3a91c2f94a4eb08faedde384e757f8243e02abe767fd027bb35c91aaee8636b",
+        "group": "public-author:u.s. air force photo by airman jared lovett"
+      },
+      {
+        "id": "commons-154897823",
+        "sha256": "090a45d5ac0a54fafcc7915b3bf617b52b7cccfc724feb9bc4e7859a5be7c7fa",
+        "group": "public-author:u.s. army photo by maj. robert fellingham"
+      },
+      {
+        "id": "commons-154897839",
+        "sha256": "007a3915fc13c4614f7a093e417d820905f47ee15806391bfab063fce5a1806c",
+        "group": "public-author:u.s. army photo by maj. robert fellingham"
+      },
+      {
+        "id": "commons-154897844",
+        "sha256": "d53570e20978296904b8abedf538e2e6d26a6c148dc3b3cc546e9a439cc1c594",
+        "group": "public-author:u.s. army photo by maj. robert fellingham"
+      },
+      {
+        "id": "commons-154897848",
+        "sha256": "437dcecd6d18234ede2af6ebadc8a0c67480380250b30410ecf741a4c7f518b0",
+        "group": "public-author:u.s. army photo by maj. robert fellingham"
+      },
+      {
+        "id": "commons-157431894",
+        "sha256": "815cef5f6a43d4b01d1e3a94c34db5d8f8c99e97864db69bf89b391e0df9079b",
+        "group": "public-author:u.s. air force photo by staff sgt. heidi goodsell"
+      },
+      {
+        "id": "commons-157431922",
+        "sha256": "40f82244cc3a390d74c3944970130267427651a5e7471d185c3978df3ed546be",
+        "group": "public-author:u.s. navy photo by christina clarke"
+      },
+      {
+        "id": "commons-157529342",
+        "sha256": "d06e8bee2d4666c83c0c5681dfbdd88de37811a828516848de11f3ed2d94ac39",
+        "group": "public-author:stephane lesbats (ifremer, pôle images, centre bretagne - zi de la pointe du diable - cs 10070 - 29280 plouzané, france)"
+      },
+      {
+        "id": "commons-160490875",
+        "sha256": "17340bd2f5c201690ce4baea157838be6268c014d08d35f64b2f3b2eea792982",
+        "group": "public-author:u.s. army tf-o by staff sgt. solomon navarro"
+      },
+      {
+        "id": "commons-160490902",
+        "sha256": "56adce7d1e46bd177c7c53634eaba004b7e5482dc1adaa88a6f690e625cc807e",
+        "group": "public-author:u.s. army tf-o by staff sgt. solomon navarro"
+      },
+      {
+        "id": "commons-16110376",
+        "sha256": "66ebb0b66aae0dc5d26b85a198f0b093a65c8e4c2dc893d79923bb914c493f3c",
+        "group": "public-author:pete lewis / uk department for international development (dfid)"
+      },
+      {
+        "id": "commons-179094001",
+        "sha256": "79f90f1d9e086a76496df255884b493084d04f9fd04de87e3da6101fef336e27",
+        "group": "public-author:romainbehar"
+      },
+      {
+        "id": "commons-197653421",
+        "sha256": "b5f511e7ec67299ead78bbaa3061636e73021df6ac96517989c96d93e9ab926a",
+        "group": "commons:madel candido"
+      },
+      {
+        "id": "commons-53168121",
+        "sha256": "1bce2cc1d65adf894fae72a3603c2656f8740e7526d1632a62b1617e444147ea",
+        "group": "public-author:david adam kess"
+      },
+      {
+        "id": "commons-61279235",
+        "sha256": "fb07579cefec25ab3bbf030b54aa3339504e4766a10a314f840f5ec50f7c4047",
+        "group": "commons:photograph: frank c. müller , frankfurt am main"
+      },
+      {
+        "id": "commons-651990",
+        "sha256": "2e7f541f37b7e26df5d9ac965a8d020a6384dbd51ae7907639cbe2e12875bb0c",
+        "group": "commons:fifo"
+      },
+      {
+        "id": "commons-77604438",
+        "sha256": "e4a746b60b357807ab997c9ab7b29f4dce4c3c9f231c0ebd07d7045c7984152f",
+        "group": "commons:miloš jurišić"
+      },
+      {
+        "id": "commons-8200485",
+        "sha256": "fdc37bd819b9721891eb197bf0fb489bd52233c43f0816e478ff9388c50c8863",
+        "group": "public-author:u.s. navy photo by mass communication specialist seaman apprentice joshua adam nuzzo"
+      },
+      {
+        "id": "commons-8260426",
+        "sha256": "5cb6ca990ebdd80d0baeadc673cbc3664ad14c411ea0be79e78ec314f0ea0a9d",
+        "group": "public-author:spc. howard alperin, mnd-b pao"
+      },
+      {
+        "id": "commons-82792522",
+        "sha256": "cd5886198b996728c1af994d4a31edbe5e7e9d89b1fa7f180bdeee3c79ef5547",
+        "group": "public-author:romainbehar"
+      },
+      {
+        "id": "commons-8319840",
+        "sha256": "04586c2a0e6046d8db3ff0e71e4716846d56cc2e7c079aece7f3c4f7d850d903",
+        "group": "commons:politikaner"
+      },
+      {
+        "id": "commons-8319863",
+        "sha256": "86a874a60c9d94bcb35abf679b6a10bbbe47e47b2d99382b3a4cd0fbd63a9fc8",
+        "group": "commons:politikaner"
+      },
+      {
+        "id": "commons-8398651",
+        "sha256": "bc1878f7ace53a6038fc1e82823c2fb79f8abdc98e477ca15615318d8ae2dfd1",
+        "group": "public-author:jejecam"
+      },
+      {
+        "id": "commons-8685048",
+        "sha256": "056bda0c8d4dc8d66834a72a3050fbfcb49cad4b261622466f78ee72dd8ab413",
+        "group": "commons:politikaner"
+      },
+      {
+        "id": "commons-90681561",
+        "sha256": "49e578e07c8916bb4e020600d9e0dc31be1c0ace47630df011c0f069ecc80804",
+        "group": "public-author:oak ridge national laboratory"
+      },
+      {
+        "id": "150790461",
+        "sha256": "6087cb8e190fb2e3f9b15117d10910a36dc50b7fa91991bad548ae524b52b2bc",
+        "group": "commons:daderot"
+      },
+      {
+        "id": "155856137",
+        "sha256": "c98e177456da269982e108ff8f93721dd5050a0e14644d5f3a97480b8b3aad1e",
+        "group": "commons:joe mabel"
+      },
+      {
+        "id": "17283750",
+        "sha256": "e14c1566a9adf9120bced73c0ff2c8a6e24bf8790ac441757c6cc5a2d0dcc2b4",
+        "group": "commons:cjp24"
+      },
+      {
+        "id": "115697835",
+        "sha256": "0e50c1874d4411a905c7ccd59c878a472368c149364000ab76676ba53fd45f90",
+        "group": "commons:science museum, london"
+      },
+      {
+        "id": "59284146",
+        "sha256": "9c726c18fe147714a9babc57d7e5090f8809bf8ef4e0fa213411cbd49406e6a0",
+        "group": "commons:pualuu"
+      },
+      {
+        "id": "97257014",
+        "sha256": "ae8270c85ce1a1fb4dbac2c54854c9c725590fa41f0f0f2694b29ae5bdedcabf",
+        "group": "commons:nicola sap de mitri"
+      },
+      {
+        "id": "18864470",
+        "sha256": "585c28ec95721a51808db3d7a26ac048ceca5770e49da01045d6705a77ad6d19",
+        "group": "commons:magnus manske"
+      },
+      {
+        "id": "127790110",
+        "sha256": "a4c2d9647bd3790158091262f32069c4f09953953db14c433cae872f1651c7ac",
+        "group": "commons:marius vassnes"
+      },
+      {
+        "id": "17714440",
+        "sha256": "3be3cdd57e995ecca7a3a9a07b671e7c3547ec53b7b5e534d8e15be965b6c8dd",
+        "group": "commons:saurabh r. patil"
+      },
+      {
+        "id": "116616738",
+        "sha256": "8fbe5ffe93a75034af47dffe74c718e9afaaa2d7ffb446b69ba6b84a81531418",
+        "group": "commons:j. c. barros"
+      },
+      {
+        "id": "1576673",
+        "sha256": "18ece56c0b5662b5a0061ad52f3a514e711409c6bedb178cd7cebb055d72fd57",
+        "group": "commons:amagill"
+      },
+      {
+        "id": "pasteur-fit",
+        "sha256": "0c4d216d3947c0719106d751d8281bab7998e7efc3e4d4ca9f738dca048ced5a",
+        "group": "commons:cjp24"
+      },
+      {
+        "id": "191240619",
+        "sha256": "c70590d4b36de34ae89fd9d04ee576c6dd71e50a3430494d717a8bf35ef7418d",
+        "group": "commons:xyxyzyz"
+      },
+      {
+        "id": "29035207",
+        "sha256": "045ae359331fc50223ec61802b29ecfc565c8d88e0674faceb7b697331423450",
+        "group": "commons:cpl jessica olivas"
+      },
+      {
+        "id": "25524601",
+        "sha256": "86decc41e46c05030941950de5b294d7822cbfa670d8df45894a01c1a54dad9e",
+        "group": "commons:maj guy hayes"
+      },
+      {
+        "id": "8203134",
+        "sha256": "7c443e1b13687144cc646f091ad83fb4483c7dbc769f2db5b26e752dc738b8b7",
+        "group": "commons:u.s. navy photo"
+      },
+      {
+        "id": "200299685",
+        "sha256": "f0b49d6e8edeb440031c696d131dacc2b47268b0badd7f056b1b93c9fcbe65a0",
+        "group": "commons:im_tau"
+      },
+      {
+        "id": "4487086",
+        "sha256": "f5c804285467aa18f4b968035105ca4b252982e22fac9e1052ed2f4704ae2fdc",
+        "group": "commons:v1nd3m14tr1x"
+      },
+      {
+        "id": "72197330",
+        "sha256": "b26501c74392c64a7ad5cf0a92ecae9c98100cbca5e289a1e7ffea81199e14c3",
+        "group": "commons:[<a href=\"https://www.amaskincare.com/about/alice-pien-md-medical-director/\">alice pien, md</a>]"
+      },
+      {
+        "id": "11195784",
+        "sha256": "80700437f095d6a085217890d9ca063573ff8a6a088b66fffbd5d0bf9bbb95d3",
+        "group": "commons:goga312"
+      },
+      {
+        "id": "108248905",
+        "sha256": "04ac3370fd7f91f2d341f106ad7374570c233da934ab2accaa6b57ca2080b2ec",
+        "group": "commons:mpan"
+      },
+      {
+        "id": "1783247",
+        "sha256": "0cb49b212f991951d98fad94b20e2f64130b0fe947b12d5df3fddf8a285195e2",
+        "group": "commons:no machine-readable author provided. matanya assumed (based on copyright claims)."
+      },
+      {
+        "id": "2779427",
+        "sha256": "e08b168849f001b6a6a7d5d8cbf2bd79d34a62d46aa651afd681e46eaf4d8020",
+        "group": "commons:armin kübelbeck"
+      },
+      {
+        "id": "145244956",
+        "sha256": "bf9831417e6ce30ab5a35d2a15b5464342349e4dd0a97712e00379d79c08ac56",
+        "group": "commons:the wub"
+      },
+      {
+        "id": "26379221",
+        "sha256": "3cfc690a7c6fbeb0c627c7c6590f4e262ee8576c3a4fe7ee21c0e395565c9d7a",
+        "group": "commons:robert dudash from omaha, usa"
+      },
+      {
+        "id": "131793963",
+        "sha256": "48fc2a08ccae1a51b405091c53044c5ebb2533a8d529eaff292ce0e174b89eed",
+        "group": "commons:senior master sgt. ted daigle / senior airman celeste zuniga"
+      },
+      {
+        "id": "44352059",
+        "sha256": "02488af90015d95489c3a8d56e03268adc4d37886c0ca00de8f665cdcdf5bddd",
+        "group": "commons:university of dundee museum services"
+      },
+      {
+        "id": "30051046",
+        "sha256": "7beef2223c99a660ab8a67351fcdd205eee6ec9c4700690c58bf993ff73d0bda",
+        "group": "commons:cpl paul peterson"
+      },
+      {
+        "id": "17328716",
+        "sha256": "7d3b97d37e7bbe2931b03d52f1800ff88829ba0cc1314c73322abcd562ebbaa3",
+        "group": "commons:ostheimer"
+      },
+      {
+        "id": "148368823",
+        "sha256": "2ce502ca1cdce3bf6740f65b9377e9f7123edb0280204e080ddaa419092fed73",
+        "group": "commons:sgroey"
+      },
+      {
+        "id": "31351996",
+        "sha256": "94db781bb2fb8f8328a4c31377f430d43c4138856c798ff8ef7a9270017de62d",
+        "group": "commons:ankawü"
+      },
+      {
+        "id": "3323591",
+        "sha256": "952d67c7e523ee5d370abeae995e0d6dd2e7652bd314f0181aa62a890e609318",
+        "group": "commons:andrew magill from boulder, usa"
+      },
+      {
+        "id": "993459",
+        "sha256": "f5883c6c6cd197fabc67d75200af78471e0bac52ca11c2e83d7babb3597f7a25",
+        "group": "commons:user:shawnc"
+      },
+      {
+        "id": "01580f1a8a17501c",
+        "sha256": "587156a10b3ef94a441cc07f6aa7ecd20618b55d43ace7afbcdd69a45b13d85c",
+        "group": "openimages-profile:www.flickr.com/people/uclmaps/"
+      },
+      {
+        "id": "55e6ba27e74b134d",
+        "sha256": "d842388d9479faaf56c737c93d2f9597ad6c4100c46ed8f099a3957291941255",
+        "group": "openimages-profile:www.flickr.com/people/cletch/"
+      },
+      {
+        "id": "360e140029ff7f49",
+        "sha256": "adb299cf97a866ff2af67d8056b1b6abf7b093fbe08f63e67322a541df80b24c",
+        "group": "openimages-profile:www.flickr.com/people/nhse/"
+      },
+      {
+        "id": "f5eb5bedde206c8e",
+        "sha256": "bc207b591dbc037361cf40ae2814b679c8faa44e6f631218eaa00207b0cbb914",
+        "group": "openimages-profile:www.flickr.com/people/gosheshe/"
+      },
+      {
+        "id": "2014be0963d6756a",
+        "sha256": "50b307bf02b0573f2f659910ef469d929153eaaa08523e86c694d1c99395ea28",
+        "group": "openimages-profile:www.flickr.com/people/seanmichaelragan/"
+      },
+      {
+        "id": "2e00d647dd51af32",
+        "sha256": "c2bf132a9ee21aa568eceac373d91565a13c07a098f0c5ae72732b1333d5ff59",
+        "group": "openimages-profile:www.flickr.com/people/anakbrunei/"
+      },
+      {
+        "id": "832904078a0ea965",
+        "sha256": "a64b17fef92b8a9dbd0e83cf602a03a412d7c1bd010e3b161e127578880d5d78",
+        "group": "openimages-profile:www.flickr.com/people/prefvotuporanga/"
+      },
+      {
+        "id": "28a6f423a4bf5aee",
+        "sha256": "3a902cdf556c66634452c9b7e1dcdd040d768df0b2ae4b3228821a4a41304ffa",
+        "group": "openimages-profile:www.flickr.com/people/seanmichaelragan/"
+      },
+      {
+        "id": "fe78451c2db38dce",
+        "sha256": "48a865f34f4ad04202ba2cf076efbaf54ef68a220e4c4e61c2c7e38b51803dd1",
+        "group": "openimages-profile:www.flickr.com/people/ghayty/"
+      },
+      {
+        "id": "01c97c250f9c7b75",
+        "sha256": "7763f5b2eb6fbb15ff3a5835d91cfdb1c4eb5f1fd725cc4b62149415f15f76e5",
+        "group": "openimages-profile:www.flickr.com/people/militaryhealth/"
+      },
+      {
+        "id": "1861c78ee758842d",
+        "sha256": "1694382eb381fd6b1e89ee772f1e0b6999641b4ba5c833bc34f3f7072f3a02e9",
+        "group": "openimages-profile:www.flickr.com/people/freddy-click-boy/"
+      },
+      {
+        "id": "80a9efaca7fbc8e8",
+        "sha256": "d65b749df213f143d7c16f699cf860bab9081a1eb9c87bb9cb004933eaa81983",
+        "group": "openimages-profile:www.flickr.com/people/27807834@n02/"
+      },
+      {
+        "id": "63a457d450d123ad",
+        "sha256": "803d5dfb99abea9c14b1f7a783582fa224ea01d35715df0a920651ad6afec8e9",
+        "group": "openimages-profile:www.flickr.com/people/majornelson/"
+      },
+      {
+        "id": "dc64fc3bbba44127",
+        "sha256": "12686380033990377ad46ba85d3c66b50a3f75e86e5b0bc975035eaac63ce245",
+        "group": "openimages-profile:www.flickr.com/people/danielpaquet/"
+      },
+      {
+        "id": "486f23d95bd8459c",
+        "sha256": "9ee875cdb35213ae3f2bee7035678a88b4fe4220e76b699d5aaf61848861d8c9",
+        "group": "openimages-profile:www.flickr.com/people/habesha/"
+      },
+      {
+        "id": "ad461a3dd3c858d9",
+        "sha256": "8723cb72188f61704a7ef9dce943eeb7efeae46c5863d8b0f5b192c23d518f1f",
+        "group": "openimages-profile:www.flickr.com/people/8499561@n02/"
+      },
+      {
+        "id": "3a4cf474c5431e86",
+        "sha256": "ed537c1cb40dacc7a4a571629b4120c21c05b242c7cc099553f75e5efcee5af8",
+        "group": "openimages-profile:www.flickr.com/people/kojach/"
+      },
+      {
+        "id": "f2f670ac8ca58235",
+        "sha256": "a2573503753801c08eaa7be9fd007b4da6e82913254ebe6c16579572d82aa532",
+        "group": "openimages-profile:www.flickr.com/people/ladytaz/"
+      },
+      {
+        "id": "cc545bc71a3c8629",
+        "sha256": "38d1a660a33aca807f9db5644127216f79e051d0dce1a8d1021e38551be4b97b",
+        "group": "openimages-profile:www.flickr.com/people/agecombahia/"
+      },
+      {
+        "id": "a9db50fc8a63a04a",
+        "sha256": "d0ba4763d07da18ba0fdadb6c209da0a63d4aad03b04df92e13a7728c5132585",
+        "group": "openimages-profile:www.flickr.com/people/stevendepolo/"
+      },
+      {
+        "id": "95c67bb630dfbeac",
+        "sha256": "44277957f0a72167fd736c99c1523ed1967551a365e3ba2a2773fcfffaf9d32d",
+        "group": "openimages-profile:www.flickr.com/people/myloonyland/"
+      },
+      {
+        "id": "acf0c516bb829a9d",
+        "sha256": "dcbfe9f81c72fc07ea22d29ec0e4cba9245622e04937ef5ecc29d67e642718e0",
+        "group": "openimages-profile:www.flickr.com/people/danielpaquet/"
+      },
+      {
+        "id": "e8651a3ebd48ea2e",
+        "sha256": "23b7fd2ac33101b8ecebda3fba7320f2a5587668954eabcc7deae3b3d12bf105",
+        "group": "openimages-profile:www.flickr.com/people/8499561@n02/"
+      },
+      {
+        "id": "ef37bcd070fd645f",
+        "sha256": "495cb117b8f20f8382c7bb3c54cebf64b384885ce743808cd3958445f99d2812",
+        "group": "openimages-profile:www.flickr.com/people/8499561@n02/"
+      },
+      {
+        "id": "5e7343835f0ccff7",
+        "sha256": "2407499e8b948eefa5e01dd778aee118fc7e62d614362901fc3fbf9d61e8f06d",
+        "group": "openimages-profile:www.flickr.com/people/pathphotos/"
+      },
+      {
+        "id": "4cb439be6f4087b7",
+        "sha256": "6f42ada61a2e957dd715bce4dfb3a7cac8aa7807b26dbe883e077d638092b0c4",
+        "group": "openimages-profile:www.flickr.com/people/danielpaquet/"
+      },
+      {
+        "id": "962072942e0b6577",
+        "sha256": "b4baec6e11d763eabbf7d0406ff0915db0c0573e275c4ca4e352ae62a70341d1",
+        "group": "openimages-profile:www.flickr.com/people/uclmaps/"
+      },
+      {
+        "id": "6b8f6b04c856313c",
+        "sha256": "7da022400997b8fff794b0d44642e6e07f0df0ba11b089dd9f0fee595a681fa9",
+        "group": "openimages-profile:www.flickr.com/people/discodoll/"
+      },
+      {
+        "id": "7a0474694d905f9a",
+        "sha256": "1833e6c847fdce5015b94ef80f5a875d8f773ee2a20ee9d9589fdf806a79410a",
+        "group": "openimages-profile:www.flickr.com/people/desbenoit/"
+      },
+      {
+        "id": "90a98e099cd1c6f6",
+        "sha256": "a937fd544a33ec8f7da9a6e4aab51b225e5a737690e82787b4348f39bc88a436",
+        "group": "openimages-profile:www.flickr.com/people/25559122@n06/"
+      },
+      {
+        "id": "a929372e95964a4f",
+        "sha256": "1807bda38c55e80fdab918415267550b2692eb9fce9da36dcff9818d66158520",
+        "group": "openimages-profile:www.flickr.com/people/desbenoit/"
+      },
+      {
+        "id": "02fce391c03c8c47",
+        "sha256": "0b3bb656eb501e213ee8420b4a3fbc406d7d3685db2ee015dc6d2ce9d05ecdca",
+        "group": "openimages-profile:www.flickr.com/people/nadya/"
+      },
+      {
+        "id": "a561e1a203e1ab11",
+        "sha256": "504aebe2f34fd9c3af4f6c95ec708964ec87d4e2ed6f9aaa06fbbe40eb5857e8",
+        "group": "openimages-profile:www.flickr.com/people/ftmeade/"
+      },
+      {
+        "id": "78442109a927a8fd",
+        "sha256": "fd783c5f5e1c793eeda1cbc93e8e3e2f83d606068819dab58702506f0e9a2d39",
+        "group": "openimages-profile:www.flickr.com/people/nlipsane/"
+      },
+      {
+        "id": "fb14424e93fbad4e",
+        "sha256": "0dfd04cacc602394803f25e172a0f0d86f1759b6748f4e7e1608fc9076d47737",
+        "group": "openimages-profile:www.flickr.com/people/west point/"
+      },
+      {
+        "id": "35aa4fff107f6fe6",
+        "sha256": "731eea6c6b8d835e347edfaf06c736c346d9219d8bfc556db91c81ba7baf5c2d",
+        "group": "openimages-profile:www.flickr.com/people/wcowperthwaite/"
+      },
+      {
+        "id": "979ea76acd05bffe",
+        "sha256": "b503f8a5f2955a4f315564115daff98c7d1b92ee7cf31e659c73319394da971c",
+        "group": "openimages-profile:www.flickr.com/people/stevendepolo/"
+      },
+      {
+        "id": "152a40d2f486d717",
+        "sha256": "6e42336e295f0f78acb0b7b078bbe9366e2c0e92edbd12003cfa27d290f1e1b4",
+        "group": "openimages-profile:www.flickr.com/people/97481684@n08/"
+      },
+      {
+        "id": "71a7abecc54fb02f",
+        "sha256": "0a01dcaa26c8bc96d8d3e9d2c9f2e589ad303fbf49f285a2dbbd6d2a2a466229",
+        "group": "openimages-profile:www.flickr.com/people/ps sahana/"
+      },
+      {
+        "id": "28b0af2e39ad119f",
+        "sha256": "9b785640aec25e78d79b0dd924549b31926da986f472269ff3360639659572ec",
+        "group": "openimages-profile:www.flickr.com/people/supladotkontrabida/"
+      },
+      {
+        "id": "a6b3ab40356b6e27",
+        "sha256": "2e07ec78341ffbe9c7984536d93ff81f02e97c1c8637957db84e2c07b03f1190",
+        "group": "openimages-profile:www.flickr.com/people/stevendepolo/"
+      },
+      {
+        "id": "e0b2675607efe021",
+        "sha256": "554b934446d12cf27477eb37ca2b66089b70349286c438afc6d24720054209f3",
+        "group": "openimages-profile:www.flickr.com/people/seanmichaelragan/"
+      },
+      {
+        "id": "a93917dd57d2b624",
+        "sha256": "74cd98ebe35dd184e3f65e37b2020bcea833037fae6f4c6b25a5b84ef8599aa7",
+        "group": "openimages-profile:www.flickr.com/people/minuseleven/"
+      },
+      {
+        "id": "5ab43f1ce4c706c9",
+        "sha256": "9f60ab67ebdd38b6bb04591718f788eb45244099046deee8e1823edf41813c70",
+        "group": "openimages-profile:www.flickr.com/people/krishaamer/"
+      },
+      {
+        "id": "b9a3e3e74f40152e",
+        "sha256": "6f41801eef0ca313ad998b764bc8a3a2992416b83a694f572e70fbbf160aeddc",
+        "group": "openimages-profile:www.flickr.com/people/ladytaz/"
+      },
+      {
+        "id": "896c467dacafb3af",
+        "sha256": "54d53e0a3752bb7329184a67828910008e5a8a8ba3cecee47bd9b6567d2c9e37",
+        "group": "openimages-profile:www.flickr.com/people/editor/"
+      },
+      {
+        "id": "02df4feb19de8d50",
+        "sha256": "0e2523e8d71778251ced2c37d454596fc57f07ee36c63890456a22f43d67870f",
+        "group": "openimages-profile:www.flickr.com/people/briangratwicke/"
+      },
+      {
+        "id": "3fedd9e7ed19675b",
+        "sha256": "61f2abd027614008b043c8527c9248885060bea4e9a7db355739beeb14ad7707",
+        "group": "openimages-profile:www.flickr.com/people/wcowperthwaite/"
+      },
+      {
+        "id": "f85bc02c9d89ede3",
+        "sha256": "0605d4a408917274e1ca186e77e261d08cda2087d85aff2edf1687b4e7c66d70",
+        "group": "openimages-profile:www.flickr.com/people/veganfeast/"
+      },
+      {
+        "id": "18bbeaa787b1ba0c",
+        "sha256": "c61afec7201ab46eb5dd20c658f0fb89a33466f0c212075c279362b2f0b56197",
+        "group": "openimages-profile:www.flickr.com/people/dm-set/"
+      },
+      {
+        "id": "77c12485bbf897ef",
+        "sha256": "047ef2192242943d21a13e4a52892774af24468b3067bf45c117148ef5e1ee44",
+        "group": "openimages-profile:www.flickr.com/people/niaid/"
+      },
+      {
+        "id": "2f26460900bbb1a8",
+        "sha256": "503fd6c1ab593db5bca8aa944fee91402eca00b12354ee842941e41998c6ca42",
+        "group": "openimages-profile:www.flickr.com/people/stevendepolo/"
+      },
+      {
+        "id": "6105fe2c402a1664",
+        "sha256": "b6221b2d20ecd3f17d41330425c4db41478d293312e2827931d68a22da6dd101",
+        "group": "openimages-profile:www.flickr.com/people/ibatphone/"
+      },
+      {
+        "id": "9b7497095d2f583a",
+        "sha256": "13752daef6d0f8a14f4580e8b93e76c221a213542056de4eb81867ae6a1e7aab",
+        "group": "openimages-profile:www.flickr.com/people/kojach/"
+      },
+      {
+        "id": "a51933733e374f01",
+        "sha256": "da360dc2dddb7d01eb814a69d7c6fccc87fb7dd1c9f42c4eb15aa6075b85d6cd",
+        "group": "openimages-profile:www.flickr.com/people/agecombahia/"
+      },
+      {
+        "id": "27cc284274223d0c",
+        "sha256": "318f0356b228edec7de010d876d7ad9591fb1918ae56fece25f4feb6c02ab348",
+        "group": "openimages-profile:www.flickr.com/people/komunews/"
+      },
+      {
+        "id": "df4a083bd7377bd5",
+        "sha256": "420a9755b1d907632a99d33d5ccf52755c8bb911608ec47669465ce07d64892c",
+        "group": "openimages-profile:www.flickr.com/people/danielpaquet/"
+      },
+      {
+        "id": "21505317",
+        "sha256": "7b983703497b8dde24930f56114b7a51261f2ea89905f3d9e82da849e0e49b88",
+        "group": "commons:tech. sgt. jeremy t. lock"
+      },
+      {
+        "id": "17112088",
+        "sha256": "2d5e2233143f59fbc0279f7eb5a492e58d5d5b98c6943dbc6be1fe308c420e26",
+        "group": "commons:u.s. navy photo by lt. cmdr. mike morley"
+      },
+      {
+        "id": "2463609",
+        "sha256": "8bfbb9461cd1d7c417c1c5c599b1b366927a47e9892c0eff4dce88d0d7e7efa8",
+        "group": "commons:rosariovantulpe"
+      },
+      {
+        "id": "100655281",
+        "sha256": "414d93684b8ff162d6400b183e2d1c33ecf3fc02c1845f9aa36fa4f02ab53e68",
+        "group": "commons:linnenband"
+      },
+      {
+        "id": "38634713",
+        "sha256": "56a2c443a987795c1b60d54fb4507059fa2baf6229f2433df01e2c3239526a1f",
+        "group": "commons:conor lawless"
+      },
+      {
+        "id": "35175481",
+        "sha256": "30450c69839328588bd57002feec7fc316cd63df88cd244d389a9a17adef4a61",
+        "group": "commons:lcpl chloe nelson"
+      },
+      {
+        "id": "8219629",
+        "sha256": "f90b19246b6313365a7e5f55889ef977024919e2095935b041849cef6cdfcb78",
+        "group": "commons:u.s. navy photo by chief journalist joseph krypel"
+      },
+      {
+        "id": "15604523",
+        "sha256": "1758a74976da810f30ed906051a700d208f4b4ab1bcb7d256a07c25ce939d676",
+        "group": "commons:rept0n1x"
+      },
+      {
+        "id": "8219325",
+        "sha256": "dce5c15d457cbe8995d656e2fb272f603f0f3754fd757a8ea68924f441bc8969",
+        "group": "commons:u.s. navy photo by mass communication specialist 3rd class patrick m. kearney"
+      },
+      {
+        "id": "30563908",
+        "sha256": "60ae3d6fcc24ba8c701f4563867897a037aeb9d769285b855b6b1b341d035872",
+        "group": "commons:coronation dental specialty group"
+      },
+      {
+        "id": "26442826",
+        "sha256": "851298d2eca9718df67ec7dbb09a03e1293510a37ea8599ab182019445b30943",
+        "group": "commons:u.s. air force photo by senior airman anthony sanchelli"
+      },
+      {
+        "id": "23171184",
+        "sha256": "91f7b9d3461f02644ec4fa662b5fc34d512f284dfae6264e56e55e641f19b815",
+        "group": "commons:sgt. alvin d. parson jr"
+      },
+      {
+        "id": "33988361",
+        "sha256": "4ce73abdf4aaffbf5b0863de1ac5b3f707ee0d7f42c0dbb1cc554258e82caa40",
+        "group": "commons:zypcu"
+      },
+      {
+        "id": "76825175",
+        "sha256": "2db702e809067ac7e0bf4e22d7b37fb708ae67453cd3423867ef406cd2301323",
+        "group": "commons:rababahmad"
+      },
+      {
+        "id": "54630716",
+        "sha256": "092dda8bc4a6de9ee5e61abcf44150fce1011446d892da83ee5dd15deb4c6d00",
+        "group": "commons:east midtown"
+      },
+      {
+        "id": "19432406",
+        "sha256": "77a94a75ac74ac53b32b7a8d7c4098e6e09ffb3102c091b44b3c524c9874845a",
+        "group": "commons:santhyego"
+      },
+      {
+        "id": "62130887",
+        "sha256": "1d83f60595196f939fa4040336a0f888c9c48e93dd5439ad48b1b6d459baf963",
+        "group": "commons:jon tyson jontyson"
+      },
+      {
+        "id": "9694350",
+        "sha256": "f550ff223f0f80c9b7942332a48ad671afa3f73951fb14a78e911007b6cd0ba9",
+        "group": "commons:sterilgutassistentin"
+      },
+      {
+        "id": "3462414",
+        "sha256": "af33f59097280d514ba012effb1c20605795200d4130f893a246ddf9d31d3301",
+        "group": "commons:werneuchen"
+      },
+      {
+        "id": "38654641",
+        "sha256": "1e9c9bb682ffa034af037b4c63e7da3d81244021e5d814a40fc6da88a998a4c2",
+        "group": "commons:monnin jacques"
+      },
+      {
+        "id": "100078472",
+        "sha256": "3377ba2bb18c8da7a51190a900cd92150b2bfb60da241b461864be89ac467d1b",
+        "group": "commons:schildwerk"
+      }
+    ],
+    "development": [
+      {
+        "id": "phl-07f48b12515423be",
+        "sha256": "07f48b12515423be70710c74de21f96f50b4d26c359df962f12a62c60e0598b2",
+        "group": "phlebotomy-0012"
+      },
+      {
+        "id": "phl-9f12808eec1c21c0",
+        "sha256": "9f12808eec1c21c045fcb6f10685c0486cba229fee92e550c66b849f8cfbb068",
+        "group": "phlebotomy-0012"
+      },
+      {
+        "id": "phl-fde18ea002c07555",
+        "sha256": "fde18ea002c07555d57957b637ed1fb430308ec33c9bdd4d8a6f05fdb6fc989c",
+        "group": "phlebotomy-0012"
+      },
+      {
+        "id": "phl-29c6eb6cb359853c",
+        "sha256": "29c6eb6cb359853cf05358c08ec03c585ef1d739d4270c86432965a1e458589c",
+        "group": "phlebotomy-0005"
+      },
+      {
+        "id": "phl-d700cc24ef55312d",
+        "sha256": "d700cc24ef55312ddb87878ec73c76c01cd7f8552636500344db18e95c21a090",
+        "group": "phlebotomy-0005"
+      },
+      {
+        "id": "phl-66b1cafb7070d45e",
+        "sha256": "66b1cafb7070d45e8b0434ac2355b45fc02079b462a82bf24bf8be39aacce990",
+        "group": "phlebotomy-0012"
+      },
+      {
+        "id": "phl-7ac906e2b9f8921b",
+        "sha256": "7ac906e2b9f8921ba8ceac0ff8add846fee162f46b580b529f3e2d32125af7f8",
+        "group": "phlebotomy-0005"
+      },
+      {
+        "id": "phl-e09554c7737cba7e",
+        "sha256": "e09554c7737cba7e903c2d608dd4275d31bfeef335630a99117f9a30d009878b",
+        "group": "phlebotomy-0005"
+      },
+      {
+        "id": "phl-aeacda225a56843b",
+        "sha256": "aeacda225a56843b574c42f360d76890ba7a48c586b404faab84123420eee646",
+        "group": "phlebotomy-0012"
+      },
+      {
+        "id": "phl-08f83b650c302826",
+        "sha256": "08f83b650c30282635341beebcc21d6c4ede7ec7f7fe73d97cea606829054af9",
+        "group": "phlebotomy-0012"
+      },
+      {
+        "id": "phl-f8563c66c7905530",
+        "sha256": "f8563c66c790553016cfa8aebf6c3ccbbccc707543bfad1cdbcf3e8e9d330aff",
+        "group": "phlebotomy-0005"
+      },
+      {
+        "id": "phl-5414cebd7fc83433",
+        "sha256": "5414cebd7fc8343354b4b8beeb0bcdebdae29b715c3de671d8ef9fef73ff2c52",
+        "group": "phlebotomy-0012"
+      },
+      {
+        "id": "phl-f914ed1015d82f68",
+        "sha256": "f914ed1015d82f68ed86e1d7cc75ea625e28edef1e20402c932125f495198857",
+        "group": "phlebotomy-0005"
+      },
+      {
+        "id": "phl-8ec9d3ad229eb7c3",
+        "sha256": "8ec9d3ad229eb7c3f81bf119ec137ce201dc014b0a7b41003afa3afd762bdb54",
+        "group": "phlebotomy-0005"
+      },
+      {
+        "id": "phl-b7d329f9b09de08c",
+        "sha256": "b7d329f9b09de08cd8ed7117745c5504b35695751a49253beb2c6ff245b72a53",
+        "group": "phlebotomy-0012"
+      },
+      {
+        "id": "phl-62c05b6215063673",
+        "sha256": "62c05b6215063673c41350b3699f9dbe56a9c17ef39e92092e50bc316e576d80",
+        "group": "phlebotomy-0012"
+      },
+      {
+        "id": "phl-ec9913820f732996",
+        "sha256": "ec9913820f732996f57568cc14bf3d5bfc22a9399269285bf34171e57d2af17f",
+        "group": "phlebotomy-0012"
+      },
+      {
+        "id": "phl-650a54af1e4c5df2",
+        "sha256": "650a54af1e4c5df207253461f2362bf341b770abda8b83f6afd1a167795e6d18",
+        "group": "phlebotomy-0005"
+      },
+      {
+        "id": "phl-3ac7635cb05dfca5",
+        "sha256": "3ac7635cb05dfca56b1a9ffcaafd8932cf7f990cd2ba0a14e63ec69e0559f64d",
+        "group": "phlebotomy-0005"
+      },
+      {
+        "id": "phl-cbf294c0dd85ea72",
+        "sha256": "cbf294c0dd85ea72dab05795eafffda11b95e3414b01c56341a0274c0d7e9f15",
+        "group": "phlebotomy-0005"
+      },
+      {
+        "id": "phl-0b9e4a2fb18941c2",
+        "sha256": "0b9e4a2fb18941c2e90baf5b59d6d4fd2a77d560dba12d0087add6d79cda556f",
+        "group": "phlebotomy-0037"
+      },
+      {
+        "id": "phl-44a688e2a24bd81f",
+        "sha256": "44a688e2a24bd81f8556bf9b10a156273653f35f671c292ba99e23808d5ee030",
+        "group": "phlebotomy-0005"
+      },
+      {
+        "id": "phl-0eb9f729dd4a8876",
+        "sha256": "0eb9f729dd4a8876aad4742b50095798daf243b68cb69cb8400d636270254dcb",
+        "group": "phlebotomy-0012"
+      },
+      {
+        "id": "phl-8c5541a5750791f4",
+        "sha256": "8c5541a5750791f4b0baa3320628247b50c2d0205fbe185efc1ec0db84b86fb0",
+        "group": "phlebotomy-0005"
+      },
+      {
+        "id": "phl-71239b0968ef00ea",
+        "sha256": "71239b0968ef00eaa30f9b60dea3dddbd67a2647c2b9c4edc71f7074a968ad51",
+        "group": "phlebotomy-0012"
+      },
+      {
+        "id": "phl-73f655e238ccbc4d",
+        "sha256": "73f655e238ccbc4d55aeac9ccce93080d4a31aab7376aa7739b25fc13309d988",
+        "group": "phlebotomy-0012"
+      },
+      {
+        "id": "phl-b4057b79e8ceffbd",
+        "sha256": "b4057b79e8ceffbd72275c7858ce76a80c11d6ecc3b53d099e39d7d5276ce14b",
+        "group": "phlebotomy-0012"
+      },
+      {
+        "id": "phl-0a2b2dad41b839dd",
+        "sha256": "0a2b2dad41b839ddf6b349fed92e471995753c4e3b2d1bb54889142a292ee454",
+        "group": "phlebotomy-0012"
+      },
+      {
+        "id": "phl-0bba7e989ab813f7",
+        "sha256": "0bba7e989ab813f77688d9502766d363e4fb6fe9ebc82781eafbcc5a00762269",
+        "group": "phlebotomy-0005"
+      },
+      {
+        "id": "phl-defa8a7ef79a2326",
+        "sha256": "defa8a7ef79a2326f43460345df23c8a049cfd3023cecca08a143116a48a6cd5",
+        "group": "phlebotomy-0012"
+      },
+      {
+        "id": "phl-c1377f5d2f58582f",
+        "sha256": "c1377f5d2f58582f4f1ed12f6780f53deb03e0299bf0c21adc12ef2869c9ef25",
+        "group": "phlebotomy-0005"
+      },
+      {
+        "id": "phl-6737ef10865960df",
+        "sha256": "6737ef10865960df0744a23ec9fafc0c4b4b0f553fda49f656a677d1ef52e9b8",
+        "group": "phlebotomy-0005"
+      },
+      {
+        "id": "phl-21f47b7b69b88f52",
+        "sha256": "21f47b7b69b88f52c9f86c4a216e038184f484b7fa8d45f50fefb38b474107e3",
+        "group": "phlebotomy-0005"
+      },
+      {
+        "id": "phl-fd1b5719ebabe702",
+        "sha256": "fd1b5719ebabe7029285c8293034abadaff06ba0d12561d38d3c9ac5eb27b880",
+        "group": "phlebotomy-0005"
+      },
+      {
+        "id": "phl-8088367565b69592",
+        "sha256": "8088367565b695922f8d0d51d5e7230e2ef306a59fb861e267e073e99fde30c2",
+        "group": "phlebotomy-0012"
+      },
+      {
+        "id": "phl-324dbf06cc071f9f",
+        "sha256": "324dbf06cc071f9ff2800b88ad3d532c60ea57bafbf4f7a055b09ca0ca25cc36",
+        "group": "phlebotomy-0005"
+      },
+      {
+        "id": "phl-74ce620fce7de010",
+        "sha256": "74ce620fce7de010cc79ffeb20f74e3cc75eee225099aa67f2d6db68ab38efcb",
+        "group": "phlebotomy-0037"
+      },
+      {
+        "id": "phl-05bac7c4ade13d4a",
+        "sha256": "05bac7c4ade13d4a066d4da0a01c1255794e5d2c05c75321a698a2746c275875",
+        "group": "phlebotomy-0037"
+      },
+      {
+        "id": "phl-072c14d598e6b5fd",
+        "sha256": "072c14d598e6b5fd071ab2cd5c5bea410c8fe6c204dd3fc3003e9c7bad5bf4fc",
+        "group": "phlebotomy-0012"
+      },
+      {
+        "id": "phl-44b51eac946f0fef",
+        "sha256": "44b51eac946f0fef31ec121a8646aefae1ba07bbbb1edee99acafa0fd66456f9",
+        "group": "phlebotomy-0037"
+      },
+      {
+        "id": "118606096",
+        "sha256": "44e8fde58d649d59450feae756bc96cef79b6b7b68674c21b20e5c5e903ffdb9",
+        "group": "commons:zumaiahe6"
+      },
+      {
+        "id": "1501426",
+        "sha256": "c39e928d2ef1dae9f332df7aed3b9a59db5d79055f6e8bb2a4353d58e63004c2",
+        "group": "commons:no machine-readable author provided. beliason assumed (based on copyright claims)."
+      },
+      {
+        "id": "154888950",
+        "sha256": "9be693dc7a263b38b62689517f04571004bea2e0886d5fe72c03eabd9aaf74b1",
+        "group": "commons:u.s. army usagw by nadine bower"
+      },
+      {
+        "id": "157429146",
+        "sha256": "eaa40facf125083f6adfeff849ca71f91fad48d6ce463985fea7417522bf1bd9",
+        "group": "commons:u.s. air force photo by senior airman eugene oliver"
+      },
+      {
+        "id": "157438208",
+        "sha256": "4855c53a3e4ac98f7e3e4e2e6651738ef4ef0687db576fab3185e5d11b271247",
+        "group": "commons:u.s. army rhce by alain m. polynice"
+      },
+      {
+        "id": "159462910",
+        "sha256": "212ac60d6635ec0fd4b84a25fa69fbdbdf0f1b221e51cb1dd34bc52c3005fae8",
+        "group": "commons:usaid u.s. agency for international development"
+      },
+      {
+        "id": "16176548",
+        "sha256": "ed63d538e0b457408909e85e0c60691d91158febb916727e158be90c5484aea8",
+        "group": "commons:jucember"
+      },
+      {
+        "id": "4627441",
+        "sha256": "524faa504fbddddfdbe2f78e0b18028c8fe8acb771dfe534c305ae9bb5422b2a",
+        "group": "commons:user:mattes"
+      },
+      {
+        "id": "64294696",
+        "sha256": "91deb2b3f26fb777dda7ae1fd9762595115b9cbfa0342df2cae85ed06f9b762c",
+        "group": "commons:고려"
+      },
+      {
+        "id": "74844063",
+        "sha256": "361b5cdd7d8cfff77de1c9e1074a31e711a7d383e711cf4962b75c96bc81015c",
+        "group": "commons:rachel haller"
+      },
+      {
+        "id": "9778179",
+        "sha256": "bfadf382460ed50699ddd25236fe4993fd3112b7133eff78b81d1eefbcae8674",
+        "group": "commons:bestinplastics"
+      },
+      {
+        "id": "435115",
+        "sha256": "c0e2a782fcae694df1df8a087ee250683d10d467b3377e3371731306b5a9d5d5",
+        "group": "commons:no machine-readable author provided. dozenist assumed (based on copyright claims)."
+      },
+      {
+        "id": "2962966",
+        "sha256": "5305a8cd8fb964a61901aab6d0a3db32d88807e54d00086184a90a108f47ad3c",
+        "group": "commons:lokilech"
+      },
+      {
+        "id": "10322370",
+        "sha256": "9a7b1d393f22a847e11bc17865c833ba84aa10bbe8b30cfc527cae5951001350",
+        "group": "commons:u.s. navy photo by mass communication specialist 1st class hendrick dickson"
+      },
+      {
+        "id": "40765212",
+        "sha256": "a0f5c6a948e52fcbd46c5c00c208bc947268a39a9180ac8b4c91d8dc34c75077",
+        "group": "commons:petty officer 1st class scott cohen"
+      },
+      {
+        "id": "2875539",
+        "sha256": "ac3110b40ae1511d2c8a1cb087e8dd87cd2b86fa972025158403f2c2603f17a9",
+        "group": "commons:no machine-readable author provided. simplicius assumed (based on copyright claims)."
+      },
+      {
+        "id": "758969",
+        "sha256": "34ecdbb243f03c3387766c601054a1cf79234a9256cf1cbda7e22097d1752262",
+        "group": "commons:haragayato"
+      },
+      {
+        "id": "25022347",
+        "sha256": "f90e4675eab052bbf80a208e8cbdc56121accafe957468e3651c9632f839cdcb",
+        "group": "commons:milenafoto"
+      },
+      {
+        "id": "101349466",
+        "sha256": "2185383aeb19562228c712bc13e76dd5c25de2f85fdf238d9e8541d4026f8bae",
+        "group": "commons:lagerassistent"
+      },
+      {
+        "id": "101255841",
+        "sha256": "5880aefdb934d58d8a17a1abfd8079bfcebc8154dac542172e53adac3fbf026d",
+        "group": "commons:markmons"
+      }
+    ]
+  },
+  "crops": [
+    {
+      "id": "focus-cdc-phil-11854",
+      "parent": "cdc-phil-11854",
+      "sha256": "59c6cb730d5bb8113711f5b798fef9ca67e06d94bc39361ec6010c854253ab86",
+      "parent_sha256": "10df8a094be24accca1c4449f8ea98a5b4a728dcee2e0198e9c8e8314547da47",
+      "group": "cdc-phil:James Gathany:2009",
+      "window": [
+        133,
+        153,
+        441,
+        359
+      ],
+      "objects": 1
+    },
+    {
+      "id": "focus-cdc-phil-11856",
+      "parent": "cdc-phil-11856",
+      "sha256": "6d85c6f3a8024ecd9a320119ba253e7cc3fd03f13019f8d93107b62860de0eca",
+      "parent_sha256": "1ec2aba08c0f279a00f068bbfa160eafa7ec61ba1ee721a4d9e545554696c1e5",
+      "group": "cdc-phil:James Gathany:2009",
+      "window": [
+        205,
+        197,
+        513,
+        403
+      ],
+      "objects": 1
+    },
+    {
+      "id": "focus-cdc-phil-11863",
+      "parent": "cdc-phil-11863",
+      "sha256": "2fe1d8ce57cc58655ef967a992caffde616f95ae39b1a0d434938b63f828b156",
+      "parent_sha256": "1167bd2ba8db84e912938464f7659bbd9d16f47f9335be1726c2f038b04e23a7",
+      "group": "cdc-phil:James Gathany:2009",
+      "window": [
+        211,
+        127,
+        519,
+        333
+      ],
+      "objects": 1
+    },
+    {
+      "id": "focus-commons-105644688",
+      "parent": "commons-105644688",
+      "sha256": "4443b6e0cd9edf32bc08480f09280d57748146f0cd291a6301dab01e823eb774",
+      "parent_sha256": "5052a11efe2b9c7c193adba94279d945f7b657c5b792b450603288fff57b906e",
+      "group": "public-author:sggp online",
+      "window": [
+        453,
+        55,
+        876,
+        267
+      ],
+      "objects": 1
+    },
+    {
+      "id": "focus-commons-111974556",
+      "parent": "commons-111974556",
+      "sha256": "c9f399b11006984c15939d0b4e7f692d32e169a577fc20a2501d39e5cd30d9b0",
+      "parent_sha256": "26cfdb3a4ea4356e1807a4a95e23685658df0f1f6f7f3f862402cbd77edbd07a",
+      "group": "commons:prefeitura de olinda",
+      "window": [
+        490,
+        425,
+        1334,
+        988
+      ],
+      "objects": 1
+    },
+    {
+      "id": "focus-commons-154870931",
+      "parent": "commons-154870931",
+      "sha256": "64af1f14bb3567de4ac9034308117bdced656fd83eea5a67b6cbbd3560852825",
+      "parent_sha256": "3b6ead3ec0b0a612454521a09fd8ae00f5fe00ac9377120699e776cd7f55de85",
+      "group": "public-author:u.s. air force photo by airman jared lovett",
+      "window": [
+        188,
+        309,
+        611,
+        721
+      ],
+      "objects": 1
+    },
+    {
+      "id": "focus-commons-154872801",
+      "parent": "commons-154872801",
+      "sha256": "78814061551ab356a2bb8cdd090f1114f168511f7e98f045974facbfc267b486",
+      "parent_sha256": "d3a91c2f94a4eb08faedde384e757f8243e02abe767fd027bb35c91aaee8636b",
+      "group": "public-author:u.s. air force photo by airman jared lovett",
+      "window": [
+        309,
+        230,
+        732,
+        539
+      ],
+      "objects": 1
+    },
+    {
+      "id": "focus-commons-154897823",
+      "parent": "commons-154897823",
+      "sha256": "0ecb1e8c6ccaa852b99606cc7327094d01c71f0bfac4044a99fd323112305f28",
+      "parent_sha256": "090a45d5ac0a54fafcc7915b3bf617b52b7cccfc724feb9bc4e7859a5be7c7fa",
+      "group": "public-author:u.s. army photo by maj. robert fellingham",
+      "window": [
+        264,
+        268,
+        686,
+        796
+      ],
+      "objects": 1
+    },
+    {
+      "id": "focus-commons-154897839",
+      "parent": "commons-154897839",
+      "sha256": "27fe870e4e34d93384a76d060eeae2f7645939c384222e5390355ba61fc7dd76",
+      "parent_sha256": "007a3915fc13c4614f7a093e417d820905f47ee15806391bfab063fce5a1806c",
+      "group": "public-author:u.s. army photo by maj. robert fellingham",
+      "window": [
+        330,
+        148,
+        753,
+        429
+      ],
+      "objects": 1
+    },
+    {
+      "id": "focus-commons-154897848",
+      "parent": "commons-154897848",
+      "sha256": "1ebe09bb8df62e89613e8a71740f74830df96fffbb401a15a4a9d8e4831a264b",
+      "parent_sha256": "437dcecd6d18234ede2af6ebadc8a0c67480380250b30410ecf741a4c7f518b0",
+      "group": "public-author:u.s. army photo by maj. robert fellingham",
+      "window": [
+        114,
+        268,
+        537,
+        549
+      ],
+      "objects": 1
+    },
+    {
+      "id": "focus-commons-157431894",
+      "parent": "commons-157431894",
+      "sha256": "8b5841688bcc5e976083d71cf3ce7c523a4a45beedd0e5349d14ca0fed3612d7",
+      "parent_sha256": "815cef5f6a43d4b01d1e3a94c34db5d8f8c99e97864db69bf89b391e0df9079b",
+      "group": "public-author:u.s. air force photo by staff sgt. heidi goodsell",
+      "window": [
+        372,
+        59,
+        795,
+        341
+      ],
+      "objects": 1
+    },
+    {
+      "id": "focus-commons-157431922",
+      "parent": "commons-157431922",
+      "sha256": "d89042a7b3d2b50ca155d329d54650a3d556c956a90c26b5d215bf6a1a84a1b3",
+      "parent_sha256": "40f82244cc3a390d74c3944970130267427651a5e7471d185c3978df3ed546be",
+      "group": "public-author:u.s. navy photo by christina clarke",
+      "window": [
+        359,
+        229,
+        781,
+        510
+      ],
+      "objects": 1
+    },
+    {
+      "id": "focus-commons-160490875",
+      "parent": "commons-160490875",
+      "sha256": "d7645329d8118e8ca9dbb810d3afebc6266b9aaeecfad156d5c87c5cae69ca93",
+      "parent_sha256": "17340bd2f5c201690ce4baea157838be6268c014d08d35f64b2f3b2eea792982",
+      "group": "public-author:u.s. army tf-o by staff sgt. solomon navarro",
+      "window": [
+        279,
+        223,
+        702,
+        504
+      ],
+      "objects": 1
+    },
+    {
+      "id": "focus-commons-160490902",
+      "parent": "commons-160490902",
+      "sha256": "c1955d0a263631fb8ef88bd8f9d3c061df1033f92d9405416507084ee1c1bac7",
+      "parent_sha256": "56adce7d1e46bd177c7c53634eaba004b7e5482dc1adaa88a6f690e625cc807e",
+      "group": "public-author:u.s. army tf-o by staff sgt. solomon navarro",
+      "window": [
+        354,
+        147,
+        777,
+        415
+      ],
+      "objects": 1
+    },
+    {
+      "id": "focus-commons-16110376",
+      "parent": "commons-16110376",
+      "sha256": "7ff887710d6dd21539444f48ead050c21b173c34f6e3105ae82047884d353f62",
+      "parent_sha256": "66ebb0b66aae0dc5d26b85a198f0b093a65c8e4c2dc893d79923bb914c493f3c",
+      "group": "public-author:pete lewis / uk department for international development (dfid)",
+      "window": [
+        506,
+        239,
+        928,
+        521
+      ],
+      "objects": 1
+    },
+    {
+      "id": "focus-commons-179094001",
+      "parent": "commons-179094001",
+      "sha256": "130fcaa592b35ac71a4f20f31ef48c7513f8969c75d60efcb569acc88d79a1a3",
+      "parent_sha256": "79f90f1d9e086a76496df255884b493084d04f9fd04de87e3da6101fef336e27",
+      "group": "public-author:romainbehar",
+      "window": [
+        121,
+        441,
+        543,
+        1004
+      ],
+      "objects": 1
+    },
+    {
+      "id": "focus-commons-8200485",
+      "parent": "commons-8200485",
+      "sha256": "cca5f39b8ddea014ca73aeea327a509bec75ae24bfcc84bb91cf93335c721609",
+      "parent_sha256": "fdc37bd819b9721891eb197bf0fb489bd52233c43f0816e478ff9388c50c8863",
+      "group": "public-author:u.s. navy photo by mass communication specialist seaman apprentice joshua adam nuzzo",
+      "window": [
+        306,
+        357,
+        729,
+        638
+      ],
+      "objects": 1
+    },
+    {
+      "id": "focus-commons-8260426",
+      "parent": "commons-8260426",
+      "sha256": "2d35dfdf8df0a06eaf9546b4e2dde1c6ba7029f78f0f8fb761a761cfc0a87551",
+      "parent_sha256": "5cb6ca990ebdd80d0baeadc673cbc3664ad14c411ea0be79e78ec314f0ea0a9d",
+      "group": "public-author:spc. howard alperin, mnd-b pao",
+      "window": [
+        313,
+        504,
+        578,
+        900
+      ],
+      "objects": 1
+    },
+    {
+      "id": "focus-191240619",
+      "parent": "191240619",
+      "sha256": "6221a6f49afb893a34876022f8728e3fe0eb43c271adfc782ff4f77e78c6de0c",
+      "parent_sha256": "c70590d4b36de34ae89fd9d04ee576c6dd71e50a3430494d717a8bf35ef7418d",
+      "group": "commons:xyxyzyz",
+      "window": [
+        164,
+        69,
+        875,
+        780
+      ],
+      "objects": 2
+    },
+    {
+      "id": "focus-25524601",
+      "parent": "25524601",
+      "sha256": "1e9095f7a649e1c83d1559a02cc4da2e040b1b7a042f55bab2d6e5c53a4cf7e6",
+      "parent_sha256": "86decc41e46c05030941950de5b294d7822cbfa670d8df45894a01c1a54dad9e",
+      "group": "commons:maj guy hayes",
+      "window": [
+        538,
+        300,
+        960,
+        933
+      ],
+      "objects": 1
+    },
+    {
+      "id": "focus-8203134",
+      "parent": "8203134",
+      "sha256": "e450c8be7c7e6cdf0fdeb2778a4456d6d5c2c8bdfbbeedd1666019c4f6137aa3",
+      "parent_sha256": "7c443e1b13687144cc646f091ad83fb4483c7dbc769f2db5b26e752dc738b8b7",
+      "group": "commons:u.s. navy photo",
+      "window": [
+        258,
+        26,
+        681,
+        306
+      ],
+      "objects": 1
+    },
+    {
+      "id": "focus-01580f1a8a17501c",
+      "parent": "01580f1a8a17501c",
+      "sha256": "0fd968fb858b4203a7f45ae7825c207150cd3c4d6d9f35641dbd58a3afe02c81",
+      "parent_sha256": "587156a10b3ef94a441cc07f6aa7ecd20618b55d43ace7afbcdd69a45b13d85c",
+      "group": "openimages-profile:www.flickr.com/people/uclmaps/",
+      "window": [
+        242,
+        225,
+        630,
+        675
+      ],
+      "objects": 1
+    },
+    {
+      "id": "focus-360e140029ff7f49",
+      "parent": "360e140029ff7f49",
+      "sha256": "a7954734fecbdeb20afeab6c5ef717fe266ee5f1adf4d33598092ee210fd2bdb",
+      "parent_sha256": "adb299cf97a866ff2af67d8056b1b6abf7b093fbe08f63e67322a541df80b24c",
+      "group": "openimages-profile:www.flickr.com/people/nhse/",
+      "window": [
+        442,
+        347,
+        892,
+        648
+      ],
+      "objects": 1
+    },
+    {
+      "id": "focus-fe78451c2db38dce",
+      "parent": "fe78451c2db38dce",
+      "sha256": "280bbc1f46ecc831c43a8b4340b7ae7e4b36b703e445e6924a1951017884ff40",
+      "parent_sha256": "48a865f34f4ad04202ba2cf076efbaf54ef68a220e4c4e61c2c7e38b51803dd1",
+      "group": "openimages-profile:www.flickr.com/people/ghayty/",
+      "window": [
+        362,
+        114,
+        812,
+        424
+      ],
+      "objects": 1
+    },
+    {
+      "id": "focus-01c97c250f9c7b75",
+      "parent": "01c97c250f9c7b75",
+      "sha256": "d12b5a95c94ee9a006a2259adde1eace8e8fa14a30929acb5b4fdf71486ff384",
+      "parent_sha256": "7763f5b2eb6fbb15ff3a5835d91cfdb1c4eb5f1fd725cc4b62149415f15f76e5",
+      "group": "openimages-profile:www.flickr.com/people/militaryhealth/",
+      "window": [
+        246,
+        159,
+        697,
+        459
+      ],
+      "objects": 1
+    },
+    {
+      "id": "focus-cc545bc71a3c8629",
+      "parent": "cc545bc71a3c8629",
+      "sha256": "0c4b7163c1f5c3a742e434479efbdd651ccb2b1e89363797ecf89eed026d9895",
+      "parent_sha256": "38d1a660a33aca807f9db5644127216f79e051d0dce1a8d1021e38551be4b97b",
+      "group": "openimages-profile:www.flickr.com/people/agecombahia/",
+      "window": [
+        326,
+        242,
+        777,
+        542
+      ],
+      "objects": 1
+    },
+    {
+      "id": "focus-5e7343835f0ccff7",
+      "parent": "5e7343835f0ccff7",
+      "sha256": "8e69b822205121e006fe284e4e29ba9a740b3aae914e0437c741bc29784b8e96",
+      "parent_sha256": "2407499e8b948eefa5e01dd778aee118fc7e62d614362901fc3fbf9d61e8f06d",
+      "group": "openimages-profile:www.flickr.com/people/pathphotos/",
+      "window": [
+        353,
+        273,
+        804,
+        573
+      ],
+      "objects": 1
+    },
+    {
+      "id": "focus-962072942e0b6577",
+      "parent": "962072942e0b6577",
+      "sha256": "8768641f9f4a44d79bec9cf90f6d0ca5231c4ad5e9c04484803f37e618381c9f",
+      "parent_sha256": "b4baec6e11d763eabbf7d0406ff0915db0c0573e275c4ca4e352ae62a70341d1",
+      "group": "openimages-profile:www.flickr.com/people/uclmaps/",
+      "window": [
+        176,
+        260,
+        534,
+        710
+      ],
+      "objects": 1
+    },
+    {
+      "id": "focus-152a40d2f486d717",
+      "parent": "152a40d2f486d717",
+      "sha256": "7b243fba28368d1f393a2d218b6b2ca94ea5dca253970061135dff25c6eb94fb",
+      "parent_sha256": "6e42336e295f0f78acb0b7b078bbe9366e2c0e92edbd12003cfa27d290f1e1b4",
+      "group": "openimages-profile:www.flickr.com/people/97481684@n08/",
+      "window": [
+        45,
+        94,
+        495,
+        402
+      ],
+      "objects": 1
+    },
+    {
+      "id": "focus-a93917dd57d2b624",
+      "parent": "a93917dd57d2b624",
+      "sha256": "62a792f4ecb0be96a48d17e27e5e4894ecdab4aa758aa89d47cb913b53eeb2b8",
+      "parent_sha256": "74cd98ebe35dd184e3f65e37b2020bcea833037fae6f4c6b25a5b84ef8599aa7",
+      "group": "openimages-profile:www.flickr.com/people/minuseleven/",
+      "window": [
+        202,
+        118,
+        540,
+        568
+      ],
+      "objects": 1
+    },
+    {
+      "id": "focus-5ab43f1ce4c706c9",
+      "parent": "5ab43f1ce4c706c9",
+      "sha256": "5d8f1748c49d496a8e5c7eca4c8fc3daaef55079357d1ab5acf8f63ed1bbcd55",
+      "parent_sha256": "9f60ab67ebdd38b6bb04591718f788eb45244099046deee8e1823edf41813c70",
+      "group": "openimages-profile:www.flickr.com/people/krishaamer/",
+      "window": [
+        343,
+        94,
+        793,
+        395
+      ],
+      "objects": 1
+    },
+    {
+      "id": "focus-896c467dacafb3af",
+      "parent": "896c467dacafb3af",
+      "sha256": "3f09daa07dcc4814d83ce24870f067dbb760527da2ec69199a75d779e37a842d",
+      "parent_sha256": "54d53e0a3752bb7329184a67828910008e5a8a8ba3cecee47bd9b6567d2c9e37",
+      "group": "openimages-profile:www.flickr.com/people/editor/",
+      "window": [
+        151,
+        156,
+        765,
+        580
+      ],
+      "objects": 4
+    },
+    {
+      "id": "focus-21505317",
+      "parent": "21505317",
+      "sha256": "336813bf94f2fdad954a9c7e4228d0aef23c96494ffc979cc4bd1042a0e9afd6",
+      "parent_sha256": "7b983703497b8dde24930f56114b7a51261f2ea89905f3d9e82da849e0e49b88",
+      "group": "commons:tech. sgt. jeremy t. lock",
+      "window": [
+        196,
+        365,
+        619,
+        652
+      ],
+      "objects": 1
+    },
+    {
+      "id": "focus-17112088",
+      "parent": "17112088",
+      "sha256": "4925cdb933c4f55a872ed7588d1b2961a9b471070fc166695e523bab08f61cb6",
+      "parent_sha256": "2d5e2233143f59fbc0279f7eb5a492e58d5d5b98c6943dbc6be1fe308c420e26",
+      "group": "commons:u.s. navy photo by lt. cmdr. mike morley",
+      "window": [
+        385,
+        330,
+        808,
+        632
+      ],
+      "objects": 1
+    },
+    {
+      "id": "focus-35175481",
+      "parent": "35175481",
+      "sha256": "a15c73bbb25d9204637d885616f50ff53a10e0d30b6835fa3f68a8d4cf59a62f",
+      "parent_sha256": "30450c69839328588bd57002feec7fc316cd63df88cd244d389a9a17adef4a61",
+      "group": "commons:lcpl chloe nelson",
+      "window": [
+        232,
+        402,
+        654,
+        1035
+      ],
+      "objects": 1
+    },
+    {
+      "id": "focus-8219629",
+      "parent": "8219629",
+      "sha256": "1f268b2db21b8c547106c4d39b96c623549e9a985476d9eee573bada3c51cedf",
+      "parent_sha256": "f90b19246b6313365a7e5f55889ef977024919e2095935b041849cef6cdfcb78",
+      "group": "commons:u.s. navy photo by chief journalist joseph krypel",
+      "window": [
+        280,
+        302,
+        703,
+        619
+      ],
+      "objects": 1
+    },
+    {
+      "id": "focus-15604523",
+      "parent": "15604523",
+      "sha256": "86e6c899bef5e3237dab2168e655f4eea7f556ccadc423598943a3bd5c10763d",
+      "parent_sha256": "1758a74976da810f30ed906051a700d208f4b4ab1bcb7d256a07c25ce939d676",
+      "group": "commons:rept0n1x",
+      "window": [
+        351,
+        299,
+        773,
+        616
+      ],
+      "objects": 1
+    },
+    {
+      "id": "focus-8219325",
+      "parent": "8219325",
+      "sha256": "f7313dd548cc39e2c8c6f120d493570cb849c147d231150d5691a2fa7652d2ca",
+      "parent_sha256": "dce5c15d457cbe8995d656e2fb272f603f0f3754fd757a8ea68924f441bc8969",
+      "group": "commons:u.s. navy photo by mass communication specialist 3rd class patrick m. kearney",
+      "window": [
+        353,
+        614,
+        775,
+        1205
+      ],
+      "objects": 1
+    }
+  ],
+  "excluded": [
+    "10621296"
+  ],
+  "rasters": {
+    "data/occlusion-study/coco/train/0001.png": "bf3703abef225d282922dee68977dfe8746e2f91f04d14895def2adcb717c62a",
+    "data/occlusion-study/coco/train/0002.png": "bd1475c65f9e8a92a9153d004172ab569df6883d0ab0abdab495d9bc84986ce4",
+    "data/occlusion-study/coco/train/0003.png": "2d35dfdf8df0a06eaf9546b4e2dde1c6ba7029f78f0f8fb761a761cfc0a87551",
+    "data/occlusion-study/coco/train/0004.png": "2e2f90e2ec709c6b3633faaa033ed0e7e83af5351d19b1a6ef5102711dd7edf7",
+    "data/occlusion-study/coco/train/0005.png": "80eb66b154c81e6f8475b62a08909fbadab6432a827826f4fc850f2d390bb2db",
+    "data/occlusion-study/coco/train/0006.png": "4868429d7f82f43939c38c5c4261eb4042a7921506a50cb996687f8fa96cc93b",
+    "data/occlusion-study/coco/train/0007.png": "78814061551ab356a2bb8cdd090f1114f168511f7e98f045974facbfc267b486",
+    "data/occlusion-study/coco/train/0008.png": "3f09daa07dcc4814d83ce24870f067dbb760527da2ec69199a75d779e37a842d",
+    "data/occlusion-study/coco/train/0009.png": "6d85c6f3a8024ecd9a320119ba253e7cc3fd03f13019f8d93107b62860de0eca",
+    "data/occlusion-study/coco/train/0010.png": "c797e04b0165ced2fbd8cfb05d9c3fc563b30cbd131800d3028958191d27f7fd",
+    "data/occlusion-study/coco/train/0011.png": "91b2250240d99b1d43daf41ecdb1aefc36f970172e5cdba79bb3198344471de9",
+    "data/occlusion-study/coco/train/0012.png": "fa3e76a75d38c2e79006f151ccf60062fd5cc1c5126d930442257e61472cd87d",
+    "data/occlusion-study/coco/train/0013.png": "944a208b94b0e29bc274c27904aed8262035d67490519f33087c263cd497c66b",
+    "data/occlusion-study/coco/train/0014.png": "27fe870e4e34d93384a76d060eeae2f7645939c384222e5390355ba61fc7dd76",
+    "data/occlusion-study/coco/train/0015.png": "d6d0df13effd2ca50c13f98bf66eb70edb93a79469b3cc32a9b50601fa9b459c",
+    "data/occlusion-study/coco/train/0016.png": "b7279064e2822d62113c59233dc39ef9c55c53bb804b61bd7c7bf95d57f27624",
+    "data/occlusion-study/coco/train/0017.png": "44b4f3f0b2d2253aa4d2b8f01ccd6a9269a988f7436d00da3175e7e750a2dcc9",
+    "data/occlusion-study/coco/train/0018.png": "471596c4ea5d35e9400d19408e5aa2941bd33a173c29e7b64ce82b4dea6d7140",
+    "data/occlusion-study/coco/train/0019.png": "19ac0e49fe8a7ea34eba76bac30e4da02c338730ce0c1b024725cf461d77af3e",
+    "data/occlusion-study/coco/train/0020.png": "5178cd7a60679b052a83c92b1d64268970a8ff665111ecede80c0d5565a78ba0",
+    "data/occlusion-study/coco/train/0021.png": "cef0a892b9f38ae591e1324ae46736bda1c4e7832127a7c8e60bb808553819f3",
+    "data/occlusion-study/coco/train/0022.png": "2c09cf30a4c892eef14846ba146221a26e941a46b0f1c4b7fd86548daa4cd37a",
+    "data/occlusion-study/coco/train/0023.png": "a7e88494967adb20ac0a5390218cee52a23ccc5b517fed79f4c4e44d317b27b0",
+    "data/occlusion-study/coco/train/0024.png": "bb4f218460cf41b61710cd86bbb744903b1104cdafc3f2b0f16bf0fd90d462b4",
+    "data/occlusion-study/coco/train/0025.png": "a280609dd6287eb224c00aacbaf97e88e41153045652164450dc28863b0f8cac",
+    "data/occlusion-study/coco/train/0026.png": "659a43f999dc165ec57c7d1eecfc3c3d86ef21e6988792dcbdfb9952ddc9724b",
+    "data/occlusion-study/coco/train/0027.png": "62a792f4ecb0be96a48d17e27e5e4894ecdab4aa758aa89d47cb913b53eeb2b8",
+    "data/occlusion-study/coco/train/0028.png": "d51338770c60a3d5fbdcd03ee44f87e2dd145fa770c4bafd8b52b368bb1d23cd",
+    "data/occlusion-study/coco/train/0029.png": "6b45ece02fc71a7322551f1a19d53f3f739851de29d1d087c97f5795ae5f1295",
+    "data/occlusion-study/coco/train/0030.png": "d062ed9f67a29e273b3ab990f61202d6dea88f9cca7b4e924ec27c93f7c052da",
+    "data/occlusion-study/coco/train/0031.png": "ffe3dd8f2f56c116ef5561ae0194d0dc8d64f00fedec899a855139252ce36106",
+    "data/occlusion-study/coco/train/0032.png": "ad775d5e400cb01fe64f3d21e8cd6c755386963251042c0d74559ffa0026c48b",
+    "data/occlusion-study/coco/train/0033.png": "1ce5567fb8d9b651d769f624bca1f4853659f557561b483c74b35d23e52499fc",
+    "data/occlusion-study/coco/train/0034.png": "0c4b7163c1f5c3a742e434479efbdd651ccb2b1e89363797ecf89eed026d9895",
+    "data/occlusion-study/coco/train/0035.png": "b8e3e2593000c6df97eba9f274d4e6d5d87597a980ac7083f8305084deec8216",
+    "data/occlusion-study/coco/train/0036.png": "19ff03f5b60da972dcd2207d28138c1450ee788da7915ba0afd63e5cfd517233",
+    "data/occlusion-study/coco/train/0037.png": "7ff887710d6dd21539444f48ead050c21b173c34f6e3105ae82047884d353f62",
+    "data/occlusion-study/coco/train/0038.png": "6dacb2cea82e29f3686c5212f5b64fe5616471487455c3946d0236d0c2eb6a82",
+    "data/occlusion-study/coco/train/0039.png": "c9f399b11006984c15939d0b4e7f692d32e169a577fc20a2501d39e5cd30d9b0",
+    "data/occlusion-study/coco/train/0040.png": "5cae28c81ac96cf1423ab93f8fb3cdb506aebe3dca05ba2896698878dd848cd4",
+    "data/occlusion-study/coco/train/0041.png": "ed28d4f8b7ffd22511d9afec970ceb9acfe89fb2955178864291b5c619f183bf",
+    "data/occlusion-study/coco/train/0042.png": "8768641f9f4a44d79bec9cf90f6d0ca5231c4ad5e9c04484803f37e618381c9f",
+    "data/occlusion-study/coco/train/0043.png": "9b104aaf39320c5554e14ba3d1cb4fc92f44b6e4e2a5be0af0379e0b5865377a",
+    "data/occlusion-study/coco/train/0044.png": "00645a5b3c55944d2c5f4a9ecb8ecf29b71c08202284a9a405b6d6d0c71f1eda",
+    "data/occlusion-study/coco/train/0045.png": "3904b994da768abb77a574e7f581d837af551a1486495596a2e64f16127e4d68",
+    "data/occlusion-study/coco/train/0046.png": "0291056b9dfc36b8ac23cd24e478d9f191872438a75369e4c5c007a6c7030e8f",
+    "data/occlusion-study/coco/train/0047.png": "336813bf94f2fdad954a9c7e4228d0aef23c96494ffc979cc4bd1042a0e9afd6",
+    "data/occlusion-study/coco/train/0048.png": "db40a3e076bf4c45f403f5b2da4b6fe91ffc81bd7f2f6c3ebc2ef94cf4acd417",
+    "data/occlusion-study/coco/train/0049.png": "5eb6839f938bc18db1078b32596bebdb6e6fd68bef5e2b081ee790d93c707a9a",
+    "data/occlusion-study/coco/train/0050.png": "59b6a52bb16380047b10eddedfac0696215afc826e372e94accc9d60e1dd4a37",
+    "data/occlusion-study/coco/train/0051.png": "5a8105f07e3f6898834d0c9ba6bc30a4ee52016529f03203372c4852521cdd22",
+    "data/occlusion-study/coco/train/0052.png": "cbda1a2c0738b456e79ec1fa4d010710753e65467675ecac72022aa06c3c2fec",
+    "data/occlusion-study/coco/train/0053.png": "64af1f14bb3567de4ac9034308117bdced656fd83eea5a67b6cbbd3560852825",
+    "data/occlusion-study/coco/train/0054.png": "5d8f1748c49d496a8e5c7eca4c8fc3daaef55079357d1ab5acf8f63ed1bbcd55",
+    "data/occlusion-study/coco/train/0055.png": "ee59509dd1a5dee0ad96bbc3fe34749ce4560154ef07037b6d56dbb43ded1d8b",
+    "data/occlusion-study/coco/train/0056.png": "bbf43018a8baae54094bd619b2c87e8fa95f173f0c5b72d4c518a264ffea38ab",
+    "data/occlusion-study/coco/train/0057.png": "bab925d79bd19d44f37eefdf1354d32a3388b4a389cee19eb15110eb42281a14",
+    "data/occlusion-study/coco/train/0058.png": "48550d9161be4a98e3a2ddfb249710b42503ae0f098b1f295a70a02d57bf6eaa",
+    "data/occlusion-study/coco/train/0059.png": "12ddfd808c6cef5840607ffac0cd1ad95b37ba870a911a5c01b0c9d61fcb1184",
+    "data/occlusion-study/coco/train/0060.png": "67f6ea7c20795dcdce022b5153b6945e964b1aa559e9662856c45b12b9dd397c",
+    "data/occlusion-study/coco/train/0061.png": "55c9ec7fecf135f0cef815684e7d4d8c902e16d0a61c46586036302b502f1f7e",
+    "data/occlusion-study/coco/train/0062.png": "1a854246c748c569d3533f72fc8d3872b0f4188f72fcb9beb95c1d7e35519ee0",
+    "data/occlusion-study/coco/train/0063.png": "3197028dc913dfd7f05417f50a9cd7e75e9e2661f04d3c51ef505ed56c964d59",
+    "data/occlusion-study/coco/train/0064.png": "641182c7326c75af94d74c7da13f0db3efd21d0f9f3b11c0366040e9884c81a2",
+    "data/occlusion-study/coco/train/0065.png": "d7645329d8118e8ca9dbb810d3afebc6266b9aaeecfad156d5c87c5cae69ca93",
+    "data/occlusion-study/coco/train/0066.png": "68e47d6b1aba0eec0d8765b6c7da010ff9dd20df0efa6d10f8f3b3cedd79d38f",
+    "data/occlusion-study/coco/train/0067.png": "a7303172e1bceeb216faa4eae89b6a2372cd487825cf4165f26fc47a9be910a1",
+    "data/occlusion-study/coco/train/0068.png": "a376128d8bd9e6fa92f68c363a87d71b5144e18570613cc920182ce8c36524b2",
+    "data/occlusion-study/coco/train/0069.png": "a7954734fecbdeb20afeab6c5ef717fe266ee5f1adf4d33598092ee210fd2bdb",
+    "data/occlusion-study/coco/train/0070.png": "1f268b2db21b8c547106c4d39b96c623549e9a985476d9eee573bada3c51cedf",
+    "data/occlusion-study/coco/train/0071.png": "951f046671578465fed7d44a60f845d7b175b67684c7473aa41fab55a01dfeb8",
+    "data/occlusion-study/coco/train/0072.png": "576054c34a4606b0c1fcef2d295d2aee4a89c2f7106a571ef79a53a7b01245e8",
+    "data/occlusion-study/coco/train/0073.png": "233c0c2a3b540ef77289fdde774ac5ac04251dbb157502c16f346edc75a8aebe",
+    "data/occlusion-study/coco/train/0074.png": "5dd86b9595275feaf92b3423e3607078a069978695b0713b856a263f68a54d03",
+    "data/occlusion-study/coco/train/0075.png": "8e69b822205121e006fe284e4e29ba9a740b3aae914e0437c741bc29784b8e96",
+    "data/occlusion-study/coco/train/0076.png": "95baf29f01d36a540cbc55de8516e26846c6677821fc65ed6444caf7ab3743e5",
+    "data/occlusion-study/coco/train/0077.png": "27217e5480b5db056f1f23855598ea52daf9789416145c0c5261a18b76fb1074",
+    "data/occlusion-study/coco/train/0078.png": "14fc334c33a693fd879cb641b361ad38b7e21db84befe4a141adfdc0ef254499",
+    "data/occlusion-study/coco/train/0079.png": "59c6cb730d5bb8113711f5b798fef9ca67e06d94bc39361ec6010c854253ab86",
+    "data/occlusion-study/coco/train/0080.png": "a0e0e73644d2ef067ef368704d225d9cb973dc1b21873066a1281fd8c87fcc90",
+    "data/occlusion-study/coco/train/0081.png": "b4812b72b124d8bcc624ba2985dbca5d2b07c39a740199125dbe08cc6d6686b6",
+    "data/occlusion-study/coco/train/0082.png": "c2e073b0243680ca1a29051f644f974f7793756119bad98a93981784fc012190",
+    "data/occlusion-study/coco/train/0083.png": "095afeb1dcf9eb9f82416cc349a31357287ff02cb052e3c8f3a8e17502e14406",
+    "data/occlusion-study/coco/train/0084.png": "40c8de02df05efb6188c0cf323b3c41120bd1c35b98e45b482e6cb5d05676ff9",
+    "data/occlusion-study/coco/train/0085.png": "6815e9b3ded35a99ead0439c848b3a7b226c2dedd3fe11a86d89ef5a40c66080",
+    "data/occlusion-study/coco/train/0086.png": "f9cf556c10106659cfa19ed1a2ca0bee48e36fb363e1452598798ecbccf8f7a1",
+    "data/occlusion-study/coco/train/0087.png": "4695fda3c7997d3c94bfa4d440ee7d6a4f0de728447c31f27ad1a14514bbe55a",
+    "data/occlusion-study/coco/train/0088.png": "e23774cc393d1a1dc8d472bbd01f2d25872180089b3413bf51e75febb96c6e25",
+    "data/occlusion-study/coco/train/0089.png": "7b243fba28368d1f393a2d218b6b2ca94ea5dca253970061135dff25c6eb94fb",
+    "data/occlusion-study/coco/train/0090.png": "3ce38b6c4d9c2c7f1fe223b4390c2cebf8d99a676added24237a79db5b484077",
+    "data/occlusion-study/coco/train/0091.png": "07690b24a9114a8a4e33d70bbc9d527adb1cd411f2cf561451bb6fc2cefbc79b",
+    "data/occlusion-study/coco/train/0092.png": "833f6501fcf222c93fe61abeb098d6da8db1ef70b7762dd0fc7cc20e1723c363",
+    "data/occlusion-study/coco/train/0093.png": "c1955d0a263631fb8ef88bd8f9d3c061df1033f92d9405416507084ee1c1bac7",
+    "data/occlusion-study/coco/train/0094.png": "212e646722d51711ff05f501d4d53d201e4e3ce819528725a447464f2e9efe8d",
+    "data/occlusion-study/coco/train/0095.png": "90aad6b33c0b59395ed472bf55fc27fbafcb77ffe75424fbc226c63c8380ee09",
+    "data/occlusion-study/coco/train/0096.png": "9b2a061732e15edfdaa2c9df4dae83cba5c2bed8ad4622c61d9f94dbd13d0917",
+    "data/occlusion-study/coco/train/0097.png": "61f1b476bf378218fb1b624ecc0dff9d888b7cb07d410205e32a2f3c2ba26ad8",
+    "data/occlusion-study/coco/train/0098.png": "1e9095f7a649e1c83d1559a02cc4da2e040b1b7a042f55bab2d6e5c53a4cf7e6",
+    "data/occlusion-study/coco/train/0099.png": "1ebe09bb8df62e89613e8a71740f74830df96fffbb401a15a4a9d8e4831a264b",
+    "data/occlusion-study/coco/train/0100.png": "68eba63230b5b9364adef952b3cae1470d50ebc539a4a287dd4c533013dff29a",
+    "data/occlusion-study/coco/train/0101.png": "484bb97fb6aae16ffbd257cd4951fbe3d936924f4d58f3f87fae79c41692e814",
+    "data/occlusion-study/coco/train/0102.png": "643fc3a77e73459d0cd923b66cd1d05daabb13b7c000b036b12bb8fabc81df29",
+    "data/occlusion-study/coco/train/0103.png": "0fd968fb858b4203a7f45ae7825c207150cd3c4d6d9f35641dbd58a3afe02c81",
+    "data/occlusion-study/coco/train/0104.png": "9f7021df9481e981058fa9a43e959bdf0e0964cfa2fcbca4e1399cad4f735db7",
+    "data/occlusion-study/coco/train/0105.png": "a48a73e5969f10e5cb33eff02280e57d6c5e9795ec9f4c0eb335de399edbf641",
+    "data/occlusion-study/coco/train/0106.png": "2fe1d8ce57cc58655ef967a992caffde616f95ae39b1a0d434938b63f828b156",
+    "data/occlusion-study/coco/train/0107.png": "b1b370c2a39cd55276705b6343bed3b7a226a9037b485f938448203f9a9c8d1b",
+    "data/occlusion-study/coco/train/0108.png": "67f472a2562a42cf30a1ab58121d614b5346b7ade9eb101a8fcd35907d80b020",
+    "data/occlusion-study/coco/train/0109.png": "f3ff48d1e0fbf4baa22c9d294d30fe68af7b065c5a3049a79b93f0d5498a9488",
+    "data/occlusion-study/coco/train/0110.png": "4eb1737b349ca3d710ce2adfeed8e79ed271cb2d030ea7056e42eb1177382d3d",
+    "data/occlusion-study/coco/train/0111.png": "a6a8bd40fd93059ff169452fb81ad1610ad99d4497028e636686108e4cb1b5c0",
+    "data/occlusion-study/coco/train/0112.png": "9b0e790f37de88cdd291124c84915380d4966e077820e95d5775ff256c36137d",
+    "data/occlusion-study/coco/train/0113.png": "fb2795067b32fcfa94f85ab0eb2d4708aabe5e0a3fb6bdbb1d2763dc5abc9a23",
+    "data/occlusion-study/coco/train/0114.png": "f79e90a7585dbc55a63769734bdd82d885db0b08989bad84a882ed3c1af34a83",
+    "data/occlusion-study/coco/train/0115.png": "8e8eeb2546f35731685f438625d4724c625d12a2630f1c2c9aa72a1e58391ad8",
+    "data/occlusion-study/coco/train/0116.png": "cedc7efa18524893af1ad096ab0c3607f47aebd504cbfdef4b4b8dd2bfd5abab",
+    "data/occlusion-study/coco/train/0117.png": "885875084bc6b7bfc600a175f90d102e68115d869e4892c1dcd4c50d753a57fc",
+    "data/occlusion-study/coco/train/0118.png": "da6c2f117f3b4d20443116a058c97efbe2888af5ff612ddefa391a309a32201c",
+    "data/occlusion-study/coco/train/0119.png": "09b3634b474b31064f309484669495219315651be34753b8d95110d43dcb5319",
+    "data/occlusion-study/coco/train/0120.png": "c79a9e58b05d59eef06a98a083962b57f1186701021605564585b9b63a5465d3",
+    "data/occlusion-study/coco/train/0121.png": "cca5f39b8ddea014ca73aeea327a509bec75ae24bfcc84bb91cf93335c721609",
+    "data/occlusion-study/coco/train/0122.png": "15c934bfe49b4fa0fefe19284b6609010609959cfbf4a0a600717dbd7ea2d117",
+    "data/occlusion-study/coco/train/0123.png": "a506d9d5659a46b56f2d64d3d82b70663e777442d9eec01163212ee66e4112a8",
+    "data/occlusion-study/coco/train/0124.png": "dd9f17b8287760e6583d8a5b4ecc69d603a6bf7796e544e2c559277f499abb10",
+    "data/occlusion-study/coco/train/0125.png": "8930de5058d7514b2b3865a785e3e89eae2502523b1dc03e3716d6da2917fb68",
+    "data/occlusion-study/coco/train/0126.png": "86e6c899bef5e3237dab2168e655f4eea7f556ccadc423598943a3bd5c10763d",
+    "data/occlusion-study/coco/train/0127.png": "3cc3f8de1a61f46af5dbf9adbd8bc45ed5c74ddc60f521e7c20a7bfdaff9d76e",
+    "data/occlusion-study/coco/train/0128.png": "2467121c32eaa19f15e7939c1432074108a68d474697aed2162f890b889ac0db",
+    "data/occlusion-study/coco/train/0129.png": "8cffe88b3aefa0b658e744333e926f900e5d7b89e93ed8b544ece1ee9ae5f498",
+    "data/occlusion-study/coco/train/0130.png": "017129d395c0eb4846bb79fe400631895bb7121384e0bdc680d18a27f8d02f73",
+    "data/occlusion-study/coco/train/0131.png": "5101308bc59fa6b876334d54cc07c24d9690912e54a4edcbcb49d9aab18ca31b",
+    "data/occlusion-study/coco/train/0132.png": "a2afb7ab83c3042ff4b52012bd327cbdd3432a6a86cfbabab1c544f7e7afb58d",
+    "data/occlusion-study/coco/train/0133.png": "a4cc42ca8e0a602c30fdfeaa4c263e5622150634d2246d521d6692bb992364bb",
+    "data/occlusion-study/coco/train/0134.png": "d12b5a95c94ee9a006a2259adde1eace8e8fa14a30929acb5b4fdf71486ff384",
+    "data/occlusion-study/coco/train/0135.png": "3ad8fc73d3497bf1656fd497a255c444876186edd8163a28f2372a481062b8a9",
+    "data/occlusion-study/coco/train/0136.png": "93c671d0fb0f2f5dabfbe41f8f4191e666c81d9077067adfc0d9d6654c44908a",
+    "data/occlusion-study/coco/train/0137.png": "b24fb0835a2ad83ea5218da4f85daa6dd14852ea9c33fbde8f057ecbbd1b3643",
+    "data/occlusion-study/coco/train/0138.png": "3c44b401ec560b339e8ba569410e3695ec229d668e55ad478c3108babb2a5619",
+    "data/occlusion-study/coco/train/0139.png": "deb0b79f79d8520842e2ff1329f6270c729843f76c94d99e76f82663c17bfb51",
+    "data/occlusion-study/coco/train/0140.png": "e0891fc2e63ee4c5833507e955bce3a7361a43beb1a94fd431e930bcadd78a43",
+    "data/occlusion-study/coco/train/0141.png": "0ecb1e8c6ccaa852b99606cc7327094d01c71f0bfac4044a99fd323112305f28",
+    "data/occlusion-study/coco/train/0142.png": "c38c9121e7c153727b6c8f927e9e3d9fd13605ab587d30faae9e7ca12e816cb7",
+    "data/occlusion-study/coco/train/0143.png": "e50dadaeef272a2081b3de37e6e00ee23e036d4d325277d2a062cdc4c4e2e310",
+    "data/occlusion-study/coco/train/0144.png": "bdb4c6c2817eb0d5b0b9b83bdc580f1c56cbbfbe4ea15f388d22175579c6355c",
+    "data/occlusion-study/coco/train/0145.png": "5e00cd1af5d535b3d505a530952b8bf1b0c9b338cbede3a3267c42591361b021",
+    "data/occlusion-study/coco/train/0146.png": "fdb1edb271b6fdcb998529a5eac92215ae0ebf1c121c2cfb555783e75ac8c460",
+    "data/occlusion-study/coco/train/0147.png": "d441651c9346b46e89b2da0e117e033133a417e0630cb820c5ece46439fdb5f2",
+    "data/occlusion-study/coco/train/0148.png": "6f6bdb970b9650e4caa3ee9ba1e1b125c3e49e26736beef62af08d06a962004a",
+    "data/occlusion-study/coco/train/0149.png": "5c7d371c1cfac5553adade07b128f773e6ec368234c78f6de4321a2ca963f87c",
+    "data/occlusion-study/coco/train/0150.png": "0c1ea836ac3f94f77528b821fa24e9ccee74ae1a18502e0b7765e006fd54a309",
+    "data/occlusion-study/coco/train/0151.png": "eaa426c5eebe0325a0ba6d19389487daa235817f48b92e52d25ea6fff0da800a",
+    "data/occlusion-study/coco/train/0152.png": "4925cdb933c4f55a872ed7588d1b2961a9b471070fc166695e523bab08f61cb6",
+    "data/occlusion-study/coco/train/0153.png": "97f04792ff5ace4c531fd9acb68792c0e6d97f8439d53f23d670fb169cdec69b",
+    "data/occlusion-study/coco/train/0154.png": "3aabfb78edd225c43295f364383ef7bb327c1d26cfd5450d51084119ec8124f0",
+    "data/occlusion-study/coco/train/0155.png": "e450c8be7c7e6cdf0fdeb2778a4456d6d5c2c8bdfbbeedd1666019c4f6137aa3",
+    "data/occlusion-study/coco/train/0156.png": "12466431c5776c8fb7757a855a3a070d4b225448f3cc4d0d6b19f721ed00f0a1",
+    "data/occlusion-study/coco/train/0157.png": "cdf47b48934dde2893e0a09f9d29b299d07d5a59bc2f23bedb687134c029e205",
+    "data/occlusion-study/coco/train/0158.png": "218222187253d176f667463b2e1589a7437d2e1729b1694a515800203080214a",
+    "data/occlusion-study/coco/train/0159.png": "a15c73bbb25d9204637d885616f50ff53a10e0d30b6835fa3f68a8d4cf59a62f",
+    "data/occlusion-study/coco/train/0160.png": "3a39131f168b30db608397363eb2217bf9a3addf77b0f8d5c422e8338b59f553",
+    "data/occlusion-study/coco/train/0161.png": "e6718a20b1a4db0afaf0b1dced2bf7a0890ca3f10033a71e698601a54f59fe41",
+    "data/occlusion-study/coco/train/0162.png": "74e4e91bda65c0a242a42fc2a1bdd047640da8f50ce69de6724d8587b8712ed3",
+    "data/occlusion-study/coco/train/0163.png": "130fcaa592b35ac71a4f20f31ef48c7513f8969c75d60efcb569acc88d79a1a3",
+    "data/occlusion-study/coco/train/0164.png": "ab438a69a5d2d25ae5b4f6b6dc23c56bbc6a0b3505b4fb4a1af23df064baeede",
+    "data/occlusion-study/coco/train/0165.png": "4443b6e0cd9edf32bc08480f09280d57748146f0cd291a6301dab01e823eb774",
+    "data/occlusion-study/coco/train/0166.png": "5df1c855f3a5391a8d729313995d0eb1ec228d0a679930d147d31d81e525238b",
+    "data/occlusion-study/coco/train/0167.png": "4ffaa46c9ba1a6d2f5196d4fe223c480b26a47ff75cf52a568e1681ce00971f8",
+    "data/occlusion-study/coco/train/0168.png": "280bbc1f46ecc831c43a8b4340b7ae7e4b36b703e445e6924a1951017884ff40",
+    "data/occlusion-study/coco/train/0169.png": "71950026172949f3bfe9953c6716b183c4953cc39a1c320e94390b14008970a5",
+    "data/occlusion-study/coco/train/0170.png": "f4d7031bcc683b6ee8888971540247468d33d9672a6f2fe35050976596232554",
+    "data/occlusion-study/coco/train/0171.png": "f7313dd548cc39e2c8c6f120d493570cb849c147d231150d5691a2fa7652d2ca",
+    "data/occlusion-study/coco/train/0172.png": "6221a6f49afb893a34876022f8728e3fe0eb43c271adfc782ff4f77e78c6de0c",
+    "data/occlusion-study/coco/train/0173.png": "bd014395a5e3b7fbbf5019e9430bd2be1b5408b517cf08a9a45fdc81ffcd4d3d",
+    "data/occlusion-study/coco/train/0174.png": "9ca7d09eb5f2a8b4ebc97a59a992b8b58eaa074465eff60fa93c3f3a6e44b62c",
+    "data/occlusion-study/coco/train/0175.png": "d89042a7b3d2b50ca155d329d54650a3d556c956a90c26b5d215bf6a1a84a1b3",
+    "data/occlusion-study/coco/train/0176.png": "eb0e6e4c03fa00380ff07310d9ba0b2eaf91a84265d6d8a8930442aa7c1955f6",
+    "data/occlusion-study/coco/train/0177.png": "8b5841688bcc5e976083d71cf3ce7c523a4a45beedd0e5349d14ca0fed3612d7",
+    "data/occlusion-study/coco/train/0178.png": "bf8a8b6257f14112d47d885959430263e432e6e24554b89f350233e669c79d33",
+    "data/occlusion-study/coco/train/0179.png": "0358c319210cc19bd40030f0e775dd63d30295af98c158427499041706bf73ac",
+    "data/occlusion-study/coco/train/0180.png": "43d0fad312763c3f4912520e734a2f925eca7d3079d73273ef3ced09bb6eac1f",
+    "data/occlusion-study/coco/train/0181.png": "8671ad47544312dc62bf9044a2cbb6577c9f6ddf4e920b7c92ce498fda250652",
+    "data/occlusion-study/coco/valid/0001.png": "791e3398975e121630656c28eb5df066309e4b26e86ea382e5f03ab0b3b8b26e",
+    "data/occlusion-study/coco/valid/0002.png": "83e4060c0c559d91b55563a17fa1833ab2e64f735717f93b8e9fd12433e8311e",
+    "data/occlusion-study/coco/valid/0003.png": "9d418905bc7d41a83e57653a99f148c36254fdcc743b1dd4713e61d0cc56213f",
+    "data/occlusion-study/coco/valid/0004.png": "83f5abe00fd93a0d532e8e9b7a8b878d0dcb934a4071e9c4bf1f7d7dbf8a83c5",
+    "data/occlusion-study/coco/valid/0005.png": "8d20482d4c3f79aeef897802797d8ea8ca213cb61241c2be19ad6dda80583e74",
+    "data/occlusion-study/coco/valid/0006.png": "cb1a46c21cc24a6247546d0db4b1303399dbf33d215c4114daabc03a44187e58",
+    "data/occlusion-study/coco/valid/0007.png": "5436c86b691ae1cc10a41a9ad6dca7afd5644aeeb7a8f7218c729230291ab53d",
+    "data/occlusion-study/coco/valid/0008.png": "5255f04c0de5064662feb3c49008338213fd5861b0450352e83b932f9f3fca73",
+    "data/occlusion-study/coco/valid/0009.png": "eb3db0a2b32b1ba6f3845842961a9b63cdf991a3ca10097f69da320f38fa4b16",
+    "data/occlusion-study/coco/valid/0010.png": "b5f25e7718703c507e9cc7413bf64402577dc99bff03c6a3db6d8a0bb4dfd855",
+    "data/occlusion-study/coco/valid/0011.png": "5941260b7a28c82d3bea6b054e03eeccabd2163b79f4629c43b460124b36ed37",
+    "data/occlusion-study/coco/valid/0012.png": "125d3f223b3329fb41518aa45c1b243d2c04eac48a0330efe81753003f3cef4b",
+    "data/occlusion-study/coco/valid/0013.png": "b5328e7f5157d59b6aa3ec7b20c1adb7b584653144a3f0e1a93db3d926aa05ce",
+    "data/occlusion-study/coco/valid/0014.png": "2c55e2f976d5adf8c7588108c94202bac30cc9c740aaecde51a4b98325e8dca7",
+    "data/occlusion-study/coco/valid/0015.png": "07a0ba8519768e1ef73d6fa6e6f7873a02a7d96e2950d91de170f62158d20881",
+    "data/occlusion-study/coco/valid/0016.png": "e8b5220093286345ad884465a0953ead289b98ae5a5cfecec05eed06dd608e62",
+    "data/occlusion-study/coco/valid/0017.png": "d76d9aa5e9ee41db8f2474879ae36f7ed0b7896d3684aae88f9a58bf22c9dfcf",
+    "data/occlusion-study/coco/valid/0018.png": "fcb233e607a89bcb21711ae0932e07bd77f80716eb15128aa8c2cc5289dc9b2c",
+    "data/occlusion-study/coco/valid/0019.png": "d8437208045b374fb9653f62e349bf1fcf0919bf8f5ea2dc51d43b20f2b5350c",
+    "data/occlusion-study/coco/valid/0020.png": "a74eb434e75511c7cfc6c38d5c3696963ecd93b4f6cf7ed4251fc7e1f4217e63",
+    "data/occlusion-study/coco/valid/0021.png": "2006c2764264745ea569c7d17790484c786fc2b6ad29935320330cda84650318",
+    "data/occlusion-study/coco/valid/0022.png": "e30d228fe620ad98b38a6dcf1bc9d6edba8bf15bf3fcaf32e9ff737e6d56dd78",
+    "data/occlusion-study/coco/valid/0023.png": "2904c1ccfed70038426c5c4b4c91d0313ec9b832b9da502f7e5ffc0c311f856f",
+    "data/occlusion-study/coco/valid/0024.png": "43ca02b30953c9b790081a7e228dfec2045bf9bf3659804a808bcd6a6a21cfda",
+    "data/occlusion-study/coco/valid/0025.png": "f44307b255890e90a08e29ffb3ba19804d2087a29acb5b9e1e6520f6c473ea01",
+    "data/occlusion-study/coco/valid/0026.png": "37de113f0ebbef4f99f673e7eca1e09b98b06f977a828a42357e5163139315d0",
+    "data/occlusion-study/coco/valid/0027.png": "e2d9463600b271ecd69589581043e7e622bf69e4b99e1a69e7f08a44db12ca3c",
+    "data/occlusion-study/coco/valid/0028.png": "5f58baca85eacc3d0e8b37962690321a5f2b785f16e16ae06c778daeee36022c",
+    "data/occlusion-study/coco/valid/0029.png": "24a23fa8305e648644253493b6111db320f35e08ee6453a6fd7708871069fc7a",
+    "data/occlusion-study/coco/valid/0030.png": "3a710d99666984eb8ae0080e24b7b0f95cbe9095f45abac3785a3190bcc09502",
+    "data/occlusion-study/coco/valid/0031.png": "5d2688e83c7eb502ec99dfba6c6b1b1a7479917b50e174e792c067596208cae2",
+    "data/occlusion-study/coco/valid/0032.png": "d1c618ff86e0df43c19ba7d5b94fa13c1d33676e92d8b41471aaf260b6f61663",
+    "data/occlusion-study/coco/valid/0033.png": "11eb3ae64b7712d1a35bb0e1c6b76244572aa6de082709b3d7c92f0ecaf0a898",
+    "data/occlusion-study/coco/valid/0034.png": "17be38d73c9db92ef5ab09b239d36676ceddcf79857a2a35d88548b4e19d0252",
+    "data/occlusion-study/coco/valid/0035.png": "6b18080cc0cca8c68ac2ddf39608e988927228acb81ef86940f382c556dd6a9d",
+    "data/occlusion-study/coco/valid/0036.png": "f3769ef6c1c2bdac120263806e793833f805407114a5c75f07ff8a72002b7234",
+    "data/occlusion-study/coco/valid/0037.png": "660e21b738ebf262084e830a115b689130593e4b0584813141a4b67f0fe830ba",
+    "data/occlusion-study/coco/valid/0038.png": "e617447a6c2bc5f0be5a94f9127e7571d92f1417141cb4455749470a4b49e0b7",
+    "data/occlusion-study/coco/valid/0039.png": "25768b5e2f2578e783908ada3d287531de43130aee147b0d6f54570839a92b9d",
+    "data/occlusion-study/coco/valid/0040.png": "36baec23ad17203fd8d473ee38b12080c43dc36eaf4f6732fbd8dee9953dbf40",
+    "data/occlusion-study/coco/valid/0041.png": "f0bbcf796c4732db4d6b43ac7bbebc6bfbf6d3b23d1f6c1b5286e1db78ce62ce",
+    "data/occlusion-study/coco/valid/0042.png": "119fa950b8f9853b81864aafb9f2bdeca72813cc2fa6141aa6aeca156227a6b6",
+    "data/occlusion-study/coco/valid/0043.png": "3a4fd7d8a96d0e8b3d96299679ccf2ce0bebbfbe85adf458513c058e562f14fd",
+    "data/occlusion-study/coco/valid/0044.png": "f456467f37a0b949e83817aa56d1cb814b889f273ce709abb995f99f7c0deb2c",
+    "data/occlusion-study/coco/valid/0045.png": "f0d0af387613167704848dfe7f9e2b751f6a6515569b10957a642984261794ff",
+    "data/occlusion-study/coco/valid/0046.png": "5c20023b3f2e5a1e178a9b45f76448a19026f84674822a89f14d9e0e43d361d4",
+    "data/occlusion-study/coco/valid/0047.png": "4f5a72560ecc619f9e06b6b60e36fcc26af41b2d94d3013319e0abd5a2dba412",
+    "data/occlusion-study/coco/valid/0048.png": "c927b2c96888c09bf2de212bb885ee9f1535a9a9e751081304368274692ecfd6",
+    "data/occlusion-study/coco/valid/0049.png": "7a9d3e7fc417046fb5826061cac56f5f3a5ed23caed88847e0c309211a43138e",
+    "data/occlusion-study/coco/valid/0050.png": "eafb0326662fd550726382b33f80b53459d1dc0b4d9c61259293caa709945f6f",
+    "data/occlusion-study/coco/valid/0051.png": "017a3bb2a7afd3cafb515f80e42d2649e0ccb201b61cce20b432975038dd9760",
+    "data/occlusion-study/coco/valid/0052.png": "177935ed2601aace43b0261ed917abffab48559ffdd87dd051bff9eaf54837d7",
+    "data/occlusion-study/coco/valid/0053.png": "5a3c779b2cbc9684af7ea778d549acc09d305b96b87ce4505d96c6f9d3299253",
+    "data/occlusion-study/coco/valid/0054.png": "ad2713f383282c619e4fcba1cf2b44d7001dc35b82948da05a7c6743278dc273",
+    "data/occlusion-study/coco/valid/0055.png": "40c5a188d23bb3e0b1e8a6f3bb17e1631a61baef7581ba01c82a1abc3b53ba6f",
+    "data/occlusion-study/coco/valid/0056.png": "69f09e3222c69c8657dcd9c2d9fd0fda232fd47b42c5d76e3b5b1b976a3e01ef",
+    "data/occlusion-study/coco/valid/0057.png": "5995fb7f9dd10b3c296a2dfc6a8ad6e962857cfc3b609f8c768a41c4cdca739d",
+    "data/occlusion-study/coco/valid/0058.png": "9b28115cc8dfdca6c9f8840c244c604160bfd39c16748ebf5c5a866d7df1b3a0",
+    "data/occlusion-study/coco/valid/0059.png": "6cbd13f5a15c2731f225cf3a1d69ef60a3f77b06d257159585bd4179b28e7876",
+    "data/occlusion-study/coco/valid/0060.png": "69ce628ff451ef63d5f01177ed866666126a2d81fb038d0013d3a80b11228354"
+  }
+}

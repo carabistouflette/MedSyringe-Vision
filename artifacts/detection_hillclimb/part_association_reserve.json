@@ -1,0 +1,134 @@
+{
+  "code": "3d4ff3ded6f1b222df39abb288bcf0d99a49a8107a95de66155ce5891fee4c31",
+  "rows": [
+    {
+      "id": "association-aviano",
+      "image": "data/part-association/aviano.jpg",
+      "source_url": "https://www.dvidshub.net/image/5841408/flu-shots-aviano",
+      "original_url": "https://d1ldvf68ux039x.cloudfront.net/thumbs/photos/1910/5841408/1000w_q95.jpg",
+      "author": "Ericka Woolever",
+      "group": "part-association:ericka woolever:aviano",
+      "license": "Public domain per DVIDS item record",
+      "objects": [
+        {
+          "bbox": [
+            0.08588235294117647,
+            0.582010582010582,
+            0.20823529411764705,
+            0.9506172839506173
+          ]
+        },
+        {
+          "bbox": [
+            0.20705882352941177,
+            0.5485008818342152,
+            0.3623529411764706,
+            0.7971781305114638
+          ]
+        },
+        {
+          "bbox": [
+            0.3211764705882353,
+            0.5396825396825397,
+            0.48823529411764705,
+            0.7583774250440917
+          ]
+        },
+        {
+          "bbox": [
+            0.3611764705882353,
+            0.6490299823633157,
+            0.5341176470588235,
+            1.0
+          ]
+        },
+        {
+          "bbox": [
+            0.5494117647058824,
+            0.6014109347442681,
+            0.6894117647058824,
+            0.9029982363315696
+          ]
+        },
+        {
+          "bbox": [
+            0.6270588235294118,
+            0.5890652557319224,
+            0.82,
+            0.8253968253968254
+          ]
+        },
+        {
+          "bbox": [
+            0.3847058823529412,
+            0.37037037037037035,
+            0.8235294117647058,
+            0.6684303350970018
+          ]
+        },
+        {
+          "bbox": [
+            0.7929411764705883,
+            0.5855379188712522,
+            1.0,
+            0.8024691358024691
+          ]
+        }
+      ],
+      "review": "Eight foreground assemblies traceable by their own barrel and distal or rear part. Far-background blur has insufficient identity evidence. Bounds are approximate.",
+      "sha256": "fd0717b8c178ff7349b042e44856cbea9e1aaad550c9791b3bd15ab156e75308"
+    },
+    {
+      "id": "association-serological",
+      "image": "data/part-association/serological.jpg",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Pipetter_and_serological_pipette.jpg",
+      "original_url": "https://upload.wikimedia.org/wikipedia/commons/e/e4/Pipetter_and_serological_pipette.jpg",
+      "author": "MicrobiologyMarcus",
+      "group": "part-association:microbiologymarcus:serological",
+      "license": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "objects": [],
+      "review": "Pipette and controller on a support. No syringe.",
+      "sha256": "2ce6430e401f986b014e798825274f3e5f9000d81c3a56f50fdd5b94b49d3e3a"
+    },
+    {
+      "id": "association-pipette",
+      "image": "data/part-association/pipette.jpg",
+      "source_url": "https://www.pexels.com/photo/scientist-conducting-laboratory-experiment-with-pipette-38145554/",
+      "original_url": "https://images.pexels.com/photos/38145554/pexels-photo-38145554.jpeg?auto=compress&cs=tinysrgb&w=1000",
+      "author": "Maikol Herrera",
+      "group": "part-association:maikol herrera:pipette",
+      "license": "https://www.pexels.com/license/",
+      "objects": [],
+      "review": "Held micropipette, beakers and other pipettes.",
+      "sha256": "0563c2ac2b0ca35ba7dd5af82ad0f14387efb4caa4e0156a09415488cc9f1528"
+    },
+    {
+      "id": "association-23655818",
+      "image": "data/part-association/23655818.jpg",
+      "source_url": "https://www.pexels.com/photo/needles-and-syringe-in-hospital-23655818/",
+      "original_url": "https://images.pexels.com/photos/23655818/pexels-photo-23655818.jpeg?auto=compress&cs=tinysrgb&w=1800",
+      "author": "Marta Branco",
+      "group": "part-association:marta branco:23655818",
+      "license": "https://www.pexels.com/license/",
+      "objects": [],
+      "review": "Visible objects are loose needles, connectors, caps and IV tubing. No syringe barrel and plunger assembly.",
+      "sha256": "32c550c979865e926a2e08a45dbee969d15dae4e27fa64492585754104856af4"
+    }
+  ],
+  "excluded": {
+    "32418225": "At least two foreground syringes. One packaged device cannot be labeled with confidence.",
+    "19677805": "Several front-facing plungers cannot be associated unambiguously with visible bodies.",
+    "guard-000": "The Illinois National Guard photo has strongly blurred devices whose extents cannot be reviewed.",
+    "three": "Known contributor Bron766.",
+    "set": "Known contributor Nadine90 and perceptual overlap.",
+    "fish": "Perceptual overlap.",
+    "glass": "Known contributor Kuebi and perceptual overlap.",
+    "light": "Known Wikimedia Commons source and perceptual overlap.",
+    "minot": "The documented public asset was inaccessible.",
+    "beale": "The documented public asset was inaccessible.",
+    "anesth": "Existing source, contributor, acquisition or image fingerprint.",
+    "give": "Existing source, contributor, acquisition or image fingerprint.",
+    "bench": "Existing source, contributor, acquisition or image fingerprint."
+  },
+  "notes": "Single visual reviewer, no predictions consulted before annotation."
+}

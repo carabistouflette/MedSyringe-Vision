@@ -1,0 +1,2425 @@
+{
+  "cases": [
+    {
+      "image": "public development photo",
+      "variant": "native",
+      "expected_capacity": 5,
+      "expected_presence": "empty",
+      "expected_volume_ml": 0.0,
+      "result": {
+        "value": 5,
+        "unit": "mL",
+        "score": 0.8963853120803833,
+        "sampling": "native",
+        "evidence": [
+          {
+            "text": "1",
+            "score": 0.9786151647567749,
+            "crop_bbox": [
+              0.18919104856090768,
+              0.23131717380060435,
+              0.24272956889359165,
+              0.32612491422555967
+            ],
+            "view_bbox": [
+              117.0,
+              105.0,
+              132.0,
+              134.0
+            ],
+            "rotation": 269.1,
+            "family": "small separated scale"
+          },
+          {
+            "text": "2",
+            "score": 0.9993715882301331,
+            "crop_bbox": [
+              0.284417394511542,
+              0.22640261439629236,
+              0.33612463896056,
+              0.3211139909113591
+            ],
+            "view_bbox": [
+              117.0,
+              157.0,
+              132.0,
+              185.0
+            ],
+            "rotation": 269.1,
+            "family": "small separated scale"
+          },
+          {
+            "text": "3",
+            "score": 0.9995495676994324,
+            "crop_bbox": [
+              0.37964374046217636,
+              0.2213916910820918,
+              0.43135098491119434,
+              0.31610306759715867
+            ],
+            "view_bbox": [
+              117.0,
+              209.0,
+              132.0,
+              237.0
+            ],
+            "rotation": 269.1,
+            "family": "small separated scale"
+          },
+          {
+            "text": "4",
+            "score": 0.9983898401260376,
+            "crop_bbox": [
+              0.47303881052914465,
+              0.21638076776789142,
+              0.5265773308618287,
+              0.31118850819284666
+            ],
+            "view_bbox": [
+              117.0,
+              260.0,
+              132.0,
+              289.0
+            ],
+            "rotation": 269.1,
+            "family": "small separated scale"
+          },
+          {
+            "text": "5",
+            "score": 0.9999771118164062,
+            "crop_bbox": [
+              0.568265156479779,
+              0.21146620836357943,
+              0.6199724009287969,
+              0.3061775848786461
+            ],
+            "view_bbox": [
+              117.0,
+              312.0,
+              132.0,
+              340.0
+            ],
+            "rotation": 269.1,
+            "family": "small separated scale"
+          },
+          {
+            "text": "nl",
+            "score": 0.72450852394104,
+            "crop_bbox": [
+              0.606721950036766,
+              0.20992438580536377,
+              0.6492728150674537,
+              0.30415394277098823
+            ],
+            "view_bbox": [
+              117.0,
+              333.0,
+              132.0,
+              356.0
+            ],
+            "rotation": 269.1,
+            "family": "small separated scale"
+          },
+          {
+            "text": "ml",
+            "score": 0.8963853120803833,
+            "crop_bbox": [
+              0.6142196614539777,
+              0.24672966062063956,
+              0.6493591190087274,
+              0.3221711245390723
+            ],
+            "view_bbox": [
+              114.0,
+              337.0,
+              126.0,
+              356.0
+            ],
+            "rotation": 269.1,
+            "family": "small separated scale"
+          },
+          {
+            "text": "m",
+            "score": 0.8587847948074341,
+            "crop_bbox": [
+              0.6104708057453718,
+              0.22803793148333631,
+              0.6548817146401501,
+              0.3284980648280619
+            ],
+            "view_bbox": [
+              113.0,
+              335.0,
+              129.0,
+              359.0
+            ],
+            "rotation": 269.1,
+            "family": "small separated scale"
+          },
+          {
+            "text": "m",
+            "score": 0.6403385996818542,
+            "crop_bbox": [
+              0.6159934013767946,
+              0.2344612356822143,
+              0.6493015830478783,
+              0.30980633569075855
+            ],
+            "view_bbox": [
+              116.0,
+              338.0,
+              128.0,
+              356.0
+            ],
+            "rotation": 269.1,
+            "family": "small separated scale"
+          }
+        ],
+        "unit_patch": 2,
+        "barrel": {
+          "presence": "empty",
+          "fill_ml": 0.0,
+          "interval_ml": [
+            0.0,
+            0.2
+          ],
+          "appearance": null,
+          "relative_opacity": null,
+          "reason": "A distinct stopper front is seated at the scale origin.",
+          "seal": {
+            "level_ml": 0.029,
+            "oriented_box": [
+              47,
+              70,
+              72,
+              96
+            ]
+          }
+        },
+        "method": "Repeated graduation strokes, separate OCR digits and printed unit"
+      },
+      "correct_capacity": true,
+      "correct_presence": true,
+      "volume_in_interval": true
+    },
+    {
+      "image": "public development photo",
+      "variant": "jpeg_q36",
+      "expected_capacity": 5,
+      "expected_presence": "empty",
+      "expected_volume_ml": 0.0,
+      "result": null,
+      "correct_capacity": false,
+      "correct_presence": false,
+      "volume_in_interval": null
+    },
+    {
+      "image": "public development photo",
+      "variant": "gaussian_blur_0.9px",
+      "expected_capacity": 5,
+      "expected_presence": "empty",
+      "expected_volume_ml": 0.0,
+      "result": {
+        "value": 5,
+        "unit": "mL",
+        "score": 0.831740140914917,
+        "sampling": "2x",
+        "evidence": [
+          {
+            "text": "1",
+            "score": 0.9317999482154846,
+            "crop_bbox": [
+              0.19047619047619047,
+              0.2331288343558284,
+              0.24358974358974358,
+              0.3282208588957058
+            ],
+            "view_bbox": [
+              219.0,
+              208.0,
+              250.0,
+              266.0
+            ],
+            "rotation": 270.0,
+            "family": "small separated scale"
+          },
+          {
+            "text": "2",
+            "score": 0.9984022974967957,
+            "crop_bbox": [
+              0.2847985347985348,
+              0.2300613496932517,
+              0.33791208791208793,
+              0.325153374233129
+            ],
+            "view_bbox": [
+              220.0,
+              311.0,
+              251.0,
+              369.0
+            ],
+            "rotation": 270.0,
+            "family": "small separated scale"
+          },
+          {
+            "text": "3",
+            "score": 0.999313473701477,
+            "crop_bbox": [
+              0.3791208791208791,
+              0.22392638036809825,
+              0.43223443223443225,
+              0.31901840490797556
+            ],
+            "view_bbox": [
+              222.0,
+              414.0,
+              253.0,
+              472.0
+            ],
+            "rotation": 270.0,
+            "family": "small separated scale"
+          },
+          {
+            "text": "4",
+            "score": 0.9981617331504822,
+            "crop_bbox": [
+              0.47435897435897445,
+              0.22085889570552147,
+              0.5265567765567767,
+              0.31595092024539884
+            ],
+            "view_bbox": [
+              223.0,
+              518.0,
+              254.0,
+              575.0
+            ],
+            "rotation": 270.0,
+            "family": "small separated scale"
+          },
+          {
+            "text": "5",
+            "score": 0.99982088804245,
+            "crop_bbox": [
+              0.5686813186813188,
+              0.2116564417177914,
+              0.6217948717948719,
+              0.3067484662576687
+            ],
+            "view_bbox": [
+              226.0,
+              621.0,
+              257.0,
+              679.0
+            ],
+            "rotation": 270.0,
+            "family": "small separated scale"
+          },
+          {
+            "text": "ml",
+            "score": 0.831740140914917,
+            "crop_bbox": [
+              0.6080586080586081,
+              0.2116564417177914,
+              0.6501831501831503,
+              0.3067484662576687
+            ],
+            "view_bbox": [
+              226.0,
+              664.0,
+              257.0,
+              710.0
+            ],
+            "rotation": 270.0,
+            "family": "small separated scale"
+          },
+          {
+            "text": "ml",
+            "score": 0.7908122539520264,
+            "crop_bbox": [
+              0.6153846153846155,
+              0.24846625766871158,
+              0.6510989010989012,
+              0.31901840490797545
+            ],
+            "view_bbox": [
+              222.0,
+              672.0,
+              245.0,
+              711.0
+            ],
+            "rotation": 270.0,
+            "family": "small separated scale"
+          },
+          {
+            "text": "m",
+            "score": 0.9983161687850952,
+            "crop_bbox": [
+              0.6117216117216119,
+              0.23006134969325145,
+              0.6556776556776558,
+              0.3282208588957055
+            ],
+            "view_bbox": [
+              219.0,
+              668.0,
+              251.0,
+              716.0
+            ],
+            "rotation": 270.0,
+            "family": "small separated scale"
+          },
+          {
+            "text": "m",
+            "score": 0.99191814661026,
+            "crop_bbox": [
+              0.6181318681318683,
+              0.23926380368098152,
+              0.6501831501831503,
+              0.3128834355828221
+            ],
+            "view_bbox": [
+              224.0,
+              675.0,
+              248.0,
+              710.0
+            ],
+            "rotation": 270.0,
+            "family": "small separated scale"
+          }
+        ],
+        "unit_patch": 0,
+        "barrel": {
+          "presence": "empty",
+          "fill_ml": 0.0,
+          "interval_ml": [
+            0.0,
+            0.2
+          ],
+          "appearance": null,
+          "relative_opacity": null,
+          "reason": "A distinct stopper front is seated at the scale origin.",
+          "seal": {
+            "level_ml": 0.053,
+            "oriented_box": [
+              85,
+              138,
+              134,
+              190
+            ]
+          }
+        },
+        "method": "Repeated graduation strokes, separate OCR digits and printed unit"
+      },
+      "correct_capacity": true,
+      "correct_presence": true,
+      "volume_in_interval": true
+    },
+    {
+      "image": "public development photo",
+      "variant": "brightness_0.78",
+      "expected_capacity": 5,
+      "expected_presence": "empty",
+      "expected_volume_ml": 0.0,
+      "result": {
+        "value": 5,
+        "unit": "mL",
+        "score": 0.8685413599014282,
+        "sampling": "native",
+        "evidence": [
+          {
+            "text": "1",
+            "score": 0.9907112717628479,
+            "crop_bbox": [
+              0.18883705752325605,
+              0.2252705720311118,
+              0.24401976031519879,
+              0.3188977187238344
+            ],
+            "view_bbox": [
+              115.0,
+              104.0,
+              130.0,
+              134.0
+            ],
+            "rotation": 269.5,
+            "family": "small separated scale"
+          },
+          {
+            "text": "2",
+            "score": 0.6677767038345337,
+            "crop_bbox": [
+              0.28407152638651045,
+              0.2224866465960479,
+              0.3392542291784532,
+              0.3161137932887705
+            ],
+            "view_bbox": [
+              115.0,
+              156.0,
+              130.0,
+              186.0
+            ],
+            "rotation": 269.5,
+            "family": "small separated scale"
+          },
+          {
+            "text": "3",
+            "score": 0.9989781379699707,
+            "crop_bbox": [
+              0.37747456315624073,
+              0.2197562581885813,
+              0.4326572659481835,
+              0.3133834048813039
+            ],
+            "view_bbox": [
+              115.0,
+              207.0,
+              130.0,
+              237.0
+            ],
+            "rotation": 269.5,
+            "family": "small separated scale"
+          },
+          {
+            "text": "4",
+            "score": 0.9992615580558777,
+            "crop_bbox": [
+              0.4726930493537471,
+              0.21083759702919727,
+              0.5278757521456899,
+              0.3044647437219198
+            ],
+            "view_bbox": [
+              116.0,
+              259.0,
+              131.0,
+              289.0
+            ],
+            "rotation": 269.5,
+            "family": "small separated scale"
+          },
+          {
+            "text": "5",
+            "score": 0.9998761415481567,
+            "crop_bbox": [
+              0.5679275182170016,
+              0.20810720862173068,
+              0.6212787889154202,
+              0.30168081828685583
+            ],
+            "view_bbox": [
+              116.0,
+              311.0,
+              131.0,
+              340.0
+            ],
+            "rotation": 269.5,
+            "family": "small separated scale"
+          },
+          {
+            "text": "nl",
+            "score": 0.9440394639968872,
+            "crop_bbox": [
+              0.6082190242745323,
+              0.20725061618017251,
+              0.6505817024118061,
+              0.3005030036797134
+            ],
+            "view_bbox": [
+              116.0,
+              333.0,
+              131.0,
+              356.0
+            ],
+            "rotation": 269.5,
+            "family": "small separated scale"
+          },
+          {
+            "text": "ml",
+            "score": 0.8685413599014282,
+            "crop_bbox": [
+              0.6138092165495923,
+              0.24405903052609296,
+              0.65062965040905,
+              0.31874659976988146
+            ],
+            "view_bbox": [
+              113.0,
+              336.0,
+              125.0,
+              356.0
+            ],
+            "rotation": 269.5,
+            "family": "small separated scale"
+          },
+          {
+            "text": "m",
+            "score": 0.9654264450073242,
+            "crop_bbox": [
+              0.6100984043653002,
+              0.2254942122703406,
+              0.6561399293553702,
+              0.32498840954939634
+            ],
+            "view_bbox": [
+              112.0,
+              334.0,
+              128.0,
+              359.0
+            ],
+            "rotation": 269.5,
+            "family": "small separated scale"
+          },
+          {
+            "text": "n",
+            "score": 0.5846603512763977,
+            "crop_bbox": [
+              0.6174560980708925,
+              0.23792429480177288,
+              0.6505976850775541,
+              0.3063700542660465
+            ],
+            "view_bbox": [
+              115.0,
+              338.0,
+              126.0,
+              356.0
+            ],
+            "rotation": 269.5,
+            "family": "small separated scale"
+          }
+        ],
+        "unit_patch": 2,
+        "barrel": {
+          "presence": "empty",
+          "fill_ml": 0.0,
+          "interval_ml": [
+            0.0,
+            0.2
+          ],
+          "appearance": null,
+          "relative_opacity": null,
+          "reason": "A distinct stopper front is seated at the scale origin.",
+          "seal": {
+            "level_ml": 0.067,
+            "oriented_box": [
+              47,
+              69,
+              72,
+              77
+            ]
+          }
+        },
+        "method": "Repeated graduation strokes, separate OCR digits and printed unit"
+      },
+      "correct_capacity": true,
+      "correct_presence": true,
+      "volume_in_interval": true
+    },
+    {
+      "image": "public development photo",
+      "variant": "brightness_1.15",
+      "expected_capacity": 5,
+      "expected_presence": "empty",
+      "expected_volume_ml": 0.0,
+      "result": {
+        "value": 5,
+        "unit": "mL",
+        "score": 0.81217360496521,
+        "sampling": "native",
+        "evidence": [
+          {
+            "text": "1",
+            "score": 0.9619410634040833,
+            "crop_bbox": [
+              0.18934284658790568,
+              0.23287816199421463,
+              0.24283479878819325,
+              0.32737780058301696
+            ],
+            "view_bbox": [
+              116.0,
+              105.0,
+              131.0,
+              134.0
+            ],
+            "rotation": 269.2,
+            "family": "small separated scale"
+          },
+          {
+            "text": "2",
+            "score": 0.9994285702705383,
+            "crop_bbox": [
+              0.28274033509426927,
+              0.2284239694933828,
+              0.3380636105986032,
+              0.32300926563027815
+            ],
+            "view_bbox": [
+              116.0,
+              156.0,
+              131.0,
+              186.0
+            ],
+            "rotation": 269.2,
+            "family": "small separated scale"
+          },
+          {
+            "text": "3",
+            "score": 0.999643087387085,
+            "crop_bbox": [
+              0.3779691469046792,
+              0.22396977699255116,
+              0.4332924224090131,
+              0.3185550731294465
+            ],
+            "view_bbox": [
+              116.0,
+              208.0,
+              131.0,
+              238.0
+            ],
+            "rotation": 269.2,
+            "family": "small separated scale"
+          },
+          {
+            "text": "4",
+            "score": 0.997750461101532,
+            "crop_bbox": [
+              0.47136663541104273,
+              0.21960124203981243,
+              0.5266899109153766,
+              0.31418653817670766
+            ],
+            "view_bbox": [
+              116.0,
+              259.0,
+              131.0,
+              289.0
+            ],
+            "rotation": 269.2,
+            "family": "small separated scale"
+          },
+          {
+            "text": "5",
+            "score": 0.9999430179595947,
+            "crop_bbox": [
+              0.5665954472214526,
+              0.21514704953898078,
+              0.6219187227257865,
+              0.30973234567587604
+            ],
+            "view_bbox": [
+              116.0,
+              311.0,
+              131.0,
+              341.0
+            ],
+            "rotation": 269.2,
+            "family": "small separated scale"
+          },
+          {
+            "text": "ml",
+            "score": 0.81217360496521,
+            "crop_bbox": [
+              0.6068845599104722,
+              0.21386218631758705,
+              0.6493885722864817,
+              0.3078478796178318
+            ],
+            "view_bbox": [
+              116.0,
+              333.0,
+              131.0,
+              356.0
+            ],
+            "rotation": 269.2,
+            "family": "small separated scale"
+          },
+          {
+            "text": "m",
+            "score": 0.9988590478897095,
+            "crop_bbox": [
+              0.6143632836798351,
+              0.25058275664713725,
+              0.6512966108671168,
+              0.3259083633642817
+            ],
+            "view_bbox": [
+              113.0,
+              337.0,
+              125.0,
+              357.0
+            ],
+            "rotation": 269.2,
+            "family": "small separated scale"
+          },
+          {
+            "text": "m",
+            "score": 0.991905927658081,
+            "crop_bbox": [
+              0.6106239217951537,
+              0.23200832761212978,
+              0.6549848292340723,
+              0.33221404977340807
+            ],
+            "view_bbox": [
+              112.0,
+              335.0,
+              128.0,
+              359.0
+            ],
+            "rotation": 269.2,
+            "family": "small separated scale"
+          },
+          {
+            "text": "ml",
+            "score": 0.7701815366744995,
+            "crop_bbox": [
+              0.6161690352250184,
+              0.24453404288228958,
+              0.6494141440453446,
+              0.31355396319030776
+            ],
+            "view_bbox": [
+              115.0,
+              338.0,
+              126.0,
+              356.0
+            ],
+            "rotation": 269.2,
+            "family": "small separated scale"
+          }
+        ],
+        "unit_patch": 0,
+        "barrel": {
+          "presence": "empty",
+          "fill_ml": 0.0,
+          "interval_ml": [
+            0.0,
+            0.2
+          ],
+          "appearance": null,
+          "relative_opacity": null,
+          "reason": "A distinct stopper front is seated at the scale origin.",
+          "seal": {
+            "level_ml": 0.096,
+            "oriented_box": [
+              48,
+              71,
+              73,
+              96
+            ]
+          }
+        },
+        "method": "Repeated graduation strokes, separate OCR digits and printed unit"
+      },
+      "correct_capacity": true,
+      "correct_presence": true,
+      "volume_in_interval": true
+    },
+    {
+      "image": "public development photo",
+      "variant": "perspective",
+      "expected_capacity": 5,
+      "expected_presence": "empty",
+      "expected_volume_ml": 0.0,
+      "result": {
+        "value": 5,
+        "unit": "mL",
+        "score": 0.767713725566864,
+        "sampling": "native",
+        "evidence": [
+          {
+            "text": "1",
+            "score": 0.9895580410957336,
+            "crop_bbox": [
+              0.19963369963369965,
+              0.226993865030675,
+              0.2509157509157509,
+              0.31901840490797573
+            ],
+            "view_bbox": [
+              111.0,
+              109.0,
+              126.0,
+              137.0
+            ],
+            "rotation": 270.0,
+            "family": "small separated scale"
+          },
+          {
+            "text": "2",
+            "score": 0.9927532076835632,
+            "crop_bbox": [
+              0.2875457875457875,
+              0.21472392638036827,
+              0.33882783882783885,
+              0.3067484662576689
+            ],
+            "view_bbox": [
+              113.0,
+              157.0,
+              128.0,
+              185.0
+            ],
+            "rotation": 270.0,
+            "family": "small separated scale"
+          },
+          {
+            "text": "3",
+            "score": 0.9971455931663513,
+            "crop_bbox": [
+              0.3772893772893773,
+              0.2085889570552147,
+              0.42857142857142855,
+              0.30061349693251543
+            ],
+            "view_bbox": [
+              114.0,
+              206.0,
+              129.0,
+              234.0
+            ],
+            "rotation": 270.0,
+            "family": "small separated scale"
+          },
+          {
+            "text": "4",
+            "score": 0.9981924891471863,
+            "crop_bbox": [
+              0.46703296703296704,
+              0.20245398773006135,
+              0.5183150183150185,
+              0.29447852760736204
+            ],
+            "view_bbox": [
+              115.0,
+              255.0,
+              130.0,
+              283.0
+            ],
+            "rotation": 270.0,
+            "family": "small separated scale"
+          },
+          {
+            "text": "5",
+            "score": 0.9998630285263062,
+            "crop_bbox": [
+              0.5586080586080587,
+              0.19631901840490798,
+              0.6098901098901099,
+              0.2883435582822086
+            ],
+            "view_bbox": [
+              116.0,
+              305.0,
+              131.0,
+              333.0
+            ],
+            "rotation": 270.0,
+            "family": "small separated scale"
+          },
+          {
+            "text": "n",
+            "score": 0.8261107802391052,
+            "crop_bbox": [
+              0.5970695970695972,
+              0.19631901840490798,
+              0.6355311355311356,
+              0.2883435582822086
+            ],
+            "view_bbox": [
+              116.0,
+              326.0,
+              131.0,
+              347.0
+            ],
+            "rotation": 270.0,
+            "family": "small separated scale"
+          },
+          {
+            "text": "ml",
+            "score": 0.767713725566864,
+            "crop_bbox": [
+              0.6025641025641026,
+              0.2331288343558282,
+              0.6373626373626374,
+              0.3006134969325153
+            ],
+            "view_bbox": [
+              114.0,
+              329.0,
+              125.0,
+              348.0
+            ],
+            "rotation": 270.0,
+            "family": "small separated scale"
+          },
+          {
+            "text": "m",
+            "score": 0.9661220908164978,
+            "crop_bbox": [
+              0.598901098901099,
+              0.2208588957055214,
+              0.6410256410256411,
+              0.3128834355828221
+            ],
+            "view_bbox": [
+              112.0,
+              327.0,
+              127.0,
+              350.0
+            ],
+            "rotation": 270.0,
+            "family": "small separated scale"
+          },
+          {
+            "text": "n",
+            "score": 0.9469497203826904,
+            "crop_bbox": [
+              0.6062271062271063,
+              0.22699386503067484,
+              0.6355311355311356,
+              0.294478527607362
+            ],
+            "view_bbox": [
+              115.0,
+              331.0,
+              126.0,
+              347.0
+            ],
+            "rotation": 270.0,
+            "family": "small separated scale"
+          }
+        ],
+        "unit_patch": 2,
+        "barrel": {
+          "presence": "empty",
+          "fill_ml": 0.0,
+          "interval_ml": [
+            0.0,
+            0.2
+          ],
+          "appearance": null,
+          "relative_opacity": null,
+          "reason": "A distinct stopper front is seated at the scale origin.",
+          "seal": {
+            "level_ml": -0.041,
+            "oriented_box": [
+              49,
+              72,
+              72,
+              97
+            ]
+          }
+        },
+        "method": "Repeated graduation strokes, separate OCR digits and printed unit"
+      },
+      "correct_capacity": true,
+      "correct_presence": true,
+      "volume_in_interval": true
+    },
+    {
+      "image": "rendered blue column",
+      "variant": "native",
+      "expected_capacity": 5,
+      "expected_presence": "present",
+      "expected_volume_ml": 2.7,
+      "result": {
+        "value": 5,
+        "unit": "mL",
+        "score": 0.9109423160552979,
+        "sampling": "native",
+        "evidence": [
+          {
+            "text": "1",
+            "score": 0.9809044003486633,
+            "crop_bbox": [
+              0.7859649122807018,
+              0.24727272727272728,
+              0.8982456140350877,
+              0.3103030303030303
+            ],
+            "view_bbox": [
+              224.0,
+              204.0,
+              256.0,
+              256.0
+            ],
+            "rotation": 0.0,
+            "family": "small separated scale"
+          },
+          {
+            "text": "2",
+            "score": 0.5721171498298645,
+            "crop_bbox": [
+              0.7859649122807018,
+              0.3612121212121212,
+              0.8982456140350877,
+              0.42424242424242425
+            ],
+            "view_bbox": [
+              224.0,
+              298.0,
+              256.0,
+              350.0
+            ],
+            "rotation": 0.0,
+            "family": "small separated scale"
+          },
+          {
+            "text": "3",
+            "score": 0.9972490668296814,
+            "crop_bbox": [
+              0.7859649122807018,
+              0.47515151515151516,
+              0.8982456140350877,
+              0.5381818181818182
+            ],
+            "view_bbox": [
+              224.0,
+              392.0,
+              256.0,
+              444.0
+            ],
+            "rotation": 0.0,
+            "family": "small separated scale"
+          },
+          {
+            "text": "4",
+            "score": 0.9991176724433899,
+            "crop_bbox": [
+              0.7859649122807018,
+              0.5890909090909091,
+              0.8982456140350877,
+              0.6521212121212121
+            ],
+            "view_bbox": [
+              224.0,
+              486.0,
+              256.0,
+              538.0
+            ],
+            "rotation": 0.0,
+            "family": "small separated scale"
+          },
+          {
+            "text": "5",
+            "score": 0.9973428845405579,
+            "crop_bbox": [
+              0.7859649122807018,
+              0.703030303030303,
+              0.8982456140350877,
+              0.7660606060606061
+            ],
+            "view_bbox": [
+              224.0,
+              580.0,
+              256.0,
+              632.0
+            ],
+            "rotation": 0.0,
+            "family": "small separated scale"
+          },
+          {
+            "text": "ml",
+            "score": 0.9109423160552979,
+            "crop_bbox": [
+              0.7859649122807018,
+              0.7503030303030302,
+              0.8982456140350877,
+              0.8012121212121213
+            ],
+            "view_bbox": [
+              224.0,
+              619.0,
+              256.0,
+              661.0
+            ],
+            "rotation": 0.0,
+            "family": "small separated scale"
+          },
+          {
+            "text": "m",
+            "score": 0.964174211025238,
+            "crop_bbox": [
+              0.7719298245614035,
+              0.7587878787878788,
+              0.856140350877193,
+              0.8012121212121213
+            ],
+            "view_bbox": [
+              220.0,
+              626.0,
+              244.0,
+              661.0
+            ],
+            "rotation": 0.0,
+            "family": "small separated scale"
+          },
+          {
+            "text": "ml",
+            "score": 0.8012702465057373,
+            "crop_bbox": [
+              0.7578947368421053,
+              0.7539393939393939,
+              0.8736842105263158,
+              0.8072727272727273
+            ],
+            "view_bbox": [
+              216.0,
+              622.0,
+              249.0,
+              666.0
+            ],
+            "rotation": 0.0,
+            "family": "small separated scale"
+          },
+          {
+            "text": "m",
+            "score": 0.7681834697723389,
+            "crop_bbox": [
+              0.7789473684210526,
+              0.7624242424242424,
+              0.8631578947368421,
+              0.8012121212121213
+            ],
+            "view_bbox": [
+              222.0,
+              629.0,
+              246.0,
+              661.0
+            ],
+            "rotation": 0.0,
+            "family": "small separated scale"
+          }
+        ],
+        "unit_patch": 0,
+        "barrel": {
+          "presence": "present",
+          "fill_ml": null,
+          "interval_ml": [
+            2.44,
+            2.94
+          ],
+          "appearance": {
+            "status": "appearance measured",
+            "reason": "Measured within the supported barrel interior",
+            "lightness": {
+              "lstar": 74.7,
+              "iqr": [
+                74.0,
+                75.5
+              ],
+              "category": "light"
+            },
+            "apparent_color": {
+              "lab": [
+                74.7,
+                -15.8,
+                -17.1
+              ],
+              "chroma": 23.3,
+              "srgb": [
+                127,
+                194,
+                215
+              ],
+              "profile": "source RGB assumed sRGB",
+              "family": "cyan"
+            },
+            "region": [
+              0.0,
+              0.0,
+              1.0,
+              1.0
+            ],
+            "opacity": null,
+            "opacity_reason": "A registered clear-barrel reference at the same exposure is required."
+          },
+          "relative_opacity": null,
+          "seal": {
+            "level_ml": 2.691,
+            "oriented_box": [
+              86,
+              389,
+              136,
+              415
+            ]
+          },
+          "reason": "A coherent colored column lies between the scale origin and the stopper front."
+        },
+        "method": "Repeated graduation strokes, separate OCR digits and printed unit"
+      },
+      "correct_capacity": true,
+      "correct_presence": true,
+      "volume_in_interval": true
+    },
+    {
+      "image": "rendered blue column",
+      "variant": "jpeg_q36",
+      "expected_capacity": 5,
+      "expected_presence": "present",
+      "expected_volume_ml": 2.7,
+      "result": {
+        "value": 5,
+        "unit": "mL",
+        "score": 0.8850629329681396,
+        "sampling": "native",
+        "evidence": [
+          {
+            "text": "1",
+            "score": 0.9982213377952576,
+            "crop_bbox": [
+              0.7894736842105263,
+              0.24727272727272728,
+              0.9052631578947369,
+              0.3103030303030303
+            ],
+            "view_bbox": [
+              225.0,
+              204.0,
+              258.0,
+              256.0
+            ],
+            "rotation": 0.0,
+            "family": "small separated scale"
+          },
+          {
+            "text": "2",
+            "score": 0.9996180534362793,
+            "crop_bbox": [
+              0.7964912280701755,
+              0.3612121212121212,
+              0.9122807017543859,
+              0.42424242424242425
+            ],
+            "view_bbox": [
+              227.0,
+              298.0,
+              260.0,
+              350.0
+            ],
+            "rotation": 0.0,
+            "family": "small separated scale"
+          },
+          {
+            "text": "3",
+            "score": 0.9991517066955566,
+            "crop_bbox": [
+              0.7894736842105263,
+              0.47515151515151516,
+              0.9052631578947369,
+              0.5381818181818182
+            ],
+            "view_bbox": [
+              225.0,
+              392.0,
+              258.0,
+              444.0
+            ],
+            "rotation": 0.0,
+            "family": "small separated scale"
+          },
+          {
+            "text": "5",
+            "score": 0.9944615960121155,
+            "crop_bbox": [
+              0.7859649122807018,
+              0.703030303030303,
+              0.9017543859649123,
+              0.7660606060606061
+            ],
+            "view_bbox": [
+              224.0,
+              580.0,
+              257.0,
+              632.0
+            ],
+            "rotation": 0.0,
+            "family": "small separated scale"
+          },
+          {
+            "text": "ml",
+            "score": 0.8850629329681396,
+            "crop_bbox": [
+              0.7859649122807018,
+              0.7503030303030302,
+              0.9017543859649123,
+              0.8012121212121213
+            ],
+            "view_bbox": [
+              224.0,
+              619.0,
+              257.0,
+              661.0
+            ],
+            "rotation": 0.0,
+            "family": "small separated scale"
+          },
+          {
+            "text": "m",
+            "score": 0.9721080660820007,
+            "crop_bbox": [
+              0.7719298245614035,
+              0.7587878787878788,
+              0.856140350877193,
+              0.8012121212121213
+            ],
+            "view_bbox": [
+              220.0,
+              626.0,
+              244.0,
+              661.0
+            ],
+            "rotation": 0.0,
+            "family": "small separated scale"
+          },
+          {
+            "text": "ml",
+            "score": 0.7935084104537964,
+            "crop_bbox": [
+              0.7578947368421053,
+              0.7539393939393939,
+              0.8771929824561403,
+              0.8072727272727273
+            ],
+            "view_bbox": [
+              216.0,
+              622.0,
+              250.0,
+              666.0
+            ],
+            "rotation": 0.0,
+            "family": "small separated scale"
+          },
+          {
+            "text": "m",
+            "score": 0.877295196056366,
+            "crop_bbox": [
+              0.7789473684210526,
+              0.7624242424242424,
+              0.8666666666666667,
+              0.8012121212121213
+            ],
+            "view_bbox": [
+              222.0,
+              629.0,
+              247.0,
+              661.0
+            ],
+            "rotation": 0.0,
+            "family": "small separated scale"
+          }
+        ],
+        "unit_patch": 0,
+        "barrel": {
+          "presence": "present",
+          "fill_ml": null,
+          "interval_ml": [
+            2.44,
+            2.94
+          ],
+          "appearance": {
+            "status": "appearance measured",
+            "reason": "Measured within the supported barrel interior",
+            "lightness": {
+              "lstar": 75.0,
+              "iqr": [
+                73.9,
+                75.7
+              ],
+              "category": "light"
+            },
+            "apparent_color": {
+              "lab": [
+                75.0,
+                -14.0,
+                -18.8
+              ],
+              "chroma": 23.4,
+              "srgb": [
+                130,
+                194,
+                219
+              ],
+              "profile": "source RGB assumed sRGB",
+              "family": "blue"
+            },
+            "region": [
+              0.0,
+              0.0,
+              1.0,
+              1.0
+            ],
+            "opacity": null,
+            "opacity_reason": "A registered clear-barrel reference at the same exposure is required."
+          },
+          "relative_opacity": null,
+          "seal": {
+            "level_ml": 2.691,
+            "oriented_box": [
+              82,
+              389,
+              134,
+              415
+            ]
+          },
+          "reason": "A coherent colored column lies between the scale origin and the stopper front."
+        },
+        "method": "Repeated graduation strokes, separate OCR digits and printed unit"
+      },
+      "correct_capacity": true,
+      "correct_presence": true,
+      "volume_in_interval": true
+    },
+    {
+      "image": "rendered blue column",
+      "variant": "gaussian_blur_0.9px",
+      "expected_capacity": 5,
+      "expected_presence": "present",
+      "expected_volume_ml": 2.7,
+      "result": {
+        "value": 5,
+        "unit": "mL",
+        "score": 0.9203170537948608,
+        "sampling": "native",
+        "evidence": [
+          {
+            "text": "1",
+            "score": 0.9977843165397644,
+            "crop_bbox": [
+              0.7894736842105263,
+              0.24727272727272728,
+              0.9052631578947369,
+              0.3103030303030303
+            ],
+            "view_bbox": [
+              225.0,
+              204.0,
+              258.0,
+              256.0
+            ],
+            "rotation": 0.0,
+            "family": "small separated scale"
+          },
+          {
+            "text": "2",
+            "score": 0.9980688691139221,
+            "crop_bbox": [
+              0.7894736842105263,
+              0.3612121212121212,
+              0.9052631578947369,
+              0.42424242424242425
+            ],
+            "view_bbox": [
+              225.0,
+              298.0,
+              258.0,
+              350.0
+            ],
+            "rotation": 0.0,
+            "family": "small separated scale"
+          },
+          {
+            "text": "3",
+            "score": 0.9990487694740295,
+            "crop_bbox": [
+              0.7859649122807018,
+              0.47515151515151516,
+              0.9017543859649123,
+              0.5381818181818182
+            ],
+            "view_bbox": [
+              224.0,
+              392.0,
+              257.0,
+              444.0
+            ],
+            "rotation": 0.0,
+            "family": "small separated scale"
+          },
+          {
+            "text": "4",
+            "score": 0.9979398846626282,
+            "crop_bbox": [
+              0.7894736842105263,
+              0.5890909090909091,
+              0.9052631578947369,
+              0.6521212121212121
+            ],
+            "view_bbox": [
+              225.0,
+              486.0,
+              258.0,
+              538.0
+            ],
+            "rotation": 0.0,
+            "family": "small separated scale"
+          },
+          {
+            "text": "5",
+            "score": 0.9994780421257019,
+            "crop_bbox": [
+              0.7894736842105263,
+              0.703030303030303,
+              0.9052631578947369,
+              0.7660606060606061
+            ],
+            "view_bbox": [
+              225.0,
+              580.0,
+              258.0,
+              632.0
+            ],
+            "rotation": 0.0,
+            "family": "small separated scale"
+          },
+          {
+            "text": "ml",
+            "score": 0.9203170537948608,
+            "crop_bbox": [
+              0.7894736842105263,
+              0.7503030303030302,
+              0.9052631578947369,
+              0.8012121212121213
+            ],
+            "view_bbox": [
+              225.0,
+              619.0,
+              258.0,
+              661.0
+            ],
+            "rotation": 0.0,
+            "family": "small separated scale"
+          },
+          {
+            "text": "m",
+            "score": 0.9955050349235535,
+            "crop_bbox": [
+              0.775438596491228,
+              0.7587878787878788,
+              0.8596491228070176,
+              0.8012121212121213
+            ],
+            "view_bbox": [
+              221.0,
+              626.0,
+              245.0,
+              661.0
+            ],
+            "rotation": 0.0,
+            "family": "small separated scale"
+          },
+          {
+            "text": "m",
+            "score": 0.8123605251312256,
+            "crop_bbox": [
+              0.7614035087719299,
+              0.7539393939393939,
+              0.8807017543859649,
+              0.8072727272727273
+            ],
+            "view_bbox": [
+              217.0,
+              622.0,
+              251.0,
+              666.0
+            ],
+            "rotation": 0.0,
+            "family": "small separated scale"
+          },
+          {
+            "text": "m",
+            "score": 0.9636179208755493,
+            "crop_bbox": [
+              0.7824561403508772,
+              0.7624242424242424,
+              0.8701754385964913,
+              0.8012121212121213
+            ],
+            "view_bbox": [
+              223.0,
+              629.0,
+              248.0,
+              661.0
+            ],
+            "rotation": 0.0,
+            "family": "small separated scale"
+          }
+        ],
+        "unit_patch": 0,
+        "barrel": {
+          "presence": "present",
+          "fill_ml": null,
+          "interval_ml": [
+            2.45,
+            2.95
+          ],
+          "appearance": {
+            "status": "appearance measured",
+            "reason": "Measured within the supported barrel interior",
+            "lightness": {
+              "lstar": 75.1,
+              "iqr": [
+                74.4,
+                75.8
+              ],
+              "category": "light"
+            },
+            "apparent_color": {
+              "lab": [
+                75.1,
+                -15.8,
+                -17.1
+              ],
+              "chroma": 23.3,
+              "srgb": [
+                128,
+                195,
+                216
+              ],
+              "profile": "source RGB assumed sRGB",
+              "family": "cyan"
+            },
+            "region": [
+              0.0,
+              0.0,
+              1.0,
+              1.0
+            ],
+            "opacity": null,
+            "opacity_reason": "A registered clear-barrel reference at the same exposure is required."
+          },
+          "relative_opacity": null,
+          "seal": {
+            "level_ml": 2.702,
+            "oriented_box": [
+              83,
+              390,
+              134,
+              414
+            ]
+          },
+          "reason": "A coherent colored column lies between the scale origin and the stopper front."
+        },
+        "method": "Repeated graduation strokes, separate OCR digits and printed unit"
+      },
+      "correct_capacity": true,
+      "correct_presence": true,
+      "volume_in_interval": true
+    },
+    {
+      "image": "rendered blue column",
+      "variant": "brightness_0.78",
+      "expected_capacity": 5,
+      "expected_presence": "present",
+      "expected_volume_ml": 2.7,
+      "result": {
+        "value": 5,
+        "unit": "mL",
+        "score": 0.7818537354469299,
+        "sampling": "native",
+        "evidence": [
+          {
+            "text": "1",
+            "score": 0.9659854769706726,
+            "crop_bbox": [
+              0.7859649122807018,
+              0.24727272727272728,
+              0.8982456140350877,
+              0.3103030303030303
+            ],
+            "view_bbox": [
+              224.0,
+              204.0,
+              256.0,
+              256.0
+            ],
+            "rotation": 0.0,
+            "family": "small separated scale"
+          },
+          {
+            "text": "2",
+            "score": 0.7818537354469299,
+            "crop_bbox": [
+              0.7859649122807018,
+              0.3612121212121212,
+              0.8982456140350877,
+              0.42424242424242425
+            ],
+            "view_bbox": [
+              224.0,
+              298.0,
+              256.0,
+              350.0
+            ],
+            "rotation": 0.0,
+            "family": "small separated scale"
+          },
+          {
+            "text": "3",
+            "score": 0.9960179924964905,
+            "crop_bbox": [
+              0.7859649122807018,
+              0.47515151515151516,
+              0.8982456140350877,
+              0.5381818181818182
+            ],
+            "view_bbox": [
+              224.0,
+              392.0,
+              256.0,
+              444.0
+            ],
+            "rotation": 0.0,
+            "family": "small separated scale"
+          },
+          {
+            "text": "4",
+            "score": 0.9982638955116272,
+            "crop_bbox": [
+              0.7859649122807018,
+              0.5890909090909091,
+              0.8982456140350877,
+              0.6521212121212121
+            ],
+            "view_bbox": [
+              224.0,
+              486.0,
+              256.0,
+              538.0
+            ],
+            "rotation": 0.0,
+            "family": "small separated scale"
+          },
+          {
+            "text": "5",
+            "score": 0.9969993829727173,
+            "crop_bbox": [
+              0.7859649122807018,
+              0.703030303030303,
+              0.8982456140350877,
+              0.7660606060606061
+            ],
+            "view_bbox": [
+              224.0,
+              580.0,
+              256.0,
+              632.0
+            ],
+            "rotation": 0.0,
+            "family": "small separated scale"
+          },
+          {
+            "text": "ml",
+            "score": 0.9373564720153809,
+            "crop_bbox": [
+              0.7859649122807018,
+              0.7503030303030302,
+              0.8982456140350877,
+              0.8012121212121213
+            ],
+            "view_bbox": [
+              224.0,
+              619.0,
+              256.0,
+              661.0
+            ],
+            "rotation": 0.0,
+            "family": "small separated scale"
+          },
+          {
+            "text": "m",
+            "score": 0.9360753297805786,
+            "crop_bbox": [
+              0.7719298245614035,
+              0.7587878787878788,
+              0.856140350877193,
+              0.8012121212121213
+            ],
+            "view_bbox": [
+              220.0,
+              626.0,
+              244.0,
+              661.0
+            ],
+            "rotation": 0.0,
+            "family": "small separated scale"
+          },
+          {
+            "text": "ml",
+            "score": 0.6850365400314331,
+            "crop_bbox": [
+              0.7578947368421053,
+              0.7539393939393939,
+              0.8736842105263158,
+              0.8072727272727273
+            ],
+            "view_bbox": [
+              216.0,
+              622.0,
+              249.0,
+              666.0
+            ],
+            "rotation": 0.0,
+            "family": "small separated scale"
+          },
+          {
+            "text": "m",
+            "score": 0.7957351207733154,
+            "crop_bbox": [
+              0.7789473684210526,
+              0.7624242424242424,
+              0.8631578947368421,
+              0.8012121212121213
+            ],
+            "view_bbox": [
+              222.0,
+              629.0,
+              246.0,
+              661.0
+            ],
+            "rotation": 0.0,
+            "family": "small separated scale"
+          }
+        ],
+        "unit_patch": 0,
+        "barrel": {
+          "presence": "present",
+          "fill_ml": null,
+          "interval_ml": [
+            2.44,
+            2.94
+          ],
+          "appearance": {
+            "status": "appearance measured",
+            "reason": "Measured within the supported barrel interior",
+            "lightness": {
+              "lstar": 59.5,
+              "iqr": [
+                58.7,
+                59.9
+              ],
+              "category": "medium"
+            },
+            "apparent_color": {
+              "lab": [
+                59.5,
+                -13.1,
+                -13.9
+              ],
+              "chroma": 19.1,
+              "srgb": [
+                99,
+                151,
+                167
+              ],
+              "profile": "source RGB assumed sRGB",
+              "family": "cyan"
+            },
+            "region": [
+              0.0,
+              0.0,
+              1.0,
+              1.0
+            ],
+            "opacity": null,
+            "opacity_reason": "A registered clear-barrel reference at the same exposure is required."
+          },
+          "relative_opacity": null,
+          "seal": {
+            "level_ml": 2.691,
+            "oriented_box": [
+              86,
+              389,
+              136,
+              415
+            ]
+          },
+          "reason": "A coherent colored column lies between the scale origin and the stopper front."
+        },
+        "method": "Repeated graduation strokes, separate OCR digits and printed unit"
+      },
+      "correct_capacity": true,
+      "correct_presence": true,
+      "volume_in_interval": true
+    },
+    {
+      "image": "rendered blue column",
+      "variant": "brightness_1.15",
+      "expected_capacity": 5,
+      "expected_presence": "present",
+      "expected_volume_ml": 2.7,
+      "result": {
+        "value": 5,
+        "unit": "mL",
+        "score": 0.8620665073394775,
+        "sampling": "native",
+        "evidence": [
+          {
+            "text": "1",
+            "score": 0.9849641919136047,
+            "crop_bbox": [
+              0.7859649122807018,
+              0.24727272727272728,
+              0.8982456140350877,
+              0.3103030303030303
+            ],
+            "view_bbox": [
+              224.0,
+              204.0,
+              256.0,
+              256.0
+            ],
+            "rotation": 0.0,
+            "family": "small separated scale"
+          },
+          {
+            "text": "2",
+            "score": 0.9985969662666321,
+            "crop_bbox": [
+              0.7859649122807018,
+              0.3612121212121212,
+              0.8982456140350877,
+              0.42424242424242425
+            ],
+            "view_bbox": [
+              224.0,
+              298.0,
+              256.0,
+              350.0
+            ],
+            "rotation": 0.0,
+            "family": "small separated scale"
+          },
+          {
+            "text": "3",
+            "score": 0.9969197511672974,
+            "crop_bbox": [
+              0.7859649122807018,
+              0.47515151515151516,
+              0.8982456140350877,
+              0.5381818181818182
+            ],
+            "view_bbox": [
+              224.0,
+              392.0,
+              256.0,
+              444.0
+            ],
+            "rotation": 0.0,
+            "family": "small separated scale"
+          },
+          {
+            "text": "4",
+            "score": 0.998991072177887,
+            "crop_bbox": [
+              0.7859649122807018,
+              0.5890909090909091,
+              0.8982456140350877,
+              0.6521212121212121
+            ],
+            "view_bbox": [
+              224.0,
+              486.0,
+              256.0,
+              538.0
+            ],
+            "rotation": 0.0,
+            "family": "small separated scale"
+          },
+          {
+            "text": "5",
+            "score": 0.9978147745132446,
+            "crop_bbox": [
+              0.7859649122807018,
+              0.703030303030303,
+              0.8982456140350877,
+              0.7660606060606061
+            ],
+            "view_bbox": [
+              224.0,
+              580.0,
+              256.0,
+              632.0
+            ],
+            "rotation": 0.0,
+            "family": "small separated scale"
+          },
+          {
+            "text": "ml",
+            "score": 0.8620665073394775,
+            "crop_bbox": [
+              0.7859649122807018,
+              0.7503030303030302,
+              0.8982456140350877,
+              0.8012121212121213
+            ],
+            "view_bbox": [
+              224.0,
+              619.0,
+              256.0,
+              661.0
+            ],
+            "rotation": 0.0,
+            "family": "small separated scale"
+          },
+          {
+            "text": "m",
+            "score": 0.9747865200042725,
+            "crop_bbox": [
+              0.7719298245614035,
+              0.7587878787878788,
+              0.856140350877193,
+              0.8012121212121213
+            ],
+            "view_bbox": [
+              220.0,
+              626.0,
+              244.0,
+              661.0
+            ],
+            "rotation": 0.0,
+            "family": "small separated scale"
+          },
+          {
+            "text": "ml",
+            "score": 0.7188032865524292,
+            "crop_bbox": [
+              0.7578947368421053,
+              0.7539393939393939,
+              0.8736842105263158,
+              0.8072727272727273
+            ],
+            "view_bbox": [
+              216.0,
+              622.0,
+              249.0,
+              666.0
+            ],
+            "rotation": 0.0,
+            "family": "small separated scale"
+          },
+          {
+            "text": "m",
+            "score": 0.7034376263618469,
+            "crop_bbox": [
+              0.7789473684210526,
+              0.7624242424242424,
+              0.8631578947368421,
+              0.8012121212121213
+            ],
+            "view_bbox": [
+              222.0,
+              629.0,
+              246.0,
+              661.0
+            ],
+            "rotation": 0.0,
+            "family": "small separated scale"
+          }
+        ],
+        "unit_patch": 0,
+        "barrel": {
+          "presence": "present",
+          "fill_ml": null,
+          "interval_ml": [
+            2.44,
+            2.94
+          ],
+          "appearance": {
+            "status": "appearance measured",
+            "reason": "Measured within the supported barrel interior",
+            "lightness": {
+              "lstar": 84.7,
+              "iqr": [
+                83.6,
+                85.4
+              ],
+              "category": "light"
+            },
+            "apparent_color": {
+              "lab": [
+                84.7,
+                -17.7,
+                -19.1
+              ],
+              "chroma": 26.0,
+              "srgb": [
+                146,
+                223,
+                247
+              ],
+              "profile": "source RGB assumed sRGB",
+              "family": "cyan"
+            },
+            "region": [
+              0.0,
+              0.0,
+              1.0,
+              1.0
+            ],
+            "opacity": null,
+            "opacity_reason": "A registered clear-barrel reference at the same exposure is required."
+          },
+          "relative_opacity": null,
+          "seal": {
+            "level_ml": 2.691,
+            "oriented_box": [
+              86,
+              389,
+              136,
+              415
+            ]
+          },
+          "reason": "A coherent colored column lies between the scale origin and the stopper front."
+        },
+        "method": "Repeated graduation strokes, separate OCR digits and printed unit"
+      },
+      "correct_capacity": true,
+      "correct_presence": true,
+      "volume_in_interval": true
+    },
+    {
+      "image": "rendered blue column",
+      "variant": "perspective",
+      "expected_capacity": 5,
+      "expected_presence": "present",
+      "expected_volume_ml": 2.7,
+      "result": {
+        "value": 5,
+        "unit": "mL",
+        "score": 0.7826858162879944,
+        "sampling": "native",
+        "evidence": [
+          {
+            "text": "1",
+            "score": 0.9992885589599609,
+            "crop_bbox": [
+              0.7719298245614035,
+              0.23636363636363636,
+              0.8842105263157894,
+              0.2993939393939394
+            ],
+            "view_bbox": [
+              220.0,
+              195.0,
+              252.0,
+              247.0
+            ],
+            "rotation": 0.0,
+            "family": "small separated scale"
+          },
+          {
+            "text": "2",
+            "score": 0.5760290622711182,
+            "crop_bbox": [
+              0.7719298245614035,
+              0.34424242424242424,
+              0.8842105263157894,
+              0.4084848484848485
+            ],
+            "view_bbox": [
+              220.0,
+              284.0,
+              252.0,
+              337.0
+            ],
+            "rotation": 0.0,
+            "family": "small separated scale"
+          },
+          {
+            "text": "3",
+            "score": 0.9996672868728638,
+            "crop_bbox": [
+              0.7719298245614035,
+              0.45454545454545453,
+              0.8842105263157894,
+              0.5175757575757576
+            ],
+            "view_bbox": [
+              220.0,
+              375.0,
+              252.0,
+              427.0
+            ],
+            "rotation": 0.0,
+            "family": "small separated scale"
+          },
+          {
+            "text": "4",
+            "score": 0.9998024106025696,
+            "crop_bbox": [
+              0.7719298245614035,
+              0.5672727272727273,
+              0.8842105263157894,
+              0.6303030303030303
+            ],
+            "view_bbox": [
+              220.0,
+              468.0,
+              252.0,
+              520.0
+            ],
+            "rotation": 0.0,
+            "family": "small separated scale"
+          },
+          {
+            "text": "5",
+            "score": 0.9999425411224365,
+            "crop_bbox": [
+              0.775438596491228,
+              0.6812121212121212,
+              0.8842105263157894,
+              0.7442424242424243
+            ],
+            "view_bbox": [
+              221.0,
+              562.0,
+              252.0,
+              614.0
+            ],
+            "rotation": 0.0,
+            "family": "small separated scale"
+          },
+          {
+            "text": "ml",
+            "score": 0.7343049049377441,
+            "crop_bbox": [
+              0.775438596491228,
+              0.7284848484848485,
+              0.8842105263157894,
+              0.7781818181818182
+            ],
+            "view_bbox": [
+              221.0,
+              601.0,
+              252.0,
+              642.0
+            ],
+            "rotation": 0.0,
+            "family": "small separated scale"
+          },
+          {
+            "text": "m",
+            "score": 0.9608780741691589,
+            "crop_bbox": [
+              0.7614035087719299,
+              0.7369696969696969,
+              0.8421052631578947,
+              0.7793939393939394
+            ],
+            "view_bbox": [
+              217.0,
+              608.0,
+              240.0,
+              643.0
+            ],
+            "rotation": 0.0,
+            "family": "small separated scale"
+          },
+          {
+            "text": "ml",
+            "score": 0.7826858162879944,
+            "crop_bbox": [
+              0.7508771929824561,
+              0.7321212121212122,
+              0.8631578947368421,
+              0.7854545454545454
+            ],
+            "view_bbox": [
+              214.0,
+              604.0,
+              246.0,
+              648.0
+            ],
+            "rotation": 0.0,
+            "family": "small separated scale"
+          },
+          {
+            "text": "m",
+            "score": 0.9970563650131226,
+            "crop_bbox": [
+              0.7684210526315789,
+              0.7393939393939394,
+              0.8526315789473684,
+              0.7781818181818182
+            ],
+            "view_bbox": [
+              219.0,
+              610.0,
+              243.0,
+              642.0
+            ],
+            "rotation": 0.0,
+            "family": "small separated scale"
+          }
+        ],
+        "unit_patch": 3,
+        "barrel": {
+          "presence": "present",
+          "fill_ml": null,
+          "interval_ml": [
+            2.44,
+            2.94
+          ],
+          "appearance": {
+            "status": "appearance measured",
+            "reason": "Measured within the supported barrel interior",
+            "lightness": {
+              "lstar": 75.1,
+              "iqr": [
+                74.4,
+                75.8
+              ],
+              "category": "light"
+            },
+            "apparent_color": {
+              "lab": [
+                75.1,
+                -15.8,
+                -17.1
+              ],
+              "chroma": 23.3,
+              "srgb": [
+                128,
+                195,
+                216
+              ],
+              "profile": "source RGB assumed sRGB",
+              "family": "cyan"
+            },
+            "region": [
+              0.0,
+              0.0,
+              1.0,
+              1.0
+            ],
+            "opacity": null,
+            "opacity_reason": "A registered clear-barrel reference at the same exposure is required."
+          },
+          "relative_opacity": null,
+          "seal": {
+            "level_ml": 2.688,
+            "oriented_box": [
+              84,
+              373,
+              133,
+              397
+            ]
+          },
+          "reason": "A coherent colored column lies between the scale origin and the stopper front."
+        },
+        "method": "Repeated graduation strokes, separate OCR digits and printed unit"
+      },
+      "correct_capacity": true,
+      "correct_presence": true,
+      "volume_in_interval": true
+    }
+  ],
+  "reader_sha256": "415b90e1155e24d97cb19d9deb892f5b041c0031ec0d0a7ae76877e4cac79e24",
+  "scope": "Two parent photographs or renders. Perturbations share their parent. No training or physical opacity measured."
+}

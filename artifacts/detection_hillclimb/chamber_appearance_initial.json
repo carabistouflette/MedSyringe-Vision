@@ -1,0 +1,387 @@
+{
+  "rows": [
+    {
+      "id": "development-5",
+      "expected_presence": "empty",
+      "expected_color": null,
+      "cohort": "observed public photos",
+      "output": {
+        "presence": "present",
+        "appearance": {
+          "status": "appearance measured",
+          "reason": "Measured within the supported barrel interior",
+          "lightness": {
+            "lstar": 32.8,
+            "iqr": [
+              25.2,
+              40.5
+            ],
+            "category": "dark"
+          },
+          "apparent_color": {
+            "lab": [
+              32.8,
+              -24.8,
+              4.0
+            ],
+            "chroma": 25.1,
+            "srgb": [
+              10,
+              88,
+              68
+            ],
+            "profile": "sRGB assumed",
+            "family": "cyan"
+          },
+          "region": [
+            0.11721611721611722,
+            0.26993865030674846,
+            0.19413919413919414,
+            0.7607361963190185
+          ],
+          "opacity": null,
+          "opacity_reason": "A registered clear-barrel reference at the same exposure is required."
+        },
+        "fill_ml": null,
+        "opacity": null,
+        "reason": "A coherent colored interior column adjoins a transverse dark band.",
+        "opacity_reason": "A registered clear-barrel reference at the same exposure is required."
+      },
+      "rotation180": {
+        "presence": "present",
+        "appearance": {
+          "status": "appearance measured",
+          "reason": "Measured within the supported barrel interior",
+          "lightness": {
+            "lstar": 32.8,
+            "iqr": [
+              25.2,
+              40.5
+            ],
+            "category": "dark"
+          },
+          "apparent_color": {
+            "lab": [
+              32.8,
+              -24.8,
+              4.0
+            ],
+            "chroma": 25.1,
+            "srgb": [
+              10,
+              88,
+              68
+            ],
+            "profile": "sRGB assumed",
+            "family": "cyan"
+          },
+          "region": [
+            0.8058608058608059,
+            0.2392638036809816,
+            0.8827838827838828,
+            0.7300613496932515
+          ],
+          "opacity": null,
+          "opacity_reason": "A registered clear-barrel reference at the same exposure is required."
+        },
+        "fill_ml": null,
+        "opacity": null,
+        "reason": "A coherent colored interior column adjoins a transverse dark band.",
+        "opacity_reason": "A registered clear-barrel reference at the same exposure is required."
+      }
+    },
+    {
+      "id": "public-yellow",
+      "expected_presence": "present",
+      "expected_color": "yellow",
+      "cohort": "observed public photos",
+      "output": {
+        "presence": "unknown",
+        "appearance": null,
+        "fill_ml": null,
+        "opacity": null,
+        "reason": "A single colored column bounded by a transverse dark seal was not established.",
+        "opacity_reason": "A registered clear-barrel reference at the same exposure is required."
+      },
+      "rotation180": {
+        "presence": "unknown",
+        "appearance": null,
+        "fill_ml": null,
+        "opacity": null,
+        "reason": "A single colored column bounded by a transverse dark seal was not established.",
+        "opacity_reason": "A registered clear-barrel reference at the same exposure is required."
+      }
+    },
+    {
+      "id": "public-blue-plunger",
+      "expected_presence": "empty",
+      "expected_color": null,
+      "cohort": "observed public photos",
+      "output": {
+        "presence": "unknown",
+        "appearance": null,
+        "fill_ml": null,
+        "opacity": null,
+        "reason": "A single colored column bounded by a transverse dark seal was not established.",
+        "opacity_reason": "A registered clear-barrel reference at the same exposure is required."
+      },
+      "rotation180": {
+        "presence": "unknown",
+        "appearance": null,
+        "fill_ml": null,
+        "opacity": null,
+        "reason": "A single colored column bounded by a transverse dark seal was not established.",
+        "opacity_reason": "A registered clear-barrel reference at the same exposure is required."
+      }
+    },
+    {
+      "id": "public-clear-barrel",
+      "expected_presence": "present",
+      "expected_color": "neutral",
+      "cohort": "observed public photos",
+      "output": {
+        "presence": "unknown",
+        "appearance": null,
+        "fill_ml": null,
+        "opacity": null,
+        "reason": "A single colored column bounded by a transverse dark seal was not established.",
+        "opacity_reason": "A registered clear-barrel reference at the same exposure is required."
+      },
+      "rotation180": {
+        "presence": "unknown",
+        "appearance": null,
+        "fill_ml": null,
+        "opacity": null,
+        "reason": "A single colored column bounded by a transverse dark seal was not established.",
+        "opacity_reason": "A registered clear-barrel reference at the same exposure is required."
+      }
+    },
+    {
+      "id": "public-1-marked",
+      "expected_presence": null,
+      "expected_color": null,
+      "cohort": "observed public photos",
+      "output": {
+        "presence": "unknown",
+        "appearance": null,
+        "fill_ml": null,
+        "opacity": null,
+        "reason": "The syringe crop does not establish an upright or horizontal barrel.",
+        "opacity_reason": "A registered clear-barrel reference at the same exposure is required."
+      },
+      "rotation180": {
+        "presence": "unknown",
+        "appearance": null,
+        "fill_ml": null,
+        "opacity": null,
+        "reason": "The syringe crop does not establish an upright or horizontal barrel.",
+        "opacity_reason": "A registered clear-barrel reference at the same exposure is required."
+      }
+    },
+    {
+      "id": "public-overlapping-small",
+      "expected_presence": null,
+      "expected_color": null,
+      "cohort": "observed public photos",
+      "output": {
+        "presence": "unknown",
+        "appearance": null,
+        "fill_ml": null,
+        "opacity": null,
+        "reason": "The syringe crop does not establish an upright or horizontal barrel.",
+        "opacity_reason": "A registered clear-barrel reference at the same exposure is required."
+      },
+      "rotation180": {
+        "presence": "unknown",
+        "appearance": null,
+        "fill_ml": null,
+        "opacity": null,
+        "reason": "The syringe crop does not establish an upright or horizontal barrel.",
+        "opacity_reason": "A registered clear-barrel reference at the same exposure is required."
+      }
+    },
+    {
+      "id": "seated-green",
+      "expected_presence": "empty",
+      "expected_color": null,
+      "cohort": "rendered controls",
+      "output": {
+        "presence": "unknown",
+        "appearance": null,
+        "fill_ml": null,
+        "opacity": null,
+        "reason": "A single colored column bounded by a transverse dark seal was not established.",
+        "opacity_reason": "A registered clear-barrel reference at the same exposure is required."
+      }
+    },
+    {
+      "id": "seated-black-upside-down",
+      "expected_presence": "empty",
+      "expected_color": null,
+      "cohort": "rendered controls",
+      "output": {
+        "presence": "unknown",
+        "appearance": null,
+        "fill_ml": null,
+        "opacity": null,
+        "reason": "A single colored column bounded by a transverse dark seal was not established.",
+        "opacity_reason": "A registered clear-barrel reference at the same exposure is required."
+      }
+    },
+    {
+      "id": "blue-quarter-turn",
+      "expected_presence": "present",
+      "expected_color": "cyan",
+      "cohort": "rendered controls",
+      "output": {
+        "presence": "present",
+        "appearance": {
+          "status": "appearance measured",
+          "reason": "Measured within the supported barrel interior",
+          "lightness": {
+            "lstar": 75.1,
+            "iqr": [
+              74.4,
+              76.2
+            ],
+            "category": "light"
+          },
+          "apparent_color": {
+            "lab": [
+              75.1,
+              -15.8,
+              -17.1
+            ],
+            "chroma": 23.3,
+            "srgb": [
+              128,
+              195,
+              216
+            ],
+            "profile": "sRGB assumed",
+            "family": "cyan"
+          },
+          "region": [
+            0.16666666666666666,
+            0.24150943396226415,
+            0.47265625,
+            0.7396226415094339
+          ],
+          "opacity": null,
+          "opacity_reason": "A registered clear-barrel reference at the same exposure is required."
+        },
+        "fill_ml": null,
+        "opacity": null,
+        "reason": "A coherent colored interior column adjoins a transverse dark band.",
+        "opacity_reason": "A registered clear-barrel reference at the same exposure is required."
+      }
+    },
+    {
+      "id": "amber-light",
+      "expected_presence": "present",
+      "expected_color": "yellow",
+      "cohort": "rendered controls",
+      "output": {
+        "presence": "unknown",
+        "appearance": null,
+        "fill_ml": null,
+        "opacity": null,
+        "reason": "A single colored column bounded by a transverse dark seal was not established.",
+        "opacity_reason": "A registered clear-barrel reference at the same exposure is required."
+      }
+    },
+    {
+      "id": "red-slight-blur",
+      "expected_presence": "present",
+      "expected_color": "red",
+      "cohort": "rendered controls",
+      "output": {
+        "presence": "present",
+        "appearance": {
+          "status": "appearance measured",
+          "reason": "Measured within the supported barrel interior",
+          "lightness": {
+            "lstar": 62.2,
+            "iqr": [
+              61.3,
+              63.3
+            ],
+            "category": "medium"
+          },
+          "apparent_color": {
+            "lab": [
+              62.2,
+              27.8,
+              9.2
+            ],
+            "chroma": 29.3,
+            "srgb": [
+              202,
+              131,
+              135
+            ],
+            "profile": "sRGB assumed",
+            "family": "red"
+          },
+          "region": [
+            0.4466145833333333,
+            0.25660377358490566,
+            0.8346354166666666,
+            0.7584905660377359
+          ],
+          "opacity": null,
+          "opacity_reason": "A registered clear-barrel reference at the same exposure is required."
+        },
+        "fill_ml": null,
+        "opacity": null,
+        "reason": "A coherent colored interior column adjoins a transverse dark band.",
+        "opacity_reason": "A registered clear-barrel reference at the same exposure is required."
+      }
+    },
+    {
+      "id": "empty-gap-is-not-proof-of-liquid",
+      "expected_presence": "empty",
+      "expected_color": null,
+      "cohort": "rendered controls",
+      "output": {
+        "presence": "unknown",
+        "appearance": null,
+        "fill_ml": null,
+        "opacity": null,
+        "reason": "A single colored column bounded by a transverse dark seal was not established.",
+        "opacity_reason": "A registered clear-barrel reference at the same exposure is required."
+      }
+    },
+    {
+      "id": "transparent-air-lookalike",
+      "expected_presence": "present",
+      "expected_color": "neutral",
+      "cohort": "rendered controls",
+      "output": {
+        "presence": "unknown",
+        "appearance": null,
+        "fill_ml": null,
+        "opacity": null,
+        "reason": "A single colored column bounded by a transverse dark seal was not established.",
+        "opacity_reason": "A registered clear-barrel reference at the same exposure is required."
+      }
+    },
+    {
+      "id": "occluded-graduations",
+      "expected_presence": "present",
+      "expected_color": "yellow",
+      "cohort": "rendered controls",
+      "output": {
+        "presence": "unknown",
+        "appearance": null,
+        "fill_ml": null,
+        "opacity": null,
+        "reason": "A single colored column bounded by a transverse dark seal was not established.",
+        "opacity_reason": "A registered clear-barrel reference at the same exposure is required."
+      }
+    }
+  ],
+  "code": "84a3669e1b6b2d0d4b1a2c704f4c8414d57131fb282bc4644f7e6812da375886",
+  "reference": "d119f9d74de4bc4800ca61692c103339bc44f600260921d93a623efd8d9dd463",
+  "scope": "Existing public references and controlled images. No physical volume or opacity."
+}

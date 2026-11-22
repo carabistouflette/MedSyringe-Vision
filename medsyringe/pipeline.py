@@ -19,12 +19,12 @@ class MedSyringeEngine(ProductionEngine):
         self.appearance = install_appearance(self, root)
         self.detection_checks = DetectionChecks(self)
 
-    def analyze(self, image, ocr=False):
+    def analyze(self, image, ocr=False, *, count_only=False):
         started = perf_counter()
         self.detection_checks.begin()
-        report = super().analyze(image, ocr)
+        report = super().analyze(image, ocr, count_only=count_only)
         self.detection_checks.attach(report)
-        if ocr and self.scale_reader is not None:
+        if ocr and not count_only and self.scale_reader is not None:
             self.scale_reader.apply(image, report)
             report["elapsed_ms"] = 1000*(perf_counter()-started)
         return report
@@ -46,7 +46,9 @@ def main():
     parser.add_argument("image", type=Path)
     parser.add_argument("--root", type=Path, default=Path("."))
     parser.add_argument("--output", type=Path, default=Path("result.json"))
-    parser.add_argument("--ocr", action="store_true")
+    mode = parser.add_mutually_exclusive_group()
+    mode.add_argument("--ocr", action="store_true")
+    mode.add_argument("--count-only", action="store_true", help="Keep detection and skip crop attributes.")
     hardware = parser.add_mutually_exclusive_group()
     hardware.add_argument("--intel", action="store_true", help="Use the validated Intel XPU runtime.")
     hardware.add_argument("--device", choices=("cpu", "xpu"), help="Choose the local detection and SAM device.")
@@ -57,8 +59,8 @@ def main():
         parser.error(str(exc))
     engine = MedSyringeEngine(args.root)
     try:
-        configure_device(engine, args.root, requested)
-        report = analyze(engine, read_image(args.image), args.ocr)
+        configure_device(engine, args.root, requested or "cpu")
+        report = analyze(engine, read_image(args.image), args.ocr, count_only=args.count_only)
     finally:
         engine.close()
     report["source_sha256"] = digest(args.image)

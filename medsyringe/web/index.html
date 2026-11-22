@@ -36,6 +36,7 @@
           <input type="file" id="file" name="file" accept="image/jpeg,image/png,image/webp,image/heic,image/heif,.heic,.heif" aria-label="Image to analyze">
           <label class="checkbox"><input type="checkbox" name="ocr" value="true" checked> Read visible markings</label>
           <button class="primary" id="analyze" type="submit">Analyze</button>
+          <button class="secondary" id="count-only" name="count_only" value="true" type="submit">Count only</button>
         </form>
         <p class="status" id="status" role="status" aria-live="polite"></p>
         <details class="lower">
@@ -62,7 +63,7 @@
           <div class="panel-head"><h2 id="reference-heading">Reference checks</h2></div>
           <div class="reference">
             <form id="inventory">
-              <label>Expected inventory<select id="mode"><option value="count">Total count</option><option value="scale">Visual scale</option><option value="color">Barrel color</option></select></label>
+              <label>Expected inventory<select id="mode"><option value="count">Total count</option><option value="scale">Visual scale</option><option value="color">Barrel color</option><option value="scale_and_color">Visual scale and barrel color</option></select></label>
               <div id="expected"></div>
               <button class="secondary" type="submit" disabled>Compare inventory</button>
             </form>
@@ -70,6 +71,16 @@
               <label>Previous observation<select id="reference"></select></label>
               <button class="secondary" type="submit" disabled>Compare observations</button>
             </form>
+            <details class="lower">
+              <summary>Measure relative opacity</summary>
+              <form id="opacity-pair">
+                <label>Observed liquid crop<input type="file" name="observed" accept="image/*" required></label>
+                <label>Clear reference crop<input type="file" name="clear_reference" accept="image/*" required></label>
+                <label class="checkbox"><input name="matched_setup" type="checkbox" value="true" required> Registered crops with matching exposure and background</label>
+                <button type="submit" class="secondary">Measure attenuation</button>
+                <p id="opacity-result" class="status" role="status"></p>
+              </form>
+            </details>
             <div id="results" aria-live="polite"></div>
           </div>
         </section>

@@ -1,0 +1,487 @@
+{
+  "freeze": "3fd6254b0089a2836be062d4a56125df5e486b0f524e1f3a4680a4e9404932a6",
+  "reference": "e31b0cb6e775825561f829cf881f32414ee79f898577e80a1fff46acc8f30efd",
+  "baseline": {
+    "images": 1,
+    "objects": 2,
+    "tp": 0,
+    "fp": 1,
+    "fn": 2,
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1": 0.0,
+    "ap50": 0.0,
+    "ap50_95": 0.0,
+    "exact_count": 0,
+    "negative_images": 0,
+    "correct_empty": 0,
+    "false_positives": [
+      {
+        "id": "oriez-vaccine-preparation",
+        "prediction": {
+          "id": "object-1",
+          "bbox": [
+            0.8931775605678558,
+            0.2495810322911828,
+            0.9230574691295623,
+            0.3430257836692996
+          ],
+          "score": 0.6772280764893512,
+          "detection_evidence": {
+            "verification_score": 2.5730909700072364,
+            "source": "auxiliary",
+            "auxiliary_score": 0.5179588794708252
+          },
+          "scale": null,
+          "color": null,
+          "evidence": {
+            "scale": {
+              "value": null,
+              "reason": "Outside development support or ambiguous",
+              "distance": 3.9607198754120354,
+              "margin": 1.253367877118568
+            },
+            "color": {
+              "value": null,
+              "reason": "Outside development support or ambiguous",
+              "distance": 28.50327306715104,
+              "margin": 1.1081521342166738
+            }
+          },
+          "inscriptions": {
+            "status": "not requested",
+            "candidates": [],
+            "capacity": null,
+            "apparent_volume": null
+          },
+          "liquid_appearance": {
+            "status": "insufficient evidence",
+            "reason": "The syringe mask could not be validated.",
+            "lightness": null,
+            "opacity": null,
+            "opacity_reason": "A registered clear-barrel reference at the same exposure is required."
+          },
+          "fill_level": {
+            "status": "insufficient evidence",
+            "reason": "Enable visible marking extraction to estimate fill."
+          },
+          "origin": "model"
+        },
+        "best_unmatched_iou": 0.4204047342980077
+      }
+    ],
+    "false_negatives": [
+      {
+        "id": "oriez-vaccine-preparation",
+        "box": [
+          0.594,
+          0.6762177650429799,
+          0.627,
+          0.7292263610315186
+        ]
+      },
+      {
+        "id": "oriez-vaccine-preparation",
+        "box": [
+          0.889,
+          0.2822349570200573,
+          0.916,
+          0.3524355300859599
+        ]
+      }
+    ]
+  },
+  "trials": {
+    "unverified": {
+      "images": 1,
+      "objects": 2,
+      "tp": 0,
+      "fp": 1,
+      "fn": 2,
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "ap50": 0.0,
+      "ap50_95": 0.0,
+      "exact_count": 0,
+      "negative_images": 0,
+      "correct_empty": 0,
+      "false_positives": [
+        {
+          "id": "oriez-vaccine-preparation",
+          "prediction": {
+            "id": "object-1",
+            "bbox": [
+              0.8931775605678558,
+              0.2495810322911828,
+              0.9230574691295623,
+              0.3430257836692996
+            ],
+            "score": 0.6772280764893512,
+            "detection_evidence": {
+              "verification_score": 2.5730909700072364,
+              "source": "auxiliary",
+              "auxiliary_score": 0.5179588794708252
+            },
+            "scale": null,
+            "color": null,
+            "evidence": {
+              "scale": {
+                "value": null,
+                "reason": "Outside development support or ambiguous",
+                "distance": 3.9607198754120354,
+                "margin": 1.253367877118568
+              },
+              "color": {
+                "value": null,
+                "reason": "Outside development support or ambiguous",
+                "distance": 28.50327306715104,
+                "margin": 1.1081521342166738
+              }
+            },
+            "inscriptions": {
+              "status": "not requested",
+              "candidates": [],
+              "capacity": null,
+              "apparent_volume": null
+            },
+            "liquid_appearance": {
+              "status": "insufficient evidence",
+              "reason": "The syringe mask could not be validated.",
+              "lightness": null,
+              "opacity": null,
+              "opacity_reason": "A registered clear-barrel reference at the same exposure is required."
+            },
+            "fill_level": {
+              "status": "insufficient evidence",
+              "reason": "Enable visible marking extraction to estimate fill."
+            },
+            "origin": "model"
+          },
+          "best_unmatched_iou": 0.4204047342980077
+        }
+      ],
+      "false_negatives": [
+        {
+          "id": "oriez-vaccine-preparation",
+          "box": [
+            0.594,
+            0.6762177650429799,
+            0.627,
+            0.7292263610315186
+          ]
+        },
+        {
+          "id": "oriez-vaccine-preparation",
+          "box": [
+            0.889,
+            0.2822349570200573,
+            0.916,
+            0.3524355300859599
+          ]
+        }
+      ]
+    },
+    "parts": {
+      "images": 1,
+      "objects": 2,
+      "tp": 0,
+      "fp": 1,
+      "fn": 2,
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "ap50": 0.0,
+      "ap50_95": 0.0,
+      "exact_count": 0,
+      "negative_images": 0,
+      "correct_empty": 0,
+      "false_positives": [
+        {
+          "id": "oriez-vaccine-preparation",
+          "prediction": {
+            "id": "object-1",
+            "bbox": [
+              0.8931775605678558,
+              0.2495810322911828,
+              0.9230574691295623,
+              0.3430257836692996
+            ],
+            "score": 0.6772280764893512,
+            "detection_evidence": {
+              "verification_score": 2.5730909700072364,
+              "source": "auxiliary",
+              "auxiliary_score": 0.5179588794708252
+            },
+            "scale": null,
+            "color": null,
+            "evidence": {
+              "scale": {
+                "value": null,
+                "reason": "Outside development support or ambiguous",
+                "distance": 3.9607198754120354,
+                "margin": 1.253367877118568
+              },
+              "color": {
+                "value": null,
+                "reason": "Outside development support or ambiguous",
+                "distance": 28.50327306715104,
+                "margin": 1.1081521342166738
+              }
+            },
+            "inscriptions": {
+              "status": "not requested",
+              "candidates": [],
+              "capacity": null,
+              "apparent_volume": null
+            },
+            "liquid_appearance": {
+              "status": "insufficient evidence",
+              "reason": "The syringe mask could not be validated.",
+              "lightness": null,
+              "opacity": null,
+              "opacity_reason": "A registered clear-barrel reference at the same exposure is required."
+            },
+            "fill_level": {
+              "status": "insufficient evidence",
+              "reason": "Enable visible marking extraction to estimate fill."
+            },
+            "origin": "model"
+          },
+          "best_unmatched_iou": 0.4204047342980077
+        }
+      ],
+      "false_negatives": [
+        {
+          "id": "oriez-vaccine-preparation",
+          "box": [
+            0.594,
+            0.6762177650429799,
+            0.627,
+            0.7292263610315186
+          ]
+        },
+        {
+          "id": "oriez-vaccine-preparation",
+          "box": [
+            0.889,
+            0.2822349570200573,
+            0.916,
+            0.3524355300859599
+          ]
+        }
+      ]
+    },
+    "appearance": {
+      "images": 1,
+      "objects": 2,
+      "tp": 0,
+      "fp": 1,
+      "fn": 2,
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "ap50": 0.0,
+      "ap50_95": 0.0,
+      "exact_count": 0,
+      "negative_images": 0,
+      "correct_empty": 0,
+      "false_positives": [
+        {
+          "id": "oriez-vaccine-preparation",
+          "prediction": {
+            "id": "object-1",
+            "bbox": [
+              0.8931775605678558,
+              0.2495810322911828,
+              0.9230574691295623,
+              0.3430257836692996
+            ],
+            "score": 0.6772280764893512,
+            "detection_evidence": {
+              "verification_score": 2.5730909700072364,
+              "source": "auxiliary",
+              "auxiliary_score": 0.5179588794708252
+            },
+            "scale": null,
+            "color": null,
+            "evidence": {
+              "scale": {
+                "value": null,
+                "reason": "Outside development support or ambiguous",
+                "distance": 3.9607198754120354,
+                "margin": 1.253367877118568
+              },
+              "color": {
+                "value": null,
+                "reason": "Outside development support or ambiguous",
+                "distance": 28.50327306715104,
+                "margin": 1.1081521342166738
+              }
+            },
+            "inscriptions": {
+              "status": "not requested",
+              "candidates": [],
+              "capacity": null,
+              "apparent_volume": null
+            },
+            "liquid_appearance": {
+              "status": "insufficient evidence",
+              "reason": "The syringe mask could not be validated.",
+              "lightness": null,
+              "opacity": null,
+              "opacity_reason": "A registered clear-barrel reference at the same exposure is required."
+            },
+            "fill_level": {
+              "status": "insufficient evidence",
+              "reason": "Enable visible marking extraction to estimate fill."
+            },
+            "origin": "model"
+          },
+          "best_unmatched_iou": 0.4204047342980077
+        }
+      ],
+      "false_negatives": [
+        {
+          "id": "oriez-vaccine-preparation",
+          "box": [
+            0.594,
+            0.6762177650429799,
+            0.627,
+            0.7292263610315186
+          ]
+        },
+        {
+          "id": "oriez-vaccine-preparation",
+          "box": [
+            0.889,
+            0.2822349570200573,
+            0.916,
+            0.3524355300859599
+          ]
+        }
+      ]
+    },
+    "combined": {
+      "images": 1,
+      "objects": 2,
+      "tp": 0,
+      "fp": 1,
+      "fn": 2,
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "ap50": 0.0,
+      "ap50_95": 0.0,
+      "exact_count": 0,
+      "negative_images": 0,
+      "correct_empty": 0,
+      "false_positives": [
+        {
+          "id": "oriez-vaccine-preparation",
+          "prediction": {
+            "id": "object-1",
+            "bbox": [
+              0.8931775605678558,
+              0.2495810322911828,
+              0.9230574691295623,
+              0.3430257836692996
+            ],
+            "score": 0.6772280764893512,
+            "detection_evidence": {
+              "verification_score": 2.5730909700072364,
+              "source": "auxiliary",
+              "auxiliary_score": 0.5179588794708252
+            },
+            "scale": null,
+            "color": null,
+            "evidence": {
+              "scale": {
+                "value": null,
+                "reason": "Outside development support or ambiguous",
+                "distance": 3.9607198754120354,
+                "margin": 1.253367877118568
+              },
+              "color": {
+                "value": null,
+                "reason": "Outside development support or ambiguous",
+                "distance": 28.50327306715104,
+                "margin": 1.1081521342166738
+              }
+            },
+            "inscriptions": {
+              "status": "not requested",
+              "candidates": [],
+              "capacity": null,
+              "apparent_volume": null
+            },
+            "liquid_appearance": {
+              "status": "insufficient evidence",
+              "reason": "The syringe mask could not be validated.",
+              "lightness": null,
+              "opacity": null,
+              "opacity_reason": "A registered clear-barrel reference at the same exposure is required."
+            },
+            "fill_level": {
+              "status": "insufficient evidence",
+              "reason": "Enable visible marking extraction to estimate fill."
+            },
+            "origin": "model"
+          },
+          "best_unmatched_iou": 0.4204047342980077
+        }
+      ],
+      "false_negatives": [
+        {
+          "id": "oriez-vaccine-preparation",
+          "box": [
+            0.594,
+            0.6762177650429799,
+            0.627,
+            0.7292263610315186
+          ]
+        },
+        {
+          "id": "oriez-vaccine-preparation",
+          "box": [
+            0.889,
+            0.2822349570200573,
+            0.916,
+            0.3524355300859599
+          ]
+        }
+      ]
+    }
+  },
+  "retention": {
+    "unverified": {
+      "passed": true,
+      "lost_matches": [],
+      "recovered_matches": 0,
+      "baseline_matches": 0,
+      "candidate_matches": 0
+    },
+    "parts": {
+      "passed": true,
+      "lost_matches": [],
+      "recovered_matches": 0,
+      "baseline_matches": 0,
+      "candidate_matches": 0
+    },
+    "appearance": {
+      "passed": true,
+      "lost_matches": [],
+      "recovered_matches": 0,
+      "baseline_matches": 0,
+      "candidate_matches": 0
+    },
+    "combined": {
+      "passed": true,
+      "lost_matches": [],
+      "recovered_matches": 0,
+      "baseline_matches": 0,
+      "candidate_matches": 0
+    }
+  },
+  "scope": "One additional pre-inference-annotated crowded public acquisition."
+}

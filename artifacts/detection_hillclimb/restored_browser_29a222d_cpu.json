@@ -1,0 +1,48 @@
+{
+  "image": "53CYReDh3s5BO7SpywiE.jpg",
+  "detected": 1,
+  "browser": "Chromium",
+  "no_page_errors": true,
+  "revision": "29a222d7d63b58d74dd8edfb0d41ba65ffcc3c96",
+  "installation_backend": "cpu",
+  "appearance_release_sha256": "6a446005968d3ea7d3f040ebe37fe6702033f5f2ba157194290a2561699cae90",
+  "sam_residency_sha256": null,
+  "detection_checks": {
+    "status": "available",
+    "primary_backend": "cpu",
+    "unavailable": [],
+    "review_needed": false
+  },
+  "flows": [
+    "image upload",
+    "real detection overlay",
+    "inventory",
+    "persisted review",
+    "ZIP report with evidence",
+    "mobile viewport without horizontal overflow",
+    "detection-only analysis selected in the upload form",
+    "verified native-resolution crop and exact original bytes in export",
+    "two initial proposals and access to all remaining candidates",
+    "matching native crop before candidate adoption and before saving",
+    "candidate box replacement retains the count and links review provenance"
+  ],
+  "replacement": {
+    "object_id": "object-1",
+    "candidate_index": 1,
+    "original_box": [
+      0.20793702867296007,
+      0.40568294525146487,
+      0.5497660884150752,
+      0.5644225120544434
+    ],
+    "reviewed_box": [
+      0.15891572457772715,
+      0.3383535385131836,
+      0.6683143333152488,
+      0.6080907503763835
+    ],
+    "original_count": 1,
+    "reviewed_count": 1,
+    "image_sha256": "1cbfb5d011e3a63d28a02ad5760158b8c93b2538b7c64469a02a8a23fc9b206a"
+  }
+}

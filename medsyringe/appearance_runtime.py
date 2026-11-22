@@ -11,10 +11,11 @@ ENTRY = Path(__file__).resolve().parents[1] / "scripts/appearance_worker.sh"
 
 
 class AppearanceRuntime:
-    def __init__(self, root, detector, mode=None):
+    def __init__(self, root, detector, mode=None, pack_crops=False):
         self.worker = ImageWorker(root, ENTRY, "appearance", {})
         self.detector = detector
         self.mode = mode
+        self.pack_crops = pack_crops
         self.release = digest(root / RELEASE)
         self.lock = Lock()
         self.status = None
@@ -27,7 +28,13 @@ class AppearanceRuntime:
                 return ranked, cutoff, supplemental
             self.worker.options = dict(ranked=ranked, floor=cutoff, release_sha256=self.release)
             try:
-                scored = self.worker.run(image)
+                packed = None
+                if self.pack_crops:
+                    from scripts.appearance_text_encoder import pack_patches
+
+                    packed = pack_patches(image, [p for p in ranked if p["score"] >= cutoff])
+                scored = (self.worker.run(packed, operation="appearance crops") if packed is not None
+                          else self.worker.run(image))
             except WorkerError:
                 self.status = "baseline retained after an unavailable crop verifier"
                 return ranked, cutoff, supplemental
@@ -54,7 +61,8 @@ def install_appearance(engine, root):
             raise ValueError("The appearance encoder does not have a matching parity result.")
     if not (root / ".venv/bin/python").is_file():
         raise FileNotFoundError("Restore the pinned Python environment for crop verification.")
-    runtime = AppearanceRuntime(root, engine.expanded.detect, config.get("mode"))
+    pack_crops = config.get("encoder") == "text-only" and config.get("mode") == "veto-only"
+    runtime = AppearanceRuntime(root, engine.expanded.detect, config.get("mode"), pack_crops)
     engine.expanded.detect = runtime.detect
     engine.identity["appearance_detection_sha256"] = runtime.release
     return runtime

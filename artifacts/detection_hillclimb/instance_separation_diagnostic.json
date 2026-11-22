@@ -1,0 +1,128 @@
+{
+  "code": "a70b3bfc3a9255864871cfe0c26109dbd8bd380b18114bfe0cb0732806f3a127",
+  "evaluation": "fd6ce4459283a9a2447df99752d1cde0919747cac93718b300a5508d52091f9d",
+  "reserve": {
+    "separation-33893209": {
+      "objects": 5,
+      "released": 0,
+      "proposal_matches": 4
+    },
+    "separation-5973354": {
+      "objects": 3,
+      "released": 1,
+      "proposal_matches": 3
+    },
+    "separation-15702696": {
+      "objects": 1,
+      "released": 1,
+      "proposal_matches": 1
+    },
+    "separation-9259935": {
+      "objects": 0,
+      "released": 0,
+      "proposal_matches": 0
+    },
+    "separation-8325713": {
+      "objects": 0,
+      "released": 0,
+      "proposal_matches": 0
+    }
+  },
+  "reserve_one_incumbent_exploratory": {
+    "overlap": {
+      "tp": 4,
+      "fp": 0,
+      "exact_count": 4,
+      "gain": 2,
+      "extra_fp": 0,
+      "safe": true,
+      "lost_reference": false,
+      "per_image_false_positive_regression": false,
+      "count_regression": false
+    },
+    "prior-identity": {
+      "tp": 2,
+      "fp": 0,
+      "exact_count": 3,
+      "gain": 0,
+      "extra_fp": 0,
+      "safe": true,
+      "lost_reference": false,
+      "per_image_false_positive_regression": false,
+      "count_regression": false
+    },
+    "axis-identity": {
+      "tp": 2,
+      "fp": 0,
+      "exact_count": 3,
+      "gain": 0,
+      "extra_fp": 0,
+      "safe": true,
+      "lost_reference": false,
+      "per_image_false_positive_regression": false,
+      "count_regression": false
+    }
+  },
+  "exposed_probe_additions": [
+    {
+      "bbox": [
+        0.3476754426956177,
+        0.249151349067688,
+        0.5023496627807618,
+        0.4774605751037598
+      ],
+      "detector_score": 0.4286702275276184,
+      "best_iou": 0.7359896055751103
+    },
+    {
+      "bbox": [
+        0.5498736629486084,
+        0.32861923027038575,
+        0.6781623840332032,
+        0.47697518634796143
+      ],
+      "detector_score": 0.402029812335968,
+      "best_iou": 0.533480238199933
+    }
+  ],
+  "removed_known_false_positive": [
+    [
+      0.5498736629486084,
+      0.32861923027038575,
+      0.6781623840332032,
+      0.47697518634796143
+    ]
+  ],
+  "exposed_without_known_error": {
+    "images": 1,
+    "objects": 6,
+    "threshold": 0.0,
+    "tp": 6,
+    "fp": 0,
+    "fn": 0,
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1": 1.0,
+    "ap50": 1.0,
+    "ap50_95": 0.600990099009901,
+    "ap_by_iou": {
+      "0.50": 1.0,
+      "0.55": 1.0,
+      "0.60": 1.0,
+      "0.65": 1.0,
+      "0.70": 0.8316831683168316,
+      "0.75": 0.504950495049505,
+      "0.80": 0.33663366336633666,
+      "0.85": 0.16831683168316833,
+      "0.90": 0.16831683168316833,
+      "0.95": 0.0
+    },
+    "exact_count": 1,
+    "negative_images": 0,
+    "correct_empty": 0,
+    "images_with_only_below_threshold_proposals": 0,
+    "false_positives": [],
+    "false_negatives": []
+  },
+  "scope": "The removal is annotation-assisted and is not an automatic method."
+}

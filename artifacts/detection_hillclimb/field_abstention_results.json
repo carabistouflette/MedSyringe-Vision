@@ -1,0 +1,140 @@
+{
+  "live": {
+    "total_instances": 8,
+    "localized": 2,
+    "rows": [
+      {
+        "scene": "38602067",
+        "index": 3,
+        "reference": {
+          "syringe_type": {
+            "status": "indeterminate",
+            "scope": "Supported 20 mL and 60 mL scale categories"
+          },
+          "liquid_volume": {
+            "status": "indeterminate",
+            "reason": "Four visible bodies on paving. Two intersect; the printed box illustration and long flat utensil are separate lookalikes."
+          }
+        },
+        "prediction": {
+          "syringe_type": {
+            "status": "indeterminate",
+            "value": null,
+            "reason": "Scale markings are unreadable or ambiguous"
+          },
+          "liquid_volume": {
+            "status": "indeterminate",
+            "ml": null,
+            "interval_ml": null,
+            "reason": "A visible 20 mL or 60 mL capacity is required."
+          }
+        }
+      },
+      {
+        "scene": "5170947",
+        "index": 2,
+        "reference": {
+          "syringe_type": {
+            "status": "indeterminate",
+            "scope": "Supported 20 mL and 60 mL scale categories"
+          },
+          "liquid_volume": {
+            "status": "indeterminate",
+            "reason": "Three bodies remain individually visible through the wrapping. Bounding boxes enclose the molded device and cap, with the outer packaging excluded."
+          }
+        },
+        "prediction": {
+          "syringe_type": {
+            "status": "indeterminate",
+            "value": null,
+            "reason": "Scale markings are unreadable or ambiguous"
+          },
+          "liquid_volume": {
+            "status": "indeterminate",
+            "ml": null,
+            "interval_ml": null,
+            "reason": "A visible 20 mL or 60 mL capacity is required."
+          }
+        }
+      }
+    ],
+    "syringe_type": {
+      "observable": 0,
+      "indeterminate": 2,
+      "unreviewed": 0,
+      "coverage": null,
+      "emission_on_indeterminate": 0.0,
+      "scored_types": 0,
+      "error_on_emitted": null
+    },
+    "liquid_volume": {
+      "observable": 0,
+      "indeterminate": 2,
+      "unreviewed": 0,
+      "coverage": null,
+      "emission_on_indeterminate": 0.0,
+      "point_coverage": null,
+      "interval_coverage": null,
+      "interval_only_coverage": null,
+      "point_mae_ml": null,
+      "scored_exact_points": 0,
+      "point_in_visual_bracket": null,
+      "interval_contains_exact": null,
+      "interval_overlaps_visual_bracket": null,
+      "mean_interval_width_ml": null
+    }
+  },
+  "fil_rouge_replay": {
+    "holdout": {
+      "observable": 35,
+      "indeterminate": 0,
+      "unreviewed": 0,
+      "coverage": 0.5142857142857142,
+      "emission_on_indeterminate": null,
+      "point_coverage": 0.5142857142857142,
+      "interval_coverage": 0.5142857142857142,
+      "interval_only_coverage": 0.0,
+      "point_mae_ml": null,
+      "scored_exact_points": 0,
+      "point_in_visual_bracket": 1.0,
+      "interval_contains_exact": null,
+      "interval_overlaps_visual_bracket": 1.0,
+      "mean_interval_width_ml": 2.611111111111111
+    },
+    "holdout-60": {
+      "observable": 10,
+      "indeterminate": 0,
+      "unreviewed": 0,
+      "coverage": 0.2,
+      "emission_on_indeterminate": null,
+      "point_coverage": 0.2,
+      "interval_coverage": 0.2,
+      "interval_only_coverage": 0.0,
+      "point_mae_ml": null,
+      "scored_exact_points": 0,
+      "point_in_visual_bracket": 1.0,
+      "interval_contains_exact": null,
+      "interval_overlaps_visual_bracket": 1.0,
+      "mean_interval_width_ml": 6
+    },
+    "clear": {
+      "observable": 0,
+      "indeterminate": 14,
+      "unreviewed": 0,
+      "coverage": null,
+      "emission_on_indeterminate": 0.0,
+      "point_coverage": null,
+      "interval_coverage": null,
+      "interval_only_coverage": null,
+      "point_mae_ml": null,
+      "scored_exact_points": 0,
+      "point_in_visual_bracket": null,
+      "interval_contains_exact": null,
+      "interval_overlaps_visual_bracket": null,
+      "mean_interval_width_ml": null
+    }
+  },
+  "cache_sha256": "58c5436a770f36bb3f12cfe4c0d888b9f52ccfb8e59844e80454f1ac70a29399",
+  "fil_rouge_audit_sha256": "e7aa5fb21eaa0a5c786aece06afc745cefcd910513a5176413b75a4c624d57de",
+  "interpretation": "The live public control scores fields only on correctly localized boxes. The Fil Rouge regression uses saved visual reference brackets and clear controls. No exact physical mL accuracy or interval calibration is inferred."
+}

@@ -1,0 +1,4053 @@
+{
+  "freeze": "3fd6254b0089a2836be062d4a56125df5e486b0f524e1f3a4680a4e9404932a6",
+  "outcomes": {
+    "fresh": {
+      "baseline": {
+        "images": 2,
+        "objects": 0,
+        "tp": 0,
+        "fp": 1,
+        "fn": 0,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "ap50": null,
+        "ap50_95": null,
+        "exact_count": 1,
+        "negative_images": 2,
+        "correct_empty": 1,
+        "false_positives": [
+          {
+            "id": "openverse-81cd0139-fa6a-4cf1-839b-79e7e8af1c9c",
+            "prediction": {
+              "id": "object-1",
+              "bbox": [
+                0.3007330830891927,
+                9.235739707946777e-05,
+                0.9978652954101562,
+                0.6927007293701172
+              ],
+              "score": 0.8745271530041735,
+              "detection_evidence": {},
+              "scale": null,
+              "color": null,
+              "evidence": {
+                "scale": {
+                  "value": null,
+                  "reason": "Outside development support or ambiguous",
+                  "distance": 3.8737854956897837,
+                  "margin": 0.41250269062758127
+                },
+                "color": {
+                  "value": null,
+                  "reason": "Insufficient visible support"
+                }
+              },
+              "inscriptions": {
+                "status": "not requested",
+                "candidates": [],
+                "capacity": null,
+                "apparent_volume": null
+              },
+              "liquid_appearance": {
+                "status": "insufficient evidence",
+                "reason": "A colored liquid region could not be isolated.",
+                "lightness": null,
+                "opacity": null,
+                "opacity_reason": "A registered clear-barrel reference at the same exposure is required.",
+                "syringe_mask_score": 0.949975848197937
+              },
+              "fill_level": {
+                "status": "insufficient evidence",
+                "reason": "Enable visible marking extraction to estimate fill."
+              },
+              "origin": "model"
+            },
+            "best_unmatched_iou": 0
+          }
+        ],
+        "false_negatives": []
+      },
+      "trials": {
+        "unverified": {
+          "images": 2,
+          "objects": 0,
+          "tp": 0,
+          "fp": 2,
+          "fn": 0,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "ap50": null,
+          "ap50_95": null,
+          "exact_count": 0,
+          "negative_images": 2,
+          "correct_empty": 0,
+          "false_positives": [
+            {
+              "id": "openverse-81cd0139-fa6a-4cf1-839b-79e7e8af1c9c",
+              "prediction": {
+                "id": "object-1",
+                "bbox": [
+                  0.3007330830891927,
+                  9.235739707946777e-05,
+                  0.9978652954101562,
+                  0.6927007293701172
+                ],
+                "score": 0.8745271530041735,
+                "detection_evidence": {},
+                "scale": null,
+                "color": null,
+                "evidence": {
+                  "scale": {
+                    "value": null,
+                    "reason": "Outside development support or ambiguous",
+                    "distance": 3.8737854956897837,
+                    "margin": 0.41250269062758127
+                  },
+                  "color": {
+                    "value": null,
+                    "reason": "Insufficient visible support"
+                  }
+                },
+                "inscriptions": {
+                  "status": "not requested",
+                  "candidates": [],
+                  "capacity": null,
+                  "apparent_volume": null
+                },
+                "liquid_appearance": {
+                  "status": "insufficient evidence",
+                  "reason": "A colored liquid region could not be isolated.",
+                  "lightness": null,
+                  "opacity": null,
+                  "opacity_reason": "A registered clear-barrel reference at the same exposure is required.",
+                  "syringe_mask_score": 0.949975848197937
+                },
+                "fill_level": {
+                  "status": "insufficient evidence",
+                  "reason": "Enable visible marking extraction to estimate fill."
+                },
+                "origin": "model"
+              },
+              "best_unmatched_iou": 0
+            },
+            {
+              "id": "commons-178551508",
+              "prediction": {
+                "bbox": [
+                  0.6337761878967285,
+                  0.10236718919542101,
+                  0.8755417929755317,
+                  0.8984847598605685
+                ],
+                "score": 0.5205097794532776,
+                "source": "sam recovery"
+              },
+              "best_unmatched_iou": 0
+            }
+          ],
+          "false_negatives": []
+        },
+        "geometry_rule": {
+          "images": 2,
+          "objects": 0,
+          "tp": 0,
+          "fp": 2,
+          "fn": 0,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "ap50": null,
+          "ap50_95": null,
+          "exact_count": 0,
+          "negative_images": 2,
+          "correct_empty": 0,
+          "false_positives": [
+            {
+              "id": "openverse-81cd0139-fa6a-4cf1-839b-79e7e8af1c9c",
+              "prediction": {
+                "id": "object-1",
+                "bbox": [
+                  0.3007330830891927,
+                  9.235739707946777e-05,
+                  0.9978652954101562,
+                  0.6927007293701172
+                ],
+                "score": 0.8745271530041735,
+                "detection_evidence": {},
+                "scale": null,
+                "color": null,
+                "evidence": {
+                  "scale": {
+                    "value": null,
+                    "reason": "Outside development support or ambiguous",
+                    "distance": 3.8737854956897837,
+                    "margin": 0.41250269062758127
+                  },
+                  "color": {
+                    "value": null,
+                    "reason": "Insufficient visible support"
+                  }
+                },
+                "inscriptions": {
+                  "status": "not requested",
+                  "candidates": [],
+                  "capacity": null,
+                  "apparent_volume": null
+                },
+                "liquid_appearance": {
+                  "status": "insufficient evidence",
+                  "reason": "A colored liquid region could not be isolated.",
+                  "lightness": null,
+                  "opacity": null,
+                  "opacity_reason": "A registered clear-barrel reference at the same exposure is required.",
+                  "syringe_mask_score": 0.949975848197937
+                },
+                "fill_level": {
+                  "status": "insufficient evidence",
+                  "reason": "Enable visible marking extraction to estimate fill."
+                },
+                "origin": "model"
+              },
+              "best_unmatched_iou": 0
+            },
+            {
+              "id": "commons-178551508",
+              "prediction": {
+                "bbox": [
+                  0.6337761878967285,
+                  0.10236718919542101,
+                  0.8755417929755317,
+                  0.8984847598605685
+                ],
+                "score": 0.5205097794532776,
+                "source": "sam recovery"
+              },
+              "best_unmatched_iou": 0
+            }
+          ],
+          "false_negatives": []
+        },
+        "parts": {
+          "images": 2,
+          "objects": 0,
+          "tp": 0,
+          "fp": 1,
+          "fn": 0,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "ap50": null,
+          "ap50_95": null,
+          "exact_count": 1,
+          "negative_images": 2,
+          "correct_empty": 1,
+          "false_positives": [
+            {
+              "id": "openverse-81cd0139-fa6a-4cf1-839b-79e7e8af1c9c",
+              "prediction": {
+                "id": "object-1",
+                "bbox": [
+                  0.3007330830891927,
+                  9.235739707946777e-05,
+                  0.9978652954101562,
+                  0.6927007293701172
+                ],
+                "score": 0.8745271530041735,
+                "detection_evidence": {},
+                "scale": null,
+                "color": null,
+                "evidence": {
+                  "scale": {
+                    "value": null,
+                    "reason": "Outside development support or ambiguous",
+                    "distance": 3.8737854956897837,
+                    "margin": 0.41250269062758127
+                  },
+                  "color": {
+                    "value": null,
+                    "reason": "Insufficient visible support"
+                  }
+                },
+                "inscriptions": {
+                  "status": "not requested",
+                  "candidates": [],
+                  "capacity": null,
+                  "apparent_volume": null
+                },
+                "liquid_appearance": {
+                  "status": "insufficient evidence",
+                  "reason": "A colored liquid region could not be isolated.",
+                  "lightness": null,
+                  "opacity": null,
+                  "opacity_reason": "A registered clear-barrel reference at the same exposure is required.",
+                  "syringe_mask_score": 0.949975848197937
+                },
+                "fill_level": {
+                  "status": "insufficient evidence",
+                  "reason": "Enable visible marking extraction to estimate fill."
+                },
+                "origin": "model"
+              },
+              "best_unmatched_iou": 0
+            }
+          ],
+          "false_negatives": []
+        },
+        "appearance": {
+          "images": 2,
+          "objects": 0,
+          "tp": 0,
+          "fp": 1,
+          "fn": 0,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "ap50": null,
+          "ap50_95": null,
+          "exact_count": 1,
+          "negative_images": 2,
+          "correct_empty": 1,
+          "false_positives": [
+            {
+              "id": "openverse-81cd0139-fa6a-4cf1-839b-79e7e8af1c9c",
+              "prediction": {
+                "id": "object-1",
+                "bbox": [
+                  0.3007330830891927,
+                  9.235739707946777e-05,
+                  0.9978652954101562,
+                  0.6927007293701172
+                ],
+                "score": 0.8745271530041735,
+                "detection_evidence": {},
+                "scale": null,
+                "color": null,
+                "evidence": {
+                  "scale": {
+                    "value": null,
+                    "reason": "Outside development support or ambiguous",
+                    "distance": 3.8737854956897837,
+                    "margin": 0.41250269062758127
+                  },
+                  "color": {
+                    "value": null,
+                    "reason": "Insufficient visible support"
+                  }
+                },
+                "inscriptions": {
+                  "status": "not requested",
+                  "candidates": [],
+                  "capacity": null,
+                  "apparent_volume": null
+                },
+                "liquid_appearance": {
+                  "status": "insufficient evidence",
+                  "reason": "A colored liquid region could not be isolated.",
+                  "lightness": null,
+                  "opacity": null,
+                  "opacity_reason": "A registered clear-barrel reference at the same exposure is required.",
+                  "syringe_mask_score": 0.949975848197937
+                },
+                "fill_level": {
+                  "status": "insufficient evidence",
+                  "reason": "Enable visible marking extraction to estimate fill."
+                },
+                "origin": "model"
+              },
+              "best_unmatched_iou": 0
+            }
+          ],
+          "false_negatives": []
+        },
+        "combined": {
+          "images": 2,
+          "objects": 0,
+          "tp": 0,
+          "fp": 1,
+          "fn": 0,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "ap50": null,
+          "ap50_95": null,
+          "exact_count": 1,
+          "negative_images": 2,
+          "correct_empty": 1,
+          "false_positives": [
+            {
+              "id": "openverse-81cd0139-fa6a-4cf1-839b-79e7e8af1c9c",
+              "prediction": {
+                "id": "object-1",
+                "bbox": [
+                  0.3007330830891927,
+                  9.235739707946777e-05,
+                  0.9978652954101562,
+                  0.6927007293701172
+                ],
+                "score": 0.8745271530041735,
+                "detection_evidence": {},
+                "scale": null,
+                "color": null,
+                "evidence": {
+                  "scale": {
+                    "value": null,
+                    "reason": "Outside development support or ambiguous",
+                    "distance": 3.8737854956897837,
+                    "margin": 0.41250269062758127
+                  },
+                  "color": {
+                    "value": null,
+                    "reason": "Insufficient visible support"
+                  }
+                },
+                "inscriptions": {
+                  "status": "not requested",
+                  "candidates": [],
+                  "capacity": null,
+                  "apparent_volume": null
+                },
+                "liquid_appearance": {
+                  "status": "insufficient evidence",
+                  "reason": "A colored liquid region could not be isolated.",
+                  "lightness": null,
+                  "opacity": null,
+                  "opacity_reason": "A registered clear-barrel reference at the same exposure is required.",
+                  "syringe_mask_score": 0.949975848197937
+                },
+                "fill_level": {
+                  "status": "insufficient evidence",
+                  "reason": "Enable visible marking extraction to estimate fill."
+                },
+                "origin": "model"
+              },
+              "best_unmatched_iou": 0
+            }
+          ],
+          "false_negatives": []
+        }
+      },
+      "retention": {
+        "unverified": {
+          "passed": true,
+          "lost_matches": [],
+          "recovered_matches": 0,
+          "baseline_matches": 0,
+          "candidate_matches": 0
+        },
+        "geometry_rule": {
+          "passed": true,
+          "lost_matches": [],
+          "recovered_matches": 0,
+          "baseline_matches": 0,
+          "candidate_matches": 0
+        },
+        "parts": {
+          "passed": true,
+          "lost_matches": [],
+          "recovered_matches": 0,
+          "baseline_matches": 0,
+          "candidate_matches": 0
+        },
+        "appearance": {
+          "passed": true,
+          "lost_matches": [],
+          "recovered_matches": 0,
+          "baseline_matches": 0,
+          "candidate_matches": 0
+        },
+        "combined": {
+          "passed": true,
+          "lost_matches": [],
+          "recovered_matches": 0,
+          "baseline_matches": 0,
+          "candidate_matches": 0
+        }
+      },
+      "counts": {
+        "commons-178551508": {
+          "expected": 0,
+          "released": 0,
+          "unverified": 1,
+          "geometry_rule": 1,
+          "parts": 0,
+          "appearance": 0,
+          "combined": 0
+        },
+        "openverse-81cd0139-fa6a-4cf1-839b-79e7e8af1c9c": {
+          "expected": 0,
+          "released": 1,
+          "unverified": 1,
+          "geometry_rule": 1,
+          "parts": 1,
+          "appearance": 1,
+          "combined": 1
+        }
+      }
+    },
+    "transfer": {
+      "baseline": {
+        "images": 3,
+        "objects": 8,
+        "tp": 6,
+        "fp": 0,
+        "fn": 2,
+        "precision": 1.0,
+        "recall": 0.75,
+        "f1": 0.8571428571428571,
+        "ap50": 0.7524752475247525,
+        "ap50_95": 0.7524752475247525,
+        "exact_count": 2,
+        "negative_images": 1,
+        "correct_empty": 1,
+        "false_positives": [],
+        "false_negatives": [
+          {
+            "id": "clinic",
+            "box": [
+              0.53125,
+              0.1684867394695788,
+              0.659375,
+              0.8471138845553822
+            ]
+          },
+          {
+            "id": "clinic",
+            "box": [
+              0.6645833333333333,
+              0.1606864274570983,
+              0.8125,
+              0.8096723868954758
+            ]
+          }
+        ]
+      },
+      "trials": {
+        "unverified": {
+          "images": 3,
+          "objects": 8,
+          "tp": 6,
+          "fp": 0,
+          "fn": 2,
+          "precision": 1.0,
+          "recall": 0.75,
+          "f1": 0.8571428571428571,
+          "ap50": 0.7524752475247525,
+          "ap50_95": 0.7524752475247525,
+          "exact_count": 2,
+          "negative_images": 1,
+          "correct_empty": 1,
+          "false_positives": [],
+          "false_negatives": [
+            {
+              "id": "clinic",
+              "box": [
+                0.53125,
+                0.1684867394695788,
+                0.659375,
+                0.8471138845553822
+              ]
+            },
+            {
+              "id": "clinic",
+              "box": [
+                0.6645833333333333,
+                0.1606864274570983,
+                0.8125,
+                0.8096723868954758
+              ]
+            }
+          ]
+        },
+        "geometry_rule": {
+          "images": 3,
+          "objects": 8,
+          "tp": 6,
+          "fp": 0,
+          "fn": 2,
+          "precision": 1.0,
+          "recall": 0.75,
+          "f1": 0.8571428571428571,
+          "ap50": 0.7524752475247525,
+          "ap50_95": 0.7524752475247525,
+          "exact_count": 2,
+          "negative_images": 1,
+          "correct_empty": 1,
+          "false_positives": [],
+          "false_negatives": [
+            {
+              "id": "clinic",
+              "box": [
+                0.53125,
+                0.1684867394695788,
+                0.659375,
+                0.8471138845553822
+              ]
+            },
+            {
+              "id": "clinic",
+              "box": [
+                0.6645833333333333,
+                0.1606864274570983,
+                0.8125,
+                0.8096723868954758
+              ]
+            }
+          ]
+        },
+        "parts": {
+          "images": 3,
+          "objects": 8,
+          "tp": 6,
+          "fp": 0,
+          "fn": 2,
+          "precision": 1.0,
+          "recall": 0.75,
+          "f1": 0.8571428571428571,
+          "ap50": 0.7524752475247525,
+          "ap50_95": 0.7524752475247525,
+          "exact_count": 2,
+          "negative_images": 1,
+          "correct_empty": 1,
+          "false_positives": [],
+          "false_negatives": [
+            {
+              "id": "clinic",
+              "box": [
+                0.53125,
+                0.1684867394695788,
+                0.659375,
+                0.8471138845553822
+              ]
+            },
+            {
+              "id": "clinic",
+              "box": [
+                0.6645833333333333,
+                0.1606864274570983,
+                0.8125,
+                0.8096723868954758
+              ]
+            }
+          ]
+        },
+        "appearance": {
+          "images": 3,
+          "objects": 8,
+          "tp": 6,
+          "fp": 0,
+          "fn": 2,
+          "precision": 1.0,
+          "recall": 0.75,
+          "f1": 0.8571428571428571,
+          "ap50": 0.7524752475247525,
+          "ap50_95": 0.7524752475247525,
+          "exact_count": 2,
+          "negative_images": 1,
+          "correct_empty": 1,
+          "false_positives": [],
+          "false_negatives": [
+            {
+              "id": "clinic",
+              "box": [
+                0.53125,
+                0.1684867394695788,
+                0.659375,
+                0.8471138845553822
+              ]
+            },
+            {
+              "id": "clinic",
+              "box": [
+                0.6645833333333333,
+                0.1606864274570983,
+                0.8125,
+                0.8096723868954758
+              ]
+            }
+          ]
+        },
+        "combined": {
+          "images": 3,
+          "objects": 8,
+          "tp": 6,
+          "fp": 0,
+          "fn": 2,
+          "precision": 1.0,
+          "recall": 0.75,
+          "f1": 0.8571428571428571,
+          "ap50": 0.7524752475247525,
+          "ap50_95": 0.7524752475247525,
+          "exact_count": 2,
+          "negative_images": 1,
+          "correct_empty": 1,
+          "false_positives": [],
+          "false_negatives": [
+            {
+              "id": "clinic",
+              "box": [
+                0.53125,
+                0.1684867394695788,
+                0.659375,
+                0.8471138845553822
+              ]
+            },
+            {
+              "id": "clinic",
+              "box": [
+                0.6645833333333333,
+                0.1606864274570983,
+                0.8125,
+                0.8096723868954758
+              ]
+            }
+          ]
+        }
+      },
+      "retention": {
+        "unverified": {
+          "passed": true,
+          "lost_matches": [],
+          "recovered_matches": 0,
+          "baseline_matches": 6,
+          "candidate_matches": 6
+        },
+        "geometry_rule": {
+          "passed": true,
+          "lost_matches": [],
+          "recovered_matches": 0,
+          "baseline_matches": 6,
+          "candidate_matches": 6
+        },
+        "parts": {
+          "passed": true,
+          "lost_matches": [],
+          "recovered_matches": 0,
+          "baseline_matches": 6,
+          "candidate_matches": 6
+        },
+        "appearance": {
+          "passed": true,
+          "lost_matches": [],
+          "recovered_matches": 0,
+          "baseline_matches": 6,
+          "candidate_matches": 6
+        },
+        "combined": {
+          "passed": true,
+          "lost_matches": [],
+          "recovered_matches": 0,
+          "baseline_matches": 6,
+          "candidate_matches": 6
+        }
+      },
+      "counts": {
+        "clinic": {
+          "expected": 4,
+          "released": 2,
+          "unverified": 2,
+          "geometry_rule": 2,
+          "parts": 2,
+          "appearance": 2,
+          "combined": 2
+        },
+        "pasteur-test": {
+          "expected": 0,
+          "released": 0,
+          "unverified": 0,
+          "geometry_rule": 0,
+          "parts": 0,
+          "appearance": 0,
+          "combined": 0
+        },
+        "with-needle": {
+          "expected": 4,
+          "released": 4,
+          "unverified": 4,
+          "geometry_rule": 4,
+          "parts": 4,
+          "appearance": 4,
+          "combined": 4
+        }
+      }
+    },
+    "regression": {
+      "baseline": {
+        "images": 27,
+        "objects": 91,
+        "tp": 34,
+        "fp": 1,
+        "fn": 57,
+        "precision": 0.9714285714285714,
+        "recall": 0.37362637362637363,
+        "f1": 0.5396825396825397,
+        "ap50": 0.37086280056577087,
+        "ap50_95": 0.2817602415003405,
+        "exact_count": 12,
+        "negative_images": 7,
+        "correct_empty": 6,
+        "false_positives": [
+          {
+            "id": "commons-101124486",
+            "prediction": {
+              "id": "object-1",
+              "bbox": [
+                0.05849343538284302,
+                0.3968275250353728,
+                0.9151201883951823,
+                0.6908764210089773
+              ],
+              "score": 0.7289362220183454,
+              "detection_evidence": {},
+              "scale": null,
+              "color": null,
+              "evidence": {
+                "scale": {
+                  "value": null,
+                  "reason": "Outside development support or ambiguous",
+                  "distance": 5.6215219139038535,
+                  "margin": 0.1736393843108246
+                },
+                "color": {
+                  "value": null,
+                  "reason": "Insufficient visible support"
+                }
+              },
+              "inscriptions": {
+                "status": "not requested",
+                "candidates": [],
+                "capacity": null,
+                "apparent_volume": null
+              },
+              "liquid_appearance": {
+                "status": "insufficient evidence",
+                "reason": "The visible color covers too little of the barrel.",
+                "lightness": null,
+                "opacity": null,
+                "opacity_reason": "A registered clear-barrel reference at the same exposure is required.",
+                "syringe_mask_score": 0.6547399759292603
+              },
+              "fill_level": {
+                "status": "insufficient evidence",
+                "reason": "Enable visible marking extraction to estimate fill."
+              },
+              "origin": "model"
+            },
+            "best_unmatched_iou": 0
+          }
+        ],
+        "false_negatives": [
+          {
+            "id": "epolk-influenza-tray",
+            "box": [
+              0.1203125,
+              0.07094918504314478,
+              0.59921875,
+              0.2109300095877277
+            ]
+          },
+          {
+            "id": "epolk-influenza-tray",
+            "box": [
+              0.10546875,
+              0.236816874400767,
+              0.603125,
+              0.3710450623202301
+            ]
+          },
+          {
+            "id": "epolk-influenza-tray",
+            "box": [
+              0.08984375,
+              0.4276126558005753,
+              0.61328125,
+              0.5474592521572388
+            ]
+          },
+          {
+            "id": "epolk-influenza-tray",
+            "box": [
+              0.08046875,
+              0.610738255033557,
+              0.61953125,
+              0.7430488974113135
+            ]
+          },
+          {
+            "id": "epolk-influenza-tray",
+            "box": [
+              0.50078125,
+              0.06327900287631831,
+              0.92890625,
+              0.17737296260786195
+            ]
+          },
+          {
+            "id": "epolk-influenza-tray",
+            "box": [
+              0.48671875,
+              0.19367209971236818,
+              0.921875,
+              0.3231064237775647
+            ]
+          },
+          {
+            "id": "epolk-influenza-tray",
+            "box": [
+              0.5046875,
+              0.3576222435282838,
+              0.9640625,
+              0.46404602109300097
+            ]
+          },
+          {
+            "id": "epolk-influenza-tray",
+            "box": [
+              0.49296875,
+              0.5234899328859061,
+              0.96796875,
+              0.6462128475551294
+            ]
+          },
+          {
+            "id": "epolk-influenza-tray",
+            "box": [
+              0.48671875,
+              0.7085330776605945,
+              0.96484375,
+              0.8235858101629914
+            ]
+          },
+          {
+            "id": "commons-7289636",
+            "box": [
+              0.088,
+              0.078,
+              0.964,
+              0.474
+            ]
+          },
+          {
+            "id": "commons-7289636",
+            "box": [
+              0.073,
+              0.109,
+              0.742,
+              0.645
+            ]
+          },
+          {
+            "id": "commons-7289636",
+            "box": [
+              0.037,
+              0.532,
+              0.794,
+              0.802
+            ]
+          },
+          {
+            "id": "commons-71161809",
+            "box": [
+              0.102,
+              0.238,
+              0.53,
+              0.349
+            ]
+          },
+          {
+            "id": "commons-71161809",
+            "box": [
+              0.56,
+              0.183,
+              0.681,
+              0.943
+            ]
+          },
+          {
+            "id": "commons-71161809",
+            "box": [
+              0.729,
+              0.261,
+              0.858,
+              0.978
+            ]
+          },
+          {
+            "id": "commons-71161809",
+            "box": [
+              0.842,
+              0.266,
+              0.932,
+              0.702
+            ]
+          },
+          {
+            "id": "commons-97857285",
+            "box": [
+              0.543,
+              0.032,
+              0.745,
+              0.892
+            ]
+          },
+          {
+            "id": "commons-18388214",
+            "box": [
+              0.154,
+              0.406,
+              0.227,
+              0.707
+            ]
+          },
+          {
+            "id": "commons-18388214",
+            "box": [
+              0.173,
+              0.527,
+              0.418,
+              0.569
+            ]
+          },
+          {
+            "id": "commons-18388214",
+            "box": [
+              0.195,
+              0.498,
+              0.484,
+              0.553
+            ]
+          },
+          {
+            "id": "commons-18388214",
+            "box": [
+              0.396,
+              0.278,
+              0.444,
+              0.63
+            ]
+          },
+          {
+            "id": "commons-18388214",
+            "box": [
+              0.331,
+              0.194,
+              0.404,
+              0.526
+            ]
+          },
+          {
+            "id": "commons-18388214",
+            "box": [
+              0.407,
+              0.335,
+              0.619,
+              0.444
+            ]
+          },
+          {
+            "id": "commons-18388214",
+            "box": [
+              0.651,
+              0.695,
+              0.774,
+              0.805
+            ]
+          },
+          {
+            "id": "116864459",
+            "box": [
+              0.297,
+              0.43,
+              0.506,
+              0.815
+            ]
+          },
+          {
+            "id": "commons-50007224",
+            "box": [
+              0.468,
+              0.548,
+              0.607,
+              0.678
+            ]
+          },
+          {
+            "id": "commons-50007224",
+            "box": [
+              0.488,
+              0.749,
+              0.605,
+              0.813
+            ]
+          },
+          {
+            "id": "viglianco",
+            "box": [
+              0.058,
+              0.177,
+              0.173,
+              0.886
+            ]
+          },
+          {
+            "id": "viglianco",
+            "box": [
+              0.107,
+              0.213,
+              0.215,
+              0.886
+            ]
+          },
+          {
+            "id": "viglianco",
+            "box": [
+              0.207,
+              0.206,
+              0.264,
+              0.888
+            ]
+          },
+          {
+            "id": "viglianco",
+            "box": [
+              0.254,
+              0.178,
+              0.358,
+              0.883
+            ]
+          },
+          {
+            "id": "viglianco",
+            "box": [
+              0.339,
+              0.15,
+              0.412,
+              0.865
+            ]
+          },
+          {
+            "id": "viglianco",
+            "box": [
+              0.395,
+              0.185,
+              0.522,
+              0.908
+            ]
+          },
+          {
+            "id": "viglianco",
+            "box": [
+              0.45,
+              0.177,
+              0.571,
+              0.84
+            ]
+          },
+          {
+            "id": "viglianco",
+            "box": [
+              0.488,
+              0.177,
+              0.623,
+              0.897
+            ]
+          },
+          {
+            "id": "viglianco",
+            "box": [
+              0.572,
+              0.182,
+              0.731,
+              0.888
+            ]
+          },
+          {
+            "id": "viglianco",
+            "box": [
+              0.636,
+              0.158,
+              0.816,
+              0.84
+            ]
+          },
+          {
+            "id": "white",
+            "box": [
+              0.095,
+              0.619,
+              0.54,
+              0.729
+            ]
+          },
+          {
+            "id": "audit",
+            "box": [
+              0.12,
+              0.1,
+              0.248,
+              0.907
+            ]
+          },
+          {
+            "id": "audit",
+            "box": [
+              0.209,
+              0.0,
+              0.356,
+              0.683
+            ]
+          },
+          {
+            "id": "audit",
+            "box": [
+              0.251,
+              0.0,
+              0.426,
+              0.846
+            ]
+          },
+          {
+            "id": "audit",
+            "box": [
+              0.349,
+              0.0,
+              0.508,
+              0.899
+            ]
+          },
+          {
+            "id": "audit",
+            "box": [
+              0.47,
+              0.096,
+              0.568,
+              0.575
+            ]
+          },
+          {
+            "id": "audit",
+            "box": [
+              0.451,
+              0.0,
+              0.642,
+              0.944
+            ]
+          },
+          {
+            "id": "audit",
+            "box": [
+              0.58,
+              0.0,
+              0.748,
+              0.993
+            ]
+          },
+          {
+            "id": "audit",
+            "box": [
+              0.651,
+              0.0,
+              0.805,
+              0.741
+            ]
+          },
+          {
+            "id": "griggs",
+            "box": [
+              0.292,
+              0.219,
+              0.876,
+              0.501
+            ]
+          },
+          {
+            "id": "griggs",
+            "box": [
+              0.156,
+              0.17,
+              0.795,
+              0.524
+            ]
+          },
+          {
+            "id": "griggs",
+            "box": [
+              0.108,
+              0.166,
+              0.809,
+              0.669
+            ]
+          },
+          {
+            "id": "griggs",
+            "box": [
+              0.188,
+              0.26,
+              0.755,
+              0.832
+            ]
+          },
+          {
+            "id": "ellis",
+            "box": [
+              0.0,
+              0.0,
+              0.143,
+              0.307
+            ]
+          },
+          {
+            "id": "ellis",
+            "box": [
+              0.265,
+              0.0,
+              0.492,
+              0.668
+            ]
+          },
+          {
+            "id": "23351058",
+            "box": [
+              0.591,
+              0.446,
+              0.79,
+              0.6
+            ]
+          },
+          {
+            "id": "112704051",
+            "box": [
+              0.022,
+              0.129,
+              0.137,
+              0.877
+            ]
+          },
+          {
+            "id": "112704051",
+            "box": [
+              0.238,
+              0.142,
+              0.367,
+              0.902
+            ]
+          },
+          {
+            "id": "112704051",
+            "box": [
+              0.482,
+              0.145,
+              0.565,
+              0.886
+            ]
+          },
+          {
+            "id": "112704051",
+            "box": [
+              0.675,
+              0.081,
+              0.761,
+              0.777
+            ]
+          }
+        ]
+      },
+      "trials": {
+        "unverified": {
+          "images": 27,
+          "objects": 91,
+          "tp": 76,
+          "fp": 13,
+          "fn": 15,
+          "precision": 0.8539325842696629,
+          "recall": 0.8351648351648352,
+          "f1": 0.8444444444444446,
+          "ap50": 0.7209239673121229,
+          "ap50_95": 0.4119167615165161,
+          "exact_count": 15,
+          "negative_images": 7,
+          "correct_empty": 2,
+          "false_positives": [
+            {
+              "id": "commons-4104163",
+              "prediction": {
+                "bbox": [
+                  0.09001892805099487,
+                  0.11266189151340061,
+                  0.30019958813985187,
+                  0.8450456195407443
+                ],
+                "score": 0.95755934715271,
+                "source": "sam recovery"
+              },
+              "best_unmatched_iou": 0
+            },
+            {
+              "id": "commons-4104163",
+              "prediction": {
+                "bbox": [
+                  0.5258837276034884,
+                  0.12041118409898546,
+                  0.9847276475694444,
+                  0.8094287978278266
+                ],
+                "score": 0.9533326625823975,
+                "source": "sam recovery"
+              },
+              "best_unmatched_iou": 0
+            },
+            {
+              "id": "commons-4104163",
+              "prediction": {
+                "bbox": [
+                  0.378423187467787,
+                  0.1179802417755127,
+                  0.7601777182685004,
+                  0.9458210203382704
+                ],
+                "score": 0.9421253204345703,
+                "source": "sam recovery"
+              },
+              "best_unmatched_iou": 0
+            },
+            {
+              "id": "commons-4104163",
+              "prediction": {
+                "bbox": [
+                  0.25076209174262154,
+                  0.13598689768049452,
+                  0.4816468556722005,
+                  0.8350580003526475
+                ],
+                "score": 0.9396113753318787,
+                "source": "sam recovery"
+              },
+              "best_unmatched_iou": 0
+            },
+            {
+              "id": "openverse-74f4ecd6-6d3a-4f4f-8df4-fd9abd0a2fbc",
+              "prediction": {
+                "bbox": [
+                  0.0943846967485216,
+                  0.4341335826449924,
+                  0.9108755323621962,
+                  0.52124998304579
+                ],
+                "score": 0.8998227715492249,
+                "source": "sam recovery"
+              },
+              "best_unmatched_iou": 0
+            },
+            {
+              "id": "openverse-74f4ecd6-6d3a-4f4f-8df4-fd9abd0a2fbc",
+              "prediction": {
+                "bbox": [
+                  0.09678664472368029,
+                  0.21918128596411812,
+                  0.904112180074056,
+                  0.32187048594156903
+                ],
+                "score": 0.8902539014816284,
+                "source": "sam recovery"
+              },
+              "best_unmatched_iou": 0
+            },
+            {
+              "id": "openverse-ed1b263b-9b98-4ddf-8c5e-6d697a688b48",
+              "prediction": {
+                "bbox": [
+                  0.3043134742312961,
+                  0.35511578453911674,
+                  0.7085223727756076,
+                  0.6097555690341525
+                ],
+                "score": 0.8799847364425659,
+                "source": "sam recovery"
+              },
+              "best_unmatched_iou": 0
+            },
+            {
+              "id": "commons-18388214",
+              "prediction": {
+                "bbox": [
+                  0.3598323663075765,
+                  0.19414851400587294,
+                  0.39241907331678605,
+                  0.3082842032114665
+                ],
+                "score": 0.8180010914802551,
+                "source": "sam recovery"
+              },
+              "best_unmatched_iou": 0.153462050810236
+            },
+            {
+              "id": "commons-7289636",
+              "prediction": {
+                "bbox": [
+                  0.09064441919326782,
+                  0.1532348394393921,
+                  0.5247648557027181,
+                  0.35928143395317924
+                ],
+                "score": 0.7834740877151489,
+                "source": "sam recovery"
+              },
+              "best_unmatched_iou": 0.25785548853723017
+            },
+            {
+              "id": "commons-101124486",
+              "prediction": {
+                "id": "object-1",
+                "bbox": [
+                  0.05849343538284302,
+                  0.3968275250353728,
+                  0.9151201883951823,
+                  0.6908764210089773
+                ],
+                "score": 0.7289362220183454,
+                "detection_evidence": {},
+                "scale": null,
+                "color": null,
+                "evidence": {
+                  "scale": {
+                    "value": null,
+                    "reason": "Outside development support or ambiguous",
+                    "distance": 5.6215219139038535,
+                    "margin": 0.1736393843108246
+                  },
+                  "color": {
+                    "value": null,
+                    "reason": "Insufficient visible support"
+                  }
+                },
+                "inscriptions": {
+                  "status": "not requested",
+                  "candidates": [],
+                  "capacity": null,
+                  "apparent_volume": null
+                },
+                "liquid_appearance": {
+                  "status": "insufficient evidence",
+                  "reason": "The visible color covers too little of the barrel.",
+                  "lightness": null,
+                  "opacity": null,
+                  "opacity_reason": "A registered clear-barrel reference at the same exposure is required.",
+                  "syringe_mask_score": 0.6547399759292603
+                },
+                "fill_level": {
+                  "status": "insufficient evidence",
+                  "reason": "Enable visible marking extraction to estimate fill."
+                },
+                "origin": "model"
+              },
+              "best_unmatched_iou": 0
+            },
+            {
+              "id": "commons-101124486",
+              "prediction": {
+                "bbox": [
+                  0.07307412889268664,
+                  0.17577132913801405,
+                  0.8998953501383463,
+                  0.40503928396436906
+                ],
+                "score": 0.7289362220183454,
+                "source": "sam recovery"
+              },
+              "best_unmatched_iou": 0
+            },
+            {
+              "id": "commons-160396742",
+              "prediction": {
+                "bbox": [
+                  0.05104947090148926,
+                  0.2920786539713542,
+                  0.9097762637668185,
+                  0.6733831299675835
+                ],
+                "score": 0.6697670221328735,
+                "source": "sam recovery"
+              },
+              "best_unmatched_iou": 0
+            },
+            {
+              "id": "commons-18388214",
+              "prediction": {
+                "bbox": [
+                  0.16182589530944824,
+                  0.0,
+                  0.1952973869111803,
+                  0.09280561076270209
+                ],
+                "score": 0.6690741181373596,
+                "source": "sam recovery"
+              },
+              "best_unmatched_iou": 0.0
+            }
+          ],
+          "false_negatives": [
+            {
+              "id": "commons-71161809",
+              "box": [
+                0.102,
+                0.238,
+                0.53,
+                0.349
+              ]
+            },
+            {
+              "id": "commons-71161809",
+              "box": [
+                0.56,
+                0.183,
+                0.681,
+                0.943
+              ]
+            },
+            {
+              "id": "commons-71161809",
+              "box": [
+                0.729,
+                0.261,
+                0.858,
+                0.978
+              ]
+            },
+            {
+              "id": "commons-71161809",
+              "box": [
+                0.842,
+                0.266,
+                0.932,
+                0.702
+              ]
+            },
+            {
+              "id": "commons-18388214",
+              "box": [
+                0.331,
+                0.194,
+                0.404,
+                0.526
+              ]
+            },
+            {
+              "id": "commons-18388214",
+              "box": [
+                0.651,
+                0.695,
+                0.774,
+                0.805
+              ]
+            },
+            {
+              "id": "116864459",
+              "box": [
+                0.297,
+                0.43,
+                0.506,
+                0.815
+              ]
+            },
+            {
+              "id": "commons-50007224",
+              "box": [
+                0.468,
+                0.548,
+                0.607,
+                0.678
+              ]
+            },
+            {
+              "id": "commons-50007224",
+              "box": [
+                0.488,
+                0.749,
+                0.605,
+                0.813
+              ]
+            },
+            {
+              "id": "ellis",
+              "box": [
+                0.0,
+                0.0,
+                0.143,
+                0.307
+              ]
+            },
+            {
+              "id": "ellis",
+              "box": [
+                0.265,
+                0.0,
+                0.492,
+                0.668
+              ]
+            },
+            {
+              "id": "23351058",
+              "box": [
+                0.591,
+                0.446,
+                0.79,
+                0.6
+              ]
+            },
+            {
+              "id": "112704051",
+              "box": [
+                0.022,
+                0.129,
+                0.137,
+                0.877
+              ]
+            },
+            {
+              "id": "112704051",
+              "box": [
+                0.238,
+                0.142,
+                0.367,
+                0.902
+              ]
+            },
+            {
+              "id": "112704051",
+              "box": [
+                0.675,
+                0.081,
+                0.761,
+                0.777
+              ]
+            }
+          ]
+        },
+        "geometry_rule": {
+          "images": 27,
+          "objects": 91,
+          "tp": 66,
+          "fp": 6,
+          "fn": 25,
+          "precision": 0.9166666666666666,
+          "recall": 0.7252747252747253,
+          "f1": 0.8098159509202454,
+          "ap50": 0.6625412541254124,
+          "ap50_95": 0.4243373824710658,
+          "exact_count": 13,
+          "negative_images": 7,
+          "correct_empty": 5,
+          "false_positives": [
+            {
+              "id": "commons-4104163",
+              "prediction": {
+                "bbox": [
+                  0.09001892805099487,
+                  0.11266189151340061,
+                  0.30019958813985187,
+                  0.8450456195407443
+                ],
+                "score": 0.95755934715271,
+                "source": "sam recovery"
+              },
+              "best_unmatched_iou": 0
+            },
+            {
+              "id": "commons-4104163",
+              "prediction": {
+                "bbox": [
+                  0.5258837276034884,
+                  0.12041118409898546,
+                  0.9847276475694444,
+                  0.8094287978278266
+                ],
+                "score": 0.9533326625823975,
+                "source": "sam recovery"
+              },
+              "best_unmatched_iou": 0
+            },
+            {
+              "id": "commons-4104163",
+              "prediction": {
+                "bbox": [
+                  0.378423187467787,
+                  0.1179802417755127,
+                  0.7601777182685004,
+                  0.9458210203382704
+                ],
+                "score": 0.9421253204345703,
+                "source": "sam recovery"
+              },
+              "best_unmatched_iou": 0
+            },
+            {
+              "id": "commons-4104163",
+              "prediction": {
+                "bbox": [
+                  0.25076209174262154,
+                  0.13598689768049452,
+                  0.4816468556722005,
+                  0.8350580003526475
+                ],
+                "score": 0.9396113753318787,
+                "source": "sam recovery"
+              },
+              "best_unmatched_iou": 0
+            },
+            {
+              "id": "commons-101124486",
+              "prediction": {
+                "id": "object-1",
+                "bbox": [
+                  0.05849343538284302,
+                  0.3968275250353728,
+                  0.9151201883951823,
+                  0.6908764210089773
+                ],
+                "score": 0.7289362220183454,
+                "detection_evidence": {},
+                "scale": null,
+                "color": null,
+                "evidence": {
+                  "scale": {
+                    "value": null,
+                    "reason": "Outside development support or ambiguous",
+                    "distance": 5.6215219139038535,
+                    "margin": 0.1736393843108246
+                  },
+                  "color": {
+                    "value": null,
+                    "reason": "Insufficient visible support"
+                  }
+                },
+                "inscriptions": {
+                  "status": "not requested",
+                  "candidates": [],
+                  "capacity": null,
+                  "apparent_volume": null
+                },
+                "liquid_appearance": {
+                  "status": "insufficient evidence",
+                  "reason": "The visible color covers too little of the barrel.",
+                  "lightness": null,
+                  "opacity": null,
+                  "opacity_reason": "A registered clear-barrel reference at the same exposure is required.",
+                  "syringe_mask_score": 0.6547399759292603
+                },
+                "fill_level": {
+                  "status": "insufficient evidence",
+                  "reason": "Enable visible marking extraction to estimate fill."
+                },
+                "origin": "model"
+              },
+              "best_unmatched_iou": 0
+            },
+            {
+              "id": "commons-101124486",
+              "prediction": {
+                "bbox": [
+                  0.07307412889268664,
+                  0.17577132913801405,
+                  0.8998953501383463,
+                  0.40503928396436906
+                ],
+                "score": 0.7289362220183454,
+                "source": "sam recovery"
+              },
+              "best_unmatched_iou": 0
+            }
+          ],
+          "false_negatives": [
+            {
+              "id": "epolk-influenza-tray",
+              "box": [
+                0.50078125,
+                0.06327900287631831,
+                0.92890625,
+                0.17737296260786195
+              ]
+            },
+            {
+              "id": "commons-7289636",
+              "box": [
+                0.073,
+                0.109,
+                0.742,
+                0.645
+              ]
+            },
+            {
+              "id": "commons-71161809",
+              "box": [
+                0.102,
+                0.238,
+                0.53,
+                0.349
+              ]
+            },
+            {
+              "id": "commons-71161809",
+              "box": [
+                0.56,
+                0.183,
+                0.681,
+                0.943
+              ]
+            },
+            {
+              "id": "commons-71161809",
+              "box": [
+                0.729,
+                0.261,
+                0.858,
+                0.978
+              ]
+            },
+            {
+              "id": "commons-71161809",
+              "box": [
+                0.842,
+                0.266,
+                0.932,
+                0.702
+              ]
+            },
+            {
+              "id": "commons-18388214",
+              "box": [
+                0.154,
+                0.406,
+                0.227,
+                0.707
+              ]
+            },
+            {
+              "id": "commons-18388214",
+              "box": [
+                0.173,
+                0.527,
+                0.418,
+                0.569
+              ]
+            },
+            {
+              "id": "commons-18388214",
+              "box": [
+                0.396,
+                0.278,
+                0.444,
+                0.63
+              ]
+            },
+            {
+              "id": "commons-18388214",
+              "box": [
+                0.331,
+                0.194,
+                0.404,
+                0.526
+              ]
+            },
+            {
+              "id": "commons-18388214",
+              "box": [
+                0.651,
+                0.695,
+                0.774,
+                0.805
+              ]
+            },
+            {
+              "id": "116864459",
+              "box": [
+                0.297,
+                0.43,
+                0.506,
+                0.815
+              ]
+            },
+            {
+              "id": "commons-50007224",
+              "box": [
+                0.468,
+                0.548,
+                0.607,
+                0.678
+              ]
+            },
+            {
+              "id": "commons-50007224",
+              "box": [
+                0.488,
+                0.749,
+                0.605,
+                0.813
+              ]
+            },
+            {
+              "id": "white",
+              "box": [
+                0.095,
+                0.619,
+                0.54,
+                0.729
+              ]
+            },
+            {
+              "id": "audit",
+              "box": [
+                0.47,
+                0.096,
+                0.568,
+                0.575
+              ]
+            },
+            {
+              "id": "audit",
+              "box": [
+                0.651,
+                0.0,
+                0.805,
+                0.741
+              ]
+            },
+            {
+              "id": "griggs",
+              "box": [
+                0.292,
+                0.219,
+                0.876,
+                0.501
+              ]
+            },
+            {
+              "id": "griggs",
+              "box": [
+                0.108,
+                0.166,
+                0.809,
+                0.669
+              ]
+            },
+            {
+              "id": "ellis",
+              "box": [
+                0.0,
+                0.0,
+                0.143,
+                0.307
+              ]
+            },
+            {
+              "id": "ellis",
+              "box": [
+                0.265,
+                0.0,
+                0.492,
+                0.668
+              ]
+            },
+            {
+              "id": "23351058",
+              "box": [
+                0.591,
+                0.446,
+                0.79,
+                0.6
+              ]
+            },
+            {
+              "id": "112704051",
+              "box": [
+                0.022,
+                0.129,
+                0.137,
+                0.877
+              ]
+            },
+            {
+              "id": "112704051",
+              "box": [
+                0.238,
+                0.142,
+                0.367,
+                0.902
+              ]
+            },
+            {
+              "id": "112704051",
+              "box": [
+                0.482,
+                0.145,
+                0.565,
+                0.886
+              ]
+            }
+          ]
+        },
+        "parts": {
+          "images": 27,
+          "objects": 91,
+          "tp": 56,
+          "fp": 5,
+          "fn": 35,
+          "precision": 0.9180327868852459,
+          "recall": 0.6153846153846154,
+          "f1": 0.7368421052631579,
+          "ap50": 0.5635448790780717,
+          "ap50_95": 0.35807966065243946,
+          "exact_count": 13,
+          "negative_images": 7,
+          "correct_empty": 5,
+          "false_positives": [
+            {
+              "id": "commons-4104163",
+              "prediction": {
+                "bbox": [
+                  0.09001892805099487,
+                  0.11266189151340061,
+                  0.30019958813985187,
+                  0.8450456195407443
+                ],
+                "score": 0.95755934715271,
+                "source": "sam recovery"
+              },
+              "best_unmatched_iou": 0
+            },
+            {
+              "id": "commons-4104163",
+              "prediction": {
+                "bbox": [
+                  0.5258837276034884,
+                  0.12041118409898546,
+                  0.9847276475694444,
+                  0.8094287978278266
+                ],
+                "score": 0.9533326625823975,
+                "source": "sam recovery"
+              },
+              "best_unmatched_iou": 0
+            },
+            {
+              "id": "commons-4104163",
+              "prediction": {
+                "bbox": [
+                  0.378423187467787,
+                  0.1179802417755127,
+                  0.7601777182685004,
+                  0.9458210203382704
+                ],
+                "score": 0.9421253204345703,
+                "source": "sam recovery"
+              },
+              "best_unmatched_iou": 0
+            },
+            {
+              "id": "commons-101124486",
+              "prediction": {
+                "id": "object-1",
+                "bbox": [
+                  0.05849343538284302,
+                  0.3968275250353728,
+                  0.9151201883951823,
+                  0.6908764210089773
+                ],
+                "score": 0.7289362220183454,
+                "detection_evidence": {},
+                "scale": null,
+                "color": null,
+                "evidence": {
+                  "scale": {
+                    "value": null,
+                    "reason": "Outside development support or ambiguous",
+                    "distance": 5.6215219139038535,
+                    "margin": 0.1736393843108246
+                  },
+                  "color": {
+                    "value": null,
+                    "reason": "Insufficient visible support"
+                  }
+                },
+                "inscriptions": {
+                  "status": "not requested",
+                  "candidates": [],
+                  "capacity": null,
+                  "apparent_volume": null
+                },
+                "liquid_appearance": {
+                  "status": "insufficient evidence",
+                  "reason": "The visible color covers too little of the barrel.",
+                  "lightness": null,
+                  "opacity": null,
+                  "opacity_reason": "A registered clear-barrel reference at the same exposure is required.",
+                  "syringe_mask_score": 0.6547399759292603
+                },
+                "fill_level": {
+                  "status": "insufficient evidence",
+                  "reason": "Enable visible marking extraction to estimate fill."
+                },
+                "origin": "model"
+              },
+              "best_unmatched_iou": 0
+            },
+            {
+              "id": "commons-101124486",
+              "prediction": {
+                "bbox": [
+                  0.07307412889268664,
+                  0.17577132913801405,
+                  0.8998953501383463,
+                  0.40503928396436906
+                ],
+                "score": 0.7289362220183454,
+                "source": "sam recovery"
+              },
+              "best_unmatched_iou": 0
+            }
+          ],
+          "false_negatives": [
+            {
+              "id": "epolk-influenza-tray",
+              "box": [
+                0.1203125,
+                0.07094918504314478,
+                0.59921875,
+                0.2109300095877277
+              ]
+            },
+            {
+              "id": "epolk-influenza-tray",
+              "box": [
+                0.10546875,
+                0.236816874400767,
+                0.603125,
+                0.3710450623202301
+              ]
+            },
+            {
+              "id": "epolk-influenza-tray",
+              "box": [
+                0.08984375,
+                0.4276126558005753,
+                0.61328125,
+                0.5474592521572388
+              ]
+            },
+            {
+              "id": "epolk-influenza-tray",
+              "box": [
+                0.08046875,
+                0.610738255033557,
+                0.61953125,
+                0.7430488974113135
+              ]
+            },
+            {
+              "id": "epolk-influenza-tray",
+              "box": [
+                0.50078125,
+                0.06327900287631831,
+                0.92890625,
+                0.17737296260786195
+              ]
+            },
+            {
+              "id": "epolk-influenza-tray",
+              "box": [
+                0.48671875,
+                0.19367209971236818,
+                0.921875,
+                0.3231064237775647
+              ]
+            },
+            {
+              "id": "epolk-influenza-tray",
+              "box": [
+                0.5046875,
+                0.3576222435282838,
+                0.9640625,
+                0.46404602109300097
+              ]
+            },
+            {
+              "id": "epolk-influenza-tray",
+              "box": [
+                0.49296875,
+                0.5234899328859061,
+                0.96796875,
+                0.6462128475551294
+              ]
+            },
+            {
+              "id": "epolk-influenza-tray",
+              "box": [
+                0.48671875,
+                0.7085330776605945,
+                0.96484375,
+                0.8235858101629914
+              ]
+            },
+            {
+              "id": "commons-7289636",
+              "box": [
+                0.088,
+                0.078,
+                0.964,
+                0.474
+              ]
+            },
+            {
+              "id": "commons-7289636",
+              "box": [
+                0.073,
+                0.109,
+                0.742,
+                0.645
+              ]
+            },
+            {
+              "id": "commons-7289636",
+              "box": [
+                0.037,
+                0.532,
+                0.794,
+                0.802
+              ]
+            },
+            {
+              "id": "commons-71161809",
+              "box": [
+                0.102,
+                0.238,
+                0.53,
+                0.349
+              ]
+            },
+            {
+              "id": "commons-71161809",
+              "box": [
+                0.56,
+                0.183,
+                0.681,
+                0.943
+              ]
+            },
+            {
+              "id": "commons-71161809",
+              "box": [
+                0.729,
+                0.261,
+                0.858,
+                0.978
+              ]
+            },
+            {
+              "id": "commons-71161809",
+              "box": [
+                0.842,
+                0.266,
+                0.932,
+                0.702
+              ]
+            },
+            {
+              "id": "commons-18388214",
+              "box": [
+                0.154,
+                0.406,
+                0.227,
+                0.707
+              ]
+            },
+            {
+              "id": "commons-18388214",
+              "box": [
+                0.173,
+                0.527,
+                0.418,
+                0.569
+              ]
+            },
+            {
+              "id": "commons-18388214",
+              "box": [
+                0.195,
+                0.498,
+                0.484,
+                0.553
+              ]
+            },
+            {
+              "id": "commons-18388214",
+              "box": [
+                0.396,
+                0.278,
+                0.444,
+                0.63
+              ]
+            },
+            {
+              "id": "commons-18388214",
+              "box": [
+                0.331,
+                0.194,
+                0.404,
+                0.526
+              ]
+            },
+            {
+              "id": "commons-18388214",
+              "box": [
+                0.407,
+                0.335,
+                0.619,
+                0.444
+              ]
+            },
+            {
+              "id": "commons-18388214",
+              "box": [
+                0.651,
+                0.695,
+                0.774,
+                0.805
+              ]
+            },
+            {
+              "id": "116864459",
+              "box": [
+                0.297,
+                0.43,
+                0.506,
+                0.815
+              ]
+            },
+            {
+              "id": "commons-50007224",
+              "box": [
+                0.468,
+                0.548,
+                0.607,
+                0.678
+              ]
+            },
+            {
+              "id": "commons-50007224",
+              "box": [
+                0.488,
+                0.749,
+                0.605,
+                0.813
+              ]
+            },
+            {
+              "id": "white",
+              "box": [
+                0.095,
+                0.619,
+                0.54,
+                0.729
+              ]
+            },
+            {
+              "id": "audit",
+              "box": [
+                0.47,
+                0.096,
+                0.568,
+                0.575
+              ]
+            },
+            {
+              "id": "griggs",
+              "box": [
+                0.292,
+                0.219,
+                0.876,
+                0.501
+              ]
+            },
+            {
+              "id": "griggs",
+              "box": [
+                0.108,
+                0.166,
+                0.809,
+                0.669
+              ]
+            },
+            {
+              "id": "ellis",
+              "box": [
+                0.0,
+                0.0,
+                0.143,
+                0.307
+              ]
+            },
+            {
+              "id": "ellis",
+              "box": [
+                0.265,
+                0.0,
+                0.492,
+                0.668
+              ]
+            },
+            {
+              "id": "23351058",
+              "box": [
+                0.591,
+                0.446,
+                0.79,
+                0.6
+              ]
+            },
+            {
+              "id": "112704051",
+              "box": [
+                0.022,
+                0.129,
+                0.137,
+                0.877
+              ]
+            },
+            {
+              "id": "112704051",
+              "box": [
+                0.238,
+                0.142,
+                0.367,
+                0.902
+              ]
+            }
+          ]
+        },
+        "appearance": {
+          "images": 27,
+          "objects": 91,
+          "tp": 34,
+          "fp": 1,
+          "fn": 57,
+          "precision": 0.9714285714285714,
+          "recall": 0.37362637362637363,
+          "f1": 0.5396825396825397,
+          "ap50": 0.37086280056577087,
+          "ap50_95": 0.2817602415003405,
+          "exact_count": 12,
+          "negative_images": 7,
+          "correct_empty": 6,
+          "false_positives": [
+            {
+              "id": "commons-101124486",
+              "prediction": {
+                "id": "object-1",
+                "bbox": [
+                  0.05849343538284302,
+                  0.3968275250353728,
+                  0.9151201883951823,
+                  0.6908764210089773
+                ],
+                "score": 0.7289362220183454,
+                "detection_evidence": {},
+                "scale": null,
+                "color": null,
+                "evidence": {
+                  "scale": {
+                    "value": null,
+                    "reason": "Outside development support or ambiguous",
+                    "distance": 5.6215219139038535,
+                    "margin": 0.1736393843108246
+                  },
+                  "color": {
+                    "value": null,
+                    "reason": "Insufficient visible support"
+                  }
+                },
+                "inscriptions": {
+                  "status": "not requested",
+                  "candidates": [],
+                  "capacity": null,
+                  "apparent_volume": null
+                },
+                "liquid_appearance": {
+                  "status": "insufficient evidence",
+                  "reason": "The visible color covers too little of the barrel.",
+                  "lightness": null,
+                  "opacity": null,
+                  "opacity_reason": "A registered clear-barrel reference at the same exposure is required.",
+                  "syringe_mask_score": 0.6547399759292603
+                },
+                "fill_level": {
+                  "status": "insufficient evidence",
+                  "reason": "Enable visible marking extraction to estimate fill."
+                },
+                "origin": "model"
+              },
+              "best_unmatched_iou": 0
+            }
+          ],
+          "false_negatives": [
+            {
+              "id": "epolk-influenza-tray",
+              "box": [
+                0.1203125,
+                0.07094918504314478,
+                0.59921875,
+                0.2109300095877277
+              ]
+            },
+            {
+              "id": "epolk-influenza-tray",
+              "box": [
+                0.10546875,
+                0.236816874400767,
+                0.603125,
+                0.3710450623202301
+              ]
+            },
+            {
+              "id": "epolk-influenza-tray",
+              "box": [
+                0.08984375,
+                0.4276126558005753,
+                0.61328125,
+                0.5474592521572388
+              ]
+            },
+            {
+              "id": "epolk-influenza-tray",
+              "box": [
+                0.08046875,
+                0.610738255033557,
+                0.61953125,
+                0.7430488974113135
+              ]
+            },
+            {
+              "id": "epolk-influenza-tray",
+              "box": [
+                0.50078125,
+                0.06327900287631831,
+                0.92890625,
+                0.17737296260786195
+              ]
+            },
+            {
+              "id": "epolk-influenza-tray",
+              "box": [
+                0.48671875,
+                0.19367209971236818,
+                0.921875,
+                0.3231064237775647
+              ]
+            },
+            {
+              "id": "epolk-influenza-tray",
+              "box": [
+                0.5046875,
+                0.3576222435282838,
+                0.9640625,
+                0.46404602109300097
+              ]
+            },
+            {
+              "id": "epolk-influenza-tray",
+              "box": [
+                0.49296875,
+                0.5234899328859061,
+                0.96796875,
+                0.6462128475551294
+              ]
+            },
+            {
+              "id": "epolk-influenza-tray",
+              "box": [
+                0.48671875,
+                0.7085330776605945,
+                0.96484375,
+                0.8235858101629914
+              ]
+            },
+            {
+              "id": "commons-7289636",
+              "box": [
+                0.088,
+                0.078,
+                0.964,
+                0.474
+              ]
+            },
+            {
+              "id": "commons-7289636",
+              "box": [
+                0.073,
+                0.109,
+                0.742,
+                0.645
+              ]
+            },
+            {
+              "id": "commons-7289636",
+              "box": [
+                0.037,
+                0.532,
+                0.794,
+                0.802
+              ]
+            },
+            {
+              "id": "commons-71161809",
+              "box": [
+                0.102,
+                0.238,
+                0.53,
+                0.349
+              ]
+            },
+            {
+              "id": "commons-71161809",
+              "box": [
+                0.56,
+                0.183,
+                0.681,
+                0.943
+              ]
+            },
+            {
+              "id": "commons-71161809",
+              "box": [
+                0.729,
+                0.261,
+                0.858,
+                0.978
+              ]
+            },
+            {
+              "id": "commons-71161809",
+              "box": [
+                0.842,
+                0.266,
+                0.932,
+                0.702
+              ]
+            },
+            {
+              "id": "commons-97857285",
+              "box": [
+                0.543,
+                0.032,
+                0.745,
+                0.892
+              ]
+            },
+            {
+              "id": "commons-18388214",
+              "box": [
+                0.154,
+                0.406,
+                0.227,
+                0.707
+              ]
+            },
+            {
+              "id": "commons-18388214",
+              "box": [
+                0.173,
+                0.527,
+                0.418,
+                0.569
+              ]
+            },
+            {
+              "id": "commons-18388214",
+              "box": [
+                0.195,
+                0.498,
+                0.484,
+                0.553
+              ]
+            },
+            {
+              "id": "commons-18388214",
+              "box": [
+                0.396,
+                0.278,
+                0.444,
+                0.63
+              ]
+            },
+            {
+              "id": "commons-18388214",
+              "box": [
+                0.331,
+                0.194,
+                0.404,
+                0.526
+              ]
+            },
+            {
+              "id": "commons-18388214",
+              "box": [
+                0.407,
+                0.335,
+                0.619,
+                0.444
+              ]
+            },
+            {
+              "id": "commons-18388214",
+              "box": [
+                0.651,
+                0.695,
+                0.774,
+                0.805
+              ]
+            },
+            {
+              "id": "116864459",
+              "box": [
+                0.297,
+                0.43,
+                0.506,
+                0.815
+              ]
+            },
+            {
+              "id": "commons-50007224",
+              "box": [
+                0.468,
+                0.548,
+                0.607,
+                0.678
+              ]
+            },
+            {
+              "id": "commons-50007224",
+              "box": [
+                0.488,
+                0.749,
+                0.605,
+                0.813
+              ]
+            },
+            {
+              "id": "viglianco",
+              "box": [
+                0.058,
+                0.177,
+                0.173,
+                0.886
+              ]
+            },
+            {
+              "id": "viglianco",
+              "box": [
+                0.107,
+                0.213,
+                0.215,
+                0.886
+              ]
+            },
+            {
+              "id": "viglianco",
+              "box": [
+                0.207,
+                0.206,
+                0.264,
+                0.888
+              ]
+            },
+            {
+              "id": "viglianco",
+              "box": [
+                0.254,
+                0.178,
+                0.358,
+                0.883
+              ]
+            },
+            {
+              "id": "viglianco",
+              "box": [
+                0.339,
+                0.15,
+                0.412,
+                0.865
+              ]
+            },
+            {
+              "id": "viglianco",
+              "box": [
+                0.395,
+                0.185,
+                0.522,
+                0.908
+              ]
+            },
+            {
+              "id": "viglianco",
+              "box": [
+                0.45,
+                0.177,
+                0.571,
+                0.84
+              ]
+            },
+            {
+              "id": "viglianco",
+              "box": [
+                0.488,
+                0.177,
+                0.623,
+                0.897
+              ]
+            },
+            {
+              "id": "viglianco",
+              "box": [
+                0.572,
+                0.182,
+                0.731,
+                0.888
+              ]
+            },
+            {
+              "id": "viglianco",
+              "box": [
+                0.636,
+                0.158,
+                0.816,
+                0.84
+              ]
+            },
+            {
+              "id": "white",
+              "box": [
+                0.095,
+                0.619,
+                0.54,
+                0.729
+              ]
+            },
+            {
+              "id": "audit",
+              "box": [
+                0.12,
+                0.1,
+                0.248,
+                0.907
+              ]
+            },
+            {
+              "id": "audit",
+              "box": [
+                0.209,
+                0.0,
+                0.356,
+                0.683
+              ]
+            },
+            {
+              "id": "audit",
+              "box": [
+                0.251,
+                0.0,
+                0.426,
+                0.846
+              ]
+            },
+            {
+              "id": "audit",
+              "box": [
+                0.349,
+                0.0,
+                0.508,
+                0.899
+              ]
+            },
+            {
+              "id": "audit",
+              "box": [
+                0.47,
+                0.096,
+                0.568,
+                0.575
+              ]
+            },
+            {
+              "id": "audit",
+              "box": [
+                0.451,
+                0.0,
+                0.642,
+                0.944
+              ]
+            },
+            {
+              "id": "audit",
+              "box": [
+                0.58,
+                0.0,
+                0.748,
+                0.993
+              ]
+            },
+            {
+              "id": "audit",
+              "box": [
+                0.651,
+                0.0,
+                0.805,
+                0.741
+              ]
+            },
+            {
+              "id": "griggs",
+              "box": [
+                0.292,
+                0.219,
+                0.876,
+                0.501
+              ]
+            },
+            {
+              "id": "griggs",
+              "box": [
+                0.156,
+                0.17,
+                0.795,
+                0.524
+              ]
+            },
+            {
+              "id": "griggs",
+              "box": [
+                0.108,
+                0.166,
+                0.809,
+                0.669
+              ]
+            },
+            {
+              "id": "griggs",
+              "box": [
+                0.188,
+                0.26,
+                0.755,
+                0.832
+              ]
+            },
+            {
+              "id": "ellis",
+              "box": [
+                0.0,
+                0.0,
+                0.143,
+                0.307
+              ]
+            },
+            {
+              "id": "ellis",
+              "box": [
+                0.265,
+                0.0,
+                0.492,
+                0.668
+              ]
+            },
+            {
+              "id": "23351058",
+              "box": [
+                0.591,
+                0.446,
+                0.79,
+                0.6
+              ]
+            },
+            {
+              "id": "112704051",
+              "box": [
+                0.022,
+                0.129,
+                0.137,
+                0.877
+              ]
+            },
+            {
+              "id": "112704051",
+              "box": [
+                0.238,
+                0.142,
+                0.367,
+                0.902
+              ]
+            },
+            {
+              "id": "112704051",
+              "box": [
+                0.482,
+                0.145,
+                0.565,
+                0.886
+              ]
+            },
+            {
+              "id": "112704051",
+              "box": [
+                0.675,
+                0.081,
+                0.761,
+                0.777
+              ]
+            }
+          ]
+        },
+        "combined": {
+          "images": 27,
+          "objects": 91,
+          "tp": 34,
+          "fp": 1,
+          "fn": 57,
+          "precision": 0.9714285714285714,
+          "recall": 0.37362637362637363,
+          "f1": 0.5396825396825397,
+          "ap50": 0.37086280056577087,
+          "ap50_95": 0.2817602415003405,
+          "exact_count": 12,
+          "negative_images": 7,
+          "correct_empty": 6,
+          "false_positives": [
+            {
+              "id": "commons-101124486",
+              "prediction": {
+                "id": "object-1",
+                "bbox": [
+                  0.05849343538284302,
+                  0.3968275250353728,
+                  0.9151201883951823,
+                  0.6908764210089773
+                ],
+                "score": 0.7289362220183454,
+                "detection_evidence": {},
+                "scale": null,
+                "color": null,
+                "evidence": {
+                  "scale": {
+                    "value": null,
+                    "reason": "Outside development support or ambiguous",
+                    "distance": 5.6215219139038535,
+                    "margin": 0.1736393843108246
+                  },
+                  "color": {
+                    "value": null,
+                    "reason": "Insufficient visible support"
+                  }
+                },
+                "inscriptions": {
+                  "status": "not requested",
+                  "candidates": [],
+                  "capacity": null,
+                  "apparent_volume": null
+                },
+                "liquid_appearance": {
+                  "status": "insufficient evidence",
+                  "reason": "The visible color covers too little of the barrel.",
+                  "lightness": null,
+                  "opacity": null,
+                  "opacity_reason": "A registered clear-barrel reference at the same exposure is required.",
+                  "syringe_mask_score": 0.6547399759292603
+                },
+                "fill_level": {
+                  "status": "insufficient evidence",
+                  "reason": "Enable visible marking extraction to estimate fill."
+                },
+                "origin": "model"
+              },
+              "best_unmatched_iou": 0
+            }
+          ],
+          "false_negatives": [
+            {
+              "id": "epolk-influenza-tray",
+              "box": [
+                0.1203125,
+                0.07094918504314478,
+                0.59921875,
+                0.2109300095877277
+              ]
+            },
+            {
+              "id": "epolk-influenza-tray",
+              "box": [
+                0.10546875,
+                0.236816874400767,
+                0.603125,
+                0.3710450623202301
+              ]
+            },
+            {
+              "id": "epolk-influenza-tray",
+              "box": [
+                0.08984375,
+                0.4276126558005753,
+                0.61328125,
+                0.5474592521572388
+              ]
+            },
+            {
+              "id": "epolk-influenza-tray",
+              "box": [
+                0.08046875,
+                0.610738255033557,
+                0.61953125,
+                0.7430488974113135
+              ]
+            },
+            {
+              "id": "epolk-influenza-tray",
+              "box": [
+                0.50078125,
+                0.06327900287631831,
+                0.92890625,
+                0.17737296260786195
+              ]
+            },
+            {
+              "id": "epolk-influenza-tray",
+              "box": [
+                0.48671875,
+                0.19367209971236818,
+                0.921875,
+                0.3231064237775647
+              ]
+            },
+            {
+              "id": "epolk-influenza-tray",
+              "box": [
+                0.5046875,
+                0.3576222435282838,
+                0.9640625,
+                0.46404602109300097
+              ]
+            },
+            {
+              "id": "epolk-influenza-tray",
+              "box": [
+                0.49296875,
+                0.5234899328859061,
+                0.96796875,
+                0.6462128475551294
+              ]
+            },
+            {
+              "id": "epolk-influenza-tray",
+              "box": [
+                0.48671875,
+                0.7085330776605945,
+                0.96484375,
+                0.8235858101629914
+              ]
+            },
+            {
+              "id": "commons-7289636",
+              "box": [
+                0.088,
+                0.078,
+                0.964,
+                0.474
+              ]
+            },
+            {
+              "id": "commons-7289636",
+              "box": [
+                0.073,
+                0.109,
+                0.742,
+                0.645
+              ]
+            },
+            {
+              "id": "commons-7289636",
+              "box": [
+                0.037,
+                0.532,
+                0.794,
+                0.802
+              ]
+            },
+            {
+              "id": "commons-71161809",
+              "box": [
+                0.102,
+                0.238,
+                0.53,
+                0.349
+              ]
+            },
+            {
+              "id": "commons-71161809",
+              "box": [
+                0.56,
+                0.183,
+                0.681,
+                0.943
+              ]
+            },
+            {
+              "id": "commons-71161809",
+              "box": [
+                0.729,
+                0.261,
+                0.858,
+                0.978
+              ]
+            },
+            {
+              "id": "commons-71161809",
+              "box": [
+                0.842,
+                0.266,
+                0.932,
+                0.702
+              ]
+            },
+            {
+              "id": "commons-97857285",
+              "box": [
+                0.543,
+                0.032,
+                0.745,
+                0.892
+              ]
+            },
+            {
+              "id": "commons-18388214",
+              "box": [
+                0.154,
+                0.406,
+                0.227,
+                0.707
+              ]
+            },
+            {
+              "id": "commons-18388214",
+              "box": [
+                0.173,
+                0.527,
+                0.418,
+                0.569
+              ]
+            },
+            {
+              "id": "commons-18388214",
+              "box": [
+                0.195,
+                0.498,
+                0.484,
+                0.553
+              ]
+            },
+            {
+              "id": "commons-18388214",
+              "box": [
+                0.396,
+                0.278,
+                0.444,
+                0.63
+              ]
+            },
+            {
+              "id": "commons-18388214",
+              "box": [
+                0.331,
+                0.194,
+                0.404,
+                0.526
+              ]
+            },
+            {
+              "id": "commons-18388214",
+              "box": [
+                0.407,
+                0.335,
+                0.619,
+                0.444
+              ]
+            },
+            {
+              "id": "commons-18388214",
+              "box": [
+                0.651,
+                0.695,
+                0.774,
+                0.805
+              ]
+            },
+            {
+              "id": "116864459",
+              "box": [
+                0.297,
+                0.43,
+                0.506,
+                0.815
+              ]
+            },
+            {
+              "id": "commons-50007224",
+              "box": [
+                0.468,
+                0.548,
+                0.607,
+                0.678
+              ]
+            },
+            {
+              "id": "commons-50007224",
+              "box": [
+                0.488,
+                0.749,
+                0.605,
+                0.813
+              ]
+            },
+            {
+              "id": "viglianco",
+              "box": [
+                0.058,
+                0.177,
+                0.173,
+                0.886
+              ]
+            },
+            {
+              "id": "viglianco",
+              "box": [
+                0.107,
+                0.213,
+                0.215,
+                0.886
+              ]
+            },
+            {
+              "id": "viglianco",
+              "box": [
+                0.207,
+                0.206,
+                0.264,
+                0.888
+              ]
+            },
+            {
+              "id": "viglianco",
+              "box": [
+                0.254,
+                0.178,
+                0.358,
+                0.883
+              ]
+            },
+            {
+              "id": "viglianco",
+              "box": [
+                0.339,
+                0.15,
+                0.412,
+                0.865
+              ]
+            },
+            {
+              "id": "viglianco",
+              "box": [
+                0.395,
+                0.185,
+                0.522,
+                0.908
+              ]
+            },
+            {
+              "id": "viglianco",
+              "box": [
+                0.45,
+                0.177,
+                0.571,
+                0.84
+              ]
+            },
+            {
+              "id": "viglianco",
+              "box": [
+                0.488,
+                0.177,
+                0.623,
+                0.897
+              ]
+            },
+            {
+              "id": "viglianco",
+              "box": [
+                0.572,
+                0.182,
+                0.731,
+                0.888
+              ]
+            },
+            {
+              "id": "viglianco",
+              "box": [
+                0.636,
+                0.158,
+                0.816,
+                0.84
+              ]
+            },
+            {
+              "id": "white",
+              "box": [
+                0.095,
+                0.619,
+                0.54,
+                0.729
+              ]
+            },
+            {
+              "id": "audit",
+              "box": [
+                0.12,
+                0.1,
+                0.248,
+                0.907
+              ]
+            },
+            {
+              "id": "audit",
+              "box": [
+                0.209,
+                0.0,
+                0.356,
+                0.683
+              ]
+            },
+            {
+              "id": "audit",
+              "box": [
+                0.251,
+                0.0,
+                0.426,
+                0.846
+              ]
+            },
+            {
+              "id": "audit",
+              "box": [
+                0.349,
+                0.0,
+                0.508,
+                0.899
+              ]
+            },
+            {
+              "id": "audit",
+              "box": [
+                0.47,
+                0.096,
+                0.568,
+                0.575
+              ]
+            },
+            {
+              "id": "audit",
+              "box": [
+                0.451,
+                0.0,
+                0.642,
+                0.944
+              ]
+            },
+            {
+              "id": "audit",
+              "box": [
+                0.58,
+                0.0,
+                0.748,
+                0.993
+              ]
+            },
+            {
+              "id": "audit",
+              "box": [
+                0.651,
+                0.0,
+                0.805,
+                0.741
+              ]
+            },
+            {
+              "id": "griggs",
+              "box": [
+                0.292,
+                0.219,
+                0.876,
+                0.501
+              ]
+            },
+            {
+              "id": "griggs",
+              "box": [
+                0.156,
+                0.17,
+                0.795,
+                0.524
+              ]
+            },
+            {
+              "id": "griggs",
+              "box": [
+                0.108,
+                0.166,
+                0.809,
+                0.669
+              ]
+            },
+            {
+              "id": "griggs",
+              "box": [
+                0.188,
+                0.26,
+                0.755,
+                0.832
+              ]
+            },
+            {
+              "id": "ellis",
+              "box": [
+                0.0,
+                0.0,
+                0.143,
+                0.307
+              ]
+            },
+            {
+              "id": "ellis",
+              "box": [
+                0.265,
+                0.0,
+                0.492,
+                0.668
+              ]
+            },
+            {
+              "id": "23351058",
+              "box": [
+                0.591,
+                0.446,
+                0.79,
+                0.6
+              ]
+            },
+            {
+              "id": "112704051",
+              "box": [
+                0.022,
+                0.129,
+                0.137,
+                0.877
+              ]
+            },
+            {
+              "id": "112704051",
+              "box": [
+                0.238,
+                0.142,
+                0.367,
+                0.902
+              ]
+            },
+            {
+              "id": "112704051",
+              "box": [
+                0.482,
+                0.145,
+                0.565,
+                0.886
+              ]
+            },
+            {
+              "id": "112704051",
+              "box": [
+                0.675,
+                0.081,
+                0.761,
+                0.777
+              ]
+            }
+          ]
+        }
+      },
+      "retention": {
+        "unverified": {
+          "passed": true,
+          "lost_matches": [],
+          "recovered_matches": 42,
+          "baseline_matches": 34,
+          "candidate_matches": 76
+        },
+        "geometry_rule": {
+          "passed": true,
+          "lost_matches": [],
+          "recovered_matches": 32,
+          "baseline_matches": 34,
+          "candidate_matches": 66
+        },
+        "parts": {
+          "passed": true,
+          "lost_matches": [],
+          "recovered_matches": 22,
+          "baseline_matches": 34,
+          "candidate_matches": 56
+        },
+        "appearance": {
+          "passed": true,
+          "lost_matches": [],
+          "recovered_matches": 0,
+          "baseline_matches": 34,
+          "candidate_matches": 34
+        },
+        "combined": {
+          "passed": true,
+          "lost_matches": [],
+          "recovered_matches": 0,
+          "baseline_matches": 34,
+          "candidate_matches": 34
+        }
+      },
+      "counts": {
+        "epolk-influenza-tray": {
+          "expected": 10,
+          "released": 1,
+          "unverified": 10,
+          "geometry_rule": 9,
+          "parts": 1,
+          "appearance": 1,
+          "combined": 1
+        },
+        "openverse-ed1b263b-9b98-4ddf-8c5e-6d697a688b48": {
+          "expected": 0,
+          "released": 0,
+          "unverified": 1,
+          "geometry_rule": 0,
+          "parts": 0,
+          "appearance": 0,
+          "combined": 0
+        },
+        "openverse-74f4ecd6-6d3a-4f4f-8df4-fd9abd0a2fbc": {
+          "expected": 0,
+          "released": 0,
+          "unverified": 2,
+          "geometry_rule": 0,
+          "parts": 0,
+          "appearance": 0,
+          "combined": 0
+        },
+        "commons-134700298": {
+          "expected": 4,
+          "released": 4,
+          "unverified": 4,
+          "geometry_rule": 4,
+          "parts": 4,
+          "appearance": 4,
+          "combined": 4
+        },
+        "commons-7289636": {
+          "expected": 3,
+          "released": 0,
+          "unverified": 4,
+          "geometry_rule": 2,
+          "parts": 0,
+          "appearance": 0,
+          "combined": 0
+        },
+        "commons-32472607": {
+          "expected": 3,
+          "released": 3,
+          "unverified": 3,
+          "geometry_rule": 3,
+          "parts": 3,
+          "appearance": 3,
+          "combined": 3
+        },
+        "commons-71161809": {
+          "expected": 4,
+          "released": 0,
+          "unverified": 0,
+          "geometry_rule": 0,
+          "parts": 0,
+          "appearance": 0,
+          "combined": 0
+        },
+        "commons-97857285": {
+          "expected": 2,
+          "released": 1,
+          "unverified": 2,
+          "geometry_rule": 2,
+          "parts": 2,
+          "appearance": 1,
+          "combined": 1
+        },
+        "commons-18388214": {
+          "expected": 7,
+          "released": 0,
+          "unverified": 7,
+          "geometry_rule": 2,
+          "parts": 0,
+          "appearance": 0,
+          "combined": 0
+        },
+        "116864459": {
+          "expected": 2,
+          "released": 1,
+          "unverified": 1,
+          "geometry_rule": 1,
+          "parts": 1,
+          "appearance": 1,
+          "combined": 1
+        },
+        "39991978": {
+          "expected": 2,
+          "released": 2,
+          "unverified": 2,
+          "geometry_rule": 2,
+          "parts": 2,
+          "appearance": 2,
+          "combined": 2
+        },
+        "commons-50007224": {
+          "expected": 2,
+          "released": 0,
+          "unverified": 0,
+          "geometry_rule": 0,
+          "parts": 0,
+          "appearance": 0,
+          "combined": 0
+        },
+        "viglianco": {
+          "expected": 11,
+          "released": 1,
+          "unverified": 11,
+          "geometry_rule": 11,
+          "parts": 11,
+          "appearance": 1,
+          "combined": 1
+        },
+        "white": {
+          "expected": 2,
+          "released": 1,
+          "unverified": 2,
+          "geometry_rule": 1,
+          "parts": 1,
+          "appearance": 1,
+          "combined": 1
+        },
+        "audit": {
+          "expected": 9,
+          "released": 1,
+          "unverified": 9,
+          "geometry_rule": 7,
+          "parts": 8,
+          "appearance": 1,
+          "combined": 1
+        },
+        "griggs": {
+          "expected": 4,
+          "released": 0,
+          "unverified": 4,
+          "geometry_rule": 2,
+          "parts": 2,
+          "appearance": 0,
+          "combined": 0
+        },
+        "ellis": {
+          "expected": 7,
+          "released": 5,
+          "unverified": 5,
+          "geometry_rule": 5,
+          "parts": 5,
+          "appearance": 5,
+          "combined": 5
+        },
+        "fishmen": {
+          "expected": 2,
+          "released": 2,
+          "unverified": 2,
+          "geometry_rule": 2,
+          "parts": 2,
+          "appearance": 2,
+          "combined": 2
+        },
+        "12725261": {
+          "expected": 7,
+          "released": 7,
+          "unverified": 7,
+          "geometry_rule": 7,
+          "parts": 7,
+          "appearance": 7,
+          "combined": 7
+        },
+        "23351058": {
+          "expected": 4,
+          "released": 3,
+          "unverified": 3,
+          "geometry_rule": 3,
+          "parts": 3,
+          "appearance": 3,
+          "combined": 3
+        },
+        "112704051": {
+          "expected": 4,
+          "released": 0,
+          "unverified": 1,
+          "geometry_rule": 1,
+          "parts": 2,
+          "appearance": 0,
+          "combined": 0
+        },
+        "88334694": {
+          "expected": 2,
+          "released": 2,
+          "unverified": 2,
+          "geometry_rule": 2,
+          "parts": 2,
+          "appearance": 2,
+          "combined": 2
+        },
+        "commons-167439103": {
+          "expected": 0,
+          "released": 0,
+          "unverified": 0,
+          "geometry_rule": 0,
+          "parts": 0,
+          "appearance": 0,
+          "combined": 0
+        },
+        "commons-160396742": {
+          "expected": 0,
+          "released": 0,
+          "unverified": 1,
+          "geometry_rule": 0,
+          "parts": 0,
+          "appearance": 0,
+          "combined": 0
+        },
+        "commons-101124486": {
+          "expected": 0,
+          "released": 1,
+          "unverified": 2,
+          "geometry_rule": 2,
+          "parts": 2,
+          "appearance": 1,
+          "combined": 1
+        },
+        "commons-4104163": {
+          "expected": 0,
+          "released": 0,
+          "unverified": 4,
+          "geometry_rule": 4,
+          "parts": 3,
+          "appearance": 0,
+          "combined": 0
+        },
+        "ferdinando": {
+          "expected": 0,
+          "released": 0,
+          "unverified": 0,
+          "geometry_rule": 0,
+          "parts": 0,
+          "appearance": 0,
+          "combined": 0
+        }
+      }
+    }
+  },
+  "part_audit": {
+    "fit": {
+      "barrel": {
+        "reviewed": 17,
+        "proposal": 12,
+        "within_proposal": 11,
+        "center_within_10pct": 9
+      },
+      "flange": {
+        "reviewed": 8,
+        "proposal": 3,
+        "within_proposal": 3,
+        "center_within_10pct": 2
+      },
+      "rod": {
+        "reviewed": 11,
+        "proposal": 9,
+        "within_proposal": 8,
+        "center_within_10pct": 0
+      },
+      "seal": {
+        "reviewed": 11,
+        "proposal": 7,
+        "within_proposal": 7,
+        "center_within_10pct": 5
+      }
+    },
+    "transfer": {
+      "barrel": {
+        "reviewed": 1,
+        "proposal": 1,
+        "within_proposal": 1,
+        "center_within_10pct": 1
+      },
+      "flange": {
+        "reviewed": 1,
+        "proposal": 1,
+        "within_proposal": 1,
+        "center_within_10pct": 0
+      },
+      "rod": {
+        "reviewed": 1,
+        "proposal": 1,
+        "within_proposal": 1,
+        "center_within_10pct": 0
+      },
+      "seal": {
+        "reviewed": 1,
+        "proposal": 1,
+        "within_proposal": 1,
+        "center_within_10pct": 0
+      }
+    },
+    "fresh": {
+      "barrel": {
+        "reviewed": 0,
+        "proposal": 0,
+        "within_proposal": 0,
+        "center_within_10pct": 0
+      },
+      "flange": {
+        "reviewed": 0,
+        "proposal": 0,
+        "within_proposal": 0,
+        "center_within_10pct": 0
+      },
+      "rod": {
+        "reviewed": 0,
+        "proposal": 0,
+        "within_proposal": 0,
+        "center_within_10pct": 0
+      },
+      "seal": {
+        "reviewed": 0,
+        "proposal": 0,
+        "within_proposal": 0,
+        "center_within_10pct": 0
+      }
+    }
+  },
+  "scope": "Fresh screened public acquisitions and separate new photos by previously seen contributors. The prior tray, its two negatives, and the prior crowded photos are regression."
+}

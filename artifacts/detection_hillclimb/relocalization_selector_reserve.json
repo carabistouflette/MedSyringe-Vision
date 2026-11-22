@@ -1,0 +1,233 @@
+{
+  "code": "f5679fc8483dc7435a800e8f9306c76c48bee9edeb982469682aaf32fcba2987",
+  "rows": [
+    {
+      "id": "refine-19260361",
+      "source_url": "https://www.pexels.com/photo/surgeon-holding-syringes-19260361/",
+      "original_url": "https://images.pexels.com/photos/19260361/pexels-photo-19260361.jpeg?auto=compress&cs=tinysrgb&w=1000",
+      "author": "Mehmet Turgut Kirkgoz",
+      "group": "Pexels mehmet turgut kirkgoz 19260361",
+      "image": "data/relocalization-selector/screen/19260361.jpg",
+      "sha256": "ddd1f5db43edfc2e5d20e3af0da8a7f5cf5274386ff3a47dad940766da556f2d",
+      "objects": [
+        {
+          "bbox": [
+            0.3071593533487298,
+            0.1276923076923077,
+            0.45265588914549654,
+            0.6923076923076923
+          ]
+        },
+        {
+          "bbox": [
+            0.4064665127020785,
+            0.09846153846153846,
+            0.7413394919168591,
+            0.6984615384615385
+          ]
+        }
+      ],
+      "review": "Two devices whose needle tips meet near the glove.",
+      "license": "https://www.pexels.com/license/"
+    },
+    {
+      "id": "refine-3786122",
+      "source_url": "https://www.pexels.com/photo/syringes-and-petri-dish-on-white-background-3786122/",
+      "original_url": "https://images.pexels.com/photos/3786122/pexels-photo-3786122.jpeg?auto=compress&cs=tinysrgb&w=1000",
+      "author": "Anna Shvets",
+      "group": "Pexels anna shvets 3786122",
+      "image": "data/relocalization-selector/screen/3786122.jpg",
+      "sha256": "c629e4d53bf017365e578ec384230daeb6cf4e6be911ca6fa3bace7577504356",
+      "objects": [
+        {
+          "bbox": [
+            0.5311778290993071,
+            0.3353846153846154,
+            0.6466512702078522,
+            0.7138461538461538
+          ]
+        },
+        {
+          "bbox": [
+            0.3556581986143187,
+            0.5015384615384615,
+            0.6720554272517321,
+            0.9307692307692308
+          ]
+        }
+      ],
+      "review": "Two syringes with overlapping boxes and separate visible bodies.",
+      "license": "https://www.pexels.com/license/"
+    },
+    {
+      "id": "refine-8670507",
+      "source_url": "https://www.pexels.com/photo/close-up-shot-of-a-person-holding-syringes-8670507/",
+      "original_url": "https://images.pexels.com/photos/8670507/pexels-photo-8670507.jpeg?auto=compress&cs=tinysrgb&w=1000",
+      "author": "Mikhail Nilov",
+      "group": "Pexels mikhail nilov 8670507",
+      "image": "data/relocalization-selector/screen/8670507.jpg",
+      "sha256": "cf4ef5d9fd8a2e181bd1c2864892932dfad7b40860d38ab12a66e0350a5a2bdd",
+      "objects": [
+        {
+          "bbox": [
+            0.302540415704388,
+            0.2907692307692308,
+            0.45958429561200925,
+            0.47692307692307695
+          ]
+        },
+        {
+          "bbox": [
+            0.34872979214780603,
+            0.26615384615384613,
+            0.47575057736720555,
+            0.4707692307692308
+          ]
+        },
+        {
+          "bbox": [
+            0.3833718244803695,
+            0.24615384615384617,
+            0.49653579676674364,
+            0.46307692307692305
+          ]
+        },
+        {
+          "bbox": [
+            0.5057736720554272,
+            0.22923076923076924,
+            0.5727482678983834,
+            0.4646153846153846
+          ]
+        },
+        {
+          "bbox": [
+            0.5519630484988453,
+            0.24615384615384617,
+            0.6605080831408776,
+            0.46615384615384614
+          ]
+        },
+        {
+          "bbox": [
+            0.5773672055427251,
+            0.26153846153846155,
+            0.7090069284064665,
+            0.46923076923076923
+          ]
+        }
+      ],
+      "review": "Six independently visible green plungers. Some distal ends are occluded by adjacent syringes and the hand.",
+      "license": "https://www.pexels.com/license/"
+    },
+    {
+      "id": "refine-7722598",
+      "source_url": "https://www.pexels.com/photo/photo-of-pieces-of-disposable-syringes-7722598/",
+      "original_url": "https://images.pexels.com/photos/7722598/pexels-photo-7722598.jpeg?auto=compress&cs=tinysrgb&w=1000",
+      "author": "Tara Winstead",
+      "group": "Pexels tara winstead 7722598",
+      "image": "data/relocalization-selector/screen/7722598.jpg",
+      "sha256": "262b5053f251aa70627a6b6b0520b4fd5931f3a0eb59ac04cab17c36eec1f4cd",
+      "objects": [
+        {
+          "bbox": [
+            0.26964285714285713,
+            0.2967914438502674,
+            0.3535714285714286,
+            0.8101604278074866
+          ]
+        },
+        {
+          "bbox": [
+            0.38035714285714284,
+            0.3689839572192513,
+            0.44821428571428573,
+            0.9037433155080213
+          ]
+        },
+        {
+          "bbox": [
+            0.44107142857142856,
+            0.24064171122994651,
+            0.5232142857142857,
+            0.7379679144385026
+          ]
+        },
+        {
+          "bbox": [
+            0.5375,
+            0.3155080213903743,
+            0.6089285714285714,
+            0.839572192513369
+          ]
+        },
+        {
+          "bbox": [
+            0.6142857142857143,
+            0.26737967914438504,
+            0.6857142857142857,
+            0.7727272727272727
+          ]
+        }
+      ],
+      "review": "Five complete arranged syringes on a low-contrast background.",
+      "license": "https://www.pexels.com/license/"
+    },
+    {
+      "id": "refine-954583",
+      "source_url": "https://www.pexels.com/photo/person-putting-a-drop-on-test-tube-954583/",
+      "original_url": "https://images.pexels.com/photos/954583/pexels-photo-954583.jpeg?auto=compress&cs=tinysrgb&w=1000",
+      "author": "Martin Lopez",
+      "group": "Pexels martin lopez 954583",
+      "image": "data/relocalization-selector/screen/954583.jpg",
+      "sha256": "73522b9ad85196e3b2f776f23cd443b12c01e0b2bc392c47647d6f2190129e5c",
+      "objects": [],
+      "review": "A pipette and tubes. No visible syringe assembly.",
+      "license": "https://www.pexels.com/license/"
+    },
+    {
+      "id": "refine-37499105",
+      "source_url": "https://www.pexels.com/photo/scientist-holding-pipette-and-test-tubes-close-up-37499105/",
+      "original_url": "https://images.pexels.com/photos/37499105/pexels-photo-37499105.jpeg?auto=compress&cs=tinysrgb&w=1000",
+      "author": "Jahra Tasfia Reza",
+      "group": "Pexels jahra tasfia reza 37499105",
+      "image": "data/relocalization-selector/screen/37499105.jpg",
+      "sha256": "51f9ec5dae3c418fabd4804e9c74a53e18e177e11928678a4bad822d5372e59d",
+      "objects": [],
+      "review": "A glass transfer tool and beaker. No visible syringe assembly.",
+      "license": "https://www.pexels.com/license/"
+    },
+    {
+      "id": "refine-9905634",
+      "source_url": "https://www.dvidshub.net/image/9905634/csl-kismayo-medical-training",
+      "original_url": "https://d1ldvf68ux039x.cloudfront.net/thumbs/photos/2609/9905634/1000w_q95.jpg",
+      "author": "Abigail Duell",
+      "group": "Kismayo training 2026-08-25",
+      "image": "data/relocalization-selector/screen/9905634.jpg",
+      "sha256": "ca04a53e12cf1c1a9ac73c20395b0c3bdce4bb8d55e89639e778e5e7afd94f6e",
+      "objects": [
+        {
+          "bbox": [
+            0.44,
+            0.20300751879699247,
+            0.535,
+            0.5383458646616541
+          ]
+        }
+      ],
+      "review": "One partly occluded hand-held syringe with visible plunger and hub. Vial excluded.",
+      "license": "Public domain (DVIDS item page)"
+    }
+  ],
+  "exclusions": {
+    "9340582": "Dense transparent tray with indistinct visible extents per assembly.",
+    "6943307": "Background objects out of focus and several foreground safety parts overlap.",
+    "33893209": "Overlapping safety guards and crop edges make individual extents uncertain.",
+    "6470987": "Small tools with partly hidden endpoints.",
+    "6672204": "Front assembly is heavily occluded by hands.",
+    "4823468": "Most of the syringe is hidden by fingers.",
+    "19677805": "Multiple assemblies viewed end-on and hidden behind hands.",
+    "4210557": "Identity, author, source URL, capture group or near-image exposure in project history."
+  },
+  "scope": "One visual reviewer. Distinct public captures, no output inspected before freeze."
+}

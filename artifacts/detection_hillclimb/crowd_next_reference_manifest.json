@@ -1,0 +1,1611 @@
+{
+  "schema_version": 1,
+  "split": "crowd-next-reference",
+  "coordinates": "normalized xyxy on the EXIF-oriented raster",
+  "reference_method": "Manually marked full-frame source rasters followed by an overlay reread. One scene per credited acquisition group. No model inference or predictions informed these references.",
+  "taxonomy": "Visible assembled physical syringes, including identifiable partial bodies and attached visible components. Detached parts, reflections, packaging, insulin pens and other lookalikes are excluded.",
+  "history_screen": "artifacts/detection_hillclimb/crowd_next_reference_screen.json",
+  "history_screen_sha256": "eba03c1211a2aec1a8395cda57c9d9926620a5127b154f1da25404122449b951",
+  "counts": {
+    "images": 25,
+    "groups": 25,
+    "instances": 84,
+    "negative": 5,
+    "multiple": 20,
+    "dense": 13,
+    "overlap_positives": 7,
+    "count_distribution": {
+      "0": 5,
+      "2": 7,
+      "3": 3,
+      "4": 5,
+      "7": 3,
+      "9": 1,
+      "11": 1
+    }
+  },
+  "images": [
+    {
+      "id": "commons-134700298",
+      "file": "crowd-next-reference/images/commons-134700298.jpg",
+      "path": "crowd-next-reference/images/commons-134700298.jpg",
+      "image": "crowd-next-reference/images/commons-134700298.jpg",
+      "sha256": "c37dacfb2a82d8fedd637aad232cb7351fad54fa0f941dcb0f8f1914c5beaf5b",
+      "dhash": "b23fdf9d1b1e0e9e",
+      "width": 1280,
+      "height": 1024,
+      "group": "crowd-author:centro de memórias do curso de enfermagem",
+      "acquisition": "UFES Nursing Memory Center, glass syringe collection",
+      "author": "Centro de Memórias do Curso de Enfermagem",
+      "author_aliases": [],
+      "title": "File:Seringas de vidro, Centro de Memórias do Curso de Enfermagem da UFES 04.jpg",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Seringas_de_vidro,_Centro_de_Mem%C3%B3rias_do_Curso_de_Enfermagem_da_UFES_04.jpg",
+      "original_url": "https://upload.wikimedia.org/wikipedia/commons/d/de/Seringas_de_vidro%2C_Centro_de_Mem%C3%B3rias_do_Curso_de_Enfermagem_da_UFES_04.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "asset_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/de/Seringas_de_vidro%2C_Centro_de_Mem%C3%B3rias_do_Curso_de_Enfermagem_da_UFES_04.jpg/1280px-Seringas_de_vidro%2C_Centro_de_Mem%C3%B3rias_do_Curso_de_Enfermagem_da_UFES_04.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "license": "https://creativecommons.org/licenses/by-sa/4.0",
+      "license_label": "CC BY-SA 4.0",
+      "discovery": "public-web-collection",
+      "tags": [
+        "aligned",
+        "transparent",
+        "museum"
+      ],
+      "reference_note": "Four glass syringes on blue textile. The rounded plungers are visually distinct from specular highlights.",
+      "objects": [
+        {
+          "id": "commons-134700298-01",
+          "kind": "syringe",
+          "bbox": [
+            0.015,
+            0.271,
+            0.506,
+            0.699
+          ]
+        },
+        {
+          "id": "commons-134700298-02",
+          "kind": "syringe",
+          "bbox": [
+            0.081,
+            0.283,
+            0.671,
+            0.875
+          ]
+        },
+        {
+          "id": "commons-134700298-03",
+          "kind": "syringe",
+          "bbox": [
+            0.26,
+            0.281,
+            0.804,
+            0.885
+          ]
+        },
+        {
+          "id": "commons-134700298-04",
+          "kind": "syringe",
+          "bbox": [
+            0.414,
+            0.294,
+            0.97,
+            0.926
+          ]
+        }
+      ]
+    },
+    {
+      "id": "commons-7289636",
+      "file": "crowd-next-reference/images/commons-7289636.jpg",
+      "path": "crowd-next-reference/images/commons-7289636.jpg",
+      "image": "crowd-next-reference/images/commons-7289636.jpg",
+      "sha256": "56c9fcfa210baa8ed47b6580afd5c2f2b79f6540a4ffdb0327bb529d4a75bb42",
+      "dhash": "55c7434ececb2898",
+      "width": 1280,
+      "height": 319,
+      "group": "crowd-author:andreas praefcke",
+      "acquisition": "Vetter display at Museum Humpis-Quartier, Ravensburg",
+      "author": "Photo: Andreas Praefcke",
+      "author_aliases": [],
+      "title": "File:Spritzen Vetter MHQ.jpg",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Spritzen_Vetter_MHQ.jpg",
+      "original_url": "https://upload.wikimedia.org/wikipedia/commons/3/36/Spritzen_Vetter_MHQ.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "asset_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/36/Spritzen_Vetter_MHQ.jpg/1280px-Spritzen_Vetter_MHQ.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "license": "Public domain",
+      "license_label": "Public domain",
+      "discovery": "public-web-collection",
+      "tags": [
+        "overlap",
+        "transparent",
+        "museum"
+      ],
+      "reference_note": "Three barrels, one behind the next. The vertical members belong to the rack.",
+      "objects": [
+        {
+          "id": "commons-7289636-01",
+          "kind": "syringe",
+          "bbox": [
+            0.088,
+            0.078,
+            0.964,
+            0.474
+          ]
+        },
+        {
+          "id": "commons-7289636-02",
+          "kind": "syringe",
+          "bbox": [
+            0.073,
+            0.109,
+            0.742,
+            0.645
+          ]
+        },
+        {
+          "id": "commons-7289636-03",
+          "kind": "syringe",
+          "bbox": [
+            0.037,
+            0.532,
+            0.794,
+            0.802
+          ]
+        }
+      ]
+    },
+    {
+      "id": "commons-32472607",
+      "file": "crowd-next-reference/images/commons-32472607.jpg",
+      "path": "crowd-next-reference/images/commons-32472607.jpg",
+      "image": "crowd-next-reference/images/commons-32472607.jpg",
+      "sha256": "7a190c14e24d77191eec48cb60a6451656f0d3987613d7c8a8d9c75730bf91da",
+      "dhash": "a49c86a70a5329a6",
+      "width": 1280,
+      "height": 820,
+      "group": "crowd-author:anwar2",
+      "acquisition": "Anwar2 arrangement on dark fibrous textile",
+      "author": "Anwar2",
+      "author_aliases": [
+        "anwar2"
+      ],
+      "title": "File:Strzykawka.jpg",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Strzykawka.jpg",
+      "original_url": "https://upload.wikimedia.org/wikipedia/commons/0/0d/Strzykawka.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "asset_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0d/Strzykawka.jpg/1280px-Strzykawka.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "license": "https://creativecommons.org/licenses/by-sa/3.0",
+      "license_label": "CC BY-SA 3.0",
+      "discovery": "public-web-collection",
+      "tags": [
+        "aligned",
+        "transparent",
+        "museum"
+      ],
+      "reference_note": "One pale plastic body above two graduated glass bodies with metal plungers.",
+      "objects": [
+        {
+          "id": "commons-32472607-01",
+          "kind": "syringe",
+          "bbox": [
+            0.298,
+            0.162,
+            0.781,
+            0.416
+          ]
+        },
+        {
+          "id": "commons-32472607-02",
+          "kind": "syringe",
+          "bbox": [
+            0.339,
+            0.597,
+            0.804,
+            0.801
+          ]
+        },
+        {
+          "id": "commons-32472607-03",
+          "kind": "syringe",
+          "bbox": [
+            0.308,
+            0.711,
+            0.903,
+            0.924
+          ]
+        }
+      ]
+    },
+    {
+      "id": "commons-71161809",
+      "file": "crowd-next-reference/images/commons-71161809.jpg",
+      "path": "crowd-next-reference/images/commons-71161809.jpg",
+      "image": "crowd-next-reference/images/commons-71161809.jpg",
+      "sha256": "38d10018c67b4624123fe897545cc2fd0462ab825c6126f6753694c49d1ad557",
+      "dhash": "93b1b2b21a0e1a1a",
+      "width": 1280,
+      "height": 853,
+      "group": "crowd-author:przykuta",
+      "acquisition": "Frombork Museum of the History of Medicine display",
+      "author": "Przykuta",
+      "author_aliases": [
+        "przykuta"
+      ],
+      "title": "File:Muzeum Historii Medycyny we Fromborku strzykawki z XVIII i XX w. 2017-08-16 p.jpg",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Muzeum_Historii_Medycyny_we_Fromborku_strzykawki_z_XVIII_i_XX_w._2017-08-16_p.jpg",
+      "original_url": "https://upload.wikimedia.org/wikipedia/commons/4/44/Muzeum_Historii_Medycyny_we_Fromborku_strzykawki_z_XVIII_i_XX_w._2017-08-16_p.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "asset_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/44/Muzeum_Historii_Medycyny_we_Fromborku_strzykawki_z_XVIII_i_XX_w._2017-08-16_p.jpg/1280px-Muzeum_Historii_Medycyny_we_Fromborku_strzykawki_z_XVIII_i_XX_w._2017-08-16_p.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "license": "https://creativecommons.org/licenses/by-sa/3.0",
+      "license_label": "CC BY-SA 3.0",
+      "discovery": "public-web-collection",
+      "tags": [
+        "aligned",
+        "museum"
+      ],
+      "reference_note": "Three historical piston syringes to the right and one glass unit in the case. The thin needle in the case is detached.",
+      "objects": [
+        {
+          "id": "commons-71161809-01",
+          "kind": "syringe",
+          "bbox": [
+            0.102,
+            0.238,
+            0.53,
+            0.349
+          ]
+        },
+        {
+          "id": "commons-71161809-02",
+          "kind": "syringe",
+          "bbox": [
+            0.56,
+            0.183,
+            0.681,
+            0.943
+          ]
+        },
+        {
+          "id": "commons-71161809-03",
+          "kind": "syringe",
+          "bbox": [
+            0.729,
+            0.261,
+            0.858,
+            0.978
+          ]
+        },
+        {
+          "id": "commons-71161809-04",
+          "kind": "syringe",
+          "bbox": [
+            0.842,
+            0.266,
+            0.932,
+            0.702
+          ]
+        }
+      ]
+    },
+    {
+      "id": "commons-97857285",
+      "file": "crowd-next-reference/images/commons-97857285.jpg",
+      "path": "crowd-next-reference/images/commons-97857285.jpg",
+      "image": "crowd-next-reference/images/commons-97857285.jpg",
+      "sha256": "7133731fbd0eb77c98ee5c02fb252470753d295b84ec96814236c6906b21e712",
+      "dhash": "8b18282969651919",
+      "width": 1440,
+      "height": 1920,
+      "group": "crowd-author:lee haywood from wollaton, nottingham, england",
+      "acquisition": "Lee Haywood used syringes on pale surface",
+      "author": "Lee Haywood from Wollaton, Nottingham, England",
+      "author_aliases": [],
+      "title": "File:Dirty needles (6607585745).jpg",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Dirty_needles_(6607585745).jpg",
+      "original_url": "https://upload.wikimedia.org/wikipedia/commons/8/8a/Dirty_needles_%286607585745%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "asset_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8a/Dirty_needles_%286607585745%29.jpg/1280px-Dirty_needles_%286607585745%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "license": "https://creativecommons.org/licenses/by-sa/2.0",
+      "license_label": "CC BY-SA 2.0",
+      "discovery": "public-annotated-collection",
+      "tags": [
+        "paired",
+        "transparent"
+      ],
+      "reference_note": "Two assembled clear syringes with pale caps on a light surface.",
+      "objects": [
+        {
+          "id": "commons-97857285-01",
+          "kind": "syringe",
+          "bbox": [
+            0.248,
+            0.1,
+            0.485,
+            0.936
+          ]
+        },
+        {
+          "id": "commons-97857285-02",
+          "kind": "syringe",
+          "bbox": [
+            0.543,
+            0.032,
+            0.745,
+            0.892
+          ]
+        }
+      ]
+    },
+    {
+      "id": "openverse-a5c2b483-0437-4f9e-be9d-5356e784ec86",
+      "file": "crowd-next-reference/images/openverse-a5c2b483-0437-4f9e-be9d-5356e784ec86.jpg",
+      "path": "crowd-next-reference/images/openverse-a5c2b483-0437-4f9e-be9d-5356e784ec86.jpg",
+      "image": "crowd-next-reference/images/openverse-a5c2b483-0437-4f9e-be9d-5356e784ec86.jpg",
+      "sha256": "9adb1709a082670fbbd08345cb462848ddfef2900920015d240ddabb4e6cc8ae",
+      "dhash": "631193854707cf58",
+      "width": 1024,
+      "height": 680,
+      "group": "crowd-author:mikecogh",
+      "acquisition": "mikecogh discarded needles and wrappers among branches",
+      "author": "mikecogh",
+      "author_aliases": [],
+      "title": "Discarded Needles",
+      "source_url": "https://www.flickr.com/photos/89165847@N00/52561258523",
+      "original_url": "https://live.staticflickr.com/65535/52561258523_4809b07b91_b.jpg",
+      "asset_url": "https://live.staticflickr.com/65535/52561258523_4809b07b91_b.jpg",
+      "license": "https://creativecommons.org/licenses/by-sa/2.0/",
+      "license_label": "by-sa",
+      "discovery": "public-web-collection",
+      "tags": [
+        "occlusion",
+        "transparent",
+        "litter"
+      ],
+      "reference_note": "Three identifiable capped syringe bodies. Paper and branches cover parts of barrels. The wrappers are separate objects.",
+      "objects": [
+        {
+          "id": "openverse-a5c2b483-0437-4f9e-be9d-5356e784ec86-01",
+          "kind": "syringe",
+          "bbox": [
+            0.343,
+            0.077,
+            0.595,
+            0.234
+          ]
+        },
+        {
+          "id": "openverse-a5c2b483-0437-4f9e-be9d-5356e784ec86-02",
+          "kind": "syringe",
+          "bbox": [
+            0.288,
+            0.446,
+            0.329,
+            0.669
+          ]
+        },
+        {
+          "id": "openverse-a5c2b483-0437-4f9e-be9d-5356e784ec86-03",
+          "kind": "syringe",
+          "bbox": [
+            0.828,
+            0.446,
+            0.914,
+            0.76
+          ]
+        }
+      ]
+    },
+    {
+      "id": "commons-18388214",
+      "file": "crowd-next-reference/images/commons-18388214.jpg",
+      "path": "crowd-next-reference/images/commons-18388214.jpg",
+      "image": "crowd-next-reference/images/commons-18388214.jpg",
+      "sha256": "3bbe6b35a2072311b721a5339f3a6b6ac07497b86d3804556610b7096ad0f1cd",
+      "dhash": "1f0f1b4d099b9737",
+      "width": 1920,
+      "height": 1444,
+      "group": "crowd-author:viktorija rozman",
+      "acquisition": "Viktorija Rozman, syringes among rubble",
+      "author": "Viktorija Rozman",
+      "author_aliases": [
+        "viktorija rozman"
+      ],
+      "title": "File:Igle narkomanov.JPG",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Igle_narkomanov.JPG",
+      "original_url": "https://upload.wikimedia.org/wikipedia/commons/c/cc/Igle_narkomanov.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "asset_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/cc/Igle_narkomanov.JPG/1280px-Igle_narkomanov.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "license": "https://creativecommons.org/licenses/by-sa/3.0",
+      "license_label": "CC BY-SA 3.0",
+      "discovery": "public-annotated-collection",
+      "tags": [
+        "overlap",
+        "occlusion",
+        "transparent",
+        "litter"
+      ],
+      "reference_note": "Seven identifiable graduated barrels. Isolated red caps and the unmarked narrow loose tube at upper right are fragments.",
+      "objects": [
+        {
+          "id": "commons-18388214-01",
+          "kind": "syringe",
+          "bbox": [
+            0.154,
+            0.406,
+            0.227,
+            0.707
+          ]
+        },
+        {
+          "id": "commons-18388214-02",
+          "kind": "syringe",
+          "bbox": [
+            0.173,
+            0.527,
+            0.418,
+            0.569
+          ]
+        },
+        {
+          "id": "commons-18388214-03",
+          "kind": "syringe",
+          "bbox": [
+            0.195,
+            0.498,
+            0.484,
+            0.553
+          ]
+        },
+        {
+          "id": "commons-18388214-04",
+          "kind": "syringe",
+          "bbox": [
+            0.396,
+            0.278,
+            0.444,
+            0.63
+          ]
+        },
+        {
+          "id": "commons-18388214-05",
+          "kind": "syringe",
+          "bbox": [
+            0.331,
+            0.194,
+            0.404,
+            0.526
+          ]
+        },
+        {
+          "id": "commons-18388214-06",
+          "kind": "syringe",
+          "bbox": [
+            0.407,
+            0.335,
+            0.619,
+            0.444
+          ]
+        },
+        {
+          "id": "commons-18388214-07",
+          "kind": "syringe",
+          "bbox": [
+            0.651,
+            0.695,
+            0.774,
+            0.805
+          ]
+        }
+      ]
+    },
+    {
+      "id": "116864459",
+      "file": "crowd-next-reference/images/116864459.jpg",
+      "path": "crowd-next-reference/images/116864459.jpg",
+      "image": "crowd-next-reference/images/116864459.jpg",
+      "sha256": "c26409603facf42f8276dfa810fefec8728d868d8fd7d2353e65c3c62d620e0b",
+      "dhash": "3975793d2d356966",
+      "width": 1280,
+      "height": 720,
+      "group": "crowd-author:ehécatl cabrera",
+      "acquisition": "Mexico City bus shelter, paper cup with two used syringes",
+      "author": "Ehécatl Cabrera",
+      "author_aliases": [
+        "ehécatl cabrera"
+      ],
+      "title": "File:Recipiente de sopa instantánea con jeringas.jpg",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Recipiente_de_sopa_instant%C3%A1nea_con_jeringas.jpg",
+      "original_url": "https://upload.wikimedia.org/wikipedia/commons/6/67/Recipiente_de_sopa_instant%C3%A1nea_con_jeringas.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "asset_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/67/Recipiente_de_sopa_instant%C3%A1nea_con_jeringas.jpg/1280px-Recipiente_de_sopa_instant%C3%A1nea_con_jeringas.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "license": "https://creativecommons.org/licenses/by-sa/4.0",
+      "license_label": "CC BY-SA 4.0",
+      "discovery": "discovered",
+      "tags": [
+        "paired",
+        "occlusion",
+        "transparent",
+        "litter"
+      ],
+      "reference_note": "Two clearly separated capped bodies inside the cup, with different rotations of their printed scale. The white strip crosses behind them.",
+      "objects": [
+        {
+          "id": "116864459-01",
+          "kind": "syringe",
+          "bbox": [
+            0.297,
+            0.43,
+            0.506,
+            0.815
+          ]
+        },
+        {
+          "id": "116864459-02",
+          "kind": "syringe",
+          "bbox": [
+            0.327,
+            0.347,
+            0.53,
+            0.812
+          ]
+        }
+      ]
+    },
+    {
+      "id": "39991978",
+      "file": "crowd-next-reference/images/39991978.jpg",
+      "path": "crowd-next-reference/images/39991978.jpg",
+      "image": "crowd-next-reference/images/39991978.jpg",
+      "sha256": "a05bb853b2f673ae82279ae7befa77dfb25a659b1dddfe9eae03818dd62313b0",
+      "dhash": "0f6f616bc5d51d1f",
+      "width": 1280,
+      "height": 720,
+      "group": "crowd-author:andshel",
+      "acquisition": "Andshel comparison of two Janet irrigation syringes",
+      "author": "Andshel",
+      "author_aliases": [
+        "andshel"
+      ],
+      "title": "File:Шприцы Жане.JPG",
+      "source_url": "https://commons.wikimedia.org/wiki/File:%D0%A8%D0%BF%D1%80%D0%B8%D1%86%D1%8B_%D0%96%D0%B0%D0%BD%D0%B5.JPG",
+      "original_url": "https://upload.wikimedia.org/wikipedia/commons/6/6d/%D0%A8%D0%BF%D1%80%D0%B8%D1%86%D1%8B_%D0%96%D0%B0%D0%BD%D0%B5.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "asset_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6d/%D0%A8%D0%BF%D1%80%D0%B8%D1%86%D1%8B_%D0%96%D0%B0%D0%BD%D0%B5.JPG/1280px-%D0%A8%D0%BF%D1%80%D0%B8%D1%86%D1%8B_%D0%96%D0%B0%D0%BD%D0%B5.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "license": "https://creativecommons.org/licenses/by-sa/4.0",
+      "license_label": "CC BY-SA 4.0",
+      "discovery": "discovered",
+      "tags": [
+        "paired",
+        "transparent"
+      ],
+      "reference_note": "Two assembled large-bore syringes, one plastic and one metal and glass. Both have attached nozzles.",
+      "objects": [
+        {
+          "id": "39991978-01",
+          "kind": "syringe",
+          "bbox": [
+            0.118,
+            0.161,
+            0.766,
+            0.44
+          ]
+        },
+        {
+          "id": "39991978-02",
+          "kind": "syringe",
+          "bbox": [
+            0.027,
+            0.441,
+            0.958,
+            0.82
+          ]
+        }
+      ]
+    },
+    {
+      "id": "commons-50007224",
+      "file": "crowd-next-reference/images/commons-50007224.jpg",
+      "path": "crowd-next-reference/images/commons-50007224.jpg",
+      "image": "crowd-next-reference/images/commons-50007224.jpg",
+      "sha256": "fe168058e56194cbb8292f4262bb8cbb435e05ad3e90f83393bd924776535059",
+      "dhash": "3f1f163a59d8ba07",
+      "width": 1920,
+      "height": 1137,
+      "group": "crowd-author:joe loong from reston, usa",
+      "acquisition": "DEA Museum display of early drug administration tools",
+      "author": "Joe Loong from Reston, USA",
+      "author_aliases": [],
+      "title": "File:DEA Museum IMG 2073 (9699464473).jpg",
+      "source_url": "https://commons.wikimedia.org/wiki/File:DEA_Museum_IMG_2073_(9699464473).jpg",
+      "original_url": "https://upload.wikimedia.org/wikipedia/commons/e/e5/DEA_Museum_IMG_2073_%289699464473%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "asset_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e5/DEA_Museum_IMG_2073_%289699464473%29.jpg/1280px-DEA_Museum_IMG_2073_%289699464473%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "license": "https://creativecommons.org/licenses/by-sa/2.0",
+      "license_label": "CC BY-SA 2.0",
+      "discovery": "public-annotated-collection",
+      "tags": [
+        "paired",
+        "clutter",
+        "museum"
+      ],
+      "reference_note": "Two identifiable syringe assemblies by the letter markers. The medicines, small loose needle and paper labels are distractors.",
+      "objects": [
+        {
+          "id": "commons-50007224-01",
+          "kind": "syringe",
+          "bbox": [
+            0.468,
+            0.548,
+            0.607,
+            0.678
+          ]
+        },
+        {
+          "id": "commons-50007224-02",
+          "kind": "syringe",
+          "bbox": [
+            0.488,
+            0.749,
+            0.605,
+            0.813
+          ]
+        }
+      ]
+    },
+    {
+      "id": "viglianco",
+      "file": "crowd-next-reference/images/viglianco.jpg",
+      "path": "crowd-next-reference/images/viglianco.jpg",
+      "image": "crowd-next-reference/images/viglianco.jpg",
+      "sha256": "b53838104185d39c6a45944fc3f7f8b71464a401d413ab5652334b0470ddd782",
+      "dhash": "03232188988c0d3c",
+      "width": 1024,
+      "height": 695,
+      "group": "crowd-author:tristan d. viglianco",
+      "acquisition": "Charlotte, Michigan vaccination event on 2021-01-11",
+      "author": "Tristan D. Viglianco",
+      "author_aliases": [],
+      "title": "a-plate-of-syringes-filled-with-a-covid-19-vaccine-dd810f",
+      "source_url": "https://nara.getarchive.net/media/a-plate-of-syringes-filled-with-a-covid-19-vaccine-dd810f",
+      "original_url": "https://cdn2.picryl.com/photo/2021/01/11/a-plate-of-syringes-filled-with-a-covid-19-vaccine-dd810f-1024.jpg",
+      "asset_url": "https://cdn2.picryl.com/photo/2021/01/11/a-plate-of-syringes-filled-with-a-covid-19-vaccine-dd810f-1024.jpg",
+      "license": "https://www.dvidshub.net/about/copyright",
+      "license_label": "Public domain",
+      "discovery": "public rights pages",
+      "tags": [
+        "overlap",
+        "aligned",
+        "transparent",
+        "clinical"
+      ],
+      "reference_note": "Eleven visible barrels, read by individual stopper-and-shield pairs across the tray from left to right.",
+      "objects": [
+        {
+          "id": "viglianco-01",
+          "kind": "syringe",
+          "bbox": [
+            0.058,
+            0.177,
+            0.173,
+            0.886
+          ]
+        },
+        {
+          "id": "viglianco-02",
+          "kind": "syringe",
+          "bbox": [
+            0.107,
+            0.213,
+            0.215,
+            0.886
+          ]
+        },
+        {
+          "id": "viglianco-03",
+          "kind": "syringe",
+          "bbox": [
+            0.207,
+            0.206,
+            0.264,
+            0.888
+          ]
+        },
+        {
+          "id": "viglianco-04",
+          "kind": "syringe",
+          "bbox": [
+            0.254,
+            0.178,
+            0.358,
+            0.883
+          ]
+        },
+        {
+          "id": "viglianco-05",
+          "kind": "syringe",
+          "bbox": [
+            0.339,
+            0.15,
+            0.412,
+            0.865
+          ]
+        },
+        {
+          "id": "viglianco-06",
+          "kind": "syringe",
+          "bbox": [
+            0.395,
+            0.185,
+            0.522,
+            0.908
+          ]
+        },
+        {
+          "id": "viglianco-07",
+          "kind": "syringe",
+          "bbox": [
+            0.45,
+            0.177,
+            0.571,
+            0.84
+          ]
+        },
+        {
+          "id": "viglianco-08",
+          "kind": "syringe",
+          "bbox": [
+            0.488,
+            0.177,
+            0.623,
+            0.897
+          ]
+        },
+        {
+          "id": "viglianco-09",
+          "kind": "syringe",
+          "bbox": [
+            0.572,
+            0.182,
+            0.731,
+            0.888
+          ]
+        },
+        {
+          "id": "viglianco-10",
+          "kind": "syringe",
+          "bbox": [
+            0.636,
+            0.158,
+            0.816,
+            0.84
+          ]
+        },
+        {
+          "id": "viglianco-11",
+          "kind": "syringe",
+          "bbox": [
+            0.778,
+            0.206,
+            0.903,
+            0.867
+          ]
+        }
+      ]
+    },
+    {
+      "id": "white",
+      "file": "crowd-next-reference/images/white.jpg",
+      "path": "crowd-next-reference/images/white.jpg",
+      "image": "crowd-next-reference/images/white.jpg",
+      "sha256": "3582ff7d138190ccb3087797080e41d68b7caf8b784c200ba9dcbe1b51c7292e",
+      "dhash": "35674b4bad273818",
+      "width": 1024,
+      "height": 509,
+      "group": "crowd-author:taylor white",
+      "acquisition": "Beale Air Force Base immunization preparation on 2019-09-17",
+      "author": "Taylor White",
+      "author_aliases": [],
+      "title": "syringes-prepped-with-vaccines-lay-on-sterile-pads-50a12b",
+      "source_url": "https://nara.getarchive.net/media/syringes-prepped-with-vaccines-lay-on-sterile-pads-50a12b",
+      "original_url": "https://cdn2.picryl.com/photo/2019/09/17/syringes-prepped-with-vaccines-lay-on-sterile-pads-50a12b-1024.jpg",
+      "asset_url": "https://cdn2.picryl.com/photo/2019/09/17/syringes-prepped-with-vaccines-lay-on-sterile-pads-50a12b-1024.jpg",
+      "license": "https://www.dvidshub.net/about/copyright",
+      "license_label": "Public domain",
+      "discovery": "public rights pages",
+      "tags": [
+        "paired",
+        "occlusion",
+        "transparent",
+        "clinical"
+      ],
+      "reference_note": "Two clear syringes, one out of focus behind the foreground vial. The detached background objects are vials.",
+      "objects": [
+        {
+          "id": "white-01",
+          "kind": "syringe",
+          "bbox": [
+            0.084,
+            0.817,
+            0.9,
+            0.988
+          ]
+        },
+        {
+          "id": "white-02",
+          "kind": "syringe",
+          "bbox": [
+            0.095,
+            0.619,
+            0.54,
+            0.729
+          ]
+        }
+      ]
+    },
+    {
+      "id": "audit",
+      "file": "crowd-next-reference/images/audit.jpg",
+      "path": "crowd-next-reference/images/audit.jpg",
+      "image": "crowd-next-reference/images/audit.jpg",
+      "sha256": "af1be6ec9c1899e41d46db6e9baf5e728cf4827ecf00ffea21ff270a02ff2917",
+      "dhash": "3707232b2b0b4f31",
+      "width": 1024,
+      "height": 731,
+      "group": "crowd-author:dillon j. audit",
+      "acquisition": "Minot Air Force Base influenza preparation on 2017-09-27",
+      "author": "Dillon J. Audit",
+      "author_aliases": [],
+      "title": "influenza-vaccination-syringes-set-in-a-container-at-74f160",
+      "source_url": "https://nara.getarchive.net/media/influenza-vaccination-syringes-set-in-a-container-at-74f160",
+      "original_url": "https://cdn2.picryl.com/photo/2017/09/26/influenza-vaccination-syringes-set-in-a-container-at-74f160-1024.jpg",
+      "asset_url": "https://cdn2.picryl.com/photo/2017/09/26/influenza-vaccination-syringes-set-in-a-container-at-74f160-1024.jpg",
+      "license": "https://www.dvidshub.net/about/copyright",
+      "license_label": "Public domain",
+      "discovery": "public rights pages",
+      "tags": [
+        "overlap",
+        "occlusion",
+        "transparent",
+        "clinical"
+      ],
+      "reference_note": "Nine syringe assemblies with orange hubs. A middle unit is represented by its visible seal and short exposed barrel behind the two large central units. Several shields or stems leave the frame.",
+      "objects": [
+        {
+          "id": "audit-01",
+          "kind": "syringe",
+          "bbox": [
+            0.12,
+            0.1,
+            0.248,
+            0.907
+          ]
+        },
+        {
+          "id": "audit-02",
+          "kind": "syringe",
+          "bbox": [
+            0.209,
+            0.0,
+            0.356,
+            0.683
+          ]
+        },
+        {
+          "id": "audit-03",
+          "kind": "syringe",
+          "bbox": [
+            0.251,
+            0.0,
+            0.426,
+            0.846
+          ]
+        },
+        {
+          "id": "audit-04",
+          "kind": "syringe",
+          "bbox": [
+            0.349,
+            0.0,
+            0.508,
+            0.899
+          ]
+        },
+        {
+          "id": "audit-05",
+          "kind": "syringe",
+          "bbox": [
+            0.47,
+            0.096,
+            0.568,
+            0.575
+          ]
+        },
+        {
+          "id": "audit-06",
+          "kind": "syringe",
+          "bbox": [
+            0.451,
+            0.0,
+            0.642,
+            0.944
+          ]
+        },
+        {
+          "id": "audit-07",
+          "kind": "syringe",
+          "bbox": [
+            0.58,
+            0.0,
+            0.748,
+            0.993
+          ]
+        },
+        {
+          "id": "audit-08",
+          "kind": "syringe",
+          "bbox": [
+            0.651,
+            0.0,
+            0.805,
+            0.741
+          ]
+        },
+        {
+          "id": "audit-09",
+          "kind": "syringe",
+          "bbox": [
+            0.689,
+            0.079,
+            0.87,
+            1.0
+          ]
+        }
+      ]
+    },
+    {
+      "id": "griggs",
+      "file": "crowd-next-reference/images/griggs.jpg",
+      "path": "crowd-next-reference/images/griggs.jpg",
+      "image": "crowd-next-reference/images/griggs.jpg",
+      "sha256": "717b0c114b60fccc7344964ef13abf61cddd22f97968485f2aa5ae2537389449",
+      "dhash": "3b87e16430090503",
+      "width": 1280,
+      "height": 974,
+      "group": "crowd-author:paul griggs",
+      "acquisition": "Paul Griggs, Wellcome image B0005863",
+      "author": "Paul Griggs",
+      "author_aliases": [],
+      "title": "Syringes",
+      "source_url": "https://wellcomecollection.org/works/red49hb2",
+      "original_url": "https://iiif.wellcomecollection.org/image/B0005863/full/1280,/0/default.jpg",
+      "asset_url": "https://iiif.wellcomecollection.org/image/B0005863/full/1280,/0/default.jpg",
+      "license": "https://creativecommons.org/licenses/by/4.0/",
+      "license_label": "CC BY 4.0",
+      "discovery": "public rights pages",
+      "tags": [
+        "overlap",
+        "occlusion",
+        "transparent",
+        "studio"
+      ],
+      "reference_note": "Four bodies in a crossed fan. Attached needle tips and four separate plunger heads determine visible extent and identity.",
+      "objects": [
+        {
+          "id": "griggs-01",
+          "kind": "syringe",
+          "bbox": [
+            0.292,
+            0.219,
+            0.876,
+            0.501
+          ]
+        },
+        {
+          "id": "griggs-02",
+          "kind": "syringe",
+          "bbox": [
+            0.156,
+            0.17,
+            0.795,
+            0.524
+          ]
+        },
+        {
+          "id": "griggs-03",
+          "kind": "syringe",
+          "bbox": [
+            0.108,
+            0.166,
+            0.809,
+            0.669
+          ]
+        },
+        {
+          "id": "griggs-04",
+          "kind": "syringe",
+          "bbox": [
+            0.188,
+            0.26,
+            0.755,
+            0.832
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ellis",
+      "file": "crowd-next-reference/images/ellis.jpg",
+      "path": "crowd-next-reference/images/ellis.jpg",
+      "image": "crowd-next-reference/images/ellis.jpg",
+      "sha256": "69cbc0d7c775306da4def65a74c2aa98d49c55ad69ed8dc14c2b0396fc00b87a",
+      "dhash": "9132327664040509",
+      "width": 1200,
+      "height": 804,
+      "group": "crowd-author:cade ellis",
+      "acquisition": "Moody Air Force Base influenza mass vaccination on 2023-10-17",
+      "author": "Cade Ellis",
+      "author_aliases": [],
+      "title": "MDG holds flu mass vax event",
+      "source_url": "https://www.moody.af.mil/News/Photos/igphoto/2003324689/",
+      "original_url": "https://openstax.org/apps/archive/20260604.144757/resources/402066571ffba311455b6e0cf595049af10109c5",
+      "asset_url": "https://openstax.org/apps/archive/20260604.144757/resources/402066571ffba311455b6e0cf595049af10109c5",
+      "license": "https://www.dvidshub.net/about/copyright",
+      "license_label": "Public domain",
+      "discovery": "public rights pages",
+      "tags": [
+        "aligned",
+        "occlusion",
+        "transparent",
+        "clinical"
+      ],
+      "reference_note": "Seven ready-to-use devices. The two cropped along the upper-left frame show separate labeled barrels and shield attachments.",
+      "objects": [
+        {
+          "id": "ellis-01",
+          "kind": "syringe",
+          "bbox": [
+            0.0,
+            0.0,
+            0.143,
+            0.307
+          ]
+        },
+        {
+          "id": "ellis-02",
+          "kind": "syringe",
+          "bbox": [
+            0.0,
+            0.0,
+            0.243,
+            0.619
+          ]
+        },
+        {
+          "id": "ellis-03",
+          "kind": "syringe",
+          "bbox": [
+            0.265,
+            0.0,
+            0.492,
+            0.668
+          ]
+        },
+        {
+          "id": "ellis-04",
+          "kind": "syringe",
+          "bbox": [
+            0.291,
+            0.059,
+            0.607,
+            0.842
+          ]
+        },
+        {
+          "id": "ellis-05",
+          "kind": "syringe",
+          "bbox": [
+            0.42,
+            0.098,
+            0.721,
+            0.891
+          ]
+        },
+        {
+          "id": "ellis-06",
+          "kind": "syringe",
+          "bbox": [
+            0.597,
+            0.126,
+            0.827,
+            0.942
+          ]
+        },
+        {
+          "id": "ellis-07",
+          "kind": "syringe",
+          "bbox": [
+            0.758,
+            0.064,
+            0.947,
+            0.843
+          ]
+        }
+      ]
+    },
+    {
+      "id": "fishmen",
+      "file": "crowd-next-reference/images/fishmen.jpg",
+      "path": "crowd-next-reference/images/fishmen.jpg",
+      "image": "crowd-next-reference/images/fishmen.jpg",
+      "sha256": "cefa3500f430f838134b8620a1eb43c52ce1c63ac9162ecc9c2bfa1309612a81",
+      "dhash": "03071a39a9812e1f",
+      "width": 800,
+      "height": 533,
+      "group": "crowd-author:valdemar fishmen",
+      "acquisition": "Valdemar Fishmen studio comparison, tOrange.biz image 18997",
+      "author": "Valdemar Fishmen",
+      "author_aliases": [],
+      "title": "Syringes",
+      "source_url": "https://torange.biz/de/syringes-18997",
+      "original_url": "https://torange.biz/photo/18/IMAGE/syringes-medicine-18997.jpg",
+      "asset_url": "https://torange.biz/photo/18/IMAGE/syringes-medicine-18997.jpg",
+      "license": "https://creativecommons.org/licenses/by/4.0/",
+      "license_label": "CC BY 4.0",
+      "discovery": "public rights pages",
+      "tags": [
+        "overlap",
+        "transparent",
+        "studio"
+      ],
+      "reference_note": "Two touching syringes on white, differentiated by barrel profile, needle attachment and distinct ends.",
+      "objects": [
+        {
+          "id": "fishmen-01",
+          "kind": "syringe",
+          "bbox": [
+            0.058,
+            0.377,
+            0.822,
+            0.707
+          ]
+        },
+        {
+          "id": "fishmen-02",
+          "kind": "syringe",
+          "bbox": [
+            0.255,
+            0.447,
+            0.893,
+            0.739
+          ]
+        }
+      ]
+    },
+    {
+      "id": "12725261",
+      "file": "crowd-next-reference/images/12725261.jpg",
+      "path": "crowd-next-reference/images/12725261.jpg",
+      "image": "crowd-next-reference/images/12725261.jpg",
+      "sha256": "5e84bf301a7f414028fa2065284fe79acd890039da00bedf0710cfbbe62a1ddc",
+      "dhash": "5846159b16362735",
+      "width": 1280,
+      "height": 853,
+      "group": "crowd-author:silviu filip",
+      "acquisition": "Silviu filip photograph at Fanfest 2010",
+      "author": "Silviu filip",
+      "author_aliases": [
+        "silviu filip"
+      ],
+      "title": "File:Fanfest 2010 droguri.jpg",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Fanfest_2010_droguri.jpg",
+      "original_url": "https://upload.wikimedia.org/wikipedia/commons/7/79/Fanfest_2010_droguri.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "asset_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/79/Fanfest_2010_droguri.jpg/1280px-Fanfest_2010_droguri.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "license": "https://creativecommons.org/licenses/by-sa/3.0",
+      "license_label": "CC BY-SA 3.0",
+      "discovery": "discovered",
+      "tags": [
+        "occlusion",
+        "litter",
+        "transparent"
+      ],
+      "reference_note": "Seven assembled syringes are identifiable on grass around a scrap of tissue. The thin surrounding pale lines are vegetation.",
+      "objects": [
+        {
+          "id": "12725261-01",
+          "kind": "syringe",
+          "bbox": [
+            0.169,
+            0.361,
+            0.384,
+            0.454
+          ]
+        },
+        {
+          "id": "12725261-02",
+          "kind": "syringe",
+          "bbox": [
+            0.394,
+            0.172,
+            0.466,
+            0.426
+          ]
+        },
+        {
+          "id": "12725261-03",
+          "kind": "syringe",
+          "bbox": [
+            0.59,
+            0.204,
+            0.634,
+            0.361
+          ]
+        },
+        {
+          "id": "12725261-04",
+          "kind": "syringe",
+          "bbox": [
+            0.455,
+            0.379,
+            0.546,
+            0.593
+          ]
+        },
+        {
+          "id": "12725261-05",
+          "kind": "syringe",
+          "bbox": [
+            0.518,
+            0.404,
+            0.641,
+            0.592
+          ]
+        },
+        {
+          "id": "12725261-06",
+          "kind": "syringe",
+          "bbox": [
+            0.386,
+            0.59,
+            0.615,
+            0.642
+          ]
+        },
+        {
+          "id": "12725261-07",
+          "kind": "syringe",
+          "bbox": [
+            0.66,
+            0.478,
+            0.701,
+            0.68
+          ]
+        }
+      ]
+    },
+    {
+      "id": "23351058",
+      "file": "crowd-next-reference/images/23351058.jpg",
+      "path": "crowd-next-reference/images/23351058.jpg",
+      "image": "crowd-next-reference/images/23351058.jpg",
+      "sha256": "0a5b991ec7041adcabf3f7ac4ed46d92ed4c6975a72ddda561c3a1958fced455",
+      "dhash": "9f37b7b290d0d39f",
+      "width": 1280,
+      "height": 776,
+      "group": "crowd-author:skin - ubx from glasgow",
+      "acquisition": "Skin - ubx photograph of Salve Mater medical display",
+      "author": "Skin - ubx from Glasgow",
+      "author_aliases": [],
+      "title": "File:003 Salve Mater (4899499366).jpg",
+      "source_url": "https://commons.wikimedia.org/wiki/File:003_Salve_Mater_(4899499366).jpg",
+      "original_url": "https://upload.wikimedia.org/wikipedia/commons/6/66/003_Salve_Mater_%284899499366%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "asset_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/66/003_Salve_Mater_%284899499366%29.jpg/1280px-003_Salve_Mater_%284899499366%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "license": "https://creativecommons.org/licenses/by/2.0",
+      "license_label": "CC BY 2.0",
+      "discovery": "discovered",
+      "tags": [
+        "overlap",
+        "occlusion",
+        "transparent",
+        "museum"
+      ],
+      "reference_note": "Four color-coded syringe assemblies around two amber bottles. The yellow thumb rest behind the two orange devices is attached to its own barrel.",
+      "objects": [
+        {
+          "id": "23351058-01",
+          "kind": "syringe",
+          "bbox": [
+            0.567,
+            0.376,
+            0.775,
+            0.569
+          ]
+        },
+        {
+          "id": "23351058-02",
+          "kind": "syringe",
+          "bbox": [
+            0.591,
+            0.446,
+            0.79,
+            0.6
+          ]
+        },
+        {
+          "id": "23351058-03",
+          "kind": "syringe",
+          "bbox": [
+            0.673,
+            0.469,
+            0.912,
+            0.596
+          ]
+        },
+        {
+          "id": "23351058-04",
+          "kind": "syringe",
+          "bbox": [
+            0.648,
+            0.648,
+            0.935,
+            0.712
+          ]
+        }
+      ]
+    },
+    {
+      "id": "112704051",
+      "file": "crowd-next-reference/images/112704051.jpg",
+      "path": "crowd-next-reference/images/112704051.jpg",
+      "image": "crowd-next-reference/images/112704051.jpg",
+      "sha256": "74ed4412f08e974c7acb376d7ed6602d0463b5dde4c142a194507810d7d1964a",
+      "dhash": "6415173434342bf6",
+      "width": 1280,
+      "height": 853,
+      "group": "crowd-author:pasztilla aka attila terbócs",
+      "acquisition": "Arany Egyszarvú Pharmacy Museum, Kőszeg",
+      "author": "Pasztilla aka Attila Terbócs",
+      "author_aliases": [
+        "pasztilla"
+      ],
+      "title": "File:Kőszeg, Arany Egyszarvú Patikamúzeum kiállítása 2021 03.jpg",
+      "source_url": "https://commons.wikimedia.org/wiki/File:K%C5%91szeg,_Arany_Egyszarv%C3%BA_Patikam%C3%BAzeum_ki%C3%A1ll%C3%ADt%C3%A1sa_2021_03.jpg",
+      "original_url": "https://upload.wikimedia.org/wikipedia/commons/0/05/K%C5%91szeg%2C_Arany_Egyszarv%C3%BA_Patikam%C3%BAzeum_ki%C3%A1ll%C3%ADt%C3%A1sa_2021_03.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "asset_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/05/K%C5%91szeg%2C_Arany_Egyszarv%C3%BA_Patikam%C3%BAzeum_ki%C3%A1ll%C3%ADt%C3%A1sa_2021_03.jpg/1280px-K%C5%91szeg%2C_Arany_Egyszarv%C3%BA_Patikam%C3%BAzeum_ki%C3%A1ll%C3%ADt%C3%A1sa_2021_03.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "license": "https://creativecommons.org/licenses/by-sa/4.0",
+      "license_label": "CC BY-SA 4.0",
+      "discovery": "discovered",
+      "tags": [
+        "aligned",
+        "transparent",
+        "museum"
+      ],
+      "reference_note": "Four historical piston syringes including two glass and two metal units. The rightmost glass assembly has a squeeze bulb and is treated as a dropper.",
+      "objects": [
+        {
+          "id": "112704051-01",
+          "kind": "syringe",
+          "bbox": [
+            0.022,
+            0.129,
+            0.137,
+            0.877
+          ]
+        },
+        {
+          "id": "112704051-02",
+          "kind": "syringe",
+          "bbox": [
+            0.238,
+            0.142,
+            0.367,
+            0.902
+          ]
+        },
+        {
+          "id": "112704051-03",
+          "kind": "syringe",
+          "bbox": [
+            0.482,
+            0.145,
+            0.565,
+            0.886
+          ]
+        },
+        {
+          "id": "112704051-04",
+          "kind": "syringe",
+          "bbox": [
+            0.675,
+            0.081,
+            0.761,
+            0.777
+          ]
+        }
+      ]
+    },
+    {
+      "id": "88334694",
+      "file": "crowd-next-reference/images/88334694.png",
+      "path": "crowd-next-reference/images/88334694.png",
+      "image": "crowd-next-reference/images/88334694.png",
+      "sha256": "c0a38b1d094aba9982703969abdfe20e4cfe1b603f93d6d5681a568a7479070a",
+      "dhash": "03181366cf1b3465",
+      "width": 1280,
+      "height": 780,
+      "group": "crowd-author:dreamance",
+      "acquisition": "Dreamance two-syringe comparison on a blue surface",
+      "author": "Dreamance",
+      "author_aliases": [
+        "dreamance"
+      ],
+      "title": "File:注射器.png",
+      "source_url": "https://commons.wikimedia.org/wiki/File:%E6%B3%A8%E5%B0%84%E5%99%A8.png",
+      "original_url": "https://upload.wikimedia.org/wikipedia/commons/2/2e/%E6%B3%A8%E5%B0%84%E5%99%A8.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "asset_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2e/%E6%B3%A8%E5%B0%84%E5%99%A8.png/1280px-%E6%B3%A8%E5%B0%84%E5%99%A8.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "license": "https://creativecommons.org/licenses/by-sa/4.0",
+      "license_label": "CC BY-SA 4.0",
+      "discovery": "discovered",
+      "tags": [
+        "paired",
+        "transparent"
+      ],
+      "reference_note": "Two assembled barrel and plunger sets, one capped and one needleless. The separate orange-hub needle is a hard distractor.",
+      "objects": [
+        {
+          "id": "88334694-01",
+          "kind": "syringe",
+          "bbox": [
+            0.081,
+            0.0,
+            0.878,
+            0.583
+          ]
+        },
+        {
+          "id": "88334694-02",
+          "kind": "syringe",
+          "bbox": [
+            0.162,
+            0.576,
+            0.688,
+            0.958
+          ]
+        }
+      ]
+    },
+    {
+      "id": "commons-167439103",
+      "file": "crowd-next-reference/images/commons-167439103.jpg",
+      "path": "crowd-next-reference/images/commons-167439103.jpg",
+      "image": "crowd-next-reference/images/commons-167439103.jpg",
+      "sha256": "9c185ed4277929e62c7eeb8a5611b66ba50feb8f161ea632817264eae8ac04e5",
+      "dhash": "0f0f2f6971690d9e",
+      "width": 1280,
+      "height": 767,
+      "group": "crowd-author:boaventuravinicius",
+      "acquisition": "Boaventuravinicius writing-tool arrangement",
+      "author": "Boaventuravinicius",
+      "author_aliases": [
+        "boaventuravinicius"
+      ],
+      "title": "File:Pen and mechanical pencil 2025.jpg",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Pen_and_mechanical_pencil_2025.jpg",
+      "original_url": "https://upload.wikimedia.org/wikipedia/commons/d/d7/Pen_and_mechanical_pencil_2025.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "asset_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d7/Pen_and_mechanical_pencil_2025.jpg/1280px-Pen_and_mechanical_pencil_2025.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "license": "https://creativecommons.org/licenses/by/4.0",
+      "license_label": "CC BY 4.0",
+      "discovery": "public-web-collection",
+      "tags": [
+        "hard_negative",
+        "overlap"
+      ],
+      "reference_note": "Radial arrangement of pens and a mechanical pencil. The transparent tubular parts are ink reservoirs or pen bodies.",
+      "objects": []
+    },
+    {
+      "id": "commons-160396742",
+      "file": "crowd-next-reference/images/commons-160396742.jpg",
+      "path": "crowd-next-reference/images/commons-160396742.jpg",
+      "image": "crowd-next-reference/images/commons-160396742.jpg",
+      "sha256": "fd54326f31e0b8c33d4baf3a14e3031e7e93740534648e1e3c709782a347f3c2",
+      "dhash": "0080135953308010",
+      "width": 1280,
+      "height": 311,
+      "group": "crowd-author:mallardtv",
+      "acquisition": "MallardTV Basaglar insulin pen",
+      "author": "MallardTV",
+      "author_aliases": [
+        "mallardtv"
+      ],
+      "title": "File:Insulin Basaglar Pen.jpg",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Insulin_Basaglar_Pen.jpg",
+      "original_url": "https://upload.wikimedia.org/wikipedia/commons/9/9e/Insulin_Basaglar_Pen.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "asset_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9e/Insulin_Basaglar_Pen.jpg/1280px-Insulin_Basaglar_Pen.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "license": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+      "license_label": "CC0",
+      "discovery": "public-web-collection",
+      "tags": [
+        "hard_negative"
+      ],
+      "reference_note": "Capped insulin pen with dose window and colored label.",
+      "objects": []
+    },
+    {
+      "id": "commons-101124486",
+      "file": "crowd-next-reference/images/commons-101124486.jpg",
+      "path": "crowd-next-reference/images/commons-101124486.jpg",
+      "image": "crowd-next-reference/images/commons-101124486.jpg",
+      "sha256": "d502e5e73e94e4b98c203d997a67c6e4a415148bac392ff9bc5bd0304716b5bf",
+      "dhash": "171311991897ff0f",
+      "width": 1920,
+      "height": 1281,
+      "group": "crowd-author:adoscam",
+      "acquisition": "Adoscam laboratory pipettes photographed in Benin",
+      "author": "Adoscam",
+      "author_aliases": [
+        "adoscam"
+      ],
+      "title": "File:Pipette de laboratoire sur fond blanc au Bénin 04.jpg",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Pipette_de_laboratoire_sur_fond_blanc_au_B%C3%A9nin_04.jpg",
+      "original_url": "https://upload.wikimedia.org/wikipedia/commons/c/cc/Pipette_de_laboratoire_sur_fond_blanc_au_B%C3%A9nin_04.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "asset_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/cc/Pipette_de_laboratoire_sur_fond_blanc_au_B%C3%A9nin_04.jpg/1280px-Pipette_de_laboratoire_sur_fond_blanc_au_B%C3%A9nin_04.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "license": "https://creativecommons.org/licenses/by-sa/4.0",
+      "license_label": "CC BY-SA 4.0",
+      "discovery": "public-annotated-collection",
+      "tags": [
+        "hard_negative",
+        "aligned"
+      ],
+      "reference_note": "Two adjustable laboratory pipettes with colored disposable tips in a tray.",
+      "objects": []
+    },
+    {
+      "id": "commons-4104163",
+      "file": "crowd-next-reference/images/commons-4104163.jpg",
+      "path": "crowd-next-reference/images/commons-4104163.jpg",
+      "image": "crowd-next-reference/images/commons-4104163.jpg",
+      "sha256": "c5857e9fb995aab6e1ce3be2fd976738205f6693573bd7bf5e320829cc46ebf8",
+      "dhash": "779e9c98d3ebe7ff",
+      "width": 1440,
+      "height": 1920,
+      "group": "crowd-author:retama",
+      "acquisition": "Retama row of laboratory micropipettes",
+      "author": "Retama",
+      "author_aliases": [
+        "retama"
+      ],
+      "title": "File:Micropipettes.jpg",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Micropipettes.jpg",
+      "original_url": "https://upload.wikimedia.org/wikipedia/commons/7/76/Micropipettes.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "asset_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/76/Micropipettes.jpg/1280px-Micropipettes.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "license": "https://creativecommons.org/licenses/by-sa/4.0",
+      "license_label": "CC BY-SA 4.0",
+      "discovery": "public-annotated-collection",
+      "tags": [
+        "hard_negative",
+        "aligned"
+      ],
+      "reference_note": "Four automatic micropipettes parked together with long, pointed ends.",
+      "objects": []
+    },
+    {
+      "id": "ferdinando",
+      "file": "crowd-next-reference/images/ferdinando.jpg",
+      "path": "crowd-next-reference/images/ferdinando.jpg",
+      "image": "crowd-next-reference/images/ferdinando.jpg",
+      "sha256": "d16fb321c715dd5d0aefa6ad898fb9848cd9fc2bd110df98eab2c6ea0f725707",
+      "dhash": "4949cd8ab2b38707",
+      "width": 1024,
+      "height": 681,
+      "group": "crowd-author:lisa ferdinando",
+      "acquisition": "Walter Reed medical center vaccine vials on 2020-12-14",
+      "author": "Lisa Ferdinando",
+      "author_aliases": [],
+      "title": "doses-of-the-covid-19-vaccine-are-seen-at-walter-reed-752905",
+      "source_url": "https://nara.getarchive.net/media/doses-of-the-covid-19-vaccine-are-seen-at-walter-reed-752905",
+      "original_url": "https://cdn2.picryl.com/photo/2020/12/14/doses-of-the-covid-19-vaccine-are-seen-at-walter-reed-752905-1024.jpg",
+      "asset_url": "https://cdn2.picryl.com/photo/2020/12/14/doses-of-the-covid-19-vaccine-are-seen-at-walter-reed-752905-1024.jpg",
+      "license": "https://www.dvidshub.net/about/copyright",
+      "license_label": "Public domain",
+      "discovery": "public rights pages",
+      "tags": [
+        "hard_negative",
+        "clinical"
+      ],
+      "reference_note": "Only small vaccine vials on a medical surface, including clear glass containers and out-of-focus background vials.",
+      "objects": []
+    }
+  ]
+}

@@ -1,0 +1,732 @@
+{
+  "policy": "402f767f23c9a2c0de420375a8bf0f6a2b2e133e7492f9b4299db2b0c52c2345",
+  "result": "04ceeba5c188e238d04b3721ac1f1d0de97d5a3f12dfb4a51d95380685917693",
+  "code": "473b9fee4237f217300b6499020ab0df641b8d5eb9b78af0ea2fb7122bea3f6c",
+  "exposed_archive": {
+    "crop-reserve-9190822": {
+      "3": [
+        {
+          "best_iou": 0.9314602919290674,
+          "candidate": {
+            "bbox": [
+              0.532480384349823,
+              0.3874529722748489,
+              0.6147829643249512,
+              0.7550260223548809
+            ],
+            "score": 0.1334495097398758,
+            "slot": 1,
+            "seed_rank": 1,
+            "seed_score": 0.45423585176467896,
+            "seed_iou": 0.6709517076377902,
+            "window_area": 0.1653324027392955,
+            "first_pass": 0.45423585176467896,
+            "repeats": 0,
+            "views": 3,
+            "rank_score": 0.1334495097398758,
+            "containing_seed": 1.0,
+            "scores": {
+              "detector": 0.1334495097398758,
+              "agreement": 0.1334495097398758,
+              "geometry": 0.7400794662734455,
+              "appearance": 0.9929417194458575,
+              "hybrid": 0.9997071930569095
+            },
+            "classes": {
+              "geometry": {
+                "background": 0.19879964854122226,
+                "complete": 0.7400794662734455,
+                "fragment": 0.0022689275814244915,
+                "lookalike": 0.05885195760390786
+              },
+              "appearance": {
+                "background": 9.31491713237687e-06,
+                "complete": 0.9929417194458575,
+                "fragment": 0.007040741901542728,
+                "lookalike": 8.2237354674637e-06
+              },
+              "hybrid": {
+                "background": 0.00021332249129737878,
+                "complete": 0.9997071930569095,
+                "fragment": 7.215803212617957e-05,
+                "lookalike": 7.326419667223054e-06
+              }
+            }
+          }
+        }
+      ],
+      "6": [
+        {
+          "best_iou": 0.9314602919290674,
+          "candidate": {
+            "bbox": [
+              0.532480384349823,
+              0.3874529722748489,
+              0.6147829643249512,
+              0.7550260223548809
+            ],
+            "score": 0.1334495097398758,
+            "slot": 1,
+            "seed_rank": 1,
+            "seed_score": 0.45423585176467896,
+            "seed_iou": 0.6709517076377902,
+            "window_area": 0.1653324027392955,
+            "first_pass": 0.45423585176467896,
+            "repeats": 0,
+            "views": 6,
+            "rank_score": 0.1334495097398758,
+            "containing_seed": 1.0,
+            "scores": {
+              "detector": 0.1334495097398758,
+              "agreement": 0.1334495097398758,
+              "geometry": 0.7400794662734455,
+              "appearance": 0.9929417194458575,
+              "hybrid": 0.9997071930569095
+            },
+            "classes": {
+              "geometry": {
+                "background": 0.19879964854122226,
+                "complete": 0.7400794662734455,
+                "fragment": 0.0022689275814244915,
+                "lookalike": 0.05885195760390786
+              },
+              "appearance": {
+                "background": 9.31491713237687e-06,
+                "complete": 0.9929417194458575,
+                "fragment": 0.007040741901542728,
+                "lookalike": 8.2237354674637e-06
+              },
+              "hybrid": {
+                "background": 0.00021332249129737878,
+                "complete": 0.9997071930569095,
+                "fragment": 7.215803212617957e-05,
+                "lookalike": 7.326419667223054e-06
+              }
+            }
+          }
+        }
+      ],
+      "8": [
+        {
+          "best_iou": 0.9314602919290674,
+          "candidate": {
+            "bbox": [
+              0.532480384349823,
+              0.3874529722748489,
+              0.6147829643249512,
+              0.7550260223548809
+            ],
+            "score": 0.1334495097398758,
+            "slot": 1,
+            "seed_rank": 1,
+            "seed_score": 0.45423585176467896,
+            "seed_iou": 0.6709517076377902,
+            "window_area": 0.1653324027392955,
+            "first_pass": 0.45423585176467896,
+            "repeats": 0,
+            "views": 8,
+            "rank_score": 0.1334495097398758,
+            "containing_seed": 1.0,
+            "scores": {
+              "detector": 0.1334495097398758,
+              "agreement": 0.1334495097398758,
+              "geometry": 0.7400794662734455,
+              "appearance": 0.9929417194458575,
+              "hybrid": 0.9997071930569095
+            },
+            "classes": {
+              "geometry": {
+                "background": 0.19879964854122226,
+                "complete": 0.7400794662734455,
+                "fragment": 0.0022689275814244915,
+                "lookalike": 0.05885195760390786
+              },
+              "appearance": {
+                "background": 9.31491713237687e-06,
+                "complete": 0.9929417194458575,
+                "fragment": 0.007040741901542728,
+                "lookalike": 8.2237354674637e-06
+              },
+              "hybrid": {
+                "background": 0.00021332249129737878,
+                "complete": 0.9997071930569095,
+                "fragment": 7.215803212617957e-05,
+                "lookalike": 7.326419667223054e-06
+              }
+            }
+          }
+        }
+      ]
+    },
+    "crop-reserve-chemyx": {
+      "3": [
+        {
+          "best_iou": 0.17065011821688114,
+          "candidate": {
+            "bbox": [
+              0.37850190388892335,
+              0.38227075137875294,
+              0.4315246170180416,
+              0.4616911781917919
+            ],
+            "score": 0.1349925845861435,
+            "slot": 1,
+            "seed_rank": 1,
+            "seed_score": 0.31385621428489685,
+            "seed_iou": 0.4335195252844256,
+            "window_area": 0.028897312471776182,
+            "first_pass": 0.11658886820077896,
+            "repeats": 0,
+            "views": 3,
+            "rank_score": 0.1349925845861435,
+            "containing_seed": 1.0,
+            "scores": {
+              "detector": 0.1349925845861435,
+              "agreement": 0.1349925845861435,
+              "geometry": 0.01085237202594227,
+              "appearance": 0.00036338028595655234,
+              "hybrid": 0.00017094582775550787
+            },
+            "classes": {
+              "geometry": {
+                "background": 0.6589899440801016,
+                "complete": 0.01085237202594227,
+                "fragment": 0.007445174536494298,
+                "lookalike": 0.3227125093574621
+              },
+              "appearance": {
+                "background": 0.9718306017172883,
+                "complete": 0.00036338028595655234,
+                "fragment": 0.01806802762164305,
+                "lookalike": 0.009737990375112209
+              },
+              "hybrid": {
+                "background": 0.992160217277969,
+                "complete": 0.00017094582775550787,
+                "fragment": 0.004286517694981247,
+                "lookalike": 0.0033823191992941384
+              }
+            }
+          }
+        },
+        {
+          "best_iou": 0.14216090989234426,
+          "candidate": {
+            "bbox": [
+              0.37875581671066544,
+              0.38231232290918177,
+              0.43135535656085816,
+              0.49863986535505816
+            ],
+            "score": 0.07946117967367172,
+            "slot": 1,
+            "seed_rank": 1,
+            "seed_score": 0.31385621428489685,
+            "seed_iou": 0.6328551652298701,
+            "window_area": 0.028897312471776182,
+            "first_pass": 0.31385621428489685,
+            "repeats": 0,
+            "views": 3,
+            "rank_score": 0.07946117967367172,
+            "containing_seed": 1.0,
+            "scores": {
+              "detector": 0.07946117967367172,
+              "agreement": 0.07946117967367172,
+              "geometry": 0.3094240073512611,
+              "appearance": 0.013727399715733961,
+              "hybrid": 0.0058650367094434455
+            },
+            "classes": {
+              "geometry": {
+                "background": 0.44626464922405484,
+                "complete": 0.3094240073512611,
+                "fragment": 0.03228197593452653,
+                "lookalike": 0.21202936749015766
+              },
+              "appearance": {
+                "background": 0.8266085398959231,
+                "complete": 0.013727399715733961,
+                "fragment": 0.08931316657111978,
+                "lookalike": 0.07035089381722312
+              },
+              "hybrid": {
+                "background": 0.9036035670261384,
+                "complete": 0.0058650367094434455,
+                "fragment": 0.055645331701322104,
+                "lookalike": 0.03488606456309581
+              }
+            }
+          }
+        }
+      ],
+      "6": [
+        {
+          "best_iou": 0.4440831434403236,
+          "candidate": {
+            "bbox": [
+              0.2716206544911841,
+              0.41681736794385044,
+              0.38470313549041746,
+              0.4408598179166967
+            ],
+            "score": 0.30233246088027954,
+            "slot": 6,
+            "seed_rank": 6,
+            "seed_score": 0.12539975345134735,
+            "seed_iou": 0.4263572143095249,
+            "window_area": 0.022666464287897297,
+            "first_pass": 0.0,
+            "repeats": 0,
+            "views": 6,
+            "rank_score": 0.30233246088027954,
+            "containing_seed": 1.0,
+            "scores": {
+              "detector": 0.30233246088027954,
+              "agreement": 0.30233246088027954,
+              "geometry": 8.723311843193606e-05,
+              "appearance": 0.27171319294871327,
+              "hybrid": 0.17438140263804205
+            },
+            "classes": {
+              "geometry": {
+                "background": 0.6088530469676728,
+                "complete": 8.723311843193606e-05,
+                "fragment": 7.352508797357048e-06,
+                "lookalike": 0.39105236740509786
+              },
+              "appearance": {
+                "background": 0.12943131394318863,
+                "complete": 0.27171319294871327,
+                "fragment": 0.5898078112184425,
+                "lookalike": 0.009047681889655601
+              },
+              "hybrid": {
+                "background": 0.8085093450679053,
+                "complete": 0.17438140263804205,
+                "fragment": 0.00025166540733131856,
+                "lookalike": 0.01685758688672129
+              }
+            }
+          }
+        },
+        {
+          "best_iou": 0.5013601087141423,
+          "candidate": {
+            "bbox": [
+              0.26286326612280825,
+              0.441459188894792,
+              0.38268926204570924,
+              0.4683456975763494
+            ],
+            "score": 0.38813096284866333,
+            "slot": 6,
+            "seed_rank": 6,
+            "seed_score": 0.12539975345134735,
+            "seed_iou": 0.4961847897247538,
+            "window_area": 0.022666464287897297,
+            "first_pass": 0.12539975345134735,
+            "repeats": 0,
+            "views": 6,
+            "rank_score": 0.38813096284866333,
+            "containing_seed": 1.0,
+            "scores": {
+              "detector": 0.38813096284866333,
+              "agreement": 0.38813096284866333,
+              "geometry": 0.032828552462907716,
+              "appearance": 0.41222457063999723,
+              "hybrid": 0.19280757074294982
+            },
+            "classes": {
+              "geometry": {
+                "background": 0.6662670390767435,
+                "complete": 0.032828552462907716,
+                "fragment": 0.00016519385543366092,
+                "lookalike": 0.3007392146049151
+              },
+              "appearance": {
+                "background": 0.42221911329326295,
+                "complete": 0.41222457063999723,
+                "fragment": 0.1442008555572665,
+                "lookalike": 0.021355460509473363
+              },
+              "hybrid": {
+                "background": 0.8019153707171062,
+                "complete": 0.19280757074294982,
+                "fragment": 0.0006753208455993356,
+                "lookalike": 0.004601737694344745
+              }
+            }
+          }
+        }
+      ],
+      "8": [
+        {
+          "best_iou": 0.4440831434403236,
+          "candidate": {
+            "bbox": [
+              0.2716206544911841,
+              0.41681736794385044,
+              0.38470313549041746,
+              0.4408598179166967
+            ],
+            "score": 0.30233246088027954,
+            "slot": 6,
+            "seed_rank": 6,
+            "seed_score": 0.12539975345134735,
+            "seed_iou": 0.4263572143095249,
+            "window_area": 0.022666464287897297,
+            "first_pass": 0.0,
+            "repeats": 0,
+            "views": 8,
+            "rank_score": 0.30233246088027954,
+            "containing_seed": 1.0,
+            "scores": {
+              "detector": 0.30233246088027954,
+              "agreement": 0.30233246088027954,
+              "geometry": 8.723311843193606e-05,
+              "appearance": 0.27171319294871327,
+              "hybrid": 0.17438140263804205
+            },
+            "classes": {
+              "geometry": {
+                "background": 0.6088530469676728,
+                "complete": 8.723311843193606e-05,
+                "fragment": 7.352508797357048e-06,
+                "lookalike": 0.39105236740509786
+              },
+              "appearance": {
+                "background": 0.12943131394318863,
+                "complete": 0.27171319294871327,
+                "fragment": 0.5898078112184425,
+                "lookalike": 0.009047681889655601
+              },
+              "hybrid": {
+                "background": 0.8085093450679053,
+                "complete": 0.17438140263804205,
+                "fragment": 0.00025166540733131856,
+                "lookalike": 0.01685758688672129
+              }
+            }
+          }
+        },
+        {
+          "best_iou": 0.5212842725681693,
+          "candidate": {
+            "bbox": [
+              0.261058492676769,
+              0.4183600962162018,
+              0.4459843885756432,
+              0.47015308965336194
+            ],
+            "score": 0.12893898785114288,
+            "slot": 8,
+            "seed_rank": 12,
+            "seed_score": 0.10982459038496017,
+            "seed_iou": 0.16989317876905033,
+            "window_area": 0.18198650140707326,
+            "first_pass": 0.12539975345134735,
+            "repeats": 1,
+            "views": 8,
+            "rank_score": 0.1521480056643486,
+            "containing_seed": 1.0,
+            "scores": {
+              "detector": 0.12893898785114288,
+              "agreement": 0.1521480056643486,
+              "geometry": 0.07987463492845809,
+              "appearance": 0.9138719429767308,
+              "hybrid": 0.9283973312508279
+            },
+            "classes": {
+              "geometry": {
+                "background": 0.3673145650432668,
+                "complete": 0.07987463492845809,
+                "fragment": 0.0009155190124469375,
+                "lookalike": 0.5518952810158282
+              },
+              "appearance": {
+                "background": 0.026043070570782072,
+                "complete": 0.9138719429767308,
+                "fragment": 0.04435250664999084,
+                "lookalike": 0.01573247980249618
+              },
+              "hybrid": {
+                "background": 0.06382261145137584,
+                "complete": 0.9283973312508279,
+                "fragment": 0.000832318209582721,
+                "lookalike": 0.00694773908821351
+              }
+            }
+          }
+        }
+      ]
+    }
+  },
+  "reserve_missed_references": [
+    {
+      "id": "recrop-6630055",
+      "target_index": 0,
+      "baseline": {
+        "best_iou": 0.30791305301452365,
+        "candidate": {
+          "id": "object-1",
+          "bbox": [
+            0.4915982971191406,
+            0.30575985320982596,
+            0.614612060546875,
+            0.7256576506924354
+          ],
+          "score": 0.8896681455168653,
+          "detection_evidence": {},
+          "scale": null,
+          "color": null,
+          "evidence": {
+            "scale": {
+              "value": null,
+              "reason": "Outside development support or ambiguous",
+              "distance": 3.679738291421474,
+              "margin": 0.3510854614915262
+            },
+            "color": {
+              "value": null,
+              "reason": "Outside development support or ambiguous",
+              "distance": 14.038054619998148,
+              "margin": 1.7766150685118287
+            }
+          },
+          "inscriptions": {
+            "status": "not requested",
+            "candidates": [],
+            "capacity": null,
+            "apparent_volume": null
+          },
+          "liquid_appearance": {
+            "status": "insufficient evidence",
+            "reason": "The visible color covers too little of the barrel.",
+            "lightness": null,
+            "opacity": null,
+            "opacity_reason": "A registered clear-barrel reference at the same exposure is required.",
+            "syringe_mask_score": 0.7036033272743225
+          },
+          "fill_level": {
+            "status": "insufficient evidence",
+            "reason": "Enable visible marking extraction to estimate fill."
+          },
+          "origin": "model"
+        }
+      },
+      "first_pass": {
+        "best_iou": 0.804020111649843,
+        "candidate": {
+          "bbox": [
+            0.540533703327179,
+            0.41290127622423894,
+            0.6012527956962586,
+            0.7312446383897588
+          ],
+          "score": 0.27568840980529785
+        }
+      },
+      "second_pass": {
+        "3": {
+          "best_iou": 0.887258223052398,
+          "candidate": {
+            "bbox": [
+              0.5437248888969421,
+              0.44657648859420057,
+              0.5976736778259277,
+              0.7251615086082215
+            ],
+            "score": 0.29903697967529297,
+            "slot": 2,
+            "seed_rank": 2,
+            "seed_score": 0.27568840980529785,
+            "seed_iou": 0.7775322115532747,
+            "window_area": 0.07731808004964622,
+            "first_pass": 0.27568840980529785,
+            "repeats": 1,
+            "views": 3,
+            "rank_score": 0.35286363601684567,
+            "containing_seed": 1.0
+          }
+        },
+        "6": {
+          "best_iou": 0.887258223052398,
+          "candidate": {
+            "bbox": [
+              0.5437248888969421,
+              0.44657648859420057,
+              0.5976736778259277,
+              0.7251615086082215
+            ],
+            "score": 0.29903697967529297,
+            "slot": 2,
+            "seed_rank": 2,
+            "seed_score": 0.27568840980529785,
+            "seed_iou": 0.7775322115532747,
+            "window_area": 0.07731808004964622,
+            "first_pass": 0.27568840980529785,
+            "repeats": 3,
+            "views": 6,
+            "rank_score": 0.4605169486999512,
+            "containing_seed": 1.0
+          }
+        },
+        "8": {
+          "best_iou": 0.887258223052398,
+          "candidate": {
+            "bbox": [
+              0.5437248888969421,
+              0.44657648859420057,
+              0.5976736778259277,
+              0.7251615086082215
+            ],
+            "score": 0.29903697967529297,
+            "slot": 2,
+            "seed_rank": 2,
+            "seed_score": 0.27568840980529785,
+            "seed_iou": 0.7775322115532747,
+            "window_area": 0.07731808004964622,
+            "first_pass": 0.27568840980529785,
+            "repeats": 4,
+            "views": 8,
+            "rank_score": 0.5143436050415039,
+            "containing_seed": 1.0
+          }
+        }
+      }
+    },
+    {
+      "id": "recrop-9957502",
+      "target_index": 0,
+      "baseline": {
+        "best_iou": 0.4546960701174821,
+        "candidate": {
+          "id": "object-1",
+          "bbox": [
+            0.48754019165039064,
+            0.29561224941728353,
+            0.5612391967773438,
+            0.5318369257753935
+          ],
+          "score": 0.7593787075270255,
+          "detection_evidence": {},
+          "scale": null,
+          "color": null,
+          "evidence": {
+            "scale": {
+              "value": null,
+              "reason": "Outside development support or ambiguous",
+              "distance": 1.737151706664081,
+              "margin": 0.6955938466158416
+            },
+            "color": {
+              "value": null,
+              "reason": "Outside development support or ambiguous",
+              "distance": 4.2494752564853355,
+              "margin": 1.0504909701379246
+            }
+          },
+          "inscriptions": {
+            "status": "not requested",
+            "candidates": [],
+            "capacity": null,
+            "apparent_volume": null
+          },
+          "liquid_appearance": {
+            "status": "insufficient evidence",
+            "reason": "The syringe mask could not be validated.",
+            "lightness": null,
+            "opacity": null,
+            "opacity_reason": "A registered clear-barrel reference at the same exposure is required."
+          },
+          "fill_level": {
+            "status": "insufficient evidence",
+            "reason": "Enable visible marking extraction to estimate fill."
+          },
+          "origin": "model"
+        }
+      },
+      "first_pass": {
+        "best_iou": 0.8040900352488121,
+        "candidate": {
+          "bbox": [
+            0.5120962543487548,
+            0.37746208110849366,
+            0.5560179748535157,
+            0.5224908602827493
+          ],
+          "score": 0.38334816694259644
+        }
+      },
+      "second_pass": {
+        "3": {
+          "best_iou": 0.9084190419268255,
+          "candidate": {
+            "bbox": [
+              0.5103951669692993,
+              0.3515089402134451,
+              0.5570416422843933,
+              0.5310221579836226
+            ],
+            "score": 0.5633596777915955,
+            "slot": 1,
+            "seed_rank": 1,
+            "seed_score": 0.38469722867012024,
+            "seed_iou": 0.490951673292474,
+            "window_area": 0.052678752024730865,
+            "first_pass": 0.38469722867012024,
+            "repeats": 1,
+            "views": 3,
+            "rank_score": 0.6647644197940826,
+            "containing_seed": 1.0
+          }
+        },
+        "6": {
+          "best_iou": 0.9084190419268255,
+          "candidate": {
+            "bbox": [
+              0.5103951669692993,
+              0.3515089402134451,
+              0.5570416422843933,
+              0.5310221579836226
+            ],
+            "score": 0.5633596777915955,
+            "slot": 1,
+            "seed_rank": 1,
+            "seed_score": 0.38469722867012024,
+            "seed_iou": 0.490951673292474,
+            "window_area": 0.052678752024730865,
+            "first_pass": 0.38469722867012024,
+            "repeats": 2,
+            "views": 6,
+            "rank_score": 0.7661691617965698,
+            "containing_seed": 1.0
+          }
+        },
+        "8": {
+          "best_iou": 0.9084190419268255,
+          "candidate": {
+            "bbox": [
+              0.5103951669692993,
+              0.3515089402134451,
+              0.5570416422843933,
+              0.5310221579836226
+            ],
+            "score": 0.5633596777915955,
+            "slot": 1,
+            "seed_rank": 1,
+            "seed_score": 0.38469722867012024,
+            "seed_iou": 0.490951673292474,
+            "window_area": 0.052678752024730865,
+            "first_pass": 0.38469722867012024,
+            "repeats": 2,
+            "views": 8,
+            "rank_score": 0.7661691617965698,
+            "containing_seed": 1.0
+          }
+        }
+      }
+    }
+  ],
+  "scope": "Reference-assisted post-evaluation diagnosis. Evidence does not select any operating point."
+}

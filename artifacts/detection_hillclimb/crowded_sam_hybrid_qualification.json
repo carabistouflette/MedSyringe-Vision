@@ -1,0 +1,534 @@
+{
+  "cohorts": {
+    "public development": {
+      "current": {
+        "images": 4,
+        "objects": 18,
+        "tp": 6,
+        "fp": 0,
+        "fn": 12,
+        "precision": 1.0,
+        "recall": 0.3333333333333333,
+        "f1": 0.5,
+        "ap50": 0.33663366336633666,
+        "ap50_95": 0.18787128712871287,
+        "exact_count": 0,
+        "negative_images": 0,
+        "correct_empty": 0
+      },
+      "policies": {
+        "add unmatched": {
+          "metrics": {
+            "images": 4,
+            "objects": 18,
+            "tp": 12,
+            "fp": 0,
+            "fn": 6,
+            "precision": 1.0,
+            "recall": 0.6666666666666666,
+            "f1": 0.8,
+            "ap50": 0.6633663366336634,
+            "ap50_95": 0.37023809523809526,
+            "exact_count": 1,
+            "negative_images": 0,
+            "correct_empty": 0
+          },
+          "counts": {
+            "oi-0089b699b364a570": [
+              10,
+              4,
+              10
+            ],
+            "38602067": [
+              4,
+              1,
+              1
+            ],
+            "21702347": [
+              1,
+              0,
+              0
+            ],
+            "5170947": [
+              3,
+              1,
+              1
+            ]
+          },
+          "same_matches": {
+            "passed": true,
+            "lost_matches": [],
+            "recovered_matches": 6,
+            "baseline_matches": 6,
+            "candidate_matches": 12
+          },
+          "spoiled": [],
+          "passes": true
+        },
+        "replace aligned": {
+          "metrics": {
+            "images": 4,
+            "objects": 18,
+            "tp": 12,
+            "fp": 0,
+            "fn": 6,
+            "precision": 1.0,
+            "recall": 0.6666666666666666,
+            "f1": 0.8,
+            "ap50": 0.6633663366336634,
+            "ap50_95": 0.43144564456445644,
+            "exact_count": 1,
+            "negative_images": 0,
+            "correct_empty": 0
+          },
+          "counts": {
+            "oi-0089b699b364a570": [
+              10,
+              4,
+              10
+            ],
+            "38602067": [
+              4,
+              1,
+              1
+            ],
+            "21702347": [
+              1,
+              0,
+              0
+            ],
+            "5170947": [
+              3,
+              1,
+              1
+            ]
+          },
+          "same_matches": {
+            "passed": true,
+            "lost_matches": [],
+            "recovered_matches": 6,
+            "baseline_matches": 6,
+            "candidate_matches": 12
+          },
+          "spoiled": [],
+          "passes": true
+        }
+      }
+    },
+    "public transfer": {
+      "current": {
+        "images": 3,
+        "objects": 9,
+        "tp": 8,
+        "fp": 1,
+        "fn": 1,
+        "precision": 0.8888888888888888,
+        "recall": 0.8888888888888888,
+        "f1": 0.8888888888888888,
+        "ap50": 0.8569856985698572,
+        "ap50_95": 0.2346094609460946,
+        "exact_count": 3,
+        "negative_images": 1,
+        "correct_empty": 1
+      },
+      "policies": {
+        "add unmatched": {
+          "metrics": {
+            "images": 3,
+            "objects": 9,
+            "tp": 8,
+            "fp": 1,
+            "fn": 1,
+            "precision": 0.8888888888888888,
+            "recall": 0.8888888888888888,
+            "f1": 0.8888888888888888,
+            "ap50": 0.8569856985698572,
+            "ap50_95": 0.2346094609460946,
+            "exact_count": 3,
+            "negative_images": 1,
+            "correct_empty": 1
+          },
+          "counts": {
+            "104489710": [
+              8,
+              8,
+              8
+            ],
+            "8168800": [
+              1,
+              1,
+              1
+            ],
+            "98554020": [
+              0,
+              0,
+              0
+            ]
+          },
+          "same_matches": {
+            "passed": true,
+            "lost_matches": [],
+            "recovered_matches": 0,
+            "baseline_matches": 8,
+            "candidate_matches": 8
+          },
+          "spoiled": [],
+          "passes": true
+        },
+        "replace aligned": {
+          "metrics": {
+            "images": 3,
+            "objects": 9,
+            "tp": 8,
+            "fp": 1,
+            "fn": 1,
+            "precision": 0.8888888888888888,
+            "recall": 0.8888888888888888,
+            "f1": 0.8888888888888888,
+            "ap50": 0.8569856985698572,
+            "ap50_95": 0.2346094609460946,
+            "exact_count": 3,
+            "negative_images": 1,
+            "correct_empty": 1
+          },
+          "counts": {
+            "104489710": [
+              8,
+              8,
+              8
+            ],
+            "8168800": [
+              1,
+              1,
+              1
+            ],
+            "98554020": [
+              0,
+              0,
+              0
+            ]
+          },
+          "same_matches": {
+            "passed": true,
+            "lost_matches": [],
+            "recovered_matches": 0,
+            "baseline_matches": 8,
+            "candidate_matches": 8
+          },
+          "spoiled": [],
+          "passes": true
+        }
+      }
+    },
+    "native regression": {
+      "current": {
+        "images": 23,
+        "objects": 48,
+        "tp": 39,
+        "fp": 4,
+        "fn": 9,
+        "precision": 0.9069767441860465,
+        "recall": 0.8125,
+        "f1": 0.8571428571428572,
+        "ap50": 0.7428045130094404,
+        "ap50_95": 0.45777105482255964,
+        "exact_count": 20,
+        "negative_images": 0,
+        "correct_empty": 0
+      },
+      "policies": {
+        "add unmatched": {
+          "metrics": {
+            "images": 23,
+            "objects": 48,
+            "tp": 43,
+            "fp": 5,
+            "fn": 5,
+            "precision": 0.8958333333333334,
+            "recall": 0.8958333333333334,
+            "f1": 0.8958333333333334,
+            "ap50": 0.8211502001263955,
+            "ap50_95": 0.4933812504397161,
+            "exact_count": 23,
+            "negative_images": 0,
+            "correct_empty": 0
+          },
+          "counts": {
+            "fr4KaYX2NdrKAcwFd4Sh": [
+              6,
+              3,
+              6
+            ],
+            "Gu84gAdw3JXDHshiDkll": [
+              6,
+              5,
+              6
+            ],
+            "cAH0yS3Ek6AXSKQFTBij": [
+              6,
+              6,
+              6
+            ],
+            "jr20FHtsKJzKzcGrzaW6": [
+              6,
+              6,
+              6
+            ],
+            "CrJcZCeB4ZWH4gQXgTe0": [
+              6,
+              5,
+              6
+            ],
+            "o9AYkyLGkkJAojPxdift": [
+              1,
+              1,
+              1
+            ],
+            "FZF2KIrTmT8m7knJ9kE6": [
+              1,
+              1,
+              1
+            ],
+            "g3F5OKZHw8L86xNEcMxy": [
+              1,
+              1,
+              1
+            ],
+            "gpkWGmq3Z9SFaeptYTPh": [
+              1,
+              1,
+              1
+            ],
+            "1yxvIQVR5Vw1SC72PT3s": [
+              1,
+              1,
+              1
+            ],
+            "XmkgUaQylXde9DBya7wc": [
+              1,
+              1,
+              1
+            ],
+            "UxP8kr90cgqTrqpti0qw": [
+              1,
+              1,
+              1
+            ],
+            "OTbTwloPcV4T8QdOV5VU": [
+              1,
+              1,
+              1
+            ],
+            "iHVnBznVS26Sw7QmoHnw": [
+              1,
+              1,
+              1
+            ],
+            "QRR4A3cC2VjJf5K914hZ": [
+              1,
+              1,
+              1
+            ],
+            "abU6WlJF9aWAHoICBdFE": [
+              1,
+              1,
+              1
+            ],
+            "J1IEnqIuv3wf5ASu2Eoe": [
+              1,
+              1,
+              1
+            ],
+            "51d8xdDRo1ax8DP16RUk": [
+              1,
+              1,
+              1
+            ],
+            "AM0xCgiooqXHYmoktJC3": [
+              1,
+              1,
+              1
+            ],
+            "RfvUNxOIFEQ3zkChtCOr": [
+              1,
+              1,
+              1
+            ],
+            "fwWFOHCBJuheupAYRxwJ": [
+              1,
+              1,
+              1
+            ],
+            "coTNVlK0faqmtQuZLK4F": [
+              1,
+              1,
+              1
+            ],
+            "YeamwalY1KG8aKOY8miG": [
+              1,
+              1,
+              1
+            ]
+          },
+          "same_matches": {
+            "passed": true,
+            "lost_matches": [],
+            "recovered_matches": 4,
+            "baseline_matches": 39,
+            "candidate_matches": 43
+          },
+          "spoiled": [],
+          "passes": false
+        },
+        "replace aligned": {
+          "metrics": {
+            "images": 23,
+            "objects": 48,
+            "tp": 43,
+            "fp": 5,
+            "fn": 5,
+            "precision": 0.8958333333333334,
+            "recall": 0.8958333333333334,
+            "f1": 0.8958333333333334,
+            "ap50": 0.8423623612361237,
+            "ap50_95": 0.4834894724719601,
+            "exact_count": 23,
+            "negative_images": 0,
+            "correct_empty": 0
+          },
+          "counts": {
+            "fr4KaYX2NdrKAcwFd4Sh": [
+              6,
+              3,
+              6
+            ],
+            "Gu84gAdw3JXDHshiDkll": [
+              6,
+              5,
+              6
+            ],
+            "cAH0yS3Ek6AXSKQFTBij": [
+              6,
+              6,
+              6
+            ],
+            "jr20FHtsKJzKzcGrzaW6": [
+              6,
+              6,
+              6
+            ],
+            "CrJcZCeB4ZWH4gQXgTe0": [
+              6,
+              5,
+              6
+            ],
+            "o9AYkyLGkkJAojPxdift": [
+              1,
+              1,
+              1
+            ],
+            "FZF2KIrTmT8m7knJ9kE6": [
+              1,
+              1,
+              1
+            ],
+            "g3F5OKZHw8L86xNEcMxy": [
+              1,
+              1,
+              1
+            ],
+            "gpkWGmq3Z9SFaeptYTPh": [
+              1,
+              1,
+              1
+            ],
+            "1yxvIQVR5Vw1SC72PT3s": [
+              1,
+              1,
+              1
+            ],
+            "XmkgUaQylXde9DBya7wc": [
+              1,
+              1,
+              1
+            ],
+            "UxP8kr90cgqTrqpti0qw": [
+              1,
+              1,
+              1
+            ],
+            "OTbTwloPcV4T8QdOV5VU": [
+              1,
+              1,
+              1
+            ],
+            "iHVnBznVS26Sw7QmoHnw": [
+              1,
+              1,
+              1
+            ],
+            "QRR4A3cC2VjJf5K914hZ": [
+              1,
+              1,
+              1
+            ],
+            "abU6WlJF9aWAHoICBdFE": [
+              1,
+              1,
+              1
+            ],
+            "J1IEnqIuv3wf5ASu2Eoe": [
+              1,
+              1,
+              1
+            ],
+            "51d8xdDRo1ax8DP16RUk": [
+              1,
+              1,
+              1
+            ],
+            "AM0xCgiooqXHYmoktJC3": [
+              1,
+              1,
+              1
+            ],
+            "RfvUNxOIFEQ3zkChtCOr": [
+              1,
+              1,
+              1
+            ],
+            "fwWFOHCBJuheupAYRxwJ": [
+              1,
+              1,
+              1
+            ],
+            "coTNVlK0faqmtQuZLK4F": [
+              1,
+              1,
+              1
+            ],
+            "YeamwalY1KG8aKOY8miG": [
+              1,
+              1,
+              1
+            ]
+          },
+          "same_matches": {
+            "passed": true,
+            "lost_matches": [],
+            "recovered_matches": 4,
+            "baseline_matches": 39,
+            "candidate_matches": 43
+          },
+          "spoiled": [],
+          "passes": false
+        }
+      }
+    }
+  },
+  "automatic_candidates": [],
+  "freeze_sha256": "879ec21716dd0f237154a8ce6ff78cd212a717e5e8805c2152c91924ed4682f7",
+  "qualification_crowded_native": 5,
+  "median_native_comparison_seconds": 2.5504660549995606,
+  "scope": "The native set represents one previously sealed acquisition. Supplemental matches measured against the same images are regression outcomes."
+}

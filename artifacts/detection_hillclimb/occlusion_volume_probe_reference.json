@@ -1,0 +1,61 @@
+{
+  "freeze_sha256": "c56ab5ad9e03783f079c31965669949b27a8bb3f879718f9b8ddb7cce4f3d1c6",
+  "image": "data/occlusion-study/fifo-2ml.jpg",
+  "sha256": "11eeeb61ae557911d67350fc9b990516bbf4b1c255e28e9fc2ef7658db54e429",
+  "source": "https://commons.wikimedia.org/wiki/File:Syringe_details_raw.jpeg",
+  "author": "Fifo",
+  "license": "CC BY-SA 2.5",
+  "prior_project_exposure": false,
+  "shoulder": [
+    756,
+    224
+  ],
+  "rear": [
+    1347,
+    219
+  ],
+  "radius": 49.0,
+  "rim": [
+    1018.0,
+    222.0
+  ],
+  "marked_scale": [
+    {
+      "ml": 0,
+      "point": [
+        789,
+        263
+      ]
+    },
+    {
+      "ml": 0.5,
+      "point": [
+        884,
+        262
+      ]
+    },
+    {
+      "ml": 1,
+      "point": [
+        981,
+        261
+      ]
+    },
+    {
+      "ml": 1.5,
+      "point": [
+        1076,
+        260
+      ]
+    },
+    {
+      "ml": 2,
+      "point": [
+        1172,
+        259
+      ]
+    }
+  ],
+  "tick_spacing_ml": 0.1,
+  "notes": "Image shows a dark liquid-facing seal transition. Author describes the 2 mL syringe as half full approximately. The visual rim reads roughly 1.2 mL. There is no physical volume measurement."
+}

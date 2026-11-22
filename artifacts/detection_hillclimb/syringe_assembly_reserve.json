@@ -1,0 +1,113 @@
+{
+  "code": "1d784704f30154367b68e72a716d58fdd7be340adf1a11b5fe7b4f4584dec9d4",
+  "rows": [
+    {
+      "id": "assembly-infusion",
+      "image": "data/syringe-assembly-study/prospective/infusion.jpg",
+      "sha256": "3c2ada6866d3b38396984027ae8d14001c9da8df0f7cfa357cfede321bcf9548",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Syringe_infusion_pump.jpg",
+      "original_url": "https://upload.wikimedia.org/wikipedia/commons/5/5f/Syringe_infusion_pump.jpg",
+      "license": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "author": "Shyamal",
+      "group": "Syringe infusion pump 2021-11-18",
+      "objects": [
+        {
+          "bbox": [
+            0.21,
+            0.5398773006134969,
+            0.881,
+            0.7893660531697342
+          ]
+        }
+      ],
+      "review": "An installed syringe. External tubing, pump clamps and machine are excluded."
+    },
+    {
+      "id": "assembly-6900270",
+      "image": "data/syringe-assembly-study/prospective/6900270.jpg",
+      "sha256": "7a3494f395f6432a0fe589563e6716fb988b9fe8dcb485c4d8422dde335f54e8",
+      "source_url": "https://www.dvidshub.net/image/6900270/medical-team-provides-care-fort-bliss-dona-ana-complex",
+      "original_url": "https://d1ldvf68ux039x.cloudfront.net/thumbs/photos/2110/6900270/1000w_q95.jpg",
+      "license": "Public domain (DVIDS)",
+      "author": "Maxwell Bass",
+      "group": "Fort Bliss 2021-10-19",
+      "objects": [
+        {
+          "bbox": [
+            0.77,
+            0.41529235382308843,
+            0.818,
+            0.6026986506746627
+          ]
+        }
+      ],
+      "review": "One thin gloved-hand syringe. The vial above the green hub is separate."
+    },
+    {
+      "id": "assembly-7538446",
+      "image": "data/syringe-assembly-study/prospective/7538446.jpg",
+      "sha256": "c63e1b3f9b7a526c98019f75997f142dab921229791695060a2b22a110572d3e",
+      "source_url": "https://www.dvidshub.net/image/7538446/129th-medical-group-administers-flu-shots",
+      "original_url": "https://d1ldvf68ux039x.cloudfront.net/thumbs/photos/2212/7538446/1000w_q95.jpg",
+      "license": "Public domain (DVIDS)",
+      "author": "Crystal Housman",
+      "group": "Moffett 2022-12-03",
+      "objects": [
+        {
+          "bbox": [
+            0.483,
+            0.4287856071964018,
+            0.709,
+            0.5712143928035982
+          ]
+        }
+      ],
+      "review": "One assembly between gloves. Reference covers the independently visible device extent."
+    },
+    {
+      "id": "assembly-8169009",
+      "image": "data/syringe-assembly-study/prospective/8169009.jpg",
+      "sha256": "565dbf186043d6066d20f97f3007471be9cc29f44bc0930fc1ed522561d52ac2",
+      "source_url": "https://www.dvidshub.net/image/8169009/usamriid-blood-testing-protocol-will-improve-disease-surveillance",
+      "original_url": "https://d1ldvf68ux039x.cloudfront.net/thumbs/photos/2312/8169009/1000w_q95.jpg",
+      "license": "Public domain (DVIDS)",
+      "author": "Samuel Mensah",
+      "group": "Fort Detrick 2023-12-13",
+      "objects": [],
+      "review": "Laboratory pipetting scene. Review finds no visible syringe assembly."
+    },
+    {
+      "id": "assembly-9143423",
+      "image": "data/syringe-assembly-study/prospective/9143423.jpg",
+      "sha256": "d1af7807360bf57f088f9d19c0ee4a5ff9328c57a82af50c2fc6425cfb9dced9",
+      "source_url": "https://www.dvidshub.net/image/9143423/role-laboratory-medicine-military-health",
+      "original_url": "https://d1ldvf68ux039x.cloudfront.net/thumbs/photos/2507/9143423/1000w_q95.jpg",
+      "license": "Public domain (DVIDS)",
+      "author": "Isabel Tanner",
+      "group": "Hurlburt Field 2025-06-17",
+      "objects": [],
+      "review": "A clear dropper and sample tube held with gloves. Review finds no syringe assembly."
+    },
+    {
+      "id": "assembly-rbc",
+      "image": "data/syringe-assembly-study/prospective/rbc.jpg",
+      "sha256": "ef1280e6a527d54c9daaeeecf08633d143fbf83f41a0fe2779da2dd0eda3fe9d",
+      "source_url": "https://commons.wikimedia.org/wiki/File:RBC_Pipette.jpg",
+      "original_url": "https://upload.wikimedia.org/wikipedia/commons/7/7e/RBC_Pipette.jpg",
+      "license": "https://creativecommons.org/licenses/by/4.0/",
+      "author": "Hariprasad Shetty10",
+      "group": "RBC pipette 2025-12-15",
+      "objects": [],
+      "review": "A graduated glass pipette with a bulb and tubing. Review finds no syringe assembly."
+    }
+  ],
+  "exclusions": {
+    "hamilton": "Author and visual overlap in project history.",
+    "wpi": "Author and visual overlap in project history.",
+    "electronic": "Author and visual overlap in project history.",
+    "glass-two": "Known photographer and ambiguous detached-barrel target.",
+    "6543401": "Visible instance boundaries are ambiguous under the gloves.",
+    "10105840": "Editorial artwork with overlaid text and graphics."
+  },
+  "protocol": "Source and annotation checks before inference. Group, contributor, SHA-256 and rotated or mirrored dHash at Hamming radius four."
+}

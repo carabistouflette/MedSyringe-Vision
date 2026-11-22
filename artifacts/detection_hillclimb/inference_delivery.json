@@ -1,0 +1,35 @@
+{
+  "revision": "305c3f640cf243a8f4c31fe6cc692ab41c327722",
+  "archive": "data/deliverables/medsyringe-source-305c3f6.bundle",
+  "archive_sha256": "10f06291cefecedef112f9d951534a0fe2732e64c01566adca80c6b386b184c8",
+  "runtime_manifest": "data/deliverables/medsyringe-runtime-305c3f6/runtime-bundle.json",
+  "runtime_manifest_sha256": "c54b7b8ed6e7a71a5f98b99b06e16061de744b99fd6e035785d41b383a586616",
+  "model_files": 43,
+  "environments": [
+    ".venv",
+    "data/ocr-v6/env",
+    "data/sam3/xpu-env"
+  ],
+  "original_package_fingerprints_preserved": true,
+  "tests_passed": 198,
+  "browser": {
+    "count": {
+      "file": "artifacts/detection_hillclimb/inference_final_count_browser.json",
+      "sha256": "08f4e666e7705cc6097bf1b6f3f3a104b3a7220b31debd1d3401a7e0c2633e1f",
+      "flows": 15
+    },
+    "full": {
+      "file": "artifacts/detection_hillclimb/inference_final_full_browser.json",
+      "sha256": "b3d801755ee568bc52ee0f6ebfee6b7736126dc4022834854f2a4c04bc2c5205",
+      "flows": 19
+    }
+  },
+  "independent_review": {
+    "revision": "7a4bf5d",
+    "scores": [
+      6,
+      6.5
+    ],
+    "full_acceptance": false
+  }
+}

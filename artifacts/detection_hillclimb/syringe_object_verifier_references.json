@@ -1,0 +1,243 @@
+{
+  "code": "d1a3a594eb6d9a24a1f896414abb59571d85ef7ecf6d6988656416d840e0e68b",
+  "roles": {
+    "fit": [
+      {
+        "id": "object-tube",
+        "image": "data/syringe-object-verifier/tube.jpg",
+        "sha256": "90df4ae6ade50ad58733536f3aabe494d1ecdaff6188cb3c6a0dd796b74237eb",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Vacutainer_01.jpg",
+        "original_url": "https://upload.wikimedia.org/wikipedia/commons/9/95/Vacutainer_01.jpg",
+        "author": "Every1blowz",
+        "license": "Public domain per Commons",
+        "group": "object:every1blowz",
+        "objects": [],
+        "lookalikes": [
+          {
+            "kind": "blood tube",
+            "bbox": [
+              0.590625,
+              0.05416666666666667,
+              0.725,
+              0.96875
+            ]
+          }
+        ]
+      },
+      {
+        "id": "object-9500907",
+        "image": "data/syringe-object-verifier/9500907.jpg",
+        "sha256": "f8a1fb85cd1496c58c1c11cce637ddb88152569b75b529fafe0b582c891acc3b",
+        "source_url": "https://www.dvidshub.net/image/9500907/forensic-toxicology-reinforces-joint-standards",
+        "original_url": "https://d1ldvf68ux039x.cloudfront.net/thumbs/photos/2601/9500907/1000w_q95.jpg",
+        "author": "Noah Coger",
+        "license": "https://www.dvidshub.net/about/copyright",
+        "group": "object:noah coger",
+        "objects": [],
+        "lookalikes": [
+          {
+            "kind": "pipette",
+            "bbox": [
+              0.46282051282051284,
+              0.4426229508196721,
+              0.4935897435897436,
+              0.6885245901639344
+            ]
+          },
+          {
+            "kind": "pipette",
+            "bbox": [
+              0.8384615384615385,
+              0.06762295081967214,
+              0.941025641025641,
+              0.6454918032786885
+            ]
+          }
+        ]
+      }
+    ],
+    "fresh": [
+      {
+        "id": "object-35609687",
+        "image": "data/syringe-object-verifier/35609687.jpg",
+        "sha256": "f7195c98e9b7ffd89376507b71f5b6096912734df233bc25d2779ea3a5395b4d",
+        "source_url": "https://www.pexels.com/photo/medical-professional-preparing-syringe-for-injection-35609687/",
+        "original_url": "https://images.pexels.com/photos/35609687/pexels-photo-35609687.jpeg?auto=compress&cs=tinysrgb&w=1000",
+        "author": "DΛVΞ GΛRCIΛ",
+        "license": "https://www.pexels.com/license/",
+        "group": "object:dλvξ gλrciλ",
+        "objects": [
+          {
+            "bbox": [
+              0.31346578366445915,
+              0.011764705882352941,
+              0.5452538631346578,
+              0.5220588235294118
+            ]
+          }
+        ],
+        "lookalikes": []
+      },
+      {
+        "id": "object-10067869",
+        "image": "data/syringe-object-verifier/10067869.jpg",
+        "sha256": "013f41a0e823f8f7ba429597d05f056caf431337053b2b700b66baa56931f34b",
+        "source_url": "https://www.dvidshub.net/image/10067869/uss-john-c-stennis-sailors-cvn-74-receive-flu-shots",
+        "original_url": "https://d1ldvf68ux039x.cloudfront.net/thumbs/photos/2611/10067869/1000w_q95.jpg",
+        "author": "Scarlett Goodlander",
+        "license": "https://www.dvidshub.net/about/copyright",
+        "group": "object:scarlett goodlander",
+        "objects": [
+          {
+            "bbox": [
+              0.5692307692307692,
+              0.5596153846153846,
+              0.6269230769230769,
+              0.6269230769230769
+            ]
+          }
+        ],
+        "lookalikes": []
+      },
+      {
+        "id": "object-10015275",
+        "image": "data/syringe-object-verifier/10015275.jpg",
+        "sha256": "a3509ed4d3758b6f89dcd3a21c3bccaa2e61a0faa961b247efadac3f57df323b",
+        "source_url": "https://www.dvidshub.net/image/10015275/ensuring-lethality-dha-bumed-staff-receive-annual-influenza-vaccinations",
+        "original_url": "https://d1ldvf68ux039x.cloudfront.net/thumbs/photos/2610/10015275/1000w_q95.jpg",
+        "author": "Sasha Ambrose",
+        "license": "https://www.dvidshub.net/about/copyright",
+        "group": "object:sasha ambrose",
+        "objects": [
+          {
+            "bbox": [
+              0.6934156378600823,
+              0.4485294117647059,
+              0.7325102880658436,
+              0.49558823529411766
+            ]
+          }
+        ],
+        "lookalikes": []
+      },
+      {
+        "id": "object-9922212",
+        "image": "data/syringe-object-verifier/9922212.jpg",
+        "sha256": "e1de29e67ed62962f4f72d740c8f16384678a0250496483d5a515b54672f91ce",
+        "source_url": "https://www.dvidshub.net/image/9922212/biogeochemical-sample-analysis-fort-collins-laboratory",
+        "original_url": "https://d1ldvf68ux039x.cloudfront.net/thumbs/photos/2609/9922212/1000w_q95.jpg",
+        "author": "Forest Service OC",
+        "license": "https://www.dvidshub.net/about/copyright",
+        "group": "object:forest service oc",
+        "objects": [],
+        "lookalikes": [
+          {
+            "kind": "pipette",
+            "bbox": [
+              0.43205128205128207,
+              0.431858407079646,
+              0.491025641025641,
+              0.647787610619469
+            ]
+          }
+        ]
+      },
+      {
+        "id": "object-7000883",
+        "image": "data/syringe-object-verifier/7000883.jpg",
+        "sha256": "4db83228cdb6435c055a9c6722b04447fec5b805457bdbdb868f97ae8cf80acd",
+        "source_url": "https://www.dvidshub.net/image/7000883/enlisted-us-air-force-medics-plays-vital-role-michigan-hospital-covid-fight",
+        "original_url": "https://d1ldvf68ux039x.cloudfront.net/thumbs/photos/2201/7000883/1000w_q95.jpg",
+        "author": "Timothy Hughes",
+        "license": "https://www.dvidshub.net/about/copyright",
+        "group": "object:timothy hughes",
+        "objects": [],
+        "lookalikes": []
+      },
+      {
+        "id": "object-8233858",
+        "image": "data/syringe-object-verifier/8233858.jpg",
+        "sha256": "96bc142c7a3695833fe03c82c73ea671e223e8c261e46b176701ad1d8948c439",
+        "source_url": "https://www.dvidshub.net/image/8233858/day-life-laboratory-technician",
+        "original_url": "https://d1ldvf68ux039x.cloudfront.net/thumbs/photos/2402/8233858/1000w_q95.jpg",
+        "author": "Alysa Calvarese",
+        "license": "https://www.dvidshub.net/about/copyright",
+        "group": "object:alysa calvarese",
+        "objects": [],
+        "lookalikes": [
+          {
+            "kind": "specimen tube",
+            "bbox": [
+              0.25769230769230766,
+              0.3557692307692308,
+              0.2794871794871795,
+              0.4846153846153846
+            ]
+          }
+        ]
+      },
+      {
+        "id": "object-8626526",
+        "image": "data/syringe-object-verifier/8626526.jpg",
+        "sha256": "c28f3cfc27340d728d1e12b65ce7fd3587a76fead95d3acb2f99e21a26d3309a",
+        "source_url": "https://www.dvidshub.net/image/8626526/nmrc-combat-wounds-lab-prepares-skin-cells-early-stage-testing",
+        "original_url": "https://d1ldvf68ux039x.cloudfront.net/thumbs/photos/2409/8626526/1000w_q95.jpg",
+        "author": "Michael Wilson",
+        "license": "https://www.dvidshub.net/about/copyright",
+        "group": "object:michael wilson",
+        "objects": [],
+        "lookalikes": [
+          {
+            "kind": "pipette",
+            "bbox": [
+              0.6820512820512821,
+              0.4346153846153846,
+              0.8743589743589744,
+              0.5846153846153846
+            ]
+          }
+        ]
+      },
+      {
+        "id": "object-8211799",
+        "image": "data/syringe-object-verifier/8211799.jpg",
+        "sha256": "c00aff38278500a10b667f1769eb1836cb675f52de45d144cb34fead4de785d5",
+        "source_url": "https://www.dvidshub.net/image/8211799/nmrcs-naval-infectious-disease-diagnostic-laboratory-conducts-lyme-disease-testing",
+        "original_url": "https://d1ldvf68ux039x.cloudfront.net/thumbs/photos/2401/8211799/1000w_q95.jpg",
+        "author": "Alejandra Ramirez Alarcon",
+        "license": "https://www.dvidshub.net/about/copyright",
+        "group": "object:alejandra ramirez alarcon",
+        "objects": [],
+        "lookalikes": [
+          {
+            "kind": "pipette",
+            "bbox": [
+              0.0,
+              0.7588235294117647,
+              0.37748344370860926,
+              0.85
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "excluded": {
+    "8711851": "Several cropped or softly focused background syringes are hard to assign precise extents.",
+    "7230835": "Previously visually screened. Additional source coverage was available.",
+    "10098263": "Wide event image with no identifiable syringe or useful lookalike.",
+    "10069741": "Fingers obscure the syringe barrel and plunger extents.",
+    "10021482": "The syringe is largely hidden between fingers and the patient.",
+    "10048453": "The injector is obscured by the operator's hand.",
+    "9090709": "Historical source, contributor, byte hash or visual match.",
+    "9242074": "Historical source, contributor, byte hash or visual match.",
+    "27925592": "Historical source, contributor, byte hash or visual match.",
+    "5355836": "Historical source, contributor, byte hash or visual match.",
+    "10052835": "Historical source, contributor, byte hash or visual match.",
+    "vacutainer": "Historical source, contributor, byte hash or visual match.",
+    "micro": "Historical source, contributor, byte hash or visual match.",
+    "9918854": "Historical source, contributor, byte hash or visual match.",
+    "9364294": "Historical source, contributor, byte hash or visual match."
+  },
+  "notes": "One visual reviewer. True object and lookalike labels preceded inference."
+}

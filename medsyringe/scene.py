@@ -11,6 +11,36 @@ def utc_now():
     return datetime.now(timezone.utc).isoformat()
 
 
+def visual_label(obj, field, *, include_unknown=False):
+    parts = ("scale", "color") if field == "scale_and_color" else (field,)
+    values = [obj.get(part) for part in parts]
+    if not include_unknown and any(value is None for value in values):
+        return None
+    return " / ".join(value or "unknown" for value in values)
+
+
+def compatible_labels(obj, field, labels):
+    if field != "scale_and_color":
+        return set(labels)
+    observed = (obj.get("scale"), obj.get("color"))
+    return {label for label in labels if all(
+        value is None or value == expected
+        for value, expected in zip(observed, label.split(" / ", 1), strict=True)
+    )}
+
+
+def recoverable_categories(compatible, deficits):
+    # A partially classified instance can fill at most one expected slot.
+    slots = [label for label, count in deficits.items() for _ in range(min(count, len(compatible)))]
+    if not slots or not compatible:
+        return 0
+    from scipy.optimize import linear_sum_assignment
+
+    eligible = [[label in choices for label in slots] for choices in compatible]
+    rows, columns = linear_sum_assignment(eligible, maximize=True)
+    return sum(eligible[r][c] for r, c in zip(rows, columns, strict=True))
+
+
 def inventory(objects, expected, field):
     """Compare a count, or a complete reference inventory over one visual field."""
     if field == "count":
@@ -19,25 +49,32 @@ def inventory(objects, expected, field):
         return dict(mode=field, expected=expected, observed={"syringe": len(objects)},
                     missing={"syringe": max(0, -delta)}, extra={"syringe": max(0, delta)},
                     evidence={"syringe": [obj["id"] for obj in objects]},
-                    unresolved=[], minimum_missing=max(0, -delta))
-    observed = Counter(obj.get(field) for obj in objects)
-    unresolved = [obj["id"] for obj in objects if obj.get(field) is None]
+                    unresolved=[], minimum_missing=max(0, -delta), minimum_extra=max(0, delta))
+    labelled = [(obj["id"], visual_label(obj, field)) for obj in objects]
+    observed = Counter(value for _, value in labelled)
+    unresolved = [identifier for identifier, value in labelled if value is None]
     keys = sorted(set(expected) | {value for value in observed if value is not None})
     deficits = {key: max(0, expected.get(key, 0) - observed[key]) for key in keys}
+    partial = set(unresolved)
+    compatible = [compatible_labels(obj, field, expected) for obj in objects if obj["id"] in partial]
+    coverage = recoverable_categories(compatible, deficits)
+    minimum_missing = sum(deficits.values()) - coverage
+    matched = sum(expected.values()) - minimum_missing
     return dict(mode=field, expected=expected, observed={key: observed[key] for key in keys},
-                missing={key: max(0, value-len(unresolved)) for key, value in deficits.items()},
-                possible_missing=deficits, minimum_missing=max(0, sum(deficits.values())-len(unresolved)),
+                missing={key: max(0, value-sum(key in choices for choices in compatible))
+                         for key, value in deficits.items()},
+                possible_missing=deficits, minimum_missing=minimum_missing, minimum_extra=len(objects)-matched,
                 extra={key: max(0, observed[key]-expected.get(key, 0)) for key in keys},
-                evidence={key: [obj["id"] for obj in objects if obj.get(field) == key] for key in keys},
+                evidence={key: [identifier for identifier, value in labelled if value == key] for key in keys},
                 unresolved=unresolved)
 
 
 def compare(previous, current):
     previous_objects, current_objects = previous["objects"], current["objects"]
     labels = {}
-    for field in ("scale", "color"):
-        before = Counter(obj.get(field) or "unknown" for obj in previous_objects)
-        after = Counter(obj.get(field) or "unknown" for obj in current_objects)
+    for field in ("scale", "color", "scale_and_color"):
+        before = Counter(visual_label(obj, field, include_unknown=True) for obj in previous_objects)
+        after = Counter(visual_label(obj, field, include_unknown=True) for obj in current_objects)
         labels[field] = {name: after[name]-before[name] for name in sorted(before.keys() | after.keys())}
     return dict(previous_id=previous["id"], current_id=current["id"],
                 previous_revision=previous["revision"], current_revision=current["revision"],

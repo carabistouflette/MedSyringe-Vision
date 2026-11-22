@@ -1,0 +1,152 @@
+{
+  "code": "7e9109abfe626e71b95e9efc6e8a9244ef0e1fd186055204beb3bf89e94079dc",
+  "result": "9da3b12580b734f4a9a9f1dbc5a10fed387d16f38f5c64be67d79430e0d35ea6",
+  "prior_crowd": {
+    "count": 4,
+    "reference_targets": {
+      "1": {
+        "candidate": {
+          "bbox": [
+            0.3476754426956177,
+            0.249151349067688,
+            0.5023496627807618,
+            0.4774605751037598
+          ],
+          "score": 0.4286702275276184,
+          "complete": 0.45966022814660173
+        },
+        "iou": 0.7359896055751103,
+        "rank_score": 0.45036322796090666
+      },
+      "5": {
+        "candidate": {
+          "bbox": [
+            0.5361756324768067,
+            0.2463916063308716,
+            0.7104950904846191,
+            0.47455034255981443
+          ],
+          "score": 0.3522336483001709,
+          "complete": 0.3507542686558276
+        },
+        "iou": 0.6874235426278396,
+        "rank_score": 0.35119808254913054
+      }
+    },
+    "incomplete": [
+      {
+        "box": [
+          0.5498736629486084,
+          0.32861923027038575,
+          0.6781623840332032,
+          0.47697518634796143
+        ],
+        "detector": 0.402029812335968,
+        "complete": 0.34163172997152685,
+        "rank_score": 0.35975115468085916,
+        "best_iou": 0.44015435454908497
+      }
+    ],
+    "exposed_body_only_replay": {
+      "tp": 6,
+      "fp": 0,
+      "fn": 0,
+      "exact_count": 1
+    }
+  },
+  "older_archive": {
+    "detector-greedy": {
+      "tp": 4,
+      "fp": 4,
+      "exact_count": 12,
+      "gain": 0,
+      "extra_fp": 0,
+      "safe": true,
+      "lost_reference": false,
+      "per_image_false_positive_regression": false,
+      "count_regression": false
+    },
+    "body-greedy": {
+      "tp": 4,
+      "fp": 4,
+      "exact_count": 12,
+      "gain": 0,
+      "extra_fp": 0,
+      "safe": true,
+      "lost_reference": false,
+      "per_image_false_positive_regression": false,
+      "count_regression": false
+    },
+    "body-joint": {
+      "tp": 4,
+      "fp": 4,
+      "exact_count": 12,
+      "gain": 0,
+      "extra_fp": 0,
+      "safe": true,
+      "lost_reference": false,
+      "per_image_false_positive_regression": false,
+      "count_regression": false
+    },
+    "probe-detector-greedy": {
+      "tp": 8,
+      "fp": 6,
+      "exact_count": 10,
+      "gain": 4,
+      "extra_fp": 2,
+      "safe": false,
+      "lost_reference": false,
+      "per_image_false_positive_regression": true,
+      "count_regression": true
+    },
+    "probe-body-greedy": {
+      "tp": 7,
+      "fp": 6,
+      "exact_count": 10,
+      "gain": 3,
+      "extra_fp": 2,
+      "safe": false,
+      "lost_reference": false,
+      "per_image_false_positive_regression": true,
+      "count_regression": true
+    },
+    "probe-body-joint": {
+      "tp": 7,
+      "fp": 6,
+      "exact_count": 10,
+      "gain": 3,
+      "extra_fp": 2,
+      "safe": false,
+      "lost_reference": false,
+      "per_image_false_positive_regression": true,
+      "count_regression": true
+    }
+  },
+  "reserve_proposal_limits": {
+    "complete-4541406": {
+      "count": 4,
+      "objects": 4,
+      "raw_matches": 4
+    },
+    "complete-4046952": {
+      "count": 2,
+      "objects": 3,
+      "raw_matches": 3
+    },
+    "complete-5355836": {
+      "count": 1,
+      "objects": 1,
+      "raw_matches": 1
+    },
+    "complete-27925592": {
+      "count": 1,
+      "objects": 1,
+      "raw_matches": 1
+    },
+    "complete-7230835": {
+      "count": 0,
+      "objects": 0,
+      "raw_matches": 0
+    }
+  }
+}

@@ -1,0 +1,126 @@
+{
+  "rows": [
+    {
+      "id": "oi-yellow",
+      "image": "data/public-annotated-collection/images/oi-9b1a594e0cea3393.jpg",
+      "bbox": [
+        0.376,
+        0.067,
+        0.607,
+        0.89
+      ],
+      "group": "public:open-images-yellow",
+      "fields": {
+        "liquid_presence": {
+          "status": "observable",
+          "value": true
+        },
+        "nominal_capacity": {
+          "status": "indeterminate"
+        },
+        "liquid_opacity": {
+          "status": "indeterminate"
+        }
+      },
+      "sha256": "488b0fe455825e532f4feeb9ef01c927ac57328c4f55235030e64724428e3b9a",
+      "notes": "Distinct yellow column ahead of visible stopper; units and nominal capacity unconfirmed.",
+      "review": {
+        "liquid_sample": [
+          0.45,
+          0.6,
+          0.504,
+          0.67
+        ]
+      }
+    },
+    {
+      "id": "commons-seated-stopper",
+      "image": "data/public-web-collection/images/commons-106925058.jpg",
+      "bbox": [
+        0.125,
+        0.373,
+        0.693,
+        0.626
+      ],
+      "group": "public:mike-shaw",
+      "fields": {
+        "liquid_presence": {
+          "status": "observable",
+          "value": false
+        },
+        "nominal_capacity": {
+          "status": "observable",
+          "ml": 5
+        },
+        "liquid_opacity": {
+          "status": "indeterminate"
+        }
+      },
+      "sha256": "a16f0f2dfff9e107239079e8bda3a3373f59c30fcdc4820c64122a1edfd19e44",
+      "notes": "Visible 5 mL scale. Piston seal visually seated at the outlet with no discernible column.",
+      "review": {
+        "liquid_presence_override": "empty",
+        "nominal_capacity_override_ml": 5
+      }
+    },
+    {
+      "id": "commons-in-hand",
+      "image": "data/public-web-collection/images/commons-102070543.jpg",
+      "bbox": [
+        0.401,
+        0.153,
+        0.552,
+        0.804
+      ],
+      "group": "public:commons-in-hand",
+      "fields": {
+        "liquid_presence": {
+          "status": "observable",
+          "value": false
+        },
+        "nominal_capacity": {
+          "status": "indeterminate"
+        },
+        "liquid_opacity": {
+          "status": "indeterminate"
+        }
+      },
+      "sha256": "ec6d6f7d36f138ade92039486588f454466347bbf90f2d5306f6e2a110ad0c75",
+      "notes": "Blue plunger is a solid part. No measurable column lies between the piston and the barrel tip."
+    },
+    {
+      "id": "fil-rouge-colored",
+      "image": "data/original/IMG_3316.png",
+      "bbox": [
+        0.2644675724090092,
+        0.10429685077969986,
+        0.4994789809776992,
+        0.8615916418650793
+      ],
+      "group": "fil-rouge-validation",
+      "fields": {
+        "liquid_presence": {
+          "status": "observable",
+          "value": true
+        },
+        "nominal_capacity": {
+          "status": "observable",
+          "ml": 20
+        },
+        "liquid_volume": {
+          "status": "observable",
+          "interval_ml": [
+            15,
+            18
+          ]
+        },
+        "liquid_opacity": {
+          "status": "indeterminate"
+        }
+      },
+      "sha256": "100ae5ec5c188420762a5748d7424d659066068072d941c6d3f001f9fc2ddb05",
+      "notes": "Previously frozen visible orange column and 15–18 mL reading. Regression only."
+    }
+  ],
+  "scope": "Three public development controls and one historical Fil Rouge regression. Empty labels mean visually seated piston and no visible column. The test does not measure residue or optical ground truth. No photo is used for fitting."
+}

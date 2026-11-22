@@ -37,6 +37,8 @@ def infer(args):
     root = args.runtime.resolve()
     key = dict(revision=git_revision(root), appearance_release_sha256=digest(root / RELEASE),
                evidence_sha256=identity["sha256"], code_sha256=digest(__file__), device=args.device)
+    if args.count_only:
+        key["analysis_mode"] = "count only"
     saved = read_json(args.output) if args.output.exists() else dict(inputs=key, frames={})
     if saved.get("inputs") != key:
         raise ValueError("The saved inference used a different runtime or dataset.")
@@ -52,7 +54,7 @@ def infer(args):
                 identifier = row["id"]
                 image = read_image(bundle / "data" / confined(row["image"]))
                 start = perf_counter()
-                report = analyze(engine, image, False)
+                report = analyze(engine, image, False, count_only=args.count_only)
                 health = report["detection_checks"]
                 if health["status"] != "available" or health["primary_backend"] != args.device:
                     raise ValueError(f"An inference worker was unavailable on {identifier}: {health}")
@@ -89,6 +91,7 @@ if __name__ == "__main__":
     parser.add_argument("--runtime", required=True, type=Path)
     parser.add_argument("--device", choices=("cpu", "xpu"), required=True)
     parser.add_argument("--output", required=True, type=Path)
+    parser.add_argument("--count-only", action="store_true", help="Skip per-object crop attributes.")
     parser.add_argument("--limit", type=int)
     args = parser.parse_args()
     if args.limit is not None and args.limit < 1:

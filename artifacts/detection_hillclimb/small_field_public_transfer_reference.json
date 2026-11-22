@@ -1,0 +1,101 @@
+{
+  "reader": "415b90e1155e24d97cb19d9deb892f5b041c0031ec0d0a7ae76877e4cac79e24",
+  "cases": [
+    {
+      "id": "commons-18691600",
+      "sha256": "223bd9158c2d7e80f3decfe29ccaf7e1d1fa8c0415e8670eaf2463dce7dedb6d",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Disposable_syringe_5ml_1.jpg",
+      "license": "https://creativecommons.org/licenses/by-sa/3.0",
+      "author": "real name: Nadina Wiórkiewicz pl.wiki: Nadine90 commons: Nadine90",
+      "group": "commons:real name: nadina wiórkiewicz pl.wiki: nadine90 commons: nadine90",
+      "image": "data/public-annotated-collection/images/commons-18691600.jpg",
+      "bbox": [
+        0.04,
+        0.09,
+        0.94,
+        0.95
+      ],
+      "source_capacity_ml": 5,
+      "visual_presence": "empty",
+      "note": "The printed 5 and ml are visible. The seal is seated.",
+      "unit_status": "visible"
+    },
+    {
+      "id": "commons-18691601",
+      "sha256": "e25112a5e37ae90885e7b335dec836f52206c35d0cbb6d770949cbc3bc8a52c6",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Disposable_syringe_5ml_2.jpg",
+      "license": "https://creativecommons.org/licenses/by-sa/3.0",
+      "author": "real name: Nadina Wiórkiewicz pl.wiki: Nadine90 commons: Nadine90",
+      "group": "commons:real name: nadina wiórkiewicz pl.wiki: nadine90 commons: nadine90",
+      "image": "data/public-annotated-collection/images/commons-18691601.jpg",
+      "bbox": [
+        0.03,
+        0.13,
+        0.94,
+        0.84
+      ],
+      "source_capacity_ml": 5,
+      "visual_presence": null,
+      "note": "The printed 5 and ml are visible. Contents are unclear.",
+      "unit_status": "visible"
+    },
+    {
+      "id": "commons-18691603",
+      "sha256": "fc6afced1fa2af7cf12e53b6be93a1437b2d92cedefdaa285de50fc4b7ed6be9",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Disposable_syringe_5ml_3.jpg",
+      "license": "https://creativecommons.org/licenses/by-sa/3.0",
+      "author": "real name: Nadina Wiórkiewicz pl.wiki: Nadine90 commons: Nadine90",
+      "group": "commons:real name: nadina wiórkiewicz pl.wiki: nadine90 commons: nadine90",
+      "image": "data/public-annotated-collection/images/commons-18691603.jpg",
+      "bbox": [
+        0.025,
+        0.12,
+        0.94,
+        0.92
+      ],
+      "source_capacity_ml": 5,
+      "visual_presence": null,
+      "note": "A faint terminal indication is visible. Contents are unclear.",
+      "unit_status": "visible"
+    },
+    {
+      "id": "commons-18691589",
+      "sha256": "84d120cac8b367cc759806f9991d7836ca17e87ca90bf45971f6586474a4075c",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Disposable_syringe_1ml.jpg",
+      "license": "https://creativecommons.org/licenses/by-sa/3.0",
+      "author": "real name: Nadina Wiórkiewicz pl.wiki: Nadine90 commons: Nadine90",
+      "group": "commons:real name: nadina wiórkiewicz pl.wiki: nadine90 commons: nadine90",
+      "image": "data/public-annotated-collection/images/commons-18691589.jpg",
+      "bbox": [
+        0.04,
+        0.22,
+        0.96,
+        0.67
+      ],
+      "source_capacity_ml": 1,
+      "visual_presence": null,
+      "note": "Source gives 1 mL. The photo does not establish an explicit unit.",
+      "unit_status": "indeterminate"
+    },
+    {
+      "id": "commons-108248929",
+      "sha256": "50561a4ac1ce7daab420193ab42641b0f31cff386546feef22084b486fe5b4a2",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Kabi_Natrium_Chloratum_9mg-per-ml_10ml_-_single.jpg",
+      "license": "https://creativecommons.org/licenses/by-sa/4.0",
+      "author": "mpan",
+      "group": "commons:mpan",
+      "image": "data/public-annotated-collection/images/commons-108248929.jpg",
+      "bbox": [
+        0.38,
+        0.06,
+        0.62,
+        0.96
+      ],
+      "source_capacity_ml": null,
+      "visual_presence": null,
+      "note": "Hard negative. A container with an unrelated mL marking.",
+      "unit_status": "indeterminate"
+    }
+  ],
+  "scope": "Manual syringe crops. Rotation stress. Four photos from one acquisition."
+}

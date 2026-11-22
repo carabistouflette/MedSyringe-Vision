@@ -1,0 +1,27 @@
+{
+  "status": "completed",
+  "config": {
+    "dataset_dir": "data/occlusion-study/coco",
+    "output_dir": "data/occlusion-study/rfdetr",
+    "device": "cpu",
+    "epochs": 1,
+    "batch_size": 4,
+    "resolution": 320,
+    "seed": 631,
+    "lr": 7.5e-05,
+    "lr_encoder": 0,
+    "num_workers": 0,
+    "num_sanity_val_steps": 0,
+    "compute_val_loss": true,
+    "use_ema": false,
+    "multi_scale": false,
+    "save_dataset_grids": false,
+    "run_test": false,
+    "train_log_on_step": false
+  },
+  "plan_sha256": "4032d4ea2c54c55556ef5b63f6e403a3e2e4be3b146dd54284b7cbe868877d93",
+  "checkpoint": "data/occlusion-study/rfdetr/checkpoint_best_total.pth",
+  "checkpoint_sha256": "0edce73948ed0acc1a4febbef53ac610f354cb37ea1b26b09f1f3bb0a456aa65",
+  "curve_sha256": "462ca0216bddabae3dd8a9ec31ccb9bf6b6ece75848b189427a5bef31536b6a2",
+  "seconds": 275.3012228689986
+}

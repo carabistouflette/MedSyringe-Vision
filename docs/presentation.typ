@@ -27,12 +27,12 @@
 #text(size: 28pt, fill: quiet)[Local detection, visual evidence, and auditable review]
 #v(0.27in)
 #grid(columns: (1fr, 1fr, 1fr), gutter: 13pt,
-  statistic("74", "Unique source views in one session"),
-  statistic("10 / 15", "External reference boxes recovered"),
-  statistic("8 / 10", "Exact external scene counts"),
+  statistic("177 / 177", "Exact counts on Fil Rouge"),
+  statistic("33 / 81", "Matches on independent crowd challenge"),
+  statistic("10 / 24", "Exact counts on independent crowd challenge"),
 )
 #v(0.28in)
-#text(size: 16pt, fill: quiet)[November 2026 · Local CPU execution]
+#text(size: 16pt, fill: quiet)[November 2026 · Offline CPU and Intel Arc execution]
 #pagebreak()
 
 #slide("The source is one acquisition group", [
@@ -87,8 +87,21 @@
       - Cropping improved observed scale coverage.
       - Correct color suggestions were equal in both modes.
       - OCR recovered the selected visible marking in five of nine development crops.
-      - A visible number supplies review evidence. Apparent volume remains unknown.
+      - Readable numbered graduations and a visible piston can support an apparent fill interval. A visual scale label alone leaves nominal capacity unknown.
     ],
+  )
+])
+#pagebreak()
+
+#slide("Faster local inference", [
+  #grid(columns: (1.65fr, 1fr), gutter: 25pt,
+    image("../artifacts/figures/inference_latency.png", height: 4.25in),
+    block(text(size: 17pt)[
+      - Lossless transfer of prepared verification crops.
+      - Concurrent CPU marking extraction and Arc liquid segmentation.
+      - Count-only mode retains detector checks and review candidates.
+      - Fresh count-only replay preserved counts and matched instances across 23 archived public scenes.
+    ]),
   )
 ])
 #pagebreak()

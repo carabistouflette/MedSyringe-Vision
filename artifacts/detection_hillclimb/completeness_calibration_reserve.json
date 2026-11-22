@@ -1,0 +1,139 @@
+{
+  "code": "f9026968812f245f77fdba5bcc3f13804979864ab70863f19a17cdc0004ea95e",
+  "rows": [
+    {
+      "id": "calibration-36675186",
+      "image": "data/completeness-calibration/36675186.jpg",
+      "sha256": "64b971a1985505bea2035bdbed10dd31005b8380eb3141014b3b8a9d6f62ee69",
+      "group": "Pexels laura beauty designer 36675186",
+      "author": "Laura Beauty Designer",
+      "source_url": "https://www.pexels.com/photo/black-and-white-close-up-of-syringes-in-gloved-hand-36675186/",
+      "original_url": "https://images.pexels.com/photos/36675186/pexels-photo-36675186.jpeg?auto=compress&cs=tinysrgb&w=1000",
+      "license": "https://www.pexels.com/license/",
+      "objects": [
+        {
+          "bbox": [
+            0.14549653579676675,
+            0.41846153846153844,
+            0.3556581986143187,
+            0.6169230769230769
+          ]
+        },
+        {
+          "bbox": [
+            0.394919168591224,
+            0.3153846153846154,
+            0.674364896073903,
+            0.6184615384615385
+          ]
+        }
+      ],
+      "review": "Two visible syringe assemblies partly hidden by the same glove."
+    },
+    {
+      "id": "calibration-5921984",
+      "image": "data/completeness-calibration/5921984.jpg",
+      "sha256": "e4e5dca9cde7351fe702367fbc825854b08a1456362b836d041597281258e7e2",
+      "group": "Pexels thirdman 5921984",
+      "author": "Thirdman",
+      "source_url": "https://www.pexels.com/photo/person-holding-syringe-and-vial-5921984/",
+      "original_url": "https://images.pexels.com/photos/5921984/pexels-photo-5921984.jpeg?auto=compress&cs=tinysrgb&w=1000",
+      "license": "https://www.pexels.com/license/",
+      "objects": [
+        {
+          "bbox": [
+            0.5127020785219399,
+            0.29846153846153844,
+            0.7159353348729792,
+            0.5584615384615385
+          ]
+        }
+      ],
+      "review": "Translucent syringe between gloves. Vial excluded."
+    },
+    {
+      "id": "calibration-34775445",
+      "image": "data/completeness-calibration/34775445.jpg",
+      "sha256": "9638b84e1e2700060ad1e8ca96f05bdf632f4d0280800d5f335e61980040b2b8",
+      "group": "Pexels farhad irani 34775445",
+      "author": "Farhad Irani",
+      "source_url": "https://www.pexels.com/photo/healthcare-professional-holding-a-syringe-34775445/",
+      "original_url": "https://images.pexels.com/photos/34775445/pexels-photo-34775445.jpeg?auto=compress&cs=tinysrgb&w=1000",
+      "license": "https://www.pexels.com/license/",
+      "objects": [
+        {
+          "bbox": [
+            0.4810606060606061,
+            0.1753846153846154,
+            0.7045454545454546,
+            0.7476923076923077
+          ]
+        }
+      ],
+      "review": "Single visible capped syringe held upright between fingers."
+    },
+    {
+      "id": "calibration-6823562",
+      "image": "data/completeness-calibration/6823562.jpg",
+      "sha256": "75bf037e599effe56a25cc7cd973731424a5daf82b70281317bd1aaaff6674fe",
+      "group": "Pexels artem podrez 6823562",
+      "author": "Artem Podrez",
+      "source_url": "https://www.pexels.com/photo/a-person-holding-a-syringe-6823562/",
+      "original_url": "https://images.pexels.com/photos/6823562/pexels-photo-6823562.jpeg?auto=compress&cs=tinysrgb&w=1000",
+      "license": "https://www.pexels.com/license/",
+      "objects": [
+        {
+          "bbox": [
+            0.5767857142857142,
+            0.25,
+            0.6321428571428571,
+            0.6432926829268293
+          ]
+        }
+      ],
+      "review": "Single narrow syringe. Hands conceal the middle and lower end."
+    },
+    {
+      "id": "calibration-4299424",
+      "image": "data/completeness-calibration/4299424.jpg",
+      "sha256": "86e8a461994752f4672a3e0a13ea53173ee4d995f1aa01887a6b93536f29b461",
+      "group": "Pexels jorge sepulveda 4299424",
+      "author": "Jorge Sepulveda",
+      "source_url": "https://www.pexels.com/photo/anonymous-lab-worker-using-pipette-for-injecting-sample-into-flask-4299424/",
+      "original_url": "https://images.pexels.com/photos/4299424/pexels-photo-4299424.jpeg?auto=compress&cs=tinysrgb&w=1000",
+      "license": "https://www.pexels.com/license/",
+      "objects": [],
+      "review": "A pipette and sample vessel."
+    },
+    {
+      "id": "calibration-8770736",
+      "image": "data/completeness-calibration/8770736.jpg",
+      "sha256": "f140c00f59b806b4d7042cc621e3a95acd6d077a32faa975543a2d71efbd61a0",
+      "group": "Pexels gustavo fring 8770736",
+      "author": "Gustavo Fring",
+      "source_url": "https://www.pexels.com/photo/person-holding-a-pipette-into-a-test-tube-8770736/",
+      "original_url": "https://images.pexels.com/photos/8770736/pexels-photo-8770736.jpeg?auto=compress&cs=tinysrgb&w=1000",
+      "license": "https://www.pexels.com/license/",
+      "objects": [],
+      "review": "Clear pipette and several lab vessels."
+    },
+    {
+      "id": "calibration-29226623",
+      "image": "data/completeness-calibration/29226623.jpg",
+      "sha256": "4be957bea93c8e6a1c1736486634e03ba100acb4cc810e53b85c439ed48148f6",
+      "group": "Pexels sergei starostin 29226623",
+      "author": "Sergei Starostin",
+      "source_url": "https://www.pexels.com/photo/scientist-conducting-lab-experiment-with-test-tubes-29226623/",
+      "original_url": "https://images.pexels.com/photos/29226623/pexels-photo-29226623.jpeg?auto=compress&cs=tinysrgb&w=1000",
+      "license": "https://www.pexels.com/license/",
+      "objects": [],
+      "review": "A transfer tool and sample tubes."
+    }
+  ],
+  "excluded": {
+    "3936421": "Decorative gold syringe-like objects are cropped and type is uncertain.",
+    "5998508": "Alternative single syringe. The plunger endpoint is partly hidden.",
+    "32418225": "Previously screened. Prefilled-device boundaries are ambiguous in the package."
+  },
+  "scope": "One visual reviewer, no predictions inspected before reference freeze."
+}

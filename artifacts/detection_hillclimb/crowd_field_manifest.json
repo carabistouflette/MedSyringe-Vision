@@ -1,0 +1,178 @@
+{
+  "rows": [
+    {
+      "id": "38602067",
+      "title": "File:Schlassgoart, bei der Krankekeess-101.jpg",
+      "category": "needle exchange and multiple disposable devices",
+      "intent": "natural crowd candidate",
+      "author": "Jwh",
+      "profile_keys": [
+        "jwh"
+      ],
+      "group": "commons:jwh",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Schlassgoart,_bei_der_Krankekeess-101.jpg",
+      "original_url": "https://upload.wikimedia.org/wikipedia/commons/0/04/Schlassgoart%2C_bei_der_Krankekeess-101.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "thumbnail_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/04/Schlassgoart%2C_bei_der_Krankekeess-101.jpg/1280px-Schlassgoart%2C_bei_der_Krankekeess-101.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "license": "https://creativecommons.org/licenses/by-sa/3.0/lu/deed.en",
+      "license_label": "CC BY-SA 3.0 lu",
+      "file_timestamp": "2015-02-26T00:09:46Z",
+      "source_dimensions": [
+        5470,
+        3651
+      ],
+      "mime": "image/jpeg",
+      "size": 13005205,
+      "image": "detection_hillclimb/public/images/38602067.jpg",
+      "image_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/04/Schlassgoart%2C_bei_der_Krankekeess-101.jpg/1280px-Schlassgoart%2C_bei_der_Krankekeess-101.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "original_bytes": false,
+      "width": 1280,
+      "height": 854,
+      "sha256": "3779b4567b72d8161d8f0186171be0b2f7435a5c07da8bafc222b2dc3451cfcf",
+      "dhash": "095a162565418394",
+      "split": "crowd-field-reserve",
+      "scope": "Four visible bodies on paving. Two intersect; the printed box illustration and long flat utensil are separate lookalikes.",
+      "objects": [
+        {
+          "kind": "syringe",
+          "bbox": [
+            0.4515625,
+            0.1311475,
+            0.5679688,
+            0.3056206
+          ]
+        },
+        {
+          "kind": "syringe",
+          "bbox": [
+            0.509375,
+            0.2997658,
+            0.6898437,
+            0.412178
+          ]
+        },
+        {
+          "kind": "syringe",
+          "bbox": [
+            0.6101562,
+            0.2259953,
+            0.6453125,
+            0.4227166
+          ]
+        },
+        {
+          "kind": "syringe",
+          "bbox": [
+            0.140625,
+            0.8079625,
+            0.3515625,
+            0.9964871
+          ]
+        }
+      ]
+    },
+    {
+      "id": "21702347",
+      "title": "File:Syringes and intravenous drug use paraphenalia at SFSTC IMG 6996.JPG",
+      "category": "needle exchange and multiple disposable devices",
+      "intent": "natural crowd candidate",
+      "author": "Dlw415",
+      "profile_keys": [
+        "dlw415"
+      ],
+      "group": "commons:dlw415",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Syringes_and_intravenous_drug_use_paraphenalia_at_SFSTC_IMG_6996.JPG",
+      "original_url": "https://upload.wikimedia.org/wikipedia/commons/a/a9/Syringes_and_intravenous_drug_use_paraphenalia_at_SFSTC_IMG_6996.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "thumbnail_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a9/Syringes_and_intravenous_drug_use_paraphenalia_at_SFSTC_IMG_6996.JPG/1280px-Syringes_and_intravenous_drug_use_paraphenalia_at_SFSTC_IMG_6996.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "license": "https://creativecommons.org/licenses/by-sa/3.0",
+      "license_label": "CC BY-SA 3.0",
+      "file_timestamp": "2012-09-28T03:30:27Z",
+      "source_dimensions": [
+        4752,
+        3168
+      ],
+      "mime": "image/jpeg",
+      "size": 6118812,
+      "image": "detection_hillclimb/public/images/21702347.jpg",
+      "image_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a9/Syringes_and_intravenous_drug_use_paraphenalia_at_SFSTC_IMG_6996.JPG/1280px-Syringes_and_intravenous_drug_use_paraphenalia_at_SFSTC_IMG_6996.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "original_bytes": false,
+      "width": 1280,
+      "height": 853,
+      "sha256": "6c0735695bf6d4b7692c909a4a4346949c66c84f31c9cd02069d3695220e3448",
+      "dhash": "209030307069c381",
+      "split": "crowd-field-reserve",
+      "scope": "The orange-capped syringe beside the wall is countable. The other thin item lacks a clearly visible syringe body.",
+      "objects": [
+        {
+          "kind": "syringe",
+          "bbox": [
+            0.3984375,
+            0.5146542,
+            0.4140625,
+            0.6014068
+          ]
+        }
+      ]
+    },
+    {
+      "id": "5170947",
+      "title": "File:Who needs a virtual world?.jpg",
+      "category": "needle exchange and multiple disposable devices",
+      "intent": "natural crowd candidate",
+      "author": "Todd Huffman from Phoenix, AZ",
+      "profile_keys": [],
+      "group": "commons:todd huffman from phoenix, az",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Who_needs_a_virtual_world%3F.jpg",
+      "original_url": "https://upload.wikimedia.org/wikipedia/commons/4/43/Who_needs_a_virtual_world%3F.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "thumbnail_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/43/Who_needs_a_virtual_world%3F.jpg/1280px-Who_needs_a_virtual_world%3F.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "license": "https://creativecommons.org/licenses/by/2.0",
+      "license_label": "CC BY 2.0",
+      "file_timestamp": "2010-11-24T23:39:47Z",
+      "source_dimensions": [
+        2800,
+        1861
+      ],
+      "mime": "image/jpeg",
+      "size": 2107969,
+      "image": "detection_hillclimb/public/images/5170947.jpg",
+      "image_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/43/Who_needs_a_virtual_world%3F.jpg/1280px-Who_needs_a_virtual_world%3F.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "original_bytes": false,
+      "width": 1280,
+      "height": 851,
+      "sha256": "922ccfb0ae7efaceee52adbd656fe1b4c18f4f6773e0b2bc4a853332ca9235c1",
+      "dhash": "460f935919273735",
+      "split": "crowd-field-reserve",
+      "scope": "Three bodies remain individually visible through the wrapping. Bounding boxes enclose the molded device and cap, with the outer packaging excluded.",
+      "objects": [
+        {
+          "kind": "syringe",
+          "bbox": [
+            0.1234375,
+            0.3501763,
+            0.3140625,
+            0.8319624
+          ]
+        },
+        {
+          "kind": "syringe",
+          "bbox": [
+            0.2585938,
+            0.2902468,
+            0.4257812,
+            0.7685076
+          ]
+        },
+        {
+          "kind": "syringe",
+          "bbox": [
+            0.3992188,
+            0.2608696,
+            0.53125,
+            0.7544066
+          ]
+        }
+      ]
+    }
+  ],
+  "reference_review_sha256": "9cb679bcf27fccb1f2903fd4995da177b7225b90deeb040710fc5ec1c548a37b",
+  "method": "Online public photo groups acquired separately. Tiny or clipped bodies are included only when the barrel and a device-specific feature remain visible. The references were entered before any detector outputs. These few scenes form a descriptive transfer check."
+}

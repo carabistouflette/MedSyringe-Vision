@@ -1,0 +1,101 @@
+{
+  "id": "oi-0089b699b364a570",
+  "group": "nathanf-flickr",
+  "image": "public-annotated-collection/images/oi-0089b699b364a570.jpg",
+  "sha256": "937370b774cfaef048c39c273395a91272e4fd80692bc98adefd104fec2e5e2b",
+  "publisher_reference": "https://www.flickr.com/photos/nathanf/2196763120",
+  "related_commons": "6522808",
+  "objects": [
+    {
+      "kind": "syringe",
+      "bbox": [
+        0,
+        0.174,
+        0.352,
+        0.529
+      ]
+    },
+    {
+      "kind": "syringe",
+      "bbox": [
+        0.031,
+        0.274,
+        0.712,
+        0.502
+      ]
+    },
+    {
+      "kind": "syringe",
+      "bbox": [
+        0.35,
+        0.057,
+        0.972,
+        0.345
+      ]
+    },
+    {
+      "kind": "syringe",
+      "bbox": [
+        0.536,
+        0,
+        0.931,
+        0.296
+      ]
+    },
+    {
+      "kind": "syringe",
+      "bbox": [
+        0.495,
+        0.129,
+        0.974,
+        0.425
+      ]
+    },
+    {
+      "kind": "syringe",
+      "bbox": [
+        0,
+        0.422,
+        0.512,
+        0.661
+      ]
+    },
+    {
+      "kind": "syringe",
+      "bbox": [
+        0,
+        0.425,
+        0.82,
+        0.699
+      ]
+    },
+    {
+      "kind": "syringe",
+      "bbox": [
+        0,
+        0.481,
+        0.833,
+        0.792
+      ]
+    },
+    {
+      "kind": "syringe",
+      "bbox": [
+        0,
+        0.573,
+        0.797,
+        0.973
+      ]
+    },
+    {
+      "kind": "syringe",
+      "bbox": [
+        0.595,
+        0.355,
+        1,
+        0.945
+      ]
+    }
+  ],
+  "annotation": "Single coarse manual reading of visible bodies, after earlier deployed inference on this picture. Box-based counts are diagnostic for strongly overlapping bodies."
+}

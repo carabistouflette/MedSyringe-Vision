@@ -1,0 +1,1249 @@
+{
+  "reference": "cc67f103553d804b5e5de48f43d32b5ef7f33f7326449a253c7eca239e490749",
+  "policy": "a57f23ee27097bc76e62501881d10c86ed8064580b4cea9371a273d3260d2c26",
+  "retrospective": "c40d39960468625889e34a60a31097fc6336803a3cf905a0c13a8696c22b0323",
+  "release_sha256": "cabfedc11fb35c15521d22e41bfbbebdcb7b0fced5cd7a7c41db2e52c806d0d8",
+  "rf_sha256": "288ba4a5ccd15c8710a2918d4f7d915803567b759ccb3194451b240f8cf4b07a",
+  "selected_arm": "rf-box",
+  "release_gate": false,
+  "prospective": {
+    "baseline": {
+      "images": 7,
+      "objects": 6,
+      "threshold": 0.0,
+      "tp": 3,
+      "fp": 1,
+      "fn": 3,
+      "precision": 0.75,
+      "recall": 0.5,
+      "f1": 0.6,
+      "ap50": 0.504950495049505,
+      "ap50_95": 0.3787128712871287,
+      "ap_by_iou": {
+        "0.50": 0.504950495049505,
+        "0.55": 0.504950495049505,
+        "0.60": 0.504950495049505,
+        "0.65": 0.504950495049505,
+        "0.70": 0.504950495049505,
+        "0.75": 0.504950495049505,
+        "0.80": 0.2244224422442244,
+        "0.85": 0.2244224422442244,
+        "0.90": 0.2244224422442244,
+        "0.95": 0.08415841584158416
+      },
+      "exact_count": 4,
+      "negative_images": 3,
+      "correct_empty": 2,
+      "images_with_only_below_threshold_proposals": 0,
+      "false_positives": [
+        {
+          "id": "crop-reserve-10052835",
+          "prediction": {
+            "id": "object-1",
+            "bbox": [
+              0.657825439453125,
+              0.1175828319872937,
+              0.7377420043945313,
+              0.30111820252426386
+            ],
+            "score": 0.7279009490958182,
+            "detection_evidence": {},
+            "scale": "60-scale",
+            "color": null,
+            "evidence": {
+              "scale": {
+                "value": "60-scale",
+                "distance": 2.247624145543795,
+                "margin": 0.9365006876172877,
+                "reason": "Experimental suggestion from the object crop"
+              },
+              "color": {
+                "value": null,
+                "reason": "Insufficient visible support"
+              }
+            },
+            "inscriptions": {
+              "status": "not requested",
+              "candidates": [],
+              "capacity": null,
+              "apparent_volume": null
+            },
+            "liquid_appearance": {
+              "status": "insufficient evidence",
+              "reason": "The syringe mask could not be validated.",
+              "lightness": null,
+              "opacity": null,
+              "opacity_reason": "A registered clear-barrel reference at the same exposure is required."
+            },
+            "fill_level": {
+              "status": "insufficient evidence",
+              "reason": "Enable visible marking extraction to estimate fill."
+            },
+            "origin": "model"
+          },
+          "best_unmatched_iou": 0
+        }
+      ],
+      "false_negatives": [
+        {
+          "id": "crop-reserve-6892731",
+          "box": [
+            0.062,
+            0.5262368815592204,
+            0.887,
+            0.7886056971514243
+          ]
+        },
+        {
+          "id": "crop-reserve-chemyx",
+          "box": [
+            0.25979557069846676,
+            0.41363636363636364,
+            0.4752981260647359,
+            0.4420454545454545
+          ]
+        },
+        {
+          "id": "crop-reserve-chemyx",
+          "box": [
+            0.25979557069846676,
+            0.43863636363636366,
+            0.4752981260647359,
+            0.4681818181818182
+          ]
+        }
+      ]
+    },
+    "arms": {
+      "rf-box": {
+        "baseline_delta": {
+          "tp": 3,
+          "fp": 1,
+          "exact_count": 4,
+          "gain": 0,
+          "extra_fp": 0,
+          "safe": true,
+          "lost_reference": false,
+          "per_image_false_positive_regression": false,
+          "count_regression": false
+        },
+        "result": {
+          "images": 7,
+          "objects": 6,
+          "threshold": 0.0,
+          "tp": 3,
+          "fp": 1,
+          "fn": 3,
+          "precision": 0.75,
+          "recall": 0.5,
+          "f1": 0.6,
+          "ap50": 0.504950495049505,
+          "ap50_95": 0.3787128712871287,
+          "ap_by_iou": {
+            "0.50": 0.504950495049505,
+            "0.55": 0.504950495049505,
+            "0.60": 0.504950495049505,
+            "0.65": 0.504950495049505,
+            "0.70": 0.504950495049505,
+            "0.75": 0.504950495049505,
+            "0.80": 0.2244224422442244,
+            "0.85": 0.2244224422442244,
+            "0.90": 0.2244224422442244,
+            "0.95": 0.08415841584158416
+          },
+          "exact_count": 4,
+          "negative_images": 3,
+          "correct_empty": 2,
+          "images_with_only_below_threshold_proposals": 0,
+          "false_positives": [
+            {
+              "id": "crop-reserve-10052835",
+              "prediction": {
+                "id": "object-1",
+                "bbox": [
+                  0.657825439453125,
+                  0.1175828319872937,
+                  0.7377420043945313,
+                  0.30111820252426386
+                ],
+                "score": 0.7279009490958182,
+                "detection_evidence": {},
+                "scale": "60-scale",
+                "color": null,
+                "evidence": {
+                  "scale": {
+                    "value": "60-scale",
+                    "distance": 2.247624145543795,
+                    "margin": 0.9365006876172877,
+                    "reason": "Experimental suggestion from the object crop"
+                  },
+                  "color": {
+                    "value": null,
+                    "reason": "Insufficient visible support"
+                  }
+                },
+                "inscriptions": {
+                  "status": "not requested",
+                  "candidates": [],
+                  "capacity": null,
+                  "apparent_volume": null
+                },
+                "liquid_appearance": {
+                  "status": "insufficient evidence",
+                  "reason": "The syringe mask could not be validated.",
+                  "lightness": null,
+                  "opacity": null,
+                  "opacity_reason": "A registered clear-barrel reference at the same exposure is required."
+                },
+                "fill_level": {
+                  "status": "insufficient evidence",
+                  "reason": "Enable visible marking extraction to estimate fill."
+                },
+                "origin": "model"
+              },
+              "best_unmatched_iou": 0
+            }
+          ],
+          "false_negatives": [
+            {
+              "id": "crop-reserve-6892731",
+              "box": [
+                0.062,
+                0.5262368815592204,
+                0.887,
+                0.7886056971514243
+              ]
+            },
+            {
+              "id": "crop-reserve-chemyx",
+              "box": [
+                0.25979557069846676,
+                0.41363636363636364,
+                0.4752981260647359,
+                0.4420454545454545
+              ]
+            },
+            {
+              "id": "crop-reserve-chemyx",
+              "box": [
+                0.25979557069846676,
+                0.43863636363636366,
+                0.4752981260647359,
+                0.4681818181818182
+              ]
+            }
+          ]
+        },
+        "supplemental": {}
+      },
+      "rf-identity": {
+        "baseline_delta": {
+          "tp": 3,
+          "fp": 1,
+          "exact_count": 4,
+          "gain": 0,
+          "extra_fp": 0,
+          "safe": true,
+          "lost_reference": false,
+          "per_image_false_positive_regression": false,
+          "count_regression": false
+        },
+        "result": {
+          "images": 7,
+          "objects": 6,
+          "threshold": 0.0,
+          "tp": 3,
+          "fp": 1,
+          "fn": 3,
+          "precision": 0.75,
+          "recall": 0.5,
+          "f1": 0.6,
+          "ap50": 0.504950495049505,
+          "ap50_95": 0.3787128712871287,
+          "ap_by_iou": {
+            "0.50": 0.504950495049505,
+            "0.55": 0.504950495049505,
+            "0.60": 0.504950495049505,
+            "0.65": 0.504950495049505,
+            "0.70": 0.504950495049505,
+            "0.75": 0.504950495049505,
+            "0.80": 0.2244224422442244,
+            "0.85": 0.2244224422442244,
+            "0.90": 0.2244224422442244,
+            "0.95": 0.08415841584158416
+          },
+          "exact_count": 4,
+          "negative_images": 3,
+          "correct_empty": 2,
+          "images_with_only_below_threshold_proposals": 0,
+          "false_positives": [
+            {
+              "id": "crop-reserve-10052835",
+              "prediction": {
+                "id": "object-1",
+                "bbox": [
+                  0.657825439453125,
+                  0.1175828319872937,
+                  0.7377420043945313,
+                  0.30111820252426386
+                ],
+                "score": 0.7279009490958182,
+                "detection_evidence": {},
+                "scale": "60-scale",
+                "color": null,
+                "evidence": {
+                  "scale": {
+                    "value": "60-scale",
+                    "distance": 2.247624145543795,
+                    "margin": 0.9365006876172877,
+                    "reason": "Experimental suggestion from the object crop"
+                  },
+                  "color": {
+                    "value": null,
+                    "reason": "Insufficient visible support"
+                  }
+                },
+                "inscriptions": {
+                  "status": "not requested",
+                  "candidates": [],
+                  "capacity": null,
+                  "apparent_volume": null
+                },
+                "liquid_appearance": {
+                  "status": "insufficient evidence",
+                  "reason": "The syringe mask could not be validated.",
+                  "lightness": null,
+                  "opacity": null,
+                  "opacity_reason": "A registered clear-barrel reference at the same exposure is required."
+                },
+                "fill_level": {
+                  "status": "insufficient evidence",
+                  "reason": "Enable visible marking extraction to estimate fill."
+                },
+                "origin": "model"
+              },
+              "best_unmatched_iou": 0
+            }
+          ],
+          "false_negatives": [
+            {
+              "id": "crop-reserve-6892731",
+              "box": [
+                0.062,
+                0.5262368815592204,
+                0.887,
+                0.7886056971514243
+              ]
+            },
+            {
+              "id": "crop-reserve-chemyx",
+              "box": [
+                0.25979557069846676,
+                0.41363636363636364,
+                0.4752981260647359,
+                0.4420454545454545
+              ]
+            },
+            {
+              "id": "crop-reserve-chemyx",
+              "box": [
+                0.25979557069846676,
+                0.43863636363636366,
+                0.4752981260647359,
+                0.4681818181818182
+              ]
+            }
+          ]
+        },
+        "supplemental": {}
+      },
+      "tight-box": {
+        "baseline_delta": {
+          "tp": 3,
+          "fp": 1,
+          "exact_count": 4,
+          "gain": 0,
+          "extra_fp": 0,
+          "safe": true,
+          "lost_reference": false,
+          "per_image_false_positive_regression": false,
+          "count_regression": false
+        },
+        "result": {
+          "images": 7,
+          "objects": 6,
+          "threshold": 0.0,
+          "tp": 3,
+          "fp": 1,
+          "fn": 3,
+          "precision": 0.75,
+          "recall": 0.5,
+          "f1": 0.6,
+          "ap50": 0.504950495049505,
+          "ap50_95": 0.3787128712871287,
+          "ap_by_iou": {
+            "0.50": 0.504950495049505,
+            "0.55": 0.504950495049505,
+            "0.60": 0.504950495049505,
+            "0.65": 0.504950495049505,
+            "0.70": 0.504950495049505,
+            "0.75": 0.504950495049505,
+            "0.80": 0.2244224422442244,
+            "0.85": 0.2244224422442244,
+            "0.90": 0.2244224422442244,
+            "0.95": 0.08415841584158416
+          },
+          "exact_count": 4,
+          "negative_images": 3,
+          "correct_empty": 2,
+          "images_with_only_below_threshold_proposals": 0,
+          "false_positives": [
+            {
+              "id": "crop-reserve-10052835",
+              "prediction": {
+                "id": "object-1",
+                "bbox": [
+                  0.657825439453125,
+                  0.1175828319872937,
+                  0.7377420043945313,
+                  0.30111820252426386
+                ],
+                "score": 0.7279009490958182,
+                "detection_evidence": {},
+                "scale": "60-scale",
+                "color": null,
+                "evidence": {
+                  "scale": {
+                    "value": "60-scale",
+                    "distance": 2.247624145543795,
+                    "margin": 0.9365006876172877,
+                    "reason": "Experimental suggestion from the object crop"
+                  },
+                  "color": {
+                    "value": null,
+                    "reason": "Insufficient visible support"
+                  }
+                },
+                "inscriptions": {
+                  "status": "not requested",
+                  "candidates": [],
+                  "capacity": null,
+                  "apparent_volume": null
+                },
+                "liquid_appearance": {
+                  "status": "insufficient evidence",
+                  "reason": "The syringe mask could not be validated.",
+                  "lightness": null,
+                  "opacity": null,
+                  "opacity_reason": "A registered clear-barrel reference at the same exposure is required."
+                },
+                "fill_level": {
+                  "status": "insufficient evidence",
+                  "reason": "Enable visible marking extraction to estimate fill."
+                },
+                "origin": "model"
+              },
+              "best_unmatched_iou": 0
+            }
+          ],
+          "false_negatives": [
+            {
+              "id": "crop-reserve-6892731",
+              "box": [
+                0.062,
+                0.5262368815592204,
+                0.887,
+                0.7886056971514243
+              ]
+            },
+            {
+              "id": "crop-reserve-chemyx",
+              "box": [
+                0.25979557069846676,
+                0.41363636363636364,
+                0.4752981260647359,
+                0.4420454545454545
+              ]
+            },
+            {
+              "id": "crop-reserve-chemyx",
+              "box": [
+                0.25979557069846676,
+                0.43863636363636366,
+                0.4752981260647359,
+                0.4681818181818182
+              ]
+            }
+          ]
+        },
+        "supplemental": {}
+      },
+      "tight-identity": {
+        "baseline_delta": {
+          "tp": 3,
+          "fp": 3,
+          "exact_count": 3,
+          "gain": 0,
+          "extra_fp": 2,
+          "safe": false,
+          "lost_reference": false,
+          "per_image_false_positive_regression": true,
+          "count_regression": true
+        },
+        "result": {
+          "images": 7,
+          "objects": 6,
+          "threshold": 0.0,
+          "tp": 3,
+          "fp": 3,
+          "fn": 3,
+          "precision": 0.5,
+          "recall": 0.5,
+          "f1": 0.5,
+          "ap50": 0.504950495049505,
+          "ap50_95": 0.3787128712871287,
+          "ap_by_iou": {
+            "0.50": 0.504950495049505,
+            "0.55": 0.504950495049505,
+            "0.60": 0.504950495049505,
+            "0.65": 0.504950495049505,
+            "0.70": 0.504950495049505,
+            "0.75": 0.504950495049505,
+            "0.80": 0.2244224422442244,
+            "0.85": 0.2244224422442244,
+            "0.90": 0.2244224422442244,
+            "0.95": 0.08415841584158416
+          },
+          "exact_count": 3,
+          "negative_images": 3,
+          "correct_empty": 2,
+          "images_with_only_below_threshold_proposals": 0,
+          "false_positives": [
+            {
+              "id": "crop-reserve-10052835",
+              "prediction": {
+                "id": "object-1",
+                "bbox": [
+                  0.657825439453125,
+                  0.1175828319872937,
+                  0.7377420043945313,
+                  0.30111820252426386
+                ],
+                "score": 0.7279009490958182,
+                "detection_evidence": {},
+                "scale": "60-scale",
+                "color": null,
+                "evidence": {
+                  "scale": {
+                    "value": "60-scale",
+                    "distance": 2.247624145543795,
+                    "margin": 0.9365006876172877,
+                    "reason": "Experimental suggestion from the object crop"
+                  },
+                  "color": {
+                    "value": null,
+                    "reason": "Insufficient visible support"
+                  }
+                },
+                "inscriptions": {
+                  "status": "not requested",
+                  "candidates": [],
+                  "capacity": null,
+                  "apparent_volume": null
+                },
+                "liquid_appearance": {
+                  "status": "insufficient evidence",
+                  "reason": "The syringe mask could not be validated.",
+                  "lightness": null,
+                  "opacity": null,
+                  "opacity_reason": "A registered clear-barrel reference at the same exposure is required."
+                },
+                "fill_level": {
+                  "status": "insufficient evidence",
+                  "reason": "Enable visible marking extraction to estimate fill."
+                },
+                "origin": "model"
+              },
+              "best_unmatched_iou": 0
+            },
+            {
+              "id": "crop-reserve-9190822",
+              "prediction": {
+                "bbox": [
+                  0.533329216003418,
+                  0.6078296301068216,
+                  0.5802007999420166,
+                  0.7493649272546954
+                ],
+                "score": 0.002994385874141571,
+                "source": "native crop verifier",
+                "detector_score": 0.1014028936624527,
+                "verifier_score": 0.994385874141571
+              },
+              "best_unmatched_iou": 0
+            },
+            {
+              "id": "crop-reserve-9190822",
+              "prediction": {
+                "bbox": [
+                  0.5256467342376709,
+                  0.11562457084655761,
+                  0.7901179313659668,
+                  0.7459285259246826
+                ],
+                "score": 0.0029940987249956327,
+                "source": "native crop verifier",
+                "detector_score": 0.14306369423866272,
+                "verifier_score": 0.9940987249956326
+              },
+              "best_unmatched_iou": 0
+            }
+          ],
+          "false_negatives": [
+            {
+              "id": "crop-reserve-6892731",
+              "box": [
+                0.062,
+                0.5262368815592204,
+                0.887,
+                0.7886056971514243
+              ]
+            },
+            {
+              "id": "crop-reserve-chemyx",
+              "box": [
+                0.25979557069846676,
+                0.41363636363636364,
+                0.4752981260647359,
+                0.4420454545454545
+              ]
+            },
+            {
+              "id": "crop-reserve-chemyx",
+              "box": [
+                0.25979557069846676,
+                0.43863636363636366,
+                0.4752981260647359,
+                0.4681818181818182
+              ]
+            }
+          ]
+        },
+        "supplemental": {
+          "crop-reserve-9190822": [
+            {
+              "bbox": [
+                0.533329216003418,
+                0.6078296301068216,
+                0.5802007999420166,
+                0.7493649272546954
+              ],
+              "score": 0.002994385874141571,
+              "source": "native crop verifier",
+              "detector_score": 0.1014028936624527,
+              "verifier_score": 0.994385874141571
+            },
+            {
+              "bbox": [
+                0.5256467342376709,
+                0.11562457084655761,
+                0.7901179313659668,
+                0.7459285259246826
+              ],
+              "score": 0.0029940987249956327,
+              "source": "native crop verifier",
+              "detector_score": 0.14306369423866272,
+              "verifier_score": 0.9940987249956326
+            }
+          ]
+        }
+      },
+      "tight-context-box": {
+        "baseline_delta": {
+          "tp": 3,
+          "fp": 1,
+          "exact_count": 4,
+          "gain": 0,
+          "extra_fp": 0,
+          "safe": true,
+          "lost_reference": false,
+          "per_image_false_positive_regression": false,
+          "count_regression": false
+        },
+        "result": {
+          "images": 7,
+          "objects": 6,
+          "threshold": 0.0,
+          "tp": 3,
+          "fp": 1,
+          "fn": 3,
+          "precision": 0.75,
+          "recall": 0.5,
+          "f1": 0.6,
+          "ap50": 0.504950495049505,
+          "ap50_95": 0.3787128712871287,
+          "ap_by_iou": {
+            "0.50": 0.504950495049505,
+            "0.55": 0.504950495049505,
+            "0.60": 0.504950495049505,
+            "0.65": 0.504950495049505,
+            "0.70": 0.504950495049505,
+            "0.75": 0.504950495049505,
+            "0.80": 0.2244224422442244,
+            "0.85": 0.2244224422442244,
+            "0.90": 0.2244224422442244,
+            "0.95": 0.08415841584158416
+          },
+          "exact_count": 4,
+          "negative_images": 3,
+          "correct_empty": 2,
+          "images_with_only_below_threshold_proposals": 0,
+          "false_positives": [
+            {
+              "id": "crop-reserve-10052835",
+              "prediction": {
+                "id": "object-1",
+                "bbox": [
+                  0.657825439453125,
+                  0.1175828319872937,
+                  0.7377420043945313,
+                  0.30111820252426386
+                ],
+                "score": 0.7279009490958182,
+                "detection_evidence": {},
+                "scale": "60-scale",
+                "color": null,
+                "evidence": {
+                  "scale": {
+                    "value": "60-scale",
+                    "distance": 2.247624145543795,
+                    "margin": 0.9365006876172877,
+                    "reason": "Experimental suggestion from the object crop"
+                  },
+                  "color": {
+                    "value": null,
+                    "reason": "Insufficient visible support"
+                  }
+                },
+                "inscriptions": {
+                  "status": "not requested",
+                  "candidates": [],
+                  "capacity": null,
+                  "apparent_volume": null
+                },
+                "liquid_appearance": {
+                  "status": "insufficient evidence",
+                  "reason": "The syringe mask could not be validated.",
+                  "lightness": null,
+                  "opacity": null,
+                  "opacity_reason": "A registered clear-barrel reference at the same exposure is required."
+                },
+                "fill_level": {
+                  "status": "insufficient evidence",
+                  "reason": "Enable visible marking extraction to estimate fill."
+                },
+                "origin": "model"
+              },
+              "best_unmatched_iou": 0
+            }
+          ],
+          "false_negatives": [
+            {
+              "id": "crop-reserve-6892731",
+              "box": [
+                0.062,
+                0.5262368815592204,
+                0.887,
+                0.7886056971514243
+              ]
+            },
+            {
+              "id": "crop-reserve-chemyx",
+              "box": [
+                0.25979557069846676,
+                0.41363636363636364,
+                0.4752981260647359,
+                0.4420454545454545
+              ]
+            },
+            {
+              "id": "crop-reserve-chemyx",
+              "box": [
+                0.25979557069846676,
+                0.43863636363636366,
+                0.4752981260647359,
+                0.4681818181818182
+              ]
+            }
+          ]
+        },
+        "supplemental": {}
+      },
+      "tight-context-identity": {
+        "baseline_delta": {
+          "tp": 3,
+          "fp": 2,
+          "exact_count": 3,
+          "gain": 0,
+          "extra_fp": 1,
+          "safe": false,
+          "lost_reference": false,
+          "per_image_false_positive_regression": true,
+          "count_regression": true
+        },
+        "result": {
+          "images": 7,
+          "objects": 6,
+          "threshold": 0.0,
+          "tp": 3,
+          "fp": 2,
+          "fn": 3,
+          "precision": 0.6,
+          "recall": 0.5,
+          "f1": 0.5454545454545454,
+          "ap50": 0.504950495049505,
+          "ap50_95": 0.3787128712871287,
+          "ap_by_iou": {
+            "0.50": 0.504950495049505,
+            "0.55": 0.504950495049505,
+            "0.60": 0.504950495049505,
+            "0.65": 0.504950495049505,
+            "0.70": 0.504950495049505,
+            "0.75": 0.504950495049505,
+            "0.80": 0.2244224422442244,
+            "0.85": 0.2244224422442244,
+            "0.90": 0.2244224422442244,
+            "0.95": 0.08415841584158416
+          },
+          "exact_count": 3,
+          "negative_images": 3,
+          "correct_empty": 2,
+          "images_with_only_below_threshold_proposals": 0,
+          "false_positives": [
+            {
+              "id": "crop-reserve-10052835",
+              "prediction": {
+                "id": "object-1",
+                "bbox": [
+                  0.657825439453125,
+                  0.1175828319872937,
+                  0.7377420043945313,
+                  0.30111820252426386
+                ],
+                "score": 0.7279009490958182,
+                "detection_evidence": {},
+                "scale": "60-scale",
+                "color": null,
+                "evidence": {
+                  "scale": {
+                    "value": "60-scale",
+                    "distance": 2.247624145543795,
+                    "margin": 0.9365006876172877,
+                    "reason": "Experimental suggestion from the object crop"
+                  },
+                  "color": {
+                    "value": null,
+                    "reason": "Insufficient visible support"
+                  }
+                },
+                "inscriptions": {
+                  "status": "not requested",
+                  "candidates": [],
+                  "capacity": null,
+                  "apparent_volume": null
+                },
+                "liquid_appearance": {
+                  "status": "insufficient evidence",
+                  "reason": "The syringe mask could not be validated.",
+                  "lightness": null,
+                  "opacity": null,
+                  "opacity_reason": "A registered clear-barrel reference at the same exposure is required."
+                },
+                "fill_level": {
+                  "status": "insufficient evidence",
+                  "reason": "Enable visible marking extraction to estimate fill."
+                },
+                "origin": "model"
+              },
+              "best_unmatched_iou": 0
+            },
+            {
+              "id": "crop-reserve-9190822",
+              "prediction": {
+                "bbox": [
+                  0.533329216003418,
+                  0.6078296301068216,
+                  0.5802007999420166,
+                  0.7493649272546954
+                ],
+                "score": 0.0029955211392113613,
+                "source": "native crop verifier",
+                "detector_score": 0.1014028936624527,
+                "verifier_score": 0.9955211392113613
+              },
+              "best_unmatched_iou": 0
+            }
+          ],
+          "false_negatives": [
+            {
+              "id": "crop-reserve-6892731",
+              "box": [
+                0.062,
+                0.5262368815592204,
+                0.887,
+                0.7886056971514243
+              ]
+            },
+            {
+              "id": "crop-reserve-chemyx",
+              "box": [
+                0.25979557069846676,
+                0.41363636363636364,
+                0.4752981260647359,
+                0.4420454545454545
+              ]
+            },
+            {
+              "id": "crop-reserve-chemyx",
+              "box": [
+                0.25979557069846676,
+                0.43863636363636366,
+                0.4752981260647359,
+                0.4681818181818182
+              ]
+            }
+          ]
+        },
+        "supplemental": {
+          "crop-reserve-9190822": [
+            {
+              "bbox": [
+                0.533329216003418,
+                0.6078296301068216,
+                0.5802007999420166,
+                0.7493649272546954
+              ],
+              "score": 0.0029955211392113613,
+              "source": "native crop verifier",
+              "detector_score": 0.1014028936624527,
+              "verifier_score": 0.9955211392113613
+            }
+          ]
+        }
+      },
+      "tight-context-rf-box": {
+        "baseline_delta": {
+          "tp": 3,
+          "fp": 2,
+          "exact_count": 3,
+          "gain": 0,
+          "extra_fp": 1,
+          "safe": false,
+          "lost_reference": false,
+          "per_image_false_positive_regression": true,
+          "count_regression": true
+        },
+        "result": {
+          "images": 7,
+          "objects": 6,
+          "threshold": 0.0,
+          "tp": 3,
+          "fp": 2,
+          "fn": 3,
+          "precision": 0.6,
+          "recall": 0.5,
+          "f1": 0.5454545454545454,
+          "ap50": 0.504950495049505,
+          "ap50_95": 0.3787128712871287,
+          "ap_by_iou": {
+            "0.50": 0.504950495049505,
+            "0.55": 0.504950495049505,
+            "0.60": 0.504950495049505,
+            "0.65": 0.504950495049505,
+            "0.70": 0.504950495049505,
+            "0.75": 0.504950495049505,
+            "0.80": 0.2244224422442244,
+            "0.85": 0.2244224422442244,
+            "0.90": 0.2244224422442244,
+            "0.95": 0.08415841584158416
+          },
+          "exact_count": 3,
+          "negative_images": 3,
+          "correct_empty": 2,
+          "images_with_only_below_threshold_proposals": 0,
+          "false_positives": [
+            {
+              "id": "crop-reserve-10052835",
+              "prediction": {
+                "id": "object-1",
+                "bbox": [
+                  0.657825439453125,
+                  0.1175828319872937,
+                  0.7377420043945313,
+                  0.30111820252426386
+                ],
+                "score": 0.7279009490958182,
+                "detection_evidence": {},
+                "scale": "60-scale",
+                "color": null,
+                "evidence": {
+                  "scale": {
+                    "value": "60-scale",
+                    "distance": 2.247624145543795,
+                    "margin": 0.9365006876172877,
+                    "reason": "Experimental suggestion from the object crop"
+                  },
+                  "color": {
+                    "value": null,
+                    "reason": "Insufficient visible support"
+                  }
+                },
+                "inscriptions": {
+                  "status": "not requested",
+                  "candidates": [],
+                  "capacity": null,
+                  "apparent_volume": null
+                },
+                "liquid_appearance": {
+                  "status": "insufficient evidence",
+                  "reason": "The syringe mask could not be validated.",
+                  "lightness": null,
+                  "opacity": null,
+                  "opacity_reason": "A registered clear-barrel reference at the same exposure is required."
+                },
+                "fill_level": {
+                  "status": "insufficient evidence",
+                  "reason": "Enable visible marking extraction to estimate fill."
+                },
+                "origin": "model"
+              },
+              "best_unmatched_iou": 0
+            },
+            {
+              "id": "crop-reserve-9190822",
+              "prediction": {
+                "bbox": [
+                  0.5669700431823731,
+                  0.29604779119076935,
+                  0.6333215770721435,
+                  0.5042152004442115
+                ],
+                "score": 0.0028011936953471045,
+                "source": "native crop verifier",
+                "detector_score": 0.33123359084129333,
+                "verifier_score": 0.8011936953471044
+              },
+              "best_unmatched_iou": 0
+            }
+          ],
+          "false_negatives": [
+            {
+              "id": "crop-reserve-6892731",
+              "box": [
+                0.062,
+                0.5262368815592204,
+                0.887,
+                0.7886056971514243
+              ]
+            },
+            {
+              "id": "crop-reserve-chemyx",
+              "box": [
+                0.25979557069846676,
+                0.41363636363636364,
+                0.4752981260647359,
+                0.4420454545454545
+              ]
+            },
+            {
+              "id": "crop-reserve-chemyx",
+              "box": [
+                0.25979557069846676,
+                0.43863636363636366,
+                0.4752981260647359,
+                0.4681818181818182
+              ]
+            }
+          ]
+        },
+        "supplemental": {
+          "crop-reserve-9190822": [
+            {
+              "bbox": [
+                0.5669700431823731,
+                0.29604779119076935,
+                0.6333215770721435,
+                0.5042152004442115
+              ],
+              "score": 0.0028011936953471045,
+              "source": "native crop verifier",
+              "detector_score": 0.33123359084129333,
+              "verifier_score": 0.8011936953471044
+            }
+          ]
+        }
+      },
+      "tight-context-rf-identity": {
+        "baseline_delta": {
+          "tp": 3,
+          "fp": 2,
+          "exact_count": 3,
+          "gain": 0,
+          "extra_fp": 1,
+          "safe": false,
+          "lost_reference": false,
+          "per_image_false_positive_regression": true,
+          "count_regression": true
+        },
+        "result": {
+          "images": 7,
+          "objects": 6,
+          "threshold": 0.0,
+          "tp": 3,
+          "fp": 2,
+          "fn": 3,
+          "precision": 0.6,
+          "recall": 0.5,
+          "f1": 0.5454545454545454,
+          "ap50": 0.504950495049505,
+          "ap50_95": 0.3787128712871287,
+          "ap_by_iou": {
+            "0.50": 0.504950495049505,
+            "0.55": 0.504950495049505,
+            "0.60": 0.504950495049505,
+            "0.65": 0.504950495049505,
+            "0.70": 0.504950495049505,
+            "0.75": 0.504950495049505,
+            "0.80": 0.2244224422442244,
+            "0.85": 0.2244224422442244,
+            "0.90": 0.2244224422442244,
+            "0.95": 0.08415841584158416
+          },
+          "exact_count": 3,
+          "negative_images": 3,
+          "correct_empty": 2,
+          "images_with_only_below_threshold_proposals": 0,
+          "false_positives": [
+            {
+              "id": "crop-reserve-10052835",
+              "prediction": {
+                "id": "object-1",
+                "bbox": [
+                  0.657825439453125,
+                  0.1175828319872937,
+                  0.7377420043945313,
+                  0.30111820252426386
+                ],
+                "score": 0.7279009490958182,
+                "detection_evidence": {},
+                "scale": "60-scale",
+                "color": null,
+                "evidence": {
+                  "scale": {
+                    "value": "60-scale",
+                    "distance": 2.247624145543795,
+                    "margin": 0.9365006876172877,
+                    "reason": "Experimental suggestion from the object crop"
+                  },
+                  "color": {
+                    "value": null,
+                    "reason": "Insufficient visible support"
+                  }
+                },
+                "inscriptions": {
+                  "status": "not requested",
+                  "candidates": [],
+                  "capacity": null,
+                  "apparent_volume": null
+                },
+                "liquid_appearance": {
+                  "status": "insufficient evidence",
+                  "reason": "The syringe mask could not be validated.",
+                  "lightness": null,
+                  "opacity": null,
+                  "opacity_reason": "A registered clear-barrel reference at the same exposure is required."
+                },
+                "fill_level": {
+                  "status": "insufficient evidence",
+                  "reason": "Enable visible marking extraction to estimate fill."
+                },
+                "origin": "model"
+              },
+              "best_unmatched_iou": 0
+            },
+            {
+              "id": "crop-reserve-9190822",
+              "prediction": {
+                "bbox": [
+                  0.5669700431823731,
+                  0.29604779119076935,
+                  0.6333215770721435,
+                  0.5042152004442115
+                ],
+                "score": 0.0028011936953471045,
+                "source": "native crop verifier",
+                "detector_score": 0.33123359084129333,
+                "verifier_score": 0.8011936953471044
+              },
+              "best_unmatched_iou": 0
+            }
+          ],
+          "false_negatives": [
+            {
+              "id": "crop-reserve-6892731",
+              "box": [
+                0.062,
+                0.5262368815592204,
+                0.887,
+                0.7886056971514243
+              ]
+            },
+            {
+              "id": "crop-reserve-chemyx",
+              "box": [
+                0.25979557069846676,
+                0.41363636363636364,
+                0.4752981260647359,
+                0.4420454545454545
+              ]
+            },
+            {
+              "id": "crop-reserve-chemyx",
+              "box": [
+                0.25979557069846676,
+                0.43863636363636366,
+                0.4752981260647359,
+                0.4681818181818182
+              ]
+            }
+          ]
+        },
+        "supplemental": {
+          "crop-reserve-9190822": [
+            {
+              "bbox": [
+                0.5669700431823731,
+                0.29604779119076935,
+                0.6333215770721435,
+                0.5042152004442115
+              ],
+              "score": 0.0028011936953471045,
+              "source": "native crop verifier",
+              "detector_score": 0.33123359084129333,
+              "verifier_score": 0.8011936953471044
+            }
+          ]
+        }
+      }
+    },
+    "oracle": {
+      "crop-reserve-6892731": 2,
+      "crop-reserve-9190822": 1,
+      "crop-reserve-10052835": 0,
+      "crop-reserve-9918854": 0,
+      "crop-reserve-9468367": 0,
+      "crop-reserve-chemyx": 0,
+      "crop-reserve-capa": 1
+    }
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "development": {
+    "oracle_total": {
+      "standard": 39,
+      "fine-squares": 38,
+      "strips": 39,
+      "fine-and-strips": 39
+    },
+    "references": 44,
+    "cache": "af51143952f59fe526365d9fe5ed07987f2331f7ec030e296cbe24debbd3db00",
+    "extra_seconds": {
+      "fine-squares": 2.0520269249973353,
+      "strips": 2.284556624999823
+    }
+  },
+  "history": {
+    "oracle_total": {
+      "standard": 14,
+      "fine-squares": 14,
+      "strips": 15,
+      "fine-and-strips": 15
+    },
+    "references": 17,
+    "cache": "a12a0f2f104b901124b8d4f9ef2639695c73d6bc38b47a2b7f418207f2ccfb4a",
+    "extra_seconds": {
+      "fine-squares": 2.0721777334983926,
+      "strips": 2.3036352090020955
+    }
+  }
+}

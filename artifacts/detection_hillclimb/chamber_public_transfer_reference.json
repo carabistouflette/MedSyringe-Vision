@@ -1,0 +1,116 @@
+{
+  "algorithm": "18601795d02ebf94c5dc91c5f2652105bb1c59f816fb89b091c394fc9362e730",
+  "raster": "9167a824435b6d2bca96eea2543fec22eb6097903ae2b68cfdbff886d4308fed",
+  "source": "https://www.flickr.com/photos/26344495@N05/52609355361",
+  "creator": "Ivan Radic",
+  "license": "https://creativecommons.org/licenses/by/2.0/",
+  "acquisition": "public-author:ivan radic",
+  "coordinates": "Approximate axis endpoints and crop width in source pixels, reviewed visually",
+  "rows": [
+    {
+      "id": "left-green",
+      "endpoints": [
+        [
+          88,
+          178
+        ],
+        [
+          198,
+          251
+        ]
+      ],
+      "width": 30,
+      "apparent_hue": "green"
+    },
+    {
+      "id": "left-orange",
+      "endpoints": [
+        [
+          142,
+          138
+        ],
+        [
+          222,
+          229
+        ]
+      ],
+      "width": 27,
+      "apparent_hue": "orange"
+    },
+    {
+      "id": "left-red",
+      "endpoints": [
+        [
+          175,
+          86
+        ],
+        [
+          245,
+          212
+        ]
+      ],
+      "width": 28,
+      "apparent_hue": "red"
+    },
+    {
+      "id": "center-yellow",
+      "endpoints": [
+        [
+          244,
+          61
+        ],
+        [
+          274,
+          217
+        ]
+      ],
+      "width": 25,
+      "apparent_hue": "yellow"
+    },
+    {
+      "id": "center-blue",
+      "endpoints": [
+        [
+          336,
+          81
+        ],
+        [
+          308,
+          220
+        ]
+      ],
+      "width": 25,
+      "apparent_hue": "blue"
+    },
+    {
+      "id": "right-orange",
+      "endpoints": [
+        [
+          405,
+          135
+        ],
+        [
+          333,
+          227
+        ]
+      ],
+      "width": 28,
+      "apparent_hue": "orange"
+    },
+    {
+      "id": "right-red",
+      "endpoints": [
+        [
+          456,
+          172
+        ],
+        [
+          352,
+          248
+        ]
+      ],
+      "width": 28,
+      "apparent_hue": "red"
+    }
+  ]
+}

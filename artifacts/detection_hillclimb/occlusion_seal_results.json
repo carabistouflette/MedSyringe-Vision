@@ -1,0 +1,221 @@
+{
+  "freeze_sha256": "c56ab5ad9e03783f079c31965669949b27a8bb3f879718f9b8ddb7cce4f3d1c6",
+  "cases": {
+    "clinic": {
+      "role": "known-author transfer",
+      "reference_rim": [
+        191.625,
+        192.5056179775281
+      ],
+      "arms": {
+        "contrast": {
+          "rim_status": "estimated",
+          "location": 12.422181568792077,
+          "coordinate": [
+            190.3015203261555,
+            195.47678622201477
+          ],
+          "score": 62.4998779296875,
+          "margin": 28.992393493652344,
+          "error_pixels": 2.9080124051957075,
+          "tolerance_pixels": 6.644,
+          "within_tolerance": true,
+          "volume": {
+            "status": "unknown",
+            "reason": "No reviewed, readable millilitre graduation scale for this crop."
+          }
+        },
+        "real": {
+          "rim_status": "unknown",
+          "reason": "Weak or competing transverse evidence.",
+          "location": 20.664419215926884,
+          "coordinate": [
+            190.6757532690765,
+            203.71052359554562
+          ],
+          "score": 0.999999716087379,
+          "margin": 0.0016056864444812247,
+          "error_pixels": 11.150250052330515,
+          "tolerance_pixels": 6.644,
+          "within_tolerance": false,
+          "volume": {
+            "status": "unknown",
+            "reason": "Seal front could not be localized with sufficient evidence."
+          }
+        },
+        "real-plus-rendered": {
+          "rim_status": "unknown",
+          "reason": "Weak or competing transverse evidence.",
+          "location": 35.77518823567402,
+          "coordinate": [
+            191.361846997765,
+            218.80570878035223
+          ],
+          "score": 0.9999993800046947,
+          "margin": 0.00016559592096565545,
+          "error_pixels": 26.26101907207765,
+          "tolerance_pixels": 6.644,
+          "within_tolerance": false,
+          "volume": {
+            "status": "unknown",
+            "reason": "Seal front could not be localized with sufficient evidence."
+          }
+        }
+      }
+    },
+    "goonan-back": {
+      "role": "new public",
+      "reference_rim": [
+        344.59090909090907,
+        920.2696629213483
+      ],
+      "arms": {
+        "contrast": {
+          "rim_status": "estimated",
+          "location": 18.596891522703682,
+          "coordinate": [
+            353.4140104224875,
+            915.7475224405505
+          ],
+          "score": 48.47639465332031,
+          "margin": 26.408531188964844,
+          "error_pixels": 9.717190953845783,
+          "tolerance_pixels": 2.73,
+          "within_tolerance": false,
+          "volume": {
+            "status": "unknown",
+            "reason": "No reviewed, readable millilitre graduation scale for this crop."
+          }
+        },
+        "real": {
+          "rim_status": "unknown",
+          "reason": "Weak or competing transverse evidence.",
+          "location": 20.91139462118591,
+          "coordinate": [
+            351.1857208118017,
+            916.373341906366
+          ],
+          "score": 0.998881921237401,
+          "margin": 0.007678347534382568,
+          "error_pixels": 7.402687855363556,
+          "tolerance_pixels": 2.73,
+          "within_tolerance": false,
+          "volume": {
+            "status": "unknown",
+            "reason": "Seal front could not be localized with sufficient evidence."
+          }
+        },
+        "real-plus-rendered": {
+          "rim_status": "unknown",
+          "reason": "Weak or competing transverse evidence.",
+          "location": 18.596891522703682,
+          "coordinate": [
+            353.4140104224875,
+            915.7475224405505
+          ],
+          "score": 0.9982968919789261,
+          "margin": 0.0025721090404953184,
+          "error_pixels": 9.717190953845783,
+          "tolerance_pixels": 2.73,
+          "within_tolerance": false,
+          "volume": {
+            "status": "unknown",
+            "reason": "Seal front could not be localized with sufficient evidence."
+          }
+        }
+      }
+    },
+    "goonan-front": {
+      "role": "new public",
+      "reference_rim": [
+        473.45454545454544,
+        927.9101123595506
+      ],
+      "arms": {
+        "contrast": {
+          "rim_status": "estimated",
+          "location": 37.56200884705992,
+          "coordinate": [
+            471.99984143705626,
+            924.89581248291
+          ],
+          "score": 45.0723762512207,
+          "margin": 20.536380767822266,
+          "error_pixels": 0.4794392546638804,
+          "tolerance_pixels": 3.3600000000000003,
+          "within_tolerance": true,
+          "volume": {
+            "status": "unknown",
+            "reason": "No reviewed, readable millilitre graduation scale for this crop."
+          }
+        },
+        "real": {
+          "rim_status": "estimated",
+          "location": 41.732122614937595,
+          "coordinate": [
+            468.02330879275513,
+            926.1516138071053
+          ],
+          "score": 0.9989211184964915,
+          "margin": 0.06588932769583333,
+          "error_pixels": 4.649553022541554,
+          "tolerance_pixels": 3.3600000000000003,
+          "within_tolerance": false,
+          "volume": {
+            "status": "unknown",
+            "reason": "No reviewed, readable millilitre graduation scale for this crop."
+          }
+        },
+        "real-plus-rendered": {
+          "rim_status": "unknown",
+          "reason": "Weak or competing transverse evidence.",
+          "location": 43.12216053756349,
+          "coordinate": [
+            466.69779791132146,
+            926.5702142485037
+          ],
+          "score": 0.9998436553411202,
+          "margin": 0.0952644621746137,
+          "error_pixels": 6.039590945167447,
+          "tolerance_pixels": 3.3600000000000003,
+          "within_tolerance": false,
+          "volume": {
+            "status": "unknown",
+            "reason": "Seal front could not be localized with sufficient evidence."
+          }
+        }
+      }
+    },
+    "dvids-9584272": {
+      "role": "new public",
+      "reference_rim": null,
+      "arms": {
+        "contrast": {
+          "rim_status": "unknown",
+          "reason": "No reliable visible barrel axis or width.",
+          "volume": {
+            "status": "unknown",
+            "reason": "Seal front could not be localized with sufficient evidence."
+          }
+        },
+        "real": {
+          "rim_status": "unknown",
+          "reason": "No reliable visible barrel axis or width.",
+          "volume": {
+            "status": "unknown",
+            "reason": "Seal front could not be localized with sufficient evidence."
+          }
+        },
+        "real-plus-rendered": {
+          "rim_status": "unknown",
+          "reason": "No reliable visible barrel axis or width.",
+          "volume": {
+            "status": "unknown",
+            "reason": "Seal front could not be localized with sufficient evidence."
+          }
+        }
+      }
+    }
+  },
+  "scope": "Landmark diagnostic with reviewed axes. No public reserve scale was traceable in mL."
+}

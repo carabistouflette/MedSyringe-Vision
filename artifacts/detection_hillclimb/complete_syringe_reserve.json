@@ -1,0 +1,149 @@
+{
+  "code": "24fcd43bd71dd9275aa66cd4cdae40ecbfa3222ac2fb8de847ecc49505adda24",
+  "rows": [
+    {
+      "id": "complete-4541406",
+      "image": "data/complete-syringe/4541406.jpg",
+      "sha256": "52a4e800164c7b526cede5a683948cb10024b66d56277dbd3de05c3bb09652c1",
+      "group": "Pexels piyapong sayduang 4541406",
+      "author": "Piyapong Sayduang",
+      "source_url": "https://www.pexels.com/photo/set-of-syringes-on-blue-surface-4541406/",
+      "original_url": "https://images.pexels.com/photos/4541406/pexels-photo-4541406.jpeg?auto=compress&cs=tinysrgb&w=1000",
+      "license": "https://www.pexels.com/license/",
+      "objects": [
+        {
+          "bbox": [
+            0.148,
+            0.3373313343328336,
+            0.284,
+            0.8185907046476761
+          ]
+        },
+        {
+          "bbox": [
+            0.251,
+            0.4032983508245877,
+            0.373,
+            0.8920539730134932
+          ]
+        },
+        {
+          "bbox": [
+            0.234,
+            0.3553223388305847,
+            0.467,
+            0.7616191904047976
+          ]
+        },
+        {
+          "bbox": [
+            0.29,
+            0.36431784107946025,
+            0.54,
+            0.7421289355322339
+          ]
+        }
+      ],
+      "review": "Four complete devices with intersecting needle paths and overlapping axis-aligned boxes."
+    },
+    {
+      "id": "complete-4046952",
+      "image": "data/complete-syringe/4046952.jpg",
+      "sha256": "7cfb419ed98c8c76c54f31bebe7745eb1b8d3007827db55ee86095264cdc9514",
+      "group": "Pexels kaboompics.com 4046952",
+      "author": "Kaboompics.com",
+      "source_url": "https://www.pexels.com/photo/person-holding-three-syringes-with-medicine-4046952/",
+      "original_url": "https://images.pexels.com/photos/4046952/pexels-photo-4046952.jpeg?auto=compress&cs=tinysrgb&w=1000",
+      "license": "https://www.pexels.com/license/",
+      "objects": [
+        {
+          "bbox": [
+            0.46785714285714286,
+            0.22727272727272727,
+            0.5660714285714286,
+            0.7727272727272727
+          ]
+        },
+        {
+          "bbox": [
+            0.5,
+            0.25935828877005346,
+            0.6035714285714285,
+            0.7807486631016043
+          ]
+        },
+        {
+          "bbox": [
+            0.5196428571428572,
+            0.20588235294117646,
+            0.6232142857142857,
+            0.7566844919786097
+          ]
+        }
+      ],
+      "review": "Three distinct barrel and cap paths held together in one hand."
+    },
+    {
+      "id": "complete-5355836",
+      "image": "data/complete-syringe/5355836.jpg",
+      "sha256": "dd45597d47c5b78817945523d9775d91ae03e07ea0b178349932b9723ba1bca9",
+      "group": "Pexels tima miroshnichenko 5355836",
+      "author": "Tima Miroshnichenko",
+      "source_url": "https://www.pexels.com/photo/close-up-photo-of-a-syringe-held-by-a-medical-professional-5355836/",
+      "original_url": "https://images.pexels.com/photos/5355836/pexels-photo-5355836.jpeg?auto=compress&cs=tinysrgb&w=1000",
+      "license": "https://www.pexels.com/license/",
+      "objects": [
+        {
+          "bbox": [
+            0.3210161662817552,
+            0.20153846153846153,
+            0.6374133949191686,
+            0.6846153846153846
+          ]
+        }
+      ],
+      "review": "One hand-held dental syringe with the distal cap and visible metal assembly."
+    },
+    {
+      "id": "complete-27925592",
+      "image": "data/complete-syringe/27925592.jpg",
+      "sha256": "c47a87063be64af3f786443fa8ebd9ae28e3041f9b82c4c480105aab3465d488",
+      "group": "Pexels hannah barata 27925592",
+      "author": "Hannah Barata",
+      "source_url": "https://www.pexels.com/photo/a-person-in-gloves-holding-a-syringe-in-their-hand-27925592/",
+      "original_url": "https://images.pexels.com/photos/27925592/pexels-photo-27925592.jpeg?auto=compress&cs=tinysrgb&w=1000",
+      "license": "https://www.pexels.com/license/",
+      "objects": [
+        {
+          "bbox": [
+            0.3464285714285714,
+            0.13636363636363635,
+            0.5053571428571428,
+            0.48663101604278075
+          ]
+        }
+      ],
+      "review": "One diagonally held syringe between two gloves. The separate vial is excluded."
+    },
+    {
+      "id": "complete-7230835",
+      "image": "data/complete-syringe/7230835.jpg",
+      "sha256": "a6aac1738ef7a48426c68749044e316d24663437b9c7fb475e31431bb73baeeb",
+      "group": "Pexels mart production 7230835",
+      "author": "MART PRODUCTION",
+      "source_url": "https://www.pexels.com/photo/dark-glass-addiction-emergency-7230835/",
+      "original_url": "https://images.pexels.com/photos/7230835/pexels-photo-7230835.jpeg?auto=compress&cs=tinysrgb&w=1000",
+      "license": "https://www.pexels.com/license/",
+      "objects": [],
+      "review": "Glass pipette and several tubes. No syringe."
+    }
+  ],
+  "excluded": {
+    "8577983": "Dense discarded devices with ambiguous counts and endpoints.",
+    "33394283": "Cropped packs with partly visible syringe-like items at image boundaries.",
+    "32418225": "Ambiguous type and extent of the prefilled device in the package.",
+    "4541397": "Same photographer and setup as the selected crossed assembly.",
+    "8851082": "Source, contributor, exact or near-image conflict with project history."
+  },
+  "scope": "One visual reviewer, no predictions inspected before reference freeze."
+}

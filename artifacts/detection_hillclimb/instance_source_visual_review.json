@@ -1,0 +1,109 @@
+{
+  "open_images": {
+    "oi-0089b699b364a570": {
+      "sha256": "bd23ae7b94b1e23076600976d740c1dc83bfc00b6f36c543f62ac8a9759f72f0",
+      "status": "group geometry",
+      "note": "Single frame-sized publisher box encloses several overlapping clear syringes. A scene-level group box cannot count individual instances.",
+      "orientation_reviewed": false
+    },
+    "oi-0bdd01af13c161cb": {
+      "sha256": "d6feb7a90c3a4b1932b89384c409eb354e327b4d399e0d9dd9e85e7b3ed75b7b",
+      "status": "group geometry",
+      "note": "One group and one individual box over a crowded bin with loose plungers, oral applicators and partly hidden barrels. Whole-scene count needs new adjudicated references.",
+      "orientation_reviewed": false
+    },
+    "oi-0edf174f6e98accb": {
+      "sha256": "80b45f0fc50b48619a97ef2d59824d1deb19b0a954f818b771b8831fccb2970a",
+      "status": "full-scene one-to-one",
+      "note": "One visible syringe with an attached needle in a hand. The publisher box overlays the supplied raster correctly despite the missing rotation field. Flickr currently reserves all rights.",
+      "orientation_reviewed": true
+    },
+    "oi-0eea5628b36db798": {
+      "sha256": "a7a4ecfb697479f3485b5112c13621704183a0c824e9b9b3d7c8e4fde84a4262",
+      "status": "excluded",
+      "note": "Montage contains repeated object views, and the five boxes are marked as depictions.",
+      "orientation_reviewed": false
+    },
+    "oi-1421dea9fb39e5bc": {
+      "sha256": "a1a7b4a17ac4caec80674bfe83b140278368a00394122d8016d6b569353f569e",
+      "status": "excluded",
+      "note": "White-object still life with unknown representation type. The sole publisher box is marked as depiction.",
+      "orientation_reviewed": false
+    },
+    "oi-3821bbf01a62925c": {
+      "sha256": "8a8a0caffa54ab628fbdaaa54b9933fab6409f9b551aed973ef0375916e90437",
+      "status": "lookalike",
+      "note": "Close-up shows a blood collection tube inserted in a holder. No visible plunger or independently identifiable syringe.",
+      "orientation_reviewed": false
+    },
+    "oi-41f35d17dd7348e0": {
+      "sha256": "46b59472fd2c36fdeb911b10d145c5ea4cace3181e5eedae4d6834786492fb9b",
+      "status": "full-scene one-to-one",
+      "note": "One in-hand syringe and an adjacent vial. The publisher box aligns visually with the supplied orientation; Flickr page unavailable.",
+      "orientation_reviewed": true
+    },
+    "oi-54ea0f3ebbe897f9": {
+      "sha256": "8b4f3dd22109e716471ff2dbd19d42e046149929be34fd207c5410cb569c7d77",
+      "status": "excluded",
+      "note": "Four separate peripheral syringes in a staged arrangement; also contains a needle and tubing. Source page unavailable. Keep related setup together with 7d190e6f2c9ee0d2.",
+      "orientation_reviewed": false
+    },
+    "oi-6de98358da59fbac": {
+      "sha256": "037dc32cdebe3632eeb1c3c29d318749aa276b802d0f4aa3f02dec5d0e9f6a7f",
+      "status": "full-scene one-to-one",
+      "note": "One veterinary syringe-form enema applicator. The publisher box covers the nozzle, barrel and plunger. Scope is a specialized subtype and Flickr page is unavailable.",
+      "orientation_reviewed": false
+    },
+    "oi-783711a478be4447": {
+      "sha256": "da50593533db6987a01e185f18e6ead2c9577bdedeaf76ba74ed447bc5225fd7",
+      "status": "full-scene one-to-one",
+      "note": "One transparent graduated syringe with an extended non-needle tip. The publisher box aligns with the visible object in the staged raster although rotation metadata is blank.",
+      "orientation_reviewed": true
+    },
+    "oi-7d190e6f2c9ee0d2": {
+      "sha256": "804ab2f599a9db24ab6d093bac6699315b9f27ffd045e0c85dcfaaf8587d5864",
+      "status": "excluded",
+      "note": "Same staged setup as 54ea0f3ebbe897f9, with handful-of-instrument tips around foot. Source page unavailable.",
+      "orientation_reviewed": false
+    },
+    "oi-7f607d61a9932315": {
+      "sha256": "9d954a86be9872133fa63ec3ca6c241f4fd9e98ff411340e75da623f13342dbb",
+      "status": "excluded",
+      "note": "Baseball equipment collage. Six publisher boxes are flagged depictions.",
+      "orientation_reviewed": false
+    },
+    "oi-821b7861e9d287e5": {
+      "sha256": "410b1cbdd9739c56518cfec02572ff7daf9d6e80d1df3a3e2acffda8e2b3f073",
+      "status": "full-scene one-to-one",
+      "note": "Three separate visible barrels with overlapping box extents around the left plunger ends. Each box overlays one instance after orientation review. Flickr reserves all rights.",
+      "orientation_reviewed": true
+    },
+    "oi-9a670eb9341023a3": {
+      "sha256": "bb82903592c2b2e249e3a26443c2ff954cb12bfeda9940b188d24fb48df370ac",
+      "status": "excluded",
+      "note": "Republished news graphic, flagged as depiction. A photo credit is embedded in the composite.",
+      "orientation_reviewed": false
+    },
+    "oi-9b1a594e0cea3393": {
+      "sha256": "0ae2422333010061a1f9379cbd7e3d818cbc4946e9904fe2d35d17f78b03ba15",
+      "status": "full-scene one-to-one",
+      "note": "One isolated vertical syringe with visible yellow fluid. The publisher box matches orientation and includes the long thin needle. Source page unavailable.",
+      "orientation_reviewed": true
+    },
+    "oi-e62837044819abc1": {
+      "sha256": "608a191d6aebbb82cb399f099d589e824735fa16047b68cffd16ae93cf6dc4a5",
+      "status": "full-scene one-to-one",
+      "note": "One partially occluded syringe, with the barrel and needle visible. The source box covers the visible object; rotation is visually confirmed on the staged raster. The Flickr uploader describes an unspecified public-domain Wikimedia original and editing. The parent file remains unverified.",
+      "orientation_reviewed": true,
+      "unresolved_parent": true
+    }
+  },
+  "labpics_spot_checks": {
+    "70Train_IVbags": "Eight mask-derived boxes on a fan of transparent syringes. Several additional center bodies look countable. Requires an exhaustive second reading.",
+    "571Train_IVbags": "Seven masks provide real per-object geometry in a dense crossing scene. Several occluded components need scope adjudication.",
+    "111Train_IVbags": "Five overlapping mask-derived boxes on a stack of parallel syringes. Additional uncertainty remains where bodies and seals merge.",
+    "265Train_IVbags": "Two elongated boxes enclose assemblies on wrapped material, with plausible per-instance extents.",
+    "104Eval_IVbags": "One syringe connected to an IV bag. Publisher mask bounds exclude the bag, with visible-hand occlusion.",
+    "11Eval_Urine": "Truncated syringe or syringe-like barrel. One mask bound extends beyond the right edge; the original is a screenshot."
+  }
+}

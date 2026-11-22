@@ -1,0 +1,20 @@
+{
+  "target": 500,
+  "candidate_photos": 75,
+  "reviewed_photos": 75,
+  "decisions": {
+    "positive": 28,
+    "excluded": 17,
+    "negative": 13,
+    "ambiguous": 7,
+    "duplicate": 10
+  },
+  "accepted_positive_photos": 28,
+  "accepted_negative_photos": 13,
+  "visible_syringe_instances": 28,
+  "acquisition_groups": 21,
+  "manifest": "data/instance-source-review/manual-boxes.json",
+  "manifest_sha256": "e651ed01183f0bbef4741b734a48cd57f58e176bd75b33a9fb0b952fd296b6f9",
+  "review_sha256": "193fe3c218b62b16f938109429ac7250c7473e0d4e8fa4315d165ca6dd4aeecc",
+  "review_status": "One agent reviewed every listed scene and drew approximate visible-extent boxes without inference. Independent human review remains pending."
+}

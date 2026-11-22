@@ -1,0 +1,208 @@
+{
+  "rows": [
+    {
+      "id": "presence-6168264",
+      "author": "Ryan Breeden",
+      "source_url": "https://www.dvidshub.net/image/6168264/usns-mercy-sailor-prepares-syringe",
+      "original_url": "https://d1ldvf68ux039x.cloudfront.net/thumbs/photos/2004/6168264/1000w_q95.jpg",
+      "license": "https://www.dvidshub.net/about/copyright",
+      "group": "presence:ryan breeden",
+      "image": "data/replacement-appearance/screen/6168264.jpg",
+      "sha256": "60403237411c9a749b3fa7cc4375040fb763b789519e6e1cce2f6bc91220774b",
+      "objects": [
+        {
+          "bbox": [
+            0.3475,
+            0.500875656742557,
+            0.52875,
+            0.6637478108581436
+          ]
+        }
+      ],
+      "lookalikes": []
+    },
+    {
+      "id": "presence-37807023",
+      "author": "Laura Beauty Designer | Brasil",
+      "source_url": "https://www.pexels.com/photo/close-up-of-black-gloved-hand-holding-syringe-37807023/",
+      "original_url": "https://images.pexels.com/photos/37807023/pexels-photo-37807023.jpeg?auto=compress&cs=tinysrgb&w=1000",
+      "license": "https://www.pexels.com/license/",
+      "group": "presence:laura beauty designer | brasil",
+      "image": "data/replacement-appearance/screen/37807023.jpg",
+      "sha256": "81db466923152142eb1b060bf0e00b120dbd253338deaf38b8aef2fd2fa5bb44",
+      "objects": [
+        {
+          "bbox": [
+            0.4613686534216336,
+            0.2911764705882353,
+            0.5960264900662252,
+            0.6235294117647059
+          ]
+        }
+      ],
+      "lookalikes": []
+    },
+    {
+      "id": "presence-5857419",
+      "author": "Anna Tarazevich",
+      "source_url": "https://www.pexels.com/photo/person-holding-a-syringe-5857419/",
+      "original_url": "https://images.pexels.com/photos/5857419/pexels-photo-5857419.jpeg?auto=compress&cs=tinysrgb&w=1000",
+      "license": "https://www.pexels.com/license/",
+      "group": "presence:anna tarazevich",
+      "image": "data/replacement-appearance/screen/5857419.jpg",
+      "sha256": "770a299bd86d68581733a88e0ab108a383c4cca87a0558503ac416740a86d6a7",
+      "objects": [
+        {
+          "bbox": [
+            0.6534216335540839,
+            0.047058823529411764,
+            0.8388520971302428,
+            0.7352941176470589
+          ]
+        }
+      ],
+      "lookalikes": []
+    },
+    {
+      "id": "presence-5863376",
+      "author": "Nataliya Vaitkevich",
+      "source_url": "https://www.pexels.com/photo/person-injecting-himself-with-covid-19-vaccine-5863376/",
+      "original_url": "https://images.pexels.com/photos/5863376/pexels-photo-5863376.jpeg?auto=compress&cs=tinysrgb&w=1000",
+      "license": "https://www.pexels.com/license/",
+      "group": "presence:nataliya vaitkevich",
+      "image": "data/replacement-appearance/screen/5863376.jpg",
+      "sha256": "0b8b295cdd2a63f042b1225758c9e244a81940414a67c211acdf101afd1f086d",
+      "objects": [
+        {
+          "bbox": [
+            0.4375,
+            0.49812734082397003,
+            0.78875,
+            0.5786516853932584
+          ]
+        }
+      ],
+      "lookalikes": []
+    },
+    {
+      "id": "presence-4031442",
+      "author": "Edward Jenner",
+      "source_url": "https://www.pexels.com/photo/person-using-a-pipette-4031442/",
+      "original_url": "https://images.pexels.com/photos/4031442/pexels-photo-4031442.jpeg?auto=compress&cs=tinysrgb&w=1000",
+      "license": "https://www.pexels.com/license/",
+      "group": "presence:edward jenner",
+      "image": "data/replacement-appearance/screen/4031442.jpg",
+      "sha256": "56d0233c4d40c2fedb0fa188d16dd2a34c83c973e08ba57eddb303965070a0d6",
+      "objects": [],
+      "lookalikes": [
+        {
+          "kind": "pipette",
+          "bbox": [
+            0.46625,
+            0.4344569288389513,
+            1.0,
+            0.9681647940074907
+          ]
+        }
+      ]
+    },
+    {
+      "id": "presence-10188009",
+      "author": "Ron Lach",
+      "source_url": "https://www.pexels.com/photo/woman-hand-making-chemistry-experiment-10188009/",
+      "original_url": "https://images.pexels.com/photos/10188009/pexels-photo-10188009.jpeg?auto=compress&cs=tinysrgb&w=1000",
+      "license": "https://www.pexels.com/license/",
+      "group": "presence:ron lach",
+      "image": "data/replacement-appearance/screen/10188009.jpg",
+      "sha256": "e5ff2f7ff9f88f6ef377aa36a56ff0d17c23f06494e458c1a3a147bf139be55a",
+      "objects": [],
+      "lookalikes": [
+        {
+          "kind": "pipette",
+          "bbox": [
+            0.50625,
+            0.2303370786516854,
+            0.67,
+            0.5580524344569289
+          ]
+        },
+        {
+          "kind": "pipette",
+          "bbox": [
+            0.81,
+            0.7528089887640449,
+            0.9175,
+            1.0
+          ]
+        }
+      ]
+    },
+    {
+      "id": "presence-3912481",
+      "author": "ThisIsEngineering",
+      "source_url": "https://www.pexels.com/photo/scientist-in-laboratory-3912481/",
+      "original_url": "https://images.pexels.com/photos/3912481/pexels-photo-3912481.jpeg?auto=compress&cs=tinysrgb&w=1000",
+      "license": "https://www.pexels.com/license/",
+      "group": "presence:thisisengineering",
+      "image": "data/replacement-appearance/screen/3912481.jpg",
+      "sha256": "c6760d475f128ce131d44e1455d065c7919dadf373f8f156d4dbf3bfa5f1b1a1",
+      "objects": [],
+      "lookalikes": [
+        {
+          "kind": "pipette",
+          "bbox": [
+            0.365,
+            0.10112359550561797,
+            0.41625,
+            0.5730337078651685
+          ]
+        },
+        {
+          "kind": "tube",
+          "bbox": [
+            0.3675,
+            0.6067415730337079,
+            0.41125,
+            0.7153558052434457
+          ]
+        }
+      ]
+    },
+    {
+      "id": "presence-17515220",
+      "author": "Diego Romero",
+      "source_url": "https://www.pexels.com/photo/woman-in-a-lab-coat-holding-a-test-tube-17515220/",
+      "original_url": "https://images.pexels.com/photos/17515220/pexels-photo-17515220.jpeg?auto=compress&cs=tinysrgb&w=1000",
+      "license": "https://www.pexels.com/license/",
+      "group": "presence:diego romero",
+      "image": "data/replacement-appearance/screen/17515220.jpg",
+      "sha256": "57eda12539407d7d3ed105191eaae7ab04a9e5692aebf65a02b7dd2816a9679a",
+      "objects": [],
+      "lookalikes": [
+        {
+          "kind": "pipette",
+          "bbox": [
+            0.24724061810154527,
+            0.24411764705882352,
+            0.5717439293598234,
+            0.5044117647058823
+          ]
+        }
+      ]
+    }
+  ],
+  "protocol": "d2f28cebc7d174ba95ded990770787567f61b70c36e48258a8e5df11da386f21",
+  "exclusions": {
+    "36675185": "Same credited photographer as 37807023.",
+    "9285771": "Fingers and soft focus obscure the visible syringe extent.",
+    "9256097": "The identity and extent of syringes on the rear tray are ambiguous.",
+    "525496": "Gloves conceal the limits of the syringe.",
+    "8711851": "Uncertain syringe extents on the rear table.",
+    "8770735": "Motion blur obscures the pipette tip.",
+    "37499105": "Earlier project source.",
+    "4299424": "Known contributor, URL, exact bytes or close image fingerprint.",
+    "8940521": "Known contributor, URL, exact bytes or close image fingerprint.",
+    "8325942": "Known contributor, URL, exact bytes or close image fingerprint."
+  },
+  "note": "One reviewer. Syringe and lookalike boxes were fixed before detector inference."
+}

@@ -1,0 +1,118 @@
+{
+  "verifier": "181b97f19fd6c7747556ee38f9aee4b5caf1643816ef070372d66d60984464d9",
+  "association": "5e68b1c3b49672625e9083ddb0a2a43121e3c22e4eb825f850c56dd4f5fe0a0d",
+  "rows": [
+    {
+      "id": "epolk-influenza-tray",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Influenza_vaccine_syringes.jpg",
+      "author": "Epolk",
+      "group": "Epolk influenza tray 2024-10-16",
+      "license": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "sha256": "90a372370327ef7ab08f79ef95aebe2bdd995f90a64f33e33e6c89df14a68fcc",
+      "image": "data/low-count-prospective/Influenza_vaccine_syringes.jpg",
+      "objects": [
+        {
+          "bbox": [
+            0.1203125,
+            0.07094918504314478,
+            0.59921875,
+            0.2109300095877277
+          ]
+        },
+        {
+          "bbox": [
+            0.10546875,
+            0.236816874400767,
+            0.603125,
+            0.3710450623202301
+          ]
+        },
+        {
+          "bbox": [
+            0.08984375,
+            0.4276126558005753,
+            0.61328125,
+            0.5474592521572388
+          ]
+        },
+        {
+          "bbox": [
+            0.08046875,
+            0.610738255033557,
+            0.61953125,
+            0.7430488974113135
+          ]
+        },
+        {
+          "bbox": [
+            0.04921875,
+            0.8120805369127517,
+            0.61484375,
+            0.9635666347075743
+          ]
+        },
+        {
+          "bbox": [
+            0.50078125,
+            0.06327900287631831,
+            0.92890625,
+            0.17737296260786195
+          ]
+        },
+        {
+          "bbox": [
+            0.48671875,
+            0.19367209971236818,
+            0.921875,
+            0.3231064237775647
+          ]
+        },
+        {
+          "bbox": [
+            0.5046875,
+            0.3576222435282838,
+            0.9640625,
+            0.46404602109300097
+          ]
+        },
+        {
+          "bbox": [
+            0.49296875,
+            0.5234899328859061,
+            0.96796875,
+            0.6462128475551294
+          ]
+        },
+        {
+          "bbox": [
+            0.48671875,
+            0.7085330776605945,
+            0.96484375,
+            0.8235858101629914
+          ]
+        }
+      ]
+    },
+    {
+      "id": "openverse-ed1b263b-9b98-4ddf-8c5e-6d697a688b48",
+      "author": "nenadstojkovicart",
+      "group": "public-author:nenadstojkovicart",
+      "source_url": "https://www.flickr.com/photos/202846129@N03/54553126521",
+      "sha256": "7e3edbca558c9e3f09cd9fc7f0226612055b2cbef9b5f8f64b048bcb85e3d03c",
+      "license": "by",
+      "image": "data/public-web-collection/images/openverse-ed1b263b-9b98-4ddf-8c5e-6d697a688b48.jpg",
+      "objects": []
+    },
+    {
+      "id": "openverse-74f4ecd6-6d3a-4f4f-8df4-fd9abd0a2fbc",
+      "author": "Beige Alert",
+      "group": "public-author:beige alert",
+      "source_url": "https://www.flickr.com/photos/53332339@N00/51783393308",
+      "sha256": "2042aad56986ecbd4f78803158990c00024b758a5843a4b589fb48e208478120",
+      "license": "by",
+      "image": "data/public-web-collection/images/openverse-74f4ecd6-6d3a-4f4f-8df4-fd9abd0a2fbc.jpg",
+      "objects": []
+    }
+  ],
+  "scope": "One crowded acquisition and two pipette hard negatives. Counts and boxes reviewed from pixels before new inference."
+}

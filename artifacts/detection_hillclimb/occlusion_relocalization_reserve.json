@@ -1,0 +1,167 @@
+{
+  "protocol": {
+    "selection": "a345396886ca1e39fe7175e608bb8fc79d12c55ba1255a7bbeed3904634ace3a",
+    "implementation": "c2b5e48c5d0e301c65fd9384064d026157c5c510689a8caa7eeec7cd7a4313b8",
+    "detector_training": "c9e88214898ca973fce1090a787ccd111937f25e6436eea2767162d8476deaf0",
+    "operating_points": "8133e69f5f58e82f10933b0d24dd850883fae90d31b9f48546ec6d0a081ca613"
+  },
+  "rows": [
+    {
+      "id": "dvids-8711851",
+      "image": "data/occlusion-relocalization/8711851.jpg",
+      "sha256": "eb121c3369a69c76ce1d875eaaff2924143dda45db1157f2631c767cbf38448a",
+      "author": "Belinda Guachun-Chichay",
+      "group": "Luke AFB 2024-10-09",
+      "source_url": "https://www.dvidshub.net/image/8711851/mission-ready-56th-fw-rapid-flu-shot-pod",
+      "original_url": "https://d1ldvf68ux039x.cloudfront.net/thumbs/photos/2410/8711851/1000w_q95.jpg",
+      "license": "Public domain (DVIDS)",
+      "objects": [
+        {
+          "bbox": [
+            0.454,
+            0.12330827067669173,
+            0.516,
+            0.606015037593985
+          ]
+        },
+        {
+          "bbox": [
+            0.04,
+            0.3112781954887218,
+            0.116,
+            0.6390977443609023
+          ]
+        },
+        {
+          "bbox": [
+            0.068,
+            0.29172932330827067,
+            0.133,
+            0.6541353383458647
+          ]
+        },
+        {
+          "bbox": [
+            0.089,
+            0.2781954887218045,
+            0.143,
+            0.6195488721804512
+          ]
+        },
+        {
+          "bbox": [
+            0.13,
+            0.2857142857142857,
+            0.163,
+            0.6270676691729323
+          ]
+        },
+        {
+          "bbox": [
+            0.67,
+            0.8240601503759398,
+            0.787,
+            1.0
+          ]
+        },
+        {
+          "bbox": [
+            0.717,
+            0.8390977443609022,
+            0.85,
+            1.0
+          ]
+        },
+        {
+          "bbox": [
+            0.778,
+            0.8586466165413534,
+            0.906,
+            1.0
+          ]
+        },
+        {
+          "bbox": [
+            0.842,
+            0.8962406015037594,
+            0.929,
+            1.0
+          ]
+        }
+      ],
+      "review": "One held syringe, four out-of-focus syringes on the left and four clipped assemblies at the lower right. Blur and clipping increase uncertainty in the visible extents."
+    },
+    {
+      "id": "dvids-8917760",
+      "image": "data/occlusion-relocalization/8917760.jpg",
+      "sha256": "fc6ffb6945e8493e4444b0db6ce74307ebcc37fee07e1b98bfcb2a899e763d0b",
+      "author": "Adriana Barrientos",
+      "group": "Kingstown 2025-03-11",
+      "source_url": "https://www.dvidshub.net/image/8917760/lamat-2025-medical-partnership-st-vincent-and-grenadines",
+      "original_url": "https://d1ldvf68ux039x.cloudfront.net/thumbs/photos/2503/8917760/1000w_q95.jpg",
+      "license": "Public domain (DVIDS)",
+      "objects": [
+        {
+          "bbox": [
+            0.3663663663663664,
+            0.02857142857142857,
+            0.5155155155155156,
+            0.5097744360902255
+          ]
+        }
+      ],
+      "review": "One syringe under a hand, with exposed plunger and hub; separate vial excluded."
+    },
+    {
+      "id": "dvids-8948275",
+      "image": "data/occlusion-relocalization/8948275.jpg",
+      "sha256": "82d55e82fec1fa0fb9edd3b139b7f2d43092d7cdf590d48ded925c5a69513c17",
+      "author": "Carlos Chavez-Flores",
+      "group": "MCB Hawaii 2025-03-27",
+      "source_url": "https://www.dvidshub.net/image/8948275/casualty-care-us-service-members-conduct-valkyrie-emergency-fresh-whole-blood-transfusion-training-mcbh",
+      "original_url": "https://d1ldvf68ux039x.cloudfront.net/thumbs/photos/2504/8948275/1000w_q95.jpg",
+      "license": "Public domain (DVIDS)",
+      "objects": [
+        {
+          "bbox": [
+            0.252,
+            0.31,
+            0.554,
+            0.672
+          ]
+        }
+      ],
+      "review": "One visible syringe with needle inserted into a distinct vial."
+    },
+    {
+      "id": "dvids-9090709",
+      "image": "data/occlusion-relocalization/9090709.jpg",
+      "sha256": "404d13270e0a7e6608faa0c0d20c7225189e87d20ebea85f3a7cc6788f678e78",
+      "author": "Daniel Martinez",
+      "group": "Offutt 2025-06-02",
+      "source_url": "https://www.dvidshub.net/image/9090709/mdg-cares-offutt-patients",
+      "original_url": "https://d1ldvf68ux039x.cloudfront.net/thumbs/photos/2506/9090709/1000w_q95.jpg",
+      "license": "Public domain (DVIDS)",
+      "objects": [],
+      "review": "Precision pipette and vials. No syringe assembly visible."
+    },
+    {
+      "id": "dvids-9364294",
+      "image": "data/occlusion-relocalization/9364294.jpg",
+      "sha256": "70af4e351ccc27865c6b4fcf0351cb11e25b2a8b4062732537bca5789f61881b",
+      "author": "Ricardo Reyes-Guevara",
+      "group": "Bethesda 2025-10-16",
+      "source_url": "https://www.dvidshub.net/image/9364294/walters-way-behind-scenes-lab-professionals-at-walter-reed-national-military-medical-center",
+      "original_url": "https://d1ldvf68ux039x.cloudfront.net/thumbs/photos/2510/9364294/1000w_q95.jpg",
+      "license": "Public domain (DVIDS)",
+      "objects": [],
+      "review": "Pipette, tubes, and centrifuge. No syringe assembly visible."
+    }
+  ],
+  "grouped": 5,
+  "exclusions": {
+    "dvids_9340582": "Dense defocused tray; complete count and individual box assignment too ambiguous for this reserve."
+  },
+  "filter": "Known source metadata, SHA-256, rotated/mirrored dHash within Hamming radius 4.",
+  "gate": "At least one new match at IoU 0.50, zero lost matches at IoU 0.50 or 0.75, and zero additional false-positive boxes and count regressions."
+}
